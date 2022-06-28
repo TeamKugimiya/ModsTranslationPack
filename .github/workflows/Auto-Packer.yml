@@ -25,7 +25,7 @@ jobs:
         id: version
         run: |
           echo "::set-output name=sha_short::${GITHUB_SHA::7}"
-          sed -i 's/GitVersion/'git ${GITHUB_SHA::7}'/1' pack.mcmeta
+          sed -i 's/GitVersion/git '${GITHUB_SHA::7}'/1' pack.mcmeta
 
       - name: Make TranslateModPack
         uses: ComunidadAylas/PackSquash-action@master
