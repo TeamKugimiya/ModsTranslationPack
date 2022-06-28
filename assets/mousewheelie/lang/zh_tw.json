@@ -4,7 +4,7 @@
 	"key.mousewheelie.sort_inventory": "整理物品欄",
 	"key.mousewheelie.scroll_up": "向上滑動",
 	"key.mousewheelie.scroll_down": "向下滑動",
-	"key.mousewheelie.pick_tool": "拿取正確的工具",
+	"key.mousewheelie.pick_tool": "拿取正確工具",
 	"mousewheelie.gui.config-screen-unavailable": "目前無法使用按鍵綁定去打開設定介面",
 	"mousewheelie.gui.config-screen-unavailable.note": "請使用 Mod Menu 來編輯設定或使用外部應用程式來直接編輯設定檔案。",
 	"mousewheelie.sortmode.alphabet": "按照字母表",
