@@ -57,6 +57,8 @@ jobs:
           allowUpdates: true
           artifacts: "TranslateModPack.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: latest
+          name: 簡易模組翻譯包
           body: |
             ## 下載
             下載下方的 Assets 內的 TranslateModPack.zip
