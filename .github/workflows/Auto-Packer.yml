@@ -56,8 +56,6 @@ jobs:
 
       - name: Push Pack to Release
         uses: ncipollo/release-action@v1
-        env:
-          
         with:
           allowUpdates: true
           artifacts: "TranslateModPack.zip"
