@@ -16,14 +16,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📄 Checking Repostiory
+      - name: Checking Repostiory
         uses: actions/checkout@v2.0.0
         with:
           fetch-depth: 0
 
-      - name: Auto Version Change 
+      - name: Auto Version Change
+        id: version
         run: |
-          sed -i 's/GitVersion/'${GITHUB_SHA::6}'/1' pack.mcmeta
+          echo "::set-output name=sha_short::${GITHUB_SHA::7}"
+          sed -i 's/GitVersion/'${GITHUB_SHA::7}'/1' pack.mcmeta
 
       - name: Make TranslateModPack
         uses: ComunidadAylas/PackSquash-action@master
@@ -31,13 +33,13 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: ./
 
-      - name: ☁ DownloadArtifact Optimized Pack
+      - name: DownloadArtifact Optimized Pack
         uses: actions/download-artifact@v2
         with:
           name: Optimized pack
           path: ./
 
-      - name: 📝 Rename Optimized Pack
+      - name: Rename Optimized Pack
         run: |
           mv ./pack.zip TranslateModPack.zip
 
@@ -48,24 +50,27 @@ jobs:
             Optimized pack
 
       - name: Make Checksum
+        id: checksum
         run: |
-          echo "SUM=$(echo sha256sum TranslateModPack.zip)" >> $GITHUB_ENV
+          echo "::set-output name=sum::$(sha256sum TranslateModPack.zip)"
 
       - name: Push Pack to Release
         uses: ncipollo/release-action@v1
+        env:
+          
         with:
           allowUpdates: true
           artifacts: "TranslateModPack.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
-          name: 簡易模組翻譯包
+          name: 簡易模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
           body: |
-            ## 下載
+            ## 📝 下載
             下載下方的 Assets 內的 TranslateModPack.zip
             並放入遊戲的材質包中加載即可!
 
             ## Checksum
             ```
-            $SUM
+            ${{ steps.checksum.outputs.sum }}
             ```
-             
+
