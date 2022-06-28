@@ -1,0 +1,57 @@
+{
+  "key.autofish.open_gui": "開啟 Autofish GUI",
+  "options.autofish.title": "Autofish 設定",
+
+  "options.autofish.toggle.on": "\u00A7a啟用",
+  "options.autofish.toggle.off": "\u00A7e停用",
+
+  "options.autofish.enable.title": "啟用自動釣魚",
+  "options.autofish.enable.tooltip": "打開或關閉整個模組。",
+
+  "options.autofish.multirod.title": "啟用多重釣竿",
+  "options.autofish.multirod.tooltip_0": "循環快捷欄所有",
+  "options.autofish.multirod.tooltip_1": "可用的釣竿，當它們",
+  "options.autofish.multirod.tooltip_2": "斷裂時將移動到下一個。",
+
+  "options.autofish.break_protection.title": "啟用防損壞保護",
+  "options.autofish.break_protection.tooltip_0": "在它們斷掉之前停止",
+  "options.autofish.break_protection.tooltip_1": "使用耐久度低的釣竿。",
+
+  "options.autofish.persistent.title": "啟用持久模式",
+  "options.autofish.persistent.tooltip_0": "啟用此功能可在釣竿",
+  "options.autofish.persistent.tooltip_1": "在手上時保持魚鉤投擲。",
+  "options.autofish.persistent.tooltip_2": "每 10 秒檢查一次，",
+  "options.autofish.persistent.tooltip_3": "並在有需要時重新投擲。",
+  "options.autofish.persistent.tooltip_4": "這對於有卡頓問題或",
+  "options.autofish.persistent.tooltip_5": "長時間釣魚時很有用。",
+  
+  "options.autofish.sound.title": "使用聲音檢測",
+  "options.autofish.sound.tooltip_0": "\u00A76最新，更準確的檢測",
+  "options.autofish.sound.tooltip_1": "\u00A76基於泡泡聲音而不是",
+  "options.autofish.sound.tooltip_2": "\u00A76標準的魚鉤動作檢測。",
+  "options.autofish.sound.tooltip_3": "- 你必須離你的魚鉤",
+  "options.autofish.sound.tooltip_4": "  近一點才能使其作用。",
+  "options.autofish.sound.tooltip_5": "- 如果其他玩家在你的魚鉤附近，",
+  "options.autofish.sound.tooltip_6": "  它可能會導致錯誤的釣竿收回！",
+  "options.autofish.sound.tooltip_7": "\u00A7c注意: 此選項僅影響",
+  "options.autofish.sound.tooltip_8": "\u00A7c多人遊戲。 單人遊戲將",
+  "options.autofish.sound.tooltip_9": "\u00A7c使用自己的檢測。",
+
+  "options.autofish.multiplayer_compat.title": "強制多人遊戲檢測（模組兼容性）",
+  "options.autofish.multiplayer_compat.tooltip_0": "在單人遊戲中強制",
+  "options.autofish.multiplayer_compat.tooltip_1": "使用多人遊戲檢測。",
+  "options.autofish.multiplayer_compat.tooltip_2": "這將提供與第三方模組的兼容性。",
+
+  "options.autofish.recast_delay.title": "重新投擲延遲 (ms)",
+  "options.autofish.recast_delay.value": "%d ms",
+  "options.autofish.recast_delay.tooltip_0": "調整釣到魚時重新",
+  "options.autofish.recast_delay.tooltip_1": "投擲釣竿之間的延遲。",
+
+  "options.autofish.clear_regex.title": "ClearLag 聊天模板",
+  "options.autofish.clear_regex.tooltip_0": "在聊天室中匹配此",
+  "options.autofish.clear_regex.tooltip_1": "模板時進行重新投擲。",
+  "options.autofish.clear_regex.tooltip_2": "\u00A76這個模板是\u00A7a正規表達式\u00A76.",
+
+  "options.autofish.basic.title": "基本選項",
+  "options.autofish.advanced.title": "進階選項"
+}
