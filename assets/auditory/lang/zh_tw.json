@@ -1,0 +1,16 @@
+{
+  "text.autoconfig.auditory.title": "Auditory 設定",
+  "text.autoconfig.auditory.option.block_sounds": "方塊聲音",
+  "text.autoconfig.auditory.option.item_use_sounds": "物品使用聲音",
+  "text.autoconfig.auditory.option.item_drop_sounds": "物品掉落聲音",
+  "text.autoconfig.auditory.option.interaction_sounds": "交互聲音",
+  "text.autoconfig.auditory.option.entity_sounds": "實體聲音",
+  "auditory.sound_reload_key":"重新加載聲音系統",
+  "auditory.category":"Auditory",
+  "subtitles.item.bow.pulling": "手勾弦聲",
+  "subtitles.entity.player.drop_item": "物品掉落",
+  "subtitles.item.ender_pearl.teleport": "玩家傳送",
+  "subtitles.item.spawn_egg.use": "生怪蛋破裂",
+  "subtitles.block.jukebox.use": "唱片插入進唱片機",
+  "subtitles.block.jukebox.eject": "唱片退出唱片機"
+}
