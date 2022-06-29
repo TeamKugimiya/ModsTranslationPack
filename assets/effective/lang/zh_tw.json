@@ -1,0 +1,7 @@
+{
+  "effective.subtitles.ambience.waterfall": "小瀑布聲",
+  "text.autoconfig.effective.option.generateCascades": "產生小瀑布效果",
+  "text.autoconfig.effective.option.generateSplashes": "產生水波效果",
+  "text.autoconfig.effective.option.shouldFlowingWaterSpawnParticlesOnFirstTick": "流動的水應該在第一個 Tick 時產生粒子",
+  "text.autoconfig.effective.option.lapisBlockUpdateParticleChance": "青金石方塊更新粒子的機率"
+}
