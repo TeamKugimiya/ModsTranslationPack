@@ -5,7 +5,7 @@
   "text.autoconfig.auditory.option.item_drop_sounds": "物品掉落聲音",
   "text.autoconfig.auditory.option.interaction_sounds": "交互聲音",
   "text.autoconfig.auditory.option.entity_sounds": "實體聲音",
-  "auditory.sound_reload_key":"重新加載聲音系統",
+  "auditory.sound_reload_key":"重新載入聲音系統",
   "auditory.category":"Auditory",
   "subtitles.item.bow.pulling": "弓勾弦聲",
   "subtitles.entity.player.drop_item": "物品掉落",

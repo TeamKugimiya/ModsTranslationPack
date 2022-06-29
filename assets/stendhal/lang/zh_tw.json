@@ -41,7 +41,7 @@
   "stendhal.delete": "刪除",
   "stendhal.searchTerms": "搜尋詞",
   "stendhal.goToPage": "轉到頁面",
-  "stendhal.signLoad": "從硬碟中加載",
+  "stendhal.signLoad": "從硬碟中載入",
   "stendhal.signLoad.tooltip": "從硬碟中導入告示牌",
   "stendhal.signTitle": "輸入告示牌標題",
   "stendhal.signDir": "已儲存的告示牌資料夾:"

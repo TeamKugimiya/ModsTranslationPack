@@ -12,7 +12,7 @@
   "notenoughcrashes.crashscreen.unknownCause": "未知",
   "notenoughcrashes.crashscreen.identificationErrored": "[錯誤識別，請回報給 Not Enough Crashes]",
   "notenoughcrashes.crashscreen.noModsErrored": "無模組。（模組仍然可能間接導致崩潰）",
-  "notenoughcrashes.crashscreen.paragraph2.line1": "點擊任何列表中的模組來去他們網站尋求支持。",
+  "notenoughcrashes.crashscreen.paragraph2.line1": "點擊任何列表中的模組來去他們網站尋求支援。",
   "notenoughcrashes.crashscreen.paragraph2.line2": "已生成報告，可以在這裡找到（點擊）：",
   "notenoughcrashes.crashscreen.reportSaveFailed": "[儲存報告時出錯，請查看日誌]",
   "notenoughcrashes.crashscreen.paragraph3.line1": "點擊\"獲取連結\"按紐，它將會在瀏覽器中打開。",
@@ -24,5 +24,5 @@
   "notenoughcrashes.initerrorscreen.paragraph3.line1": "點擊\"獲取連結\"按紐，它將會在瀏覽器中打開。",
   "notenoughcrashes.initerrorscreen.paragraph3.line2": "我們鼓勵您發送此報告給模組作者",
   "notenoughcrashes.initerrorscreen.paragraph3.line3": "以幫助他們解決問題。很不幸的，由於此錯誤",
-  "notenoughcrashes.initerrorscreen.paragraph3.line4": "，將無法繼續加載 Minecraft。"
+  "notenoughcrashes.initerrorscreen.paragraph3.line4": "，將無法繼續載入 Minecraft。"
 }
