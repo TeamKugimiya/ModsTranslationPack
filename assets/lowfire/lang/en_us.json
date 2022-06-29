@@ -1,0 +1,17 @@
+{
+  "key.categories.lowfire": "Low Fire",
+  "key.lowfire.toggle": "開關低火焰顯示",
+  "key.lowfire.toggleRender": "開關火焰繪製",
+  "key.lowfire.nextFireOffset": "更改火焰偏移量",
+
+  "text.autoconfig.lowfire.title": "Low Fire 選單",
+  "text.autoconfig.lowfire.option.enabled": "啟用低火焰顯示",
+  "text.autoconfig.lowfire.option.renderFire": "火焰繪製",
+  "text.autoconfig.lowfire.option.fireOffset": "火焰偏移",
+
+  "lowfire.toggle.enabled": "低火焰顯示已啟用",
+  "lowfire.toggle.disabled": "低火焰顯示已停用",
+  "lowfire.toggleRender.enabled": "火焰繪製已啟用",
+  "lowfire.toggleRender.disabled": "火焰繪製已停用",
+  "lowfire.nextFireOffset": "火焰偏移量設定為 %s"
+}
