@@ -40,8 +40,8 @@
   "modmenu.dropSuccessful.line1": "成功複製模組",
   "modmenu.dropSuccessful.line2": "重新啟動遊戲來加載模組",
 
-  "modmenu.modIdToolTip": "模組 ID: %s",
-  "modmenu.authorPrefix": "作者: %s",
+  "modmenu.modIdToolTip": "模組 ID：%s",
+  "modmenu.authorPrefix": "作者：%s",
   "modmenu.config": "編輯設定",
   "modmenu.configure": "設定...",
   "modmenu.website": "瀏覽網站",
@@ -105,7 +105,7 @@
   "option.modmenu.count_libraries": "函式庫",
   "option.modmenu.count_libraries.true": "計算",
   "option.modmenu.count_libraries.false": "不計算",
-  "option.modmenu.count_hidden_mods": "已隱藏 Mods",
+  "option.modmenu.count_hidden_mods": "已隱藏模組",
   "option.modmenu.count_hidden_mods.true": "計算",
   "option.modmenu.count_hidden_mods.false": "不計算",
   "option.modmenu.mod_count_location": "模組數量",
@@ -119,6 +119,6 @@
   "option.modmenu.mods_button_style": "模組按紐",
   "option.modmenu.mods_button_style.classic": "在 Realms 下方",
   "option.modmenu.mods_button_style.replace_realms": "覆蓋 Realms",
-  "option.modmenu.mods_button_style.shrink": "Adjacent",
+  "option.modmenu.mods_button_style.shrink": "鄰近",
   "option.modmenu.mods_button_style.icon": "圖標"
 }
