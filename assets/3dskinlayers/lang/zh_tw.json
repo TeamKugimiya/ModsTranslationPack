@@ -15,6 +15,6 @@
     "text.skinlayers.skulls.enable": "3D 頭顱",
     "text.skinlayers.skullsitems.enable": "3D 頭顱物品",
     "text.skinlayers.skulls.voxelsize": "頭顱像素大小",
-    "text.skinlayers.reset": "默認",
-    "text.skinlayers.fastrender.enable": "快速渲染"
+    "text.skinlayers.reset": "預設",
+    "text.skinlayers.fastrender.enable": "快速繪製"
   }
