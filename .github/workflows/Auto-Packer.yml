@@ -62,13 +62,17 @@ jobs:
           artifacts: "TranslateModPack.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
-          name: 簡易模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
+          name: 簡單模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
           body: |
             ## 📝 下載
-            下載下方的 Assets 內的 TranslateModPack.zip
+            下載下方的 Assets 內的 ``TranslateModPack.zip``
             並放入遊戲的材質包中加載即可!
 
-            ## Checksum
+            ## ⭐ 更新
+            此翻譯包會在新增新內容時自動更新
+            只要到這個頁面重新下載 zip 即可!
+
+            ## ✅ Checksum
             ```
             ${{ steps.checksum.outputs.sum }}
             ```
