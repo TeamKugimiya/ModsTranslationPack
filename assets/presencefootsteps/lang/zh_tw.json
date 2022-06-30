@@ -8,7 +8,7 @@
 	"menu.pf.volume.min": "全局音量: 關閉",
 	"menu.pf.volume": "全局音量: %d%%",
 	"menu.pf.volume.tooltip": "所有存在的腳步聲的全局音量。如果你想完全禁用，請將此設置為 0。",
-	"menu.pf.volume.player": "客戶端玩家： %d%%",
+	"menu.pf.volume.player": "用戶端玩家： %d%%",
 	"menu.pf.volume.player.tooltip": "改變你自己的腳步聲音量。",
 	"menu.pf.volume.other_players": "其他玩家： %d%%",
 	"menu.pf.volume.other_players.tooltip": "改變其他玩家的腳步聲音量，當你正在多人遊戲時。",
