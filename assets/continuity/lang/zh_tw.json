@@ -4,6 +4,6 @@
   "options.continuity.connected_textures.tooltip": "啟用或停用方塊的連接紋理。",
   "options.continuity.emissive_textures": "發光紋理",
   "options.continuity.emissive_textures.tooltip": "啟用或停用方塊和物品的發光紋理。",
-  "options.continuity.custom_block_layers": "自定義方塊層",
-  "options.continuity.custom_block_layers.tooltip": "啟用或停用自定義方塊層。"
+  "options.continuity.custom_block_layers": "自訂方塊層",
+  "options.continuity.custom_block_layers.tooltip": "啟用或停用自訂方塊層。"
 }
