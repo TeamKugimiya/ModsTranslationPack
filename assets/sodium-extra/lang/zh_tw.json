@@ -62,7 +62,7 @@
   "sodium-extra.option.text_contrast.background": "背景",
   "sodium-extra.option.text_contrast.none": "無",
   "sodium-extra.option.text_contrast.shadow": "陰影",
-  "sodium-extra.option.text_contrast.tooltip": "調整 FPS／座標的對比。\n- 無：預設文字\n- 背景：像除錯選單那樣為文字加入背景\n- 陰影：有陰影的文字",
+  "sodium-extra.option.text_contrast.tooltip": "調整 FPS／座標的對比。\n- 無：預設文字\n- 背景：像除錯選單那樣為文字加入背景\n- 陰影：帶有陰影的文字",
   "sodium-extra.option.toasts": "彈出提示框",
   "sodium-extra.option.toasts.tooltip": "若啟用，將顯示進度和合成配方的彈出提示框。",
   "sodium-extra.option.use_adaptive_sync.name": "使用自適應同步",
