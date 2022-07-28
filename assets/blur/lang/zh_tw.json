@@ -1,7 +1,7 @@
 {
   "blur.midnightconfig.title": "Blur 設定",
   "blur.midnightconfig.blurExclusions": "Blur 排除",
-  "blur.midnightconfig.fadeTimeMillis": "但出時間（以毫秒為單位）",
+  "blur.midnightconfig.fadeTimeMillis": "淡出時間（以毫秒為單位）",
   "blur.midnightconfig.ease": "舒適動畫",
   "blur.midnightconfig.radius": "範圍",
   "blur.midnightconfig.gradientStart": "漸層的起初顏色",
