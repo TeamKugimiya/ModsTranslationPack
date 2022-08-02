@@ -52,7 +52,7 @@
     "screencapper.config_description.upload.sharex.sxcu_path": "ShareX 的 SXCU 設定檔案路徑位置。",
     "screencapper.config_description.upload.sharex.import_sxcu": "匯入你的 SXCU 設定檔案到本模組中。這將會自動變更所有符合設定檔案的設定",
 
-    "screencapper.text.chat.screenshot": "已螢幕截圖！",
+    "screencapper.text.chat.screenshot": "螢幕已截圖！",
     "screencapper.text.chat.upload": "上傳",
     "screencapper.text.chat.upload.imgur.start": "上傳到 Imgur……",
     "screencapper.text.chat.upload.imgur.end": "已上傳到 Imgur！",
