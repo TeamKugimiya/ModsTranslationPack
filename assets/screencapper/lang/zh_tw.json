@@ -42,7 +42,7 @@
     "screencapper.config_description.chat.open": "是否顯示開啟選項在螢幕截圖成功訊息中。",
     "screencapper.config_description.chat.open_folder": "是否顯示開啟資料夾選項在螢幕截圖成功訊息中。",
     "screencapper.config_description.chat.delete": "是否顯示刪除選項在螢幕截圖成功訊息中。",
-    "screencapper.config_description.upload.toggle": "開關自動化上傳你的螢幕截圖。如果關閉，你仍然可以透過點擊“上傳”選項在你的聊天室確認訊息中。",
+    "screencapper.config_description.upload.toggle": "開關自動化上傳你的螢幕截圖。如果關閉，你仍然可以透過點擊“上傳”選項在你的聊天室確認訊息中來上傳。",
     "screencapper.config_description.upload.mode": "螢幕截圖後所上傳的地方。",
     "screencapper.config_description.upload.sharex.url": "上傳的 ShareX 網址。",
     "screencapper.config_description.upload.sharex.request_method": "上傳到 ShareX 所使用的請求方式。",
