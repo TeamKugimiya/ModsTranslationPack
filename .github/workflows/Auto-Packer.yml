@@ -59,7 +59,7 @@ jobs:
       - name: Make Current Time
         id: current_time
         run: |
-          echo "::set-output time::$(TZ='Asia/Taipei' date +\"最後更新：%Y 年 %m 月 %d 日 %H 點 %M 分\")"
+          echo "::set-output name=time::$(TZ='Asia/Taipei' date +'最後更新：%Y 年 %m 月 %d 日 %H 點 %M 分')"
 
       - name: Push Pack to Release
         uses: ncipollo/release-action@v1
