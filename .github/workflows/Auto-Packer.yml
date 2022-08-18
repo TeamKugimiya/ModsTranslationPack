@@ -32,6 +32,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           force_include_files: LICENSE
+          never_store_squash_times: true
           path: ./
 
       - name: DownloadArtifact Optimized Pack
