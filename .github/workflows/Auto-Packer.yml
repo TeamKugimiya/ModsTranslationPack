@@ -56,6 +56,11 @@ jobs:
         run: |
           echo "::set-output name=sum::$(sha256sum TranslateModPack.zip)"
 
+      - name: Make Current Time
+        id: current_time
+        run: |
+          echo "::set-output time::$(TZ='Asia/Taipei' date +\"最後更新：%Y 年 %m 月 %d 日 %H 點 %M 分\")"
+
       - name: Push Pack to Release
         uses: ncipollo/release-action@v1
         with:
@@ -72,6 +77,8 @@ jobs:
             ## ⭐ 更新
             此翻譯包會在新增新內容時自動更新
             只要到這個頁面重新下載 zip 即可!
+
+            ${{ steps.current_time.outputs.time }}
 
             ## ✅ Checksum
             ```
