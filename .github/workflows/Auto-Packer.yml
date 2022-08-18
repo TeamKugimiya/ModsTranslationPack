@@ -78,7 +78,7 @@ jobs:
             此翻譯包會在新增新內容時自動更新
             只要到這個頁面重新下載 zip 即可!
 
-            ${{ steps.current_time.outputs.time }}
+            > ${{ steps.current_time.outputs.time }}
 
             ## ✅ Checksum
             ```
