@@ -1,0 +1,23 @@
+{
+  "screen.observable.profile": "測量",
+  "screen.observable.results": "結果",
+  "key.observable.profile": "顯示測量畫面",
+  "category.observable.keybinds": "Observable",
+  "text.observable.profile_tps": "測量 TPS",
+  "text.observable.profile_fps": "測量 FPS",
+  "text.observable.sampler": "使用取樣器測量（增加負荷量）",
+  "text.observable.unimplemented": "尚未實裝！",
+  "text.observable.unavailable": "《Observable》尚未安裝在伺服器上",
+  "text.observable.no_permissions": "你沒有權限開始測量",
+  "text.observable.error": "執行動作時發生錯誤：%s",
+  "text.observable.report": "請回報至此；github.com/tasgon/observable/issues",
+  "text.observable.entity_not_found": "無法找到位於 %s 的實體。可能它已經死了或是被移除了？",
+  "text.observable.results": "結果",
+  "text.observable.overlay": "重疊",
+  "text.observable.docs": "Wiki",
+  "text.observable.discord": "Discord",
+  "text.observable.donate": "贊助",
+  "text.observable.profile_saved": "測量結果已儲存至 %s",
+  "text.observable.suggest": "你的伺服器運作速度變慢了（%s tps）。按下 %s 尋找 lag 來源。",
+  "text.observable.suggest_action": "考慮使用《Observable》"
+}

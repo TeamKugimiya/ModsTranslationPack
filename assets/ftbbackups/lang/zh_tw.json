@@ -1,0 +1,5 @@
+{
+  "ftbbackups2.backup.starting": "正在開始伺服器備份",
+  "ftbbackups2.backup.failed": "建立備份失敗",
+  "ftbbackups2.backup.finished": "建立備份完成"
+}
