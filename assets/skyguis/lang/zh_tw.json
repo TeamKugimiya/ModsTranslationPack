@@ -1,0 +1,46 @@
+{
+  "itemGroup.skyguis": "Sky GUIs",
+
+  "screen.skyguis.template": "模板",
+
+  "screen.skyguis.title.create_team": "建立一個新的隊伍",
+  "screen.skyguis.title.all_teams": "所有隊伍",
+  "screen.skyguis.title.invitations": "你的邀請",
+
+  "screen.skyguis.text.name": "名稱",
+  "screen.skyguis.text.team_id": "隊伍 ID",
+  "screen.skyguis.text.members": "成員",
+  "screen.skyguis.text.teams": "隊伍",
+  "screen.skyguis.text.spawns": "重生點",
+  "screen.skyguis.text.invalid": "無效",
+  "screen.skyguis.text.add": "新增",
+  "screen.skyguis.text.remove": "移除",
+  "screen.skyguis.text.show": "顯示",
+  "screen.skyguis.text.invite": "邀請",
+  "screen.skyguis.text.invite_multiple_users": "成功邀請 %s 名玩家",
+  "screen.skyguis.text.created_at": "建立於",
+  "screen.skyguis.text.last_changed": "上次更改",
+  "screen.skyguis.text.previous_screen": "上一個介面",
+  "screen.skyguis.text.visit_team": "隊伍參觀",
+  "screen.skyguis.text.your_team": "你的隊伍：",
+  "screen.skyguis.text.request_to_join": "請求加入",
+  "screen.skyguis.text.requested_to_join": "已請求加入",
+  "screen.skyguis.text.player_not_in_team": "你並不是這個隊伍的一員。",
+  "screen.skyguis.text.shape_does_not_exist": "這種形狀並不存在。",
+  "screen.skyguis.text.select_all": "選取全部",
+  "screen.skyguis.text.unselect_all": "取消選取全部",
+  "screen.skyguis.text.selected_amount": "%s 名玩家已選取",
+  "screen.skyguis.text.kick": "踢出",
+  "screen.skyguis.text.you_sure_kick": "你真的想要踢出 %s 玩家嗎？",
+  "screen.skyguis.text.you_sure_invite": "你真的想要邀請這 %s 玩家嗎？",
+  "screen.skyguis.text.you_sure_join": "你真的想加入到 \"%s\"？",
+  "screen.skyguis.text.you_sure_ignore": "你真的想忽略 \"%s\" 的邀請？",
+  "screen.skyguis.text.empty_templates": "沒有可用的模板",
+
+  "screen.skyguis.button.create": "建立",
+  "screen.skyguis.button.confirm": "確認",
+  "screen.skyguis.button.abort": "中斷",
+  "screen.skyguis.button.ok": "OK",
+
+  "skyguis.key.all_teams_screen": "開啟主介面"
+}
