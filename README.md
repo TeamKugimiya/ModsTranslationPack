@@ -19,6 +19,10 @@
 
 # 下載翻譯包
 
+翻譯包有多種版本，所有版本內容都一樣，
+
+差別在於遊戲會不會警告你不相容而已。
+
 [![DownloadBadge](https://img.shields.io/github/downloads/xMikux/TranslateModPack/total?label=點此下載！&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/tag/latest)
 
 </div>

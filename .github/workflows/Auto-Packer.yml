@@ -27,7 +27,7 @@ jobs:
           echo "::set-output name=sha_short::${GITHUB_SHA::7}"
           sed -i 's/GitVersion/git '${GITHUB_SHA::7}'/1' pack.mcmeta
 
-      - name: Make TranslateModPack
+      - name: Make TranslateModPack (1.19.x)
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -35,15 +35,37 @@ jobs:
           never_store_squash_times: true
           path: ./
 
-      - name: DownloadArtifact Optimized Pack
+      - name: DownloadArtifact (1.19.x)
         uses: actions/download-artifact@v2
         with:
           name: Optimized pack
           path: ./
 
-      - name: Rename Optimized Pack
+      - name: Rename TranslateModPack (1.19.x)
         run: |
-          mv ./pack.zip TranslateModPack.zip
+          mv ./pack.zip TranslateModPack-1.19.x.zip
+
+      - name: Change pack format to 1.18.x
+        run: |
+          sed -i 's/9/8/1' pack.mcmeta
+
+      - name: Make TranslateModPack (1.18.x)
+        uses: ComunidadAylas/PackSquash-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          force_include_files: LICENSE
+          never_store_squash_times: true
+          path: ./
+
+      - name: DownloadArtifact (1.18.x)
+        uses: actions/download-artifact@v2
+        with:
+          name: Optimized pack
+          path: ./
+
+      - name: Rename TranslateModPack (1.18.x)
+        run: |
+          mv ./pack.zip TranslateModPack-1.18.x.zip
 
       - name: Delete Artifact
         uses: geekyeggo/delete-artifact@v1
@@ -54,7 +76,8 @@ jobs:
       - name: Make Checksum
         id: checksum
         run: |
-          echo "::set-output name=sum::$(sha256sum TranslateModPack.zip)"
+          echo "::set-output name=sum-01::$(sha256sum TranslateModPack-1.19.x.zip)"
+          echo "::set-output name=sum-02::$(sha256sum TranslateModPack-1.18.x.zip)"
 
       - name: Make Current Time
         id: current_time
@@ -65,7 +88,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-          artifacts: "TranslateModPack.zip"
+          artifacts: "*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
           name: 簡單模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
@@ -82,6 +105,6 @@ jobs:
 
             ## ✅ Checksum
             ```
-            ${{ steps.checksum.outputs.sum }}
+            ${{ steps.checksum.outputs.sum-01 }}
+            ${{ steps.checksum.outputs.sum-02 }}
             ```
-
