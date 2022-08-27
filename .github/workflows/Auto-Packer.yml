@@ -91,7 +91,7 @@ jobs:
           artifacts: "*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
-          name: 簡單模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
+          name: 模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
           body: |
             ## 📝 下載
             下載下方的 Assets 內的 ``TranslateModPack.zip``
