@@ -1,21 +1,24 @@
-<h1 align="center" style="margin-top: 0px;">
-  簡單模組翻譯包
-</h1>
+<!-- markdownlint-configure-file {
+  "MD033": false,
+  "MD041": false
+} -->
 
-<h3 align="center">
-  <p>
-    這是一個簡單翻譯的模組 </br>
-    可能內包含很多錯誤錯字之類的 </br>
-    歡迎貢獻新的翻譯或修正！
-  </p>
-<h3>
+<div align="center">
 
-<h1 align="center" style="margin-top: 0px;">
-  下載
-</h1>
-  
-<h3 align="center">
-  <a href="https://github.com/xMikux/TranslateModPack/releases/tag/latest">
-    <p>點此下載!</p>
-  </a>
-</h3>
+# 模組翻譯包
+
+這是一個簡單翻譯的模組
+
+可能內包含很多錯誤錯字之類的
+
+歡迎貢獻新的翻譯或修正！
+
+</div>
+
+<div align="center">
+
+# 下載翻譯包
+
+[![DownloadBadge](https://img.shields.io/github/downloads/xMikux/TranslateModPack/total?label=點此下載！&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/tag/latest)
+
+</div>
