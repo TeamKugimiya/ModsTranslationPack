@@ -26,3 +26,17 @@
 [![DownloadBadge](https://img.shields.io/github/downloads/xMikux/TranslateModPack/total?label=點此下載！&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/tag/latest)
 
 </div>
+
+## 第三方翻譯來源
+
+有部分翻譯是來自於其他來源，該翻譯檔案由該作者擁有。
+
+> 由於當使用此翻譯包配其他翻譯包可能會有部分模組的已翻譯內容被蓋掉，
+>
+> 或者該作者目前的版本尚為包含最新翻譯，將會進行覆蓋動作。
+
+以下列出已覆蓋的模組和來源：
+
+- [BlossomHomes](https://github.com/BlossomMods/BlossomHomes)
+- [Create](https://github.com/Creators-of-Create/Create)
+- [ProjectE](https://grant88.pixnet.net/blog/post/43364803)
