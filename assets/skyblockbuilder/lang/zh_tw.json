@@ -72,7 +72,7 @@
 
   "skyblockbuilder.command.info.teams": "總共有 %s 組隊伍，有 %s 組隊伍是空的。",
   "skyblockbuilder.command.info.team_detailed": "%s 由 %s 玩家組成。",
-  "skyblockbuilder.command.info.invited_to_team0": "%s 邀請你加入 %s。 輸入 ",
+  "skyblockbuilder.command.info.invited_to_team0": "%s 邀請你加入 %s。輸入 ",
   "skyblockbuilder.command.info.invited_to_team1": " 來加入隊伍。",
   "skyblockbuilder.command.info.visit_status": "該隊伍的訪客參觀目前是%s。",
   "skyblockbuilder.command.info.toggle_visit": "訪客參觀目前已設定成%s。",
@@ -110,7 +110,7 @@
   "skyblockbuilder.event.accept_join_request": "%s 接受了來自 %s 的加入請求。",
   "skyblockbuilder.event.deny_join_request": "%s 拒絕了 %s 的加入請求。",
   "skyblockbuilder.event.invite_player": "%s 邀請 %s 到你的隊伍中。",
-  "skyblockbuilder.event.join_request0": "%s 想要成為你的隊伍一員。 輸入 ",
+  "skyblockbuilder.event.join_request0": "%s 想要成為你的隊伍一員。輸入 ",
   "skyblockbuilder.event.join_request1": " 來接受它的請求。",
   "skyblockbuilder.event.player_joined": "%s 已加入你的隊伍。",
   "skyblockbuilder.event.remove_player": "%s 被踢出你的隊伍。",
