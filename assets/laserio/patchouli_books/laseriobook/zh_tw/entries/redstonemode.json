@@ -1,0 +1,16 @@
+{
+  "name": "紅石模式",
+  "sortnum": 11,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/redstonehigh.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "紅石模式將決定$(l:laserio:redstonechannel)紅石頻道$(/l)上的紅石訊號會如何影響卡片運作。$(br2)預設情況下會設為$(bold)忽略$()，表示紅石訊號將無法影響卡片運作。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)將紅石模式設為低時，卡片將僅在紅石頻道中沒有紅石訊號時運作（頻道按紐位在紅石模式開關右側）。$(br2)紅石模式設為高時，卡片將僅在紅石頻道有紅石訊號時運作。"
+    }
+  ]
+}

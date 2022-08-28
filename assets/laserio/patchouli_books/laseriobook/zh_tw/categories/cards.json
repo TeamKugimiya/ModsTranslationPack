@@ -1,0 +1,6 @@
+{
+  "name": "卡片",
+  "description": "卡片決定了節點與相鄰方塊的互動模式。沒有了它們這些節點將一文不值！",
+  "sortnum": 1,
+  "icon": "laserio:card_item"
+}

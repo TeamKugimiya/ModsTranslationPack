@@ -1,0 +1,20 @@
+{
+  "name": "優先權",
+  "sortnum": 3,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/modeinserter.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "優先權僅在輸入模式下可用。$(br2)控制輸入模式卡接收事物的優先順序。預設情況下，提取模式卡會優先向最鄰近的輸入模式卡傳輸。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "透過變更輸入模式卡的優先權設定，你可以調整哪個容器應該最先接收物品。優先權最高的輸入模式卡將會最優先接收，例如：優先權 10 高於 0，而 0 又高於 -10。$(br2)當有多個容器擁有相同的優先權時，提取模式卡將會優先將事物傳輸至最近的容器中。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "點擊左鍵將優先權提高 1。點擊右鍵則反之。點擊同時按下 Shift 將一次調整 10，而按下 Control 則會一次調整 64。$(br2)同時按下 Shift + Control 時，將會一口氣調整 640！$(br2)舉個例子，按住 Shift 時點擊右鍵將會減少 10 優先權。"
+    }
+  ]
+}

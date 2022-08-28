@@ -1,0 +1,17 @@
+{
+  "item.ae2things.disk_drive_1k": "1k ME 物品磁碟驅動器",
+  "item.ae2things.disk_drive_4k": "4k ME 物品磁碟驅動器",
+  "item.ae2things.disk_drive_16k": "16k ME 物品磁碟驅動器",
+  "item.ae2things.disk_drive_64k": "64k ME 物品磁碟驅動器",
+  "item.ae2things.disk_housing": "ME 物品磁碟外殼",
+  "block.ae2things.advanced_inscriber": "高級壓印機",
+  "block.ae2things.crystal_growth": "晶體催生倉",
+  "itemGroup.ae2things.item_group": "AE2 事物",
+  "gui.ae2things.advanced_inscriber": "高級壓印機",
+  "gui.ae2things.crystal_growth": "晶體催生倉",
+  "command.ae2things.recover_success": "%s 還原了 UUID 為 [%s] 的磁碟驅動器。",
+  "command.ae2things.recover_fail": "還原磁碟驅動器失敗：因為 UUID [%s] 不存在。",
+  "command.ae2things.getuuid_success": "該磁碟的 UUID 為：[%s]",
+  "command.ae2things.getuuid_fail_nouuid": "發生錯誤，該磁碟可能是空的或找不到該磁碟的 uuid。",
+  "command.ae2things.getuuid_fail_notdisk": "發生錯誤，選定的物品並非磁碟。"
+}

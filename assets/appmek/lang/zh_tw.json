@@ -1,0 +1,24 @@
+{
+  "itemGroup.appmek": "應用能源｜通用機械擴充",
+
+  "gui.appmek.chemical": "化學",
+
+  "item.appmek.chemical_cell_housing": "ME 化學元件外殼",
+  "item.appmek.creative_chemical_cell": "創造模式 ME 化學元件",
+
+  "item.appmek.chemical_storage_cell_1k": "1k ME 化學儲存元件",
+  "item.appmek.chemical_storage_cell_4k": "4k ME 化學儲存元件",
+  "item.appmek.chemical_storage_cell_16k": "16k ME 化學儲存元件",
+  "item.appmek.chemical_storage_cell_64k": "64k ME 化學儲存元件",
+  "item.appmek.chemical_storage_cell_256k": "256k ME 化學儲存元件",
+
+  "item.appmek.portable_chemical_storage_cell_16k": "16k 攜帶式化學元件",
+  "item.appmek.portable_chemical_storage_cell_1k": "1k 攜帶式化學元件",
+  "item.appmek.portable_chemical_storage_cell_4k": "4k 攜帶式化學元件",
+  "item.appmek.portable_chemical_storage_cell_64k": "64k 攜帶式化學元件",
+  "item.appmek.portable_chemical_storage_cell_256k": "256k 攜帶式化學元件",
+
+  "item.appmek.chemical_p2p_tunnel": "化學 P2P 通道",
+
+  "text.appmek.qio_frequency": "QIO 頻率（%s）"
+}

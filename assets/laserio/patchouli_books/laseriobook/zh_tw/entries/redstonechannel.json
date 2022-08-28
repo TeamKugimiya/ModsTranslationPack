@@ -1,0 +1,12 @@
+{
+  "name": "紅石頻道",
+  "sortnum": 11,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/redstoneignore.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "卡片擁有獨立的紅石頻道，與傳輸事物的主頻道做區別。$(br2)用來切換卡片傳遞紅石訊號的頻道。詳情請參閱$(l:laserio:redstonemode)紅石模式$(/l)和$(l:laserio:card_redstone)紅石卡$(/l)章節。"
+    }
+  ]
+}

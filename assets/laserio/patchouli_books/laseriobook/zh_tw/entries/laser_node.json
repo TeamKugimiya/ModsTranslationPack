@@ -1,0 +1,65 @@
+{
+  "name": "雷射節點",
+  "icon": "laserio:laser_node",
+  "sortnum": 0,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "雷射節點是 LaserIO 模組中最重要的方塊，配合卡片使用可以與相鄰的方塊互動。$(br2)只要使用$(l:laserio:card_item)物品卡$(/l)等卡片，你就可以向相鄰方塊傳輸物品、流體、能量和紅石訊號。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "雷射節點",
+      "images": [
+        "laserio:textures/book/entries/laser_node1.png"
+      ],
+      "border": true,
+      "text": "正在與儲物箱互動的雷射節點"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "節點每一側都有 3x3 大小的物品欄位，你可以在這些欄位上放入卡片。右鍵點擊節點的任一側可以開啟該側的操作介面。$(br2)使用介面頂部的按鈕可以快速切換至你想設定的那一側，以防你想修改的那一側不方便點擊。$(br2)旁邊的螢幕擷圖展示正在與節點西側的物品欄位互動。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "雷射節點介面",
+      "images": [
+        "laserio:textures/book/entries/laser_node_gui1.png"
+      ],
+      "border": true,
+      "text": "雷射節點介面與卡片"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "節點可以同時與不同側的相鄰容器互動。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "雷射節點運作中",
+      "images": [
+        "laserio:textures/book/entries/laser_node2.png"
+      ],
+      "border": true,
+      "text": "位於兩個儲物箱間的節點"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "透過使用$(l:laserio:laser_wrench)雷射扳手$(/l)將多個節點連接在一起，形成一個遠距離物流網路。最大連接距離可間距 8 格方塊遠。$(br2)若你的節點間相距太遠的話，那麼推薦你使用$(l:laserio:laser_connector)雷射連接器$()。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "相連接的雷射節點",
+      "images": [
+        "laserio:textures/book/entries/laser_node3.png"
+      ],
+      "border": true,
+      "text": "兩個相連的節點"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "雷射節點",
+      "recipe": "laserio:laser_node"
+    }
+  ]
+}

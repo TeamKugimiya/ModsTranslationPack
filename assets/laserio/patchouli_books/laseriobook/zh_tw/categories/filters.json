@@ -1,0 +1,6 @@
+{
+  "name": "篩選器",
+  "description": "篩選器可以設定卡片的白／黑名單，控制被傳輸的內容。",
+  "sortnum": 3,
+  "icon": "laserio:filter_basic"
+}

@@ -1,0 +1,63 @@
+{
+  "itemGroup.megacells": "MEGA 元件",
+
+  "item.megacells.mega_item_cell_housing": "MEGA 物品元件外殼",
+  "item.megacells.mega_fluid_cell_housing": "MEGA 流體元件外殼",
+  "item.megacells.mega_chemical_cell_housing": "MEGA 化學元件外殼",
+  "block.megacells.mega_crafting_unit": "MEGA 合成單元",
+
+  "item.megacells.cell_component_1m": "1M MEGA 儲存組件",
+  "item.megacells.cell_component_4m": "4M MEGA 儲存組件",
+  "item.megacells.cell_component_16m": "16M MEGA 儲存組件",
+  "item.megacells.cell_component_64m": "64M MEGA 儲存組件",
+  "item.megacells.cell_component_256m": "256M MEGA 儲存組件",
+
+  "item.megacells.item_storage_cell_1m": "1M MEGA 物品儲存元件",
+  "item.megacells.item_storage_cell_4m": "4M MEGA 物品儲存元件",
+  "item.megacells.item_storage_cell_16m": "16M MEGA 物品儲存元件",
+  "item.megacells.item_storage_cell_64m": "64M MEGA 物品儲存元件",
+  "item.megacells.item_storage_cell_256m": "256M MEGA 物品儲存元件",
+
+  "item.megacells.fluid_storage_cell_1m": "1M MEGA 流體儲存元件",
+  "item.megacells.fluid_storage_cell_4m": "4M MEGA 流體儲存元件",
+  "item.megacells.fluid_storage_cell_16m": "16M MEGA 流體儲存元件",
+  "item.megacells.fluid_storage_cell_64m": "64M MEGA 流體儲存元件",
+  "item.megacells.fluid_storage_cell_256m": "256M MEGA 流體儲存元件",
+
+  "item.megacells.chemical_storage_cell_1m": "1M MEGA 化學儲存元件",
+  "item.megacells.chemical_storage_cell_4m": "4M MEGA 化學儲存元件",
+  "item.megacells.chemical_storage_cell_16m": "16M MEGA 化學儲存元件",
+  "item.megacells.chemical_storage_cell_64m": "64M MEGA 化學儲存元件",
+  "item.megacells.chemical_storage_cell_256m": "256M MEGA 化學儲存元件",
+
+  "item.megacells.bulk_cell_component": "MEGA 極巨儲存組件",
+  "item.megacells.bulk_item_cell": "MEGA 極巨物品儲存元件",
+
+  "item.megacells.portable_item_cell_1m": "1M 攜帶式物品元件",
+  "item.megacells.portable_item_cell_4m": "4M 攜帶式物品元件",
+  "item.megacells.portable_item_cell_16m": "16M 攜帶式物品元件",
+  "item.megacells.portable_item_cell_64m": "64M 攜帶式物品元件",
+  "item.megacells.portable_item_cell_256m": "256M 攜帶式物品元件",
+
+  "item.megacells.portable_fluid_cell_1m": "1M 攜帶式流體元件",
+  "item.megacells.portable_fluid_cell_4m": "4M 攜帶式流體元件",
+  "item.megacells.portable_fluid_cell_16m": "16M 攜帶式流體元件",
+  "item.megacells.portable_fluid_cell_64m": "64M 攜帶式流體元件",
+  "item.megacells.portable_fluid_cell_256m": "256M 攜帶式流體元件",
+
+  "item.megacells.portable_chemical_cell_1m": "1M 攜帶式化學元件",
+  "item.megacells.portable_chemical_cell_4m": "4M 攜帶式化學元件",
+  "item.megacells.portable_chemical_cell_16m": "16M 攜帶式化學元件",
+  "item.megacells.portable_chemical_cell_64m": "64M 攜帶式化學元件",
+  "item.megacells.portable_chemical_cell_256m": "256M 攜帶式化學元件",
+
+  "block.megacells.mega_energy_cell": "超緻密能量電池",
+
+  "block.megacells.1m_crafting_storage": "1M MEGA 合成儲存器",
+  "block.megacells.4m_crafting_storage": "4M MEGA 合成儲存器",
+  "block.megacells.16m_crafting_storage": "16M MEGA 合成儲存器",
+  "block.megacells.64m_crafting_storage": "64M MEGA 合成儲存器",
+  "block.megacells.256m_crafting_storage": "256M MEGA 合成儲存器",
+  "block.megacells.mega_crafting_accelerator": "MEGA 協同處理合成單元",
+  "block.megacells.mega_crafting_monitor": "MEGA 合成監控器"
+}

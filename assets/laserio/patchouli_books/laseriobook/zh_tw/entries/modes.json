@@ -1,0 +1,27 @@
+{
+  "name": "模式",
+  "sortnum": 1,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/modestocker.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "模式決定了卡片的功能。以下頁數將逐一介紹目前可用的模式類型。$(br2)這些類型卡片（物品／流體／能量）皆支援以下三種模式。將使用物品卡做為範例。$(br2)紅石卡將在後續更新中提供不同的模式使用。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item{channel:0b,exact:0b,inv:{Items:[],Size:2},itemextractamt:1b,itemextractspeed:20,mode:0b,priority:0s,regulate:0b,roundRobin:0,sneaky:-1b}",
+      "text": "輸入模式卡是提取模式卡提取出物品後將傳輸至的目的地。$(br2)庫存模式卡則是會嘗試從輸入模式卡抽取物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item{channel:0b,exact:0b,inv:{Items:[],Size:2},itemextractamt:1b,itemextractspeed:20,mode:1b,priority:0s,regulate:0b,roundRobin:0,sneaky:-1b}",
+      "text": "提取模式卡會嘗試從相鄰的方塊抽取物品，並輸送至輸入模式卡。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item{channel:0b,exact:0b,inv:{Items:[],Size:2},itemextractamt:1b,itemextractspeed:20,mode:2b,priority:0s,regulate:0b,roundRobin:0,sneaky:-1b}",
+      "text": "庫存模式卡會嘗試檢索篩選器所指定的物品，並從相同網路的輸入模式卡中抽取這些物品。$(br2)庫存模式卡需要將篩選器設為白名單才會運作。"
+    }
+  ]
+}

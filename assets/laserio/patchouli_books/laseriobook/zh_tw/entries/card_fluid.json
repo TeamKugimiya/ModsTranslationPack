@@ -1,0 +1,21 @@
+{
+  "name": "流體卡",
+  "sortnum": 2,
+  "category": "laserio:cards",
+  "icon": "laserio:card_fluid",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "流體卡可用來在多個容器間進行流體傳輸，像是儲罐。$(br2)下一頁詳列了安裝超頻後的增幅數值。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "超頻增幅數值（毫桶/tick）：$(br2)$(li)0 個超頻：1,000mb/20t$(li)1 個超頻：2,000mb/15t$(li)2 個超頻：4,000mb/10t$(li)3 個超頻：6,000mb/5t$(li)4 個超頻：8,000mb/1t"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "流體卡",
+      "recipe": "laserio:card_fluid"
+    }
+  ]
+}
