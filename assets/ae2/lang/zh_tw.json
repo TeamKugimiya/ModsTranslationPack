@@ -518,7 +518,7 @@
   "gui.tooltips.ae2.SubstitutionsDescDisabled": "防止合成使用配方材料的替代物品。",
   "gui.tooltips.ae2.SubstitutionsDescEnabled": "允許合成使用配方材料的替代物品。",
   "gui.tooltips.ae2.SubstitutionsOff": "停用替換",
-  "gui.tooltips.ae2.SubstitutionsOn": "啟用替換	",
+  "gui.tooltips.ae2.SubstitutionsOn": "啟用替換",
   "gui.tooltips.ae2.SupportedBy": "可安裝在：",
   "gui.tooltips.ae2.TerminalStyle": "終端機樣式",
   "gui.tooltips.ae2.TerminalStyle_Full": "全螢幕",
