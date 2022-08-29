@@ -40,3 +40,4 @@
 - [BlossomHomes](https://github.com/BlossomMods/BlossomHomes)
 - [Create](https://github.com/Creators-of-Create/Create)
 - [ProjectE](https://grant88.pixnet.net/blog/post/43364803)
+- [BloodMagic](https://forum.gamer.com.tw/C.php?bsn=18673&snA=197467)
