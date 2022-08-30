@@ -53,22 +53,22 @@ jobs:
           cp workdir/assets/projecte/lang/zh_tw.json $PATH_ProjectE/
           rm -r workdir
 
-#          echo "Override BloodMagic..."
-#          mkdir workdir
-#          cd workdir
-#          sudo apt-get update
-#          sudo apt-get install -y megatools
-#          echo "Small Info:"
-#          echo "The original download link is https://mega.nz/file/SdNFzDqT#jyy__RCtPKyJMbK4B6Vcd8n9lON71V0o1z6_kLZShsI"
-#          echo "But megatools look like don't know what is this"
-#          echo "This fix I see from https://github.com/megous/megatools/issues/157#issuecomment-615835778"
-#          megadl 'https://mega.nz/#!SdNFzDqT!jyy__RCtPKyJMbK4B6Vcd8n9lON71V0o1z6_kLZShsI'
-#          unzip 1.18\ BloodMagic-zh_tw.zip
-#          cd ..
-#          mv workdir/assets/bloodmagic assets
-#          rm -r workdir
-#          echo "Fix error space"
-#          sed -i 's/	//1' assets/bloodmagic/patchouli_books/guide/zh_tw/entries/altar/soul_network.json
+          echo "Override BloodMagic..."
+          mkdir workdir
+          cd workdir
+          sudo apt-get update
+          sudo apt-get install -y megatools
+          echo "Small Info:"
+          echo "The original download link is https://mega.nz/file/vElBiCJD#vuuxCpGev25pFisNBCZXNEt3NIrqJsBkIohCzODSxHk"
+          echo "But megatools look like don't know what is this"
+          echo "This fix I see from https://github.com/megous/megatools/issues/157#issuecomment-615835778"
+          megadl 'https://mega.nz/#!vElBiCJD!vuuxCpGev25pFisNBCZXNEt3NIrqJsBkIohCzODSxHk'
+          unzip 1.18\ BloodMagic-zh_tw-v2.zip
+          cd ..
+          mv workdir/assets/bloodmagic assets
+          rm -r workdir
+          echo "Fix error space"
+          sed -i 's/	//1' assets/bloodmagic/patchouli_books/guide/zh_tw/entries/altar/soul_network.json
 
       - name: Make TranslateModPack (1.19.x)
         uses: ComunidadAylas/PackSquash-action@master
