@@ -1,0 +1,57 @@
+{
+  "item.notenoughwands.swapping_wand": "替換法杖",
+  "item.notenoughwands.teleportation_wand": "傳送法杖",
+  "item.notenoughwands.capturing_wand": "捕捉法杖",
+  "item.notenoughwands.building_wand": "建築法杖",
+  "item.notenoughwands.illumination_wand": "照明法杖",
+  "item.notenoughwands.moving_wand": "搬移法杖",
+  "item.notenoughwands.protection_wand": "保護法杖",
+  "item.notenoughwands.master_protection_wand": "大師級保護法杖",
+  "item.notenoughwands.displacement_wand": "位移法杖",
+  "item.notenoughwands.acceleration_wand": "加速法杖",
+  "item.notenoughwands.freezing_wand": "冰凍法杖（WIP）",
+  "item.notenoughwands.potion_wand": "藥水法杖",
+  "item.notenoughwands.wand_core": "法杖芯",
+  "item.notenoughwands.advanced_wand_core": "進階法杖芯",
+
+  "block.notenoughwands.light": "照明球",
+
+  "message.notenoughwands.shiftmessage": "〈按住 Shift 查看詳細〉",
+
+  "message.notenoughwands.building_wand.header": "右鍵擴展該方向的方塊",
+  "message.notenoughwands.building_wand.gold": "蹲下右鍵剛行為的方塊上來復原到上一動作（最多復原到前兩個動作）",
+  "message.notenoughwands.building_wand.undo": "復原：",
+  "message.notenoughwands.building_wand.mode": "模式：",
+  "message.notenoughwands.building_wand.submode": "子模式：",
+
+  "message.notenoughwands.displacement_wand.header": "右鍵向前推動方塊",
+  "message.notenoughwands.displacement_wand.gold": "蹲下右鍵拉回方塊",
+  "message.notenoughwands.displacement_wand.mode": "模式：",
+
+  "message.notenoughwands.moving_wand.header": "右鍵裝起方塊",
+  "message.notenoughwands.moving_wand.gold": "再次右鍵將方塊放出",
+
+  "message.notenoughwands.swapping_wand.header": "蹲下右鍵選取方塊",
+  "message.notenoughwands.swapping_wand.gold": "右鍵點擊空氣來切換成「副手」物品模式，或是右鍵方塊替換",
+  "message.notenoughwands.swapping_wand.mode": "模式：",
+
+  "message.notenoughwands.illumination_wand.header": "右鍵生成光源",
+  "message.notenoughwands.illumination_wand.gold": "再次右鍵移除光源",
+
+  "message.notenoughwands.acceleration_wand.header": "右鍵加速方塊",
+  "message.notenoughwands.acceleration_wand.gold": "蹲下右鍵來倒退加速",
+  "message.notenoughwands.acceleration_wand.mode": "模式：",
+
+  "message.notenoughwands.capturing_wand.header": "左鍵捕捉生物",
+  "message.notenoughwands.capturing_wand.gold": "右鍵在方塊上重生生物",
+
+  "message.notenoughwands.teleportation_wand.header": "右鍵向前傳送直到擊中一個方塊或是到達最大距離限制為止",
+  "message.notenoughwands.teleportation_wand.sneak1": "蹲下傳送過牆",
+  "message.notenoughwands.teleportation_wand.sneak2": "蹲下以一半的距離傳送",
+
+
+  "key.modifier": "法杖模式切換",
+  "key.categories.notenoughwands": "更多法杖",
+
+  "itemGroup.NotEnoughWands": "更多法杖"
+}
