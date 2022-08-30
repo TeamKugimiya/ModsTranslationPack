@@ -33,7 +33,7 @@
   "item.exmachinis.diamond_upgrade": "鑽石升級",
   "item.exmachinis.gold_upgrade": "金升級",
   "item.exmachinis.netherite_upgrade": "獄髓升級",
-  "itemGroup.exmachinis": "無中生有：傳承｜機械",
+  "itemGroup.exmachinis": "源自機械",
   "tooltip.exmachinis.activated": "已啟用",
   "tooltip.exmachinis.compactor1": "使用 RF 能量的自動化壓縮",
   "tooltip.exmachinis.costPerBlock": "每處理一次物品能量消耗：%d",
