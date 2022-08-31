@@ -16,7 +16,10 @@ jobs:
         uses: google-github-actions/release-please-action@v3
         with:
           release-type: simple
-          changelog-types: '[{"type":"feat","section":"新增翻譯","hidden":false},{"type":"fix","section":"修正翻譯或專案","hidden":false},{"type":"chore","section":"","hidden":false}]'
+          pull-request-title-pattern: "chore${scope}: 發佈${component} ${version}"
+          labels: "自動發佈：待定"
+          release-labels: "自動發佈：已發佈"
+          changelog-types: '[{"type":"feat","section":"新增翻譯 & 內容","hidden":false},{"type":"fix","section":"修正翻譯 & 專案","hidden":false},{"type":"chore","section":"清理翻譯 & 專案","hidden":false},{"type":"ci","section":"自動化 Action","hidden":false}]'
 
     outputs:
       release_created: ${{ steps.release_please.outputs.release_created }}
@@ -38,7 +41,7 @@ jobs:
         id: version
         run: |
           TAG_Name=${{ needs.release-please.outputs.tag_name }}
-          sed -i 's/§6GitVersion/§fv §b$TAG_Name'/1' pack.mcmeta
+          sed -i 's/6GitVersion/f$TAG_Name/1' pack.mcmeta
 
       - name: Override mods
         run: |
