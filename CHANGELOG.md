@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.0.1](https://github.com/xMikux/ModsTranslationPack/compare/v1.0.0...v1.0.1) (2022-09-01)
+
+
+### 文檔更新
+
+* **Readme:** 修改自述 ([4465e59](https://github.com/xMikux/ModsTranslationPack/commit/4465e59cbf68258bf0a6511db162346768629e07))
+* **Readme:** 小調整 ([f274521](https://github.com/xMikux/ModsTranslationPack/commit/f274521553855dabecaf07828d31ad8e80dc9c6a))
+
+
+### 清理翻譯 & 專案
+
+* 更改專案英文名稱 ([23b67f4](https://github.com/xMikux/ModsTranslationPack/commit/23b67f4d70c8680e7daf011c3b5e0c0f1abd29a6))
+
+
+### 自動化 Action
+
+* **AutoPack:** 修正錯誤 ([6e98a03](https://github.com/xMikux/ModsTranslationPack/commit/6e98a03b8f50ba9b562eabb2b54964fc3db735af))
+* **ReleaseMe:** 新增 docs 翻譯 ([9f4cea2](https://github.com/xMikux/ModsTranslationPack/commit/9f4cea2d5a94db6b6dc81b4b5d7d8eea31faadfd))
+
 ## 1.0.0 (2022-08-31)
 
 
