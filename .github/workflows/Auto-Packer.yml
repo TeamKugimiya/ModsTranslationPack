@@ -132,10 +132,10 @@ jobs:
       - name: Push Pack to Release
         uses: ncipollo/release-action@v1
         with:
-          allowUpdates: true
           artifacts: "*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
+          prerelease: true
           name: 模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
           body: |
             ## 📝 下載
