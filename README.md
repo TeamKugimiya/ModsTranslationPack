@@ -7,8 +7,8 @@
 
 # 模組翻譯包
 
-[![Release](https://img.shields.io/github/v/release/xMikux/TranslateModPack?label=%E7%99%BC%E4%BD%88%E7%89%88&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/latest)
-[![License](https://img.shields.io/github/license/xMikux/TranslateModPack?style=for-the-badge)](https://github.com/xMikux/TranslateModPack/blob/main/LICENSE)
+[![Release](https://img.shields.io/github/v/release/xMikux/ModsTranslationPack?label=%E7%99%BC%E4%BD%88%E7%89%88&style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/releases/latest)
+[![License](https://img.shields.io/github/license/xMikux/ModsTranslationPack?style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/blob/main/LICENSE)
 
 這是一個簡單的模組翻譯包
 
@@ -36,8 +36,8 @@
 
 翻譯包並沒有區別，僅有遊戲是否會顯示紅色的版本不符合
 
-[![DownloadBadgeRelease](https://img.shields.io/github/downloads/xMikux/TranslateModPack/latest/total?label=下載發佈版&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/latest)
-[![DownloadBadgeLatest](https://img.shields.io/github/downloads/xMikux/TranslateModPack/total?label=下載測試版&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/tag/latest)
+[![DownloadBadgeRelease](https://img.shields.io/github/downloads/xMikux/ModsTranslationPack/latest/total?label=下載發佈版&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/releases/latest)
+[![DownloadBadgeLatest](https://img.shields.io/github/downloads/xMikux/ModsTranslationPack/total?label=下載測試版&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/releases/tag/latest)
 
 </div>
 
