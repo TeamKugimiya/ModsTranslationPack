@@ -19,19 +19,19 @@
   "config.fabrihud.editposition": "編輯座標",
   "config.fabrihud.editposition.tooltip": "設定 HUD 元素在螢幕上顯示的位置",
 
-  "config.fabrihud.override": "覆寫",
-  "config.fabrihud.override.tooltip": "覆寫此元素的文字訊息（可以用於顏色代碼或更多）",
+  "config.fabrihud.override": "覆蓋文字",
+  "config.fabrihud.override.tooltip": "覆蓋文字訊息（可以用於顏色代碼或更多）",
 
   "config.fabrihud.editposition.x": "x",
-  "config.fabrihud.editposition.x.tooltip": "此元素的 X 座標",
+  "config.fabrihud.editposition.x.tooltip": "X 座標",
   "config.fabrihud.editposition.y": "y",
-  "config.fabrihud.editposition.y.tooltip": "此元素的 Y 座標",
+  "config.fabrihud.editposition.y.tooltip": "Y 座標",
 
   "config.fabrihud.option.enabled": "HUD 啟用",
   "config.fabrihud.option.enabled.tooltip": "是否顯示自訂 HUD",
 
   "config.fabrihud.shadow": "文字陰影",
-  "config.fabrihud.shadow.tooltip": "是否顯示文字陰影在此元素",
+  "config.fabrihud.shadow.tooltip": "是否顯示文字陰影",
 
 
   "element.fabrihud.fps.name": "FPS 顯示",
