@@ -19,7 +19,7 @@ jobs:
           pull-request-title-pattern: "chore${scope}: 發佈${component} ${version}"
           labels: "自動發佈：待定"
           release-labels: "自動發佈：已發佈"
-          changelog-types: '[{"type":"feat","section":"新增翻譯 & 內容","hidden":false},{"type":"fix","section":"修正翻譯 & 專案","hidden":false},{"type":"chore","section":"清理翻譯 & 專案","hidden":false},{"type":"ci","section":"自動化 Action","hidden":false}]'
+          changelog-types: '[{"type":"feat","section":"新增翻譯 & 內容","hidden":false},{"type":"fix","section":"修正翻譯 & 專案","hidden":false},{"type":"chore","section":"清理翻譯 & 專案","hidden":false},{"type":"ci","section":"自動化 Action","hidden":false},{"type":"docs","section":"文檔更新","hidden":false}]'
 
     outputs:
       release_created: ${{ steps.release_please.outputs.release_created }}
