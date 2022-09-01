@@ -128,11 +128,20 @@ jobs:
           name: |
             Optimized pack
 
+      - name: Make Checksum
+        id: checksum
+        run: |
+          SUM0=$(sha256sum ModsTranslationPack-1.19.x.zip)
+          SUM1=$(sha256sum ModsTranslationPack-1.18.x.zip)
+          echo -e "$SUM0\n$SUM1" > checksums.txt
+
       - name: Upload ModsTranslationPacks
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ needs.release-please.outputs.tag_name }}
-          files: '*.zip'
+          files: |
+            *.zip
+            checksums.txt
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to Modrinth

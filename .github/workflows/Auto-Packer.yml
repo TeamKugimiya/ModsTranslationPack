@@ -135,6 +135,7 @@ jobs:
           artifacts: "*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
+          allowUpdates: true
           prerelease: true
           name: 模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
           body: |
