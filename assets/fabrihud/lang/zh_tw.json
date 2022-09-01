@@ -1,0 +1,60 @@
+{
+  "error.fabrihud.formatting": "FORMATTING ERROR",
+  "config.fabrihud.title": "FabriHUD",
+  "config.fabrihud.enabled": "啟用",
+
+  "config.fabrihud.primary": "設定",
+  "config.fabrihud.elements": "元素",
+  "config.fabrihud.global": "全局",
+
+  "config.fabrihud.apply":"套用",
+  "config.fabrihud.apply.tooltip": "套用並儲存變更",
+  "config.fabrihud.reset": "重置",
+  "config.fabrihud.reset.tooltip": "重置所有設定到預設值",
+  "config.fabrihud.cancel": "取消",
+  "config.fabrihud.cancel.tooltip": "退出，並不儲存任何變更",
+
+  "config.fabrihud.editpositions": "編輯元素座標",
+  "config.fabrihud.editpositions.tooltip": "設定 HUD 元素在螢幕上顯示的位置",
+  "config.fabrihud.editposition": "編輯座標",
+  "config.fabrihud.editposition.tooltip": "設定 HUD 元素在螢幕上顯示的位置",
+
+  "config.fabrihud.override": "覆寫",
+  "config.fabrihud.override.tooltip": "覆寫此元素的文字訊息（可以用於顏色代碼或更多）",
+
+  "config.fabrihud.editposition.x": "x",
+  "config.fabrihud.editposition.x.tooltip": "此元素的 X 座標",
+  "config.fabrihud.editposition.y": "y",
+  "config.fabrihud.editposition.y.tooltip": "此元素的 Y 座標",
+
+  "config.fabrihud.option.enabled": "HUD 啟用",
+  "config.fabrihud.option.enabled.tooltip": "是否顯示自訂 HUD",
+
+  "config.fabrihud.shadow": "文字陰影",
+  "config.fabrihud.shadow.tooltip": "是否顯示文字陰影在此元素",
+
+
+  "element.fabrihud.fps.name": "FPS 顯示",
+  "element.fabrihud.fps.tooltip": "顯示 FPS",
+  "element.fabrihud.fps.display": "FPS：%d",
+
+  "element.fabrihud.biome.name": "生態域",
+  "element.fabrihud.biome.tooltip": "顯示目前所在的生態域",
+  "element.fabrihud.biome.display": "生態域：%s",
+
+  "element.fabrihud.latency.name": "延遲（Ping）",
+  "element.fabrihud.latency.tooltip": "顯示用戶端／伺服器端的延遲（Ping）",
+  "element.fabrihud.latency.display": "Ping：%dms",
+
+  "element.fabrihud.position.name": "座標",
+  "element.fabrihud.position.tooltip": "顯示玩家的座標",
+  "element.fabrihud.position.display": "(%d, %d, %d)",
+
+  "element.fabrihud.time.name": "時間",
+  "element.fabrihud.time.tooltip": "顯示遊戲內的時間",
+  "element.fabrihud.time.display": "時間：%1d:%1d",
+
+  "element.fabrihud.light.name": "光源亮度",
+  "element.fabrihud.light.tooltip": "顯示玩家周圍目前的光源亮度",
+  "element.fabrihud.light.display": "光源亮度：%d"
+}
