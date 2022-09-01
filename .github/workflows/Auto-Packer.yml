@@ -72,7 +72,7 @@ jobs:
           echo "Fix error space"
           sed -i 's/	//1' assets/bloodmagic/patchouli_books/guide/zh_tw/entries/altar/soul_network.json
 
-      - name: Make TranslateModPack (1.19.x)
+      - name: Make ModsTranslationPack (1.19.x)
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -86,15 +86,15 @@ jobs:
           name: Optimized pack
           path: ./
 
-      - name: Rename TranslateModPack (1.19.x)
+      - name: Rename ModsTranslationPack (1.19.x)
         run: |
-          mv ./pack.zip TranslateModPack-1.19.x.zip
+          mv ./pack.zip ModsTranslationPack-1.19.x.zip
 
       - name: Change pack format to 1.18.x
         run: |
           sed -i 's/9/8/1' pack.mcmeta
 
-      - name: Make TranslateModPack (1.18.x)
+      - name: Make ModsTranslationPack (1.18.x)
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -108,9 +108,9 @@ jobs:
           name: Optimized pack
           path: ./
 
-      - name: Rename TranslateModPack (1.18.x)
+      - name: Rename ModsTranslationPack (1.18.x)
         run: |
-          mv ./pack.zip TranslateModPack-1.18.x.zip
+          mv ./pack.zip ModsTranslationPack-1.18.x.zip
 
       - name: Delete Artifact
         uses: geekyeggo/delete-artifact@v1
@@ -121,8 +121,8 @@ jobs:
       - name: Make Checksum
         id: checksum
         run: |
-          echo "::set-output name=sum-01::$(sha256sum TranslateModPack-1.19.x.zip)"
-          echo "::set-output name=sum-02::$(sha256sum TranslateModPack-1.18.x.zip)"
+          echo "::set-output name=sum-01::$(sha256sum ModsTranslationPack-1.19.x.zip)"
+          echo "::set-output name=sum-02::$(sha256sum ModsTranslationPack-1.18.x.zip)"
 
       - name: Make Current Time
         id: current_time
@@ -139,7 +139,7 @@ jobs:
           name: 模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
           body: |
             ## 📝 下載
-            下載下方的 Assets 內的 ``TranslateModPack.zip``
+            下載下方的 Assets 內的 ``ModsTranslationPack.zip``
             並放入遊戲的材質包中載入即可!
 
             ## ⭐ 更新

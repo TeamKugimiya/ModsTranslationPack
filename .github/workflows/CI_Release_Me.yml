@@ -82,7 +82,7 @@ jobs:
           echo "Fix error space"
           sed -i 's/	//1' assets/bloodmagic/patchouli_books/guide/zh_tw/entries/altar/soul_network.json
 
-      - name: Make TranslateModPack (1.19.x)
+      - name: Make ModsTranslationPack (1.19.x)
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -96,15 +96,15 @@ jobs:
           name: Optimized pack
           path: ./
 
-      - name: Rename TranslateModPack (1.19.x)
+      - name: Rename ModsTranslationPack (1.19.x)
         run: |
-          mv ./pack.zip TranslateModPack-1.19.x.zip
+          mv ./pack.zip ModsTranslationPack-1.19.x.zip
 
       - name: Change pack format to 1.18.x
         run: |
           sed -i 's/9/8/1' pack.mcmeta
 
-      - name: Make TranslateModPack (1.18.x)
+      - name: Make ModsTranslationPack (1.18.x)
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -118,9 +118,9 @@ jobs:
           name: Optimized pack
           path: ./
 
-      - name: Rename TranslateModPack (1.18.x)
+      - name: Rename ModsTranslationPack (1.18.x)
         run: |
-          mv ./pack.zip TranslateModPack-1.18.x.zip
+          mv ./pack.zip ModsTranslationPack-1.18.x.zip
 
       - name: Delete Artifact
         uses: geekyeggo/delete-artifact@v1
@@ -128,9 +128,17 @@ jobs:
           name: |
             Optimized pack
 
-      - name: Upload TranslateModPacks
+      - name: Upload ModsTranslationPacks
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ needs.release-please.outputs.tag_name }}
           files: '*.zip'
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.2
+        with:
+          modrinth-id: cF5VXmkW
+          modrinth-unfeature-mode: subset
+          files-primary: "*.zip"
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
