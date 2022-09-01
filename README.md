@@ -7,11 +7,24 @@
 
 # 模組翻譯包
 
-這是一個簡單翻譯的模組
+[![Release](https://img.shields.io/github/v/release/xMikux/TranslateModPack?label=%E7%99%BC%E4%BD%88%E7%89%88&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/latest)
+[![License](https://img.shields.io/github/license/xMikux/TranslateModPack?style=for-the-badge)](https://github.com/xMikux/TranslateModPack/blob/main/LICENSE)
 
-可能內包含很多錯誤錯字之類的
+這是一個簡單的模組翻譯包
 
-歡迎貢獻新的翻譯或修正！
+目的是為了在模組作者還沒釋出翻譯時
+
+有一個暫時能有中文翻譯的材質包
+
+## 貢獻
+
+基本上本專案的目的就是有一個暫時存放與使用翻譯的地點
+
+之後這些翻譯將會慢慢的回饋回作者那邊
+
+但是仍然還有許多翻譯可能有錯字語句不順，或是奇怪的問題
+
+歡迎進行貢獻，來幫助讓翻譯更加正常！
 
 </div>
 
@@ -19,11 +32,12 @@
 
 # 下載翻譯包
 
-翻譯包有多種版本，所有版本內容都一樣，
+依照你的遊戲版本下載對應的翻譯包
 
-差別在於遊戲會不會警告你不相容而已。
+翻譯包並沒有區別，僅有遊戲是否會顯示紅色的版本不符合
 
-[![DownloadBadge](https://img.shields.io/github/downloads/xMikux/TranslateModPack/total?label=點此下載！&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/tag/latest)
+[![DownloadBadgeRelease](https://img.shields.io/github/downloads/xMikux/TranslateModPack/latest/total?label=%E4%B8%8B%E8%BC%89%E7%99%BC%E4%BD%88%E7%89%88&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/latest)
+[![DownloadBadgeLatest](https://img.shields.io/github/downloads/xMikux/TranslateModPack/total?label=下載測試版！&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/TranslateModPack/releases/tag/latest)
 
 </div>
 
