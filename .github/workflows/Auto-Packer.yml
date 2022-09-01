@@ -13,7 +13,7 @@ jobs:
   Packer:
     runs-on: ubuntu-latest
     if: |
-      contains(github.event.head_commit.message, 'chore(main): 發佈')
+      contains(github.event.head_commit.message, 'chore(main): 發佈') == false
 
     steps:
       - name: Checking Repostiory
@@ -61,10 +61,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y megatools
           echo "Small Info:"
-          echo "The original download link is https://mega.nz/file/vElBiCJD#vuuxCpGev25pFisNBCZXNEt3NIrqJsBkIohCzODSxHk"
+          echo "The original download link is https://mega.nz/file/KR0CQC5Z#MkEdb3M5q9FHLIgY7WLE18T8EqKFMVUd1guryQWdTQc"
           echo "But megatools look like don't know what is this"
           echo "This fix I see from https://github.com/megous/megatools/issues/157#issuecomment-615835778"
-          megadl 'https://mega.nz/#!vElBiCJD!vuuxCpGev25pFisNBCZXNEt3NIrqJsBkIohCzODSxHk'
+          megadl 'https://mega.nz/#!KR0CQC5Z!MkEdb3M5q9FHLIgY7WLE18T8EqKFMVUd1guryQWdTQc'
           unzip 1.18\ BloodMagic-zh_tw-v2.zip
           cd ..
           mv workdir/assets/bloodmagic assets
