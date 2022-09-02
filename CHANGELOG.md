@@ -1,5 +1,34 @@
 # Changelog
 
+## [1.1.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.0.1...v1.1.0) (2022-09-02)
+
+
+### 文檔更新
+
+* **Readme:** 修正連結 ([feafc2d](https://github.com/xMikux/ModsTranslationPack/commit/feafc2dfeed5512a156e50501db8af4f72b9feec))
+
+
+### 修正翻譯 & 專案
+
+* **SkyBlockBuilder:** 修正翻譯 保存 -> 儲存 ([11b8a5a](https://github.com/xMikux/ModsTranslationPack/commit/11b8a5a23bd350a65d02de00b52bb51a8c5ad22c))
+
+
+### 新增翻譯 & 內容
+
+* 新增 FabriHUD ([04463dc](https://github.com/xMikux/ModsTranslationPack/commit/04463dcd42be45fd5ba0a385dbf59f9bbdfbcc46))
+
+
+### 清理翻譯 & 專案
+
+* **FabriHUD:** 修正部分翻譯，讓它不會太複雜 ([160868b](https://github.com/xMikux/ModsTranslationPack/commit/160868bb76ce361e7945ff038896f3d54de69b0f))
+
+
+### 自動化 Action
+
+* **AutoPacker:** change to per release ([7181ed8](https://github.com/xMikux/ModsTranslationPack/commit/7181ed83938a89ce01c4bc6dfba8d32f0ecef7e9))
+* 修正 Modrinth 發佈步驟 ([a63bf11](https://github.com/xMikux/ModsTranslationPack/commit/a63bf110032bc537fbfc6c6013f44e0e6ca23103))
+* 小調整 ([344b1d0](https://github.com/xMikux/ModsTranslationPack/commit/344b1d08b3b3b1928e7f78a56ebd2bb2c47e5411))
+
 ## [1.0.1](https://github.com/xMikux/ModsTranslationPack/compare/v1.0.0...v1.0.1) (2022-09-01)
 
 
