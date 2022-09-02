@@ -129,11 +129,16 @@ jobs:
             Optimized pack
 
       - name: Make Checksum
-        id: checksum
         run: |
           SUM0=$(sha256sum ModsTranslationPack-1.19.x.zip)
           SUM1=$(sha256sum ModsTranslationPack-1.18.x.zip)
           echo -e "$SUM0\n$SUM1" > checksums.txt
+
+      - name: Make Changelog
+        id: changelog
+        run: |
+          Tags=${{ needs.release-please.outputs.tag_name }}
+          echo "::set-output name=log::$(curl https://api.github.com/repos/xMikux/ModsTranslationPack/releases/tags/$Tags -H "Accept: application/vnd.github+json" | jq -r .body)"
 
       - name: Upload ModsTranslationPacks
         uses: softprops/action-gh-release@v1
@@ -144,10 +149,38 @@ jobs:
             checksums.txt
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish to Modrinth
+      - name: Publish to Modrinth (1.19.x)
         uses: Kir-Antipov/mc-publish@v3.2
         with:
           modrinth-id: cF5VXmkW
           modrinth-unfeature-mode: subset
-          files-primary: "*.zip"
+          name: 模組翻譯包 1.19.x ${{ needs.release-please.outputs.tag_name }}
+          version: ${{ needs.release-please.outputs.tag_name }}
+          changelog: |
+            ${{ steps.changelog.outputs.log }}
+          loaders: minecraft
+          game-versions: |
+            1.19
+            1.19.1
+            1.19.2
+          files-primary: |
+            ModsTranslationPack-1.19.x.zip
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+      - name: Publish to Modrinth (1.18.x)
+        uses: Kir-Antipov/mc-publish@v3.2
+        with:
+          modrinth-id: cF5VXmkW
+          modrinth-unfeature-mode: subset
+          name: 模組翻譯包 1.18.x ${{ needs.release-please.outputs.tag_name }}
+          version: ${{ needs.release-please.outputs.tag_name }}
+          changelog: |
+            ${{ steps.changelog.outputs.log }}
+          loaders: minecraft
+          game-versions: |
+            1.18
+            1.18.1
+            1.18.2
+          files-primary: |
+            ModsTranslationPack-1.18.x.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
