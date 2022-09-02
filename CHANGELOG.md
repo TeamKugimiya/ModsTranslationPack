@@ -1,5 +1,34 @@
 # Changelog
 
+## [1.2.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.1.0...v1.2.0) (2022-09-02)
+
+
+### 自動化 Action
+
+* 修復變更日誌未正確上傳至 Modrinth ([a9a8694](https://github.com/xMikux/ModsTranslationPack/commit/a9a86946d8d52007f9ba99285e58dda04decc3f3))
+
+
+### 文檔更新
+
+* **Readme:** 新增 Modrinth 下載點 ([6484bb8](https://github.com/xMikux/ModsTranslationPack/commit/6484bb80697f774c8f16e5e3df7aa20dab8ef3ea))
+
+
+### 清理翻譯 & 專案
+
+* **BlossomHomes:** 已在 v2.0.4 中內建中文 ([a9f3c0d](https://github.com/xMikux/ModsTranslationPack/commit/a9f3c0ddc0bb1d1d3144ee625c05b2fa49e4cf23))
+
+
+### 新增翻譯 & 內容
+
+* 新增 CIT Resewn ([c9c796f](https://github.com/xMikux/ModsTranslationPack/commit/c9c796f8b8e8f31299f961c45b3362c2670c474a))
+* 新增 Creeper Overhaul (苦力怕翻修) ([da4734a](https://github.com/xMikux/ModsTranslationPack/commit/da4734a8f27e01d377a12d6766d966dd048ab900))
+* 新增 More Frogs (更多青蛙) ([f74a3bd](https://github.com/xMikux/ModsTranslationPack/commit/f74a3bdc36066c4dd724b6a9b3b8c5546623a533))
+
+
+### 修正翻譯 & 專案
+
+* **CITResewn:** 修正翻譯錯誤 緩存 -> 快取 ([a3bb077](https://github.com/xMikux/ModsTranslationPack/commit/a3bb07758296cf20071af84b278b0267cf51eb05))
+
 ## [1.1.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.0.1...v1.1.0) (2022-09-02)
 
 
