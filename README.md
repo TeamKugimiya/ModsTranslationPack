@@ -8,6 +8,7 @@
 # 模組翻譯包
 
 [![Release](https://img.shields.io/github/v/release/xMikux/ModsTranslationPack?label=%E7%99%BC%E4%BD%88%E7%89%88&style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/releases/latest)
+[![Modrinth](https://img.shields.io/modrinth/dt/cF5VXmkW?label=Modrinth%20%E4%B8%8B%E8%BC%89%E9%87%8F&style=for-the-badge)](https://modrinth.com/resourcepack/modstranslationpack)
 [![License](https://img.shields.io/github/license/xMikux/ModsTranslationPack?style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/blob/main/LICENSE)
 
 這是一個簡單的模組翻譯包
@@ -32,11 +33,11 @@
 
 # 下載翻譯包
 
-依照你的遊戲版本下載對應的翻譯包
+在 Modrinth 平臺上，依照你的遊戲版本下載對應的翻譯包
 
-翻譯包並沒有區別，僅有遊戲是否會顯示紅色的版本不符合
+翻譯包內容並無任何區別，只有你的遊戲會不會警告而已
 
-[![DownloadBadgeRelease](https://img.shields.io/github/downloads/xMikux/ModsTranslationPack/latest/total?label=下載發佈版&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/releases/latest)
+[![Modrinth Download](https://img.shields.io/modrinth/dt/cF5VXmkW?label=在%20Modrinth%20上下載發佈版&logo=DocuSign&style=for-the-badge)](https://modrinth.com/resourcepack/modstranslationpack)
 [![DownloadBadgeLatest](https://img.shields.io/github/downloads/xMikux/ModsTranslationPack/total?label=下載測試版&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/releases/tag/latest)
 
 </div>
