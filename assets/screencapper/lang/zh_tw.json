@@ -23,7 +23,7 @@
     "screencapper.config.upload.sharex.request_method": "ShareX 請求方式",
     "screencapper.config.upload.sharex.request_type": "ShareX 請求類型",
     "screencapper.config.upload.sharex.open_config": "開啟 ShareX 設定檔案",
-    "screencapper.config.upload.sharex.reload_config": "重新加載 ShareX 設定檔案",
+    "screencapper.config.upload.sharex.reload_config": "重新載入 ShareX 設定檔案",
     "screencapper.config.upload.sharex.sxcu_path": "SXCU 檔案路徑",
     "screencapper.config.upload.sharex.import_sxcu": "匯入 SXCU 檔案",
 
