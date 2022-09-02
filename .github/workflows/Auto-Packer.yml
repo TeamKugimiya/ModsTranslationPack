@@ -39,11 +39,6 @@ jobs:
           mkdir -p $PATH_Create
           wget https://raw.githubusercontent.com/Creators-of-Create/Create/mc1.18/dev/src/main/resources/assets/create/lang/zh_tw.json -P $PATH_Create
 
-          echo "Override BlossomHomes..."
-          PATH_BlossomHomes=assets/blossom-homes/lang
-          mkdir -p $PATH_BlossomHomes
-          wget https://raw.githubusercontent.com/BlossomMods/BlossomHomes/main/src/main/resources/data/blossom/lang/zh_tw.json -P $PATH_BlossomHomes
-
           echo "Override ProjectE..."
           PATH_ProjectE=assets/projecte/lang
           mkdir -p $PATH_ProjectE
