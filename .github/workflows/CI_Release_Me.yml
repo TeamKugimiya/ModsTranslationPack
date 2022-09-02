@@ -138,7 +138,13 @@ jobs:
         id: changelog
         run: |
           Tags=${{ needs.release-please.outputs.tag_name }}
-          echo "::set-output name=log::$(curl https://api.github.com/repos/xMikux/ModsTranslationPack/releases/tags/$Tags -H "Accept: application/vnd.github+json" | jq -r .body)"
+          CHANGELOG=$(cat << EOF
+          $(curl https://api.github.com/repos/xMikux/ModsTranslationPack/releases/tags/$Tags -H "Accept: application/vnd.github+json" | jq -r .body)"
+          EOF
+          )
+          echo "CHANGELOG<<EOF" >> $GITHUB_ENV
+          echo "$CHANGELOG" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: Upload ModsTranslationPacks
         uses: softprops/action-gh-release@v1
@@ -157,7 +163,7 @@ jobs:
           name: 模組翻譯包 1.19.x ${{ needs.release-please.outputs.tag_name }}
           version: ${{ needs.release-please.outputs.tag_name }}
           changelog: |
-            ${{ steps.changelog.outputs.log }}
+            ${{ env.CHANGELOG }}
           loaders: minecraft
           game-versions: |
             1.19
@@ -174,7 +180,7 @@ jobs:
           name: 模組翻譯包 1.18.x ${{ needs.release-please.outputs.tag_name }}
           version: ${{ needs.release-please.outputs.tag_name }}
           changelog: |
-            ${{ steps.changelog.outputs.log }}
+            ${{ env.CHANGELOG }}
           loaders: minecraft
           game-versions: |
             1.18
