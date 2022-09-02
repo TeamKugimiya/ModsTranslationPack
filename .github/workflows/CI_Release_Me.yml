@@ -150,23 +150,6 @@ jobs:
             checksums.txt
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish to Modrinth (1.19.x)
-        uses: Kir-Antipov/mc-publish@v3.2
-        with:
-          modrinth-id: cF5VXmkW
-          modrinth-unfeature-mode: subset
-          name: 模組翻譯包 1.19.x ${{ needs.release-please.outputs.tag_name }}
-          version: ${{ needs.release-please.outputs.tag_name }}
-          changelog: |
-            ${{ env.CHANGELOG }}
-          loaders: minecraft
-          game-versions: |
-            1.19
-            1.19.1
-            1.19.2
-          files-primary: ModsTranslationPack-1.19.x.zip
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-
       - name: Publish to Modrinth (1.18.x)
         uses: Kir-Antipov/mc-publish@v3.2
         with:
@@ -182,4 +165,21 @@ jobs:
             1.18.1
             1.18.2
           files-primary: ModsTranslationPack-1.18.x.zip
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+      - name: Publish to Modrinth (1.19.x)
+        uses: Kir-Antipov/mc-publish@v3.2
+        with:
+          modrinth-id: cF5VXmkW
+          modrinth-unfeature-mode: subset
+          name: 模組翻譯包 1.19.x ${{ needs.release-please.outputs.tag_name }}
+          version: ${{ needs.release-please.outputs.tag_name }}
+          changelog: |
+            ${{ env.CHANGELOG }}
+          loaders: minecraft
+          game-versions: |
+            1.19
+            1.19.1
+            1.19.2
+          files-primary: ModsTranslationPack-1.19.x.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
