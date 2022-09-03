@@ -1,0 +1,12 @@
+{
+    "betterstats.gui.filters": "篩選",
+    "betterstats.gui.current_tab": "標籤",
+    "betterstats.gui.search": "搜尋",
+    "betterstats.gui.search.no_results": "未找到符合你搜尋的物品…",
+    "betterstats.gui.hide_empty": "隱藏空白統計",
+    "betterstats.gui.hide_empty.tooltip": "隱藏尚未有數值的一般、食物和怪物統計。",
+    "betterstats.gui.show_item_names": "顯示物品名稱",
+    "betterstats.gui.show_item_names.tooltip": "顯示物品名在物品統計提示中。",
+    "betterstats.gui.vanilla_stats_screen": "顯示原版統計介面",
+    "betterstats.gui.close": "關閉"
+}
