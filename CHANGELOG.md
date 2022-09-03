@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.2.1](https://github.com/xMikux/ModsTranslationPack/compare/v1.2.0...v1.2.1) (2022-09-02)
+
+
+### 自動化 Action
+
+* **ReleaseMe:** 修復版本上傳先後順序 ([6bd888f](https://github.com/xMikux/ModsTranslationPack/commit/6bd888f68a566f76069c082d5ffb70c2494ab597))
+
+
+### 修正翻譯 & 專案
+
+* **CITResewn:** 更多翻譯修正 ([cc815b8](https://github.com/xMikux/ModsTranslationPack/commit/cc815b8267fe1dda569f03a9420a68880cc15196))
+* **Screencapper:** 修正翻譯錯誤 ([04fa70a](https://github.com/xMikux/ModsTranslationPack/commit/04fa70a4a24859d94ac8e57f58d29a9603615414))
+* **Stendhal:** 修復多餘空格 ([47070c0](https://github.com/xMikux/ModsTranslationPack/commit/47070c0a620be8a94f9fe64676445b389f378f6c))
+
+
+### 清理翻譯 & 專案
+
+* 新增正確翻譯表格 (僅供於翻譯者自己查看) ([66307dd](https://github.com/xMikux/ModsTranslationPack/commit/66307ddd47ff8cbcedfc41cbf606021171a89174))
+
 ## [1.2.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.1.0...v1.2.0) (2022-09-02)
 
 
