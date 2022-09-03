@@ -1,0 +1,13 @@
+{
+  "text.autoconfig.PaginatedAdvancements.option.FadeOutBackgroundOnAdvancementHover": "滑鼠懸停在進度上時背景會稍微變灰",
+  "text.autoconfig.PaginatedAdvancements.option.PinnedTabs": "釘選 Tab 清單（根進度的識別碼）",
+  "text.autoconfig.PaginatedAdvancements.option.SaveLastSelectedTab": "儲存並恢復最後所選的 Tab",
+  "text.autoconfig.PaginatedAdvancements.option.LastSelectedTab": "最後開啟的 Tab 識別碼",
+  "text.autoconfig.PaginatedAdvancements.option.SpacingBetweenHorizontalTabs": "橫向 Tab 間隔",
+  "text.autoconfig.PaginatedAdvancements.option.SpacingBetweenPinnedTabs": "釘選 Tab 間隔",
+  "text.autoconfig.PaginatedAdvancements.option.AlwaysShowDebugInfo": "總是顯示除錯資訊（預設：僅在進階提示時啟用時顯示）",
+
+  "text.paginated_advancements.copied_to_clipboard": "已複製進度 ID 至剪貼簿",
+  "text.paginated_advancements.group": "組：",
+  "text.paginated_advancements.copy_to_clipboard": "（Ctrl+C 來複製）"
+}
