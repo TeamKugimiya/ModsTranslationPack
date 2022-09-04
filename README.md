@@ -118,8 +118,8 @@
       <li>screencapper</li>
       <li>skyblockbuilder</li>
       <li>skyguis</li>
-      <li>sodium</li>
       <li>sodium-extra</li>
+      <li>sodium</li>
       <li>stendhal</li>
       <li>trashcans</li>
     </ul>
