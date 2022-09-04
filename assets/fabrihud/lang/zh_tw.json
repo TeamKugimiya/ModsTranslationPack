@@ -5,7 +5,7 @@
 
   "config.fabrihud.primary": "設定",
   "config.fabrihud.elements": "元素",
-  "config.fabrihud.global": "全局",
+  "config.fabrihud.global": "全域",
 
   "config.fabrihud.apply":"套用",
   "config.fabrihud.apply.tooltip": "套用並儲存變更",
