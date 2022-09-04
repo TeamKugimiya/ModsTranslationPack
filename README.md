@@ -33,14 +33,97 @@
 
 # 下載翻譯包
 
-在 Modrinth 平臺上，依照你的遊戲版本下載對應的翻譯包
+在 Modrinth 平臺上上依照你的版本下載對應的翻譯包
 
-翻譯包內容並無任何區別，只有你的遊戲會不會警告而已
+測試版包含最新未發佈的翻譯，但變動幅度比較大。
+
+翻譯包內容並無任何區別，差別於你的遊戲會不會警告你不相容
 
 [![Modrinth Download](https://img.shields.io/modrinth/dt/cF5VXmkW?label=在%20Modrinth%20上下載發佈版&logo=DocuSign&style=for-the-badge)](https://modrinth.com/resourcepack/modstranslationpack)
 [![DownloadBadgeLatest](https://img.shields.io/github/downloads/xMikux/ModsTranslationPack/total?label=下載測試版&logo=DocuSign&style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/releases/tag/latest)
 
 </div>
+
+## 目前有內建的模組翻譯列表
+
+目前支援 71 個模組。
+
+<details>
+  <summary>展開列表</summary>
+    <ul>
+      <li>additionalbars</li>
+      <li>additionallanterns</li>
+      <li>ae2</li>
+      <li>ae2things</li>
+      <li>aeinfinitybooster</li>
+      <li>allthecompressed</li>
+      <li>allthemodium</li>
+      <li>alltheores</li>
+      <li>allthetweaks</li>
+      <li>angelring</li>
+      <li>appbot</li>
+      <li>appmek</li>
+      <li>ars_nouveau</li>
+      <li>auditory</li>
+      <li>autoclicker-fabric</li>
+      <li>autofish</li>
+      <li>bambooeverything</li>
+      <li>betterf3</li>
+      <li>betterstats</li>
+      <li>bhc</li>
+      <li>blur</li>
+      <li>citresewn</li>
+      <li>configured</li>
+      <li>continuity</li>
+      <li>cosmeticarmorreworked</li>
+      <li>creeperoverhaul</li>
+      <li>curios</li>
+      <li>dashloader</li>
+      <li>effective</li>
+      <li>exmachinis</li>
+      <li>exnaturae</li>
+      <li>exnihiloae</li>
+      <li>exnihilomekanism</li>
+      <li>exnihilosequentia</li>
+      <li>exnihilothermal</li>
+      <li>extrasounds</li>
+      <li>extremesoundmuffler</li>
+      <li>fabrihud</li>
+      <li>findme</li>
+      <li>fluxnetworks</li>
+      <li>ftbbackups</li>
+      <li>ftbchunks</li>
+      <li>ftbessentials</li>
+      <li>ftblibrary</li>
+      <li>ftbteams</li>
+      <li>ftbultimine</li>
+      <li>functionalstorage</li>
+      <li>hexerei</li>
+      <li>hostilenetworks</li>
+      <li>inventoryhud</li>
+      <li>ironchests</li>
+      <li>jei</li>
+      <li>justenoughprofessions</li>
+      <li>laserio</li>
+      <li>lazierae2</li>
+      <li>lowfire</li>
+      <li>megacells</li>
+      <li>morefrogs</li>
+      <li>mousewheelie</li>
+      <li>notenoughcrashes</li>
+      <li>notenoughwands</li>
+      <li>observable</li>
+      <li>paginatedadvancements</li>
+      <li>presencefootsteps</li>
+      <li>screencapper</li>
+      <li>skyblockbuilder</li>
+      <li>skyguis</li>
+      <li>sodium</li>
+      <li>sodium-extra</li>
+      <li>stendhal</li>
+      <li>trashcans</li>
+    </ul>
+</details>
 
 ## 第三方翻譯來源
 
