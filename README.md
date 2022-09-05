@@ -46,7 +46,7 @@
 
 ## 目前有內建的模組翻譯列表
 
-目前支援 71 個模組。
+目前支援 73 個模組。
 
 <details>
   <summary>展開列表</summary>
@@ -67,6 +67,7 @@
       <li>auditory</li>
       <li>autoclicker-fabric</li>
       <li>autofish</li>
+      <li>automodpack</li>
       <li>bambooeverything</li>
       <li>betterf3</li>
       <li>betterstats</li>
@@ -75,6 +76,7 @@
       <li>citresewn</li>
       <li>configured</li>
       <li>continuity</li>
+      <li>copper-horns</li>
       <li>cosmeticarmorreworked</li>
       <li>creeperoverhaul</li>
       <li>curios</li>
