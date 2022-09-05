@@ -1,0 +1,20 @@
+{
+  "key.lightoverlay.category": "Light Overlay",
+  "key.lightoverlay.enable_overlay": "開關光源亮度顯示",
+  "description.lightoverlay.caching": "建議顯示超過 16 格距離遠的時候或是你在馬鈴薯電腦上運行時啟用。",
+  "config.lightoverlay.general": "通用",
+  "config.lightoverlay.reach": "距離：",
+  "config.lightoverlay.caching": "快取：",
+  "config.lightoverlay.crossLevel": "光源亮度:",
+  "config.lightoverlay.secondaryLevel": "次要光源亮度：",
+  "config.lightoverlay.showNumber": "改為顯示數字：",
+  "config.lightoverlay.smoothLines": "平滑線條：",
+  "config.lightoverlay.underwater": "在水下顯示：",
+  "config.lightoverlay.lineWidth": "行寬：",
+  "config.lightoverlay.yellowColor": "黃色顏色：",
+  "config.lightoverlay.secondaryColor": "次要顏色",
+  "config.lightoverlay.redColor": "紅色顏色：",
+  "config.lightoverlay.invalidColor": "無效顏色",
+  "config.lightoverlay.mushroom": "在蘑菇地生態域中顯示：",
+  "config.lightoverlay.useListWhileCaching": "快取時使用 glList："
+}
