@@ -124,7 +124,7 @@
   "skyblockbuilder.screen.button.delete": "刪除",
   "skyblockbuilder.screen.button.open_folder.tooltip": "開啟資料夾",
   "skyblockbuilder.screen.widget.structure_name": "結構名稱",
-  "skyblockbuilder.screen.open_folder.error": "無法開啟資料夾： %s",
+  "skyblockbuilder.screen.open_folder.error": "無法開啟資料夾：%s",
   "skyblockbuilder.schematic.saved": "結構已儲存在 skyblock_exports/%s",
   "skyblockbuilder.structure_saver.pos": "座標 %s 設置在 x %s, y %s, z %s",
 
