@@ -75,7 +75,7 @@
 - screencapper | [已回饋](https://github.com/Deftu/Screencapper/pull/6)，但翻譯有變動，需再度 PR
 - skyblockbuilder
 - skyguis
-- sodium
+- sodium | 因為 Crowdin 並未與主專案做連接
 - sodium-extra | 已提交上 Crowdin
 - stendhal
 - trashcans
