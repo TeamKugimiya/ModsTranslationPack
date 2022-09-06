@@ -1,5 +1,50 @@
 # Changelog
 
+## [1.3.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.2.1...v1.3.0) (2022-09-06)
+
+
+### 自動化 Action
+
+* **ReleaseMe:** 修正我不小心額外增加的符號 ([a6e3797](https://github.com/xMikux/ModsTranslationPack/commit/a6e37971abc0a17fccf50b04abf4f5d78e8452db))
+
+
+### 新增翻譯 & 內容
+
+* 新增 AutoModpack (自動更新模組包) ([cec13e6](https://github.com/xMikux/ModsTranslationPack/commit/cec13e648eb9d4e626338b6ac3278788a879a923))
+* 新增 BetterStats (更好的統計介面) ([48e6cf1](https://github.com/xMikux/ModsTranslationPack/commit/48e6cf1110057f4b3571d90e5e5331bca9579b57))
+* 新增 Light Overlay (光源亮度顯示) ([7b26a60](https://github.com/xMikux/ModsTranslationPack/commit/7b26a602752ff9fc858ddb937855d4aa8444ae25))
+* 新增 Multiconnect (多版本連接) ([ff233c7](https://github.com/xMikux/ModsTranslationPack/commit/ff233c76c8b19c4ef69a6046cbc63d9d41cd8c6e))
+* 新增 Paginated Advancements (分頁進度) ([d3ddf75](https://github.com/xMikux/ModsTranslationPack/commit/d3ddf753d15b5e0584915435268314d4780d6569))
+* 新增 Return Copper Horns (返還銅製山羊角) ([fda8faa](https://github.com/xMikux/ModsTranslationPack/commit/fda8faa5c7d2d56c0e75e8559a5e0df8d833236c))
+* 新增 TrashCans (垃圾桶) ([096927d](https://github.com/xMikux/ModsTranslationPack/commit/096927d62fac5a74ca53b6b074a9bab399be470e))
+
+
+### 清理翻譯 & 專案
+
+* **Sodium Extra:** 更新翻譯 ([2427e17](https://github.com/xMikux/ModsTranslationPack/commit/2427e173112ca7cfc7a4e1b91116b63567d8d588))
+* **Sodium:** 合併更新 Sodium ([e653983](https://github.com/xMikux/ModsTranslationPack/commit/e653983b664689d1c9ebf9fcf6584b5cdc71af17))
+
+
+### 文檔更新
+
+* **CTL:** 新增新的單字 ([378e73f](https://github.com/xMikux/ModsTranslationPack/commit/378e73f286f065b93158a271ab4a55d2840c4b3d))
+* **CTL:** 新增英文對照 ([fc82dc9](https://github.com/xMikux/ModsTranslationPack/commit/fc82dc99e1582f15480814a4b65ed93d249e3f3c))
+* **ModsList:** 新增模組清單，用於追蹤哪些模組已回饋 ([3d3ebbd](https://github.com/xMikux/ModsTranslationPack/commit/3d3ebbd6c38a918cc15cc4a62f5781bd4471e907))
+* **ModsList:** 更新 Sodium 簡介 ([c00b98c](https://github.com/xMikux/ModsTranslationPack/commit/c00b98c57644bc84683cad9ebf98474b9bed7cb2))
+* **Readme:** 小小微調順序 ([f41d041](https://github.com/xMikux/ModsTranslationPack/commit/f41d04163742b06020ffcef767361732103fe5b6))
+* **Readme:** 新增目前有支援的模組 ([8854476](https://github.com/xMikux/ModsTranslationPack/commit/88544763c17e8df63b79283de62b1b6366ad0268))
+* **Readme:** 更新模組列表 ([9446ff6](https://github.com/xMikux/ModsTranslationPack/commit/9446ff69e354db80443fefdf028f7f6cc1c8cd5a))
+* **Readme:** 更新模組支援表 ([246dbf8](https://github.com/xMikux/ModsTranslationPack/commit/246dbf84f9030bb6bcaf4354caa26b3f973bbcbf))
+
+
+### 修正翻譯 & 專案
+
+* **Multiconnect:** 小小微調翻譯 ([bf5ae74](https://github.com/xMikux/ModsTranslationPack/commit/bf5ae74af5b336e8aabddccf2dc965d62341b81c))
+* **Sodium Extra:** 修復翻譯空格 ([f688a0f](https://github.com/xMikux/ModsTranslationPack/commit/f688a0f95a1d9d1140974117264ab6b56af2b5ff))
+* 修復兩個模組的多餘空格 ([b754fff](https://github.com/xMikux/ModsTranslationPack/commit/b754fffad6e7083de182b964e965c3b4e55fdce0))
+* 修復兩個模組的翻譯錯誤 ([69fdd08](https://github.com/xMikux/ModsTranslationPack/commit/69fdd086ceea14bccce7dfc6e5eddb0fb908e90e))
+* 再度修復兩個模組的多餘空格 ([ccb80ba](https://github.com/xMikux/ModsTranslationPack/commit/ccb80ba652f90003fa6309a683d5567c7efc0439))
+
 ## [1.2.1](https://github.com/xMikux/ModsTranslationPack/compare/v1.2.0...v1.2.1) (2022-09-02)
 
 
