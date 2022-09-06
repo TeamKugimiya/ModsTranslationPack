@@ -1,8 +1,8 @@
 {
-  "multiconnect.betaWarning.line1": "%s 在 Multiconnect 中處於測試版。",
-  "multiconnect.betaWarning.line2": "預期之外的錯誤，可以回報此模組的錯誤追蹤！",
+  "multiconnect.betaWarning.line1": "%s 在 Multiconnect 處於測試版。",
+  "multiconnect.betaWarning.line2": "發生預期之外的錯誤，可以回報到此模組的錯誤追蹤！",
   "multiconnect.changeForcedProtocol": "版本",
-  "multiconnect.config.allowOldUnsignedChat": "不安全的聊天訊息",
+  "multiconnect.config.allowOldUnsignedChat": "不安全聊天訊息",
   "multiconnect.config.allowOldUnsignedChat.tooltip": "允許來自 1.19 或更舊版本的不安全聊天訊息",
   "multiconnect.config.enableDebugKey": "除錯按鍵",
   "multiconnect.config.enablePacketRecording": "封包記錄器",
