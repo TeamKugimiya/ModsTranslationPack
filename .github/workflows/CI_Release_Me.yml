@@ -134,7 +134,7 @@ jobs:
         run: |
           Tags=${{ needs.release-please.outputs.tag_name }}
           CHANGELOG=$(cat << EOF
-          $(curl https://api.github.com/repos/xMikux/ModsTranslationPack/releases/tags/$Tags -H "Accept: application/vnd.github+json" | jq -r .body)"
+          $(curl https://api.github.com/repos/xMikux/ModsTranslationPack/releases/tags/$Tags -H "Accept: application/vnd.github+json" | jq -r .body)
           EOF
           )
           echo "CHANGELOG<<EOF" >> $GITHUB_ENV
