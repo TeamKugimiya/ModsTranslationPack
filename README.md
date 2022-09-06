@@ -46,7 +46,7 @@
 
 ## 目前有內建的模組翻譯列表
 
-目前支援 73 個模組。
+目前支援 75 個模組。
 
 <details>
   <summary>展開列表</summary>
@@ -108,10 +108,12 @@
       <li>justenoughprofessions</li>
       <li>laserio</li>
       <li>lazierae2</li>
+      <li>lightoverlay</li>
       <li>lowfire</li>
       <li>megacells</li>
       <li>morefrogs</li>
       <li>mousewheelie</li>
+      <li>multiconnect</li>
       <li>notenoughcrashes</li>
       <li>notenoughwands</li>
       <li>observable</li>
