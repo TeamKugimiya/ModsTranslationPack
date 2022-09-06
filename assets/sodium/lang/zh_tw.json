@@ -8,7 +8,7 @@
   "sodium.options.pages.performance": "效能",
   "sodium.options.pages.advanced": "進階",
   "sodium.options.view_distance.tooltip": "顯示距離控制地形應被繪製到多遠。更低的距離意味著更少的可見地形，也就有利於提升FPS。",
-  "sodium.options.simulation_distance.tooltip": "模擬距離控制將載入和運算地形和實體的距離。較短的距離可以減少內部伺服器的負載，並可能提升 FPS。",
+  "sodium.options.simulation_distance.tooltip": "模擬距離控制將載入和運算的地形和實體的距離。較短的距離可以減少內部伺服器的負載，並可能提升 FPS。",
   "sodium.options.brightness.tooltip": "控制遊戲畫面的亮度（伽馬值）。",
   "sodium.options.gui_scale.tooltip": "設定介面尺寸比例。如果設定為「自動」，則使用可能的最大比例。",
   "sodium.options.fullscreen.tooltip": "啟用後，遊戲將全螢幕顯示（若支援）。",
