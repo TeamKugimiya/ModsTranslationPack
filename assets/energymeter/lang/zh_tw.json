@@ -1,0 +1,77 @@
+{
+  "itemGroup.energymeter": "Energy Meter",
+
+  "block.energymeter.meter": "能量儀表板",
+  "container.energymeter.meter": "能量儀表板",
+
+  "label.energymeter.meter": "能量儀表板",
+  "label.energymeter.transfer_rate": "傳輸率",
+  "label.energymeter.number": "數字",
+  "label.energymeter.status": "狀態",
+  "label.energymeter.mode": "模式",
+  "label.energymeter.accuracy": "精確性",
+  "label.energymeter.interval": "I",
+  "label.energymeter.threshold": "T",
+
+  "tooltip.energymeter.side_config": "I/O 配置",
+  "tooltip.energymeter.io_side": "方位",
+  "tooltip.energymeter.io_mode": "模式",
+  "tooltip.energymeter.current": "目前",
+
+  "tooltip.energymeter.number": "數字顯示設定",
+  "tooltip.energymeter.number_desc_1": "定義傳輸速率格式應該是短還長。",
+  "tooltip.energymeter.number_desc_2": "僅影響數字超過 1.000 FE/t。",
+
+  "tooltip.energymeter.mode": "模式設定",
+  "tooltip.energymeter.mode_desc_1": "定義能量儀表板所使用的模式。",
+  "tooltip.energymeter.mode_desc_2": "像是能量電線一樣。能量將平均分配，僅受到輸入／輸出限制。",
+  "tooltip.energymeter.mode_desc_3": "像是能量垃圾桶一樣。傳入內的能量將會銷毀。這可以用於測量最大輸入能量數值。",
+
+  "tooltip.energymeter.accuracy": "準確性設定",
+  "tooltip.energymeter.accuracy_desc_1": "定義能量儀表板的準確性。",
+  "tooltip.energymeter.accuracy_desc_2": "顯示過去 5 Ticks 中的平均值。每個週期，它將會拋棄以前的數值並顯示目前週期的數值，如果能量流動不一致，將會顯示所產生的峰值。",
+  "tooltip.energymeter.accuracy_desc_3": "接受自訂 Tick 間隔並運算該週期的平均值。此外，它將考慮上個週期的傳輸率，平滑峰值並提高多週期的準確性。",
+
+  "tooltip.energymeter.interval": "更新間隔",
+  "tooltip.energymeter.interval_desc_1": "定義每次運算傳輸率之間的 Tick（1秒 = 20 Ticks）。",
+  "tooltip.energymeter.interval_desc_2": "較高數值將會消除峰值，但也會導致螢幕上更新的頻率更慢。",
+
+  "tooltip.energymeter.threshold": "零閾值",
+  "tooltip.energymeter.threshold_desc_1": "定義重置閾值的 Tick（1秒= 20 Ticks）。如果在此週期中沒有接收到能量，將會將儀表重置為零。",
+  "tooltip.energymeter.threshold_desc_2": "較低數值將可以更快檢測到能量損失。該數值不能高於更新間隔，因為這樣沒用。",
+
+  "tooltip.energymeter.action_click": "點擊",
+  "tooltip.energymeter.action_hold": "按住",
+  "tooltip.energymeter.action_1": "來切換",
+  "tooltip.energymeter.action_2": "來重置",
+  "tooltip.energymeter.action_3": "來開關",
+  "tooltip.energymeter.action_4": "來展開更多資訊",
+  "tooltip.energymeter.action_5": "來更改間隔",
+  "tooltip.energymeter.action_6": "來應用間隔",
+
+  "block_side.energymeter.bottom": "底部",
+  "block_side.energymeter.top": "頂部",
+  "block_side.energymeter.front": "前方",
+  "block_side.energymeter.back": "後方",
+  "block_side.energymeter.left": "左",
+  "block_side.energymeter.right": "右",
+
+  "io_setting.energymeter.off": "關閉",
+  "io_setting.energymeter.in": "輸入",
+  "io_setting.energymeter.out": "輸出",
+  "io_setting.energymeter.screen": "螢幕",
+
+  "number.energymeter.long": "長",
+  "number.energymeter.short": "短",
+
+  "status.energymeter.disconnected": "連接中斷",
+  "status.energymeter.connected": "連接",
+  "status.energymeter.transferring": "正在傳輸",
+  "status.energymeter.consuming": "正在消耗",
+
+  "mode.energymeter.transfer": "傳輸",
+  "mode.energymeter.consumer": "消耗",
+
+  "accuracy.energymeter.exact": "精確",
+  "accuracy.energymeter.interval": "間隔"
+}
