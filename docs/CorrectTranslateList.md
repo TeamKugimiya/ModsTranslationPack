@@ -9,3 +9,5 @@
 | Add| 添加 | 新增 |
 | Global| 全局 | 全域 |
 | Cache | 緩存 | 快取 |
+| Tutorial | 教程 | 教學 |
+| Running | 運行 | 運作 |
