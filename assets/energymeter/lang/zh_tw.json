@@ -33,11 +33,11 @@
   "tooltip.energymeter.accuracy_desc_3": "自訂間隔 Tick 並取該週期的平均值。此外，它將納入上個週期的數值，抑制峰值並提高多個週期下的準確度。",
 
   "tooltip.energymeter.interval": "更新間隔",
-  "tooltip.energymeter.interval_desc_1": "定義每次運算傳輸率之間間隔的 Tick（1秒 = 20 Ticks）。",
+  "tooltip.energymeter.interval_desc_1": "定義每次運算傳輸率之間間隔的 Tick（1 秒 = 20 Ticks）。",
   "tooltip.energymeter.interval_desc_2": "較高數值將會抑制峰值，但會讓數值的更新頻率更慢。",
 
   "tooltip.energymeter.threshold": "歸零閾值",
-  "tooltip.energymeter.threshold_desc_1": "定義重置閾值的 Tick（1秒 = 20 Ticks）。如果在此週期中沒有接收到能量，將會將儀表歸零。",
+  "tooltip.energymeter.threshold_desc_1": "定義重置閾值的 Tick（1 秒 = 20 Ticks）。如果在此週期中沒有接收到能量，將會將儀表歸零。",
   "tooltip.energymeter.threshold_desc_2": "較低數值將可以更快檢測到能量損失。該數值不能高於更新間隔，這樣會失效。",
 
   "tooltip.energymeter.action_click": "點擊",
