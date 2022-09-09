@@ -1,7 +1,7 @@
 {
   "key.lightoverlay.category": "Light Overlay",
   "key.lightoverlay.enable_overlay": "開關光源亮度顯示",
-  "description.lightoverlay.caching": "建議顯示超過 16 格距離遠的時候或是你在馬鈴薯電腦上運行時啟用。",
+  "description.lightoverlay.caching": "建議顯示超過 16 格距離遠的時候或是你在馬鈴薯電腦上運作時啟用。",
   "config.lightoverlay.general": "通用",
   "config.lightoverlay.reach": "距離：",
   "config.lightoverlay.caching": "快取：",

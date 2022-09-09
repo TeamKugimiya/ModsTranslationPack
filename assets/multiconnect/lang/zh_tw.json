@@ -9,7 +9,7 @@
   "multiconnect.config.enablePacketRecording.tooltip": "記錄下所有用戶端發送與接受的封包，並存在日誌檔案中，開發者可以使用它來更簡單識別出錯誤、還原來自用戶的問題。除非必要，否則不建議使用。",
   "multiconnect.config.title": "Multiconnect 設定",
   "multiconnect.debug.runningHttpServer.stop": "停止",
-  "multiconnect.debug.runningHttpServer.title": "正在運行 HTTP 伺服器",
+  "multiconnect.debug.runningHttpServer.title": "正在運作 HTTP 伺服器",
   "multiconnect.debug.menu.title": "Multiconnect 除錯介面",
   "multiconnect.debug.menu.HttpServer.start" : "啟用 HttpServer",
   "multiconnect.debug.menu.start" : "開始回放",
