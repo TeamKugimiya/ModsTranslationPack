@@ -82,6 +82,7 @@
       <li>curios</li>
       <li>dashloader</li>
       <li>effective</li>
+      <li>energymeter</li>
       <li>exmachinis</li>
       <li>exnaturae</li>
       <li>exnihiloae</li>
