@@ -46,7 +46,7 @@
 | extremesoundmuffler | :x: |  |
 | fabrihud | :x: |  |
 | findme | :x: |  |
-| fluxnetworks | :x: |  |
+| fluxnetworks | :heavy_check_mark: | [已回饋](https://github.com/SonarSonic/Flux-Networks/pull/482)，需要更新。 |
 | ftbbackups | :x: |  |
 | ftbchunks | :x: |  |
 | ftbessentials | :x: |  |
