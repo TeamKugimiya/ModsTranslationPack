@@ -1,5 +1,39 @@
 # Changelog
 
+## [1.4.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.3.0...v1.4.0) (2022-09-25)
+
+
+### 修正翻譯 & 專案
+
+* **Energy Meter:** 修復更多缺少的空格 ([50a1763](https://github.com/xMikux/ModsTranslationPack/commit/50a1763927a36b797c72ac530bb95a6c5fc316f2))
+* **Energy Meter:** 修復缺少的空格 ([a10fb40](https://github.com/xMikux/ModsTranslationPack/commit/a10fb4061137fff6052fc3b6b1cf01089f404405))
+* 修復翻譯 ([f58eb9d](https://github.com/xMikux/ModsTranslationPack/commit/f58eb9df97b1ef0248429c16b5f0f4c782b4b627))
+
+
+### 清理翻譯 & 專案
+
+* **AutoModPack:** 修正翻譯 ([d6caf11](https://github.com/xMikux/ModsTranslationPack/commit/d6caf11eb3887b370caeba210eb6b2ba97cc7bf4))
+* **CTL:** 新增更多 ([8a9062c](https://github.com/xMikux/ModsTranslationPack/commit/8a9062c74aef054970cfae35b10443f38c45eba1))
+* **Energy Meter:** 調整取樣模式與其他翻譯 ([6aa87a0](https://github.com/xMikux/ModsTranslationPack/commit/6aa87a0963fbf6c674f71f08e9f9f09abbd4afce))
+* 更新模組列表 (與已貢獻資訊) ([7868e28](https://github.com/xMikux/ModsTranslationPack/commit/7868e2822ffb93ecd986efce6ece40c8c6e89949))
+
+
+### 新增翻譯 & 內容
+
+* 新增 Energy Meter (能量儀表) ([89f14e0](https://github.com/xMikux/ModsTranslationPack/commit/89f14e064fd6a5c4e7bad18ad00d64bfaf13bbbe))
+* 更新 StarskyXIII 的翻譯 ([7ca8644](https://github.com/xMikux/ModsTranslationPack/commit/7ca864431e90e89334283e3de93262ef86a40a6b))
+
+
+### 自動化 Action
+
+* 更新 ProjectE 的 CI 連結 ([3eb58a8](https://github.com/xMikux/ModsTranslationPack/commit/3eb58a89a0ce29ae3b9d121ad015df807b7f45ae))
+
+
+### 文檔更新
+
+* **ModsList:** 更新完成列表 ([995ab8b](https://github.com/xMikux/ModsTranslationPack/commit/995ab8b859b0604fb4853af8b3f9aaa0b7df8a39))
+* **Readme:** 更新支援模組數 ([2ac72a1](https://github.com/xMikux/ModsTranslationPack/commit/2ac72a1f21eb85bbefd5ca655c5c303d14a1caf6))
+
 ## [1.3.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.2.1...v1.3.0) (2022-09-06)
 
 
