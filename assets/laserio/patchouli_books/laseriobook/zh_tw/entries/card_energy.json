@@ -22,7 +22,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "技術性備註：Forge 能量系統最大可支援的能量儲存為大約 2.14 億 FE。若你正使用像是 Draconic Evolution 或 Mekanism 之類的模組，他們的電池透過使用駭入的方式，可以儲存遠大於 Forge 能量系統可支援的數值。因此這個限制百分比的功能，將對這些容量遠大於 2.14 億 FE 的能量電池不起作用，抱歉囉！:)"
+      "text": "技術性備註：Forge 能量系統最大可支援的能量儲存為大約 2.14 億 FE。若你正使用像是 Draconic Evolution 或 Mekanism 之類的模組，他們的電池透過使用駭入的方式，可以儲存遠大於 Forge 能量系統可支援的數值。因此這個限制百分比的功能，對這些容量遠大於 2.14 億 FE 的能量電池不起作用，抱歉囉！:)"
     },
     {
       "type": "patchouli:crafting",

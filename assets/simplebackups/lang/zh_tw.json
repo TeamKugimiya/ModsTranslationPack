@@ -1,0 +1,4 @@
+{
+  "simplebackups.backup_started": "開始備份...",
+  "simplebackups.backup_finished": "備份完成，耗時 %s（%s｜%s）"
+}

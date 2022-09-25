@@ -1,0 +1,17 @@
+{
+    "name":"基礎發電機",
+    "icon":"ftbic:basic_generator",
+    "category":"ftbic:generators",
+    "sortnum":0,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)基礎發電機$()使用熔爐燃料來產生 Zaps 能量。燃料可燃燒的時間越長，所能產生的 Zaps 就越多。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:basic_generator",
+            "text":"燃料每能熔煉一個物品，就能產生 2,000⚡。$(br2)舉個例子，煤炭可以熔煉 8 個物品，所以能產生出 16,000⚡。$(br2)由於發電量只有 10⚡/t。故為 LV 發電機。"
+        }
+    ]
+}

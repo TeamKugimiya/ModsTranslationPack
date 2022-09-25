@@ -1,0 +1,17 @@
+{
+    "name":"裝罐機",
+    "icon":"ftbic:canning_machine",
+    "category":"ftbic:machines",
+    "sortnum":5,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)裝罐機$()透過消耗 Zaps 將物品裝罐。$(br2)每次食用$(item)罐裝食物$()時，可分別回復 4 點飢餓值與飽食度。食用完畢後會返還空罐。$(br2)$(item)噴漆罐$()能夠將機器在白色與黑色間，變換配色主題。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:canning_machine",
+            "text":"每裝罐一個物品，將消耗 200⚡。$(br2)在未安裝任何$(l:ftbic:items/upgrades)升級$()的情況下，機器最高只能接受 LV 電流。"
+        }
+    ]
+}

@@ -22,6 +22,11 @@
       "type": "patchouli:spotlight",
       "item": "laserio:card_item{channel:0b,exact:0b,inv:{Items:[],Size:2},itemextractamt:1b,itemextractspeed:20,mode:2b,priority:0s,regulate:0b,roundRobin:0,sneaky:-1b}",
       "text": "庫存模式卡會嘗試檢索篩選器所指定的物品，並從相同網路的輸入模式卡中抽取這些物品。$(br2)庫存模式卡需要將篩選器設為白名單才會運作。"
+	},
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item{channel:0b,exact:0b,inv:{Items:[],Size:2},itemextractamt:1b,itemextractspeed:20,mode:3b,priority:0s,regulate:0b,roundRobin:0,sneaky:-1b}",
+      "text": "檢測模式卡不會移動物體，而是會檢測相鄰容器中的物品，當容器內的物品與篩選器設定相符將發射紅石訊號至紅石頻道中。$(br2)檢測模式卡需要安裝篩選器才會運作。"
     }
   ]
 }

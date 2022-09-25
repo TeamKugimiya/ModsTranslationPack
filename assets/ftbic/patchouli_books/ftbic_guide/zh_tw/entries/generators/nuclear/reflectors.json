@@ -1,0 +1,17 @@
+{
+    "name":"中子反射體",
+    "icon":"ftbic:neutron_reflector",
+    "category":"ftbic:nuclear",
+    "sortnum":7,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)中子反射體$()能夠將燃料棒所產生的$(l:ftbic:generators/nuclear/fuel#pulse)中子脈衝$()反射回去。$(br2)四周被中子反射體包圍的燃料棒，將會接收到 4 發中子脈衝。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:neutron_reflector",
+            "text":"中子反射體擁有$(c)耐久度$()，且每秒會損失 1 點。$(br2)$(item)加厚中子反射體$()可以使用 4 倍時間，而$(item)銥中子反射體$()則擁有無盡的耐久度。"
+        }
+    ]
+}

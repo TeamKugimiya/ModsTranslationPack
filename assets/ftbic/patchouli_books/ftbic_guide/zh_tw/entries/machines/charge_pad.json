@@ -1,0 +1,17 @@
+{
+    "name":"充能台",
+    "icon":"ftbic:charge_pad",
+    "category":"ftbic:machines",
+    "sortnum":9,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"當你站在$(item)充能台$()上，機器將透過消耗 Zaps 來$(major)為你物品欄內的物品充能$()。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:charge_pad",
+            "text":"最高可接受 IV 電流。"
+        }
+    ]
+}

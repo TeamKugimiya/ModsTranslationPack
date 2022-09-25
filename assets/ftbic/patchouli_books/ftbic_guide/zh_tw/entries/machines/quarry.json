@@ -1,0 +1,28 @@
+{
+    "name":"採石場",
+    "icon":"ftbic:quarry",
+    "category":"ftbic:machines",
+    "sortnum":10,
+    "pages": [
+        {
+            "type":"patchouli:text",
+            "text": "$(item)採石場$()透過消耗 Zaps 來$(major)挖掘一定區域內的方塊$()。$(br2)預設情況下，採石場將挖掘 7x7 的區域，持續挖掘到直通基岩層。$(br2)採掘起來的物品將被收集進機器的物品欄中。$(br2)為了預防 lag，會在流體周圍放置 Ex-流體來避免它們流動。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:quarry",
+            "text":"每挖掘一個方塊，將消耗大約 150⚡。$(br2)在未安裝任何$(l:ftbic:items/upgrades)升級$()的情況下，機器最高只能接受 HV 電流。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:landmark",
+            "text":"預設情況下，採石場只會挖掘 7x7 的區域。你可以透過使用$(item)界標$()來擴大範圍。$(br2)放置最多 3 個界標來框選邊界，然後在邊界上放置採石場。",
+            "anchor":"landmarks"
+        },
+        {
+            "type":"patchouli:image",
+            "images":["ftbic:textures/patchouli/quarry.png"],
+            "title":"放置界標"
+        }
+    ]
+}

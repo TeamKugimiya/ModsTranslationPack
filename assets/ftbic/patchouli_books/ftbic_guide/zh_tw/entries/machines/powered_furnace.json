@@ -1,0 +1,17 @@
+{
+    "name":"電爐",
+    "icon":"ftbic:powered_furnace",
+    "category":"ftbic:machines",
+    "sortnum":1,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)電爐$()透過消耗 Zaps 來$(major)融煉物品$()。$(br2)將燃料燃燒成 Zaps 來融煉物品，較直接使用熔爐來得高效許多。1 個煤炭燃燒出的 Zaps，共可以融煉 53.3 個物品。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:powered_furnace",
+            "text":"每融煉一個物品，將消耗 300⚡。$(br2)在未安裝任何$(l:ftbic:items/upgrades)升級$()的情況下，機器最高只能接受 LV 電流。"
+        }
+    ]
+}

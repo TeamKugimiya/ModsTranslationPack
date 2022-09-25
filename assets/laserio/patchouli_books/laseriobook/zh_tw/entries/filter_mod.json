@@ -1,12 +1,12 @@
 {
-  "name": "Mod Filter",
+  "name": "模組篩選器",
   "sortnum": 3,
   "category": "laserio:filters",
   "icon": "laserio:filter_mod",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The mod filter will sort based on what mod an item/block comes from. For example, if you place a Laser Wrench in the filter, all LaserIO items and blocks will match that filter."
+      "text": "模組篩選器會根據模組來源對物品／方塊進行分類。舉個例子，當你將雷射扳手設在篩選器上，所有來自 LaserIO 模組的物品與方塊，將會被篩選器視作條件相符。"
     }
   ]
 }

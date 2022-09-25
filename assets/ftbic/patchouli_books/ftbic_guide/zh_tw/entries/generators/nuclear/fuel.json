@@ -1,0 +1,39 @@
+{
+    "name":"燃料棒",
+    "icon":"ftbic:uranium_fuel_rod",
+    "category":"ftbic:nuclear",
+    "sortnum":2,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)鈾燃料棒$()會產生 Zaps 和熱量。Zaps 很棒，但$(l:ftbic:generators/nuclear/heat)熱量$()就很糟糕。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:quad_uranium_fuel_rod",
+            "text":"燃料棒總共分為 3 種等級，等級越高，Zaps 和熱量產生速率越快。"
+        },
+        {
+            "type":"patchouli:text",
+            "text":"當燃料棒放置在其他燃料棒旁邊時，其運作效率會更高。$(br2)每相鄰一個燃料棒，發電量將額外增加 5⚡/t。兩個相鄰的燃料棒會互相增加發電量至 10⚡/t，總發電量為 20⚡/t。",
+            "title":"中子脈衝",
+            "anchor":"pulse"
+        },
+        {
+            "type":"patchouli:image",
+            "images":["ftbic:textures/patchouli/reactor_pulse_1.png","ftbic:textures/patchouli/reactor_pulse_2.png","ftbic:textures/patchouli/reactor_pulse_3.png","ftbic:textures/patchouli/reactor_pulse_4.png"],
+            "text":"反應爐內部，燃料棒的工具提示。",
+            "title":"中子脈衝"
+        },
+        {
+            "type":"patchouli:text",
+            "text":"發電量提升的同時，$(c)熱量也會急遽上升$()。其方程式有點複雜：$(br2)    $(8)n(n+1)*r$()$(br)$(li)n=相鄰燃料棒數量$(li)r=燃料棒倍數$(li2)一般燃料棒：r=2$(li2)雙聯燃料棒：r=4$(li2)四聯燃料棒：r=8",
+            "title":"中子脈衝"
+        },
+        {
+            "type":"patchouli:text",
+            "text":"$(l:ftbic:generators/nuclear/reflectors)中子反射器$()能夠將燃料棒所產生的中子脈衝反射回去。",
+            "title":"中子反射器"
+        }
+    ]
+}

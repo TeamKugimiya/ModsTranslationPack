@@ -1,6 +1,6 @@
 {
-	"name": "Ores",
-	"description": "This will show you where to find the Allthemodium specific ores.$(br2)Allthemodium, Vibranium, and Unobtainium are very rare ores, and can be hard to find.",
+	"name": "礦石",
+	"description": "本節將介紹 ATM 金屬中各種礦石的取得方式。$(br2)ATM金屬、汎金屬及難得素都是非常稀有的礦石，沒辦法輕易地找到。",
 	"icon": "allthemodium:allthemodium_ore",
-	"sortnum": "2"
+	"sortnum": 2
 }

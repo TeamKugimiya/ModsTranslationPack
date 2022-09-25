@@ -1,0 +1,17 @@
+{
+    "name":"擠壓機",
+    "icon":"ftbic:extruder",
+    "category":"ftbic:machines",
+    "sortnum":8,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)擠壓機$()透過消耗 Zaps 將$(major)金屬錠和板塑形成齒輪、桿以及線纜$()。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:extruder",
+            "text":"每塑形一個物品，將消耗 600⚡。$(br2)在未安裝任何$(l:ftbic:items/upgrades)升級$()的情況下，機器最高只能接受 LV 電流。"
+        }
+    ]
+}

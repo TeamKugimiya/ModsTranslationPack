@@ -1,16 +1,16 @@
 {
-  "name": "Basic Filter",
+  "name": "基礎篩選器",
   "sortnum": 1,
   "category": "laserio:filters",
   "icon": "laserio:filter_basic",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The basic filter can be used to limit what items are allowed in an inventory.$(br2)These slots are 'ghost slots', which means they do not REALLY hold items, just an image of an item."
+      "text": "基礎篩選器用來限制可進出容器的物品。$(br2)而篩選器的這些欄位被稱作為「幽靈欄位」上，意思就是這些欄位並沒辦法實際存放物品，只是將物品作為標記。"
     },
     {
       "type": "patchouli:text",
-      "text": "If JEI is installed, you may drag items from JEI into these 'ghost slots'. Simply left click and drag out of JEI into the filter UI."
+      "text": "當安裝 JEI 時，你可以從 JEI 的物品面板拖放物品至這些「幽靈欄位」。只需左鍵點擊並按住 JEI 面板上的物品，然後將物品拖曳到篩選器介面上即可。"
     }
   ]
 }

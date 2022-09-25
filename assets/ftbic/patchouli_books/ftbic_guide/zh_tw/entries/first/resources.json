@@ -1,0 +1,18 @@
+{
+    "name":"資源",
+    "icon":"ftbic:tin_chunk",
+    "category":"ftbic:first",
+    "sortnum":0,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(major)工業奇械$()為遊戲加入了數種資源。新加入的礦物有：$(item)$(li)錫$(li)鉛$(li)鋁$(li)鈾$(li)銥$()"
+        },
+        {
+            "type":"patchouli:image",
+            "images":["ftbic:textures/patchouli/ores.png"],
+            "border":true,
+            "title":"礦石"
+        }
+    ]
+}

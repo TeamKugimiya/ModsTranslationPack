@@ -1,0 +1,17 @@
+{
+    "name":"量子動力盔甲",
+    "icon":"ftbic:quantum_helmet",
+    "category":"ftbic:items",
+    "sortnum":5,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)量子動力盔甲$()是$(l:ftbic:items/carbon_armor)碳纖維動力盔甲$()的升級版。$(br2)裝備整套已充能盔甲時，同樣可以完全減免大多數類型的傷害。$(br2)每受到 1 點傷害時，將消耗盔甲 5,000⚡；完全充能的量子動力盔甲，將可以$(major)吸收 3000 點傷害$()。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:quantum_chestplate",
+            "text":"與碳纖維動力盔甲相同，所有部件都需要仰賴裝備$(item)量子胸甲$()才會發揮作用。$(br2)量子胸甲也擁有跟$(l:ftbic:items/mechanical_elytra)機械鞘翅$()一樣相同的功能，但無法透過太陽能重新充能。"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name":"泵浦",
+    "icon":"ftbic:pump",
+    "category":"ftbic:machines",
+    "sortnum":11,
+    "pages": [
+        {
+            "type":"patchouli:text",
+            "text": "$(item)泵浦$()透過消耗 Zaps 來收集一定區域內的流體。$(br2)你可以使用$(l:ftbic:items/fluid_cell)流體單元$()、鐵桶或使用來自其他模組的流體管道，好將泵浦中的流體抽取出來。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:pump",
+            "text":"在未安裝任何$(l:ftbic:items/upgrades)升級$()的情況下，機器最高只能接受 HV 電流。$(br2)預設情況下，泵浦會持續抽取流體直到池底。你可以透過$(l:ftbic:machines/quarry#landmarks)界標$()延展這個範圍。"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name":"風力發電機",
+    "icon":"ftbic:wind_mill",
+    "category":"ftbic:generators",
+    "sortnum":2,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)風力發電機$()根據其高度及周邊空曠程度產生 Zaps。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:wind_mill",
+            "text":"發電量只有可憐的 ⚡/t，但它是免費的能量來源。"
+        }
+    ]
+}

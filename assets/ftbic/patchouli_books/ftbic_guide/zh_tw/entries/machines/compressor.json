@@ -1,0 +1,17 @@
+{
+    "name":"壓縮機",
+    "icon":"ftbic:compressor",
+    "category":"ftbic:machines",
+    "sortnum":4,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)壓縮機$()透過消耗 Zaps 來將物品壓縮成其他材料。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:compressor",
+            "text":"每壓縮一個物品，將消耗 400⚡。$(br2)在未安裝任何$(l:ftbic:items/upgrades)升級$()的情況下，機器最高只能接受 LV 電流。"
+        }
+    ]
+}

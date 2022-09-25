@@ -1,0 +1,6 @@
+{
+    "name":"核反應爐",
+    "description":"核能！",
+    "icon":"ftbic:nuclear_reactor",
+    "parent":"ftbic:generators"
+}

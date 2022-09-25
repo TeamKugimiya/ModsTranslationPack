@@ -1,0 +1,17 @@
+{
+    "name":"反應爐防護板",
+    "icon":"ftbic:reactor_plating",
+    "category":"ftbic:nuclear",
+    "sortnum":6,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)反應爐防護板$()能夠提升反應爐熱容量，並減少爐心熔毀時的爆炸半徑。$(br2)防護板本身不帶有冷卻功能，僅用於調整反應爐本身數值。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:reactor_plating",
+            "text":"防護板有兩種專門的升級：$(li)$(item)密封反應爐防護板$()能夠有效地減少爐心熔毀時的爆炸半徑，但提升的熱容量就相對比較少。$(li)$(item)高熱容反應爐防護板$()則可以大量提升反應爐熱容量，但所能減少的爐心熔毀爆炸半徑也就微乎其微。"
+        }
+    ]
+}

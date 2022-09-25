@@ -1,0 +1,17 @@
+{
+    "name":"再處理器",
+    "icon":"ftbic:reprocessor",
+    "category":"ftbic:machines",
+    "sortnum":5,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)再處理器$()透過消耗 Zaps 來將任何物品製作成廢料。$(br2)在$(l:ftbic:machines/antimatter_constructor)反物質建構器$()中放入廢料或廢料盒，能使反物質的造價變得便宜一些。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:reprocessor",
+            "text":"每將一個物品製作成廢料，將消耗 600⚡。$(br2)在未安裝任何$(l:ftbic:items/upgrades)升級$()的情況下，機器最高只能接受 MV 電流。"
+        }
+    ]
+}

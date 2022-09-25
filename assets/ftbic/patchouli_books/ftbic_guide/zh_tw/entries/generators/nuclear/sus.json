@@ -1,0 +1,33 @@
+{
+    "name":"散熱片",
+    "icon":"ftbic:heat_vent",
+    "category":"ftbic:nuclear",
+    "sortnum":4,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)散熱片$()是另一個用來控制熱量的反應爐組件。$(br2)與$(l:ftbic:generators/nuclear/coolant)冷卻單元$()不同，散熱片會隨時間$(major)自我修復$()。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:heat_vent",
+            "text":"$(item)高級散熱片$()只是普通散熱片的升級版本。會以兩倍速度自我冷卻。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:reactor_heat_vent",
+            "text":"$(item)反應爐散熱片$()會同時對自己和反應爐進行冷卻，儘管冷卻速度變比較慢。$(br2)如果你只想要冷卻反應爐，不需要吸收熱量的話，那麼你可以將這種散熱片放置在任何格子上。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:overclocked_heat_vent",
+            "text":"$(item)超頻散熱片$()是反應爐散熱片的升級版本，散熱效率更高。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:component_heat_vent",
+            "text":"$(item)組件散熱片$()無法吸收熱量，但可以為周圍 4 個相鄰的反應爐組件進行冷卻。$(br2)搭配$(l:ftbic:generators/nuclear/exchangers)熱交換器$()使用以獲得最佳功效。",
+            "anchor":"component"
+        }
+    ]
+}

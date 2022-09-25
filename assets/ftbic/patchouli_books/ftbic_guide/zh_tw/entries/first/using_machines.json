@@ -1,0 +1,18 @@
+{
+    "name":"使用機器",
+    "icon":"ftbic:macerator",
+    "category":"ftbic:first",
+    "sortnum":2,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"總之，機器可被分類為下列 4 種：$(li)產生能量的發電機$(li)傳遞能量的電纜$(li)儲存能量的電池箱$(li)消耗能量的機器$(br2)右側圖片中，$(l:ftbic:generators/basic)基礎發電機$()產生 Zaps 能量，透過 $(item)LV 電纜$()傳輸到 $(l:ftbic:machines/battery_box)LV 電池箱$()中，之後再將電分配給$(l:ftbic:machines/macerator)磨粉機$()和$(l:ftbic:machines/powered_furnace)電爐$()。"
+        },
+        {
+            "type":"patchouli:image",
+            "images":["ftbic:textures/patchouli/machine_setup.png"],
+            "border":true,
+            "title":"機器設置"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name":"太陽能板",
+    "icon":"ftbic:lv_solar_panel",
+    "category":"ftbic:generators",
+    "sortnum":3,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)太陽能板$()一共分為四種階級，分別對應 4 種電壓。$(br2)當機器頂部接觸太陽光時，太陽能板能夠被動產生 Zaps。$(br2)每提升一個階級，發電量 ⚡/t 也將隨著提升 8 倍。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:lv_solar_panel",
+            "text":"各個階級的發電量：$(li)LV - 1⚡/t$(li)MV - 8⚡/t$(li)HV - 64⚡/t$(li)EV - 512⚡/t"
+        }
+    ]
+}

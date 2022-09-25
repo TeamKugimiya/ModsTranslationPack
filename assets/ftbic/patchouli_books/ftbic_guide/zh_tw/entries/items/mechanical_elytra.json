@@ -1,0 +1,17 @@
+{
+    "name":"機械鞘翅",
+    "icon":"ftbic:mechanical_elytra",
+    "category":"ftbic:items",
+    "sortnum":4,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)機械鞘翅$()運作方式與原版鞘翅一樣，但是更加先進。$(br2)滑翔時，你可以透過消耗 Zaps 獲得穩定的$(major)速度提升$()。$(br2)在半空中潛行會使你立即停下來，並飄浮在原地。這功能也同樣需要消耗 Zaps。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:mechanical_elytra",
+            "text":"機械鞘翅$(red)不提供盔甲值$()，也不提供傷害減免，更沒辦法為碳纖維動力盔甲充能。$(br2)未滑翔時，機鞘鞘翅會利用太陽能重新充能。"
+        }
+    ]
+}

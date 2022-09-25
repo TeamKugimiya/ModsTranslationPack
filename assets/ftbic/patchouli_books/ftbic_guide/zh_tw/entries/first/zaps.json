@@ -1,0 +1,42 @@
+{
+    "name":"Zaps",
+    "icon":"ftbic:ev_battery",
+    "category":"ftbic:first",
+    "sortnum":1,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(major)FTB 工業奇械$()不使用 $(red)FE$()，而是使用自己的能源系統：$(item)Zaps$() (⚡)！$(br2)你$(red)無法在 FTB:IC 機器上使用 FE$()。然而，你$(o)可以將$() Zaps 轉換成 FE 使用。能源轉換比例 Zaps：FE = 4：1。$(br2)發電機、電纜和電池箱可以與使用 FE 的方塊相連接，並自動將 Zaps 轉換為 FE 來作使用。"
+        },
+        {
+            "type":"patchouli:text",
+            "title":"電壓",
+            "text":"像是 IC2 的 EU，Zaps 也擁有電壓等級系統。隨著電壓提升，⚡/t 傳輸量也會跟著增加。$(br2)電壓總共分為 5 個等級：$(li)低壓（LV）- 32⚡/t$(li)中壓（MV）- 128⚡/t$(li)高壓（HV）- 512⚡/t$(li)特高壓（EV）- 2,048⚡/t$(li)超高壓（IV）- 8,192⚡/t$(br2)一些機器無法負荷過高的電壓，但你始終可以選擇使用較低的電壓。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:fuse",
+            "text":"當你給予機器其無法負荷的電壓時，它將會$(red)停止運轉$()。$(br2)手拿$(item)保險絲$()對著機器使用可以進行維修。破壞燒毀的機器時，將不會掉落機器本身而是會掉落機械框架。$(br2)同樣地，電纜在承受其無法負荷的電壓時也將會燒毀。燒毀的電纜可被回收做成廢料，但$(red)無法再承載電流$()。"
+        },
+        {
+            "type":"patchouli:image",
+            "images":["ftbic:textures/patchouli/burnt_cable.png","ftbic:textures/patchouli/blown_fuse.png"],
+            "text":"接收 EV 能量後的 LV 電纜和機器。",
+            "title":"電壓不相配",
+            "border":true
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:lv_transformer",
+            "title":"變壓器",
+            "text":"$(item)變壓器$()能夠將電壓進行變換。$(br2)變壓器有 1 個輸入面和 5 個輸出面。變壓器可以在其電壓與高一階的電壓間進行變換。$(li)當輸入 LV 電壓，將會輸出 MV 電壓。$(li)當輸入 MV 電壓，則會輸出 LV 電壓。",
+            "anchor":"transformers"
+        },
+        {
+            "type":"patchouli:image",
+            "images":["ftbic:textures/patchouli/transformers.png","ftbic:textures/patchouli/transformers2.png"],
+            "text":"箭頭指向變壓器輸出面方向，與電流方向相反。",
+            "border":true
+        }
+    ]
+}

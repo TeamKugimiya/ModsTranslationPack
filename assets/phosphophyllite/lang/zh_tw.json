@@ -1,0 +1,24 @@
+{
+    "itemGroup.phosphophyllite": "磷葉石函式庫",
+    "multiblock.error.phosphophyllite.invalid_block.frame": "無效框架方塊（%s）位於 %s",
+    "multiblock.error.phosphophyllite.invalid_block.exterior": "無效外部方塊（%s）位於 %s",
+    "multiblock.error.phosphophyllite.invalid_block.interior": "無效內部方塊（%s）位於 %s",
+    "multiblock.error.phosphophyllite.invalid_block.corner": "無效轉角方塊（%s）位於 %s",
+    "multiblock.error.phosphophyllite.invalid_block.generic": "無效方塊（%s）位於 %s",
+    "multiblock.error.phosphophyllite.unknown": "發生未知的多方塊結構錯誤，請回報給模組作者",
+    "multiblock.error.phosphophyllite.null_controller": "發生未知的多方塊結構系統內部錯誤，請回報至 Phosphophyllite",
+    "multiblock.error.phosphophyllite.dimensions": "無法在該維度使用 \n實際：%d，%d，%d，\n容許最小值：%d，%d，%d，\n容許最大值：%d，%d，%d，",
+
+    "block.phosphophyllite.item_black_hole": "物品黑洞",
+    "block.phosphophyllite.item_white_hole": "物品白洞",
+    "block.phosphophyllite.fluid_black_hole": "流體黑洞",
+    "block.phosphophyllite.fluid_white_hole": "流體白洞",
+    "block.phosphophyllite.power_black_hole": "能量黑洞",
+    "block.phosphophyllite.power_white_hole": "能量白洞",
+
+    "block.phosphophyllite.phosphophyllite_ore": "磷葉石礦",
+
+    "item.phosphophyllite.debug_tool": "除錯牛排",
+
+    "random.bullshit.that.doesnt.actually.get.used.anywhere": "只是為了在結尾處有個逗號，ok"
+}

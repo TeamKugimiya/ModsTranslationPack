@@ -1,15 +1,15 @@
 {
-    "name": "Allthemodium Carrot",
+    "name": "ATM 金屬胡蘿蔔",
     "icon": "allthemodium:allthemodium_carrot",
     "category": "allthemodium:food",
     "pages": [{
             "type": "crafting",
-            "recipe": "allthemodium:main/allthemodium_carrot",
-            "title": "Allthemodium Carrot"
+            "recipe": "allthemodium:allthemodium_carrot",
+            "title": "ATM 金屬胡蘿蔔"
         },
         {
             "type": "text",
-            "text": "The Allthemodium carrot gives 40 hunger and 320 saturation. The carrot has the following effects:$(li)Fast to Eat$(li)Can Always Eat$(li)Absorption X for 30 Sec$(li)Regeneration X for 30 Sec"
+            "text": "ATM 金屬胡蘿蔔能回復玩家 40 飢餓值與 320 飽食度。胡蘿蔔擁有以下效果：$(li)快速食用$(li)飢餓值為滿時也可食用$(li)30 秒的吸收 X 效果$(li)30 秒的抗性 X 效果"
         }
     ]
 }

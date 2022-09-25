@@ -1,0 +1,17 @@
+{
+    "name":"電池",
+    "icon":"ftbic:ev_battery",
+    "category":"ftbic:items",
+    "sortnum":1,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)電池$()$(major)能夠儲存 Zaps$()。越高等級的電池能夠儲存更多 Zaps。$(br2)$(o)技術上來說，$()電池沒有電壓。你可以在 LV 機器上使用 EV 電池，而不會發生問題。$(br2)你可以將電池放進發電機或電池箱中充能，放進其他非發電機的機器中則可以排放能量。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:lv_battery",
+            "text":"$(item)一次性電池$()在製作出來時電量會是滿的，並在電量耗盡時消失。"
+        }
+    ]
+}

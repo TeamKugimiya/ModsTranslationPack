@@ -1,13 +1,13 @@
 {
-    "name": "Unobtainium Ore",
+    "name": "難得素礦",
     "icon": "allthemodium:unobtainium_ore",
     "category": "allthemodium:ore",
-    "sortnum": "3",
+    "sortnum": 3,
     "pages": [{
         "type": "spotlight",
         "item": "allthemodium:unobtainium_ore",
         "title": "Unobtainium Ore",
         "link_recipe": false,
-        "text": "Unobtainium ore can be found in the End Highland biome.It spawns under Y 78."
+        "text": "難得素礦僅能在終界的高地生態域找到。分布在高度 Y 78 以下。"
     }]
 }

@@ -1,0 +1,18 @@
+{
+    "name":"核彈",
+    "icon":"ftbic:nuke",
+    "category":"ftbic:items",
+    "sortnum":6,
+    "pages":[
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:nuke",
+            "text":"$(item)核彈$()。你肯定知道它的來歷。也肯定知道它可以做些什麼。$(br2)預設情況下，核彈擁有 36 格方塊的爆炸半徑。右鍵點擊核彈將可以引燃它。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:nuke_arrow",
+            "text":"$(item)核彈箭矢$()！將核彈安裝在箭矢上！$(br2)$(l:ftbic:generators/nuclear/heat#reinforced)防爆石頭$()能夠抵禦核爆。"
+        }
+    ]
+}

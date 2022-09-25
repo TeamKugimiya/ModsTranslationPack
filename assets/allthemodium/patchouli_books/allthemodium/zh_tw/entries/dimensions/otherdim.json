@@ -1,10 +1,10 @@
 {
-    "name": "The Other",
+    "name": "異獄",
     "icon": "allthemodium:other_vibranium_ore",
     "category": "allthemodium:dimensions",
-    "sortnum": "3",
+    "sortnum": 3,
     "pages": [{
         "type": "text",
-        "text": "The Other is a very hostile dimension. To teleport to the dimension use the $(l:dimensions/teleport_pad)Teleport Pad$(/c) in the Nether. Little is known of this place, but it seems to be where Piglins come from, huge underground cities exist in any biomes with tree cover on the surface, as well as dungeons and ancient pyramids full of monsters and loot"
+        "text": "異獄是一個充滿敵對生物的維度。要傳送到這個維度，你必須在地獄中使用$(l:dimensions/teleport_pad)傳送台$(/c)。這個地方鮮為人知，似乎是豬布林的發源地。你能在任何生態域中發現巨大的地下城市，而這些地下城市的地表，通常會被一片樹林所覆蓋。你還能在這個維度中，找到充滿怪物和戰利品的遠古金字塔！"
     }]
 }

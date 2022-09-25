@@ -1,0 +1,17 @@
+{
+    "name":"電池箱",
+    "icon":"ftbic:lv_battery_box",
+    "category":"ftbic:machines",
+    "sortnum":0,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)電池箱$()$(major)可用來儲存 Zaps$()。越高等級的電池箱能夠儲存越多的 Zaps，且能夠接受或輸出更高的電壓。$(br2)電池箱擁有 5 個輸入面以及 1 個輸出面。$(br2)電池箱能夠$(major)在 GUI 中，為一些物品充能或釋放能量，像是$(l:ftbic:items/battery)電池$()。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:lv_battery_box",
+            "text":"類似於電池箱的還有$(l:ftbic:first/zaps#transformers)變壓器$()。$(br2)$(red)$(l)當電池箱被破壞時，所儲存的能量將會逸失。$()"
+        }
+    ]
+}

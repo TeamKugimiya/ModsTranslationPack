@@ -1,13 +1,13 @@
 {
-    "name": "Allthemodium Ore",
+    "name": "ATM 金屬礦",
     "icon": "allthemodium:allthemodium_ore",
     "category": "allthemodium:ore",
-    "sortnum": "1",
+    "sortnum": 1,
     "pages": [{
         "type": "spotlight",
         "item": "allthemodium:allthemodium_ore",
-        "title": "Allthemodium Ore",
+        "title": "ATM 金屬礦",
         "link_recipe": false,
-        "text": "Allthemodium Ore spawns in Mountain Biomes in cave walls and ceilings, you can also find it as a common spawn very high in the Mountains above 170Y, It can also be found everywhere in the mining dimension between Y -59 and Y 20 but it is a very rare spawn there"
+        "text": "分布在山地生態域的洞窟牆壁和頂部，在高於 Y=170 的山峰處會有額外礦產。也能夠在挖礦維度的高度 Y -59 至 Y 20 間的任何一處找到，只不過相當稀有。"
     }]
 }

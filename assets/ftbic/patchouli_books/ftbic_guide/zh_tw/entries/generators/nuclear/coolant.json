@@ -1,0 +1,17 @@
+{
+    "name":"冷卻",
+    "icon":"ftbic:small_coolant_cell",
+    "category":"ftbic:nuclear",
+    "sortnum":3,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)冷卻（Coolant）$()是某些反應爐組件所持有的屬性，使它們能夠吸收熱量。$(br2)把這屬性想像成是$(major)耐久度$()；當物品的冷卻屬性越高，其所能吸收的熱量就越多。$(br2)隨著組件吸收熱量，冷卻屬性將會逐漸耗損。當冷卻屬性耗盡時組件將會損壞，並從反應爐中消失。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:small_coolant_cell",
+            "text":"$(item)冷卻單元$()是用來吸收熱量的最基本反應爐組件。它們只擁有大量的冷卻屬性而沒有其他功能。$(br2)將冷卻單元放置在熱源旁邊，它會持續吸收熱量，直到冷卻屬性耗盡為止。$(br2)冷卻單元分為 3 種等級，等級越高冷卻屬性也就越高。"
+        }
+    ]
+}

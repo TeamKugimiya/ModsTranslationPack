@@ -6,15 +6,15 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The card holder is the solution to all your inventory woes! At least, the ones caused by this mod....Simply craft a Card Holder and right click it to open up the UI. Cards placed in this UI can stack up to 64, provided their NBT data matches. (Reminder: You can craft cards by themselves to reset their NBT)"
+      "text": "卡片收納器可以幫助你解決物品欄空間不夠的問題！至少，由本模組引起的其中一個問題可以被解決…只需製作一個卡片收納器，並點擊右鍵開啟它的 UI。只要 NBT 相符，放在這個介面中的卡片都能夠堆疊到 64 張。（小提醒：你可以透過把卡片放上合成欄上合成，重設卡片的 NBT）"
     },
     {
       "type": "patchouli:text",
-      "text": "Cards can be modified from within the holder - by right clicking on a cardstack (Just like in a laser node).$(br2)NOTE: If the stacksize of the card is larger than 1, it will disable the Filter and Overclocker slots to prevent item duping. #BlameSoaryn"
+      "text": "放在收納器中的卡片，能夠像在節點中一樣點擊右鍵開啟介面修改。$(br2)注意：當編輯的卡堆數量大於 1，將會停用篩選器及超頻卡欄位，以預防物品複製 Bug。#BlameSoaryn"
     },
     {
       "type": "patchouli:text",
-      "text": "By holding shift and right clicking the Card holder, it will start automatically pulling cards out of your inventory! You can tell this is activated because the card holder starts to glow as if it were enchanted. Shift-right click again to toggle it off. If you have the card holder in your inventory when you open a node, you'll see its cards displayed"
+      "text": "將卡片收納器拿在手上，按住 Shift 並點擊右鍵，收納器將自動開始把你物品欄中的卡片給收納進去！你可以輕易看出它是否在運作，因為收納器運作時會像是被附魔一樣發光。$(br2)再次按住 Shift 並點擊右鍵，可以將自動收納功能關閉。$(br2)當你開啟節點介面且物品欄中有卡片收納器時，節點介面中將出現收納器中的卡片。"
     },
     {
       "type": "patchouli:crafting",

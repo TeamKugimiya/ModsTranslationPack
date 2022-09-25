@@ -25,6 +25,7 @@
 | betterf3 | :x: |  |
 | betterstats | :x: |  |
 | bhc | :x: |  |
+| biggerreactors | :x: |  |
 | blur | :x: |  |
 | citresewn | :x: |  |
 | configured | :x: |  |
@@ -50,6 +51,7 @@
 | ftbbackups | :x: |  |
 | ftbchunks | :x: |  |
 | ftbessentials | :x: |  |
+| ftbic | :x: |  |
 | ftblibrary | :x: |  |
 | ftbteams | :x: |  |
 | ftbultimine | :x: |  |
@@ -69,15 +71,19 @@
 | morefrogs | :x: |  |
 | mousewheelie | :x: |  |
 | multiconnect | :x: |  |
+| myrtrees | :x: |  |
 | notenoughcrashes | :x: |  |
 | notenoughwands | :x: |  |
 | observable | :x: |  |
 | paginatedadvancements | :x: |  |
+| phosphophyllite | :x: |  |
 | presencefootsteps | :x: |  |
 | screencapper | :heavy_check_mark: | [已回饋](https://github.com/Deftu/Screencapper/pull/6)，但翻譯有變動，需再度 PR |
+| simplebackups | :x: |  |
 | skyblockbuilder | :x: |  |
 | skyguis | :x: |  |
 | sodium | :x: | 由於 Crowdin 並未連上主專案進行同步翻譯 |
 | sodium-extra | :heavy_check_mark: | 已提交上 Crowdin |
+| spirit | :x: |  |
 | stendhal | :x: |  |
 | trashcans | :x: |  |

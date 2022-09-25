@@ -1,0 +1,16 @@
+{
+    "name":"流體單元",
+    "icon":"ftbic:fluid_cell",
+    "category":"ftbic:items",
+    "sortnum":0,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)流體單元$()$(major)能夠儲存流體$()，但與鐵桶不同的地方是它能夠$(major)儲存多達 16 桶$()。$(br2)流體單元可以直接採集世界上的流體，但無法將流體傾倒回去。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:fluid_cell"
+        }
+    ]
+}

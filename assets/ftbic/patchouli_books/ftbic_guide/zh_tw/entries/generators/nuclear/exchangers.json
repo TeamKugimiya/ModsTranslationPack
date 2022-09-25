@@ -1,0 +1,27 @@
+{
+    "name":"熱交換器",
+    "icon":"ftbic:heat_exchanger",
+    "category":"ftbic:nuclear",
+    "sortnum":5,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)熱交換器$()不會耗散熱量，而是會將熱量轉移。$(br2)熱交換器會嘗試轉移反應爐組件和反應爐的熱量，使所有可與其互動的反應爐組件和反應爐，冷卻剩餘百分比皆相同。$(br2)假如反應爐目前擁有 6250 熱量，熱交換器將會吸收其中的 1250 熱量，並留下 5000 熱量在反應爐中。結果就是反應爐與熱交換器兩者熱容量皆為 50%。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:heat_exchanger",
+            "text":"$(item)高級熱交換器$()運作方式與普通的相同， 但具有更高的冷卻屬性，且轉移熱量更快。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:reactor_heat_exchanger",
+            "text":"$(item)反應爐熱交換器$()擅長與反應爐交換熱量，但自身則無法與其他反應爐組件交換熱量。$(br2)可以使用其它組件吸收反應爐交換器的熱量，或直接對其進行冷卻。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:component_heat_exchanger",
+            "text":"$(item)組件熱交換器$()擅長與相鄰的反應爐組件交換熱量，但無法與反應爐交換熱量。$(br2)這東西的運作方式就像是「熱纜線」，能夠為散熱片等組件提供更多接觸面。"
+        }
+    ]
+}

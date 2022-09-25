@@ -1,0 +1,35 @@
+{
+    "name":"熱量",
+    "icon":"ftbic:fluid_cell{Fluid:'minecraft:lava'}",
+    "category":"ftbic:nuclear",
+    "sortnum":1,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"核反應爐透過燃燒$(l:ftbic:generators/nuclear/fuel)鈾燃料棒$()來產生 Zaps。燃燒過程中，反應爐不僅產生了 Zaps，還產生了$(c)熱量$()。$(br2)一旦熱量累積達到 10,000，反應爐就會爆炸。熱量產生速度越快（heat/s）爆炸的範圍就越大。$(br2)熱量每秒產生一次，而不是每 tick。"
+        },
+        {
+            "type":"patchouli:image",
+            "images":["ftbic:textures/patchouli/reactor_meltdown.png"],
+            "text":"來自裝有 16 個四聯燃料棒，但未冷卻的反應爐所產生的爆炸。其規模為半徑 42 格方塊。",
+            "title":"爐心熔毀"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:reinforced_stone",
+            "text":"$(item)防爆石頭$()具有$(l)非常強$()的抗爆能力，能夠抵禦來自凋零怪、終界龍，甚至是爐心熔毀引起的爆炸！$(br2)具有相同功能，但不同形式的還有$(item)防爆玻璃$()。",
+            "anchor":"reinforced"
+        },
+        {
+            "type":"patchouli:text",
+            "text":"反應爐中的熱量採用格狀系統。每個欄位能夠與周圍 4 格格子進行互動。$(br2)當燃料棒產生熱量時，它會查看相鄰物品是否可以吸收熱量。當周圍沒有物品可以吸收熱量時，反應爐本體溫度將會上升。$(br2)這將是造成反應爐爆炸的原因，請極力避免憾事發生。",
+            "title":"熱量分配"
+        },
+        {
+            "type":"patchouli:image",
+            "images":["ftbic:textures/patchouli/simplest_reactor.png"],
+            "title":"最簡單的反應爐",
+            "text":"由於兩者位置相鄰，$(l:ftbic:generators/nuclear/sus)散熱片$()可以吸收來自於燃料棒的熱量。"
+        }
+    ]
+}

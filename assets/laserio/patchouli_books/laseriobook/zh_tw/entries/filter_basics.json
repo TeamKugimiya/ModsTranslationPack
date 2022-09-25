@@ -1,29 +1,29 @@
 {
-  "name": "Basic Mechanics",
+  "name": "基本技巧",
   "icon": "laserio:logic_chip",
   "sortnum": 0,
   "category": "laserio:filters",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Right click a filter item to open it's UI. Alternatively, the UI is also available when filters are inside cards.$(br2)Filters allow you to restrict what items can be inserted, extracted, or stocked.$(br2)1. Allow vs Deny$(br)2. Compare NBT$(br)3. Filter Slots"
+      "text": "篩選器拿在手上時，點擊右鍵可以開啟它的 UI。或當篩選器安裝在卡片上時，也可以透過點擊右鍵開啟其介面。$(br2)篩選器能夠限制可被輸入、提取或庫存的物品。$(br2)1. 白名單 vs 黑名單$(br)2. NBT 比較$(br)3. 篩選器欄位"
     },
     {
       "type": "patchouli:image",
-      "title": "Filter UI",
+      "title": "篩選器介面",
       "images": [
         "laserio:textures/book/entries/filter_basic.png"
       ],
       "border": true,
-      "text": "Basic Filter UI"
+      "text": "基本的篩選器介面"
     },
     {
       "type": "patchouli:text",
-      "text": "Allow vs Deny$(br2)In allow mode, the items in the filter will be allowed by the filter. Meaning that inserters can accept cobblestone, or extractors can extract cobblestone.$(br2)In Deny mode, it is the opposite."
+      "text": "白名單 vs 黑名單$(br2)白名單模式下，只有被設在篩選器上的物品能夠被移動。換句話說就是輸入模式卡將可以接收鵝卵石，而提取卡則可以從相鄰容器中抽取鵝卵石。$(br2)黑名單模式則反之。"
     },
     {
       "type": "patchouli:text",
-      "text": "Compare NBT$(br2)When compare NBT is enabled, NBT tags on items will be considered by the filter. For example, a sword stores how much damage it has taken on NBT. With 'Compare NBT' enabled, a diamond sword without any damage is different than a damaged one, or an enchanted one.$(br2)With Compare NBT disabled, all diamond swords will match, regardless of their status. "
+      "text": "NBT 比較$(br2)當 NBT 比較啟用時，物品上的 NBT 標籤會被篩選器加入辨別條件。舉個例子：劍會將耐久度受損的數據儲存在 NBT 上。因此一把未受損的鑽石劍、一把受損的鑽石劍以及一把被附魔的劍會被視作是不同物品。$(br2)當 NBT 比較停用時，不管狀態如何，只要是鑽石劍都會被視作條件相符。"
     }
   ]
 }

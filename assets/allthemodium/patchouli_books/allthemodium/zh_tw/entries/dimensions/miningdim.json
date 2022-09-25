@@ -1,10 +1,10 @@
 {
-    "name": "The Mining Dimension",
+    "name": "挖礦維度",
     "icon": "allthemodium:allthemodium_ore",
     "category": "allthemodium:dimensions",
-    "sortnum": "2",
+    "sortnum": 2,
     "pages": [{
         "type": "text",
-        "text": "The Mining Dimension is useful to set up quarries to mine in. It is also useful to use as a testing area since it is a superflat dimension. To teleport to the dimension use the $(l:dimensions/teleport_pad)Teleport Pad$(/c) in the Overworld."
+        "text": "挖礦維度很適合使用採石場等設備進行開採。由於地形為超平坦，因此也很適合作為測試區域使用。要傳送到這個維度，必須在主世界中使用$(l:dimensions/teleport_pad)傳送台$(/c)。."
     }]
 }

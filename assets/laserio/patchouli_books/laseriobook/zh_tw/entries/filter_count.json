@@ -1,20 +1,20 @@
 {
-  "name": "Counting Filter",
+  "name": "數量篩選器",
   "sortnum": 2,
   "category": "laserio:filters",
   "icon": "laserio:filter_count",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Count Filter can designate a specified number of items, and plays a different role based on the card's mode.$(br2)Stack sizes of items can go from 1 to 4096. Left click will increase the stack size, while right click will decrease it. Holding shift or control will modify this amount by 10 or 64 respectively."
+      "text": "數量篩選器的運作原理近似於基礎篩選器，但還可以指定物品數量，會根據卡片模式不同而發揮不同的作用。$(br2)欄位的堆疊大小可以設在 1 到 4096 之間。左鍵點擊欄位上的物品可以增加堆疊大小，右鍵點擊則反之。若同時按住 Shift 或 Ctrl 鍵，則分別可以一次調整 10 或 64 個數量。"
     },
     {
       "type": "patchouli:text",
-      "text": "If a counting filter is used in a stocker mode card, it will try to keep the specified amount of resources in stock. For example, keeping 64 cobblestone in a chest is done by using a Counting Filter with 64 cobblestone.$(br2)If a counting filter is used in an Inserter card, it will limit how many items are allowed to be sent to that inventory by extractor cards."
+      "text": "若數量篩選器被安裝在庫存模式卡中，它將會試圖保持相鄰容器內的資源保持在指定數量。舉個例子，當篩選器上設定 64 個鵝卵石，庫存模式卡將保持相鄰的儲物箱中有 64 個鵝卵石。$(br2)當數量篩選器被安裝在輸入模式卡中，將會限制提取模式卡發送進容器中的物品數。"
     },
     {
       "type": "patchouli:text",
-      "text": "If a counting filter is used in a extractor mode card, it will leave the designated number of items behind. For example, if you set an extract card with a filter of 8 cobblestone, it will pull out all but the last 8 cobblestone from a chest.$(br2)Counting filters do not have an Allow vs Deny button - as Deny mode would not make any sense for a counting filter. All counting filters are 'Allow mode'.  JEI Interaction works the same as it does in a $(l:laserio:filter_basic)Basic Filter$(/l)."
+      "text": "若數量篩選器被安裝在提取模式卡中，它將會為容器保留指定數量的物品。舉個例子，當篩選器上設定 8 個鵝卵石，提取模式卡會持續從容器抽取鵝卵石，直到儲物箱中只剩下 8 個鵝卵石為止。$(br2)數量篩選器沒有白名單 vs 黑名單按鈕 - 因為黑名單模式對於數量篩選器來說沒有任何用途。因此所有的數量篩選器皆可視為「白名單模式」。與 JEI 面板的互動方式，與$(l:laserio:filter_basic)基礎篩選器$(/l)相同。"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+    "name":"核反應爐",
+    "icon":"ftbic:nuclear_reactor",
+    "category":"ftbic:nuclear",
+    "sortnum":0,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"FTB 工業奇械的$(item)核反應爐$()運作原理幾乎與 $(major)Industrial Craft$() 相同，並帶來了生活品質變更。$(br2)核反應爐 GUI 擁有 9x6 的物品欄位、2 個儀表以及 2 顆按鈕。$(br2)頂部儀表顯示 ⚡/t 發電效率，至於底部則是顯示反應爐的當前$(l:ftbic:generators/nuclear/heat)熱量$()。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:nuclear_reactor",
+            "text":"第 1 顆問號按鈕將透過反應爐當前所安裝的組件，$(major)模擬$()出反應爐運作情況。可以透過模擬得知：$(li)反應爐可運作的時長$(li)爐心熔毀時的爆炸半徑$(li)⚡/t 發電效率$(li)⚡總發電量$(br)第 2 顆按鈕可以用來運轉或暫停反應爐。"
+        }
+    ]
+}

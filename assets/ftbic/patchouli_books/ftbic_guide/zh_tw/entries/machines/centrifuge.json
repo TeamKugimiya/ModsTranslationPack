@@ -1,0 +1,17 @@
+{
+    "name":"離心機",
+    "icon":"ftbic:centrifuge",
+    "category":"ftbic:machines",
+    "sortnum":3,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)離心機$()透過消耗 Zaps 來$(major)將物品離心$()成其組成原料。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:centrifuge",
+            "text":"有些配方有機會獲得副產物。舉個例子，海鞘有 3% 機率產生出螢石粉。$(br2)每離心一個物品，將消耗 400⚡。$(br2)在未安裝任何$(l:ftbic:items/upgrades)升級$()的情況下，機器最高只能接受 LV 電流。"
+        }
+    ]
+}

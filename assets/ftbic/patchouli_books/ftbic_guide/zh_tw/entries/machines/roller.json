@@ -1,0 +1,17 @@
+{
+    "name":"捲板機",
+    "icon":"ftbic:roller",
+    "category":"ftbic:machines",
+    "sortnum":7,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)捲板機$()透過消耗 Zaps 將金屬錠捲平成板。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:roller",
+            "text":"每捲平一個物品，將消耗 600⚡。$(br2)在未安裝任何$(l:ftbic:items/upgrades)升級$()的情況下，機器最高只能接受 MV 電流。"
+        }
+    ]
+}

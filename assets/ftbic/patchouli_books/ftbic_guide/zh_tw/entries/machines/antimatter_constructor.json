@@ -1,0 +1,18 @@
+{
+    "name":"反物質建構器",
+    "icon":"ftbic:antimatter_constructor",
+    "category":"ftbic:machines",
+    "sortnum":9,
+    "pages":[
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:antimatter_constructor",
+            "text":"$(item)反物質建構器$()透過消耗 Zaps 來建構出反物質。$(br2)每建構出一個反物質，需要消耗 1,000,000⚡。$(br2)最高可接受 IV 電流。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:antimatter",
+            "text":"$(item)反物質$()被使用在一些終期遊戲配方中。$(br2)你可以在機器 GUI 左側欄位中放置一些$(l:ftbic:machines/reprocessor)廢料或廢料盒$()，來使反物質造價變得便宜一些。"
+        }
+    ]
+}

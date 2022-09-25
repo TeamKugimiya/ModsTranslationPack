@@ -1,0 +1,17 @@
+{
+    "name":"碳纖維動力盔甲",
+    "icon":"ftbic:carbon_helmet",
+    "category":"ftbic:items",
+    "sortnum":3,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"當玩家穿齊整套已充能的$(item)碳纖維動力盔甲$()時，將可以$(major)完全減免幾乎所有類型的傷害$()。$(br2)若未整套穿齊，依舊可以顯著地減免大部分的傷害。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:carbon_chestplate",
+            "text":"$(item)碳纖維胸甲$()是這套盔甲中最重要的部分。套裝中的另外 3 種部件都需要在裝備胸甲時才會發揮作用。$(br2)當裝備整套盔甲時，每吸收半顆心傷害就會消耗盔甲 5,000⚡。$(br2)由於可以儲存 1,000,000⚡，在盔甲電量完全耗盡之前，你可以承受最多 100 顆心的傷害。盔甲在未充能時不提供盔甲值。"
+        }
+    ]
+}

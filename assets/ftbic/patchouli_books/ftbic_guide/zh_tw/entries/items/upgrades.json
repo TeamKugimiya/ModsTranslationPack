@@ -1,0 +1,32 @@
+{
+    "name":"升級",
+    "icon":"ftbic:overclocker_upgrade",
+    "category":"ftbic:items",
+    "sortnum":2,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)升級$()能使機器運作得更好。它們不會改變機器的運作方式，而是使它們在負責的領域中做得更好。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:overclocker_upgrade",
+            "text":"$(item)超頻升級$()會使機器運作得更快，但同時也會使它們消耗更多 Zaps。$(br2)機器的每個升級欄位中，最多可以安裝上 4 張升級，你可以根據需求選擇要安裝的數量。$(br2)安裝上 12 張超頻升級的電爐，幾乎能夠瞬間融煉物品，儘管必須以$(l)非常高$()的耗電量作為代價。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:energy_storage_upgrade",
+            "text":"$(item)能量儲存升級$()會使機器能夠儲存更多能量。每張升級都能夠增加大約 10,000 Zaps。$(br2)機器的每個升級欄位中，最多可以安裝上 4 張升級，你可以根據需求選擇要安裝的數量。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:transformer_upgrade",
+            "text":"$(item)變壓升級$()會使機器能夠接受更高壓的電流。每張升級會使可接受的電壓等級提高 1 級。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:ejector_upgrade",
+            "text":"$(item)輸出升級$()會使機器自動輸出產物至相鄰容器中。$(br2)輸出優先度：右側 > 後側 > 左側 > 前側 > 頂部 > 底部。$(br2)想當然地，你也可以安裝上複數張輸出升級，不過……這有什麼意義嗎？"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name":"地熱發電機",
+    "icon":"ftbic:basic_generator",
+    "category":"ftbic:generators",
+    "sortnum":1,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)地熱發電機$()使用熔岩來產生 Zaps。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"ftbic:geothermal_generator",
+            "text":"每 1,000mB 的熔岩可產生 20,000⚡。$(br2)由於發電量只有 20⚡/t。故為 LV 發電機。"
+        }
+    ]
+}

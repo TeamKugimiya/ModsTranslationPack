@@ -1,15 +1,15 @@
 {
-    "name": "Teleport Pad",
+    "name": "傳送台",
     "icon": "allthemodium:teleport_pad",
     "category": "allthemodium:dimensions",
-    "sortnum": "1",
+    "sortnum": 1,
     "pages": [{
             "type": "crafting",
-            "recipe": "allthemodium:main/teleport_pad"
+            "recipe": "allthemodium:teleport_pad"
         },
         {
             "type": "text",
-            "text": "The Teleport Pad is used to teleport to $(l:dimensions/miningdim)The Mining Dimension$(/c), and $(l:dimensions/otherdim)The Other$(/c) you need to shift right click with both an empty hand and off hand.$(br2)As a note, the $(l:dimensions/miningdim)The Mining Dimension$(/c) is disabled in the ATM6: To The Sky pack"
+            "text": "傳送台是用來傳送至$(l:dimensions/miningdim)挖礦維度$(/c)和$(l:dimensions/otherdim)異獄$(/c)的方式。在兩手皆空的情況下，對著傳送台 Shift 右鍵以進行傳送。$(br2)請注意：$(l:dimensions/miningdim)挖礦維度$(/c)在翱翔天際（To The Sky）系列模組包中已被停用。"
         }
     ]
 }

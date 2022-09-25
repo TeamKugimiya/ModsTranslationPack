@@ -1,0 +1,12 @@
+{
+    "name":"核反應爐",
+    "icon":"ftbic:nuclear_reactor",
+    "category":"ftbic:generators",
+    "sortnum":4,
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"$(item)核反應爐$()是模組中最複雜的部份，因此擁有一個$(l:ftbic:nuclear)獨立類別$()。"
+        }
+    ]
+}

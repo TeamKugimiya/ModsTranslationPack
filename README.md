@@ -72,6 +72,7 @@
       <li>betterf3</li>
       <li>betterstats</li>
       <li>bhc</li>
+      <li>biggerreactors</li>
       <li>blur</li>
       <li>citresewn</li>
       <li>configured</li>
@@ -97,6 +98,7 @@
       <li>ftbbackups</li>
       <li>ftbchunks</li>
       <li>ftbessentials</li>
+      <li>ftbic</li>
       <li>ftblibrary</li>
       <li>ftbteams</li>
       <li>ftbultimine</li>
@@ -115,16 +117,20 @@
       <li>morefrogs</li>
       <li>mousewheelie</li>
       <li>multiconnect</li>
+      <li>myrtrees</li>
       <li>notenoughcrashes</li>
       <li>notenoughwands</li>
       <li>observable</li>
       <li>paginatedadvancements</li>
+      <li>phosphophyllite</li>
       <li>presencefootsteps</li>
       <li>screencapper</li>
+      <li>simplebackups</li>
       <li>skyblockbuilder</li>
       <li>skyguis</li>
       <li>sodium-extra</li>
       <li>sodium</li>
+      <li>spirit</li>
       <li>stendhal</li>
       <li>trashcans</li>
     </ul>
