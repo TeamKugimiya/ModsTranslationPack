@@ -44,6 +44,11 @@ jobs:
 
       - name: Override mods
         run: |
+          echo ">>> 模組翻譯覆蓋 <<<"
+          echo ">>> 某些模組的翻譯如果搭配其他翻譯包"
+          echo ">>> 所使用會將翻譯好的內容變成未翻譯"
+          echo ">>> 此步驟將會把一些已知的模組翻譯覆蓋掉"
+
           echo "Override Create..."
           PATH_Create=assets/create/lang
           mkdir -p $PATH_Create
@@ -54,8 +59,8 @@ jobs:
           mkdir -p $PATH_ProjectE
           mkdir workdir
           cd workdir
-          wget $(wget -qO - "https://www.mediafire.com/file/cso2r6ok1mu3ujw/ProjectE-1.19.2-PE1.0.0B-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
-          $JAVA_HOME_17_X64/bin/jar xf ProjectE-1.19.2-PE1.0.0B-tw.jar assets/projecte/lang/zh_tw.json
+          wget $(wget -qO - "https://www.mediafire.com/file/uhtspihpscmrqsb/ProjectE-1.19.2-PE1.0.1B-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
+          $JAVA_HOME_17_X64/bin/jar xf ProjectE-1.19.2-PE1.0.1B-tw.jar assets/projecte/lang/zh_tw.json
           cd ..
           cp workdir/assets/projecte/lang/zh_tw.json $PATH_ProjectE/
           rm -r workdir
