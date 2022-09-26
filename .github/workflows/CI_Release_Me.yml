@@ -82,6 +82,17 @@ jobs:
           echo "Fix error space"
           sed -i 's/	//1' assets/bloodmagic/patchouli_books/guide/zh_tw/entries/altar/soul_network.json
 
+          echo "Override Tinkers' Construct..."
+          PATH_TConstruct=assets/tconstruct/lang
+          mkdir -p $PATH_TConstruct
+          mkdir workdir
+          cd workdir
+          wget $(wget -qO - "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
+          $JAVA_HOME_17_X64/bin/jar xf TConstruct-1.18.2-3.5.2.40-tw.jar assets/tconstruct/lang/zh_tw.json
+          cd ..
+          cp workdir/assets/tconstruct/lang/zh_tw.json $PATH_TConstruct/
+          rm -r workdir
+
       - name: Make ModsTranslationPack (1.19.x)
         uses: ComunidadAylas/PackSquash-action@master
         with:
