@@ -45,9 +45,9 @@ jobs:
           mkdir workdir
           cd workdir
           wget $(wget -qO - "https://www.mediafire.com/file/uhtspihpscmrqsb/ProjectE-1.19.2-PE1.0.1B-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
-          $JAVA_HOME_17_X64/bin/jar xf ProjectE-1.19.2-PE1.0.1B-tw.jar assets/projecte/lang/zh_tw.json
+          $JAVA_HOME_17_X64/bin/jar xf ProjectE-1.19.2-PE1.0.1B-tw.jar $PATH_ProjectE/zh_tw.json
           cd ..
-          cp workdir/assets/projecte/lang/zh_tw.json $PATH_ProjectE/
+          cp workdir/$PATH_ProjectE/zh_tw.json $PATH_ProjectE/
           rm -r workdir
 
           echo "Override BloodMagic..."
@@ -73,9 +73,20 @@ jobs:
           mkdir workdir
           cd workdir
           wget $(wget -qO - "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
-          $JAVA_HOME_17_X64/bin/jar xf TConstruct-1.18.2-3.5.2.40-tw.jar assets/tconstruct/lang/zh_tw.json
+          $JAVA_HOME_17_X64/bin/jar xf TConstruct-1.18.2-3.5.2.40-tw.jar $PATH_TConstruct/zh_tw.json
           cd ..
-          cp workdir/assets/tconstruct/lang/zh_tw.json $PATH_TConstruct/
+          cp workdir/$PATH_TConstruct/zh_tw.json $PATH_TConstruct/
+          rm -r workdir
+
+          echo "Override The Twilight Forest..."
+          PATH_TwilightForest=assets/twilightforest/lang
+          mkdir -p $PATH_TwilightForest
+          mkdir workdir
+          cd workdir
+          wget $(wget -qO - "https://www.mediafire.com/file/kl96rxo50e68j93/twilightforest-1.18.2-4.1.1423-universal-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
+          $JAVA_HOME_17_X64/bin/jar xf twilightforest-1.18.2-4.1.1423-universal-tw.jar $PATH_TwilightForest/zh_tw.json
+          cd ..
+          cp workdir/$PATH_TwilightForest/zh_tw.json $PATH_TwilightForest/
           rm -r workdir
 
       - name: Make ModsTranslationPack (1.19.x)
