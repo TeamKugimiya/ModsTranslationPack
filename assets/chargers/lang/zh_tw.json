@@ -1,0 +1,17 @@
+{
+  "block.chargers.charger_t1": "充電器 - 等級一",
+  "block.chargers.charger_t2": "充電器 - 等級二",
+  "block.chargers.charger_t3": "充電器 - 等級三",
+  "block.chargers.charger_t4": "充電器 - 等級四",
+  "block.chargers.wireless_charger": "無線充電器",
+  "block.chargers.wireless_charger.desc": "可以用紅石停用",
+  "chargers.chat.disabled": "停用",
+  "chargers.chat.enabled": "啟用",
+  "chargers.chat.stored.info": "能量：%s/%s FE",
+  "chargers.chat.wireless_charger.info": "狀態：%s，能量：%s/%s FE",
+  "chargers.gui.energy": "%s/%s FE",
+  "chargers.gui.io": "I/O：%s FE/t",
+  "chargers.gui.max_in": "最大輸入：%s FE/t",
+  "chargers.gui.max_out": "最大輸出：%s FE/t",
+  "itemGroup.chargers": "Chargers"
+}
