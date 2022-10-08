@@ -146,7 +146,7 @@
 
 以下列出已覆蓋的模組和來源：
 
-- [Create](https://github.com/Creators-of-Create/Create)
+<!-- - [Create](https://github.com/Creators-of-Create/Create) -->
 - [ProjectE](https://grant88.pixnet.net/blog/post/43364803)
 - [BloodMagic](https://forum.gamer.com.tw/C.php?bsn=18673&snA=197467)
 - [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
