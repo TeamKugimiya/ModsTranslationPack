@@ -27,22 +27,29 @@
 | bhc | :x: |  |
 | biggerreactors | :x: |  |
 | blur | :x: |  |
+| chargers | :x: |  |
 | citresewn | :x: |  |
 | configured | :x: |  |
+| connectedglass | :x: |  |
 | continuity | :x: |  |
 | copper-horns | :x: |  |
 | cosmeticarmorreworked | :x: |  |
+| create | :x: |  |
 | creeperoverhaul | :x: |  |
 | curios | :x: |  |
 | dashloader | :x: |  |
+| durabilitytooltip | :x: |  |
+| eccentrictome | :x: |  |
 | effective | :x: |  |
 | energymeter | :question: | [等待合併](https://github.com/AlmostReliable/energymeter-forge/pull/26) |
+| entangled | :x: |  |
 | exmachinis | :x: |  |
 | exnaturae | :x: |  |
 | exnihiloae | :x: |  |
 | exnihilomekanism | :x: |  |
 | exnihilosequentia | :x: |  |
 | exnihilothermal | :x: |  |
+| exnihilotinkers | :x: |  |
 | extrasounds | :x: |  |
 | extremesoundmuffler | :x: |  |
 | fabrihud | :x: |  |
@@ -53,6 +60,7 @@
 | ftbessentials | :x: |  |
 | ftbic | :x: |  |
 | ftblibrary | :x: |  |
+| ftbquests | :x: |  |
 | ftbteams | :x: |  |
 | ftbultimine | :x: |  |
 | functionalstorage | :x: |  |
@@ -60,6 +68,8 @@
 | hostilenetworks | :x: |  |
 | inventoryhud | :x: |  |
 | ironchests | :x: |  |
+| itemcollectors | :x: |  |
+| itemfilters | :x: |  |
 | jei | :x: |  |
 | justenoughprofessions | :x: |  |
 | laserio | :x: |  |
@@ -78,12 +88,19 @@
 | paginatedadvancements | :x: |  |
 | phosphophyllite | :x: |  |
 | presencefootsteps | :x: |  |
+| rechiseled | :x: |  |
 | screencapper | :heavy_check_mark: | [已回饋](https://github.com/Deftu/Screencapper/pull/6)，但翻譯有變動，需再度 PR |
 | simplebackups | :x: |  |
+| simplemagnets | :x: |  |
 | skyblockbuilder | :x: |  |
 | skyguis | :x: |  |
+| snad | :x: |  |
 | sodium | :x: | 由於 Crowdin 並未連上主專案進行同步翻譯 |
 | sodium-extra | :heavy_check_mark: | 已提交上 Crowdin |
+| sophisticatedbackpacks | :x: |  |
+| sophisticatedcore | :x: |  |
+| sophisticatedstorage | :x: |  |
 | spirit | :x: |  |
 | stendhal | :x: |  |
 | trashcans | :x: |  |
+| wirelesschargers | :x: |  |

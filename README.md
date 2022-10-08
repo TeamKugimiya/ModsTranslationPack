@@ -46,7 +46,7 @@
 
 ## 目前有內建的模組翻譯列表
 
-目前支援 82 個模組。
+目前支援 99 個模組。
 
 <details>
   <summary>展開列表</summary>
@@ -74,22 +74,29 @@
       <li>bhc</li>
       <li>biggerreactors</li>
       <li>blur</li>
+      <li>chargers</li>
       <li>citresewn</li>
       <li>configured</li>
+      <li>connectedglass</li>
       <li>continuity</li>
       <li>copper-horns</li>
       <li>cosmeticarmorreworked</li>
+      <li>create</li>
       <li>creeperoverhaul</li>
       <li>curios</li>
       <li>dashloader</li>
+      <li>durabilitytooltip</li>
+      <li>eccentrictome</li>
       <li>effective</li>
       <li>energymeter</li>
+      <li>entangled</li>
       <li>exmachinis</li>
       <li>exnaturae</li>
       <li>exnihiloae</li>
       <li>exnihilomekanism</li>
       <li>exnihilosequentia</li>
       <li>exnihilothermal</li>
+      <li>exnihilotinkers</li>
       <li>extrasounds</li>
       <li>extremesoundmuffler</li>
       <li>fabrihud</li>
@@ -100,6 +107,7 @@
       <li>ftbessentials</li>
       <li>ftbic</li>
       <li>ftblibrary</li>
+      <li>ftbquests</li>
       <li>ftbteams</li>
       <li>ftbultimine</li>
       <li>functionalstorage</li>
@@ -107,6 +115,8 @@
       <li>hostilenetworks</li>
       <li>inventoryhud</li>
       <li>ironchests</li>
+      <li>itemcollectors</li>
+      <li>itemfilters</li>
       <li>jei</li>
       <li>justenoughprofessions</li>
       <li>laserio</li>
@@ -124,15 +134,22 @@
       <li>paginatedadvancements</li>
       <li>phosphophyllite</li>
       <li>presencefootsteps</li>
+      <li>rechiseled</li>
       <li>screencapper</li>
       <li>simplebackups</li>
+      <li>simplemagnets</li>
       <li>skyblockbuilder</li>
       <li>skyguis</li>
+      <li>snad</li>
       <li>sodium-extra</li>
       <li>sodium</li>
+      <li>sophisticatedbackpacks</li>
+      <li>sophisticatedcore</li>
+      <li>sophisticatedstorage</li>
       <li>spirit</li>
       <li>stendhal</li>
       <li>trashcans</li>
+      <li>wirelesschargers</li>
     </ul>
 </details>
 
