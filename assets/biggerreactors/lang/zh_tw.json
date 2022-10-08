@@ -187,7 +187,7 @@
   "screen.biggerreactors.turbine_fluid_port.direction_toggle.output": "模式：§9輸出",
   "screen.biggerreactors.turbine_fluid_port.direction_toggle.tooltip": "切換模式\n§7變更埠的流動方向。",
 
-  "block.biggerreactors.heat_exchanger_casing": "熱交換器機殼",
+  "block.biggerreactors.heat_exchanger_casing": "熱交換器外殼",
   "block.biggerreactors.heat_exchanger_glass": "熱交換器玻璃",
   "block.biggerreactors.heat_exchanger_condenser_channel": "熱交換器冷凝通道",
   "block.biggerreactors.heat_exchanger_evaporator_channel": "熱交換器蒸發通道",
