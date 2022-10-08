@@ -18,7 +18,7 @@
 	"tweed4_tailor_screen.screen.mousewheelie.general.enable-quick-armor-swapping": "快速換盔甲",
 	"tweed4_tailor_screen.screen.mousewheelie.general.enable-alt-dropping": "使用 Alt + 點擊 拖放",
 	"tweed4_tailor_screen.screen.mousewheelie.general.enable-quick-craft": "啟用快速製作",
-	"tweed4_tailor_screen.screen.mousewheelie.general.item-kinds-nbt-match-mode": "通過 NBT 匹配物品類型",
+	"tweed4_tailor_screen.screen.mousewheelie.general.item-kinds-nbt-match-mode": "通過 NBT 比對物品類型",
 	"tweed4_tailor_screen.screen.mousewheelie.general.hotbar-scope": "獨立處理快捷欄",
 	"tweed4_tailor_screen.screen.mousewheelie.general.better-fast-dragging": "更好的快速拖動",
 	"tweed4_tailor_screen.screen.mousewheelie.scrolling": "滾動",

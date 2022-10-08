@@ -48,7 +48,7 @@
   "options.autofish.recast_delay.tooltip_1": "投擲釣竿之間的延遲。",
 
   "options.autofish.clear_regex.title": "ClearLag 聊天模板",
-  "options.autofish.clear_regex.tooltip_0": "在聊天室中匹配此",
+  "options.autofish.clear_regex.tooltip_0": "在聊天室中比對此",
   "options.autofish.clear_regex.tooltip_1": "模板時進行重新投擲。",
   "options.autofish.clear_regex.tooltip_2": "\u00A76這個模板是\u00A7a正規表達式\u00A76.",
 

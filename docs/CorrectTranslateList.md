@@ -11,3 +11,4 @@
 | Cache | 緩存 | 快取 |
 | Tutorial | 教程 | 教學 |
 | Running | 運行 | 運作 |
+| Match | 匹配 | 比對 |
