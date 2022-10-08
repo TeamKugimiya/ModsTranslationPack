@@ -102,5 +102,6 @@
 | sophisticatedstorage | :x: |  |
 | spirit | :x: |  |
 | stendhal | :x: |  |
+| supercircuitmaker | :x: |  |
 | trashcans | :x: |  |
 | wirelesschargers | :x: |  |

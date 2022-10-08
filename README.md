@@ -46,7 +46,7 @@
 
 ## 目前有內建的模組翻譯列表
 
-目前支援 99 個模組。
+目前支援 100 個模組。
 
 <details>
   <summary>展開列表</summary>
@@ -148,6 +148,7 @@
       <li>sophisticatedstorage</li>
       <li>spirit</li>
       <li>stendhal</li>
+      <li>supercircuitmaker</li>
       <li>trashcans</li>
       <li>wirelesschargers</li>
     </ul>
