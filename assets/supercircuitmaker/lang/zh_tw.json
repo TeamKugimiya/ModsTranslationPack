@@ -1,0 +1,51 @@
+{
+  "itemGroup.supercircuitmaker": "超級電路製作大師",
+
+  "block.supercircuitmaker.circuit": "電路板",
+  "block.supercircuitmaker.inspector": "觀察器",
+  "item.supercircuitmaker.screwdriver": "螺絲起子",
+  "item.supercircuitmaker.palette": "調色板與畫筆",
+  "item.supercircuitmaker.tiny_redstone": "一小撮紅石粉",
+  "item.supercircuitmaker.tiny_rgb_redstone": "一小撮 RGB 紅石粉",
+  "item.supercircuitmaker.randomizer": "螢光石激發器",
+  "item.supercircuitmaker.delay": "石英共振器",
+  "item.supercircuitmaker.pulsar": "終界脈衝星",
+  "item.supercircuitmaker.note": "揚聲器",
+  "item.supercircuitmaker.lamp": "微型燈",
+  "item.supercircuitmaker.button": "微型按鈕",
+  "item.supercircuitmaker.adder": "加法器",
+  "item.supercircuitmaker.subtractor": "減法器",
+  "item.supercircuitmaker.multiplier": "乘法器",
+  "item.supercircuitmaker.divider": "除法器",
+  "item.supercircuitmaker.constant": "常數器",
+  "item.supercircuitmaker.platform": "支撐平台",
+  "item.supercircuitmaker.redstone_stick": "紅石粉塗層木棒",
+  "item.supercircuitmaker.rgb_redstone_stick": "RGB 紅石粉塗層木棒",
+
+  "container.supercircuitmaker.delay": "石英共振器：",
+  "container.supercircuitmaker.pulsar": "終界脈衝星：",
+  "container.supercircuitmaker.timing.dec_10s": "-10s",
+  "container.supercircuitmaker.timing.dec_1s": "-1s",
+  "container.supercircuitmaker.timing.inc_1s": "+1s",
+  "container.supercircuitmaker.timing.inc_10s": "+10s",
+  "container.supercircuitmaker.timing.dec_10t": "-10t",
+  "container.supercircuitmaker.timing.dec_1t": "-1t",
+  "container.supercircuitmaker.timing.inc_1t": "+1t",
+  "container.supercircuitmaker.timing.inc_10t": "+10t",
+
+  "container.supercircuitmaker.constant": "常數器：",
+  "container.supercircuitmaker.constant.dec_20": "-20",
+  "container.supercircuitmaker.constant.dec_1": "-1",
+  "container.supercircuitmaker.constant.inc_1": "+1",
+  "container.supercircuitmaker.constant.inc_20": "+20",
+
+  "subtitles.supercircuitmaker.place": "BOOP",
+
+  "key.supercircuitmaker": "超級電路製作大師",
+  "key.supercircuitmaker.open_palette": "開啟調色板",
+  "key.supercircuitmaker.component_placement_modifier": "部件放置修改器",
+
+  "msg.supercircuitmaker.inspector.learned": "已學習！",
+  "msg.supercircuitmaker.inspector.mode_state": "選擇模式：比對方塊狀態",
+  "msg.supercircuitmaker.inspector.mode_block": "選擇模式：比對方塊類型"
+}
