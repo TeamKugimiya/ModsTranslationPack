@@ -151,3 +151,5 @@
 - [BloodMagic](https://forum.gamer.com.tw/C.php?bsn=18673&snA=197467)
 - [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
 - [The Twilight Forest](https://grant88.pixnet.net/blog/post/40612096)
+  - **注意** 由於一些問題，此模組無法透過資源包直接載入。
+    需要修改 Jar 將 zh_tw.json 檔案從該模組刪除之後才能正常顯示翻譯！
