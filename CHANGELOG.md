@@ -1,5 +1,40 @@
 # Changelog
 
+## [1.5.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.4.0...v1.5.0) (2022-10-09)
+
+
+### 自動化 Action
+
+* 新增 Tinkers' Construct  語言覆蓋 ([64bc519](https://github.com/xMikux/ModsTranslationPack/commit/64bc519db246e27d2fbdad8ef270250f14d0d2fe))
+* 新增 Twilight Forest 覆蓋 ([a7f99de](https://github.com/xMikux/ModsTranslationPack/commit/a7f99de6b2c42751736cd33b2b208f51cbab9a4c))
+* 暫時移除 Create 的覆蓋 ([20982b7](https://github.com/xMikux/ModsTranslationPack/commit/20982b75704c8ec39bf552226c119cd2b91d5e40))
+
+
+### 清理翻譯 & 專案
+
+* 修正錯誤翻譯 ([d3483f4](https://github.com/xMikux/ModsTranslationPack/commit/d3483f4c962ebb1d2b2a3139796ed6174dfd71f3))
+
+
+### 新增翻譯 & 內容
+
+* 新增 Chargers (充電器) ([e6a25f2](https://github.com/xMikux/ModsTranslationPack/commit/e6a25f2f1aad03665f8b952099a3ae87f717efe3))
+* 新增 Ex: Tinker ([d60509c](https://github.com/xMikux/ModsTranslationPack/commit/d60509c69d0c6f34f83bbe9c603b837ed2388e91))
+* 新增 Snad (子沙) ([8a5b521](https://github.com/xMikux/ModsTranslationPack/commit/8a5b521c1bc6d03f4e8707f7d3d6858752b7acb3))
+* 新增 Super Circuit Maker (超級電路製作大師) ([8300921](https://github.com/xMikux/ModsTranslationPack/commit/8300921403cb32ef55fe35b6bb4d6498f66a0d45))
+* 更新 StarskyXIII 的翻譯 ([d1e3a33](https://github.com/xMikux/ModsTranslationPack/commit/d1e3a33ca5f5e2ed5bf45c43fbf79fa8f3216ac5))
+
+
+### 文檔更新
+
+* 暮光森林無法直接通過資源包載入 ([6bf3b3c](https://github.com/xMikux/ModsTranslationPack/commit/6bf3b3ca6eb04638a0efe34cdeeeefd5ee5a536a))
+* 更新模組列表 ([b6ef2ab](https://github.com/xMikux/ModsTranslationPack/commit/b6ef2ab8afc04e9f7bf970ed2ac6c92de1d09cc8))
+* 更新模組列表 ([77449c0](https://github.com/xMikux/ModsTranslationPack/commit/77449c0a91126b2ab6a50813d109cf0dc98c7cf9))
+
+
+### 修正翻譯 & 專案
+
+* **TrashCans:** 修正翻譯 無盡 -> 終極 ([ec27f00](https://github.com/xMikux/ModsTranslationPack/commit/ec27f001a25e4669f0cc65477d26205acb594531))
+
 ## [1.4.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.3.0...v1.4.0) (2022-09-25)
 
 
