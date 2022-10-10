@@ -103,5 +103,5 @@
 | spirit | :x: |  |
 | stendhal | :x: |  |
 | supercircuitmaker | :x: |  |
-| trashcans | :x: |  |
+| trashcans | :question: | [等待合併](https://github.com/SuperMartijn642/TrashCans/pull/20) |
 | wirelesschargers | :x: |  |
