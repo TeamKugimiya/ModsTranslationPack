@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.5.1](https://github.com/xMikux/ModsTranslationPack/compare/v1.5.0...v1.5.1) (2022-10-10)
+
+
+### 清理翻譯 & 專案
+
+* 更新 Sodium Extra 翻譯 ([b96bddc](https://github.com/xMikux/ModsTranslationPack/commit/b96bddcddc252952853131c4b5d44b23fa46ac00))
+
+
+### 文檔更新
+
+* **CTL:** 缺失空格 ([9f059ae](https://github.com/xMikux/ModsTranslationPack/commit/9f059ae0a41cd48a3bd1c7f48a83a49140250b1a))
+* **ModsList:** 更新 PR 資訊 ([186d17b](https://github.com/xMikux/ModsTranslationPack/commit/186d17b9ae3ed947b4c732d0d2e1de93e2eee2da))
+
 ## [1.5.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.4.0...v1.5.0) (2022-10-09)
 
 
