@@ -111,7 +111,14 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          force_include_files: LICENSE
+          force_include_files: |
+            LICENSE
+            assets/tconstruct/book/encyclopedia/zh_tw/language.lang
+            assets/tconstruct/book/mighty_smelting/zh_tw/language.lang
+            assets/tconstruct/book/fantastic_foundry/zh_tw/language.lang
+            assets/tconstruct/book/materials_and_you/zh_tw/language.lang
+            assets/tconstruct/book/tinkers_gadgetry/zh_tw/language.lang
+            assets/tconstruct/book/puny_smelting/zh_tw/language.lang
           never_store_squash_times: true
           path: ./
 
@@ -133,7 +140,14 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          force_include_files: LICENSE
+          force_include_files: |
+            LICENSE
+            assets/tconstruct/book/encyclopedia/zh_tw/language.lang
+            assets/tconstruct/book/mighty_smelting/zh_tw/language.lang
+            assets/tconstruct/book/fantastic_foundry/zh_tw/language.lang
+            assets/tconstruct/book/materials_and_you/zh_tw/language.lang
+            assets/tconstruct/book/tinkers_gadgetry/zh_tw/language.lang
+            assets/tconstruct/book/puny_smelting/zh_tw/language.lang
           never_store_squash_times: true
           path: ./
 
