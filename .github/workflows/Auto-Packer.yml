@@ -69,13 +69,31 @@ jobs:
 
           echo "Override Tinkers' Construct..."
           PATH_TConstruct=assets/tconstruct/lang
+          PATH_TConstruct_Books=assets/tconstruct/book
           mkdir -p $PATH_TConstruct
           mkdir workdir
           cd workdir
           wget $(wget -qO - "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
-          $JAVA_HOME_17_X64/bin/jar xf TConstruct-1.18.2-3.5.2.40-tw.jar $PATH_TConstruct/zh_tw.json
+          $JAVA_HOME_17_X64/bin/jar xf TConstruct-1.18.2-3.5.2.40-tw.jar
           cd ..
           cp workdir/$PATH_TConstruct/zh_tw.json $PATH_TConstruct/
+          echo ">> Tinkers' Construct Books"
+          echo ">> Setup folders..."
+          mkdir -p $PATH_TConstruct_Books/tinkers_gadgetry
+          mkdir -p $PATH_TConstruct_Books/puny_smelting
+          mkdir -p $PATH_TConstruct_Books/mighty_smelting
+          mkdir -p $PATH_TConstruct_Books/materials_and_you
+          mkdir -p $PATH_TConstruct_Books/fantastic_foundry
+          mkdir -p $PATH_TConstruct_Books/encyclopedia
+          echo ">> Setup folder done!"
+          echo ">> Copy Tinkers' Construct Books"
+          cp -r workdir/$PATH_TConstruct_Books/tinkers_gadgetry/zh_tw $PATH_TConstruct_Books/tinkers_gadgetry
+          cp -r workdir/$PATH_TConstruct_Books/puny_smelting/zh_tw $PATH_TConstruct_Books/puny_smelting
+          cp -r workdir/$PATH_TConstruct_Books/mighty_smelting/zh_tw $PATH_TConstruct_Books/mighty_smelting
+          cp -r workdir/$PATH_TConstruct_Books/materials_and_you/zh_tw $PATH_TConstruct_Books/materials_and_you
+          cp -r workdir/$PATH_TConstruct_Books/fantastic_foundry/zh_tw $PATH_TConstruct_Books/fantastic_foundry
+          cp -r workdir/$PATH_TConstruct_Books/encyclopedia/zh_tw $PATH_TConstruct_Books/encyclopedia
+          echo ">> Copy books done!"
           rm -r workdir
 
           echo "Override The Twilight Forest..."
