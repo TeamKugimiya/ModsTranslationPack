@@ -17,14 +17,15 @@ jobs:
 
     steps:
       - name: Checking Repostiory
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
 
       - name: Auto Version Change
         id: version
         run: |
-          echo "::set-output name=sha_short::${GITHUB_SHA::7}"
+          echo "翻譯包版本：${GITHUB_SHA::7}" >> $GITHUB_STEP_SUMMARY
+          echo "sha_short=${GITHUB_SHA::7}" >> $GITHUB_OUTPUT
           sed -i 's/GitVersion/git '${GITHUB_SHA::7}'/1' pack.mcmeta
 
       #    echo "Override Create..."
@@ -181,13 +182,13 @@ jobs:
       - name: Make Checksum
         id: checksum
         run: |
-          echo "::set-output name=sum-01::$(sha256sum ModsTranslationPack-1.19.x.zip)"
-          echo "::set-output name=sum-02::$(sha256sum ModsTranslationPack-1.18.x.zip)"
+          echo "sum-01=$(sha256sum ModsTranslationPack-1.19.x.zip)" >> $GITHUB_OUTPUT
+          echo "sum-02=$(sha256sum ModsTranslationPack-1.18.x.zip)" >> $GITHUB_OUTPUT
 
       - name: Make Current Time
         id: current_time
         run: |
-          echo "::set-output name=time::$(TZ='Asia/Taipei' date +'最後更新：%Y 年 %m 月 %d 日 %H 點 %M 分')"
+          echo "time=$(TZ='Asia/Taipei' date +'最後更新：%Y 年 %m 月 %d 日 %H 點 %M 分')" >> $GITHUB_OUTPUT
 
       - name: Push Pack to Release
         uses: ncipollo/release-action@v1

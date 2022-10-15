@@ -32,7 +32,7 @@ jobs:
     if: ${{ needs.release-please.outputs.release_created }}
     steps:
       - name: Checking Repostiory
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v2
         with:
           ref: ${{ needs.release-please.outputs.tag_name }}
           fetch-depth: 0
