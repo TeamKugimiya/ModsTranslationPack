@@ -107,6 +107,17 @@ jobs:
           cp workdir/$PATH_TwilightForest/zh_tw.json $PATH_TwilightForest/
           rm -r workdir
 
+          echo "Override Productive Bees..."
+          PATH_ProductiveBees=assets/productivebees/lang
+          mkdir -p $PATH_ProductiveBees
+          mkdir workdir
+          cd workdir
+          wget $(wget -qO - "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
+          $JAVA_HOME_17_X64/bin/jar xf productivebees-1.19.2-0.10.2.0-tw.jar $PATH_ProductiveBees/zh_tw.json
+          cd ..
+          cp workdir/$PATH_ProductiveBees/zh_tw.json $PATH_ProductiveBees/
+          rm -r workdir
+
       - name: Make ModsTranslationPack (1.19.x)
         uses: ComunidadAylas/PackSquash-action@master
         with:

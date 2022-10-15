@@ -84,13 +84,31 @@ jobs:
 
           echo "Override Tinkers' Construct..."
           PATH_TConstruct=assets/tconstruct/lang
+          PATH_TConstruct_Books=assets/tconstruct/book
           mkdir -p $PATH_TConstruct
           mkdir workdir
           cd workdir
           wget $(wget -qO - "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
-          $JAVA_HOME_17_X64/bin/jar xf TConstruct-1.18.2-3.5.2.40-tw.jar $PATH_TConstruct/zh_tw.json
+          $JAVA_HOME_17_X64/bin/jar xf TConstruct-1.18.2-3.5.2.40-tw.jar
           cd ..
           cp workdir/$PATH_TConstruct/zh_tw.json $PATH_TConstruct/
+          echo ">> Tinkers' Construct Books"
+          echo ">> Setup folders..."
+          mkdir -p $PATH_TConstruct_Books/tinkers_gadgetry
+          mkdir -p $PATH_TConstruct_Books/puny_smelting
+          mkdir -p $PATH_TConstruct_Books/mighty_smelting
+          mkdir -p $PATH_TConstruct_Books/materials_and_you
+          mkdir -p $PATH_TConstruct_Books/fantastic_foundry
+          mkdir -p $PATH_TConstruct_Books/encyclopedia
+          echo ">> Setup folder done!"
+          echo ">> Copy Tinkers' Construct Books"
+          cp -r workdir/$PATH_TConstruct_Books/tinkers_gadgetry/zh_tw $PATH_TConstruct_Books/tinkers_gadgetry
+          cp -r workdir/$PATH_TConstruct_Books/puny_smelting/zh_tw $PATH_TConstruct_Books/puny_smelting
+          cp -r workdir/$PATH_TConstruct_Books/mighty_smelting/zh_tw $PATH_TConstruct_Books/mighty_smelting
+          cp -r workdir/$PATH_TConstruct_Books/materials_and_you/zh_tw $PATH_TConstruct_Books/materials_and_you
+          cp -r workdir/$PATH_TConstruct_Books/fantastic_foundry/zh_tw $PATH_TConstruct_Books/fantastic_foundry
+          cp -r workdir/$PATH_TConstruct_Books/encyclopedia/zh_tw $PATH_TConstruct_Books/encyclopedia
+          echo ">> Copy books done!"
           rm -r workdir
 
           echo "Override The Twilight Forest..."
@@ -102,6 +120,17 @@ jobs:
           $JAVA_HOME_17_X64/bin/jar xf twilightforest-1.18.2-4.1.1423-universal-tw.jar $PATH_TwilightForest/zh_tw.json
           cd ..
           cp workdir/$PATH_TwilightForest/zh_tw.json $PATH_TwilightForest/
+          rm -r workdir
+
+          echo "Override Productive Bees..."
+          PATH_ProductiveBees=assets/productivebees/lang
+          mkdir -p $PATH_ProductiveBees
+          mkdir workdir
+          cd workdir
+          wget $(wget -qO - "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
+          $JAVA_HOME_17_X64/bin/jar xf productivebees-1.19.2-0.10.2.0-tw.jar $PATH_ProductiveBees/zh_tw.json
+          cd ..
+          cp workdir/$PATH_ProductiveBees/zh_tw.json $PATH_ProductiveBees/
           rm -r workdir
 
       - name: Make ModsTranslationPack (1.19.x)
