@@ -9,6 +9,9 @@ on:
     - pack.mcmeta
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   Packer:
     runs-on: ubuntu-latest
@@ -34,90 +37,7 @@ jobs:
       #    wget https://raw.githubusercontent.com/Creators-of-Create/Create/mc1.18/dev/src/main/resources/assets/create/lang/zh_tw.json -P $PATH_Create
 
       - name: Override mods
-        run: |
-          echo ">>> 模組翻譯覆蓋 <<<"
-          echo ">>> 某些模組的翻譯如果搭配其他翻譯包"
-          echo ">>> 所使用會將翻譯好的內容變成未翻譯"
-          echo ">>> 此步驟將會把一些已知的模組翻譯覆蓋掉"
-
-          echo "Override ProjectE..."
-          PATH_ProjectE=assets/projecte/lang
-          mkdir -p $PATH_ProjectE
-          mkdir workdir
-          cd workdir
-          wget $(wget -qO - "https://www.mediafire.com/file/uhtspihpscmrqsb/ProjectE-1.19.2-PE1.0.1B-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
-          $JAVA_HOME_17_X64/bin/jar xf ProjectE-1.19.2-PE1.0.1B-tw.jar $PATH_ProjectE/zh_tw.json
-          cd ..
-          cp workdir/$PATH_ProjectE/zh_tw.json $PATH_ProjectE/
-          rm -r workdir
-
-          echo "Override BloodMagic..."
-          mkdir workdir
-          cd workdir
-          sudo apt-get update
-          sudo apt-get install -y megatools
-          echo "Small Info:"
-          echo "The original download link is https://mega.nz/file/KR0CQC5Z#MkEdb3M5q9FHLIgY7WLE18T8EqKFMVUd1guryQWdTQc"
-          echo "But megatools look like don't know what is this"
-          echo "This fix I see from https://github.com/megous/megatools/issues/157#issuecomment-615835778"
-          megadl 'https://mega.nz/#!KR0CQC5Z!MkEdb3M5q9FHLIgY7WLE18T8EqKFMVUd1guryQWdTQc'
-          unzip 1.18\ BloodMagic-zh_tw-v2.zip
-          cd ..
-          mv workdir/assets/bloodmagic assets
-          rm -r workdir
-          echo "Fix error space"
-          sed -i 's/	//1' assets/bloodmagic/patchouli_books/guide/zh_tw/entries/altar/soul_network.json
-
-          echo "Override Tinkers' Construct..."
-          PATH_TConstruct=assets/tconstruct/lang
-          PATH_TConstruct_Books=assets/tconstruct/book
-          mkdir -p $PATH_TConstruct
-          mkdir workdir
-          cd workdir
-          wget $(wget -qO - "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
-          $JAVA_HOME_17_X64/bin/jar xf TConstruct-1.18.2-3.5.2.40-tw.jar
-          cd ..
-          cp workdir/$PATH_TConstruct/zh_tw.json $PATH_TConstruct/
-          echo ">> Tinkers' Construct Books"
-          echo ">> Setup folders..."
-          mkdir -p $PATH_TConstruct_Books/tinkers_gadgetry
-          mkdir -p $PATH_TConstruct_Books/puny_smelting
-          mkdir -p $PATH_TConstruct_Books/mighty_smelting
-          mkdir -p $PATH_TConstruct_Books/materials_and_you
-          mkdir -p $PATH_TConstruct_Books/fantastic_foundry
-          mkdir -p $PATH_TConstruct_Books/encyclopedia
-          echo ">> Setup folder done!"
-          echo ">> Copy Tinkers' Construct Books"
-          cp -r workdir/$PATH_TConstruct_Books/tinkers_gadgetry/zh_tw $PATH_TConstruct_Books/tinkers_gadgetry
-          cp -r workdir/$PATH_TConstruct_Books/puny_smelting/zh_tw $PATH_TConstruct_Books/puny_smelting
-          cp -r workdir/$PATH_TConstruct_Books/mighty_smelting/zh_tw $PATH_TConstruct_Books/mighty_smelting
-          cp -r workdir/$PATH_TConstruct_Books/materials_and_you/zh_tw $PATH_TConstruct_Books/materials_and_you
-          cp -r workdir/$PATH_TConstruct_Books/fantastic_foundry/zh_tw $PATH_TConstruct_Books/fantastic_foundry
-          cp -r workdir/$PATH_TConstruct_Books/encyclopedia/zh_tw $PATH_TConstruct_Books/encyclopedia
-          echo ">> Copy books done!"
-          rm -r workdir
-
-          echo "Override The Twilight Forest..."
-          PATH_TwilightForest=assets/twilightforest/lang
-          mkdir -p $PATH_TwilightForest
-          mkdir workdir
-          cd workdir
-          wget $(wget -qO - "https://www.mediafire.com/file/kl96rxo50e68j93/twilightforest-1.18.2-4.1.1423-universal-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
-          $JAVA_HOME_17_X64/bin/jar xf twilightforest-1.18.2-4.1.1423-universal-tw.jar $PATH_TwilightForest/zh_tw.json
-          cd ..
-          cp workdir/$PATH_TwilightForest/zh_tw.json $PATH_TwilightForest/
-          rm -r workdir
-
-          echo "Override Productive Bees..."
-          PATH_ProductiveBees=assets/productivebees/lang
-          mkdir -p $PATH_ProductiveBees
-          mkdir workdir
-          cd workdir
-          wget $(wget -qO - "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')
-          $JAVA_HOME_17_X64/bin/jar xf productivebees-1.19.2-0.10.2.0-tw.jar $PATH_ProductiveBees/zh_tw.json
-          cd ..
-          cp workdir/$PATH_ProductiveBees/zh_tw.json $PATH_ProductiveBees/
-          rm -r workdir
+        run: sh .github/scripts/override_mods.sh
 
       - name: Make ModsTranslationPack (1.19.x)
         uses: ComunidadAylas/PackSquash-action@master
