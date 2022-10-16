@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.5.2](https://github.com/xMikux/ModsTranslationPack/compare/v1.5.1...v1.5.2) (2022-10-16)
+
+
+### 修正翻譯 & 專案
+
+* 修正 Tinker 沒有正確覆蓋到手冊 ([19bdff3](https://github.com/xMikux/ModsTranslationPack/commit/19bdff3c5533204a8af6fae934c97a7a65cf4fad))
+
+
+### 自動化 Action
+
+* 包括 lang 的語言檔 ([b86a9a4](https://github.com/xMikux/ModsTranslationPack/commit/b86a9a46cd16409d11c470db472a5b054ae52a33))
+* 完善新覆蓋腳本 ([1819f0b](https://github.com/xMikux/ModsTranslationPack/commit/1819f0b1e5aecc0a9b8b567c446548e76ed9bcd2))
+* 新增 Productive Bees (生產蜜蜂) 覆蓋 ([4b00a3d](https://github.com/xMikux/ModsTranslationPack/commit/4b00a3d9e02b5cb65820865459ffcd589ed89d56))
+* 更新版本與新格式 ([6d0f56f](https://github.com/xMikux/ModsTranslationPack/commit/6d0f56f2a050be0266ced9b825850654d02f3cd6))
+* 測試新覆蓋腳本 ([c3baac3](https://github.com/xMikux/ModsTranslationPack/commit/c3baac37f7327f97a8ca37f1924e3f6ed83f7b0b))
+
 ## [1.5.1](https://github.com/xMikux/ModsTranslationPack/compare/v1.5.0...v1.5.1) (2022-10-10)
 
 
