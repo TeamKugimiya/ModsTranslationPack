@@ -31,11 +31,6 @@ jobs:
           echo "sha_short=${GITHUB_SHA::7}" >> $GITHUB_OUTPUT
           sed -i 's/GitVersion/git '${GITHUB_SHA::7}'/1' pack.mcmeta
 
-      #    echo "Override Create..."
-      #    PATH_Create=assets/create/lang
-      #    mkdir -p $PATH_Create
-      #    wget https://raw.githubusercontent.com/Creators-of-Create/Create/mc1.18/dev/src/main/resources/assets/create/lang/zh_tw.json -P $PATH_Create
-
       - name: Override mods
         run: sh .github/scripts/override_mods.sh
 

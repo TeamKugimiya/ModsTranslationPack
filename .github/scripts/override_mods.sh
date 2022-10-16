@@ -20,6 +20,29 @@ rm_workdir () {
     rm -r workdir
 }
 
+verify_translate_exist () {
+    if [ -f "$2/zh_tw.json" ]; then
+        echo "翻譯驗證通過！"
+    else 
+        echo "錯誤！覆蓋 $1 翻譯失敗。"
+        exit 1
+    fi
+}
+
+verify_books_translate_exists () {
+    if [ -d "$2" ]
+    then
+        if [ "$(ls -A $2)" ]; then
+        echo "書本翻譯驗證通過！（$2）"
+        else
+        echo "錯誤！ $2 中並未存在任何資料夾或檔案。"
+        fi
+    else
+        echo "錯誤！$1 的覆蓋資料夾未找到。"
+        exit 1
+    fi
+}
+
 mega_override () {
     mk_workdir
     pwd
@@ -50,12 +73,7 @@ mega_override () {
     mv workdir/$PATH_MEGA assets
 
     echo "檢查 $1 覆蓋內容是否存在"
-    if [ -f "$PATH_MEGA/lang/zh_tw.json" ]; then
-        echo "翻譯存在！"
-    else 
-        echo "錯誤！覆蓋 $1 翻譯失敗。"
-        exit 1
-    fi
+    verify_translate_exist "$1" "$PATH_MEGA/lang"
 
     echo "完成 $1 覆蓋！清理工作資料夾"
     rm_workdir
@@ -86,12 +104,7 @@ mediafire_override () {
     cp workdir/$PATH_MEDIAFIRE/zh_tw.json $PATH_MEDIAFIRE/
 
     echo "檢查 $1 覆蓋內容是否存在"
-    if [ -f "$PATH_MEDIAFIRE/zh_tw.json" ]; then
-        echo "翻譯存在！"
-    else 
-        echo "錯誤！覆蓋 $1 翻譯失敗。"
-        exit 1
-    fi
+    verify_translate_exist "$1" "$PATH_MEDIAFIRE"
 
     echo "完成 $1 覆蓋！清理工作資料夾"
     rm_workdir
@@ -139,17 +152,41 @@ mediafire_tinker_override () {
     cp -r workdir/$PATH_MEDIAFIRE_TINKER_BOOKS/encyclopedia/zh_tw $PATH_MEDIAFIRE_TINKER_BOOKS/encyclopedia
 
     echo "檢查 $1 覆蓋內容是否存在"
-    if [ -f "$PATH_MEDIAFIRE_TINKER/zh_tw.json" ]; then
-        echo "翻譯存在！"
-    else 
-        echo "錯誤！覆蓋 $1 翻譯失敗。"
-        exit 1
-    fi
+    verify_translate_exist "$1" "$PATH_MEDIAFIRE_TINKER"
+
+    echo "檢查 $1 覆蓋書本內容是否存在"
+    verify_books_translate_exists "$1" "$PATH_MEDIAFIRE_TINKER_BOOKS"
+    verify_books_translate_exists "$1" "$PATH_MEDIAFIRE_TINKER_BOOKS/tinkers_gadgetry"
+    verify_books_translate_exists "$1" "$PATH_MEDIAFIRE_TINKER_BOOKS/puny_smelting"
+    verify_books_translate_exists "$1" "$PATH_MEDIAFIRE_TINKER_BOOKS/mighty_smelting"
+    verify_books_translate_exists "$1" "$PATH_MEDIAFIRE_TINKER_BOOKS/materials_and_you"
+    verify_books_translate_exists "$1" "$PATH_MEDIAFIRE_TINKER_BOOKS/fantastic_foundry"
+    verify_books_translate_exists "$1" "$PATH_MEDIAFIRE_TINKER_BOOKS/encyclopedia"
 
     echo "完成 $1 覆蓋！清理工作資料夾"
     rm_workdir
 }
 
+github_override () {
+    mk_workdir
+
+    echo "覆蓋 $1..."
+
+    echo "設置 $1 路徑變數"
+    PATH_GITHUB=$2
+
+    echo "創建 $1 語言資料夾..."
+    mkdir -p $PATH_GITHUB
+
+    echo "下載 $1 翻譯檔案到語言資料夾內..."
+    wget $3 -P $PATH_GITHUB
+
+    echo "檢查 $1 覆蓋內容是否存在"
+    verify_translate_exist "$1" "$PATH_GITHUB"
+
+    echo "完成 $1 覆蓋！清理工作資料夾"
+    rm_workdir
+}
 
 # Main
 
@@ -177,3 +214,8 @@ mediafire_override "Productive Bees" "assets/productivebees/lang" "https://www.m
 ### Tinker (特殊)
 
 mediafire_tinker_override "Tinkers' Construct" "assets/tconstruct/lang" "assets/tconstruct/book" "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" "TConstruct-1.18.2-3.5.2.40-tw.jar"
+
+## GitHub
+
+### Create
+# github_override "Create" "assets/create/lang" "https://raw.githubusercontent.com/Creators-of-Create/Create/mc1.18/dev/src/main/resources/assets/create/lang/zh_tw.json"
