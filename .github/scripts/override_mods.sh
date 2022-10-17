@@ -52,8 +52,8 @@ mega_override () {
     echo "這邊有一個修正連結的問題 https://github.com/megous/megatools/issues/157#issuecomment-615835778"
 
     echo "安裝 megatools..."
-    sudo apt-get update
-    sudo apt-get install -y megatools
+    sudo apt-get update > /dev/null
+    sudo apt-get install -y megatools > /dev/null
 
     echo "覆蓋 $1..."
 
@@ -64,7 +64,7 @@ mega_override () {
     megadl "$4"
 
     echo "解壓縮 $5"
-    unzip "$5"
+    unzip -q "$5"
 
     echo "回到工作目錄..."
     cd ..
@@ -254,6 +254,9 @@ mediafire_productive_bees_override "Productive Bees" "assets/productivebees/lang
 
 ### Tinker (特殊)
 mediafire_tinker_override "Tinkers' Construct" "assets/tconstruct/lang" "assets/tconstruct/book" "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" "TConstruct-1.18.2-3.5.2.40-tw.jar"
+
+### Patchouli
+mediafire_override "Patchouli" "assets/patchouli/lang" "https://www.mediafire.com/file/6zlssytqeivond1/Patchouli-1.19.2-76-tw.jar" "Patchouli-1.19.2-76-tw.jar"
 
 ## GitHub
 
