@@ -41,7 +41,7 @@
 | durabilitytooltip | :x: |  |
 | eccentrictome | :x: |  |
 | effective | :x: |  |
-| energymeter | :question: | [等待合併](https://github.com/AlmostReliable/energymeter-forge/pull/26) |
+| energymeter | :heavy_check_mark: | [已回饋](https://github.com/AlmostReliable/energymeter-forge/pull/26) |
 | entangled | :x: |  |
 | exmachinis | :x: |  |
 | exnaturae | :x: |  |

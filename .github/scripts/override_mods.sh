@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# shellcheck disable=2271,2260,2086
+# shellcheck disable=2260,2086
 
 echo ">>> 模組翻譯覆蓋腳本 <<<"
 echo ">>> 某些模組的翻譯如果搭配其他翻譯包"

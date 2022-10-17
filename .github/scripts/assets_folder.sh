@@ -34,7 +34,7 @@ modslist_added_generate () {
     sed -i "s+sodium$x_placeholder+sodium$x_x_placeholder 由於 Crowdin 並未連上主專案進行同步翻譯 |+" $file_name
     sed -i "s+sodium-extra$x_placeholder+sodium-extra$check_placeholder 已提交上 Crowdin |+" $file_name
     sed -i "s+automodpack$x_placeholder+automodpack$check_placeholder [已回饋](https://github.com/Skidamek/AutoModpack/pull/64) |+" $file_name
-    sed -i "s+energymeter$x_placeholder+energymeter$question_placeholder [等待合併](https://github.com/AlmostReliable/energymeter-forge/pull/26) |+" $file_name
+    sed -i "s+energymeter$x_placeholder+energymeter$check_placeholder [已回饋](https://github.com/AlmostReliable/energymeter-forge/pull/26) |+" $file_name
     sed -i "s+fluxnetworks$x_placeholder+fluxnetworks$check_placeholder [已回饋](https://github.com/SonarSonic/Flux-Networks/pull/482)，需要更新。 |+" $file_name
     sed -i "s+trashcans$x_placeholder+trashcans$question_placeholder [等待合併](https://github.com/SuperMartijn642/TrashCans/pull/20) |+" $file_name
 }
