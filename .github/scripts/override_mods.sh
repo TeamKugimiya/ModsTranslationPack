@@ -57,14 +57,14 @@ mega_override () {
 
     echo "覆蓋 $1..."
 
-    echo "設置 $2 路徑變數"
-    PATH_MEGA=$3
+    echo "設置 $1 路徑變數"
+    PATH_MEGA=$2
 
     echo "下載 $1..."
-    megadl "$4"
+    megadl "$3"
 
-    echo "解壓縮 $5"
-    unzip -q "$5"
+    echo "解壓縮 $4"
+    unzip -q "$4"
 
     echo "回到工作目錄..."
     cd ..
@@ -237,7 +237,7 @@ home
 ## Mega
 
 ### BloodMagic
-mega_override "BloodMagic" "BLOODMAGIC" "assets/bloodmagic" "https://mega.nz/#!KR0CQC5Z!MkEdb3M5q9FHLIgY7WLE18T8EqKFMVUd1guryQWdTQc" "1.18 BloodMagic-zh_tw-v2.zip"
+mega_override "BloodMagic" "assets/bloodmagic" "https://mega.nz/#!KR0CQC5Z!MkEdb3M5q9FHLIgY7WLE18T8EqKFMVUd1guryQWdTQc" "1.18 BloodMagic-zh_tw-v2.zip"
 echo "修正 BloodMagic 的全形空格"
 sed -i 's/	//1' assets/bloodmagic/patchouli_books/guide/zh_tw/entries/altar/soul_network.json
 
