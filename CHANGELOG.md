@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.5.3](https://github.com/xMikux/ModsTranslationPack/compare/v1.5.2...v1.5.3) (2022-10-17)
+
+
+### 清理翻譯 & 專案
+
+* remove unneeded redirection to `/dev/stdout` ([#23](https://github.com/xMikux/ModsTranslationPack/issues/23)) ([1d7a3a0](https://github.com/xMikux/ModsTranslationPack/commit/1d7a3a05ab41ba8433d1ba1011d8280dc551c46d))
+* 腳本的多於空格 ([396cedd](https://github.com/xMikux/ModsTranslationPack/commit/396cedd6774fe509805a6ca0258e696629f29285))
+
+
+### 文檔更新
+
+* 更新回饋資訊 ([6998133](https://github.com/xMikux/ModsTranslationPack/commit/69981334d0f82eda51c8b445ada226d790aca942))
+
+
+### 自動化 Action
+
+* 修正 Productive Bees 沒有正確覆蓋到手冊 ([3d43e32](https://github.com/xMikux/ModsTranslationPack/commit/3d43e3259828dc477ac63d95d3777277016f7935))
+* 新增 Patchouli (帕秋莉手冊) 覆蓋 ([fbd36d4](https://github.com/xMikux/ModsTranslationPack/commit/fbd36d46de5ad6173d95506aa346fc44ef2485b8))
+* 清理奇怪的變數宣告 ([873ee7a](https://github.com/xMikux/ModsTranslationPack/commit/873ee7ac8b5bd985a85d32677d198fe8ce366b9f))
+
 ## [1.5.2](https://github.com/xMikux/ModsTranslationPack/compare/v1.5.1...v1.5.2) (2022-10-16)
 
 
