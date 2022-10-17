@@ -89,7 +89,7 @@ mediafire_override () {
     PATH_MEDIAFIRE=$2
 
     echo "下載 $1"
-    wget "$(wget -qO - "$3" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+    wget -q "$(wget -qO - "$3" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
 
     echo "取出 $1 翻譯檔"
     $JAVA_HOME_17_X64/bin/jar xf $4 $PATH_MEDIAFIRE/zh_tw.json
@@ -121,7 +121,7 @@ mediafire_tinker_override () {
     PATH_MEDIAFIRE_TINKER_BOOKS=$3
 
     echo "下載 $1"
-    wget "$(wget -qO - "$4" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+    wget -q "$(wget -qO - "$4" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
 
     echo "解壓縮 $1 Jar"
     $JAVA_HOME_17_X64/bin/jar xf $5
@@ -167,6 +167,47 @@ mediafire_tinker_override () {
     rm_workdir
 }
 
+mediafire_productive_bees_override () {
+    mk_workdir
+
+    echo "覆蓋 $1..."
+
+    echo "設置 $1 路徑變數"
+    PATH_MEDIAFIRE_PRODUCTIVE_BEES=$2
+    PATH_MEDIAFIRE_PRODUCTIVE_BEES_BOOKS=$3
+
+    echo "下載 $1"
+    wget -q "$(wget -qO - "$4" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+
+    echo "解壓縮 $1 Jar"
+    $JAVA_HOME_17_X64/bin/jar xf $5
+
+    echo "回到工作目錄..."
+    cd ..
+
+    echo "創建 $1 語言資料夾..."
+    mkdir -p $PATH_MEDIAFIRE_PRODUCTIVE_BEES
+
+    echo "複製 $1 的翻譯內容..."
+    cp workdir/$PATH_MEDIAFIRE_PRODUCTIVE_BEES/zh_tw.json $PATH_MEDIAFIRE_PRODUCTIVE_BEES/
+
+    echo "創建 $1 書本資料夾"
+    mkdir -p assets/$PATH_MEDIAFIRE_PRODUCTIVE_BEES_BOOKS/guide
+
+    echo "複製 $1 的書本內容..."
+    cp -r workdir/data/$PATH_MEDIAFIRE_PRODUCTIVE_BEES_BOOKS/guide/zh_tw assets/$PATH_MEDIAFIRE_PRODUCTIVE_BEES_BOOKS/guide
+    cp workdir/data/$PATH_MEDIAFIRE_PRODUCTIVE_BEES_BOOKS/guide/book.json assets/$PATH_MEDIAFIRE_PRODUCTIVE_BEES_BOOKS/guide
+
+    echo "檢查 $1 覆蓋內容是否存在"
+    verify_translate_exist "$1" "$PATH_MEDIAFIRE_PRODUCTIVE_BEES"
+
+    echo "檢查 $1 覆蓋書本內容是否存在"
+    verify_books_translate_exists "$1" "assets/$PATH_MEDIAFIRE_PRODUCTIVE_BEES_BOOKS/guide/"
+
+    echo "完成 $1 覆蓋！清理工作資料夾"
+    rm_workdir
+}
+
 github_override () {
     mk_workdir
 
@@ -179,7 +220,7 @@ github_override () {
     mkdir -p $PATH_GITHUB
 
     echo "下載 $1 翻譯檔案到語言資料夾內..."
-    wget $3 -P $PATH_GITHUB
+    wget -q $3 -P $PATH_GITHUB
 
     echo "檢查 $1 覆蓋內容是否存在"
     verify_translate_exist "$1" "$PATH_GITHUB"
@@ -208,8 +249,8 @@ mediafire_override "ProjectE" "assets/projecte/lang" "https://www.mediafire.com/
 ### The Twilight Forest
 mediafire_override "The Twilight Forest" "assets/twilightforest/lang" "https://www.mediafire.com/file/kl96rxo50e68j93/twilightforest-1.18.2-4.1.1423-universal-tw.jar" "twilightforest-1.18.2-4.1.1423-universal-tw.jar"
 
-### Productive Bees
-mediafire_override "Productive Bees" "assets/productivebees/lang" "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees-1.19.2-0.10.2.0-tw.jar"
+### Productive Bees (特殊)
+mediafire_productive_bees_override "Productive Bees" "assets/productivebees/lang" "productivebees/patchouli_books" "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees-1.19.2-0.10.2.0-tw.jar"
 
 ### Tinker (特殊)
 mediafire_tinker_override "Tinkers' Construct" "assets/tconstruct/lang" "assets/tconstruct/book" "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" "TConstruct-1.18.2-3.5.2.40-tw.jar"
