@@ -121,7 +121,7 @@ mediafire_tinker_override () {
     PATH_MEDIAFIRE_TINKER_BOOKS=$3
 
     echo "下載 $1"
-    wget "$(wget -qO - "$4"  | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+    wget "$(wget -qO - "$4" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
 
     echo "解壓縮 $1 Jar"
     $JAVA_HOME_17_X64/bin/jar xf $5
