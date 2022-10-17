@@ -89,7 +89,7 @@ mediafire_override () {
     PATH_MEDIAFIRE=$2
 
     echo "下載 $1"
-    wget "$(wget -qO - "$3" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+    wget "$(wget -qO - "$3" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
 
     echo "取出 $1 翻譯檔"
     $JAVA_HOME_17_X64/bin/jar xf $4 $PATH_MEDIAFIRE/zh_tw.json
@@ -121,7 +121,7 @@ mediafire_tinker_override () {
     PATH_MEDIAFIRE_TINKER_BOOKS=$3
 
     echo "下載 $1"
-    wget "$(wget -qO - "$4" > /dev/stdout | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+    wget "$(wget -qO - "$4"  | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
 
     echo "解壓縮 $1 Jar"
     $JAVA_HOME_17_X64/bin/jar xf $5
