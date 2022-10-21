@@ -46,7 +46,7 @@
 
 ## 目前有內建的模組翻譯列表
 
-目前支援 100 個模組。
+目前支援 102 個模組。
 
 <details>
   <summary>展開列表</summary>
@@ -76,6 +76,7 @@
       <li>blur</li>
       <li>chargers</li>
       <li>citresewn</li>
+      <li>cloth-config2</li>
       <li>configured</li>
       <li>connectedglass</li>
       <li>continuity</li>
@@ -151,6 +152,7 @@
       <li>supercircuitmaker</li>
       <li>trashcans</li>
       <li>wirelesschargers</li>
+      <li>yet-another-config-lib</li>
     </ul>
 </details>
 
