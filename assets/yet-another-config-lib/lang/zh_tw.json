@@ -8,7 +8,7 @@
   "yacl.gui.save.tooltip": "儲存你的變更。",
   "yacl.gui.finished.tooltip": "關閉介面。",
   "yacl.gui.cancel.tooltip": "取消變更並關閉介面。",
-  "yacl.gui.reset.tooltip": "重置所有選項到預設。（這可以復原！）",
+  "yacl.gui.reset.tooltip": "重設所有選項到預設。（這可以復原！）",
   "yacl.gui.undo": "復原",
   "yacl.gui.undo.tooltip": "將所有選項恢復成編輯前的狀態。",
   "yacl.gui.fail_apply": "套用失敗",

@@ -12,3 +12,5 @@
 | Tutorial | 教程 | 教學 |
 | Running | 運行 | 運作 |
 | Match | 匹配 | 比對 |
+| Reset | 重置 | 重設 |
+| Apply | 應用 | 套用 |

@@ -47,7 +47,7 @@
   "skyblockbuilder.command.denied.clear_team": "你無法清空該隊伍。",
   "skyblockbuilder.command.denied.delete_team": "你無法刪除該隊伍。",
   "skyblockbuilder.command.denied.create_spawn": "你無法在這裡增加重生點。",
-  "skyblockbuilder.command.denied.reset_spawns": "你無法重置隊伍的重生點。",
+  "skyblockbuilder.command.denied.reset_spawns": "你無法重設隊伍的重生點。",
   "skyblockbuilder.command.denied.modify_spawns0": "你不能刪除此重生點。",
   "skyblockbuilder.command.denied.modify_spawns1": "剩餘的重生點太少。",
   "skyblockbuilder.command.denied.rename_team": "你無法重新命名該隊伍。",
@@ -101,7 +101,7 @@
   "skyblockbuilder.command.success.remove_all_players_from_team": "成功移除所有 %s 隊伍內的玩家。",
   "skyblockbuilder.command.success.spawn_added": "成功新增新的重生點在 x %s，y %s，z %s。",
   "skyblockbuilder.command.success.spawn_removed": "成功移除重生點在 x %s，y %s，z %s。",
-  "skyblockbuilder.command.success.reset_spawns": "成功重置所有可能的重生點。",
+  "skyblockbuilder.command.success.reset_spawns": "成功重設所有可能的重生點。",
   "skyblockbuilder.command.success.rename_team": "成功重新命名隊伍成 %s。",
 
   "skyblockbuilder.command.warning.edit_spawn_spawns": "[警告] 你現在正在編輯島嶼的重生點位置！",

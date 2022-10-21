@@ -9,8 +9,8 @@
 
   "config.fabrihud.apply":"套用",
   "config.fabrihud.apply.tooltip": "套用並儲存變更",
-  "config.fabrihud.reset": "重置",
-  "config.fabrihud.reset.tooltip": "重置所有設定到預設值",
+  "config.fabrihud.reset": "重設",
+  "config.fabrihud.reset.tooltip": "重設所有設定到預設值",
   "config.fabrihud.cancel": "取消",
   "config.fabrihud.cancel.tooltip": "退出，並不儲存任何變更",
 
