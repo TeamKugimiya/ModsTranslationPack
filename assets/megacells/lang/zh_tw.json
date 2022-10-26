@@ -33,6 +33,9 @@
   "item.megacells.bulk_cell_component": "MEGA 極巨儲存組件",
   "item.megacells.bulk_item_cell": "MEGA 極巨物品儲存元件",
 
+  "item.megacells.radioactive_cell_component": "MEGA 放射性儲存組件",
+  "item.megacells.radioactive_chemical_cell": "MEGA 放射性化學儲存元件",
+
   "item.megacells.portable_item_cell_1m": "1M 攜帶式物品元件",
   "item.megacells.portable_item_cell_4m": "4M 攜帶式物品元件",
   "item.megacells.portable_item_cell_16m": "16M 攜帶式物品元件",

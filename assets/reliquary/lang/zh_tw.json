@@ -270,7 +270,7 @@
     "jei.reliquary.description.fertile_lily_pad": "令周圍的作物加速生長。越靠近蓮葉的位置，其加速的幅度就越大。你也可以同時放置多個蓮葉來獲得更好的效果。",
     "jei.reliquary.description.fertile_potion": "豐沃藥水著地時，會對一定範圍內的作物產生催熟效果。",
     "jei.reliquary.description.fortune_coin": "這枚硬幣能夠將半徑 5 格方塊內的掉落物和經驗，直接傳進玩家身上。Shift + 點擊右鍵以開關吸取效果。\\n\\n將硬幣拿在手上並長按右鍵時，能使吸取範圍擴大至 3 倍（半徑大約為 15 格方塊），以便快速收集掉落物。",
-    "jei.reliquary.description.glacial_staff": "冰河權杖是冰之魔杖的上位升級版。因此，除了能夠發射雪球外，它還能夠將水凍結成冰磚，將熔岩凝固成黑曜石。當不在冰河權杖的作用範圍時，這些方塊將會融化回原始狀態。",
+    "jei.reliquary.description.glacial_staff": "冰河權杖是冰之魔杖的上位進階版。因此，除了能夠發射雪球外，它還能夠將水凍結成冰磚，將熔岩凝固成黑曜石。當不在冰河權杖的作用範圍時，這些方塊將會融化回原始狀態。",
     "jei.reliquary.description.glowing_bread": "將發光的水注入麵包中，會使它富含營養價值。僅僅一塊麵包就能夠完全補滿你的飢餓值。",
     "jei.reliquary.description.glowing_water": "在模組中，原先被稱作「聖水」，是專門用來對付不死生物的致命武器，其作用效果範圍與飛濺藥水半徑相同。在掃蕩殭屍化豬布林群或其他不死生物時相當好用。",
     "jei.reliquary.description.grip_assembly": "用來合成手槍的零組件之一。",

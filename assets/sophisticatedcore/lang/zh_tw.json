@@ -87,7 +87,7 @@
     "gui.sophisticatedcore.upgrades.buttons.match_tags": "相符標籤",
     "gui.sophisticatedcore.upgrades.tag_list.title": "標籤",
     "gui.sophisticatedcore.upgrades.tag_list.empty": "未選取標籤",
-    "gui.sophisticatedcore.upgrades.tag_list.tag_overflow": "已新增 %s 條",
+    "gui.sophisticatedcore.upgrades.tag_list.tag_overflow": "還有 %s 條",
     "gui.sophisticatedcore.upgrades.buttons.add_tag": "新增標籤",
     "gui.sophisticatedcore.upgrades.buttons.add_tag.no_item": "<- 手持物品點擊該欄位以開始新增該物品的標籤",
     "gui.sophisticatedcore.upgrades.buttons.add_tag.no_additional_tags": "該物品的所有標籤都已新增",
