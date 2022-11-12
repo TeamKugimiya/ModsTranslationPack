@@ -258,6 +258,9 @@ mediafire_tinker_override "Tinkers' Construct" "assets/tconstruct/lang" "assets/
 ### Patchouli
 mediafire_override "Patchouli" "assets/patchouli/lang" "https://www.mediafire.com/file/6zlssytqeivond1/Patchouli-1.19.2-76-tw.jar" "Patchouli-1.19.2-76-tw.jar"
 
+### Quark
+mediafire_override "Quark" "assets/quark/lang" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar"
+
 ## GitHub
 
 ### Create
