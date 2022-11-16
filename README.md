@@ -9,7 +9,7 @@
 
 [![Release](https://img.shields.io/github/v/release/xMikux/ModsTranslationPack?label=%E7%99%BC%E4%BD%88%E7%89%88&style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/releases/latest)
 [![Modrinth](https://img.shields.io/modrinth/dt/cF5VXmkW?label=Modrinth%20%E4%B8%8B%E8%BC%89%E9%87%8F&style=for-the-badge)](https://modrinth.com/resourcepack/modstranslationpack)
-[![License](https://img.shields.io/github/license/xMikux/ModsTranslationPack?style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-orange?style=for-the-badge)](https://github.com/xMikux/ModsTranslationPack/blob/main/LICENSE)
 
 這是一個簡單的模組翻譯包
 
