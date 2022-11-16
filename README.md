@@ -176,3 +176,10 @@
     需要修改 Jar 將 zh_tw.json 檔案從該模組刪除之後才能正常顯示翻譯！
 - [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
 - [Quark](https://grant88.pixnet.net/blog/post/44988448)
+- [Macaw's Fences and Walls](https://grant88.pixnet.net/blog/post/45185932)
+- [Macaw's Bridges](https://grant88.pixnet.net/blog/post/45187324)
+- [Macaw's Trapdoors](https://grant88.pixnet.net/blog/post/45161058)
+- [Macaw's Doors](https://grant88.pixnet.net/blog/post/45185876)
+- [Macaw's Roofs](https://grant88.pixnet.net/blog/post/44817796)
+- [Macaw's Furniture](https://grant88.pixnet.net/blog/post/44816824)
+- [Macaw's Windows](https://grant88.pixnet.net/blog/post/45185898)

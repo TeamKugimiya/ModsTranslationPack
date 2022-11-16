@@ -261,6 +261,16 @@ mediafire_override "Patchouli" "assets/patchouli/lang" "https://www.mediafire.co
 ### Quark
 mediafire_override "Quark" "assets/quark/lang" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar"
 
+### Macaw's Mods
+
+mediafire_override "Macaw's Fences and Wall" "assets/mcwfences/lang" "https://www.mediafire.com/file/rucz8lc6ul2h7b9/mcw-fences-1.0.5-mc1.19-tw.jar" "mcw-fences-1.0.5-mc1.19-tw.jar"
+mediafire_override "Macaw's Bridges" "assets/mcwbridges/lang" "https://www.mediafire.com/file/9k4pgzc3c0ff02g/mcw-bridges-2.0.3-mc1.19-tw.jar" "mcw-bridges-2.0.3-mc1.19-tw.jar"
+mediafire_override "Macaw's Trapdoors" "assets/mcwtrpdoors/lang" "https://www.mediafire.com/file/ydmevvck095j8t0/mcw-trapdoors-1.0.6-mc1.19-tw.jar" "mcw-trapdoors-1.0.6-mc1.19-tw.jar"
+mediafire_override "Macaw's Doors" "assets/mcwdoors/lang" "https://www.mediafire.com/file/pepxpeifzp0ln4z/mcw-doors-1.0.6-mc1.19-tw.jar" "mcw-doors-1.0.6-mc1.19-tw.jar"
+mediafire_override "Macaw's Roofs" "assets/mcwroofs/lang" "https://www.mediafire.com/file/z6gt4oxoweimtui/mcw-roofs-2.1.2-mc1.19-tw.jar" "mcw-roofs-2.1.2-mc1.19-tw.jar"
+mediafire_override "Macaw's Furniture" "assets/mcwfurnitures/lang" "https://www.mediafire.com/file/hr5cdf5hovzsvw8/mcw-furniture-3.0.0-mc1.19-tw.jar" "mcw-furniture-3.0.0-mc1.19-tw.jar"
+mediafire_override "Macaw's Windows" "assets/mcwwindows/lang" "https://www.mediafire.com/file/0rg7xgvj71v4hhg/mcw-windows-2.0.3-mc1.19-tw.jar" "mcw-windows-2.0.3-mc1.19-tw.jar"
+
 ## GitHub
 
 ### Create
