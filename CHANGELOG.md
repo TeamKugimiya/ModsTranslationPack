@@ -1,5 +1,36 @@
 # Changelog
 
+## [1.6.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.5.3...v1.6.0) (2022-11-16)
+
+
+### 修正翻譯 & 專案
+
+* 修復 Reset 的翻譯 ([927491f](https://github.com/xMikux/ModsTranslationPack/commit/927491f28cacead69592c7639eec2ed47353f881))
+
+
+### 新增翻譯 & 內容
+
+* 新增 Cloth Config API 翻譯微調 ([8d45911](https://github.com/xMikux/ModsTranslationPack/commit/8d45911831bbe2ec42545b995230781dd61ae1c7))
+* 新增 CreeperHost Presents Chickens (雞) ([8d6fb2e](https://github.com/xMikux/ModsTranslationPack/commit/8d6fb2eebb728afd1a0ace5d8396668454c9f2e5))
+* 新增 StarskyXIII 所翻的 Reliquary (聖遺物) ([cd90870](https://github.com/xMikux/ModsTranslationPack/commit/cd90870ad5e710e6792747563b9be9a923205a99))
+* 新增 Yet Another Config Lib ([063a99c](https://github.com/xMikux/ModsTranslationPack/commit/063a99c868164f343e577ea12b638482d4b0d2c0))
+
+
+### 自動化 Action
+
+* 新增 Quark (夸克模組) 覆蓋 ([d274b38](https://github.com/xMikux/ModsTranslationPack/commit/d274b38460bdeb4ac80d645ecb993782787b1590))
+* 新增馬卡的家具模組系列 ([5786170](https://github.com/xMikux/ModsTranslationPack/commit/578617021c7ffe26999e6745c96682b76db8da44))
+
+
+### 清理翻譯 & 專案
+
+* 更改許可證到 CC BY NC ND 4.0 ([784e73b](https://github.com/xMikux/ModsTranslationPack/commit/784e73b55c4aed9ec9e8af7075a25af0fbcdf243))
+* 更新 AE2 ([280ee78](https://github.com/xMikux/ModsTranslationPack/commit/280ee7859c42aa5abf6032f9a13075ed9b33fbb6))
+* 更新 BetterStats (更好的統計介面) ([82dae67](https://github.com/xMikux/ModsTranslationPack/commit/82dae67385272a551a2592db2e2086b54605b0cb))
+* 更新 ExNihilo 系列 ([#25](https://github.com/xMikux/ModsTranslationPack/issues/25)) ([19f75ea](https://github.com/xMikux/ModsTranslationPack/commit/19f75eafe8da1309d2981f8c7602919c0edf7cd2))
+* 更新模組清單格式與更新模組列表 ([8563288](https://github.com/xMikux/ModsTranslationPack/commit/856328814e381c4a6286779ffb8aa0e8ac4e844f))
+* 更新部分翻譯 ([798f7aa](https://github.com/xMikux/ModsTranslationPack/commit/798f7aa1765b176b85599dc46c151424ae4061fe))
+
 ## [1.5.3](https://github.com/xMikux/ModsTranslationPack/compare/v1.5.2...v1.5.3) (2022-10-17)
 
 
