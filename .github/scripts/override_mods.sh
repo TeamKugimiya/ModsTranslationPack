@@ -302,6 +302,9 @@ mediafire_override_resourcepack "Immersive Engineering" "assets/immersiveenginee
 ### Simply Light
 mediafire_override "Simply Light" "assets/simplylight/lang" "https://www.mediafire.com/file/zoo24n15x9lrdlq/simplylight-1.19-1.4.2-build.35-tw.jar" "simplylight-1.19-1.4.2-build.35-tw.jar"
 
+### Supplementaries
+mediafire_override "Supplementaries" "assets/supplementaries/lang" "https://www.mediafire.com/file/m8ky62v8tjt3aqw/supplementaries-1.19.2-2.2.9-tw.jar" "supplementaries-1.19.2-2.2.9-tw.jar"
+
 ## GitHub
 
 ### Create
