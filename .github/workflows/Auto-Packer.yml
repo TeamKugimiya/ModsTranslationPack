@@ -7,6 +7,7 @@ on:
     paths:
     - assets/**
     - pack.mcmeta
+    - .github/scripts/override_mods.sh
   workflow_dispatch: {}
 
 permissions:
