@@ -79,7 +79,6 @@ mega_override () {
     rm_workdir
 }
 
-
 mediafire_override () {
     mk_workdir
 
@@ -109,7 +108,33 @@ mediafire_override () {
     echo "完成 $1 覆蓋！清理工作資料夾"
     rm_workdir
 }
-          
+
+mediafire_override_resourcepack () {
+    mk_workdir
+
+    echo "覆蓋 $1..."
+
+    echo "設置 $1 路徑變數"
+    PATH_MEDIAFIRE_RES=$2
+
+    echo "下載 $1"
+    wget -q "$(wget -qO - "$3" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+
+    echo "解壓縮 $1"
+    unzip -q "$4"
+
+    echo "回到工作目錄..."
+    cd ..
+
+    echo "複製 $1 的翻譯內容..."
+    mv workdir/$PATH_MEDIAFIRE_RES assets
+
+    echo "檢查 $1 覆蓋內容是否存在"
+    verify_translate_exist "$1" "$PATH_MEDIAFIRE_RES/lang"
+
+    echo "完成 $1 覆蓋！清理工作資料夾"
+    rm_workdir
+}
 
 mediafire_tinker_override () {
     mk_workdir
@@ -270,6 +295,10 @@ mediafire_override "Macaw's Doors" "assets/mcwdoors/lang" "https://www.mediafire
 mediafire_override "Macaw's Roofs" "assets/mcwroofs/lang" "https://www.mediafire.com/file/z6gt4oxoweimtui/mcw-roofs-2.1.2-mc1.19-tw.jar" "mcw-roofs-2.1.2-mc1.19-tw.jar"
 mediafire_override "Macaw's Furniture" "assets/mcwfurnitures/lang" "https://www.mediafire.com/file/hr5cdf5hovzsvw8/mcw-furniture-3.0.0-mc1.19-tw.jar" "mcw-furniture-3.0.0-mc1.19-tw.jar"
 mediafire_override "Macaw's Windows" "assets/mcwwindows/lang" "https://www.mediafire.com/file/0rg7xgvj71v4hhg/mcw-windows-2.0.3-mc1.19-tw.jar" "mcw-windows-2.0.3-mc1.19-tw.jar"
+
+### Immersive Engineering
+mediafire_override_resourcepack "Immersive Engineering" "assets/immersiveengineering" "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE%E6%B2%89%E6%B5%B8%E5%B7%A5%E7%A8%8B%E6%BC%A2%E5%8C%96v1.1.zip" "IE沉浸工程漢化v1.1.zip"
+
 
 ## GitHub
 
