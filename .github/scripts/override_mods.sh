@@ -299,6 +299,8 @@ mediafire_override "Macaw's Windows" "assets/mcwwindows/lang" "https://www.media
 ### Immersive Engineering
 mediafire_override_resourcepack "Immersive Engineering" "assets/immersiveengineering" "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE%E6%B2%89%E6%B5%B8%E5%B7%A5%E7%A8%8B%E6%BC%A2%E5%8C%96v1.1.zip" "IE沉浸工程漢化v1.1.zip"
 
+### Simply Light
+mediafire_override "Simply Light" "assets/simplylight/lang" "https://www.mediafire.com/file/zoo24n15x9lrdlq/simplylight-1.19-1.4.2-build.35-tw.jar" "simplylight-1.19-1.4.2-build.35-tw.jar"
 
 ## GitHub
 
