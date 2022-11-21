@@ -1,5 +1,40 @@
 # Changelog
 
+## [1.7.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.6.0...v1.7.0) (2022-11-21)
+
+
+### 新增翻譯 & 內容
+
+* 增加 Champions 翻譯 ([#28](https://github.com/xMikux/ModsTranslationPack/issues/28)) ([3bc640e](https://github.com/xMikux/ModsTranslationPack/commit/3bc640e46ca5bdff5d1f37776ad8dfcf90c70532))
+* 新增一點翻譯 ([#27](https://github.com/xMikux/ModsTranslationPack/issues/27)) ([a40b91e](https://github.com/xMikux/ModsTranslationPack/commit/a40b91e40e41811bf12e6882562e36c9859da3dd))
+
+
+### 清理翻譯 & 專案
+
+* 補齊 MineTogether 的翻譯 ([#29](https://github.com/xMikux/ModsTranslationPack/issues/29)) ([6590e2d](https://github.com/xMikux/ModsTranslationPack/commit/6590e2d2421b34ca0464b19eac59442c1d837196))
+
+
+### 新增模組翻譯
+
+* SlabMachines (半磚機器) ([c93ac35](https://github.com/xMikux/ModsTranslationPack/commit/c93ac3564419c7421746460c156557652fcbfac8))
+
+
+### 自動化 Action
+
+* 修正忽略 ([42e6d46](https://github.com/xMikux/ModsTranslationPack/commit/42e6d464184aa60bb572051927daf7ed4794e6e8))
+* 新增 Immersive Engineering (沉浸工程) 覆蓋 ([9d39b08](https://github.com/xMikux/ModsTranslationPack/commit/9d39b08d864ace34c8fe74e0b461951647948505))
+* 新增 Simply Light (簡易照明) 覆蓋 ([ac770fc](https://github.com/xMikux/ModsTranslationPack/commit/ac770fc230b3fc8e1433e3ca6e1771bc79dad45b))
+* 新增 Supplementaries (增補物品) 覆蓋 ([3b72742](https://github.com/xMikux/ModsTranslationPack/commit/3b727426e221e97d19cfd8e09128e3878d00f538))
+* 清理一些忘記刪除的東西 ([a117461](https://github.com/xMikux/ModsTranslationPack/commit/a117461400b2ef17e2697fa05350b229f6de4cbf))
+* 測試新約定式提交規則 ([d76cf5a](https://github.com/xMikux/ModsTranslationPack/commit/d76cf5a60a1dbd5400b7687d453fd0af990633b7))
+* 移除部分覆蓋 ([406d938](https://github.com/xMikux/ModsTranslationPack/commit/406d938b34310eee20c65bbab71763c2e270f9e4))
+* 調整，讓腳本更新時會自動打包 ([4a0ecc9](https://github.com/xMikux/ModsTranslationPack/commit/4a0ecc97d76558cbd156d25be0405f7e8c146153))
+
+
+### 文檔更新
+
+* 更新模組列表 ([c2d30d7](https://github.com/xMikux/ModsTranslationPack/commit/c2d30d7311e1724d22938374700053cb17269c1d))
+
 ## [1.6.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.5.3...v1.6.0) (2022-11-16)
 
 
