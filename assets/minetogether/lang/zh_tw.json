@@ -83,9 +83,9 @@
 
     "minetogether.info.server_name": "伺服器名稱",
     "minetogether.order.screen.generalinfo": "一般伺服器資訊",
-    "minetogether.screen.generalinfo.secure.line1":"所有資料皆經由 SSL 加密傳輸，且沒有",
-    "minetogether.screen.generalinfo.secure.line2":"付款資料會在本機進行。你會被引導至",
-    "minetogether.screen.generalinfo.secure.line3":"CreeperHost 用戶中心的安全通道以進行交易。",
+    "minetogether.screen.generalinfo.secure.line1":"所有資料皆經由 SSL 加密傳輸，且沒有付款資料會",
+    "minetogether.screen.generalinfo.secure.line2":"在遊戲用戶端進行。你將會被重新導向至外部瀏覽器的",
+    "minetogether.screen.generalinfo.secure.line3":"CreeperHost 用戶中心，並透過安全通道進行交易。",
     "minetogether.screen.generalinfo.pregen": "同意 Mojang EULA 並重新產生世界？",
     "minetogether.button.prev":"上一步",
     "minetogether.button.next":"下一步",
