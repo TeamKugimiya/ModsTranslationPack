@@ -1,0 +1,9 @@
+{
+	"entity.luggage.luggage": "行李箱怪",
+	"item.luggage.luggage": "行李箱怪",
+	"keybind.luggage.whistle": "呼叫行李箱怪",
+	"subtitles.luggage.entity.luggage.killed": "行李箱怪破碎",
+	"subtitles.luggage.entity.luggage.eat_food": "行李箱怪進食",
+	"subtitles.luggage.entity.luggage.eat_item": "行李箱怪撿拾",
+	"subtitles.luggage.entity.player.whistle": "玩家吹哨聲"
+}

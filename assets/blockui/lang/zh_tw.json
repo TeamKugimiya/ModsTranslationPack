@@ -1,0 +1,4 @@
+{
+    "blockui.container_gui.client_side_only": "容器內容物僅在遊玩整合伺服器時可見（單人遊戲，未公開至區域網）。",
+    "blockui.container_gui.empty": "該容器為空。"
+}

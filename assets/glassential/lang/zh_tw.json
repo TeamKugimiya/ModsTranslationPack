@@ -1,0 +1,18 @@
+{
+    "block.glassential.glass_dark_ethereal": "遮光縹緲玻璃",
+    "block.glassential.glass_dark_ethereal_reverse": "遮光反向飄渺玻璃",
+    "block.glassential.glass_ethereal": "縹緲玻璃",
+    "block.glassential.glass_ethereal_reverse": "反向飄渺玻璃",
+    "block.glassential.glass_ghostly": "幽靈玻璃",
+    "block.glassential.glass_light": "發光玻璃",
+    "block.glassential.glass_redstone": "紅石玻璃",
+	
+    "tooltip.glassential.dark": "阻擋光線",
+    "tooltip.glassential.ethereal": "玩家得以穿越方塊",
+    "tooltip.glassential.ethereal_reverse": "僅玩家無法穿越方塊",
+    "tooltip.glassential.ghostly": "實體得以穿越方塊",
+    "tooltip.glassential.light": "產生照明",
+    "tooltip.glassential.redstone": "發射紅石訊號",
+	
+    "itemGroup.glassential.items": "玻璃必需品"
+}

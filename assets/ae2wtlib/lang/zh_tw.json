@@ -1,0 +1,53 @@
+{
+  "itemGroup.ae2wtlib.general": "AE2 無線終端機函式庫（AE2WTLib）",
+  "itemGroup.ae2wtlib": "AE2 無線終端機函式庫（AE2WTLib）",
+  "key.category.ae2wtlib": "AE2 無線終端機函式庫（AE2WTLib）",
+
+  "gui.ae2wtlib.emptytrash": "清空垃圾桶",
+  "gui.ae2wtlib.emptytrash.desc": "刪除垃圾桶欄位上的物品",
+
+  "item.ae2wtlib.infinity_booster_card": "無限增幅卡",
+  "item.ae2wtlib.infinity_booster_card.desc": "延伸無線終端機的收訊範圍至無限",
+  "item.ae2wtlib.magnet_card": "磁力卡",
+  "item.ae2wtlib.magnet_card.desc": "適用於無線終端機的磁力升級",
+
+  "gui.ae2wtlib.magnetcard": "磁力卡",
+  "gui.ae2wtlib.magnetcard.desc.off": "關",
+  "gui.ae2wtlib.magnetcard.desc.inv": "拾取至物品欄",
+  "gui.ae2wtlib.magnetcard.desc.me": "拾取至 ME 網路",
+  "gui.ae2wtlib.cycle_terminal.desc": "切換終端機",
+  "gui.ae2wtlib.magnetcard.hotkey": "磁力卡：",
+  "gui.ae2wtlib.restock": "快捷欄補充：",
+  "gui.ae2wtlib.off": "關",
+  "gui.ae2wtlib.on": "開",
+  "gui.ae2wtlib.slot.magnetcard.desc": "磁力卡",
+
+  "gui.ae2wtlib.Magnet": "磁力卡篩選器",
+  "gui.ae2wtlib.whitelist": "白名單",
+  "gui.ae2wtlib.blacklist": "黑名單",
+  "gui.ae2wtlib.pickup": "物品欄",
+  "gui.ae2wtlib.insert": "ME 系統",
+  "gui.ae2wtlib.filter": " 篩選器：",
+  "gui.ae2wtlib.copy_pickup": "複製到物品欄篩選器",
+  "gui.ae2wtlib.copy_insert": "複製到 ME 系統篩選器",
+  "gui.ae2wtlib.switch": "調換篩選器",
+
+  "item.ae2wtlib.wireless_pattern_encoding_terminal": "無線樣板編碼終端機",
+  "item.ae2wtlib.wireless_pattern_access_terminal": "無線樣板存取終端機",
+  "item.ae2wtlib.wireless_universal_terminal": "無線通用終端機",
+  "item.ae2wtlib.wireless_universal_terminal.desc": "已安裝終端機：",
+
+  "key.ae2.wireless_pattern_access_terminal": "開啟無線樣板存取終端機",
+  "key.ae2.wireless_pattern_encoding_terminal": "開啟無線樣板編碼終端機",
+  "key.ae2.ae2wtlib_restock": "開關快捷欄補充功能",
+  "key.ae2.ae2wtlib_magnet": "開關磁力卡",
+
+  "text.autoconfig.de/mari_023/ae2wtlib.title": "AE2 無線終端機函式庫",
+
+  "text.autoconfig.de/mari_023/ae2wtlib.option.outOfRangePowerMultiplier": "範圍外能量消耗乘數",
+  "text.autoconfig.de/mari_023/ae2wtlib.option.magnetCardRange": "磁力卡範圍",
+  "text.autoconfig.de/mari_023/ae2wtlib.option.enableTrinket": "啟用《Trinkets》模組整合",
+
+  "text.autoconfig.de/mari_023/ae2wtlib.option.outOfRangePowerMultiplier.@Tooltip": "若將此選項設為低於 1 的數值，則處在無線存取點的訊號範圍內時，反而會需要使用更多能量。",
+  "text.autoconfig.de/mari_023/ae2wtlib.option.magnetCardRange.@Tooltip": ""
+}

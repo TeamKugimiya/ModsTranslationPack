@@ -1,0 +1,20 @@
+{
+    "block.ppfluids.fluid_pipe": "流體管道",
+    "item.ppfluids.fluid_item": "流體容器",
+
+    "item.ppfluids.low_fluid_extraction_module": "初級流體抽取模組",
+    "item.ppfluids.medium_fluid_extraction_module": "中級流體抽取模組",
+    "item.ppfluids.high_fluid_extraction_module": "高級流體抽取模組",
+    "item.ppfluids.low_fluid_filter_module": "初級流體篩選模組",
+    "item.ppfluids.medium_fluid_filter_module": "中級流體篩選模組",
+    "item.ppfluids.high_fluid_filter_module": "高級流體篩選模組",
+    "item.ppfluids.low_fluid_retrieval_module": "Low流體檢索模組",
+    "item.ppfluids.medium_fluid_retrieval_module": "中級流體檢索模組",
+    "item.ppfluids.high_fluid_retrieval_module": "高級流體檢索模組",
+    "info.prettypipes.fluid_extraction_module": "從相鄰的容器中抽取流體\n篩選欄位數和單次抽取量因等級而異\n升級至高級可以防止過量發送流體",
+
+    "info.prettypipes.fluid_filter_module": "篩選管道輸入進相鄰容器中的流體\n篩選欄位數因等級而異",
+    "info.prettypipes.fluid_retrieval_module": "從管道網路的其他容器中抽取流體\n篩選欄位數和單次抽取量因等級而異\n升級至高級可以防止過量發送流體",
+
+    "info.ppfluids.fluid_item.usage": "對流體儲罐使用，以將容器內流體倒入儲罐中。"
+}

@@ -1,0 +1,42 @@
+{
+  "item.nethersdelight.hoglin_hide": "豬布獸皮",
+  "item.nethersdelight.raw_stuffed_hoglin": "生豬布獸肉餡",
+
+  "item.nethersdelight.hoglin_loin": "生豬布獸肉",
+  "item.nethersdelight.hoglin_sirloin": "豬布林肉排",
+  "item.nethersdelight.strider_slice": "熾足獸肉",
+  "item.nethersdelight.ground_strider": "熾足獸碎肉",
+  "item.nethersdelight.strider_moss_stew": "蕈菇熾足獸燉湯",
+  "item.nethersdelight.hoglin_ear": "炙燒豬布獸耳",
+  "item.nethersdelight.plate_of_stuffed_hoglin_snout": "盤裝豬布獸鼻肉餡",
+  "item.nethersdelight.plate_of_stuffed_hoglin_ham": "盤裝豬布獸火腿餡",
+  "item.nethersdelight.plate_of_stuffed_hoglin_roast": "盤裝炙燒豬布獸肉餡",
+  "item.nethersdelight.grilled_strider": "烤熾足獸肉",
+  "item.nethersdelight.warped_moldy_meat": "發霉的豬布獸肉",
+  "block.nethersdelight.stuffed_hoglin": "豬布獸肉餡",
+  "block.nethersdelight.crimson_fungus_colony": "緋紅蕈菇菌落",
+  "block.nethersdelight.warped_fungus_colony": "扭曲蕈菇菌落",
+  "block.nethersdelight.hoglin_mount": "豬布獸壁掛",
+  "block.nethersdelight.soul_compost": "靈魂有機堆肥",
+  "block.nethersdelight.rich_soul_soil": "靈魂沃土",
+  "block.nethersdelight.mimicarnation": "靈魂康乃馨",
+  "block.nethersdelight.blackstone_stove": "黑石爐灶",
+  "itemGroup.nethersdelight": "地獄樂事",
+
+  "nethersdelight.block.feast.use_knife": "你需要刀來切這個。",
+
+  "nethersdelight.jei.composition": "肥沃化",
+  "nethersdelight.jei.composition.light": "鄰近火焰",
+  "nethersdelight.jei.composition.fluid": "鄰近熔岩",
+  "nethersdelight.jei.composition.accelerators": "可加速該過程（詳見以下）",
+
+  "block.nethersdelight.propelplant_torch": "激勵草火把",
+  "block.nethersdelight.propelplant_berry_stem": "激勵草柄",
+  "block.nethersdelight.propelplant_cane": "激勵草莖",
+  "block.nethersdelight.propelplant_berry_cane": "激勵草莖",
+  "block.nethersdelight.propelplant_stem": "激勵草柄",
+  "item.nethersdelight.propelpearl": "激勵草珍珠",
+  "item.nethersdelight.nether_skewer": "地獄肉串",
+  "item.nethersdelight.magma_gelatin": "岩漿凝膠"
+
+}

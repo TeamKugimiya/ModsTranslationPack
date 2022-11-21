@@ -1,0 +1,53 @@
+{
+  "block.metalbarrels.copper_barrel": "銅桶",
+  "block.metalbarrels.iron_barrel": "鐵桶",
+  "block.metalbarrels.gold_barrel": "金桶",
+  "block.metalbarrels.diamond_barrel": "鑽石桶",
+  "block.metalbarrels.obsidian_barrel": "黑曜石桶",
+  "block.metalbarrels.silver_barrel": "銀桶",
+  "block.metalbarrels.crystal_barrel": "水晶桶",
+  "block.metalbarrels.netherite_barrel": "獄髓桶",
+
+  "item.metalbarrels.wood_to_copper": "桶升級：木 > 銅",
+  "item.metalbarrels.wood_to_iron": "桶升級：木 > 鐵",
+  "item.metalbarrels.wood_to_silver": "桶升級：木 > 銀",
+  "item.metalbarrels.wood_to_gold": "桶升級：木 > 金",
+  "item.metalbarrels.wood_to_diamond": "桶升級：木 > 鑽石",
+  "item.metalbarrels.wood_to_obsidian": "桶升級：木 > 黑曜石",
+  "item.metalbarrels.wood_to_crystal": "桶升級：木 > 水晶",
+  "item.metalbarrels.wood_to_netherite": "桶升級：木 > 獄髓",
+
+  "item.metalbarrels.copper_to_iron": "桶升級：銅 > 鐵",
+  "item.metalbarrels.copper_to_silver": "桶升級：銅 > 銀",
+  "item.metalbarrels.copper_to_gold": "桶升級：銅 > 金",
+  "item.metalbarrels.copper_to_diamond": "桶升級：銅 > 鑽石",
+  "item.metalbarrels.copper_to_obsidian": "桶升級：銅 > 黑曜石",
+  "item.metalbarrels.copper_to_crystal": "桶升級：銅 > 水晶",
+
+  "item.metalbarrels.iron_to_silver": "桶升級：鐵 > 銀",
+  "item.metalbarrels.iron_to_gold": "桶升級：鐵 > 金",
+  "item.metalbarrels.iron_to_diamond": "桶升級：鐵 > 鑽石",
+  "item.metalbarrels.iron_to_obsidian": "桶升級：鐵 > 黑曜石",
+  "item.metalbarrels.iron_to_crystal": "桶升級：鐵 > 水晶",
+
+  "item.metalbarrels.silver_to_gold": "桶升級：銀 > 金",
+  "item.metalbarrels.silver_to_diamond": "桶升級：銀 > 鑽石",
+  "item.metalbarrels.silver_to_obsidian": "桶升級：銀 > 黑曜石",
+  "item.metalbarrels.silver_to_crystal": "桶升級：銀 > 水晶",
+
+  "item.metalbarrels.gold_to_diamond": "桶升級：金 > 鑽石",
+  "item.metalbarrels.gold_to_obsidian": "桶升級：金 > 黑曜石",
+  "item.metalbarrels.gold_to_crystal": "桶升級：金 > 水晶",
+
+  "item.metalbarrels.diamond_to_obsidian": "桶升級：鑽石 > 黑曜石",
+  "item.metalbarrels.diamond_to_crystal": "桶升級：鑽石 > 水晶",
+
+  "item.metalbarrels.obsidian_to_netherite": "桶升級：黑曜石 > 獄髓",
+
+  "itemGroup.metalbarrels": "金屬製桶",
+
+  "tooltip.metalbarrels.ironchest": "也可用來升級《鐵儲物箱》的容器！",
+
+  "metalbarrels.upgrade_successful": "升級成功",
+  "metalbarrels.in_use": "桶正被使用中"
+}

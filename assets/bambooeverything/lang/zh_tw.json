@@ -8,5 +8,18 @@
   "block.bambooeverything.bamboo_bundle": "竹捆",
   "block.bambooeverything.bamboo_stairs": "竹階梯",
   "block.bambooeverything.bamboo_slab": "竹半磚",
-  "item.bambooeverything.bamboo_raft": "竹筏"
+  "block.bambooeverything.bamboo_torch": "竹製火把",
+  "item.bambooeverything.bamboo_raft": "竹筏",
+  
+  "item.bambooeverything.dry_bamboo": "乾竹子",
+  "block.bambooeverything.dry_bamboo_ladder": "乾竹梯子",
+  "block.bambooeverything.dry_bamboo_fence": "乾竹柵欄",
+  "block.bambooeverything.dry_bamboo_fence_gate": "乾竹柵欄門",
+  "block.bambooeverything.dry_bamboo_door": "乾竹門",
+  "block.bambooeverything.dry_bamboo_trapdoor": "乾竹地板門",
+  "block.bambooeverything.dry_bamboo_bundle": "乾竹捆",
+  "block.bambooeverything.dry_bamboo_stairs": "乾竹階梯",
+  "block.bambooeverything.dry_bamboo_slab": "乾竹半磚",
+  "block.bambooeverything.dry_bamboo_torch": "乾竹製火把",
+  "item.bambooeverything.dry_bamboo_raft": "乾竹筏"
 }
