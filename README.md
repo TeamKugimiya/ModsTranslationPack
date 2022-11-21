@@ -166,14 +166,7 @@
 
 以下列出已覆蓋的模組和來源：
 
-- [BloodMagic](https://forum.gamer.com.tw/C.php?bsn=18673&snA=197467)
-<!-- - [Create](https://github.com/Creators-of-Create/Create) -->
-- [Patchouli](https://grant88.pixnet.net/blog/post/44653734)
 - [Productive Bees](https://grant88.pixnet.net/blog/post/44935344)
-- [ProjectE](https://grant88.pixnet.net/blog/post/43364803)
-- [The Twilight Forest](https://grant88.pixnet.net/blog/post/40612096)
-  - **注意** 由於一些問題，此模組無法透過資源包直接載入。
-    需要修改 Jar 將 zh_tw.json 檔案從該模組刪除之後才能正常顯示翻譯！
 - [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
 - [Quark](https://grant88.pixnet.net/blog/post/44988448)
 - [Macaw's Fences and Walls](https://grant88.pixnet.net/blog/post/45185932)

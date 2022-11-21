@@ -261,27 +261,13 @@ home
 
 ## Mega
 
-### BloodMagic
-mega_override "BloodMagic" "assets/bloodmagic" "https://mega.nz/#!KR0CQC5Z!MkEdb3M5q9FHLIgY7WLE18T8EqKFMVUd1guryQWdTQc" "1.18 BloodMagic-zh_tw-v2.zip"
-echo "修正 BloodMagic 的全形空格"
-sed -i 's/	//1' assets/bloodmagic/patchouli_books/guide/zh_tw/entries/altar/soul_network.json
-
 ## Mediafire
-
-### ProjectE
-mediafire_override "ProjectE" "assets/projecte/lang" "https://www.mediafire.com/file/uhtspihpscmrqsb/ProjectE-1.19.2-PE1.0.1B-tw.jar" "ProjectE-1.19.2-PE1.0.1B-tw.jar"
-
-### The Twilight Forest
-mediafire_override "The Twilight Forest" "assets/twilightforest/lang" "https://www.mediafire.com/file/kl96rxo50e68j93/twilightforest-1.18.2-4.1.1423-universal-tw.jar" "twilightforest-1.18.2-4.1.1423-universal-tw.jar"
 
 ### Productive Bees (特殊)
 mediafire_productive_bees_override "Productive Bees" "assets/productivebees/lang" "productivebees/patchouli_books" "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees-1.19.2-0.10.2.0-tw.jar"
 
 ### Tinker (特殊)
 mediafire_tinker_override "Tinkers' Construct" "assets/tconstruct/lang" "assets/tconstruct/book" "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" "TConstruct-1.18.2-3.5.2.40-tw.jar"
-
-### Patchouli
-mediafire_override "Patchouli" "assets/patchouli/lang" "https://www.mediafire.com/file/6zlssytqeivond1/Patchouli-1.19.2-76-tw.jar" "Patchouli-1.19.2-76-tw.jar"
 
 ### Quark
 mediafire_override "Quark" "assets/quark/lang" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar"
