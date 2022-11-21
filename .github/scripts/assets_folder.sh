@@ -68,3 +68,13 @@ modslist_added_mod_generate "3" "trashcans" "https://github.com/SuperMartijn642/
 
 ### Flux Networks
 modslist_added_mod_generate "2" "fluxnetworks" "https://github.com/SonarSonic/Flux-Networks/pull/482"
+
+### YetAnotherConfigLib
+modslist_added_mod_generate "1" "yet-another-config-lib" "https://github.com/isXander/YetAnotherConfigLib/pull/31"
+
+### ExNihiloSequentia
+modslist_added_mod_generate "3" "exnihiloae" "https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380"
+modslist_added_mod_generate "3" "exnihilomekanism" "https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380"
+modslist_added_mod_generate "3" "exnihilosequentia" "https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380"
+modslist_added_mod_generate "3" "exnihilothermal" "https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380"
+modslist_added_mod_generate "3" "exnihilotinkers" "https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380"

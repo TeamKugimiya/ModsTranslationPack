@@ -46,7 +46,7 @@
 
 ## 目前有內建的模組翻譯列表
 
-目前支援 102 個模組。
+目前支援 206 個模組。
 
 <details>
   <summary>展開列表</summary>
@@ -55,6 +55,7 @@
       <li>additionallanterns</li>
       <li>ae2</li>
       <li>ae2things</li>
+      <li>ae2wtlib</li>
       <li>aeinfinitybooster</li>
       <li>allthecompressed</li>
       <li>allthemodium</li>
@@ -63,34 +64,62 @@
       <li>angelring</li>
       <li>appbot</li>
       <li>appmek</li>
+      <li>ars_creo</li>
       <li>ars_nouveau</li>
       <li>auditory</li>
       <li>autoclicker-fabric</li>
       <li>autofish</li>
       <li>automodpack</li>
+      <li>autosmithingtable</li>
+      <li>avaritia</li>
       <li>bambooeverything</li>
+      <li>bcc</li>
       <li>betterf3</li>
       <li>betterstats</li>
       <li>bhc</li>
       <li>biggerreactors</li>
+      <li>blockui</li>
       <li>blur</li>
+      <li>bonsaitrees3</li>
+      <li>botanypots</li>
+      <li>buddingcrystals</li>
+      <li>buildinggadgets</li>
+      <li>catalogue</li>
+      <li>cccbridge</li>
+      <li>champions</li>
+      <li>chancecubes</li>
       <li>chargers</li>
+      <li>charginggadgets</li>
+      <li>chickens</li>
+      <li>chipped</li>
       <li>citresewn</li>
       <li>cloth-config2</li>
+      <li>cobblefordays</li>
+      <li>compactcrafting</li>
+      <li>compactmachines</li>
       <li>configured</li>
       <li>connectedglass</li>
+      <li>constructionwand</li>
       <li>continuity</li>
       <li>copper-horns</li>
       <li>cosmeticarmorreworked</li>
+      <li>craftingtweaks</li>
       <li>create</li>
+      <li>createaddition</li>
+      <li>createchunkloading</li>
       <li>creeperoverhaul</li>
+      <li>culinaryconstruct</li>
       <li>curios</li>
+      <li>custommachinery</li>
+      <li>darkutils</li>
       <li>dashloader</li>
       <li>durabilitytooltip</li>
       <li>eccentrictome</li>
       <li>effective</li>
+      <li>elevatorid</li>
       <li>energymeter</li>
       <li>entangled</li>
+      <li>exlinecopperequipment</li>
       <li>exmachinis</li>
       <li>exnaturae</li>
       <li>exnihiloae</li>
@@ -98,62 +127,136 @@
       <li>exnihilosequentia</li>
       <li>exnihilothermal</li>
       <li>exnihilotinkers</li>
+      <li>experienceobelisk</li>
+      <li>extendedexchange</li>
       <li>extrasounds</li>
       <li>extremesoundmuffler</li>
       <li>fabrihud</li>
+      <li>farmersdelight</li>
       <li>findme</li>
+      <li>flopper</li>
+      <li>fluiddrawerslegacy</li>
       <li>fluxnetworks</li>
+      <li>framedcompactdrawers</li>
+      <li>ftbauxilium</li>
       <li>ftbbackups</li>
       <li>ftbchunks</li>
+      <li>ftbdripper</li>
       <li>ftbessentials</li>
       <li>ftbic</li>
       <li>ftblibrary</li>
       <li>ftbquests</li>
+      <li>ftbsbc</li>
       <li>ftbteams</li>
       <li>ftbultimine</li>
       <li>functionalstorage</li>
+      <li>gag</li>
+      <li>glassential</li>
+      <li>gravestone</li>
       <li>hexerei</li>
       <li>hostilenetworks</li>
+      <li>industrialforegoing</li>
+      <li>instrumentalmobs</li>
       <li>inventoryhud</li>
+      <li>inventorysorter</li>
+      <li>ironchest</li>
       <li>ironchests</li>
+      <li>ironfurnaces</li>
       <li>itemcollectors</li>
       <li>itemfilters</li>
+      <li>jags</li>
+      <li>jecalculation</li>
       <li>jei</li>
       <li>justenoughprofessions</li>
+      <li>justhammers</li>
       <li>laserio</li>
       <li>lazierae2</li>
       <li>lightoverlay</li>
+      <li>literalskyblock</li>
+      <li>lollipop</li>
       <li>lowfire</li>
+      <li>luggage</li>
+      <li>mcjtylib</li>
+      <li>mcwlights</li>
+      <li>mcwpaths</li>
+      <li>measurements</li>
       <li>megacells</li>
+      <li>metalbarrels</li>
+      <li>minetogether</li>
+      <li>miniatures</li>
+      <li>minicoal</li>
+      <li>mininggadgets</li>
+      <li>mob_grinding_utils</li>
       <li>morefrogs</li>
+      <li>moreminecarts</li>
+      <li>morevanillalib</li>
+      <li>mother_silverfish</li>
       <li>mousewheelie</li>
       <li>multiconnect</li>
+      <li>multipiston</li>
       <li>myrtrees</li>
+      <li>nethersdelight</li>
       <li>notenoughcrashes</li>
       <li>notenoughwands</li>
       <li>observable</li>
       <li>paginatedadvancements</li>
+      <li>patchouli</li>
       <li>phosphophyllite</li>
+      <li>pipez</li>
+      <li>placebo</li>
+      <li>plonk</li>
+      <li>pocketstorage</li>
+      <li>portablecraftingtable</li>
+      <li>powah</li>
+      <li>ppfluids</li>
       <li>presencefootsteps</li>
+      <li>prettypipes</li>
+      <li>projecte</li>
+      <li>pylons</li>
+      <li>reauth</li>
       <li>rechiseled</li>
+      <li>reliquary</li>
+      <li>roughlyenoughprofessions</li>
+      <li>rsrequestify</li>
       <li>screencapper</li>
+      <li>sdrp</li>
+      <li>shrink</li>
       <li>simplebackups</li>
       <li>simplemagnets</li>
+      <li>simplybackpacks</li>
       <li>skyblockbuilder</li>
       <li>skyguis</li>
+      <li>slabmachines</li>
       <li>snad</li>
       <li>sodium-extra</li>
       <li>sodium</li>
       <li>sophisticatedbackpacks</li>
       <li>sophisticatedcore</li>
       <li>sophisticatedstorage</li>
+      <li>soulshards</li>
       <li>spirit</li>
       <li>stendhal</li>
+      <li>stonechest</li>
+      <li>storagedrawers</li>
+      <li>structurecompass</li>
+      <li>summoningrituals</li>
       <li>supercircuitmaker</li>
+      <li>tempad</li>
+      <li>tesseract</li>
+      <li>theoneprobe</li>
+      <li>titanium</li>
+      <li>torchbowmod</li>
       <li>trashcans</li>
+      <li>trashslot</li>
+      <li>travel_anchors</li>
+      <li>uppers</li>
+      <li>vanillahammers</li>
       <li>wirelesschargers</li>
+      <li>woodenbucket</li>
+      <li>woodenhopper</li>
+      <li>woodenshears</li>
+      <li>xnet</li>
       <li>yet-another-config-lib</li>
-    </ul>
 </details>
 
 ## 第三方翻譯來源
@@ -166,16 +269,16 @@
 
 以下列出已覆蓋的模組和來源：
 
-- [Productive Bees](https://grant88.pixnet.net/blog/post/44935344)
-- [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
-- [Quark](https://grant88.pixnet.net/blog/post/44988448)
-- [Macaw's Fences and Walls](https://grant88.pixnet.net/blog/post/45185932)
-- [Macaw's Bridges](https://grant88.pixnet.net/blog/post/45187324)
-- [Macaw's Trapdoors](https://grant88.pixnet.net/blog/post/45161058)
-- [Macaw's Doors](https://grant88.pixnet.net/blog/post/45185876)
-- [Macaw's Roofs](https://grant88.pixnet.net/blog/post/44817796)
-- [Macaw's Furniture](https://grant88.pixnet.net/blog/post/44816824)
-- [Macaw's Windows](https://grant88.pixnet.net/blog/post/45185898)
 - [Immersive Engineering](https://forum.gamer.com.tw/C.php?bsn=18673&snA=196127)
+- [Macaw's Bridges](https://grant88.pixnet.net/blog/post/45187324)
+- [Macaw's Doors](https://grant88.pixnet.net/blog/post/45185876)
+- [Macaw's Fences and Walls](https://grant88.pixnet.net/blog/post/45185932)
+- [Macaw's Furniture](https://grant88.pixnet.net/blog/post/44816824)
+- [Macaw's Roofs](https://grant88.pixnet.net/blog/post/44817796)
+- [Macaw's Trapdoors](https://grant88.pixnet.net/blog/post/45161058)
+- [Macaw's Windows](https://grant88.pixnet.net/blog/post/45185898)
+- [Productive Bees](https://grant88.pixnet.net/blog/post/44935344)
+- [Quark](https://grant88.pixnet.net/blog/post/44988448)
 - [Simply Light](https://grant88.pixnet.net/blog/post/44360632)
 - [Supplementaries](https://grant88.pixnet.net/blog/post/45034372)
+- [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
