@@ -1,1 +1,9 @@
-{"_comment":"Blocks","itemGroup.flopper":"流體漏斗","general.flopper.description":"用來傳輸流體的漏斗","block.flopper.flopper":"流體漏斗","block.flopper.flopper.info":"用來傳輸流體的漏斗"}
+{
+    "_comment": "General",
+    "itemGroup.flopper": "流體漏斗",
+    "general.flopper.description": "用來傳輸流體的漏斗",
+  
+    "_comment": "Blocks",
+    "block.flopper.flopper": "流體漏斗",
+    "block.flopper.flopper.info": "用來傳輸流體的漏斗"
+  }

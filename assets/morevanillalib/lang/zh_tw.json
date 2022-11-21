@@ -1,1 +1,44 @@
-{"itemGroup.morevanillalib":"更多原版函式庫","item.morevanillalib.obsidian_shard":"黑曜石碎片","item.morevanillalib.paper_bundle":"一疊紙","block.morevanillalib.clean_end_stone":"平整終界石","enchantment.morevanillalib.repairing_luck":"修理打折","enchantment.morevanillalib.repairing_luck.desc":"使用鐵砧修理時，始終維持最低成本。","enchantment.morevanillalib.power_of_the_depth":"來自深淵","enchantment.morevanillalib.power_of_the_depth.desc":"增加鎚與鏟斗的挖掘深度","death.attack.paperCut":"%1$s 被紙割傷而失血致死","jei.morevanillalib.bone_heads.desc":"使用這把工具殺死骷髏或凋零骷髏時，有 %d%% 機率掉落其頭顱。","jei.morevanillalib.extra_drop.desc":"使用這把工具時，有 %d%% 機率掉落其修理材料。","jei.morevanillalib.fiery_smelt.desc":"使用這把工具破壞可熔煉的方塊時，將直接取得該方塊的熔煉後產物。","jei.morevanillalib.glowstone_drops.desc":"使用這把工具破壞螢光石時，將總是取得 4 個螢石粉。","jei.morevanillalib.paper_damage.desc":"使用這把工具時，有 %d%% 機率受到 %d 到 %d 顆心的傷害。","jei.morevanillalib.coal_double_drop.desc":"使用這把工具挖掘煤礦時，有 %d%% 機率額外獲得 1 個煤炭。","jei.morevanillalib.diamond_double_drop.desc":"使用這把工具挖掘鑽石礦時，有 %d%% 機率額外獲得 1 個鑽石。","jei.morevanillalib.emerald_double_drop.desc":"使用這把工具挖掘綠寶石礦時，有 %d%% 機率額外獲得 1 個綠寶石。","jei.morevanillalib.lapis_double_drop.desc":"使用這把工具挖掘青金石礦時，有 %d%% 機率額外獲得 3 個青金石。","jei.morevanillalib.quartz_double_drop.desc":"使用這把工具挖掘地獄石英礦時，有 %d%% 機率額外獲得 1 個地獄石英。","jei.morevanillalib.redstone_double_drop.desc":"使用這把工具挖掘紅石礦時，有 %d%% 機率額外獲得 3 個紅石粉。","jei.morevanillalib.bone_damage.desc":"使用這把工具攻擊（凋零）骷髏時，有 %d%% 機率造成 %d%% 額外傷害。","jei.morevanillalib.ender_damage.desc":"使用這把工具攻擊終界使者時，有 %d%% 機率造成 %d%% 額外傷害。","jei.morevanillalib.fiery_damage.desc":"使用這把工具攻擊岩漿立方怪時，有 %d%% 機率造成 %d%% 額外傷害。","jei.morevanillalib.prismarine_damage.desc":"使用這把工具攻擊（遠古）深海守衛時，有 %d%% 機率造成 %d%% 額外傷害。","jei.morevanillalib.slime_damage.desc":"使用這把工具攻擊史萊姆時，有 %d%% 機率造成 %d%% 額外傷害。","tooltip.morevanillalib.disabled_item":"該物品已在組態中停用。","tooltip.morevanillalib.toggleMode":"模式","tooltip.morevanillalib.pathMode":"創造%s","tooltip.morevanillalib.hoeMode":"耕地","tooltip.morevanillalib.durability":"耐久度：%s","tooltip.morevanillalib.harvest_level":"挖掘等級：%s","tooltip.morevanillalib.repairing_item":"修理材料：%s","tooltip.morevanillalib.more_information":"按下 Shift 取得更多資訊"}
+{
+    "itemGroup.morevanillalib": "更多原版函式庫",
+  
+    "item.morevanillalib.obsidian_shard": "黑曜石碎片",
+    "item.morevanillalib.paper_bundle": "一疊紙",
+  
+    "block.morevanillalib.clean_end_stone": "平整終界石",
+  
+    "enchantment.morevanillalib.repairing_luck": "修理打折",
+    "enchantment.morevanillalib.repairing_luck.desc": "使用鐵砧修理時，始終維持最低成本。",
+    "enchantment.morevanillalib.power_of_the_depth": "來自深淵",
+    "enchantment.morevanillalib.power_of_the_depth.desc": "增加鎚與鏟斗的挖掘深度",
+  
+    "death.attack.paperCut": "%1$s 被紙割傷而失血致死",
+  
+    "jei.morevanillalib.bone_heads.desc": "使用這把工具殺死骷髏或凋零骷髏時，有 %d%% 機率掉落其頭顱。",
+    "jei.morevanillalib.extra_drop.desc": "使用這把工具時，有 %d%% 機率掉落其修理材料。",
+    "jei.morevanillalib.fiery_smelt.desc": "使用這把工具破壞可熔煉的方塊時，將直接取得該方塊的熔煉後產物。",
+    "jei.morevanillalib.glowstone_drops.desc": "使用這把工具破壞螢光石時，將總是取得 4 個螢石粉。",
+    "jei.morevanillalib.paper_damage.desc": "使用這把工具時，有 %d%% 機率受到 %d 到 %d 顆心的傷害。",
+  
+    "jei.morevanillalib.coal_double_drop.desc": "使用這把工具挖掘煤礦時，有 %d%% 機率額外獲得 1 個煤炭。",
+    "jei.morevanillalib.diamond_double_drop.desc": "使用這把工具挖掘鑽石礦時，有 %d%% 機率額外獲得 1 個鑽石。",
+    "jei.morevanillalib.emerald_double_drop.desc": "使用這把工具挖掘綠寶石礦時，有 %d%% 機率額外獲得 1 個綠寶石。",
+    "jei.morevanillalib.lapis_double_drop.desc": "使用這把工具挖掘青金石礦時，有 %d%% 機率額外獲得 3 個青金石。",
+    "jei.morevanillalib.quartz_double_drop.desc": "使用這把工具挖掘地獄石英礦時，有 %d%% 機率額外獲得 1 個地獄石英。",
+    "jei.morevanillalib.redstone_double_drop.desc": "使用這把工具挖掘紅石礦時，有 %d%% 機率額外獲得 3 個紅石粉。",
+  
+    "jei.morevanillalib.bone_damage.desc": "使用這把工具攻擊（凋零）骷髏時，有 %d%% 機率造成 %d%% 額外傷害。",
+    "jei.morevanillalib.ender_damage.desc": "使用這把工具攻擊終界使者時，有 %d%% 機率造成 %d%% 額外傷害。",
+    "jei.morevanillalib.fiery_damage.desc": "使用這把工具攻擊岩漿立方怪時，有 %d%% 機率造成 %d%% 額外傷害。",
+    "jei.morevanillalib.prismarine_damage.desc": "使用這把工具攻擊（遠古）深海守衛時，有 %d%% 機率造成 %d%% 額外傷害。",
+    "jei.morevanillalib.slime_damage.desc": "使用這把工具攻擊史萊姆時，有 %d%% 機率造成 %d%% 額外傷害。",
+  
+    "tooltip.morevanillalib.disabled_item": "該物品已在組態中停用。",
+    "tooltip.morevanillalib.toggleMode": "模式",
+    "tooltip.morevanillalib.pathMode": "創造%s",
+    "tooltip.morevanillalib.hoeMode": "耕地",
+  
+    "tooltip.morevanillalib.durability": "耐久度：%s",
+    "tooltip.morevanillalib.harvest_level": "挖掘等級：%s",
+    "tooltip.morevanillalib.repairing_item": "修理材料：%s",
+    "tooltip.morevanillalib.more_information": "按下 Shift 取得更多資訊"
+  }
