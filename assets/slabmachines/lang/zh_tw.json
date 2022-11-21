@@ -1,0 +1,48 @@
+{
+    "_comment": "Creative Tab Name",
+    "itemGroup.slabmachines": "機器半磚",
+
+    "_comment": "Config Name",
+    "slabmachines.config.title": "機器半磚設定",
+
+    "_comment": "blocks",
+    "block.slabmachines.crafting_table_slab": "工作台半磚",
+    "block.slabmachines.furnace_slab": "熔爐半磚",
+    "block.slabmachines.trapped_chest_slab": "陷阱儲物箱半磚",
+    "block.slabmachines.chest_slab": "儲物箱半磚",
+    "block.slabmachines.note_slab": "音階盒半磚",
+    "block.slabmachines.tnt_slab": "TNT 半磚",
+
+    "_comment": "tinkers compat",
+    "block.slabmachines.crafting_station_slab": "合成工作臺半磚",
+    "block.slabmachines.part_builder_slab": "部件製作臺半磚",
+    "block.slabmachines.part_chest_slab": "部件箱半磚",
+    "block.slabmachines.pattern_chest_slab": "模具箱半磚",
+    "block.slabmachines.stencil_table_slab": "組裝臺半磚",
+    "block.slabmachines.tool_forge_slab": "裝配臺半磚",
+    "block.slabmachines.tool_station_slab": "打鐵組裝臺半磚",
+
+    "_comment": "Gui Id",
+    "slabmachines:slab_furnace": "半磚熔爐",
+    "slabmachines:slab_chest": "半磚儲物箱",
+
+    "_comment": "container",
+    "slabmachines:container.furnace": "熔爐半磚",
+    "slabmachines:container.chest": "儲物箱半磚",
+    "slabmachines:container.crafting": "工作台半磚",
+
+    "_comment": "TileEntities",
+    "slabmachines:slabfurnace": "半磚熔爐方塊實體",
+    "slabmachines:slabchest": "半磚儲物箱方塊實體",
+
+    "slabmachines:slabcraftingstation": "半磚合成工作臺方塊實體",
+    "slabmachines:slabpartbuilder": "半磚部件製作臺方塊實體",
+    "slabmachines:slabpartchest": "半磚部件箱方塊實體",
+    "slabmachines:slabpatternchest": "半磚模具箱方塊實體",
+    "slabmachines:slabstenciltable": "半磚組裝臺方塊實體",
+    "slabmachines:slabtoolforge": "半磚裝配臺方塊實體",
+    "slabmachines:slabtoolstation": "半磚打鐵組裝臺方塊實體",
+
+    "_comment": "Entity",
+    "entity.slabmachines.tnt_slab": "半磚點燃的 TNT"
+}
