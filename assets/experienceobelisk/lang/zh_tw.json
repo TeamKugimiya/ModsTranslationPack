@@ -1,0 +1,33 @@
+{
+  //items
+  "item.experienceobelisk.steel": "回火鋼",
+  "item.experienceobelisk.raw_experience_bucket": "原始經驗桶",
+
+  //blocks
+  "block.experienceobelisk.experience_obelisk": "經驗方尖碑",
+
+  //tabs
+  "itemGroup.experience_obelisk": "經驗方尖碑",
+
+  //tooltips
+  "tooltip.experienceobelisk.experience_obelisk.add1": "儲存 §a1§f 等經驗",
+  "tooltip.experienceobelisk.experience_obelisk.add10": "儲存 §a10§f 等經驗",
+  "tooltip.experienceobelisk.experience_obelisk.addAll": "儲存 §aall§f 經驗",
+  "tooltip.experienceobelisk.experience_obelisk.drain1": "取出 §c1§f 等經驗",
+  "tooltip.experienceobelisk.experience_obelisk.drain10": "取出 §c10§f 等經驗",
+  "tooltip.experienceobelisk.experience_obelisk.drainAll": "取出 §call§f 經驗",
+
+  "tooltip.experienceobelisk.experience_obelisk.item_fluid_amount": "§7流體量：§r %s",
+  "tooltip.experienceobelisk.experience_obelisk.item_levels": "%s §7等§r",
+
+  "tooltip.experienceobelisk.experience_obelisk.radius": "§6重設§f為預設半徑",
+  "tooltip.experienceobelisk.experience_obelisk.settings": "設定...",
+  "tooltip.experienceobelisk.experience_obelisk.back": "返回...",
+
+  //buttons
+  "button.experienceobelisk.experience_obelisk.settings": "§l⚙§r",
+
+  //fluid
+  "fluid.experienceobelisk.raw_experience": "原始經驗"
+
+}

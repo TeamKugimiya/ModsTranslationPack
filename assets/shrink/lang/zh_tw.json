@@ -1,0 +1,8 @@
+{
+  "item.shrink.mob_bottle": "玻璃瓶",
+  "item.shrink.shrink_ray": "縮放燈",
+  "item.shrink.shrinking_device": "個人縮放裝置",
+  "itemGroup.shrink": "縮放",
+  "key.shrink.category": "縮放",
+  "key.shrink.shrink": "切換縮放狀態"
+}

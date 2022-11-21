@@ -1,0 +1,8 @@
+{
+	"key.categories.placebo": "Placebo",
+	"placebo.toggleTrails": "開關贊助者步行特效",
+	"placebo.toggleWings": "開關贊助者翅膀",
+	"placebo.cmd.serialize_success": "已將 %s 儲存至 %s。",
+	"placebo.cmd.serialize_failure": "序列化過程中發生錯誤。",
+	"placebo.cmd.not_found": "無法找到 %s。"
+}

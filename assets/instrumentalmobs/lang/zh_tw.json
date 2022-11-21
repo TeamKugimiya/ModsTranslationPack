@@ -1,0 +1,53 @@
+{
+    "_comment": "Config",
+    "instrumentalmobs.config.title": "樂隊生物 組態",
+
+    "_comment": "Creative Tab",
+    "itemGroup.instrumentalmobs": "樂隊生物",
+
+    "_comment": "Items",
+    "item.instrumentalmobs.xylophone": "木琴",
+    "item.instrumentalmobs.tuba": "低音號",
+    "item.instrumentalmobs.french_horn": "法國號",
+    "item.instrumentalmobs.drum": "鼓",
+    "item.instrumentalmobs.cymbal": "鈸",
+    "item.instrumentalmobs.cymbals": "雙面鈸",
+    "item.instrumentalmobs.maraca": "沙鈴",
+    "item.instrumentalmobs.maracas": "雙手沙鈴",
+    "item.instrumentalmobs.microphone": "麥克風",
+    "item.instrumentalmobs.xylophone_skeleton_spawn_egg": "木琴骷髏 生怪蛋",
+    "item.instrumentalmobs.french_horn_creeper_spawn_egg": "法國號苦力怕 生怪蛋",
+    "item.instrumentalmobs.tuba_enderman_spawn_egg": "低音號終界使者 生怪蛋",
+    "item.instrumentalmobs.drum_zombie_spawn_egg": "鼓手殭屍 生怪蛋",
+    "item.instrumentalmobs.cymbal_husk_spawn_egg": "擊鈸手屍殼 生怪蛋",
+    "item.instrumentalmobs.maraca_spider_spawn_egg": "沙鈴蜘蛛 生怪蛋",
+    "item.instrumentalmobs.microphone_ghast_spawn_egg": "麥克風地獄幽靈 生怪蛋",
+    "item.instrumentalmobs.sound_waves_spawn_egg": "聲波 生怪蛋",
+    "item.instrumentalmobs.microphone_sound_spawn_egg": "聲波 生怪蛋",
+
+    "_comment": "Blocks",
+    "block.instrumentalmobs.drum_block": "鼓",
+
+    "_comment": "Entities",
+    "entity.instrumentalmobs.xylophone_skeleton": "木琴骷髏",
+    "entity.instrumentalmobs.french_horn_creeper": "法國號苦力怕",
+    "entity.instrumentalmobs.tuba_enderman": "低音號終界使者",
+    "entity.instrumentalmobs.drum_zombie": "鼓手殭屍",
+    "entity.instrumentalmobs.cymbal_husk": "擊鈸手屍殼",
+    "entity.instrumentalmobs.maraca_spider": "沙鈴蜘蛛",
+    "entity.instrumentalmobs.microphone_ghast": "麥克風地獄幽靈",
+    "entity.instrumentalmobs.sound_waves": "聲波",
+    "entity.instrumentalmobs.microphone_sound": "聲波",
+
+    "_comment": "Subtitles",
+    "instrumentalmobs.subtitle.xylophone": "像是木琴的骷髏肋骨演奏聲",
+    "instrumentalmobs.subtitle.tuba": "低音號演奏聲",
+    "instrumentalmobs.subtitle.frenchhorn": "法國號演奏聲",
+    "instrumentalmobs.subtitle.drum": "鼓聲",
+    "instrumentalmobs.subtitle.cymbals": "鈸敲擊聲",
+    "instrumentalmobs.subtitle.maraca": "沙鈴聲",
+
+    "_comment": "Damage Source",
+    "death.attack.instrumentalmobs:soundDamage": "%1$s 耳聾了",
+    "death.attack.instrumentalmobs:soundDamage.player": "%1$s 在試圖逃離 %2$s 的追殺時耳朵失聰"
+}

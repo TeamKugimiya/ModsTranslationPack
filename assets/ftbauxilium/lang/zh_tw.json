@@ -1,0 +1,15 @@
+{
+  "ftbauxilium.what-is": "FTB Auxilium 是款輕量的小型模組，它會回傳一小部分的統計資料至 FTB 伺服器。我們會利用這些資訊，幫助我們的模組包開發者，朝向最適合我們玩家的方向設計模組包。",
+  "ftbauxilium.what-info": "Auxilum 只會回傳基本且完全匿名的資料；目前它會回報以下內容：遊戲載入時間、你正在遊玩哪款模組包、崩潰日誌、你的遊玩時長，以及你使用哪款啟動器遊玩模組包。",
+  "ftbauxilium.opt-out": "若你不願意將這些匿名資訊回傳給 FTB 伺服器，那麼你可以透過下方的按鈕「選擇退出」。這選項將會連帶退出所有使用 Auxilium 的 FTB 模組包。",
+  "ftbauxilium.heading-what-is": "什麼是 FTB Auxilium？",
+  "ftbauxilium.heading-what-info": "它會回傳什麼內容？",
+  "ftbauxilium.heading-opt-out": "選擇退出？",
+  "ftbauxilium.heading-opt-in": "看起來你已經選擇退出了。",
+  "ftbauxilium.opt-in": "若你想再次選擇加入 Auxilium 的統計系統。只需簡單地點擊下方按鈕",
+  "ftbauxilium.btn.opt-out": "選擇退出",
+  "ftbauxilium.btn-opt-in": "選擇加入",
+  "ftbauxilium.btn-cancel": "取消",
+  "ftbauxilium.msg.opted-out": "你已經選擇退出。",
+  "ftbauxilium.msg.opted-in": "你已經選擇重新加入。"
+}

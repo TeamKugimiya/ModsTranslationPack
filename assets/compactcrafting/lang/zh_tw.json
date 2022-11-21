@@ -1,0 +1,26 @@
+{
+  "itemGroup.compactcrafting": "壓縮合成",
+
+  "block.compactcrafting.field_projector": "領域投影儀",
+  "block.compactcrafting.rescan_proxy": "領域代理器（重新掃描）",
+  "block.compactcrafting.match_proxy": "領域代理器（比對）",
+
+  "item.compactcrafting.projector_dish": "微型化投影儀",
+  "item.compactcrafting.base": "投影儀底盤",
+
+  "compactcrafting.jei.miniaturization.title": "微型化合成",
+  "compactcrafting.jei.miniaturization.component": "材料：放置在世界上。",
+  "compactcrafting.jei.miniaturization.catalyst": "將該物品扔進微型化合成領域中，以開始進行合成。",
+
+  "compactcrafting.top.current_recipe": "配方：",
+  "compactcrafting.top.awaiting_catalyst": "正在等候催化劑...",
+  "compactcrafting.top.progress": "%s / %s",
+
+  "tooltip.compactcrafting.proxy_bound": "已綁定至：%s",
+  "tooltip.compactcrafting.proxy_hint": "使用代理器，自動化進行微型化合成。",
+  "tooltip.compactcrafting.proxy_bind_hint": "對著投影儀 Shift + 點擊右鍵使用，以綁定至該合成領域。",
+  "tooltip.compactcrafting.proxy_unbind_hint": "對著空氣 Shift + 點擊右鍵使用，以解除與合成領域的綁定。",
+
+  "messages.compactcrafting.no_field_cap": "發現與合成領域不相關的方塊，位於 %s。",
+  "messages.compactcrafting.no_field_found": "無法找到微型化合成領域的資訊。"
+}

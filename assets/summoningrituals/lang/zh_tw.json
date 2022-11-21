@@ -1,0 +1,34 @@
+{
+  "itemGroup.summoningrituals": "召喚儀式",
+
+  "block.summoningrituals.altar": "召喚祭壇",
+  "block.summoningrituals.indestructible_altar": "堅不可摧的召喚祭壇",
+
+  "message.summoningrituals.progress": "召喚儀式正在進行中。",
+  "message.summoningrituals.day": "僅能在白天啟動儀式。",
+  "message.summoningrituals.night": "僅能在夜晚啟動儀式。",
+  "message.summoningrituals.clear": "僅能在晴朗的天氣下啟動儀式。",
+  "message.summoningrituals.rain": "僅能在雨天的天氣下啟動儀式。",
+  "message.summoningrituals.thunder": "僅能在暴風雨的天氣下啟動儀式。",
+  "message.summoningrituals.block_below": "祭壇下方未放置正確的方塊。",
+  "message.summoningrituals.sacrifices": "祭壇周圍沒有足夠的生物作為獻祭。",
+  "message.summoningrituals.invalid": "祭壇未放上所有需要的試劑。",
+
+  "label.summoningrituals.region": "區域",
+  "label.summoningrituals.outputs": "輸出",
+
+  "tooltip.summoningrituals.catalyst": "催化劑",
+  "tooltip.summoningrituals.catalyst_desc": "最後放上祭壇以啟動儀式。",
+  "tooltip.summoningrituals.block_below": "下方方塊",
+  "tooltip.summoningrituals.properties": "相關屬性",
+  "tooltip.summoningrituals.region": "祭壇周遭生物將被視作祭品。",
+  "tooltip.summoningrituals.day_time": "所需時間",
+  "tooltip.summoningrituals.weather": "所需天氣",
+
+  "day_time.summoningrituals.day": "白天",
+  "day_time.summoningrituals.night": "夜晚",
+
+  "weather.summoningrituals.clear": "晴朗",
+  "weather.summoningrituals.rain": "雨天",
+  "weather.summoningrituals.thunder": "暴風雨"
+}

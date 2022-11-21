@@ -1,0 +1,7 @@
+{
+  "block.charginggadgets.charging_station": "充電站",
+  "itemGroup.charginggadgets": "充能小幫手",
+  "screen.charginggadgets.burn_time": "剩餘燃燒時間：%s 秒",
+  "screen.charginggadgets.energy": "能量：%s/%s FE",
+  "screen.charginggadgets.no_fuel": "燃料欄位為空"
+}

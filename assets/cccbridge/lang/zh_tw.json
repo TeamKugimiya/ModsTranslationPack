@@ -1,0 +1,13 @@
+{
+  "block.cccbridge.source_block": "來源方塊",
+  "block.cccbridge.target_block": "目標方塊",
+  "block.cccbridge.redrouter_block": "紅色路由器方塊",
+  "block.cccbridge.scroller_block": "滾動面板",
+
+  "cccbridge.display_source.source_block_display_source": "給予來自電腦的資料",
+
+  "cccbridge.general.unit.scroller": "Lua 小數",
+
+  "subtitles.cccbridge.cage_lock": "滾動面板已鎖定",
+  "subtitles.cccbridge.cage_unlock": "滾動面板已解鎖"
+}

@@ -1,0 +1,23 @@
+{
+  "itemGroup.travel_anchors": "旅行錨",
+
+  "item.travel_anchors.travel_staff": "旅行權杖",
+
+  "enchantment.travel_anchors.range": "範圍",
+  "enchantment.travel_anchors.range.desc": "使你可以在更遠的距離外傳送到旅行錨上。",
+  "enchantment.travel_anchors.teleportation": "傳送",
+  "enchantment.travel_anchors.teleportation.desc": "使物品擁有旅行權杖的效果。",
+
+  "block.travel_anchors.travel_anchor": "旅行錨",
+
+  "screen.travel_anchors.travel_anchor": "旅行錨",
+  "screen.travel_anchors.search": "搜尋",
+  "screen.travel_anchors.nameless": "輸入名稱後才能開始使用",
+
+  "tooltip.travel_anchors.travel_anchor_block": "手拿旅行權杖或附有「傳送」附魔的物品，並將視線看向旅行錨以進行傳送。",
+  "tooltip.travel_anchors.travel_staff": "潛行 + 點擊右鍵以進行短距離瞬移。將視線看向旅行錨以進行傳送。",
+
+  "travel_anchors.tp.success": "已傳送到%s。",
+  "travel_anchors.tp.fail": "找不到可傳送的旅行錨。",
+  "travel_anchors.hop.fail": "傳送到目的地時受阻。"
+}

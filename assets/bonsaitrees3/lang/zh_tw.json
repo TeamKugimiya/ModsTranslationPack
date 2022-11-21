@@ -1,0 +1,21 @@
+{
+  "block.bonsaitrees3.bonsaipot": "植樹盆栽",
+  "container.bonsaitrees3.bonsaipot": "植樹盆栽",
+  "gui.bonsaitrees3.label.button.cut_tree.tooltip.ok": "點擊砍伐樹木",
+  "gui.bonsaitrees3.label.button.cut_tree.tooltip.wait": "需等待樹木生長完全",
+  "gui.bonsaitrees3.label.jei.upgrade.autocut": "自動砍伐樹木",
+  "gui.bonsaitrees3.label.jei.upgrade.bees": "授粉並收穫果實",
+  "gui.bonsaitrees3.label.jei.upgrade.efficiency": "減少樹苗生長時間",
+  "gui.bonsaitrees3.label.jei.upgrade.energy": "插入電池以加速生長速度",
+  "gui.bonsaitrees3.label.jei.upgrade.fortune": "提高收穫數量與機率",
+  "gui.bonsaitrees3.label.jei.upgrade.hopper": "自動將收穫物品輸出至盆栽底下容器",
+  "gui.bonsaitrees3.label.jei.upgrade.silktouch": "小心翼翼，並獲得樹苗",
+  "jei.bonsaitrees3.chance": "收穫機率：%d%%",
+  "jei.bonsaitrees3.growtime": "生長時間：%s",
+  "jei.bonsaitrees3.recipes.title": "植樹盆栽生長",
+  "jei.bonsaitrees3.requiresBees": "需要蜂箱升級",
+  "jei.bonsaitrees3.requiresSilkTouch": "需要絲綢之觸升級",
+  "jei.bonsaitrees3.requiresUpgrade": "需要其中一種升級：",
+  "jei.bonsaitrees3.soiltime": "生長時間變為：%s",
+  "jei.bonsaitrees3.upgrades.title": "植樹盆栽升級"
+}

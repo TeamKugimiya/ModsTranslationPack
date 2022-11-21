@@ -1,0 +1,80 @@
+{
+
+    "item.xnet.xnet_manual": "XNet 指南",
+    "item.xnet.connector_upgrade": "連接器升級工具",
+
+    "block.xnet.facade": "偽裝方塊",
+    "item.xnet.facade_blue": "藍色偽裝方塊",
+    "item.xnet.facade_red": "紅色偽裝方塊",
+    "item.xnet.facade_yellow": "黃色偽裝方塊",
+    "item.xnet.facade_green": "綠色偽裝方塊",
+    "item.xnet.facade_routing": "路由偽裝方塊",
+
+    "block.xnet.connector": "連接器",
+    "item.xnet.connector_blue": "藍色",
+    "item.xnet.connector_red": "紅色連接器",
+    "item.xnet.connector_yellow": "黃色連接器",
+    "item.xnet.connector_green": "綠色連接器",
+    "item.xnet.connector_routing": "路由連接器",
+
+    "block.xnet.advanced_connector": "高級連接器",
+    "item.xnet.advanced_connector_blue": "藍色高級連接器",
+    "item.xnet.advanced_connector_red": "紅色高級連接器",
+    "item.xnet.advanced_connector_yellow": "黃色高級連接器",
+    "item.xnet.advanced_connector_green": "綠色高級連接器",
+    "item.xnet.advanced_connector_routing": "高級路由連接器",
+
+    "block.xnet.netcable": "網路線纜",
+    "item.xnet.netcable_blue": "藍色網路線纜",
+    "item.xnet.netcable_red": "紅色網路線纜",
+    "item.xnet.netcable_yellow": "黃色網路線纜",
+    "item.xnet.netcable_green": "綠色網路線纜",
+    "item.xnet.netcable_routing": "路由網路線纜",
+
+    "block.xnet.redstone_proxy": "紅石代理器",
+    "block.xnet.redstone_proxy_upd": "紅石代理器（更新）",
+
+    "block.xnet.controller": "控制器",
+    "block.xnet.router": "路由器",
+    "block.xnet.wireless_router": "無線路由器",
+    "block.xnet.antenna": "天線",
+    "block.xnet.antenna_base": "天線基座",
+    "block.xnet.antenna_dish": "天線盤",
+
+    "itemGroup.xnet": "XNet",
+
+    "message.xnet.shiftmessage": "<按下 Shift>",
+
+    "message.xnet.facade.header": "可偽裝成其他方塊，用於隱藏 XNet 線纜。",
+    "message.xnet.facade.gold": "對著想要偽裝的方塊點擊右鍵。對著線纜／連接器潛行 + 點擊右鍵以隱藏。",
+    "message.xnet.facade.info": "目前偽裝：",
+
+    "message.xnet.connector.header": "將連接器放置在方塊或機器旁，以將其連接至網路。",
+    "message.xnet.connector.info": "最大 RF：",
+
+    "message.xnet.advanced_connector.header": "將連接器放置在方塊或機器旁，以將其連接至網路。",
+    "message.xnet.advanced_connector.info": "最大 RF：",
+    "message.xnet.advanced_connector.gold": "允許單面存取方塊的不同側。支援更快的物品傳輸速度。",
+
+    "message.xnet.controller.header": "每個 XNet 自動化網路都必要的主控方塊。",
+
+    "message.xnet.router.header": "透過這個方塊，你可以連接至多個頻道（控制器）。",
+
+    "message.xnet.wireless_router.header": "透過這個方塊，你可以遠距離連接至多個頻道。使用路由線纜，將其連接至普通路由器。",
+    "message.xnet.wireless_router.gold": "該方塊頂部須放置天線以運作！",
+
+    "message.xnet.antenna.header": "在天線基座上，放置 1 到 2 個天線。",
+    "message.xnet.antenna.one": "放置 1 個時：",
+    "message.xnet.antenna.two": "放置 2 個時：",
+
+    "message.xnet.antenna_base.header": "天線基座必須放置在無線路由器上方。",
+    "message.xnet.antenna_dish.header": "天線盤必須放置在天線基座上方。用於提供極遠的訊號距離。",
+    "message.xnet.antenna_dish.info": "耗電量：",
+
+    "message.xnet.redstone_proxy.header": "作為 Xnet 與 紅石連接的代理橋梁。",
+    "message.xnet.redstone_proxy.gold": "這版本不會觸發方塊更新！",
+
+    "message.xnet.redstone_proxy_upd.header": "作為 Xnet 與 紅石連接的代理橋梁。",
+    "message.xnet.redstone_proxy_upd.gold": "這版本會觸發方塊更新！"
+
+}

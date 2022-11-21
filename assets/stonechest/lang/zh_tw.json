@@ -1,0 +1,23 @@
+{
+  "block.stonechest.chest_andesite": "安山岩儲物箱",
+  "block.stonechest.chest_calcite": "方解石儲物箱",
+  "block.stonechest.chest_cobbled_deepslate": "深板岩碎石儲物箱",
+  "block.stonechest.chest_cobblestone": "鵝卵石儲物箱",
+  "block.stonechest.chest_deepslate": "深板岩儲物箱",
+  "block.stonechest.chest_diorite": "閃長岩儲物箱",
+  "block.stonechest.chest_granite": "花崗岩儲物箱",
+  "block.stonechest.chest_prismarine": "海磷石儲物箱",
+  "block.stonechest.chest_stone": "石頭儲物箱",
+  "block.stonechest.chest_tuff": "凝灰岩儲物箱",
+
+  "item.stonechest.part_andesite": "安山岩部件",
+  "item.stonechest.part_calcite": "方解石部件",
+  "item.stonechest.part_cobbled_deepslate": "深板岩碎石部件",
+  "item.stonechest.part_cobblestone": "鵝卵石部件",
+  "item.stonechest.part_deepslate": "深板岩部件",
+  "item.stonechest.part_diorite": "閃長岩部件",
+  "item.stonechest.part_granite": "花崗岩部件",
+  "item.stonechest.part_prismarine": "海磷石部件",
+  "item.stonechest.part_stone": "石頭部件",
+  "item.stonechest.part_tuff": "凝灰岩部件"
+}

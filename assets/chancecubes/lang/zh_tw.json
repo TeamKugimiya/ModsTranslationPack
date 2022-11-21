@@ -1,0 +1,47 @@
+{
+    "itemGroup.chancecubes": "機會方塊",
+
+    "block.chancecubes.chance_cube": "機會方塊",
+    "block.chancecubes.chance_icosahedron": "機會二十面體",
+    "block.chancecubes.giant_chance_cube": "巨型機會方塊",
+    "block.chancecubes.compact_giant_chance_cube": "巨型機會方塊",
+    "block.chancecubes.cube_dispenser": "機會方塊分配器",
+
+    "item.chancecubes.chance_pendant_tier1": "機會垂飾 T1",
+    "item.chancecubes.chance_pendant_tier2": "機會垂飾 T2",
+    "item.chancecubes.chance_pendant_tier3": "機會垂飾 T3",
+
+    "item.chancecubes.creative_pendant": "創造模式機會垂飾",
+    "item.chancecubes.reward_selector_pendant": "獎勵選擇垂飾",
+    "item.chancecubes.single_use_reward_selector_pendant": "一次性獎勵選擇垂飾",
+
+    "item.chancecubes.silk_touch_pendant": "絲綢之觸機會垂飾",
+
+    "item.chancecubes.scanner": "機會方塊掃描器",
+
+    "death.attack.mathdeath": "%1$s 因承受不住數學的力量，腦袋瓜爆炸了",
+    "death.attack.mazedeath": "%1$s 永遠迷失在機會方塊的迷宮之中。",
+    "death.attack.questiondeath": "%1$s 遭受了回答錯誤的懲罰",
+    "death.attack.digbuilddeath": "%1$s 的雙臂顯然是斷了",
+    "death.attack.matchingdeath": "%1$s 遇見了他的對手。",
+
+    "advancements.chancecubes:root.desc": "圍繞機會與技巧的遊戲",
+    "advancements.chancecubes:chance_icosahedron": "迪斯可球！",
+    "advancements.chancecubes:chance_icosahedron.desc": "開始一個機會二十面體",
+    "advancements.chancecubes:giant_chance_cube": "BWWWWAAAAAMMMMM!",
+    "advancements.chancecubes:giant_chance_cube.desc": "破壞一個巨型機會方塊",
+    "advancements.chancecubes:lonely_dirt": "孤獨的泥土",
+    "advancements.chancecubes:lonely_dirt.desc": "取得一塊孤獨的泥土",
+    "advancements.chancecubes:wither": "祂是真實存在的？？",
+    "advancements.chancecubes:wither.desc": "生成一隻 Kiwi 凋零怪",
+    "advancements.chancecubes:herobrine": "他是真實存在的？？",
+    "advancements.chancecubes:herobrine.desc": "生成一隻 Herobrine",
+    "advancements.chancecubes:its_a_lie": "它是謊言！",
+    "advancements.chancecubes:its_a_lie.desc": "沒錯，蛋糕就是謊言",
+
+    "chancecubes.reward.raining_potions": "它被稱作為藝術！注意看好了！",
+
+    "stat.chancecubes.opened_chance_cube": "機會方塊開啟次數",
+    "stat.chancecubes.opened_giant_chance_cube": "巨型機會方塊開啟次數",
+    "stat.chancecubes.opened_d20": "機會二十面體開啟次數"
+}

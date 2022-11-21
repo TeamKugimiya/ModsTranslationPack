@@ -1,0 +1,16 @@
+{
+  "item.torchbowmod.torchbow": "火把弓",
+  "item.torchbowmod.multitorch": "一捆火把",
+  "item.torchbowmod.torcharrow": "火把箭矢",
+  "itemGroup.torchBowModTab": "火把弓",
+  "death.attack.EntityTorch": "%1$s 被 %2$s 的火把燙死了。",
+  "entity.torchbowmod.entitytorch": "火把箭矢",
+  "log.sb.check": "正在檢查《儲存盒》導入狀態……",
+  "log.sb.load": "已確認《儲存盒》導入狀態。載入完成。",
+  "log.sb.error": "載入《儲存盒》時發生錯誤。",
+  "log.sb.unload": "未導入《儲存盒》。",
+  "log.sg.check": "正在檢查《寂靜寶石》導入狀態……",
+  "log.sg.load": "已確認《寂靜寶石》導入狀態。載入完成。",
+  "log.sg.error": "載入《寂靜寶石》時發生錯誤。",
+  "log.sg.unload": "未導入《寂靜寶石》。"
+}
