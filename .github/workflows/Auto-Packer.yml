@@ -5,9 +5,9 @@ on:
     branches:
     - main
     paths:
-    - assets/**
-    - pack.mcmeta
-    - .github/scripts/override_mods.sh
+    - "assets/**"
+    - "pack.mcmeta"
+    - ".github/scripts/override_mods.sh"
   workflow_dispatch: {}
 
 permissions:
@@ -15,9 +15,14 @@ permissions:
 
 jobs:
   Packer:
+    name: Packer ${{ matrix.version }} Version
     runs-on: ubuntu-latest
     if: |
       contains(github.event.head_commit.message, 'chore(main): 發佈') == false
+
+    strategy:
+      matrix:
+        version: [ 1.18.x, 1.19.x ]
 
     steps:
       - name: Checking Repostiory
@@ -25,17 +30,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Auto Version Change
-        id: version
+      - name: Git Version Changer
         run: |
-          echo "翻譯包版本：${GITHUB_SHA::7}" >> $GITHUB_STEP_SUMMARY
-          echo "sha_short=${GITHUB_SHA::7}" >> $GITHUB_OUTPUT
           sed -i 's/GitVersion/git '${GITHUB_SHA::7}'/1' pack.mcmeta
+
+      - name: Format change to 1.18.x
+        if: "${{ matrix.version == '1.18.x' }}"
+        run: |
+          sed -i 's/9/8/1' pack.mcmeta
 
       - name: Override mods
         run: sh .github/scripts/override_mods.sh
 
-      - name: Make ModsTranslationPack (1.19.x)
+      - name: Make ModsTranslationPack
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -45,47 +52,51 @@ jobs:
             assets/immersiveengineering/manual/zh_tw/*.txt
           never_store_squash_times: true
           path: ./
+          artifact_name: OptimizedPack-${{ matrix.version }}
 
-      - name: DownloadArtifact (1.19.x)
+      - name: DownloadArtifact
         uses: actions/download-artifact@v2
         with:
-          name: Optimized pack
+          name: OptimizedPack-${{ matrix.version }}
           path: ./
-
-      - name: Rename ModsTranslationPack (1.19.x)
-        run: |
-          mv ./pack.zip ModsTranslationPack-1.19.x.zip
-
-      - name: Change pack format to 1.18.x
-        run: |
-          sed -i 's/9/8/1' pack.mcmeta
-
-      - name: Make ModsTranslationPack (1.18.x)
-        uses: ComunidadAylas/PackSquash-action@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          force_include_files: |
-            LICENSE
-            assets/tconstruct/book/**/zh_tw/*.lang
-            assets/immersiveengineering/manual/zh_tw/*.txt
-          never_store_squash_times: true
-          path: ./
-
-      - name: DownloadArtifact (1.18.x)
-        uses: actions/download-artifact@v2
-        with:
-          name: Optimized pack
-          path: ./
-
-      - name: Rename ModsTranslationPack (1.18.x)
-        run: |
-          mv ./pack.zip ModsTranslationPack-1.18.x.zip
 
       - name: Delete Artifact
         uses: geekyeggo/delete-artifact@v1
         with:
           name: |
-            Optimized pack
+            OptimizedPack-${{ matrix.version }}
+
+      - name: Rename ModsTranslationPack
+        run: |
+          mv ./pack.zip ModsTranslationPack-${{ matrix.version }}.zip
+
+      - name: Upload ModsTranslationPack
+        uses: actions/upload-artifact@v3
+        with:
+          name: ModsTranslationPack-${{ matrix.version }}
+          path: "*.zip"
+
+  Per-Releaser:
+    name: Per Release
+    runs-on: ubuntu-latest
+    needs: [ Packer ]
+    if: |
+      github.event_name != 'pull_request'
+    
+    steps:
+      - name: Download All Artifact
+        uses: actions/download-artifact@v3
+
+      - name: Delete All Artifact
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            ModsTranslationPack-*
+
+      - name: Move all zip to workdir
+        run: |
+          mv ModsTranslationPack-1.18.x/*.zip .
+          mv ModsTranslationPack-1.19.x/*.zip .
 
       - name: Make Checksum
         id: checksum
@@ -106,7 +117,7 @@ jobs:
           tag: latest
           allowUpdates: true
           prerelease: true
-          name: 模組翻譯包 (git ${{ steps.version.outputs.sha_short }})
+          name: 模組翻譯包 (git ${GITHUB_SHA::7})
           body: |
             ## 📝 下載
             下載下方的 Assets 內的 ``ModsTranslationPack.zip``
