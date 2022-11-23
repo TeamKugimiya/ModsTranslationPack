@@ -11,7 +11,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  release-please:
+  Release-Please:
     name: Release Please
     runs-on: ubuntu-latest
     steps:
@@ -28,12 +28,17 @@ jobs:
     outputs:
       release_created: ${{ steps.release_please.outputs.release_created }}
       tag_name: ${{ steps.release_please.outputs.tag_name }}
-  
-  release-it:
-    name: Release It
+
+  Packer:
+    name: Packer ${{ matrix.version }} Version
     runs-on: ubuntu-latest
-    needs: release-please
     if: ${{ needs.release-please.outputs.release_created }}
+    needs: [ Release-Please ]
+
+    strategy:
+      matrix:
+        version: [ 1.18.x, 1.19.x ]
+
     steps:
       - name: Checking Repostiory
         uses: actions/checkout@v2
@@ -41,16 +46,15 @@ jobs:
           ref: ${{ needs.release-please.outputs.tag_name }}
           fetch-depth: 0
 
-      - name: Auto Version Change
-        id: version
+      - name: Version Changer
         run: |
-          echo "翻譯包發布版本：${{ needs.release-please.outputs.tag_name }}" >> $GITHUB_STEP_SUMMARY
-          sed -i 's/6GitVersion/f${{ needs.release-please.outputs.tag_name }}/1' pack.mcmeta
+          .github/scripts/version_change.sh 2 ${{ needs.release-please.outputs.tag_name }}
+          .github/scripts/version_change.sh 3 ${{ matrix.version }}
 
       - name: Override mods
         run: sh .github/scripts/override_mods.sh
 
-      - name: Make ModsTranslationPack (1.19.x)
+      - name: Make ModsTranslationPack
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -60,47 +64,49 @@ jobs:
             assets/immersiveengineering/manual/zh_tw/*.txt
           never_store_squash_times: true
           path: ./
+          artifact_name: OptimizedPack-${{ matrix.version }}
 
-      - name: DownloadArtifact (1.19.x)
+      - name: DownloadArtifact
         uses: actions/download-artifact@v2
         with:
-          name: Optimized pack
+          name: OptimizedPack-${{ matrix.version }}
           path: ./
-
-      - name: Rename ModsTranslationPack (1.19.x)
-        run: |
-          mv ./pack.zip ModsTranslationPack-1.19.x.zip
-
-      - name: Change pack format to 1.18.x
-        run: |
-          sed -i 's/9/8/1' pack.mcmeta
-
-      - name: Make ModsTranslationPack (1.18.x)
-        uses: ComunidadAylas/PackSquash-action@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          force_include_files: |
-            LICENSE
-            assets/tconstruct/book/**/zh_tw/*.lang
-            assets/immersiveengineering/manual/zh_tw/*.txt
-          never_store_squash_times: true
-          path: ./
-
-      - name: DownloadArtifact (1.18.x)
-        uses: actions/download-artifact@v2
-        with:
-          name: Optimized pack
-          path: ./
-
-      - name: Rename ModsTranslationPack (1.18.x)
-        run: |
-          mv ./pack.zip ModsTranslationPack-1.18.x.zip
 
       - name: Delete Artifact
         uses: geekyeggo/delete-artifact@v1
         with:
           name: |
-            Optimized pack
+            OptimizedPack-${{ matrix.version }}
+
+      - name: Rename ModsTranslationPack
+        run: |
+          mv ./pack.zip ModsTranslationPack-${{ matrix.version }}.zip
+
+      - name: Upload ModsTranslationPack
+        uses: actions/upload-artifact@v3
+        with:
+          name: ModsTranslationPack-${{ matrix.version }}
+          path: "*.zip"
+
+  Release-It:
+    name: Release It
+    runs-on: ubuntu-latest
+    needs: [ Release-Please, Packer ]
+
+    steps:
+      - name: Download All Artifact
+        uses: actions/download-artifact@v3
+
+      - name: Delete All Artifact
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            ModsTranslationPack-1.18.x
+            ModsTranslationPack-1.19.x
+
+      - name: Move all zip to workdir
+        run: |
+          mv ModsTranslationPack-*/*.zip .
 
       - name: Make Checksum
         run: |

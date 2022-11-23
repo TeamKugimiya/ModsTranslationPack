@@ -30,14 +30,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Git Version Changer
+      - name: Version Changer
         run: |
-          sed -i 's/GitVersion/git '${GITHUB_SHA::7}'/1' pack.mcmeta
-
-      - name: Format change to 1.18.x
-        if: "${{ matrix.version == '1.18.x' }}"
-        run: |
-          sed -i 's/9/8/1' pack.mcmeta
+          .github/scripts/version_change.sh 1
+          .github/scripts/version_change.sh 3 ${{ matrix.version }}
 
       - name: Override mods
         run: sh .github/scripts/override_mods.sh
@@ -82,7 +78,7 @@ jobs:
     needs: [ Packer ]
     if: |
       github.event_name != 'pull_request'
-    
+
     steps:
       - name: Download All Artifact
         uses: actions/download-artifact@v3
@@ -91,12 +87,12 @@ jobs:
         uses: geekyeggo/delete-artifact@v1
         with:
           name: |
-            ModsTranslationPack-*
+            ModsTranslationPack-1.18.x
+            ModsTranslationPack-1.19.x
 
       - name: Move all zip to workdir
         run: |
-          mv ModsTranslationPack-1.18.x/*.zip .
-          mv ModsTranslationPack-1.19.x/*.zip .
+          mv ModsTranslationPack-*/*.zip .
 
       - name: Make Checksum
         id: checksum
