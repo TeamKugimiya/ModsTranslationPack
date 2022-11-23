@@ -105,6 +105,11 @@ jobs:
         run: |
           echo "time=$(TZ='Asia/Taipei' date +'最後更新：%Y 年 %m 月 %d 日 %H 點 %M 分')" >> $GITHUB_OUTPUT
 
+      - name: Make Short Git SHA
+        id: git_version
+        run: |
+          echo "sha_short=${GITHUB_SHA::7}" >> $GITHUB_OUTPUT
+
       - name: Push Pack to Release
         uses: ncipollo/release-action@v1
         with:
@@ -113,7 +118,7 @@ jobs:
           tag: latest
           allowUpdates: true
           prerelease: true
-          name: 模組翻譯包 (git ${GITHUB_SHA::7})
+          name: 模組翻譯包 (git ${{ steps.git_version.outputs.sha_short }})
           body: |
             ## 📝 下載
             下載下方的 Assets 內的 ``ModsTranslationPack.zip``
