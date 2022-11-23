@@ -1,0 +1,24 @@
+{
+	"itemGroup.waterstrainer.main": "濾水器",
+	
+	"block.waterstrainer.strainer_base": "濾水基座",
+	"block.waterstrainer.worm_bin": "蠕蟲桶",
+	
+	"item.waterstrainer.efficiency_meter": "效率儀表",
+	"item.waterstrainer.garden_trowel": "園藝鏟",
+	"item.waterstrainer.worm": "蠕蟲",
+	"item.waterstrainer.super_worm": "超級蠕蟲",
+	"item.waterstrainer.bait_pot": "活餌盆",
+	"item.waterstrainer.string_mesh": "線製網子",
+	"item.waterstrainer.iron_mesh": "鐵製網子",
+	"item.waterstrainer.obsidian_mesh": "黑曜石製網子",
+	"item.waterstrainer.fertilizer": "肥料",
+	
+	"item.waterstrainer.strainer_survivalist": "生存者濾水網",
+	"item.waterstrainer.strainer_survivalist_solid": "堅固的生存者濾水網",
+	"item.waterstrainer.strainer_survivalist_reinforced": "強化的生存者濾水網",
+
+	"item.waterstrainer.strainer_fisherman": "漁夫濾水網",
+	"item.waterstrainer.strainer_fisherman_solid": "堅固的漁夫濾水網",
+	"item.waterstrainer.strainer_fisherman_reinforced": "強化的漁夫濾水網"
+}
