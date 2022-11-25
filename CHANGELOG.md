@@ -1,5 +1,43 @@
 # Changelog
 
+## [1.7.1](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.0...v1.7.1) (2022-11-25)
+
+
+### 📑 文檔更新
+
+* 修正旺財指出的錯字 ([3135fba](https://github.com/xMikux/ModsTranslationPack/commit/3135fba5c1a0e48548f314aedc44717bdbf7a4f2))
+
+
+### 🔧 修正問題
+
+* 修正模組路徑錯誤 ([#31](https://github.com/xMikux/ModsTranslationPack/issues/31)) ([bb5e752](https://github.com/xMikux/ModsTranslationPack/commit/bb5e75220feb74ac79d9f6874a96b7e9de9e5501))
+
+
+### ⚡ 新增模組翻譯
+
+* **Water Strainer:** 新增濾水器 ([#32](https://github.com/xMikux/ModsTranslationPack/issues/32)) ([b81d3e6](https://github.com/xMikux/ModsTranslationPack/commit/b81d3e603a7bb595cc4df1c6b67e138fe051eb9e))
+* **WSTweaks:** 新增凋零骷髏調整 ([#33](https://github.com/xMikux/ModsTranslationPack/issues/33)) ([54d322c](https://github.com/xMikux/ModsTranslationPack/commit/54d322c5de8d751886e69ba2f901aa3935c9512e))
+
+
+### 🧹 清理專案
+
+* 新增 CODEOWNERS ([#34](https://github.com/xMikux/ModsTranslationPack/issues/34)) ([682b461](https://github.com/xMikux/ModsTranslationPack/commit/682b46178c9211b4a4e7872340f8936d53761300))
+
+
+### ☁️ 持續整合 / 持續佈署
+
+* 修復變數未正確顯示在測試版上 ([cd1915a](https://github.com/xMikux/ModsTranslationPack/commit/cd1915a059dbbbfcc9afab428081fea73192e5ef))
+* 修正腳本執行權限問題 ([3f3ae7a](https://github.com/xMikux/ModsTranslationPack/commit/3f3ae7a982e43b4ba730d3c530110f8ad1961933))
+* 修正覆蓋模組更新 ([78e11dc](https://github.com/xMikux/ModsTranslationPack/commit/78e11dc1918f6099b0c3930e0ee0e37fc93a0492))
+* 優化自動製作模組翻譯包的工作流程 ([8e76180](https://github.com/xMikux/ModsTranslationPack/commit/8e76180117a05188a7c376a0318f03b6ccb320a1))
+* 再度修復這奇怪的權限 ([5d1f819](https://github.com/xMikux/ModsTranslationPack/commit/5d1f819da9f2db769841b0275ded7814de78bd73))
+* 大幅度優化工作流程 ([5a060b3](https://github.com/xMikux/ModsTranslationPack/commit/5a060b3cf512edf684f47e976aa222febbc0d109))
+* 完善新版約定式提交規則 ([0bf4a12](https://github.com/xMikux/ModsTranslationPack/commit/0bf4a12fd9af6b25c6f228b8c0712a69f30fb5ea))
+* 完成合併請求自動訊息 ([6660fe0](https://github.com/xMikux/ModsTranslationPack/commit/6660fe091f2defef2de0eb26fbace74f632eb095))
+* 新增合併請求的自動訊息 ([0491ef7](https://github.com/xMikux/ModsTranslationPack/commit/0491ef775a225573b04966e0c9c60acb89938559))
+* 更新覆蓋 ([254d46c](https://github.com/xMikux/ModsTranslationPack/commit/254d46c9bb45164fbf552f07e8e5bf37bca9d374))
+* 移除多餘的字符 ([6d67773](https://github.com/xMikux/ModsTranslationPack/commit/6d67773c47a8348790231fd426e84eafcd735212))
+
 ## [1.7.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.6.0...v1.7.0) (2022-11-21)
 
 
