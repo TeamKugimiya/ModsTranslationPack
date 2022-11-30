@@ -1,9 +1,9 @@
 {
   "language.default.tooltip": "Minecraft 預設語言",
-  "debug.reload_languages.help": "F3 + J = 重新載入語言（同時按住 Shift 來循環語言）",
+  "debug.reload_languages.help": "F3 + J = 重新載入語言（同時按住 Shift 來循環切換語言）",
   "debug.reload_languages.message": "已重新載入語言",
   "debug.reload_languages.switch.success": "設置語言到 %s",
-  "debug.reload_languages.switch.failure": "無法循環語言。在選項中的語言設置另一種語言並再試一次",
+  "debug.reload_languages.switch.failure": "無法循環切換語言。在選項中的語言設置另一種語言並再試一次",
   "modmenu.summaryTranslation.languagereload": "降低載入時間並增加了後備語言。",
-  "modmenu.descriptionTranslation.languagereload": "瞬間讓語言切換好，並在語言選單內引進了搜尋框和多重選擇，也增加了透過 Shift + F3 + J 循環語言與 F3 + J 重新載入語言的除錯功能。"
+  "modmenu.descriptionTranslation.languagereload": "瞬間讓語言切換好，並在語言選單內引進了搜尋框和多重選擇，也增加了透過 Shift + F3 + J 循環切換語言與 F3 + J 重新載入語言的除錯功能。"
 }
