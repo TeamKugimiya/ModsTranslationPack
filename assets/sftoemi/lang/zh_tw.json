@@ -11,8 +11,8 @@
   "sftoemi.missing_entity": "缺失實體！",
 
   "sftoemi.recipe.time": "%s 秒（%s Ticks）",
-  "sftoemi.recipe.energy.use": "%sJ 使用",
-  "sftoemi.recipe.energy.generate": "%sJ 發電",
+  "sftoemi.recipe.energy.use": "%sJ 能源消耗",
+  "sftoemi.recipe.energy.generate": "%sJ 發電量",
 
   "text.autoconfig.sftoemi.title": "Slimefun To EMI 配置選項！",
   "text.autoconfig.sftoemi.category.general": "全域設定",
