@@ -41,7 +41,7 @@
   "direction.titanium.south": "南",
   "direction.titanium.up": "上",
   "direction.titanium.down": "下",
-  "itemGroup.resources": "鈦函式庫｜資源",
+  "itemGroup.resources": "鈦程式庫｜資源",
   "tooltip.titanium.redstone.ignored": "紅石模式：忽略",
   "tooltip.titanium.redstone.no_redstone": "紅石模式：沒有紅石訊號時運作",
   "tooltip.titanium.redstone.redstone": "紅石模式：接收到紅石訊號時運作",

@@ -1,5 +1,5 @@
 {
-    "itemGroup.phosphophyllite": "磷葉石函式庫",
+    "itemGroup.phosphophyllite": "磷葉石程式庫",
     "multiblock.error.phosphophyllite.invalid_block.frame": "無效框架方塊（%s）位於 %s",
     "multiblock.error.phosphophyllite.invalid_block.exterior": "無效外部方塊（%s）位於 %s",
     "multiblock.error.phosphophyllite.invalid_block.interior": "無效內部方塊（%s）位於 %s",
