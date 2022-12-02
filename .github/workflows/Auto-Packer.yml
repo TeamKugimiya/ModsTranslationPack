@@ -39,6 +39,7 @@ jobs:
       - name: Clean up original language file
         run: |
           rm -v assets/*/lang/en_us.json
+          rm -vr assets/*/patchouli_books/*/en_us
 
       - name: Version Changer
         run: |
