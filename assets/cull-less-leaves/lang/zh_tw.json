@@ -1,0 +1,9 @@
+{
+  "cull-less-leaves.title": "個人化樹葉剔除",
+  "cull-less-leaves.option.enabled": "啟用",
+  "cull-less-leaves.option.depth": "深度",
+  "cull-less-leaves.option.depth.tooltip": "樹葉內被剔除前的層數。\n1 = 最快但最不好看。\n2 = 推薦。\n3 = 最慢但最好看。",
+  "cull-less-leaves.sodium.option.enabled": "樹葉剔除",
+  "cull-less-leaves.sodium.option.enabled.description": "啟用個人化樹葉剔除模組。",
+  "cull-less-leaves.sodium.option.depth": "樹葉剔除深度"
+}
