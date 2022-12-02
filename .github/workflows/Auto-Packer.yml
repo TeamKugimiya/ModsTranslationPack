@@ -36,6 +36,10 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Clean up original language file
+        run: |
+          rm -v assets/*/lang/en_us.json
+
       - name: Version Changer
         run: |
           .github/scripts/version_change.sh 1
