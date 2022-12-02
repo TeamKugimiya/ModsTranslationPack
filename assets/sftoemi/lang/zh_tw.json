@@ -8,14 +8,14 @@
   "emi.category.sftoemi.trade": "交易獲得",
   "emi.category.sftoemi.kill": "殺死生物",
 
-  "sftoemi.missing_entity": "缺失實體！",
+  "sftoemi.missing_entity": "缺少實體！",
 
   "sftoemi.recipe.time": "%s 秒（%s Ticks）",
   "sftoemi.recipe.energy.use": "%sJ 能源消耗",
   "sftoemi.recipe.energy.generate": "%sJ 發電量",
 
-  "text.autoconfig.sftoemi.title": "Slimefun To EMI 配置選項！",
-  "text.autoconfig.sftoemi.category.general": "全域設定",
+  "text.autoconfig.sftoemi.title": "Slimefun To EMI 設定選項！",
+  "text.autoconfig.sftoemi.category.general": "一般設定",
   "text.autoconfig.sftoemi.option.useMachineDefaults": "預設使用機器配方",
   "text.autoconfig.sftoemi.option.useMachineDefaults.@Tooltip": "EMI 配方樹是否要使用機器配方而不是多方塊結構配方",
   "text.autoconfig.sftoemi.category.addons": "開關附加",
