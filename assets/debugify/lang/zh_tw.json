@@ -2,7 +2,7 @@
   "debugify.name": "Debugify",
   "debugify.basic": "基礎修復",
   "debugify.gameplay": "遊玩修復",
-  "debugify.gameplay.warning": "警告：這個類別中的修復可能導致不公平的競爭！",
+  "debugify.gameplay.warning": "警告：這個類別中的修復可能導致遊戲不公平性！",
   "debugify.gameplay.enable_in_multiplayer": "在多人遊戲中啟用",
   "debugify.fix.enabled": "已修復",
   "debugify.fix.disabled": "未修復",
