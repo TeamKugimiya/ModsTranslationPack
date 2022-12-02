@@ -1,0 +1,16 @@
+{
+    "advancementinfo.infopane": "資訊",
+    "text.autoconfig.advancementinfo.title": "進度資訊顯示設定",
+    "text.autoconfig.advancementinfo.option.colorHave": "完成條件顏色",
+    "text.autoconfig.advancementinfo.option.colorHaveNot": "未完成條件顏色",
+    "text.autoconfig.advancementinfo.option.marginX": "外距 X",
+    "text.autoconfig.advancementinfo.option.marginY": "外距 Y",
+    "text.autoconfig.advancementinfo.option.infoWidth": "資訊面板寬度",
+    "text.autoconfig.advancementinfo.option.infoWidth.min": "最小值",
+    "text.autoconfig.advancementinfo.option.infoWidth.max": "最大值",
+    "text.autoconfig.advancementinfo.option.infoWidth.percent": "百分比",
+    "text.autoconfig.advancementinfo.option.infoWidth.enabled": "啟用",
+
+    "modmenu.summaryTranslation.advancementinfo": "讓你更簡單地查看進度還缺少哪些步驟。",
+    "modmenu.descriptionTranslation.advancementinfo": "讓你更簡單地查看進度還缺少哪些步驟。"
+}
