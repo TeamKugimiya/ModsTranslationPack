@@ -5,7 +5,7 @@
   "config.borderlessmining.general.enabled": "無邊框全螢幕",
   "config.borderlessmining.general.enabled.tooltip": "當開啟全螢幕時切換成無邊框全螢幕",
   "config.borderlessmining.general.videomodeoption": "全螢幕解析度選項",
-  "config.borderlessmining.general.videomodeoption.tooltip": "增加選項在全螢幕解析度滑桿上來啟用模組",
+  "config.borderlessmining.general.videomodeoption.tooltip": "增加選項在全螢幕解析度滑動軸上來啟用模組",
   "config.borderlessmining.general.forcemonitor": "螢幕",
   "config.borderlessmining.general.forcemonitor.current": "目前",
   "config.borderlessmining.general.enabledmac": "在 macOS 上啟用",
