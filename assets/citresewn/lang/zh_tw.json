@@ -5,11 +5,11 @@
   "config.citresewn.enabled.title": "啟用",
   "config.citresewn.enabled.tooltip": "CIT Resewn 是否載入並注入來自資源包的自訂物品紋理",
 
-  "config.citresewn.mute_errors.title": "記錄載入錯誤訊息",
-  "config.citresewn.mute_errors.tooltip": "CIT Resewn 是否記錄下自訂物品紋理的錯誤",
+  "config.citresewn.mute_errors.title": "記錄「載入錯誤」訊息",
+  "config.citresewn.mute_errors.tooltip": "CIT Resewn 是否記錄「自訂物品紋理」的載入錯誤訊息",
 
-  "config.citresewn.mute_warns.title": "記錄載入警告訊息",
-  "config.citresewn.mute_warns.tooltip": "CIT Resewn 是否記錄下自訂物品紋理的警告",
+  "config.citresewn.mute_warns.title": "記錄「載入警告」訊息",
+  "config.citresewn.mute_warns.tooltip": "CIT Resewn 是否記錄「自訂物品紋理」的載入警告訊息",
 
   "config.citresewn.broken_paths.title": "允許路徑損壞的資源包",
   "config.citresewn.broken_paths.tooltip": "允許載入有違反規則路徑的資源包。\n可能會造成問題！",
