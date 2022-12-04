@@ -1,0 +1,49 @@
+{
+  "mantle:tooltip.cooktime": "烹飪時間：%d 秒",
+  "config.mantle.extraHeartRenderer": "啟用額外生命值顯示器",
+
+  "command.mantle.view_tag.success": "帶有標籤「%2$s」的 %1$s：",
+
+  "command.mantle.tags_for.success": "帶有標籤「%2$s」的 %1$s：",
+  "command.mantle.tags_for.not_found": "未知的 %s 註冊數值「%s」",
+  "command.mantle.tags_for.no_held_block": "手持物品不是方塊",
+  "command.mantle.tags_for.no_held_entity": "手持物品不是生怪蛋",
+  "command.mantle.tags_for.no_held_potion": "手持物品不是藥水",
+  "command.mantle.tags_for.no_held_fluid": "無法取得手持物品的流體",
+  "command.mantle.tags_for.no_held_enchantment": "手持物品未被附魔",
+  "command.mantle.tags_for.no_targeted_entity": "範圍內沒有實體",
+  "command.mantle.tags_for.no_targeted_block_entity": "沒有目標方塊實體",
+  "command.mantle.tags_for.no_tags": "沒有標籤",
+  "command.mantle.book_test.not_found": "未知書本 ID：%s",
+
+  "command.mantle.dump_tag.success": "已將帶有標籤「%2$s」的 %1$s 輸出至控制台記錄檔",
+  "command.mantle.dump_tag.read_error": "讀取帶有標籤「%2$s」的 %1$s 時發生錯誤：",
+  "command.mantle.dump_tag.success_log": "已將帶有標籤「%2$s」的 %1$s 傾印至「%3$s」",
+  "command.mantle.dump_all_tags.success": "已將所有標籤傾印至「%s」",
+  "command.mantle.dump_all_tags.type_success": "已將 %s 的所有標籤傾印至「%s」",
+
+  "command.mantle.dump_loot_modifiers.success_log": "已將全域戰利品修飾元，輸出至控制台記錄檔",
+  "command.mantle.dump_loot_modifiers.success_save": "已將全域戰利品修飾元傾印至「%s」",
+  "command.mantle.dump_loot_modifiers.read_error": "讀取全域戰利品修飾元時發生錯誤",
+
+  "command.mantle.harvest_tiers.success_log": "已將分類的等級輸出至控制台記錄檔",
+  "command.mantle.harvest_tiers.success_save": "已將分類的等級傾印至「%s」",
+  "command.mantle.harvest_tiers.success_list": "採掘等級：",
+  "command.mantle.harvest_tiers.tag": "%s：方塊標籤 %s",
+  "command.mantle.harvest_tiers.no_tag": "%s：沒有標籤",
+
+  "command.mantle.tag.empty": "空",
+  "command.mantle.registry.not_found": "未知的註冊「%s」",
+  "command.mantle.tag.not_found": "未知的 %s 標籤「%s」",
+
+  "command.mantle.tag_preference.empty_tag": "%s 的「%s」標籤未有慣用值",
+  "command.mantle.tag_preference.preference": "已將 %s 的「%s」標籤慣用值設為 %s",
+
+  "gui.mantle.fluid.hold_shift": "按住 §e§oShift§r§7 以桶為單位",
+  "gui.mantle.fluid.kilobucket": "%s kB",
+  "gui.mantle.fluid.bucket": "%s B",
+  "gui.mantle.fluid.millibucket": "%s mB",
+
+  "block.mantle.tank.drained": "已撈出 %s mB 的 %s",
+  "block.mantle.tank.filled": "已填充 %s mB 的 %s"
+}
