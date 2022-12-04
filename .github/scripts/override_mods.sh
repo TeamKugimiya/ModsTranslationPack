@@ -7,19 +7,34 @@ echo ">>> 某些模組的翻譯如果搭配其他翻譯包"
 echo ">>> 所使用會將翻譯好的內容變成未翻譯"
 echo ">>> 此步驟將會把一些已知的模組翻譯覆蓋掉"
 
+## Tool Install
+
+installer_packages () {
+    sudo apt-get update > /dev/null
+    sudo apt-get install -y megatools > /dev/null
+}
+
+## Common Function
+
+# Retrun to workspace root
 home () {
     cd "$GITHUB_WORKSPACE" || exit
 }
 
+# Make workdir 
 mk_workdir () {
     mkdir workdir
     cd workdir || exit
 }
 
+# Remove workdir
 rm_workdir () {
     rm -r workdir
 }
 
+## Verify Function
+
+# Verify Translate File is exist
 verify_translate_exist () {
     if [ -f "$2/zh_tw.json" ]; then
         echo "翻譯驗證通過！"
@@ -29,6 +44,7 @@ verify_translate_exist () {
     fi
 }
 
+# Verify Book Translate Folder is exist
 verify_books_translate_exists () {
     if [ -d "$2" ]
     then
@@ -43,31 +59,47 @@ verify_books_translate_exists () {
     fi
 }
 
+## Common Downloader
+
+mega_Downloader () {
+    echo ">> 小資訊:"
+    echo ">> megatools 並不知道原始連結是甚麼"
+    echo ">> 這邊有一個修正連結的問題 https://github.com/megous/megatools/issues/157#issuecomment-615835778"
+
+    echo "(Mega) 正在下載 $1 ..."
+    megadl "$2"
+}
+
+mediafire_Downloader () {
+    echo "(Mediafire) 正在下載 $1 ..."
+    wget -q "$(wget -qO - "$2" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+}
+
+direct_Downloader () {
+    echo "(Wget) 正在下載 $1 到指定路徑..."
+    wget -q $2 -P $3
+}
+
+## Override 
+
+# Mega
 mega_override () {
     mk_workdir
     pwd
-
-    echo "小資訊:"
-    echo "megatools 並不知道原始連結是甚麼"
-    echo "這邊有一個修正連結的問題 https://github.com/megous/megatools/issues/157#issuecomment-615835778"
-
-    echo "安裝 megatools..."
-    sudo apt-get update > /dev/null
-    sudo apt-get install -y megatools > /dev/null
 
     echo "覆蓋 $1..."
 
     echo "設置 $1 路徑變數"
     PATH_MEGA=$2
 
-    echo "下載 $1..."
-    megadl "$3"
+    # Mega Download
+    mega_Downloader $1 $3
 
     echo "解壓縮 $4"
     unzip -q "$4"
 
     echo "回到工作目錄..."
-    cd ..
+    home
 
     echo "移動 $1 的翻譯內容..."
     mv workdir/$PATH_MEGA assets
@@ -79,6 +111,7 @@ mega_override () {
     rm_workdir
 }
 
+# Mediafire
 mediafire_override () {
     mk_workdir
 
@@ -87,14 +120,14 @@ mediafire_override () {
     echo "設置 $1 路徑變數"
     PATH_MEDIAFIRE=$2
 
-    echo "下載 $1"
-    wget -q "$(wget -qO - "$3" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+    # Mediafire Download
+    mediafire_Downloader $1 $3
 
     echo "取出 $1 翻譯檔"
     $JAVA_HOME_17_X64/bin/jar xf $4 $PATH_MEDIAFIRE/zh_tw.json
 
     echo "回到工作目錄..."
-    cd ..
+    home
 
     echo "創建 $1 語言資料夾..."
     mkdir -p $PATH_MEDIAFIRE
@@ -117,14 +150,14 @@ mediafire_override_resourcepack () {
     echo "設置 $1 路徑變數"
     PATH_MEDIAFIRE_RES=$2
 
-    echo "下載 $1"
-    wget -q "$(wget -qO - "$3" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+    # Mediafire Download
+    mediafire_Downloader $1 $3
 
     echo "解壓縮 $1"
     unzip -q "$4"
 
     echo "回到工作目錄..."
-    cd ..
+    home
 
     echo "複製 $1 的翻譯內容..."
     mv workdir/$PATH_MEDIAFIRE_RES assets
@@ -145,14 +178,14 @@ mediafire_tinker_override () {
     PATH_MEDIAFIRE_TINKER=$2
     PATH_MEDIAFIRE_TINKER_BOOKS=$3
 
-    echo "下載 $1"
-    wget -q "$(wget -qO - "$4" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+    # Mediafire Download
+    mediafire_Downloader $1 $4
 
     echo "解壓縮 $1 Jar"
     $JAVA_HOME_17_X64/bin/jar xf $5
 
     echo "回到工作目錄..."
-    cd ..
+    home
 
     echo "創建 $1 語言資料夾..."
     mkdir -p $PATH_MEDIAFIRE_TINKER
@@ -201,14 +234,14 @@ mediafire_productive_bees_override () {
     PATH_MEDIAFIRE_PRODUCTIVE_BEES=$2
     PATH_MEDIAFIRE_PRODUCTIVE_BEES_BOOKS=$3
 
-    echo "下載 $1"
-    wget -q "$(wget -qO - "$4" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"
+    # Mediafire Download
+    mediafire_Downloader $1 $4
 
     echo "解壓縮 $1 Jar"
     $JAVA_HOME_17_X64/bin/jar xf $5
 
     echo "回到工作目錄..."
-    cd ..
+    home
 
     echo "創建 $1 語言資料夾..."
     mkdir -p $PATH_MEDIAFIRE_PRODUCTIVE_BEES
@@ -234,8 +267,6 @@ mediafire_productive_bees_override () {
 }
 
 github_override () {
-    mk_workdir
-
     echo "覆蓋 $1..."
 
     echo "設置 $1 路徑變數"
@@ -244,20 +275,19 @@ github_override () {
     echo "創建 $1 語言資料夾..."
     mkdir -p $PATH_GITHUB
 
-    echo "下載 $1 翻譯檔案到語言資料夾內..."
-    wget -q $3 -P $PATH_GITHUB
+    # Direct Download
+    direct_Downloader $1 $3 $PATH_GITHUB
 
     echo "檢查 $1 覆蓋內容是否存在"
     verify_translate_exist "$1" "$PATH_GITHUB"
 
-    echo "完成 $1 覆蓋！清理工作資料夾"
-    rm_workdir
+    echo "完成 $1 覆蓋！"
 }
 
-# Main
+## Main
 
-## 回到工作目錄
 home
+installer_packages
 
 ## Mega
 
@@ -293,5 +323,5 @@ mediafire_override "Supplementaries" "assets/supplementaries/lang" "https://www.
 
 ## GitHub
 
-### Create
-# github_override "Create" "assets/create/lang" "https://raw.githubusercontent.com/Creators-of-Create/Create/mc1.18/dev/src/main/resources/assets/create/lang/zh_tw.json"
+### Dynamic FPS
+github_override "Dynamic FPS" "assets/dynamicfps/lang" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json"
