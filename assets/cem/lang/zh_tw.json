@@ -1,0 +1,9 @@
+{
+	"modmenu.descriptionTranslation.cem": "允許載入資源包中副檔名定義為 .jam 和 .jpm 的自訂模型到遊戲中。",
+	"config.cem.use_optifine_folder": "使用路徑「assets/minecraft/optifine/cem」？",
+	"config.cem.use_optifine_folder.description": "這將會載入來自「assets/minecraft/optifine/cem」中的自訂實體模型，\n就像是 Optfine 模組做的一樣。\n重新載入資源包（F3 + T）來讓這個生效！",
+	"config.cem.use_new_model_creation_fix": "使用模型創建修復？",
+	"config.cem.use_new_model_creation_fix.description": "這防止 Minecraft 當正在動畫時直接移動你的模型部分。\n這會破壞一些模型，但也同時修復了其他。\n請盡可能的使用。\n重新載入資源包（F3 + T）來讓這個生效！",
+	"config.cem.use_old_animations": "使用舊版動畫實現？",
+	"config.cem.use_old_animations.description": "這將會還原自訂實體模型版本前 0.6.2 版的動畫行為。\n你可能不會想要這個開啟。"
+}
