@@ -6,7 +6,7 @@ if [ "$1" = "1" ];then
   sed -i "s/GitVersion/git ${GITHUB_SHA::7}/1" pack.mcmeta
   echo "Add git version"
 elif [ "$1" = "2" ];then
-  sed -i "s/6GitVersion/f$2/1" pack.mcmeta
+  sed -i "s/6GitVersion/b$2/1" pack.mcmeta
   echo "Add release tag version"
 elif [ "$1" = "3" ];then
   if [ "$2" = "1.18.x" ];then 
