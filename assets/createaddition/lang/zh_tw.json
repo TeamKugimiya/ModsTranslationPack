@@ -14,9 +14,10 @@
 	"createaddition.tooltip.relay.info": "紅石繼電器資訊：",
 	"createaddition.tooltip.connector.info": "連接節點資訊：",
 	
-	"create.recipe.rolling": "軋製",
-	"create.recipe.rolling.sequence": "軋製過程",
-	"create.recipe.charging": "充能",
+	"createaddition.recipe.rolling": "軋製",
+	"createaddition.recipe.liquid_burning": "流體燃料",
+	"createaddition.recipe.rolling.sequence": "軋製過程",
+	"createaddition.recipe.charging": "充能",
 	
 	"desc.immersiveengineering.info.mineral.sphalerite": "閃鋅礦",
 	
@@ -51,13 +52,17 @@
 	"item.createaddition.cake_base": "蛋糕基底",
 	"item.createaddition.cake_base_baked": "烘焙蛋糕基底",
 	
+	"item.createaddition.straw": "吸管",
+	
 	"item.createaddition.seed_oil_bucket": "種子油桶",
 	"item.createaddition.seed_oil_bucket.tooltip": "種子油桶",
 	"item.createaddition.seed_oil_bucket.tooltip.summary": "一種簡單的_可燃性液體_。",
+	"fluid.createaddition.seed_oil": "種子油",
 	
 	"item.createaddition.bioethanol_bucket": "生質酒精桶",
 	"item.createaddition.bioethanol_bucket.tooltip": "生質酒精桶",
 	"item.createaddition.bioethanol_bucket.tooltip.summary": "一種高效率的_可燃性液體_。",
+	"fluid.createaddition.bioethanol": "生質酒精",
 	
 	"item.createaddition.biomass": "生物質",
 	"item.createaddition.biomass_pellet": "生物質粒",
@@ -145,6 +150,8 @@
 	"block.createaddition.seed_oil": "種子油",
 	"block.createaddition.bioethanol": "生質酒精",
 	
+	"createaddition.recipe.liquid_burning.burn_time": "燃燒時間",
+	
 	"block.createaddition.tesla_coil": "特斯拉線圈",
 	
 	"itemGroup.createaddition:main":"動力機械：工藝品 & 物品追加",
@@ -188,6 +195,11 @@
 	"createaddition.ponder.tesla_coil_hurt.text_1": "特斯拉線圈也能夠用來對周遭玩家和生物造成傷害",
 	"createaddition.ponder.tesla_coil_hurt.text_2": "接收到紅石訊號啟用傷害模式",
 	"createaddition.ponder.tesla_coil_hurt.text_3": "準備好觸電吧！",
+	
+	"createaddition.ponder.liquid_blaze_burner.header": "燃燒流體燃料",
+	"createaddition.ponder.liquid_blaze_burner.text_1": "給與烈焰使者動力爐吸管",
+	"createaddition.ponder.liquid_blaze_burner.text_2": "往後動力爐將接受桶裝流體作為燃料",
+	"createaddition.ponder.liquid_blaze_burner.text_3": "- 或是透過管道輸入。",
 	
 	"effect.createaddition.shocking":"觸電",
 	"death.attack.tesla_coil": "%1$s 受到致命的觸電傷害",
