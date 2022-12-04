@@ -234,7 +234,7 @@ mediafire_productive_bees_override () {
 }
 
 github_override () {
-    mk_workdir
+    home
 
     echo "覆蓋 $1..."
 
@@ -250,8 +250,7 @@ github_override () {
     echo "檢查 $1 覆蓋內容是否存在"
     verify_translate_exist "$1" "$PATH_GITHUB"
 
-    echo "完成 $1 覆蓋！清理工作資料夾"
-    rm_workdir
+    echo "完成 $1 覆蓋！"
 }
 
 # Main
@@ -293,5 +292,5 @@ mediafire_override "Supplementaries" "assets/supplementaries/lang" "https://www.
 
 ## GitHub
 
-### Create
-# github_override "Create" "assets/create/lang" "https://raw.githubusercontent.com/Creators-of-Create/Create/mc1.18/dev/src/main/resources/assets/create/lang/zh_tw.json"
+### Dynamic FPS
+github_override "Dynamic FPS" "assets/dynamicfps/lang" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json"
