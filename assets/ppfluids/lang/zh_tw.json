@@ -8,7 +8,7 @@
     "item.ppfluids.low_fluid_filter_module": "初級流體篩選模組",
     "item.ppfluids.medium_fluid_filter_module": "中級流體篩選模組",
     "item.ppfluids.high_fluid_filter_module": "高級流體篩選模組",
-    "item.ppfluids.low_fluid_retrieval_module": "Low流體檢索模組",
+    "item.ppfluids.low_fluid_retrieval_module": "初級流體檢索模組",
     "item.ppfluids.medium_fluid_retrieval_module": "中級流體檢索模組",
     "item.ppfluids.high_fluid_retrieval_module": "高級流體檢索模組",
     "info.prettypipes.fluid_extraction_module": "從相鄰的容器中抽取流體\n篩選欄位數和單次抽取量因等級而異\n升級至高級可以防止過量發送流體",
