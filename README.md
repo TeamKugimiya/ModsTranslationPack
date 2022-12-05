@@ -282,3 +282,4 @@
 - [Simply Light](https://grant88.pixnet.net/blog/post/44360632)
 - [Supplementaries](https://grant88.pixnet.net/blog/post/45034372)
 - [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
+- [CoFHCore](https://github.com/Jimmy-sheep/CoFHCore/tree/1.18.2)

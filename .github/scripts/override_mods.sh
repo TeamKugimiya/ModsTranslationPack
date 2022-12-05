@@ -294,3 +294,6 @@ mediafire_override "Supplementaries" "assets/supplementaries/lang" "https://www.
 
 ### Dynamic FPS
 github_override "Dynamic FPS" "assets/dynamicfps/lang" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json"
+
+### CoFHCore
+github_override "CoFHCore" "assets/cofh_core/lang" "https://raw.githubusercontent.com/Jimmy-sheep/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json"
