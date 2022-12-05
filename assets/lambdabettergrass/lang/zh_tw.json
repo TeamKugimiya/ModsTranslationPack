@@ -8,5 +8,5 @@
   "lambdabettergrass.option.better_snow": "更好的雪地顯示",
   "lambdabettergrass.option.mode": "更好的草地顯示",
   "lambdabettergrass.tooltip.better_snow": "啟用更好的雪地顯示功能。\n如果啟用，方塊積雪的厚度，會因附近的雪而產生變化。\n備註：若有正確的檔案，該功能也將適用在其他雪類型的方塊上。",
-  "lambdabettergrass.tooltip.mode": "啟用更好的草地顯示功能。\n  - %s 完全停用「更好的草地顯示」功能。\n  - %s 將複製方塊頂部的紋理，並套用在草地的其他面上。該功能等同於 OptiFine 的流暢選項。\n  - %s 將像 OptiFine 的精緻選項一樣連接草地紋理。\n  - %s 將連接草地紋理，並平整化周圍草地的側面紋理。"
+  "lambdabettergrass.tooltip.mode": "啟用更好的草地顯示功能。\n  - %s 完全停用「更好的草地顯示」功能。\n  - %s 將複製方塊頂部的紋理，並套用在草地的其他面上。該功能類似 OptiFine 的流暢選項。\n  - %s 將像 OptiFine 的精緻選項一樣連接草地紋理。\n  - %s 將連接草地紋理，並平整化周圍草地的側面紋理。"
 }
