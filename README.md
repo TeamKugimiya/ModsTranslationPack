@@ -269,6 +269,8 @@
 
 以下列出已覆蓋的模組和來源：
 
+- [CoFHCore](https://github.com/Jimmy-sheep/CoFHCore/tree/1.18.2)
+- [Dynamic FPS](https://github.com/juliand665/Dynamic-FPS/)
 - [Immersive Engineering](https://forum.gamer.com.tw/C.php?bsn=18673&snA=196127)
 - [Macaw's Bridges](https://grant88.pixnet.net/blog/post/45187324)
 - [Macaw's Doors](https://grant88.pixnet.net/blog/post/45185876)
@@ -281,6 +283,5 @@
 - [Quark](https://grant88.pixnet.net/blog/post/44988448)
 - [Simply Light](https://grant88.pixnet.net/blog/post/44360632)
 - [Supplementaries](https://grant88.pixnet.net/blog/post/45034372)
-- [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
-- [CoFHCore](https://github.com/Jimmy-sheep/CoFHCore/tree/1.18.2)
 - [ThermalFoundation](https://github.com/Jimmy-sheep/ThermalFoundation/tree/1.18.2)
+- [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
