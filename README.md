@@ -283,3 +283,4 @@
 - [Supplementaries](https://grant88.pixnet.net/blog/post/45034372)
 - [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
 - [CoFHCore](https://github.com/Jimmy-sheep/CoFHCore/tree/1.18.2)
+- [ThermalFoundation](https://github.com/Jimmy-sheep/ThermalFoundation/tree/1.18.2)

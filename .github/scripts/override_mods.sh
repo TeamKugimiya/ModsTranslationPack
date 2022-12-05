@@ -297,3 +297,6 @@ github_override "Dynamic FPS" "assets/dynamicfps/lang" "https://raw.githubuserco
 
 ### CoFHCore
 github_override "CoFHCore" "assets/cofh_core/lang" "https://raw.githubusercontent.com/Jimmy-sheep/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json"
+
+### ThermalFoundation
+github_override "ThermalFoundation" "assets/thermal/lang" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json"
