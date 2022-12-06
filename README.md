@@ -46,13 +46,14 @@
 
 ## 目前有內建的模組翻譯列表
 
-目前支援 206 個模組。
+目前支援 223 個模組。
 
 <details>
   <summary>展開列表</summary>
     <ul>
       <li>additionalbars</li>
       <li>additionallanterns</li>
+      <li>advancementinfo</li>
       <li>ae2</li>
       <li>ae2things</li>
       <li>ae2wtlib</li>
@@ -62,6 +63,7 @@
       <li>alltheores</li>
       <li>allthetweaks</li>
       <li>angelring</li>
+      <li>animatica</li>
       <li>appbot</li>
       <li>appmek</li>
       <li>ars_creo</li>
@@ -81,20 +83,25 @@
       <li>blockui</li>
       <li>blur</li>
       <li>bonsaitrees3</li>
+      <li>borderlessmining</li>
       <li>botanypots</li>
       <li>buddingcrystals</li>
       <li>buildinggadgets</li>
+      <li>capes</li>
       <li>catalogue</li>
       <li>cccbridge</li>
+      <li>cem</li>
       <li>champions</li>
       <li>chancecubes</li>
       <li>chargers</li>
       <li>charginggadgets</li>
       <li>chickens</li>
       <li>chipped</li>
+      <li>citresewn-defaults</li>
       <li>citresewn</li>
       <li>cloth-config2</li>
       <li>cobblefordays</li>
+      <li>colormatic</li>
       <li>compactcrafting</li>
       <li>compactmachines</li>
       <li>configured</li>
@@ -109,10 +116,12 @@
       <li>createchunkloading</li>
       <li>creeperoverhaul</li>
       <li>culinaryconstruct</li>
+      <li>cull-less-leaves</li>
       <li>curios</li>
       <li>custommachinery</li>
       <li>darkutils</li>
       <li>dashloader</li>
+      <li>debugify</li>
       <li>durabilitytooltip</li>
       <li>eccentrictome</li>
       <li>effective</li>
@@ -169,6 +178,9 @@
       <li>jei</li>
       <li>justenoughprofessions</li>
       <li>justhammers</li>
+      <li>lambdabettergrass</li>
+      <li>lambdynlights</li>
+      <li>languagereload</li>
       <li>laserio</li>
       <li>lazierae2</li>
       <li>lightoverlay</li>
@@ -176,6 +188,7 @@
       <li>lollipop</li>
       <li>lowfire</li>
       <li>luggage</li>
+      <li>mantle</li>
       <li>mcjtylib</li>
       <li>mcwlights</li>
       <li>mcwpaths</li>
@@ -217,9 +230,11 @@
       <li>rechiseled</li>
       <li>reliquary</li>
       <li>roughlyenoughprofessions</li>
+      <li>rsinfinitybooster</li>
       <li>rsrequestify</li>
       <li>screencapper</li>
       <li>sdrp</li>
+      <li>sftoemi</li>
       <li>shrink</li>
       <li>simplebackups</li>
       <li>simplemagnets</li>
@@ -251,10 +266,12 @@
       <li>travel_anchors</li>
       <li>uppers</li>
       <li>vanillahammers</li>
+      <li>waterstrainer</li>
       <li>wirelesschargers</li>
       <li>woodenbucket</li>
       <li>woodenhopper</li>
       <li>woodenshears</li>
+      <li>wstweaks</li>
       <li>xnet</li>
       <li>yet-another-config-lib</li>
 </details>

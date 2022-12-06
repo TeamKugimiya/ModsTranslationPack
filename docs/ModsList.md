@@ -6,6 +6,7 @@
 | ------ | ------ | ------ | ------ |
 | additionalbars | :x: |  |  |
 | additionallanterns | :x: |  |  |
+| advancementinfo | :x: |  |  |
 | ae2 | :x: |  |  |
 | ae2things | :x: |  |  |
 | ae2wtlib | :x: |  |  |
@@ -15,6 +16,7 @@
 | alltheores | :x: |  |  |
 | allthetweaks | :x: |  |  |
 | angelring | :x: |  |  |
+| animatica | :x: |  |  |
 | appbot | :x: |  |  |
 | appmek | :x: |  |  |
 | ars_creo | :x: |  |  |
@@ -26,7 +28,6 @@
 | autosmithingtable | :x: |  |  |
 | avaritia | :x: |  |  |
 | bambooeverything | :x: |  |  |
-| bcc | :x: |  |  |
 | betterf3 | :x: |  |  |
 | betterstats | :x: |  |  |
 | bhc | :x: |  |  |
@@ -34,11 +35,14 @@
 | blockui | :x: |  |  |
 | blur | :x: |  |  |
 | bonsaitrees3 | :x: |  |  |
+| borderlessmining | :question: | [等待合併](https://github.com/comp500/BorderlessMining/pull/56) |  |
 | botanypots | :x: |  |  |
 | buddingcrystals | :x: |  |  |
 | buildinggadgets | :x: |  |  |
+| capes | :x: |  |  |
 | catalogue | :x: |  |  |
 | cccbridge | :x: |  |  |
+| cem | :x: |  |  |
 | champions | :x: |  |  |
 | chancecubes | :x: |  |  |
 | chargers | :x: |  |  |
@@ -46,8 +50,10 @@
 | chickens | :x: |  |  |
 | chipped | :x: |  |  |
 | citresewn | :x: |  |  |
+| citresewn-defaults | :x: |  |  |
 | cloth-config2 | :x: |  |  |
 | cobblefordays | :x: |  |  |
+| colormatic | :x: |  |  |
 | compactcrafting | :x: |  |  |
 | compactmachines | :x: |  |  |
 | configured | :x: |  |  |
@@ -62,10 +68,12 @@
 | createchunkloading | :x: |  |  |
 | creeperoverhaul | :x: |  |  |
 | culinaryconstruct | :x: |  |  |
+| cull-less-leaves | :x: |  |  |
 | curios | :x: |  |  |
 | custommachinery | :x: |  |  |
 | darkutils | :x: |  |  |
 | dashloader | :x: |  |  |
+| debugify | :x: |  |  |
 | durabilitytooltip | :x: |  |  |
 | eccentrictome | :x: |  |  |
 | effective | :x: |  |  |
@@ -122,6 +130,9 @@
 | jei | :x: |  |  |
 | justenoughprofessions | :x: |  |  |
 | justhammers | :x: |  |  |
+| lambdabettergrass | :x: |  |  |
+| lambdynlights | :x: |  |  |
+| languagereload | :question: | [等待合併](https://github.com/Jerozgen/LanguageReload/pull/20) |  |
 | laserio | :x: |  |  |
 | lazierae2 | :x: |  |  |
 | lightoverlay | :x: |  |  |
@@ -129,6 +140,7 @@
 | lollipop | :x: |  |  |
 | lowfire | :x: |  |  |
 | luggage | :x: |  |  |
+| mantle | :x: |  |  |
 | mcjtylib | :x: |  |  |
 | mcwlights | :x: |  |  |
 | mcwpaths | :x: |  |  |
@@ -171,9 +183,11 @@
 | rechiseled | :x: |  |  |
 | reliquary | :x: |  |  |
 | roughlyenoughprofessions | :x: |  |  |
+| rsinfinitybooster | :x: |  |  |
 | rsrequestify | :x: |  |  |
 | screencapper | :heavy_check_mark: | [已回饋](https://github.com/Deftu/Screencapper/pull/6) | :heavy_exclamation_mark: |
 | sdrp | :x: |  |  |
+| sftoemi | :question: | [等待合併](https://github.com/JustAHuman-xD/SlimefunToEMI/pull/2) |  |
 | shrink | :x: |  |  |
 | simplebackups | :x: |  |  |
 | simplemagnets | :x: |  |  |
@@ -205,9 +219,11 @@
 | travel_anchors | :x: |  |  |
 | uppers | :x: |  |  |
 | vanillahammers | :x: |  |  |
+| waterstrainer | :x: |  |  |
 | wirelesschargers | :x: |  |  |
 | woodenbucket | :x: |  |  |
 | woodenhopper | :x: |  |  |
 | woodenshears | :x: |  |  |
+| wstweaks | :x: |  |  |
 | xnet | :x: |  |  |
 | yet-another-config-lib | :heavy_check_mark: | [已回饋](https://github.com/isXander/YetAnotherConfigLib/pull/31) |  |

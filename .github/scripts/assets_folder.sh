@@ -78,3 +78,12 @@ modslist_added_mod_generate "3" "exnihilomekanism" "https://github.com/NovaMachi
 modslist_added_mod_generate "3" "exnihilosequentia" "https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380"
 modslist_added_mod_generate "3" "exnihilothermal" "https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380"
 modslist_added_mod_generate "3" "exnihilotinkers" "https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380"
+
+### LanguageReload
+modslist_added_mod_generate "3" "languagereload" "https://github.com/Jerozgen/LanguageReload/pull/20"
+
+### BorderlessMining
+modslist_added_mod_generate "3" "borderlessmining" "https://github.com/comp500/BorderlessMining/pull/56"
+
+### SlimefunToEMI
+modslist_added_mod_generate "3" "sftoemi" "https://github.com/JustAHuman-xD/SlimefunToEMI/pull/2"
