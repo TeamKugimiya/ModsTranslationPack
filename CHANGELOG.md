@@ -1,5 +1,93 @@
 # Changelog
 
+## [1.7.2](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.1...v1.7.2) (2022-12-06)
+
+
+### 🌐 用語在地化
+
+* **Borderless Mining:** 滑桿 -&gt; 滑動軸 ([07d1c31](https://github.com/xMikux/ModsTranslationPack/commit/07d1c31562dabfc9c8888983ef609b32a10dd073))
+* **CITResewn:** 翻譯調整 ([#45](https://github.com/xMikux/ModsTranslationPack/issues/45)) ([53a40dc](https://github.com/xMikux/ModsTranslationPack/commit/53a40dc8bcbca22656c13900e25c98dbc62112d7))
+* 翻譯同步化 函式庫 -&gt; 程式庫 ([#42](https://github.com/xMikux/ModsTranslationPack/issues/42)) ([d73c1c4](https://github.com/xMikux/ModsTranslationPack/commit/d73c1c4755789ee090c92c8a78e7cd1d33bef385))
+
+
+### 🧹 清理專案
+
+* 調整 mcmeta ([0978b2e](https://github.com/xMikux/ModsTranslationPack/commit/0978b2e46f89efd83de3dbe9778188a389f3bc2a))
+* 調整 mcmeta 敘述顏色 ([3e8b9ab](https://github.com/xMikux/ModsTranslationPack/commit/3e8b9abe309333b50855f9639ab6565b9fda0d3c))
+* 調整發布版顏色 ([a50f623](https://github.com/xMikux/ModsTranslationPack/commit/a50f623b7950e7ddbe24c7a0e04280fe3ad99e5f))
+
+
+### ⚡ 新增模組翻譯
+
+* **AdvancementInfo:** 新增進度資訊顯示 ([#40](https://github.com/xMikux/ModsTranslationPack/issues/40)) ([153f51c](https://github.com/xMikux/ModsTranslationPack/commit/153f51c9632e769f5b3cf19629de8caa3fc6aeb6))
+* **Animatica:** 新增動畫紋理 ([#44](https://github.com/xMikux/ModsTranslationPack/issues/44)) ([e6639cb](https://github.com/xMikux/ModsTranslationPack/commit/e6639cb6cc41b4e9fce9fe80532f4cc7a01a099e))
+* **Borderless Mining:** 無邊框挖礦 ([#46](https://github.com/xMikux/ModsTranslationPack/issues/46)) ([07d1c31](https://github.com/xMikux/ModsTranslationPack/commit/07d1c31562dabfc9c8888983ef609b32a10dd073))
+* **Colormatic:** 新增 Colormatic ([#48](https://github.com/xMikux/ModsTranslationPack/issues/48)) ([26a543d](https://github.com/xMikux/ModsTranslationPack/commit/26a543de187245efe721482f62267c0231790811))
+* **Cull Less Leaves:** 新增個人化樹葉剔除 ([#36](https://github.com/xMikux/ModsTranslationPack/issues/36)) ([a47aa78](https://github.com/xMikux/ModsTranslationPack/commit/a47aa78c16dbc09eea73f02a2424f139db9beb79))
+* **Custom Entity Models:** 新增自訂實體模型 ([#49](https://github.com/xMikux/ModsTranslationPack/issues/49)) ([0d2d621](https://github.com/xMikux/ModsTranslationPack/commit/0d2d62190166a72112055df4e52b4c7bfab41e2b))
+* **Debugify:** 新增除錯蟲 ([#39](https://github.com/xMikux/ModsTranslationPack/issues/39)) ([cef48ec](https://github.com/xMikux/ModsTranslationPack/commit/cef48ec4ecd857ef228d781d8cdf7d7216a26f95))
+* **Fabric Capes:** 新增 Fabric 披風 ([#38](https://github.com/xMikux/ModsTranslationPack/issues/38)) ([0c117bf](https://github.com/xMikux/ModsTranslationPack/commit/0c117bfa76060686d195acc96af2a25bc4401e17))
+* **LambdaBetterGrass:** 新增更好的草地顯示 ([#56](https://github.com/xMikux/ModsTranslationPack/issues/56)) ([7f623b0](https://github.com/xMikux/ModsTranslationPack/commit/7f623b03d4410bb87ec160943d14d8750aae3343))
+* **LambDynamicLights:** 新增動態照明 ([#57](https://github.com/xMikux/ModsTranslationPack/issues/57)) ([1d8982e](https://github.com/xMikux/ModsTranslationPack/commit/1d8982e6306a77e60a0d63d2221649b381373f89))
+* **Language Reload:** 新增語言重新載入 ([#35](https://github.com/xMikux/ModsTranslationPack/issues/35)) ([b17f3be](https://github.com/xMikux/ModsTranslationPack/commit/b17f3bec8b3850b0b8c507a4a093f9599e4e8cad))
+* **Mantle:** 新增地函 ([#53](https://github.com/xMikux/ModsTranslationPack/issues/53)) ([9fa9d6c](https://github.com/xMikux/ModsTranslationPack/commit/9fa9d6c6fd8d8277992806a9199b7ab7a8195454))
+* **RSInfinityBooster:** 新增精緻儲存｜無限範圍增幅升級 ([#50](https://github.com/xMikux/ModsTranslationPack/issues/50)) ([af61124](https://github.com/xMikux/ModsTranslationPack/commit/af6112424a117dd994c3a34354e265e08e4b2fd2))
+* **SlimefunToEMI:** 新增黏液到EMI ([#37](https://github.com/xMikux/ModsTranslationPack/issues/37)) ([5230e5d](https://github.com/xMikux/ModsTranslationPack/commit/5230e5dd024b45e4f496b83db60d6ef87daa8cc8))
+
+
+### 🐛 修正模組翻譯錯誤
+
+* **AdvancementInfo:** 依照建議修改翻譯 ([153f51c](https://github.com/xMikux/ModsTranslationPack/commit/153f51c9632e769f5b3cf19629de8caa3fc6aeb6))
+* **Ars Nouveau:** 修正排版格式 ([f3950b8](https://github.com/xMikux/ModsTranslationPack/commit/f3950b8cfe8f533833e4e943a8186d0c8f05f458))
+* **Borderless Mining:** 修正奇怪的翻譯 ([07d1c31](https://github.com/xMikux/ModsTranslationPack/commit/07d1c31562dabfc9c8888983ef609b32a10dd073))
+* **CITResewn:** 增加缺失翻譯 CIT Resewn 預設 ([53a40dc](https://github.com/xMikux/ModsTranslationPack/commit/53a40dc8bcbca22656c13900e25c98dbc62112d7))
+* **FarmersDelight:** 修正複數翻譯錯誤 ([#43](https://github.com/xMikux/ModsTranslationPack/issues/43)) ([e1c0f63](https://github.com/xMikux/ModsTranslationPack/commit/e1c0f63f20c3433fab18f97953d166f75c40fd90))
+* **LambDynamicLights:** 修正翻譯與更改譯名成「動態照明」 ([1d8982e](https://github.com/xMikux/ModsTranslationPack/commit/1d8982e6306a77e60a0d63d2221649b381373f89))
+* **Language Reload:** 修正翻譯與更新 ([b17f3be](https://github.com/xMikux/ModsTranslationPack/commit/b17f3bec8b3850b0b8c507a4a093f9599e4e8cad))
+* **Pretty Pipes: Fluids:** 修正缺漏的翻譯 ([#47](https://github.com/xMikux/ModsTranslationPack/issues/47)) ([5ba1f4a](https://github.com/xMikux/ModsTranslationPack/commit/5ba1f4a4ac6afcde52086a375cab56a5f394e051))
+* **SlimefunToEMI:** 修正翻譯錯誤 ([5230e5d](https://github.com/xMikux/ModsTranslationPack/commit/5230e5dd024b45e4f496b83db60d6ef87daa8cc8))
+* **XNet:** 修正缺漏的翻譯 ([#52](https://github.com/xMikux/ModsTranslationPack/issues/52)) ([a0dfaaf](https://github.com/xMikux/ModsTranslationPack/commit/a0dfaaf6b2322681ee5c7e3226b02d3808f6fa17))
+
+
+### 📑 文件更新
+
+* 微調 ([1503860](https://github.com/xMikux/ModsTranslationPack/commit/15038606326140ab785116adee760840292b5dbd))
+* 更新模組列表文件 ([46d7393](https://github.com/xMikux/ModsTranslationPack/commit/46d7393f890b6976a19dcd8663fe658e5f649c18))
+* 更新覆蓋文件來源列表 ([dc4d70a](https://github.com/xMikux/ModsTranslationPack/commit/dc4d70a640d1e81b953ef0e0d289ff39f028ed42))
+
+
+### 🐌 更新模組翻譯
+
+* **Applied Energistics 2:** 更新 11.7.0 內容翻譯 ([#62](https://github.com/xMikux/ModsTranslationPack/issues/62)) ([be5c909](https://github.com/xMikux/ModsTranslationPack/commit/be5c90967618a59dc34cbd45fcf62fe9ffd4a644))
+* **Ars Nouveau:** 更新 2.8.0 內容翻譯 ([#58](https://github.com/xMikux/ModsTranslationPack/issues/58)) ([f3950b8](https://github.com/xMikux/ModsTranslationPack/commit/f3950b8cfe8f533833e4e943a8186d0c8f05f458))
+* **Create Crafts & Additions:** 更新新版內容翻譯 ([#51](https://github.com/xMikux/ModsTranslationPack/issues/51)) ([a30899d](https://github.com/xMikux/ModsTranslationPack/commit/a30899d28e9f4534868e5de2cab75271259c88ce))
+* **FarmersDelight:** 更新上游翻譯 ([75b7e9b](https://github.com/xMikux/ModsTranslationPack/commit/75b7e9b94d849fbfda6f22f657b3cc99b8315da2))
+* **FTB Chunks:** 更新 3.8 內容翻譯 ([#59](https://github.com/xMikux/ModsTranslationPack/issues/59)) ([937db8b](https://github.com/xMikux/ModsTranslationPack/commit/937db8bd4deaadb305361244624fd018b240300f))
+* **FTB Library:** 更新 3.8 內容翻譯 ([#61](https://github.com/xMikux/ModsTranslationPack/issues/61)) ([76f6859](https://github.com/xMikux/ModsTranslationPack/commit/76f68595998bb4e3919c31a83399c32998a1324b))
+* **FTB Teams:** 更新 2.8 內容翻譯 ([#60](https://github.com/xMikux/ModsTranslationPack/issues/60)) ([c0d4f0e](https://github.com/xMikux/ModsTranslationPack/commit/c0d4f0e85536a5b606ed838f38c37957e466d706))
+* **Language Reload:** 同步上游 ([63c991a](https://github.com/xMikux/ModsTranslationPack/commit/63c991abadb6a06ea3a48e6c8b80897318128bbc))
+* **Language Reload:** 更新翻譯 ([#55](https://github.com/xMikux/ModsTranslationPack/issues/55)) ([62b3dad](https://github.com/xMikux/ModsTranslationPack/commit/62b3dadcc3ff4abdc82082b75e01668e6e217634))
+
+
+### ✨ 提升模組翻譯品質
+
+* **Applied Energistics 2:** 改善壓印機的介面文字 ([be5c909](https://github.com/xMikux/ModsTranslationPack/commit/be5c90967618a59dc34cbd45fcf62fe9ffd4a644))
+* **Ars Nouveau:** 微調手冊排版 ([f3950b8](https://github.com/xMikux/ModsTranslationPack/commit/f3950b8cfe8f533833e4e943a8186d0c8f05f458))
+* **FTB Chunks:** 調整翻譯用詞 ([937db8b](https://github.com/xMikux/ModsTranslationPack/commit/937db8bd4deaadb305361244624fd018b240300f))
+* **SlimefunToEMI:** 調整格式 ([5230e5d](https://github.com/xMikux/ModsTranslationPack/commit/5230e5dd024b45e4f496b83db60d6ef87daa8cc8))
+
+
+### ☁️ 持續整合 / 持續佈署
+
+* **Dynamic FPS:** 新增動態 FPS 覆蓋 ([6d7e5da](https://github.com/xMikux/ModsTranslationPack/commit/6d7e5da95030cb13a29cad30388fb9aab54e43bf))
+* 增加更多清理 ([2a5b1a4](https://github.com/xMikux/ModsTranslationPack/commit/2a5b1a4c8b5af16592361e87dbc900d2beeb5053))
+* 新增 CoFHCore 覆蓋 ([328bd8f](https://github.com/xMikux/ModsTranslationPack/commit/328bd8fdfc61ea0a9bfde9e25ac32da268f16f2d))
+* 新增 ThermalFoundation 覆蓋 ([2a9d61e](https://github.com/xMikux/ModsTranslationPack/commit/2a9d61e73807d54a5ada2e4918d97054d9d8e354))
+* 新增新約定式提交類別「用語在地化」 ([0d81e9b](https://github.com/xMikux/ModsTranslationPack/commit/0d81e9bc9b64011f3db0a907b72b67ad55ac7aa5))
+* 新增模組翻譯檔案檢查 ([9e67dd0](https://github.com/xMikux/ModsTranslationPack/commit/9e67dd08f2c8a503770d44655a010ebfcb741b14))
+* 更改 文檔 -&gt; 文件 ([e15081b](https://github.com/xMikux/ModsTranslationPack/commit/e15081b29e540aefbbef2233faceadb9646993fd))
+* 清理原始語言檔案 ([ebb79c5](https://github.com/xMikux/ModsTranslationPack/commit/ebb79c5ae4a21a581109ea415a32ed3d705faf03))
+
 ## [1.7.1](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.0...v1.7.1) (2022-11-25)
 
 
