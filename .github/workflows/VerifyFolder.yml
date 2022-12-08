@@ -21,6 +21,7 @@ jobs:
   Verify:
     name: Verify Folder
     runs-on: ubuntu-latest
+    if: github.repository == 'xMikux/ModsTranslationPack'
 
     steps:
       - name: Checking Repostiory
