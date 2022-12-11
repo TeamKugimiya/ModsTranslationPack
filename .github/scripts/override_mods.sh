@@ -266,7 +266,7 @@ home
 mediafire_productive_bees_override "Productive Bees" "assets/productivebees/lang" "productivebees/patchouli_books" "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees-1.19.2-0.10.2.0-tw.jar"
 
 ### Tinker (特殊)
-mediafire_tinker_override "Tinkers' Construct" "assets/tconstruct/lang" "assets/tconstruct/book" "https://www.mediafire.com/file/snogv3qqn57o8rf/TConstruct-1.18.2-3.5.2.40-tw.jar" "TConstruct-1.18.2-3.5.2.40-tw.jar"
+mediafire_tinker_override "Tinkers' Construct" "assets/tconstruct/lang" "assets/tconstruct/book" "https://www.mediafire.com/file/phlkrv5v30neayw/TConstruct-1.18.2-3.5.3.63-tw.jar" "TConstruct-1.18.2-3.5.3.63-tw.jar"
 
 ### Quark
 mediafire_override "Quark" "assets/quark/lang" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar"
