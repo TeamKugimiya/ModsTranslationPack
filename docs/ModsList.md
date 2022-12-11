@@ -28,6 +28,7 @@
 | autosmithingtable | :x: |  |  |
 | avaritia | :x: |  |  |
 | bambooeverything | :x: |  |  |
+| bcc | :x: |  |  |
 | betterf3 | :x: |  |  |
 | betterstats | :x: |  |  |
 | bhc | :x: |  |  |
@@ -35,7 +36,7 @@
 | blockui | :x: |  |  |
 | blur | :x: |  |  |
 | bonsaitrees3 | :x: |  |  |
-| borderlessmining | :question: | [等待合併](https://github.com/comp500/BorderlessMining/pull/56) |  |
+| borderlessmining | :heavy_check_mark: | [已回饋](https://github.com/comp500/BorderlessMining/pull/56) |  |
 | botanypots | :x: |  |  |
 | buddingcrystals | :x: |  |  |
 | buildinggadgets | :x: |  |  |
@@ -147,7 +148,6 @@
 | measurements | :x: |  |  |
 | megacells | :x: |  |  |
 | metalbarrels | :x: |  |  |
-| minecraft | :x: |  |  |
 | minetogether | :x: |  |  |
 | miniatures | :x: |  |  |
 | minicoal | :x: |  |  |
@@ -161,6 +161,8 @@
 | multiconnect | :x: |  |  |
 | multipiston | :x: |  |  |
 | myrtrees | :x: |  |  |
+| mythicbotany | :x: |  |  |
+| mythicbotany_lexicon | :x: |  |  |
 | nethersdelight | :x: |  |  |
 | notenoughcrashes | :x: |  |  |
 | notenoughwands | :x: |  |  |

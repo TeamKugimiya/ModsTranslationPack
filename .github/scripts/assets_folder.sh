@@ -83,7 +83,7 @@ modslist_added_mod_generate "3" "exnihilotinkers" "https://github.com/NovaMachin
 modslist_added_mod_generate "3" "languagereload" "https://github.com/Jerozgen/LanguageReload/pull/20"
 
 ### BorderlessMining
-modslist_added_mod_generate "3" "borderlessmining" "https://github.com/comp500/BorderlessMining/pull/56"
+modslist_added_mod_generate "1" "borderlessmining" "https://github.com/comp500/BorderlessMining/pull/56"
 
 ### SlimefunToEMI
 modslist_added_mod_generate "3" "sftoemi" "https://github.com/JustAHuman-xD/SlimefunToEMI/pull/2"

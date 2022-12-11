@@ -208,6 +208,8 @@
       <li>multiconnect</li>
       <li>multipiston</li>
       <li>myrtrees</li>
+      <li>mythicbotany</li>
+      <li>mythicbotany_lexicon</li>
       <li>nethersdelight</li>
       <li>notenoughcrashes</li>
       <li>notenoughwands</li>
