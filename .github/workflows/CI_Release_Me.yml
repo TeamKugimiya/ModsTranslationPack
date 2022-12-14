@@ -24,7 +24,7 @@ jobs:
           pull-request-title-pattern: "chore${scope}: 發佈${component} ${version}"
           labels: "自動發佈：待定"
           release-labels: "自動發佈：已發佈"
-          changelog-types: '[{"type":"feat","section":"💪 次版本號提升","hidden":false},{"type":"fix","section":"🔧 修正問題","hidden":false},{"type":"chore","section":"🧹 清理專案","hidden":false},{"type":"ci","section":"☁️ 持續整合 / 持續佈署","hidden":false},{"type":"docs","section":"📑 文件更新","hidden":false},{"type":"mods_feat","section":"⚡ 新增模組翻譯","hidden":false},{"type":"mods_update","section":"🐌 更新模組翻譯","hidden":false},{"type":"mods_fix","section":"🐛 修正模組翻譯錯誤","hidden":false},{"type":"mods_improve","section":"✨ 提升模組翻譯品質","hidden":false},{"type":"mods_localize","section":"🌐 用語在地化","hidden":false}]'
+          changelog-types: '[{"type":"feat","section":"💪 次版本號提升","hidden":false},{"type":"fix","section":"🔧 修正問題","hidden":false},{"type":"chore","section":"🧹 清理專案","hidden":false},{"type":"ci","section":"☁️ 持續整合 / 持續佈署","hidden":false},{"type":"docs","section":"📑 文件更新","hidden":false},{"type":"refactor","section":"🧰 重構","hidden":false},{"type":"mods_feat","section":"⚡ 新增模組翻譯","hidden":false},{"type":"mods_update","section":"🐌 更新模組翻譯","hidden":false},{"type":"mods_fix","section":"🐛 修正模組翻譯錯誤","hidden":false},{"type":"mods_improve","section":"✨ 提升模組翻譯品質","hidden":false},{"type":"mods_localize","section":"🌐 用語在地化","hidden":false}]'
 
     outputs:
       release_created: ${{ steps.release_please.outputs.release_created }}
