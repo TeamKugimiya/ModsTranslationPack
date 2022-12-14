@@ -1,7 +1,5 @@
 #!/bin/bash
 
-## shellcheck disable=2260,2086
-
 ## Description of this scripts
 echo ">>> 模組翻譯覆蓋腳本 <<<"
 echo ">>> 對於一些第三方來源的自動下載覆蓋"
@@ -26,6 +24,8 @@ install_packages () {
 # Return to workspace root
 home () {
     cd "$GITHUB_WORKSPACE" || exit
+
+    # For Debug
     # cd ~/workspace/ModsTranslationPack/ || exit
 }
 
@@ -46,7 +46,7 @@ verify_override_translate_exists () {
     # 模組模式 2 驗證指南手冊資料夾
     elif [ "$module_mode" = 2 ]; then
       if [ -d "$mods_path" ] && [ "$(ls -A "$mods_path")" ]; then
-        echo "✅ $mods_name 指南手冊翻譯驗證通過！"
+        echo "✅ $mods_name 指南手冊翻譯驗證通過！（$mods_path）"
       else
         echo "❎ 錯誤！覆蓋 $mods_name 書本翻譯失敗。"
         exit 1
@@ -127,12 +127,11 @@ jar_extractor () {
       exit 128
     fi
 
-    ## For testing
+    # For Debug
     # # 模組模式 1 提取模組翻譯
     # if [ "$module_mode" = 1 ]; then
     #   echo "🔧 提取 $mods_name 的翻譯檔..."
     #   if jar xf "$file_name" "$mods_path"; then
-    #     echo "DEBUG: $mods_path jar xf $file_name $mods_path"
     #     echo "✅ 提取成功！"
     #   else
     #     echo "❎ 提取失敗！"
@@ -190,8 +189,9 @@ main_override () {
     mods_path=assets/$5
     download_mode=$6
     mods_guide_original_path=$7
-    mods_guide_assets_path=$8
-    local mods_guide_path_array=$9
+    mods_guide_assets_path=$mods_path/$8
+    local -n mods_guide_path_array=${9:-null}
+    mods_guide_mode=${10}
 
     # Some path translate var
     mods_path_lang=$mods_path/lang
@@ -256,23 +256,45 @@ main_override () {
       mkdir -p "$mods_guide_assets_path"
       echo "📁 複製翻譯..."
       cp "$workdir_path"/"$mods_path_lang_file" "$mods_path_lang"
-      echo " 移動指南手冊翻譯"
-      for mods_guide_path in "$workdir_path/$mods_guide_original_path/${!mods_guide_path_array}"; do
-        if cp -r "$mods_guide_path" "$mods_guide_assets_path/"; then
-          echo "DEBUG: cp -r $mods_guide_path $mods_guide_original_path/"
-          echo "✅ 成功將 $mods_guide_path 移動至 $mods_guide_assets_path"
-        else
-          echo "DEBUG: cp -r $mods_guide_path $mods_guide_original_path/"
-          echo "❎ 在移動 $mods_guide_path 時失敗！"
-        fi
-      done
+      echo "🛗 移動指南手冊翻譯"
+      case $mods_guide_mode in
+        "1")
+          for i in "${mods_guide_path_array[@]}"; do
+            mods_guide_path=$workdir_path/$mods_guide_original_path/$i
+            if cp -r "$mods_guide_path" "$mods_guide_assets_path/"; then
+              echo "✅ 成功將 $mods_guide_path 移動至 $mods_guide_assets_path"
+            else
+              echo "❎ 在移動 $mods_guide_path 時失敗！"
+            fi
+          done
+          ;;
+        "2")
+          for i in "${mods_guide_path_array[@]}"; do
+            mods_guide_path=$workdir_path/$mods_guide_original_path/$i
+            mods_assets_path=$mods_guide_assets_path/$i
+            if mkdir -p "$mods_assets_path"; then
+              if cp -r "$mods_guide_path"/* "$mods_assets_path"; then
+                echo "✅ 成功將 $mods_guide_path 移動至 $mods_guide_assets_path/$i"
+              else
+                echo "❎ 在移動 $mods_guide_path/$i 時失敗！"
+              fi
+            fi
+          done
+          ;;
+        *)
+          echo "❗ 錯誤！未指定模組模式或參數錯誤。"
+          exit 128
+          ;;
+      esac
       echo "⚙️ 驗證翻譯檔案..."
       verify_override_translate_exists "$mods_name" "$mods_path_lang" 1
       echo "⚙️ 驗證指南手冊翻譯..."
-      for mods_guide_path in "$mods_guide_assets_path/${!mods_guide_path_array}"; do
-        verify_override_translate_exists "$mods_name ($mods_guide_assets_path/$mods_guide_path)" "$mods_guide_path" 2
+      for i in "${mods_guide_path_array[@]}"; do
+        mods_guide_path=$mods_guide_assets_path/$i
+        verify_override_translate_exists "$mods_name" "$mods_guide_path" 2
       done
       echo "🥖 $mods_name 覆蓋完成！"
+      echo "   "
     fi
 }
 
@@ -282,51 +304,51 @@ main_override () {
 home
 # install_packages (no mega download now, so disabled to speed up the script.)
 
-## Mega
-
-## Mediafire
-
-### Productive Bees (work for short time, and with array break.)
-# productive_bees_array=("zh_tw" "en_us")
-# main_override 4 "Productive Bees" "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees" 2 "data/productivebees/patchouli_books/guide" "assets/productivebees/patchouli_books/guide" "${productive_bees_array[@]}"
-
-### Tinker (still break)
-# tinker_guide_array=("tinkers_gadgetry/zh_tw" "puny_smelting/zh_tw" "mighty_smelting/zh_tw" "materials_and_you/zh_tw" "fantastic_foundry/zh_tw" "encyclopedia/zh_tw")
-# main_override 4 "Tinkers' Construct" "https://www.mediafire.com/file/phlkrv5v30neayw/TConstruct-1.18.2-3.5.3.63-tw.jar" "TConstruct-1.18.2-3.5.3.63-tw.jar" "tconstruct" 2 "assets/tconstruct/book" "book" "${tinker_guide_array[@]}"
-
 ### Mediafire ###
 
-## (Below functions all should work)
+### Productive Bees (Guide) 
+# shellcheck disable=SC2034
+productive_bees_array=("zh_tw" "en_us")
+main_override 4 "Productive Bees" "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees" 2 "data/productivebees/patchouli_books/guide" "patchouli_books/guide" productive_bees_array 1
+
+### Tinker (Guide)
+# shellcheck disable=SC2034
+tinker_guide_array=("tinkers_gadgetry/zh_tw" "puny_smelting/zh_tw" "mighty_smelting/zh_tw" "materials_and_you/zh_tw" "fantastic_foundry/zh_tw" "encyclopedia/zh_tw")
+main_override 4 "Tinkers' Construct" "https://www.mediafire.com/file/phlkrv5v30neayw/TConstruct-1.18.2-3.5.3.63-tw.jar" "TConstruct-1.18.2-3.5.3.63-tw.jar" "tconstruct" 2 "assets/tconstruct/book" "book" tinker_guide_array 2
 
 ## Immersive Engineering
-# main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE%E6%B2%89%E6%B5%B8%E5%B7%A5%E7%A8%8B%E6%BC%A2%E5%8C%96v1.1.zip" "IE沉浸工程漢化v1.1.zip" "immersiveengineering" 2
+main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE%E6%B2%89%E6%B5%B8%E5%B7%A5%E7%A8%8B%E6%BC%A2%E5%8C%96v1.1.zip" "IE沉浸工程漢化v1.1.zip" "immersiveengineering" 2
 
 ## Quark
-# main_override 3 "Quark" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar" "quark" 2
+main_override 3 "Quark" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar" "quark" 2
 
 ## Macaw's Mods
 
-# main_override 3 "Macaw's Fences and Wall" "https://www.mediafire.com/file/u3rh5jbiu3v7z38/mcw-fences-1.0.6-mc1.19.2-tw.jar" "mcw-fences-1.0.6-mc1.19.2-tw.jar" "mcwfences" 2
-# main_override 3 "Macaw's Bridges" "https://www.mediafire.com/file/7gs77nfermk672v/mcw-bridges-2.0.5-mc1.19.2forge-tw.jar" "mcw-bridges-2.0.5-mc1.19.2forge-tw.jar" "mcwbridges" 2
-# main_override 3 "Macaw's Trapdoors" "https://www.mediafire.com/file/nk7eaw040lxgant/mcw-trapdoors-1.0.7-mc1.19.2-tw.jar" "mcw-trapdoors-1.0.7-mc1.19.2-tw.jar" "mcwtrpdoors" 2
-# main_override 3 "Macaw's Doors" "https://www.mediafire.com/file/o97axparlovckcs/mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcwdoors" 2
-# main_override 3 "Macaw's Roofs" "https://www.mediafire.com/file/byxuw1rwctldzzx/mcw-roofs-2.2.1-mc1.19.2-forge-tw.jar" "mcw-roofs-2.2.1-mc1.19.2-forge-tw.jar" "mcwroofs" 2
-# main_override 3 "Macaw's Furniture" "https://www.mediafire.com/file/cfvsk3q0rq1uukn/mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcwfurnitures" 2
-# main_override 3 "Macaw's Windows" "https://www.mediafire.com/file/0rg7xgvj71v4hhg/mcw-windows-2.0.3-mc1.19-tw.jar" "mcw-windows-2.0.3-mc1.19-tw.jar" "mcwwindows" 2
+main_override 3 "Macaw's Fences and Wall" "https://www.mediafire.com/file/u3rh5jbiu3v7z38/mcw-fences-1.0.6-mc1.19.2-tw.jar" "mcw-fences-1.0.6-mc1.19.2-tw.jar" "mcwfences" 2
+main_override 3 "Macaw's Bridges" "https://www.mediafire.com/file/7gs77nfermk672v/mcw-bridges-2.0.5-mc1.19.2forge-tw.jar" "mcw-bridges-2.0.5-mc1.19.2forge-tw.jar" "mcwbridges" 2
+main_override 3 "Macaw's Trapdoors" "https://www.mediafire.com/file/nk7eaw040lxgant/mcw-trapdoors-1.0.7-mc1.19.2-tw.jar" "mcw-trapdoors-1.0.7-mc1.19.2-tw.jar" "mcwtrpdoors" 2
+main_override 3 "Macaw's Doors" "https://www.mediafire.com/file/o97axparlovckcs/mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcwdoors" 2
+main_override 3 "Macaw's Roofs" "https://www.mediafire.com/file/byxuw1rwctldzzx/mcw-roofs-2.2.1-mc1.19.2-forge-tw.jar" "mcw-roofs-2.2.1-mc1.19.2-forge-tw.jar" "mcwroofs" 2
+main_override 3 "Macaw's Furniture" "https://www.mediafire.com/file/cfvsk3q0rq1uukn/mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcwfurnitures" 2
+main_override 3 "Macaw's Windows" "https://www.mediafire.com/file/0rg7xgvj71v4hhg/mcw-windows-2.0.3-mc1.19-tw.jar" "mcw-windows-2.0.3-mc1.19-tw.jar" "mcwwindows" 2
 
 ## Simply Light
-# main_override 3 "Simply Light" "https://www.mediafire.com/file/zoo24n15x9lrdlq/simplylight-1.19-1.4.2-build.35-tw.jar" "simplylight-1.19-1.4.2-build.35-tw.jar" "simplylight" 2
+main_override 3 "Simply Light" "https://www.mediafire.com/file/zoo24n15x9lrdlq/simplylight-1.19-1.4.2-build.35-tw.jar" "simplylight-1.19-1.4.2-build.35-tw.jar" "simplylight" 2
 
 ## Supplementaries
-# main_override 3 "Supplementaries" "https://www.mediafire.com/file/lu2bxls9485h9i7/supplementaries-1.19.2-2.2.22-tw.jar" "supplementaries-1.19.2-2.2.22-tw.jar" "supplementaries" 2
+main_override 3 "Supplementaries" "https://www.mediafire.com/file/lu2bxls9485h9i7/supplementaries-1.19.2-2.2.22-tw.jar" "supplementaries-1.19.2-2.2.22-tw.jar" "supplementaries" 2
 
 ### GitHub ###
 
 ## Dynamic FPS
-# main_override 1 "Dynamic FPS" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json" "" "dynamicfps"
+main_override 1 "Dynamic FPS" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json" "" "dynamicfps"
 
 ## CoFHCore
-# main_override 1 "CoFHCore" "https://raw.githubusercontent.com/Jimmy-sheep/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "" "cofh_core" 
+main_override 1 "CoFHCore" "https://raw.githubusercontent.com/Jimmy-sheep/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "" "cofh_core" 
 
 ## ThermalFoundation
-# main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "" "thermal" 
+main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "" "thermal" 
+
+# Finish echo
+
+echo "✅ 完成所有模組覆蓋執行！"
