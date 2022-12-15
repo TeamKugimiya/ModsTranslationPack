@@ -48,7 +48,7 @@ jobs:
           .github/scripts/version_change.sh 3 ${{ matrix.version }}
 
       - name: Override mods
-        run: sh .github/scripts/override_mods.sh
+        run: bash .github/scripts/override_mods.sh
 
       - name: Make ModsTranslationPack
         uses: ComunidadAylas/PackSquash-action@master

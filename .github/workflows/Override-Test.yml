@@ -24,4 +24,4 @@ jobs:
           fetch-depth: 0
 
       - name: Testing OverrideScript
-        run: sh .github/scripts/override_mods.sh
+        run: bash .github/scripts/override_mods.sh
