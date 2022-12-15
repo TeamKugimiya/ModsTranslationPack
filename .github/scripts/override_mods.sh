@@ -6,6 +6,14 @@ echo ">>> 對於一些第三方來源的自動下載覆蓋"
 echo ">>> 與部分尚未釋出最新翻譯更新的模組"
 echo ">>> 此步驟將會把一些已知的模組翻譯覆蓋掉"
 
+## DEBUG Var
+
+# java_path=$(which jar)
+java_home_path=${java_path:-$JAVA_HOME_17_X64/bin/jar}
+
+# home=$HOME/workspace/ModsTranslationPack
+home_path=${home:-$GITHUB_WORKSPACE}
+
 ## Tools Install
 
 install_packages () {
@@ -23,10 +31,13 @@ install_packages () {
 
 # Return to workspace root
 home () {
-    cd "$GITHUB_WORKSPACE" || exit
+    cd "$home_path" || exit
+}
 
-    # For Debug
-    # cd ~/workspace/ModsTranslationPack/ || exit
+# Error function
+error () {
+    echo "❗ 錯誤！未指定模組模式或參數錯誤。"
+    exit 128
 }
 
 # Verify override contents
@@ -35,26 +46,29 @@ verify_override_translate_exists () {
     mods_path=$2
     module_mode=$3
 
-    # 模組模式 1 驗證檔案
-    if [ "$module_mode" = 1 ]; then
-      if [ -f "$mods_path"/zh_tw.json ]; then
-        echo "✅ $mods_name 翻譯驗證通過！"
-      else
-        echo "❎ 錯誤！覆蓋 $mods_name 翻譯失敗。"
-        exit 1
-      fi
-    # 模組模式 2 驗證指南手冊資料夾
-    elif [ "$module_mode" = 2 ]; then
-      if [ -d "$mods_path" ] && [ "$(ls -A "$mods_path")" ]; then
-        echo "✅ $mods_name 指南手冊翻譯驗證通過！（$mods_path）"
-      else
-        echo "❎ 錯誤！覆蓋 $mods_name 書本翻譯失敗。"
-        exit 1
-      fi
-    else
-      echo "❗ 錯誤！未指定模組模式或參數錯誤。"
-      exit 128
-    fi
+    case $module_mode in
+      # 模組模式 1 驗證檔案
+      "1")
+        if [ -f "$mods_path"/zh_tw.json ]; then
+          echo "✅ $mods_name 翻譯驗證通過！"
+        else
+          echo "❎ 錯誤！覆蓋 $mods_name 翻譯失敗。"
+          exit 1
+        fi
+        ;;
+      # 模組模式 2 驗證指南手冊資料夾
+      "2")
+        if [ -d "$mods_path" ] && [ "$(ls -A "$mods_path")" ]; then
+          echo "✅ $mods_name 指南手冊翻譯驗證通過！（$mods_path）"
+        else
+          echo "❎ 錯誤！覆蓋 $mods_name 書本翻譯失敗。"
+          exit 1
+        fi
+        ;;
+      *)
+       error
+       ;;
+      esac
 }
 
 ## Downloader Functions
@@ -98,7 +112,29 @@ github_downloader () {
     fi
 }
 
-## Random Functions
+download_mode_chooser () {
+    download_mode=$1
+    mods_name=$2
+    download_link=$3
+
+    case $download_mode in
+      # 模組模式 1 Mega
+      "1")
+        echo "📥 透過 Mega 下載 $mods_name..."
+        mega_downloader "$mods_name" "$download_link"
+        ;;
+      # 模組模式 2 MediaFire
+      "2")
+        echo "📥 透過 MediaFire 下載 $mods_name..."
+        mediafire_downloader "$mods_name" "$download_link"
+        ;;
+      *)
+        error
+        ;;
+      esac
+}
+
+## Extractor Functions
 
 jar_extractor () {
     module_mode=$1
@@ -106,48 +142,29 @@ jar_extractor () {
     file_name=$3
     mods_path=$4
 
-    # 模組模式 1 提取模組翻譯
-    if [ "$module_mode" = 1 ]; then
-      echo "🔧 提取 $mods_name 的翻譯檔..."
-      if "$JAVA_HOME_17_X64"/bin/jar xf "$file_name" "$mods_path"; then
-        echo "✅ 提取成功！"
-      else
-        echo "❎ 提取失敗！"
-      fi
-    # 模組模式 2 提取指南手冊翻譯與模組翻譯
-    elif [ "$module_mode" = 2 ]; then
-      echo "🔧 提取完整 $mods_name..."
-      if "$JAVA_HOME_17_X64"/bin/jar xf "$file_name"; then
-        echo "✅ 提取成功！"
-      else
-        echo "❎ 提取失敗！"
-      fi
-    else
-      echo "❗ 錯誤！未指定模組模式或參數錯誤。"
-      exit 128
-    fi
-
-    # For Debug
-    # # 模組模式 1 提取模組翻譯
-    # if [ "$module_mode" = 1 ]; then
-    #   echo "🔧 提取 $mods_name 的翻譯檔..."
-    #   if jar xf "$file_name" "$mods_path"; then
-    #     echo "✅ 提取成功！"
-    #   else
-    #     echo "❎ 提取失敗！"
-    #   fi
-    # # 模組模式 2 提取指南手冊翻譯與模組翻譯
-    # elif [ "$module_mode" = 2 ]; then
-    #   echo "🔧 提取完整 $mods_name..."
-    #   if jar xf "$file_name"; then
-    #     echo "✅ 提取成功！"
-    #   else
-    #     echo "❎ 提取失敗！"
-    #   fi
-    # else
-    #   echo "❗ 錯誤！未指定模組模式或參數錯誤。"
-    #   exit 128
-    # fi
+    case $module_mode in
+      # 模組模式 1 提取模組翻譯
+      "1")
+        echo "🔧 提取 $mods_name 的翻譯檔..."
+        if "$java_home_path" xf "$file_name" "$mods_path"; then
+          echo "✅ 提取成功！"
+        else
+          echo "❎ 提取失敗！"
+        fi
+        ;;
+      # 模組模式 2 提取指南手冊翻譯與模組翻譯
+      "2")
+        echo "🔧 提取完整 $mods_name..."
+        if "$java_home_path" xf "$file_name"; then
+          echo "✅ 提取成功！"
+        else
+          echo "❎ 提取失敗！"
+        fi
+        ;;
+      *)
+        error
+        ;;
+      esac
 }
 
 zip_extractor () {
@@ -159,23 +176,6 @@ zip_extractor () {
       echo "✅ 解壓縮成功！"
     else
       echo "❎ 解壓縮失敗！"
-    fi
-}
-
-download_mode_chooser () {
-    download_mode=$1
-    mods_name=$2
-    download_link=$3
-
-    if [ "$download_mode" = 1 ];then
-      echo "📥 透過 Mega 下載 $mods_name..."
-      mega_downloader "$mods_name" "$download_link"
-    elif [ "$download_mode" = 2 ]; then
-      echo "📥 透過 MediaFire 下載 $mods_name..."
-      mediafire_downloader "$mods_name" "$download_link"
-    else
-      echo "❗ 錯誤！未指定模組模式或參數錯誤。"
-      exit 128
     fi
 }
 
@@ -197,105 +197,115 @@ main_override () {
     mods_path_lang=$mods_path/lang
     mods_path_lang_file=$mods_path/lang/zh_tw.json
 
-    # 模組模式 1 直接下載並放入指定路徑
-    if [ "$module_mode" = 1 ]; then
-      echo "🥖 開始覆蓋 $mods_name"
-      echo "📁 新增資料夾..."
-      mkdir -p "$mods_path_lang"
-      github_downloader "$mods_name" "$mods_download_link" "$mods_path_lang"
-      echo "⚙️ 驗證翻譯檔案..."
-      verify_override_translate_exists "$mods_name" "$mods_path_lang" 1
-      echo "🥖 $mods_name 覆蓋完成！"
-    # 模組模式 2 解壓縮來自壓縮檔
-    elif [ "$module_mode" = 2 ]; then
-      echo "🥖 開始覆蓋 $mods_name"
-      echo "📁 新增暫存資料夾..."
-      workdir_path="$(mktemp -d)"
-      echo "🐌 移動至暫存資料夾 $workdir_path..."
-      cd "$workdir_path" || exit
-      download_mode_chooser "$download_mode" "$mods_name" "$mods_download_link"
-      zip_extractor "$mods_name" "$mods_file_name"
-      echo "🐌 回到主目錄"
-      home
-      echo "📁 移動翻譯資料夾"
-      mv "$workdir_path"/"$mods_path" assets
-      echo "⚙️ 驗證翻譯檔案..."
-      verify_override_translate_exists "$mods_name" "$mods_path_lang" 1
-      echo "🥖 $mods_name 覆蓋完成！"
-    # 模組模式 3 從 Jar 中提取模組翻譯
-    elif [ "$module_mode" = 3 ]; then
-      echo "🥖 開始覆蓋 $mods_name"
-      echo "📁 新增暫存資料夾..."
-      workdir_path="$(mktemp -d)"
-      echo "🐌 移動至暫存資料夾 $workdir_path..."
-      cd "$workdir_path" || exit
-      download_mode_chooser "$download_mode" "$mods_name" "$mods_download_link"
-      jar_extractor 1 "$mods_name" "$mods_file_name" "$mods_path_lang_file"
-      echo "🐌 回到主目錄"
-      home
-      echo "📁 新增資料夾..."
-      mkdir -p "$mods_path_lang"
-      echo "📁 複製翻譯..."
-      cp "$workdir_path"/"$mods_path_lang_file" "$mods_path_lang"
-      echo "⚙️ 驗證翻譯檔案..."
-      verify_override_translate_exists "$mods_name" "$mods_path_lang" 1
-      echo "🥖 $mods_name 覆蓋完成！"
-    # 模組模式 4 從 Jar 中提取指南手冊與模組翻譯
-    elif [ "$module_mode" = 4 ]; then
-      echo "🥖 開始覆蓋 $mods_name"
-      echo "📁 新增暫存資料夾..."
-      workdir_path="$(mktemp -d)"
-      echo "🐌 移動至暫存資料夾 $workdir_path..."
-      cd "$workdir_path" || exit
-      download_mode_chooser "$download_mode" "$mods_name" "$mods_download_link"
-      jar_extractor 2 "$mods_name" "$mods_file_name"
-      echo "🐌 回到主目錄"
-      home
-      echo "📁 新增資料夾..."
-      mkdir -p "$mods_path_lang"
-      mkdir -p "$mods_guide_assets_path"
-      echo "📁 複製翻譯..."
-      cp "$workdir_path"/"$mods_path_lang_file" "$mods_path_lang"
-      echo "🛗 移動指南手冊翻譯"
-      case $mods_guide_mode in
-        "1")
-          for i in "${mods_guide_path_array[@]}"; do
-            mods_guide_path=$workdir_path/$mods_guide_original_path/$i
-            if cp -r "$mods_guide_path" "$mods_guide_assets_path/"; then
-              echo "✅ 成功將 $mods_guide_path 移動至 $mods_guide_assets_path"
-            else
-              echo "❎ 在移動 $mods_guide_path 時失敗！"
-            fi
-          done
-          ;;
-        "2")
-          for i in "${mods_guide_path_array[@]}"; do
-            mods_guide_path=$workdir_path/$mods_guide_original_path/$i
-            mods_assets_path=$mods_guide_assets_path/$i
-            if mkdir -p "$mods_assets_path"; then
-              if cp -r "$mods_guide_path"/* "$mods_assets_path"; then
-                echo "✅ 成功將 $mods_guide_path 移動至 $mods_guide_assets_path/$i"
+    case $module_mode in
+      # 模組模式 1 直接下載並放入指定路徑
+      "1")
+        home
+        echo "🥖 開始覆蓋 $mods_name"
+        echo "📁 新增資料夾..."
+        mkdir -p "$mods_path_lang"
+        github_downloader "$mods_name" "$mods_download_link" "$mods_path_lang"
+        echo "⚙️ 驗證翻譯檔案..."
+        verify_override_translate_exists "$mods_name" "$mods_path_lang" 1
+        echo "🥖 $mods_name 覆蓋完成！"
+        echo "   "
+        ;;
+      # 模組模式 2 解壓縮來自壓縮檔
+      "2")
+        echo "🥖 開始覆蓋 $mods_name"
+        echo "📁 新增暫存資料夾..."
+        workdir_path="$(mktemp -d)"
+        echo "🐌 移動至暫存資料夾 $workdir_path..."
+        cd "$workdir_path" || exit
+        download_mode_chooser "$download_mode" "$mods_name" "$mods_download_link"
+        zip_extractor "$mods_name" "$mods_file_name"
+        echo "🐌 回到主目錄"
+        home
+        echo "📁 移動翻譯資料夾"
+        mv "$workdir_path"/"$mods_path" assets
+        echo "⚙️ 驗證翻譯檔案..."
+        verify_override_translate_exists "$mods_name" "$mods_path_lang" 1
+        echo "🥖 $mods_name 覆蓋完成！"
+        echo "   "
+        ;;
+      # 模組模式 3 從 Jar 中提取模組翻譯
+      "3")
+        echo "🥖 開始覆蓋 $mods_name"
+        echo "📁 新增暫存資料夾..."
+        workdir_path="$(mktemp -d)"
+        echo "🐌 移動至暫存資料夾 $workdir_path..."
+        cd "$workdir_path" || exit
+        download_mode_chooser "$download_mode" "$mods_name" "$mods_download_link"
+        jar_extractor 1 "$mods_name" "$mods_file_name" "$mods_path_lang_file"
+        echo "🐌 回到主目錄"
+        home
+        echo "📁 新增資料夾..."
+        mkdir -p "$mods_path_lang"
+        echo "📁 複製翻譯..."
+        cp "$workdir_path"/"$mods_path_lang_file" "$mods_path_lang"
+        echo "⚙️ 驗證翻譯檔案..."
+        verify_override_translate_exists "$mods_name" "$mods_path_lang" 1
+        echo "🥖 $mods_name 覆蓋完成！"
+        echo "   "
+        ;;
+      # 模組模式 4 從 Jar 中提取指南手冊與模組翻譯
+      "4")
+        echo "🥖 開始覆蓋 $mods_name"
+        echo "📁 新增暫存資料夾..."
+        workdir_path="$(mktemp -d)"
+        echo "🐌 移動至暫存資料夾 $workdir_path..."
+        cd "$workdir_path" || exit
+        download_mode_chooser "$download_mode" "$mods_name" "$mods_download_link"
+        jar_extractor 2 "$mods_name" "$mods_file_name"
+        echo "🐌 回到主目錄"
+        home
+        echo "📁 新增資料夾..."
+        mkdir -p "$mods_path_lang"
+        mkdir -p "$mods_guide_assets_path"
+        echo "📁 複製翻譯..."
+        cp "$workdir_path"/"$mods_path_lang_file" "$mods_path_lang"
+        echo "🛗 移動指南手冊翻譯"
+        case $mods_guide_mode in
+          "1")
+            for i in "${mods_guide_path_array[@]}"; do
+              mods_guide_path=$workdir_path/$mods_guide_original_path/$i
+              if cp -r "$mods_guide_path" "$mods_guide_assets_path/"; then
+                echo "✅ 成功將 $mods_guide_path 移動至 $mods_guide_assets_path"
               else
-                echo "❎ 在移動 $mods_guide_path/$i 時失敗！"
+                echo "❎ 在移動 $mods_guide_path 時失敗！"
               fi
-            fi
-          done
-          ;;
-        *)
-          echo "❗ 錯誤！未指定模組模式或參數錯誤。"
-          exit 128
-          ;;
+            done
+            ;;
+          "2")
+            for i in "${mods_guide_path_array[@]}"; do
+              mods_guide_path=$workdir_path/$mods_guide_original_path/$i
+              mods_assets_path=$mods_guide_assets_path/$i
+              if mkdir -p "$mods_assets_path"; then
+                if cp -r "$mods_guide_path"/* "$mods_assets_path"; then
+                  echo "✅ 成功將 $mods_guide_path 移動至 $mods_guide_assets_path/$i"
+                else
+                  echo "❎ 在移動 $mods_guide_path/$i 時失敗！"
+                fi
+              fi
+            done
+            ;;
+          *)
+            error
+            ;;
+        esac
+        echo "⚙️ 驗證翻譯檔案..."
+        verify_override_translate_exists "$mods_name" "$mods_path_lang" 1
+        echo "⚙️ 驗證指南手冊翻譯..."
+        for i in "${mods_guide_path_array[@]}"; do
+          mods_guide_path=$mods_guide_assets_path/$i
+          verify_override_translate_exists "$mods_name" "$mods_guide_path" 2
+        done
+        echo "🥖 $mods_name 覆蓋完成！"
+        echo "   "
+        ;;
+      *)
+        error
       esac
-      echo "⚙️ 驗證翻譯檔案..."
-      verify_override_translate_exists "$mods_name" "$mods_path_lang" 1
-      echo "⚙️ 驗證指南手冊翻譯..."
-      for i in "${mods_guide_path_array[@]}"; do
-        mods_guide_path=$mods_guide_assets_path/$i
-        verify_override_translate_exists "$mods_name" "$mods_guide_path" 2
-      done
-      echo "🥖 $mods_name 覆蓋完成！"
-      echo "   "
-    fi
 }
 
 # Main Function Start
@@ -335,7 +345,7 @@ home
 
 ### Productive Bees (Guide) 
 # shellcheck disable=SC2034
-productive_bees_array=("zh_tw" "en_us")
+productive_bees_array=("zh_tw")
 main_override 4 "Productive Bees" "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees" 2 "data/productivebees/patchouli_books/guide" "patchouli_books/guide" productive_bees_array 1
 
 ### Tinker (Guide)
