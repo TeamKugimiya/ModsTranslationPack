@@ -190,7 +190,7 @@ main_override () {
     download_mode=$6
     mods_guide_original_path=$7
     mods_guide_assets_path=$mods_path/$8
-    local -n mods_guide_path_array=${9:-null}
+    local -n mods_guide_path_array=${9:-empty}
     mods_guide_mode=${10}
 
     # Some path translate var
