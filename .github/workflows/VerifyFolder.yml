@@ -29,5 +29,5 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: Run Verify Script
+      - name: Verify Override Script
         run: .github/scripts/verify_folder.sh

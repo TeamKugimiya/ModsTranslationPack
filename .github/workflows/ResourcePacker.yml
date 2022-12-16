@@ -13,7 +13,6 @@ on:
         required: false
         type: boolean
 
-
 jobs:
   ResourcePacker:
     name: ResourcePacker ${{ inputs.matrix_version }}
@@ -30,17 +29,15 @@ jobs:
           rm -v assets/*/lang/en_us.json
           rm -vr assets/*/patchouli_books/*/en_us
 
-      - name: Version Changer (Beta)
-        if: ${{ !inputs.release }}
+      - name: Version Changer
         run: |
-          .github/scripts/version_change.sh 1
-          .github/scripts/version_change.sh 3 ${{ inputs.matrix_version }}
-
-      - name: Version Changer (Release)
-        if: ${{ inputs.release }}
-        run: |
-          .github/scripts/version_change.sh 2 ${{ inputs.release_version }}
-          .github/scripts/version_change.sh 3 ${{ inputs.matrix_version }}
+          if [ ${{ inputs.release }} = false ]; then
+            .github/scripts/version_change.sh 1
+            .github/scripts/version_change.sh 3 ${{ inputs.matrix_version }}
+          elif [ ${{ inputs.release }} = true ]; then
+            .github/scripts/version_change.sh 2 ${{ inputs.release_version }}
+            .github/scripts/version_change.sh 3 ${{ inputs.matrix_version }}
+          fi
 
       - name: Override mods
         run: .github/scripts/override_mods.sh
