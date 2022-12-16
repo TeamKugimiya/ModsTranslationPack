@@ -381,10 +381,10 @@ main_override 3 "Supplementaries" "https://www.mediafire.com/file/lu2bxls9485h9i
 main_override 1 "Dynamic FPS" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json" "" "dynamicfps"
 
 ## CoFHCore
-main_override 1 "CoFHCore" "https://raw.githubusercontent.com/Jimmy-sheep/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "" "cofh_core" 
+main_override 1 "CoFHCore" "https://raw.githubusercontent.com/CoFH/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "" "cofh_core" 
 
 ## ThermalFoundation
-main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "" "thermal" 
+main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/CoFH/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "" "thermal" 
 
 # Finish echo
 
