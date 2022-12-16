@@ -56,7 +56,7 @@ jobs:
         uses: actions/download-artifact@v3
 
       - name: Delete All Artifact
-        uses: geekyeggo/delete-artifact@v1
+        uses: geekyeggo/delete-artifact@v2
         with:
           name: |
             ModsTranslationPack-1.18.x

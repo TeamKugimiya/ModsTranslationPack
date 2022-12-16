@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: Checking Repostiory
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
@@ -72,7 +72,7 @@ jobs:
           path: ./
 
       - name: Delete Artifact
-        uses: geekyeggo/delete-artifact@v1
+        uses: geekyeggo/delete-artifact@v2
         with:
           name: |
             OptimizedPack-${{ inputs.matrix_version }}
