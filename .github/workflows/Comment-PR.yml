@@ -1,4 +1,4 @@
-name: Comment pull request
+name: Comment PR
 
 on:
   # Only run when the other workflow is completed since
