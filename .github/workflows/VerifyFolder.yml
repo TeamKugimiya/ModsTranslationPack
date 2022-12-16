@@ -30,4 +30,4 @@ jobs:
           fetch-depth: 0
       
       - name: Run Verify Script
-        run: sh .github/scripts/verify_folder.sh
+        run: .github/scripts/verify_folder.sh

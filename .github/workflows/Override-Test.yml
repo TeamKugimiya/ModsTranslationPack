@@ -1,4 +1,4 @@
-name: Script Test
+name: Scripts Test
 
 on:
   pull_request:
@@ -24,4 +24,4 @@ jobs:
           fetch-depth: 0
 
       - name: Testing OverrideScript
-        run: bash .github/scripts/override_mods.sh
+        run: .github/scripts/override_mods.sh
