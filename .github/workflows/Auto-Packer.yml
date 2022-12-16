@@ -13,7 +13,6 @@ on:
     - "main"
     paths:
     - "assets/**"
-    - ".github/scripts/override_mods.sh"
 
   workflow_dispatch: {}
 
