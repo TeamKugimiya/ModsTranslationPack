@@ -33,6 +33,7 @@ jobs:
           rm -v assets/*/lang/en_us.json
           rm -vr assets/*/patchouli_books/*/en_us
           rm -v README.md
+          rm -v CHANGELOG.md
           rm -vr docs/
 
       - name: Version Changer
