@@ -28,10 +28,12 @@ jobs:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
 
-      - name: Clean up original language file
+      - name: Cleanup original language and markdown files
         run: |
           rm -v assets/*/lang/en_us.json
           rm -vr assets/*/patchouli_books/*/en_us
+          rm -v README.md
+          rm -vr docs/
 
       - name: Version Changer
         run: |
