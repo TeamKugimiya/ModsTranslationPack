@@ -33,12 +33,8 @@ jobs:
         
     uses: ./.github/workflows/ResourcePacker.yml
     with:
-      # matrix_version: ${{ matrix.version }}
-      # release: true
-      ref: v1.7.2
       matrix_version: ${{ matrix.version }}
-      release: true
-      release_version: v1.7.2
+      release: false
 
   Per-Releaser:
     name: Per Release
