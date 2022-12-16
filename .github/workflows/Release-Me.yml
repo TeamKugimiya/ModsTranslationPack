@@ -3,7 +3,7 @@ name: Release Me
 on:
   push:
     branches:
-      - main
+    - "main"
   workflow_dispatch: {}
 
 permissions:
@@ -24,15 +24,14 @@ jobs:
           pull-request-title-pattern: "chore${scope}: 發佈${component} ${version}"
           labels: "自動發佈：待定"
           release-labels: "自動發佈：已發佈"
-          changelog-types: '[{"type":"feat","section":"💪 次版本號提升","hidden":false},{"type":"fix","section":"🔧 修正問題","hidden":false},{"type":"chore","section":"🧹 清理專案","hidden":false},{"type":"ci","section":"☁️ 持續整合 / 持續佈署","hidden":false},{"type":"docs","section":"📑 文件更新","hidden":false},{"type":"mods_feat","section":"⚡ 新增模組翻譯","hidden":false},{"type":"mods_update","section":"🐌 更新模組翻譯","hidden":false},{"type":"mods_fix","section":"🐛 修正模組翻譯錯誤","hidden":false},{"type":"mods_improve","section":"✨ 提升模組翻譯品質","hidden":false},{"type":"mods_localize","section":"🌐 用語在地化","hidden":false}]'
+          changelog-types: '[{"type":"feat","section":"💪 次版本號提升","hidden":false},{"type":"fix","section":"🔧 修正問題","hidden":false},{"type":"chore","section":"🧹 清理專案","hidden":false},{"type":"ci","section":"☁️ 持續整合 / 持續佈署","hidden":false},{"type":"docs","section":"📑 文件更新","hidden":false},{"type":"refactor","section":"🧰 重構","hidden":false},{"type":"mods_feat","section":"⚡ 新增模組翻譯","hidden":false},{"type":"mods_update","section":"🐌 更新模組翻譯","hidden":false},{"type":"mods_fix","section":"🐛 修正模組翻譯錯誤","hidden":false},{"type":"mods_improve","section":"✨ 提升模組翻譯品質","hidden":false},{"type":"mods_localize","section":"🌐 用語在地化","hidden":false}]'
 
     outputs:
       release_created: ${{ steps.release_please.outputs.release_created }}
       tag_name: ${{ steps.release_please.outputs.tag_name }}
 
   Packer:
-    name: Packer ${{ matrix.version }} Version
-    runs-on: ubuntu-latest
+    name: Packer ${{ matrix.version }}
     if: ${{ needs.release-please.outputs.release_created }}
     needs: [ Release-Please ]
 
@@ -40,59 +39,12 @@ jobs:
       matrix:
         version: [ 1.18.x, 1.19.x ]
 
-    steps:
-      - name: Checking Repostiory
-        uses: actions/checkout@v2
-        with:
-          ref: ${{ needs.release-please.outputs.tag_name }}
-          fetch-depth: 0
-
-      - name: Clean up original language file
-        run: |
-          rm -v assets/*/lang/en_us.json
-          rm -vr assets/*/patchouli_books/*/en_us
-
-      - name: Version Changer
-        run: |
-          .github/scripts/version_change.sh 2 ${{ needs.release-please.outputs.tag_name }}
-          .github/scripts/version_change.sh 3 ${{ matrix.version }}
-
-      - name: Override mods
-        run: sh .github/scripts/override_mods.sh
-
-      - name: Make ModsTranslationPack
-        uses: ComunidadAylas/PackSquash-action@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          force_include_files: |
-            LICENSE
-            assets/tconstruct/book/**/zh_tw/*.lang
-            assets/immersiveengineering/manual/zh_tw/*.txt
-          never_store_squash_times: true
-          path: ./
-          artifact_name: OptimizedPack-${{ matrix.version }}
-
-      - name: DownloadArtifact
-        uses: actions/download-artifact@v2
-        with:
-          name: OptimizedPack-${{ matrix.version }}
-          path: ./
-
-      - name: Delete Artifact
-        uses: geekyeggo/delete-artifact@v1
-        with:
-          name: |
-            OptimizedPack-${{ matrix.version }}
-
-      - name: Rename ModsTranslationPack
-        run: |
-          mv ./pack.zip ModsTranslationPack-${{ matrix.version }}.zip
-
-      - name: Upload ModsTranslationPack
-        uses: actions/upload-artifact@v3
-        with:
-          name: ModsTranslationPack-${{ matrix.version }}
-          path: "*.zip"
+    uses: ./.github/workflows/ResourcePacker.yml
+    with:
+      ref: ${{ needs.release-please.outputs.tag_name }}
+      matrix_version: ${{ matrix.version }}
+      release: true
+      release_version: ${{ needs.release-please.outputs.tag_name }}
 
   Release-It:
     name: Release It
@@ -104,7 +56,7 @@ jobs:
         uses: actions/download-artifact@v3
 
       - name: Delete All Artifact
-        uses: geekyeggo/delete-artifact@v1
+        uses: geekyeggo/delete-artifact@v2
         with:
           name: |
             ModsTranslationPack-1.18.x

@@ -1,0 +1,88 @@
+name: ResourcePacker
+
+on:
+  workflow_call:
+    inputs:
+      ref:
+        required: false
+        type: string
+      matrix_version:
+        required: true
+        type: string
+      release:
+        required: true
+        type: boolean
+      release_version:
+        required: false
+        type: string
+
+jobs:
+  ResourcePacker:
+    name: ResourcePacker ${{ inputs.matrix_version }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking Repostiory
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ inputs.ref }}
+          fetch-depth: 0
+
+      - name: Cleanup original language and markdown files
+        run: |
+          rm -v assets/*/lang/en_us.json
+          rm -vr assets/*/patchouli_books/*/en_us
+          rm -v README.md
+          rm -v CHANGELOG.md
+          rm -vr docs/
+
+      - name: Version Changer
+        run: |
+          if [ ${{ inputs.release }} = false ]; then
+            echo "Beta Version..."
+            .github/scripts/version_change.sh 1
+            .github/scripts/version_change.sh 3 ${{ inputs.matrix_version }}
+          elif [ ${{ inputs.release }} = true ]; then
+            echo "Release Version..."
+            .github/scripts/version_change.sh 2 ${{ inputs.release_version }}
+            .github/scripts/version_change.sh 3 ${{ inputs.matrix_version }}
+          else
+            echo "Error! No value or parameter wrong."
+          fi
+
+      - name: Override mods
+        run: .github/scripts/override_mods.sh
+
+      - name: Make ModsTranslationPack
+        uses: ComunidadAylas/PackSquash-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          force_include_files: |
+            LICENSE
+            assets/tconstruct/book/**/zh_tw/*.lang
+            assets/immersiveengineering/manual/zh_tw/*.txt
+          never_store_squash_times: true
+          path: ./
+          artifact_name: OptimizedPack-${{ inputs.matrix_version }}
+
+      - name: DownloadArtifact
+        uses: actions/download-artifact@v3
+        with:
+          name: OptimizedPack-${{ inputs.matrix_version }}
+          path: ./
+
+      - name: Delete Artifact
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: |
+            OptimizedPack-${{ inputs.matrix_version }}
+
+      - name: Rename ModsTranslationPack
+        run: |
+          mv ./pack.zip ModsTranslationPack-${{ inputs.matrix_version }}.zip
+
+      - name: Upload ModsTranslationPack
+        uses: actions/upload-artifact@v3
+        with:
+          name: ModsTranslationPack-${{ inputs.matrix_version }}
+          path: "*.zip"

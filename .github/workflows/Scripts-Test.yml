@@ -1,33 +1,27 @@
-name: Verify Folder
+name: Scripts Test
 
 on:
-  push:
-    branches:
-    - "main"
-    paths:
-    - "assets/**"
   pull_request:
     branches:
     - "main"
     paths:
-    - "assets/**"
-
+    - ".github/scripts/override_mods.sh"
   workflow_dispatch: {}
 
 permissions:
   contents: read
+  pull-requests: read
 
 jobs:
-  Verify:
-    name: Verify Folder
+  script-test:
+    name: Script Test
     runs-on: ubuntu-latest
     if: github.repository == 'xMikux/ModsTranslationPack'
-
     steps:
       - name: Checking Repostiory
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      
-      - name: Verify Override Script
-        run: .github/scripts/verify_folder.sh
+
+      - name: Testing OverrideScript
+        run: .github/scripts/override_mods.sh
