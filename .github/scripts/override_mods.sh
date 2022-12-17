@@ -378,6 +378,9 @@ main_override 3 "Supplementaries" "https://www.mediafire.com/file/lu2bxls9485h9i
 ## MrCrayfish's Furniture Mod
 main_override 3 "MrCrayfish's Furniture Mod" "https://www.mediafire.com/file/v6zk7kbq5nk74ne/cfm-7.0.0-pre34-mc1.19-tw.jar" "cfm-7.0.0-pre34-mc1.19-tw.jar" "cfm" 2
 
+## Cooking for Blockheads
+main_override 3 "Cooking for Blockheads" "https://www.mediafire.com/file/ccvovat1e7klqv9/cookingforblockheads-forge-1.19-13.2.1-tw.jar" "cookingforblockheads-forge-1.19-13.2.1-tw.jar" "cookingforblockheads" 2
+
 ### GitHub ###
 
 ## Dynamic FPS
