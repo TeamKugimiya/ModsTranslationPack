@@ -60,11 +60,11 @@ jobs:
             if (!artifacts.length) {
               return core.error(`No artifacts found`);
             }
-            let body = `感謝貢獻！❤️\n\n下載此次合併請求測試用翻譯包：\n`;
+            let body = `感謝貢獻！❤️\n請注意由於 Actions 的機制，你在下載時必須解壓縮該該 zip，並把裡面資源包的 zip 拿出來。\n\n下載此次合併請求測試用翻譯包：\n`;
             for (const art of artifacts) {
               body += `\n* [${art.name}.zip](https://nightly.link/${owner}/${repo}/actions/artifacts/${art.id}.zip)`;
             }
-            body += `  \n\n此服務由 [nightly.link](https://github.com/oprypin/nightly.link) 提供。這些測試用翻譯包將會在 90 天內過期，過期後將無法再度被下載。`;
+            body += `\n\n------\n此服務由 [nightly.link](https://github.com/oprypin/nightly.link) 提供。這些測試用翻譯包將會在 90 天內過期，過期後無法再度被下載。`;
             core.info("Review thread message body:", body);
             await upsertComment(owner, repo, ${{ env.PR_NUM }},
               "nightly-link", body);
