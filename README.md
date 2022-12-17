@@ -304,3 +304,5 @@
 - [Supplementaries](https://grant88.pixnet.net/blog/post/45034372)
 - [ThermalFoundation](https://github.com/CoFH/ThermalFoundation/tree/1.18.2)
 - [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
+- [MrCrayfish's Furniture Mod](https://grant88.pixnet.net/blog/post/40862752)
+- [Cooking for Blockheads](https://grant88.pixnet.net/blog/post/44752177)
