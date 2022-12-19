@@ -12,8 +12,8 @@
   "item.ironjetpacks.capacitor": "%s 製電容器",
   "item.ironjetpacks.jetpack": "%s 製電容器",
 
-  "keybind.ironjetpacks.engine": "切換引擎",
-  "keybind.ironjetpacks.hover": "切換滯空模式",
+  "keybind.ironjetpacks.engine": "開關引擎",
+  "keybind.ironjetpacks.hover": "開關滯空模式",
   "keybind.ironjetpacks.descend": "下降",
   "keybind.ironjetpacks.increment_throttle": "增加氣閥",
   "keybind.ironjetpacks.decrement_throttle": "減少氣閥",
@@ -40,6 +40,6 @@
   "tooltip.ironjetpacks.toggle_engine": "已切換引擎為 %s",
   "tooltip.ironjetpacks.toggle_hover": "已切換滯空模式為 %s",
   "tooltip.ironjetpacks.change_throttle": "氣閥設置為 %s",
-  "tooltip.ironjetpacks.state_tooltip_layout": "%s | %s | %s",
+  "tooltip.ironjetpacks.state_tooltip_layout": "%s｜%s｜%s",
   "tooltip.ironjetpacks.jetpack_id": "噴射背包 ID：%s"
 }
