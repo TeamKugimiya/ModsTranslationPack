@@ -34,7 +34,7 @@
   "tooltip.ironjetpacks.hover_speed": "滯空速度：%s",
   "tooltip.ironjetpacks.hover_ascend_speed": "滯空上升速度：%s",
   "tooltip.ironjetpacks.hover_descend_speed": "滯空下降速度：%s",
-  "tooltip.ironjetpacks.sprint_modifier": "跑步加成器：%s",
+  "tooltip.ironjetpacks.sprint_modifier": "跑步加成速度：%s",
   "tooltip.ironjetpacks.sprint_vertical_modifier": "跑步垂直速度倍數：%s",
   "tooltip.ironjetpacks.sprint_fuel_modifier": "跑步燃料消耗加成：%s",
   "tooltip.ironjetpacks.toggle_engine": "已切換引擎為 %s",
