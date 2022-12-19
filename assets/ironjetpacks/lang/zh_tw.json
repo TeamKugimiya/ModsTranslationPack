@@ -10,7 +10,7 @@
   "item.ironjetpacks.cell": "%s 製能量單元",
   "item.ironjetpacks.thruster": "%s 製推進器",
   "item.ironjetpacks.capacitor": "%s 製電容器",
-  "item.ironjetpacks.jetpack": "%s 製電容器",
+  "item.ironjetpacks.jetpack": "%s 製噴射背包",
 
   "keybind.ironjetpacks.engine": "開關引擎",
   "keybind.ironjetpacks.hover": "開關滯空模式",
@@ -37,8 +37,8 @@
   "tooltip.ironjetpacks.sprint_modifier": "跑步加成速度：%s",
   "tooltip.ironjetpacks.sprint_vertical_modifier": "跑步垂直速度倍數：%s",
   "tooltip.ironjetpacks.sprint_fuel_modifier": "跑步燃料消耗加成：%s",
-  "tooltip.ironjetpacks.toggle_engine": "已切換引擎為 %s",
-  "tooltip.ironjetpacks.toggle_hover": "已切換滯空模式為 %s",
+  "tooltip.ironjetpacks.toggle_engine": "已切換引擎為%s",
+  "tooltip.ironjetpacks.toggle_hover": "已切換滯空模式為%s",
   "tooltip.ironjetpacks.change_throttle": "氣閥設置為 %s",
   "tooltip.ironjetpacks.state_tooltip_layout": "%s｜%s｜%s",
   "tooltip.ironjetpacks.jetpack_id": "噴射背包 ID：%s"
