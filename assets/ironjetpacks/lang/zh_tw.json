@@ -1,0 +1,45 @@
+{
+  "itemGroup.ironjetpacks": "鐵製噴射背包",
+
+  "item.ironjetpacks.strap": "皮帶",
+  "item.ironjetpacks.basic_coil": "基礎線圈",
+  "item.ironjetpacks.advanced_coil": "進階線圈",
+  "item.ironjetpacks.elite_coil": "菁英線圈",
+  "item.ironjetpacks.ultimate_coil": "終極線圈",
+
+  "item.ironjetpacks.cell": "%s 製能量單元",
+  "item.ironjetpacks.thruster": "%s 製推進器",
+  "item.ironjetpacks.capacitor": "%s 製電容器",
+  "item.ironjetpacks.jetpack": "%s 製電容器",
+
+  "keybind.ironjetpacks.engine": "切換引擎",
+  "keybind.ironjetpacks.hover": "切換滯空模式",
+  "keybind.ironjetpacks.descend": "下降",
+  "keybind.ironjetpacks.increment_throttle": "增加氣閥",
+  "keybind.ironjetpacks.decrement_throttle": "減少氣閥",
+
+  "subtitle.ironjetpacks.jetpack": "噴射背包",
+
+  "tooltip.ironjetpacks.on": "開啟",
+  "tooltip.ironjetpacks.off": "關閉",
+  "tooltip.ironjetpacks.infinite": "無限",
+  "tooltip.ironjetpacks.engine": "引擎",
+  "tooltip.ironjetpacks.hover": "滯空",
+  "tooltip.ironjetpacks.tier": "等級 %s",
+  "tooltip.ironjetpacks.throttle": "氣閥：%s",
+  "tooltip.ironjetpacks.fuel_usage": "燃料使用量：%s",
+  "tooltip.ironjetpacks.vertical_speed": "垂直飛行速度：%s",
+  "tooltip.ironjetpacks.vertical_acceleration": "垂直飛行加速：%s",
+  "tooltip.ironjetpacks.horizontal_speed": "水平飛行速度：%s",
+  "tooltip.ironjetpacks.hover_speed": "滯空速度：%s",
+  "tooltip.ironjetpacks.hover_ascend_speed": "滯空上升速度：%s",
+  "tooltip.ironjetpacks.hover_descend_speed": "滯空下降速度：%s",
+  "tooltip.ironjetpacks.sprint_modifier": "跑步加成器：%s",
+  "tooltip.ironjetpacks.sprint_vertical_modifier": "跑步垂直速度倍數：%s",
+  "tooltip.ironjetpacks.sprint_fuel_modifier": "跑步燃料消耗加成：%s",
+  "tooltip.ironjetpacks.toggle_engine": "已切換引擎為 %s",
+  "tooltip.ironjetpacks.toggle_hover": "已切換滯空模式為 %s",
+  "tooltip.ironjetpacks.change_throttle": "氣閥設置為 %s",
+  "tooltip.ironjetpacks.state_tooltip_layout": "%s | %s | %s",
+  "tooltip.ironjetpacks.jetpack_id": "噴射背包 ID：%s"
+}
