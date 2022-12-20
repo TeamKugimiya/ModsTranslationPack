@@ -60,7 +60,7 @@ jobs:
             if (!artifacts.length) {
               return core.error(`No artifacts found`);
             }
-            let body = `感謝貢獻！❤️\n請注意由於 Actions 的機制，你在下載時必須解壓縮該該 zip，並把裡面資源包的 zip 拿出來。\n\n下載此次合併請求測試用翻譯包：\n`;
+            let body = `感謝貢獻！❤️\n請注意由於 Actions 的機制，你在下載時必須解壓縮該 zip，並把裡面資源包的 zip 拿出來。\n\n下載此次合併請求測試用翻譯包：\n`;
             for (const art of artifacts) {
               body += `\n* [${art.name}.zip](https://nightly.link/${owner}/${repo}/actions/artifacts/${art.id}.zip)`;
             }
