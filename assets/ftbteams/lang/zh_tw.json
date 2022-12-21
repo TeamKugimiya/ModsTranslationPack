@@ -17,6 +17,7 @@
 	"ftbteams.owner_cant_leave": "在離開隊伍之前，你必須先轉讓隊伍的所有權！",
 	"ftbteams.cant_kick_owner": "無法踢出隊伍的所有者！",
 	"ftbteams.api_override": "在這個模組包中，你只能透過物品欄中的「我的隊伍」按鈕建立隊伍！",
+	"ftbteams.missing_data": "無法從伺服器接收隊伍資訊！\nFTB 隊伍將無法正常運作。\n請檢查伺服器記錄檔來確認錯誤，並確保伺服器的線上模式（online mode）為啟用狀態。",
 	"sidebar_button.ftbteams.my_team": "我的隊伍",
 	"ftbteamsconfig": "隊伍屬性",
 	"ftbteamsconfig.ftbteams": "基本隊伍屬性",
