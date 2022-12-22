@@ -1,0 +1,31 @@
+{
+  "itemGroup.merequester": "ME 合成請求器",
+  
+  "item.merequester.requester_terminal": "ME 合成請求終端機",
+  "block.merequester.requester": "ME 合成請求器",
+  
+  "gui.merequester.requester_terminal": "ME 合成請求終端機",
+  "gui.merequester.no_requesters": "未找到 ME 合成請求器！",
+  
+  "tooltip.merequester.requester_desc": "當需要時自動透過請求新一批合成，維持系統內的物品或流體庫存量。必須被連接到 ME 網路，可透過 ME 合成請求終端機遠端存取。",
+  
+  "tooltip.merequester.shift_for_more": "按住 %s 取得更多資訊",
+  "tooltip.merequester.enter_to_submit": "按下 %s 提交",
+  
+  "tooltip.merequester.whole_number": "必須為整數！",
+  "tooltip.merequester.locked": "已鎖定！請求正在進行。",
+  
+  "tooltip.merequester.toggle": "開關請求",
+  "tooltip.merequester.amount": "庫存數量",
+  "tooltip.merequester.batch": "批次大小",
+  "tooltip.merequester.submit": "提交變更",
+  "tooltip.merequester.status": "請求狀態",
+  
+  "tooltip.merequester.idle": "閒置中",
+  "tooltip.merequester.idle_desc": "當請求數量已達成、目標物品或流體沒有編寫樣板，或網路內沒有足夠原料時，請求器將會進入閒置狀態。",
+  "tooltip.merequester.link": "合成中",
+  "tooltip.merequester.link_desc": "系統正在合成請求的目標物品或流體。",
+  "tooltip.merequester.export": "輸出中",
+  "tooltip.merequester.export_desc": "請求器正在嘗試將合成產物輸出至系統中。若請求器長時間處於此狀態，表示系統沒有可用的空間可以輸出。"
+  }
+  
