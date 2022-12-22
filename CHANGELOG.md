@@ -1,5 +1,53 @@
 # Changelog
 
+## [1.7.3](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.2...v1.7.3) (2022-12-22)
+
+
+### 📑 文件更新
+
+* 更新模組資訊 ([3713c65](https://github.com/xMikux/ModsTranslationPack/commit/3713c65d9179f0d6944ffc3c3e821c0cac2c62b2))
+
+
+### 🧰 重構
+
+* **ci:** 改進工作流程，重構覆蓋腳本 ([#65](https://github.com/xMikux/ModsTranslationPack/issues/65)) ([d1e16ec](https://github.com/xMikux/ModsTranslationPack/commit/d1e16eca0bf2cfb3f1db781cee75a9470f74577d))
+
+
+### ☁️ 持續整合 / 持續佈署
+
+* 修正 PR 的 comment 疊字字 ([caf513d](https://github.com/xMikux/ModsTranslationPack/commit/caf513d5f01c50c09bad198a4ca63cf18f52fbc9))
+* 修正一個錯誤 ([ca73155](https://github.com/xMikux/ModsTranslationPack/commit/ca73155d3ba106fa9e09240ad6c2f7fe0852e7a3))
+* 新增螯蝦先生的家具模組覆蓋 ([#67](https://github.com/xMikux/ModsTranslationPack/issues/67)) ([f7aa9ab](https://github.com/xMikux/ModsTranslationPack/commit/f7aa9abd700b16b693e8352587628be469a8987a))
+* 新增食譜烹飪模組覆蓋 ([f7aa9ab](https://github.com/xMikux/ModsTranslationPack/commit/f7aa9abd700b16b693e8352587628be469a8987a))
+* 更新 Fork 無法自動提供測試翻譯包訊息 ([649aeba](https://github.com/xMikux/ModsTranslationPack/commit/649aeba9f6727b92ce7f0c336ddf5e6596e33bbf))
+* 更新 Tinker 覆蓋 ([ffb73e1](https://github.com/xMikux/ModsTranslationPack/commit/ffb73e11bb8b789494c0dbeb91a429733d5a5939))
+* 調整一些 PR 訊息資訊 ([388b83e](https://github.com/xMikux/ModsTranslationPack/commit/388b83e7a7420ae71133ab233625d0cd4f9ef3f1))
+* 調整工作流程，避免 Fork 的專案誤觸 ([ff16fbf](https://github.com/xMikux/ModsTranslationPack/commit/ff16fbfaeac12a4bf0ca8b9faf6450f35e8875a9))
+
+
+### 🌐 用語在地化
+
+* **Applied Energistics 2:** 組件 -&gt; 元件 ([#77](https://github.com/xMikux/ModsTranslationPack/issues/77)) ([09ba8b7](https://github.com/xMikux/ModsTranslationPack/commit/09ba8b796e8745334daedef9f7234237a3b01029))
+
+
+### 🐌 更新模組翻譯
+
+* **FTB Chunks:** 更新 3.12 內容翻譯 ([#71](https://github.com/xMikux/ModsTranslationPack/issues/71)) ([c72c4e3](https://github.com/xMikux/ModsTranslationPack/commit/c72c4e37ef7a084c95b044f6e9b493f71bf33bd8))
+* **FTB Quests:** 更新 3.11 內容翻譯 ([#72](https://github.com/xMikux/ModsTranslationPack/issues/72)) ([e5dfe17](https://github.com/xMikux/ModsTranslationPack/commit/e5dfe17f4a7386b91cbfa1633a43724015c4986e))
+* **FTB Teams:** 更新 2.9 內容翻譯 ([#70](https://github.com/xMikux/ModsTranslationPack/issues/70)) ([17ab46e](https://github.com/xMikux/ModsTranslationPack/commit/17ab46e0cee9a6cdd34a0d59881ae4fc5325efb6))
+* **Gadgets Against Grind:** 更新 1.1.0 內容翻譯 ([#74](https://github.com/xMikux/ModsTranslationPack/issues/74)) ([31d588d](https://github.com/xMikux/ModsTranslationPack/commit/31d588d9165b9be2f275baf9c74dc5e9eb7dc4e2))
+* **Iron Furnaces:** 更新 3.3.3 內容翻譯 ([#73](https://github.com/xMikux/ModsTranslationPack/issues/73)) ([6c87316](https://github.com/xMikux/ModsTranslationPack/commit/6c87316ab513e8624a0a6af48e22b0421ec3ed36))
+* **Luggage:** 更新 1.5.2 內容翻譯 ([#76](https://github.com/xMikux/ModsTranslationPack/issues/76)) ([dae7e50](https://github.com/xMikux/ModsTranslationPack/commit/dae7e508205f8dc9a9d0f4b6713ecd228c99629a))
+* **Sodium Extra:** 同步更新 Crowdin 翻譯 ([#66](https://github.com/xMikux/ModsTranslationPack/issues/66)) ([8a72062](https://github.com/xMikux/ModsTranslationPack/commit/8a7206249bdecb4d9782699ca1f27efffb62d2c2))
+
+
+### ⚡ 新增模組翻譯
+
+* **Fabric Resource:** 新增 Fabric 的部分翻譯 ([#69](https://github.com/xMikux/ModsTranslationPack/issues/69)) ([f055a55](https://github.com/xMikux/ModsTranslationPack/commit/f055a557fe33a2b29f49cf8abb8f4b4df4c8fb64))
+* **Iron Jetpacks:** 鐵製噴射背包 ([#68](https://github.com/xMikux/ModsTranslationPack/issues/68)) ([1b067ac](https://github.com/xMikux/ModsTranslationPack/commit/1b067ac80a60d7d8792d4e21119fae4453c94804))
+* **ME Requester:** 新增 ME 合成請求器 1.0.2 翻譯 ([#75](https://github.com/xMikux/ModsTranslationPack/issues/75)) ([bae48f5](https://github.com/xMikux/ModsTranslationPack/commit/bae48f5b12a29b45d8de49ad73f63754af5ddb8c))
+* **Mythic Botany:** 神話植物學 ([#63](https://github.com/xMikux/ModsTranslationPack/issues/63)) ([debad02](https://github.com/xMikux/ModsTranslationPack/commit/debad02bf45360b5d6d0d2b1b5490d5fd7eb2202))
+
 ## [1.7.2](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.1...v1.7.2) (2022-12-06)
 
 
