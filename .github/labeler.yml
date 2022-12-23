@@ -1,0 +1,33 @@
+enable:
+  issues: false
+  prs: true
+
+comments:
+  # issues: |
+  #   Thanks for opening this issue!
+  #   I have applied any labels matching special text in your title and description.
+
+  #   Please review the labels and make any necessary changes.
+  prs: |
+    感謝貢獻！❤️
+    我已依照你的合併請求資訊來自動標籤。（標題與內容）
+
+    請檢查標籤如果有任何需要改變的。
+
+labels:
+  "✨ 新增翻譯":
+    include:
+      - "\bmods_feat?\b"
+    exclude: []
+  "🔧 修正翻譯":
+    include:
+      - "\bmods_fix\b"
+    exclude: []
+  "🆙 更新翻譯":
+    include:
+      - "\bmods_update\b"
+    exclude: []
+  "🔪 用語在地化":
+    include:
+      - "\bmods_localize\b"
+    exclude: []

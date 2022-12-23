@@ -1,0 +1,7 @@
+"🌐 翻譯":
+- assets/**
+
+"☁️ 工作流程":
+- .github/workflows/*
+- .github/scripts/*
+- .github/configs/*
