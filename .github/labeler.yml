@@ -17,17 +17,17 @@ comments:
 labels:
   "✨ 新增翻譯":
     include:
-      - "\bmods_feat?\b"
+      - "mods_feat"
     exclude: []
   "🔧 修正翻譯":
     include:
-      - "\bmods_fix\b"
+      - "mods_fix"
     exclude: []
   "🆙 更新翻譯":
     include:
-      - "\bmods_update\b"
+      - "mods_update"
     exclude: []
   "🔪 用語在地化":
     include:
-      - "\bmods_localize\b"
+      - "mods_localize"
     exclude: []
