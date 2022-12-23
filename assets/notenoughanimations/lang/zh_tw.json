@@ -12,7 +12,7 @@
     "text.nea.enable.horseanimation": "騎馬動畫",
     "text.nea.enable.dontholditemsinbed": "不在睡覺時拿著物品",
     "text.nea.enable.freezearmsinbed": "不在睡覺時移動",
-    "text.nea.rotationlock": "旋轉鎖",
+    "text.nea.rotationlock": "頭部擺動鎖定",
     "text.nea.rotationlock.NONE": "無",
     "text.nea.rotationlock.FIXED": "固定",
     "text.nea.rotationlock.SMOOTH": "平滑",
