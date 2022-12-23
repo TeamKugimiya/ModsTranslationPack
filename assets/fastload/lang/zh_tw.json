@@ -1,0 +1,28 @@
+{
+  "fastload.screen.buildingTerrain.template": "已完成／目標",
+  "fastload.screen.buildingTerrain.building": "正在建構可見區塊",
+  "fastload.screen.buildingTerrain.preparing": "正準備所有區塊",
+
+  "fastload.screen.config": "快速載入設定",
+
+  "fastload.button.debug": "除錯模式",
+  "fastload.button.debug.tooltip": "要將除錯模式的訊息在記錄檔中顯示嗎？",
+
+  "fastload.button.close_loading_screen_unsafely": "關閉載入畫面",
+  "fastload.button.close_loading_screen_unsafely.tooltip": "快速載入模組應該提前關掉「正在載入地形」的畫面，即使它稍微有點不安全？",
+
+  "fastload.button.pre_render_radius": "預先繪製半徑",
+  "fastload.button.pre_render_radius.tooltip": "在預先繪製過程中，應該在多少半徑內準備和建構多少區塊？受到繪製距離限制",
+  "fastload.button.pre_render_radius.min": "停用",
+  "fastload.button.pre_render_radius.max": "為何？",
+
+  "fastload.button.pregen_chunk_radius": "預先生成半徑",
+  "fastload.button.pregen_chunk_radius.tooltip": "半徑多少區塊應在伺服器上生成直到完成。應與預先繪製半徑成相反來獲得最佳效能",
+  "fastload.button.pregen_chunk_radius.min": "Ksyxis",
+  "fastload.button.pregen_chunk_radius.max": "Chunky",
+
+  "fastload.button.chunk_try_limit": "區塊嘗試限制",
+  "fastload.button.chunk_try_limit.tooltip": "在結束預先繪製前，允許連續返回多少次相同區塊",
+  "fastload.button.chunk_try_limit.min": "NASA 般的電腦",
+  "fastload.button.chunk_try_limit.max": "無限"
+}
