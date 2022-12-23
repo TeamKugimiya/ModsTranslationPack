@@ -1,0 +1,75 @@
+{
+    "itemGroup.solargeneration_tab": "太陽能發電機組",
+  
+    "item.solargeneration.solar_core_advanced": "高級太陽能核心",
+    "item.solargeneration.solar_core_hardened": "硬化太陽能核心",
+    "item.solargeneration.solar_core_leadstone": "鉛石太陽能核心",
+    "item.solargeneration.solar_core_redstone": "紅石太陽能核心",
+    "item.solargeneration.solar_core_resonant": "諧振太陽能核心",
+    "item.solargeneration.solar_core_signalum": "信素太陽能核心",
+    "item.solargeneration.solar_core_ultimate": "終極太陽能核心",
+  
+    "item.solargeneration.solar_helmet_advanced": "高級太陽能頭盔",
+    "item.solargeneration.solar_helmet_hardened": "硬化太陽能頭盔",
+    "item.solargeneration.solar_helmet_leadstone": "鉛石太陽能頭盔",
+    "item.solargeneration.solar_helmet_redstone": "紅石太陽能頭盔",
+    "item.solargeneration.solar_helmet_resonant": "諧振太陽能頭盔",
+    "item.solargeneration.solar_helmet_signalum": "信素太陽能頭盔",
+    "item.solargeneration.solar_helmet_ultimate": "終極太陽能頭盔",
+  
+    "item.solargeneration.lapis_shard": "青金石碎片",
+    "item.solargeneration.photovoltaic_cell": "太陽能電池",
+  
+    "block.solargeneration.solar_panel_advanced": "高級太陽能板",
+    "block.solargeneration.solar_panel_hardened": "硬化太陽能板",
+    "block.solargeneration.solar_panel_leadstone": "鉛石太陽能板",
+    "block.solargeneration.solar_panel_redstone": "紅石太陽能板",
+    "block.solargeneration.solar_panel_resonant": "諧振太陽能板",
+    "block.solargeneration.solar_panel_signalum": "信素太陽能板",
+    "block.solargeneration.solar_panel_ultimate": "終極太陽能板",
+  
+    "advancements.solargeneration.root": "太陽能發電機組",
+    "advancements.solargeneration.root.desc": "透過合成太陽能電池，開始你的太陽能之旅。",
+  
+    "advancements.solargeneration.solar_panel_leadstone": "從基礎開始",
+    "advancements.solargeneration.solar_panel_leadstone.desc": "製作鉛石太陽能板。",
+    "advancements.solargeneration.solar_panel_hardened": "一大於八",
+    "advancements.solargeneration.solar_panel_hardened.desc": "製作硬化太陽能板。",
+    "advancements.solargeneration.solar_panel_redstone": "能量還遠遠不足",
+    "advancements.solargeneration.solar_panel_redstone.desc": "製作紅石太陽能板。",
+    "advancements.solargeneration.solar_panel_signalum": "尋找訊號",
+    "advancements.solargeneration.solar_panel_signalum.desc": "製作信素太陽能板。",
+    "advancements.solargeneration.solar_panel_resonant": "能量升級",
+    "advancements.solargeneration.solar_panel_resonant.desc": "製作諧振太陽能板。",
+    "advancements.solargeneration.solar_panel_advanced": "總統級能量",
+    "advancements.solargeneration.solar_panel_advanced.desc": "製作高級太陽能板。",
+    "advancements.solargeneration.solar_panel_ultimate": "陽光，掌握於手！",
+    "advancements.solargeneration.solar_panel_ultimate.desc": "製作終極太陽能板。",
+  
+    "advancements.solargeneration.solar_helmet_leadstone": "戴在頭上！",
+    "advancements.solargeneration.solar_helmet_leadstone.desc": "製作鉛石太陽能頭盔。",
+    "advancements.solargeneration.solar_helmet_hardened": "八合一頭盔",
+    "advancements.solargeneration.solar_helmet_hardened.desc": "製作硬化太陽能頭盔。",
+    "advancements.solargeneration.solar_helmet_redstone": "電子大腦",
+    "advancements.solargeneration.solar_helmet_redstone.desc": "製作紅石太陽能頭盔。",
+    "advancements.solargeneration.solar_helmet_signalum": "腦袋訊號",
+    "advancements.solargeneration.solar_helmet_signalum.desc": "製作信素太陽能頭盔。",
+    "advancements.solargeneration.solar_helmet_resonant": "諧振旋律",
+    "advancements.solargeneration.solar_helmet_resonant.desc": "製作諧振太陽能頭盔。",
+    "advancements.solargeneration.solar_helmet_advanced": "新潮的皇冠",
+    "advancements.solargeneration.solar_helmet_advanced.desc": "製作高級太陽能頭盔。",
+    "advancements.solargeneration.solar_helmet_ultimate": "終極頭盔",
+    "advancements.solargeneration.solar_helmet_ultimate.desc": "製作終極太陽能頭盔。",
+  
+    "message.solargeneration.hold_shift": "按住 @b@oShift @7查看更多資訊",
+  
+    "message.solargeneration.hold_ctrl": "按住 @b@oCtrl @7查看目前儲電量",
+  
+    "message.solargeneration.shift_info": "@f發電量：@a%d @4FE/t\n@f傳輸速率：@a%d @4FE/t\n@f最大儲電量：@a%d @4FE",
+  
+    "message.solargeneration.ctrl_info": "@f儲電量：@a%d @4FE",
+  
+    "gui.solargeneration.stored_energy": "儲電量：",
+    "gui.solargeneration.max_capacity": "最大儲電量：",
+    "gui.solargeneration.generation": "發電量："
+  }
