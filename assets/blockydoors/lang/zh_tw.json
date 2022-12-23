@@ -1,0 +1,35 @@
+{ 
+	"block.blockydoors.door_stone":"石門",
+	"block.blockydoors.door_cobblestone":"鵝卵石門",
+	"block.blockydoors.door_blackstone":"黑石門",
+	"block.blockydoors.door_granite":"花崗岩門",
+	"block.blockydoors.door_andesite":"安山岩門",
+	"block.blockydoors.door_diorite":"閃長岩門",
+	"block.blockydoors.door_bricks":"紅磚門",
+	"block.blockydoors.door_prismarine":"海磷石門",
+	"block.blockydoors.door_purpur":"紫珀方塊門",
+	"block.blockydoors.door_sandstone":"砂岩門",
+	"block.blockydoors.door_red_sandstone":"紅砂岩門",
+	"block.blockydoors.door_quartz":"石英方塊門",
+	"block.blockydoors.door_smooth_stone":"平滑石門",
+	"block.blockydoors.door_mossy_cobblestone":"青苔鵝卵石門",
+	"block.blockydoors.door_stone_bricks":"石磚門",
+	"block.blockydoors.door_netherrack":"地獄石門",
+	"block.blockydoors.door_nether_bricks":"地獄磚門",
+	"block.blockydoors.door_red_mushroom":"紅色蘑菇門",
+	"block.blockydoors.door_brown_mushroom":"棕色蘑菇門",
+	"block.blockydoors.door_end_stone":"終界石門",
+	
+	"block.blockydoors.door_obsidian":"黑曜石門",
+	"block.blockydoors.door_mossy_stone_bricks":"青苔石磚門",
+	"block.blockydoors.door_cracked_stone_bricks":"裂紋石磚門",
+	"block.blockydoors.door_end_stone_bricks":"終界石磚門",
+	"block.blockydoors.door_polished_blackstone_bricks":"拋光黑石磚門",
+	"block.blockydoors.door_red_nether_bricks":"紅地獄磚門",
+	"block.blockydoors.door_prismarine_bricks":"海磷石磚門",
+	"block.blockydoors.door_dark_prismarine":"暗海磷石門",
+	
+	
+	
+	"itemGroup.blockydoors":"石製方塊門"
+}
