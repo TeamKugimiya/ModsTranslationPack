@@ -1,0 +1,36 @@
+{ 
+	"block.blockydoors.door_stone":"Stone Door",
+	"block.blockydoors.door_cobblestone":"Cobblestone Door",
+	"block.blockydoors.door_blackstone":"Blackstone Door",
+	"block.blockydoors.door_granite":"Granite Door",
+	"block.blockydoors.door_andesite":"Andesite Door",
+	"block.blockydoors.door_diorite":"Diorite Door",
+	"block.blockydoors.door_bricks":"Bricks Door",
+	"block.blockydoors.door_prismarine":"Prismarine Door",
+	"block.blockydoors.door_purpur":"Purpur Door",
+	"block.blockydoors.door_sandstone":"Sandstone Door",
+	"block.blockydoors.door_red_sandstone":"Red Sandstone Door",
+	"block.blockydoors.door_quartz":"Quartz Door",
+	"block.blockydoors.door_smooth_stone":"Smoothstone Door",
+	"block.blockydoors.door_mossy_cobblestone":"Mossy Cobblestone Door",
+	"block.blockydoors.door_stone_bricks":"Stone Bricks Door",
+	"block.blockydoors.door_netherrack":"Netherrack Door",
+	"block.blockydoors.door_nether_bricks":"Nether Bricks Door",
+	"block.blockydoors.door_red_mushroom":"Red Mushroom Door",
+	"block.blockydoors.door_brown_mushroom":"Brown Mushroom Door",
+	"block.blockydoors.door_end_stone":"Endstone Door",
+	
+	"block.blockydoors.door_obsidian":"Obsidian Door",
+	"block.blockydoors.door_mossy_stone_bricks":"Mossy Stone Brick Door",
+	"block.blockydoors.door_cracked_stone_bricks":"Cracked Stone Brick Door",
+	"block.blockydoors.door_end_stone_bricks":"Endstone Door",
+	"block.blockydoors.door_polished_blackstone_bricks":"Blackstone Brick Door",
+	"block.blockydoors.door_red_nether_bricks":"Red Netherbrick Door",
+	"block.blockydoors.door_prismarine_bricks":"Prismarine Door",
+	"block.blockydoors.door_dark_prismarine_bricks":"Dark Prismarine Door",
+	"block.blockydoors.door_end_dark_prismarine":"Dark Prismarine Door",
+	
+	
+	
+	"itemGroup.blockydoors":"Blocky Doors"
+}
