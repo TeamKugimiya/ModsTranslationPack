@@ -15,13 +15,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Info Labeler
+        uses: jimschubert/labeler-action@v2
+        with:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
       - name: Path Labeler
         uses: actions/labeler@v4
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           configuration-path: ".github/configs/labeler.yml"
-
-      - name: Info Labeler
-        uses: jimschubert/labeler-action@v2
-        with:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
