@@ -9,7 +9,7 @@
   "fastload.button.debug.tooltip": "要將除錯模式的訊息在記錄檔中顯示嗎？",
 
   "fastload.button.close_loading_screen_unsafely": "關閉載入畫面",
-  "fastload.button.close_loading_screen_unsafely.tooltip": "快速載入模組應該提前關掉「正在載入地形」的畫面，即使它稍微有點不安全？",
+  "fastload.button.close_loading_screen_unsafely.tooltip": "Fastload 是否應該提前關掉「正在載入地形」的畫面，即使會有點不安全？",
 
   "fastload.button.pre_render_radius": "預先繪製半徑",
   "fastload.button.pre_render_radius.tooltip": "在預先繪製過程中，應該在多少半徑內準備和建構多少區塊？受到顯示距離限制",
