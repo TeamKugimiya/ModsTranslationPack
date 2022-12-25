@@ -392,6 +392,9 @@ main_override 1 "CoFHCore" "https://raw.githubusercontent.com/CoFH/CoFHCore/1.18
 ## ThermalFoundation
 main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "" "thermal" 
 
+## Alchemistry
+main_override 1 "Alchemistry" "https://raw.githubusercontent.com/SmashingMods/Alchemistry/1.18.x/src/main/resources/assets/alchemistry/lang/zh_tw.json" "" "alchemistry" 
+
 # Finish echo
 
 echo "✅ 完成所有模組覆蓋執行！"
