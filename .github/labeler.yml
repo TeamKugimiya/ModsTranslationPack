@@ -19,13 +19,17 @@ labels:
     include:
       - "mods_feat"
     exclude: []
+  "🆙 更新翻譯":
+    include:
+      - "mods_update"
+    exclude: []
   "🔧 修正翻譯":
     include:
       - "mods_fix"
     exclude: []
-  "🆙 更新翻譯":
+  "💪 提升翻譯品質":
     include:
-      - "mods_update"
+      - "mods_improve"
     exclude: []
   "🔪 用語在地化":
     include:
