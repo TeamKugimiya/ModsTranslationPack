@@ -288,7 +288,9 @@
 
 以下列出已覆蓋的模組和來源：
 
+- [Alchemistry](https://github.com/SmashingMods/Alchemistry)
 - [CoFHCore](https://github.com/CoFH/CoFHCore/tree/1.18.2)
+- [Cooking for Blockheads](https://grant88.pixnet.net/blog/post/44752177)
 - [Dynamic FPS](https://github.com/juliand665/Dynamic-FPS/)
 - [Immersive Engineering](https://forum.gamer.com.tw/C.php?bsn=18673&snA=196127)
 - [Macaw's Bridges](https://grant88.pixnet.net/blog/post/45187324)
@@ -298,11 +300,10 @@
 - [Macaw's Roofs](https://grant88.pixnet.net/blog/post/44817796)
 - [Macaw's Trapdoors](https://grant88.pixnet.net/blog/post/45161058)
 - [Macaw's Windows](https://grant88.pixnet.net/blog/post/45185898)
+- [MrCrayfish's Furniture Mod](https://grant88.pixnet.net/blog/post/40862752)
 - [Productive Bees](https://grant88.pixnet.net/blog/post/44935344)
 - [Quark](https://grant88.pixnet.net/blog/post/44988448)
 - [Simply Light](https://grant88.pixnet.net/blog/post/44360632)
 - [Supplementaries](https://grant88.pixnet.net/blog/post/45034372)
 - [ThermalFoundation](https://github.com/CoFH/ThermalFoundation/tree/1.18.2)
 - [Tinkers' Construct](https://grant88.pixnet.net/blog/post/41564042)
-- [MrCrayfish's Furniture Mod](https://grant88.pixnet.net/blog/post/40862752)
-- [Cooking for Blockheads](https://grant88.pixnet.net/blog/post/44752177)
