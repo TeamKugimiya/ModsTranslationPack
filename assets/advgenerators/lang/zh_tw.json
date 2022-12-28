@@ -106,7 +106,7 @@
     "advgenerators.label.energy.output": "%s %s/t",
     "advgenerators.waila.turbine.nofuel": "沒有燃料",
     "advgenerators.waila.turbine.nosteam": "沒有蒸汽",
-    "advgenerators.waila.turbine.consuming": "正在消耗%s %s/t",
+    "advgenerators.waila.turbine.consuming": "正在消耗 %s %s/t",
     "advgenerators.waila.turbine.producing": "正在生產 %s %s/t",
     "advgenerators.flow.fluid": "%s mB/t",
     "advgenerators.flow.other": "%s/t",
