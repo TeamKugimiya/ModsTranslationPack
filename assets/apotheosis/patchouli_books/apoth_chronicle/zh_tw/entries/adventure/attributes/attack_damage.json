@@ -1,0 +1,17 @@
+{
+    "name": "攻擊傷害",
+    "icon": "minecraft:diamond_sword",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)攻擊傷害$()是控制你攻擊時能造成多少傷害的屬性。$(p)該屬性通常由武器提供。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "$(9)$(n)基礎值：$()1$(p)$(9)$(n)上限值：$()1024"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Boss 地牢",
+    "icon": "minecraft:spawner",
+    "category": "apotheosis:adventure/bosses",
+	"flag": "apotheosis:adventure",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "在古代洞穴的最深處中，存在著一種隱藏結構，裡面潛藏著不為人知的詞綴力量。如果這股力量能夠免費到手的話，那麼將是令人歡迎的驚喜。然而遺憾的是，他們被 Boss 守護著。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "在地底下能找到與普通地牢稍微不一樣的結構，稱作「Boss 地牢」。這類地牢中都有一個 Boss 生怪磚，以及一些戰利品箱。當你靠近那地牢時，將會觸動裡頭的生怪磚，並釋放出看守於此的 Boss。"
+		}
+	]
+}

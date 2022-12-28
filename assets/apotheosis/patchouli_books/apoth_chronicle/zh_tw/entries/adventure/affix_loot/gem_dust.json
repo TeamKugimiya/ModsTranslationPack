@@ -1,0 +1,15 @@
+{
+    "name": "寶石粉",
+    "icon": "apotheosis:gem_dust",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 2,
+    "pages": [
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:gem_dust",
+			"link_recipe": true,
+            "text": "所有種類的神化寶石，都能夠被粉碎處理成$(9)寶石粉$()。$(p)具體來說，他們必須在世界上，使用墜落的鐵砧粉碎。"
+        }
+	]
+}

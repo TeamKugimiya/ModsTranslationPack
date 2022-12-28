@@ -1,0 +1,17 @@
+{
+    "name": "目前生命傷害",
+    "icon": "minecraft:dragon_head",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)目前生命傷害$()是一種命中特效傷害。每命中一次目標，你將會額外造成對方目前生命值的一定百分比傷害。$(p)該屬性僅能在重型武器上找到。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "$(9)$(n)基礎值：$()1$(p)$(9)$(n)上限值：$()1024$(p)備註：其值為 1.0 時，表示額外造成 0% 目前生命傷害，一旦基礎值為 0，百分比傷害加成將變得無效，普通傷害加成也將無法正常套用。"
+		}
+	]
+}
