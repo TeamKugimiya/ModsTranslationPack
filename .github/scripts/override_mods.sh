@@ -370,7 +370,7 @@ main_override 3 "Macaw's Furniture" "https://www.mediafire.com/file/cfvsk3q0rq1u
 main_override 3 "Macaw's Windows" "https://www.mediafire.com/file/0rg7xgvj71v4hhg/mcw-windows-2.0.3-mc1.19-tw.jar" "mcw-windows-2.0.3-mc1.19-tw.jar" "mcwwindows" 2
 
 ## Simply Light
-main_override 3 "Simply Light" "https://www.mediafire.com/file/zoo24n15x9lrdlq/simplylight-1.19-1.4.2-build.35-tw.jar" "simplylight-1.19-1.4.2-build.35-tw.jar" "simplylight" 2
+main_override 3 "Simply Light" "https://www.mediafire.com/file/vcozdmfxucxdfn1/simplylight-1.19.3-1.4.5-build.46-tw.jar" "simplylight-1.19.3-1.4.5-build.46-tw.jar" "simplylight" 2
 
 ## Supplementaries
 main_override 3 "Supplementaries" "https://www.mediafire.com/file/lu2bxls9485h9i7/supplementaries-1.19.2-2.2.22-tw.jar" "supplementaries-1.19.2-2.2.22-tw.jar" "supplementaries" 2
