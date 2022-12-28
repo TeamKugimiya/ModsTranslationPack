@@ -1,0 +1,17 @@
+{
+    "name": "攻擊範圍",
+    "icon": "minecraft:skeleton_skull",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)攻擊範圍$()決定你的近戰武器可攻擊到目標的最遠距離。$(p)該屬性一般可在武器上找到。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "$(9)$(n)基礎值：$()3.0$(p)$(9)$(n)上限值：$()1024$(p)"
+		}
+	]
+}

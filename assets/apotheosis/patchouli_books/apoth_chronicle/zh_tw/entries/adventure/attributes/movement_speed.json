@@ -1,0 +1,17 @@
+{
+    "name": "移動速度",
+    "icon": "minecraft:leather_boots",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)移動速度$()表示你每秒可移動的方塊距離。$(p)任何物品都有機會被賦予這個屬性。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "$(9)$(n)基礎值：$()0.7$(p)$(9)$(n)上限值：$()1024"
+		}
+	]
+}

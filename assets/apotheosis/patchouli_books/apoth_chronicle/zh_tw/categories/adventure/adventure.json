@@ -1,0 +1,6 @@
+{
+    "name": "冒險模組",
+    "description": "過去曾經稱為$(4)死亡模組$()，冒險模組會透過程序化生成戰利品，玩家裝備這些物品時，能獲得強大的增益效果。$(p)但要注意，新的敵人也出現了。",
+    "icon": "minecraft:netherite_sword",
+	"flag": "apotheosis:adventure"
+}

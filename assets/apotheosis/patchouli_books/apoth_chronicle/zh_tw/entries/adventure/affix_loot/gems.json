@@ -1,0 +1,40 @@
+{
+    "name": "寶石",
+    "icon": "apotheosis:gem",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)寶石$()是一種匯聚力量的水晶。$(p)當被鑲嵌在詞綴物品上時，寶石能提供裝備強大的屬性增益。"
+        },
+		{
+			"type": "patchouli:text",
+			"title": "取得寶石",
+			"text": "寶石除了可在野外的戰利品箱中找到，殺死生物時也會低機率掉落。然而，為了取得寶石，玩家必須要親手殺死生物，不得是機器或其他自動化設備。$(p)寶石比較容易從 Boss 身上取得。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "鑲嵌寶石",
+			"text": "要將寶石鑲嵌在物品上，必須在鍛造台上進行組裝作業。$(p)將詞綴物品放在鍛造台的左側欄位，然後將寶石放在右側欄位。$(p)寶石不需要被放置在「符合用途」的物品上，當物品被使用時，將會提供他們的增益效果。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "摘除寶石",
+			"text": "從物品上摘除寶石，原先會是件困難的差事，所幸一些聰明的煉金術士想出了解決辦法。$(p)他們的筆記，已詳細地記載在接下來的頁數中。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:vial_of_expulsion",
+			"title": "熾炎驅逐",
+			"text": "將鑲嵌寶石的物品與$(9)熾炎驅逐劑$()依序放入鍛造台中，能夠將物品上的寶石摘除，但摘除的過程中寶石將會損毀。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:vial_of_extraction",
+			"title": "奧術提取",
+			"text": "將鑲嵌寶石的物品與$(9)奧術提取劑$()依序放入鍛造台中，能夠將物品上的寶石摘除，但摘除的過程中物品將會損毀。"
+		}
+	]
+}
