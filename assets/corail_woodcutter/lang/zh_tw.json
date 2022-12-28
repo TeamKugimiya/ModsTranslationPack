@@ -42,7 +42,7 @@
   "stat.corail_woodcutter.interact_with_sawmill": "與鋸木台互動",
   "corail_woodcutter.command.usage": "在你的 config 資料夾中產生 Corail Woodcutter 模組格式的木製合成配方\n /woodcutter info\n /woodcutter datapack [generate|apply|remove] <modid>\n套用與移除可以在單人遊戲中使用，資料包必須先產生好再套用",
   "corail_woodcutter.message.datapack.generate.success": "已成功在你的 config 資料夾中產生資料包（%d 個配方）",
-  "corail_woodcutter.message.datapack.generate.fail": "未產生資料包：%s：%s",
+  "corail_woodcutter.message.datapack.generate.fail": "未產生資料包：%s",
   "corail_woodcutter.message.file.delete.fail": "無法刪除檔案：%s",
   "corail_woodcutter.message.file.write.fail": "無法寫入檔案：%s",
   "corail_woodcutter.message.file.copy.fail": "無法複製檔案：%s",
@@ -53,7 +53,7 @@
   "corail_woodcutter.message.invalid_modid": "無效 ModID",
   "corail_woodcutter.message.datapack.not_generated": "沒有為 ModID「%s」產生資料包",
   "corail_woodcutter.message.datapack.apply.success": "資料包已新增",
-  "corail_woodcutter.message.datapack.apply.fail": "無法套用資料包： %s",
+  "corail_woodcutter.message.datapack.apply.fail": "無法套用資料包：%s",
   "corail_woodcutter.message.datapack.remove.success": "資料包已移除",
   "corail_woodcutter.message.datapack.remove.absent": "資料包不存在",
   "corail_woodcutter.message.datapack.remove.fail": "未移除資料包：%s"
