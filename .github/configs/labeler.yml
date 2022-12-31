@@ -5,3 +5,7 @@
 - .github/workflows/*
 - .github/scripts/*
 - .github/configs/*
+
+"📃 文件":
+- docs/*
+- README.md
