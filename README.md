@@ -12,6 +12,7 @@
 [![Modrinth][modrinth-badge]][modrinth]
 [![License][CC BY-NC-ND 4.0]][main-license]
 [![Discord][discord-badge]][discord-invite]
+[![Stars][repo-stars]][github]
 
 <h3>一個包含了各式各樣的模組翻譯的資源包～ </h3>
 
@@ -100,8 +101,9 @@
 <!-- 徽章 -->
 [modrinth-badge]: https://img.shields.io/modrinth/dt/cF5VXmkW?label=%E4%B8%8B%E8%BC%89%E6%95%B8&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMSAxMSIgd2lkdGg9IjE0LjY2NyIgaGVpZ2h0PSIxNC42NjciICB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxkZWZzPjxjbGlwUGF0aCBpZD0iQSI%2BPHBhdGggZD0iTTAgMGgxMXYxMUgweiIvPjwvY2xpcFBhdGg%2BPC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNBKSI%2BPHBhdGggZD0iTTEuMzA5IDcuODU3YTQuNjQgNC42NCAwIDAgMS0uNDYxLTEuMDYzSDBDLjU5MSA5LjIwNiAyLjc5NiAxMSA1LjQyMiAxMWMxLjk4MSAwIDMuNzIyLTEuMDIgNC43MTEtMi41NTZoMGwtLjc1LS4zNDVjLS44NTQgMS4yNjEtMi4zMSAyLjA5Mi0zLjk2MSAyLjA5MmE0Ljc4IDQuNzggMCAwIDEtMy4wMDUtMS4wNTVsMS44MDktMS40NzQuOTg0Ljg0NyAxLjkwNS0xLjAwM0w4LjE3NCA1LjgybC0uMzg0LS43ODYtMS4xMTYuNjM1LS41MTYuNjk0LS42MjYuMjM2LS44NzMtLjM4N2gwbC0uMjEzLS45MS4zNTUtLjU2Ljc4Ny0uMzcuODQ1LS45NTktLjcwMi0uNTEtMS44NzQuNzEzLTEuMzYyIDEuNjUxLjY0NSAxLjA5OC0xLjgzMSAxLjQ5MnptOS42MTQtMS40NEE1LjQ0IDUuNDQgMCAwIDAgMTEgNS41QzExIDIuNDY0IDguNTAxIDAgNS40MjIgMCAyLjc5NiAwIC41OTEgMS43OTQgMCA0LjIwNmguODQ4QzEuNDE5IDIuMjQ1IDMuMjUyLjgwOSA1LjQyMi44MDljMi42MjYgMCA0Ljc1OCAyLjEwMiA0Ljc1OCA0LjY5MSAwIC4xOS0uMDEyLjM3Ni0uMDM0LjU2bC43NzcuMzU3aDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiM1ZGE0MjYiLz48L2c%2BPC9zdmc%2B&style=flat-square
 [release-badge]: https://img.shields.io/github/v/release/xMikux/ModsTranslationPack?label=%E7%99%BC%E4%BD%88%E7%89%88&logo=semanticrelease&style=flat-square
-[discord-badge]: https://img.shields.io/discord/947630690315411476?label=%E9%87%98%E5%AE%AE%E7%BF%BB%E8%AD%AF%E7%B5%84&logo=discord&style=flat-square
 <!-- [release_beta]: https://img.shields.io/github/downloads/xMikux/ModsTranslationPack/total?label=下載測試版&logo=DocuSign&style=for-the-badge -->
+[discord-badge]: https://img.shields.io/discord/947630690315411476?label=%E9%87%98%E5%AE%AE%E7%BF%BB%E8%AD%AF%E7%B5%84&logo=discord&style=flat-square
+[repo-stars]: https://img.shields.io/github/stars/xMikux/ModsTranslationPack?label=%E2%AD%90%E6%98%9F%E6%98%9F%E6%95%B8&style=flat-square
 
 <!-- 授權條款徽章 -->
 [CC BY-NC-ND 4.0]: https://img.shields.io/badge/授權條款-CC%20BY--NC--ND%204.0-orange?style=flat-square&logo=creativecommons
@@ -111,6 +113,7 @@
 [MIT]: https://img.shields.io/badge/授權條款-MIT-orange?style=flat-square
 
 <!-- 連結 -->
+[github]: https://github.com/xMikux/ModsTranslationPack
 [modrinth]: https://modrinth.com/resourcepack/modstranslationpack
 [release-latest]: https://github.com/xMikux/ModsTranslationPack/releases/latest
 <!-- [release-beta]: https://github.com/xMikux/ModsTranslationPack/releases/tag/latest -->
