@@ -11,7 +11,7 @@ echo ">>> 此步驟將會把一些已知的模組翻譯覆蓋掉"
 # java_path=$(which jar)
 java_home_path=${java_path:-$JAVA_HOME_17_X64/bin/jar}
 
-# home=$HOME/workspace/ModsTranslationPack
+# home=$HOME/workspace/ModsTranslationPack/test
 home_path=${home:-$GITHUB_WORKSPACE}
 
 ## Tools Install
@@ -73,8 +73,6 @@ verify_override_translate_exists () {
 
 ## Downloader Functions
 
-# Mega Downloader
-
 mega_downloader () {
     mods_name=$1
     download_link=$2
@@ -128,6 +126,10 @@ download_mode_chooser () {
         echo "📥 透過 MediaFire 下載 $mods_name..."
         mediafire_downloader "$mods_name" "$download_link"
         ;;
+      "3")
+        echo "📥 透過 Wget 下載 $mods_name..."
+        github_downloader "$mods_name" "$download_link"
+        ;;
       *)
         error
         ;;
@@ -176,6 +178,21 @@ zip_extractor () {
       echo "✅ 解壓縮成功！"
     else
       echo "❎ 解壓縮失敗！"
+    fi
+}
+
+# License Downloader
+
+license_downloader () {
+    mods_name=$1
+    license_link=$2
+
+    echo " 下載 $mods_name 授權條款..."
+    if wget -q "$license_link" -O "LICENSE_$mods_name"; then
+      echo "✅ 下載完成！"
+      echo "   "
+    else
+      echo "❎ 下載失敗！"
     fi
 }
 
@@ -303,6 +320,21 @@ main_override () {
         echo "🥖 $mods_name 覆蓋完成！"
         echo "   "
         ;;
+      "5")
+        echo "🥖 開始覆蓋 $mods_name"
+        echo "📁 新增暫存資料夾..."
+        workdir_path="$(mktemp -d)"
+        echo "🐌 移動至暫存資料夾 $workdir_path..."
+        cd "$workdir_path" || exit
+        download_mode_chooser "$download_mode" "$mods_name" "$mods_download_link"
+        zip_extractor "$mods_name" "$mods_file_name"
+        echo "🐌 回到主目錄"
+        home
+        echo "📁 移動翻譯資料夾"
+        cp -r "$workdir_path"/assets/* assets
+        echo "🥖 $mods_name 覆蓋完成！"
+        echo "   "
+        ;;
       *)
         error
       esac
@@ -357,7 +389,7 @@ main_override 4 "Tinkers' Construct" "https://www.mediafire.com/file/phlkrv5v30n
 main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE%E6%B2%89%E6%B5%B8%E5%B7%A5%E7%A8%8B%E6%BC%A2%E5%8C%96v1.1.zip" "IE沉浸工程漢化v1.1.zip" "immersiveengineering" 2
 
 ## Quark
-main_override 3 "Quark" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar" "quark" 2
+# main_override 3 "Quark" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar" "quark" 2
 
 ## Macaw's Mods
 
@@ -379,12 +411,13 @@ main_override 3 "Supplementaries" "https://www.mediafire.com/file/lu2bxls9485h9i
 main_override 3 "MrCrayfish's Furniture Mod" "https://www.mediafire.com/file/v6zk7kbq5nk74ne/cfm-7.0.0-pre34-mc1.19-tw.jar" "cfm-7.0.0-pre34-mc1.19-tw.jar" "cfm" 2
 
 ## Cooking for Blockheads
-main_override 3 "Cooking for Blockheads" "https://www.mediafire.com/file/ccvovat1e7klqv9/cookingforblockheads-forge-1.19-13.2.1-tw.jar" "cookingforblockheads-forge-1.19-13.2.1-tw.jar" "cookingforblockheads" 2
+main_override 3 "Cooking for Blockheads" "https://www.mediafire.com/file/q2lep7wvg3y3wft/cookingforblockheads-forge-1.19.3-14.0.1-tw.jar" "cookingforblockheads-forge-1.19.3-14.0.1-tw.jar" "cookingforblockheads" 2
 
 ### GitHub ###
 
 ## Dynamic FPS
 main_override 1 "Dynamic FPS" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json" "" "dynamicfps"
+license_downloader "DynamicFPS" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/LICENSE"
 
 ## CoFHCore
 main_override 1 "CoFHCore" "https://raw.githubusercontent.com/CoFH/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "" "cofh_core" 
@@ -392,8 +425,13 @@ main_override 1 "CoFHCore" "https://raw.githubusercontent.com/CoFH/CoFHCore/1.18
 ## ThermalFoundation
 main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "" "thermal" 
 
-## Alchemistry
+# ## Alchemistry
 main_override 1 "Alchemistry" "https://raw.githubusercontent.com/SmashingMods/Alchemistry/1.18.x/src/main/resources/assets/alchemistry/lang/zh_tw.json" "" "alchemistry" 
+license_downloader "Alchemistry" "https://raw.githubusercontent.com/SmashingMods/Alchemistry/1.18.x/LICENSE"
+
+## MMLP CN to ZW
+main_override 5 "MMLP CN to ZW" "https://github.com/TeamKugimiya/MMLP-CN-to-ZW/releases/download/latest/MMLP-CN-to-ZW.zip" "MMLP-CN-to-ZW.zip" "" 3
+license_downloader "MMLP-CN-to-ZW" "https://raw.githubusercontent.com/CFPAOrg/Minecraft-Mod-Language-Package/main/LICENSE"
 
 # Finish echo
 
