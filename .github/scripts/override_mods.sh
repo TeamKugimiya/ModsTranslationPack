@@ -187,7 +187,7 @@ license_downloader () {
     mods_name=$1
     license_link=$2
 
-    echo " 下載 $mods_name 授權條款..."
+    echo "🪪 下載 $mods_name 授權條款..."
     if wget -q "$license_link" -O "LICENSE_$mods_name"; then
       echo "✅ 下載完成！"
       echo "   "
