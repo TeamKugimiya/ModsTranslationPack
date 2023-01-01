@@ -96,6 +96,44 @@
 感謝以下貢獻者才能讓更多玩家體驗到完整的中文化模組體驗！
 
 <!-- readme: collaborators,contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/xMikux">
+            <img src="https://avatars.githubusercontent.com/u/26039249?v=4" width="100;" alt="xMikux"/>
+            <br />
+            <sub><b>Miku</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/StarskyXIII">
+            <img src="https://avatars.githubusercontent.com/u/71606873?v=4" width="100;" alt="StarskyXIII"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/MarginalPerson">
+            <img src="https://avatars.githubusercontent.com/u/59750952?v=4" width="100;" alt="MarginalPerson"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/rhuba8324">
+            <img src="https://avatars.githubusercontent.com/u/53090204?v=4" width="100;" alt="rhuba8324"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/JustSimplyKyle">
+            <img src="https://avatars.githubusercontent.com/u/68589851?v=4" width="100;" alt="JustSimplyKyle"/>
+            <br />
+            <sub><b>SimplyKyle!</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: collaborators,contributors -end -->
 
 <!-- 徽章 -->
