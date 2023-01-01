@@ -59,6 +59,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           force_include_files: |
             LICENSE
+            LICENSE_*
             assets/tconstruct/book/**/zh_tw/*.lang
             assets/immersiveengineering/manual/zh_tw/*.txt
           never_store_squash_times: true
