@@ -1,0 +1,68 @@
+{
+    "itemGroup.redstone_arsenal": "紅石兵工廠",
+  
+    "info.redstone_arsenal.mode.0": "已休眠",
+    "info.redstone_arsenal.mode.1": "已充能",
+  
+    "death.attack.flux": "%2$s 的通量令 %1$s 不知所措！",
+    "death.attack.flux.item": "%1$s 被 %2$s 用 %3$s 的通量弄得不知所措！",
+  
+    "item.redstone_arsenal.flux_coin": "紅石通量幣",
+    "item.redstone_arsenal.flux_dust": "紅石通量粉",
+    "item.redstone_arsenal.flux_gear": "紅石通量齒輪",
+    "item.redstone_arsenal.flux_gem": "紅石通量寶石",
+    "item.redstone_arsenal.flux_ingot": "紅石通量錠",
+    "item.redstone_arsenal.flux_nugget": "紅石通量粒",
+    "item.redstone_arsenal.flux_plate": "紅石通量板",
+    "item.redstone_arsenal.flux_plating": "紅石通量護甲板",
+    "item.redstone_arsenal.obsidian_rod": "黑曜石桿",
+    "item.redstone_arsenal.flux_obsidian_rod": "紅石通量黑曜石桿",
+    "block.redstone_arsenal.flux_metal_block": "紅石通量金屬方塊",
+    "block.redstone_arsenal.flux_gem_block": "紅石通量寶石方塊",
+  
+    "item.redstone_arsenal.flux_sword": "紅石通量劍",
+    "item.redstone_arsenal.flux_shield": "紅石通量盾牌",
+    "item.redstone_arsenal.flux_trident": "紅石通量三叉戟",
+    "item.redstone_arsenal.flux_bow": "紅石通量弓",
+    "item.redstone_arsenal.flux_crossbow": "紅石通量弩",
+    "item.redstone_arsenal.flux_crossbow.loaded_from": "目前裝載：",
+    "item.redstone_arsenal.flux_quiver": "紅石通量箭袋",
+  
+    "item.redstone_arsenal.flux_pickaxe": "紅石通量鎬",
+    "item.redstone_arsenal.flux_shovel": "紅石通量鏟",
+    "item.redstone_arsenal.flux_axe": "紅石通量斧",
+    "item.redstone_arsenal.flux_hoe": "紅石通量鋤",
+    "item.redstone_arsenal.flux_sickle": "紅石通量鐮刀",
+    "item.redstone_arsenal.flux_hammer": "紅石通量鎚",
+    "item.redstone_arsenal.flux_excavator": "紅石通量挖掘鏟",
+    "item.redstone_arsenal.flux_wrench": "紅石通量戰鬥扳手",
+    "item.redstone_arsenal.flux_fishing_rod": "紅石通量釣竿",
+  
+    "item.redstone_arsenal.flux_helmet": "紅石通量頭盔",
+    "item.redstone_arsenal.flux_chestplate": "紅石通量胸甲",
+    "item.redstone_arsenal.flux_leggings": "紅石通量護腿",
+    "item.redstone_arsenal.flux_boots": "紅石通量靴子",
+    "item.redstone_arsenal.flux_elytra": "紅石通量鞘翅",
+    "item.redstone_arsenal.flux_controller": "紅石通量鞘翅控制器",
+  
+    "block.redstone_arsenal.flux_glow_air": "紅石通量光源",
+    "block.redstone_arsenal.flux_path": "紅石通量土徑",
+  
+    "entity.redstone_arsenal.flux_slash": "通量斬擊",
+    "entity.redstone_arsenal.flux_arrow": "通量箭矢",
+    "entity.redstone_arsenal.flux_trident": "紅石通量三叉戟",
+    "entity.redstone_arsenal.flux_wrench": "紅石通量戰鬥扳手",
+    "entity.redstone_arsenal.flux_shockwave": "衝擊波",
+  
+    "subtitles.redstone_arsenal.empower.on": "通量工具充能",
+    "subtitles.redstone_arsenal.empower.off": "通量工具休眠",
+    "subtitles.redstone_arsenal.shielding.break": "通量護盾破裂",
+    "subtitles.redstone_arsenal.shielding.recharge": "通量護盾重新充能",
+  
+    "_comment": "Keywords - These terms help things show up in JEI or other tooltip searches! :)",
+    "item.redstone_arsenal.flux_helmet.keyword": "盔甲",
+    "item.redstone_arsenal.flux_chestplate.keyword": "盔甲",
+    "item.redstone_arsenal.flux_leggings.keyword": "盔甲",
+    "item.redstone_arsenal.flux_boots.keyword": "盔甲",
+    "item.redstone_arsenal.flux_elytra.keyword": "盔甲 胸甲"
+  }
