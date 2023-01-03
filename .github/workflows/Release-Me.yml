@@ -124,5 +124,6 @@ jobs:
             1.19
             1.19.1
             1.19.2
+            1.19.3
           files-primary: ModsTranslationPack-1.19.x.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
