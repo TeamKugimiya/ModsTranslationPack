@@ -1,0 +1,72 @@
+{
+	"tooltip.solcarrot.hearty.not_eaten": "還沒嘗過呢！嘗起來會是什麼味道？",
+	"tooltip.solcarrot.hearty.eaten": "已食用：有助於提高生命值上限",
+	"tooltip.solcarrot.cheap.eaten": "已食用：沒有明顯的效果",
+	"tooltip.solcarrot.cheap": "該食物不足以提升你的生命值。",
+	"tooltip.solcarrot.disabled.blacklist": "該食物已被列入黑名單中，因此無法用來提升生命值。",
+	"tooltip.solcarrot.disabled.whitelist": "該食物未被列在白名單中，因此無法用來提升生命值。",
+	"tooltip.solcarrot.disabled.eaten": "已食用：沒有明顯的效果",
+	
+	"command.solcarrot.foodlist.no_permissions": "你沒有將該指令套用在其他玩家的權限！",
+	
+	"command.solcarrot.foodlist.size.desc.foods_eaten.singular": "你已品嘗 1 種獨特的食物！",
+	"command.solcarrot.foodlist.size.desc.foods_eaten.plural": "你已品嘗 %s 種獨特的食物！",
+	"command.solcarrot.foodlist.size.desc.milestone.max": "很遺憾的，你無法再透過品嘗新發現的食物，來獲得更多生命值。",
+	"command.solcarrot.foodlist.size.desc.milestone.more": "你還需要品嘗 %s 種食物，來提高你的生命值上限。",
+	
+	"command.solcarrot.foodlist.clear.success": "已重設食物清單！",
+	
+	"command.solcarrot.foodlist.sync.success": "已同步食物清單！",
+	
+	"message.solcarrot.chat_wrapper": "[生活調味料：胡蘿蔔版本] %s",
+	"message.solcarrot.hearts.singular": "1 顆愛心",
+	"message.solcarrot.hearts.plural": "%s 顆愛心",
+	"message.solcarrot.milestone_achieved": "多麼獨特的味道！你獲得了 %s！",
+	"message.solcarrot.finished.chat": "你追尋獨特食物的旅程，終於成功畫下了休止符。",
+	"message.solcarrot.finished.hotbar": "你已經獲得了 %s。你追尋獨特食物的旅程，終於成功畫下了休止符。",
+	
+	"item.solcarrot.food_book": "食物手冊",
+	
+	"gui.solcarrot.food_book.stats": "總覽",
+	"gui.solcarrot.food_book.eaten_foods": "已食用：%s",
+	"gui.solcarrot.food_book.uneaten_foods": "未食用：%s",
+	"gui.solcarrot.food_book.config": "組態",
+	
+	"gui.solcarrot.food_book.fraction": "%1$s/%2$s",
+	
+	"gui.solcarrot.food_book.stats.foods_tasted": "品嘗過的食物",
+	"gui.solcarrot.food_book.stats.hearts_gained": "獲得的愛心數",
+	"gui.solcarrot.food_book.stats.tooltip.progress": "還需要品嘗 %s 種食物，來達到下一個里程碑",
+	"gui.solcarrot.food_book.stats.tooltip.progress.max": "已達到最高里程碑！",
+	"gui.solcarrot.food_book.stats.tooltip.previous_milestone": "上一個里程碑：%s",
+	"gui.solcarrot.food_book.stats.tooltip.next_milestone": "下一個里程碑：%s",
+	"gui.solcarrot.food_book.stats.tooltip.total_foods": "食物總數量：%s",
+	"gui.solcarrot.food_book.stats.tooltip.foods_tasted": "已品嘗食物：%s",
+	"gui.solcarrot.food_book.stats.tooltip.hearts_per_milestone.singular": "每達成一個里程碑，可獲得 1 顆愛心",
+	"gui.solcarrot.food_book.stats.tooltip.hearts_per_milestone.plural": "每達成一個里程碑，可獲得 %s 顆愛心",
+	
+	"gui.solcarrot.food_book.config.minimum_food_value": "最低食用價值",
+	"gui.solcarrot.food_book.config.tooltip.minimum_food_value": "將食物記入里程碑，所需提供的最低飢餓值。",
+	"gui.solcarrot.food_book.config.hearty_fraction": "營養的食物",
+	"gui.solcarrot.food_book.config.tooltip.hearty_fraction": "總計 %1$s 種食物中，營養價值足以提升你生命值的食物共有 %2$s 種。",
+	"gui.solcarrot.food_book.config.eaten_cheap_foods": "乏味的食物",
+	"gui.solcarrot.food_book.config.tooltip.eaten_cheap_foods": "在 %1$s 種不足以提升你生命值的低營養食物中，你已經食用了 %2$s 種。",
+	"gui.solcarrot.food_book.config.blacklist": "列入黑名單的食物",
+	"gui.solcarrot.food_book.config.whitelist": "列入白名單的食物",
+	"gui.solcarrot.food_book.config.tooltip.blacklist": "被黑名單停用的食物數量。",
+	"gui.solcarrot.food_book.config.tooltip.whitelist": "被白名單許可的食物數量。",
+	
+	"config.solcarrot.base_hearts": "基礎愛心數",
+	"config.solcarrot.hearts_per_milestone": "每達成一次里程碑，能獲得的愛心數",
+	"config.solcarrot.milestones": "里程碑",
+	"config.solcarrot.is_food_tooltip_enabled": "啟用食物品嘗提示",
+	"config.solcarrot.should_show_progress_above_hotbar": "在快捷欄上方顯示進度",
+	"config.solcarrot.should_show_uneaten_foods": "顯示未品嘗的食物",
+	"config.solcarrot.should_play_milestone_sounds": "啟用里程碑音效",
+	"config.solcarrot.should_spawn_intermediate_particles": "啟用中間粒子效果",
+	"config.solcarrot.should_spawn_milestone_particles": "啟用里程碑粒子效果",
+	"config.solcarrot.food_blacklist": "黑名單",
+	"config.solcarrot.food_whitelist": "白名單（將停用黑名單）",
+	"config.solcarrot.minimum_food_value": "最低食用價值",
+	"config.solcarrot.reset_on_death": "死亡時重設清單"
+}
