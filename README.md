@@ -84,7 +84,6 @@
         <li><a href="https://grant88.pixnet.net/blog/post/45185898">Macaw's Windows</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/40862752">MrCrayfish's Furniture Mod</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/44935344">Productive Bees</a></li>
-        <li><a href="https://grant88.pixnet.net/blog/post/44988448">Quark</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/44360632">Simply Light</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/45034372">Supplementaries</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/41564042">Tinkers' Construct</a></li>
