@@ -1,0 +1,18 @@
+{
+  "name": "水槍",
+  "icon": "squirtgun:squirtgunitem",
+  "category": "squirtgun:gun",
+  "sortnum": 0,
+  "pages":
+  [
+    {
+      "type": "text",
+      "text": "水槍必須使用藥水瓶作為彈藥來開火，而藥水瓶需要在 $(l)Dr. Clark 的流體封裝矩陣中製作。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "squirtgun:squirtgunitem",
+      "text": "水槍既有趣又易於使用。在成為槍手之前，你需要先在 $(l)Dr. Clark 的流體封裝矩陣中製作一些藥水瓶，然後將子彈上膛，瞄準你的目標！"
+    }
+  ]
+}

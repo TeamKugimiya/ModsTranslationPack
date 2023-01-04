@@ -1,0 +1,13 @@
+{
+  "name": "HUD 顯示器",
+  "icon": "squirtgun:squirtgunitem",
+  "category": "squirtgun:gun",
+  "sortnum": 3,
+  "pages":
+  [
+    {
+      "type": "text",
+      "text": "使用快捷鍵「$(k:squirtgun.gun_display_ammo_status)」開關 HUD 顯示器。"
+    }
+  ]
+}

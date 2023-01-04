@@ -1,0 +1,13 @@
+{
+  "name": "裝填彈藥",
+  "icon": "squirtgun:squirtgunitem",
+  "category": "squirtgun:gun",
+  "sortnum": 2,
+  "pages":
+  [
+    {
+      "type": "text",
+      "text": "使用快捷鍵「$(k:squirtgun.text.open_gui)」開啟水槍的裝填畫面。選擇清單上的藥水瓶，並按下勾號來將其裝填；按下「X」號則可以取消。$(br)清單會顯示你物品欄裡的所有藥水瓶。"
+    }
+  ]
+}
