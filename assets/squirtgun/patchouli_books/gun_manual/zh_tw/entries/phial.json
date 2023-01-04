@@ -1,0 +1,18 @@
+{
+  "name": "藥水瓶",
+  "icon": "squirtgun:phial",
+  "category": "squirtgun:phials",
+  "sortnum": 0,
+  "pages":
+  [
+    {
+      "type": "text",
+      "text": "在合成台中製作空藥水瓶。然後在 $(l)Dr. Clark 的流體封裝矩陣中裝填藥水。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "squirtgun:phial",
+      "text": "儘管水槍玩起來很有趣，但它仍然需要彈藥。這些藥水瓶能夠裝填真正的流體，並被水槍作為彈藥使用。"
+    }
+  ]
+}
