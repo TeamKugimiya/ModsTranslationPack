@@ -1,7 +1,8 @@
 {
   "category.autoclicker-fabric": "Auto clicker",
   "keybinding.toggle-hold": "切換按住按鍵",
-  "keybinding.open-gui": "打開自動點擊介面",
+  "keybinding.toggle-jump": "切換按住跳躍",
+  "keybinding.open-gui": "開啟自動點擊介面",
   "autoclicker-fabric.hud.holding": "按住 %s",
   "autoclicker-fabric.msg.holding-keys": "按住按鍵！",
   "autoclicker-fabric.msg.released-keys": "釋放按鍵！",
@@ -10,11 +11,12 @@
   "autoclicker-fabric.gui.spamming": "連點: %s",
   "autoclicker-fabric.gui.attack": "攻擊（左鍵）",
   "autoclicker-fabric.gui.use": "使用（右鍵）",
-  "autoclicker-fabric.gui.respect": "尊重冷卻: %s",
-  "autoclicker-fabric.gui.mob-mode": "怪物檢測模式: %s",
+  "autoclicker-fabric.gui.jump": "使用（跳躍）",
+  "autoclicker-fabric.gui.respect": "尊重冷卻：%s",
+  "autoclicker-fabric.gui.mob-mode": "怪物檢測模式：%s",
   "autoclicker-fabric.gui.help.active": "當啟用時，它將使用以下選項來確定如何自動點擊",
   "autoclicker-fabric.gui.help.spamming": "啟用時，它將會重複點擊，你可以在下面控制重複點擊的發生速度。",
   "autoclicker-fabric.gui.help.cooldown": "啟用時，如果檢測到怪物，將根據攻擊冷卻來點擊。",
-  "autoclicker-fabric.gui.help.mob-mode": "（必須啟用“尊重冷卻”）啟用時，該點擊只會在怪物處於視線範圍前進行",
-  "autoclicker-fabric.gui.help.spam-speed": "啟用“連點”時，此設定將確定每次點擊的間隔有多少 ticks，0 = 關閉、1+ = 1 tick 的延遲。"
+  "autoclicker-fabric.gui.help.mob-mode": "（必須啟用「尊重冷卻」）啟用時，該點擊只會在怪物處於視線範圍前進行",
+  "autoclicker-fabric.gui.help.spam-speed": "啟用「連點」時，此設定將確定每次點擊的間隔有多少 ticks，0 = 關閉、1+ = 1 tick 的延遲。"
 }
