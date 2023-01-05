@@ -30,8 +30,14 @@ jobs:
 
       - name: Cleanup original language and markdown files
         run: |
+          echo "Clean assets lang..."
           rm -v assets/*/lang/en_us.json
           rm -vr assets/*/patchouli_books/*/en_us
+          echo "   "
+          echo "Clean 1.18 lang..."
+          rm -v 1.18/*/lang/en_us.json
+          echo "   "
+          echo "Clean markdown files..."
           rm -v README.md
           rm -v CHANGELOG.md
           rm -vr docs/
@@ -52,6 +58,15 @@ jobs:
 
       - name: Override mods
         run: .github/scripts/override_mods.sh
+
+      - name: Merge 1.18 translate
+        if: ${{ inputs.matrix_version == '1.18.x' }}
+        run: |
+          cp -r 1.18/* assets/
+
+      - name: Remove multi translate folder
+        run: |
+          rm -r 1.18
 
       - name: Make ModsTranslationPack
         uses: ComunidadAylas/PackSquash-action@master
