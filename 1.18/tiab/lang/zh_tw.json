@@ -1,0 +1,5 @@
+{
+  "itemGroup.tiab_creative_tab_name": "時間之瓶",
+  "item.tiab.time_in_a_bottle": "時間之瓶",
+  "item.tiab.time_in_a_bottle.tooltip.stored_time": "已儲存時間 %s:%s:%s"
+}
