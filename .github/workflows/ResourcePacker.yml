@@ -30,8 +30,14 @@ jobs:
 
       - name: Cleanup original language and markdown files
         run: |
+          echo "Clean assets lang..."
           rm -v assets/*/lang/en_us.json
           rm -vr assets/*/patchouli_books/*/en_us
+          echo "   "
+          echo "Clean 1.18 lang..."
+          rm -v 1.18/*/lang/en_us.json
+          echo "   "
+          echo "Clean markdown files..."
           rm -v README.md
           rm -v CHANGELOG.md
           rm -vr docs/
