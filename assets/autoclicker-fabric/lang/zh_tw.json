@@ -1,6 +1,7 @@
 {
   "category.autoclicker-fabric": "Auto clicker",
   "keybinding.toggle-hold": "切換按住按鍵",
+  "keybinding.toggle-jump": "切換按住跳躍",
   "keybinding.open-gui": "打開自動點擊介面",
   "autoclicker-fabric.hud.holding": "按住 %s",
   "autoclicker-fabric.msg.holding-keys": "按住按鍵！",
@@ -10,6 +11,7 @@
   "autoclicker-fabric.gui.spamming": "連點: %s",
   "autoclicker-fabric.gui.attack": "攻擊（左鍵）",
   "autoclicker-fabric.gui.use": "使用（右鍵）",
+  "autoclicker-fabric.gui.jump": "使用（跳躍）",
   "autoclicker-fabric.gui.respect": "尊重冷卻: %s",
   "autoclicker-fabric.gui.mob-mode": "怪物檢測模式: %s",
   "autoclicker-fabric.gui.help.active": "當啟用時，它將使用以下選項來確定如何自動點擊",
