@@ -1,5 +1,6 @@
 {
-  "modstranslation.shrink.glass_bottle.tooltip": "對縮放實體用玻璃瓶右鍵來捕捉",
-  "modstranslation.shrink.device.message.01": "不能在縮放時開啟",
+  "modstranslation.shrink.glass_bottle.tooltip": "對縮放狀態的實體，用玻璃瓶右鍵來捕捉",
+  "modstranslation.shrink.device.message.01": "不能在縮放狀態時開啟",
   "modstranslation.shrink.device.message.02": "裝置電力不足"
+  "Can't open while shrunk": "不能在縮放時開啟"
 }
