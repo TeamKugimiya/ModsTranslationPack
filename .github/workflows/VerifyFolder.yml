@@ -6,11 +6,15 @@ on:
     - "main"
     paths:
     - "assets/**"
+    - "1.18/**"
+    - "Patcher/**"
   pull_request:
     branches:
     - "main"
     paths:
     - "assets/**"
+    - "1.18/**"
+    - "Patcher/**"
 
   workflow_dispatch: {}
 
