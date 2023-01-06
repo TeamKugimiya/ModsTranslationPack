@@ -1,0 +1,9 @@
+{
+  "modstranslation.functionalstorage.gui.empty": "空",
+  "modstranslation.functionalstorage.item.pusher_upgrade.up": "向上",
+  "modstranslation.functionalstorage.item.pusher_upgrade.down": "向下",
+  "modstranslation.functionalstorage.item.pusher_upgrade.north": "向北",
+  "modstranslation.functionalstorage.item.pusher_upgrade.south": "向南",
+  "modstranslation.functionalstorage.item.pusher_upgrade.west": "向西",
+  "modstranslation.functionalstorage.item.pusher_upgrade.east": "向東"
+}

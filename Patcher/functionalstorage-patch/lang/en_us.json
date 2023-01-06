@@ -1,0 +1,9 @@
+{
+  "modstranslation.functionalstorage.gui.empty": "Empty",
+  "modstranslation.functionalstorage.item.pusher_upgrade.up": "Up",
+  "modstranslation.functionalstorage.item.pusher_upgrade.down": "Down",
+  "modstranslation.functionalstorage.item.pusher_upgrade.north": "North",
+  "modstranslation.functionalstorage.item.pusher_upgrade.south": "South",
+  "modstranslation.functionalstorage.item.pusher_upgrade.west": "West",
+  "modstranslation.functionalstorage.item.pusher_upgrade.east": "East"
+}
