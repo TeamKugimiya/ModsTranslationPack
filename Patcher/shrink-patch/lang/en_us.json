@@ -1,5 +1,3 @@
 {
-  "modstranslation.shrink.glass_bottle.tooltip": "Right-click on a shrunken entity with a glass bottle to capture",
-  "modstranslation.shrink.device.message.01": "Can't open while shrunk",
-  "modstranslation.shrink.device.message.02": "Not enough power in device"
+  "modstranslation.shrink.glass_bottle.tooltip": "Right-click on a shrunken entity with a glass bottle to capture"
 }
