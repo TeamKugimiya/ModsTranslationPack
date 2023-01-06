@@ -405,7 +405,7 @@ main_override 3 "Macaw's Windows" "https://www.mediafire.com/file/0rg7xgvj71v4hh
 main_override 3 "Simply Light" "https://www.mediafire.com/file/vcozdmfxucxdfn1/simplylight-1.19.3-1.4.5-build.46-tw.jar" "simplylight-1.19.3-1.4.5-build.46-tw.jar" "simplylight" 2
 
 ## Supplementaries
-main_override 3 "Supplementaries" "https://www.mediafire.com/file/lu2bxls9485h9i7/supplementaries-1.19.2-2.2.22-tw.jar" "supplementaries-1.19.2-2.2.22-tw.jar" "supplementaries" 2
+main_override 3 "Supplementaries" "https://www.mediafire.com/file/ppq1oka7kyckwhd/supplementaries-1.19.2-2.2.32-tw.jar" "supplementaries-1.19.2-2.2.32-tw.jar" "supplementaries" 2
 
 ## MrCrayfish's Furniture Mod
 main_override 3 "MrCrayfish's Furniture Mod" "https://www.mediafire.com/file/v6zk7kbq5nk74ne/cfm-7.0.0-pre34-mc1.19-tw.jar" "cfm-7.0.0-pre34-mc1.19-tw.jar" "cfm" 2
