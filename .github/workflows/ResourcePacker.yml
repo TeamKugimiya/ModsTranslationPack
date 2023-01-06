@@ -64,9 +64,14 @@ jobs:
         run: |
           cp -r 1.18/* assets/
 
-      - name: Remove multi translate folder
+      - name: Merge Patchs
+        run: |
+          cp -r Patcher/* assets/
+
+      - name: Clean unuse folder
         run: |
           rm -r 1.18
+          rm -r Patcher
 
       - name: Make ModsTranslationPack
         uses: ComunidadAylas/PackSquash-action@master
