@@ -36,7 +36,7 @@
   "xray.message.block_exists": "%s 已存在。請輸入不同的名稱。",
   "xray.message.unknown": "看起來你嘗試編輯的方塊並未存在。",
   "xray.message.removed": "已成功移除 %s。",
-  "xray.message.config_missing": "未找到設定檔案。現在建立。",
+  "xray.message.config_missing": "未找到設定檔案。正在建立。",
   "xray.message.invalid_hand": "%s 必須是個方塊",
   "xray.message.thats_odd": "有些東西出問題了？很抱歉。如果此問題持續發生，請回報給作者。",
   "xray.message.nothing_infront": "你是不是沒看著任何東西？",
@@ -52,7 +52,7 @@
   "xray.tooltips.edit1": "點擊來啟用／停用",
   "xray.tooltips.edit2": "按住 Shift 並點擊來編輯。",
 
-  "xray.message.help.gui": "要來編輯方塊設定，簡單的對你想要編輯的方塊按著 Shift + 點擊。\n如果你想要啟用／停用方塊，點擊個方塊，它就會切換成啟用或停用。",
+  "xray.message.help.gui": "要編輯方塊設定，只需簡單地對你想要編輯的方塊「 Shift + 左鍵點擊」。\n如果你想要開關方塊顯示，只需左鍵點擊一下該方塊即可。",
   "xray.message.help.warning": "警告，使用距離超過 64 將導致 FPS 下降，因為必須掃描大量的方塊。（就像是 256^3）",
 
   "xray.config.toggle": "開關 XRay",
