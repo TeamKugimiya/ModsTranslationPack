@@ -5,5 +5,9 @@
   "modstranslation.functionalstorage.item.pusher_upgrade.north": "North",
   "modstranslation.functionalstorage.item.pusher_upgrade.south": "South",
   "modstranslation.functionalstorage.item.pusher_upgrade.west": "West",
-  "modstranslation.functionalstorage.item.pusher_upgrade.east": "East"
+  "modstranslation.functionalstorage.item.pusher_upgrade.east": "East",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.01": "Swapped action to add",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.02": "Swapped action to remove",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.03": "Swapped mode to single",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.04": "Swapped mode to multiple"
 }

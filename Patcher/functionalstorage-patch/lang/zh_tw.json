@@ -5,5 +5,9 @@
   "modstranslation.functionalstorage.item.pusher_upgrade.north": "北",
   "modstranslation.functionalstorage.item.pusher_upgrade.south": "南",
   "modstranslation.functionalstorage.item.pusher_upgrade.west": "西",
-  "modstranslation.functionalstorage.item.pusher_upgrade.east": "東"
+  "modstranslation.functionalstorage.item.pusher_upgrade.east": "東",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.01": "切換指令為新增",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.02": "切換指令為移除",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.03": "切換模式為單個目標",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.04": "切換模式為複數目標"
 }
