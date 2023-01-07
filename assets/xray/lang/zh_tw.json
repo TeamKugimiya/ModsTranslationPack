@@ -1,0 +1,63 @@
+{
+  "xray.debug.init": "已初始化 XRay",
+
+  "xray.single.cancel": "取消",
+  "xray.single.add": "新增",
+  "xray.single.delete": "刪除",
+  "xray.single.save": "儲存",
+  "xray.single.tools": "工具",
+  "xray.single.close": "關閉",
+  "xray.single.search": "搜尋",
+  "xray.single.help": "幫助",
+
+  "xray.overlay": "已啟用 XRay",
+
+  "xray.color.red": "紅色：",
+  "xray.color.green": "綠色：",
+  "xray.color.blue": "藍色：",
+
+  "xray.input.gui": "介面名稱",
+  "xray.input.add": "新增方塊",
+  "xray.input.add_hand": "新增手上的方塊",
+  "xray.input.add_look": "新增所看到的",
+  "xray.input.distance": "距離：%s",
+  "xray.input.show-lava": "顯示熔岩：%s",
+  "xray.input.toggle_oredict": "使用辭典",
+
+  "xray.title.config": "方塊設定",
+  "xray.title.edit": "編輯方塊",
+  "xray.title.edit_meta": "編輯 Meta",
+
+  "xray.message.missing_input": "你必須填寫所有輸入欄位",
+  "xray.message.already_exists": "這個方塊已經有在方塊清單中",
+  "xray.message.added_block": "成功新增 %s。",
+  "xray.message.updated_block": "項目已更新",
+  "xray.message.remove_block": "%s 已被移除",
+  "xray.message.block_exists": "%s 已存在。請輸入不同的名稱。",
+  "xray.message.unknown": "看起來你嘗試編輯的方塊並未存在。",
+  "xray.message.removed": "已成功移除 %s。",
+  "xray.message.config_missing": "未找到設定檔案。正在建立。",
+  "xray.message.invalid_hand": "%s 必須是個方塊",
+  "xray.message.thats_odd": "有些東西出問題了？很抱歉。如果此問題持續發生，請回報給作者。",
+  "xray.message.nothing_infront": "你是不是沒看著任何東西？",
+  "xray.message.not_a_number": "{%s} 並不是個數字，請在你的 Meta 上使用你的數字。",
+  "xray.message.meta_not_supported": "{%s} 不是有效的 Meta 資料，對於 {%s}",
+  "xray.message.state_warning": "警告，這限制於預設只會有方塊。\n使用所看到的或手上的方塊來指定你所需要的絕對方塊。\n在某些案例下（儲物箱），這可能是你所需要做的\n如果是這種案例，那麼這將會是正確的選擇。",
+
+  "xray.tooltips.add_block": "選擇方塊來新增至 XRay 顯示方塊\n預設只會使用方塊類別，如我你需要特別的方塊\n請使用「新增所看到的方塊」。",
+  "xray.tooltips.add_block_in_hand": "自動新增你手上的方塊到清單。",
+  "xray.tooltips.add_block_looking_at": "自動新增你正在看的方塊到清單。",
+  "xray.tooltips.show_lava": "使用紅色標記來顯示熔岩，標記就像是個普通方塊。\n小心！它很燙。",
+  "xray.tooltips.distance": "警告：較大的半徑更新將會造成一秒鐘的 Lag。",
+  "xray.tooltips.edit1": "點擊來啟用／停用",
+  "xray.tooltips.edit2": "按住 Shift 並點擊來編輯。",
+
+  "xray.message.help.gui": "要編輯方塊設定，只需簡單地對你想要編輯的方塊「 Shift + 左鍵點擊」。\n如果你想要開關方塊顯示，只需左鍵點擊一下該方塊即可。",
+  "xray.message.help.warning": "警告，使用距離超過 64 將導致 FPS 下降，因為必須掃描大量的方塊。（就像是 256^3）",
+
+  "xray.config.toggle": "開關 XRay",
+  "xray.config.open": "開啟 XRay 選單",
+
+  "xray.toggle.activated": "已啟用 XRay",
+  "xray.toggle.deactivated": "已停用 XRay"
+}
