@@ -1,0 +1,45 @@
+{
+  "itemGroup.skyguis": "Sky GUIs",
+
+  "screen.skyguis.template": "Template",
+
+  "screen.skyguis.title.create_team": "Create New Team",
+  "screen.skyguis.title.all_teams": "All Teams",
+  "screen.skyguis.title.invitations": "Your Invitations",
+
+  "screen.skyguis.text.name": "Name",
+  "screen.skyguis.text.team_id": "Team ID",
+  "screen.skyguis.text.members": "Members",
+  "screen.skyguis.text.teams": "Teams",
+  "screen.skyguis.text.spawns": "Spawns",
+  "screen.skyguis.text.invalid": "INVALID",
+  "screen.skyguis.text.add": "Add",
+  "screen.skyguis.text.remove": "Remove",
+  "screen.skyguis.text.show": "Show",
+  "screen.skyguis.text.invite": "Invite",
+  "screen.skyguis.text.invite_multiple_users": "Successfully invited %s players",
+  "screen.skyguis.text.created_at": "Created at",
+  "screen.skyguis.text.last_changed": "Last changed",
+  "screen.skyguis.text.previous_screen": "Previous Screen",
+  "screen.skyguis.text.visit_team": "Visit Team",
+  "screen.skyguis.text.your_team": "Your Team:",
+  "screen.skyguis.text.request_to_join": "Request to Join",
+  "screen.skyguis.text.requested_to_join": "Requested to Join",
+  "screen.skyguis.text.player_not_in_team": "You are not part of this team.",
+  "screen.skyguis.text.shape_does_not_exist": "This shape does not exist.",
+  "screen.skyguis.text.select_all": "Select all",
+  "screen.skyguis.text.unselect_all": "Unselect all",
+  "screen.skyguis.text.selected_amount": "%s player(s) selected",
+  "screen.skyguis.text.kick": "Kick",
+  "screen.skyguis.text.you_sure_kick": "Do you really want to kick these %s player(s)?",
+  "screen.skyguis.text.you_sure_invite": "Do you really want to invite these %s player(s)?",
+  "screen.skyguis.text.you_sure_join": "Do you really want to join \"%s\"?",
+  "screen.skyguis.text.you_sure_ignore": "Do you really want to ignore invitation by \"%s\"?",
+
+  "screen.skyguis.button.create": "Create",
+  "screen.skyguis.button.confirm": "Confirm",
+  "screen.skyguis.button.abort": "Abort",
+  "screen.skyguis.button.ok": "OK",
+
+  "skyguis.key.all_teams_screen": "Open main screen"
+}
