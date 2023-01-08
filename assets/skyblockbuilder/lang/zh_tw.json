@@ -20,7 +20,7 @@
   "skyblockbuilder.command.error.team_already_exist": "隊伍「%s」已經存在！請另外想一個名稱！",
   "skyblockbuilder.command.error.user_has_team": "你已在一個隊伍裡！",
   "skyblockbuilder.command.error.user_has_no_team": "你目前還未加入任何隊伍！",
-  "skyblockbuilder.command.error.player_has_team": "%s 已在一個隊伍哩！",
+  "skyblockbuilder.command.error.player_has_team": "%s 已在一個隊伍裡！",
   "skyblockbuilder.command.error.player_has_no_team": "該位玩家目前還未加入任何隊伍！",
   "skyblockbuilder.command.error.no_invitations": "你還未擁有任何隊伍邀請！",
   "skyblockbuilder.command.error.accept_invitations": "接受邀請時發生錯誤。",
