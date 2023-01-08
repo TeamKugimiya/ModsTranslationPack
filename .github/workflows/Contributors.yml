@@ -1,22 +1,17 @@
-name: Contributors Readme
+name: 貢獻者清單產生
 
 on:
   push:
     branches:
     - "main"
+  workflow_dispatch: {}
 
-# TODO
-# Permission
+permissions:
+  contents: write
 
 jobs:
-  contrib-readme-job:
-    runs-on: ubuntu-latest
-    name: Automate contrib generate
-    steps:
-      - name: Contribute List
-        uses: akhilmhdh/contributors-readme-action@v2.3.6
-        with:
-          commit_message: "docs(contributor): 自動更新 Readme 上貢獻者列表"
-          pr_title_on_protected: "docs(contributor): 自動更新 Readme 上貢獻者列表"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  Contributors:
+    name: 貢獻者清單
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/Contributors.yml@main
+    with:
+      pull_request: main
