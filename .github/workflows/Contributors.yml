@@ -6,9 +6,6 @@ on:
     - "main"
   workflow_dispatch: {}
 
-permissions:
-  contents: write
-
 jobs:
   Contributors:
     name: 貢獻者清單
