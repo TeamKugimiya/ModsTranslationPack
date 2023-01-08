@@ -6,6 +6,8 @@ on:
     - "main"
     paths:
     - "assets/**"
+    - "1.18/**"
+    - "Patcher/**"
     - "pack.mcmeta"
     - ".github/scripts/override_mods.sh"
   pull_request:
@@ -13,6 +15,8 @@ on:
     - "main"
     paths:
     - "assets/**"
+    - "1.18/**"
+    - "Patcher/**"
 
   workflow_dispatch: {}
 

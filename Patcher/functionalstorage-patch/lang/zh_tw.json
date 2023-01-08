@@ -1,0 +1,13 @@
+{
+  "modstranslation.functionalstorage.gui.empty": "空",
+  "modstranslation.functionalstorage.item.pusher_upgrade.up": "上",
+  "modstranslation.functionalstorage.item.pusher_upgrade.down": "下",
+  "modstranslation.functionalstorage.item.pusher_upgrade.north": "北",
+  "modstranslation.functionalstorage.item.pusher_upgrade.south": "南",
+  "modstranslation.functionalstorage.item.pusher_upgrade.west": "西",
+  "modstranslation.functionalstorage.item.pusher_upgrade.east": "東",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.01": "已將指令切換至「新增」",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.02": "已將指令切換至「移除」",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.03": "已將模式切換至「單個目標」",
+  "modstranslation.functionalstorage.item.linking_tool.actionbar.04": "已將模式切換至「複數目標」"
+}
