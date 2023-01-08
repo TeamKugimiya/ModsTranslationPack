@@ -14,4 +14,5 @@ jobs:
     name: 貢獻者清單
     uses: TeamKugimiya/reusable-workflows/.github/workflows/Contributors.yml@main
     with:
+      placeholder: "<!-- 貢獻者清單 -->"
       pull_request: main
