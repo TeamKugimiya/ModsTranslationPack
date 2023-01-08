@@ -1,0 +1,31 @@
+{
+  "item.structures_compass.structures_compass": "Structures Compass",
+
+  "string.structures_compass.select_structure": "Select Structure",
+  "string.structures_compass.start_searching": "Start Searching",
+  "string.structures_compass.search": "Search",
+  "string.structures_compass.sort_by": "Sort By",
+  "string.structures_compass.skip_existing_chunks": "SkipExistingChunks",
+
+  "string.structures_compass.name": "Name",
+  "string.structures_compass.source": "Source",
+  "string.structures_compass.dimension": "Dimension",
+
+  "string.structures_compass.msg_no_target": "There is no target. Please sneak + right click to select a target.",
+  "string.structures_compass.msg_error_name": "ERROR: Cannot find a structure named ",
+  "string.structures_compass.msg_searching": "Searching...",
+  "string.structures_compass.msg_done": "Search Complete.",
+
+  "string.structures_compass.hud_not_found": "Not Found",
+  "string.structures_compass.hud_structure": "Structure Name:",
+  "string.structures_compass.hud_dim": "Dimension Name:",
+  "string.structures_compass.hud_pos": "Pos:",
+  "string.structures_compass.hud_east": "East:",
+  "string.structures_compass.hud_west": "West:",
+  "string.structures_compass.hud_north": "North:",
+  "string.structures_compass.hud_south": "South:",
+  "string.structures_compass.hud_up": "Up:",
+  "string.structures_compass.hud_down": "Down:",
+  "string.structures_compass.hud_distance": "Distance:",
+  "string.structures_compass.hud_wrong_dim": "Wrong Dimension"
+}

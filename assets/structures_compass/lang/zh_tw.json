@@ -1,0 +1,31 @@
+{
+  "item.structures_compass.structures_compass": "結構羅盤",
+
+  "string.structures_compass.select_structure": "選擇結構",
+  "string.structures_compass.start_searching": "開始搜尋",
+  "string.structures_compass.search": "搜尋",
+  "string.structures_compass.sort_by": "排序方式",
+  "string.structures_compass.skip_existing_chunks": "跳過已存在的區塊",
+
+  "string.structures_compass.name": "名稱",
+  "string.structures_compass.source": "來源",
+  "string.structures_compass.dimension": "維度",
+
+  "string.structures_compass.msg_no_target": "尚未設定目標。請潛行 + 點擊右鍵來選擇目標。",
+  "string.structures_compass.msg_error_name": "發生錯誤：找不到結構 ",
+  "string.structures_compass.msg_searching": "正在搜尋...",
+  "string.structures_compass.msg_done": "搜尋完成。",
+
+  "string.structures_compass.hud_not_found": "未找到",
+  "string.structures_compass.hud_structure": "結構名稱：",
+  "string.structures_compass.hud_dim": "維度名稱：",
+  "string.structures_compass.hud_pos": "位置：",
+  "string.structures_compass.hud_east": "東：",
+  "string.structures_compass.hud_west": "西：",
+  "string.structures_compass.hud_north": "北：",
+  "string.structures_compass.hud_south": "南：",
+  "string.structures_compass.hud_up": "上：",
+  "string.structures_compass.hud_down": "下：",
+  "string.structures_compass.hud_distance": "距離：",
+  "string.structures_compass.hud_wrong_dim": "錯誤的維度"
+}
