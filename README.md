@@ -94,7 +94,51 @@
 
 感謝以下貢獻者才能讓更多玩家體驗到完整的中文化模組體驗！
 
-
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/xMikux">
+            <img src="https://avatars.githubusercontent.com/u/26039249?v=4" width="100;" alt="xMikux"/>
+            <br />
+            <sub><b>Miku</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/StarskyXIII">
+            <img src="https://avatars.githubusercontent.com/u/71606873?v=4" width="100;" alt="StarskyXIII"/>
+            <br />
+            <sub><b>StarskyXIII</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/MarginalPerson">
+            <img src="https://avatars.githubusercontent.com/u/59750952?v=4" width="100;" alt="MarginalPerson"/>
+            <br />
+            <sub><b>MarginalPerson</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/rhuba8324">
+            <img src="https://avatars.githubusercontent.com/u/53090204?v=4" width="100;" alt="rhuba8324"/>
+            <br />
+            <sub><b>rhuba8324</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/JustSimplyKyle">
+            <img src="https://avatars.githubusercontent.com/u/68589851?v=4" width="100;" alt="JustSimplyKyle"/>
+            <br />
+            <sub><b>SimplyKyle!</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/SiongSng">
+            <img src="https://avatars.githubusercontent.com/u/48402225?v=4" width="100;" alt="SiongSng"/>
+            <br />
+            <sub><b>菘菘</b></sub>
+        </a>
+    </td></tr>
+</table>
 
 <!-- 徽章 -->
 [modrinth-badge]: https://img.shields.io/modrinth/dt/cF5VXmkW?label=Modrinth%20%E4%B8%8B%E8%BC%89%E6%95%B8&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMSAxMSIgd2lkdGg9IjE0LjY2NyIgaGVpZ2h0PSIxNC42NjciICB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxkZWZzPjxjbGlwUGF0aCBpZD0iQSI%2BPHBhdGggZD0iTTAgMGgxMXYxMUgweiIvPjwvY2xpcFBhdGg%2BPC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNBKSI%2BPHBhdGggZD0iTTEuMzA5IDcuODU3YTQuNjQgNC42NCAwIDAgMS0uNDYxLTEuMDYzSDBDLjU5MSA5LjIwNiAyLjc5NiAxMSA1LjQyMiAxMWMxLjk4MSAwIDMuNzIyLTEuMDIgNC43MTEtMi41NTZoMGwtLjc1LS4zNDVjLS44NTQgMS4yNjEtMi4zMSAyLjA5Mi0zLjk2MSAyLjA5MmE0Ljc4IDQuNzggMCAwIDEtMy4wMDUtMS4wNTVsMS44MDktMS40NzQuOTg0Ljg0NyAxLjkwNS0xLjAwM0w4LjE3NCA1LjgybC0uMzg0LS43ODYtMS4xMTYuNjM1LS41MTYuNjk0LS42MjYuMjM2LS44NzMtLjM4N2gwbC0uMjEzLS45MS4zNTUtLjU2Ljc4Ny0uMzcuODQ1LS45NTktLjcwMi0uNTEtMS44NzQuNzEzLTEuMzYyIDEuNjUxLjY0NSAxLjA5OC0xLjgzMSAxLjQ5MnptOS42MTQtMS40NEE1LjQ0IDUuNDQgMCAwIDAgMTEgNS41QzExIDIuNDY0IDguNTAxIDAgNS40MjIgMCAyLjc5NiAwIC41OTEgMS43OTQgMCA0LjIwNmguODQ4QzEuNDE5IDIuMjQ1IDMuMjUyLjgwOSA1LjQyMi44MDljMi42MjYgMCA0Ljc1OCAyLjEwMiA0Ljc1OCA0LjY5MSAwIC4xOS0uMDEyLjM3Ni0uMDM0LjU2bC43NzcuMzU3aDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiM1ZGE0MjYiLz48L2c%2BPC9zdmc%2B&style=flat-square
