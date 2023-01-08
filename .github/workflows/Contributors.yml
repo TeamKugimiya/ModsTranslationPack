@@ -16,4 +16,4 @@ jobs:
     uses: TeamKugimiya/reusable-workflows/.github/workflows/Contributors.yml@main
     with:
       placeholder: "感謝以下貢獻者才能讓更多玩家體驗到完整的中文化模組體驗！"
-      pull_request: main
+      pull_request: "docs/readme"
