@@ -1,0 +1,50 @@
+name: ModsList Updater
+
+on:
+  push:
+    branches:
+      - "main"
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 0 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  Updater:
+    name: ModsList docs updater
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking Repostiory
+        uses: actions/checkout@v3
+
+      - name: Run script
+        run: ./.github/scripts/assets_folder.sh
+
+      - name: Date
+        id: date
+        run: |
+          echo "date=$(date)" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          branch: "docs/action-modslist"
+          commit-message: "docs(ModsList): 更新模組清單"
+          title: "docs(ModsList): 更新模組清單"
+          body: |
+            自動化 [GitHub Action][github-action] 更新模組清單文件。
+            產生時間：${{ steps.date.outputs.date }}
+
+            ------
+            由 [create-pull-request][cpr] 製作
+
+            [cpr]: https://github.com/peter-evans/create-pull-request
+            [github-action]: https://github.com/features/actions
+          labels: |
+            📃 文件
