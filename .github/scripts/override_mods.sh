@@ -11,7 +11,7 @@ echo ">>> 此步驟將會把一些已知的模組翻譯覆蓋掉"
 # java_path=$(which jar)
 java_home_path=${java_path:-$JAVA_HOME_17_X64/bin/jar}
 
-# home=$HOME/workspace/ModsTranslationPack/test
+# home=$HOME/workspace/Project-Efina/ModsTranslationPack/test
 home_path=${home:-$GITHUB_WORKSPACE}
 
 ## Tools Install
@@ -395,11 +395,11 @@ main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiq
 
 main_override 3 "Macaw's Fences and Wall" "https://www.mediafire.com/file/gzbayubyq7e8rrb/mcw-fences-1.0.7-mc1.19.2forge-tw.jar" "mcw-fences-1.0.7-mc1.19.2forge-tw.jar" "mcwfences" 2
 main_override 3 "Macaw's Bridges" "https://www.mediafire.com/file/f508an5jjm6m4u1/mcw-bridges-2.0.6-mc1.19.3forge-tw.jar" "mcw-bridges-2.0.6-mc1.19.3forge-tw.jar" "mcwbridges" 2
-main_override 3 "Macaw's Trapdoors" "https://www.mediafire.com/file/nk7eaw040lxgant/mcw-trapdoors-1.0.7-mc1.19.2-tw.jar" "mcw-trapdoors-1.0.7-mc1.19.2-tw.jar" "mcwtrpdoors" 2
+main_override 3 "Macaw's Trapdoors" "https://www.mediafire.com/file/llwehuk3pnimwbd/mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar" "mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar" "mcwtrpdoors" 2
 main_override 3 "Macaw's Doors" "https://www.mediafire.com/file/o97axparlovckcs/mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcwdoors" 2
-main_override 3 "Macaw's Roofs" "https://www.mediafire.com/file/byxuw1rwctldzzx/mcw-roofs-2.2.1-mc1.19.2-forge-tw.jar" "mcw-roofs-2.2.1-mc1.19.2-forge-tw.jar" "mcwroofs" 2
+main_override 3 "Macaw's Roofs" "https://www.mediafire.com/file/qbihy542fkdcug9/mcw-roofs-2.2.2-mc1.19.2forge-tw.jar" "mcw-roofs-2.2.2-mc1.19.2forge-tw.jar" "mcwroofs" 2
 main_override 3 "Macaw's Furniture" "https://www.mediafire.com/file/cfvsk3q0rq1uukn/mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcwfurnitures" 2
-main_override 3 "Macaw's Windows" "https://www.mediafire.com/file/0rg7xgvj71v4hhg/mcw-windows-2.0.3-mc1.19-tw.jar" "mcw-windows-2.0.3-mc1.19-tw.jar" "mcwwindows" 2
+main_override 3 "Macaw's Windows" "https://www.mediafire.com/file/hpi4bs41vnwh4wk/mcw-windows-2.1.1-mc1.19.2forge-tw.jar" "mcw-windows-2.1.1-mc1.19.2forge-tw.jar" "mcwwindows" 2
 
 ## Simply Light
 main_override 3 "Simply Light" "https://www.mediafire.com/file/vcozdmfxucxdfn1/simplylight-1.19.3-1.4.5-build.46-tw.jar" "simplylight-1.19.3-1.4.5-build.46-tw.jar" "simplylight" 2
