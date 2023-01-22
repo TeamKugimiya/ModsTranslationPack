@@ -1,0 +1,29 @@
+{
+  "step.base.create_your_server": "讓我們來建立你的 Minecraft 伺服器。",
+  "step.base.back": "返回",
+
+  "step.loading_plans.loading": "正在載入方案",
+  "step.loading_plans.failed": "載入方案失敗",
+
+  "step.player_count.question": "你預期有多少玩家會在伺服器同時遊玩？",
+  "step.player_count.next": "下一步",
+
+  "step.recommended_jar.detected": "我們偵測到你正在執行：",
+  "step.recommended_jar.choice": "按下「選擇」來使用本模組包，或是按「變更」來選擇不同的模組包。",
+  "step.recommended_jar.select": "選擇",
+  "step.recommended_jar.change": "變更",
+
+  "step.select_jar.name_filter": "依名稱篩選",
+  "step.select_jar.platform_filter": "依平台篩選",
+  "step.select_jar.select_pack": "選擇模組包",
+  "step.select_jar.select": "選擇",
+
+  "step.select_package.plan": "我們已幫你選擇完美方案！",
+  "step.select_package.slider": "滑動滑桿來選擇不同的方案",
+  "step.select_package.order_plan": "訂購方案",
+  "step.select_package.price": "$%s/月",
+
+  "step.select_plan.choose_plan": "選擇方案類型",
+  "step.select_plan.choose_budget": "選擇 Budget 方案",
+  "step.select_plan.choose_premium": "選擇 Premium 方案"
+}

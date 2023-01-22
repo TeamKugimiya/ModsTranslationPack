@@ -1,0 +1,29 @@
+{
+  "step.base.create_your_server": "Let's create your Minecraft Server.",
+  "step.base.back": "Back",
+
+  "step.loading_plans.loading": "Loading plans",
+  "step.loading_plans.failed": "Failed to load plans",
+
+  "step.player_count.question": "How many players do you expect to be on the server at once?",
+  "step.player_count.next": "Next",
+
+  "step.recommended_jar.detected": "We detected you are running:",
+  "step.recommended_jar.choice": "Press 'Select' to use this pack, or press 'Change' to select a different pack.",
+  "step.recommended_jar.select": "Select",
+  "step.recommended_jar.change": "Change",
+
+  "step.select_jar.name_filter": "Filter by name",
+  "step.select_jar.platform_filter": "Filter by platform",
+  "step.select_jar.select_pack": "Select the pack",
+  "step.select_jar.select": "Select",
+
+  "step.select_package.plan": "We've selected the perfect plan for you!",
+  "step.select_package.slider": "Move the slider to choose a different plan",
+  "step.select_package.order_plan": "Order Plan",
+  "step.select_package.price": "$%s/Month",
+
+  "step.select_plan.choose_plan": "Choose plan type",
+  "step.select_plan.choose_budget": "Choose Budget",
+  "step.select_plan.choose_premium": "Choose Premium"
+}
