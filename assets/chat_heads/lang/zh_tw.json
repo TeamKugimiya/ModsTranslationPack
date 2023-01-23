@@ -4,7 +4,7 @@
   "text.autoconfig.chat_heads.option.offsetNonPlayerText.@Tooltip": "當啟用時，所有訊息將會被對齊",
   "text.autoconfig.chat_heads.option.explanation": "「UUID」？「啟發式」？",
   "text.autoconfig.chat_heads.option.explanation.@Tooltip[0]": "普通情況下，伺服器將會告訴你誰傳送的訊息，",
-  "text.autoconfig.chat_heads.option.explanation.@Tooltip[1]": "例如：傳送者的 UUID。但是有許多伺服器不是。",
+  "text.autoconfig.chat_heads.option.explanation.@Tooltip[1]": "例如：傳送者的 UUID。然而，有許多伺服器不會這麼做。",
   "text.autoconfig.chat_heads.option.explanation.@Tooltip[2]": "它們甚至傳送虛假的 UUID。在這種情況下我們會",
   "text.autoconfig.chat_heads.option.explanation.@Tooltip[3]": "需要使用「啟發式」偵測。亦即是我們依照訊息內容來推測。",
   "text.autoconfig.chat_heads.option.explanation.@Tooltip[4]": "啟發式並不是完美的，所以它有可能會出現不相符的頭像。",
