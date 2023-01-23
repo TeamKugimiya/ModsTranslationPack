@@ -1,0 +1,7 @@
+{
+    "text.graphutil.title": "實用圖形工具",
+    "text.graphutil.vanillaScale": "原版圖形縮放",
+    "text.graphutil.alwaysShowGraph": "總是顯示圖形",
+    "text.graphutil.preventClipping": "防止圖形裁切",
+    "text.graphutil.hideTPS": "隱藏 TPS"
+}
