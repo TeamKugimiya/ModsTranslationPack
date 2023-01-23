@@ -1,0 +1,6 @@
+{
+  "comment_localization": "Please do not localize painting titles or artist names. These can be omitted from the non-us files.",
+  "tooltip.darkpaintings.title": "§f%s - %s",
+  "tooltip.darkpaintings.artist": "由 %s 藝術家繪製",
+  "tooltip.darkpaintings.id": "ID：%s"
+}
