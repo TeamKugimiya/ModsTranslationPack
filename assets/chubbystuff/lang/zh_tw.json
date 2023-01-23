@@ -1,0 +1,23 @@
+{
+  "itemGroup.chubbystuff.item_group": "圓滾滾事物！",
+
+  "item.chubbystuff.quagsire_spawn_egg": "沼王 生怪蛋",
+  "item.chubbystuff.quagsire_skin": "沼王的皮膚",
+  "item.chubbystuff.quagsire_mucus": "沼王的黏液",
+
+  "entity.chubbystuff.quagsire": "沼王",
+
+  "advancements.chubbystuff.tame_a_quagsire.title" : "它超級的圓滾滾！",
+  "advancements.chubbystuff.tame_a_quagsire.description" : "與沼王成為搭檔",
+  "advancements.chubbystuff.retrieve_item_from_tamed_quagsire.title" : "我會收下的！",
+  "advancements.chubbystuff.retrieve_item_from_tamed_quagsire.description" : "從搭檔沼王口中拿到它所叼起的物品",
+
+
+  "block.chubbystuff.quagsire_skin_block": "沼王方塊",
+
+  "item.minecraft.potion.effect.quagsire": "沼王迅捷藥水",
+  "item.minecraft.lingering_potion.effect.quagsire": "滯留 沼王迅捷藥水",
+  "item.minecraft.splash_potion.effect.quagsire": "飛濺 沼王迅捷藥水",
+
+  "item.chubbystuff.quagsire_shovel": "沼王之鏟"
+}
