@@ -100,6 +100,10 @@ modslist_added_mod_generate "1" "borderlessmining" "https://github.com/comp500/B
 ### SlimefunToEMI
 modslist_added_mod_generate "3" "sftoemi" "https://github.com/JustAHuman-xD/SlimefunToEMI/pull/2"
 
+### CITResewn
+modslist_added_mod_generate "1" "citresewn" "https://github.com/SHsuperCM/CITResewn/pull/219"
+modslist_added_mod_generate "1" "citresewn-defaults" "https://github.com/SHsuperCM/CITResewn/pull/219"
+
 # Finish
 sort_file
 make_file
