@@ -1,0 +1,6 @@
+{
+  "category.fabricskyboxes": "FabricSkyBoxes",
+  "key.fabricskyboxes.toggle": "開關自訂天空",
+  "fabricskyboxes.message.enabled" : "已啟用自訂天空！",
+  "fabricskyboxes.message.disabled" : "已停用自訂天空！"
+}
