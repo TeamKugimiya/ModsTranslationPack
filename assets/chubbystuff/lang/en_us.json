@@ -1,0 +1,22 @@
+{
+  "itemGroup.chubbystuff.item_group": "Chubby Stuff!",
+
+  "item.chubbystuff.quagsire_spawn_egg": "Quagsire Spawn Egg",
+  "item.chubbystuff.quagsire_skin": "Quagsire Skin",
+  "item.chubbystuff.quagsire_mucus": "Quagsire Mucus",
+
+  "entity.chubbystuff.quagsire": "Quagsire",
+
+  "advancements.chubbystuff.tame_a_quagsire.title" : "It's So CHUBBY!",
+  "advancements.chubbystuff.tame_a_quagsire.description" : "Tame A Quag Buddy",
+  "advancements.chubbystuff.retrieve_item_from_tamed_quagsire.title" : "I'll Be Taking That!",
+
+
+  "block.chubbystuff.quagsire_skin_block": "Quagsire Block",
+
+  "item.minecraft.potion.effect.quagsire": "Quagsire Swift Potion",
+  "item.minecraft.lingering_potion.effect.quagsire": "Quagsire Swift Lingering Potion",
+  "item.minecraft.splash_potion.effect.quagsire": "Quagsire Swift Splash Potion",
+
+  "item.chubbystuff.quagsire_shovel": "Quagsire Shovel"
+}
