@@ -1,0 +1,47 @@
+{
+  "itemGroup.creatures_from_the_snow.item_group": "來自雪地的生物！",
+
+  "item.creatures_from_the_snow.snow_wyrm_spawn_egg": "雪龍 生怪蛋",
+  "item.creatures_from_the_snow.giraffe_spawn_egg": "雪地長頸鹿 生怪蛋",
+  "item.creatures_from_the_snow.snow_trover_spawn_egg": "冰霜尋探者 生怪蛋",
+  "item.creatures_from_the_snow.orca_spawn_egg": "虎鯨 生怪蛋",
+  "item.creatures_from_the_snow.penguin_spawn_egg": "企鵝 生怪蛋",
+  "item.creatures_from_the_snow.narwhal_spawn_egg": "獨角鯨 生怪蛋",
+  "item.creatures_from_the_snow.beluga_spawn_egg": "白鯨 生怪蛋",
+  "item.creatures_from_the_snow.snow_seal_spawn_egg": "雪地海豹 生怪蛋",
+  "item.creatures_from_the_snow.snikerbosh_spawn_egg": "晃晃叢 生怪蛋",
+  "item.creatures_from_the_snow.leopard_spawn_egg": "雪豹 生怪蛋",
+  "item.creatures_from_the_snow.reindeer_spawn_egg": "馴鹿 生怪蛋",
+
+  "enchantment.creatures_from_the_snow.hoofty": "馴鹿之捷",
+  "enchantment.creatures_from_the_snow.reindeer_sky": "馴鹿之空",
+
+  "entity.creatures_from_the_snow.snow_wyrm": "雪龍",
+  "entity.creatures_from_the_snow.giraffe": "雪地長頸鹿",
+  "entity.creatures_from_the_snow.snow_trover": "冰霜尋探者",
+  "entity.creatures_from_the_snow.orca": "虎鯨",
+  "entity.creatures_from_the_snow.penguin": "企鵝",
+  "entity.creatures_from_the_snow.narwhal": "獨角鯨",
+  "entity.creatures_from_the_snow.beluga": "白鯨",
+  "entity.creatures_from_the_snow.snow_seal": "雪地海豹",
+  "entity.creatures_from_the_snow.snikerbosh": "晃晃叢",
+  "entity.creatures_from_the_snow.leopard": "雪豹",
+  "entity.creatures_from_the_snow.reindeer": "馴鹿",
+
+  "block.creatures_from_the_snow.snow_bricks": "雪磚",
+  "block.creatures_from_the_snow.frozen_feather_block": "凍結絨毛方塊",
+  "block.creatures_from_the_snow.snow_brick_slab": "雪磚半磚",
+  "block.creatures_from_the_snow.snow_brick_stairs": "雪磚階梯",
+  "block.creatures_from_the_snow.snow_brick_wall": "雪磚牆",
+
+
+  "item.creatures_from_the_snow.penguin_egg": "企鵝蛋",
+  "item.creatures_from_the_snow.penguin_feather": "企鵝羽毛",
+  "item.creatures_from_the_snow.wyrm_egg": "雪龍蛋",
+  "item.creatures_from_the_snow.beluga_fat": "白鯨脂肪",
+  "item.creatures_from_the_snow.chipped_narwhal_tusk": "碎裂的獨角鯨長角",
+  "item.creatures_from_the_snow.narwhal_tusk": "獨角鯨長角",
+  "item.creatures_from_the_snow.narwhal_tusk_sword": "獨角鯨長角劍",
+
+  "effect.creatures_from_the_snow.leopard_strength": "雪豹之力"
+}
