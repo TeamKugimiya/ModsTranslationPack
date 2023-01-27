@@ -82,8 +82,8 @@ jobs:
         with:
           artifacts: "*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: latest
-          allowUpdates: true
+          tag: latest-build
+          allowUpdates: false
           prerelease: true
           name: 模組翻譯包 (git ${{ steps.git_version.outputs.sha_short }})
           body: |
