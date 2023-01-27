@@ -83,17 +83,17 @@ jobs:
           artifacts: "*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest-build
-          allowUpdates: false
+          allowUpdates: true
           prerelease: true
-          name: 模組翻譯包 (git ${{ steps.git_version.outputs.sha_short }})
+          name: 模組翻譯包測試版 (git ${{ steps.git_version.outputs.sha_short }})
           body: |
-            ## 📝 下載
-            下載下方的 Assets 內的 ``ModsTranslationPack.zip``
-            並放入遊戲的資源包中載入即可!
+            ## 📝 下載測試版
+            依照版本，下載下方的 Assets 內的 ``ModsTranslationPack.zip``
+            並放入遊戲的資源包中載入即可！
 
             ## ⭐ 更新
             此翻譯包會在新增新內容時自動更新
-            只要到這個頁面重新下載 zip 即可!
+            只要到這個頁面重新下載 zip 即可！
 
             > ${{ steps.current_time.outputs.time }}
 
