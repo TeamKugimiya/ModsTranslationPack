@@ -1,0 +1,13 @@
+{
+  "options.fsb-interop.title": "FabricSkyBoxes Interop Configuration",
+  "options.fsb-interop.interoperability": "Interoperability",
+  "options.fsb-interop.interoperability.tooltip": "If enabled, the mod will attempt to read/load MCPatcher/OptiFine Custom Skies.",
+  "options.fsb-interop.process_optifine": "Process OptiFine",
+  "options.fsb-interop.process_optifine.tooltip": "If enabled, the mod will attempt to read/load OptiFine Custom Skies.",
+  "options.fsb-interop.process_mcpatcher": "Process MCPatcher",
+  "options.fsb-interop.process_mcpatcher.tooltip": "If enabled, the mod will attempt to read/load MCPatcher Custom Skies.",
+  "options.fsb-interop.debug_mode": "Debug Mode",
+  "options.fsb-interop.debug_mode.tooltip": "If enabled, the mod will output conversion results and error logs in conversion process.",
+  "options.fsb-interop.prefer_fsb_native": "Prefer FSB Native",
+  "options.fsb-interop.prefer_fsb_native.tooltip": "If enabled, the mod will not process/convert MCPatcher/OptiFine if FSB skies are detected."
+}
