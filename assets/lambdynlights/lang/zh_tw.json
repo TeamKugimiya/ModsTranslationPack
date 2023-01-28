@@ -6,6 +6,7 @@
   "lambdynlights.menu.tabs.general": "一般",
   "lambdynlights.option.light_sources.block_entities": "方塊實體",
   "lambdynlights.option.light_sources.entities": "實體",
+  "lambdynlights.option.light_sources.self": "第一人稱",
   "lambdynlights.option.light_sources.water_sensitive_check": "水源敏感度檢查",
   "lambdynlights.option.mode": "動態照明",
   "lambdynlights.tooltip.block_entities": "啟用方塊實體動態照明。",
@@ -14,6 +15,7 @@
   "lambdynlights.tooltip.mode.1": "啟用動態照明。如果啟用，玩家拿著火把時將會照亮周圍環境。",
   "lambdynlights.tooltip.mode.2": "%s 和 %s 會使光源繪製稍微延遲，但能夠最大限度地減少照明更新。",
   "lambdynlights.tooltip.mode.3": "%s 是平滑的動態照明",
+  "lambdynlights.tooltip.self_light_source": "啟用第一人稱動態照明。若你使用的光影已經擁有動態照明功能，那麼建議你將本功能停用。",
   "lambdynlights.tooltip.tnt_lighting": "設定 TNT 的動態照明模式。\n- %s 停用 TNT 動態照明。\n- %s 設定恆定光亮。\n- %s 設定動態光亮。",
   "lambdynlights.tooltip.water_sensitive": "啟用光源敏感度檢查。這意味著一些物品在淹入水中時不會產生照明。"
 }
