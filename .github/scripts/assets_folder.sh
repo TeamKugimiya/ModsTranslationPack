@@ -2,11 +2,14 @@
 
 make_file () {
   file_name=ModsList.md
+  mods_count=$(ls assets/ | wc -l)
   touch $file_name
   {
     echo "# 模組清單"
     echo ""
     echo "此清單用於記錄模組翻譯回饋回該模組專案的記錄"
+    echo ""
+    echo "目前已收錄 ``$mods_count`` 個模組"
     echo ""
     echo "| 模組名稱 | 貢獻 | PR | 翻譯變動 |"
     echo "| ------ | ------ | ------ | ------ |"
