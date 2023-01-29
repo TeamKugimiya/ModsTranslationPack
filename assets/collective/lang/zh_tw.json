@@ -1,0 +1,15 @@
+{
+  "collective.duskconfig.title": "Collective 設定",
+  "collective.duskconfig.DESC_transferItemsBetweenReplacedEntities": "當啟用時，從任何模組相依於「Collective」程式庫所生成的生物，轉移來自已取代的實體所持物品和裝備。",
+  "collective.duskconfig.transferItemsBetweenReplacedEntities": "在已取代的實體之間轉移物品",
+  "collective.duskconfig.DESC_loopsAmountUsedToGetAllEntityDrops": "Collective 依照所設定的時間來迴圈程式上所有怪物可能掉落的物品。掉落物僅產生在相依模組正在使用它們。降低此將會增加世界載入時間，但減少準確率。",
+  "collective.duskconfig.RANGE_loopsAmountUsedToGetAllEntityDrops": "最小值：1，最大值：500",
+  "collective.duskconfig.loopsAmountUsedToGetAllEntityDrops": "用於獲得所有實體掉落物的迴圈數值",
+  "collective.duskconfig.DESC_findABlockcheckAroundEntitiesDelayMs": "對於「那裡有周圍有方塊檢查」的周圍實體延遲毫秒設定。在世界上使用特定方塊狀態的相依模組。在需要時增加此數值來提升 TPS。",
+  "collective.duskconfig.RANGE_findABlockcheckAroundEntitiesDelayMs": "最小值：0，最大值：3600000",
+  "collective.duskconfig.findABlockcheckAroundEntitiesDelayMs": "尋找方塊附近的實體延遲毫秒",
+  "collective.duskconfig.DESC_enableAntiRepostingCheck": "請查看 https://stopmodreposts.org/ 來了解為何此功能會存在。",
+  "collective.duskconfig.enableAntiRepostingCheck": "啟用反重複分發檢查",
+  "collective.duskconfig.DESC_enablePatronPets": "啟用來自 Patrons 贊助者的寵物。將會新增於未來的發布上。",
+  "collective.duskconfig.enablePatronPets": "啟用 Patron 贊助者寵物"
+}
