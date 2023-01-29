@@ -9,7 +9,7 @@
 	"bountiful.decree.invalid": "無效政令",
 	"bountiful.decree.notset": "帶著這個到懸賞板！",
 
-	"bountiful.bounty.turnin": "用右鍵點擊懸賞板來填充滿你的懸賞。",
+	"bountiful.bounty.turnin": "右鍵點擊懸賞板來填充滿你的懸賞。",
 
 	"bountiful.advancement.bounty_taken.title": "僱傭工作",
 	"bountiful.advancement.bounty_taken.desc": "從懸賞板上接下懸賞",
@@ -21,7 +21,7 @@
 	"bountiful.advancement.rush_order.desc": "在一分鐘內完成懸賞",
 
 	"bountiful.advancement.procrastinator.title": "大師級拖延症",
-	"bountiful.advancement.procrastinator.desc": "剩餘五秒以下時完成懸賞",
+	"bountiful.advancement.procrastinator.desc": "在時間剩餘不到五秒時完成懸賞",
 
 	"bountiful.advancement.town_crier.title": "城鎮傳令者",
 	"bountiful.advancement.town_crier.desc": "取得政令！",
@@ -55,21 +55,21 @@
 
 
 	"bountiful.rarity.Common": "常見",
-	"bountiful.rarity.Uncommon": "不常見",
+	"bountiful.rarity.Uncommon": "罕見",
 	"bountiful.rarity.Rare": "稀有",
 	"bountiful.rarity.Epic": "史詩",
 
 	"stat.bountiful.bounties_taken": "懸賞拿取數量統計",
 	"stat.bountiful.bounties_done": "完成懸賞（總計）",
 	"stat.bountiful.bounties_done_0": "完成懸賞（常見）",
-	"stat.bountiful.bounties_done_1": "完成懸賞（不常見）",
+	"stat.bountiful.bounties_done_1": "完成懸賞（罕見）",
 	"stat.bountiful.bounties_done_2": "完成懸賞（稀有）",
 	"stat.bountiful.bounties_done_3": "完成懸賞（史詩）",
 
-	"bountiful.tooltip.advanced": "按住 Shift 來查看物品詳細",
+	"bountiful.tooltip.advanced": "按住 Shift 查看物品詳細資訊",
 	"bountiful.tooltip.time": "完成時間",
 	"bountiful.tooltip.required": "需求",
 	"bountiful.tooltip.rewards": "獎勵",
 	"bountiful.tooltip.expired": "已過期",
-	"bountiful.tooltip.requirements": "需求未達到。"
+	"bountiful.tooltip.requirements": "未達成需求。"
 }
