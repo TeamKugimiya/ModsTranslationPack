@@ -1,0 +1,17 @@
+{
+  "initializing": "正在初始化",
+  "debug": "除錯模式已在設定中啟用。",
+  "convert": "轉化中",
+  "convert.blockstate": "轉化方塊狀態中",
+  "convert.model": "轉化模型中",
+  "convert.image": "轉化圖片中",
+  "convert.particle": "轉化粒子效果中",
+  "convert.font": "轉化字體中",
+  "convert.splashtext": "轉化閃爍標語中",
+  "convert.shader": "轉化光影中",
+  "export.model": "匯出模型中",
+  "export.image": "匯出圖片中",
+  "export.registry": "匯出登錄檔中",
+  "export.identifier": "匯出識別碼中",
+  "export.quad": "匯出 Quads 中"
+}
