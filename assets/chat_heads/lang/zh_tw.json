@@ -24,6 +24,6 @@
   "text.autoconfig.chat_heads.option.nameAliases.@Tooltip[2]": "nickname -> profilename",
   "text.autoconfig.chat_heads.option.nameAliases.@Tooltip[3]": "nick1 nick2 nick3 -> profilename",
   "text.chat_heads.config.error.title": "無法打開設定選單",
-  "text.chat_heads.config.error.no_cloth_config": "「Cloth Config」並未被安裝！",
+  "text.chat_heads.config.error.no_cloth_config": "尚未安裝「Cloth Config」模組！",
   "text.chat_heads.config.error.cloth_config_link": "在 CurseForge 上開啟「Cloth Config」頁面"
 }
