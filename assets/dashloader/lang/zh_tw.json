@@ -1,10 +1,10 @@
 {
-  "debug": "除錯模式已在設定文件中啟用。",
-  "save": "正在起始化",
+  "debug": "除錯模式已在設定檔中啟用。",
+  "save": "正在初始化",
   "save.cache": "正在快取處理中",
   "save.cache.model": "快取模型中",
   "save.cache.image": "快取圖片中",
-  "save.cache.misc": "快取其他中",
+  "save.cache.misc": "快取其他檔案中",
   "save.serialize": "序列化中",
   "save.serialize.fragment": "序列化片段中",
   "save.serialize.mapping": "序列化對應中"

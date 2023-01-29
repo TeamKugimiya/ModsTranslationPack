@@ -1,5 +1,5 @@
 {
-  "initializing": "正在起始化",
+  "initializing": "正在初始化",
   "debug": "除錯模式已在設定中啟用。",
   "convert": "轉化中",
   "convert.blockstate": "轉化方塊狀態中",
@@ -9,9 +9,9 @@
   "convert.font": "轉化字體中",
   "convert.splashtext": "轉化閃爍標語中",
   "convert.shader": "轉化光影中",
-  "export.model": "導出模型中",
-  "export.image": "導出圖片中",
-  "export.registry": "導出註冊表中",
-  "export.identifier": "導出標示 ID 中",
-  "export.quad": "導出四邊形中"
+  "export.model": "匯出模型中",
+  "export.image": "匯出圖片中",
+  "export.registry": "匯出登錄檔中",
+  "export.identifier": "匯出識別碼中",
+  "export.quad": "匯出 Quads 中"
 }
