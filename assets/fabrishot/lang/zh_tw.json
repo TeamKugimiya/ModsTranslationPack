@@ -9,5 +9,5 @@
   "fabrishot.config.height": "螢幕擷取畫面高度",
   "fabrishot.config.delay": "擷取延遲",
   "fabrishot.config.delay.tooltip": "在調整大小前所等待的幀數。使用光影時調整來獲得更好的曝光度",
-  "key.fabrishot.screenshot": "擷取更大的螢幕攝取畫面"
+  "key.fabrishot.screenshot": "擷取更大的螢幕擷取畫面"
 }
