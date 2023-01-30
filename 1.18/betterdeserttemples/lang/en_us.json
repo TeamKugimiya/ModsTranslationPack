@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.betterdeserttemples-fabric-1_18.title": "YUNG's Better Desert Temples",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMinY": "Desert Temple Min Start Y",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMinY.@Tooltip": "The minimum y-value at which the desert temple can spawn.",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMaxY": "Desert Temple Max Start Y",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMaxY.@Tooltip": "The maximum y-value at which the desert temple can spawn.",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.disableVanillaPyramids": "Disable Vanilla Pyramids",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.disableVanillaPyramids.@Tooltip": "Whether or not vanilla desert pyramids should be disabled.",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.applyMiningFatigue": "Apply Mining Fatigue",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.applyMiningFatigue.@Tooltip[0]": "Whether or not mining fatigue is applied to players in the temple",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.applyMiningFatigue.@Tooltip[1]": "if it has not yet been cleared."
+}
