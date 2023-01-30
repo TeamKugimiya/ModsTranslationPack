@@ -4,6 +4,6 @@
   "text.autoconfig.betterdeserttemples-fabric-1_19.option.general.disableVanillaPyramids": "停用原版沙漠神殿",
   "text.autoconfig.betterdeserttemples-fabric-1_19.option.general.disableVanillaPyramids.@Tooltip": "是否停用原版的沙漠神殿生成。",
   "text.autoconfig.betterdeserttemples-fabric-1_19.option.general.applyMiningFatigue": "套用挖掘疲勞",
-  "text.autoconfig.betterdeserttemples-fabric-1_19.option.general.applyMiningFatigue.@Tooltip[0]": "是否在玩家在神殿內部時套用挖掘疲勞",
+  "text.autoconfig.betterdeserttemples-fabric-1_19.option.general.applyMiningFatigue.@Tooltip[0]": "是否使神殿內部的玩家套用挖掘疲勞",
   "text.autoconfig.betterdeserttemples-fabric-1_19.option.general.applyMiningFatigue.@Tooltip[1]": "如果它還並未被攻略完。"
 }
