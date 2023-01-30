@@ -1,0 +1,9 @@
+{
+  "options.continuity.title": "Continuity Configuration",
+  "options.continuity.connected_textures": "Connected Textures",
+  "options.continuity.connected_textures.tooltip": "Enable or disable connected textures for blocks.",
+  "options.continuity.emissive_textures": "Emissive Textures",
+  "options.continuity.emissive_textures.tooltip": "Enable or disable emissive textures for block and item models.",
+  "options.continuity.custom_block_layers": "Custom Block Layers",
+  "options.continuity.custom_block_layers.tooltip": "Enable or disable custom block layers."
+}
