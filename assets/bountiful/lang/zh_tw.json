@@ -4,11 +4,22 @@
 
 	"itemGroup.bountiful": "懸賞家",
 
+	"bountiful.item_tag.any_door": "任何門",
+	"bountiful.item_tag.any_wool": "任何羊毛",
+	"bountiful.item_tag.any_planks": "任何木材",
+	"bountiful.item_tag.any_log": "任何原木",
+	"bountiful.item_tag.any_fence": "任何柵欄",
+	"bountiful.item_tag.any_bed": "任何床",
+	"bountiful.item_tag.any_boat": "任何船",
+	"bountiful.item_tag.any_candle": "任何蠟燭",
+	"bountiful.item_tag.any_banner": "任何旗幟",
+
 	"bountiful.decree": "政令",
 	"bountiful.decrees": "政令",
 	"bountiful.decree.invalid": "無效政令",
 	"bountiful.decree.notset": "帶著這個到懸賞板！",
 
+	"bountiful.bounty.expired": "這個選賞已過期。",
 	"bountiful.bounty.turnin": "右鍵點擊懸賞板來填充滿你的懸賞。",
 
 	"bountiful.advancement.bounty_taken.title": "僱傭工作",
@@ -46,6 +57,7 @@
 	"bountiful.decree.shepherd.name": "牧羊人懸賞令",
 	"bountiful.decree.tinker.name": "鐵匠懸賞令",
 	"bountiful.decree.toolsmith.name": "工具匠懸賞令",
+	"bountiful.decree.runewright.name": "符文收購令",
 	"bountiful.decree.invalid_decree.name": "無效政令",
 
 	"bountiful.bounty.type.entity.kills": "殺死",
