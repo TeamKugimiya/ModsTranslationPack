@@ -1,5 +1,5 @@
 {
-  "block.barteringstation.bartering_station": "以物換物站",
-  "container.barteringstation.bartering_station": "以物換物站",
-  "gui.barteringstation.bartering_station.piglins": "找到 %s 隻豬布林在附近以物換物"
+  "block.barteringstation.bartering_station": "以物易物站",
+  "container.barteringstation.bartering_station": "以物易物站",
+  "gui.barteringstation.bartering_station.piglins": "找到 %s 隻豬布林在附近以物易物"
 }
