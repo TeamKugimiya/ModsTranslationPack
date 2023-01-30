@@ -11,6 +11,6 @@
     "carryon.category.custompickupconditions.custompickupconditionsblocks": "自訂方塊抬起條件",
     "carryon.category.custompickupconditions.custompickupconditionsentities": "自訂實體抬起條件",
 
-    "key.carry.desc": "抬起方塊、實體",
+    "key.carry.desc": "抬起方塊／實體",
     "key.carry.category": "抬起"
 }
