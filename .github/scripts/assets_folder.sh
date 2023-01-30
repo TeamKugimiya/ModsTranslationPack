@@ -110,6 +110,9 @@ modslist_added_mod_generate "1" "citresewn-defaults" "https://github.com/SHsuper
 ### Fabric Capes
 modslist_added_mod_generate "1" "capes" "https://github.com/CaelTheColher/Capes/pull/85"
 
+### EntityCulling
+modslist_added_mod_generate "1" "entityculling" "https://github.com/tr7zw/EntityCulling/pull/94"
+
 # Finish
 sort_file
 make_file
