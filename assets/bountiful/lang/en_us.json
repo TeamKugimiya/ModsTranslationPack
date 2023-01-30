@@ -4,11 +4,23 @@
 
 	"itemGroup.bountiful": "Bountiful",
 
+	"bountiful.item_tag.any_door": "Any Door",
+	"bountiful.item_tag.any_wool": "Any Wool",
+	"bountiful.item_tag.any_planks": "Any Planks",
+	"bountiful.item_tag.any_log": "Any Log",
+	"bountiful.item_tag.any_fence": "Any Fence",
+	"bountiful.item_tag.any_bed": "Any Bed",
+	"bountiful.item_tag.any_boat": "Any Boat",
+	"bountiful.item_tag.any_candle": "Any Candle",
+	"bountiful.item_tag.any_banner": "Any Banner",
+	"bountiful.item_tag.any_wool": "Any Wool",
+
 	"bountiful.decree": "Decree",
 	"bountiful.decrees": "Decrees",
 	"bountiful.decree.invalid": "Invalid Decree",
 	"bountiful.decree.notset": "Bring this to a Bounty Board!",
 
+	"bountiful.bounty.expired": "This bounty has expired.",
 	"bountiful.bounty.turnin": "Fullfill your bounty by right clicking on a bounty board.",
 
 	"bountiful.advancement.bounty_taken.title": "Work for Hire",
@@ -46,6 +58,7 @@
 	"bountiful.decree.shepherd.name": "Shepherding",
 	"bountiful.decree.tinker.name": "Tinkering",
 	"bountiful.decree.toolsmith.name": "Toolsmithing",
+	"bountiful.decree.runewright.name": "Runewright",
 	"bountiful.decree.invalid_decree.name": "Invalid Decree",
 
 	"bountiful.bounty.type.entity.kills": "Kills",
