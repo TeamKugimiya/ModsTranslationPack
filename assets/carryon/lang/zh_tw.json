@@ -1,0 +1,16 @@
+{
+    "carryon.category.settings": "設定",
+    "carryon.category.blacklist": "黑名單",
+    "carryon.category.modeloverrides": "模型覆寫（進階）",
+    "carryon.category.custompickupconditions": "自訂抬起條件（進階）",
+    "carryon.category.whitelist": "白名單",
+
+    "carryon.general.modeloverrides.modeloverrides": "模型覆寫",
+    "carryon.general.blacklist.forbiddenentities": "玩家不能抬起的實體",
+    "carryon.general.blacklist.forbiddentiles": "玩家不能抬起的方塊",
+    "carryon.category.custompickupconditions.custompickupconditionsblocks": "自訂方塊抬起條件",
+    "carryon.category.custompickupconditions.custompickupconditionsentities": "自訂實體抬起條件",
+
+    "key.carry.desc": "抬起方塊／實體",
+    "key.carry.category": "抬起"
+}
