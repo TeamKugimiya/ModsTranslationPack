@@ -1,62 +1,23 @@
 {
-    "betterstats.gui.menu_item.filters": "篩選",
-    "betterstats.gui.menu_item.current_tab": "標籤",
-    "betterstats.gui.menu_item.search": "搜尋",
-    "betterstats.gui.menu_item.hide_empty": "隱藏空白統計",
-    "betterstats.gui.menu_item.hide_empty.tooltip": "隱藏尚未有數值的一般、食物和怪物統計。",
-    "betterstats.gui.menu_item.show_item_names": "顯示物品名稱",
-    "betterstats.gui.menu_item.show_item_names.tooltip": "顯示物品名稱在物品統計提示框中。",
-
-    "betterstats.gui.menu_item.vanilla_stats_screen": "顯示原版統計介面",
-    "betterstats.gui.menu_item.close": "關閉",
-    "betterstats.gui.menu_item.changelogs": "變更日誌",
-    
-    "betterstats.gui.search.no_results": "沒有物品符合你的搜尋……",
-    "betterstats.gui.stat.mob.error": "當嘗試繪製這個實體時出現了例外（錯誤）。\n查看選項標籤獲取更多資訊。",
-
-    "betterstats.config.category.all": "所有 properties",
-    "betterstats.config.category.config": "設定 properties",
-    "betterstats.config.category.config.general": "一般",
-    "betterstats.config.category.config.help": "幫助",
-    "betterstats.config.category.config.filters": "篩選",
-    "betterstats.config.category.config.colors": "顏色",
-    "betterstats.config.category.debug": "除錯 properties（不會儲存）",
-
-    "betterstats.config.BSConfig.BS_OPTIONS_GUI": "啟用 BS 選項介面（請小心！）",
-    "betterstats.config.BSConfig.BS_OPTIONS_GUI.tooltip": "當停用時，此選項標籤將會無法存取。\n請謹慎行事。",
-    "betterstats.config.BSConfig.SEEN_BSS": "看過更好的統計",
-    "betterstats.config.BSConfig.SEEN_BSS.tooltip": "持續追蹤你之前是否看過\n「更好的統計介面」。",
-    "betterstats.config.BSConfig.BSS_BTN_IMG": "BS 按鈕圖案",
-    "betterstats.config.BSConfig.ALLOW_CHEATS": "啟用作弊模式（需要權限。等級二以上或 OP）",
-    "betterstats.config.BSConfig.ALLOW_CHEATS.tooltip": "允許你通過 shift+[click/enter] 物品在\n物品統計中透過 /give 指令給予給自己。\n需要 /give 的權限。",
-    "betterstats.config.BSConfig.IGNORE_ENTITY_RENDER_ERRORS": "忽略實體繪製錯誤",
-    "betterstats.config.BSConfig.IGNORE_ENTITY_RENDER_ERRORS.tooltip": "有些模組的實體可能不支援\n這個模組的處理與繪製，且會產生錯誤。\n這個選項可以忽略那些錯誤顯示。\n\n例如，有些實體可能總假設它們在伺服器世界中，\n然而此模組只在用戶端世界中繪製於畫面。\n\n請查看 COLOR_STAT_BG_ERRORED 來確認統計錯誤的顏色。",
-    
-    "betterstats.config.BSConfig.ENABLE_WIKI_LINKS": "啟用 Wiki 連結",
-    "betterstats.config.BSConfig.ENABLE_WIKI_LINKS.tooltip": "當啟用時，在物品統計上按滑鼠中鍵將會\n連結你到該物品的 Wiki 文章（如果有的話）。",
-    "betterstats.config.BSConfig.ENABLE_REI_LINKS": "啟用 REI 連結",
-    "betterstats.config.BSConfig.ENABLE_REI_LINKS.tooltip": "當啟用時，你將可以透過點左右鍵\n在物品統計上開啟 REI 視窗。\n\n需要安裝《REI》模組。",
-
-    "betterstats.config.BSConfig.FILTER_HIDE_EMPTY_STATS": "ref=betterstats.gui.menu_item.hide_empty",
-    "betterstats.config.BSConfig.FILTER_SHOW_ITEM_NAMES": "ref=betterstats.gui.menu_item.show_item_names",
-
-    "betterstats.config.BSConfig.COLOR_TOOLTIP_TEXT": "提示框文字顏色",
-    "betterstats.config.BSConfig.COLOR_TOOLTIP_BG": "提示框背景顏色",
-    "betterstats.config.BSConfig.COLOR_TOOLTIP_OUTLINE": "提示框外框顏色",
-
-    "betterstats.config.BSConfig.COLOR_CONTENTPANE_BG": "標籤背景顏色",
-    "betterstats.config.BSConfig.COLOR_STAT_GENERAL_TEXT": "統計文字顏色",
-    "betterstats.config.BSConfig.COLOR_STAT_BG": "統計背景顏色",
-    "betterstats.config.BSConfig.COLOR_STAT_BG_ERRORED": "統計錯誤。背景顏色",
-    "betterstats.config.BSConfig.COLOR_STAT_BG_ERRORED.tooltip": "統計的背景顏色會用於\n當某些東西出問題時\n所繪製出的顏色（絕大多數都是生物統計）。\n\n如果你設置這個顏色與\nCOLOR_STAT_BG 相同，在統計上的\n提示框顏色將無法辨別出任何錯誤（如果有的話）。",
-    "betterstats.config.BSConfig.COLOR_STAT_OUTLINE": "統計外框顏色",
-    "betterstats.config.BSConfig.COLOR_CATEGORY_NAME_NORMAL": "類別名稱顏色",
-    "betterstats.config.BSConfig.COLOR_CATEGORY_NAME_HIGHLIGHTED": "醒目提示類別名稱顏色",
-
-    "betterstats.config.BSConfig.DEBUG_SHOW_EVERYTHING": "顯示所有（可能造成卡頓）",
-    "betterstats.config.BSConfig.DEBUG_SHOW_EVERYTHING.tooltip": "顯示所有統計，無論其數值如何。",
-    "betterstats.config.BSConfig.DEBUG_DINNERBONE_MODE": "Dinnerbone 模式",
-    "betterstats.config.BSConfig.DEBUG_DINNERBONE_MODE.tooltip": "生物在生物統計中會上下顛倒。",
-    "betterstats.config.BSConfig.DEBUG_LOG_SCREEN_CHANGES": "記錄畫面變動",
-    "betterstats.config.BSConfig.DEBUG_LOG_SCREEN_CHANGES.tooltip": "當啟用時，MinecraftClient.setScreen(...)\n的函數呼叫將會被紀錄"
+	"betterstats": "更好的統計介面",
+	
+	"betterstats.hud": "統計 HUD（Beta）",
+	"betterstats.hud.entity.kills": "殺死數",
+	"betterstats.hud.entity.deaths": "死亡數",
+	"betterstats.hud.hint.add_widget": "對統計右鍵來新增到這裡（Shift + 滑鼠右鍵）。",
+	"betterstats.hud.hint.del_widget": "按 Backspace 鍵來移除所停留的項目。",
+	"betterstats.hud.hint.esc_close": "按 ESC 鍵來關閉這個畫面。",
+	
+	"betterstats.gui.filters": "篩選器",
+	"betterstats.gui.show_empty_stats": "顯示空的統計",
+	"betterstats.gui.no_stats_yet": "還沒有統計可以顯示……",
+	
+	"betterstats.gui.ctx_menu.pin_to_hud": "釘選至 HUD（Beta）",
+	"betterstats.gui.ctx_menu.close": "關閉",
+	
+	"betterstats.gui.menu_bar.view": "檢視",
+	"betterstats.gui.menu_bar.view.vanilla_stats": "顯示原版統計介面",
+	"betterstats.gui.menu_bar.about": "關於",
+	"betterstats.gui.menu_bar.about.source": "原始碼",
+	"betterstats.gui.menu_bar.mods_other": "其他（模組）"
 }
