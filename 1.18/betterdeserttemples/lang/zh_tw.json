@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.betterdeserttemples-fabric-1_18.title": "YUNG 的更好沙漠神殿",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMinY": "沙漠神殿最小 Y 起始點",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMinY.@Tooltip": "沙漠神殿可以生成的最小 Y 數值。",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMaxY": "沙漠神殿最大 Y 起始點",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMaxY.@Tooltip": "沙漠神殿最大可以生成的 Y 數值。",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.disableVanillaPyramids": "停用原版沙漠神殿",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.disableVanillaPyramids.@Tooltip": "是否停用原版的沙漠神殿生成。",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.applyMiningFatigue": "套用挖掘疲勞",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.applyMiningFatigue.@Tooltip[0]": "是否使神殿內部的玩家套用挖掘疲勞",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.applyMiningFatigue.@Tooltip[1]": "如果它還並未被攻略完。"
+}
