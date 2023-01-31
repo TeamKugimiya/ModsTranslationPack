@@ -120,28 +120,26 @@ multiversion_combiner () {
   fi
 }
 
-
-
 ## Clean up unuse folder
 
 cleanup_original () {
   echo "🧹 清理原始語言檔..."
-  rm -v assets/*/lang/en_us.json
-  rm -rv assets/*/patchouli_books/*/en_us
+  command_pass "rm -v assets/*/lang/en_us.json" "成功清理原始語言檔" "在清理原始語言檔時發生錯誤"
+  command_pass "rm -rv assets/*/patchouli_books/*/en_us" "成功清理原始指南資料夾" "在清理原始指南資料夾時發生錯誤"
   echo "   "
-  echo "🧹 清理多版本語言原始檔..."
-  rm -v MultiVersions/Fabric/*/lang/en_us.json
-  rm -v MultiVersions/Forge/*/lang/en_us.json
+  echo "🧹 清理多版本語言原始語言檔..."
+  command_pass "rm -v MultiVersions/Fabric/*/*/lang/en_us.json" "成功清理 Fabric 原始語言檔" "在清理 Fabric 原始語言檔時發生錯誤"
+  command_pass "rm -v MultiVersions/Forge/*/*/lang/en_us.json" "成功清理 Forge 原始語言檔" "在清理 Forge 原始語言檔時發生錯誤"
   echo "   "
   echo "🧹 清理 Markdown 文件..."
-  rm -v README.md
-  rm -v CHANGELOG.md
-  rm -rv docs/
+  command_pass "rm -v README.md" "成功清理 README.md" "在清理 README.md 時發生錯誤"
+  command_pass "rm -v CHANGELOG.md" "成功清理 CHANGELOG.md" "在清理 CHANGELOG.md 時發生錯誤"
+  command_pass "rm -rv docs/" "成功清理 docs 資料夾" "在清理 docs 資料夾時發生錯誤"
 }
 
 cleanup () {
   echo "🧹 清理多版本語言資料夾..."
-  rm -rv MultiVersions/
+  command_pass "rm -rv MultiVersions/" "成功清理多版本語言資料夾" "在清理多版本語言資料夾時發生錯誤"
 }
 
 # Run functions
