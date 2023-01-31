@@ -28,7 +28,7 @@ jobs:
     if: github.repository == 'xMikux/ModsTranslationPack'
 
     steps:
-      - name: Checking Repostiory
+      - name: Checking Repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0

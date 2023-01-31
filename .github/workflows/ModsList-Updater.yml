@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checking Repostiory
+      - name: Checking Repository
         uses: actions/checkout@v3
 
       - name: Run script

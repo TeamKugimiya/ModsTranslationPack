@@ -22,25 +22,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checking Repostiory
+      - name: Checking Repository
         uses: actions/checkout@v3
         with:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
-
-      - name: Cleanup original language and markdown files
-        run: |
-          echo "Clean assets lang..."
-          rm -v assets/*/lang/en_us.json
-          rm -vr assets/*/patchouli_books/*/en_us
-          echo "   "
-          echo "Clean 1.18 lang..."
-          rm -v 1.18/*/lang/en_us.json
-          echo "   "
-          echo "Clean markdown files..."
-          rm -v README.md
-          rm -v CHANGELOG.md
-          rm -vr docs/
 
       - name: Version Changer
         run: |
@@ -59,19 +45,9 @@ jobs:
       - name: Override mods
         run: .github/scripts/override_mods.sh
 
-      - name: Merge 1.18 translate
-        if: ${{ inputs.matrix_version == '1.18.x' }}
+      - name: MultiVersions!
         run: |
-          cp -r 1.18/* assets/
-
-      - name: Merge Patchs
-        run: |
-          cp -r Patcher/* assets/
-
-      - name: Clean unuse folder
-        run: |
-          rm -r 1.18
-          rm -r Patcher
+          .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
 
       - name: Make ModsTranslationPack
         uses: ComunidadAylas/PackSquash-action@master
