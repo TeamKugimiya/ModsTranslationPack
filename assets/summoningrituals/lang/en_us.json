@@ -1,0 +1,34 @@
+{
+  "itemGroup.summoningrituals": "Summoning Rituals",
+
+  "block.summoningrituals.altar": "Summoning Altar",
+  "block.summoningrituals.indestructible_altar": "Indestructible Summoning Altar",
+
+  "message.summoningrituals.progress": "The summoning ritual is already in progress.",
+  "message.summoningrituals.day": "It needs to be daytime in order to start the ritual.",
+  "message.summoningrituals.night": "It needs to be nighttime in order to start the ritual.",
+  "message.summoningrituals.clear": "The weather needs to be clear in order to start the ritual.",
+  "message.summoningrituals.rain": "It needs to be raining in order to start the ritual.",
+  "message.summoningrituals.thunder": "It needs to be thundering in order to start the ritual.",
+  "message.summoningrituals.block_below": "The Altar does not have the correct block below it.",
+  "message.summoningrituals.sacrifices": "There are not enough sacrifices around the Altar.",
+  "message.summoningrituals.invalid": "The Altar did not contain all required reagents.",
+
+  "label.summoningrituals.region": "Region",
+  "label.summoningrituals.outputs": "Outputs",
+
+  "tooltip.summoningrituals.catalyst": "Catalyst",
+  "tooltip.summoningrituals.catalyst_desc": "Insert last to start the ritual.",
+  "tooltip.summoningrituals.block_below": "Block below",
+  "tooltip.summoningrituals.properties": "Relevant properties",
+  "tooltip.summoningrituals.region": "The region around the altar where mobs are considered for sacrifice.",
+  "tooltip.summoningrituals.day_time": "Required time",
+  "tooltip.summoningrituals.weather": "Required weather",
+
+  "day_time.summoningrituals.day": "Day",
+  "day_time.summoningrituals.night": "Night",
+
+  "weather.summoningrituals.clear": "Clear",
+  "weather.summoningrituals.rain": "Rain",
+  "weather.summoningrituals.thunder": "Thunder"
+}

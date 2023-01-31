@@ -1,0 +1,13 @@
+{
+  "block.autosmithingtable.auto_smithing_table": "Smithing Table (Auto)",
+  "item.autosmithingtable.auto_smithing_table": "Smithing Table (Auto)",
+
+  "container.autosmithingtable.title": "Upgrade Items (Auto)",
+  "itemGroup.autosmithingtable": "Auto Smithing Table",
+
+  "message.autosmithingtable.change_side_to_0": "[§eAutoSmithingTable§r] §bSide changed to: Nothing",
+  "message.autosmithingtable.change_side_to_1": "[§eAutoSmithingTable§r] §bSide changed to: Input Base",
+  "message.autosmithingtable.change_side_to_2": "[§eAutoSmithingTable§r] §bSide changed to: Input Addition",
+  "message.autosmithingtable.change_side_to_3": "[§eAutoSmithingTable§r] §bSide changed to: Output",
+  "tooltip.autosmithingtable.sides": "[Shift + R-Click] on sides to configure"
+}

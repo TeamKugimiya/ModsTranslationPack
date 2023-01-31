@@ -1,0 +1,57 @@
+{
+  "item.notenoughwands.swapping_wand": "Swapping Wand",
+  "item.notenoughwands.teleportation_wand": "Teleportation Wand",
+  "item.notenoughwands.capturing_wand": "Capturing Wand",
+  "item.notenoughwands.building_wand": "Building Wand",
+  "item.notenoughwands.illumination_wand": "Illumination Wand",
+  "item.notenoughwands.moving_wand": "Moving Wand",
+  "item.notenoughwands.protection_wand": "Protection Wand",
+  "item.notenoughwands.master_protection_wand": "Master Protection Wand",
+  "item.notenoughwands.displacement_wand": "Displacement Wand",
+  "item.notenoughwands.acceleration_wand": "Acceleration Wand",
+  "item.notenoughwands.freezing_wand": "Freezing Wand (WIP)",
+  "item.notenoughwands.potion_wand": "Potion Wand",
+  "item.notenoughwands.wand_core": "Wand Core",
+  "item.notenoughwands.advanced_wand_core": "Advanced Wand Core",
+
+  "block.notenoughwands.light": "Illuminating Orb",
+
+  "message.notenoughwands.shiftmessage": "<Press Shift>",
+
+  "message.notenoughwands.building_wand.header": "Right click to extend blocks in that direction",
+  "message.notenoughwands.building_wand.gold": "Sneak right click on such a block to undo one of the last two operations",
+  "message.notenoughwands.building_wand.undo": "Undo: ",
+  "message.notenoughwands.building_wand.mode": "Mode: ",
+  "message.notenoughwands.building_wand.submode": "Submode: ",
+
+  "message.notenoughwands.displacement_wand.header": "Right click to push blocks forward",
+  "message.notenoughwands.displacement_wand.gold": "Sneak right click to pull blocks",
+  "message.notenoughwands.displacement_wand.mode": "Mode: ",
+
+  "message.notenoughwands.moving_wand.header": "Right click to take a block",
+  "message.notenoughwands.moving_wand.gold": "Right click again on block to place it down",
+
+  "message.notenoughwands.swapping_wand.header": "Sneak right click to select a block",
+  "message.notenoughwands.swapping_wand.gold": "Right click in empty air to select 'offhand' mode or right click on block to replace",
+  "message.notenoughwands.swapping_wand.mode": "Mode: ",
+
+  "message.notenoughwands.illumination_wand.header": "Right click on block to spawn light",
+  "message.notenoughwands.illumination_wand.gold": "Right click on light to remove it again",
+
+  "message.notenoughwands.acceleration_wand.header": "Right click on block to speed up ticks",
+  "message.notenoughwands.acceleration_wand.gold": "Sneak right click to pull blocks",
+  "message.notenoughwands.acceleration_wand.mode": "Mode: ",
+
+  "message.notenoughwands.capturing_wand.header": "Left click on creature to capture it",
+  "message.notenoughwands.capturing_wand.gold": "Right click on block to respawn creature",
+
+  "message.notenoughwands.teleportation_wand.header": "Right click to teleport forward until a block is hit or maximum distance is reached",
+  "message.notenoughwands.teleportation_wand.sneak1": "Sneak to teleport through walls",
+  "message.notenoughwands.teleportation_wand.sneak2": "Sneak for half distance",
+
+
+  "key.modifier": "Wand Modifier",
+  "key.categories.notenoughwands": "Not Enough Wands",
+
+  "itemGroup.NotEnoughWands": "Not Enough Wands"
+}
