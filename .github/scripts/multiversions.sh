@@ -114,7 +114,7 @@ multiversion_combiner () {
       # shellcheck disable=SC2001
       original_path=$(echo "$i" | sed 's+Forge/1.18/+assets/+')
       
-      echo "🔧 移動 $mod_name 至資料夾 $i $mod_name $original_path"
+      echo "🔧 移動 $mod_name 至資料夾"
       command_pass "cp $i/lang/zh_tw.json $workflow_path/$original_path/lang" "完成移動（$mod_name）" "移動 $mod_name 時發生錯誤"
     done
   fi
