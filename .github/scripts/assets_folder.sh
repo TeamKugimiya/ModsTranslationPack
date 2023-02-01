@@ -114,7 +114,7 @@ modslist_added_mod_generate "1" "capes" "https://github.com/CaelTheColher/Capes/
 modslist_added_mod_generate "1" "entityculling" "https://github.com/tr7zw/EntityCulling/pull/94"
 
 ### GraphUtil
-modslist_added_mod_generate "3" "graphutil" "https://github.com/tr7zw/GraphUtil/pull/4"
+modslist_added_mod_generate "1" "graphutil" "https://github.com/tr7zw/GraphUtil/pull/4"
 
 # Finish
 sort_file
