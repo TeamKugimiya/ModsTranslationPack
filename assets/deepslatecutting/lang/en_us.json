@@ -1,0 +1,9 @@
+{
+  "block.deepslatecutting.deepslate_slab": "Deepslate Slab",
+  "block.deepslatecutting.deepslate_stairs": "Deepslate Stairs",
+  "block.deepslatecutting.deepslate_wall": "Deepslate Wall",
+  "config.deepslatecutting.title": "Configure DeepslateCutting",
+  "config.deepslatecutting.toggle_deepslate_extras": "Toggle Deepslate Extras",
+  "config.deepslatecutting.toggle_deepslate_extras.true": "ON",
+  "config.deepslatecutting.toggle_deepslate_extras.false": "OFF"
+}
