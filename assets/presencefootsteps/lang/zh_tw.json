@@ -3,8 +3,9 @@
 	"menu.pf.title": "Presence Footsteps 選項",
 	"menu.pf.multiplayer.true": "玩家: 所有",
 	"menu.pf.multiplayer.false": "玩家: 僅有我",
-	"menu.pf.global.true": "實體: 所有",
-	"menu.pf.global.false": "實體: 僅限玩家",
+	"menu.pf.global.all": "實體: 所有",
+	"menu.pf.global.players_and_hostiles": "實體：玩家與敵對生物",
+	"menu.pf.global.players_only": "實體: 僅限玩家",
 	"menu.pf.volume.min": "全域音量: 關閉",
 	"menu.pf.volume": "全域音量: %d%%",
 	"menu.pf.volume.tooltip": "所有存在的腳步聲的全域音量。如果你想完全禁用，請將此設置為 0。",
@@ -16,7 +17,7 @@
 	"menu.pf.volume.running.tooltip": "跑步時，腳步聲的音量可以增加多少。\n\n這個值與總音量相加，會隨著你的速度而增加，所以你走的越快，腳步聲越大。\n\n建議先把它設定為較小的值，然後根據需求進行調整。較高的值將使效果更加明顯。",
 	"menu.pf.stance": "姿態: %s",
 	"menu.pf.stance.auto": "自動",
-	"menu.pf.stance.auto.tooltip": "自動時會將根據 Mine Little Pony 選擇一個合適的姿勢。如果未安裝該模組，則與雙足行為相同",
+	"menu.pf.stance.none.tooltip": "自動時會將根據 Mine Little Pony 選擇一個合適的姿勢。如果未安裝該模組，則與雙足行為相同",
 	"menu.pf.stance.none": "無",
 	"menu.pf.stance.quadruped": "四足",
 	"menu.pf.stance.quadruped.tooltip": "四足，模擬四足行走模式",
@@ -54,5 +55,6 @@
 	"subtitles.pf.glass_rattles": "玻璃搖晃聲",
 	"subtitles.pf.glass_croak": "玻璃彎曲聲",
 	"subtitles.pf.chain": "鎖鏈晃動聲",
-	"subtitles.pf.stone_crack": "石頭碎裂聲"
+	"subtitles.pf.stone_crack": "石頭碎裂聲",
+	"subtitles.pf.wax_squeak": "銅方塊吱吱聲"
 }
