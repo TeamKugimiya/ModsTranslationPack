@@ -11,12 +11,10 @@ fail_status=false
 
 for path in "${array_list[@]}"; do
   if [ -f "$path/lang/en_us.json" ] && [ -f "$path/lang/zh_tw.json" ]; then
-    # shellcheck disable=SC2001
-    name=$(echo "$path" | sed "s+$remove_path_name/++")
+    name=${path#"$remove_path_name/"}
     echo "$name 模組語言驗證成功！"
   else
-    # shellcheck disable=SC2001
-    name=$(echo "$path" | sed "s+$remove_path_name/++")
+    name=${path#"$remove_path_name/"}
     echo "::error ::❎ 錯誤！$name 模組並未包含原始或翻譯語言檔。"
     array_missing_mods+=("$name")
   fi

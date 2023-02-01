@@ -83,10 +83,8 @@ multiversion_combiner () {
     for i in "${mods_list_fabric[@]}"; do
       workdir_path="$(mktemp -d)"
 
-      # shellcheck disable=SC2001
-      mod_name=$(echo "$i" | sed 's+Fabric/global/++')
-      # shellcheck disable=SC2001
-      original_path=$(echo "$i" | sed 's+Fabric/global/+assets/+')
+      mod_name=${i#Fabric/global/}
+      original_path=${i//"Fabric/global"/assets}
 
       echo "🔧 製作 $mod_name 混合"
       command_pass "cp $i/lang/zh_tw.json $workdir_path/zh_tw_multi.json" "成功複製 $mod_name 多語言至目的地" "在複製 $mod_name 多語言時發生問題"
@@ -109,11 +107,9 @@ multiversion_combiner () {
     mods_list_forge_1_18=(Forge/1.18/*)
 
     for i in "${mods_list_forge_1_18[@]}"; do
-      # shellcheck disable=SC2001
-      mod_name=$(echo "$i" | sed 's+Forge/1.18/++')
-      # shellcheck disable=SC2001
-      original_path=$(echo "$i" | sed 's+Forge/1.18/+assets/+')
-      
+      mod_name=${i#Forge/1.18/}
+      original_path=${i//"Forge/1.18"/assets}
+
       echo "🔧 移動 $mod_name 至資料夾"
       command_pass "cp $i/lang/zh_tw.json $workflow_path/$original_path/lang" "完成移動（$mod_name）" "移動 $mod_name 時發生錯誤"
     done
