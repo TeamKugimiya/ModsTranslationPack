@@ -1,8 +1,8 @@
 {
 	"key.presencefootsteps.settings": "Presence Footsteps",
 	"menu.pf.title": "Presence Footsteps 選項",
-	"menu.pf.multiplayer.true": "玩家：所有",
-	"menu.pf.multiplayer.false": "玩家：僅有我",
+	"menu.pf.multiplayer.true": "單人與多人遊戲",
+	"menu.pf.multiplayer.false": "僅限單人遊戲",
 	"menu.pf.global.all": "實體：所有",
 	"menu.pf.global.players_and_hostiles": "實體：玩家與敵對生物",
 	"menu.pf.global.players_only": "實體：僅限玩家",
