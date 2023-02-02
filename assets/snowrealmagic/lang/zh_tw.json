@@ -1,0 +1,13 @@
+{
+  "itemGroup.snowrealmagic": "雪！真實的魔法！",
+  "entity.snowrealmagic.snow": "下落中的方塊",
+  "block.snowrealmagic.slab": "雪台階",
+  "block.snowrealmagic.stairs": "雪樓梯",
+  "block.snowrealmagic.wall": "雪牆",
+  "block.snowrealmagic.fence": "雪柵欄",
+  "block.snowrealmagic.fence_gate": "雪柵欄門",
+  "gamerule.blizzardStrength": "暴風雪強度",
+  "gamerule.blizzardStrength.description": "雪塊會從天上掉下來。1~8 設定最大層數。由雪！真實的魔法！新增",
+  "gamerule.blizzardFrequency": "暴風雪頻率",
+  "gamerule.blizzardFrequency.description": "對於暴風雪發生的可能性。N/10000 每 Tick 的每區塊。由雪！真實的魔法！新增"
+}
