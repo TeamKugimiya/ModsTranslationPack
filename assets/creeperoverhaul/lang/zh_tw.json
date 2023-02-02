@@ -28,7 +28,10 @@
   "item.creeperoverhaul.beach_creeper_spawn_egg": "沙灘苦力怕 生怪蛋",
   "entity.creeperoverhaul.snowy_creeper": "雪地苦力怕",
   "item.creeperoverhaul.snowy_creeper_spawn_egg": "雪地苦力怕 生怪蛋",
+  "entity.creeperoverhaul.ocean_creeper": "海洋苦力怕",
+  "item.creeperoverhaul.ocean_creeper_spawn_egg": "海洋苦力怕 生怪蛋",
   "block.creeperoverhaul.tiny_cactus": "小仙人掌",
+  "block.creeperoverhaul.potted_tiny_cactus": "小仙人掌盆栽",
 
   "subtitles.creeperoverhaul.entity.wood.creeper.hit": "苦力怕攻擊",
   "subtitles.creeperoverhaul.entity.wood.creeper.death": "苦力怕死亡",
