@@ -33,6 +33,8 @@
   "config.fabrihud.shadow": "文字陰影",
   "config.fabrihud.shadow.tooltip": "是否顯示文字陰影",
 
+  "config.fabrihud.background": "文字背景",
+  "config.fabrihud.background.tooltip": "是否顯示帶有顏色的背景在這個元素上",
 
   "element.fabrihud.fps.name": "FPS 顯示",
   "element.fabrihud.fps.tooltip": "顯示 FPS",
