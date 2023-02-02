@@ -87,6 +87,8 @@
         <li><a href="https://grant88.pixnet.net/blog/post/44360632">Simply Light</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/45034372">Supplementaries</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/41564042">Tinkers' Construct</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/44749600">Xaero's World Map</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/44681823">Xaero's Minimap</a></li>
       </ul>
   </details>
 
