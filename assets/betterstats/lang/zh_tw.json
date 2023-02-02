@@ -4,7 +4,7 @@
 	"betterstats.hud": "統計 HUD（Beta）",
 	"betterstats.hud.entity.kills": "殺死數",
 	"betterstats.hud.entity.deaths": "死亡數",
-	"betterstats.hud.hint.add_widget": "對統計右鍵來新增到這裡（Shift + 滑鼠右鍵）。",
+	"betterstats.hud.hint.add_widget": "對統計項目點擊右鍵，將其新增至此處（Shift + 滑鼠右鍵）。",
 	"betterstats.hud.hint.del_widget": "按 Backspace 鍵來移除所停留的項目。",
 	"betterstats.hud.hint.esc_close": "按 ESC 鍵來關閉這個畫面。",
 	
