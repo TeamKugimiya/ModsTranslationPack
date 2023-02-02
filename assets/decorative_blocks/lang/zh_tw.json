@@ -1,5 +1,9 @@
 {
   "itemGroup.decorative_blocks.general" : "裝飾方塊",
+  "block.decorative_blocks.mangrove_beam": "紅樹林木梁柱",
+  "block.decorative_blocks.mangrove_palisade": "紅樹林木板條柵欄",
+  "block.decorative_blocks.mangrove_seat": "紅樹林木座椅",
+  "block.decorative_blocks.mangrove_support": "紅樹林木支架",
   "block.decorative_blocks.crimson_beam": "緋紅蕈木梁柱",
   "block.decorative_blocks.crimson_palisade": "緋紅蕈木板條柵欄",
   "block.decorative_blocks.crimson_seat": "緋紅蕈木座椅",
@@ -46,16 +50,16 @@
   "fluid.decorative_blocks.thatch": "茅草",
   "block.decorative_blocks.thatch": "茅草",
   
-  "wiki.decorative_blocks.thatch" :  "使用剪刀右鍵點擊乾草捆獲得。",
-  "wiki.decorative_blocks.support.condition1" : "§7對著空氣潛行 + 點擊右鍵：",
-  "wiki.decorative_blocks.support.behavior1" : "§3將手上的支架翻轉",
-  "wiki.decorative_blocks.support.condition2" : "§7手拿斧頭點擊右鍵：",
-  "wiki.decorative_blocks.support.behavior2" : "§3設定支架寬度",
-  "wiki.decorative_blocks.support.condition3" : "§7§7手拿斧頭潛行 + 點擊右鍵：",
-  "wiki.decorative_blocks.support.behavior3" : "§3設定支架一端是否隱藏",
-  "wiki.decorative_blocks.seat" :  "§3對著空氣潛行 + 點擊右鍵使用以切換形狀",
-  "wiki.decorative_blocks.copy1" :  "§3預設使用以貼上，潛行使用以複製。",
-  "wiki.decorative_blocks.copy2" :  "§3已複製：%s",
-  
-  "message.decorative_blocks.invalid_bonfire_activator_config" : "篝火點燃道具的設定發生錯誤！"
+  "wiki.decorative_blocks.thatch": "使用剪刀右鍵點擊乾草捆獲得。",
+  "wiki.decorative_blocks.support.condition1": "§7對著空氣潛行 + 點擊右鍵：",
+  "wiki.decorative_blocks.support.behavior1": "§3將手上的支架翻轉",
+  "wiki.decorative_blocks.support.condition2": "§7手拿斧頭點擊右鍵：",
+  "wiki.decorative_blocks.support.behavior2": "§3設定支架寬度",
+  "wiki.decorative_blocks.support.condition3": "§7§7手拿斧頭潛行 + 點擊右鍵：",
+  "wiki.decorative_blocks.support.behavior3": "§3設定支架一端是否隱藏",
+  "wiki.decorative_blocks.seat": "§3對著空氣潛行 + 點擊右鍵使用以切換形狀",
+  "wiki.decorative_blocks.copy1": "§3預設使用以貼上，潛行使用以複製。",
+  "wiki.decorative_blocks.copy2": "§3已複製：%s",
+  "message.decorative_blocks.invalid_bonfire_activator_config": "篝火點燃道具的設定發生錯誤！",
+  "key.decorative_blocks.switch_item_state": "切換物品狀態"
 }
