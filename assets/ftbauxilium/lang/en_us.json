@@ -1,0 +1,15 @@
+{
+  "ftbauxilium.what-is": "FTB Auxilium is a light weight mod that sends a small amount of statistical info back to the FTB stats server. We use this information to help drive our pack development in a direction that best fits our players.",
+  "ftbauxilium.what-info": "Auxilum only reports basic, completely anonymous, data; Currently it'll report back about: load times, the pack you're playing, crashlogs, playtime, and what launcher you used to start the pack.",
+  "ftbauxilium.opt-out": "If you feel like you would rather not send this anonymous information back to FTB then you can opt-out using the button below. This will opt you out of all FTB packs using Auxilium.",
+  "ftbauxilium.heading-what-is": "What is FTB Auxilium?",
+  "ftbauxilium.heading-what-info": "What is it sending?",
+  "ftbauxilium.heading-opt-out": "Opt-out?",
+  "ftbauxilium.heading-opt-in": "It looks like you've already opted-out",
+  "ftbauxilium.opt-in": "If you would like to opt back into the Auxilium stats system. Please press the button below.",
+  "ftbauxilium.btn.opt-out": "Opt-out",
+  "ftbauxilium.btn-opt-in": "Opt back in",
+  "ftbauxilium.btn-cancel": "Cancel",
+  "ftbauxilium.msg.opted-out": "You have been opted out.",
+  "ftbauxilium.msg.opted-in": "You have been opted back in."
+}

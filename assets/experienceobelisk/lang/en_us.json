@@ -1,0 +1,33 @@
+{
+  //items
+  "item.experienceobelisk.steel": "Tempered Steel",
+  "item.experienceobelisk.raw_experience_bucket": "Raw Experience Bucket",
+
+  //blocks
+  "block.experienceobelisk.experience_obelisk": "Experience Obelisk",
+
+  //tabs
+  "itemGroup.experience_obelisk": "Experience Obelisk",
+
+  //tooltips
+  "tooltip.experienceobelisk.experience_obelisk.add1": "Store §a1§f XP level",
+  "tooltip.experienceobelisk.experience_obelisk.add10": "Store §a10§f XP levels",
+  "tooltip.experienceobelisk.experience_obelisk.addAll": "Store §aall§f XP levels",
+  "tooltip.experienceobelisk.experience_obelisk.drain1": "Retrieve §c1§f XP level",
+  "tooltip.experienceobelisk.experience_obelisk.drain10": "Retrieve §c10§f XP levels",
+  "tooltip.experienceobelisk.experience_obelisk.drainAll": "Retrieve §call§f XP levels",
+
+  "tooltip.experienceobelisk.experience_obelisk.item_fluid_amount": "§7Fluid Amount:§r %s",
+  "tooltip.experienceobelisk.experience_obelisk.item_levels": "%s §7Levels§r",
+
+  "tooltip.experienceobelisk.experience_obelisk.radius": "§6Reset§f radius to default",
+  "tooltip.experienceobelisk.experience_obelisk.settings": "Settings...",
+  "tooltip.experienceobelisk.experience_obelisk.back": "Back...",
+
+  //buttons
+  "button.experienceobelisk.experience_obelisk.settings": "§l⚙§r",
+
+  //fluid
+  "fluid.experienceobelisk.raw_experience": "Raw Experience"
+
+}

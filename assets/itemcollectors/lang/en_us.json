@@ -1,0 +1,17 @@
+{
+  "gui.itemcollectors.advanced_collector.show_area.on": "Range Shown",
+  "itemcollectors.basic_collector.info": "Can pick up items in an area around itself",
+  "gui.itemcollectors.advanced_collector.whitelist.off": "Blacklist",
+  "gui.itemcollectors.advanced_collector.filter": "Filter",
+  "itemcollectors.basic_collector.info.range": "Range: %s blocks",
+  "gui.itemcollectors.basic_collector.range.increase": "Increase Range",
+  "gui.itemcollectors.basic_collector.range": "Range (%1$dx%2$dx%3$d)",
+  "gui.itemcollectors.advanced_collector.durability.on": "Match NBT",
+  "gui.itemcollectors.advanced_collector.show_area.off": "Range Hidden",
+  "itemcollectors.advanced_collector.info": "Can pick up items in an area around itself, items can be filtered",
+  "gui.itemcollectors.advanced_collector.durability.off": "Ignore NBT",
+  "gui.itemcollectors.basic_collector.range.decrease": "Decrease Range",
+  "itemcollectors.block.basic_collector": "Basic Item Collector",
+  "gui.itemcollectors.advanced_collector.whitelist.on": "Whitelist",
+  "itemcollectors.block.advanced_collector": "Advanced Item Collector"
+}

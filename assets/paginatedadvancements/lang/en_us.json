@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.PaginatedAdvancements.option.FadeOutBackgroundOnAdvancementHover": "Fade the background slightly gray when hovering over an advancement",
+  "text.autoconfig.PaginatedAdvancements.option.PinnedTabs": "List of pinned Tabs (root advancement identifier)",
+  "text.autoconfig.PaginatedAdvancements.option.SaveLastSelectedTab": "Save and restore the last selected tab",
+  "text.autoconfig.PaginatedAdvancements.option.LastSelectedTab": "The identifier of the last opened tab",
+  "text.autoconfig.PaginatedAdvancements.option.SpacingBetweenHorizontalTabs": "Spacing between horizontal tabs",
+  "text.autoconfig.PaginatedAdvancements.option.SpacingBetweenPinnedTabs": "Spacing between pinned tabs",
+
+  "text.paginated_advancements.copied_to_clipboard": "Copied Advancement ID to clipboard",
+  "text.paginated_advancements.group": "Group: ",
+  "text.paginated_advancements.copy_to_clipboard": "(Ctrl+C to copy)"
+}

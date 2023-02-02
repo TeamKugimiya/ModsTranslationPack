@@ -1,0 +1,17 @@
+{
+  "key.categories.lowfire": "Low Fire",
+  "key.lowfire.toggle": "Toggle Low Fire",
+  "key.lowfire.toggleRender": "Toggle Fire Rendering",
+  "key.lowfire.nextFireOffset": "Change Fire Offset",
+
+  "text.autoconfig.lowfire.title": "Low Fire Menu",
+  "text.autoconfig.lowfire.option.enabled": "Enable Low Fire",
+  "text.autoconfig.lowfire.option.renderFire": "Render Fire",
+  "text.autoconfig.lowfire.option.fireOffset": "Fire Offset",
+
+  "lowfire.toggle.enabled": "Low Fire Enabled",
+  "lowfire.toggle.disabled": "Low Fire Disabled",
+  "lowfire.toggleRender.enabled": "Fire Rendering Enabled",
+  "lowfire.toggleRender.disabled": "Fire Rendering Disabled",
+  "lowfire.nextFireOffset": "Fire offset set to %s"
+}

@@ -1,0 +1,62 @@
+{
+  "error.fabrihud.formatting": "FORMATTING ERROR",
+  "config.fabrihud.title": "FabriHUD",
+  "config.fabrihud.enabled": "Enabled",
+
+  "config.fabrihud.primary": "Settings",
+  "config.fabrihud.elements": "Elements",
+  "config.fabrihud.global": "Global",
+
+  "config.fabrihud.apply":"Apply",
+  "config.fabrihud.apply.tooltip": "Apply and save changes",
+  "config.fabrihud.reset": "Reset",
+  "config.fabrihud.reset.tooltip": "Reset all settings to defaults",
+  "config.fabrihud.cancel": "Cancel",
+  "config.fabrihud.cancel.tooltip": "Exit, and don't apply changes",
+
+  "config.fabrihud.editpositions": "Edit Element Positions",
+  "config.fabrihud.editpositions.tooltip": "Configure where HUD elements are displayed on-screen",
+  "config.fabrihud.editposition": "Edit Position",
+  "config.fabrihud.editposition.tooltip": "Configure where this HUD element is displayed on-screen",
+
+  "config.fabrihud.override": "Override",
+  "config.fabrihud.override.tooltip": "Override the text of this element (Can be used for color codes and more)",
+
+  "config.fabrihud.editposition.x": "x",
+  "config.fabrihud.editposition.x.tooltip": "X Component of this element",
+  "config.fabrihud.editposition.y": "y",
+  "config.fabrihud.editposition.y.tooltip": "Y Component of this element",
+
+  "config.fabrihud.option.enabled": "HUD Enabled",
+  "config.fabrihud.option.enabled.tooltip": "Whether to display the custom HUD",
+
+  "config.fabrihud.shadow": "Text Shadow",
+  "config.fabrihud.shadow.tooltip": "Whether to display this element with a text shadow",
+
+  "config.fabrihud.background": "Text Background",
+  "config.fabrihud.background.tooltip": "Whether to display this element with a colored background",
+
+  "element.fabrihud.fps.name": "FPS Display",
+  "element.fabrihud.fps.tooltip": "Displays frames per second rendered",
+  "element.fabrihud.fps.display": "FPS: %d",
+
+  "element.fabrihud.biome.name": "Biome",
+  "element.fabrihud.biome.tooltip": "Displays the current biome",
+  "element.fabrihud.biome.display": "Biome: %s",
+
+  "element.fabrihud.latency.name": "Latency (Ping)",
+  "element.fabrihud.latency.tooltip": "Displays the client/server latency (ping)",
+  "element.fabrihud.latency.display": "Ping: %dms",
+
+  "element.fabrihud.position.name": "Position",
+  "element.fabrihud.position.tooltip": "Displays the player's location",
+  "element.fabrihud.position.display": "(%d, %d, %d)",
+
+  "element.fabrihud.time.name": "Time",
+  "element.fabrihud.time.tooltip": "Displays the ingame time",
+  "element.fabrihud.time.display": "Time: %1d:%1d",
+
+  "element.fabrihud.light.name": "Light",
+  "element.fabrihud.light.tooltip": "Displays the light level at the player",
+  "element.fabrihud.light.display": "Light: %d"
+}
