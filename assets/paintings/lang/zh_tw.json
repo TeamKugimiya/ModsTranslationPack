@@ -1,0 +1,7 @@
+{
+  "select.a.painting": "選擇繪畫",
+  "text.autoconfig.paintings.option.use_vanilla_only": "設定為是來僅使用原版繪畫，並忽略載入任何其他繪畫",
+  "text.autoconfig.paintings.option.use_selection_gui": "設定為是來啟用在放置繪畫時的彈出式繪畫選擇介面",
+  "text.autoconfig.paintings.option.cycle_paintings": "設定為是來啟用當拿著繪畫物品時右鍵循環繪畫",
+  "text.autoconfig.paintings.option.show_painting_size": "設定為是來在繪畫選擇介面中顯示繪畫大小"
+}
