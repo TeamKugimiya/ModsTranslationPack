@@ -392,7 +392,6 @@ main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiq
 # main_override 3 "Quark" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar" "quark" 2
 
 ## Macaw's Mods
-
 main_override 3 "Macaw's Fences and Wall" "https://www.mediafire.com/file/gzbayubyq7e8rrb/mcw-fences-1.0.7-mc1.19.2forge-tw.jar" "mcw-fences-1.0.7-mc1.19.2forge-tw.jar" "mcwfences" 2
 main_override 3 "Macaw's Bridges" "https://www.mediafire.com/file/f508an5jjm6m4u1/mcw-bridges-2.0.6-mc1.19.3forge-tw.jar" "mcw-bridges-2.0.6-mc1.19.3forge-tw.jar" "mcwbridges" 2
 main_override 3 "Macaw's Trapdoors" "https://www.mediafire.com/file/llwehuk3pnimwbd/mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar" "mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar" "mcwtrpdoors" 2
@@ -414,9 +413,11 @@ main_override 3 "MrCrayfish's Furniture Mod" "https://www.mediafire.com/file/v6z
 main_override 3 "Cooking for Blockheads" "https://www.mediafire.com/file/q2lep7wvg3y3wft/cookingforblockheads-forge-1.19.3-14.0.1-tw.jar" "cookingforblockheads-forge-1.19.3-14.0.1-tw.jar" "cookingforblockheads" 2
 
 ## Xaero's World Map & Minimap
-
 main_override 3 "Xaero's World Map" "https://www.mediafire.com/file/97j4683ku9kjeqm/XaerosWorldMap_1.28.8_Forge_1.19.3-tw.jar" "XaerosWorldMap_1.28.8_Forge_1.19.3-tw.jar" "xaeroworldmap" 2
 main_override 3 "Xaero's Minimap" "https://www.mediafire.com/file/4w4ehrxx49p4szb/Xaeros_Minimap_22.17.1_Forge_1.19.3-tw.jar" "Xaeros_Minimap_22.17.1_Forge_1.19.3-tw.jar" "xaerominimap" 2
+
+## The Twilight Forest
+main_override 3 "The Twilight Forest" "https://www.mediafire.com/file/icctmhnrj3ftktf/twilightforest-1.19.2-4.2.1493-universal-tw.jar" "twilightforest-1.19.2-4.2.1493-universal-tw.jar" "twilightforest" 2
 
 ### GitHub ###
 
