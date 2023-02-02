@@ -1,0 +1,31 @@
+{
+  "item.duckling.duck_spawn_egg": "鴨子 生怪蛋",
+  "item.duckling.quackling_spawn_egg": "呱哥 生怪蛋",
+  "item.duckling.duck_egg": "鴨蛋",
+  "block.duckling.holiday_fruit_cake": "節慶水果蛋糕",
+  "item.duckling.raw_duck": "生鴨肉",
+  "item.duckling.cooked_duck": "烤鴨肉",
+  "entity.duckling.duck": "鴨子",
+  "entity.duckling.quackling": "呱哥",
+  "entity.duckling.duck_egg": "鴨蛋",
+
+  "subtitles.duckling.quack": "鴨鴨呱呱叫",
+  "subtitles.duckling.deep_quack": "呱哥呱呱叫",
+  "subtitles.duckling.duck_death": "鴨子受傷",
+  "subtitles.duckling.quackling_death": "呱哥受傷",
+
+  "advancements.duckling.agent_d.title": "超級超級秘密間諜",
+  "advancements.duckling.agent_d.description": "餵食一隻超級秘密間諜探員 D！",
+
+  "advancements.duckling.breed_duck.title": "看看那些雞！",
+  "advancements.duckling.breed_duck.description": "餵食兩隻鴨。",
+
+  "advancements.duckling.fishing_rod.title": "呱族事業",
+  "advancements.duckling.fishing_rod.description": "給呱哥釣魚竿",
+
+  "advancements.duckling.holiday_fruit_cake.title": "有那麼點水果味",
+  "advancements.duckling.holiday_fruit_cake.description": "獲得一份節慶水果蛋糕。",
+
+  "advancements.duckling.pet_duck.title": "超可愛過載",
+  "advancements.duckling.pet_duck.description": "餵食鴨鴨。"
+}
