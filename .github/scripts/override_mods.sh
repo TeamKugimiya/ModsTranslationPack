@@ -383,7 +383,7 @@ main_override 4 "Productive Bees" "https://www.mediafire.com/file/raz0dqfohs5jk2
 ### Tinker (Guide)
 # shellcheck disable=SC2034
 tinker_guide_array=("tinkers_gadgetry/zh_tw" "puny_smelting/zh_tw" "mighty_smelting/zh_tw" "materials_and_you/zh_tw" "fantastic_foundry/zh_tw" "encyclopedia/zh_tw")
-main_override 4 "Tinkers' Construct" "https://www.mediafire.com/file/phlkrv5v30neayw/TConstruct-1.18.2-3.5.3.63-tw.jar" "TConstruct-1.18.2-3.5.3.63-tw.jar" "tconstruct" 2 "assets/tconstruct/book" "book" tinker_guide_array 2
+main_override 4 "Tinkers' Construct" "https://www.mediafire.com/file/yai3d7v7z3gbqdc/TConstruct-1.18.2-3.6.2.92-tw.jar" "TConstruct-1.18.2-3.6.2.92-tw.jar" "tconstruct" 2 "assets/tconstruct/book" "book" tinker_guide_array 2
 
 ## Immersive Engineering
 main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE%E6%B2%89%E6%B5%B8%E5%B7%A5%E7%A8%8B%E6%BC%A2%E5%8C%96v1.1.zip" "IE沉浸工程漢化v1.1.zip" "immersiveengineering" 2
