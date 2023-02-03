@@ -1,9 +1,9 @@
 {
-  "advancements.more_babies.cursed_clock.description": "鍛造出受詛咒時鐘。",
+  "advancements.more_babies.cursed_clock.description": "鍛造出詛咒時鐘。",
   "advancements.more_babies.cursed_clock.title": "詛咒時鐘",
   "advancements.more_babies.cursed_clock_on_a_stick.description": "將受詛咒時鐘與棒狀物結合在一起。",
-  "advancements.more_babies.cursed_clock_on_a_stick.title": "裝在木棒上的受詛咒時鐘",
-  "advancements.more_babies.cursed_clock_on_a_stick_use.description": "使用裝在木棒上的受詛咒時鐘在生物上。",
+  "advancements.more_babies.cursed_clock_on_a_stick.title": "詛咒時鐘杖",
+  "advancements.more_babies.cursed_clock_on_a_stick_use.description": "對著生物使用詛咒時鐘杖。",
   "advancements.more_babies.cursed_clock_on_a_stick_use.title": "轉化生物",
   "advancements.more_babies.out_played.description": "被幼年生物殺死。",
   "advancements.more_babies.out_played.title": "被打敗了！",
@@ -40,7 +40,7 @@
   "entity.more_babies.witch": "女巫",
   "entity.more_babies.wither": "凋零怪",
   "entity.more_babies.wither_skeleton": "凋零骷髏",
-  "item.more_babies.cursed_clock": "受詛咒時鐘",
-  "item.more_babies.cursed_clock_on_a_stick": "裝在木棒上的受詛咒時鐘",
+  "item.more_babies.cursed_clock": "詛咒時鐘",
+  "item.more_babies.cursed_clock_on_a_stick": "詛咒時鐘杖",
   "item.more_babies.cursed_clock_on_a_stick.desc": "可以用來轉化成年生物成幼年（反之亦然）。"
 }
