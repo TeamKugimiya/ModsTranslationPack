@@ -51,5 +51,5 @@
   "gui.automodpack.screen.download.button.cancel": "取消",
   "gui.automodpack.screen.download.text.calculating": "正在計算……",
   "gui.automodpack.screen.download.text.downloading": "正在下載：",
-  "gui.automodpack.screen.download.text.no_files": "沒有檔案下載！"
+  "gui.automodpack.screen.download.text.no_files": "沒有檔案可供下載！"
 }
