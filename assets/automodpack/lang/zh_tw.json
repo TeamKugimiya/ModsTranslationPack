@@ -43,5 +43,13 @@
   "gui.automodpack.screen.danger.secDescription": "請別下載來自不信任伺服器的模組包！這可能帶有風險！",
   "gui.automodpack.screen.danger.button.accept": "下載",
   "gui.automodpack.screen.danger.button.dontshowagain": "下載並不再度顯示",
-  "gui.automodpack.screen.danger.button.cancel": "不要下載"
+  "gui.automodpack.screen.danger.button.cancel": "不要下載",
+
+  "gui.automodpack.screen.changelog.button.back": "返回",
+  "gui.automodpack.screen.restart.button.changelogs": "查看變更記錄",
+  "gui.automodpack.screen.changelog.no_changes": "未找到變更",
+  "gui.automodpack.screen.download.button.cancel": "取消",
+  "gui.automodpack.screen.download.text.calculating": "正在計算……",
+  "gui.automodpack.screen.download.text.downloading": "正在下載：",
+  "gui.automodpack.screen.download.text.no_files": "沒有檔案可供下載！"
 }
