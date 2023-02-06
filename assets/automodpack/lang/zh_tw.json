@@ -20,9 +20,9 @@
   "gui.automodpack.screen.restart.title.all": "已為你的模組包與「AutoModpack」下載更新！",
   "gui.automodpack.screen.restart.title.modpack": "已為你的模組包下載更新！",
   "gui.automodpack.screen.restart.title.automodpack": "已為你的「AutoModpack」下載更新！",
-  "gui.automodpack.screen.restart.description": "如果你想完成此次更新，你必須重開遊戲。",
-  "gui.automodpack.screen.restart.secDescription": "你想現在重開遊戲嗎？",
-  "gui.automodpack.screen.restart.button.quit": "是（離開遊戲）",
+  "gui.automodpack.screen.restart.description": "要完成此次更新，你必須重開遊戲。",
+  "gui.automodpack.screen.restart.secDescription": "你想要現在自動重開嗎？",
+  "gui.automodpack.screen.restart.button.quit": "是（重開）",
   "gui.automodpack.screen.restart.button.cancel": "否（返回到遊戲）",
 
   "gui.automodpack.screen.confirm.title": "❌ 刪除模組包 ❌",
