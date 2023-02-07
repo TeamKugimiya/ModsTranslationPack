@@ -1,0 +1,27 @@
+{
+ "betterstrongholds.commands.locate.stronghold": "Use /locate structure betterstrongholds:stronghold instead!",
+ "Use /locate structure betterstrongholds:stronghold instead!": "Use /locate structure betterstrongholds:stronghold instead!",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.title": "YUNG's Better Strongholds",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds": "YUNG's Better Strongholds",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general": "General Settings",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.@Tooltip": "General settings.",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceNormal": "Cobweb Spawn Rate (NORMAL)",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[0]": "The rate at which cobwebs will spawn in various parts of the stronghold.",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[1]": "Default: 0.1",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceSpawner": "Cobweb Spawn Rate (SPAWNER)",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[0]": "The rate at which cobwebs will spawn around spider spawners in libraries.",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[1]": "Default: 0.3",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.torchSpawnRate": "Torch Spawn Rate",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.torchSpawnRate.@Tooltip[0]": "The rate at which torches spawn throughout the stronghold.",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.torchSpawnRate.@Tooltip[1]": "Default: 0.1",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.lanternSpawnRate": "Lantern Spawn Rate",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[0]": "The rate at which lanterns spawn throughout the stronghold.",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[1]": "Default: 0.2"
+}
