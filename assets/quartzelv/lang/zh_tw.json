@@ -1,0 +1,11 @@
+{
+  "itemGroup.quartzelv.quartz_elevator": "石英電梯",
+  "block.quartzelv.quartz_elevator": "石英電梯",
+  "block.quartzelv.smooth_quartz_elevator": "平滑石英電梯",
+  "text.autoconfig.quartzelv.title": "石英電梯",
+  "text.autoconfig.quartzelv.option.quartzElevatorDistance": "最大石英電梯距離",
+  "text.autoconfig.quartzelv.option.smoothQuartzElevatorDistance": "最大平滑石英電梯距離",
+  "text.autoconfig.quartzelv.option.mixTypes": "在不同的電梯類型中移動",
+  "text.autoconfig.quartzelv.option.isPlayerOnly": "僅限玩家",
+  "text.autoconfig.quartzelv.option.displayParticles": "顯示粒子效果"
+}
