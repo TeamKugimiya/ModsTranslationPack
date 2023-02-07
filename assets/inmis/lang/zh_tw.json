@@ -1,0 +1,39 @@
+{
+  "itemGroup.inmis.backpack": "Inmis",
+
+  "ui.inmis.backpack": "背包",
+
+  "item.inmis.baby_backpack": "兒童背包",
+  "item.inmis.ender_pouch": "終界袋子",
+
+  "item.inmis.frayed_backpack": "磨損背包",
+  "item.inmis.plated_backpack": "防彈背包",
+  "item.inmis.gilded_backpack": "鍍金背包",
+  "item.inmis.bejeweled_backpack": "寶石背包",
+  "item.inmis.blazing_backpack": "烈焰背包",
+  "item.inmis.withered_backpack": "凋零背包",
+  "item.inmis.endless_backpack": "終末背包",
+
+  "inmis.advancement.baby_backpack.title": "糖果袋",
+  "inmis.advancement.baby_backpack.description": "完美的派對禮物！",
+  "inmis.advancement.ender_pouch.title": "終界訪問權",
+  "inmis.advancement.ender_pouch.description": "把手伸進這個背包中，你感受到你的手就像是在終界箱中一樣……",
+
+  "inmis.advancement.frayed_backpack.title": "初始背包",
+  "inmis.advancement.frayed_backpack.description": "這並不大，但這是我的！製作磨損背包來擴展你的物品欄空間。",
+  "inmis.advancement.plated_backpack.title": "升級",
+  "inmis.advancement.plated_backpack.description": "用鐵錠環繞你的磨損背包來擴展你的儲物功能。",
+  "inmis.advancement.gilded_backpack.title": "鍍金延伸性",
+  "inmis.advancement.gilded_backpack.description": "透過鍍金的方式加強你的防彈背包。閃亮亮！",
+  "inmis.advancement.bejeweled_backpack.title": "用各種寶石包覆我",
+  "inmis.advancement.bejeweled_backpack.description": "黏上一些稀有的寶石在你的鍍金背包上來讓它更加的閃閃發亮！",
+  "inmis.advancement.blazing_backpack.title": "炙熱替代品",
+  "inmis.advancement.blazing_backpack.description": "在你的背包鍍上獄髓來使其免疫火焰與熔岩。",
+  "inmis.advancement.withered_backpack.title": "凋零延伸性",
+  "inmis.advancement.withered_backpack.description": "用從荒蕪的王所獲得的獎盃加強你的閃亮亮背包。",
+  "inmis.advancement.endless_backpack.title": "結束",
+  "inmis.advancement.endless_backpack.description": "獲得終極背包，以終界的力量為燃料。",
+
+  "category.inmis.keybindings": "Inmis",
+  "key.inmis.open_backpack": "開啟背包"
+}
