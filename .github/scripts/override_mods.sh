@@ -93,19 +93,14 @@ github_downloader () {
     download_file_path=$3
 
     echo "📁 下載 $mods_name 中..."
-    if wget -q "$download_link" -P "$download_file_path"; then
-      echo "✅ 下載完成！"
-    else
-      echo "❎ 下載失敗！"
-    fi
-    ## Strange, not working
-    # command_excuter "wget -q $download_link -P $download_file_path" "下載完成！" "下載失敗！"
+    command_excuter "wget -q $download_link -P $download_file_path" "下載完成！" "下載失敗！"
 }
 
 download_mode_chooser () {
     download_mode=$1
     mods_name=$2
     download_link=$3
+    download_file_path=$4
 
     case $download_mode in
       # 模組模式 1 Mega
@@ -120,7 +115,7 @@ download_mode_chooser () {
         ;;
       "3")
         echo "📥 透過 Wget 下載 $mods_name..."
-        github_downloader "$mods_name" "$download_link"
+        github_downloader "$mods_name" "$download_link" "$download_file_path"
         ;;
       *)
         error_func
@@ -301,7 +296,7 @@ main_override () {
         workdir_path="$(mktemp -d)"
         echo "🐌 移動至暫存資料夾 $workdir_path..."
         cd "$workdir_path" || exit
-        download_mode_chooser "$download_mode" "$mods_name" "$mods_download_link"
+        download_mode_chooser "$download_mode" "$mods_name" "$mods_download_link" "$workdir_path"
         zip_extractor "$mods_name" "$mods_file_name"
         echo "🐌 回到主目錄"
         home
