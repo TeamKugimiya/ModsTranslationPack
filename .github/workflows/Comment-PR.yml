@@ -7,6 +7,9 @@ on:
     workflows: [ 'Auto Package' ]
     types: [ completed ]
 
+permissions:
+  pull-requests: write
+
 jobs:
   pr_comment:
     name: Add packages to PRs
