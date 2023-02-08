@@ -6,6 +6,10 @@ echo ">>> 對於一些第三方來源的自動下載覆蓋"
 echo ">>> 與部分尚未釋出最新翻譯更新的模組"
 echo ">>> 此步驟將會把一些已知的模組翻譯覆蓋掉"
 
+## Import Common Libary
+# shellcheck source=/dev/null
+source ./.github/scripts/Common_Library.sh
+
 ## DEBUG Var
 
 # java_path=$(which jar)
@@ -34,12 +38,6 @@ home () {
     cd "$home_path" || exit
 }
 
-# Error function
-error () {
-    echo "❗ 錯誤！未指定模組模式或參數錯誤。"
-    exit 128
-}
-
 # Verify override contents
 verify_override_translate_exists () {
     mods_name=$1
@@ -66,7 +64,7 @@ verify_override_translate_exists () {
         fi
         ;;
       *)
-       error
+       error_func
        ;;
       esac
 }
@@ -78,11 +76,7 @@ mega_downloader () {
     download_link=$2
 
     echo "📁 下載 $mods_name 中..."
-    if megadl "$download_link"; then
-      echo "✅ 下載完成！"
-    else
-      echo "❎ 下載失敗！"
-    fi
+    command_excuter "megadl $download_link" "下載完成！" "下載失敗！"
 }
 
 mediafire_downloader () {
@@ -90,11 +84,7 @@ mediafire_downloader () {
     download_link=$2
 
     echo "📁 下載 $mods_name 中..."
-    if wget -q "$(wget -qO - "$download_link" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')"; then
-      echo "✅ 下載完成！"
-    else
-      echo "❎ 下載失敗！"
-    fi
+    command_excuter "wget -q $(wget -qO - "$download_link" | grep 'id="downloadButton"' | grep -Po '(?<=href=")[^"]*')" "下載完成！" "下載失敗！"
 }
 
 github_downloader () {
@@ -108,6 +98,8 @@ github_downloader () {
     else
       echo "❎ 下載失敗！"
     fi
+    ## Strange, not working
+    # command_excuter "wget -q $download_link -P $download_file_path" "下載完成！" "下載失敗！"
 }
 
 download_mode_chooser () {
@@ -131,7 +123,7 @@ download_mode_chooser () {
         github_downloader "$mods_name" "$download_link"
         ;;
       *)
-        error
+        error_func
         ;;
       esac
 }
@@ -148,23 +140,15 @@ jar_extractor () {
       # 模組模式 1 提取模組翻譯
       "1")
         echo "🔧 提取 $mods_name 的翻譯檔..."
-        if "$java_home_path" xf "$file_name" "$mods_path"; then
-          echo "✅ 提取成功！"
-        else
-          echo "❎ 提取失敗！"
-        fi
+        command_excuter "$java_home_path xf $file_name $mods_path" "提取成功！" "提取失敗！"
         ;;
       # 模組模式 2 提取指南手冊翻譯與模組翻譯
       "2")
         echo "🔧 提取完整 $mods_name..."
-        if "$java_home_path" xf "$file_name"; then
-          echo "✅ 提取成功！"
-        else
-          echo "❎ 提取失敗！"
-        fi
+        command_excuter "$java_home_path xf $file_name" "提取成功！" "提取失敗！"
         ;;
       *)
-        error
+        error_func
         ;;
       esac
 }
@@ -174,11 +158,7 @@ zip_extractor () {
     file_name=$2
 
     echo "📦 解壓縮 $mods_name 檔案..."
-    if unzip -q "$file_name"; then
-      echo "✅ 解壓縮成功！"
-    else
-      echo "❎ 解壓縮失敗！"
-    fi
+    command_excuter "unzip -q $file_name" "解壓縮成功！" "解壓縮失敗！"
 }
 
 # License Downloader
@@ -188,12 +168,7 @@ license_downloader () {
     license_link=$2
 
     echo "🪪 下載 $mods_name 授權條款..."
-    if wget -q "$license_link" -O "LICENSE_$mods_name"; then
-      echo "✅ 下載完成！"
-      echo "   "
-    else
-      echo "❎ 下載失敗！"
-    fi
+    command_excuter "wget -q $license_link -O LICENSE_$mods_name" "下載完成！" "下載失敗！"
 }
 
 ## Main Override Functions
@@ -307,7 +282,7 @@ main_override () {
             done
             ;;
           *)
-            error
+            error_func
             ;;
         esac
         echo "⚙️ 驗證翻譯檔案..."
@@ -336,7 +311,7 @@ main_override () {
         echo "   "
         ;;
       *)
-        error
+        error_func
       esac
 }
 
