@@ -79,7 +79,7 @@ modslist_added_mod_generate "1" "automodpack" "https://github.com/Skidamek/AutoM
 modslist_added_mod_generate "2" "energymeter" "https://github.com/AlmostReliable/energymeter-forge/pull/26"
 
 ### TrashCans
-modslist_added_mod_generate "3" "trashcans" "https://github.com/SuperMartijn642/TrashCans/pull/20"
+modslist_added_mod_generate "1" "trashcans" "https://github.com/SuperMartijn642/TrashCans/pull/25"
 
 ### Flux Networks
 modslist_added_mod_generate "1" "fluxnetworks" "https://github.com/SonarSonic/Flux-Networks/pull/482"
