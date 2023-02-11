@@ -172,13 +172,14 @@ main_override () {
     module_mode=$1
     mods_name=$2
     mods_download_link=$3
-    mods_file_name=$4
-    mods_path=assets/$5
-    download_mode=$6
-    mods_guide_original_path=$7
-    mods_guide_assets_path=$mods_path/$8
-    local -n mods_guide_path_array=${9:-null}
-    mods_guide_mode=${10}
+    # shellcheck disable=SC2086
+    mods_file_name=$(basename $mods_download_link)
+    mods_path=assets/$4
+    download_mode=$5
+    mods_guide_original_path=$6
+    mods_guide_assets_path=$mods_path/$7
+    local -n mods_guide_path_array=${8:-null}
+    mods_guide_mode=${9}
 
     # Some path translate var
     mods_path_lang=$mods_path/lang
@@ -317,15 +318,13 @@ home
 # install_packages (no mega download now, so disabled to speed up the script.)
 
 ## 使用解說 ##
-# main_override *1模組模式 模組名稱 模組覆蓋連結 *2模組覆蓋檔案名 模組assetsID *3下載模式 *4指南手冊原始路徑 *5指南手冊assets路徑 *6指南手冊陣列 *7特殊模式
+# main_override *1模組模式 模組名稱 模組覆蓋連結 模組assetsID *3下載模式 *4指南手冊原始路徑 *5指南手冊assets路徑 *6指南手冊陣列 *7特殊模式
 #
 # *1 模組模式總共有四種
 #    - 1 直接下載並放入指定路徑
 #    - 2 解壓縮來自壓縮檔
 #    - 3 從 Jar 中提取模組翻譯
 #    - 4 從 Jar 中提取指南手冊與模組翻譯
-#
-# *2 模組覆蓋檔案名當使用模組模式 1 時將可以為空
 #
 # *3 下載模式共有兩種
 #    - 1 透過 Mega
@@ -348,65 +347,62 @@ home
 ### Productive Bees (Guide) 
 # shellcheck disable=SC2034
 productive_bees_array=("zh_tw")
-main_override 4 "Productive Bees" "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees" 2 "data/productivebees/patchouli_books/guide" "patchouli_books/guide" productive_bees_array 1
+main_override 4 "Productive Bees" "https://www.mediafire.com/file/raz0dqfohs5jk29/productivebees-1.19.2-0.10.2.0-tw.jar" "productivebees" 2 "data/productivebees/patchouli_books/guide" "patchouli_books/guide" productive_bees_array 1
 
 ### Tinker (Guide)
 # shellcheck disable=SC2034
 tinker_guide_array=("tinkers_gadgetry/zh_tw" "puny_smelting/zh_tw" "mighty_smelting/zh_tw" "materials_and_you/zh_tw" "fantastic_foundry/zh_tw" "encyclopedia/zh_tw")
-main_override 4 "Tinkers' Construct" "https://www.mediafire.com/file/yai3d7v7z3gbqdc/TConstruct-1.18.2-3.6.2.92-tw.jar" "TConstruct-1.18.2-3.6.2.92-tw.jar" "tconstruct" 2 "assets/tconstruct/book" "book" tinker_guide_array 2
+main_override 4 "Tinkers' Construct" "https://www.mediafire.com/file/yai3d7v7z3gbqdc/TConstruct-1.18.2-3.6.2.92-tw.jar" "tconstruct" 2 "assets/tconstruct/book" "book" tinker_guide_array 2
 
 ## Immersive Engineering
-main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE%E6%B2%89%E6%B5%B8%E5%B7%A5%E7%A8%8B%E6%BC%A2%E5%8C%96v1.1.zip" "IE沉浸工程漢化v1.1.zip" "immersiveengineering" 2
-
-## Quark
-# main_override 3 "Quark" "https://www.mediafire.com/file/3ivemnio4fdbrzm/Quark-3.3-371-1.19.2-tw.jar" "Quark-3.3-371-1.19.2-tw.jar" "quark" 2
+main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE沉浸工程漢化v1.1.zip" "immersiveengineering" 2
 
 ## Macaw's Mods
-main_override 3 "Macaw's Fences and Wall" "https://www.mediafire.com/file/gzbayubyq7e8rrb/mcw-fences-1.0.7-mc1.19.2forge-tw.jar" "mcw-fences-1.0.7-mc1.19.2forge-tw.jar" "mcwfences" 2
-main_override 3 "Macaw's Bridges" "https://www.mediafire.com/file/f508an5jjm6m4u1/mcw-bridges-2.0.6-mc1.19.3forge-tw.jar" "mcw-bridges-2.0.6-mc1.19.3forge-tw.jar" "mcwbridges" 2
-main_override 3 "Macaw's Trapdoors" "https://www.mediafire.com/file/llwehuk3pnimwbd/mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar" "mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar" "mcwtrpdoors" 2
-main_override 3 "Macaw's Doors" "https://www.mediafire.com/file/o97axparlovckcs/mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcwdoors" 2
-main_override 3 "Macaw's Roofs" "https://www.mediafire.com/file/qbihy542fkdcug9/mcw-roofs-2.2.2-mc1.19.2forge-tw.jar" "mcw-roofs-2.2.2-mc1.19.2forge-tw.jar" "mcwroofs" 2
-main_override 3 "Macaw's Furniture" "https://www.mediafire.com/file/cfvsk3q0rq1uukn/mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcwfurnitures" 2
-main_override 3 "Macaw's Windows" "https://www.mediafire.com/file/hpi4bs41vnwh4wk/mcw-windows-2.1.1-mc1.19.2forge-tw.jar" "mcw-windows-2.1.1-mc1.19.2forge-tw.jar" "mcwwindows" 2
+main_override 3 "Macaw's Fences and Wall" "https://www.mediafire.com/file/gzbayubyq7e8rrb/mcw-fences-1.0.7-mc1.19.2forge-tw.jar" "mcwfences" 2
+main_override 3 "Macaw's Bridges" "https://www.mediafire.com/file/f508an5jjm6m4u1/mcw-bridges-2.0.6-mc1.19.3forge-tw.jar" "mcwbridges" 2
+main_override 3 "Macaw's Trapdoors" "https://www.mediafire.com/file/llwehuk3pnimwbd/mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar" "mcwtrpdoors" 2
+main_override 3 "Macaw's Doors" "https://www.mediafire.com/file/o97axparlovckcs/mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcwdoors" 2
+main_override 3 "Macaw's Roofs" "https://www.mediafire.com/file/qbihy542fkdcug9/mcw-roofs-2.2.2-mc1.19.2forge-tw.jar" "mcwroofs" 2
+main_override 3 "Macaw's Furniture" "https://www.mediafire.com/file/cfvsk3q0rq1uukn/mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcwfurnitures" 2
+main_override 3 "Macaw's Windows" "https://www.mediafire.com/file/hpi4bs41vnwh4wk/mcw-windows-2.1.1-mc1.19.2forge-tw.jar" "mcwwindows" 2
 
 ## Simply Light
-main_override 3 "Simply Light" "https://www.mediafire.com/file/vcozdmfxucxdfn1/simplylight-1.19.3-1.4.5-build.46-tw.jar" "simplylight-1.19.3-1.4.5-build.46-tw.jar" "simplylight" 2
+main_override 3 "Simply Light" "https://www.mediafire.com/file/vcozdmfxucxdfn1/simplylight-1.19.3-1.4.5-build.46-tw.jar" "simplylight" 2
 
 ## Supplementaries
-main_override 3 "Supplementaries" "https://www.mediafire.com/file/ppq1oka7kyckwhd/supplementaries-1.19.2-2.2.32-tw.jar" "supplementaries-1.19.2-2.2.32-tw.jar" "supplementaries" 2
+main_override 3 "Supplementaries" "https://www.mediafire.com/file/ppq1oka7kyckwhd/supplementaries-1.19.2-2.2.32-tw.jar" "supplementaries" 2
 
 ## MrCrayfish's Furniture Mod
-main_override 3 "MrCrayfish's Furniture Mod" "https://www.mediafire.com/file/v6zk7kbq5nk74ne/cfm-7.0.0-pre34-mc1.19-tw.jar" "cfm-7.0.0-pre34-mc1.19-tw.jar" "cfm" 2
+main_override 3 "MrCrayfish's Furniture Mod" "https://www.mediafire.com/file/v6zk7kbq5nk74ne/cfm-7.0.0-pre34-mc1.19-tw.jar" "cfm" 2
 
 ## Cooking for Blockheads
-main_override 3 "Cooking for Blockheads" "https://www.mediafire.com/file/q2lep7wvg3y3wft/cookingforblockheads-forge-1.19.3-14.0.1-tw.jar" "cookingforblockheads-forge-1.19.3-14.0.1-tw.jar" "cookingforblockheads" 2
+main_override 3 "Cooking for Blockheads" "https://www.mediafire.com/file/q2lep7wvg3y3wft/cookingforblockheads-forge-1.19.3-14.0.1-tw.jar" "cookingforblockheads" 2
 
 ## Xaero's World Map & Minimap
-main_override 3 "Xaero's World Map" "https://www.mediafire.com/file/97j4683ku9kjeqm/XaerosWorldMap_1.28.8_Forge_1.19.3-tw.jar" "XaerosWorldMap_1.28.8_Forge_1.19.3-tw.jar" "xaeroworldmap" 2
-main_override 3 "Xaero's Minimap" "https://www.mediafire.com/file/4w4ehrxx49p4szb/Xaeros_Minimap_22.17.1_Forge_1.19.3-tw.jar" "Xaeros_Minimap_22.17.1_Forge_1.19.3-tw.jar" "xaerominimap" 2
+main_override 3 "Xaero's World Map" "https://www.mediafire.com/file/97j4683ku9kjeqm/XaerosWorldMap_1.28.8_Forge_1.19.3-tw.jar" "xaeroworldmap" 2
+main_override 3 "Xaero's Minimap" "https://www.mediafire.com/file/4w4ehrxx49p4szb/Xaeros_Minimap_22.17.1_Forge_1.19.3-tw.jar" "xaerominimap" 2
 
 ## The Twilight Forest
-main_override 3 "The Twilight Forest" "https://www.mediafire.com/file/icctmhnrj3ftktf/twilightforest-1.19.2-4.2.1493-universal-tw.jar" "twilightforest-1.19.2-4.2.1493-universal-tw.jar" "twilightforest" 2
+main_override 3 "The Twilight Forest" "https://www.mediafire.com/file/icctmhnrj3ftktf/twilightforest-1.19.2-4.2.1493-universal-tw.jar" "twilightforest" 2
 
 ### GitHub ###
 
 ## Dynamic FPS
-main_override 1 "Dynamic FPS" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json" "" "dynamicfps"
+main_override 1 "Dynamic FPS" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json" "dynamicfps"
 license_downloader "DynamicFPS" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/LICENSE"
 
 ## CoFHCore
-main_override 1 "CoFHCore" "https://raw.githubusercontent.com/CoFH/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "" "cofh_core" 
+main_override 1 "CoFHCore" "https://raw.githubusercontent.com/CoFH/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "cofh_core" 
 
 ## ThermalFoundation
-main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "" "thermal" 
+main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "thermal" 
 
 ## Alchemistry
-main_override 1 "Alchemistry" "https://raw.githubusercontent.com/SmashingMods/Alchemistry/1.18.x/src/main/resources/assets/alchemistry/lang/zh_tw.json" "" "alchemistry" 
+main_override 1 "Alchemistry" "https://raw.githubusercontent.com/SmashingMods/Alchemistry/1.18.x/src/main/resources/assets/alchemistry/lang/zh_tw.json" "alchemistry" 
 license_downloader "Alchemistry" "https://raw.githubusercontent.com/SmashingMods/Alchemistry/1.18.x/LICENSE"
 
 ## MMLP CN to ZW
-main_override 5 "MMLP CN to ZW" "https://github.com/TeamKugimiya/MMLP-CN-to-ZW/releases/download/latest/MMLP-CN-to-ZW.zip" "MMLP-CN-to-ZW.zip" "" 3
+main_override 5 "MMLP CN to ZW" "https://github.com/TeamKugimiya/MMLP-CN-to-ZW/releases/download/latest/MMLP-CN-to-ZW.zip" "" 3
 license_downloader "MMLP-CN-to-ZW" "https://raw.githubusercontent.com/CFPAOrg/Minecraft-Mod-Language-Package/main/LICENSE"
 
 # Finish echo
