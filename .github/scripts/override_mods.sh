@@ -164,6 +164,7 @@ license_downloader () {
 
     echo "🪪 下載 $mods_name 授權條款..."
     command_excuter "wget -q $license_link -O LICENSE_$mods_name" "下載完成！" "下載失敗！"
+    echo "   "
 }
 
 ## Main Override Functions
