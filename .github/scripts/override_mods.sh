@@ -359,7 +359,9 @@ main_override 4 "Tinkers' Construct" "https://www.mediafire.com/file/yai3d7v7z3g
 main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE沉浸工程漢化v1.1.zip" "immersiveengineering" 2
 
 ## Macaw's Mods
-main_override 3 "Macaw's Fences and Wall" "https://www.mediafire.com/file/gzbayubyq7e8rrb/mcw-fences-1.0.7-mc1.19.2forge-tw.jar" "mcwfences" 2
+main_override 3 "Macaw's Fences and Wall" "https://www.mediafire.com/file/pek09ovjm5xl6jw/mcw-fences-1.0.7-mc1.19.2fabric-tw.jar" "mcwfences" 2
+## Temp Fix
+sed -i "s/itemGroup.mcwfences.fencesgroup/itemGroup.mcwfences/1" assets/mcwfences/lang/zh_tw.json
 main_override 3 "Macaw's Bridges" "https://www.mediafire.com/file/f508an5jjm6m4u1/mcw-bridges-2.0.6-mc1.19.3forge-tw.jar" "mcwbridges" 2
 main_override 3 "Macaw's Trapdoors" "https://www.mediafire.com/file/llwehuk3pnimwbd/mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar" "mcwtrpdoors" 2
 main_override 3 "Macaw's Doors" "https://www.mediafire.com/file/o97axparlovckcs/mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcwdoors" 2
