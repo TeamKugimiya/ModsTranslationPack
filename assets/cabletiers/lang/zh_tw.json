@@ -45,7 +45,8 @@
 	"advancements.cabletiers.creative_exporter": "輸出匯流排（創造模式）",
 	"advancements.cabletiers.creative_exporter.description": "即時輸出！",
 	"advancements.cabletiers.creative_importer": "輸入匯流排（創造模式）",
-	"advancements.cabletiers.creative_importer.description": "及時輸入！",
+	"advancements.cabletiers.creative_importer.description": "即時輸入！",
+
 	"advancements.cabletiers.creative_constructor": "成形面板（創造模式）",
 	"advancements.cabletiers.creative_constructor.description": "即時放置/掉落！",
 	"advancements.cabletiers.creative_destructor": "破壞面板（創造模式）",
