@@ -1,0 +1,27 @@
+{
+ "betterstrongholds.commands.locate.stronghold": "請改為使用 /locate structure betterstrongholds:stronghold instead！",
+ "Use /locate structure betterstrongholds:stronghold instead!": "請改為使用 /locate structure betterstrongholds:stronghold！",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.title": "YUNG 的更好要塞",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds": "YUNG 的更好要塞",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general": "一般設定",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.@Tooltip": "一般設定。",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceNormal": "蜘蛛網生成比率（普通）",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[0]": "蜘蛛網在要塞的各個地方所生成的比率。",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[1]": "預設：0.1",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceSpawner": "蜘蛛網生成比率（生怪磚）",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[0]": "蜘蛛網在圖書館的蜘蛛生怪磚周圍所生成的比率。",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[1]": "預設：0.3",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.torchSpawnRate": "火把生成比率",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.torchSpawnRate.@Tooltip[0]": "火把在整個要塞中所生成的比率。",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.torchSpawnRate.@Tooltip[1]": "預設：0.1",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.lanternSpawnRate": "燈籠生成比率",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[0]": "燈籠在整個要塞中所生成的比率。",
+ "text.autoconfig.betterstrongholds-fabric-1_19.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[1]": "預設：0.2"
+}
