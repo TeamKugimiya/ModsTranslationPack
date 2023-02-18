@@ -292,6 +292,7 @@ main_override () {
         echo "🥖 $mods_name 覆蓋完成！"
         echo "   "
         ;;
+      # 模組模式 5 解壓縮 zip 並放入所有物品
       "5")
         echo "🥖 開始覆蓋 $mods_name"
         echo "📁 新增暫存資料夾..."
@@ -304,6 +305,25 @@ main_override () {
         home
         echo "📁 移動翻譯資料夾"
         cp -r "$workdir_path"/assets/* assets
+        echo "🥖 $mods_name 覆蓋完成！"
+        echo "   "
+        ;;
+      # 模組模式 6 下載 GitHub 上的手冊
+      "6")
+        echo "🥖 開始覆蓋 $mods_name"
+        echo "📁 新增暫存資料夾..."
+        workdir_path="$(mktemp -d)"
+        echo "🐌 移動至暫存資料夾 $workdir_path..."
+        cd "$workdir_path" || exit
+        echo "☁️ 從 GitHub 複製專案..."
+        git clone -b "$download_mode" "$mods_download_link" repo > /dev/null
+        echo "🐌 回到主目錄"
+        home
+        echo "📁 新增資料夾..."
+        mkdir -p "$mods_guide_assets_path"
+        echo "📁 移動手冊翻譯"
+        command_excuter "cp -r $workdir_path/repo/$mods_guide_original_path $mods_guide_assets_path" "移動成功！" "移動失敗！"
+        verify_override_translate_exists "$mods_name" "$mods_guide_assets_path/zh_tw" 2
         echo "🥖 $mods_name 覆蓋完成！"
         echo "   "
         ;;
@@ -326,6 +346,8 @@ home
 #    - 2 解壓縮來自壓縮檔
 #    - 3 從 Jar 中提取模組翻譯
 #    - 4 從 Jar 中提取指南手冊與模組翻譯
+#    - 5 解壓縮 zip 並放入所有物品
+#    - 6 從 GitHub 上下載 Patchouli (下載模式變成分支切換)
 #
 # *3 下載模式共有兩種
 #    - 1 透過 Mega
@@ -395,10 +417,11 @@ main_override 1 "Dynamic FPS" "https://raw.githubusercontent.com/juliand665/Dyna
 license_downloader "DynamicFPS" "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/LICENSE"
 
 ## CoFHCore
-main_override 1 "CoFHCore" "https://raw.githubusercontent.com/CoFH/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "cofh_core" 
+main_override 1 "CoFHCore" "https://raw.githubusercontent.com/Jimmy-sheep/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "cofh_core" 
 
-## ThermalFoundation
+## ThermalFoundation (Guide)
 main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "thermal" 
+main_override 6 "ThermalFoundation Patchouli" "https://github.com/Jimmy-sheep/ThermalFoundation.git" "thermal" "1.18.2" "src/main/resources/data/thermal/patchouli_books/guidebook/zh_tw" "patchouli_books/guide"
 
 ## Alchemistry
 main_override 1 "Alchemistry" "https://raw.githubusercontent.com/SmashingMods/Alchemistry/1.18.x/src/main/resources/assets/alchemistry/lang/zh_tw.json" "alchemistry" 
