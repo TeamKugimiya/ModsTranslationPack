@@ -286,7 +286,7 @@
 	"itemGroup.projectexpansion": "等價交換｜擴充專案",
 	"text.projectexpansion.wip": "半成品！",
 	"text.projectexpansion.provider_error": "擷取 ProjectE 提供者失敗。",
-	"text.projectexpansion.see_wiki": "查閱 Github 上的 wiki 來獲取更多資訊。",
+	"text.projectexpansion.see_wiki": "查閱 GitHub 上的 Wiki 來獲取更多資訊。",
 	"text.projectexpansion.cost": "消耗量：%s",
 	"text.projectexpansion.not_owner": "你未擁有這個，其主人為 %s。",
 	"text.projectexpansion.nbt_filter.disable": "NBT 篩選已停用",
