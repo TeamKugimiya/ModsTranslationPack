@@ -9,7 +9,7 @@ make_file () {
     echo ""
     echo "此清單用於記錄模組翻譯回饋至該模組專案"
     echo ""
-    echo "目前已收錄 \`\`$mods_count\`\` 個模組"
+    echo "目前已收錄 \`\`$mods_count\`\` 款模組"
     echo ""
     echo "| 模組名稱 | 貢獻 | PR | 翻譯變動 |"
     echo "| ------ | ------ | ------ | ------ |"
