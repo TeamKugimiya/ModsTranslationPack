@@ -1,26 +1,34 @@
 # 模組清單
 
-此清單用於記錄模組翻譯回饋回該模組專案的記錄
+此清單用於記錄模組翻譯回饋至該模組專案
+
+目前已收錄 ``308`` 款模組
 
 | 模組名稱 | 貢獻 | PR | 翻譯變動 |
 | ------ | ------ | ------ | ------ |
 | additionalbars | :x: |  |  |
 | additionallanterns | :x: |  |  |
+| advanced-xray-fabric | :x: |  |  |
 | advancementinfo | :x: |  |  |
+| advgenerators | :x: |  |  |
 | ae2 | :x: |  |  |
 | ae2things | :x: |  |  |
 | ae2wtlib | :x: |  |  |
 | aeinfinitybooster | :x: |  |  |
+| akashictome | :x: |  |  |
+| alchemylib | :x: |  |  |
 | allthecompressed | :x: |  |  |
 | allthemodium | :x: |  |  |
 | alltheores | :x: |  |  |
 | allthetweaks | :x: |  |  |
 | angelring | :x: |  |  |
 | animatica | :x: |  |  |
+| another_furniture | :x: |  |  |
+| apotheosis | :x: |  |  |
 | appbot | :x: |  |  |
 | appmek | :x: |  |  |
+| archers_paradox | :x: |  |  |
 | ars_creo | :x: |  |  |
-| ars_nouveau | :x: |  |  |
 | auditory | :x: |  |  |
 | autoclicker-fabric | :x: |  |  |
 | autofish | :x: |  |  |
@@ -28,19 +36,33 @@
 | autosmithingtable | :x: |  |  |
 | avaritia | :x: |  |  |
 | bambooeverything | :x: |  |  |
+| barteringstation | :x: |  |  |
 | bcc | :x: |  |  |
+| bdlib | :x: |  |  |
+| betterdeserttemples | :x: |  |  |
 | betterf3 | :x: |  |  |
+| betteroceanmonuments | :x: |  |  |
 | betterstats | :x: |  |  |
+| betterstrongholds | :x: |  |  |
+| bettertridents | :x: |  |  |
+| betterwitchhuts | :x: |  |  |
 | bhc | :x: |  |  |
+| bhmenu | :x: |  |  |
 | biggerreactors | :x: |  |  |
 | blockui | :x: |  |  |
+| blockydoors | :x: |  |  |
 | blur | :x: |  |  |
+| boatiview | :x: |  |  |
 | bonsaitrees3 | :x: |  |  |
+| bookshelf | :x: |  |  |
 | borderlessmining | :heavy_check_mark: | [已回饋](https://github.com/comp500/BorderlessMining/pull/56) |  |
 | botanypots | :x: |  |  |
+| bountiful | :x: |  |  |
 | buddingcrystals | :x: |  |  |
 | buildinggadgets | :x: |  |  |
-| capes | :x: |  |  |
+| cabletiers | :x: |  |  |
+| capes | :heavy_check_mark: | [已回饋](https://github.com/CaelTheColher/Capes/pull/85) |  |
+| carryon | :x: |  |  |
 | catalogue | :x: |  |  |
 | cccbridge | :x: |  |  |
 | cem | :x: |  |  |
@@ -48,13 +70,20 @@
 | chancecubes | :x: |  |  |
 | chargers | :x: |  |  |
 | charginggadgets | :x: |  |  |
+| charmonium | :x: |  |  |
+| chat_heads | :x: |  |  |
+| cherishedworlds | :x: |  |  |
 | chickens | :x: |  |  |
 | chipped | :x: |  |  |
-| citresewn | :x: |  |  |
-| citresewn-defaults | :x: |  |  |
+| chubbystuff | :x: |  |  |
+| citresewn | :heavy_check_mark: | [已回饋](https://github.com/SHsuperCM/CITResewn/pull/219) |  |
+| citresewn-defaults | :heavy_check_mark: | [已回饋](https://github.com/SHsuperCM/CITResewn/pull/219) |  |
+| clickmachine | :x: |  |  |
 | cloth-config2 | :x: |  |  |
 | cobblefordays | :x: |  |  |
+| collective | :x: |  |  |
 | colormatic | :x: |  |  |
+| comforts | :x: |  |  |
 | compactcrafting | :x: |  |  |
 | compactmachines | :x: |  |  |
 | configured | :x: |  |  |
@@ -62,44 +91,67 @@
 | constructionwand | :x: |  |  |
 | continuity | :x: |  |  |
 | copper-horns | :x: |  |  |
+| corail_woodcutter | :x: |  |  |
 | cosmeticarmorreworked | :x: |  |  |
 | craftingtweaks | :x: |  |  |
+| crawl | :x: |  |  |
 | create | :x: |  |  |
 | createaddition | :x: |  |  |
+| createchromaticreturn | :x: |  |  |
 | createchunkloading | :x: |  |  |
+| creatures_from_the_snow | :x: |  |  |
 | creeperoverhaul | :x: |  |  |
+| cucumber | :x: |  |  |
 | culinaryconstruct | :x: |  |  |
 | cull-less-leaves | :x: |  |  |
 | curios | :x: |  |  |
 | custommachinery | :x: |  |  |
+| darkpaintings | :x: |  |  |
 | darkutils | :x: |  |  |
 | dashloader | :x: |  |  |
 | debugify | :x: |  |  |
+| decorative_blocks | :x: |  |  |
+| deepslatecutting | :x: |  |  |
+| domum_ornamentum | :x: |  |  |
+| duckling | :x: |  |  |
 | durabilitytooltip | :x: |  |  |
+| easyanvils | :x: |  |  |
+| easymagic | :x: |  |  |
 | eccentrictome | :x: |  |  |
 | effective | :x: |  |  |
 | elevatorid | :x: |  |  |
+| enchdesc | :x: |  |  |
 | energymeter | :heavy_check_mark: | [已回饋](https://github.com/AlmostReliable/energymeter-forge/pull/26) | :heavy_exclamation_mark: |
 | entangled | :x: |  |  |
+| entityculling | :heavy_check_mark: | [已回饋](https://github.com/tr7zw/EntityCulling/pull/94) |  |
+| equipmentcompare | :x: |  |  |
 | exlinecopperequipment | :x: |  |  |
 | exmachinis | :x: |  |  |
 | exnaturae | :x: |  |  |
-| exnihiloae | :question: | [等待合併](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
-| exnihilomekanism | :question: | [等待合併](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
-| exnihilosequentia | :question: | [等待合併](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
-| exnihilothermal | :question: | [等待合併](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
-| exnihilotinkers | :question: | [等待合併](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
+| exnihiloae | :heavy_check_mark: | [已回饋](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
+| exnihilomekanism | :heavy_check_mark: | [已回饋](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
+| exnihilosequentia | :heavy_check_mark: | [已回饋](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
+| exnihilothermal | :heavy_check_mark: | [已回饋](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
+| exnihilotinkers | :heavy_check_mark: | [已回饋](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
 | experienceobelisk | :x: |  |  |
+| extendedcrafting | :x: |  |  |
 | extendedexchange | :x: |  |  |
 | extrasounds | :x: |  |  |
+| extrastorage | :x: |  |  |
 | extremesoundmuffler | :x: |  |  |
+| fabric-resource-loader-v0 | :x: |  |  |
+| fabricskyboxes | :x: |  |  |
 | fabrihud | :x: |  |  |
+| fabrishot | :x: |  |  |
 | farmersdelight | :x: |  |  |
+| farmingforblockheads | :x: |  |  |
+| fastload | :x: |  |  |
 | findme | :x: |  |  |
 | flopper | :x: |  |  |
 | fluiddrawerslegacy | :x: |  |  |
-| fluxnetworks | :heavy_check_mark: | [已回饋](https://github.com/SonarSonic/Flux-Networks/pull/482) | :heavy_exclamation_mark: |
+| fluxnetworks | :heavy_check_mark: | [已回饋](https://github.com/SonarSonic/Flux-Networks/pull/482) |  |
 | framedcompactdrawers | :x: |  |  |
+| fsb-interop | :x: |  |  |
 | ftbauxilium | :x: |  |  |
 | ftbbackups | :x: |  |  |
 | ftbchunks | :x: |  |  |
@@ -113,17 +165,22 @@
 | ftbultimine | :x: |  |  |
 | functionalstorage | :x: |  |  |
 | gag | :x: |  |  |
+| geckolib3 | :x: |  |  |
 | glassential | :x: |  |  |
+| graphutil | :heavy_check_mark: | [已回饋](https://github.com/tr7zw/GraphUtil/pull/4) |  |
 | gravestone | :x: |  |  |
 | hexerei | :x: |  |  |
 | hostilenetworks | :x: |  |  |
 | industrialforegoing | :x: |  |  |
+| inmis | :x: |  |  |
+| inmisaddon | :x: |  |  |
 | instrumentalmobs | :x: |  |  |
 | inventoryhud | :x: |  |  |
 | inventorysorter | :x: |  |  |
 | ironchest | :x: |  |  |
 | ironchests | :x: |  |  |
 | ironfurnaces | :x: |  |  |
+| ironjetpacks | :x: |  |  |
 | itemcollectors | :x: |  |  |
 | itemfilters | :x: |  |  |
 | jags | :x: |  |  |
@@ -133,7 +190,7 @@
 | justhammers | :x: |  |  |
 | lambdabettergrass | :x: |  |  |
 | lambdynlights | :x: |  |  |
-| languagereload | :question: | [等待合併](https://github.com/Jerozgen/LanguageReload/pull/20) |  |
+| languagereload | :heavy_check_mark: | [已回饋](https://github.com/Jerozgen/LanguageReload/pull/20) |  |
 | laserio | :x: |  |  |
 | lazierae2 | :x: |  |  |
 | lightoverlay | :x: |  |  |
@@ -147,15 +204,19 @@
 | mcwpaths | :x: |  |  |
 | measurements | :x: |  |  |
 | megacells | :x: |  |  |
+| merequester | :x: |  |  |
 | metalbarrels | :x: |  |  |
 | minetogether | :x: |  |  |
 | miniatures | :x: |  |  |
 | minicoal | :x: |  |  |
 | mininggadgets | :x: |  |  |
+| miniutilities | :x: |  |  |
 | mob_grinding_utils | :x: |  |  |
+| more_babies | :x: |  |  |
 | morefrogs | :x: |  |  |
 | moreminecarts | :x: |  |  |
 | morevanillalib | :x: |  |  |
+| morphtool | :x: |  |  |
 | mother_silverfish | :x: |  |  |
 | mousewheelie | :x: |  |  |
 | multiconnect | :x: |  |  |
@@ -164,10 +225,13 @@
 | mythicbotany | :x: |  |  |
 | mythicbotany_lexicon | :x: |  |  |
 | nethersdelight | :x: |  |  |
+| notenoughanimations | :x: |  |  |
 | notenoughcrashes | :x: |  |  |
 | notenoughwands | :x: |  |  |
 | observable | :x: |  |  |
+| onsoulfire | :x: |  |  |
 | paginatedadvancements | :x: |  |  |
+| paintings | :x: |  |  |
 | patchouli | :x: |  |  |
 | phosphophyllite | :x: |  |  |
 | pipez | :x: |  |  |
@@ -175,21 +239,32 @@
 | plonk | :x: |  |  |
 | pocketstorage | :x: |  |  |
 | portablecraftingtable | :x: |  |  |
+| potionsmaster | :x: |  |  |
 | powah | :x: |  |  |
 | ppfluids | :x: |  |  |
 | presencefootsteps | :x: |  |  |
 | prettypipes | :x: |  |  |
 | projecte | :x: |  |  |
+| projectexpansion | :x: |  |  |
 | pylons | :x: |  |  |
+| quartzelv | :x: |  |  |
+| questsadditions | :x: |  |  |
 | reauth | :x: |  |  |
+| rebornstorage | :x: |  |  |
 | rechiseled | :x: |  |  |
+| redstone_arsenal | :x: |  |  |
+| refinedstorage | :x: |  |  |
+| refinedstorageaddons | :x: |  |  |
 | reliquary | :x: |  |  |
+| rightclickharvest | :x: |  |  |
 | roughlyenoughprofessions | :x: |  |  |
 | rsinfinitybooster | :x: |  |  |
 | rsrequestify | :x: |  |  |
 | screencapper | :heavy_check_mark: | [已回饋](https://github.com/Deftu/Screencapper/pull/6) | :heavy_exclamation_mark: |
 | sdrp | :x: |  |  |
+| seasons | :x: |  |  |
 | sftoemi | :question: | [等待合併](https://github.com/JustAHuman-xD/SlimefunToEMI/pull/2) |  |
+| showcaseitem | :x: |  |  |
 | shrink | :x: |  |  |
 | simplebackups | :x: |  |  |
 | simplemagnets | :x: |  |  |
@@ -198,34 +273,44 @@
 | skyguis | :x: |  |  |
 | slabmachines | :x: |  |  |
 | snad | :x: |  |  |
-| sodium | :question: | 已提交上 Crowdin（或同步） |  |
-| sodium-extra | :question: | 已提交上 Crowdin（或同步） |  |
+| snowrealmagic | :x: |  |  |
+| sodium | :question: | Crowdin |  |
+| sodium-extra | :question: | Crowdin |  |
+| solargeneration | :x: |  |  |
+| solcarrot | :x: |  |  |
 | sophisticatedbackpacks | :x: |  |  |
 | sophisticatedcore | :x: |  |  |
 | sophisticatedstorage | :x: |  |  |
 | soulshards | :x: |  |  |
 | spirit | :x: |  |  |
+| squirtgun | :x: |  |  |
 | stendhal | :x: |  |  |
 | stonechest | :x: |  |  |
 | storagedrawers | :x: |  |  |
 | structurecompass | :x: |  |  |
+| structures_compass | :x: |  |  |
 | summoningrituals | :x: |  |  |
 | supercircuitmaker | :x: |  |  |
 | tempad | :x: |  |  |
 | tesseract | :x: |  |  |
+| testworld | :x: |  |  |
 | theoneprobe | :x: |  |  |
+| tiab | :x: |  |  |
 | titanium | :x: |  |  |
 | torchbowmod | :x: |  |  |
-| trashcans | :question: | [等待合併](https://github.com/SuperMartijn642/TrashCans/pull/20) |  |
+| trashcans | :heavy_check_mark: | [已回饋](https://github.com/SuperMartijn642/TrashCans/pull/25) |  |
 | trashslot | :x: |  |  |
 | travel_anchors | :x: |  |  |
 | uppers | :x: |  |  |
 | vanillahammers | :x: |  |  |
+| visuality | :x: |  |  |
 | waterstrainer | :x: |  |  |
 | wirelesschargers | :x: |  |  |
 | woodenbucket | :x: |  |  |
 | woodenhopper | :x: |  |  |
 | woodenshears | :x: |  |  |
+| woof | :x: |  |  |
 | wstweaks | :x: |  |  |
 | xnet | :x: |  |  |
+| xray | :x: |  |  |
 | yet-another-config-lib | :heavy_check_mark: | [已回饋](https://github.com/isXander/YetAnotherConfigLib/pull/31) |  |
