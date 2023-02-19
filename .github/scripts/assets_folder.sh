@@ -116,6 +116,9 @@ modslist_added_mod_generate "1" "entityculling" "https://github.com/tr7zw/Entity
 ### GraphUtil
 modslist_added_mod_generate "1" "graphutil" "https://github.com/tr7zw/GraphUtil/pull/4"
 
+### Debugify
+modslist_added_mod_generate "3" "debugify" "https://github.com/isXander/Debugify/pull/213"
+
 # Finish
 sort_file
 make_file
