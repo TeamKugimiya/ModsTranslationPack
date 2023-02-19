@@ -46,6 +46,8 @@
 
 歡迎加入 [Discord][discord-invite] 與翻譯者一起討論！
 
+或是參考我們的[貢獻指南][contributing]來開始你的旅程。
+
 ## ✨ 第三方翻譯來源
 
 有部分翻譯為外部第三方翻譯
@@ -165,6 +167,7 @@
 [discord-invite]: https://discord.gg/7BbPMtygHU
 [prp]: https://www.curseforge.com/minecraft/mc-mods/prp
 [untranslated-items]: https://www.curseforge.com/minecraft/mc-mods/untranslated-items
+[contributing]: https://github.com/xMikux/ModsTranslationPack/blob/main/docs/CONTRIBUTING.md
 
 <!-- 授權條款 -->
 [main-license]: LICENSE
