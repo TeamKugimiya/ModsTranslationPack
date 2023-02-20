@@ -29,5 +29,5 @@
   "item.justhammers.stone_reinforced_hammer": "Stone Reinforced Hammer",
   "item.justhammers.stone_reinforced_impact_hammer": "Stone Reinforced Impact Hammer",
   "itemGroup.justhammers.justhammers_tab": "Just Hammers",
-  "justhammers.tooltip.size": "Mines a {0}x{0}x{1} area"
+  "justhammers.tooltip.size": "Mines a %sx%sx%s area"
 }
