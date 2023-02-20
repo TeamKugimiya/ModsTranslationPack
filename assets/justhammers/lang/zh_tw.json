@@ -29,5 +29,5 @@
   "item.justhammers.stone_reinforced_hammer": "石強化鎚",
   "item.justhammers.stone_reinforced_impact_hammer": "石強化衝擊鎚",
   "itemGroup.justhammers.justhammers_tab": "只是些鎚子",
-  "justhammers.tooltip.size": "可挖掘 {0}x{0}x{1} 區域"
+  "justhammers.tooltip.size": "可挖掘 %sx%sx%s 區域"
 }
