@@ -1,32 +1,32 @@
 {
-    "gui.appbot.mana": "魔力",
+  "gui.appbot.mana": "魔力",
 
-    "itemGroup.appbot.tab": "應用能源 2｜植物魔法擴充",
+  "itemGroup.appbot.tab": "應用能源 2｜植物魔法擴充",
 
-    "block.appbot.fluix_mana_pool": "福魯伊克斯魔力池",
+  "block.appbot.fluix_mana_pool": "福魯伊克斯魔力池",
 
-    "item.appbot.mana_cell_housing": "ME 魔力單元外殼",
-    "item.appbot.creative_mana_cell": "創造模式 ME 魔力單元",
+  "item.appbot.mana_cell_housing": "ME 魔力單元外殼",
+  "item.appbot.creative_mana_cell": "創造模式 ME 魔力單元",
 
-    "item.appbot.mana_storage_cell_1k": "1k ME 魔力儲存單元",
-    "item.appbot.mana_storage_cell_4k": "4k ME 魔力儲存單元",
-    "item.appbot.mana_storage_cell_16k": "16k ME 魔力儲存單元",
-    "item.appbot.mana_storage_cell_64k": "64k ME 魔力儲存單元",
-    "item.appbot.mana_storage_cell_256k": "256k ME 魔力儲存單元",
+  "item.appbot.mana_storage_cell_1k": "1k ME 魔力儲存單元",
+  "item.appbot.mana_storage_cell_4k": "4k ME 魔力儲存單元",
+  "item.appbot.mana_storage_cell_16k": "16k ME 魔力儲存單元",
+  "item.appbot.mana_storage_cell_64k": "64k ME 魔力儲存單元",
+  "item.appbot.mana_storage_cell_256k": "256k ME 魔力儲存單元",
 
-    "item.appbot.portable_mana_storage_cell_1k": "1k 攜帶式魔力單元",
-    "item.appbot.portable_mana_storage_cell_4k": "4k 攜帶式魔力單元",
-    "item.appbot.portable_mana_storage_cell_16k": "16k 攜帶式魔力單元",
-    "item.appbot.portable_mana_storage_cell_64k": "64k 攜帶式魔力單元",
-    "item.appbot.portable_mana_storage_cell_256k": "256k 攜帶式魔力單元",
+  "item.appbot.portable_mana_storage_cell_1k": "1k 攜帶式魔力單元",
+  "item.appbot.portable_mana_storage_cell_4k": "4k 攜帶式魔力單元",
+  "item.appbot.portable_mana_storage_cell_16k": "16k 攜帶式魔力單元",
+  "item.appbot.portable_mana_storage_cell_64k": "64k 攜帶式魔力單元",
+  "item.appbot.portable_mana_storage_cell_256k": "256k 攜帶式魔力單元",
 
-    "item.appbot.mana_p2p_tunnel": "魔力 P2P 通道",
+  "item.appbot.mana_p2p_tunnel": "魔力 P2P 通道",
 
-    "appbot.entry.fluix_mana_pool": "福魯伊克斯魔力池",
-    "appbot.page.fluix_mana_pool0": "$(item)福魯伊克斯魔力池$(0)會依據其隸屬的 ME 系統中，蘊含的$(thing)魔力$(0)總量改變魔力池高度。",
-    "appbot.page.fluix_mana_pool1": "這並不糟糕",
+  "appbot.entry.fluix_mana_pool": "福魯伊克斯魔力池",
+  "appbot.page.fluix_mana_pool0": "$(item)福魯伊克斯魔力池$(0)會依據其隸屬的 ME 系統中，蘊含的$(thing)魔力$(0)總量改變魔力池高度。",
+  "appbot.page.fluix_mana_pool1": "這並不糟糕",
 
-    "appbot.entry.mana_drives": "魔力驅動器",
-    "appbot.page.mana_drives0": "有沒有想過將魔力扔進匯流排中，並將其數值化？你真該為你自己感到羞恥",
-    "appbot.page.mana_drives1": "vazkii 從未想要的"
+  "appbot.entry.mana_drives": "魔力驅動器",
+  "appbot.page.mana_drives0": "有沒有想過將魔力扔進匯流排中，並將其數值化？你真該為你自己感到羞恥",
+  "appbot.page.mana_drives1": "vazkii 從未想要的"
 }
