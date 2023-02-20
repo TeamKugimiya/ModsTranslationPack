@@ -1,0 +1,11 @@
+{
+  "ccl.commands.count.fail": "未找到任何實體。",
+  "ccl.commands.count.total": "找到 %s 實體。",
+  "ccl.commands.gc.after": "執行前：",
+  "ccl.commands.gc.before": "執行後：",
+  "ccl.commands.gc.performing": "正在執行 GC……",
+  "ccl.commands.killall.fail": "未找到任何實體。",
+  "ccl.commands.killall.fail.player": "你不能用此指令殺死玩家。",
+  "ccl.commands.killall.success": "已殺死 %s 實體。",
+  "ccl.commands.killall.success.line": "已殺死 %s"
+}
