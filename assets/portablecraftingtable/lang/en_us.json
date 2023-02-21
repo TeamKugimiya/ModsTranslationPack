@@ -3,5 +3,6 @@
 "item.portablecraftingtable.portable_crafting_table": "Portable Crafting Table",
 
 //Tabs
-"itemGroup.portablecraftingtable_creative_mode_tab": "Portable Crafting Table"
+"itemGroup.portablecraftingtable_creative_mode_tab": "Portable Crafting Table",
+"itemGroup.group": "Portable Crafting Table"
 }
