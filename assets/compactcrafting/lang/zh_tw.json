@@ -27,7 +27,8 @@
   "compactcrafting.jei.toggle_exploded_view": "分裂顯示",
   "compactcrafting.jei.toggle_condensed_view": "緊縮顯示",
   "compactcrafting.jei.all_layers_mode": "顯示所有層數",
-  "compactcrafting.jei.single_layer_mode": "顯示單層模式",
+  "compactcrafting.jei.single_layer_mode": "單層模式",
+
   "compactcrafting.jei.layer_up": "層數往上",
   "compactcrafting.jei.layer_down": "層數往下"
 }
