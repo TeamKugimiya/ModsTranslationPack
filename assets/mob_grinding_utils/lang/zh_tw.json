@@ -28,6 +28,9 @@
   "mob_grinding_utils.fluid_xp": "液態經驗",
   "mob_grinding_utils.jei.any_experience": "接收任何：forge:experience",
 
+  "_comment": "JEI Titles",
+  "mob_grinding_utiles.jei.solidifier" : "固化器配方",
+
   "_comment": "Jei Info Tabs",
   "block.mob_grinding_utils.jumbo_tank.jei.info": "奇異儲罐的更大容量版本，可容納多達 1024 桶任意流體。",
   "block.mob_grinding_utils.xpsolidifier.jei.info": "搭配模具將液態經驗定型並凝固，製作出可食用的經驗軟糖。",
