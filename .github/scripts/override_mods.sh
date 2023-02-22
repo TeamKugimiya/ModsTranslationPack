@@ -404,8 +404,8 @@ main_override 3 "MrCrayfish's Furniture Mod" "https://www.mediafire.com/file/pbc
 main_override 3 "Cooking for Blockheads" "https://www.mediafire.com/file/q2lep7wvg3y3wft/cookingforblockheads-forge-1.19.3-14.0.1-tw.jar" "cookingforblockheads" 2
 
 ## Xaero's World Map & Minimap
-main_override 3 "Xaero's World Map" "https://www.mediafire.com/file/97j4683ku9kjeqm/XaerosWorldMap_1.28.8_Forge_1.19.3-tw.jar" "xaeroworldmap" 2
-main_override 3 "Xaero's Minimap" "https://www.mediafire.com/file/4w4ehrxx49p4szb/Xaeros_Minimap_22.17.1_Forge_1.19.3-tw.jar" "xaerominimap" 2
+main_override 3 "Xaero's World Map" "https://www.mediafire.com/file/6xajo18z3mi59e3/XaerosWorldMap_1.28.9_Forge_1.19.3-tw.jar" "xaeroworldmap" 2
+main_override 3 "Xaero's Minimap" "https://www.mediafire.com/file/ibo5t1ty6vjr341/Xaeros_Minimap_23.1.0_Forge_1.19.3-tw.jar" "xaerominimap" 2
 
 ## The Twilight Forest
 main_override 3 "The Twilight Forest" "https://www.mediafire.com/file/icctmhnrj3ftktf/twilightforest-1.19.2-4.2.1493-universal-tw.jar" "twilightforest" 2
