@@ -144,7 +144,7 @@
   "custommachinery.requirements.time.error": "該配方無法在這時間點被處理",
   "custommachinery.requirements.time.info": "時間：",
   "custommachinery.requirements.effect.info.tick": "每 tick 給予 %s %s，持續 %s ticks，生效半徑為 %s 格方塊",
-  "custommachinery.requirements.effect.info.end": "給予 %s %s ，持續 %s ticks，生效半徑為 %s 格方塊",
+  "custommachinery.requirements.effect.info.end": "給予 %s %s，持續 %s ticks，生效半徑為 %s 格方塊",
   "custommachinery.requirements.effect.info.whitelist": "實體白名單：",
   "custommachinery.requirements.weather.error": "配方無法在這天氣下被處理，需要：%s",
   "custommachinery.requirements.weather.info": "需要天氣：%s",
