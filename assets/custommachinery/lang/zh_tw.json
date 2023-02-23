@@ -238,7 +238,7 @@
   "text.autoconfig.custommachinery.category.Rendering": "繪製",
   "text.autoconfig.custommachinery.category.Misc": "其他",
   "text.autoconfig.custommachinery.option.logMissingOptional": "記錄缺少的可選屬性",
-  "text.autoconfig.custommachinery.option.logFirstEitherError": "Log first either error",
+  "text.autoconfig.custommachinery.option.logFirstEitherError": "記錄首個錯誤",
   "text.autoconfig.custommachinery.option.debugLevel": "除錯記錄等級",
   "text.autoconfig.custommachinery.option.boxRenderTime": "邊界預覽時間",
   "text.autoconfig.custommachinery.option.structureRenderTime": "結構預覽時間",
