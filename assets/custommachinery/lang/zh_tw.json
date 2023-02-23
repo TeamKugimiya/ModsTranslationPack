@@ -133,7 +133,7 @@
   "custommachinery.requirements.fuel.info": "需要燃燒一些燃料",
   "custommachinery.requirements.item.error.input": "沒有足夠的%s，需要 %s 個，但只找到 %s 個！",
   "custommachinery.requirements.item.error.output": "沒有足夠的空間儲存 %s 個%s",
-  "custommachinery.requirements.durability.error.input": "%s沒有足夠的耐久度，需要 %s ，但只找到 %s！",
+  "custommachinery.requirements.durability.error.input": "%s沒有足夠的耐久度，需要 %s，但只找到 %s！",
   "custommachinery.requirements.durability.error.output": "無法修理%s，嘗試修理 %s 耐久度，但只有 %s 缺少！",
   "custommachinery.requirements.position.error": "該配方無法在這位置上被處理",
   "custommachinery.requirements.position.info.pos": "位置：",
