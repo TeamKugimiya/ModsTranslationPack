@@ -45,6 +45,8 @@ jobs:
       matrix_version: ${{ matrix.version }}
       release: true
       release_version: ${{ needs.release-please.outputs.tag_name }}
+    secrets:
+      AWS_S3_TEMP: ${{ secrets.AWS_S3_TEMP }}
 
   Release-It:
     name: Release It

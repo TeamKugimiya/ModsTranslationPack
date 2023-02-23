@@ -1,0 +1,43 @@
+name: Override Cache
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  Cache-Override:
+    name: Cache Override
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v3
+
+      - name: Cleanup unuse files
+        run: |
+          rm -r assets
+          mkdir assets
+
+      - name: Run Override Script
+        run: |
+          .github/scripts/override_changer.sh
+          .github/scripts/override_mods.sh
+
+      - name: Make Cache zip
+        run: |
+          zip -r Override-Cache.zip assets/
+          mkdir Cache
+          mv Override-Cache.zip Cache
+
+      - name: Upload cache to s3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --follow-symlinks
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
+          SOURCE_DIR: "./Cache"

@@ -36,6 +36,8 @@ jobs:
     with:
       matrix_version: ${{ matrix.version }}
       release: false
+    secrets:
+      AWS_S3_TEMP: ${{ secrets.AWS_S3_TEMP }}
 
   Per-Releaser:
     name: Per Release
