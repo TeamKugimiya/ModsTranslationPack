@@ -1,0 +1,33 @@
+{
+  "item.cosmopolis.asteroid_hoe": "行星鋤",
+  "item.cosmopolis.asteroid_sword": "行星劍",
+  "item.cosmopolis.asteroid_pickaxe": "行星鎬",
+  "item.cosmopolis.asteroid_axe": "行星斧",
+  "item.cosmopolis.asteroid_shovel": "行星鏟",
+  "item.cosmopolis.water_drop": "水滴",
+  "item.cosmopolis.rock": "石頭碎塊",
+  "item.cosmopolis.asteroid_rock": "行星石碎塊",
+  "item.cosmopolis.organic_powder": "有機粉",
+  "item.cosmopolis.venus_spores": "金星孢子",
+  "item.cosmopolis.mars_spores": "火星孢子",
+
+  "item.cosmopolis.space_suit_helmet": "太空頭盔",
+  "item.cosmopolis.space_suit_leggings": "太空護腿",
+  "item.cosmopolis.space_suit_chestplate": "太空胸甲",
+  "item.cosmopolis.space_suit_boots": "太空靴子",
+  "item.cosmopolis.space_suit_upgrade": "太空服升級",
+
+  "item.cosmopolis.mini_coal": "迷你煤炭",
+  "item.cosmopolis.mini_charcoal": "迷你木炭",
+  "item.cosmopolis.asteroid_stew": "行星燉湯",
+  "item.cosmopolis.planetary_core_teleporter": "行星核心傳送器",
+  "item.cosmopolis.space_core": "太空核心",
+
+  "block.cosmopolis.asteroid_block": "行星石",
+  "block.cosmopolis.artificial_planks": "行星木材",
+  "block.cosmopolis.venus_fungus": "金星菌絲土",
+  "block.cosmopolis.mars_fungus": "金星菌絲土",
+  "block.cosmopolis.space_portal_frame": "太空傳送門框架",
+
+  "itemGroup.Cosmopolis": "太空奇航"
+}
