@@ -23,7 +23,7 @@
   "structurecompass.structure.found.tooltip": "已定位到 %s，羅盤指針已指向該結構",
   "structurecompass.structure.failed": "無法定位到 %s，請稍後再試",
   "structurecompass.structure.failed.tooltip": "無法定位到 %s，請稍後再試",
-  "structurecompass.structure.wrong_dimension.tooltip": "你的所在維度無法找到 %s",
+  "structurecompass.structure.wrong_dimension.tooltip": "你所在的維度無法找到 %s",
   "structurecompass.structure.unset.tooltip": "尚未設定結構，點擊右鍵來選擇結構",
 
   "_comment": "keybinds",
