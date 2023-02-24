@@ -2,10 +2,9 @@
   "_comment": "Creative Tab Name",
   "itemGroup.structurecompass": "結構羅盤",
 
-
   "_comment": "Screen",
   "structurecompass.screen.selection.title": "選擇結構",
-  "structurecompass.screen.selection.load": "載入",
+  "structurecompass.screen.selection.select": "選擇",
   "structurecompass.screen.search": "搜尋",
   "structurecompass.screen.search.a_to_z": "A-Z",
   "structurecompass.screen.search.z_to_a": "Z-A",
@@ -16,9 +15,18 @@
   "_comment": "Messages",
   "structurecompass.locate.invalid": "所選結構無效。請重新選擇",
   "structurecompass.locate.fail": "無法在此處定位到該結構",
+  "structurecompass.locate.distance": "距離所選結構 %s 格方塊",
+  "structurecompass.locate.toggled": "結構羅盤 HUD 已設為 %s",
 
   "_comment": "tooltips",
+  "structurecompass.structure.found": "已在距離 %2$s 格外的位置定位到 %1$s，羅盤指針已指向該結構",
   "structurecompass.structure.found.tooltip": "已定位到 %s，羅盤指針已指向該結構",
+  "structurecompass.structure.failed": "無法定位到 %s，請稍後再試",
   "structurecompass.structure.failed.tooltip": "無法定位到 %s，請稍後再試",
-  "structurecompass.structure.unset.tooltip": "尚未設定結構，點擊右鍵來選擇結構"
+  "structurecompass.structure.wrong_dimension.tooltip": "你所在的維度無法找到 %s",
+  "structurecompass.structure.unset.tooltip": "尚未設定結構，點擊右鍵來選擇結構",
+
+  "_comment": "keybinds",
+  "category.structurecompass.main": "結構羅盤",
+  "key.structurecompass.hide": "隱藏結構羅盤 HUD"
 }
