@@ -2,7 +2,7 @@
 
 此清單用於記錄模組翻譯回饋至該模組專案
 
-目前已收錄 ``308`` 款模組
+目前已收錄 ``313`` 款模組
 
 | 模組名稱 | 貢獻 | PR | 翻譯變動 |
 | ------ | ------ | ------ | ------ |
@@ -64,6 +64,7 @@
 | capes | :heavy_check_mark: | [已回饋](https://github.com/CaelTheColher/Capes/pull/85) |  |
 | carryon | :x: |  |  |
 | catalogue | :x: |  |  |
+| caveopolis | :x: |  |  |
 | cccbridge | :x: |  |  |
 | cem | :x: |  |  |
 | champions | :x: |  |  |
@@ -81,6 +82,7 @@
 | clickmachine | :x: |  |  |
 | cloth-config2 | :x: |  |  |
 | cobblefordays | :x: |  |  |
+| codechickenlib | :x: |  |  |
 | collective | :x: |  |  |
 | colormatic | :x: |  |  |
 | comforts | :x: |  |  |
@@ -93,6 +95,7 @@
 | copper-horns | :x: |  |  |
 | corail_woodcutter | :x: |  |  |
 | cosmeticarmorreworked | :x: |  |  |
+| cosmopolis | :x: |  |  |
 | craftingtweaks | :x: |  |  |
 | crawl | :x: |  |  |
 | create | :x: |  |  |
@@ -106,10 +109,11 @@
 | cull-less-leaves | :x: |  |  |
 | curios | :x: |  |  |
 | custommachinery | :x: |  |  |
+| cyclopscore | :x: |  |  |
 | darkpaintings | :x: |  |  |
 | darkutils | :x: |  |  |
 | dashloader | :x: |  |  |
-| debugify | :x: |  |  |
+| debugify | :question: | [等待合併](https://github.com/isXander/Debugify/pull/213) |  |
 | decorative_blocks | :x: |  |  |
 | deepslatecutting | :x: |  |  |
 | domum_ornamentum | :x: |  |  |
@@ -186,6 +190,7 @@
 | jags | :x: |  |  |
 | jecalculation | :x: |  |  |
 | jei | :x: |  |  |
+| jetboots | :x: |  |  |
 | justenoughprofessions | :x: |  |  |
 | justhammers | :x: |  |  |
 | lambdabettergrass | :x: |  |  |
