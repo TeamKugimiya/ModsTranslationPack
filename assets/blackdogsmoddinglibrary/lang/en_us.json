@@ -1,0 +1,11 @@
+{
+  "blackdogsmoddinglibrary.dialogs.confirm.title": "Confirm",
+  "blackdogsmoddinglibrary.radial.page_footer": "Page %d of %d",
+  "blackdogsmoddinglibrary.radial.right_click_for": "§9Right click§r to",
+  "blackdogsmoddinglibrary.radial.right_click_for_options": "§9Right click§r for options",
+  "blackdogsmoddinglibrary.tooltip.item.level": "Level",
+  "blackdogsmoddinglibrary.tooltip.item.level_progress": "%d (%d/%d)",
+  "blackdogsmoddinglibrary.tooltip.item.max_level": "§5Max§r",
+  "blackdogsmoddinglibrary.tooltip.item.not_able_to_level": "§cUnlevelable§r",
+  "blackdogsmoddinglibrary.tooltip.item.soulbound_achieved": "You feel fused together with your %s, not even death will part you with it now!"
+}
