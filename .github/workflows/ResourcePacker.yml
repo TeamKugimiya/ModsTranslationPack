@@ -16,7 +16,13 @@ on:
         required: false
         type: string
     secrets:
-      AWS_S3_TEMP:
+      AWS_S3_BUCKET:
+        required: true
+      AWS_ACCESS_KEY_ID:
+        required: true
+      AWS_SECRET_ACCESS_KEY:
+        required: true
+      AWS_S3_ENDPOINT:
         required: true
 
 jobs:
@@ -49,8 +55,14 @@ jobs:
         run: .github/scripts/override_mods.sh
 
       - name: Download override cache from s3
-        run: |
-          wget -q ${{ secrets.AWS_S3_TEMP }}
+        uses: Docker-Collection/docker-aws-s3-action@main
+        with:
+          aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
+          dest_dir: "Override-Cache.zip"
+          aws_command: "cp"
 
       - name: Extract caches
         run: |
