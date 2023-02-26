@@ -1,5 +1,57 @@
 # Changelog
 
+## [1.7.6](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.5...v1.7.6) (2023-02-26)
+
+
+### 🐛 修正模組翻譯錯誤
+
+* **Appbot:** 修正縮排格式 ([#224](https://github.com/xMikux/ModsTranslationPack/issues/224)) ([78fc26c](https://github.com/xMikux/ModsTranslationPack/commit/78fc26c58100a305f9289bf24edbf8b37240c3a0))
+* **Duckling:** 修正翻譯錯誤 ([#222](https://github.com/xMikux/ModsTranslationPack/issues/222)) ([2517afc](https://github.com/xMikux/ModsTranslationPack/commit/2517afc2449944d97e63aa67c623e0b7a918031a))
+
+
+### 🐌 更新模組翻譯
+
+* **Compact Crafting:** 更新至 v3.1.0 ([#225](https://github.com/xMikux/ModsTranslationPack/issues/225)) ([06af3fe](https://github.com/xMikux/ModsTranslationPack/commit/06af3feb83f55f33fba7d3a99a595b8f78f51fae))
+* **Connected Glass:** 更新至 v1.1.6 ([#236](https://github.com/xMikux/ModsTranslationPack/issues/236)) ([a370424](https://github.com/xMikux/ModsTranslationPack/commit/a37042485c2834a399bfb69e0a9c82a54d2a2359))
+* **Custom Machinery:** 更新至 v0.7.6 ([#235](https://github.com/xMikux/ModsTranslationPack/issues/235)) ([c1d1b0e](https://github.com/xMikux/ModsTranslationPack/commit/c1d1b0ec8bbf59fa94cc393fb838a52299f217de))
+* **FTB Chunks:** 更新至 v3.13 ([#231](https://github.com/xMikux/ModsTranslationPack/issues/231)) ([bf7ba66](https://github.com/xMikux/ModsTranslationPack/commit/bf7ba666f3f8efec840c89c88e927ba12272f4c3))
+* **FTB Quests:** 更新至 v3.14 ([#233](https://github.com/xMikux/ModsTranslationPack/issues/233)) ([a5093c4](https://github.com/xMikux/ModsTranslationPack/commit/a5093c496dc0d832d1eae48a79d34b7523d18804))
+* **FTB Teams:** 更新至 v2.10 ([#232](https://github.com/xMikux/ModsTranslationPack/issues/232)) ([cd931a5](https://github.com/xMikux/ModsTranslationPack/commit/cd931a5355d5631ad948a5b6c398f4416cf93688))
+* **JustHammers:** 更新至 v1.0.0 ([#229](https://github.com/xMikux/ModsTranslationPack/issues/229)) ([59b264d](https://github.com/xMikux/ModsTranslationPack/commit/59b264db1d62645fcd7a38f161e1446e54373c53))
+* **Measurements:** 更新至 v1.4.1 ([#228](https://github.com/xMikux/ModsTranslationPack/issues/228)) ([80f0b2d](https://github.com/xMikux/ModsTranslationPack/commit/80f0b2d82c330ee5ff5e76c4da0ef441ebef3f20))
+* **Mob Grinding Utils:** 更新至 v0.4.47 ([#234](https://github.com/xMikux/ModsTranslationPack/issues/234)) ([a60b533](https://github.com/xMikux/ModsTranslationPack/commit/a60b533fa91a5ede808008aea794930ad3d7de86))
+* **Pipez:** 更新翻譯 1.19.3-1.0.3 ([#227](https://github.com/xMikux/ModsTranslationPack/issues/227)) ([15a462c](https://github.com/xMikux/ModsTranslationPack/commit/15a462c0d136c308e60f138c33798dd534e6b39d))
+* **Portable Crafting Table:** 同時支援 1.19 ([#223](https://github.com/xMikux/ModsTranslationPack/issues/223)) ([514eb50](https://github.com/xMikux/ModsTranslationPack/commit/514eb5003dcc6b616e2ce5fc2c1ece94faca2afa))
+* **Structure Compass:** 更新至 v1.4.0 ([#240](https://github.com/xMikux/ModsTranslationPack/issues/240)) ([3244666](https://github.com/xMikux/ModsTranslationPack/commit/32446666c04862c04ee765bb5916c8b330f099cf))
+
+
+### 📑 文件更新
+
+* **ModsList:** 新增 Debugify 回饋狀態 ([c86116e](https://github.com/xMikux/ModsTranslationPack/commit/c86116e082ef177517acdbea3230df703af0afe6))
+* **ModsList:** 更新模組清單 ([#230](https://github.com/xMikux/ModsTranslationPack/issues/230)) ([b197473](https://github.com/xMikux/ModsTranslationPack/commit/b197473d4b5d7989ed638403e7c1d2ab760044da))
+* 新增貢獻指南 ([#219](https://github.com/xMikux/ModsTranslationPack/issues/219)) ([5ccd1db](https://github.com/xMikux/ModsTranslationPack/commit/5ccd1db4b3b57f2f99b6f9a8247b58418bb2c4c1))
+
+
+### ⚡ 新增模組翻譯
+
+* **Black_dogs's Modding Library:** 新增黑狗的模組程式庫 v1.1.8 ([#242](https://github.com/xMikux/ModsTranslationPack/issues/242)) ([bedce03](https://github.com/xMikux/ModsTranslationPack/commit/bedce039f0d3e63827d58034872c68d0275c2b03))
+* **Caveopolis Mod:** 新增洞穴奇航模組 v5.1 ([#238](https://github.com/xMikux/ModsTranslationPack/issues/238)) ([388eb83](https://github.com/xMikux/ModsTranslationPack/commit/388eb8361ec0abfaf4ff44805ac729227c14eaa3))
+* **CodeChicken Lib:** 新增代碼雞塊程式庫 v4.3.1.481 ([#226](https://github.com/xMikux/ModsTranslationPack/issues/226)) ([44e3212](https://github.com/xMikux/ModsTranslationPack/commit/44e3212b3eeb3f118ada86f0bd812d9301660e0f))
+* **Cosmopolis Mod:** 新增太空奇航模組 v4.0 ([#239](https://github.com/xMikux/ModsTranslationPack/issues/239)) ([57e4385](https://github.com/xMikux/ModsTranslationPack/commit/57e43857f129f329bcf1e4a8f79abf77659d8724))
+* **Cyclops Core:** 新增 Cyclops 核心 v1.16.2 ([#237](https://github.com/xMikux/ModsTranslationPack/issues/237)) ([3075482](https://github.com/xMikux/ModsTranslationPack/commit/30754826c34f359c74fa8bc515f58ceb15e069b8))
+* **Jet Boots:** 新增噴氣靴子 v1.2.5 ([#241](https://github.com/xMikux/ModsTranslationPack/issues/241)) ([a4131c9](https://github.com/xMikux/ModsTranslationPack/commit/a4131c928899fd6eb4362ce6942c9f3b7f9eb5c6))
+
+
+### ☁️ 持續整合 / 持續佈署
+
+* AWS 快取下載完成修正 ([299c034](https://github.com/xMikux/ModsTranslationPack/commit/299c034a1ca1580e2c1237dba6813395e6b4b1cd))
+* **Verify Commit:** 修正驗證 ([#220](https://github.com/xMikux/ModsTranslationPack/issues/220)) ([7fb5b9e](https://github.com/xMikux/ModsTranslationPack/commit/7fb5b9eb82e56cc6309d7fbb0ff646deba07e3d1))
+* 將 Quark 的覆蓋加回來 ([51c74ce](https://github.com/xMikux/ModsTranslationPack/commit/51c74ce8674c1a28ee73c9d09833d49f0bd2e58a))
+* 新增覆蓋快取 ([d8e0903](https://github.com/xMikux/ModsTranslationPack/commit/d8e0903b65b8eff0d43d0039ef0e6692bbfaf1a0))
+* 更新快取 s3 上傳的使用來源 ([319234d](https://github.com/xMikux/ModsTranslationPack/commit/319234d67f61661b3e2346b9ec88d0970c9bd2cb))
+* 更新覆蓋 ([314f44d](https://github.com/xMikux/ModsTranslationPack/commit/314f44d56565880205afc06cf0c704743d8796cc))
+* 更新覆蓋模組 ([f8c45f4](https://github.com/xMikux/ModsTranslationPack/commit/f8c45f48c96bc9614c06e754ece3924ac32b4c13))
+
 ## [1.7.5](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.4...v1.7.5) (2023-02-19)
 
 
