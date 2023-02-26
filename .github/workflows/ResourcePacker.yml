@@ -55,6 +55,7 @@ jobs:
         run: .github/scripts/override_mods.sh
 
       - name: Download override cache from s3
+        if: github.event_name != 'pull_request'
         uses: Docker-Collection/docker-aws-s3-action@main
         with:
           aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
@@ -65,6 +66,7 @@ jobs:
           aws_command: "cp"
 
       - name: Extract caches
+        if: github.event_name != 'pull_request'
         run: |
           unzip Override-Cache.zip
           rm Override-Cache.zip
