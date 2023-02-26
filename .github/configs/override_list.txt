@@ -44,6 +44,9 @@ main_override 3 "Xaero's Minimap" "https://www.mediafire.com/file/ibo5t1ty6vjr34
 ## The Twilight Forest
 main_override 3 "The Twilight Forest" "https://www.mediafire.com/file/icctmhnrj3ftktf/twilightforest-1.19.2-4.2.1493-universal-tw.jar" "twilightforest" 2
 
+## Quark
+main_override 3 "Quark" "https://www.mediafire.com/file/d9mo4t204aqzsdn/Quark-3.3-377-1.19.2-tw.jar" "quark" 2
+
 # Finish echo
 
 echo "✅ 完成所有模組覆蓋執行！"

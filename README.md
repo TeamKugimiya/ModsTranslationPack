@@ -92,6 +92,7 @@
         <li><a href="https://grant88.pixnet.net/blog/post/44749600">Xaero's World Map</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/44681823">Xaero's Minimap</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/40612096">The Twilight Forest</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/44988448">Quark</a></li>
       </ul>
   </details>
 

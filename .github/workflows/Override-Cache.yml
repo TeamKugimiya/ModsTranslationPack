@@ -1,6 +1,11 @@
 name: Override Cache
 
 on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - ".github/configs/override_list.txt"
   workflow_dispatch: {}
 
 permissions:
