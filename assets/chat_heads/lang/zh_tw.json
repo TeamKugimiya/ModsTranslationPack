@@ -1,5 +1,5 @@
 {
-  "text.autoconfig.chat_heads.title": "聊天室頭像",
+  "text.autoconfig.chat_heads.title": "聊天室頭貼",
   "text.autoconfig.chat_heads.option.offsetNonPlayerText": "非玩家的聊天訊息偏移值",
   "text.autoconfig.chat_heads.option.offsetNonPlayerText.@Tooltip": "當啟用時，所有訊息將會被對齊",
   "text.autoconfig.chat_heads.option.explanation": "「UUID」？「啟發式」？",
