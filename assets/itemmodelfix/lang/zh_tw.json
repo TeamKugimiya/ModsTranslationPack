@@ -1,0 +1,13 @@
+{
+  "screen.itemmodelfix.config.title": "物品模型修正設定",
+  "category.itemmodelfix.general": "一般",
+  "option.itemmodelfix.generation_type": "物品模型生成類型",
+  "option.itemmodelfix.generation_type.vanilla": "原版",
+  "option.itemmodelfix.generation_type.vanilla.tooltip": "效能影響：§b§l無§r\n使用原版的模型生成。",
+  "option.itemmodelfix.generation_type.unlerp": "非線性插值",
+  "option.itemmodelfix.generation_type.unlerp.tooltip": "效能影響：§b§l無§r\n使用原版模型生成，\n但應用一些數學來讓它看起來正確。\n可能會導致一些閃爍在模型的邊緣。",
+  "option.itemmodelfix.generation_type.outline": "外框",
+  "option.itemmodelfix.generation_type.outline.tooltip": "效能影響：§b§l無§r\n與非線性插值模式相同，\n但使用不同的生成演算法\n來防止附魔閃爍。",
+  "option.itemmodelfix.generation_type.pixel": "像素",
+  "option.itemmodelfix.generation_type.pixel.tooltip": "效能影響：§b§l無§r-§a§l低§r\n單獨生成所有像素。\n能夠提供最好的效果，\n但在高解析度資源包下會對效能造成較大的影響。"
+}
