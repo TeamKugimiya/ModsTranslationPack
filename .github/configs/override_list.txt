@@ -46,7 +46,7 @@ main_override 3 "The Twilight Forest" "https://www.mediafire.com/file/icctmhnrj3
 main_override 3 "Quark" "https://www.mediafire.com/file/d9mo4t204aqzsdn/Quark-3.3-377-1.19.2-tw.jar" "quark" 2
 
 ## BetterNether
-main_override 3 "BetterNether" "https://www.mediafire.com/file/qvaotvjdd8v5mq9/better-nether-8.1.2-1.19.3-tw.jar" "betternether " 2
+main_override 3 "BetterNether" "https://www.mediafire.com/file/qvaotvjdd8v5mq9/better-nether-8.1.2-1.19.3-tw.jar" "betternether" 2
 
 ## BetterEnd
 main_override 3 "BetterEnd" "https://www.mediafire.com/file/aq7s1jj91pkwrzw/better-end-3.1.1-1.19.3-tw.jar" "betterend" 2
