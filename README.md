@@ -93,6 +93,9 @@
         <li><a href="https://grant88.pixnet.net/blog/post/44681823">Xaero's Minimap</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/40612096">The Twilight Forest</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/44988448">Quark</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/44851513">BetterNether</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/44987473">BetterEnd</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/44851513">BCLib</a></li>
       </ul>
   </details>
 
