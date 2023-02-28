@@ -1,0 +1,12 @@
+{
+    "text.exordium.title": "Exordium",
+    "text.exordium.enableGui": "啟用 GUI",
+    "text.exordium.targetFramerateGui": "GUI 畫面速率",
+    "text.exordium.targetFramerateScreen": "螢幕畫面速率",
+    "text.exordium.enableScreen": "啟用螢幕",
+    "text.exordium.enableSignBuffering": "告示牌緩衝處理",
+    "text.exordium.enableNametagScreenBuffering": "啟用命名牌緩衝處理",
+    "text.exordium.targetFPSNameTags": "命名牌畫面速率",
+    "text.exordium.enabledGuiAnimationSpeedup": "GUI 動畫加速",
+    "text.exordium.targetFPSIngameGuiAnimated": "GUI 畫面速率"
+}
