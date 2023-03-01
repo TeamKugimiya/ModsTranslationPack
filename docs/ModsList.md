@@ -2,7 +2,7 @@
 
 此清單用於記錄模組翻譯回饋至該模組專案
 
-目前已收錄 ``313`` 款模組
+目前已收錄 ``320`` 款模組
 
 | 模組名稱 | 貢獻 | PR | 翻譯變動 |
 | ------ | ------ | ------ | ------ |
@@ -49,6 +49,7 @@
 | bhc | :x: |  |  |
 | bhmenu | :x: |  |  |
 | biggerreactors | :x: |  |  |
+| blackdogsmoddinglibrary | :x: |  |  |
 | blockui | :x: |  |  |
 | blockydoors | :x: |  |  |
 | blur | :x: |  |  |
@@ -137,6 +138,7 @@
 | exnihilosequentia | :heavy_check_mark: | [已回饋](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
 | exnihilothermal | :heavy_check_mark: | [已回饋](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
 | exnihilotinkers | :heavy_check_mark: | [已回饋](https://github.com/NovaMachina-Mods/ExNihiloSequentia/pull/380) |  |
+| exordium | :x: |  |  |
 | experienceobelisk | :x: |  |  |
 | extendedcrafting | :x: |  |  |
 | extendedexchange | :x: |  |  |
@@ -171,6 +173,7 @@
 | gag | :x: |  |  |
 | geckolib3 | :x: |  |  |
 | glassential | :x: |  |  |
+| gofish | :x: |  |  |
 | graphutil | :heavy_check_mark: | [已回饋](https://github.com/tr7zw/GraphUtil/pull/4) |  |
 | gravestone | :x: |  |  |
 | hexerei | :x: |  |  |
@@ -187,6 +190,7 @@
 | ironjetpacks | :x: |  |  |
 | itemcollectors | :x: |  |  |
 | itemfilters | :x: |  |  |
+| itemmodelfix | :x: |  |  |
 | jags | :x: |  |  |
 | jecalculation | :x: |  |  |
 | jei | :x: |  |  |
@@ -251,6 +255,7 @@
 | prettypipes | :x: |  |  |
 | projecte | :x: |  |  |
 | projectexpansion | :x: |  |  |
+| puzzle | :x: |  |  |
 | pylons | :x: |  |  |
 | quartzelv | :x: |  |  |
 | questsadditions | :x: |  |  |
@@ -262,6 +267,7 @@
 | refinedstorageaddons | :x: |  |  |
 | reliquary | :x: |  |  |
 | rightclickharvest | :x: |  |  |
+| rottencreatures | :x: |  |  |
 | roughlyenoughprofessions | :x: |  |  |
 | rsinfinitybooster | :x: |  |  |
 | rsrequestify | :x: |  |  |
@@ -277,6 +283,7 @@
 | skyblockbuilder | :x: |  |  |
 | skyguis | :x: |  |  |
 | slabmachines | :x: |  |  |
+| smoothboot | :x: |  |  |
 | snad | :x: |  |  |
 | snowrealmagic | :x: |  |  |
 | sodium | :question: | Crowdin |  |
