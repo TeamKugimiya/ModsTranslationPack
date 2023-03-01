@@ -6,7 +6,7 @@ source ./.github/scripts/Common_Library.sh
 
 # Vars Settings
 version=$1
-home=/config/workspace/Project-Efina/ModsTranslationPack/
+# home=/config/workspace/Project-Efina/ModsTranslationPack/
 workflow_path=${home:-$GITHUB_WORKSPACE}
 multiversion_path=$workflow_path/MultiVersions
 pack_path=$workflow_path/pack
