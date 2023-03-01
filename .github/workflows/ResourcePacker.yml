@@ -68,7 +68,10 @@ jobs:
       - name: Extract caches
         # if: github.event_name != 'pull_request'
         run: |
+          mv Override-Cache.zip MultiVersions/Override/
           unzip Override-Cache.zip
+          mv assets/* main/
+          rm -r assets
           rm Override-Cache.zip
 
       - name: MultiVersions!
