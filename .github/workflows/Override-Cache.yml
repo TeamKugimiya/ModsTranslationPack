@@ -20,11 +20,6 @@ jobs:
       - name: Checking Repository
         uses: actions/checkout@v3
 
-      - name: Cleanup unuse files
-        run: |
-          rm -r assets
-          mkdir assets
-
       - name: Run Override Script
         run: |
           .github/scripts/override_changer.sh
