@@ -27,7 +27,7 @@ mixer () {
   local platform=$1
   local version=$2
   local multi_path=$multiversion_path
-  local dest_pack=$pack_path/assets
+  local dest_pack=$pack_path
 
   echo "$platform 版本 $version"
 
@@ -36,12 +36,12 @@ mixer () {
     dest_folder="$dest_pack/$folder_name"
 
     if [ -d "$dest_folder" ]; then
-      echo "📄 $folder_name 有存在相同的資料夾名，進行混和"
+      echo "📄 $folder_name 存在相同的資料夾名，進行混和 ($dest_folder)"
       command_excuter "mv $dest_folder/lang/zh_tw.json $dest_folder/lang/zh_tw_ori.json" "完成製作副本" "製作副本時出現錯誤"
       jq -s 'add' "$i/lang/zh_tw.json" "$dest_folder/lang/zh_tw_ori.json" > "$dest_folder/lang/zh_tw.json"
       command_excuter "rm $dest_folder/lang/zh_tw_ori.json" "成功移除副本" "移除副本時出現錯誤"
     else
-      echo "🖊️ $folder_name ($dest_folder) 未存在相同資料夾，進行純粹移動"
+      echo "🖊️ $folder_name 未存在相同資料夾，進行純粹移動 ($dest_folder)"
       command_excuter "cp -r $i $dest_pack" "移動 $folder_name 完成" "移動 $folder_name 出現問題！"
     fi
   done
