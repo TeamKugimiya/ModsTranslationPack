@@ -13,10 +13,6 @@ pack_path=$workflow_path/pack
 
 ### Functions ###
 
-## TEMP NEED REMOVE
-
-rm -r pack
-
 ## Setup pack
 setup_pack () {
   mkdir -p pack/assets
