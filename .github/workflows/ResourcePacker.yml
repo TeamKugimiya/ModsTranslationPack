@@ -68,7 +68,11 @@ jobs:
       - name: Extract caches
         if: github.event_name != 'pull_request'
         run: |
+          mv Override-Cache.zip MultiVersions/Override/
+          cd MultiVersions/Override/
           unzip Override-Cache.zip
+          mv assets/* main/
+          rm -r assets
           rm Override-Cache.zip
 
       - name: MultiVersions!
@@ -85,7 +89,7 @@ jobs:
             assets/tconstruct/book/**/zh_tw/*.lang
             assets/immersiveengineering/manual/zh_tw/*.txt
           never_store_squash_times: true
-          path: ./
+          path: pack
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: DownloadArtifact

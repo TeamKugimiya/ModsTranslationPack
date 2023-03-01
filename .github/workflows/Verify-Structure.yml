@@ -4,16 +4,16 @@ on:
   workflow_dispatch: {}
   push:
     branches:
-    - "main"
+      - "main"
     paths:
-    - "assets/**"
-    - "MultiVersions/**"
+      - "MultiVersions/**"
+      - "!MultiVersions/README.md"
   pull_request:
     branches:
-    - "main"
+      - "main"
     paths:
-    - "assets/**"
-    - "MultiVersions/**"
+      - "MultiVersions/**"
+      - "!MultiVersions/README.md"
 
 permissions:
   contents: read
@@ -28,14 +28,16 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: "Main Assets"
-            path: "assets"
-          - name: "MultiVersions (Patcher)"
-            path: "MultiVersions/Patcher"
-          - name: "MultiVersions (Forge 1.18)"
+          - name: "Forge Main"
+            path: "MultiVersions/Forge/main"
+          - name: "Forge 1.18"
             path: "MultiVersions/Forge/1.18"
-          - name: "MultiVersions (Fabric Global)"
-            path: "MultiVersions/Fabric/global"
+          - name: "Fabric Main"
+            path: "MultiVersions/Fabric/main"
+          - name: "Fabric 1.18"
+            path: "MultiVersions/Fabric/1.18"
+          - name: "Patcher"
+            path: "MultiVersions/Patcher"
 
     steps:
       - name: Checking Repository

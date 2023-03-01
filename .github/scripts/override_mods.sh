@@ -15,8 +15,12 @@ source ./.github/scripts/Common_Library.sh
 # java_path=$(which jar)
 java_home_path=${java_path:-$JAVA_HOME_17_X64/bin/jar}
 
-# home=$HOME/workspace/Project-Efina/ModsTranslationPack/test
-home_path=${home:-$GITHUB_WORKSPACE}
+# home_path=$HOME/workspace/Project-Efina/ModsTranslationPack/test/MultiVersions/Override/
+home_path=$GITHUB_WORKSPACE/MultiVersions/Override/
+
+if [ ! -d "$home_path" ]; then
+  mkdir -p "$home_path"
+fi
 
 ## Tools Install
 
@@ -387,5 +391,7 @@ main_override 5 "MMLP CN to ZW" "https://github.com/TeamKugimiya/MMLP-CN-to-ZW/r
 license_downloader "MMLP-CN-to-ZW" "https://raw.githubusercontent.com/CFPAOrg/Minecraft-Mod-Language-Package/main/LICENSE"
 
 # Finish echo
+
+mv "$home_path/assets" "$home_path/main"
 
 echo "✅ 完成所有模組覆蓋執行！"
