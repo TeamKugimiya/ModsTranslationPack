@@ -13,3 +13,6 @@ sed -i "${LINE_NUMBER},$ d" ${FILE_TO_MODIFY}
 
 # Insert the new content
 echo "${NEW_CONTENT}" >> ${FILE_TO_MODIFY}
+
+# Modify path
+sed -i 's+\/MultiVersions\/Override\/++g' .github/scripts/override_mods.sh
