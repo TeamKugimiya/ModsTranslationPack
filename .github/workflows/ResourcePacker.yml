@@ -69,6 +69,7 @@ jobs:
         # if: github.event_name != 'pull_request'
         run: |
           mv Override-Cache.zip MultiVersions/Override/
+          cd MultiVersions/Override/
           unzip Override-Cache.zip
           mv assets/* main/
           rm -r assets
