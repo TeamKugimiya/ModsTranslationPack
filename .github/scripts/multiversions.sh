@@ -96,12 +96,20 @@ clean () {
   cleaning "Fabric" "1.18"
 }
 
+assets_mover () {
+  if [ -d "assets" ]; then
+    cp -r assets/* pack/assets
+    rm -r assets
+  fi
+}
+
 ## Main
 
 main () {
   clean
   setup_pack
   multiversion "$version"
+  assets_mover
 }
 
 main
