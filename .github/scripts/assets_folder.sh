@@ -2,7 +2,7 @@
 
 make_file () {
   file_name=ModsList.md
-  mods_count=$(ls assets/ | wc -l)
+  mods_count=$(ls MultiVersions/Forge/main/ | wc -l)
   touch $file_name
   {
     echo "# 模組清單"
@@ -17,14 +17,14 @@ make_file () {
 }
 
 list_dir () {
-  find assets/ -maxdepth 1 -type d -exec echo "$1" \; >> "$2"
+  find MultiVersions/Forge/main/ -maxdepth 1 -type d -exec echo "$1" \; >> "$2"
 }
 
 modslist_generate () {
   file_name=modslist_result.md
   list_dir '| {} | :x: |  |  |' $file_name
-  sed -i "1s+| assets/ | :x: |  |  |++" $file_name
-  sed -i "s+assets/++" $file_name
+  sed -i "1s+| MultiVersions/Forge/main/ | :x: |  |  |++" $file_name
+  sed -i "s+MultiVersions/Forge/main/++" $file_name
   sed -i "/^$/d" $file_name
 }
 
