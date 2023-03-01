@@ -26,14 +26,14 @@ setup_pack () {
 mixer () {
   local platform=$1
   local version=$2
-  local multiversion_path=$multiversion_path
-  local pack_path=$pack_path/assets
+  local multi_path=$multiversion_path
+  local dest_pack=$pack_path/assets
 
   echo "$platform 版本 $version"
 
-  for i in "$multiversion_path/$platform/$version"/*; do
+  for i in "$multi_path/$platform/$version"/*; do
     folder_name=$(basename "$i")
-    dest_folder="$pack_path/$folder_name"
+    dest_folder="$dest_pack/$folder_name"
 
     if [ -d "$dest_folder" ]; then
       echo "📄 $folder_name 有存在相同的資料夾名，進行混和"
@@ -42,8 +42,8 @@ mixer () {
       command_excuter "rm $dest_folder/lang/zh_tw_ori.json" "成功移除副本" "移除副本時出現錯誤"
       echo "   "
     else
-      echo "🖊️ $folder_name 無任何變動"
-      command_excuter "cp -r $i $pack_path" "移動 $folder_name 完成" "移動 $folder_name 出現問題！"
+      echo "🖊️ $folder_name 未存在相同資料夾，進行純粹移動"
+      command_excuter "cp -r $i $dest_pack" "移動 $folder_name 完成" "移動 $folder_name 出現問題！"
       echo "   "
     fi
   done
