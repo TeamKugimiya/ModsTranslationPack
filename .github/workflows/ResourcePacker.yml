@@ -71,6 +71,11 @@ jobs:
           unzip Override-Cache.zip
           rm Override-Cache.zip
 
+      - name: Move assets to pack/assets
+        run: |
+          cp -r assets/* pack/assets
+          rm -r assets
+
       - name: MultiVersions!
         run: |
           .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
@@ -85,7 +90,7 @@ jobs:
             assets/tconstruct/book/**/zh_tw/*.lang
             assets/immersiveengineering/manual/zh_tw/*.txt
           never_store_squash_times: true
-          path: ./
+          path: pack
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: DownloadArtifact

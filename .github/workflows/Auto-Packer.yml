@@ -3,18 +3,18 @@ name: Auto Package
 on:
   push:
     branches:
-    - "main"
+      - "main"
     paths:
-    - "assets/**"
-    - "MultiVersions/**"
-    - "pack.mcmeta"
-    - ".github/scripts/override_mods.sh"
+      - "MultiVersions/**"
+      - "!MultiVersions/README.md"
+      - ".github/scripts/override_mods.sh"
+
   pull_request:
     branches:
-    - "main"
+      - "main"
     paths:
-    - "assets/**"
-    - "MultiVersions/**"
+      - "MultiVersions/**"
+      - "!MultiVersions/README.md"
 
   workflow_dispatch: {}
 
