@@ -6,7 +6,7 @@ source ./.github/scripts/Common_Library.sh
 
 # Vars Settings
 version=$1
-# home=/config/workspace/Project-Efina/ModsTranslationPack/
+home=/config/workspace/Project-Efina/ModsTranslationPack/
 workflow_path=${home:-$GITHUB_WORKSPACE}
 multiversion_path=$workflow_path/MultiVersions
 pack_path=$workflow_path/pack
@@ -40,11 +40,9 @@ mixer () {
       command_excuter "mv $dest_folder/lang/zh_tw.json $dest_folder/lang/zh_tw_ori.json" "完成製作副本" "製作副本時出現錯誤"
       jq -s 'add' "$i/lang/zh_tw.json" "$dest_folder/lang/zh_tw_ori.json" > "$dest_folder/lang/zh_tw.json"
       command_excuter "rm $dest_folder/lang/zh_tw_ori.json" "成功移除副本" "移除副本時出現錯誤"
-      echo "   "
     else
-      echo "🖊️ $folder_name 未存在相同資料夾，進行純粹移動"
+      echo "🖊️ $folder_name ($dest_folder) 未存在相同資料夾，進行純粹移動"
       command_excuter "cp -r $i $dest_pack" "移動 $folder_name 完成" "移動 $folder_name 出現問題！"
-      echo "   "
     fi
   done
 
