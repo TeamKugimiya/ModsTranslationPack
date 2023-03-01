@@ -40,10 +40,15 @@ mixer () {
     dest_folder="$dest_pack/$folder_name"
 
     if [ -d "$dest_folder" ]; then
-      echo "📄 $folder_name 存在相同的資料夾名，進行混和 ($dest_folder)"
-      command_excuter "mv $dest_folder/lang/zh_tw.json $dest_folder/lang/zh_tw_ori.json" "完成製作副本" "製作副本時出現錯誤"
-      jq -s 'add' "$i/lang/zh_tw.json" "$dest_folder/lang/zh_tw_ori.json" > "$dest_folder/lang/zh_tw.json"
-      command_excuter "rm $dest_folder/lang/zh_tw_ori.json" "成功移除副本" "移除副本時出現錯誤"
+      if [ -f "$i/lang/.gitkeep" ]; then
+        echo "📄 $folder_name 存在相同的資料夾名，但擁有忽略檔案，不進行混和而直接覆蓋 ($dest_folder)"
+        command_excuter "cp -r $i $dest_pack" "移動 $folder_name 完成" "移動 $folder_name 出現問題！"
+      else
+        echo "📄 $folder_name 存在相同的資料夾名，進行混和 ($dest_folder)"
+        command_excuter "mv $dest_folder/lang/zh_tw.json $dest_folder/lang/zh_tw_ori.json" "完成製作副本" "製作副本時出現錯誤"
+        jq -s 'add' "$i/lang/zh_tw.json" "$dest_folder/lang/zh_tw_ori.json" > "$dest_folder/lang/zh_tw.json"
+        command_excuter "rm $dest_folder/lang/zh_tw_ori.json" "成功移除副本" "移除副本時出現錯誤"
+      fi
     else
       echo "🖊️ $folder_name 未存在相同資料夾，進行純粹移動 ($dest_folder)"
       command_excuter "cp -r $i $dest_pack" "移動 $folder_name 完成" "移動 $folder_name 出現問題！"
