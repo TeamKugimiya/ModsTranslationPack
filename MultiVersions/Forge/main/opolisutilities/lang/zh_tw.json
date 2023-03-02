@@ -27,7 +27,7 @@
   "tooltips.home_stone.hover.alt": "按 ALT 取得更多資訊",
   "tooltips.home_stone.no_location_set": "尚未設定地點！",
   "tooltips.home_stone.shift.held": "拿在非慣用手上，Shift + 點擊右鍵設定位置。拿在慣用手上並點擊右鍵，傳送至設定的位置！僅能在主世界中使用！",
-  "tooltips.advanced_home_stone.shift.held": "拿在副手 shift 右鍵設定位置。拿在主手右鍵傳送至設定的位置！能跨越主世界、地獄及終界！",
+  "tooltips.advanced_home_stone.shift.held": "拿在非慣用手上，Shift + 點擊右鍵設定位置。拿在慣用手上並點擊右鍵，傳送至設定的位置！能跨越主世界、地獄及終界！",
   "tooltips.super_home_stone.shift.held": "拿在副手 shift 右鍵設定位置。拿在主手右鍵傳送至設定的位置！能跨越所有維度！",
   "tooltip.advanced_home_stone.invalid_dimension": "無法在此維度使用！",
   "tooltip.home_stone.going_saved_location": "正在儲存此地點！",
