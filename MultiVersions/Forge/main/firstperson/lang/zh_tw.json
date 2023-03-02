@@ -1,0 +1,22 @@
+{
+    "text.firstperson.title": "第一人稱設定",
+    "key.firstperson.toggle": "切換第一人稱",
+
+    "category.firstperson.firstperson": "第一人稱",
+    "text.firstperson.option.firstperson.xOffset": "站著時的位移量",
+    "text.firstperson.option.firstperson.xOffset.tooltip": "相對於視角前後移動身體",
+    "text.firstperson.option.firstperson.sneakXOffset": "潛行時的位移量",
+    "text.firstperson.option.firstperson.sneakXOffset.tooltip": "相對於視角在蹲下時前後移動身體",
+    "text.firstperson.option.firstperson.enabledByDefault": "預設啟用",
+    "text.firstperson.option.firstperson.enabledByDefault.tooltip": "遊戲啟動後第一人稱模組的預設狀態",
+    "text.firstperson.option.firstperson.sitXOffset": "坐下時的位移量",
+    "text.firstperson.option.firstperson.sitXOffset.tooltip": "相對於視角在坐下時前後移動身體",
+    "text.firstperson.option.firstperson.renderStuckFeatures": "繪製箭矢與蜜蜂的刺",
+    "text.firstperson.option.firstperson.renderStuckFeatures.tooltip": "在第一人稱下顯示箭矢、蜜蜂的刺或其他模組功能",
+    "text.firstperson.option.firstperson.vanillaHands": "顯示原版的手",
+    "text.firstperson.option.firstperson.vanillaHands.tooltip": "顯示原版第一人稱的手，也同時顯示玩家的模型（但沒有手臂）",
+    "text.firstperson.option.firstperson.doubleHands": "雙手顯示",
+    "text.firstperson.option.firstperson.doubleHands.tooltip": "當使用原版的手時總是顯示雙手",
+    "text.firstperson.option.firstperson.forceActive": "強制啟用",
+    "text.firstperson.option.firstperson.forceActive.tooltip": "當其他模組修改繪製時強制使用第一人稱模組，但將會導致視覺問題（例如玩家的頭不見）"
+}
