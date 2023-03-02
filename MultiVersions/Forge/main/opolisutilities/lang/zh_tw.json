@@ -35,7 +35,7 @@
   "tooltip.home_stone.location_set": "地點已設定！",
 
   "tooltips.wallet.hover.shift": "按 SHIFT 取得更多資訊",
-  "tooltips.wallet.shift.held": "副手拿著錢包，主手拿 B 幣，右鍵將存入錢包中！Shift 右鍵取出 B 幣！",
+  "tooltips.wallet.shift.held": "非慣用手拿著錢包，慣用手拿著 B 幣，然後點擊右鍵就能將 B 幣存入錢包中！Shift + 點擊右鍵取出 B 幣！",
   "tooltips.wallet.no_b_bucks": "錢包空了！",
 
   "tooltips.floating_block.place_in_air": "將其放置在空中！",
