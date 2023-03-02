@@ -54,6 +54,12 @@ main_override 3 "BetterEnd" "https://www.mediafire.com/file/aq7s1jj91pkwrzw/bett
 ## BCLib
 main_override 3 "BetterEnd" "https://www.mediafire.com/file/exityenvmnskst2/bclib-2.2.3-1.19.3-tw.jar" "bclib" 2
 
+## JourneyMap 
+main_override 3 "JourneyMap" "https://www.mediafire.com/file/o4k16bhaey9zd8g/journeymap-1.19.3-5.9.3-forge-tw.jar" "journeymap" 2
+
+## Fairy Lights
+main_override 3 "Fairy Lights" "https://www.mediafire.com/file/h6xs9hn3dt2gfjq/fairylights-6.0.0-1.19.2-tw.jar" "fairylights" 2
+
 # Finish echo
 
 echo "✅ 完成所有模組覆蓋執行！"
