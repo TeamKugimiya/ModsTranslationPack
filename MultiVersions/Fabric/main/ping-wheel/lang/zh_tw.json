@@ -1,0 +1,16 @@
+{
+	"ping-wheel.key.mark-location": "標記位置",
+	"ping-wheel.key.open-settings": "開啟設定",
+	"ping-wheel.subtitles.ping": "Ping 位置提示音",
+
+	"ping-wheel.settings.pingVolume": "Ping 音量：%s",
+	"ping-wheel.settings.itemIconVisible": "物品圖示",
+	"ping-wheel.settings.pingDistance": "Ping 距離：%s",
+	"ping-wheel.settings.pingDistance.hidden": "隱藏",
+	"ping-wheel.settings.pingDistance.unlimited": "無限制",
+	"ping-wheel.settings.channel": "Ping 頻道",
+	"ping-wheel.settings.channel.tooltip": "你只能傳送與接收相同頻道下的玩家 Ping",
+
+	"ping-wheel.settings.title": "Ping 輪設定",
+	"ping-wheel.name": "Ping 輪"
+}
