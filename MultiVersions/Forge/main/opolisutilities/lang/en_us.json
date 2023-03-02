@@ -1,0 +1,46 @@
+{
+  "item.opolisutilities.copper_nugget": "Copper Nugget",
+  "item.opolisutilities.wooden_shears": "Wooden Shears",
+  "item.opolisutilities.home_stone": "Home Stone",
+  "item.opolisutilities.advanced_home_stone": "Advanced Home Stone",
+  "item.opolisutilities.super_home_stone": "Super Home Stone",
+  "item.opolisutilities.floating_block_item": "Floating Block",
+  "item.opolisutilities.jerky": "Jerky",
+  "item.opolisutilities.bundled_flesh": "Bundled Flesh",
+  "item.opolisutilities.ender_pearl_fragment": "Ender Pearl Fragment",
+  "item.opolisutilities.b_bucks": "B Bucks",
+
+  "item.opolisutilities.basic_loot_box": "Basic Loot Box",
+  "item.opolisutilities.advanced_loot_box": "Advanced Loot Box",
+  "item.opolisutilities.elite_loot_box": "Elite Loot Box",
+  "item.opolisutilities.wallet": "Wallet",
+
+  "item.opolisutilities.stone_core": "Stone Core",
+
+  "block.opolisutilities.floating_block_block": "Floating Block",
+  "block.opolisutilities.drying_table": "Drying Table",
+  "block.opolisutilities.resource_generator": "Resource Generator",
+  "block.opolisutilities.ender_ore": "Ender Ore",
+  "block.opolisutilities.deepslate_ender_ore": "Deepslate Ender Ore",
+
+  "tooltips.home_stone.hover.shift": "Press SHIFT for more info",
+  "tooltips.home_stone.hover.alt": "Press ALT for more info",
+  "tooltips.home_stone.no_location_set": "No location set!",
+  "tooltips.home_stone.shift.held": "Shift right click in off hand to set location. Right click in main hand to teleport there! Only works in the overworld!",
+  "tooltips.advanced_home_stone.shift.held": "Shift right click in off hand to set location. Right click in main hand to teleport there! Works across the overworld, nether and end!",
+  "tooltips.super_home_stone.shift.held": "Shift right click in off hand to set location. Right click in main hand to teleport there! Works across all dimensions!",
+  "tooltip.advanced_home_stone.invalid_dimension": "Cannot be used in this dimension!",
+  "tooltip.home_stone.going_saved_location": "Going to saved location!",
+  "tooltip.home_stone.no_location": "No Location Set!",
+  "tooltip.home_stone.location_set": "Location Set!",
+
+  "tooltips.wallet.hover.shift": "Press SHIFT for more info",
+  "tooltips.wallet.shift.held": "With the wallet in your off hand, right click B Bucks in your main hand to add them to your wallet! Sneak right click to remove B Bucks!",
+  "tooltips.wallet.no_b_bucks": "Your wallet is empty!",
+
+  "tooltips.floating_block.place_in_air": "Place in the air!",
+
+  "enchantment.opolisutilities.warden_smite": "Warden Smite",
+
+  "itemGroup.opolis_utilities": "Opolis Utilities"
+}
