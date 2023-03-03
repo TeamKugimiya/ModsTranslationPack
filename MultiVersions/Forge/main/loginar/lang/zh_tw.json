@@ -22,7 +22,7 @@
   "item.loginar.vacuum_upgrade": "吸附升級",
   "item.loginar.vacuum_upgrade.desc": "將附近的物品吸進甕裡面",
   "key.category.loginar": "洛琪納儲存",
-  "key.loginar.swapUrnItems": "交換甕內物品",
+  "key.loginar.swapUrnItems": "交換甕中的物品",
   "misc.loginar.not_implemented": "該功能目前尚未實裝 :(",
   "misc.loginar.swapper.holdingUrn": "無法拿著甕同時交換內部物品",
   "misc.loginar.swapper.noCompatibleUrn": "你身上沒有帶有物品交換升級的甕",
