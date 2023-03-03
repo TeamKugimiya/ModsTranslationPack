@@ -13,6 +13,8 @@ jobs:
   Updater:
     name: ModsList docs updater
     runs-on: ubuntu-latest
+    if: |
+      github.repository == 'xMikux/ModsTranslationPack'
 
     steps:
       - name: Checking Repository
