@@ -1,0 +1,1097 @@
+{
+
+"itemGroup.maidens_winter_group": "MerryMaking Winter Holidays",
+"itemGroup.maidens_spring_group": "MerryMaking Spring Holidays",
+"itemGroup.maidens_halloween_group": "MerryMaking Fall Holidays",
+
+"entity.maidensmerrymaking.costumed_zombie": "Costumed Zombie",
+"entity.maidensmerrymaking.costumed_husk": "Costumed Husk",
+"entity.maidensmerrymaking.costumed_drowned": "Costumed Drowned",
+"entity.maidensmerrymaking.costumed_drowned_mermaid": "Costumed Drowned-Mermaid",
+"entity.maidensmerrymaking.costumed_skeleton": "Costumed Skeleton",
+"entity.maidensmerrymaking.costumed_creeper": "Costumed Creeper",
+"entity.maidensmerrymaking.costumed_witch": "Costumed Witch",
+"entity.maidensmerrymaking.costumed_spider": "Costumed Spider",
+"entity.maidensmerrymaking.costumed_zombie_villager": "Costumed Zombie Villager",
+
+"entity.maidensmerrymaking.pink_bunny": "Pink Bunny",
+"entity.maidensmerrymaking.pink_bunny_small": "Small Pink Bunny",
+"entity.maidensmerrymaking.pink_bunny_large": "Large Pink Bunny",
+"entity.maidensmerrymaking.yellow_bunny": "Yellow Bunny",
+"entity.maidensmerrymaking.yellow_bunny_small": "Small Yellow Bunny",
+"entity.maidensmerrymaking.yellow_bunny_large": "Large Yellow Bunny",
+"entity.maidensmerrymaking.cyan_bunny": "Cyan Bunny",
+"entity.maidensmerrymaking.cyan_bunny_small": "Small Cyan Bunny",
+"entity.maidensmerrymaking.cyan_bunny_large": "Large Cyan Bunny",
+"entity.maidensmerrymaking.blue_bunny": "Blue Bunny",
+"entity.maidensmerrymaking.blue_bunny_small": "Small Blue Bunny",
+"entity.maidensmerrymaking.blue_bunny_large": "Large Blue Bunny",
+"entity.maidensmerrymaking.purple_bunny": "Purple Bunny",
+"entity.maidensmerrymaking.purple_bunny_small": "Small Purple Bunny",
+"entity.maidensmerrymaking.purple_bunny_large": "Large Purple Bunny",
+
+"entity.maidensmerrymaking.colored_chicken": "Yellow Chicken",
+"entity.maidensmerrymaking.christmas_creeper": "Christmas Creeper",
+
+"tooltip.maidensmerrymaking.angora_wool_shift": "Hold \u00A7bSHIFT\u00A7b for more Information!",
+  "tooltip.maidensmerrymaking.angora_wool": "'\u00A77Ethically hand-sourced by Villagers of the North'\u00A77",
+  "tooltip.maidensmerrymaking.easter_card_shift": "Hold \u00A7bSHIFT\u00A7b for more Information!",
+  "tooltip.maidensmerrymaking.easter_card": "\u00A77An old, dusty Easter card, long forgotten in a chest somewhere.\u00A77",
+  
+  "item.maidensmerrymaking.bunny_hood": "Easter Bunny Hood",
+  "item.maidensmerrymaking.bunny_costume": "Easter Bunny Chestpiece",
+  "item.maidensmerrymaking.bunny_pants": "Easter Bunny Pants",
+  "item.maidensmerrymaking.bunny_feet": "Easter Bunny Boots",
+   "item.maidensmerrymaking.reinforced_bunny_hood": "Reinforced Easter Bunny Hood",
+  "item.maidensmerrymaking.reinforced_bunny_costume": "Reinforced Easter Bunny Chestpiece",
+  "item.maidensmerrymaking.reinforced_bunny_pants": "Reinforced Easter Bunny Pants",
+  "item.maidensmerrymaking.reinforced_bunny_feet": "Reinforced Easter Bunny Boots",
+  
+  
+    "item.maidensmerrymaking.bunny_hood_leather": "Easter Bunny Hood (Leather)",
+  "item.maidensmerrymaking.bunny_costume_leather": "Easter Bunny Chestpiece (Leather)",
+  "item.maidensmerrymaking.bunny_pants_leather": "Easter Bunny Pants (Leather)",
+  "item.maidensmerrymaking.bunny_feet_leather": "Easter Bunny Boots (Leather)",
+  
+  
+"item.maidensmerrymaking.pirate_mask_leather": "Pirate Mask (Leather)",
+"item.maidensmerrymaking.bride_mask_leather": "Bride Mask (Leather)",
+"item.maidensmerrymaking.mummy_mask_leather": "Mummy Mask (Leather)",
+"item.maidensmerrymaking.mermaid_mask_leather": "Mermaid Mask (Leather)",
+"item.maidensmerrymaking.merman_mask_leather": "Merman Mask (Leather)",
+"item.maidensmerrymaking.frankenstein_mask_leather": "Frankenstein Mask (Leather)",
+
+
+"item.maidensmerrymaking.pirate_body_leather": "Pirate Costume (Leather)",
+"item.maidensmerrymaking.bride_body_leather": "Bride Costume (Leather)",
+"item.maidensmerrymaking.mummy_body_leather": "Mummy Costume (Leather)",
+"item.maidensmerrymaking.mermaid_body_leather": "Mermaid Costume (Leather)",
+"item.maidensmerrymaking.merman_body_leather": "Merman Costume (Leather)",
+"item.maidensmerrymaking.frankenstein_body_leather": "Frankenstein Costume (Leather)",
+
+
+"item.maidensmerrymaking.pirate_pants_leather": "Pirate Leggings (Leather)",
+"item.maidensmerrymaking.bride_breeches_leather": "Bride Bloomers (Leather)",
+"item.maidensmerrymaking.mummy_leggings_leather": "Mummy Leggings (Leather)",
+"item.maidensmerrymaking.mermaid_tail_leather": "Mermaid Tail (Leather)",
+"item.maidensmerrymaking.merman_tail_leather": "Merman Tail (Leather)",
+"item.maidensmerrymaking.frankenstein_leggings_leather": "Frankenstein Leggings (Leather)",
+
+
+"item.maidensmerrymaking.pirate_plunderers_leather": "Pirate Boots (Leather)",
+"item.maidensmerrymaking.bride_boots_leather": "Bride Shoes (Leather)",
+"item.maidensmerrymaking.mummy_feet_leather": "Mummy Feet (Leather)",
+"item.maidensmerrymaking.mermaid_fins_leather": "Mermaid Fins (Leather)",
+"item.maidensmerrymaking.merman_fins_leather": "Merman Fins (Leather)",
+"item.maidensmerrymaking.frankenstein_feet_leather": "Frankenstein Feet (Leather)",
+
+"item.maidensmerrymaking.reindeer_ears_leather": "Reindeer Antlers (Leather)",
+"item.maidensmerrymaking.red_santa_hat_leather": "Red Santa Hat (Leather)",
+"item.maidensmerrymaking.red_ugly_christmas_sweater_leather": "Ugly Christmas Sweater-Penguin (Leather)",
+"item.maidensmerrymaking.green_ugly_christmas_sweater_leather": "Ugly Christmas Sweater-Snowman (Leather)",
+"item.maidensmerrymaking.plaid_pajama_pants_leather": "Plaid Pajama Pants (Leather)",
+"item.maidensmerrymaking.striped_pajama_pants_leather": "Striped Pajama Pants (Leather)",
+"item.maidensmerrymaking.santa_slippers_leather": "Santa Slippers (Leather)",
+"item.maidensmerrymaking.reindeer_slippers_leather": "Reindeer Slippers (Leather)",
+
+  "item.maidensmerrymaking.bunny_hood_iron": "Easter Bunny Hood (Iron)",
+  "item.maidensmerrymaking.bunny_costume_iron": "Easter Bunny Chestpiece (Iron)",
+  "item.maidensmerrymaking.bunny_pants_iron": "Easter Bunny Pants (Iron)",
+  "item.maidensmerrymaking.bunny_feet_iron": "Easter Bunny Boots (Iron)",
+  
+  
+"item.maidensmerrymaking.pirate_mask_iron": "Pirate Mask (Iron)",
+"item.maidensmerrymaking.bride_mask_iron": "Bride Mask (Iron)",
+"item.maidensmerrymaking.mummy_mask_iron": "Mummy Mask (Iron)",
+"item.maidensmerrymaking.mermaid_mask_iron": "Mermaid Mask (Iron)",
+"item.maidensmerrymaking.merman_mask_iron": "Merman Mask (Iron)",
+"item.maidensmerrymaking.frankenstein_mask_iron": "Frankenstein Mask (Iron)",
+
+
+"item.maidensmerrymaking.pirate_body_iron": "Pirate Costume (Iron)",
+"item.maidensmerrymaking.bride_body_iron": "Bride Costume (Iron)",
+"item.maidensmerrymaking.mummy_body_iron": "Mummy Costume (Iron)",
+"item.maidensmerrymaking.mermaid_body_iron": "Mermaid Costume (Iron)",
+"item.maidensmerrymaking.merman_body_iron": "Merman Costume (Iron)",
+"item.maidensmerrymaking.frankenstein_body_iron": "Frankenstein Costume (Iron)",
+
+
+"item.maidensmerrymaking.pirate_pants_iron": "Pirate Leggings (Iron)",
+"item.maidensmerrymaking.bride_breeches_iron": "Bride Bloomers (Iron)",
+"item.maidensmerrymaking.mummy_leggings_iron": "Mummy Leggings (Iron)",
+"item.maidensmerrymaking.mermaid_tail_iron": "Mermaid Tail (Iron)",
+"item.maidensmerrymaking.merman_tail_iron": "Merman Tail (Iron)",
+"item.maidensmerrymaking.frankenstein_leggings_iron": "Frankenstein Leggings (Iron)",
+
+
+"item.maidensmerrymaking.pirate_plunderers_iron": "Pirate Boots (Iron)",
+"item.maidensmerrymaking.bride_boots_iron": "Bride Shoes (Iron)",
+"item.maidensmerrymaking.mummy_feet_iron": "Mummy Feet (Iron)",
+"item.maidensmerrymaking.mermaid_fins_iron": "Mermaid Fins (Iron)",
+"item.maidensmerrymaking.merman_fins_iron": "Merman Fins (Iron)",
+"item.maidensmerrymaking.frankenstein_feet_iron": "Frankenstein Feet (Iron)",
+
+"item.maidensmerrymaking.reindeer_ears_iron": "Reindeer Antlers (Iron)",
+"item.maidensmerrymaking.red_santa_hat_iron": "Red Santa Hat (Iron)",
+"item.maidensmerrymaking.red_ugly_christmas_sweater_iron": "Ugly Christmas Sweater-Penguin (Iron)",
+"item.maidensmerrymaking.green_ugly_christmas_sweater_iron": "Ugly Christmas Sweater-Snowman (Iron)",
+"item.maidensmerrymaking.plaid_pajama_pants_iron": "Plaid Pajama Pants (Iron)",
+"item.maidensmerrymaking.striped_pajama_pants_iron": "Striped Pajama Pants (Iron)",
+"item.maidensmerrymaking.santa_slippers_iron": "Santa Slippers (Iron)",
+"item.maidensmerrymaking.reindeer_slippers_iron": "Reindeer Slippers (Iron)",
+
+
+
+
+
+"item.maidensmerrymaking.angora_wool": "Angora Wool",
+"item.maidensmerrymaking.chocolate_bunny": "Chocolate Bunny",
+"item.maidensmerrymaking.easter_card": "Easter Card",
+"item.maidensmerrymaking.pink_egg": "Pink Egg",
+"item.maidensmerrymaking.blue_egg": "Blue Egg",
+"item.maidensmerrymaking.purple_egg": "Purple Egg",
+"item.maidensmerrymaking.yellow_egg": "Yellow Egg",
+"item.maidensmerrymaking.purple_bunny_spawn_egg": "Purple Bunny Spawn Egg",
+"item.maidensmerrymaking.pink_bunny_spawn_egg": "Pink Bunny Spawn Egg",
+"item.maidensmerrymaking.blue_bunny_spawn_egg": "Blue Bunny Spawn Egg",
+"item.maidensmerrymaking.yellow_bunny_spawn_egg": "Yellow Bunny Spawn Egg",
+"item.maidensmerrymaking.cyan_bunny_spawn_egg": "Cyan Bunny Spawn Egg",
+"item.maidensmerrymaking.colored_chicken_spawn_egg": "Yellow Chicken Spawn Egg",
+
+"item.maidensmerrymaking.trick_or_treat_bag": "Trick or Treat Bag",
+"item.maidensmerrymaking.noisemaker": "Noisemaker",
+"item.maidensmerrymaking.sunflower_oil": "Sunflower Oil",
+
+"item.maidensmerrymaking.costumed_zombie_spawn_egg": "Costumed Zombie Spawn Egg",
+"item.maidensmerrymaking.costumed_husk_spawn_egg": "Costumed Husk Spawn Egg",
+"item.maidensmerrymaking.costumed_drowned_spawn_egg": "Costumed Drowned (Merman) Spawn Egg",
+"item.maidensmerrymaking.costumed_drowned_mermaid_spawn_egg": "Costumed Drowned (Mermaid) Spawn Egg",
+"item.maidensmerrymaking.costumed_skeleton_spawn_egg": "Costumed Skeleton Spawn Egg",
+
+"item.maidensmerrymaking.costumed_creeper_spawn_egg": "Costumed Creeper Spawn Egg",
+"item.maidensmerrymaking.christmas_creeper_spawn_egg": "Christmas Creeper Spawn Egg",
+"item.maidensmerrymaking.costumed_spider_spawn_egg": "Costumed Spider Spawn Egg",
+"item.maidensmerrymaking.costumed_zombie_villager_spawn_egg": "Costumed Zombie Villager Spawn Egg",
+
+"item.maidensmerrymaking.costumed_witch_spawn_egg": "Costumed Witch Spawn Egg",
+
+
+"item.maidensmerrymaking.pirate_mask": "Pirate Mask",
+"item.maidensmerrymaking.bride_mask": "Bride Mask",
+"item.maidensmerrymaking.mummy_mask": "Mummy Mask",
+"item.maidensmerrymaking.mermaid_mask": "Mermaid Mask",
+"item.maidensmerrymaking.merman_mask": "Merman Mask",
+"item.maidensmerrymaking.frankenstein_mask": "Frankenstein Mask",
+
+
+"item.maidensmerrymaking.pirate_body": "Pirate Costume",
+"item.maidensmerrymaking.bride_body": "Bride Costume",
+"item.maidensmerrymaking.mummy_body": "Mummy Costume",
+"item.maidensmerrymaking.mermaid_body": "Mermaid Costume",
+"item.maidensmerrymaking.merman_body": "Merman Costume",
+"item.maidensmerrymaking.frankenstein_body": "Frankenstein Costume",
+
+
+"item.maidensmerrymaking.pirate_pants": "Pirate Leggings",
+"item.maidensmerrymaking.bride_breeches": "Bride Bloomers",
+"item.maidensmerrymaking.mummy_leggings": "Mummy Leggings",
+"item.maidensmerrymaking.mermaid_tail": "Mermaid Tail",
+"item.maidensmerrymaking.merman_tail": "Merman Tail",
+"item.maidensmerrymaking.frankenstein_leggings": "Frankenstein Leggings",
+
+
+"item.maidensmerrymaking.pirate_plunderers": "Pirate Boots",
+"item.maidensmerrymaking.bride_boots": "Bride Shoes",
+"item.maidensmerrymaking.mummy_feet": "Mummy Feet",
+"item.maidensmerrymaking.mermaid_fins": "Mermaid Fins",
+"item.maidensmerrymaking.merman_fins": "Merman Fins",
+"item.maidensmerrymaking.frankenstein_feet": "Frankenstein Feet",
+
+
+
+"item.maidensmerrymaking.reinforced_pirate_mask": "Reinforced Pirate Mask",
+"item.maidensmerrymaking.reinforced_bride_mask": "Reinforced Bride Mask",
+"item.maidensmerrymaking.reinforced_mummy_mask": "Reinforced Mummy Mask",
+"item.maidensmerrymaking.reinforced_mermaid_mask": "Reinforced Mermaid Mask",
+"item.maidensmerrymaking.reinforced_merman_mask": "Reinforced Merman Mask",
+"item.maidensmerrymaking.reinforced_frankenstein_mask": "Reinforced Frankenstein Mask",
+
+
+"item.maidensmerrymaking.reinforced_pirate_body": "Reinforced Pirate Costume",
+"item.maidensmerrymaking.reinforced_bride_body": "Reinforced Bride Costume",
+"item.maidensmerrymaking.reinforced_mummy_body": "Reinforced Mummy Costume",
+"item.maidensmerrymaking.reinforced_mermaid_body": "Reinforced Mermaid Costume",
+"item.maidensmerrymaking.reinforced_merman_body": "Reinforced Merman Costume",
+"item.maidensmerrymaking.reinforced_frankenstein_body": "Reinforced Frankenstein Costume",
+
+
+"item.maidensmerrymaking.reinforced_pirate_pants": "Reinforced Pirate Leggings",
+"item.maidensmerrymaking.reinforced_bride_breeches": "Reinforced Bride Bloomers",
+"item.maidensmerrymaking.reinforced_mummy_leggings": "Reinforced Mummy Leggings",
+"item.maidensmerrymaking.reinforced_mermaid_tail": "Reinforced Mermaid Tail",
+"item.maidensmerrymaking.reinforced_merman_tail": "Reinforced Merman Tail",
+"item.maidensmerrymaking.reinforced_frankenstein_leggings": "Reinforced Frankenstein Leggings",
+
+
+"item.maidensmerrymaking.reinforced_pirate_plunderers": "Reinforced Pirate Boots",
+"item.maidensmerrymaking.reinforced_bride_boots": "Reinforced Bride Shoes",
+"item.maidensmerrymaking.reinforced_mummy_feet": "Reinforced Mummy Feet",
+"item.maidensmerrymaking.reinforced_mermaid_fins": "Reinforced Mermaid Fins",
+"item.maidensmerrymaking.reinforced_merman_fins": "Reinforced Merman Fins",
+"item.maidensmerrymaking.reinforced_frankenstein_feet": "Reinforced Frankenstein Feet",
+
+
+"item.maidensmerrymaking.reindeer_ears": "Reindeer Antlers",
+"item.maidensmerrymaking.red_santa_hat": "Red Santa Hat",
+"item.maidensmerrymaking.red_ugly_christmas_sweater": "Ugly Christmas Sweater-Penguin",
+"item.maidensmerrymaking.green_ugly_christmas_sweater": "Ugly Christmas Sweater-Snowman",
+"item.maidensmerrymaking.plaid_pajama_pants": "Plaid Pajama Pants",
+"item.maidensmerrymaking.striped_pajama_pants": "Striped Pajama Pants",
+"item.maidensmerrymaking.santa_slippers": "Santa Slippers",
+"item.maidensmerrymaking.reindeer_slippers": "Reindeer Slippers",
+
+"item.maidensmerrymaking.reinforced_reindeer_ears": "Reinforced Reindeer Antlers",
+"item.maidensmerrymaking.reinforced_red_santa_hat": "Reinforced Red Santa Hat",
+"item.maidensmerrymaking.reinforced_red_ugly_christmas_sweater": "Reinforced Ugly Christmas Sweater-Penguin",
+"item.maidensmerrymaking.reinforced_green_ugly_christmas_sweater": "Reinforced Ugly Christmas Sweater-Snowman",
+"item.maidensmerrymaking.reinforced_plaid_pajama_pants": "Reinforced Plaid Pajama Pants",
+"item.maidensmerrymaking.reinforced_striped_pajama_pants": "Reinforced Striped Pajama Pants",
+"item.maidensmerrymaking.reinforced_santa_slippers": "Reinforced Santa Slippers",
+"item.maidensmerrymaking.reinforced_reindeer_slippers": "Reinforced Reindeer Slippers",
+
+"item.maidensmerrymaking.ornaments": "Bright Colored Ornaments",
+"item.maidensmerrymaking.ornaments_white": "Classic Colored Ornaments",
+"item.maidensmerrymaking.dried_sweet_berries": "Dried Sweet Berries",
+"item.maidensmerrymaking.tree_garland": "Sweet Berry Garland",
+
+"item.maidensmerrymaking.christmas_tree": "Christmas Tree",
+"item.maidensmerrymaking.christmas_tree_white_lights": "Christmas Tree Lights White",
+"item.maidensmerrymaking.christmas_tree_multi_lights": "Christmas Tree Lights Multi",
+"item.maidensmerrymaking.roof_tiles": "Roof Tiles",
+"item.maidensmerrymaking.green_wires": "Green Wires",
+"item.maidensmerrymaking.white_wires": "White Wires",
+"item.maidensmerrymaking.multi_bulbs": "Multi Bulbs",
+"item.maidensmerrymaking.white_bulbs": "White Bulbs",
+"item.maidensmerrymaking.classic_bulbs_white": "Classic Bulbs White",
+"item.maidensmerrymaking.classic_bulbs_multi": "Classic Bulbs Multi",
+"item.maidensmerrymaking.mini_bulbs_multi": "Mini Bulbs Multi",
+"item.maidensmerrymaking.mini_bulbs_white": "Mini Bulbs White",
+"item.maidensmerrymaking.icicle_bulbs_white": "Icicle Bulbs White",
+"item.maidensmerrymaking.icicle_bulbs_multi": "Icicle Bulbs Multi",
+"item.maidensmerrymaking.twinkling_icicle_bulbs_multi": "Twinkling Icicle Bulbs Multi",
+"item.maidensmerrymaking.twinkling_icicle_bulbs_white": "Twinkling Icicle Bulbs White",
+
+"item.maidensmerrymaking.classic_lights_white": "Classic Lights White",
+"item.maidensmerrymaking.classic_lights_multi": "Classic Lights Multi",
+"item.maidensmerrymaking.mini_lights_multi": "Mini Lights Multi",
+"item.maidensmerrymaking.mini_lights_white": "Mini Lights White",
+"item.maidensmerrymaking.icicle_lights_white": "Icicle Lights White",
+"item.maidensmerrymaking.icicle_lights_multi": "Icicle Lights Multi",
+"item.maidensmerrymaking.twinkling_lights_multi": "Twinkling Icicle Lights Multi",
+"item.maidensmerrymaking.twinkling_lights_white": "Twinkling Icicle Lights White",
+
+
+"item.maidensmerrymaking.star": "Star",
+"item.maidensmerrymaking.bow": "Bow",
+"item.maidensmerrymaking.stocking": "Christmas Stocking",
+"item.maidensmerrymaking.mint_seeds": "Mint Seeds",
+"item.maidensmerrymaking.peppermint_extract": "Peppermint Extract",
+"item.maidensmerrymaking.bottle_of_mint": "Bottle of Mint",
+"item.maidensmerrymaking.ginger_tuber": "Ginger Tuber",
+"item.maidensmerrymaking.mint_leaf": "Mint Leaf",
+
+"item.maidensmerrymaking.christmas_music_disc_2": "Holiday Music",
+"item.maidensmerrymaking.christmas_music_disc_2.desc": "Holiday Music Mix (Various Artists)",
+
+"item.maidensmerrymaking.christmas_music_disc": "Lofi Holiday Music",
+"item.maidensmerrymaking.christmas_music_disc.desc": "Assortment of Holiday Songs by LofiGeek",
+
+"item.maidensmerrymaking.halloween_disc": "Halloween Music",
+"item.maidensmerrymaking.halloween_disc.desc": "Halloween Music by Various Artists",
+
+"item.maidensmerrymaking.ground_ginger": "Ground Ginger",
+"item.maidensmerrymaking.gingerbread_dough": "Gingerbread Dough",
+"item.maidensmerrymaking.cookie_dough": "Cookie Dough",
+"item.maidensmerrymaking.gingerbread_cookie": "Gingerbread Cookie",
+"item.maidensmerrymaking.tree_christmas_cookie": "Christmas Tree Cookie",
+"item.maidensmerrymaking.stocking_christmas_cookie": "Christmas Stocking Cookie",
+"item.maidensmerrymaking.mitten_christmas_cookie": "Christmas Mitten Cookie",
+"item.maidensmerrymaking.fudge": "Fudge",
+"item.maidensmerrymaking.egg_nog": "Egg Nog",
+"item.maidensmerrymaking.hot_cocoa": "Hot Cocoa",
+"item.maidensmerrymaking.peppermint_cocoa": "Peppermint Hot Cocoa",
+"item.maidensmerrymaking.candy_cane": "Candy Cane",
+"item.maidensmerrymaking.icing": "Icing",
+"item.maidensmerrymaking.fruitcake": "Fruitcake",
+"item.maidensmerrymaking.corn": "Corn",
+
+"item.maidensmerrymaking.corn_kernels": "Corn Kernels",
+"item.maidensmerrymaking.sweet_potato": "Sweet Potato",
+"item.maidensmerrymaking.sweet_potato_pie": "Sweet Potato Pie",
+"item.maidensmerrymaking.rugelach": "Rugelach",
+
+"item.maidensmerrymaking.caramel": "Bottle of Caramel",
+"item.maidensmerrymaking.caramel_apple": "Caramel Apple",
+"item.maidensmerrymaking.candy_corn": "Candy Corn",
+"item.maidensmerrymaking.caramel_popcorn": "Caramel Popcorn",
+"item.maidensmerrymaking.apple_cider": "Apple Cider",
+"item.maidensmerrymaking.pumpkin_bread": "Pumpkin Bread",
+"item.maidensmerrymaking.popcorn": "Popcorn",
+
+"block.maidensmerrymaking.pot_o_gold_block": "Pot 'O Gold Decoration",
+"block.maidensmerrymaking.glass_mug": "Glass Mug",
+"block.maidensmerrymaking.green_beer_trophy": "Green Beer Achievement Trophy",
+"block.maidensmerrymaking.clover": "Clover",
+"item.maidensmerrymaking.four_leaf_clover": "Lucky Four Leaf Clover",
+"item.maidensmerrymaking.green_beer": "Green Beer",
+		
+"block.maidensmerrymaking.quartz_platter": "Quartz Platter",
+		
+"block.maidensmerrymaking.easter_basket_block": "Easter Basket",
+"block.maidensmerrymaking.easter_basket_trophy_block": "Easter Basket Trophy",
+"block.maidensmerrymaking.easter_lily": "Easter Lily",
+"block.maidensmerrymaking.easter_lily_potted": "Potted Easter Lilly",
+"block.maidensmerrymaking.hydrangea": "Hydrangea Bush",
+"block.maidensmerrymaking.hydrangea_potted": "Potted Hydrangea",
+"block.maidensmerrymaking.hyacinth": "Hyacinth",
+"block.maidensmerrymaking.hyacinth_potted": "Potted Hyacinth",
+
+"block.maidensmerrymaking.gravestone_plain": "Gravestone",
+"block.maidensmerrymaking.gravestone_cross": "Cross Gravestone",
+"block.maidensmerrymaking.gravestone_obelisk": "Obelisk Gravestone",
+"block.maidensmerrymaking.gravestone_topped": "Fancy Gravestone",
+"block.maidensmerrymaking.mantel_deco_boo": "'Boo' Frame Mantel Decoration",
+"block.maidensmerrymaking.mantel_deco_haunted_house": "Haunted House Mantel Decoration",
+
+"block.maidensmerrymaking.living_pine_log": "Living Pine Log",
+"block.maidensmerrymaking.pine_leaves": "Pine Leaves",
+"block.maidensmerrymaking.pine_sapling": "Pine Sapling",
+
+"block.maidensmerrymaking.pine_log": "Pine Log",
+"block.maidensmerrymaking.exposed_pine_log": "Exposed Pine Log",
+"block.maidensmerrymaking.weathered_pine_log": "Weathered Pine Log",
+"block.maidensmerrymaking.aged_pine_log": "Aged Pine Log",
+
+"block.maidensmerrymaking.pine_wood": "Pine Wood",
+"block.maidensmerrymaking.exposed_pine_wood": "Exposed Pine Wood",
+"block.maidensmerrymaking.weathered_pine_wood": "Weathered Pine Wood",
+"block.maidensmerrymaking.aged_pine_wood": "Aged Pine Wood",
+
+"block.maidensmerrymaking.preserved_pine_log": " Preserved Pine Log",
+"block.maidensmerrymaking.preserved_exposed_pine_log": " Preserved Exposed Pine Log",
+"block.maidensmerrymaking.preserved_weathered_pine_log": " Preserved Weathered Pine Log",
+"block.maidensmerrymaking.preserved_aged_pine_log": " Preserved Aged Pine Log",
+
+"block.maidensmerrymaking.preserved_pine_wood": " Preserved Pine Wood",
+"block.maidensmerrymaking.preserved_exposed_pine_wood": " Preserved Exposed Pine Wood",
+"block.maidensmerrymaking.preserved_weathered_pine_wood": " Preserved Weathered Pine Wood",
+"block.maidensmerrymaking.preserved_aged_pine_wood": " Preserved Aged Pine Wood",
+
+"block.maidensmerrymaking.stripped_pine_log": " Stripped Pine Log",
+"block.maidensmerrymaking.stripped_exposed_pine_log": " Stripped Exposed Pine Log",
+"block.maidensmerrymaking.stripped_weathered_pine_log": " Stripped Weathered Pine Log",
+"block.maidensmerrymaking.stripped_aged_pine_log": " Stripped Aged Pine Log",
+
+"block.maidensmerrymaking.stripped_pine_wood": " Stripped Pine Wood",
+"block.maidensmerrymaking.stripped_exposed_pine_wood": " Stripped Exposed Pine Wood",
+"block.maidensmerrymaking.stripped_weathered_pine_wood": " Stripped Weathered Pine Wood",
+"block.maidensmerrymaking.stripped_aged_pine_wood": " Stripped Aged Pine Wood",
+
+"block.maidensmerrymaking.stripped_preserved_pine_log": " Stripped  Preserved Pine Log",
+"block.maidensmerrymaking.stripped_preserved_exposed_pine_log": " Stripped  Preserved Exposed Pine Log",
+"block.maidensmerrymaking.stripped_preserved_weathered_pine_log": " Stripped  Preserved Weathered Pine Log",
+"block.maidensmerrymaking.stripped_preserved_aged_pine_log": " Stripped  Preserved Aged Pine Log",
+
+"block.maidensmerrymaking.stripped_preserved_pine_wood": " Stripped  Preserved Pine Wood",
+"block.maidensmerrymaking.stripped_preserved_exposed_pine_wood": " Stripped  Preserved Exposed Pine Wood",
+"block.maidensmerrymaking.stripped_preserved_weathered_pine_wood": " Stripped  Preserved Weathered Pine Wood",
+"block.maidensmerrymaking.stripped_preserved_aged_pine_wood": " Stripped  Preserved Aged Pine Wood",
+
+"block.maidensmerrymaking.pine_planks": "Pine Planks",
+"block.maidensmerrymaking.exposed_pine_planks": "Exposed Pine Planks",
+"block.maidensmerrymaking.weathered_pine_planks": "Weathered Pine Planks",
+"block.maidensmerrymaking.aged_pine_planks": "Aged Pine Planks",
+
+"block.maidensmerrymaking.preserved_pine_planks": " Preserved Pine Planks",
+"block.maidensmerrymaking.preserved_exposed_pine_planks": " Preserved Exposed Pine Planks",
+"block.maidensmerrymaking.preserved_weathered_pine_planks": " Preserved Weathered Pine Planks",
+"block.maidensmerrymaking.preserved_aged_pine_planks": " Preserved Aged Pine Planks",
+
+"block.maidensmerrymaking.pine_stairs": "Pine Stairs",
+"block.maidensmerrymaking.exposed_pine_stairs": "Exposed Pine Stairs",
+"block.maidensmerrymaking.weathered_pine_stairs": "Weathered Pine Stairs",
+"block.maidensmerrymaking.aged_pine_stairs": "Aged Pine Stairs",
+
+"block.maidensmerrymaking.pine_slab": "Pine Slab",
+"block.maidensmerrymaking.exposed_pine_slab": "Exposed Pine Slab",
+"block.maidensmerrymaking.weathered_pine_slab": "Weathered Pine Slab",
+"block.maidensmerrymaking.aged_pine_slab": "Aged Pine Slab",
+
+"block.maidensmerrymaking.pine_fence": "Pine Fence",
+"block.maidensmerrymaking.exposed_pine_fence": "Exposed Pine Fence",
+"block.maidensmerrymaking.weathered_pine_fence": "Weathered Pine Fence",
+"block.maidensmerrymaking.aged_pine_fence": "Aged Pine Fence",
+
+"block.maidensmerrymaking.pine_fence_gate": "Pine Fence Gate",
+"block.maidensmerrymaking.exposed_pine_fence_gate": "Exposed Pine Fence Gate",
+"block.maidensmerrymaking.weathered_pine_fence_gate": "Weathered Pine Fence Gate",
+"block.maidensmerrymaking.aged_pine_fence_gate": "Aged Pine Fence Gate",
+
+"block.maidensmerrymaking.pine_pressure_plate": "Pine Pressure Plate",
+"block.maidensmerrymaking.exposed_pine_pressure_plate": "Exposed Pine Pressure Plate",
+"block.maidensmerrymaking.weathered_pine_pressure_plate": "Weathered Pine Pressure Plate",
+"block.maidensmerrymaking.aged_pine_pressure_plate": "Aged Pine Pressure Plate",
+
+"block.maidensmerrymaking.pine_button": "Pine Button",
+"block.maidensmerrymaking.exposed_pine_button": "Exposed Pine Button",
+"block.maidensmerrymaking.weathered_pine_button": "Weathered Pine Button",
+"block.maidensmerrymaking.aged_pine_button": "Aged Pine Button",
+
+"block.maidensmerrymaking.roof_pine_stairs": " Roof Pine Stairs",
+"block.maidensmerrymaking.roof_exposed_pine_stairs": " Roof Exposed Pine Stairs",
+"block.maidensmerrymaking.roof_weathered_pine_stairs": " Roof Weathered Pine Stairs",
+"block.maidensmerrymaking.roof_aged_pine_stairs": " Roof Aged Pine Stairs",
+
+"block.maidensmerrymaking.snowy_pine_stairs": " Snowy Pine Stairs",
+"block.maidensmerrymaking.snowy_exposed_pine_stairs": " Snowy Exposed Pine Stairs",
+"block.maidensmerrymaking.snowy_weathered_pine_stairs": " Snowy Weathered Pine Stairs",
+"block.maidensmerrymaking.snowy_aged_pine_stairs": " Snowy Aged Pine Stairs",
+
+"block.maidensmerrymaking.roof_pine_slab": " Roof Pine Slab",
+"block.maidensmerrymaking.roof_exposed_pine_slab": " Roof Exposed Pine Slab",
+"block.maidensmerrymaking.roof_weathered_pine_slab": " Roof Weathered Pine Slab",
+"block.maidensmerrymaking.roof_aged_pine_slab": " Roof Aged Pine Slab",
+
+"block.maidensmerrymaking.snowy_pine_slab": " Snowy Pine Slab",
+"block.maidensmerrymaking.snowy_exposed_pine_slab": " Snowy Exposed Pine Slab",
+"block.maidensmerrymaking.snowy_weathered_pine_slab": " Snowy Weathered Pine Slab",
+"block.maidensmerrymaking.snowy_aged_pine_slab": " Snowy Aged Pine Slab",
+
+"block.maidensmerrymaking.pine_door": "Pine Door",
+"block.maidensmerrymaking.exposed_pine_door": "Exposed Pine Door",
+"block.maidensmerrymaking.weathered_pine_door": "Weathered Pine Door",
+"block.maidensmerrymaking.aged_pine_door": "Aged Pine Door",
+
+"block.maidensmerrymaking.pine_trapdoor": "Pine Trapdoor",
+"block.maidensmerrymaking.exposed_pine_trapdoor": "Exposed Pine Trapdoor",
+"block.maidensmerrymaking.weathered_pine_trapdoor": "Weathered Pine Trapdoor",
+"block.maidensmerrymaking.aged_pine_trapdoor": "Aged Pine Trapdoor",
+
+"block.maidensmerrymaking.stuffed_poultry_dinner": "Stuffed Poultry Dinner",
+
+
+"block.maidensmerrymaking.blue_multi_dots_easter_egg_block": "Blue with Multi Dots Easter Egg",
+"block.maidensmerrymaking.blue_multi_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_purple_fade_dots_easter_egg_block": "Blue and Purple with Dots Easter Egg",
+"block.maidensmerrymaking.blue_purple_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_purple_fade_easter_egg_block": "Blue and Purple Easter Egg",
+"block.maidensmerrymaking.blue_purple_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_purple_fade_zigzag_easter_egg_block": "Blue and Purple with Chevron Easter Egg",
+"block.maidensmerrymaking.blue_purple_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_white_flowers_easter_egg_block": "Blue with White Flowers Easter Egg",
+"block.maidensmerrymaking.blue_white_flowers_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_zigzag_easter_egg_block": "Blue with Chevron Easter Egg",
+"block.maidensmerrymaking.blue_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_blue_fade_dots_easter_egg_block": "Cyan and Blue with Dots Easter Egg",
+"block.maidensmerrymaking.cyan_blue_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_blue_fade_easter_egg_block": "Cyan and Blue Easter Egg",
+"block.maidensmerrymaking.cyan_blue_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_blue_fade_zigzag_easter_egg_block": "Cyan and Blue with Chevron Easter Egg",
+"block.maidensmerrymaking.cyan_blue_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_dots_easter_egg_block": "Cyan with Multi Dots Easter Egg",
+"block.maidensmerrymaking.cyan_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_monochrome_easter_egg_block": "Cyan Stripes Easter Egg",
+"block.maidensmerrymaking.cyan_monochrome_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_multi_dots_easter_egg_block": "Cyan with Multi Dots Easter Egg",
+"block.maidensmerrymaking.cyan_multi_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_purple_fade_dots_easter_egg_block": "Cyan and Purple with Dots Easter Egg",
+"block.maidensmerrymaking.cyan_purple_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_purple_fade_easter_egg_block": "Cyan and Purple Easter Egg",
+"block.maidensmerrymaking.cyan_purple_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_purple_fade_zigzag_easter_egg_block": "Cyan and Purple with Chevron Easter Egg",
+"block.maidensmerrymaking.cyan_purple_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_white_flowers_easter_egg_block": "Cyan with White Flowers Easter Egg",
+"block.maidensmerrymaking.cyan_white_flowers_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_blue_fade_dots_easter_egg_block": "Pink and Blue with Dots Easter Egg",
+"block.maidensmerrymaking.pink_blue_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_blue_fade_easter_egg_block": "Pink and Blue Easter Egg",
+"block.maidensmerrymaking.pink_blue_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_blue_fade_zigzag_easter_egg_block": "Pink and Blue with Chevron Easter Egg",
+"block.maidensmerrymaking.pink_blue_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_cyan_fade_dots_easter_egg_block": "Pink and Cyan with Dots Easter Egg",
+"block.maidensmerrymaking.pink_cyan_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_cyan_fade_easter_egg_block": "Pin and Cyan Easter Egg",
+"block.maidensmerrymaking.pink_cyan_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_cyan_fade_zigzag_easter_egg_block": "Pink and Cyan with Chevron Easter Egg",
+"block.maidensmerrymaking.pink_cyan_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_monochrome_easter_egg_block": "Pink Stripes Easter Egg",
+"block.maidensmerrymaking.pink_monochrome_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_multi_dots_easter_egg_block": "Pink with Multi Dots Easter Egg",
+"block.maidensmerrymaking.pink_multi_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_purple_fade_dots_easter_egg_block": "Pink and Purple with Dots Easter Egg",
+"block.maidensmerrymaking.pink_purple_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_purple_fade_easter_egg_block": "Pink and Purple Easter Egg",
+"block.maidensmerrymaking.pink_purple_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_purple_fade_zigzag_easter_egg_block": "Pink and Purple with Chevron Easter Egg",
+"block.maidensmerrymaking.pink_purple_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_white_flowers_easter_egg_block": "Pink with White Flowers Easter Egg",
+"block.maidensmerrymaking.pink_white_flowers_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.purple_dots_easter_egg_block": "Purple with Multi Dots Easter Egg",
+"block.maidensmerrymaking.purple_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.purple_pink_flower_easter_egg_block": "Purple with Pink Flowers Easter Egg",
+"block.maidensmerrymaking.purple_pink_flower_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.purple_stripes_easter_egg_block": "Purple with Multi Stripes Easter Egg",
+"block.maidensmerrymaking.purple_stripes_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.rainbow_dots_easter_egg_block": "Pastel Rainbow with Dots Easter Egg",
+"block.maidensmerrymaking.rainbow_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.rainbow_easter_egg_block": "Pastel Rainbow Easter Egg",
+"block.maidensmerrymaking.rainbow_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.rainbow_zigzag_easter_egg_block": "Pastel Rainbow with Chevron Easter Egg",
+"block.maidensmerrymaking.rainbow_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_blue_fade_dots_easter_egg_block": "Yellow and Blue with Dots Easter Egg",
+"block.maidensmerrymaking.yellow_blue_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_blue_fade_easter_egg_block": "Yellow and Blue Easter Egg",
+"block.maidensmerrymaking.yellow_blue_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_blue_fade_zigzag_easter_egg_block": "Yellow and Blue with Chevron Easter Egg",
+"block.maidensmerrymaking.yellow_blue_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_monochrome_easter_egg_block": "Yellow Stripes Easter Egg",
+"block.maidensmerrymaking.yellow_monochrome_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_pink_fade_dots_easter_egg_block": "Yellow and Pink with Dots Easter Egg",
+"block.maidensmerrymaking.yellow_pink_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_pink_fade_easter_egg_block": "Yellow and Pink Easter Egg",
+"block.maidensmerrymaking.yellow_pink_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_pink_fade_zigzag_easter_egg_block": "Yellow and Pink with Chevron Easter Egg",
+"block.maidensmerrymaking.yellow_pink_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_white_flowers_easter_egg_block": "Yellow with White Flowers Easter Egg",
+"block.maidensmerrymaking.yellow_white_flowers_easter_egg_gen_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_zigzag_easter_egg_block": "Yellow with Chevron Easter Egg",
+"block.maidensmerrymaking.yellow_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+	
+	
+	
+	"block.maidensmerrymaking.mint_plant": "Mint Seeds",
+	"block.maidensmerrymaking.ginger_plant": "Ginger Root",
+	"block.maidensmerrymaking.sweet_potato_plant": "Sweet Potato",
+	"block.maidensmerrymaking.corn_stalk": "Corn Kernels",
+	"block.maidensmerrymaking.mug": "Mug",
+	"block.maidensmerrymaking.mkeka": "Mkeka",
+	"block.maidensmerrymaking.chalice": "Chalice",
+	"block.maidensmerrymaking.kinara": "Kinara",
+	"block.maidensmerrymaking.kinara_lit": "Kinara Lit",
+	"block.maidensmerrymaking.menorah": "Menorah",
+	"block.maidensmerrymaking.menorah_lit": "Menorah Lit",
+	"block.maidensmerrymaking.harvest_tray": "Harvest Tray",
+	"block.maidensmerrymaking.cookie_tray": "Cookie Tray",
+	"block.maidensmerrymaking.dreidel": "Dreidels",
+	"block.maidensmerrymaking.gelt": "Gelt",
+	"block.maidensmerrymaking.tiny_spruce": "Small Spruce Sapling",
+	"block.maidensmerrymaking.holly_sapling": "Holly Tree Sapling",
+	"block.maidensmerrymaking.present": "Christmas Present",
+		
+	"block.maidensmerrymaking.iron_fence": "Wrought Iron Fence",
+	"block.maidensmerrymaking.warped_picket_fence": "Warped Picket Fence",
+	"block.maidensmerrymaking.crimson_picket_fence": "Crimson Picket Fence",
+	"block.maidensmerrymaking.warped_wreath_fence": "Warped Fence with Garland",
+	"block.maidensmerrymaking.crimson_wreath_fence": "Crimson Fence with Garland",
+	"block.maidensmerrymaking.warped_wreath_lights_fence": "Warped Fence with Lit Garland",
+	"block.maidensmerrymaking.crimson_wreath_lights_fence": "Crimson Fence with Lit Garland",
+	"block.maidensmerrymaking.warped_wreath_multi_fence": "Warped Fence with Multi Lit Garland",
+	"block.maidensmerrymaking.crimson_wreath_multi_fence": "Crimson Fence with Multi Lit Garland",
+	
+	"block.maidensmerrymaking.pine_wreath_fence_gate": "Pine Fence Gate with Wreath",
+	"block.maidensmerrymaking.exposed_pine_wreath_fence_gate": "Exposed Pine Gate with Wreath",
+	"block.maidensmerrymaking.weathered_pine_wreath_fence_gate": "Weathered Pine Gate with Wreath",
+	"block.maidensmerrymaking.aged_pine_wreath_fence_gate": "Aged Pine Gate with Wreath",
+	
+	"block.maidensmerrymaking.pine_wreath_lights_fence_gate": "Pine Fence Gate with Lit Wreath",
+	"block.maidensmerrymaking.exposed_pine_wreath_lights_fence_gate": "Exposed Pine Gate with Lit Wreath",
+	"block.maidensmerrymaking.weathered_pine_wreath_lights_fence_gate": "Weathered Pine Gate with Lit Wreath",
+	"block.maidensmerrymaking.aged_pine_wreath_lights_fence_gate": "Aged Pine Gate with Lit Wreath",
+	
+	"block.maidensmerrymaking.pine_wreath_multi_fence_gate": "Pine Fence Gate with Multi Lit Wreath",
+	"block.maidensmerrymaking.exposed_pine_wreath_multi_fence_gate": "Exposed Pine Gate with Multi Lit Wreath",
+	"block.maidensmerrymaking.weathered_pine_wreath_multi_fence_gate": "Weathered Pine Gate with Multi Lit Wreath",
+	"block.maidensmerrymaking.aged_pine_wreath_multi_fence_gate": "Aged Pine Gate with Multi Lit Wreath",
+	
+	
+	"block.maidensmerrymaking.iron_fence_gate": "Wrought Iron Fence Gate",
+	"block.maidensmerrymaking.warped_picket_fence_gate": "Warped Picket Fence Gate",
+	"block.maidensmerrymaking.crimson_picket_fence_gate": "Crimson Picket Fence Gate",
+	"block.maidensmerrymaking.warped_wreath_fence_gate": "Warped Fence Gate with Garland",
+	"block.maidensmerrymaking.crimson_wreath_fence_gate": "Crimson Fence Gate with Garland",
+	"block.maidensmerrymaking.warped_wreath_lights_fence_gate": "Warped Fence Gate with Lit Garland",
+	"block.maidensmerrymaking.crimson_wreath_lights_fence_gate": "Crimson Fence Gate with Lit Garland",
+	"block.maidensmerrymaking.warped_wreath_multi_fence_gate": "Warped Fence Gate with Multi Lit Garland",
+	"block.maidensmerrymaking.crimson_wreath_multi_fence_gate": "Crimson Fence Gate with Multi Lit Garland",
+	
+	"block.maidensmerrymaking.warped_wreath_door": "Warped Door with Wreath",
+	"block.maidensmerrymaking.warped_lit_wreath_door": "Warped Door with Lit Wreath",
+	"block.maidensmerrymaking.warped_lit_wreath_multi_door": "Warped Door with Multi Lit Wreath",
+	"block.maidensmerrymaking.crimson_wreath_door": "Crimson Door with Wreath",
+	"block.maidensmerrymaking.crimson_lit_wreath_door": "Crimson Door with Lit Wreath",
+	"block.maidensmerrymaking.crimson_lit_wreath_multi_door": "Crimson Door with Multi Lit Wreath",
+	
+	"block.maidensmerrymaking.mangrove_wreath_door": "Mangrove Door with Wreath",
+	"block.maidensmerrymaking.mangrove_lit_wreath_door": "Mangrove Door with Lit Wreath",
+	"block.maidensmerrymaking.mangrove_lit_wreath_multi_door": "Mangrove Door with Multi Lit Wreath",
+	
+	"block.maidensmerrymaking.iron_wreath_door": "Iron Door with Wreath",
+	"block.maidensmerrymaking.iron_lit_wreath_door": "Iron Door with Lit Wreath",
+	"block.maidensmerrymaking.iron_lit_wreath_multi_door": "Iron Door with Multi Lit Wreath",
+	
+	"block.maidensmerrymaking.pine_wreath_door": "Pine Door with Wreath",
+	"block.maidensmerrymaking.pine_lit_wreath_door": "Pine Door with Lit Wreath",
+	"block.maidensmerrymaking.pine_lit_wreath_multi_door": "Pine Door with Multi Lit Wreath",
+	
+	"block.maidensmerrymaking.exposed_pine_wreath_door": "Exposed Pine Door with Wreath",
+	"block.maidensmerrymaking.exposed_pine_lit_wreath_door": "Exposed Pine Door with Lit Wreath",
+	"block.maidensmerrymaking.exposed_pine_lit_wreath_multi_door": "Exposed Pine Door with Multi Lit Wreath",
+	
+	"block.maidensmerrymaking.weathered_pine_wreath_door": "Weathered Pine Door with Wreath",
+	"block.maidensmerrymaking.weathered_pine_lit_wreath_door": "Weathered Pine Door with Lit Wreath",
+	"block.maidensmerrymaking.weathered_pine_lit_wreath_multi_door": "Weathered Pine Door with Multi Lit Wreath",
+	
+	"block.maidensmerrymaking.aged_pine_wreath_door": "Aged Pine Door with Wreath",
+	"block.maidensmerrymaking.aged_pine_lit_wreath_door": "Aged Pine Door with Lit Wreath",
+	"block.maidensmerrymaking.aged_pine_lit_wreath_multi_door": "Aged Pine Door with Multi Lit Wreath",
+		
+	"block.maidensmerrymaking.mantel_normal_warped": "Warped Fireplace Mantel",
+	"block.maidensmerrymaking.mantel_normal_crimson": "Crimson Fireplace Mantel",
+	
+	"block.maidensmerrymaking.mantel_normal_mangrove": "Mangrove Fireplace Mantel",
+	
+	"block.maidensmerrymaking.mantel_normal_pine": "Pine Fireplace Mantel",
+	"block.maidensmerrymaking.mantel_normal_exposed_pine": "Exposed Pine Fireplace Mantel",
+	"block.maidensmerrymaking.mantel_normal_weathered_pine": "Weathered Pine Fireplace Mantel",
+	"block.maidensmerrymaking.mantel_normal_aged_pine": "Aged Pine Fireplace Mantel",
+	
+	"block.maidensmerrymaking.roof_warped_stairs": "Warped Roof Stairs",
+	"block.maidensmerrymaking.roof_crimson_stairs": "Crimson Roof Stairs",
+	
+	"block.maidensmerrymaking.roof_mangrove_stairs": "Mangrove Roof Stairs",
+	
+	"block.maidensmerrymaking.snowy_warped_stairs": "Warped Snowy Stairs",
+	"block.maidensmerrymaking.snowy_crimson_stairs": "Crimson Snowy Stairs",
+	"block.maidensmerrymaking.snowy_mangrove_stairs": "Mangrove Snowy Stairs",
+	
+	"block.maidensmerrymaking.blackstone_garland_wall": "BlackStone Wall with Garland",
+	"block.maidensmerrymaking.blackstone_garland_lights_wall": "BlackStone Wall with Lit Garland",
+	"block.maidensmerrymaking.blackstone_garland_multi_wall": "BlackStone Wall with Multi Lit Garland",
+	
+	"block.maidensmerrymaking.polished_blackstone_garland_wall": "Polished Blackstone Wall with Garland",
+	"block.maidensmerrymaking.polished_blackstone_garland_lights_wall": "Polished Blackstone Wall with Lit Garland",
+	"block.maidensmerrymaking.polished_blackstone_garland_multi_wall": "Polished Blackstone Wall with Multi Lit Garland",
+	
+	"block.maidensmerrymaking.polished_blackstone_brick_garland_wall": "Polished Blackstone Brick Wall with Garland",
+	"block.maidensmerrymaking.polished_blackstone_brick_garland_lights_wall": "Polished Blackstone Brick Wall with Lit Garland",
+	"block.maidensmerrymaking.polished_blackstone_brick_garland_multi_wall": "Polished Blackstone Brick Wall with Multi Lit Garland",
+	
+	"block.maidensmerrymaking.cobbled_deepslate_garland_wall": "Cobbled Deepslate Wall with Garland",
+	"block.maidensmerrymaking.cobbled_deepslate_garland_lights_wall": "Cobbled Deepslate Wall with Lit Garland",
+	"block.maidensmerrymaking.cobbled_deepslate_garland_multi_wall": "Cobbled Deepslate Wall with Multi Lit Garland",
+	
+	"block.maidensmerrymaking.polished_deepslate_garland_wall": "Polished Deepslate Wall with Garland",
+	"block.maidensmerrymaking.polished_deepslate_garland_lights_wall": "Polished Deepslate Wall with Lit Garland",
+	"block.maidensmerrymaking.polished_deepslate_garland_multi_wall": "Polished Deepslate Wall with Multi Lit Garland",
+	
+	"block.maidensmerrymaking.deepslate_brick_garland_wall": "Deepslate Brick Wall with Garland",
+	"block.maidensmerrymaking.deepslate_brick_garland_lights_wall": "Deepslate Brick Wall with Lit Garland",
+	"block.maidensmerrymaking.deepslate_brick_garland_multi_wall": "Deepslate Brick Wall with Multi Lit Garland",
+	
+	"block.maidensmerrymaking.deepslate_tile_garland_wall": "Deepslate Tile Wall with Garland",
+	"block.maidensmerrymaking.deepslate_tile_garland_lights_wall": "Deepslate Tile Wall with Lit Garland",
+	"block.maidensmerrymaking.deepslate_tile_garland_multi_wall": "Deepslate Tile Wall with Multi Lit Garland",
+	
+	
+"block.maidensmerrymaking.christmas_tree_stand": "Tree Stand",
+
+"block.maidensmerrymaking.mint_plant": "Mint Seeds",
+"block.maidensmerrymaking.ginger_plant": "Ginger Root",
+
+
+"block.maidensmerrymaking.christmas_wreath": "Wreath",
+"block.maidensmerrymaking.christmas_wreath_white_lights": "Wreath White Lights",
+"block.maidensmerrymaking.christmas_wreath_multi_lights": "Wreath Multi Lights",
+"block.maidensmerrymaking.bow_topper": "Bow Tree Topper",
+"block.maidensmerrymaking.star_topper": "Star Tree Topper",
+
+"block.maidensmerrymaking.acacia_wreath_door": "Acacia Door with Wreath",
+"block.maidensmerrymaking.birch_wreath_door": "Birch Door with Wreath",
+"block.maidensmerrymaking.oak_wreath_door": "Oak Door with Wreath",
+"block.maidensmerrymaking.dark_oak_wreath_door": "Dark Oak Door with Wreath",
+"block.maidensmerrymaking.spruce_wreath_door": "Spruce Door with Wreath",
+"block.maidensmerrymaking.jungle_wreath_door": "Jungle Door with Wreath",
+
+"block.maidensmerrymaking.acacia_lit_wreath_door": "Acacia Door with Lit Wreath",
+"block.maidensmerrymaking.birch_lit_wreath_door": "Birch Door with Lit Wreath",
+"block.maidensmerrymaking.oak_lit_wreath_door": "Oak Door with Lit Wreath",
+"block.maidensmerrymaking.dark_oak_lit_wreath_door": "Dark Oak Door with Lit Wreath",
+"block.maidensmerrymaking.spruce_lit_wreath_door": "Spruce Door with Lit Wreath",
+"block.maidensmerrymaking.jungle_lit_wreath_door": "Jungle Door with Lit Wreath",
+
+"block.maidensmerrymaking.acacia_lit_wreath_multi_door": "Acacia Door with Multi Lit Wreath",
+"block.maidensmerrymaking.birch_lit_wreath_multi_door": "Birch Door with Multi Lit Wreath",
+"block.maidensmerrymaking.oak_lit_wreath_multi_door": "Oak Door with Multi Lit Wreath",
+"block.maidensmerrymaking.dark_oak_lit_wreath_multi_door": "Dark Oak Door with Multi Lit Wreath",
+"block.maidensmerrymaking.spruce_lit_wreath_multi_door": "Spruce Door with Multi Lit Wreath",
+"block.maidensmerrymaking.jungle_lit_wreath_multi_door": "Jungle Door with Multi Lit Wreath",
+
+"block.maidensmerrymaking.fireplace_logs": "Fireplace Logs",
+"block.maidensmerrymaking.fireplace_logs_on": "Fireplace Logs Burning",
+"block.maidensmerrymaking.fireplace_logs_burned": "Fireplace Logs Burned",
+
+"block.maidensmerrymaking.mantel_normal_acacia": "Fireplace Mantel Acacia",
+"block.maidensmerrymaking.mantel_normal_birch": "Fireplace Mantel Birch",
+"block.maidensmerrymaking.mantel_normal_oak": "Fireplace Mantel Oak",
+"block.maidensmerrymaking.mantel_normal_spruce": "Fireplace Mantel Spruce",
+"block.maidensmerrymaking.mantel_normal_dark_oak": "Fireplace Mantel Dark Oak",
+"block.maidensmerrymaking.mantel_normal_jungle": "Fireplace Mantel Jungle",
+
+"block.maidensmerrymaking.lamp_post": "Lamp Post",
+"block.maidensmerrymaking.lamp_post_on": "Lamp Post (On)",
+
+"block.maidensmerrymaking.garland_horizontal": "Garland (Horizontal)",
+"block.maidensmerrymaking.garland_vertical_left": "Garland (Vertical Lefthand)",
+"block.maidensmerrymaking.garland_vertical_right": "Garland (Vertical Righthand)",
+"block.maidensmerrymaking.garland_vertical_corner_left": "Garland (Vertical Corner Lefthand)",
+"block.maidensmerrymaking.garland_vertical_corner_right": "Garland (Vertical Corner Righthand)",
+
+
+"block.maidensmerrymaking.garland_horizontal_lights": "Garland White Lights (Horizontal)",
+"block.maidensmerrymaking.garland_vertical_lights_left": "Garland White Lights (Vertical Lefthand)",
+"block.maidensmerrymaking.garland_vertical_lights_right": "Garland White Lights (Vertical Righthand)",
+"block.maidensmerrymaking.garland_vertical_corner_lights_left": "Garland White Lights (Vertical Corner Lefthand)",
+"block.maidensmerrymaking.garland_vertical_corner_lights_right": "Garland White Lights (Vertical Corner Righthand)",
+
+"block.maidensmerrymaking.garland_horizontal_multi": "Garland Multi Lights (Horizontal)",
+"block.maidensmerrymaking.garland_vertical_multi_left": "Garland Multi Lights (Vertical Lefthand)",
+"block.maidensmerrymaking.garland_vertical_multi_right": "Garland Multi Lights (Vertical Righthand)",
+"block.maidensmerrymaking.garland_vertical_corner_multi_left": "Garland Multi Lights (Vertical Corner Lefthand)",
+"block.maidensmerrymaking.garland_vertical_corner_multi_right": "Garland Multi Lights (Vertical Corner Righthand)",
+
+"block.maidensmerrymaking.garland_diagonal_left": "Garland (Diagonal Left)",
+"block.maidensmerrymaking.garland_lights_diagonal_left": "Garland White Lights (Diagonal_Left)",
+"block.maidensmerrymaking.garland_multi_diagonal_left": "Garland Multi Lights (Diagonal_Left)",
+
+"block.maidensmerrymaking.garland_diagonal_right": "Garland (Diagonal Right)",
+"block.maidensmerrymaking.garland_lights_diagonal_right": "Garland White Lights (Diagonal_Right)",
+"block.maidensmerrymaking.garland_multi_diagonal_right": "Garland Multi Lights (Diagonal_Right)",
+
+"block.maidensmerrymaking.mantel_deco": "Candle Holders Mantel Decoration",
+"block.maidensmerrymaking.mantel_deco_1": "Gingerbread House Mantel Decoration",
+"block.maidensmerrymaking.mantel_deco_2": "Lantern and Poinsetta Mantel Decoration",
+"block.maidensmerrymaking.mantel_deco_3": "Joy Mantel Decorations",
+"block.maidensmerrymaking.mantel_deco_4": "Christmas Tree Mantel Decoration",
+"block.maidensmerrymaking.mantel_deco_5": "Lantern and Ornament Mantel Decorations",
+
+"block.maidensmerrymaking.roof_acacia_stairs": "Acacia Roofed Stairs",
+"block.maidensmerrymaking.roof_birch_stairs": "Birch Roofed Stairs",
+"block.maidensmerrymaking.roof_dark_oak_stairs": "Dark Oak Roofed Stairs",
+"block.maidensmerrymaking.roof_jungle_stairs": "Jungle Roofed Stairs",
+"block.maidensmerrymaking.roof_oak_stairs": "Oak Roofed Stairs",
+"block.maidensmerrymaking.roof_spruce_stairs": "Spruce Roofed Stairs",
+"block.maidensmerrymaking.roof_polished_blackstone_brick_stairs": "Polished Blackstone Brick Roofed Stairs",
+"block.maidensmerrymaking.roof_deepslate_brick_stairs": "Deepslate Brick Roofed Stairs",
+"block.maidensmerrymaking.roof_stone_brick_stairs": "Stone Brick Roofed Stairs",
+
+"block.maidensmerrymaking.snowy_acacia_stairs": "Acacia Snowy Stairs",
+"block.maidensmerrymaking.snowy_birch_stairs": "Birch Snowy Stairs",
+"block.maidensmerrymaking.snowy_dark_oak_stairs": "Dark Oak Snowy Stairs",
+"block.maidensmerrymaking.snowy_jungle_stairs": "Jungle Snowy Stairs",
+"block.maidensmerrymaking.snowy_oak_stairs": "Oak Snowy Stairs",
+"block.maidensmerrymaking.snowy_spruce_stairs": "Spruce Snowy Stairs",
+
+"block.maidensmerrymaking.snowy_polished_blackstone_brick_stairs": "Polished Blackstone Brick Snowy Stairs",
+"block.maidensmerrymaking.snowy_deepslate_brick_stairs": "Deepslate Brick Snowy Stairs",
+"block.maidensmerrymaking.snowy_stone_brick_stairs": "Stone Brick Snowy Stairs",
+
+"block.maidensmerrymaking.acacia_roof_slab": "Acacia Roofed Slab",
+"block.maidensmerrymaking.birch_roof_slab": "Birch Roofed Slab",
+"block.maidensmerrymaking.dark_oak_roof_slab": "Dark Oak Roofed Slab",
+"block.maidensmerrymaking.jungle_roof_slab": "Jungle Roofed Slab",
+"block.maidensmerrymaking.oak_roof_slab": "Oak Roofed Slab",
+"block.maidensmerrymaking.spruce_roof_slab": "Spruce Roofed Slab",
+"block.maidensmerrymaking.mangrove_roof_slab": "Mangrove Roofed Slab",
+"block.maidensmerrymaking.polished_blackstone_brick_roof_slab": "Polished Blackstone Brick Roofed Slab",
+"block.maidensmerrymaking.deepslate_brick_roof_slab": "Deepslate Brick Roofed Slab",
+"block.maidensmerrymaking.stone_brick_roof_slab": "Stone Brick Roofed Slab",
+
+"block.maidensmerrymaking.acacia_snowy_slab": "Acacia Snowy Slab",
+"block.maidensmerrymaking.birch_snowy_slab": "Birch Snowy Slab",
+"block.maidensmerrymaking.dark_oak_snowy_slab": "Dark Oak Snowy Slab",
+"block.maidensmerrymaking.jungle_snowy_slab": "Jungle Snowy Slab",
+"block.maidensmerrymaking.oak_snowy_slab": "Oak Snowy Slab",
+"block.maidensmerrymaking.spruce_snowy_slab": "Spruce Snowy Slab",
+"block.maidensmerrymaking.crimson_snowy_slab": "Crimson Snowy Slab",
+"block.maidensmerrymaking.warped_snowy_slab": "Warped Snowy Slab",
+"block.maidensmerrymaking.crimson_roof_slab": "Crimson Roofed Slab",
+"block.maidensmerrymaking.mangrove_snowy_slab": "Mangrove Snowy Slab",
+"block.maidensmerrymaking.warped_roof_slab": "Warped Roofed Slab",
+
+
+"block.maidensmerrymaking.polished_blackstone_brick_snowy_slab": "Polished Blackstone Brick Snowy Slab",
+"block.maidensmerrymaking.deepslate_brick_snowy_slab": "Deepslate Brick Snowy Slab",
+"block.maidensmerrymaking.stone_brick_snowy_slab": "Stone Brick Snowy Slab",
+
+"block.maidensmerrymaking.acacia_picket_fence": "Acacia Picket Fence",
+"block.maidensmerrymaking.birch_picket_fence": "Birch Picket Fence",
+"block.maidensmerrymaking.dark_oak_picket_fence": "Dark Oak Picket Fence",
+"block.maidensmerrymaking.jungle_picket_fence": "Jungle Picket Fence",
+"block.maidensmerrymaking.spruce_picket_fence": "Spruce Picket Fence",
+"block.maidensmerrymaking.oak_picket_fence": "Oak Picket Fence",
+"block.maidensmerrymaking.mangrove_picket_fence": "Mangrove Picket Fence",
+
+"block.maidensmerrymaking.pine_picket_fence": "Pine Picket Fence",
+"block.maidensmerrymaking.exposed_pine_picket_fence": "Exposed Pine Picket Fence",
+"block.maidensmerrymaking.weathered_pine_picket_fence": "Weathered Pine Picket Fence",
+"block.maidensmerrymaking.aged_pine_picket_fence": "Aged Pine Picket Fence",
+
+"block.maidensmerrymaking.acacia_wreath_fence": "Acacia Fence with Garland",
+"block.maidensmerrymaking.birch_wreath_fence": "Birch Fence with Garland",
+"block.maidensmerrymaking.dark_oak_wreath_fence": "Dark Oak Fence with Garland",
+"block.maidensmerrymaking.jungle_wreath_fence": "Jungle Fence with Garland",
+"block.maidensmerrymaking.oak_wreath_fence": "Oak Fence with Garland",
+"block.maidensmerrymaking.spruce_wreath_fence": "Spruce Fence with Garland",
+"block.maidensmerrymaking.mangrove_wreath_fence": "Mangrove Fence with Garland",
+
+"block.maidensmerrymaking.pine_wreath_fence": "Pine Fence with Garland",
+"block.maidensmerrymaking.exposed_pine_wreath_fence": "Exposed Pine Fence with Garland",
+"block.maidensmerrymaking.weathered_pine_wreath_fence": "Weathered Pine Fence with Garland",
+"block.maidensmerrymaking.aged_pine_wreath_fence": "Aged Pine Fence with Garland",
+
+
+"block.maidensmerrymaking.acacia_wreath_lights_fence": "Acacia Fence with Lit Garland",
+"block.maidensmerrymaking.birch_wreath_lights_fence": "Birch Fence with Lit Garland",
+"block.maidensmerrymaking.dark_oak_wreath_lights_fence": "Dark Oak Fence with Lit Garland",
+"block.maidensmerrymaking.jungle_wreath_lights_fence": "Jungle Fence with Lit Garland",
+"block.maidensmerrymaking.oak_wreath_lights_fence": "Oak Fence with Lit Garland",
+"block.maidensmerrymaking.spruce_wreath_lights_fence": "Spruce Fence with Lit Garland",
+"block.maidensmerrymaking.mangrove_wreath_lights_fence": "Mangrove Fence with Lit Garland",
+
+"block.maidensmerrymaking.pine_wreath_lights_fence": "Pine Fence with Lit Garland",
+"block.maidensmerrymaking.exposed_pine_wreath_lights_fence": "Exposed Pine Fence with Lit Garland",
+"block.maidensmerrymaking.weathered_pine_wreath_lights_fence": "Weathered Pine Fence with Lit Garland",
+"block.maidensmerrymaking.aged_pine_wreath_lights_fence": "Aged Pine Fence with Lit Garland",
+
+"block.maidensmerrymaking.acacia_picket_fence_gate": "Acacia Picket Fence Gate",
+"block.maidensmerrymaking.birch_picket_fence_gate": "Birch Picket Fence Gate",
+"block.maidensmerrymaking.dark_oak_picket_fence_gate": "Dark Oak Picket Fence Gate",
+"block.maidensmerrymaking.jungle_picket_fence_gate": "Jungle Picket Fence Gate",
+"block.maidensmerrymaking.spruce_picket_fence_gate": "Spruce Picket Fence Gate",
+"block.maidensmerrymaking.oak_picket_fence_gate": "Oak Picket Fence Gate",
+"block.maidensmerrymaking.mangrove_picket_fence_gate": "Mangrove Picket Fence Gate",
+
+"block.maidensmerrymaking.pine_picket_fence_gate": "Pine Picket Fence Gate",
+"block.maidensmerrymaking.exposed_pine_picket_fence_gate": "Exposed Pine Picket Fence Gate",
+"block.maidensmerrymaking.weathered_pine_picket_fence_gate": "Weathered Pine Picket Fence Gate",
+"block.maidensmerrymaking.aged_pine_picket_fence_gate": "Aged Pine Picket Fence Gate",
+
+"block.maidensmerrymaking.acacia_wreath_multi_fence": "Acacia Fence with Multi Lit Garland",
+"block.maidensmerrymaking.birch_wreath_multi_fence": "Birch Fence with Multi Lit Garland",
+"block.maidensmerrymaking.dark_oak_wreath_multi_fence": "Dark Oak Fence with Multi Lit Garland",
+"block.maidensmerrymaking.jungle_wreath_multi_fence": "Jungle Fence with Multi Lit Garland",
+"block.maidensmerrymaking.oak_wreath_multi_fence": "Oak Fence with Multi Lit Garland",
+"block.maidensmerrymaking.spruce_wreath_multi_fence": "Spruce Fence with Multi Lit Garland",
+"block.maidensmerrymaking.mangrove_wreath_multi_fence": "Mangrove Fence with Multi Lit Garland",
+
+"block.maidensmerrymaking.pine_wreath_multi_fence": "Pine Fence with Multi Lit Garland",
+"block.maidensmerrymaking.exposed_pine_wreath_multi_fence": "Exposed Pine Fence with Multi Lit Garland",
+"block.maidensmerrymaking.weathered_pine_wreath_multi_fence": "Weathered Pine Fence with Multi Lit Garland",
+"block.maidensmerrymaking.aged_pine_wreath_multi_fence": "Aged Pine Fence with Multi Lit Garland",
+
+"block.maidensmerrymaking.acacia_wreath_fence_gate": "Acacia Fence Gate with Wreath",
+"block.maidensmerrymaking.birch_wreath_fence_gate": "Birch Fence Gate with Wreath",
+"block.maidensmerrymaking.dark_oak_wreath_fence_gate": "Dark Oak Fence Gate with Wreath",
+"block.maidensmerrymaking.jungle_wreath_fence_gate": "Jungle Fence Gate with Wreath",
+"block.maidensmerrymaking.oak_wreath_fence_gate": "Oak Fence with Gate Wreath",
+"block.maidensmerrymaking.spruce_wreath_fence_gate": "Spruce Fence Gate with Wreath",
+
+"block.maidensmerrymaking.mangrove_wreath_fence_gate": "Mangrove Fence Gate with Wreath",
+
+"block.maidensmerrymaking.acacia_wreath_lights_fence_gate": "Acacia Fence Gate with Lit Wreath",
+"block.maidensmerrymaking.birch_wreath_lights_fence_gate": "Birch Fence Gate with Lit Wreath",
+"block.maidensmerrymaking.dark_oak_wreath_lights_fence_gate": "Dark Oak Fence Gate with Lit Wreath",
+"block.maidensmerrymaking.jungle_wreath_lights_fence_gate": "Jungle Fence Gate with Lit Wreath",
+"block.maidensmerrymaking.oak_wreath_lights_fence_gate": "Oak Fence with Gate Lit Wreath",
+"block.maidensmerrymaking.spruce_wreath_lights_fence_gate": "Spruce Fence Gate with Lit Wreath",
+"block.maidensmerrymaking.mangrove_wreath_lights_fence_gate": "Mangrove Fence Gate with Lit Wreath",
+
+"block.maidensmerrymaking.acacia_wreath_multi_fence_gate": "Acacia Fence Gate with Multi Lit Wreath",
+"block.maidensmerrymaking.birch_wreath_multi_fence_gate": "Birch Fence Gate with Multi Lit Wreath",
+"block.maidensmerrymaking.dark_oak_wreath_multi_fence_gate": "Dark Oak Fence Gate with Multi Lit Wreath",
+"block.maidensmerrymaking.jungle_wreath_multi_fence_gate": "Jungle Fence Gate with Multi Lit Wreath",
+"block.maidensmerrymaking.oak_wreath_multi_fence_gate": "Oak Fence with Gate Multi Lit Wreath",
+"block.maidensmerrymaking.spruce_wreath_multi_fence_gate": "Spruce Fence Gate with Multi Lit Wreath",
+"block.maidensmerrymaking.mangrove_wreath_multi_fence_gate": "Mangrove Fence Gate with Multi Lit Wreath",
+
+"block.maidensmerrymaking.cobblestone_garland_wall": "Cobblestone Wall with Garland",
+"block.maidensmerrymaking.brick_garland_wall": "Brick Wall with Garland",
+"block.maidensmerrymaking.prismarine_garland_wall": "Prismarine Wall with Garland",
+"block.maidensmerrymaking.red_sandstone_garland_wall": "Red Sandstone Wall with Garland",
+"block.maidensmerrymaking.mossy_cobblestone_garland_wall": "Mossy Cobblestone Wall with Garland",
+"block.maidensmerrymaking.granite_garland_wall": "Granite Wall with Garland",
+"block.maidensmerrymaking.stone_brick_garland_wall": "Stone Brick Wall with Garland",
+"block.maidensmerrymaking.nether_brick_garland_wall": "Nether Brick Wall with Garland",
+"block.maidensmerrymaking.andesite_garland_wall": "Andesite Wall with Garland",
+"block.maidensmerrymaking.red_nether_brick_garland_wall": "Red Nether Brick Wall with Garland",
+"block.maidensmerrymaking.sandstone_garland_wall": "Sandstone Wall with Garland",
+
+"block.maidensmerrymaking.end_stone_brick_garland_wall": "End Stone Brick Wall with Garland",
+"block.maidensmerrymaking.diorite_garland_wall": "Diorite Wall with Garland",
+
+"block.maidensmerrymaking.cobblestone_garland_lights_wall": "Cobblestone Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.brick_garland_lights_wall": "Brick Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.prismarine_garland_lights_wall": "Prismarine Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.red_sandstone_garland_lights_wall": "Red Sandstone Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.mossy_cobblestone_garland_lights_wall": "Mossy Cobblestone Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.granite_garland_lights_wall": "Granite Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.stone_brick_garland_lights_wall": "Stone Brick Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.nether_brick_garland_lights_wall": "Nether Brick Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.andesite_garland_lights_wall": "Andesite Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.red_nether_brick_garland_lights_wall": "Red Nether Brick Wall with Lit Garland (White Lights)",
+"block.maidensmerrymaking.sandstone_garland_lights_wall": "Sandstone Wall with Lit Garland (White Lights)",
+
+"block.maidensmerrymaking.end_stone_brick_garland_lights_wall": "End Stone Brick Wall with Lit Garland",
+"block.maidensmerrymaking.diorite_garland_lights_wall": "Diorite Wall with Lit Garland (White Lights)",
+
+"block.maidensmerrymaking.cobblestone_garland_multi_wall": "Cobblestone Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.brick_garland_multi_wall": "Brick Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.prismarine_garland_multi_wall": "Prismarine Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.red_sandstone_garland_multi_wall": "Red Sandstone Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.mossy_cobblestone_garland_multi_wall": "Mossy Cobblestone Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.granite_garland_multi_wall": "Granite Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.stone_brick_garland_multi_wall": "Stone Brick Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.nether_brick_garland_multi_wall": "Nether Brick Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.andesite_garland_multi_wall": "Andesite Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.red_nether_brick_garland_multi_wall": "Red Nether Brick Wall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.sandstone_garland_multi_wall": "Sandstone Wall with Lit Garland (Multi Lights)",
+
+"block.maidensmerrymaking.end_stone_brick_garland_multi_wall": "End Stone BrickWall with Lit Garland (Multi Lights)",
+"block.maidensmerrymaking.diorite_garland_multi_wall": "Diorite Wall with Lit Garland (Multi Lights)",
+
+"block.maidensmerrymaking.mini_lights_horizontal": "Mini Lights (Horizontal)",
+"block.maidensmerrymaking.mini_lights_vertical_left": "Mini Lights (Vertical Left)",
+"block.maidensmerrymaking.mini_lights_vertical_right": "Mini Lights (Vertical Right)",
+"block.maidensmerrymaking.mini_corner_lights_vertical_left": "Mini Lights (Vertical Corner Left)",
+"block.maidensmerrymaking.mini_corner_lights_vertical_right": "Mini Lights (Vertical Corner Right)",
+
+"block.maidensmerrymaking.mini_lights_diagonal_left": "Mini Lights (Diagonal Left)",
+"block.maidensmerrymaking.mini_lights_diagonal_right": "Mini Lights (Diagonal Right)",
+
+"block.maidensmerrymaking.mini_lights_cap": "Mini Lights (Cap)",
+
+"block.maidensmerrymaking.classic_lights_horizontal": "Classic Lights (Horizontal)",
+"block.maidensmerrymaking.classic_lights_diagonal_left": "Classic Lights (Diagonal Left)",
+"block.maidensmerrymaking.classic_lights_diagonal_right": "Classic Lights (Diagonal Right)",
+
+"block.maidensmerrymaking.classic_lights_horizontal": "Classic Lights (Horizontal)",
+"block.maidensmerrymaking.classic_lights_vertical_left": "Classic Lights (Vertical Lefthand)",
+"block.maidensmerrymaking.classic_lights_vertical_right": "Classic Lights (Vertical Righthand)",
+"block.maidensmerrymaking.classic_lights_vertical_corner_right": "Classic Lights (Vertical Corner Righthand)",
+"block.maidensmerrymaking.classic_lights_vertical_corner_left": "Classic Lights (Vertical Corner Lefthand)",
+
+"block.maidensmerrymaking.classic_lights_cap": "Classic Lights (Cap)",
+
+"block.maidensmerrymaking.icicle_lights_horizontal": "Icicle Lights (Horizontal)",
+"block.maidensmerrymaking.icicle_lights_diagonal_left": "Icicle Lights (Diagonal Left)",
+"block.maidensmerrymaking.icicle_lights_diagonal_right": "Icicle Lights (Diagonal Right)",
+"block.maidensmerrymaking.icicle_lights_cap": "Icicle Lights (Cap)",
+
+"block.maidensmerrymaking.twinkling_icicle_lights_horizontal": "Twinkling Icicle Lights (Horizontal)",
+"block.maidensmerrymaking.twinkling_icicle_lights_diagonal_left": "Twinkling Icicle Lights (Diagonal Left)",
+"block.maidensmerrymaking.twinkling_icicle_lights_diagonal_right": "Twinkling Icicle Lights (Diagonal Right)",
+"block.maidensmerrymaking.twinkling_icicle_lights_cap": "Twinkling Icicle Lights (Cap)",
+
+"block.maidensmerrymaking.mini_multi_horizontal": "Mini Multicolored Lights (Horizontal)",
+"block.maidensmerrymaking.mini_multi_diagonal_left": "Mini Multicolored Lights (Diagonal Left)",
+"block.maidensmerrymaking.mini_multi_diagonal_right": "Mini Multicolored Lights (Diagonal Right)",
+
+"block.maidensmerrymaking.mini_multi_vertical_right": "Mini Multicolored Lights (Vertical Right)",
+"block.maidensmerrymaking.mini_multi_vertical_left": "Mini Multicolored Lights (Vertical Left)",
+"block.maidensmerrymaking.mini_corner_multi_vertical_right": "Mini MultiColored Lights (Vertical Corner Right)",
+"block.maidensmerrymaking.mini_corner_multi_vertical_left": "Mini Multicolored Lights (Vertical Corner Left)",
+"block.maidensmerrymaking.mini_multi_cap": "Mini Lights Multi Cap",
+
+"block.maidensmerrymaking.classic_multi_horizontal": "Classic Multicolored Lights (Horizontal)",
+"block.maidensmerrymaking.classic_multi_vertical_left": "Classic Multicolored Lights (Vertical Lefthand)",
+"block.maidensmerrymaking.classic_multi_vertical_right": "Classic Multicolored Lights (Vertical Righthand)",
+"block.maidensmerrymaking.classic_multi_vertical_corner_right": "Classic Multicolored Lights (Vertical Corner Righthand)",
+"block.maidensmerrymaking.classic_multi_vertical_corner_left": "Classic Multicolored Lights (Vertical Corner Lefthand)",
+"block.maidensmerrymaking.classic_multi_diagonal_left": "Classic Multicolored Lights (Diagonal Left)",
+"block.maidensmerrymaking.classic_multi_diagonal_right": "Classic Multicolored Lights (Diagonal Right)",
+"block.maidensmerrymaking.classic_multi_cap": "Classic Multicolored Lights (Cap)",
+
+"block.maidensmerrymaking.icicle_multi_horizontal": "Icicle Multicolored Lights (Horizontal)",
+"block.maidensmerrymaking.icicle_multi_diagonal_left": "Icicle Multicolored Lights (Diagonal Left)",
+"block.maidensmerrymaking.icicle_multi_diagonal_right": "Icicle Multicolored Lights (Diagonal Right)",
+"block.maidensmerrymaking.icicle_multi_cap": "Icicle Multicolored Lights (Cap)",
+
+"block.maidensmerrymaking.twinkling_icicle_multi_horizontal": "Twinkling Multicolored Icicle Lights (Horizontal)",
+"block.maidensmerrymaking.twinkling_icicle_multi_diagonal_left": "Twinkling MulticoloredIcicle Lights (Diagonal Left)",
+"block.maidensmerrymaking.twinkling_icicle_multi_diagonal_right": "Twinkling MulticoloredIcicle Lights (Diagonal Right)",
+"block.maidensmerrymaking.twinkling_icicle_multi_cap": "Twinkling MulticoloredIcicle Lights (Cap)",
+
+"block.maidensmerrymaking.spruce_leaves_lights_white": "Spruce Leaves (White Lights)",
+"block.maidensmerrymaking.spruce_leaves_lights_multi": "Spruce Leaves (Multicolored Lights)",
+"block.maidensmerrymaking.spruce_leaves_lights_large_white": "Spruce Leaves (Classic White Lights)",
+"block.maidensmerrymaking.spruce_leaves_lights_large_multi": "Spruce Leaves (Classic Multicolored Lights)",
+"block.maidensmerrymaking.spruce_leaves_holly": "Spruce Leaves (Holly Berries)"
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+
+}
