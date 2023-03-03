@@ -37,10 +37,10 @@
   "options.autofish.sound.tooltip_8": "\u00A7c多人遊戲。單人遊戲將",
   "options.autofish.sound.tooltip_9": "\u00A7c使用自己的檢測。",
 
-  "options.autofish.multiplayer_compat.title": "強制多人遊戲檢測（模組兼容性）",
+  "options.autofish.multiplayer_compat.title": "強制多人遊戲檢測（模組相容性）",
   "options.autofish.multiplayer_compat.tooltip_0": "在單人遊戲中強制",
   "options.autofish.multiplayer_compat.tooltip_1": "使用多人遊戲檢測。",
-  "options.autofish.multiplayer_compat.tooltip_2": "這將提供與第三方模組的兼容性。",
+  "options.autofish.multiplayer_compat.tooltip_2": "這將提供與第三方模組的相容性。",
 
   "options.autofish.recast_delay.title": "重新投擲延遲 (ms)",
   "options.autofish.recast_delay.value": "%d ms",
