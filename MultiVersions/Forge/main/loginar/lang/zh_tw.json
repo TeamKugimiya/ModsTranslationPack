@@ -9,7 +9,7 @@
   "container.loginar.lunch_box": "午餐盒",
   "entity.loginar.loginar": "洛琪納",
   "item.loginar.backpack_upgrade": "背包化升級",
-  "item.loginar.backpack_upgrade.desc": "讓甕不用放置也能打開",
+  "item.loginar.backpack_upgrade.desc": "讓甕無須放置，能直接在手上開啟",
   "item.loginar.item_swapper_upgrade": "物品交換升級",
   "item.loginar.item_swapper_upgrade.desc": "按下綁定按鍵可以將單個物品和甕裡面的物品交換",
   "item.loginar.loginar_antenna": "洛琪納觸鬚",
