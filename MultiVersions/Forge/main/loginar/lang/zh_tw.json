@@ -11,7 +11,7 @@
   "item.loginar.backpack_upgrade": "背包化升級",
   "item.loginar.backpack_upgrade.desc": "讓甕無須放置，能直接在手上開啟",
   "item.loginar.item_swapper_upgrade": "物品交換升級",
-  "item.loginar.item_swapper_upgrade.desc": "按下綁定按鍵可以將單個物品和甕裡面的物品交換",
+  "item.loginar.item_swapper_upgrade.desc": "讓個別物品能透過綁定鍵，與甕中的物品進行交換",
   "item.loginar.loginar_antenna": "洛琪納觸鬚",
   "item.loginar.loginar_antenna.lit": "洛琪納的觸角微微發亮",
   "item.loginar.loginar_calamari": "烤洛琪納觸手",
