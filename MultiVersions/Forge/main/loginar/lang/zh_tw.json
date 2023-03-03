@@ -18,7 +18,7 @@
   "item.loginar.loginar_spawn_egg": "洛琪納 生怪蛋",
   "item.loginar.loginar_tentacle": "洛琪納觸手",
   "item.loginar.lunch_box": "午餐盒",
-  "item.loginar.lunch_box.desc": "Shift + 點擊右鍵打開以存放食物，按住右鍵直接食用裡面的食物。",
+  "item.loginar.lunch_box.desc": "Shift + 點擊右鍵開啟以存放食物，按住右鍵則可以直接食用餐盒內的食物。",
   "item.loginar.vacuum_upgrade": "吸附升級",
   "item.loginar.vacuum_upgrade.desc": "將附近的物品吸進甕裡面",
   "key.category.loginar": "洛琪納儲存",
