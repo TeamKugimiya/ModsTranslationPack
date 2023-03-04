@@ -1,0 +1,62 @@
+{
+  "item.essence.basic_mob_essence": "Basic Mob Essence",
+  "item.essence.advanced_mob_essence": "Advanced Mob Essence",
+  "item.essence.elite_mob_essence": "Elite Mob Essence",
+
+  "item.essence.basic_ore_essence": "Basic Ore Essence",
+  "item.essence.advanced_ore_essence": "Advanced Ore Essence",
+  "item.essence.elite_ore_essence": "Elite Ore Essence",
+
+  "item.essence.activated_spawner_shard": "Activated Spawner Shard",
+  "item.essence.spawner_shard": "Spawner Shard",
+  "item.essence.lightning_water_bucket": "Lightning Water Bucket",
+  "item.essence.spawner_shard_extractor": "Spawner Shard Extractor",
+  "item.essence.essence_converter": "Essence Converter",
+  "item.essence.lightning_summoner": "Lightning Summoner",
+  "item.essence.essence_upgrader": "Essence Upgrader",
+
+  "block.essence.basic_mob_essence_block": "Basic Mob Essence Block",
+  "block.essence.advanced_mob_essence_block": "Advanced Mob Essence Block",
+  "block.essence.elite_mob_essence_block": "Elite Mob Essence Block",
+  "block.essence.basic_ore_essence_block": "Basic Ore Essence Block",
+  "block.essence.advanced_ore_essence_block": "Advanced Ore Essence Block",
+  "block.essence.elite_ore_essence_block": "Elite Ore Essence Block",
+  "block.essence.lightning_water_block": "Lightning Water",
+  "block.essence.solid_lightning_water_block": "Solid Lightning Water Block",
+  "block.essence.essence_converter_block": "Essence Converter Block",
+  "block.essence.essence_ore": "Essence Ore",
+  "block.essence.deepslate_essence_ore": "Deepslate Essence Ore",
+  "block.essence.essence_station": "Essence Station",
+  "block.essence.resource_duplicator": "Resource Duplicator",
+
+  "blockentity.essence.essence_station.name": "Essence Station",
+  "blockentity.essence.resource_duplicator.name": "Resource Duplicator",
+
+  "fluid_type.essence.lightning_water_fluid": "Lightning Water",
+
+  "world.essence.needs_lightning_water": "All adjacent blocks need to be lightning water blocks!",
+
+  "death.attack.shocked": "%1$s tried to swim for too long in lightning water!",
+
+  "itemGroup.essence": "Essence",
+
+  "tooltip.essence.lightning_summoner.tooltip.shift": "Right click on a waterlogged lighting rod to create lightning water",
+  "tooltip.essence.lightning_summoner.tooltip": "Press SHIFT for more info",
+  "tooltip.essence.spawner_shard_extractor.tooltip.shift": "Right clicking on a spawner will break the block with a chance to get spawner shards",
+  "tooltip.essence.spawner_shard_extractor.tooltip": "Press SHIFT for more Info",
+
+  "jei.essence.spawner_shard": "These shards can be collected by right clicking a on a spawner with a spawner shard extractor.",
+  "jei.essence.spawner_shard_extractor": "When right clicked on a spawner the spawner will break and drop experience, sometimes spawner shards will drop too.",
+  "jei.essence.lightning_water_block": "By using a lightning summoner on a waterlogged lightning rod you can create lightning water.",
+  "jei.essence.activated_spawner_shard": "These shards can be used to make spawn eggs.",
+  "jei.essence.essence_upgrader": "Right click on basic and advanced mob and ore essence blocks to get the next tier of essence. Basic -> Advanced -> Elite.",
+  "jei.essence.essence_converter": "Right click on a ore essence block to convert it to a mob essence block. Works both ways.",
+
+  "jei.essence.basic_mob_essence": "Has a chance to drop from any mob.",
+  "jei.essence.basic_ore_essence": "Drops from essence ore.",
+  "jei.essence.advanced_mob_essence": "By placing a basic mob essence block in a pool of lightning water and using a upgrading catalyst on it you can get this essence.",
+  "jei.essence.advanced_ore_essence": "By placing a basic ore essence block in a pool of lightning water and using a upgrading catalyst on it you can get this essence.",
+  "jei.essence.elite_mob_essence": "By placing a advanced mob essence block in a pool of lightning water and using a upgrading catalyst on it you can get this essence.",
+  "jei.essence.elite_ore_essence": "By placing a advanced ore essence block in a pool of lightning water and using a upgrading catalyst on it you can get this essence."
+
+}
