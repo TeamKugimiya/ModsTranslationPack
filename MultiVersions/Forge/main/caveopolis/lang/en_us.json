@@ -5,6 +5,7 @@
   "item.caveopolis.mixed_stone_ingot": "Mixed Stone Ingot",
   "item.caveopolis.mossy_string": "Mossy String",
   "item.caveopolis.wooden_shears": "Wooden Shears",
+  "item.caveopolis.wooden_shears": "Wooden Shears",
 
   "item.caveopolis.white_spray_can": "White Spray Can",
   "item.caveopolis.gray_spray_can": "Gray Spray Can",
@@ -23,6 +24,7 @@
   "item.caveopolis.red_spray_can": "Red Spray Can",
   "item.caveopolis.black_spray_can": "Black Spray Can",
   "item.caveopolis.spray_can_remover": "Spray Can Remover",
+  "item.caveopolis.glowstone_spray_can": "Glowstone Spray Can",
 
   "item.caveopolis.andesite_pebble": "Andesite Pebble",
   "item.caveopolis.granite_pebble": "Granite Pebble",
@@ -61,6 +63,7 @@
   "block.caveopolis.bright_stone": "Bright Stone",
   "block.caveopolis.stone_torch": "Stone Torch",
   "block.caveopolis.mixed_stone_ore": "Mixed Stone Ore",
+  "block.caveopolis.deepslate_mixed_stone_ore": "Deepslate Mixed Stone Ore",
   "block.caveopolis.toprock": "Toprock",
 
   "block.caveopolis.lime_colored_stone_bricks": "Lime Colored Stone Bricks",
@@ -199,7 +202,24 @@
   "block.caveopolis.black_colored_stone_wall": "Black Colored Stone Wall",
   "block.caveopolis.purple_colored_stone_brick_wall": "Purple Colored Stone Brick Wall",
   "block.caveopolis.purple_colored_stone_wall": "Purple Colored Stone Wall",
-  
+
+  "block.caveopolis.blue_colored_bright_stone": "Blue Colored Bright Stone",
+  "block.caveopolis.lime_colored_bright_stone": "Lime Colored Bright Stone",
+  "block.caveopolis.green_colored_bright_stone": "Green Colored Bright Stone",
+  "block.caveopolis.cyan_colored_bright_stone": "Cyan Colored Bright Stone",
+  "block.caveopolis.red_colored_bright_stone": "Red Colored Bright Stone",
+  "block.caveopolis.light_gray_colored_bright_stone": "Light Gray Colored Bright Stone",
+  "block.caveopolis.gray_colored_bright_stone": "Gray Colored Bright Stone",
+  "block.caveopolis.light_blue_colored_bright_stone": "Light Blue Colored Bright Stone",
+  "block.caveopolis.yellow_colored_bright_stone": "Yellow Colored Bright Stone",
+  "block.caveopolis.orange_colored_bright_stone": "Orange Colored Bright Stone",
+  "block.caveopolis.magenta_colored_bright_stone": "Magenta Colored Bright Stone",
+  "block.caveopolis.pink_colored_bright_stone": "Pink Colored Bright Stone",
+  "block.caveopolis.brown_colored_bright_stone": "Brown Colored Bright Stone",
+  "block.caveopolis.white_colored_bright_stone": "White Colored Bright Stone",
+  "block.caveopolis.black_colored_bright_stone": "Black Colored Bright Stone",
+  "block.caveopolis.purple_colored_bright_stone": "Purple Colored Bright Stone",
+
 
   "itemGroup.caveopolis": "Caveopolis",
 
