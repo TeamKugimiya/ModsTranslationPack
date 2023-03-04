@@ -1,0 +1,12 @@
+{
+  "item.watersources.netherite_upgrade": "獄髓升級",
+  "block.watersources.water_source_tier_5": "水源方塊 T5",
+  "itemGroup.tabwater_sources": "水源方塊",
+  "block.watersources.water_source_tier_2": "水源方塊 T2",
+  "item.watersources.iron_upgrade": "鐵製升級",
+  "block.watersources.water_source_tier_1": "水源方塊 T1",
+  "block.watersources.water_source_tier_4": "水源方塊 T4",
+  "item.watersources.diamond_upgrade": "鑽石升級",
+  "block.watersources.water_source_tier_3": "水源方塊 T3",
+  "item.watersources.gold_upgrade": "黃金升級"
+}

@@ -1,0 +1,12 @@
+{
+  "item.watersources.netherite_upgrade": "Netherite Upgrade",
+  "block.watersources.water_source_tier_5": "Water Source Tier 5",
+  "itemGroup.tabwater_sources": "Water Sources",
+  "block.watersources.water_source_tier_2": "Water Source Tier 2",
+  "item.watersources.iron_upgrade": "Iron Upgrade",
+  "block.watersources.water_source_tier_1": "Water Source Tier 1",
+  "block.watersources.water_source_tier_4": "Water Source Tier 4",
+  "item.watersources.diamond_upgrade": "Diamond Upgrade",
+  "block.watersources.water_source_tier_3": "Water Source Tier 3",
+  "item.watersources.gold_upgrade": "Gold Upgrade"
+}
