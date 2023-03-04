@@ -21,6 +21,10 @@ on:
 permissions:
   contents: write
 
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   Packer:
     name: Packer ${{ matrix.version }}
