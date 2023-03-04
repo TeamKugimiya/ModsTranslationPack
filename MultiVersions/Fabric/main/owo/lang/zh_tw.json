@@ -7,9 +7,9 @@
   "text.owo.config.search": "搜尋……",
   "text.owo.config.search.matches": "%d／%d",
   "text.owo.config.search.no_matches": "沒有符合搜尋的結果",
-  "text.owo.config.must_restart": "部分變動需要重開才能套用",
+  "text.owo.config.must_restart": "部分變更需要重啟遊戲才能套用",
   "text.owo.config.button.exit_minecraft": "離開 Minecraft",
-  "text.owo.config.button.ignore_restart": "稍後重開",
+  "text.owo.config.button.ignore_restart": "稍後重啟",
   "text.owo.config.button.range.edit_as_text": "以文字編輯",
   "text.owo.config.button.range.edit_with_slider": "以滑桿編輯",
   "text.owo.config.applies_after_restart": [
@@ -18,7 +18,7 @@
       "color": "#FAEA48"
     },
     {
-      "text": "該選項在重開遊戲後才會套用",
+      "text": "該選項在重啟遊戲後才會套用",
       "color": "gray"
     }
   ],
