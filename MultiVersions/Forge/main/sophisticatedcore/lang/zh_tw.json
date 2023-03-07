@@ -181,6 +181,6 @@
     "gui.sophisticatedcore.narrate.tab_button": "升級選項卡的開啟／關閉按鈕",
     "gui.sophisticatedcore.narrate.context_button": "上下文切換設為：%s",
     "gui.sophisticatedcore.narrate.context_button.usage": "點擊以切換上下文",
-    "fluid.sophisticatedcore.xp_still": "經驗",
+    "fluid_type.sophisticatedcore.experience": "經驗",
     "gui.sophisticatedcore.tooltip.stack_count": "數量：%s"
 }

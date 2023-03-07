@@ -181,6 +181,6 @@
     "gui.sophisticatedcore.narrate.tab_button": "Upgrade tab open/close button",
     "gui.sophisticatedcore.narrate.context_button": "Context toggle set to: %s",
     "gui.sophisticatedcore.narrate.context_button.usage": "Click to toggle context",
-    "fluid_type.sophisticatedcore.experience": "Experience",
+    "fluid.sophisticatedcore.xp_still": "Experience",
     "gui.sophisticatedcore.tooltip.stack_count": "Count: %s"
 }
