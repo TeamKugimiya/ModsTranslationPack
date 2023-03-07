@@ -49,7 +49,7 @@
 	"algorithm.nochatreports.aes_gcm_base64": "§lAES/GCM+Base64R§r\n更高的安全性，但代價是嚴重增加訊息長度（初始化向量與驗證標記各需要 12 位元組，加上 Base64 編碼）。如果你重視安全性勝過其他因素，請選擇此加密演算法。",
 	"algorithm.nochatreports.aes_ecb_base64.name": "AES/ECB+Base64R",
 	"algorithm.nochatreports.aes_ecb_base64": "§lAES/ECB+Base64R§r\n比 CFB 模式的安全性低很多，但不需要初始化向量，因此可以減少一些位元組。但仍勝過凱撒密碼。",
-	"algorithm.nochatreports.caesar.name": "凱撒",
+	"algorithm.nochatreports.caesar.name": "凱撒密碼",
 	"algorithm.nochatreports.caesar": "§l凱撒密碼§r\n迷因等級的加密。使用這個方法，你基本上希望其他人放棄並不嘗試解密你的訊息。在許多情況下可能會是真的，所以使用它的可行性取決於你的威脅模型。金鑰應為 1 到 1024 整數之間。移位是根據字元代碼而不是字母順序而進行的，以確保與任何語言的相容性。",
 	"nochatreports.connect.nokey_rejected": "伺服器拒絕連線，未提供聊天署名金鑰。",
 	"nochatreports.connect.await": "等待重新連線：%1$s 秒……",
