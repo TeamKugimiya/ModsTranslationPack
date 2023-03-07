@@ -44,9 +44,9 @@
   "zoomify.gui.relativeSensitivity.name": "相對敏感度",
   "zoomify.gui.relativeSensitivity.description": "根據縮放等級控制敏感度。",
   "zoomify.gui.relativeViewBobbing.name": "相對視角晃動",
-  "zoomify.gui.relativeViewBobbing.description": "放大時使視角晃動更少。",
+  "zoomify.gui.relativeViewBobbing.description": "使放大時視角晃動更少。",
   "zoomify.gui.cinematicCam.name": "劇院鏡頭",
-  "zoomify.gui.cinematicCam.description": "鏡頭在滑動的速度。",
+  "zoomify.gui.cinematicCam.description": "鏡頭滑動的速度。",
 
   "zoomify.gui.category.spyglass": "望遠鏡",
   "zoomify.gui.spyglassBehaviour.name": "縮放行為",
@@ -65,7 +65,7 @@
   "zoomify.gui.secondaryZoomOutTime.name": "縮小時間",
   "zoomify.gui.secondaryZoomOutTime.description": "要多少秒完成縮小。",
   "zoomify.gui.secondaryZoomHideHUDOnZoom.name": "縮放時隱藏 HUD",
-  "zoomify.gui.secondaryZoomHideHUDOnZoom.description": "在縮放時停止繪製 HUD，就像是按下 F1 一樣。",
+  "zoomify.gui.secondaryZoomHideHUDOnZoom.description": "在縮放時停止繪製 HUD，就像是按下 F1 鍵時一樣。",
 
   "zoomify.gui.category.misc": "其他",
   "zoomify.gui.unbindConflicting.name": "解除有衝突的按鍵綁定",
@@ -109,8 +109,8 @@
 
   "zoomify.spyglass_behaviour.combine": "組合",
   "zoomify.spyglass_behaviour.override": "覆蓋",
-  "zoomify.spyglass_behaviour.only_zoom_while_holding": "允許當按住時",
-  "zoomify.spyglass_behaviour.only_zoom_while_carrying": "允許當拿著時",
+  "zoomify.spyglass_behaviour.only_zoom_while_holding": "當按住時",
+  "zoomify.spyglass_behaviour.only_zoom_while_carrying": "當拿著時",
 
   "zoomify.overlay_visibility.never": "永不",
   "zoomify.overlay_visibility.holding": "按住時",
