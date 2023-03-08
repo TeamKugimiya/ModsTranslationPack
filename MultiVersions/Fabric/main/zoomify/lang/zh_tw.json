@@ -22,7 +22,7 @@
   "zoomify.gui.affectHandFov.name": "影響手部視角",
   "zoomify.gui.affectHandFov.description": "當縮放時，在世界視角被縮放時保持手部視角正常。",
   "zoomify.gui.retainZoomSteps.name": "記住縮放步驟量",
-  "zoomify.gui.retainZoomSteps.description": "保持滾動縮放量在放大縮小。",
+  "zoomify.gui.retainZoomSteps.description": "在放大縮小時保持滾動縮放量。",
 
   "zoomify.gui.category.scrolling": "滾動",
   "zoomify.gui.scrollZoom.name": "啟用滾動縮放",
@@ -50,7 +50,7 @@
 
   "zoomify.gui.category.spyglass": "望遠鏡",
   "zoomify.gui.spyglassBehaviour.name": "縮放行為",
-  "zoomify.gui.spyglassBehaviour.description": "Zoomify 如何與望遠鏡縮放互動。",
+  "zoomify.gui.spyglassBehaviour.description": "Zoomify 的縮放效果，要如何與望遠鏡互動。",
   "zoomify.gui.spyglassOverlayVisibility.name": "重疊可見度",
   "zoomify.gui.spyglassOverlayVisibility.description": "何時顯示望遠鏡的重疊。",
   "zoomify.gui.spyglassSoundBehaviour.name": "音效行為",
