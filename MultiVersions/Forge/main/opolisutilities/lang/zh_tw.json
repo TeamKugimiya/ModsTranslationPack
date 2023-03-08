@@ -4,6 +4,7 @@
   "item.opolisutilities.home_stone": "回家石",
   "item.opolisutilities.advanced_home_stone": "高級回家石",
   "item.opolisutilities.super_home_stone": "超級回家石",
+  "item.opolisutilities.death_stone": "死亡之石",
   "item.opolisutilities.floating_block_item": "懸浮方塊",
   "item.opolisutilities.jerky": "肉乾",
   "item.opolisutilities.bundled_flesh": "腐肉捆",
@@ -16,12 +17,18 @@
   "item.opolisutilities.wallet": "錢包",
 
   "item.opolisutilities.stone_core": "石頭核心",
+  "item.opolisutilities.mini_coal": "迷你煤炭",
+  "item.opolisutilities.mini_charcoal": "迷你木炭",
 
   "block.opolisutilities.floating_block_block": "懸浮方塊",
   "block.opolisutilities.drying_table": "乾燥桌",
   "block.opolisutilities.resource_generator": "資源製造機",
+  "block.opolisutilities.resource_generator_2": "資源製造機 2號",
   "block.opolisutilities.ender_ore": "終界礦",
   "block.opolisutilities.deepslate_ender_ore": "深板岩終界礦",
+  "block.opolisutilities.redstone_clock": "紅石鐘",
+  "block.opolisutilities.ender_scrambler": "終界使者干擾器",
+  "block.opolisutilities.item_repairer": "物品修理器",
 
   "tooltips.home_stone.hover.shift": "按 SHIFT 取得更多資訊",
   "tooltips.home_stone.hover.alt": "按 ALT 取得更多資訊",
@@ -34,11 +41,23 @@
   "tooltip.home_stone.no_location": "尚未設定地點！",
   "tooltip.home_stone.location_set": "地點已設定！",
 
+  "tooltips.death_stone.how": "你是怎麼得到這個東西的！",
+  "tooltips.death_stone.going_saved_location": "回到你最近的死亡處",
+  "tooltips.death_stone.shift.held": "點擊右鍵回到你最近的死亡地點。能跨越所有維度！",
+  "tooltips.ender_scrambler.shift.held": "放置出來防止終界使者傳送離開！",
+
   "tooltips.wallet.hover.shift": "按 SHIFT 取得更多資訊",
   "tooltips.wallet.shift.held": "非慣用手拿著錢包，慣用手拿著 B 幣，然後點擊右鍵就能將 B 幣存入錢包中！Shift + 點擊右鍵取出 B 幣！",
   "tooltips.wallet.no_b_bucks": "錢包空了！",
 
-  "tooltips.floating_block.place_in_air": "將其放置在空中！",
+  "tooltips.floating_block.place_in_air": "將其放置在空中或放置在水中！",
+
+  "jei.opolisutilities.resource_generator": "在資源製造機上方放置有 resource_generator_blocks 標籤的方塊。然後在正下方放置個容器如儲物箱或漏斗。",
+
+  "jei.recipes.resource_generator_2_line_1": "將方塊放置在世界中",
+  "jei.recipes.resource_generator_2_line_2": "如圖所示！",
+  "jei.recipes.resource_generator_2_chest_1": "會將產出的方塊放入",
+  "jei.recipes.resource_generator_2_chest_2": "下方的任何容器中！",
 
   "enchantment.opolisutilities.warden_smite": "伏守者剋星",
 
