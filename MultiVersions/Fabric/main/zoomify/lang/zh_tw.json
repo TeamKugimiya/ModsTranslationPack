@@ -125,7 +125,7 @@
   "zoomify.toast.conflictingKeybind.title": "Zoomify 無法運作！",
   "zoomify.toast.conflictingKeybind.description": "有按鍵衝突阻止使用縮放按鍵。你可以在 Zoomify 設定中的 %s 類別將衝突的按鍵解除綁定。",
   "zoomify.toast.unbindConflicting.name": "解除有衝突的按鍵綁定",
-  "zoomify.toast.unbindConflicting.description": "Zoomify 解除了按鍵名為「%s」，因為它與縮放鍵衝突。",
+  "zoomify.toast.unbindConflicting.description": "Zoomify 解除了名為「%s」的按鍵，因為它與縮放鍵衝突。",
 
 
   "zoomify.migrate.no_migrations": "沒有可用的轉移。",
