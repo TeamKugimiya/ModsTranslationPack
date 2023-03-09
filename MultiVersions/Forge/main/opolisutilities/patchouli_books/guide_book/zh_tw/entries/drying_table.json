@@ -1,0 +1,18 @@
+{
+	"name": "乾燥桌",
+	"icon": "opolisutilities:drying_table",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 3,
+	"pages": [
+		{
+    		"type": "spotlight",
+    		"item": "opolisutilities:drying_table",
+    		"text": "可用來晾乾物品。"
+    	},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:drying_table",
+			"text": "可用來晾乾物品。"
+		}
+	]
+}
