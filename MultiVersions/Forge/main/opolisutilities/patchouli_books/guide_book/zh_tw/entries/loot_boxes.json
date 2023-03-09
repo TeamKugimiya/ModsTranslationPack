@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "任何生物在被殺死時，都有一定機率會掉落基礎獎勵箱。$(br2)裡頭的物品會根據戰利品表產生，戰利品表可在這裡找到：opolisutilities/ loot_tables / loot_boxes。"
+			"text": "任何生物在被殺死時，都有一定機率會掉落基礎獎勵箱。$(br2)裡頭的物品會根據戰利品表產生，戰利品表可在這裡找到：opolisutilities/loot_tables/loot_boxes。"
 		}
 	]
 }
