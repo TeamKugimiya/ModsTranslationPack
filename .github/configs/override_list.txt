@@ -18,9 +18,9 @@ main_override 2 "Immersive Engineering" "https://www.mediafire.com/file/o5fqhaiq
 main_override 3 "Macaw's Fences and Wall" "https://www.mediafire.com/file/gzbayubyq7e8rrb/mcw-fences-1.0.7-mc1.19.2forge-tw.jar" "mcwfences" 2
 main_override 3 "Macaw's Bridges" "https://www.mediafire.com/file/f508an5jjm6m4u1/mcw-bridges-2.0.6-mc1.19.3forge-tw.jar" "mcwbridges" 2
 main_override 3 "Macaw's Trapdoors" "https://www.mediafire.com/file/llwehuk3pnimwbd/mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar" "mcwtrpdoors" 2
-main_override 3 "Macaw's Doors" "https://www.mediafire.com/file/o97axparlovckcs/mcw-doors-1.0.7-mc1.19.2-tw.jar" "mcwdoors" 2
+main_override 3 "Macaw's Doors" "https://www.mediafire.com/file/l2w28giuz21xi7u/mcw-doors-1.0.8forge-mc1.19.3-tw.jar" "mcwdoors" 2
 main_override 3 "Macaw's Roofs" "https://www.mediafire.com/file/qbihy542fkdcug9/mcw-roofs-2.2.2-mc1.19.2forge-tw.jar" "mcwroofs" 2
-main_override 3 "Macaw's Furniture" "https://www.mediafire.com/file/cfvsk3q0rq1uukn/mcw-furniture-3.0.2-mc1.19.2-tw.jar" "mcwfurnitures" 2
+main_override 3 "Macaw's Furniture" "https://www.mediafire.com/file/zjeupxm0chjraj5/mcw-furniture-3.1.0-mc1.19.3forge-tw.jar" "mcwfurnitures" 2
 main_override 3 "Macaw's Windows" "https://www.mediafire.com/file/hpi4bs41vnwh4wk/mcw-windows-2.1.1-mc1.19.2forge-tw.jar" "mcwwindows" 2
 
 ## Simply Light
