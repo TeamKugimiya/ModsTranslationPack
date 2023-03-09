@@ -1,0 +1,12 @@
+{
+	"name": "木剪刀",
+	"icon": "opolisutilities:textures/item/wooden_shears.png",
+	"category": "opolisutilities:basic_items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "text",
+			"text": "就只是把木製剪刀。"
+		}
+	]
+}

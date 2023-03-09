@@ -1,0 +1,86 @@
+{
+	"name": "資源製造機 2號",
+	"icon": "opolisutilities:resource_generator_2",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "資源製造機 2號可用來複製物品，像是鵝卵石與石頭。$(br2)任何可以儲存物品的方塊，都能夠放置在資源製造機 2號底下，像是漏斗與儲物箱。$(br2)當機器正在運作時，外觀將變為藍色，並開始向底部的容器供應物品。"
+		},
+		{
+        	"type": "multiblock",
+        	"multiblock": {
+        		"pattern": [
+        			["S"],
+        			["R"],
+        			["0"],
+        			[" "]
+        		],
+        		"mapping": {
+        			"S": "#opolisutilities:resource_generator_blocks",
+        			"R": "opolisutilities:resource_generator_2",
+        			"0": "#forge:chests"
+        		}
+        	},
+        	"text": "資源製造機 2號的基礎設置。每 4 秒生產一個物品。"
+        },
+		{
+        	"type": "multiblock",
+        	"multiblock": {
+        		"pattern": [
+        		    ["B"],
+        			["S"],
+        			["R"],
+        			["0"],
+        			[" "]
+        		],
+        		"mapping": {
+        		    "B": "#opolisutilities:resource_generator_speed_blocks_1",
+        			"S": "#opolisutilities:resource_generator_blocks",
+        			"R": "opolisutilities:resource_generator_2",
+        			"0": "#forge:chests"
+        		}
+        	},
+        	"text": "資源製造機 2號的進階設置。每 3 秒生產一個物品。"
+        },
+		{
+        	"type": "multiblock",
+        	"multiblock": {
+        		"pattern": [
+        		    ["B"],
+        			["S"],
+        			["R"],
+        			["0"],
+        			[" "]
+        		],
+        		"mapping": {
+        		    "B": "#opolisutilities:resource_generator_speed_blocks_2",
+        			"S": "#opolisutilities:resource_generator_blocks",
+        			"R": "opolisutilities:resource_generator_2",
+        			"0": "#forge:chests"
+        		}
+        	},
+        	"text": "資源製造機 2號的菁英設置。每 2 秒生產一個物品。"
+        },
+		{
+        	"type": "multiblock",
+        	"multiblock": {
+        		"pattern": [
+        		    ["B"],
+        			["S"],
+        			["R"],
+        			["0"],
+        			[" "]
+        		],
+        		"mapping": {
+        		    "B": "#opolisutilities:resource_generator_speed_blocks_3",
+        			"S": "#opolisutilities:resource_generator_blocks",
+        			"R": "opolisutilities:resource_generator_2",
+        			"0": "#forge:chests"
+        		}
+        	},
+        	"text": "資源製造機 2號的終極設置。每秒生產一個物品。"
+        }
+	]
+}

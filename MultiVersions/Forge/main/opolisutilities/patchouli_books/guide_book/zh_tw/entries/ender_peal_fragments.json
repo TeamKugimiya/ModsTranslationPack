@@ -1,0 +1,28 @@
+{
+	"name": "終界珍珠碎片",
+	"icon": "opolisutilities:textures/item/ender_pearl_fragment.png",
+
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "text",
+			"text": "破壞生成於地底下的終界礦時，會掉落終界珍珠碎片。"
+		},
+		{
+            "type": "spotlight",
+            "item": "opolisutilities:ender_ore",
+            "text": "終界礦"
+        },
+        {
+            "type": "spotlight",
+            "item": "opolisutilities:deepslate_ender_ore",
+            "text": "深板岩終界礦"
+        },
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:ender_pearl_from_ender_pearl_fragments",
+			"text": "用來製作終界珍珠。"
+		}
+	]
+}
