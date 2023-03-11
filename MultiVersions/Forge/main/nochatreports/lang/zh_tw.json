@@ -1,7 +1,7 @@
 {
 	"modmenu.descriptionTranslation.nochatreports": "將加密簽章從玩家訊息撥離，使其無法追蹤到關聯你的 Mojang 與 Microsoft 帳號，同時也無法使用聊天檢舉功能。",
 	"gui.nochatreports.secure_chat": "這個選項無法與「No Chat Reports」一起使用，因為沒有任何簽章可以驗證。",
-	"gui.nochatreports.no_reporting": "此伺服器的聊天舉報已被停用，由「No Chat Reports」提供。",
+	"gui.nochatreports.no_reporting": "此伺服器的聊天檢舉已被停用，由「No Chat Reports」提供。",
 	"disconnect.nochatreports.client": "此伺服器沒有「No Chat Reports」，且你已將其設定為伺服器上需要有。",
 	"gui.nochatreports.safety_status_button.controls": "左鍵點擊來輪換簽章模式。",
 	"gui.nochatreports.safety_status.secure": "此伺服器已安裝了「No Chat Reports」，或者其他方式防止你的訊息可被檢舉。你可以放心地聊天。",
@@ -54,7 +54,7 @@
 	"nochatreports.connect.nokey_rejected": "伺服器拒絕連線，未提供聊天署名金鑰。",
 	"nochatreports.connect.await": "等待重新連線：%1$s 秒……",
 	"gui.nochatreports.realms_warning.header": "注意：Realms",
-	"gui.nochatreports.realms_warning.contents": "Realms 伺服器不是私人的。Realm 擁有者無法停用聊天舉報，Mojang 也應用了額外的聊天監控來識別潛在的「線上危害」，並將其升級為人工審核。如果你被發現違反了 Minecraft 社群標準，即使聊天參與者並未感到被冒犯，但你仍將會被暫時或永久性禁止使用所有多人遊戲服務。強烈建議使用「聊天加密」功能。",
+	"gui.nochatreports.realms_warning.contents": "Realms 伺服器不是私人的。Realm 擁有者無法停用聊天檢舉，Mojang 也應用了額外的聊天監控來識別潛在的「線上危害」，並將其升級為人工審核。如果你被發現違反了 Minecraft 社群標準，即使聊天參與者並未感到被冒犯，但你仍將會被暫時或永久性禁止使用所有多人遊戲服務。強烈建議使用「聊天加密」功能。",
 	"gui.nochatreports.realms_warning.check": "不再顯示",
 	"gui.nochatreports.realms_warning.learn_more": "了解更多",
 	"gui.nochatreports.signing_required.header": "注意：已被要求聊天簽章",
