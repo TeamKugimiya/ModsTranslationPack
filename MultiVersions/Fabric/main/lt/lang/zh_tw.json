@@ -1,0 +1,23 @@
+{
+    "loading-timer.title": "載入計時器",
+    "loading-timer.message_text": "Minecraft 花了 %d 秒來載入",
+    "loading-timer.world_message_text": "進入/生成此世界花了 %d 秒",
+    "loading-timer.resource_loading_text": "載入資源包約花了 %d 秒",
+    "loading-timer.config": "載入計時器設定選單",
+    "loading-timer.config.insane_precision": "極高精準度",
+    "loading-timer.config.insane_precision.description": "提高精準度到一個新水準",
+    "loading-timer.config.world_load_time": "世界載入計時器",
+    "loading-timer.config.world_load_time.description": "測量進入世界需要花多久",
+    "loading-timer.config.world_load_time.conflict.ksyxiswarning":"測量進入世界須要花多久\n§4你所安裝的「Ksyxis」可能會與此選項起衝突。\n強烈建議你更新到 Ksyxis 1.1+",
+    "loading-timer.config.resource_load_notif": "資源載入計時器",
+    "loading-timer.config.resource_load_notif.description": "測量載入資源包需要花的時間",
+    "loading-timer.config.resource_load_notif_override": "資源載入計時器啟動覆寫",
+    "loading-timer.config.resource_load_notif_override.description": "通常在啟動時，並不會顯示資源載入時間，避免洗彈出提示。\n\n此設定將不會運作，除非「資源載入計時器」是啟用的",
+    "loading-timer.config.resource_load_percent": "資源載入百分比",
+    "loading-timer.config.resource_load_percent.description": "列出已載入的資源包所花的時間。\n就像是 Minecraft 如何在單人列出已生成的世界一樣",
+    "loading-timer.config.raw_loading_toast": "在彈出提示框顯示「原始」時間",
+    "loading-timer.config.raw_loading_toast.description": "將啟動的「總時間」值替換成「原始」值",
+    "loading-timer.easteregg.title": "載入計時器",
+    "loading-timer.easteregg.insane": "你太瘋狂了。",
+    "loading-timer.easteregg.mineclub": "Mineclub 飛向月球！"
+}
