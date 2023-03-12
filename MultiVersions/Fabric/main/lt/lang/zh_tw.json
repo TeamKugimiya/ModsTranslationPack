@@ -5,7 +5,7 @@
     "loading-timer.resource_loading_text": "載入資源包約花了 %d 秒",
     "loading-timer.config": "載入計時器設定選單",
     "loading-timer.config.insane_precision": "極高精準度",
-    "loading-timer.config.insane_precision.description": "提高精準度到一個新水平",
+    "loading-timer.config.insane_precision.description": "提高精準度到一個新水準",
     "loading-timer.config.world_load_time": "世界載入計時器",
     "loading-timer.config.world_load_time.description": "測量進入世界需要花多久",
     "loading-timer.config.world_load_time.conflict.ksyxiswarning":"測量進入世界須要花多久\n§4你所安裝的「Ksyxis」可能會與此選項起衝突。\n強烈建議你更新到 Ksyxis 1.1+",
