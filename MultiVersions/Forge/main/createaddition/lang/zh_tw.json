@@ -1,5 +1,6 @@
 {
 	"createaddition.tooltip.energy.stored": "蓄電量：",
+	"createaddition.tooltip.energy.capacity": "電容量：",
 	"createaddition.tooltip.energy.consumption": "耗電量：",
 	"createaddition.tooltip.energy.production": "發電量：",
 	"createaddition.tooltip.energy.charged": "已充能",
@@ -9,79 +10,93 @@
 	"createaddition.tooltip.energy.selected": "連接節點：",
 	"createaddition.tooltip.energy.input": "輸入端",
 	"createaddition.tooltip.energy.output": "輸出端",
-	
+
+	"createaddition.tooltip.energy.mode": "模式：",
+	"createaddition.tooltip.energy.push": "輸入",
+	"createaddition.tooltip.energy.pull": "輸出",
+	"createaddition.tooltip.energy.passive": "被動",
+	"createaddition.tooltip.energy.none": "無",
+
 	"createaddition.tooltip.accumulator.info": "蓄電池資訊：",
 	"createaddition.tooltip.relay.info": "紅石繼電器資訊：",
 	"createaddition.tooltip.connector.info": "連接節點資訊：",
-	
+
 	"createaddition.recipe.rolling": "軋製",
-	"createaddition.recipe.liquid_burning": "流體燃料",
 	"createaddition.recipe.rolling.sequence": "軋製過程",
 	"createaddition.recipe.charging": "充能",
-	
+	"createaddition.recipe.liquid_burning": "液體燃燒",
+
 	"desc.immersiveengineering.info.mineral.sphalerite": "閃鋅礦",
-	
+
 	"item.createaddition.capacitor": "電容器",
-		
+
 	"item.createaddition.zinc_sheet": "鋅板",
 	"item.createaddition.diamond_grit": "鑽石粉",
 	"item.createaddition.diamond_grit_sandpaper": "鑽石砂紙",
 	"item.createaddition.diamond_grit_sandpaper.tooltip": "鑽石砂紙",
-	
+
 	"item.createaddition.copper_spool": "銅捲線軸",
 	"item.createaddition.copper_spool.tooltip": "捲線軸",
-	"item.createaddition.copper_spool.tooltip.summary": "分別對著兩個_連接節點_點擊右鍵，以使用線纜將它們相連，使用後會返還一個_空捲線軸_。",
-	
+	"item.createaddition.copper_spool.tooltip.control1": "對著兩個「連接節點」點擊右鍵時",
+	"item.createaddition.copper_spool.tooltip.action1": "將使用線纜使它們相連，並返還一個_空捲線軸_。",
+
 	"item.createaddition.iron_wire": "鐵線",
 	"item.createaddition.iron_spool": "鐵捲線軸",
 	"item.createaddition.iron_rod": "鐵桿",
 
 	"item.createaddition.copper_wire": "銅線",
 	"item.createaddition.copper_rod": "銅桿",
-	
+
 	"item.createaddition.gold_spool": "金捲線軸",
 	"item.createaddition.gold_spool.tooltip": "捲線軸",
-	"item.createaddition.gold_spool.tooltip.summary": "分別對著兩個_連接節點_點擊右鍵，以使用線纜將它們相連，使用後會返還一個_空捲線軸_。",
-	
+	"item.createaddition.gold_spool.tooltip.control1": "對著兩個「連接節點」點擊右鍵時",
+	"item.createaddition.gold_spool.tooltip.action1": "將使用線纜使它們相連，並返還一個_空捲線軸_。",
+
 	"item.createaddition.gold_wire": "金線",
 	"item.createaddition.gold_rod": "金桿",
-	
+
+	"item.createaddition.festive_spool": "裝飾彩燈捲線軸",
+	"item.createaddition.festive_spool.tooltip": "捲線軸",
+	"item.createaddition.festive_spool.tooltip.control1": "對著兩個「連接節點」點擊右鍵時",
+	"item.createaddition.festive_spool.tooltip.action1": "將使用線纜使它們相連，並返還一個_空捲線軸_。",
+
 	"item.createaddition.brass_rod": "黃銅桿",
 	"item.createaddition.bronze_rod": "青銅桿",
-	
+
 	"item.createaddition.cake_base": "蛋糕基底",
 	"item.createaddition.cake_base_baked": "烘焙蛋糕基底",
-	
+
 	"item.createaddition.straw": "吸管",
-	
+
 	"item.createaddition.seed_oil_bucket": "種子油桶",
 	"item.createaddition.seed_oil_bucket.tooltip": "種子油桶",
 	"item.createaddition.seed_oil_bucket.tooltip.summary": "一種簡單的_可燃性液體_。",
 	"fluid.createaddition.seed_oil": "種子油",
-	
+
 	"item.createaddition.bioethanol_bucket": "生質酒精桶",
 	"item.createaddition.bioethanol_bucket.tooltip": "生質酒精桶",
 	"item.createaddition.bioethanol_bucket.tooltip.summary": "一種高效率的_可燃性液體_。",
 	"fluid.createaddition.bioethanol": "生質酒精",
-	
+
 	"item.createaddition.biomass": "生物質",
 	"item.createaddition.biomass_pellet": "生物質粒",
 	"item.createaddition.biomass_pellet.tooltip": "生物質粒",
 	"item.createaddition.biomass_pellet.tooltip.summary": "一種_固態燃料_，作為_熔爐燃料_時可熔煉 _5 個物品_。",
-	
+
 	"item.createaddition.spool": "空捲線軸",
 	"item.createaddition.spool.nbt": "儲存連接位置。",
 	"item.createaddition.spool.tooltip": "空捲線軸",
-	"item.createaddition.spool.tooltip.summary": "分別對著使用線纜相連接的_連接節點_點擊右鍵，可以將線纜拆下並收回_捲線軸_中。",
-	
+	"item.createaddition.spool.tooltip.control1": "對著相連的「連接節點」點擊右鍵時",
+	"item.createaddition.spool.tooltip.action1": "可以將線纜拆下並收回_捲線軸_中。",
+
 	"statusbar.createaddition.wire.linked": "已連接至節點",
 	"statusbar.createaddition.wire.linked_in": "已將線纜連接至輸入端",
 	"statusbar.createaddition.wire.linked_out": "已將線纜連接至輸出端",
-	
+
 	"statusbar.createaddition.wire.connect": "已選擇連接節點",
 	"statusbar.createaddition.wire.connect_in": "已選擇連接節點輸入端",
 	"statusbar.createaddition.wire.connect_out": "已選擇連接節點輸出端",
-	
+
 	"statusbar.createaddition.wire.long": "線纜無法連接至這麼長的距離",
 	"statusbar.createaddition.wire.obstructed": "線纜路徑受阻",
 	"statusbar.createaddition.wire.count": "線纜節點已滿",
@@ -89,19 +104,19 @@
 	"statusbar.createaddition.wire.exists": "兩者間已使用線纜連接",
 	"statusbar.createaddition.wire.no_connection": "線纜無法連接至此",
 	"statusbar.createaddition.wire.invalid": "無效的連接路徑",
-	
+
 	"block.createaddition.electric_motor": "電動馬達",
 	"deprecated.block.createaddition.electric_motor.tooltip": "電動馬達",
 	"deprecated.block.createaddition.electric_motor.tooltip.summary": "使用 _FE_ 能量產生_動能_，玩家可依據需求調節_速度_。耗電量取決於 _RPM_ 轉速。",
-	
+
 	"block.createaddition.alternator": "交流發電機",
 	"deprecated.block.createaddition.alternator.tooltip": "交流發電機",
 	"deprecated.block.createaddition.alternator.tooltip.summary": "使用_動能_產生 _FE_ 能量，發電量取決於 _RPM_ 轉速。",
-	
+
 	"block.createaddition.creative_energy": "創造模式發電機",
 	"block.createaddition.creative_energy.tooltip": "創造模式發電機",
 	"block.createaddition.creative_energy.tooltip.summary": "產生源源不絕的 _FE_ 能量。",
-	
+
 	"block.createaddition.rolling_mill": "輥軋機",
 	"deprecated.block.createaddition.rolling_mill.tooltip": "輥軋機",
 	"deprecated.block.createaddition.rolling_mill.tooltip.summary": "用來_軋製_輸入_材料_的機械元件。可透過元件側邊的傳動桿輸入動力。",
@@ -109,33 +124,37 @@
 	"deprecated.block.createaddition.rolling_mill.tooltip.behaviour1": "對從側邊或方塊頂部輸入的物品，以_軋製配方_進行處理。",
 	"deprecated.block.createaddition.rolling_mill.tooltip.condition2": "右鍵點擊時",
 	"deprecated.block.createaddition.rolling_mill.tooltip.behaviour2": "手動收集輸出產物。",
-	
+
 	"block.createaddition.accumulator": "蓄電池",
 	"block.createaddition.accumulator.tooltip": "蓄電池",
-	"block.createaddition.accumulator.tooltip.summary": "積蓄能量。",
+	"block.createaddition.accumulator.tooltip.summary": "_[已過時]_ 積蓄能量。",
 	"block.createaddition.accumulator.tooltip.condition1": "輸出端",
 	"block.createaddition.accumulator.tooltip.behaviour1": "透過_線纜_向相連的_連接節點_供應 _FE_ 能量。",
 	"block.createaddition.accumulator.tooltip.condition2": "輸入端",
 	"block.createaddition.accumulator.tooltip.behaviour2": "透過_線纜_從相連的_連接節點_接收 _FE_ 能量。",
-	
+
+	"block.createaddition.modular_accumulator": "蓄電池",
+
 	"block.createaddition.connector": "連接節點",
 	"block.createaddition.connector.tooltip": "連接節點",
 	"block.createaddition.connector.tooltip.summary": "將節點安裝在電能方塊上，並接上_線纜_以傳輸 _FE_ 能量。",
-	"block.createaddition.connector.tooltip.control1": "點擊右鍵",
+	"block.createaddition.connector.tooltip.control1": "當點擊右鍵時",
 	"block.createaddition.connector.tooltip.action1": "使用_銅捲線軸_或_金捲線軸_，將兩個_連接節點_用_線纜_相連。",
-	
+	"block.createaddition.connector.tooltip.control2": "手持扳手點擊右鍵時",
+	"block.createaddition.connector.tooltip.action2": "在_輸入_、_輸出_、_被動_，以及_無_模式間輪換模式。",
+
 	"block.createaddition.connector_copper": "銅製連接節點",
 	"block.createaddition.connector_copper.tooltip": "連接節點",
 	"block.createaddition.connector_copper.tooltip.summary": "將節點安裝在電能方塊上，並接上_線纜_以傳輸 _FE_ 能量。",
-	"block.createaddition.connector_copper.tooltip.control1": "點擊右鍵",
+	"block.createaddition.connector_copper.tooltip.control1": "當點擊右鍵時",
 	"block.createaddition.connector_copper.tooltip.action1": "使用_銅捲線軸_，將兩個_連接節點_用_線纜_相連。",
-	
+
 	"block.createaddition.connector_gold": "黃金製連接節點",
 	"block.createaddition.connector_gold.tooltip": "連接節點",
 	"block.createaddition.connector_gold.tooltip.summary": "將節點安裝在電能方塊上，並接上_線纜_以傳輸 _FE_ 能量。",
-	"block.createaddition.connector_gold.tooltip.control1": "點擊右鍵",
+	"block.createaddition.connector_gold.tooltip.control1": "當點擊右鍵時",
 	"block.createaddition.connector_gold.tooltip.action1": "使用_金捲線軸_，將兩個_連接節點_用_線纜_相連。",
-	
+
 	"block.createaddition.redstone_relay": "紅石繼電器",
 	"block.createaddition.redstone_relay.tooltip": "紅石繼電器",
 	"block.createaddition.redstone_relay.tooltip.summary": "透過_紅石訊號_決定 _FE_ 能量，是否能夠從_節點輸入端_傳遞至_節點輸出端_。",
@@ -143,66 +162,87 @@
 	"block.createaddition.redstone_relay.tooltip.behaviour1": "透過_線纜_向相連的_連接節點_供應 _FE_ 能量。",
 	"block.createaddition.redstone_relay.tooltip.condition2": "輸入端",
 	"block.createaddition.redstone_relay.tooltip.behaviour2": "透過_線纜_從相連的_連接節點_接收 _FE_ 能量。",
-	
+
 	"block.createaddition.chocolate_cake": "巧克力蛋糕",
 	"block.createaddition.honey_cake": "蜂蜜蛋糕",
-	
+
 	"block.createaddition.seed_oil": "種子油",
 	"block.createaddition.bioethanol": "生質酒精",
-	
+
+	"block.createaddition.barbed_wire": "鐵絲網",
+	"block.createaddition.barbed_wire.tooltip": "鐵絲網",
+	"block.createaddition.barbed_wire.tooltip.summary": "對穿越的實體造成傷害。",
+
 	"createaddition.recipe.liquid_burning.burn_time": "燃燒時間",
-	
+
 	"block.createaddition.tesla_coil": "特斯拉線圈",
-	
+
 	"itemGroup.createaddition:main":"動力機械：工藝品 & 物品追加",
-	
+
 	"createaddition.command.cca_api.link": "點擊此處以開啟 API 文件",
-	
+
 	"createaddition.ponder.tag.electric": "電力器械",
 	"createaddition.ponder.tag.electric.description": "該部件透過電力運作",
-	
+
 	"createaddition.ponder.electric_motor.header": "使用電動馬達產生動力",
 	"createaddition.ponder.electric_motor.text_1": "電動馬達是一種緊湊且可手動調整的動力來源",
 	"createaddition.ponder.electric_motor.text_2": "對其背後面板滑動滾輪，可以改變馬達的轉速",
 	"createaddition.ponder.electric_motor.text_3": "電動馬達運作需要有能量來源（FE）",
 	"createaddition.ponder.electric_motor.text_4": "馬達的耗電量，會隨所設的 RPM 值而有所改變",
-	
+
 	"createaddition.ponder.alternator.header": "使用交流發電機產生電力",
 	"createaddition.ponder.alternator.text_1": "交流發電機運作需要至少 32 RPM",
 	"createaddition.ponder.alternator.text_2": "這台發電機依靠動力來產生電能（FE）",
 	"createaddition.ponder.alternator.text_3": "發電量會隨所設 RPM 值而有所改變",
-	
+
 	"createaddition.ponder.rolling_mill.header": "將金屬軋製成桿和線纜",
 	"createaddition.ponder.rolling_mill.text_1": "輥軋機使用動力來將金屬軋製成桿和線纜",
 	"createaddition.ponder.rolling_mill.text_2": "朝機器頂部扔擲物品，可以將金屬錠或板手動放入",
 	"createaddition.ponder.rolling_mill.text_3": "對機器點擊右鍵，可以將輸出產品從裝置中取出",
-	
+
 	"createaddition.ponder.automated_rolling_mill.header": "自動化輥軋機",
 	"createaddition.ponder.automated_rolling_mill.text_1": "輥軋機可以使用輸送帶與兩個漏斗自動化",
 	"createaddition.ponder.automated_rolling_mill.text_2": "漏斗輸入端",
 	"createaddition.ponder.automated_rolling_mill.text_3": "漏斗輸出端",
-	
+
 	"createaddition.ponder.cc_electric_motor.header": "使用 ComputerCraft 控制電動馬達",
 	"createaddition.ponder.cc_electric_motor.text_1": "可透過 ComputerCraft 進一步控制電動馬達",
 	"createaddition.ponder.cc_electric_motor.text_2": "使用 'peripheral.wrap(side)' 連接上電動馬達",
 	"createaddition.ponder.cc_electric_motor.text_3": "在聊天欄中使用指令「/cca_api」，取得 API 文件",
-	
+
 	"createaddition.ponder.tesla_coil.header": "使用特斯拉線圈充能物品",
 	"createaddition.ponder.tesla_coil.text_1": "特斯拉線圈能對其下方物品進行充能",
 	"createaddition.ponder.tesla_coil.text_2": "它能夠對任何使用 Forge 能量的物品進行充能！",
-	
+
 	"createaddition.ponder.tesla_coil_hurt.header": "危險的特斯拉線圈",
 	"createaddition.ponder.tesla_coil_hurt.text_1": "特斯拉線圈也能夠用來對周遭玩家和生物造成傷害",
 	"createaddition.ponder.tesla_coil_hurt.text_2": "接收到紅石訊號啟用傷害模式",
 	"createaddition.ponder.tesla_coil_hurt.text_3": "準備好觸電吧！",
-	
+
 	"createaddition.ponder.liquid_blaze_burner.header": "燃燒流體燃料",
 	"createaddition.ponder.liquid_blaze_burner.text_1": "給與烈焰使者動力爐吸管",
 	"createaddition.ponder.liquid_blaze_burner.text_2": "往後動力爐將接受桶裝流體作為燃料",
 	"createaddition.ponder.liquid_blaze_burner.text_3": "- 或是透過管道輸入。",
+
+	"createaddition.ponder.modular_accumulator.header": "「蓄電池」多方塊結構",
+	"createaddition.ponder.modular_accumulator.text_1": "蓄電池是一種多方塊結構",
+	"createaddition.ponder.modular_accumulator.text_2": "能儲存大量的電力",
+	"createaddition.ponder.modular_accumulator.text_3": "設定輸入連接節點",
+	"createaddition.ponder.modular_accumulator.text_4": "與輸出連接節點。",
 	
+	"createaddition.display_source.modular_accumulator": "蓄電池",
+	"createaddition.display_source.accumulator.progress_bar": "進度條",
+	"createaddition.display_source.accumulator.percent": "百分比",
+	"createaddition.display_source.accumulator.current": "蓄電量（FE）",
+	"createaddition.display_source.accumulator.max": "總電容量",
+	"createaddition.display_source.accumulator.remaining": "剩餘 FE",
+	"createaddition.display_source.accumulator.display": "選擇一個選項：",
+
+	"death.attack.barbed_wire": "%1$s 試圖穿越鐵絲網",
+	"death.attack.barbed_wire.player": "%1$s 在與 %2$s 戰鬥時試圖穿越鐵絲網",
+
 	"effect.createaddition.shocking":"觸電",
 	"death.attack.tesla_coil": "%1$s 受到致命的觸電傷害",
-  	"death.attack.tesla_coil.player": "%1$s 在與 %2$s 戰鬥時觸電而死",
-  	"effect.createaddition.shocking.description": "造成大幅度減速"
+	"death.attack.tesla_coil.player": "%1$s 在與 %2$s 戰鬥時觸電而死",
+	"effect.createaddition.shocking.description": "造成大幅度減速"
 }
