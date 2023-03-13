@@ -229,6 +229,7 @@
 	"createaddition.ponder.modular_accumulator.text_2": "能儲存大量的電力",
 	"createaddition.ponder.modular_accumulator.text_3": "設定輸入連接節點",
 	"createaddition.ponder.modular_accumulator.text_4": "與輸出連接節點。",
+	"createaddition.ponder.modular_accumulator.text_5": "為了改善模組間的相容性，蓄電池會主動從頂面與底面的方塊抽取能量。",
 	
 	"createaddition.display_source.modular_accumulator": "蓄電池",
 	"createaddition.display_source.accumulator.progress_bar": "進度條",
