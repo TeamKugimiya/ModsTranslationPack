@@ -1,0 +1,16 @@
+{
+  "block.itemcollectors.basic_collector": "基礎物品收集器",
+  "block.itemcollectors.advanced_collector": "高級物品收集器",
+  "itemcollectors.basic_collector.info": "可拾取最大 %d 格範圍內的物品",
+  "itemcollectors.advanced_collector.info": "可拾取最大 %d 格範圍內的物品，物品可被篩選",
+  "gui.itemcollectors.basic_collector.range": "範圍（%1$dx%2$dx%3$d）",
+  "gui.itemcollectors.basic_collector.range.increase": "增加範圍",
+  "gui.itemcollectors.basic_collector.range.decrease": "減少範圍",
+  "gui.itemcollectors.advanced_collector.whitelist.on": "白名單",
+  "gui.itemcollectors.advanced_collector.whitelist.off": "黑名單",
+  "gui.itemcollectors.advanced_collector.durability.on": "相符 NBT",
+  "gui.itemcollectors.advanced_collector.durability.off": "忽略 NBT",
+  "gui.itemcollectors.advanced_collector.filter": "篩選",
+  "gui.itemcollectors.advanced_collector.show_area.on": "隱藏運作範圍",
+  "gui.itemcollectors.advanced_collector.show_area.off": "顯示運作範圍"
+}
