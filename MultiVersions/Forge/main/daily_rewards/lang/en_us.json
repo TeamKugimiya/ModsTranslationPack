@@ -1,0 +1,12 @@
+{
+  "text.daily_rewards.claim_rewards": "Claim your daily rewards with %1$s !",
+  "text.daily_rewards.reward_screen": "Rewarded Days: %1$s day(s)",
+  "text.daily_rewards.rewarded_item": "Congratulation %1$s you got %2$s as regonization for %3$s day(s) in this world for this month.",
+  "text.daily_rewards.unclaimed_rewarded_item": "%1$s you have unclaimed daily rewards, please make sure to claim them in the next %2$s days!",
+  "text.daily_rewards.unclaimed_rewarded_item_today": "%1$s you have unclaimed daily rewards, please make sure to claim them today!!!",
+  "text.daily_rewards.next_reward.in": "Next reward in %1$s",
+  "text.daily_rewards.next_reward.reload": "Reload to claim!",
+
+  "item.daily_rewards.empty_reward": "No reward.",
+  "item.daily_rewards.taken_reward": "Taken reward."
+}
