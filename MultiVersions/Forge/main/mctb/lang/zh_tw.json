@@ -1,0 +1,29 @@
+{
+  "block.minecraft.crafting_table": "工作台",
+
+  "block.mctb.spruce_crafting_table": "杉木工作台",
+  "block.mctb.birch_crafting_table": "樺木工作台",
+  "block.mctb.jungle_crafting_table": "叢林木工作台",
+  "block.mctb.acacia_crafting_table": "相思木工作台",
+  "block.mctb.dark_oak_crafting_table": "黑橡木工作台",
+  "block.mctb.warped_crafting_table": "扭曲蕈木工作台",
+  "block.mctb.crimson_crafting_table": "緋紅蕈木工作台",
+  "block.mctb.mangrove_crafting_table": "紅樹林木工作台",
+
+  "block.mctb.cherry_crafting_table": "櫻桃木工作台",
+  "block.mctb.dead_crafting_table": "垂死木工作台",
+  "block.mctb.fir_crafting_table": "冷杉木工作台",
+  "block.mctb.hellbark_crafting_table": "地獄皮木工作台",
+  "block.mctb.jacaranda_crafting_table": "藍花楹木工作台",
+  "block.mctb.magic_crafting_table": "魔法木工作台",
+  "block.mctb.mahogany_crafting_table": "桃花心木工作台",
+  "block.mctb.palm_crafting_table": "棕櫚木工作台",
+  "block.mctb.redwood_crafting_table": "紅杉木工作台",
+  "block.mctb.umbran_crafting_table": "暗影木工作台",
+  "block.mctb.willow_crafting_table": "柳木工作台",
+
+  "block.mctb.azalea_crafting_table": "杜鵑木工作台",
+  "block.mctb.blossom_crafting_table": "繁花木工作台",
+
+  "container.crafting_table": "合成"
+}
