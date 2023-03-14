@@ -5,6 +5,7 @@
   "simplemagnets.keys.toggle": "Toggle Magnet",
   "simplemagnets.gui.magnet.title": "Advanced Magnet",
   "simplemagnets.gui.magnet.items": "Items",
+  "simplemagnets": "Simple Magnets",
   "simplemagnets.advancedmagnet.info": "Can pick up items and xp up to %d blocks away when activated, items can be filtered",
   "simplemagnets.magnets.toggle_message.off": "Off",
   "simplemagnets.magnets.toggle_message": "Magnet:",
