@@ -13,6 +13,7 @@
   "wirelesschargers.screen.redstone_disabled": "Disabled",
   "wirelesschargers.charger.info.players": "Charges players' items in a %1$dx%1$dx%1$d area.",
   "wirelesschargers.screen.redstone_high": "High",
+  "wirelesschargers": "Wireless Chargers",
   "wirelesschargers.charger.info.transfer_rate_blocks": "Charging rate: %d per block",
   "wirelesschargers.screen.highlight_area": "Highlight area: %s",
   "wirelesschargers.block.advanced_wireless_player_charger": "Advanced Wireless Player Charger",
