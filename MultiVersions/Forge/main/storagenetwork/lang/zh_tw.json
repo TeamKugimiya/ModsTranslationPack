@@ -1,0 +1,186 @@
+{
+    "itemGroup.storagenetwork": "簡單儲存網路",
+    
+    "item.storagenetwork.network_book":"網路指南手冊",
+    "storagenetwork.network_book.landing_text":"簡單儲存網路能管理你所有的儲物空間。查看$(l:gs_setup)開始$(/l)或查詢物品",
+    "block.storagenetwork.kabel": "網路纜線",
+    "block.storagenetwork.kabel.guide": "網路纜線基本上只能跟網路方塊相接。",
+    "block.storagenetwork.storage_kabel": "連接纜線",
+    "block.storagenetwork.storage_kabel.guide": "每個連接纜線連接一個儲物空間連接到網路。這些是網路中各個儲物空間的主要連接處，沒有優先度或自動化控制。升級成$(l:filter_kabel)過濾連接纜線$(/l)才有這些功能。",
+    "block.storagenetwork.export_kabel": "輸出纜線",
+    "block.storagenetwork.export_kabel.guide": "當連接到儲物空間時，會從網路輸出物品至該儲物空間。所有的輸出纜線間有優先度順序和紅石控制，可安裝升級。",
+    "block.storagenetwork.import_kabel": "輸入纜線",
+    "block.storagenetwork.import_kabel.guide": "會持續從連接的儲物空間輸入物品至網路中。升級成$(l:import_filter_kabel)過濾輸入纜線$(/l)能有更多自動化控制設定。",
+    "block.storagenetwork.import_filter_kabel": "過濾輸入纜線",
+    "block.storagenetwork.import_filter_kabel.guide": "會持續從連接的儲物空間輸入物品至網路中。在其控制介面中可以放入各種升級，並有物品過濾和紅石控制。物品過濾'允許'意指僅當物品與過濾清單相符時才會傳輸，'忽略'則表示會傳輸任何物品但不傳輸清單上的物品。'導入過濾清單'會以儲物空間中的物品覆蓋取代過濾清單。",
+    "block.storagenetwork.filter_kabel": "過濾連接纜線",
+    "block.storagenetwork.filter_kabel.guide": "每個連接纜線連接一個儲物空間連接到網路。有優先度設定，並與輸出纜線共用優先度設定，可安裝升級。",
+    
+    "page.storagenetwork.gs_chunks":"區塊",
+    "page.storagenetwork.gs_setup":"網路設置",
+    "page.storagenetwork.gs_priority":"優先度",
+    "storagenetwork.guide.getstarted":"開始",
+    "storagenetwork.guide.upgrades":"升級",
+    "storagenetwork.guide.upgrades.desc":"升級只能安裝在$(l:export_kabel)輸出纜線$(/l)和$(l:import_filter_kabel)過濾輸入纜線$(/l)",
+    "storagenetwork.guide.remotes":"遙控器",
+    "storagenetwork.guide.remotes.desc":"對你的$(l:master)網路主機$(/l)使用遙控器來綁定至該網路。每個遙控器會綁定網路主機所處的 (x,y,z,d) 位置，並且只要網路主機未被破壞並在載入的區塊內時，遙控器就能正常運作。沒有距離的限制。",
+    "storagenetwork.guide.blocks":"方塊",
+    "storagenetwork.guide.blocks.desc":"所有的網路方塊可與纜線或網路方塊相連，每個方塊各自提供不同的功能。",
+    "storagenetwork.guide.cables":"纜線",
+    "storagenetwork.guide.cables.desc":"纜線將網路方塊和各種功能纜線連接在同個網路中。一個有效的網路必須只能有一個$(l:master)網路主機$(/l)。且需要至少一個接上$(l:storage_kabel)連接線纜$(/l)的儲物空間。",
+    "storagenetwork.guide.getstarted.desc":"各個基本介紹",
+    "page.storagenetwork.gs_setup.left":"一個簡短簡單儲存網路如何開始的教學。一旦你取得了一些基礎材料，一些$(l:kabel)連接纜線$(/l)和一台$(l:master)網路主機$(/l)，將這些放置在世界上後，你的網路就能開始運作了。$(l:storage_kabel)連接纜線$(/l)接上一個儲物箱或其他儲物空間後，會將其連接至你的網路。然後使用$(l:inventory_remote)遙控器$(/l)或$(l:request)網路合成台$(/l)來存取這些物品。",
+ 		"page.storagenetwork.gs_setup.right":"把這頁加入書籤中方便你隨時查看",
+ 		"page.storagenetwork.gs_priority.left":"纜線的運作是有優先度的。若該纜線沒有介面，像是$(l:storge_kabel)連機纜線$(/l)，其優先度為 0。從網路輸入或輸出物品時，會持續嘗試以優先度最低的纜線運作直到這個動作完成。自動化輸入或輸出物品時，每次運作，每 tick 會檢視所有纜線的優先度來運作。",
+ 		"page.storagenetwork.gs_priority.right":"$(li)優先度低的纜線會先運作$(li)優先度相同的會同時運作$(li)例如：優先度 [-2, 0, 0, -2, 4, 2, 1] 的纜線，運作順序會是 [-2, -2, 0, 0, 1, 2, 4]",
+
+	  "page.storagenetwork.gs_chunks.left":"任何網路只有在該$(l:master)網路主機$(/l)所在的區塊載入中時，才會運作。網路中纜線末端如$(l:storage_kabel)連接纜線$(/l)可能與網路主機所在的是不同區塊，可能因該區塊未載入而中斷連線。你也可以在不同區塊、世界或維度中同時使用多個儲存網路。",
+ 		"page.storagenetwork.gs_chunks.right":"$(li)斷線舉例：一個網路中有 20 個連接纜線但其中 5 個在未載入的區塊中。網路合成台或遙控器依然可以開啟，因為網路主機所在區塊是載入中的，但那 5 個連接纜線的儲存空間物品是看不到的。$(li)遙控器舉例：我在遠離$(t:永遠載入的)出生點區塊$(/t)的海洋基地處建造了儲存網路。當我進入地獄時，網路主機所在的主世界區塊是未載入的，所以$(l:inventory_remote)遙控器$(/l)無法連線。",
+ 	
+    "block.storagenetwork.master": "網路主機",
+    "block.storagenetwork.master.tooltip": "每個網路只需一個",
+    "block.storagenetwork.master.guide": "網路的心臟。每個網路只需一個，多放會破壞另一個主機，且會造成纜線或遙控器的連接問題。移動主機至另一個位置會破壞網路，中斷輸入輸出纜線和遙控器。只要每個主機沒有彼此相連，在同個世界和維度間打造多個網路是沒問題的。",
+    
+    "block.storagenetwork.request": "網路合成台",
+    "block.storagenetwork.request.guide": "可完整查看、存入並取出網路內儲存的物品。並有合成介面可直接從網路中取出合成材料。亦可查看$(l:crafting_remote)遙控器的版本$(/l)  ",
+    "block.storagenetwork.request.tooltip": "用於查看網路內的儲存並可直接合成物品",
+    
+    "block.storagenetwork.inventory": "網路存取台",
+    "block.storagenetwork.inventory.guide":  "可完整查看、存入並取出網路內儲存的物品。亦可查看$(l:inventory_remote)遙控器的版本$(/l)  ",
+    "block.storagenetwork.inventory.tooltip": "查看網路內的儲存物品但沒有合成介面",
+    
+    "block.storagenetwork.exchange": "網路交換介面",
+    "block.storagenetwork.exchange.guide": "這讓網路暴露並作為其他自動化系統或儲存解決方案的控制器。舉例來說，一個漏斗指向網路中的交換介面，它會像一般有效的網路纜線一樣輸入物品，類似$(l:import_kabel)輸入線纜$(/l)。漏斗下方會輸出隨意的物品。試著和其他儲存模組一起運用！",
+    "block.storagenetwork.exchange.tooltip": "儲物空間連接的網路末端",
+
+    "block.storagenetwork.collector": "網路收集介面",
+    "block.storagenetwork.collector.guide":  "這讓網路暴露並作為其他自動化系統或儲存解決方案的僅能輸入的控制器。舉例來說，一個漏斗指向網路中的交換介面，它會像一般有效的網路纜線一樣輸入物品，類似$(l:import_kabel)輸入線纜$(/l)。不允許任何物品輸出。試著和其他儲存模組一起運用！",
+    "block.storagenetwork.collector.tooltip": "輸入的物品進入網路",
+    
+    "item.storagenetwork.speed_upgrade": "加速升級",
+    "item.storagenetwork.speed_upgrade.guide": "這個升級可以放入纜線中，增加傳輸的速度。通常不是每 tick 發生，原理是減少每 tick 運作的延遲時間。若同時放入減速升級時會忽略減速升級。",
+    "item.storagenetwork.speed_upgrade.tooltip": "增加傳輸速度",
+    
+    "item.storagenetwork.operation_upgrade": "操作升級",
+    "item.storagenetwork.operation_upgrade.tooltip": "依過濾清單的物品數量傳輸；會覆蓋其他的升級",
+    "item.storagenetwork.operation_upgrade.guide": "若放入過濾纜線並開啟允許模式，會嘗試以過濾清單中的正確數量傳輸物品，並忽略堆疊與庫存升級。舉例來說，過濾清單有 7 個石頭和 3 個泥土時，每次運作時會傳輸這些數量的物品而不是預設的 4 個。",
+    
+    "item.storagenetwork.stack_upgrade": "堆疊升級",
+    "item.storagenetwork.stack_upgrade.tooltip": "增加每次傳輸的數量為 1 組",
+    "item.storagenetwork.stack_upgrade.guide": "這個升級可放入輸入或輸出纜線中。增加每次傳輸的數量為一組 64 個而非 4 個。",
+        
+    "item.storagenetwork.single_upgrade": "單個升級",
+    "item.storagenetwork.single_upgrade.tooltip": "將每次傳輸的數量降為 1 個",
+    "item.storagenetwork.single_upgrade.guide": "這個升級可放入輸入或輸出纜線中。減少每次傳輸的數量為 1 個而非 4 個。若同時放入堆疊升級會覆蓋堆疊升級的設定。",
+     
+    "item.storagenetwork.slow_upgrade": "減速升級",
+    "item.storagenetwork.slow_upgrade.tooltip": "降低傳輸速度",
+    "item.storagenetwork.slow_upgrade.guide": "這個升級可放入輸入或輸出纜線中。增加每 tick 間的運作延遲時間，也就是整體運作減速。",
+     
+    "item.storagenetwork.stock_upgrade": "庫存升級",
+    "item.storagenetwork.stock_upgrade.tooltip": "與連接的儲物空間持續庫存特定數量的物品",
+    "item.storagenetwork.stock_upgrade.guide": "若放入輸出纜線中，並在過濾清單中設定特定的物品及數量，它只會輸出過濾清單中設定的物品，直到目標儲物空間有相同的物品及設定的數量為止。相反的，輸入纜線放入庫存升級時，會持續從連接的儲物空間輸入過濾器設定的特定物品，直到數量與過濾器的設定相同為止。",
+
+    "item.storagenetwork.builder_remote": "建築遙控器",
+    "item.storagenetwork.builder_remote.tooltip": "綁定網路和一個方塊來建築",
+    "item.storagenetwork.builder_remote.guide": "和其他遙控器一樣需綁定網路，但沒有操作介面。相反的，它會試著從網路中找尋你綁定的方塊，並可直接從網路中取出該方塊來建築。",
+    "item.storagenetwork.builder_remote.blockstate": "未綁定方塊；左鍵選擇方塊",
+   
+    "item.storagenetwork.inventory_remote": "存取遙控器",
+    "item.storagenetwork.inventory_remote.tooltip": "對網路主機使用綁定後，遙控存取網路的內容",
+    "item.storagenetwork.inventory_remote.guide": "完整的遙控存取網路的內容，不受距離或維度的限制。類似$(l:inventory)網路存取台$(/l)。可綁定快捷鍵快速使用。",
+    
+    "item.storagenetwork.crafting_remote": "合成遙控器",
+    "item.storagenetwork.crafting_remote.tooltip": "對網路主機使用綁定後，遙控存取網路的內容",
+    "item.storagenetwork.crafting_remote.guide": "完整的遙控存取網路的內容，不受距離或維度的限制。並有合成介面。類似$(l:request)網路合成台$(/l)",
+    
+    "item.storagenetwork.picker_remote": "選擇遙控器",
+    "item.storagenetwork.picker_remote.tooltip": "對方塊點選會從網路中取出對應的方塊",
+    "item.storagenetwork.picker_remote.guide": "和其他遙控器一樣需綁定網路，但沒有操作介面。相反的，在世界上用它點選一個方塊，會從系統中取出一組該方塊。若蹲下點選擇取出 1 個。",
+    "item.storagenetwork.collector_remote": "蒐集遙控器",
+    "item.storagenetwork.collector_remote.tooltip": "撿起的物品會直接存到網路中",
+    "item.storagenetwork.collector_remote.guide": "和其他遙控器一樣需綁定網路。這個遙控器可放在你身上的任何地方（包含飾品欄但不能是終界箱），不需要拿在手上或是快捷欄中。當你撿起任何物品時，若可以會將物品直接存入網路中。",
+
+    "block.storagenetwork.recipe.invalid": "事務無效：",
+    "block.storagenetwork.recipe.invalidleft": "左側輸入",
+    "block.storagenetwork.recipe.invalidright": "右側輸出",
+    "block.storagenetwork.recipe.valid": "事務有效",
+
+    "item.remote.found": "已找到物品，傳輸中...",
+    "item.remote.notfound.item": "網路中找不到物品",
+    "item.remote.notfound": "找不到網路，請確保區塊有載入",
+    "item.remote.notconnected": "遙控器未連接，請先與網路主機綁定",
+    "item.remote.connected": "遙控器已連上網路",
+    "item.remote.outofrange": "超出範圍",
+    "item.remote.notloaded": "區塊未載入",
+
+
+
+    "gui.storagenetwork.refresh": "重新整理正在處理的事務。如果目前處於阻塞、等待狀態，這將會將其變回配方模式，進而回收原材料。",
+
+    "gui.storagenetwork.checkbox.meta": "元數據",
+    "gui.storagenetwork.checkbox.ore": "礦物辭典",
+    "gui.storagenetwork.checkbox.nbt": "NBT 標籤",
+
+    "gui.storagenetwork.import": "導入過濾清單",
+    "gui.storagenetwork.allowlist": "允許清單",
+    "gui.storagenetwork.ignorelist": "忽略清單",
+    
+    "gui.storagenetwork.redstone.false":"始終運作",
+    "gui.storagenetwork.redstone.true":"紅石控制",
+
+    "gui.storagenetwork.sort": "排序方向",
+    "gui.storagenetwork.priority.up": "降低優先度（數字小的優先）",
+    "gui.storagenetwork.priority.down": "提高優先度（數字小的優先）",
+
+    "gui.storagenetwork.req.tooltip_name": "依名稱排序",
+    "gui.storagenetwork.req.tooltip_mod": "依模組排序",
+    "gui.storagenetwork.req.tooltip_amount": "依數量排序",
+
+    "gui.storagenetwork.shift": "按住 shift 取得更多資訊",
+    "gui.storagenetwork.fil.tooltip_in": "僅輸入",
+    "gui.storagenetwork.fil.tooltip_out": "僅輸出",
+    "gui.storagenetwork.fil.tooltip_both": "輸入和輸出",  
+    "gui.storagenetwork.fil.tooltip_mod": "前綴 @：搜尋模組",
+    "gui.storagenetwork.fil.tooltip_tooltip": "前綴 #：搜尋物品提示",
+    "gui.storagenetwork.fil.tooltip_tags": "前綴 $：搜尋方塊標籤",
+    "gui.storagenetwork.fil.tooltip_clear": "右鍵清除文字",
+ 	"gui.storagenetwork.autofocus.tooltip.true":"自動聚焦搜尋欄",
+ 	"gui.storagenetwork.autofocus.tooltip.false":"不自動聚焦",
+    "gui.storagenetwork.tooltip_clear": "清除搜尋",
+    "gui.storagenetwork.fil.tooltip_jei_on": "啟用 JEI 同步搜尋",
+    "gui.storagenetwork.fil.tooltip_jei_off": "停用 JEI 同步搜尋",
+
+    "block.storagenetwork.kabel.tooltip": "基礎網路纜線",
+    "block.storagenetwork.storage_kabel.tooltip": "將儲物空間連接至網路",
+    "block.storagenetwork.export_kabel.tooltip": "將物品從網路輸出至連接的儲物空間",
+    "block.storagenetwork.import_kabel.tooltip": "將物品從儲物空間輸入至網路",
+    "block.storagenetwork.filter_kabel.tooltip": "有過濾選項的網路纜線",
+    "block.storagenetwork.import_filter_kabel.tooltip": "有過濾選項的輸入纜線",
+    
+    
+    "tooltip.storagenetwork.kabel_P": "可自動化簡單的事務",
+         
+    "block.storagenetwork.controller": "控制器",
+    "block.storagenetwork.controller.tooltip": "管理網路中所有運作中的纜線",
+
+    "chat.main.emptyslots": "可用空位：",
+    "chat.main.connectables": "可連接：",
+    
+    "key.storagenetwork.remote":"網路遙控器飾品欄",
+ 
+ 
+ 
+	"gui.storagenetwork.operate.tooltip":"若邏輯檢測失敗則工作停止",
+	"gui.storagenetwork.operate.tooltip.more":"物品數量必須高於這個值",
+	"gui.storagenetwork.operate.tooltip.less":"物品數量必須少於這個值",
+
+    "processing.buttons.toggle.true": "始終啟用",
+    "processing.buttons.toggle.false": "僅處理請求的數量",
+    "processing.buttons.minus": "減少請求",
+    "processing.buttons.plus": "增加請求",
+    "processing.empty.ingredients": "材料用盡",
+
+    "gui.storagenetwork.processing.recipe": "每個周期的原料都被發送，被視為來自該方塊側",
+    "gui.storagenetwork.processing.extract": "當拉取處理結果時，被視為從該方塊側拉取"
+}
