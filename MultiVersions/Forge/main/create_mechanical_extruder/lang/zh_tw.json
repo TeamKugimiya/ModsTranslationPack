@@ -1,0 +1,9 @@
+{
+  "block.create_mechanical_extruder.mechanical_extruder": "機械造石機",
+  "create.recipe.extruding": "造石配方",
+  "create_mechanical_extruder.ponder.extruder.header": "方塊製造",
+  "create_mechanical_extruder.ponder.extruder.text_1": "造石機使用動力製造方塊",
+  "create_mechanical_extruder.ponder.extruder.text_2": "依據兩側和下方的方塊決定產物。",
+  "create_mechanical_extruder.ponder.extruder.text_3": "製作完成時，對其右鍵可取出產物。",
+  "create_mechanical_extruder.ponder.extruder.text_4": "產物也可自動化取出"
+}
