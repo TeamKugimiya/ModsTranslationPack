@@ -6,14 +6,19 @@
     "block.storagenetwork.kabel": "網路纜線",
     "block.storagenetwork.kabel.guide": "網路纜線基本上只能跟網路方塊相接。",
     "block.storagenetwork.storage_kabel": "連接纜線",
-    "block.storagenetwork.storage_kabel.guide": "每個連接纜線連接一個儲物空間連接到網路。這些是網路中各個儲物空間的主要連接處，沒有優先度或自動化控制。升級成$(l:filter_kabel)過濾連接纜線$(/l)才有這些功能。",
+    "block.storagenetwork.storage_kabel.guide": "每個連接纜線連接一個儲物空間連接到網路。這些是網路中各個儲物空間的主要連接處，沒有優先度或自動化控制。升級成$(l:filter_kabel)篩選連接纜線$(/l)才有這些功能。",
+
     "block.storagenetwork.export_kabel": "輸出纜線",
     "block.storagenetwork.export_kabel.guide": "當連接到儲物空間時，會從網路輸出物品至該儲物空間。所有的輸出纜線間有優先度順序和紅石控制，可安裝升級。",
     "block.storagenetwork.import_kabel": "輸入纜線",
-    "block.storagenetwork.import_kabel.guide": "會持續從連接的儲物空間輸入物品至網路中。升級成$(l:import_filter_kabel)過濾輸入纜線$(/l)能有更多自動化控制設定。",
-    "block.storagenetwork.import_filter_kabel": "過濾輸入纜線",
-    "block.storagenetwork.import_filter_kabel.guide": "會持續從連接的儲物空間輸入物品至網路中。在其控制介面中可以放入各種升級，並有物品過濾和紅石控制。物品過濾'允許'意指僅當物品與過濾清單相符時才會傳輸，'忽略'則表示會傳輸任何物品但不傳輸清單上的物品。'導入過濾清單'會以儲物空間中的物品覆蓋取代過濾清單。",
-    "block.storagenetwork.filter_kabel": "過濾連接纜線",
+    "block.storagenetwork.import_kabel.guide": "會持續從連接的儲物空間輸入物品至網路中。升級成$(l:import_filter_kabel)篩選輸入纜線$(/l)能有更多自動化控制設定。",
+
+    "block.storagenetwork.import_filter_kabel": "篩選輸入纜線",
+
+    "block.storagenetwork.import_filter_kabel.guide": "會持續從連接的儲物空間輸入物品至網路中。在其控制介面中可以放入各種升級，並有物品篩選和紅石控制。物品篩選「允許」意指僅當物品與篩選清單相符時才會傳輸，「忽略」則表示會傳輸任何物品，但不傳輸清單上的物品。「匯入篩選清單」會以儲物空間中的物品覆蓋取代篩選清單。",
+
+    "block.storagenetwork.filter_kabel": "篩選連接纜線",
+
     "block.storagenetwork.filter_kabel.guide": "每個連接纜線連接一個儲物空間連接到網路。有優先度設定，並與輸出纜線共用優先度設定，可安裝升級。",
     
     "page.storagenetwork.gs_chunks":"區塊",
@@ -21,7 +26,8 @@
     "page.storagenetwork.gs_priority":"優先度",
     "storagenetwork.guide.getstarted":"開始",
     "storagenetwork.guide.upgrades":"升級",
-    "storagenetwork.guide.upgrades.desc":"升級只能安裝在$(l:export_kabel)輸出纜線$(/l)和$(l:import_filter_kabel)過濾輸入纜線$(/l)",
+    "storagenetwork.guide.upgrades.desc":"升級只能安裝在$(l:export_kabel)輸出纜線$(/l)和$(l:import_filter_kabel)篩選輸入纜線$(/l)",
+
     "storagenetwork.guide.remotes":"遙控器",
     "storagenetwork.guide.remotes.desc":"對你的$(l:master)網路主機$(/l)使用遙控器來綁定至該網路。每個遙控器會綁定網路主機所處的 (x,y,z,d) 位置，並且只要網路主機未被破壞並在載入的區塊內時，遙控器就能正常運作。沒有距離的限制。",
     "storagenetwork.guide.blocks":"方塊",
@@ -62,8 +68,10 @@
     "item.storagenetwork.speed_upgrade.tooltip": "增加傳輸速度",
     
     "item.storagenetwork.operation_upgrade": "操作升級",
-    "item.storagenetwork.operation_upgrade.tooltip": "依過濾清單的物品數量傳輸；會覆蓋其他的升級",
-    "item.storagenetwork.operation_upgrade.guide": "若放入過濾纜線並開啟允許模式，會嘗試以過濾清單中的正確數量傳輸物品，並忽略堆疊與庫存升級。舉例來說，過濾清單有 7 個石頭和 3 個泥土時，每次運作時會傳輸這些數量的物品而不是預設的 4 個。",
+    "item.storagenetwork.operation_upgrade.tooltip": "依篩選清單的物品數量傳輸；會覆蓋其他的升級",
+
+    "item.storagenetwork.operation_upgrade.guide": "若放入篩選纜線並開啟允許模式，會嘗試以篩選清單中的正確數量傳輸物品，並忽略堆疊與庫存升級。舉例來說，篩選清單有 7 個石頭和 3 個泥土時，每次運作時會傳輸這些數量的物品而不是預設的 4 個。",
+
     
     "item.storagenetwork.stack_upgrade": "堆疊升級",
     "item.storagenetwork.stack_upgrade.tooltip": "增加每次傳輸的數量為 1 組",
@@ -79,7 +87,8 @@
      
     "item.storagenetwork.stock_upgrade": "庫存升級",
     "item.storagenetwork.stock_upgrade.tooltip": "與連接的儲物空間持續庫存特定數量的物品",
-    "item.storagenetwork.stock_upgrade.guide": "若放入輸出纜線中，並在過濾清單中設定特定的物品及數量，它只會輸出過濾清單中設定的物品，直到目標儲物空間有相同的物品及設定的數量為止。相反的，輸入纜線放入庫存升級時，會持續從連接的儲物空間輸入過濾器設定的特定物品，直到數量與過濾器的設定相同為止。",
+    "item.storagenetwork.stock_upgrade.guide": "若放入輸出纜線中，並在篩選清單中設定特定的物品及數量，它只會輸出篩選清單中設定的物品，直到目標儲物空間有相同的物品及設定的數量為止。相反的，輸入纜線放入庫存升級時，會持續從連接的儲物空間輸入篩選器設定的特定物品，直到數量與篩選器的設定相同為止。",
+
 
     "item.storagenetwork.builder_remote": "建築遙控器",
     "item.storagenetwork.builder_remote.tooltip": "綁定網路和一個方塊來建築",
@@ -122,7 +131,8 @@
     "gui.storagenetwork.checkbox.ore": "礦物辭典",
     "gui.storagenetwork.checkbox.nbt": "NBT 標籤",
 
-    "gui.storagenetwork.import": "導入過濾清單",
+    "gui.storagenetwork.import": "匯入篩選清單",
+
     "gui.storagenetwork.allowlist": "允許清單",
     "gui.storagenetwork.ignorelist": "忽略清單",
     
@@ -155,8 +165,10 @@
     "block.storagenetwork.storage_kabel.tooltip": "將儲物空間連接至網路",
     "block.storagenetwork.export_kabel.tooltip": "將物品從網路輸出至連接的儲物空間",
     "block.storagenetwork.import_kabel.tooltip": "將物品從儲物空間輸入至網路",
-    "block.storagenetwork.filter_kabel.tooltip": "有過濾選項的網路纜線",
-    "block.storagenetwork.import_filter_kabel.tooltip": "有過濾選項的輸入纜線",
+    "block.storagenetwork.filter_kabel.tooltip": "有篩選選項的網路纜線",
+
+    "block.storagenetwork.import_filter_kabel.tooltip": "有篩選選項的輸入纜線",
+
     
     
     "tooltip.storagenetwork.kabel_P": "可自動化簡單的事務",
