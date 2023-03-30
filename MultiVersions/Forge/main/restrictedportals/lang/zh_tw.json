@@ -1,0 +1,6 @@
+{
+  "achievement.rpunlock.unlock": "[dim] 已解鎖！",
+  "achievement.rpunlock.desc": "取得 [item]",
+  "achievement.rpunlock.message": "取得 [item] 後才能進入 [dim]",
+  "achievement.rpunlock.desc2": "拿著 [item] 對著傳送門點擊右鍵"
+}
