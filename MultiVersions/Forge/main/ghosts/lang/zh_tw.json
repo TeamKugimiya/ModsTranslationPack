@@ -1,0 +1,14 @@
+{
+  "item.ghosts.ghost_spawn_egg": "幽靈 生怪蛋",
+  "entity.ghosts.ghost": "幽靈",
+
+  "item.ghosts.small_ghost_spawn_egg": "小幽靈 生怪蛋",
+  "entity.ghosts.small_ghost": "小幽靈",
+
+  "ghosts.ghost_ambient": "幽靈叫聲",
+  "ghosts.ghost_death": "幽靈死亡",
+  "ghosts.ghost_hurt": "幽靈受傷",
+  "ghosts.mini_ghost_ambient": "小幽靈叫聲",
+  "ghosts.mini_ghost_death": "小幽靈死亡",
+  "ghosts.mini_ghost_hurt": "小幽靈受傷"
+}
