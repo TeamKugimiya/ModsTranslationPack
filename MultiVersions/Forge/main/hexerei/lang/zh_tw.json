@@ -37,7 +37,7 @@
   "item.hexerei.blood_bucket": "鮮血桶",
   "item.hexerei.blood_bottle": "鮮血瓶",
   "item.hexerei.blood_sigil": "獻血印記",
-  "item.hexerei.book_of_shadows_altar": "闇影之書祭壇",
+  "item.hexerei.book_of_shadows_altar": "祭壇",
   "item.hexerei.quicksilver_bottle": "水銀瓶",
   "item.hexerei.lava_bottle": "熔岩瓶",
   "item.hexerei.tallow_bottle": "動物油瓶",
@@ -165,7 +165,7 @@
   "tooltip.hexerei.tallow_impurity": "按住 \u00A7eSHIFT\u00A7r 查看更多資訊",
   "tooltip.hexerei.tallow_impurity_shift": "恩，相當美味的……香脆脆油渣渣！",
   "tooltip.hexerei.bottle_tallow": "可用來製作蠟燭，按住 \u00A7eSHIFT\u00A7r 查看更多資訊",
-  "tooltip.hexerei.bottle_tallow_shift": "先在一個裝滿動物油的調和鍋釜上方安裝浸泡架。然後將線作為燭芯置在架上開始浸泡。",
+  "tooltip.hexerei.bottle_tallow_shift": "先在一個裝滿動物油的調和鍋釜上方安裝浸泡架。然後將線作為燭芯置於架上開始浸泡。",
   "tooltip.hexerei.bottle_quicksilver": "按住 \u00A7eSHIFT\u00A7r 查看更多資訊",
   "tooltip.hexerei.bottle_quicksilver_shift": "將其飲用也許不是個好點子，（配方即將推出）",
   "tooltip.hexerei.bottle_blood": "按住 \u00A7eSHIFT\u00A7r 查看更多資訊",
@@ -191,7 +191,7 @@
   "tooltip.hexerei.orc_armor": "按住 \u00A7eSHIFT\u00A7r 查看更多資訊",
   "tooltip.hexerei.orc_armor_shift": "半成品盔甲套裝，配方待確認。",
   "tooltip.hexerei.witch_armor": "按住 \u00A7eSHIFT\u00A7r 查看更多資訊",
-  "tooltip.hexerei.witch_armor_shift": "半成品盔甲套裝",
+  "tooltip.hexerei.witch_armor_shift": "女巫最具價值的裝備\n根據裝備件數提供套裝效果。",
   "tooltip.hexerei.pestle_and_mortar_1": "用來研磨物品。",
   "tooltip.hexerei.pestle_and_mortar_2": "按住 \u00A7eSHIFT\u00A7r 查看更多資訊",
   "tooltip.hexerei.pestle_and_mortar_shift_1": "點擊右鍵將你手上的物品放進研缽中。",
@@ -214,16 +214,13 @@
   "tooltip.hexerei.coffer_shift": "可被放置在世界上。",
   "tooltip.hexerei.coffer_shift_2": "可以像界伏盒那樣攜帶物品。",
   "tooltip.hexerei.coffer_shift_3": "可以重新命名。",
-  "tooltip.hexerei.coffer_shift_4": "左鍵點擊一下木匣便可直接拾取進玩家物品欄中。",
+  "tooltip.hexerei.coffer_shift_4": "左鍵點擊一下木匣，便可直接拾取進玩家物品欄中。",
   "tooltip.hexerei.coffer_shift_5": "可以被染色。",
-  "tooltip.hexerei.herb_jar_shift_4": "左鍵點擊一下罐子前側可以取出一個物品。",
-  "tooltip.hexerei.herb_jar_shift_5": "潛行狀態下左鍵點擊前側可以取出一組物品。",
+  "tooltip.hexerei.herb_jar_shift_4": "左鍵點擊一下罐子前側，可以取出一個物品。",
+  "tooltip.hexerei.herb_jar_shift_5": "潛行 + 左鍵點擊一下罐子前側，可以取出一組物品。",
   "tooltip.hexerei.herb_jar_shift_6": "右鍵點擊其他側可以開啟 GUI。",
   "tooltip.hexerei.herb_jar_shift_7": "只能存放一種物品，但最多可以容納 1024 個。",
   "tooltip.hexerei.candle": "按住 \u00A7eSHIFT\u00A7r 查看更多資訊",
-  "tooltip.hexerei.candle_shift": "蠟燭會隨浸泡的草藥不同而提供不同的助益。（半成品）",
-  "tooltip.hexerei.candle_shift_2": "同個位置下可以放置複數支其他顏色的《調和巫術》蠟燭。",
-  "tooltip.hexerei.candle_shift_3": "每支蠟燭都可以被單獨點燃。",
   "tooltip.hexerei.candle_dipper": "按住 \u00A7eSHIFT\u00A7r 查看更多資訊",
   "tooltip.hexerei.candle_dipper_shift_1": "放在裝滿動物油的調和鍋釜上方，並將最多 3 條線置於架上開始蠟燭浸泡。",
   "tooltip.hexerei.candle_dipper_shift_2": "空手對其點擊右鍵取下完成浸泡的蠟燭。",
@@ -258,9 +255,9 @@
   "tooltip.hexerei.selenite_shard": "透過破壞月光石晶簇獲得，晶洞分布在叢林和沼澤生態域的地底下。",
   "tooltip.hexerei.broom_waterproof_tip": "令玩家在一定時間內於水中暢行無阻。",
   "tooltip.hexerei.broom_netherite_tip": "令玩家在一定時間內於熔岩中暢行無阻。",
-  "tooltip.hexerei.small_satchel": "擴展掃帚物品欄空間 9 格。",
-  "tooltip.hexerei.medium_satchel": "擴展掃帚物品欄空間 18 格。",
-  "tooltip.hexerei.large_satchel": "擴展掃帚物品欄空間 27 格。",
+  "tooltip.hexerei.small_satchel": "擴充掃帚物品欄空間 9 格。",
+  "tooltip.hexerei.medium_satchel": "擴充掃帚物品欄空間 18 格。",
+  "tooltip.hexerei.large_satchel": "擴充掃帚物品欄空間 27 格。",
 
 
 
@@ -393,6 +390,623 @@
   "item.hexerei.mushroom_witch_hat": "蘑菇巫師帽",
 
 
+  "tooltip.hexerei.witch_armor_pieces": "套裝：",
+  "tooltip.hexerei.witch_armor_bonus": "套裝效果：%s/%s",
+  "tooltip.hexerei.witch_armor_bonus_1": " - 女巫將不再打擾玩家",
+  "tooltip.hexerei.witch_armor_bonus_2": " - 減少 50% 所受魔法傷害",
+  "tooltip.hexerei.witch_armor_bonus_3": " - 提高 25% 造成的魔法傷害",
+  "tooltip.hexerei.witch_armor_bonus_4": " - 將造成的 15% 魔法傷害轉換成生命值",
+
+  "item.hexerei.book_of_shadows": "闇影之書",
+  "tooltip.hexerei.book_of_shadows_shift": "《調和巫術》指南手冊。\n目前必須放置在祭壇上閱讀。\n合成時會根據提供的染料，對封面進行染色。\n將書籍與染料再次合成，可以對書角進行染色。",
+
+  "item.hexerei.reading_glasses": "老花眼鏡",
+  "tooltip.hexerei.reading_glasses_shift": "閱讀《闇影之書》時感到有些吃力？視力老化了嗎？這副眼鏡既能像望眼鏡那樣使用，也可以戴在頭上，並按下「%s」縮放視角。",
+
+  "book.hexerei.index_page_1.passage_1": "索引頁",
+  "book.hexerei.index_page_1.passage_2": "介紹",
+  "book.hexerei.index_page_1.passage_3": "支持我",
+  "book.hexerei.index_page_1.passage_4": "物品",
+  "book.hexerei.index_page_1.passage_5": "實體",
+  "book.hexerei.index_page_1.passage_6": "結構",
+
+  "book.hexerei.index_page_1.tooltip_right_click": " - 點擊右鍵 ",
+  "book.hexerei.index_page_1.tooltip_intro_1": "介紹章節",
+  "book.hexerei.index_page_1.tooltip_support_1": "支持創作者",
+  "book.hexerei.index_page_1.tooltip_items_1": "物品章節",
+  "book.hexerei.index_page_1.tooltip_entities_1": "實體章節",
+  "book.hexerei.index_page_1.tooltip_structures_1": "結構章節",
+
+  "book.hexerei.index_page_2.passage_1": "- 點擊右鍵來與手冊互動 -\n 下一頁按鈕位在書籍的右下角",
+
+  "book.hexerei.intro_page_1.passage_1": "  歡迎來到充滿巫術的《Hexerei》世界！在這裡，你將實現許多你已知以及未知的願望！\n\n這款模組現在是我的生命和靈魂，我幾乎把所有的時間與精力都投入其中。\n\n模組作者：JoeFoxe",
+  "book.hexerei.intro_page_1.curseforge_link_tooltip": "Hexerei 的 CurseForge 頁面 - 點擊右鍵",
+
+  "book.hexerei.intro_page_2.passage_1": "我已經花了一個多月的時間來製作這本書，從頭到尾完全都是由自己設計的。我希望這本書能夠滿足人們的期望，甚至更多。\n\n未來還有許多內容將會推出，包含女巫、法術、更多使魔等等！敬請期待！",
+
+  "book.hexerei.intro_page_3.passage_1": "  若您還沒有發現，書頁的角落應該都有個箭頭，指示你前往下一頁或上一頁。\n  同時還有一個「X」按鈕，可以闔上手冊並將其放下，還有一個「首頁」按鈕，可以直接返回索引頁。",
+
+  "book.hexerei.intro_page_4.passage_1": "  書頁的左上角是書籤按鈕，可以為你目前閱讀的頁面加上書籤，再次點擊書籤可以改變書籤的顏色。\n  書籤會顯示在書頁的邊緣和頂部，這些書籤可以透過點擊右鍵、長按並拖動到其他位置。",
+
+  "book.hexerei.intro_page_5.passage_1": "  書籤可以與其他書籤或空位交換位置。點擊書籤會將您重新導向至儲存的頁面。\n  潛行並右鍵點擊祭壇，可以將手冊從祭壇上取回。 \n  拿起書本時，可以選擇翻開或闔上它。若維持在翻開狀態，它仍然會顯示手冊上的頁面，但拿在手上時會無法翻頁，必須放在祭壇上才能翻閱。",
+
+  "book.hexerei.intro_page_6.passage_1": "  若你覺得現在的字體，使你閱讀起來有些困難，或想要更多沉浸感，你可以在設定檔中，將字體從華麗，變回普通的 Minecraft 字體。 \n  你還可以將游標懸停在物品上，並按下 %kkey.hexerei.book_hovering_recipe 開啟 JEI 查看配方，以及按下 %kkey.hexerei.book_hovering_uses 開啟 JEI 查看物品用途。",
+
+
+  "book.hexerei.support_page_1.passage_1": "  這款模組由於社群的支持，已經發展了很長一段時間，也將持續蓬勃發展。快來成為其中的一份子，加入我們的 Discord！\n  若你有任何疑問，請隨時加入我們的 Discord 並尋求幫助，我們擁有非常友善的社群！",
+  "book.hexerei.support_page_1.discord_link_tooltip_1": "加入 Hexerei 的",
+  "book.hexerei.support_page_1.discord_link_tooltip_2": " Discord 伺服器",
+  "book.hexerei.support_page_1.discord_link_tooltip_3": "              點擊右鍵",
+
+  "book.hexerei.support_page_2.passage_1": "  為了能讓這個模組取得如此的成就，我投入了所有的時間與精力。贊助將對我很有幫助，因為這是我唯一的生存手段，我也希望能繼續盡可能地致力於這個模組的開發！\n  所有的贊助都會用於維持我的生活，如果有多餘的資金，我會投入到模組或社群中！",
+  "book.hexerei.support_page_2.paypal_link_tooltip_1": "為了幫助我存活下去，你可以透過這個平台贊助我： ",
+  "book.hexerei.support_page_2.paypal_link_tooltip_2": "Pay",
+  "book.hexerei.support_page_2.paypal_link_tooltip_3": "Pal",
+  "book.hexerei.support_page_2.paypal_link_tooltip_4": "                          點擊右鍵",
+
+  "book.hexerei.support_page_3.passage_1": "  另一種支持 Hexerei 的方法是成為贊助者。成為贊助者可讓你在穿著可染色的巫師服裝時使其發光！這種效果在晚上使用光影時最為出色。\n  ",
+  "book.hexerei.support_page_2.patreon_link_tooltip_1": "為了幫助 Hexerei 成長，請考慮成為 ",
+  "book.hexerei.support_page_2.patreon_link_tooltip_2": "Patron",
+  "book.hexerei.support_page_2.patreon_link_tooltip_3": "                並獲得獨家時裝！",
+  "book.hexerei.support_page_2.patreon_link_tooltip_4": "                   點擊右鍵",
+
+  "book.hexerei.support_page_4.passage_1": "  最後，你也可以在 Ko-fi 上支持我。這些方式在我持續進行開發的同時，也能讓我維持生計，非常感激你的支持！\n  我非常想繼續開發這款模組，並隨著時間的推移更深入地進行模組開發。我需要社群的每一點幫助，我非常感激他們！",
+  "book.hexerei.support_page_2.ko-fi_link_tooltip_1": "幫助 JoeFoxe 維持生計，透過 ",
+  "book.hexerei.support_page_2.ko-fi_link_tooltip_2": "Ko-Fi",
+  "book.hexerei.support_page_2.ko-fi_link_tooltip_3": "    這確實有助於支撐我的生計。 <3",
+  "book.hexerei.support_page_2.ko-fi_link_tooltip_4": "                點擊右鍵",
+
+  "book.hexerei.support_page_5.passage_1": "再次感謝大家，無論是成為我們社群的一員，或幫助我在開發這個模組的同時維持生計！\n\n  言歸正傳，讓我們開始吧。",
+
+
+
+  "book.hexerei.items_index_page_1.passage_1": "- 物品 -",
+  "book.hexerei.items_index_page_1.passage_2": "  這一章節將會介紹有關物品的內容，包含如何獲取和使用這些物品。如果你在某一頁點擊到另一個物品，且該物品有附帶的頁面，書本會迅速翻到該頁面！",
+
+  "book.hexerei.items_index_page_2.passage_1": "物品索引頁",
+
+  "book.hexerei.items_index_page_3.passage_1": "",
+
+  "book.hexerei.items_mixing_cauldron_1.passage_1": "調和鍋釜",
+  "book.hexerei.items_mixing_cauldron_1.passage_2": "  調和鍋釜是巫師們主要使用的工具之一。",
+  "book.hexerei.items_mixing_cauldron_3.passage_1": "  你可以從頂部將物品投進鍋釜，也可以使用任何運輸物品的方塊（例如漏斗）將物品送入其中。\n它也有一個 GUI\n介面，可以讓你放\n置和取出物品。",
+  "book.hexerei.items_mixing_cauldron_4.passage_1": "  點擊介面中央會開啟鍋釜的 JEI 配方。在 JEI 介面中，\n你可以點擊配方右下角的「+」按鈕，將物品快速從物品欄移動到合成欄上，這在進行合成時會非常便利。\n\n  至於介面左側的欄位，則是用來放置印記，目前只有「獻血印記」一種。 ",
+  "book.hexerei.items_mixing_cauldron_5.passage_1": "  鍋釜最多可容納 2 桶任何類型的流體。可以使用其他模組的管道，將流體自動傳輸進去。你也能夠使用玻璃瓶，來將基礎液體以及模組的其中一種流體倒進鍋釜中。\n  雖然放進熔岩裡的物品看起來會被燒毀，但實際上它們不會受到傷害。",
+  "book.hexerei.items_mixing_cauldron_6.passage_1": "  這些流體在鍋釜中都有某種特別的用途。除了在鍋釜內進行合成時使用的流體外，它還可以被裝設在鍋釜頂部的浸泡架使用。",
+  "book.hexerei.items_mixing_cauldron_6.passage_2": "附件：",
+
+  "book.hexerei.items_coffer_1.passage_1": "木匣",
+  "book.hexerei.items_coffer_1.passage_2": "  木匣對於巫師們來說，是非常實用的儲存設備，特別是對擁有一些烏鴉好友的巫師來說。",
+  "book.hexerei.items_coffer_2.passage_1": "  要合成出這件物品，你需要調和鍋釜，並備妥以下物品：",
+  "book.hexerei.items_coffer_3.passage_1": "  木匣可被染成任何顏色，並重新命名以變更顏色循環。",
+  "book.hexerei.items_coffer_3.passage_2": "  染色後，若未命名，便能像皮革盔甲一樣，再次染色以混合染料顏色。",
+  "book.hexerei.items_coffer_4.passage_1": "  為了方便使用，玩家只需簡單地敲擊左鍵，便能將木匣直接拾取進物品欄中。當木匣被玩家移動，它們將會保留所有資料。並在開啟時，顯示裡頭的物品。\n\n  在木匣的介面右側，\n有一個帶有烏鴉圖案的按鈕。",
+  "book.hexerei.items_coffer_5.passage_1": "  啟用烏鴉按鈕後，處於收集模式的烏鴉，將會檢查木匣中的內容物，並在附近尋找與內容物相符的物品，然後將其存進木匣中。\n\n  若將木匣設為烏鴉的棲息處，烏鴉同樣會撿拾附近的物品，並存進木匣中。",
+
+  "book.hexerei.items_herb_jar_1.passage_1": "藥草罐",
+  "book.hexerei.items_herb_jar_1.passage_2": "  藥草罐就相當是巫師的抽屜。這罐玻璃瓶能容納多達 1024 個相同物品。\n  若你在介面中啟用了按鈕，烏鴉也將會像木匣那樣，尋找並將相符的物品存進罐子裡。",
+  "book.hexerei.items_herb_jar_2.passage_1": "  右鍵點擊罐子的任何面（除了正面），可以開啟藥草罐的介面。若要透過罐子正面開啟介面，你必須潛行並空手點擊右鍵。\n 左鍵敲擊一下罐子正面，可以取出一個物品；潛行並左鍵點擊罐子正面，則可以取出一組數量的物品。",
+  "book.hexerei.items_herb_jar_3.passage_1": "  要合成出這件物品，你需要調和鍋釜，並備妥以下物品：",
+  "book.hexerei.items_herb_jar_4.passage_1": "  藥草罐也同樣可以被染色，並透過重新命名變更顏色循環。",
+  "book.hexerei.items_herb_jar_4.passage_2": "  染色後，若未命名，便能像皮革盔甲一樣，再次染色以混合染料顏色。",
+
+  "book.hexerei.items_sage_burning_plate_1.passage_1": "鼠尾草燃燒台",
+  "book.hexerei.items_sage_burning_plate_1.passage_2": "  鼠尾草燃燒台是用來保護巫師周圍環境的道具。只需要將燃燒台置在地面上，放上一捆晾乾的鼠尾草，然後將其點燃後，便會開始保護你附近的區域。\n  預設的生成保護區為半徑 48 格方塊，但怪物仍會在這\n範圍內徘徊。",
+  "book.hexerei.items_sage_burning_plate_2.passage_1": "  要合成出這件物品，你需要調和鍋釜，並備妥以下物品：",
+  "book.hexerei.items_sage_burning_plate_3.passage_1": "  當鼠尾草捆被點燃，會在周圍區域內隨機產生鼠尾草煙霧。空手右鍵點擊燃燒台，可以變更或關閉煙霧的粒子效果。\n  煙霧擁有四種不同的模式可以設定。環狀煙會顯示燃燒台的運作範圍，至於其他樣式則單純只是美觀。",
+
+  "book.hexerei.items_book_of_shadows_1.passage_1": "闇影之書",
+  "book.hexerei.items_book_of_shadows_1.passage_2": "  是的，這本書在談論它本身，但在巫師的世界裡，你會需要它。\n\n這本書的封面會根據合成時，使用的染料進行染色。合成完畢後，你可以再將它放回工作台中，與另一種染料再次合成，來為書角進行染色。",
+
+  "book.hexerei.items_altar_1.passage_1": "祭壇",
+  "book.hexerei.items_altar_1.passage_2": "  祭壇不僅能用於放置書本，還可以用作裝飾，你可以將任何物品放置在祭壇上。若你將任何可栽種在花盆裡的物品擺放在祭壇上，將會有一個特別的驚喜。",
+
+  "book.hexerei.items_drying_rack_1.passage_1": "晾乾架",
+  "book.hexerei.items_drying_rack_1.passage_2": "  這些架子能用來處理晾乾配方。例如：將腐肉風乾成皮革，在遊戲早期相當實用。當手上持有物品時，對著晾乾架點擊右鍵，能將物品放在架上。",
+  "book.hexerei.items_drying_rack_3.passage_1": "  晾乾架有 3 個獨立欄位，\n每個欄位最多可放置 3 個物品。\n手拿東西，右鍵點擊晾乾架時，一次最多能從手上取走 3 個物品，放置在架上。\n  若要從晾乾架上，取下不想用於合成的物品，只需要將雙手淨空，然後對著架子潛行並點擊右鍵。",
+  "book.hexerei.items_drying_rack_4.passage_1": "  若只是要取下已完全晾乾的物品，直接對著晾乾架點擊右鍵即可。\n  可以透過物品運輸方塊來完成自動化，像是漏斗或其他模組的物品管道。",
+
+  "book.hexerei.items_pestle_and_mortar_1.passage_1": "研缽及杵",
+  "book.hexerei.items_pestle_and_mortar_1.passage_2": "  研缽及杵能用來將物品粉碎，並研磨成細膩的糊狀物。像是蠟材以及昏睡粉。昏睡粉可以浸注到蠟燭中，點燃這種蠟燭時，能給予周遭區域特殊的效果。它還可以用來製作烏鴉最愛的零嘴！",
+  "book.hexerei.items_pestle_and_mortar_3.passage_1": "  手持物品，對著研缽點擊右鍵，便能將物品放入研缽中，每次只能放進一個物品。潛行並右鍵點擊研缽，能取回研缽中，所有未研磨完全的物品。若只是要取出研磨完成的物品，直接對著研缽點擊右鍵即可。",
+
+  "book.hexerei.items_dipper_1.passage_1": "浸泡架",
+  "book.hexerei.items_dipper_1.passage_2": "  The Dipper is an addon for the Mixing Cauldron for its main function of making candles by dipping string into the tallow below. Simply place on top of a Mixing Cauldron by crouching and right clicking the top of the cauldron with the Dipper.",
+  "book.hexerei.items_dipper_3.passage_1": "  The Dipper has 3 separate slots each of which can hold a single item. If the fluid below matches a recipe for one of the items on the dipper it will begin dipping it in the fluid til the recipe completes to transform the item. This meaning the Dipper can not only make candles in tallow but be able to make any item",
+  "book.hexerei.items_dipper_4.passage_1": " in any fluid as long as it matches a recipe. For example, you can color candles with blood by putting them on a dipper with enough blood below.",
+
+  "book.hexerei.items_candle_1.passage_1": "Candle",
+  "book.hexerei.items_candle_1.passage_2": "  Candles are great decoration options as you can mix and match different candles in the same block up to 4 candles. Each candle has a lit time of 35 minutes, this may vary as infused candles come out along with different kinds of candles.",
+  "book.hexerei.items_candle_3.passage_1": "  You are able to light each separate candle from first placed to last placed, this may changed to where you use the flint and steel to light the candle you are looking at. Candles are able to float around an Altar as well as later will float around the player for rituals and spells.",
+
+  "book.hexerei.items_candelabra_1.passage_1": "Candelabra",
+  "book.hexerei.items_candelabra_1.passage_2": "  Candelabras are a great decoration item as you can place them under a block or above a block to give them a different look. Works great with chains above!",
+
+  "book.hexerei.items_crystal_ball_1.passage_1": "Crystal Ball",
+  "book.hexerei.items_crystal_ball_1.passage_2": "  The Crystal Ball is still a work in progress, right now it acts as just a decoration item. This will probably be used for either scrying to find players or positions, or for infusing certain items.",
+
+  "book.hexerei.items_dowsing_rod_1.passage_1": "Dowsing Rod",
+  "book.hexerei.items_dowsing_rod_1.passage_2": "  The Dowsing Rod is one of the first items a witch should look for as it points them in the right direction of where they need to go. Crouch and right clicking will swap the mode between Swamp to Jungle. Right clicking will find a new position in the closest biome of the selected type.",
+
+  "book.hexerei.items_blood_sigil_1.passage_1": "Blood Sigil",
+  "book.hexerei.items_blood_sigil_1.passage_2": "  The Blood Sigil is an attachment for the Mixing Cauldron and what is needed to acquire a Bottle of Blood to make your brooms. This will also be used in other sorts of recipes in the future. As well as other types of sigils to be added for different methods in the cauldron.",
+
+  "book.hexerei.items_blood_bottle_1.passage_1": "Bottle of Blood",
+  "book.hexerei.items_blood_bottle_1.passage_2": "  To acquire the blood you first need a Mixing Cauldron with a Blood Sigil inside, then simply jump in the cauldron 3 times to drain enough blood for one bottle to scoop it out. To scoop it out simply right click the cauldron with an empty bottle.",
+
+  "book.hexerei.items_willow_broom_1.passage_1": "Willow Broom",
+  "book.hexerei.items_willow_broom_1.passage_2": "  A witches main tool of transportation, the broom. So far there are two types of brooms, this one being the lesser of the two. These can be upgraded in 3 different slots, Misc, Satchel, and Brush. A brush is what powers the brooms flight and comes with every fresh broom made.",
+  "book.hexerei.items_willow_broom_3.passage_1": "  To access the brooms inventory simply crouch and right click while the broom is in the world. While flying the broom, the brush gets damaged and can break. So, the witch must come prepared and craft some additional brushes to fuel the broom.",
+  "book.hexerei.items_willow_broom_4.passage_1": "  The best way is to stash the extra brushes within the broom's satchel. Adding a small satchel will add 9 extra spaces to hold items within, and each tier above will hold an additional 9 spaces.",
+
+  "book.hexerei.items_mahogany_broom_1.passage_1": "Mahogany Broom",
+  "book.hexerei.items_mahogany_broom_1.passage_2": "  The faster of the two brooms. The mahogany broom as an item also has fire resistance so it cannot be lost in lava or burn to fire. Although, it can break when flying the broom into fire, unless the broom has a netherite tip attachment.",
+
+  "book.hexerei.items_gold_rings_1.passage_1": "Gold Rings",
+  "book.hexerei.items_gold_rings_1.passage_2": "  The first broom attachment made, there will probably be some sort of effects to these little trinkets later but for now it is just a cosmetic addition to the broom. To use open up a broom's menu and place inside the Misc slot.",
+
+  "book.hexerei.items_broom_keychain_1.passage_1": "Broom Chain",
+  "book.hexerei.items_broom_keychain_1.passage_2": "  The cutest broom attachment as it makes a keychain trinket of the item imprinted onto it. To imprint an item onto the chain simply add both items into a crafting grid. To use open up a broom's menu and place inside the Misc slot.",
+  "book.hexerei.items_broom_keychain_3.passage_1": "  The item is no longer consumed fully and you can retrieve it by placing the Broom Chain back into a crafting grid and it will pull the item out of it.\n  The chain will even swing around as the broom moves around to add extra aesthetics!",
+
+  "book.hexerei.items_broom_netherite_tip_1.passage_1": "Broom Netherite Tip",
+  "book.hexerei.items_broom_netherite_tip_1.passage_2": "  This broom attachment is very useful for nether flight, as it allows the broom to fly completely through lava or any fires without getting damaged. Just like the rest of the misc attachments, this goes in the leftmost slot of the broom.",
+
+  "book.hexerei.items_broom_waterproof_tip_1.passage_1": "Broom Waterproof Tip",
+  "book.hexerei.items_broom_waterproof_tip_1.passage_2": "  Have a base underwater but tired of falling off your broom and not being able to use it? Try the waterproof tip! This allows the player to stay on the broom while riding underwater. Just like the rest of the misc attachments, this goes in the leftmost slot of the broom.",
+
+  "book.hexerei.items_small_satchel_1.passage_1": "Small Satchel",
+  "book.hexerei.items_small_satchel_1.passage_2": "  The Small Satchel is the first satchel for your brooms. This adds an additional 9 slots that can be used to store items. To add and access simply open your brooms menu and place the satchel into the middle slot of the broom.",
+
+  "book.hexerei.items_medium_satchel_1.passage_1": "Medium Satchel",
+  "book.hexerei.items_medium_satchel_1.passage_2": "  The Medium Satchel is the second tier of satchels. This satchel adds an additional 18 slots that can be used to store items. To add and access simply open your brooms menu and place the satchel into the middle slot of the broom.",
+
+  "book.hexerei.items_large_satchel_1.passage_1": "Large Satchel",
+  "book.hexerei.items_large_satchel_1.passage_2": "  The Large Satchel is the highest tier of satchels. The largest of the satchels adds an additional 27 slots that can be used to store items. To add and access simply open your brooms menu and place the satchel into the middle slot of the broom.",
+
+  "book.hexerei.items_broom_brush_1.passage_1": "Broom Brush",
+  "book.hexerei.items_broom_brush_1.passage_2": "  The Broom Brush is the last attachment type for the broom. This is what fuels the broom to be able to fly, and while flying the brush takes durability damage. Once the brush runs out of durability it does break, so be sure you have extras when flying long distances.",
+
+  "book.hexerei.items_wet_broom_brush_1.passage_1": "Wet Broom Brush",
+  "book.hexerei.items_wet_broom_brush_1.passage_2": "  To make a broom brush you must first craft the wet one within a cauldron, then throw this on a drying rack to get your broom brush ready for your broom.",
+
+  "book.hexerei.items_herb_enhanced_broom_brush_1.passage_1": "Enhanced Broom Brush",
+  "book.hexerei.items_herb_enhanced_broom_brush_1.passage_2": "  Just like the normal Broom Brush other than it has more durability so it lasts longer in flight. These can be enchanted with Mending and Unbreaking.",
+
+  "book.hexerei.items_wet_herb_enhanced_broom_brush_1.passage_1": "Wet Enhanced Broom Brush",
+  "book.hexerei.items_wet_herb_enhanced_broom_brush_1.passage_2": "  Just like the normal Wet Broom Brush this is made in a cauldron and must be dried before using.",
+
+  "book.hexerei.items_crow_flute_1.passage_1": "Crow Flute",
+  "book.hexerei.items_crow_flute_1.passage_2": "  The Crow Flute is an essential item for controlling your crow companions! .",
+
+  "book.hexerei.items_seed_mixture_1.passage_1": "Seed Mixture",
+  "book.hexerei.items_seed_mixture_1.passage_2": "  Looking for a way to tame the crows? Well, Crows love this mixture of seeds. These crows are quite useful so it does take a bit to get one on your side. Be sure to make a fair amount of seed mixture to tame your crows.",
+
+  "book.hexerei.items_warhammer_1.passage_1": "Warhammer",
+  "book.hexerei.items_warhammer_1.passage_2": "  Wait a minute, this isn't a witchy item. Looks like this is more for someone like the god of thunder. Maybe a crow will like to use this item. If not its quite good for bashing things in the face.",
+
+  "book.hexerei.items_sage_seed_1.passage_1": "Sage Seeds",
+  "book.hexerei.items_sage_seed_1.passage_2": "  These seeds are found by breaking grass. These are the seeds needed to grow the sage crop.",
+
+  "book.hexerei.items_sage_1.passage_1": "Sage",
+  "book.hexerei.items_sage_1.passage_2": "  The Sage Leaf is obtained by farming the sage crop. Sage is a very useful herb in witchery as it is used to cleanse the area of evil spirits. This sage can be burned if bundled up and then dried.",
+
+  "book.hexerei.items_sage_bundle_1.passage_1": "Sage Bundle",
+  "book.hexerei.items_sage_bundle_1.passage_2": "  This bundle is not quite useful yet, first needs to be dried before use in the Sage Burning Plate.",
+
+  "book.hexerei.items_dried_sage_bundle_1.passage_1": "Dried Sage Bundle",
+  "book.hexerei.items_dried_sage_bundle_1.passage_2": "  This bundle is now useful in the Sage Burning Plate. To use simply right click your bundle onto the plate, once the bundle is on the plate it can be lit with flint and steel. This is the fuel to cleansing the area of spawning mobs within it.",
+
+  "book.hexerei.items_flowering_lily_pad_1.passage_1": "Flowering Lily Pad",
+  "book.hexerei.items_flowering_lily_pad_1.passage_2": "  A really nice decoration item to decorate your own ponds or rivers with.",
+
+  "book.hexerei.items_animal_fat_1.passage_1": "Animal Fat",
+  "book.hexerei.items_animal_fat_1.passage_2": "  Animal Fat is one of the core items needed to make Tallow. Tallow is used to make candles with the Dipper attachment. Can be obtained by killing any Cow, Pig, or Sheep, and is effected by looting.",
+
+  "book.hexerei.items_infused_fabric_1.passage_1": "Infused Fabric",
+  "book.hexerei.items_infused_fabric_1.passage_2": "  Infused Fabric is the fabric used to craft the base witch outfit. It will have more uses than just armor but as of right now its just armor.",
+
+  "book.hexerei.items_witch_helmet_1.passage_1": "Witch's Hat",
+  "book.hexerei.items_witch_helmet_1.passage_2": "  These pieces will have additional effects once spells and the coven witches are added. Each piece of the witch outfit can be dyed to be customized to your liking. They can also be renamed to give the color changing effects.",
+
+  "book.hexerei.items_witch_chestplate_1.passage_1": "Witch's Robe",
+  "book.hexerei.items_witch_chestplate_1.passage_2": "  These pieces will have additional effects once spells and the coven witches are added. Each piece of the witch outfit can be dyed to be customized to your liking. They can also be renamed to give the color changing effects.",
+
+  "book.hexerei.items_witch_boots_1.passage_1": "Witch's Boots",
+  "book.hexerei.items_witch_boots_1.passage_2": "  These pieces will have additional effects once spells and the coven witches are added. Each piece of the witch outfit can be dyed to be customized to your liking. They can also be renamed to give the color changing effects.",
+
+  "book.hexerei.items_mushroom_witch_hat_1.passage_1": "Mushroom Witch's Hat",
+  "book.hexerei.items_mushroom_witch_hat_1.passage_2": "  This hat is being a little hint towards what types off witches and covens are to come in future updates.",
+
+  "book.hexerei.items_mandrake_flower_1.passage_1": "Mandrake Plant",
+  "book.hexerei.items_mandrake_flower_1.passage_2": "  One of the flowers of Hexerei, the Mandrake, can be harvested by simply right clicking it when it is fully grown just like a sweet berry bush. Can be harvested when fully grown by right clicking just like a sweet berry bush.",
+
+  "book.hexerei.items_belladonna_flower_1.passage_1": "Belladonna Plant",
+  "book.hexerei.items_belladonna_flower_1.passage_2": "  The most poisonous plant of Hexerei, the Belladonna, probably should not be consumed in any way unless prepared in the proper manor. These plants can be harvested by simply right clicking it when it is fully grown just like a sweet berry bush.",
+
+  "book.hexerei.items_mugwort_bush_1.passage_1": "Mugwort Bush",
+  "book.hexerei.items_mugwort_bush_1.passage_2": "  A bush flower of Hexerei, the Mugwort, has been used to open up a more direct channel to the lunar side of magic. This has no uses for magic yet, these will come at a later date. Can be harvested when fully grown by right clicking.",
+
+  "book.hexerei.items_yellow_dock_bush_1.passage_1": "黃色Dock Bush",
+  "book.hexerei.items_yellow_dock_bush_1.passage_2": "  The last bush flower of Hexerei, the 黃色Dock, has been used to break binding ties that prevent those from moving on. This will be used in sorts of magic for the spirit coven, which will be coming in future updates. Can be harvested when fully grown by right clicking.",
+
+  "book.hexerei.items_willow_sapling_1.passage_1": "Willow Sapling",
+  "book.hexerei.items_willow_sapling_1.passage_2": "  Sapling used to grow Willow trees. Can be obtained by breaking Willow Leaves.",
+
+  "book.hexerei.items_mahogany_sapling_1.passage_1": "Mahogany Sapling",
+  "book.hexerei.items_mahogany_sapling_1.passage_2": "  Sapling used to grow Mahogany trees. Can be obtained by breaking Mahogany Leaves.",
+
+  "book.hexerei.items_mandrake_flowers_1.passage_1": "Mandrake Flowers",
+  "book.hexerei.items_mandrake_flowers_1.passage_2": "  Mandrake flowers are used in the recipe to make the herb enhanced broom brush, they can also be dried and later on will be used in different infuses and rituals.\n  Obtained by right clicking a fully grown Mandrake Plant.",
+
+  "book.hexerei.items_belladonna_flowers_1.passage_1": "Belladonna Flowers",
+  "book.hexerei.items_belladonna_flowers_1.passage_2": "  Belladonna flowers are used in the recipe to make the herb enhanced broom brush, they can also be dried and later on will be used in different infuses and rituals.\n  Obtained by right clicking a fully grown Belladonna Plant.",
+
+  "book.hexerei.items_mugwort_flowers_1.passage_1": "Mugwort Flowers",
+  "book.hexerei.items_mugwort_flowers_1.passage_2": "  Mugwort flowers are used in the recipe to make the herb enhanced broom brush, they can also be dried and later on will be used in different infuses and rituals.\n  Obtained by right clicking a fully grown Mugwort Bush.",
+
+  "book.hexerei.items_yellow_dock_flowers_1.passage_1": "黃色Dock Flowers",
+  "book.hexerei.items_yellow_dock_flowers_1.passage_2": "  黃色Dock flowers are used in the recipe to make the herb enhanced broom brush, they can also be dried and later on will be used in different infuses and rituals.\n  Obtained by right clicking a fully grown 黃色Dock Bush.",
+
+  "book.hexerei.items_willow_log_1.passage_1": "Willow Log",
+  "book.hexerei.items_willow_log_1.passage_2": "  Willow logs are used in making a willow broom within the mixing cauldron. They are also a lovely decoration block for a more gloomy or nature-like builds.",
+
+  "book.hexerei.items_mahogany_log_1.passage_1": "Mahogany Log",
+  "book.hexerei.items_mahogany_log_1.passage_2": "  Mahogany Logs are used in the making of a mahogany broom within the mixing cauldron. Also a very good decoration block with its very rich mahogany color.",
+
+  "book.hexerei.items_mandrake_root_1.passage_1": "Mandrake Root",
+  "book.hexerei.items_mandrake_root_1.passage_2": "  The root of the Mandrake Plant, used as an essential part for building the broom brushes as well as crafting the broom itself. It will have future uses of turning it into oils or using the root in certain recipes.\n  Obtained by right clicking a fully grown Mandrake Plant.",
+
+  "book.hexerei.items_belladonna_berries_1.passage_1": "Belladonna Berries",
+  "book.hexerei.items_belladonna_berries_1.passage_2": "  The berries of the Belladonna Plant are very poisonous. Many may know the other name for the belladonna plant as nightshade. These berries will be used in the future for various mixtures and blends within the pestle and mortar for infusing your candles with various effects.",
+
+  "book.hexerei.items_mugwort_leaves_1.passage_1": "Mugwort Leaves",
+  "book.hexerei.items_mugwort_leaves_1.passage_2": "  Mugwort Leaves are used in the recipe to make the normal broom brush, they can also be dried and later on will be used in different infuses and rituals.\n  Obtained by right clicking a fully grown Mugwort Bush.",
+
+  "book.hexerei.items_yellow_dock_leaves_1.passage_1": "黃色Dock Leaves",
+  "book.hexerei.items_yellow_dock_leaves_1.passage_2": "  黃色Dock Leaves are used in the recipe to make the normal broom brush, they can also be dried and later on will be used in different infuses and rituals.\n  Obtained by right clicking a fully grown 黃色Dock Bush.",
+
+  "book.hexerei.items_willow_planks_1.passage_1": "Willow Planks",
+  "book.hexerei.items_willow_planks_1.passage_2": "  Willow planks and its variants are great decoration pieces as they bring in a nice green wood for more nature-like builds.",
+
+  "book.hexerei.items_mahogany_planks_1.passage_1": "Mahogany Planks",
+  "book.hexerei.items_mahogany_planks_1.passage_2": "  Mahogany Planks and its variants are great decoration pieces to give a nice warm wood to use in cosy builds.",
+
+  "book.hexerei.items_dried_mandrake_flowers_1.passage_1": "Dried Mandrake Flowers",
+  "book.hexerei.items_dried_mandrake_flowers_1.passage_2": "  The dried variant of the mandrake flowers, this does not have any uses yet but will be used in various blends and in rituals in the future.",
+
+  "book.hexerei.items_dried_belladonna_flowers_1.passage_1": "Dried Belladonna Flowers",
+  "book.hexerei.items_dried_belladonna_flowers_1.passage_2": "  The dried variant of the belladonna flowers, this does not have any uses yet but will be used in various blends and in rituals in the future.",
+
+  "book.hexerei.items_dried_mugwort_flowers_1.passage_1": "Dried Mugwort Flowers",
+  "book.hexerei.items_dried_mugwort_flowers_1.passage_2": "  The dried variant of the mugwort flowers, this does not have any uses yet but will be used in various blends and in rituals in the future.",
+
+  "book.hexerei.items_dried_yellow_dock_flowers_1.passage_1": "Dried 黃色Dock Flowers",
+  "book.hexerei.items_dried_yellow_dock_flowers_1.passage_2": "  The dried variant of the yellow dock flowers, this does not have any uses yet but will be used in various blends and in rituals in the future.",
+
+  "book.hexerei.items_dried_mugwort_leaves_1.passage_1": "Dried Mugwort Leaves",
+  "book.hexerei.items_dried_mugwort_leaves_1.passage_2": "  The dried variant of the mugwort leaves, this does not have any uses yet but will be used in various blends and in rituals in the future.",
+
+  "book.hexerei.items_dried_yellow_dock_leaves_1.passage_1": "Dried 黃色Dock Leaves",
+  "book.hexerei.items_dried_yellow_dock_leaves_1.passage_2": "  The dried variant of the yellow dock leaves, this does not have any uses yet but will be used in various blends and in rituals in the future.",
+
+  "book.hexerei.items_mindful_trance_blend_1.passage_1": "Mindful Trance Blend",
+  "book.hexerei.items_mindful_trance_blend_1.passage_2": "  This is a hint to what is to come for candles. This will be for infusing candles with special effects to give off in the area when they are lit. This will be coming shortly in the future.",
+
+  "book.hexerei.items_reading_glasses_1.passage_1": "Reading Glasses",
+  "book.hexerei.items_reading_glasses_1.passage_2": "  Need help reading the book? want to just slightly zoom into the book to better look at images? Well these are the glasses for you! Acts like a spyglass when holding the item and right clicking, but zooms in just a bit. You can also put these on your head and press %kkey.hexerei.glasses_zoom to toggle zoom in.",
+
+
+  "book.hexerei.entities_index_page_1.passage_1": "- Entities -",
+  "book.hexerei.entities_index_page_1.passage_2": "  This chapter will be all about entities and how you interact with them!",
+
+  "book.hexerei.entities_index_page_2.passage_1": "Entity Index Page",
+  "book.hexerei.entities_index_page_2.passage_2": "",
+
+  "book.hexerei.entities_crow_page_1.passage_1": "Crow",
+  "book.hexerei.entities_crow_page_1.passage_2": "  The Crow is the first familiar of many to come to Hexerei. They can be tamed by giving the crows their favorite snackies which is the seed mixture made in the pestle and mortar. You can either throw the seeds onto the ground and nearby",
+  "book.hexerei.entities_crow_page_2.passage_1": "untamed crows will fly over and munch on them for a chance to tame, or they can just be right clicked onto the crow. Crows have a better chance of taming when the seeds are thrown onto the ground. Players are able to tame more than one crow at a time, allowing for a crow army to work with the player!",
+  "book.hexerei.entities_crow_page_3.passage_1": "Once tamed crows can be set to different commands. The player can change these commands by simply right clicking the crow, this will cycle through the 4 main commands the crows have. These commands can also be changed by opening up the crow's GUI. To open the GUI crouch and right click a tamed crow.",
+  "book.hexerei.entities_crow_page_4.passage_1": "  Each crow contains 3 slots, the first being what the crow is holding, the second being the hat the crow is wearing, and the third is a misc slot still to be determined but can act as a storage slot. The crows can be equip with weapons to help fight with you.",
+  "book.hexerei.entities_crow_page_5.passage_1": "  Below the item slots of the crow GUI is the commands for the crow. This is where you can set the commands and set the specific help command. The first command on the left is the Follow command, this will make the crow follow closely behind the player or hop onto the players shoulder.",
+  "book.hexerei.entities_crow_page_6.passage_1": "  The second command is the Sit command, this will make the crow land and try to sit. If the crow has a perch position it will instead fly over to that perch and sit.\n\n  The third command is the Wander command, this will make the crow wander and fly around the area.",
+  "book.hexerei.entities_crow_page_7.passage_1": "  If the crow has a perch location the crow will not wonder too far away from the perch.\n\n  The last command is the Help command, this command is unique and has three separate modes to it. When the ",
+  "book.hexerei.entities_crow_page_8.passage_1": "Help command is selected the modes on the right will gain color showing that these are in use and using the selected mode. The first of the help modes is Gathering and this will allow your crows to interact with the Coffer or Herb Jar blocks. The crows will interact with nearby",
+  "book.hexerei.entities_crow_page_9.passage_1": "coffers or Herb Jars that have the Crow Gather button toggled on. The crows will seek out any items in the area matching items already inside the container, unless the crow has a perch at the container, then it will pickup ANY item in the area and deposit it back in that container.",
+  "book.hexerei.entities_crow_page_10.passage_1": "  The second help mode is Harvesting and this will allow your crows to harvest any crop and some bush plants nearby the position of the crow, or nearby the position of the crow's perch. The crow will leave the items on the ground, so having another crow",
+  "book.hexerei.entities_crow_page_11.passage_1": "that is set to gather all of those items would be quite useful! The crows will be able to harvest any of the Hexerei flowers as well.\n\n  The last of the help modes is Pickpocketing, yes pickpocketing. Crows are able to pickpocket villagers to snag their potential trades. This has a set list for each type of villager, and can give",
+  "book.hexerei.entities_crow_page_12.passage_1": "common items like emeralds, paper, seeds, and more. Villagers do not need to be leveled up and the loot table is just based off of which job the villager has selected. Each crow has a cooldown before they can pickpocket again. For an example Librarians can give things like books and already enchanted books, which is a great source of early",
+  "book.hexerei.entities_crow_page_13.passage_1": "enchanted books. Another example is if you are low on food the crow can go steal from some farmers or butchers to gather some easy food. \n\n If you are still trying to figure out how to add a perching location to a crow you need to use the Crow Flute to direct the crow. This is the tool for directing the crows more precisely and can direct more than one",
+  "book.hexerei.entities_crow_page_14.passage_1": "crow at a time, either all of the nearby crows or the list of selected crows. The flute will tell crows which command to follow. To change the flutes given command you need to open the GUI by crouching and right clicking. When",
+  "book.hexerei.entities_crow_page_15.passage_1": "opened you can see that it is very similar to the crows GUI except there are a few extra buttons on the bottom. For example if you set the flute to Sit and then exit the GUI and right click with the flute which will then tell all tamed crows near the player to sit.\n\n  Now to talk about the Select and Perch.",
+  "book.hexerei.entities_crow_page_16.passage_1": "  The Select button, when toggled, will change how right clicking outside of the GUI acts. This is used for commanding up to 9 selected crows, so only those crows will listen to that flutes command. When selecting crows simply right click with the flute on the crow you want selected. Once selected the crow will show a selection cube above their head based off",
+  "book.hexerei.entities_crow_page_17.passage_1": "their dye color. When one or more crows are selected, inside the GUI will show each crow selected at the bottom. To deselect crows simply right click the crow again with the select mode active. To clear all of the selected crows press the small X located next to the select button.",
+  "book.hexerei.entities_crow_page_18.passage_1": "  Now that you know all about the select button lets talk about the Perch button. This button requires crows to be selected to work. When crows are selected and the perch button is toggled, exit the GUI and right click on a location, this location will be saved as all of the selected crow's perch. While the button is still toggled",
+  "book.hexerei.entities_crow_page_19.passage_1": "you can see all of the selected crow's perch locations with big colored cubes based off of their dye color. These can be removed by clicking on that same red X next to the perch button.\n\n  Now that you know how to control your crow its time to outfit them with names, dyes, and hats! Right click your crow with a dye to add a colored bandanna and they can be renamed similar to",
+  "book.hexerei.entities_crow_page_20.passage_1": "the other dyeable items, like jeb_ or les_ to color change the bandanna.",
+  "book.hexerei.entities_crow_page_20.passage_2": "  With all of that said don't forget the crow's favorite snackies!",
+
+  "book.hexerei.entities_broom_page_1.passage_1": "Broom",
+  "book.hexerei.entities_broom_page_1.passage_2": "  The Broom is the rideable mount from Hexerei. This allows witches to fly with it and with that the ability to traverse the lands with ease. Currently there are two broom types available which one is Willow and the other Mahogany. ",
+  "book.hexerei.entities_broom_page_2.passage_1": "  First off the Willow broom. This broom is the slower of the brooms, which is nice for server exploration and nice for precise building. Though, it being slower you may have already figured out that it is easier to make for the early game.",
+  "book.hexerei.entities_broom_page_3.passage_1": "  Second the Mahogany broom. This broom faster than the Willow Broom, which is great for getting around faster than before. Not only is this broom faster but its item is also fire and lava resistant, but not while the broom is an entity.",
+  "book.hexerei.entities_broom_page_4.passage_1": "  To use the broom, right click on the ground with the broom, just like a boat. Then to ride it simply right click, and to open its GUI crouch and right click. While riding, to ascend up into the clouds hold Space and to descend back to the ground hold %kkey.hexerei.broomDescend and be sure to check the keybinds if there are conflicting keys, or change the descend key to your desired key.",
+  "book.hexerei.entities_broom_page_5.passage_1": "  The rest of the broom controls act like a boat. Now that you know how to fly the broom lets get into its GUI and attachments.\n\n Again to access the broom simply crouch and right click the broom while it is an entity.",
+  "book.hexerei.entities_broom_page_6.passage_1": "  To begin there are three slots on the top of the GUI, first the Misc which is for misc attachments on the broom and usually attached to the tip. For example the Broom Chain can be attached to the broom in that slot and when the chain has an item imprinted it will display the item hanging on the chain.",
+  "book.hexerei.entities_broom_page_7.passage_1": "  The second slot is for the Satchel and this slot is for the satchel items, there are three tiers of attachments each tier gives an additional 9 slots to hold items within while on your travels.",
+  "book.hexerei.entities_broom_page_8.passage_1": "  The last slot is for the Brush of the broom, this is the brooms power source to be able to fly. The brushes of the broom will deplete while flying around on the broom until the brushes break.\n Once the brush breaks the broom will fall to the ground, so be sure to swap out new brushes on a long journey.",
+  "book.hexerei.entities_broom_page_9.passage_1": "  Attachments: \n   Misc: \n   Satchel: \n   Brush: \n To attach, place each item into their respective slots of the broom's inventory.",
+
+
+
+  "book.hexerei.structures_index_page_1.passage_1": "- 結構 -",
+  "book.hexerei.structures_index_page_1.passage_2": "  This chapter will be all about the structures added to the world and how you can find them!",
+
+  "book.hexerei.structures_index_page_2.passage_1": "結構索引頁",
+  "book.hexerei.structures_index_page_2.passage_2": "",
+
+  "book.hexerei.structures_witch_hut_page_1.passage_1": "Witch Hut",
+  "book.hexerei.structures_witch_hut_page_1.passage_2": "  Throughout the swamp you may come across different variations of a Hexerei witch hut. These huts come along with witches and all of their tools, and will later have more uses in future updates!",
+  "book.hexerei.structures_witch_hut_page_2.passage_1": "  A great place to start off a base for an aspiring witch!",
+
+  "book.hexerei.structures_dark_coven_page_1.passage_1": "Dark Coven",
+  "book.hexerei.structures_dark_coven_page_1.passage_2": "  As well as witch huts you can also find Dark Covens within swamps. These are the home of witches, and in future updates they will be replaced with custom coven witches which will have their own special fitting in Hexerei.",
+  "book.hexerei.structures_dark_coven_page_2.passage_1": "  Until then, you can find various crafting tools, armor, and herbs within the covens.",
+
+
+
+  "book.hexerei.tooltip_go_to_page": "前往頁面",
+  "book.hexerei.crafting_type.crafting_table": "  要合成出這件物品，\n\n你需要「3x3」合成空間，\n\n並備妥以下物品：",
+  "book.hexerei.crafting_type.mixing_cauldron": "  要合成出這件物品，你需要調和鍋釜，並備妥以下物品：",
+  "book.hexerei.crafting_type.dipper": "  要合成出這件物品，你需要頂部裝有浸泡架的調和鍋釜，並備妥以下物品與流體：",
+  "book.hexerei.crafting_type.herb_drying_rack": "  要合成出這件物品，你需要晾乾架，並備妥以下物品：",
+  "book.hexerei.crafting_type.pestle_and_mortar": "  要合成出這件物品，你需要研缽及杵，並備妥以下物品：",
+
+  "book.hexerei.tooltip.liquid.amount": "%s mB",
+  "book.hexerei.tooltip.liquid.amount.with.capacity": "%s / %s mB",
+  "hexerei.generic.unit.millibuckets": "%1$smB",
+  "book.hexerei.tooltip.empty": "空",
+
+  "book.hexerei.tooltip.accepts_any": "接受任何：%s",
+
+  "hexerei.key.category.book_hovering": "調和巫術（書本懸停）",
+  "key.hexerei.book_hovering_recipe": "顯示物品配方",
+  "key.hexerei.book_hovering_uses": "顯示物品用途",
+
+  "hexerei.key.category.glasses": "調和巫術（眼鏡）",
+  "key.hexerei.glasses_zoom": "視角縮放",
+
+  "entity.hexerei.broom": "掃帚",
+
+  "fluid.hexerei.potion": "藥水",
+
+  "tooltip.hexerei.heat_source": "熱源",
+  "tooltip.hexerei.recipe_heated": "這個配方需要加熱",
+  "tooltip.hexerei.recipe_heated_1": "為了提供鍋釜熱源，其底部必須是",
+  "tooltip.hexerei.recipe_heated_2": "被標記為「熱源」的方塊",
+  "tooltip.hexerei.recipe_heated_3": "若方塊能被點燃，那麼它必須是被點燃的狀態",
+  "tooltip.hexerei.recipe_heated_4": "可以是任何週期出現的熱源方塊",
+  "tooltip.hexerei.recipe_superheated": "這個配方需要超級加熱",
+  "tooltip.hexerei.recipe_superheated_2": "方塊底部必須是被標記為「超級熱源」的方塊",
+  "gui.jei.category.mixing_cauldron.convert_fluid": "流體成品",
+
+  "fluid_type.hexerei.tallow_fluid": "動物油",
+  "fluid_type.hexerei.blood_fluid": "鮮血",
+  "item.hexerei.willow_altar": "柳木祭壇",
+  "block.hexerei.willow_altar": "柳木祭壇",
+
+  "tooltip.hexerei.candle_shift_1": "蠟燭可以染成各種顏色",
+  "tooltip.hexerei.candle_shift_2": "能與其他《調和巫術》的蠟燭放置在相同的方塊上",
+  "tooltip.hexerei.candle_shift_3": "還能浸入許多效果與分層",
+  "tooltip.hexerei.candle_shift_4": "使它們具有許多變化。",
+
+  "tooltip.hexerei.candle_herb_layer": "藥草層：%s",
+  "tooltip.hexerei.candle_glow_layer": "發光層：%s",
+  "tooltip.hexerei.candle_base_layer": "基底層：%s",
+  "tooltip.hexerei.candle_swirl_layer": "捲曲層：%s",
+  "tooltip.hexerei.candle_effect": "效果：%s",
+
+  "item.hexerei.ender_satchel": "終界劍橋包",
+  "item.hexerei.replacer_satchel": "拆裝劍橋包",
+  "tooltip.hexerei.ender_satchel": "將玩家的終界物品欄，擴充進掃帚中",
+  "tooltip.hexerei.replacer_satchel_1": "當掃帚的尾枝損壞時，",
+  "tooltip.hexerei.replacer_satchel_2": "會自動使用物品欄最左上角的尾枝替換。",
+  "item.hexerei.broom_whistle": "掃帚令哨",
+  "display.hexerei.broom_whistle_not_found": "找不到掃帚。",
+  "display.hexerei.broom_whistle_not_bound": "必須先綁定掃帚。",
+  "tooltip.hexerei.broom_whistle": "可與一支掃帚綁定，並使用令哨呼叫。",
+  "tooltip.hexerei.broom_whistle_2": "點擊右鍵呼叫你的掃帚。",
+  "tooltip.hexerei.broom_whistle_shift": "將掃帚與令哨一同放入合成欄上即可綁定。",
+  "tooltip.hexerei.broom_whistle_shift_2": "將令哨放回合成欄上即可解除綁定。",
+
+  "sounds.hexerei.crow_caw": "烏鴉呱呱叫",
+  "sounds.hexerei.crow_flute": "烏鴉哨笛旋律",
+  "sounds.hexerei.crow_flute_select": "烏鴉哨笛選擇",
+  "sounds.hexerei.crow_flute_deselect": "烏鴉哨笛取消選擇",
+  "sounds.hexerei.book_turn_page_slow": "慢速翻頁",
+  "sounds.hexerei.book_turn_page_fast": "快速翻頁",
+  "sounds.hexerei.bookmark_button": "點擊書籤按鈕",
+  "sounds.hexerei.bookmark_swap": "交換書籤",
+  "sounds.hexerei.bookmark_delete": "刪除書籤",
+  "sounds.hexerei.book_close": "書本闔上",
+  "sounds.hexerei.book_opening": "書本翻開",
+
+  "effect.hexerei.sunshine_effect": "大雨，大雨，快走開",
+  "effect.hexerei.growth_effect": "催熟",
+
+  "hexerei.container.woodcutter": "鋸木機",
+
+  "block.hexerei.willow_woodcutter": "柳木鋸木機",
+  "block.hexerei.mahogany_woodcutter": "桃花心木鋸木機",
+
+  "block.hexerei.mahogany_connected": "桃花心木材（相連）",
+  "block.hexerei.polished_mahogany_planks": "拋光桃花心木材",
+  "block.hexerei.polished_mahogany_connected": "拋光桃花心木材（相連）",
+  "block.hexerei.polished_mahogany_layered": "拋光桃花心木材（分層）",
+  "block.hexerei.polished_mahogany_pillar": "拋光桃花心木柱",
+  "block.hexerei.polished_willow_connected": "拋光柳木材（相連）",
+  "block.hexerei.polished_willow_layered": "拋光柳木材（分層）",
+  "block.hexerei.polished_willow_pillar": "拋光柳木柱",
+  "block.hexerei.polished_willow_planks": "拋光柳木材",
+  "block.hexerei.willow_connected": "柳木材（相連）",
+
+  "block.hexerei.waxed_mahogany_connected": "上蠟的桃花心木材（相連）",
+  "block.hexerei.waxed_polished_mahogany_connected": "上蠟的拋光桃花心木材（相連）",
+  "block.hexerei.waxed_polished_mahogany_layered": "上蠟的拋光桃花心木材（分層）",
+  "block.hexerei.waxed_polished_mahogany_pillar": "上蠟的拋光桃花心木柱",
+  "block.hexerei.waxed_polished_willow_connected": "上蠟的拋光柳木材（相連）",
+  "block.hexerei.waxed_polished_willow_layered": "上蠟的拋光柳木材（分層）",
+  "block.hexerei.waxed_polished_willow_pillar": "上蠟的拋光柳木柱",
+  "block.hexerei.waxed_willow_connected": "上蠟的柳木材（相連）",
+
+  "block.hexerei.polished_mahogany_fence": "拋光桃花心木柵欄",
+  "block.hexerei.polished_mahogany_fence_gate": "拋光桃花心木柵欄門",
+  "block.hexerei.polished_mahogany_slab": "拋光桃花心木半磚",
+  "block.hexerei.polished_mahogany_button": "拋光桃花心木按鈕",
+  "block.hexerei.polished_mahogany_pressure_plate": "拋光桃花心木壓力板",
+  "block.hexerei.polished_mahogany_door": "拋光桃花心木門",
+  "block.hexerei.polished_mahogany_trapdoor": "拋光桃花心木地板門",
+  "block.hexerei.polished_mahogany_stairs": "拋光桃花心木階梯",
+
+  "block.hexerei.polished_willow_fence": "拋光柳木柵欄",
+  "block.hexerei.polished_willow_fence_gate": "拋光柳木柵欄門",
+  "block.hexerei.polished_willow_slab": "拋光柳木半磚",
+  "block.hexerei.polished_willow_button": "拋光柳木按鈕",
+  "block.hexerei.polished_willow_pressure_plate": "拋光柳木壓力板",
+  "block.hexerei.polished_willow_door": "拋光柳木門",
+  "block.hexerei.polished_willow_trapdoor": "拋光柳木地板門",
+  "block.hexerei.polished_willow_stairs": "拋光柳木階梯",
+
+  "item.hexerei.wax_blend": "蠟材",
+  "item.hexerei.cloth": "布料",
+  "item.hexerei.waxing_kit": "打蠟工具箱",
+  "item.hexerei.creative_waxing_kit": "打蠟工具箱（創造模式）",
+
+  "tooltip.hexerei.connected_texture": "連接紋理方塊",
+  "tooltip.hexerei.can_be_dyed": "在世界上對著方塊使用染料即可染色。",
+  "tooltip.hexerei.waxed_connected_texture": "僅能與其他上蠟的連接紋理相連，使用%s或%s可擦除上方的蠟材。",
+  "tooltip.hexerei.waxed_connected_texture_2": "無法被使用在配方中。",
+  "tooltip.hexerei.wax_blend": "在《調和巫術》的連接紋理方塊上使用，可以為其上蠟並與未上蠟的方塊不相連紋理，上蠟方塊能與其他相似的上蠟方塊相連紋理。",
+  "tooltip.hexerei.cloth": "在《調和巫術》的上蠟方塊上使用，可以擦除其上方的蠟材，並回復連接紋理的狀態。",
+  "tooltip.hexerei.waxing_kit": "裝有%s時，可用來為方塊上蠟。每次使用將會消耗 1 點蠟材。",
+  "tooltip.hexerei.waxing_kit_2": "還能用來免費擦除方塊上的蠟材。",
+  "tooltip.hexerei.wax": "蠟材",
+  "tooltip.hexerei.infinite_wax": "蠟材：無限",
+
+  "item.hexerei.willow_boat" : "柳木船",
+  "item.hexerei.polished_willow_boat" : "拋光柳木船",
+  "item.hexerei.mahogany_boat" : "桃花心木船",
+  "item.hexerei.polished_mahogany_boat" : "拋光桃花心木船",
+  "item.hexerei.willow_chest_boat" : "柳木儲物箱船",
+  "item.hexerei.polished_willow_chest_boat" : "拋光柳木儲物箱船",
+  "item.hexerei.mahogany_chest_boat" : "桃花心木儲物箱船",
+  "item.hexerei.polished_mahogany_chest_boat" : "拋光桃花心木儲物箱船",
+
+  "block.hexerei.willow_chest" : "柳木儲物箱",
+  "block.hexerei.mahogany_chest" : "桃花心木儲物箱",
+
+  "block.hexerei.willow_sign" : "柳木告示牌",
+  "block.hexerei.polished_willow_sign" : "拋光柳木告示牌",
+  "block.hexerei.mahogany_sign" : "桃花心木告示牌",
+  "block.hexerei.polished_mahogany_sign" : "拋光桃花心木告示牌",
+
+  "block.hexerei.willow_window_pane" : "柳木窗戶片",
+  "block.hexerei.waxed_willow_window_pane" : "上蠟的柳木窗戶片",
+  "block.hexerei.mahogany_window_pane" : "桃花心木窗戶片",
+  "block.hexerei.waxed_mahogany_window_pane" : "上蠟的桃花心木窗戶片",
+
+  "block.hexerei.willow_window" : "柳木窗戶",
+  "block.hexerei.waxed_willow_window" : "上蠟的柳木窗戶",
+  "block.hexerei.mahogany_window" : "桃花心木窗戶",
+  "block.hexerei.waxed_mahogany_window" : "上蠟的桃花心木窗戶",
+
+  "block.hexerei.infused_fabric_carpet" : "浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet" : "（上蠟的）浸製布料地毯",
+  "block.hexerei.infused_fabric_block" : "浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block" : "（上蠟的）浸製布料方塊",
+
+  "block.hexerei.infused_fabric_carpet_dyed_white" : "白色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_white" : "（上蠟的）白色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_orange" : "橙色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_orange" : "（上蠟的）橙色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_magenta" : "洋紅色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_magenta" : "（上蠟的）洋紅色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_light_blue" : "淺藍色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_light_blue" : "（上蠟的）淺藍色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_yellow" : "黃色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_yellow" : "（上蠟的）黃色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_lime" : "淺綠色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_lime" : "（上蠟的）淺綠色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_pink" : "粉紅色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_pink" : "（上蠟的）粉紅色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_gray" : "灰色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_gray" : "（上蠟的）灰色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_light_gray" : "淺灰色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_light_gray" : "（上蠟的）淺灰色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_cyan" : "青色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_cyan" : "（上蠟的）青色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_purple" : "紫色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_purple" : "（上蠟的）紫色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_blue" : "藍色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_blue" : "（上蠟的）藍色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_brown" : "棕色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_brown" : "（上蠟的）棕色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_green" : "綠色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_green" : "（上蠟的）綠色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_red" : "紅色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_red" : "（上蠟的）紅色浸製布料地毯",
+  "block.hexerei.infused_fabric_carpet_dyed_black" : "黑色浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_dyed_black" : "（上蠟的）黑色浸製布料地毯",
+
+  "block.hexerei.infused_fabric_block_dyed_white" : "白色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_white" : "（上蠟的）白色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_orange" : "橙色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_orange" : "（上蠟的）橙色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_magenta" : "洋紅色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_magenta" : "（上蠟的）洋紅色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_light_blue" : "淺藍色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_light_blue" : "（上蠟的）淺藍色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_yellow" : "黃色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_yellow" : "（上蠟的）黃色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_lime" : "淺綠色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_lime" : "（上蠟的）淺綠色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_pink" : "粉紅色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_pink" : "（上蠟的）粉紅色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_gray" : "灰色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_gray" : "（上蠟的）灰色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_light_gray" : "淺灰色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_light_gray" : "（上蠟的）淺灰色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_cyan" : "青色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_cyan" : "（上蠟的）青色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_purple" : "紫色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_purple" : "（上蠟的）紫色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_blue" : "藍色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_blue" : "（上蠟的）藍色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_brown" : "棕色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_brown" : "（上蠟的）棕色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_green" : "綠色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_green" : "（上蠟的）綠色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_red" : "紅色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_red" : "（上蠟的）紅色浸製布料方塊",
+  "block.hexerei.infused_fabric_block_dyed_black" : "黑色浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_dyed_black" : "（上蠟的）黑色浸製布料方塊",
+
+  "block.hexerei.infused_fabric_carpet_ornate" : "華麗的浸製布料地毯",
+  "block.hexerei.waxed_infused_fabric_carpet_ornate" : "（上蠟的）華麗的浸製布料地毯",
+  "block.hexerei.infused_fabric_block_ornate" : "華麗的浸製布料方塊",
+  "block.hexerei.waxed_infused_fabric_block_ornate" : "（上蠟的）華麗的浸製布料方塊",
+
+  "entity.hexerei.boat" : "船",
+  "entity.hexerei.chest_boat" : "儲物箱船",
+
+  "item.hexerei.crow_blank_amulet" : "烏鴉的空白飾品",
+  "item.hexerei.crow_filled_amulet" : " 護身符",
+  "item.hexerei.crow_ankh_amulet" : "烏鴉的生命護身符",
+  "tooltip.hexerei.crow_ankh_amulet_1" : "保護你的烏鴉免受災害，當烏鴉假裝死亡時，牠會獲得回復效果。",
+  "tooltip.hexerei.crow_ankh_amulet_2" : "如果烏鴉死亡，護身符將會破碎，並賦予烏鴉回復效果，就像不死圖騰一樣。",
+  "tooltip.hexerei.cosmetic_only" : "僅作裝飾用途。",
+  "tooltip.hexerei.crow_blank_amulet" : "將其放進烏鴉的「雜項」欄位。",
+  "tooltip.hexerei.infused_fabric_ornate" : "在世界上對著一塊布料使用金粒，以將其變成華麗布料。",
 
   "itemGroup.hexereiModTab": "調和巫術"
 
