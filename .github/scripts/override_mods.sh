@@ -15,7 +15,7 @@ source ./.github/scripts/Common_Library.sh
 # java_path=$(which jar)
 java_home_path=${java_path:-$JAVA_HOME_17_X64/bin/jar}
 
-# home_path=$HOME/workspace/Project-Efina/ModsTranslationPack/test/MultiVersions/Override/
+# home_path=~/workspace/GitHub/xMikux/ModsTranslationPack
 home_path=$GITHUB_WORKSPACE/MultiVersions/Override/
 
 if [ ! -d "$home_path" ]; then
