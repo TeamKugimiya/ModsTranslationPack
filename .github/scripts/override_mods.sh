@@ -379,7 +379,7 @@ license_downloader "DynamicFPS" "https://raw.githubusercontent.com/juliand665/Dy
 main_override 1 "CoFHCore" "https://raw.githubusercontent.com/Jimmy-sheep/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json" "cofh_core" 
 
 ## ThermalFoundation (Guide)
-main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalFoundation/1.18.2/src/main/resources/assets/thermal/lang/zh_tw.json" "thermal" 
+main_override 1 "ThermalFoundation" "https://raw.githubusercontent.com/Jimmy-sheep/ThermalCore/1.19.x/src/main/resources/assets/thermal/lang/zh_tw.json" "thermal" 
 main_override 6 "ThermalFoundation Patchouli" "https://github.com/Jimmy-sheep/ThermalFoundation.git" "thermal" "1.18.2" "src/main/resources/data/thermal/patchouli_books/guidebook/zh_tw" "patchouli_books/guide"
 
 ## Alchemistry
