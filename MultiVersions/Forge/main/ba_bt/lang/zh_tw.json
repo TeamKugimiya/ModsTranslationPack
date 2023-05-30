@@ -1,0 +1,207 @@
+{
+	"itemGroup.ba_bt": "BrassAmber 戰鬥高塔",
+	"block.ba_bt.tab_icon": "BrassAmber 戰鬥高塔",
+
+	// Entities
+	"entity.ba_bt.land_golem": "巴赫林姆，被埋葬的守衛者",
+	"entity.ba_bt.ocean_golem": "莫雷佐恩，深海巨像",
+	"entity.ba_bt.core_golem": "奧布杜林，核心之神",
+	"entity.ba_bt.nether_golem": "弗特拉恩，主宰烈焰",
+	"entity.ba_bt.end_golem": "舒洛斯尼爾，扭曲守護者",
+	"entity.ba_bt.sky_golem": "維茲克林, 天域女神",
+
+	"entity.ba_bt.sky_minion": "天域僕從",
+	"entity.ba_bt.platinum_skeleton": "白金騎士",
+	"entity.ba_bt.bt_cultist": "邪教徒",
+
+	"entity.ba_bt.land_monolith": "大陸石碑",
+	"entity.ba_bt.ocean_monolith": "海洋石碑",
+	"entity.ba_bt.core_monolith": "核心石碑",
+	"entity.ba_bt.nether_monolith": "地獄石碑",
+	"entity.ba_bt.end_monolith": "終界石碑",
+	"entity.ba_bt.sky_monolith": "天域石碑",
+
+	"entity.ba_bt.land_obelisk": "大陸方尖碑",
+	"entity.ba_bt.ocean_obelisk": "海洋方尖碑",
+	"entity.ba_bt.core_obelisk": "核心方尖碑",
+	"entity.ba_bt.nether_obelisk": "地獄方尖碑",
+	"entity.ba_bt.end_obelisk": "終界方尖碑",
+	"entity.ba_bt.sky_obelisk": "天域方尖碑",
+
+	"entity.ba_bt.destroy_tower": "摧毀的高塔",
+
+	// Golem Sounds
+	"ba_bt.subtitle.golem.hurt": "魔像受傷",
+	"ba_bt.subtitle.golem.death": "魔像死亡",
+	"ba_bt.subtitle.golem.charge": "魔像充能",
+	"ba_bt.subtitle.golem.awaken": "魔像甦醒",
+	"ba_bt.subtitle.golem.ambient": "魔像咆嘯",
+	"ba_bt.subtitle.golem.special": "魔像攻擊",
+
+	"ba_bt.subtitle.golem.land.fight": "巴赫林姆 Boss 音樂",
+
+	"ba_bt.subtitle.monolith.spawn.golem": "魔像開始生成",
+
+	"ba_bt.subtitle.tower.break.start": "高塔開始崩塌",
+	"ba_bt.subtitle.tower.break.crumble": "高塔崩塌",
+	"ba_bt.subtitle.tower.ambient.music.land": "大陸高塔環境音樂",
+	"ba_bt.subtitle.tower.ambient.music.ocean": "海洋高塔環境音樂",
+	"ba_bt.subtitle.tower.ambient.music.core": "核心高塔環境音樂",
+	"ba_bt.subtitle.tower.ambient.music.nether": "地獄高塔環境音樂",
+	"ba_bt.subtitle.tower.ambient.music.end": "終界高塔環境音樂",
+	"ba_bt.subtitle.tower.ambient.music.sky": "天域高塔環境音樂",
+	"ba_bt.subtitle.tower.ambient.music.city": "復興都市環境音樂",
+
+	// Blocks
+	"block.ba_bt.land_golem_chest": "巴赫林姆之箱",
+	"block.ba_bt.land_chest": "大陸寶箱",
+
+	"block.ba_bt.ocean_golem_chest": "莫雷佐恩之箱",
+	"block.ba_bt.ocean_chest": "海洋寶箱",
+
+	"block.ba_bt.platinum_block": "白金方塊",
+	"block.ba_bt.platinum_tiles": "白金磚瓦",
+
+	"block.ba_bt.bt_land_spawner" : "大陸生怪磚",
+	"block.ba_bt.bt_ocean_spawner" : "海洋生怪磚",
+	"block.ba_bt.bt_core_spawner" : "核心生怪磚",
+	"block.ba_bt.bt_nether_spawner" : "地獄生怪磚",
+	"block.ba_bt.bt_end_spawner" : "終界生怪磚",
+	"block.ba_bt.bt_sky_spawner" : "天域生怪磚",
+
+	// Containers
+	"container.ba_bt.land_golem_chest": "巴赫林姆之箱",
+	"container.ba_bt.land_golem_chest_double": "大型巴赫林姆之箱",
+	"container.ba_bt.land_chest": "大陸寶箱",
+	"container.ba_bt.land_chest_double": "大型大陸寶箱",
+
+	"container.ba_bt.tower_chest.isLocked": "將該樓層的生怪磚都摧毀時解鎖",
+	
+	"container.ba_bt.ocean_golem_chest": "莫雷佐恩之箱",
+	"container.ba_bt.ocean_golem_chest_double": "大型莫雷佐恩之箱",
+	"container.ba_bt.ocean_chest": "海洋寶箱",
+	"container.ba_bt.ocean_chest_double": "大型海洋寶箱",
+
+	// Items
+	"item.ba_bt.monolith_key_land": "大陸石碑之鑰",
+	"item.ba_bt.monolith_key_ocean": "海洋石碑之鑰",
+	"item.ba_bt.monolith_key_core": "核心石碑之鑰",
+	"item.ba_bt.monolith_key_nether": "地獄石碑之鑰",
+	"item.ba_bt.monolith_key_end": "終界石碑之鑰",
+	"item.ba_bt.monolith_key_sky": "天域石碑之鑰",
+
+	"item.ba_bt.guardian_eye_land": "巴赫林姆之眼",
+	"item.ba_bt.guardian_eye_ocean": "莫雷佐恩之眼",
+	"item.ba_bt.guardian_eye_core": "奧布杜林之眼",
+	"item.ba_bt.guardian_eye_nether": "弗特拉恩之眼",
+	"item.ba_bt.guardian_eye_end": "舒洛斯尼爾之眼",
+	"item.ba_bt.guardian_eye_sky": "維茲克林之眼",
+
+	"item.ba_bt.monolith_land": "大陸石碑",
+	"item.ba_bt.monolith_ocean": "海洋石碑",
+	"item.ba_bt.monolith_core": "核心石碑",
+	"item.ba_bt.monolith_nether": "地獄石碑",
+	"item.ba_bt.monolith_end": "終界石碑",
+	"item.ba_bt.monolith_sky": "天域石碑",
+
+	"item.ba_bt.platinum_ingot": "白金錠",
+	"item.ba_bt.platinum_shard": "白金碎片",
+	"item.ba_bt.platinum_sword": "白金劍",
+
+	"item.ba_bt.platinum_helmet": "白金頭盔",
+	"item.ba_bt.platinum_chestplate": "白金胸甲",
+	"item.ba_bt.platinum_leggings": "白金護腿",
+	"item.ba_bt.platinum_boots": "白金靴子",
+
+	"item.ba_bt.land_chest_shard": "大陸寶箱碎片",
+	"item.ba_bt.ocean_chest_shard": "海洋寶箱碎片",
+
+	"item.ba_bt.platinum_skeleton_spawn_egg": "白金騎士 生怪蛋",
+
+	"item.ba_bt.bt_land_resonance_stone": "大陸共鳴石",
+	"item.ba_bt.bt_ocean_resonance_stone": "海洋共鳴石",
+	"item.ba_bt.bt_core_resonance_stone": "核心共鳴石",
+	"item.ba_bt.bt_nether_resonance_stone": "地獄共鳴石",
+	"item.ba_bt.bt_end_resonance_stone": "終界共鳴石",
+	"item.ba_bt.bt_sky_resonance_stone": "天域共鳴石",
+	"item.ba_bt.bt_city_resonance_stone": "城市共鳴石",
+
+	// Effects
+	"effect.ba_bt.depth_dropper_effect": "深潛",
+
+	// Enchantments
+	"enchantment.ba_bt.depth_dropper": "深潛",
+
+	// Item Tooltips
+	"tooltip.ba_bt.hold_shift": "按住 §eSHIFT§r 取得更多資訊。",
+	"tooltip.ba_bt.monolith_key": "希望你知道自己在做些什麼..",
+	"tooltip.ba_bt.tower_chest": "將高塔所在樓層的生怪磚摧毀完畢時解鎖",
+	"tooltip.ba_bt.golem_chest": "與守衛者的生命動能有著緊密的聯繫",
+
+	"tooltip.ba_bt.monolith_land": "守衛者被監禁於此！",
+	"tooltip.ba_bt.monolith_ocean": "一頭猛獸在其中靜靜等待著......",
+	"tooltip.ba_bt.monolith_core": "神明正等待著愚者到訪...",
+	"tooltip.ba_bt.monolith_nether": "暴君慵懶地在裡頭沉睡...",
+	"tooltip.ba_bt.monolith_end": "守衛者正在裡面冥想...",
+	"tooltip.ba_bt.monolith_sky": "女神正注視著你...",
+
+	"tooltip.ba_bt.eye_hold_shift": "按住 §eSHIFT§r 閱讀守衛者的遺言",
+	"tooltip.ba_bt.land_eye": "瓦尤斯，高塔被攻陷了...",
+	"tooltip.ba_bt.ocean_eye": "頌讚虛空吧...頌讚我...",
+	"tooltip.ba_bt.core_eye": "已經沒有什麼可以阻止他們了..",
+	"tooltip.ba_bt.nether_eye": "我會讓你在我的地牢中腐朽！...",
+	"tooltip.ba_bt.end_eye": "她透過維度裂縫君臨了...",
+	"tooltip.ba_bt.sky_eye": "我讓您失望了，瓦尤斯大人... ",
+
+	"item.ba_bt.bt_land_resonance_stone.desc": "Lena Raine: Ancestry",
+	"item.ba_bt.bt_ocean_resonance_stone.desc": "DM DOKURO: Void",
+	"item.ba_bt.bt_core_resonance_stone.desc": "Lena Raine: So Below",
+	"item.ba_bt.bt_nether_resonance_stone.desc": "FHP: Pigstep Cinematic Remix",
+	"item.ba_bt.bt_end_resonance_stone.desc": "LudoCrypt: Complex Radiation",
+	"item.ba_bt.bt_sky_resonance_stone.desc": "Emile van Kreiken: Clouds",
+	"item.ba_bt.bt_city_resonance_stone.desc": "Lena Raine: Labyrinthine",
+
+	// Overscreen titles
+	"title.ba_bt.land": "巴赫林姆，大陸守衛",
+	"title.ba_bt.ocean": "莫雷佐恩，海洋守衛",
+	"title.ba_bt.core": "奧布杜林，核心之神",
+	"title.ba_bt.nether": "弗特拉恩，地獄主宰",
+	"title.ba_bt.end": "舒洛斯尼爾，終界守衛",
+	"title.ba_bt.sky": "維茲克林，天域女神",
+
+	"title.ba_bt.guardian_defeated_1": " 已被擊敗",
+
+	"title.ba_bt.land_defeated_2": "在失去守衛者的力量之後...",
+	"title.ba_bt.land_defeated_3": "...這座高塔將開始崩塌...",
+
+	"title.ba_bt.ocean_defeated_2": "巨像已回到虛空之中...",
+	"title.ba_bt.ocean_defeated_3": "...地面開始崩裂...",
+
+	"title.ba_bt.core_defeated_2": "在失去神的容器之後...",
+	"title.ba_bt.core_defeated_3": "...周圍的牆壁開始熔解...",
+
+	"title.ba_bt.nether_defeated_2": "在脫離暴君的掌控之後...",
+	"title.ba_bt.nether_defeated_3": "...高塔將再次繁榮...",
+
+	"title.ba_bt.end_defeated_2": "即便被擊敗卻未被完全摧毀...",
+	"title.ba_bt.end_defeated_3": "...腳下的立足點正在一點一滴的消逝...",
+
+	"title.ba_bt.sky_defeated_2": "女神被擊敗了...",
+	"title.ba_bt.sky_defeated_3": "...塔化為薄霧開始消散...",
+
+	// Advancements
+	"advancements.ba_bt.battle_tower.title": "戰鬥高塔",
+	"advancements.ba_bt.battle_tower.description": "戰鬥高塔",
+	"advancements.ba_bt.land_tower_found.title": "展開試煉",
+	"advancements.ba_bt.land_tower_found.description": "找到一座源自古代的戰鬥高塔",
+	"advancements.ba_bt.find_land_key.title": "遠古能量的關鍵...",
+	"advancements.ba_bt.find_land_key.description": "-找到一把石碑之鑰",
+	"advancements.ba_bt.kill_land_golem.title": "海洋深處開始翻湧...",
+	"advancements.ba_bt.kill_land_golem.description": "-摧毀巴赫林姆，被埋葬的守衛者",
+	"advancements.ba_bt.ocean_tower_found.title": "注意腳下",
+	"advancements.ba_bt.ocean_tower_found.description": "-墜入深淵海溝",
+	"advancements.ba_bt.find_ocean_key.title": "水下之秘...",
+	"advancements.ba_bt.find_ocean_key.description": "-找到海洋石碑之鑰",
+	"advancements.ba_bt.kill_ocean_golem.title": "位於某處核心開始躁動...",
+	"advancements.ba_bt.kill_ocean_golem.description": "-摧毀莫雷佐恩，深海巨像"
+}
