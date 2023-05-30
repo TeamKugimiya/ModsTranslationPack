@@ -13,7 +13,7 @@
 	"keys.nyfsquiver.openquiver": "開啟裝備的箭袋",
 	"nyfsquiver.quivers.info.one": "可儲存 %d 組物品",
 	"nyfsquiver.quivers.info.two": "可透過「%s」鍵開啟",
-	"nyfsquiver.quivers.info.inventory_index": "容器 id：%d",
+	"nyfsquiver.quivers.info.inventory_index": "容器 ID：%d",
 	"curios.identifier.quiver": "箭袋",
 	"enchantment.nyfsquiver.meld_enchant": "物人合一",
 	"enchantment.nyfsquiver.meld_enchant.desc": "玩家隱形時，身上的物品也會一同隱形",
