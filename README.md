@@ -148,7 +148,17 @@
             <br />
             <sub><b>菘菘</b></sub>
         </a>
-    </td></tr>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/Jeffku0107">
+            <img src="https://avatars.githubusercontent.com/u/76643322?v=4" width="100;" alt="Jeffku0107"/>
+            <br />
+            <sub><b>旺財</b></sub>
+        </a>
+    </td>
+</tr>
 </table>
 
 <!-- 徽章 -->
