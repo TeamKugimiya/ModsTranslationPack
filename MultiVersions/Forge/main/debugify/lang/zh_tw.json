@@ -42,7 +42,7 @@
   "debugify.fix_effect.mc-159163": "這將防止用戶端與伺服器同步姿勢資料，僅讓用戶端決定姿勢。",
   "debugify.fix_explanation.mc-162253": "在進入另一個區塊時停止用戶端進行光源更新。",
   "debugify.fix_explanation.mc-165381": "當用戶丟出物品時，取消破壞方塊。",
-  "debugify.fix_explanation.mc_176559": "在檢查是否重置方塊破壞進度時，不對耐久度的變化進行判斷。",
+  "debugify.fix_explanation.mc-176559": "在檢查是否重置方塊破壞進度時，不對耐久度的變化進行判斷。",
   "debugify.fix_explanation.mc-197260": "覆寫繪製光源通過盔甲座的最大值：在盔甲座下方的方塊、盔甲座底部和盔甲座頂部和更上方的方塊。",
   "debugify.fix_explanation.mc-237493": "新增一個選項在遙測資料收集選單中，能夠完整關閉遙測資料收集。透過覆寫所有發送的遙測事件為空來停用遙測，這也等於沒有傳送任何東西。",
 
