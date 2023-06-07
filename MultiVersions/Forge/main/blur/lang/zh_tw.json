@@ -1,12 +1,15 @@
 {
   "blur.midnightconfig.title": "Blur 設定",
+  "blur.midnightconfig.category.style": "樣式",
+  "blur.midnightconfig.category.screens": "畫面",
   "blur.midnightconfig.blurExclusions": "Blur 排除",
-  "blur.midnightconfig.fadeTimeMillis": "淡出時間（以毫秒為單位）",
+  "blur.midnightconfig.fadeTimeMillis": "淡入時間（以毫秒為單位）",
+  "blur.midnightconfig.fadeOutTimeMillis": "淡出時間（以毫秒為單位）",
   "blur.midnightconfig.ease": "舒適動畫",
   "blur.midnightconfig.radius": "範圍",
   "blur.midnightconfig.gradientStart": "漸層的起初顏色",
   "blur.midnightconfig.gradientEnd": "漸層的結束顏色",
-  "blur.midnightconfig.gradientStartAlpha": "漸層的起初 Alpha",
-  "blur.midnightconfig.gradientEndAlpha": "漸層的結束 Alpha",
-  "blur.midnightconfig.showScreenTitle": "顯示在標題畫面"
+  "blur.midnightconfig.gradientStartAlpha": "漸層的起初不透明度",
+  "blur.midnightconfig.gradientEndAlpha": "漸層的結束不透明度",
+  "blur.midnightconfig.showScreenTitle": "記錄在標題畫面"
 }
