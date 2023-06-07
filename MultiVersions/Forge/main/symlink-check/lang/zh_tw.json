@@ -1,6 +1,6 @@
 {
   "symlink_check.gui.copy_link_to_clipboard": "複製連結至剪貼簿",
   "symlink_warning.title": "世界資料夾包含符號連結",
-  "symlink_warning.message": "如果你不知道你正在做什麼的話，載入來自符號連結的世界資料夾可能會導致不安全。請查看 %s 來了解更多。",
+  "symlink_warning.message": "如果你不確定自己正在做什麼的話，從具有符號連結的資料夾載入世界可能是不安全的。請查看 %s 來了解更多資訊。",
   "symlink_check.date_format.null": "未知時間"
 }
