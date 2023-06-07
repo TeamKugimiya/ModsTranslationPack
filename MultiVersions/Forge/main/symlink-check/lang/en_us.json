@@ -1,0 +1,6 @@
+{
+  "symlink_check.gui.copy_link_to_clipboard": "Copy Link to Clipboard",
+  "symlink_warning.title": "World folder contains symbolic links",
+  "symlink_warning.message": "Loading worlds from folders with symbolic links can be unsafe if you don't know exactly what you are doing. Please visit %s to learn more.",
+  "symlink_check.date_format.null": "Unknown time"
+}
