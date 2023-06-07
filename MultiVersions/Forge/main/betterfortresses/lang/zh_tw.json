@@ -1,0 +1,6 @@
+{
+  "Use /locate structure betterfortresses:fortress instead!": "請改為使用 /locate structure betterfortresses:fortress！",
+  "text.autoconfig.betterfortresses-fabric-1_19_4.title": "YUNG 的更好地獄要塞",
+  "text.autoconfig.betterfortresses-fabric-1_19_4.option.general.disableVanillaFortresses": "停用原版地獄要塞",
+  "text.autoconfig.betterfortresses-fabric-1_19_4.option.general.disableVanillaFortresses.@Tooltip": "是否停用原版的地獄要塞生成。"
+}
