@@ -53,7 +53,7 @@
   "debugify.fix_explanation.mc-69216": "在切換成觀察者模式時捨棄釣竿的魚鉤。",
   "debugify.fix_explanation.mc-72151": "狼會有自訂函數來編輯修改所受到的傷害，將輸入傷害從 0 轉換為 0.5，這將修復檢查如果傷害為 0.5 時更改回 0。",
   "debugify.fix_explanation.mc-88371": "如我中間的停留點已被摧毀，將把龍的降落點固定於 Y 65。",
-  "debugify.fix_explanation.mc-89146": "提供一種更嚴格的儲存 Tile 實體的方式，來符合更新順序，這將允許初始化更新 Tile 實體時有正確的順序。",
+  "debugify.fix_explanation.mc-89146": "提供一種更嚴格的儲存方塊實體的方式，來符合更新順序，這將允許初始化更新方塊實體時有正確的順序。",
   "debugify.fix_explanation.mc-93018": "只有在狼是已馴服狀態下初始化繁殖過程。",
   "debugify.fix_explanation.mc-100991": "告知傷害追蹤器，拋出釣竿時對實體造成了 0 點傷害，就像是雪球一樣。",
   "debugify.fix_explanation.mc-119417": "防止玩家在睡覺時切換成觀察者模式。",
