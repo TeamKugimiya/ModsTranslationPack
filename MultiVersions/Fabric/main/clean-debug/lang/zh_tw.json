@@ -1,0 +1,33 @@
+{
+  "clean-debug.midnightconfig.title": "Clean F3 設定",
+  "clean-debug.midnightconfig.vanillaCategory": "原版",
+  "clean-debug.midnightconfig.hideTags": "隱藏標籤",
+  "clean-debug.midnightconfig.hideTags.tooltip": "隱藏你所看著的方塊標籤。",
+  "clean-debug.midnightconfig.hardwareMode": "硬體模式",
+  "clean-debug.midnightconfig.hardwareMode.tooltip": "「所有」顯示所有有關於你電腦的資訊，「簡化」僅顯示記憶體使用量，「無」則隱藏所有資訊。",
+  "clean-debug.midnightconfig.enum.HardwareMode.ALL": "所有",
+  "clean-debug.midnightconfig.enum.HardwareMode.REDUCED": "簡化",
+  "clean-debug.midnightconfig.enum.HardwareMode.NONE": "無",
+  "clean-debug.midnightconfig.hideActiveRenderer": "隱藏啟用中的顯示器",
+  "clean-debug.midnightconfig.hideActiveRenderer.tooltip": "就如同標題說的那樣。",
+  "clean-debug.midnightconfig.hideDebugHints": "隱藏除錯資訊提示",
+  "clean-debug.midnightconfig.hideDebugHints.tooltip": "隱藏除錯圓形圖與 TPS 圖形等提示。",
+  "clean-debug.midnightconfig.shyFluids": "含水方塊流體資訊",
+  "clean-debug.midnightconfig.shyFluids.tooltip": "當方塊實際包含流體時，才顯示有關流體的資訊。",
+  "clean-debug.midnightconfig.hideHelpShortcut": "隱藏幫助快速鍵",
+  "clean-debug.midnightconfig.hideHelpShortcut.tooltip": "隱藏「Press F3 + Q for help」的快速鍵資訊。",
+
+  "clean-debug.midnightconfig.modsCategory": "模組",
+  "clean-debug.midnightconfig.hideSodium": "隱藏 Sodium 的除錯資訊",
+  "clean-debug.midnightconfig.hideSodium.tooltip": "隱藏一些由 Sodium 新增於除錯畫面中的資訊。",
+  "clean-debug.midnightconfig.hideIris": "隱藏 Iris 的除錯資訊",
+  "clean-debug.midnightconfig.hideIris.tooltip": "隱藏一些由 Iris 新增於除錯畫面的資訊。",
+  "clean-debug.midnightconfig.hideLitematica": "隱藏 Litematica 的除錯資訊",
+  "clean-debug.midnightconfig.hideEntityCulling": "隱藏 EntityCulling 的除錯資訊",
+  "clean-debug.midnightconfig.hideViaFabric": "隱藏 ViaFabric 的除錯資訊",
+  "clean-debug.midnightconfig.hidePresenceFootsteps": "隱藏 Presence Footstep 的除錯資訊",
+  "clean-debug.midnightconfig.hideDistantHorizons": "隱藏 Distant Horizons 的除錯資訊",
+
+  "modmenu.descriptionTranslation.clean-debug": "從除錯畫面中移除無用的資訊。",
+  "modmenu.summaryTranslation.clean-debug": "讓你可以自訂想在 F3 畫面上看到的資訊。"
+}
