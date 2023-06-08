@@ -1,5 +1,5 @@
 {
-  "clean-debug.midnightconfig.title": "乾淨 F3 設定",
+  "clean-debug.midnightconfig.title": "Clean F3 設定",
   "clean-debug.midnightconfig.vanillaCategory": "原版",
   "clean-debug.midnightconfig.hideTags": "隱藏標籤",
   "clean-debug.midnightconfig.hideTags.tooltip": "隱藏你所看著的方塊標籤。",
@@ -11,11 +11,11 @@
   "clean-debug.midnightconfig.hideActiveRenderer": "隱藏活躍繪製數",
   "clean-debug.midnightconfig.hideActiveRenderer.tooltip": "本身就解釋了。",
   "clean-debug.midnightconfig.hideDebugHints": "隱藏除錯資訊提示",
-  "clean-debug.midnightconfig.hideDebugHints.tooltip": "隱藏除錯的提示對於除錯圓餅圖與 TPS 圖形。",
-  "clean-debug.midnightconfig.shyFluids": "閃亮液體資訊",
-  "clean-debug.midnightconfig.shyFluids.tooltip": "當方塊實際包含液體時，才顯示有關於液體的資訊。",
+  "clean-debug.midnightconfig.hideDebugHints.tooltip": "隱藏除錯圓形圖與 TPS 圖形等提示。",
+  "clean-debug.midnightconfig.shyFluids": "含水方塊流體資訊",
+  "clean-debug.midnightconfig.shyFluids.tooltip": "當方塊實際包含流體時，才顯示有關流體的資訊。",
   "clean-debug.midnightconfig.hideHelpShortcut": "隱藏幫助快速鍵",
-  "clean-debug.midnightconfig.hideHelpShortcut.tooltip": "隱藏顯示「Press F3 + Q for help」的快捷鍵資訊。",
+  "clean-debug.midnightconfig.hideHelpShortcut.tooltip": "隱藏「Press F3 + Q for help」的快速鍵資訊。",
 
   "clean-debug.midnightconfig.modsCategory": "模組",
   "clean-debug.midnightconfig.hideSodium": "隱藏 Sodium 的除錯資訊",
@@ -29,5 +29,5 @@
   "clean-debug.midnightconfig.hideDistantHorizons": "隱藏 Distant Horizons 的除錯資訊",
 
   "modmenu.descriptionTranslation.clean-debug": "從除錯畫面中移除無用的資訊。",
-  "modmenu.summaryTranslation.clean-debug": "允許你可以自訂你所想看到在 F3 畫面上顯示的東西。"
+  "modmenu.summaryTranslation.clean-debug": "讓你可以自訂想在 F3 畫面上看到的資訊。"
 }
