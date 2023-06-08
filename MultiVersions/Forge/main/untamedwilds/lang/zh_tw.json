@@ -1,9 +1,9 @@
 {
   "itemGroup.untamedwilds_items": "未馴荒野",
-  "entity.untamedwilds.command.0": "This mob is now Wandering",
-  "entity.untamedwilds.command.1": "This mob is now Protecting you",
-  "entity.untamedwilds.command.2": "This mob is now Sitting",
-  "entity.untamedwilds.command.3": "This mob is now Guarding the area",
+  "entity.untamedwilds.command.0": "這隻生物正在流浪",
+  "entity.untamedwilds.command.1": "這隻生物正在保護你",
+  "entity.untamedwilds.command.2": "這隻生物正在坐著待命",
+  "entity.untamedwilds.command.3": "這隻生物正在守衛該區域",
 
   "item.untamedwilds.hippo_spawn_egg": "河馬 生怪蛋",
   "item.untamedwilds.food_pachyderm_raw": "生厚皮動物肉",
