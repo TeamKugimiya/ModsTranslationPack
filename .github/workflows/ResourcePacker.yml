@@ -80,7 +80,7 @@ jobs:
           .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
 
       - name: Make ModsTranslationPack
-        uses: ComunidadAylas/PackSquash-action@master
+        uses: ComunidadAylas/PackSquash-action@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           force_include_files: |
