@@ -105,8 +105,8 @@
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.enabled.@Tooltip": "是否生成小型地獄地牢。",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls": "從生怪磚生出的凋零骷髏掉落頭顱",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls.@Tooltip": "是否讓從小型地獄地牢中的生怪磚，所生成的凋零骷髏可以掉落頭顱。",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls.@Tooltip": "是否讓小型地獄地牢中的生怪磚，生成的凋零骷髏可以掉落頭顱。",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods": "從生怪磚生出的烈焰使者掉落烈焰桿",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods.@Tooltip": "是否讓從小型地獄地牢中的生怪磚，所生成的烈焰使者可以掉落烈焰桿。"
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods.@Tooltip": "是否讓小型地獄地牢中的生怪磚，生成的烈焰使者可以掉落烈焰桿。"
 }
