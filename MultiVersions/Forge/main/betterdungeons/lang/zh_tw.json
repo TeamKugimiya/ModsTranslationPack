@@ -42,7 +42,7 @@
   "betterdungeons.advancements.zombie_dungeon.description": "一腳踏入地下墓穴",
   "Set foot in a Catacomb": "一腳踏入地下墓穴",
 
-  "A Special Addition": "特別附加",
+  "A Special Addition": "特別追加",
   "Find a Small Nether Dungeon": "找到小型地獄地牢",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.title": "YUNG 的更好地牢",
@@ -64,11 +64,11 @@
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.enableHeads.@Tooltip[2]": "預設：true",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.removeVanillaDungeons": "移除原版地牢",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.removeVanillaDungeons.@Tooltip[0]": "是否防止在世界上生成原版地牢。",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.removeVanillaDungeons.@Tooltip[1]": "推薦停用原版地牢，因為小型地牢已經有非常像似的設計。",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.removeVanillaDungeons.@Tooltip[0]": "是否防止原版地牢在世界上生成。",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.removeVanillaDungeons.@Tooltip[1]": "推薦停用原版地牢，因為小型地牢已經有非常相似的設計。",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.removeVanillaDungeons.@Tooltip[2]": "預設：true",
 
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.enableNetherBlocks": "啟用地獄方塊在地牢中",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.enableNetherBlocks": "啟用地獄方塊在地牢中生成",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.enableNetherBlocks.@Tooltip[0]": "一些地牢會生成少量地獄相關的方塊，例如靈魂砂、靈魂營火和靈魂燈籠。",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.enableNetherBlocks.@Tooltip[1]": "這些方塊是純粹的裝飾用途，不會有進度破壞的問題（例如遠古遺骸）",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.general.enableNetherBlocks.@Tooltip[2]": "設定到 false 將防止任何地獄相關的方塊生成於地牢。",
@@ -81,32 +81,32 @@
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.zombieDungeon.zombieDungeonMaxSurfaceStaircaseLength.@Tooltip[2]": "預設：20",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.bannerMaxCount": "小型地牢最大旗幟數量",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.bannerMaxCount.@Tooltip[0]": "最大旗幟數量可以在單個小型地牢中生成。",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.bannerMaxCount.@Tooltip[0]": "可以在單個小型地牢中生成的最大旗幟數量。",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.bannerMaxCount.@Tooltip[1]": "預設：2",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.chestMinCount": "小型地牢最小儲物箱數量",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.chestMinCount.@Tooltip[0]": "最小儲物箱保證數量可以在單個小型地牢中生成。",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.chestMinCount.@Tooltip[0]": "可以在單個小型地牢中生成的最小儲物箱保證數量。",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.chestMinCount.@Tooltip[1]": "預設：1",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.chestMaxCount": "小型地牢最大儲物箱數量",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.chestMaxCount.@Tooltip[0]": "最大儲物箱保證數量可以在單個小型地牢中生成。",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.chestMaxCount.@Tooltip[0]": "可以在單個小型地牢中生成的最大儲物箱保證數量。",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.chestMaxCount.@Tooltip[1]": "預設：2",
 
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.enableOreProps": "允許礦物方塊在角落",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.enableOreProps.@Tooltip[0]": "是否在小型地牢角落能放少量的礦物。",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.enableOreProps": "允許礦物方塊生成在角落",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.enableOreProps.@Tooltip[0]": "是否在小型地牢角落生成少量的礦物。",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.enableOreProps.@Tooltip[1]": "如果設定為 false，任何角落生成的裝飾用礦物將會被用空氣替換。",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallDungeon.enableOreProps.@Tooltip[2]": "預設：true",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.bannerMaxCount": "小型地獄地牢最大旗幟數量",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.bannerMaxCount.@Tooltip[0]": "最大旗幟數量可以在單個小型地獄地牢中生成。",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.bannerMaxCount.@Tooltip[0]": "可以在單個小型地獄地牢中生成的最大旗幟數量。",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.bannerMaxCount.@Tooltip[1]": "預設：2",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.enabled": "啟用小型地獄地牢",
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.enabled.@Tooltip": "是否生成小型地獄地牢。",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls": "從生怪磚生出的凋零骷髏掉落頭顱",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls.@Tooltip": "是否讓從小型地獄地牢中生怪磚所生成的凋零骷髏可以掉頭。",
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls.@Tooltip": "是否讓從小型地獄地牢中的生怪磚，所生成的凋零骷髏可以掉落頭顱。",
 
   "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods": "從生怪磚生出的烈焰使者掉落烈焰桿",
-  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods.@Tooltip": "是否讓從小型地獄地牢中生怪磚所生成的烈焰使者可以掉烈焰桿。"
+  "text.autoconfig.betterdungeons-fabric-1_19_4.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods.@Tooltip": "是否讓從小型地獄地牢中的生怪磚，所生成的烈焰使者可以掉落烈焰桿。"
 }
