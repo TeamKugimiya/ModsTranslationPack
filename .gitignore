@@ -4,3 +4,6 @@ test/
 pack/
 docs/Minecraft-Lang
 SimplePusher.sh
+
+# Ignore Python lock
+Pipfile.lock

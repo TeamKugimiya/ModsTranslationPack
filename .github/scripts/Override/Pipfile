@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+mediafire-dl = {git = "https://github.com/Juvenal-Yescas/mediafire-dl"}
+six = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

@@ -1,0 +1,202 @@
+{
+    "lists": [
+        {
+            "modName": "Productive Bees",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "extractType": "Mods-With-Guide",
+            "guidePaths": [
+                "data/productivebees/patchouli_books/guide/zh_tw",
+                "data/productivebees/patchouli_books/guide/book.json"
+            ],
+            "guideSave": "patchouli_books/guide",
+            "url": "https://www.mediafire.com/file/ecgb8mpdcvpesid/productivebees-1.19.4-11.6.2-tw.jar"
+        },
+        {
+            "modName": "Tinkers' Construct",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "extractType": "Mods-With-Guide",
+            "guidePaths": [
+                "assets/tconstruct/book/tinkers_gadgetry/zh_tw",
+                "assets/tconstruct/book/puny_smelting/zh_tw",
+                "assets/tconstruct/book/mighty_smelting/zh_tw",
+                "assets/tconstruct/book/materials_and_you/zh_tw",
+                "assets/tconstruct/book/fantastic_foundry/zh_tw",
+                "assets/tconstruct/book/encyclopedia/zh_tw"
+            ],
+            "guideSave": "book/",
+            "specialCopy": "True",
+            "url": "https://www.mediafire.com/file/05bcpumv5w7kas6/TConstruct-1.18.2-3.6.4.113-tw.jar"
+        },
+        {
+            "modName": "Immersive Engineering",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "extractType": "ExtractAll",
+            "url": "https://www.mediafire.com/file/o5fqhaiqh72p0yd/IE沉浸工程漢化v1.1.zip"
+        },
+        {
+            "modName": "Macaw's Fences and Wall",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/18c97py5agr0g5j/mcw-fences-1.0.7-mc1.19.3forge-tw.jar"
+        },
+        {
+            "modName": "Macaw's Bridges",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/f508an5jjm6m4u1/mcw-bridges-2.0.6-mc1.19.3forge-tw.jar"
+        },
+        {
+            "modName": "Macaw's Trapdoors",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/llwehuk3pnimwbd/mcw-trapdoors-1.0.8-mc1.19.3forge-tw.jar"
+        },
+        {
+            "modName": "Macaw's Doors",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/l2w28giuz21xi7u/mcw-doors-1.0.8forge-mc1.19.3-tw.jar"
+        },
+        {
+            "modName": "Macaw's Roofs",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/qbihy542fkdcug9/mcw-roofs-2.2.2-mc1.19.2forge-tw.jar"
+        },
+        {
+            "modName": "Macaw's Furniture",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/zjeupxm0chjraj5/mcw-furniture-3.1.0-mc1.19.3forge-tw.jar"
+        },
+        {
+            "modName": "Macaw's Windows",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/hpi4bs41vnwh4wk/mcw-windows-2.1.1-mc1.19.2forge-tw.jar"
+        },
+
+        {
+            "modName": "Simply Light",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/vcozdmfxucxdfn1/simplylight-1.19.3-1.4.5-build.46-tw.jar"
+        },
+        {
+            "modName": "Supplementaries",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/dss3glkg7jx2rgu/supplementaries-1.19.2-2.3.10-tw.jar"
+        },
+        {
+            "modName": "MrCrayfish's Furniture Mod",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/pbc5acrqqo7ab7d/cfm-7.0.0-pre35-1.19.3-tw.jar"
+        },
+        {
+            "modName": "Cooking for Blockheads",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/02gfa9vvzcwyv08/cookingforblockheads-forge-1.19.4-15.0.1-tw.jar"
+        },
+        {
+            "modName": "Xaero's World Map",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/wx9s80s7y5lcx1l/XaerosWorldMap_1.30.3_Forge_1.20-tw.jar"
+        },
+        {
+            "modName": "Xaero's Minimap",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/620hmbyh05wk8bj/Xaeros_Minimap_23.4.4_Forge_1.20-tw.jar"
+        },
+        {
+            "modName": "The Twilight Forest",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/ybblcl7s63bv32u/twilightforest-1.19.2-4.2.1518-universal-tw.jar"
+        },
+        {
+            "modName": "Quark",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/dome5ibx6q984jl/Quark-3.4-394-1.19.2-tw.jar"
+        },
+        {
+            "modName": "BetterNether",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/u498bcn5qbeg9fu/better-nether-8.1.3-1.19.3-tw.jar"
+        },
+        {
+            "modName": "BetterEnd",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/73jzabu4pfz5ty9/better-end-3.1.2-1.19.3-tw.jar"
+        },
+        {
+            "modName": "BCLib",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/hnfxxw9loifj3en/bclib-2.2.4-1.19.3-tw.jar"
+        },
+        {
+            "modName": "JourneyMap",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/3nxoqh9o3jhcazm/journeymap-1.20.0-5.9.7-forge-tw.jar"
+        },
+        {
+            "modName": "Fairy Lights",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://www.mediafire.com/file/h6xs9hn3dt2gfjq/fairylights-6.0.0-1.19.2-tw.jar"
+        },
+        {
+            "modName": "Dynamic FPS",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "licenseURL": "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/LICENSE",
+            "url": "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json"
+        },
+        {
+            "modName": "CoFHCore",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://raw.githubusercontent.com/Jimmy-sheep/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json"
+        },
+        {
+            "modName": "ThermalFoundation",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "extractType": "Mods-With-Guide-Git",
+            "guidePaths": [
+                "src/main/resources/data/thermal/patchouli_books/guidebook/zh_tw"
+            ],
+            "guideSave": "patchouli_books/guide",
+            "branchVersion": "1.18.2",
+            "url": "https://github.com/Jimmy-sheep/ThermalFoundation.git"
+        },
+        {
+            "modName": "Alchemistry",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "licenseURL": "https://raw.githubusercontent.com/SmashingMods/Alchemistry/1.18.x/LICENSE",
+            "url": "https://raw.githubusercontent.com/SmashingMods/Alchemistry/1.18.x/src/main/resources/assets/alchemistry/lang/zh_tw.json"
+        },
+        {
+            "modName": "MMLP CN to ZW",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "extractType": "ExtractAll",
+            "licenseURL": "https://raw.githubusercontent.com/CFPAOrg/Minecraft-Mod-Language-Package/main/LICENSE",
+            "url": "https://github.com/TeamKugimiya/MMLP-CN-to-ZW/releases/download/latest/MMLP-CN-to-ZW.zip"
+        }
+
+    ]
+}
