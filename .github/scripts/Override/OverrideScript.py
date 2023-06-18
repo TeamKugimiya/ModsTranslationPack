@@ -177,7 +177,6 @@ def zip_copyer_all(temp_dir, modloader, version):
 def zip_extract(modname, modloader, version, url, extractAll: bool):
     temp_dir = tempfile.mkdtemp()
     override_file = os.path.join(temp_dir, os.path.basename(url))
-    print(override_file)
 
     print("🛈 模組名", modname)
 
@@ -257,9 +256,10 @@ def directDownload_Lang(modName: str, modLoader: str, version: str, url: str):
 ## Direct Download License File
 def directDownload_License(modName: str, url: str):
     fixed_modName = modName.replace(" ", "-")
-    path = Path(f"LICENSE_{fixed_modName}")
+    path = Path("Override", f"LICENSE_{fixed_modName}")
 
     print(f"🪪 下載 {modName} 授權條款")
+    path.parent.mkdir(parents=True, exist_ok=True)
     downloadFile(url, path)
 
 ## Main Process Download
