@@ -12,3 +12,6 @@ aiohttp = "*"
 
 [requires]
 python_version = "3.10"
+
+[scripts]
+ci = "python OverrideScript.py"

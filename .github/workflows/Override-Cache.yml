@@ -5,7 +5,7 @@ on:
     branches:
       - "main"
     paths:
-      - ".github/configs/override_list.txt"
+      - ".github/configs/override_list.json"
   workflow_dispatch: {}
 
 permissions:
@@ -22,16 +22,33 @@ jobs:
       - name: Checking Repository
         uses: actions/checkout@v3
 
-      - name: Run Override Script
-        run: |
-          .github/scripts/override_changer.sh
-          .github/scripts/override_mods.sh
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
 
-      - name: Make Cache zip
+      - name: Install pipenv
         run: |
-          zip -r Override-Cache.zip assets/
+          python -m pip install --upgrade pipenv wheel
+
+      - name: Move Scripts
+        run: |
           mkdir Cache
-          mv Override-Cache.zip Cache
+          mv .github/scripts/Override/* Cache/
+
+      - name: Make Cache
+        run: |
+          cd Cache
+          pipenv install
+          pipenv run ci
+          rm Pipfile Pipfile.lock
+          ls -alh
+
+      - name: Compress Cache
+        run: |
+          cd Cache
+          zip -qr Override-Cache.zip MultiVersions/ Override/
+          sha256sum Override-Cache.zip > checksum.txt
 
       - name: Upload cache to s3
         uses: Docker-Collection/docker-aws-s3-action@main
@@ -41,4 +58,5 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
           source_dir: "Cache"
+          dest_dir: "CacheFolder" # TODO
           aws_command: "sync"
