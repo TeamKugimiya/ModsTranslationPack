@@ -1,4 +1,8 @@
 {
+    "ingoreCheckList": [
+        "ThermalFoundation",
+        "MMLP CN to ZW"
+    ],
     "lists": [
         {
             "modName": "Productive Bees",
@@ -149,7 +153,7 @@
             "modName": "JourneyMap",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://www.mediafire.com/file/3nxoqh9o3jhcazm/journeymap-1.20.0-5.9.7-forge-tw.jar"
+            "url": "https://www.mediafire.com/file/mghd9z1a5wykj26/journeymap-1.20.1-5.9.9-forge-tw.jar"
         },
         {
             "modName": "Fairy Lights",
