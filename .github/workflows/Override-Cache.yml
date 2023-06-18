@@ -41,13 +41,14 @@ jobs:
           cd Cache
           pipenv install
           pipenv run ci
-          rm Pipfile Pipfile.lock
+          rm OverrideScript.py Pipfile Pipfile.lock
           ls -alh
 
       - name: Compress Cache
         run: |
           cd Cache
           zip -qr Override-Cache.zip MultiVersions/ Override/
+          rm -r MultiVersions/ Override/
           sha256sum Override-Cache.zip > checksum.txt
 
       - name: Upload cache to s3
