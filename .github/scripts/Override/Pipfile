@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
 mediafire-dl = {git = "https://github.com/Juvenal-Yescas/mediafire-dl"}
 six = "*"
+aiohttp = "*"
 
 [dev-packages]
 

@@ -6,8 +6,9 @@ import shutil
 import json
 import urllib.request
 import sys
-import requests
 import subprocess
+import aiohttp
+import asyncio
 from pathlib import Path
 
 ### Utils (?) ###
@@ -23,17 +24,24 @@ def loadJsonFile(filePath: str):
         sys.exit(1)
 
 ## Verify URL
-def verifyURL(should_exit_on_fail: bool, mods_dict: dict):
-    for mod_dicts in mods_dict["lists"]:
-        response = requests.head(mod_dicts["url"])
-        mod_name = mod_dicts["modName"]
-        status_code = response.status_code
+async def verify_url(mod_dicts: dict, mods_dict: dict, should_exit_on_fail: bool, session):
+    response = await session.head(mod_dicts["url"])
+    mod_name = mod_dicts["modName"]
+    status_code = response.status
 
-        if mod_name not in mods_dict["ingoreCheckList"]:
-            if status_code != requests.codes.ok:
-                print(f"⚠ {mod_name} 模組下載 URL 出現錯誤：{status_code}")
-                if should_exit_on_fail:
-                    sys.exit(1)
+    if mod_name not in mods_dict["ingoreCheckList"]:
+        if status_code != 200:
+            print(f"⚠ {mod_name} 模組下載 URL 出現錯誤：{status_code}")
+            if should_exit_on_fail:
+                sys.exit(1)
+
+async def verifyURL(should_exit_on_fail: bool, mods_dict: dict):
+    async with aiohttp.ClientSession() as session:
+        tasks = []
+        for mod_dicts in mods_dict["lists"]:
+            task = verify_url(mod_dicts, mods_dict, should_exit_on_fail, session)
+            tasks.append(task)
+        await asyncio.gather(*tasks)
 
 ## Print Mod Info ! - TODO Redo
 def print_mod_info(modName: str, modId: str):
@@ -291,7 +299,7 @@ def process_mods_list(mods_dict: dict):
 # Execute
 def main(json_file_path):
     mods_list = loadJsonFile(json_file_path)
-    verifyURL(True, mods_list)
+    asyncio.run(verifyURL(True, mods_list))
     process_mods_list(mods_list)
 
 if __name__ == "__main__":
@@ -301,6 +309,7 @@ if __name__ == "__main__":
         json_file_path = "../../configs/override_list.json"
 
     if len(sys.argv) > 1 and sys.argv[1] == "Test":
-        verifyURL(False, loadJsonFile(json_file_path))
+        mods_list = loadJsonFile(json_file_path)
+        asyncio.run(verifyURL(False, mods_list))
     else:
         main(json_file_path)
