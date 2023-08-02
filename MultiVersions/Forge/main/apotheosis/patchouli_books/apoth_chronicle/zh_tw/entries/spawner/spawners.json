@@ -1,0 +1,17 @@
+{
+    "name": "生怪磚",
+    "icon": "minecraft:spawner",
+    "category": "apotheosis:spawner/spawner",
+	"flag": "apotheosis:spawner",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)生怪磚$()是一種魔法方塊，能將虛空中的實體傳送到我們所在的世界。$(p)但你已經知道這些了，讓我們繼續談論新東西。$(p)在《神化》模組當中，生怪磚可以使用$(9)絲綢之觸$()採集。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "以這種方式收穫生怪磚，會對工具造成額外的耐久度損耗。$(p)生怪磚有一系列的$(l:apotheosis:spawner/stats)生怪磚屬性$()，這些屬性控制著生怪磚的功能。$(p)這些屬性可以使用$(l:apotheosis:spawner/modifiers)生怪磚改造$()變更。"
+        }
+	]
+}

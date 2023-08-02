@@ -1,0 +1,17 @@
+{
+    "name": "歲月知識",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)歲月知識$()是一種能套用在劍上的極品附魔。$(p)用來殺死生物時，所有的掉落物都會被轉換成經驗值。$(p)每個物品都價值相同的經驗值。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "這使得殺死具有大量掉落物的生物，會是最具效率的方式。$(p)物品所能轉換的經驗值，會隨附魔等級提升而增加。$(p)為了預防起見，用該附魔殺死一名玩家，其噴落的物品並不會被轉換成經驗值。"
+		}
+	]
+}

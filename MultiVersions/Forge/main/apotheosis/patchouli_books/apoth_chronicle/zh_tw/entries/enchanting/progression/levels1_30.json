@@ -1,0 +1,20 @@
+{
+    "name": "1 到 30 級",
+    "icon": "minecraft:bookshelf",
+    "category": "apotheosis:enchanting/progression",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+		{
+            "type": "patchouli:crafting",
+			"title": "達到 30 級",
+			"recipe": "minecraft:bookshelf",
+			"text": "以通常的方式達到 30 級的話，會需要 15 個書櫃。"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title": "其他屬性",
+			"item": "minecraft:skeleton_skull",
+			"text": "現階段有幾個基本的選項來提升其他屬性。$(p)你可以使用蠟燭來提高$(#A800A8)阿卡那$()，使用頭顱來提高$(#FC5454)量子化$()，以及使用紫水晶晶簇來提高$(#CCCC33)校正$()。"
+		}
+	]
+}

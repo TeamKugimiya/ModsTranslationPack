@@ -1,0 +1,13 @@
+{
+    "name": "群體生怪磚",
+    "icon": "minecraft:spider_eye",
+    "category": "apotheosis:adventure/rogue_spawners",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "群體生怪磚是流浪生怪磚的一種卑鄙子類型，會非常迅速地生成大量怪物。$(p)不過只會生成較弱的怪物，經常會是蜘蛛類型，因為牠們不會讓人感到非常恐懼。"
+        }
+	]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "附魔能量",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "在附魔的過程中，你需要消耗經驗值和青金石來附魔物品。$(p)但附魔是怎麼被選擇的呢？$(p)答案是附魔能量。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "首先，讓我們來看看如何選擇附魔。$(p)每個附魔都有其$(5)附魔能量函數$()，該函數控制什麼等級的$(#CC00CC)最終附魔能量$()，能使附魔的特定等級可用。$(p)當所有可用附魔被收集完成後，將根據附魔的權重，從這些附魔之中隨機挑選出來。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "但是$(#CC00CC)最終附魔能量$()是如何計算出來的呢？這涉及到一些數學運算。$(p)首先，你有一個$(6)基礎附魔能量$()，這是你附魔所要花費的等級。$(p)緊接著，$(#FC5454)量子化$()和校正屬性會調整你的$(6)基礎附魔能量$()，從而產生出你的$(#CC00CC)最終附魔能量$()。"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "每種屬性具體是如何調整你的$(6)基礎附魔能量$()，能在$(l:apotheosis:enchanting/table/stats#quanta)$(#FC5454)量子化$()以及$(l:apotheosis:enchanting/table/stats#rectification)校正$()的介紹中找到。$(p)通常情況下，$(#CC00CC)最終附魔能量$()越高，能讓你得到更高等級的附魔。"
+		}
+	]
+}

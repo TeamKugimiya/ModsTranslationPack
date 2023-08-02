@@ -1,0 +1,7 @@
+{
+    "name": "原版改動",
+    "description": "本節將介紹新增的可附魔物品，以及機制上的改動。$(p)若有任何次要內容的改動，也都會記錄在此處。",
+    "icon": "minecraft:trident",
+	"flag": "apotheosis:enchanting",
+	"parent": "apotheosis:enchanting/enchanting"
+}

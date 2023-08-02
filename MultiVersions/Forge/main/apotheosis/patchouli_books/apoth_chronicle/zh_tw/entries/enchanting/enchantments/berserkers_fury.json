@@ -1,0 +1,17 @@
+{
+    "name": "狂戰士之怒",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(4)狂戰士之怒$()是一種能套用在胸甲上的墮落附魔。$(p)使用這個附魔時，若你受到傷害，你會先額外受到一次傷害，然後獲得抗性、加速，以及力量效果。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "受到的傷害與藥水的強度，會根據附魔等級而定。"
+		}
+	]
+}

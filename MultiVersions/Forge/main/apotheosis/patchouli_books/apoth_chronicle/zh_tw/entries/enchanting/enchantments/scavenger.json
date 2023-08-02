@@ -1,0 +1,17 @@
+{
+    "name": "拾荒者",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)拾荒者$()是一種用於劍的極品附魔。$(p)每級有 2.5% 機率能讓你在殺死生物時，掉落 2 次戰利品。$(p)效果成功觸發時，其結果就會像是你剛殺死了 2 隻相同的實體。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "這附魔對所有實體都有效果，包括$(8)凋零怪$()等 Boss。$(p)該效果還能夠與$(9)掠奪$()疊加使用。"
+        }
+	]
+}

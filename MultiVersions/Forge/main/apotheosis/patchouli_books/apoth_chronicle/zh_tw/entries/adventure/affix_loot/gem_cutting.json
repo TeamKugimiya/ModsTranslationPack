@@ -1,0 +1,19 @@
+{
+    "name": "寶石切割",
+    "icon": "apotheosis:gem_cutting_table",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:gem_cutting_table",
+			"text": "$(9)寶石切割台$()能用來升級$(l:apotheosis:adventure/affix_loot/gems)寶石$()。$(p)升級寶石會需要消耗$(9)寶石粉$()、$(9)稀有度材料$()，以及第二顆相同稀有度的寶石。"
+		},
+		{
+			"title": "升級成本",
+            "type": "patchouli:text",
+            "text": "寶石的升級成本會隨稀有度提升。$(p)越強大的寶石，會需要更多的$(9)寶石粉$()；越高的等級，則會需要更多的$(9)稀有度材料$()。$(p)具體的成本會顯示在 GUI 上。"
+        }
+	]
+}

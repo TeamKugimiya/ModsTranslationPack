@@ -1,0 +1,13 @@
+{
+    "name": "盔甲穿透",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)盔甲穿透$()能讓你在攻擊時，無視目標一定量的盔甲值。$(p)溢出的盔甲穿透，能讓目標的盔甲值變為負值。"
+        }
+	]
+}
