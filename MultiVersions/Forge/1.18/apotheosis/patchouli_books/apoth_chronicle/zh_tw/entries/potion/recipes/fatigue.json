@@ -1,0 +1,19 @@
+{
+    "name": "挖掘疲勞",
+    "icon": "minecraft:textures/mob_effect/mining_fatigue.png",
+    "category": "apotheosis:potion/recipes",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c)挖掘疲勞$()是一種負面效果，通常只會由遠古深海守衛施加。$(p)受到這種效果影響時，你的挖掘速度將每級減少 20%$(p)挖掘疲勞是$(9)挖掘加速$()的直接相反效果。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"title": "釀造配方",
+			"item": "minecraft:fermented_spider_eye",
+            "text": "這種藥水可以使用$(9)挖掘加速藥水$()，以及發酵蜘蛛眼合成。$(p)該效果可以使用一般材料，進一步延長持續時間、增強效果等級，或製作成飛濺藥水。"
+        }
+	]
+}

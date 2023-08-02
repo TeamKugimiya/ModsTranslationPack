@@ -1,0 +1,13 @@
+{
+    "name": "反彈",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)反彈$()是一種用於胸甲和護腿的附魔。$(p)這附魔會在使用者受到近戰攻擊時，將攻擊者彈飛出去。$(p)彈飛距離會隨附魔等級提高而增加。"
+        }
+	]
+}

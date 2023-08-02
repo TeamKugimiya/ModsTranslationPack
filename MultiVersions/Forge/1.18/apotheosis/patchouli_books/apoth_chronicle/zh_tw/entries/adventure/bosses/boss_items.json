@@ -1,0 +1,17 @@
+{
+    "name": "Boss 物品",
+    "icon": "minecraft:ender_chest",
+    "category": "apotheosis:adventure/bosses",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "每位 Boss 都被賦予了一個詞綴物品，以及身穿整套附魔裝備。$(p)Boss 死亡時必定掉落其身上的詞綴物品，且該詞綴物品為高稀有度的機率，比其他詞綴物品的來源還要更高。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "該詞綴物品就像是你擊敗 Boss 所獲得的獎盃，過程雖然艱辛但非常值得。$(p)作為對原持有人的紀念，每件 Boss 物品都會被冠上 Boss 的名字。"
+		}
+	]
+}

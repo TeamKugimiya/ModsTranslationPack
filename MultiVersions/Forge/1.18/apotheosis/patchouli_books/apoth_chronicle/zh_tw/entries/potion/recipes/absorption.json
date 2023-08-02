@@ -1,0 +1,19 @@
+{
+    "name": "吸收",
+    "icon": "minecraft:textures/mob_effect/absorption.png",
+    "category": "apotheosis:potion/recipes",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)吸收$()是一種相當有趣的效果。$(p)每級提供額外 2 顆暫時性的愛心。$(p)然而，這些愛心在持續時間內不會重新刷新，所以最好使用$(l:apotheosis:potion/charms/charm)藥水護符$()。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"title": "釀造配方",
+			"item": "minecraft:golden_apple",
+            "text": "這種藥水可以使用普通藥水，以及金蘋果合成。$(p)該效果可以使用一般材料，進一步延長持續時間、增強效果等級，或製作成飛濺藥水。"
+        }
+	]
+}

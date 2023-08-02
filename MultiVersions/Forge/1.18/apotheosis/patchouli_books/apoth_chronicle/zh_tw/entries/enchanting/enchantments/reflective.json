@@ -1,0 +1,17 @@
+{
+    "name": "防禦反擊",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)防禦反擊$()是一種用於盾牌的附魔。$(p)這附魔會在隔檔攻擊時，將部分傷害反射回攻擊者。$(p)更具體地來說，會將隔檔下來的 15% 攻擊傷害反射回去。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "反擊傷害會被轉換成魔法傷害。$(p)等級足夠高的$(9)防禦反擊$()，甚至可以比原始攻擊造成更高的傷害。"
+        }
+	]
+}

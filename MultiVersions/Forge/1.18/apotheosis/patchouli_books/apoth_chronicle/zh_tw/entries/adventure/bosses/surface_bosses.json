@@ -1,0 +1,17 @@
+{
+    "name": "進擊的 Boss",
+    "icon": "minecraft:beacon",
+    "category": "apotheosis:adventure/bosses",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "轟隆一聲、一則緊急訊息，以及劃破天際的一道光束...$(p)這些跡象的矛頭都指向了一個 Boss，祂正主動進擊你的世界。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "與在地牢找到的 Boss 不同，這些 Boss 只會稀少地現身在生物可以生成的地表上。$(p)一聲雷鳴、一則狀態訊息，以及一道從天而降的光束，都是為 Boss 降臨所獻上的華麗禮砲。"
+		}
+	]
+}

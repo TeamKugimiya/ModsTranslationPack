@@ -1,0 +1,28 @@
+{
+    "name": "藥水護符",
+    "icon": "apotheosis:potion_charm",
+    "category": "apotheosis:potion/charms",
+	"flag": "apotheosis:potion",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)藥水護符$()是一種全新的物品，能幫助你充分利用藥水的效果。$(p)通常情況下，普通藥水會需要你一次性飲用並將效果完全用盡，但$(9)藥水護符$()能讓你將藥水分次使用。"
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:potion_charm",
+			"title": "合成藥水護符",
+            "text": "製作護符會需要 3 罐相同類型的藥水，以及一些烈焰粉。$(p)一個藥水護符的持續時間，比 3 瓶藥水加在一起的持續時間還要長。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "使用藥水護符",
+            "text": "$(9)藥水護符$()只有在啟用時會發揮效果。$(p)若想要啟動護符，只需拿在手上並點擊右鍵。$(p)啟動中的護符會像附魔那樣開始發光。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "只要護符處於啟動狀態，且位於你的物品欄中，就會持續為你套用藥水效果，並逐漸消耗耐久度。$(p)護符每次只會為玩家套用幾秒鐘的效果。$(p)當護符的耐久度耗盡時就會毀損。"
+        }
+	]
+}

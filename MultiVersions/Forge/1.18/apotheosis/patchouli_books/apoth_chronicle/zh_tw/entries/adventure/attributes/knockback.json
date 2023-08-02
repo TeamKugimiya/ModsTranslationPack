@@ -1,0 +1,17 @@
+{
+    "name": "攻擊擊退",
+    "icon": "minecraft:piston",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)攻擊擊退$()為你攻擊時，能對敵人造成的擊退距離。$(p)此值每增加 1，將對敵人額外造成 0.5 格擊退。$(p)該屬性經常由盔甲以及一些盾牌提供。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "$(9)$(n)基礎值：$()0$(p)$(9)$(n)上限值：$()5$(p)備註：擊退附魔與該屬性提供相同的增益，但不受該屬性的上限值影響。"
+		}
+	]
+}

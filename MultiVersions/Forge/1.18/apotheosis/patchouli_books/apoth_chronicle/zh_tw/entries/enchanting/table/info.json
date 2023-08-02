@@ -1,0 +1,64 @@
+{
+    "name": "資訊選單",
+    "icon": "apotheosis:textures/gui/book/question_mark.png",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "附魔台現在有個幫助畫面，能讓你了解可用的附魔選項。$(p)若要使用它，你需要先在附魔台中放置物品，然後點擊右上方的問號標記。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "本章節的目的是介紹這個畫面，並逐步引導你如何使用它。$(p)若你能完全理解這個畫面，以後附魔就再也不會感到困惑了。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "欄位選擇器",
+			"images": [
+				"apotheosis:textures/gui/book/slot_selector.png"
+			],
+			"text": "你可以在這裡選擇想要查看的附魔欄位。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "目前所選的欄位將會被醒目提示，而不可用的欄位將會呈現灰色。$(p)將游標懸停在欄位上，將會顯示等級、$(4)最低附魔能量$()，以及$(9)最高附魔能量$()等資訊。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "附魔視窗",
+			"images": [
+				"apotheosis:textures/gui/book/enchantments_window.png"
+			],
+			"text": "這邊會顯示可用的附魔"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "會根據目前的物品、所選的附魔能量等級，給予一系列的可用附魔。$(p)這視窗會顯示每個附魔的等級、稀有度，以及被選擇的機率。$(p)還會顯示哪些附魔會互相排斥。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "附魔能量滑桿",
+			"images": [
+				"apotheosis:textures/gui/book/power_slider.png"
+			],
+			"text": "這條滑桿能讓你變更要模擬的附魔能量等級。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "當你選擇了一個附魔欄位，附魔能量滑桿會自動定位在能量範圍的中間等級。$(p)滑桿只能在目前欄位的$(4)最低附魔能量$()和$(9)最高附魔能量$()之間進行調整。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "稀有度權重",
+			"images": [
+				"apotheosis:textures/gui/book/weights.png"
+			],
+			"text": "這提示框會顯示每個稀有度的權重。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "每個附魔都有其稀有度，而每個稀有度都有其權重。$(p)附魔被選擇的機率，是該附魔的獨立權重除以總權重（所有可用附魔的權重總和）。$(p)$(#A800A8)阿卡那$()屬性可以變更稀有度的權重。"
+		}
+	]
+}

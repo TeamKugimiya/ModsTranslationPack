@@ -1,0 +1,17 @@
+{
+    "name": "生命修補",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(4)生命修補$()是一種墮落附魔，能套用在所有耐久度會損耗的物品上。$(p)$(9)修補$()可以將吸收到的經驗值，轉換成耐久度，$(4)生命修補$()則是會將接收到的治療效果，轉換成耐久度。$(p)每點生命值能轉換的耐久度，會隨附魔等級提升而增加。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "除此之外，這個附魔能在附魔台中找到。"
+        }
+	]
+}
