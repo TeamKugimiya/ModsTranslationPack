@@ -730,7 +730,7 @@
     "advancements.apotheosis.ancient_gem": "無窮石頭",
     "advancements.apotheosis.ancient_gem.desc": "使用寶石切割台製作一顆完美的寶石。",
     
-       "advancements.apotheosis.socket": "寶石匠",
+    "advancements.apotheosis.socket": "寶石匠",
     "advancements.apotheosis.socket.desc": "使用鍛造台將寶石鑲嵌在物品上。",
 
     "advancements.apotheosis.gem_cut": "寶石雕刻匠",
@@ -1041,7 +1041,7 @@
     "enchantment.apotheosis.endless_quiver": "無盡箭袋",
     "enchantment.apotheosis.endless_quiver.desc": "射擊時，所有種類的箭矢都將不會被消耗。",
 
-    
+    "comment_id": "/Vanilla",
     "generic.reachDistance": "觸及距離",
     "forge.swimSpeed": "游泳速度",
     "forge.entity_gravity": "重力",
