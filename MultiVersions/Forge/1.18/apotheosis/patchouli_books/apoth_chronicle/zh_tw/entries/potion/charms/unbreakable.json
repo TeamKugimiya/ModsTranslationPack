@@ -1,0 +1,17 @@
+{
+    "name": "無法破壞護符",
+    "icon": "minecraft:enchanting_table",
+    "category": "apotheosis:potion/charms",
+	"flag": "&apotheosis:potion,apotheosis:enchanting",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "透過$(l:apotheosis:enchanting/table/infusion)灌注附魔$()，能讓護符變得無法破壞。$(p)透過這種方式，你便能獲得持續時間為無限的任何藥水效果。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "製作無法破壞護符的灌注配方相當困難。$(p)你需要對$(l:apotheosis:enchanting/table/stats)附魔屬性$()有足夠深入的了解，才能夠完成灌注。"
+        }
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "實用物品",
+    "description": "本節詳細記載了所有能使附魔變得更為便利的隨機工具。",
+    "icon": "apotheosis:library",
+	"flag": "apotheosis:enchanting",
+	"parent": "apotheosis:enchanting/enchanting"
+}

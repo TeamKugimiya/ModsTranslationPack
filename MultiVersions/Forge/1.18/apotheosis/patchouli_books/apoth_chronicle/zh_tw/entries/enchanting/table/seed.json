@@ -1,0 +1,16 @@
+{
+    "name": "附魔種子",
+    "icon": "minecraft:wheat_seeds",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "跟附魔（和其他一些機制）有關的一切，都會根據你的$(9)附魔種子$()產生結果。$(p)當你在附魔台中附魔物品時，附魔種子將會被變更。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "除非你的種子改變了，否則所有根據種子產生的隨機結果都將保持不變。$(p)例如，附魔欄位會附上哪些附魔，就是根據種子產生的隨機結果。"
+		}
+	]
+}

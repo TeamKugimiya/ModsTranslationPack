@@ -1,0 +1,7 @@
+{
+    "name": "Boss",
+    "description": "$(9)Boss$()是能夠充分運用詞綴力量的敵人。$(p)你可以透過祂們獨特的名稱以及身穿的強大裝備來辨識出 Boss。",
+    "icon": "apotheosis:boss_summoner",
+	"flag": "apotheosis:adventure",
+	"parent": "apotheosis:adventure/adventure"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "破甲",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:potion/effects",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c)破甲$()藥水是一種負面效果。$(p)在這種效果的影響下，受到的所有傷害將每級提高 20%。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "破甲可作為抵銷抗性的直接手段，計算方式為與抗性效果相加。$(p)若你同時擁有破甲 II 與抗性 II，你將會受到正常的傷害。"
+        }
+	]
+}

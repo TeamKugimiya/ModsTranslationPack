@@ -1,0 +1,17 @@
+{
+    "name": "游泳速度",
+    "icon": "minecraft:kelp",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)游泳速度$()會根據你的移動速度，決定你在水中的游泳速度。若你的游泳速度為 2.0，表示你游泳速度變為 2 倍快。$(p)該屬性僅能在靴子上找到。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "$(9)$(n)基礎值：$()1$(p)$(9)$(n)上限值：$()1024$(p)"
+		}
+	]
+}

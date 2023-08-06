@@ -1,0 +1,13 @@
+{
+    "name": "大地恩惠",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)大地恩惠$()是一種用於鎬子的極品附魔。$(p)用來挖掘普通的石頭時，有機率掉落礦物方塊。"
+        }
+	]
+}
