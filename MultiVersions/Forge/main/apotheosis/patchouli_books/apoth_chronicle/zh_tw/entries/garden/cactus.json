@@ -1,0 +1,16 @@
+{
+    "name": "仙人掌",
+    "icon": "minecraft:cactus",
+    "category": "apotheosis:garden/garden",
+	"flag": "apotheosis:garden",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "仙人掌現在可以生長到 5 個方塊高。$(p)該值是可以自訂的，所以根據模組包的不同，此值可能會變得略高或略低。"
+        }
+	],
+	"extra_recipe_mappings": {
+		"minecraft:cactus": 0
+	}
+}

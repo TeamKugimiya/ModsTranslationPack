@@ -1,0 +1,13 @@
+{
+    "name": "保護穿透",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)保護穿透$()能讓你在攻擊時，無視目標一定量的保護點數。$(p)溢出的保護穿透，不能讓目標的保護點數變為負值。"
+        }
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "分裂",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/anvil",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)分裂$()是另一種全新的鐵砧專屬附魔。$(p)分裂鐵砧能夠將一本帶有單一附魔的附魔書，轉換成 2 本帶有相同附魔，但等級低一階的附魔書。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "至於分裂鐵砧的使用方法，你需要先將附魔書扔到世界上，然後讓鐵砧墜落在其上方。$(p)例如：有本帶有鋒利 III 的附魔書，經過鐵砧分裂後會變成兩本書，分別各帶有鋒利 II。"
+		}
+	]
+}

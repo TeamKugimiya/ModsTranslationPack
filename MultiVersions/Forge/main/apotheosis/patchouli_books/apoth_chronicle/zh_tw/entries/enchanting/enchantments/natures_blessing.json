@@ -1,0 +1,13 @@
+{
+    "name": "大自然的祝福",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)大自然的祝福$()是一種用於鋤頭的附魔。$(p)這附魔能讓鋤頭當作骨粉來使用，不過會損耗耐久度。$(p)損耗的耐久度，會隨附魔等級提高而減少。"
+        }
+	]
+}
