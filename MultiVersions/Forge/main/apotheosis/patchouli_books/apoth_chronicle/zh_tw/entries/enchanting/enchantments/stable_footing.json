@@ -1,0 +1,17 @@
+{
+    "name": "穩定立足",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)穩定立足$()是一種用於靴子的附魔。$(p)這會使飛行時的挖掘速度懲罰被反轉。$(p)該效果涵蓋所有未站在地面上的懲罰。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "若與$(9)親水性$()搭配使用，你在水下的挖掘速度，將與在地面時相同。"
+		}
+	]
+}

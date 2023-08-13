@@ -1,0 +1,38 @@
+{
+    "name": "詞綴",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(6)詞綴$()與附魔非常相似，會提供裝備特定的增益效果。$(p)本手冊將不會列出完整的詞綴清單，因為這些都是要留著給你探索的，但會幫助你認識他們。"
+        },
+		{
+			"type": "patchouli:text",
+			"title": "詞綴類型",
+			"text": "詞綴被分為幾種不同的類型，每種類型會分別提供不同的功能。$(p)關於物品能套用上什麼類型的詞綴，這將取決於該物品的$(l:apotheosis:adventure/affix_loot/rarities)稀有度$()。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "狀態詞綴",
+			"text": "狀態詞綴是最普遍的詞綴類型。這些詞綴會提供單一屬性的增益，且能在所有稀有度的物品上找到。物品稀有度越高，能獲得更多額外的狀態詞綴。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "效果詞綴",
+			"text": "效果詞綴是最有趣的詞綴類型。他們能自由地為物品加入形形色色的功能，從簡單的功能增益到強大的戰鬥效果都有。$(p)這種詞綴只能在稀有度為「稀有」或以上等級的物品上找到。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "寶石鑲嵌槽",
+			"text": "寶石鑲嵌槽是一種特別的詞綴類型，提供裝備能鑲嵌$(l:apotheosis:adventure/affix_loot/gems)寶石$()的孔位。$(p)寶石能賦予裝備極大的增益，但相對的也非常難以取得。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "耐久度詞綴",
+			"text": "耐久度詞綴能給予裝備更持久的耐用性，且只能在稀有度為「稀有」或以上等級的物品上找到。$(p)該詞綴效果會在所有傷害抗性之後套用，使其與耐久附魔搭配有相乘效果。"
+		}
+	]
+}

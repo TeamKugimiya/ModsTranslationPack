@@ -1,0 +1,13 @@
+{
+	"name": "懸浮方塊",
+	"icon": "opolisutilities:textures/block/floating_block_block.png",
+
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "text",
+			"text": "懸浮方塊能在沒有任何支撐方塊的情況下，於半空中放置。$(br2)他還可以被放置在水中。"
+		}
+	]
+}

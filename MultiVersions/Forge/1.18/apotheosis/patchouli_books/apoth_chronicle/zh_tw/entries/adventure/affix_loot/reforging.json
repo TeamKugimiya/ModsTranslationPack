@@ -1,0 +1,49 @@
+{
+    "name": "重鑄",
+    "icon": "apotheosis:reforging_table",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:reforging_table",
+			"text": "$(9)重鑄台$()用來帶給物品新生，可抹消原有的詞綴並賦予全新的。"
+		},
+		{
+            "type": "patchouli:text",
+            "text": "有了$(9)稀有度材料$()的未開發潛能以及$(9)寶石粉$()的多用性，現在為物品重鑄上新的詞綴已經成為了可能。$(p)重鑄並不限於已經刻有詞綴的物品，任何有效的物品也都能接受重鑄。"
+        },
+		{
+            "type": "patchouli:image",
+			"title": "輸入欄位",
+			"images": [
+				"apotheosis:textures/gui/book/reforge_slots.png"
+			],
+			"text": "重鑄台介面上共有三種輸入欄位。"
+        },
+		{
+			"type": "patchouli:text",
+			"title": "輸入欄位",
+			"text": "最上方的欄位用來放入欲重鑄的物品。$(p)左下方的欄位需放入$(9)稀有度材料$()。$(p)而右下方的欄位則需放入寶石粉。$(p)只有三個欄位都放有對應的物品時，才能進行物品重鑄。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "重鑄",
+			"images": [
+				"apotheosis:textures/gui/book/reforge_menu.png"
+			],
+			"text": "與附魔台相似，你會有 3 個重鑄選項。"
+        },
+		{
+			"type": "patchouli:text",
+			"title": "重鑄",
+			"text": "每個選擇都代表了重鑄物品的潛在新形式。每個選擇的重鑄成本都不一樣，分別需要 2/4/6 個寶石粉、稀有度材料以及經驗等級。$(p)要重鑄你的物品，只需點下最合你意的選擇。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "備註",
+			"text": "物品可被重鑄多次，但你重鑄完後必須先將物品拿起來再放回欄位上。$(p)沒有所謂最好的選擇，只有適不適合你的。$(p)重鑄台使用你的附魔種子來決定當下顯現的選擇。"
+		}
+	]
+}

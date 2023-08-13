@@ -13,6 +13,8 @@ permissions:
 jobs:
   labeler:
     runs-on: ubuntu-latest
+    if: |
+      github.repository == 'xMikux/ModsTranslationPack'
 
     steps:
       - name: Path Labeler

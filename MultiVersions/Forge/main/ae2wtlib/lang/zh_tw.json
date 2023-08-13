@@ -1,13 +1,12 @@
 {
   "itemGroup.ae2wtlib.general": "AE2 無線終端機程式庫（AE2WTLib）",
   "itemGroup.ae2wtlib": "AE2 無線終端機程式庫（AE2WTLib）",
-  "key.category.ae2wtlib": "AE2 無線終端機程式庫（AE2WTLib）",
 
   "gui.ae2wtlib.emptytrash": "清空垃圾桶",
   "gui.ae2wtlib.emptytrash.desc": "刪除垃圾桶欄位上的物品",
 
-  "item.ae2wtlib.infinity_booster_card": "無限增幅卡",
-  "item.ae2wtlib.infinity_booster_card.desc": "延伸無線終端機的收訊範圍至無限",
+  "item.ae2wtlib.quantum_bridge_card": "量子橋卡",
+  "item.ae2wtlib.quantum_bridge_card.desc": "將無線終端機連結至量子橋，以獲得無限的收訊範圍",
   "item.ae2wtlib.magnet_card": "磁力卡",
   "item.ae2wtlib.magnet_card.desc": "適用於無線終端機的磁力升級",
 

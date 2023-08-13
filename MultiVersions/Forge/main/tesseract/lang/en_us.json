@@ -1,6 +1,8 @@
 {
   "gui.tesseract.energy": "TESSERACT - ENERGY",
+  "tesseract.tesseract.highlight.channel_info.separator": "-",
   "gui.tesseract.items": "TESSERACT - ITEMS",
+  "tesseract.tesseract.highlight.channel_info.inactive": "Inactive",
   "gui.tesseract.title": "Tesseract",
   "gui.tesseract.unset": "Deactivate",
   "tesseract.block.tesseract": "Tesseract",
@@ -12,6 +14,7 @@
   "gui.tesseract.redstone.low": "LOW",
   "gui.tesseract.info.tab.energy": "Energy Transport",
   "gui.tesseract.add.title.energy": "Create Channel - ENERGY",
+  "config.jade.plugin_tesseract.tesseract": "Tesseract - Info",
   "gui.tesseract.info_button": "Information (Coming soon)",
   "gui.tesseract.type.fluid": "Fluids",
   "gui.tesseract.remove": "Remove",
@@ -23,6 +26,9 @@
   "gui.tesseract.channel.private": "Private",
   "gui.tesseract.set": "Activate",
   "gui.tesseract.add.cancel": "Cancel",
+  "tesseract.tesseract.highlight.channel_info": "  %1$s %2$s %3$s",
+  "tesseract.tesseract.highlight.redstone_blocked": "Blocked by redstone signal",
+  "tesseract.tesseract.highlight.channels": "Channels:",
   "gui.tesseract.type.energy": "Energy",
   "gui.tesseract.info.narrate_page": "Page %s",
   "gui.tesseract.type.items": "Items",
@@ -35,6 +41,7 @@
   "gui.tesseract.info.tab.fluid": "Fluid Transport",
   "gui.tesseract.add.title.fluid": "Create Channel - FLUID",
   "gui.tesseract.info.tab.gui": "Tesseract Screen",
+  "config.jade.plugin_tesseract.remove_default": "Tesseract - Remove default info",
   "gui.tesseract.fluid": "TESSERACT - FLUID",
   "gui.tesseract.info.title": "Information"
 }

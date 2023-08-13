@@ -1,5 +1,148 @@
 # Changelog
 
+## [1.7.8](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.7...v1.7.8) (2023-04-22)
+
+
+### 🌐 用語在地化
+
+* **No Chat Reports:** 舉報 -&gt; 檢舉 ([#290](https://github.com/xMikux/ModsTranslationPack/issues/290)) ([ff58435](https://github.com/xMikux/ModsTranslationPack/commit/ff58435fb2a14d8fdb5a0c96ed7c50811c1fda3e))
+
+
+### 🐛 修正模組翻譯錯誤
+
+* **Create Cafe:** 奧利奧 -&gt; Oreo ([9b01506](https://github.com/xMikux/ModsTranslationPack/commit/9b01506bc5586e02a012533da26f5bec8af18edd))
+
+
+### 🐌 更新模組翻譯
+
+* **Additional Lanterns:** 更新至 v1.0.4 ([#301](https://github.com/xMikux/ModsTranslationPack/issues/301)) ([0d98df9](https://github.com/xMikux/ModsTranslationPack/commit/0d98df9ece698f441bd1101b9d6ca482164d3053))
+* **Create Crafts & Additions:** 更新至 v20230312a ([#294](https://github.com/xMikux/ModsTranslationPack/issues/294)) ([12f820d](https://github.com/xMikux/ModsTranslationPack/commit/12f820dc3ea1554359c138ed9bd05d9fcb1d57e6))
+* **Entangled:** 更新至 v1.3.13 ([#300](https://github.com/xMikux/ModsTranslationPack/issues/300)) ([8e42c55](https://github.com/xMikux/ModsTranslationPack/commit/8e42c55a19f5ef79e1b25ec0921b579f589b7b63))
+* **Hexerei:** 更新至 v0.2.5 ([#319](https://github.com/xMikux/ModsTranslationPack/issues/319)) ([640dfa5](https://github.com/xMikux/ModsTranslationPack/commit/640dfa53cdae74c51702cf8c08faa95e12d7ec7f))
+* **Hostile Neural Networks:** 更新至 v4.0.2 ([#307](https://github.com/xMikux/ModsTranslationPack/issues/307)) ([cb1414e](https://github.com/xMikux/ModsTranslationPack/commit/cb1414e47b23407f6dda93526e66c85d8e2993e2))
+* **Item Collectors:** 更新至 v1.1.7 ([#302](https://github.com/xMikux/ModsTranslationPack/issues/302)) ([283ec03](https://github.com/xMikux/ModsTranslationPack/commit/283ec03b5b3e6cb55fa0d3218d51b03ce62de893))
+* **Simple Magnets:** 更新至 v1.1.9 ([#303](https://github.com/xMikux/ModsTranslationPack/issues/303)) ([e5fe0fc](https://github.com/xMikux/ModsTranslationPack/commit/e5fe0fc0397d8abd0b42f30dbdbc2c4c5eff4820))
+* **Tesseract:** 更新至 v1.0.29 ([#304](https://github.com/xMikux/ModsTranslationPack/issues/304)) ([0d1d814](https://github.com/xMikux/ModsTranslationPack/commit/0d1d8144c98de52c766b60e4dbdd88c77fc076a6))
+* **Wireless Chargers:** 更新至 v1.0.8 ([#305](https://github.com/xMikux/ModsTranslationPack/issues/305)) ([bba58cd](https://github.com/xMikux/ModsTranslationPack/commit/bba58cd7af293a8a0c4f605d522a075b661af08f))
+
+
+### ☁️ 持續整合 / 持續佈署
+
+* 修改來源 ([4e60fbe](https://github.com/xMikux/ModsTranslationPack/commit/4e60fbe5c0ea3a5581cd8a36089f59e6d1ac5c2c))
+* 更新覆蓋 ([4bc8623](https://github.com/xMikux/ModsTranslationPack/commit/4bc8623239eaf64e1bf3d8f16037b27a4edd112e))
+
+
+### ⚡ 新增模組翻譯
+
+* **Artifacts:** 新增探險文物 v5.0.2 ([#306](https://github.com/xMikux/ModsTranslationPack/issues/306)) ([fd9fba8](https://github.com/xMikux/ModsTranslationPack/commit/fd9fba8cc9fcd80059dfb2f33264c03671f55bac))
+* **Better Mods Button:** 新增更好的模組按鈕 v4.2.1 ([#299](https://github.com/xMikux/ModsTranslationPack/issues/299)) ([b07cab5](https://github.com/xMikux/ModsTranslationPack/commit/b07cab56d6b3d28008d8406ff89256c5af38fdf2))
+* **Botany Pots Tiers:** 新增高階植物盆 v3.3.1 ([#298](https://github.com/xMikux/ModsTranslationPack/issues/298)) ([40c8250](https://github.com/xMikux/ModsTranslationPack/commit/40c8250f1b141894aec4a6e8cf2241f053296a14))
+* **Create Mechanical Extruder:** 1.19.2-1.3.2.i ([#310](https://github.com/xMikux/ModsTranslationPack/issues/310)) ([2f46bf4](https://github.com/xMikux/ModsTranslationPack/commit/2f46bf4136093197ccbcae4dad4bd19382129eb7))
+* **createcafe:** 1.1.5-1.19.2 ([#311](https://github.com/xMikux/ModsTranslationPack/issues/311)) ([b745101](https://github.com/xMikux/ModsTranslationPack/commit/b745101b090b181fa813f1c729a1b826b86c2ded))
+* **Daily Rewards:** 新增每日獎勵 v3.7.0 ([#297](https://github.com/xMikux/ModsTranslationPack/issues/297)) ([d7b9125](https://github.com/xMikux/ModsTranslationPack/commit/d7b91252a2eda2844a72a92be3c19544927aab6c))
+* **EverlastingAbilities:** 新增永恆能力 v2.0.3 ([#318](https://github.com/xMikux/ModsTranslationPack/issues/318)) ([d32e969](https://github.com/xMikux/ModsTranslationPack/commit/d32e96906ca6e270a56d6138ceca982dc3e15863))
+* **Exit Confirmation:** 確認離開 v2.0.1 ([#317](https://github.com/xMikux/ModsTranslationPack/issues/317)) ([636c047](https://github.com/xMikux/ModsTranslationPack/commit/636c047a4e2a6569e9aa830fdae90c50b5103ca2))
+* **Ghost:** 小小幽靈 v0.0.3 ([#316](https://github.com/xMikux/ModsTranslationPack/issues/316)) ([f39f29c](https://github.com/xMikux/ModsTranslationPack/commit/f39f29c07b96f5422bed9dec761df06ed9a473f2))
+* **Just Enough Immersive Multiblocks:** 新增 JEI 沉浸工程多方塊結構預覽 v0.0.3 ([#308](https://github.com/xMikux/ModsTranslationPack/issues/308)) ([bc9487f](https://github.com/xMikux/ModsTranslationPack/commit/bc9487f0a3e84549408307d15f569bc1bdf5dd2c))
+* **Loading Timer:** 新增載入計時器 ([#291](https://github.com/xMikux/ModsTranslationPack/issues/291)) ([a6b83f0](https://github.com/xMikux/ModsTranslationPack/commit/a6b83f04035f0bcacbd5ff1096ad46aa9d9529a4))
+* **Lootr:** 新增 Lootr v0.4.23.60 ([#320](https://github.com/xMikux/ModsTranslationPack/issues/320)) ([9ff0190](https://github.com/xMikux/ModsTranslationPack/commit/9ff01901525b717515165d0158410a902987e538))
+* **Lychee:** 新增荔枝 v3.8.2 ([#309](https://github.com/xMikux/ModsTranslationPack/issues/309)) ([0846a9d](https://github.com/xMikux/ModsTranslationPack/commit/0846a9d0820aec5261a33419a45a20b69be4dd3c))
+* **More Crafting Tables for Forge!:** 新增更多工作台 v4.2.0 ([#296](https://github.com/xMikux/ModsTranslationPack/issues/296)) ([aaed443](https://github.com/xMikux/ModsTranslationPack/commit/aaed443157517d702ee6473db1b18f70120c7436))
+* **Nether Depths Upgrade:** 2.0.2-1.19.2 ([#312](https://github.com/xMikux/ModsTranslationPack/issues/312)) ([6513ddf](https://github.com/xMikux/ModsTranslationPack/commit/6513ddf982d0e30d12f5a3da9193aad2ed4a9cc2))
+* **Restricted Portals:** 1.19.3-1.3.2 ([#313](https://github.com/xMikux/ModsTranslationPack/issues/313)) ([80ae658](https://github.com/xMikux/ModsTranslationPack/commit/80ae65813c8f9c7f7ae9c23152ef641f4b22c0ee))
+* **SimpleStorageNetwork:** 簡單儲存網路 1.19-1.6.5 ([#314](https://github.com/xMikux/ModsTranslationPack/issues/314)) ([0a596ac](https://github.com/xMikux/ModsTranslationPack/commit/0a596ac1158ed0aee9ebb98e5905ff1175055bc6))
+* **Smooth Swapping:** 新增平滑交換 v0.7 ([#292](https://github.com/xMikux/ModsTranslationPack/issues/292)) ([07d9158](https://github.com/xMikux/ModsTranslationPack/commit/07d9158b149b52803a64318ae7fff54a1888345e))
+* **Vending Machine:** 新增販賣機 v1.0.8 ([#295](https://github.com/xMikux/ModsTranslationPack/issues/295)) ([60613d3](https://github.com/xMikux/ModsTranslationPack/commit/60613d31c15d2ad750d2ce8b885f38a6fd3e9868))
+
+## [1.7.7](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.6...v1.7.7) (2023-03-11)
+
+
+### 📑 文件更新
+
+* **ModsList:** 更新模組清單 ([#243](https://github.com/xMikux/ModsTranslationPack/issues/243)) ([d8f1990](https://github.com/xMikux/ModsTranslationPack/commit/d8f1990307f92bc6a3c8b54aab4d120d7083d16c))
+
+
+### 🧰 重構
+
+* 多版本重構 ([#252](https://github.com/xMikux/ModsTranslationPack/issues/252)) ([b2dfe30](https://github.com/xMikux/ModsTranslationPack/commit/b2dfe30e62d54c6b47a9488d5d3444a638571a86))
+
+
+### 🐛 修正模組翻譯錯誤
+
+* 修正翻譯 ([4e157d3](https://github.com/xMikux/ModsTranslationPack/commit/4e157d3e3f4fdf0fcab8713f4560fba1e9e02d2c))
+
+
+### 🌐 用語在地化
+
+* **AutoFish:** 兼容性 -&gt; 相容性 ([#262](https://github.com/xMikux/ModsTranslationPack/issues/262)) ([bdad4cb](https://github.com/xMikux/ModsTranslationPack/commit/bdad4cb75da8ada2aa5cae9ebe68b32d97cd4d64))
+* **Chat Heads:** 修正在地化用語 ([#245](https://github.com/xMikux/ModsTranslationPack/issues/245)) ([38a9bd4](https://github.com/xMikux/ModsTranslationPack/commit/38a9bd4f249ddc652d9834fa12e7873556ff35e3))
+
+
+### ⚡ 新增模組翻譯
+
+* **Almost Unified:** 新增幾乎統一 v0.3.5 ([#276](https://github.com/xMikux/ModsTranslationPack/issues/276)) ([6e5a042](https://github.com/xMikux/ModsTranslationPack/commit/6e5a04260e1de02b77152d6d02b26a5e71b01467))
+* **Ceramic Bucket:** 新增陶瓷桶 v3.2.1 ([#280](https://github.com/xMikux/ModsTranslationPack/issues/280)) ([b8da4d5](https://github.com/xMikux/ModsTranslationPack/commit/b8da4d50df39e0f3267120f4c70ecfdbeee63d44))
+* **Chat Toggle:** 新增聊天室切換 v3.0.0 ([#279](https://github.com/xMikux/ModsTranslationPack/issues/279)) ([d7ae1d5](https://github.com/xMikux/ModsTranslationPack/commit/d7ae1d56dc1b01bfbb99e44db54f8f4a2720d6fa))
+* **Deeper and Darker:** 新增極度深淵 v1.1.6 ([#269](https://github.com/xMikux/ModsTranslationPack/issues/269)) ([536f8af](https://github.com/xMikux/ModsTranslationPack/commit/536f8af487507237c1e748bf676222f49014535d))
+* **Enhanced Block Entities:** 新增優化方塊實體 v0.7.2 ([#264](https://github.com/xMikux/ModsTranslationPack/issues/264)) ([863853f](https://github.com/xMikux/ModsTranslationPack/commit/863853f26e67971263b3d17135afdb7a5fb981c9))
+* **Essence Mod:** 新增精粹 v1.3.3 ([#270](https://github.com/xMikux/ModsTranslationPack/issues/270)) ([2a7f803](https://github.com/xMikux/ModsTranslationPack/commit/2a7f8039adccc711cc887625e35b7fe664201050))
+* **Exordium:** 新增 Exordium v1.0.3 ([#251](https://github.com/xMikux/ModsTranslationPack/issues/251)) ([2721a44](https://github.com/xMikux/ModsTranslationPack/commit/2721a4499396c0beec00a2d12fd22c2303bc4013))
+* **FastQuit:** 新增快速退出 v2.1.0 ([#258](https://github.com/xMikux/ModsTranslationPack/issues/258)) ([61815a9](https://github.com/xMikux/ModsTranslationPack/commit/61815a91476f928df1c2c7fd46afbf2290adc475))
+* **First-person Model:** 新增第一人稱模型 v2.2.3 ([#257](https://github.com/xMikux/ModsTranslationPack/issues/257)) ([9154b18](https://github.com/xMikux/ModsTranslationPack/commit/9154b186b9f723e53fe38862f403962262c1b523))
+* **Geodeopolis:** Opolis 晶洞 1.19.X-1.3.5 ([4e157d3](https://github.com/xMikux/ModsTranslationPack/commit/4e157d3e3f4fdf0fcab8713f4560fba1e9e02d2c))
+* **Go Fish:** 新增釣魚時光 v1.6.0 ([#247](https://github.com/xMikux/ModsTranslationPack/issues/247)) ([f247a6f](https://github.com/xMikux/ModsTranslationPack/commit/f247a6f1dfbf9e8bd8baf100188b46a3e90e5b9b))
+* **Infinite source of water:** 新增水源方塊 v1.1.0 ([#274](https://github.com/xMikux/ModsTranslationPack/issues/274)) ([2d97a6b](https://github.com/xMikux/ModsTranslationPack/commit/2d97a6bce87186da5464f679bb32991b8f8e42e3))
+* **Item Model Fix:** 新增物品模型修正 v1.0.3 ([#249](https://github.com/xMikux/ModsTranslationPack/issues/249)) ([0256503](https://github.com/xMikux/ModsTranslationPack/commit/025650358c8d9ebb4ff5f092a92cb11a8f279adf))
+* **KleeSlabs:** 新增 KleeSlabs v13.1.0 ([#261](https://github.com/xMikux/ModsTranslationPack/issues/261)) ([d27e792](https://github.com/xMikux/ModsTranslationPack/commit/d27e792a178681a6cab16c6a0dd9f09c423ca058))
+* **Lava_Monsters:** 熔岩怪 1.19.1-1.0.11 ([4e157d3](https://github.com/xMikux/ModsTranslationPack/commit/4e157d3e3f4fdf0fcab8713f4560fba1e9e02d2c))
+* **Loginar Storage:** 新增洛琪納儲存 v1.1.0 ([#263](https://github.com/xMikux/ModsTranslationPack/issues/263)) ([709b518](https://github.com/xMikux/ModsTranslationPack/commit/709b518255ce3df79d151390f73f53f2201de4f6))
+* **Maiden's Merrymaking:** 1.19.2-2.2 ([#265](https://github.com/xMikux/ModsTranslationPack/issues/265)) ([955988b](https://github.com/xMikux/ModsTranslationPack/commit/955988bc0010ed60ec23ade8fb3c881cf30e5739))
+* **More Mekanism Processing:** 新增通用機械｜更多礦物處理配方 v3.0 ([#277](https://github.com/xMikux/ModsTranslationPack/issues/277)) ([ceaff51](https://github.com/xMikux/ModsTranslationPack/commit/ceaff51ee991c39000c67cfc76195f4d83188730))
+* **More Overlays Updated:** 新增亮度顯示 v1.21.6 ([#278](https://github.com/xMikux/ModsTranslationPack/issues/278)) ([6015164](https://github.com/xMikux/ModsTranslationPack/commit/6015164721365fe03cf75e7bbe6e17100337eb99))
+* **NetherPortalFix:** 新增地獄門修正 v11.0.2 ([#255](https://github.com/xMikux/ModsTranslationPack/issues/255)) ([d637d7d](https://github.com/xMikux/ModsTranslationPack/commit/d637d7d22d4097fea553e63cba8ffc2dde6d3ef2))
+* **NeverEnderOre:** 無盡礦物 1.19.2_1.0.5 ([4e157d3](https://github.com/xMikux/ModsTranslationPack/commit/4e157d3e3f4fdf0fcab8713f4560fba1e9e02d2c))
+* **No Chat Reports:** 新增無聊天檢舉 v2.0.0 ([#285](https://github.com/xMikux/ModsTranslationPack/issues/285)) ([bace0f8](https://github.com/xMikux/ModsTranslationPack/commit/bace0f85427a556068bb8d393fcdbaa9e7a1b631))
+* **OpolisUtilities:** Opolis 實用設備 1.19.X-1.14.1 ([4e157d3](https://github.com/xMikux/ModsTranslationPack/commit/4e157d3e3f4fdf0fcab8713f4560fba1e9e02d2c))
+* **oωo:** 新增 oωo 程式庫 v0.10.2 ([#256](https://github.com/xMikux/ModsTranslationPack/issues/256)) ([5d253c5](https://github.com/xMikux/ModsTranslationPack/commit/5d253c54a974a103455c2f92570c2d6bffe1225a))
+* **Ping Wheel:** 新增 Ping 輪 ([#259](https://github.com/xMikux/ModsTranslationPack/issues/259)) ([c8b8ef9](https://github.com/xMikux/ModsTranslationPack/commit/c8b8ef9c9b738a5b1de8e40002280b849d7c7c52))
+* **Polymorph:** 新增 Polymorph v0.46.1 ([#260](https://github.com/xMikux/ModsTranslationPack/issues/260)) ([c3fadc1](https://github.com/xMikux/ModsTranslationPack/commit/c3fadc11c3526f00837576592fd88adb11ff9f55))
+* **Puzzle:** 新增拼圖 v1.4.2 ([#248](https://github.com/xMikux/ModsTranslationPack/issues/248)) ([0c779c1](https://github.com/xMikux/ModsTranslationPack/commit/0c779c172ea739823288ffeb5e42f27811c844d9))
+* **Quit:** 新增退出警告 v1.0.0 ([#272](https://github.com/xMikux/ModsTranslationPack/issues/272)) ([e16d247](https://github.com/xMikux/ModsTranslationPack/commit/e16d2472eae941990c8915b02646492abd4a5853))
+* **Rotten Creatures:** 新增腐爛生物 v1.0.1 翻譯 ([#250](https://github.com/xMikux/ModsTranslationPack/issues/250)) ([62df5ae](https://github.com/xMikux/ModsTranslationPack/commit/62df5aece2a2b40b87d58e51bb4d483d1a70ef47))
+* **Smooth Boot:** 新增平滑啟動 v1.7.1 ([#244](https://github.com/xMikux/ModsTranslationPack/issues/244)) ([85942f8](https://github.com/xMikux/ModsTranslationPack/commit/85942f8c4da05fd4a0d52409e3a9b813475d9aa9))
+* **Vanilla Plus Tools:** 新增原版增強工具 v1.1 ([#273](https://github.com/xMikux/ModsTranslationPack/issues/273)) ([54f0df1](https://github.com/xMikux/ModsTranslationPack/commit/54f0df1edf11e03ccd2b1b464acf09d6c128a645))
+* **YDM's Weapon Master:** 新增 YDM 的武器大師 v3.0.3 ([#275](https://github.com/xMikux/ModsTranslationPack/issues/275)) ([bccb41e](https://github.com/xMikux/ModsTranslationPack/commit/bccb41e4d0a835ea63da8eeaf55db06b3453c8e9))
+* **Zoomify:** 新增縮放性 v2.9.2 ([#284](https://github.com/xMikux/ModsTranslationPack/issues/284)) ([9bd26f9](https://github.com/xMikux/ModsTranslationPack/commit/9bd26f939c2fa3fb8bcefe1921d5405cacd17db2))
+* 新增複數翻譯 ([#254](https://github.com/xMikux/ModsTranslationPack/issues/254)) ([4e157d3](https://github.com/xMikux/ModsTranslationPack/commit/4e157d3e3f4fdf0fcab8713f4560fba1e9e02d2c))
+
+
+### ☁️ 持續整合 / 持續佈署
+
+* 修正快取失敗 ([a90f020](https://github.com/xMikux/ModsTranslationPack/commit/a90f0207f0ce210f965a928adf952c3b2b8e9967))
+* 修正額外空格 ([d7d1451](https://github.com/xMikux/ModsTranslationPack/commit/d7d145158e467d22c31d3d57b8bc2d4873130405))
+* 新增兩個新覆蓋 ([8f6374a](https://github.com/xMikux/ModsTranslationPack/commit/8f6374a892d01310b14af8cf980294d7d9595fca))
+* 新增工作流程中斷，避免重複 ([102cc26](https://github.com/xMikux/ModsTranslationPack/commit/102cc2643946fc2dd79aedd987bc96cc3acea261))
+* 新增忽略方式 ([b5f4baf](https://github.com/xMikux/ModsTranslationPack/commit/b5f4baf05ee66730a1796b87fd57da19554e0c7e))
+* 新增更好的地獄/終界覆蓋 ([9ab52a4](https://github.com/xMikux/ModsTranslationPack/commit/9ab52a4e41859954a4c24cd560670a5cbf3b22de))
+* 更新覆蓋 ([e1ebc5a](https://github.com/xMikux/ModsTranslationPack/commit/e1ebc5a9d34c9143aa0a814b71c604eec9350d49))
+* 調整 s3 覆蓋下載規則 ([d5bdb13](https://github.com/xMikux/ModsTranslationPack/commit/d5bdb1323b9c4fa641bf02a48198813c88b98824))
+* 調整工作流程 ([aecfc01](https://github.com/xMikux/ModsTranslationPack/commit/aecfc0168b6883df3eb494677db78747b9056b4d))
+
+
+### 🐌 更新模組翻譯
+
+* **Applied Energistics 2 Wireless Terminals:** 更新 1.19.2 翻譯 ([#287](https://github.com/xMikux/ModsTranslationPack/issues/287)) ([27ff996](https://github.com/xMikux/ModsTranslationPack/commit/27ff99677be98286959a98564f86a434359e283c))
+* **Applied Energistics 2:** 更新 1.19.2 翻譯 ([#253](https://github.com/xMikux/ModsTranslationPack/issues/253)) ([bf6bd6f](https://github.com/xMikux/ModsTranslationPack/commit/bf6bd6fe9a1862e407c29e6bfe36f33c17a98959))
+* **Caveopolis Mod:** 更新 1.19.2 翻譯 ([#267](https://github.com/xMikux/ModsTranslationPack/issues/267)) ([56b75b0](https://github.com/xMikux/ModsTranslationPack/commit/56b75b0d4ae4e8dcab8c1cb3bbf16b0ed2330d4c))
+* **Cosmopolis Mod:** 更新 1.19.2 翻譯 ([#268](https://github.com/xMikux/ModsTranslationPack/issues/268)) ([9cb29de](https://github.com/xMikux/ModsTranslationPack/commit/9cb29de68e50d72637e632be913f924e8c22e351))
+* **Crafting Tweaks:** 更新到 v15.1.6 ([#281](https://github.com/xMikux/ModsTranslationPack/issues/281)) ([3ff4ef4](https://github.com/xMikux/ModsTranslationPack/commit/3ff4ef4115e2fe0bdd29307005a821a351d8cd1a))
+* **Extended Crafting:** 更新 1.19.2 翻譯 ([#266](https://github.com/xMikux/ModsTranslationPack/issues/266)) ([4c6d587](https://github.com/xMikux/ModsTranslationPack/commit/4c6d587df6cd4938775d7609f999386ba9bb48bd))
+* **Gadgets Against Grind:** 更新翻譯至 v2.0.0 ([#271](https://github.com/xMikux/ModsTranslationPack/issues/271)) ([1507616](https://github.com/xMikux/ModsTranslationPack/commit/15076162ca3aa705d12c3356935d6007bfb68cec))
+* **Opolis Utilities:** 新增 Patchouli 手冊翻譯 ([#288](https://github.com/xMikux/ModsTranslationPack/issues/288)) ([b07eb9e](https://github.com/xMikux/ModsTranslationPack/commit/b07eb9e58c82dd58500e035af0071cb08acddf65))
+* **OpolisUtilities:** 更新至1.19.X-1.18 ([#286](https://github.com/xMikux/ModsTranslationPack/issues/286)) ([5b7fbe3](https://github.com/xMikux/ModsTranslationPack/commit/5b7fbe35ebe2d843c898272ea2b21804a52f6452))
+* **Re-chiseled:** 更新至 v1.0.12a ([#289](https://github.com/xMikux/ModsTranslationPack/issues/289)) ([7b70493](https://github.com/xMikux/ModsTranslationPack/commit/7b704933e03c545c0147603c36bcb456a8977042))
+* **Sophisticated Core:** 更新 1.19.2 翻譯 ([#283](https://github.com/xMikux/ModsTranslationPack/issues/283)) ([69c05ee](https://github.com/xMikux/ModsTranslationPack/commit/69c05eeec11b184c976df5f0e44ac9c11a260126))
+
 ## [1.7.6](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.5...v1.7.6) (2023-02-26)
 
 

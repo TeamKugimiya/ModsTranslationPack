@@ -1,0 +1,76 @@
+{
+  "text.owo.itemGroup.tab_template": [
+    { "index": 0 },
+    { "text": " > ", "color": "gray" },
+    { "index": 1, "color": "dark_gray" }
+  ],
+  "text.owo.config.search": "搜尋……",
+  "text.owo.config.search.matches": "%d／%d",
+  "text.owo.config.search.no_matches": "沒有符合搜尋的結果",
+  "text.owo.config.must_restart": "部分變更需要重啟遊戲才能套用",
+  "text.owo.config.button.exit_minecraft": "離開 Minecraft",
+  "text.owo.config.button.ignore_restart": "稍後重啟",
+  "text.owo.config.button.range.edit_as_text": "以文字編輯",
+  "text.owo.config.button.range.edit_with_slider": "以滑桿編輯",
+  "text.owo.config.applies_after_restart": [
+    {
+      "text": "⏻ ",
+      "color": "#FAEA48"
+    },
+    {
+      "text": "該選項在重啟遊戲後才會套用",
+      "color": "gray"
+    }
+  ],
+  "text.owo.config.managed_by_server": [
+    {
+      "text": "⚑ ",
+      "color": "#EB1D36"
+    },
+    {
+      "text": "該選項已由伺服器管理\n   請中斷連線來編輯它",
+      "color": "gray"
+    }
+  ],
+  "text.owo.config.button.reload": "重新載入",
+  "text.owo.config.button.done": "完成",
+  "text.owo.config.sections": [
+    {
+      "text": "區段",
+      "underlined": true
+    }
+  ],
+  "text.owo.config.list.add_entry": "新增項目",
+  "text.owo.config.boolean_toggle.enabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "✔",
+      "color": "#28FFBF"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 已啟用"
+  ],
+  "text.owo.config.boolean_toggle.disabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "❌",
+      "color": "#EB1D36"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 已停用"
+  ]
+}

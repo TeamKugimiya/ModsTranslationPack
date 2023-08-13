@@ -1,0 +1,44 @@
+{
+    "name": "30 到 60 級",
+    "icon": "apotheosis:hellshelf",
+    "category": "apotheosis:enchanting/progression",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+		{
+            "type": "patchouli:crafting",
+			"title": "達到 45 級",
+			"recipe": "apotheosis:hellshelf",
+			"text": "若要達到 45 級，你將會想要製作一些$(9)地獄書櫃$()，並擺放在現有的書櫃堆中。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"title": "達到 45 級",
+			"recipe": "apotheosis:seashelf",
+			"text": "若你不喜歡地獄的話，不妨到海洋冒險，並製作$(9)海洋書櫃$()。"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title": "達到 60 級",
+			"item": "apotheosis:infused_hellshelf",
+			"text": "一旦你達到 45 級，你將需要開始研究$(l:apotheosis:enchanting/table/infusion)灌注附魔$()，好繼續升級你的書櫃。"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title": "達到 60 級",
+			"item": "apotheosis:infused_seashelf",
+			"text": "製作更多你正在使用的那種書櫃，然後對它們進行灌注、升級。$(p)這些全新的書櫃，再加上你目前所擁有的，將使你達到 60 級。"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title": "其他屬性",
+			"item": "apotheosis:sightshelf",
+			"text": "現在你已經解鎖更好的選項來提高其他屬性。$(p)除了地獄書櫃與海洋書櫃的加成外，你現在還能製作$(9)視界書櫃$()來增加你的$(#00AAAA)附魔提示$()。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"title": "其他屬性",
+			"recipe": "apotheosis:rectifier",
+			"text": "若你有穩定的紫水晶來源，你還能製作$(9)校正書櫃$()來進一步提高$(#CCCC33)校正$()。"
+		}
+	]
+}

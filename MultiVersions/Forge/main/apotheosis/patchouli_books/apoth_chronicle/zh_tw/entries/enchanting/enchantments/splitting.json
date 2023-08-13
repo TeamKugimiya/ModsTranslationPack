@@ -1,0 +1,13 @@
+{
+    "name": "拆解",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "詳情請查閱鐵砧的$(l:apotheosis:enchanting/anvil/splitting)拆解$()章節。"
+        }
+	]
+}

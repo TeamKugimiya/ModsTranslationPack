@@ -1,0 +1,12 @@
+{
+	"name": "超級回家石",
+	"icon": "opolisutilities:textures/item/super_home_stone.png",
+	"category": "opolisutilities:home_stones",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "text",
+			"text": "超級回家石可用來傳送玩家回前次儲存的位置，能夠橫跨所有維度使用。"
+		}
+	]
+}

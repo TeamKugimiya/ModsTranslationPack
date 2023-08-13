@@ -1,0 +1,1097 @@
+{
+
+"itemGroup.maidens_winter_group": "打造歡樂的冬天節日",
+"itemGroup.maidens_spring_group": "打造歡樂的春天節日",
+"itemGroup.maidens_halloween_group": "打造歡樂的秋天節日",
+
+"entity.maidensmerrymaking.costumed_zombie": "化妝殭屍",
+"entity.maidensmerrymaking.costumed_husk": "化妝屍殼",
+"entity.maidensmerrymaking.costumed_drowned": "化妝沉屍",
+"entity.maidensmerrymaking.costumed_drowned_mermaid": "化妝沉屍 - 美人魚",
+"entity.maidensmerrymaking.costumed_skeleton": "化妝骷髏",
+"entity.maidensmerrymaking.costumed_creeper": "化妝苦力怕",
+"entity.maidensmerrymaking.costumed_witch": "化妝女巫",
+"entity.maidensmerrymaking.costumed_spider": "化妝蜘蛛",
+"entity.maidensmerrymaking.costumed_zombie_villager": "化妝殭屍村民",
+
+"entity.maidensmerrymaking.pink_bunny": "粉紅色復活節兔",
+"entity.maidensmerrymaking.pink_bunny_small": "粉紅色復活節兔（小隻）",
+"entity.maidensmerrymaking.pink_bunny_large": "粉紅色復活節兔（大隻）",
+"entity.maidensmerrymaking.yellow_bunny": "黃色復活節兔",
+"entity.maidensmerrymaking.yellow_bunny_small": "黃色復活節兔（小隻）",
+"entity.maidensmerrymaking.yellow_bunny_large": "黃色復活節兔（大隻）",
+"entity.maidensmerrymaking.cyan_bunny": "青色復活節兔",
+"entity.maidensmerrymaking.cyan_bunny_small": "青色復活節兔（小隻）",
+"entity.maidensmerrymaking.cyan_bunny_large": "青色復活節兔（大隻）",
+"entity.maidensmerrymaking.blue_bunny": "藍色復活節兔",
+"entity.maidensmerrymaking.blue_bunny_small": "藍色復活節兔（小隻）",
+"entity.maidensmerrymaking.blue_bunny_large": "藍色復活節兔（大隻）",
+"entity.maidensmerrymaking.purple_bunny": "紫色復活節兔",
+"entity.maidensmerrymaking.purple_bunny_small": "紫色復活節兔（小隻）",
+"entity.maidensmerrymaking.purple_bunny_large": "紫色復活節兔（大隻）",
+
+"entity.maidensmerrymaking.colored_chicken": "黃雞",
+"entity.maidensmerrymaking.christmas_creeper": "聖誕苦力怕",
+
+"tooltip.maidensmerrymaking.angora_wool_shift": "按住 \u00A7bSHIFT\u00A7b 取得更多資訊！",
+  "tooltip.maidensmerrymaking.angora_wool": "「\u00A77由北方村民合乎道德地打獵而來」\u00A77",
+  "tooltip.maidensmerrymaking.easter_card_shift": "按住 \u00A7bSHIFT\u00A7b 取得更多資訊！",
+  "tooltip.maidensmerrymaking.easter_card": "\u00A77一張老舊且布滿灰塵的復活節賀卡，被長久遺忘在箱子某處。\u00A77",
+  
+  "item.maidensmerrymaking.bunny_hood": "復活節兔兜帽",
+  "item.maidensmerrymaking.bunny_costume": "復活節兔胸甲",
+  "item.maidensmerrymaking.bunny_pants": "復活節兔護腿",
+  "item.maidensmerrymaking.bunny_feet": "復活節兔靴子",
+   "item.maidensmerrymaking.reinforced_bunny_hood": "強化復活節兔兜帽",
+  "item.maidensmerrymaking.reinforced_bunny_costume": "強化復活節兔胸甲",
+  "item.maidensmerrymaking.reinforced_bunny_pants": "強化復活節兔護腿",
+  "item.maidensmerrymaking.reinforced_bunny_feet": "強化復活節兔靴子",
+  
+  
+    "item.maidensmerrymaking.bunny_hood_leather": "復活節兔兜帽（皮革）",
+  "item.maidensmerrymaking.bunny_costume_leather": "復活節兔胸甲（皮革）",
+  "item.maidensmerrymaking.bunny_pants_leather": "復活節兔護腿（皮革）",
+  "item.maidensmerrymaking.bunny_feet_leather": "復活節兔靴子（皮革）",
+  
+  
+"item.maidensmerrymaking.pirate_mask_leather": "海盜面具（皮革）",
+"item.maidensmerrymaking.bride_mask_leather": "新娘面具（皮革）",
+"item.maidensmerrymaking.mummy_mask_leather": "木乃伊面具（皮革）",
+"item.maidensmerrymaking.mermaid_mask_leather": "美人魚面具（皮革）",
+"item.maidensmerrymaking.merman_mask_leather": "半魚人面具（皮革）",
+"item.maidensmerrymaking.frankenstein_mask_leather": "科學怪人面具（皮革）",
+
+
+"item.maidensmerrymaking.pirate_body_leather": "海盜服裝（皮革）",
+"item.maidensmerrymaking.bride_body_leather": "新娘服裝（皮革）",
+"item.maidensmerrymaking.mummy_body_leather": "木乃伊服裝（皮革）",
+"item.maidensmerrymaking.mermaid_body_leather": "美人魚服裝（皮革）",
+"item.maidensmerrymaking.merman_body_leather": "半魚人服裝（皮革）",
+"item.maidensmerrymaking.frankenstein_body_leather": "科學怪人服裝（皮革）",
+
+
+"item.maidensmerrymaking.pirate_pants_leather": "海盜褲子（皮革）",
+"item.maidensmerrymaking.bride_breeches_leather": "新娘燈籠褲（皮革）",
+"item.maidensmerrymaking.mummy_leggings_leather": "木乃伊褲子（皮革）",
+"item.maidensmerrymaking.mermaid_tail_leather": "美人魚尾巴（皮革）",
+"item.maidensmerrymaking.merman_tail_leather": "半魚人尾巴（皮革）",
+"item.maidensmerrymaking.frankenstein_leggings_leather": "科學怪人褲子（皮革）",
+
+
+"item.maidensmerrymaking.pirate_plunderers_leather": "海盜靴子（皮革）",
+"item.maidensmerrymaking.bride_boots_leather": "新娘鞋子（皮革）",
+"item.maidensmerrymaking.mummy_feet_leather": "木乃伊鞋子（皮革）",
+"item.maidensmerrymaking.mermaid_fins_leather": "美人魚尾鰭（皮革）",
+"item.maidensmerrymaking.merman_fins_leather": "半魚人尾鰭（皮革）",
+"item.maidensmerrymaking.frankenstein_feet_leather": "科學怪人鞋子（皮革）",
+
+"item.maidensmerrymaking.reindeer_ears_leather": "馴鹿茸角（皮革）",
+"item.maidensmerrymaking.red_santa_hat_leather": "紅色聖誕帽（皮革）",
+"item.maidensmerrymaking.red_ugly_christmas_sweater_leather": "難看的聖誕毛衣 - 企鵝版（皮革）",
+"item.maidensmerrymaking.green_ugly_christmas_sweater_leather": "難看的聖誕毛衣 - 雪人版（皮革）",
+"item.maidensmerrymaking.plaid_pajama_pants_leather": "格紋睡褲（皮革）",
+"item.maidensmerrymaking.striped_pajama_pants_leather": "條紋睡褲（皮革）",
+"item.maidensmerrymaking.santa_slippers_leather": "聖誕老人拖鞋（皮革）",
+"item.maidensmerrymaking.reindeer_slippers_leather": "馴鹿拖鞋（皮革）",
+
+  "item.maidensmerrymaking.bunny_hood_iron": "復活節兔兜帽（鐵）",
+  "item.maidensmerrymaking.bunny_costume_iron": "復活節兔胸甲（鐵）",
+  "item.maidensmerrymaking.bunny_pants_iron": "復活節兔護腿（鐵）",
+  "item.maidensmerrymaking.bunny_feet_iron": "復活節兔靴子（鐵）",
+  
+  
+"item.maidensmerrymaking.pirate_mask_iron": "海盜面具（鐵）",
+"item.maidensmerrymaking.bride_mask_iron": "新娘面具（鐵）",
+"item.maidensmerrymaking.mummy_mask_iron": "木乃伊面具（鐵）",
+"item.maidensmerrymaking.mermaid_mask_iron": "美人魚面具（鐵）",
+"item.maidensmerrymaking.merman_mask_iron": "半魚人面具（鐵）",
+"item.maidensmerrymaking.frankenstein_mask_iron": "科學怪人面具（鐵）",
+
+
+"item.maidensmerrymaking.pirate_body_iron": "海盜服裝（鐵）",
+"item.maidensmerrymaking.bride_body_iron": "新娘服裝（鐵）",
+"item.maidensmerrymaking.mummy_body_iron": "木乃伊服裝（鐵）",
+"item.maidensmerrymaking.mermaid_body_iron": "美人魚服裝（鐵）",
+"item.maidensmerrymaking.merman_body_iron": "半魚人服裝（鐵）",
+"item.maidensmerrymaking.frankenstein_body_iron": "科學怪人服裝（鐵）",
+
+
+"item.maidensmerrymaking.pirate_pants_iron": "海盜褲子（鐵）",
+"item.maidensmerrymaking.bride_breeches_iron": "新娘燈籠褲（鐵）",
+"item.maidensmerrymaking.mummy_leggings_iron": "木乃伊褲子（鐵）",
+"item.maidensmerrymaking.mermaid_tail_iron": "美人魚尾巴（鐵）",
+"item.maidensmerrymaking.merman_tail_iron": "半魚人尾巴（鐵）",
+"item.maidensmerrymaking.frankenstein_leggings_iron": "科學怪人褲子（鐵）",
+
+
+"item.maidensmerrymaking.pirate_plunderers_iron": "海盜靴子（鐵）",
+"item.maidensmerrymaking.bride_boots_iron": "新娘鞋子（鐵）",
+"item.maidensmerrymaking.mummy_feet_iron": "木乃伊鞋子（鐵）",
+"item.maidensmerrymaking.mermaid_fins_iron": "美人魚尾鰭（鐵）",
+"item.maidensmerrymaking.merman_fins_iron": "半魚人尾鰭（鐵）",
+"item.maidensmerrymaking.frankenstein_feet_iron": "科學怪人鞋子（鐵）",
+
+"item.maidensmerrymaking.reindeer_ears_iron": "馴鹿茸角（鐵）",
+"item.maidensmerrymaking.red_santa_hat_iron": "紅色聖誕帽（鐵）",
+"item.maidensmerrymaking.red_ugly_christmas_sweater_iron": "難看的聖誕毛衣 - 企鵝版（鐵）",
+"item.maidensmerrymaking.green_ugly_christmas_sweater_iron": "難看的聖誕毛衣 - 雪人版（鐵）",
+"item.maidensmerrymaking.plaid_pajama_pants_iron": "格紋睡褲（鐵）",
+"item.maidensmerrymaking.striped_pajama_pants_iron": "條紋睡褲（鐵）",
+"item.maidensmerrymaking.santa_slippers_iron": "聖誕老人拖鞋（鐵）",
+"item.maidensmerrymaking.reindeer_slippers_iron": "馴鹿拖鞋（鐵）",
+
+
+
+
+
+"item.maidensmerrymaking.angora_wool": "安哥拉兔毛",
+"item.maidensmerrymaking.chocolate_bunny": "巧克力復活節兔子",
+"item.maidensmerrymaking.easter_card": "復活節賀卡",
+"item.maidensmerrymaking.pink_egg": "粉紅色復活節蛋",
+"item.maidensmerrymaking.blue_egg": "藍色復活節蛋",
+"item.maidensmerrymaking.purple_egg": "紫色復活節蛋",
+"item.maidensmerrymaking.yellow_egg": "黃色復活節蛋",
+"item.maidensmerrymaking.purple_bunny_spawn_egg": "紫色復活節兔 生怪蛋",
+"item.maidensmerrymaking.pink_bunny_spawn_egg": "粉紅色復活節兔 生怪蛋",
+"item.maidensmerrymaking.blue_bunny_spawn_egg": "藍色復活節兔 生怪蛋",
+"item.maidensmerrymaking.yellow_bunny_spawn_egg": "黃色復活節兔 生怪蛋",
+"item.maidensmerrymaking.cyan_bunny_spawn_egg": "青色復活節兔 生怪蛋",
+"item.maidensmerrymaking.colored_chicken_spawn_egg": "黃雞 生怪蛋",
+
+"item.maidensmerrymaking.trick_or_treat_bag": "萬聖節糖果包",
+"item.maidensmerrymaking.noisemaker": "噪音製造器",
+"item.maidensmerrymaking.sunflower_oil": "葵花籽油",
+
+"item.maidensmerrymaking.costumed_zombie_spawn_egg": "化妝殭屍 生怪蛋",
+"item.maidensmerrymaking.costumed_husk_spawn_egg": "化妝屍殼 生怪蛋",
+"item.maidensmerrymaking.costumed_drowned_spawn_egg": "化妝沉屍（半魚人） 生怪蛋",
+"item.maidensmerrymaking.costumed_drowned_mermaid_spawn_egg": "化妝沉屍（美人魚） 生怪蛋",
+"item.maidensmerrymaking.costumed_skeleton_spawn_egg": "化妝骷髏 生怪蛋",
+
+"item.maidensmerrymaking.costumed_creeper_spawn_egg": "化妝苦力怕 生怪蛋",
+"item.maidensmerrymaking.christmas_creeper_spawn_egg": "聖誕苦力怕 生怪蛋",
+"item.maidensmerrymaking.costumed_spider_spawn_egg": "化妝蜘蛛 生怪蛋",
+"item.maidensmerrymaking.costumed_zombie_villager_spawn_egg": "化妝殭屍村民 生怪蛋",
+
+"item.maidensmerrymaking.costumed_witch_spawn_egg": "化妝女巫 生怪蛋",
+
+
+"item.maidensmerrymaking.pirate_mask": "海盜面具",
+"item.maidensmerrymaking.bride_mask": "新娘面具",
+"item.maidensmerrymaking.mummy_mask": "木乃伊面具",
+"item.maidensmerrymaking.mermaid_mask": "美人魚面具",
+"item.maidensmerrymaking.merman_mask": "半魚人面具",
+"item.maidensmerrymaking.frankenstein_mask": "科學怪人面具",
+
+
+"item.maidensmerrymaking.pirate_body": "海盜服裝",
+"item.maidensmerrymaking.bride_body": "新娘服裝",
+"item.maidensmerrymaking.mummy_body": "木乃伊服裝",
+"item.maidensmerrymaking.mermaid_body": "美人魚服裝",
+"item.maidensmerrymaking.merman_body": "半魚人服裝",
+"item.maidensmerrymaking.frankenstein_body": "科學怪人服裝",
+
+
+"item.maidensmerrymaking.pirate_pants": "海盜褲子",
+"item.maidensmerrymaking.bride_breeches": "新娘燈籠褲",
+"item.maidensmerrymaking.mummy_leggings": "木乃伊褲子",
+"item.maidensmerrymaking.mermaid_tail": "美人魚尾巴",
+"item.maidensmerrymaking.merman_tail": "半魚人尾巴",
+"item.maidensmerrymaking.frankenstein_leggings": "科學怪人褲子",
+
+
+"item.maidensmerrymaking.pirate_plunderers": "海盜靴子",
+"item.maidensmerrymaking.bride_boots": "新娘鞋子",
+"item.maidensmerrymaking.mummy_feet": "木乃伊鞋子",
+"item.maidensmerrymaking.mermaid_fins": "美人魚尾鰭",
+"item.maidensmerrymaking.merman_fins": "半魚人尾鰭",
+"item.maidensmerrymaking.frankenstein_feet": "科學怪人鞋子",
+
+
+
+"item.maidensmerrymaking.reinforced_pirate_mask": "強化海盜面具",
+"item.maidensmerrymaking.reinforced_bride_mask": "強化新娘面具",
+"item.maidensmerrymaking.reinforced_mummy_mask": "強化木乃伊面具",
+"item.maidensmerrymaking.reinforced_mermaid_mask": "強化美人魚面具",
+"item.maidensmerrymaking.reinforced_merman_mask": "強化半魚人面具",
+"item.maidensmerrymaking.reinforced_frankenstein_mask": "強化科學怪人面具",
+
+
+"item.maidensmerrymaking.reinforced_pirate_body": "強化海盜服裝",
+"item.maidensmerrymaking.reinforced_bride_body": "強化新娘服裝",
+"item.maidensmerrymaking.reinforced_mummy_body": "強化木乃伊服裝",
+"item.maidensmerrymaking.reinforced_mermaid_body": "強化美人魚服裝",
+"item.maidensmerrymaking.reinforced_merman_body": "強化半魚人服裝",
+"item.maidensmerrymaking.reinforced_frankenstein_body": "強化科學怪人服裝",
+
+
+"item.maidensmerrymaking.reinforced_pirate_pants": "強化海盜褲子",
+"item.maidensmerrymaking.reinforced_bride_breeches": "強化新娘燈籠褲",
+"item.maidensmerrymaking.reinforced_mummy_leggings": "強化木乃伊褲子",
+"item.maidensmerrymaking.reinforced_mermaid_tail": "強化美人魚尾巴",
+"item.maidensmerrymaking.reinforced_merman_tail": "強化半魚人尾巴",
+"item.maidensmerrymaking.reinforced_frankenstein_leggings": "強化科學怪人褲子",
+
+
+"item.maidensmerrymaking.reinforced_pirate_plunderers": "強化海盜靴子",
+"item.maidensmerrymaking.reinforced_bride_boots": "強化新娘鞋子",
+"item.maidensmerrymaking.reinforced_mummy_feet": "強化木乃伊鞋子",
+"item.maidensmerrymaking.reinforced_mermaid_fins": "強化美人魚尾鰭",
+"item.maidensmerrymaking.reinforced_merman_fins": "強化半魚人尾鰭",
+"item.maidensmerrymaking.reinforced_frankenstein_feet": "強化科學怪人鞋子",
+
+
+"item.maidensmerrymaking.reindeer_ears": "馴鹿茸角",
+"item.maidensmerrymaking.red_santa_hat": "紅色聖誕帽",
+"item.maidensmerrymaking.red_ugly_christmas_sweater": "難看的聖誕毛衣 - 企鵝版",
+"item.maidensmerrymaking.green_ugly_christmas_sweater": "難看的聖誕毛衣 - 雪人版",
+"item.maidensmerrymaking.plaid_pajama_pants": "格紋睡褲",
+"item.maidensmerrymaking.striped_pajama_pants": "條紋睡褲",
+"item.maidensmerrymaking.santa_slippers": "聖誕老人拖鞋",
+"item.maidensmerrymaking.reindeer_slippers": "馴鹿拖鞋",
+
+"item.maidensmerrymaking.reinforced_reindeer_ears": "強化馴鹿茸角",
+"item.maidensmerrymaking.reinforced_red_santa_hat": "強化紅色聖誕帽",
+"item.maidensmerrymaking.reinforced_red_ugly_christmas_sweater": "強化難看的聖誕毛衣 - 企鵝版",
+"item.maidensmerrymaking.reinforced_green_ugly_christmas_sweater": "強化難看的聖誕毛衣 - 雪人版",
+"item.maidensmerrymaking.reinforced_plaid_pajama_pants": "強化格紋睡褲",
+"item.maidensmerrymaking.reinforced_striped_pajama_pants": "強化條紋睡褲",
+"item.maidensmerrymaking.reinforced_santa_slippers": "強化聖誕老人拖鞋",
+"item.maidensmerrymaking.reinforced_reindeer_slippers": "強化馴鹿拖鞋",
+
+"item.maidensmerrymaking.ornaments": "彩色裝飾品（發光款）",
+"item.maidensmerrymaking.ornaments_white": "彩色裝飾品（經典款）",
+"item.maidensmerrymaking.dried_sweet_berries": "甜莓乾",
+"item.maidensmerrymaking.tree_garland": "甜莓花環",
+
+"item.maidensmerrymaking.christmas_tree": "聖誕樹",
+"item.maidensmerrymaking.christmas_tree_white_lights": "白色聖誕樹燈",
+"item.maidensmerrymaking.christmas_tree_multi_lights": "彩色聖誕樹燈",
+"item.maidensmerrymaking.roof_tiles": "屋瓦",
+"item.maidensmerrymaking.green_wires": "綠色線纜",
+"item.maidensmerrymaking.white_wires": "白色線纜",
+"item.maidensmerrymaking.multi_bulbs": "彩色電燈泡",
+"item.maidensmerrymaking.white_bulbs": "白色電燈泡",
+"item.maidensmerrymaking.classic_bulbs_white": "白色燈串（經典款）",
+"item.maidensmerrymaking.classic_bulbs_multi": "彩色燈串（經典款）",
+"item.maidensmerrymaking.mini_bulbs_multi": "彩色燈串（迷你款）",
+"item.maidensmerrymaking.mini_bulbs_white": "白色燈串（迷你款）",
+"item.maidensmerrymaking.icicle_bulbs_white": "白色冰柱燈",
+"item.maidensmerrymaking.icicle_bulbs_multi": "彩色冰柱燈",
+"item.maidensmerrymaking.twinkling_icicle_bulbs_multi": "閃爍的彩色冰柱燈",
+"item.maidensmerrymaking.twinkling_icicle_bulbs_white": "閃爍的白色冰柱燈",
+
+"item.maidensmerrymaking.classic_lights_white": "白色燈串（經典款）",
+"item.maidensmerrymaking.classic_lights_multi": "彩色燈串（經典款）",
+"item.maidensmerrymaking.mini_lights_multi": "彩色燈串（迷你款）",
+"item.maidensmerrymaking.mini_lights_white": "白色燈串（迷你款）",
+"item.maidensmerrymaking.icicle_lights_white": "白色冰柱燈",
+"item.maidensmerrymaking.icicle_lights_multi": "彩色冰柱燈",
+"item.maidensmerrymaking.twinkling_lights_multi": "閃爍的彩色冰柱燈",
+"item.maidensmerrymaking.twinkling_lights_white": "閃爍的白色冰柱燈",
+
+
+"item.maidensmerrymaking.star": "星星",
+"item.maidensmerrymaking.bow": "蝴蝶結",
+"item.maidensmerrymaking.stocking": "聖誕襪",
+"item.maidensmerrymaking.mint_seeds": "薄荷種子",
+"item.maidensmerrymaking.peppermint_extract": "辣薄荷葉提取物",
+"item.maidensmerrymaking.bottle_of_mint": "薄荷瓶",
+"item.maidensmerrymaking.ginger_tuber": "薑塊莖",
+"item.maidensmerrymaking.mint_leaf": "薄荷葉",
+
+"item.maidensmerrymaking.christmas_music_disc_2": "節日音樂",
+"item.maidensmerrymaking.christmas_music_disc_2.desc": "由許多作者創作的節日音樂合輯",
+
+"item.maidensmerrymaking.christmas_music_disc": "Lofi 節日音樂",
+"item.maidensmerrymaking.christmas_music_disc.desc": "由 LofiGeek 所創作的各種節日音樂",
+
+"item.maidensmerrymaking.halloween_disc": "萬聖節音樂",
+"item.maidensmerrymaking.halloween_disc.desc": "由許多作者創作的萬聖節音樂",
+
+"item.maidensmerrymaking.ground_ginger": "薑粉",
+"item.maidensmerrymaking.gingerbread_dough": "薑餅麵團",
+"item.maidensmerrymaking.cookie_dough": "餅乾麵團",
+"item.maidensmerrymaking.gingerbread_cookie": "薑餅人",
+"item.maidensmerrymaking.tree_christmas_cookie": "聖誕樹餅乾",
+"item.maidensmerrymaking.stocking_christmas_cookie": "聖誕襪餅乾",
+"item.maidensmerrymaking.mitten_christmas_cookie": "聖誕薄荷餅乾",
+"item.maidensmerrymaking.fudge": "巧克力軟糖",
+"item.maidensmerrymaking.egg_nog": "蛋奶酒",
+"item.maidensmerrymaking.hot_cocoa": "熱可可",
+"item.maidensmerrymaking.peppermint_cocoa": "辣薄荷熱可可",
+"item.maidensmerrymaking.candy_cane": "拐杖糖",
+"item.maidensmerrymaking.icing": "糖霜",
+"item.maidensmerrymaking.fruitcake": "水果蛋糕",
+"item.maidensmerrymaking.corn": "玉米",
+
+"item.maidensmerrymaking.corn_kernels": "玉米粒",
+"item.maidensmerrymaking.sweet_potato": "番薯",
+"item.maidensmerrymaking.sweet_potato_pie": "番薯派",
+"item.maidensmerrymaking.rugelach": "可頌餅乾",
+
+"item.maidensmerrymaking.caramel": "焦糖瓶",
+"item.maidensmerrymaking.caramel_apple": "焦糖蘋果",
+"item.maidensmerrymaking.candy_corn": "雷根糖",
+"item.maidensmerrymaking.caramel_popcorn": "焦糖爆米花",
+"item.maidensmerrymaking.apple_cider": "蘋果酒",
+"item.maidensmerrymaking.pumpkin_bread": "南瓜麵包",
+"item.maidensmerrymaking.popcorn": "爆米花",
+
+"block.maidensmerrymaking.pot_o_gold_block": "金色大鍋",
+"block.maidensmerrymaking.glass_mug": "玻璃馬克杯",
+"block.maidensmerrymaking.green_beer_trophy": "綠啤酒成就獎盃",
+"block.maidensmerrymaking.clover": "三葉草",
+"item.maidensmerrymaking.four_leaf_clover": "幸運四葉草",
+"item.maidensmerrymaking.green_beer": "綠啤酒",
+		
+"block.maidensmerrymaking.quartz_platter": "石英盤",
+		
+"block.maidensmerrymaking.easter_basket_block": "復活節籃子",
+"block.maidensmerrymaking.easter_basket_trophy_block": "復活節籃子獎盃",
+"block.maidensmerrymaking.easter_lily": "復活節百合",
+"block.maidensmerrymaking.easter_lily_potted": "復活節百合盆栽",
+"block.maidensmerrymaking.hydrangea": "繡球花叢",
+"block.maidensmerrymaking.hydrangea_potted": "繡球花盆栽",
+"block.maidensmerrymaking.hyacinth": "風信子",
+"block.maidensmerrymaking.hyacinth_potted": "風信子盆栽",
+
+"block.maidensmerrymaking.gravestone_plain": "墓碑",
+"block.maidensmerrymaking.gravestone_cross": "十字架墓碑",
+"block.maidensmerrymaking.gravestone_obelisk": "方尖墓碑",
+"block.maidensmerrymaking.gravestone_topped": "花俏墓碑",
+"block.maidensmerrymaking.mantel_deco_boo": "'Boo'字樣壁爐裝飾",
+"block.maidensmerrymaking.mantel_deco_haunted_house": "鬼屋造型壁爐裝飾",
+
+"block.maidensmerrymaking.living_pine_log": "活松木原木",
+"block.maidensmerrymaking.pine_leaves": "松木樹葉",
+"block.maidensmerrymaking.pine_sapling": "松木樹苗",
+
+"block.maidensmerrymaking.pine_log": "松木原木",
+"block.maidensmerrymaking.exposed_pine_log": "裸露松木原木",
+"block.maidensmerrymaking.weathered_pine_log": "風化松木原木",
+"block.maidensmerrymaking.aged_pine_log": "老松木原木",
+
+"block.maidensmerrymaking.pine_wood": "松木塊",
+"block.maidensmerrymaking.exposed_pine_wood": "裸露松木塊",
+"block.maidensmerrymaking.weathered_pine_wood": "風化松木塊",
+"block.maidensmerrymaking.aged_pine_wood": "老松木塊",
+
+"block.maidensmerrymaking.preserved_pine_log": "保存完好的松木原木",
+"block.maidensmerrymaking.preserved_exposed_pine_log": "保存完好的裸露松木原木",
+"block.maidensmerrymaking.preserved_weathered_pine_log": "保存完好的風化松木原木",
+"block.maidensmerrymaking.preserved_aged_pine_log": "保存完好的老松木原木",
+
+"block.maidensmerrymaking.preserved_pine_wood": "保存完好的松木塊",
+"block.maidensmerrymaking.preserved_exposed_pine_wood": "保存完好的裸露松木塊",
+"block.maidensmerrymaking.preserved_weathered_pine_wood": "保存完好的風化松木塊",
+"block.maidensmerrymaking.preserved_aged_pine_wood": "保存完好的老松木塊",
+
+"block.maidensmerrymaking.stripped_pine_log": "剝皮松木原木",
+"block.maidensmerrymaking.stripped_exposed_pine_log": "剝皮裸露松木原木",
+"block.maidensmerrymaking.stripped_weathered_pine_log": "剝皮風化松木原木",
+"block.maidensmerrymaking.stripped_aged_pine_log": "剝皮老松木原木",
+
+"block.maidensmerrymaking.stripped_pine_wood": "剝皮松木塊",
+"block.maidensmerrymaking.stripped_exposed_pine_wood": "剝皮裸露松木塊",
+"block.maidensmerrymaking.stripped_weathered_pine_wood": "剝皮風化松木塊",
+"block.maidensmerrymaking.stripped_aged_pine_wood": "剝皮老松木塊",
+
+"block.maidensmerrymaking.stripped_preserved_pine_log": "剝皮保存完好的松木原木",
+"block.maidensmerrymaking.stripped_preserved_exposed_pine_log": "剝皮保存完好的裸露松木原木",
+"block.maidensmerrymaking.stripped_preserved_weathered_pine_log": "剝皮保存完好的風化松木原木",
+"block.maidensmerrymaking.stripped_preserved_aged_pine_log": "剝皮保存完好的老松木原木",
+
+"block.maidensmerrymaking.stripped_preserved_pine_wood": "剝皮保存完好的松木塊",
+"block.maidensmerrymaking.stripped_preserved_exposed_pine_wood": "剝皮保存完好的裸露松木塊",
+"block.maidensmerrymaking.stripped_preserved_weathered_pine_wood": "剝皮保存完好的風化松木塊",
+"block.maidensmerrymaking.stripped_preserved_aged_pine_wood": "剝皮保存完好的老松木塊",
+
+"block.maidensmerrymaking.pine_planks": "松木材",
+"block.maidensmerrymaking.exposed_pine_planks": "裸露松木材",
+"block.maidensmerrymaking.weathered_pine_planks": "風化松木材",
+"block.maidensmerrymaking.aged_pine_planks": "老松木材",
+
+"block.maidensmerrymaking.preserved_pine_planks": "保存完好的松木材",
+"block.maidensmerrymaking.preserved_exposed_pine_planks": "保存完好的裸露松木材",
+"block.maidensmerrymaking.preserved_weathered_pine_planks": "保存完好的風化松木材",
+"block.maidensmerrymaking.preserved_aged_pine_planks": "保存完好的老松木材",
+
+"block.maidensmerrymaking.pine_stairs": "松木階梯",
+"block.maidensmerrymaking.exposed_pine_stairs": "裸露松木階梯",
+"block.maidensmerrymaking.weathered_pine_stairs": "風化松木階梯",
+"block.maidensmerrymaking.aged_pine_stairs": "老松木階梯",
+
+"block.maidensmerrymaking.pine_slab": "松木半磚",
+"block.maidensmerrymaking.exposed_pine_slab": "裸露松木半磚",
+"block.maidensmerrymaking.weathered_pine_slab": "風化松木半磚",
+"block.maidensmerrymaking.aged_pine_slab": "老松木半磚",
+
+"block.maidensmerrymaking.pine_fence": "松木柵欄",
+"block.maidensmerrymaking.exposed_pine_fence": "裸露松木柵欄",
+"block.maidensmerrymaking.weathered_pine_fence": "風化松木柵欄",
+"block.maidensmerrymaking.aged_pine_fence": "老松木柵欄",
+
+"block.maidensmerrymaking.pine_fence_gate": "松木柵欄門",
+"block.maidensmerrymaking.exposed_pine_fence_gate": "裸露松木柵欄門",
+"block.maidensmerrymaking.weathered_pine_fence_gate": "風化松木柵欄門",
+"block.maidensmerrymaking.aged_pine_fence_gate": "老松木柵欄門",
+
+"block.maidensmerrymaking.pine_pressure_plate": "松木壓力板",
+"block.maidensmerrymaking.exposed_pine_pressure_plate": "裸露松木壓力板",
+"block.maidensmerrymaking.weathered_pine_pressure_plate": "風化松木壓力板",
+"block.maidensmerrymaking.aged_pine_pressure_plate": "老松木壓力板",
+
+"block.maidensmerrymaking.pine_button": "松木按鈕",
+"block.maidensmerrymaking.exposed_pine_button": "裸露松木按鈕",
+"block.maidensmerrymaking.weathered_pine_button": "風化松木按鈕",
+"block.maidensmerrymaking.aged_pine_button": "老松木按鈕",
+
+"block.maidensmerrymaking.roof_pine_stairs": "松木階梯",
+"block.maidensmerrymaking.roof_exposed_pine_stairs": "裸露松木階梯屋頂",
+"block.maidensmerrymaking.roof_weathered_pine_stairs": "風化松木階梯屋頂",
+"block.maidensmerrymaking.roof_aged_pine_stairs": "老松木階梯屋頂",
+
+"block.maidensmerrymaking.snowy_pine_stairs": "積雪松木階梯",
+"block.maidensmerrymaking.snowy_exposed_pine_stairs": "積雪裸露松木階梯",
+"block.maidensmerrymaking.snowy_weathered_pine_stairs": "積雪風化松木階梯",
+"block.maidensmerrymaking.snowy_aged_pine_stairs": "積雪老松木階梯",
+
+"block.maidensmerrymaking.roof_pine_slab": "松木半磚屋頂",
+"block.maidensmerrymaking.roof_exposed_pine_slab": "裸露松木半磚屋頂",
+"block.maidensmerrymaking.roof_weathered_pine_slab": "風化松木半磚屋頂",
+"block.maidensmerrymaking.roof_aged_pine_slab": "老松木半磚屋頂",
+
+"block.maidensmerrymaking.snowy_pine_slab": "積雪松木半磚",
+"block.maidensmerrymaking.snowy_exposed_pine_slab": "積雪裸露松木半磚",
+"block.maidensmerrymaking.snowy_weathered_pine_slab": "積雪風化松木半磚",
+"block.maidensmerrymaking.snowy_aged_pine_slab": "積雪老松木半磚",
+
+"block.maidensmerrymaking.pine_door": "松木門",
+"block.maidensmerrymaking.exposed_pine_door": "裸露松木門",
+"block.maidensmerrymaking.weathered_pine_door": "風化松木門",
+"block.maidensmerrymaking.aged_pine_door": "老松木門",
+
+"block.maidensmerrymaking.pine_trapdoor": "松木地板門",
+"block.maidensmerrymaking.exposed_pine_trapdoor": "裸露松木地板門",
+"block.maidensmerrymaking.weathered_pine_trapdoor": "風化松木地板門",
+"block.maidensmerrymaking.aged_pine_trapdoor": "老松木地板門",
+
+"block.maidensmerrymaking.stuffed_poultry_dinner": "填餡禽肉晚餐",
+
+
+"block.maidensmerrymaking.blue_multi_dots_easter_egg_block": "多色點藍色復活節彩蛋",
+"block.maidensmerrymaking.blue_multi_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.blue_purple_fade_dots_easter_egg_block": "白點藍紫色復活節彩蛋",
+"block.maidensmerrymaking.blue_purple_fade_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.blue_purple_fade_easter_egg_block": "藍紫色復活節彩蛋",
+"block.maidensmerrymaking.blue_purple_fade_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.blue_purple_fade_zigzag_easter_egg_block": "人字形藍紫色復活節彩蛋",
+"block.maidensmerrymaking.blue_purple_fade_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.blue_white_flowers_easter_egg_block": "白花藍色復活節彩蛋",
+"block.maidensmerrymaking.blue_white_flowers_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.blue_zigzag_easter_egg_block": "人字形藍色復活節彩蛋",
+"block.maidensmerrymaking.blue_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_blue_fade_dots_easter_egg_block": "白點青藍色復活節彩蛋",
+"block.maidensmerrymaking.cyan_blue_fade_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_blue_fade_easter_egg_block": "青藍色復活節彩蛋",
+"block.maidensmerrymaking.cyan_blue_fade_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_blue_fade_zigzag_easter_egg_block": "人字形青藍色復活節彩蛋",
+"block.maidensmerrymaking.cyan_blue_fade_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_dots_easter_egg_block": "白點青色復活節彩蛋",
+"block.maidensmerrymaking.cyan_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_monochrome_easter_egg_block": "青色條紋復活節彩蛋",
+"block.maidensmerrymaking.cyan_monochrome_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_multi_dots_easter_egg_block": "多色點青色復活節彩蛋",
+"block.maidensmerrymaking.cyan_multi_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_purple_fade_dots_easter_egg_block": "青紫色復活節彩蛋",
+"block.maidensmerrymaking.cyan_purple_fade_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_purple_fade_easter_egg_block": "青紫色復活節彩蛋",
+"block.maidensmerrymaking.cyan_purple_fade_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_purple_fade_zigzag_easter_egg_block": "人字形青紫色復活節彩蛋",
+"block.maidensmerrymaking.cyan_purple_fade_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.cyan_white_flowers_easter_egg_block": "白花青色復活節彩蛋",
+"block.maidensmerrymaking.cyan_white_flowers_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_blue_fade_dots_easter_egg_block": "白點粉紅藍色復活節彩蛋",
+"block.maidensmerrymaking.pink_blue_fade_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_blue_fade_easter_egg_block": "粉紅藍色復活節彩蛋",
+"block.maidensmerrymaking.pink_blue_fade_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_blue_fade_zigzag_easter_egg_block": "人字形粉紅藍色復活節彩蛋",
+"block.maidensmerrymaking.pink_blue_fade_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_cyan_fade_dots_easter_egg_block": "白點粉紅青色復活節彩蛋",
+"block.maidensmerrymaking.pink_cyan_fade_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_cyan_fade_easter_egg_block": "粉紅青色復活節彩蛋",
+"block.maidensmerrymaking.pink_cyan_fade_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_cyan_fade_zigzag_easter_egg_block": "人字形粉紅青色復活節彩蛋",
+"block.maidensmerrymaking.pink_cyan_fade_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_monochrome_easter_egg_block": "粉紅條紋復活節彩蛋",
+"block.maidensmerrymaking.pink_monochrome_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_multi_dots_easter_egg_block": "多色點粉紅色復活節彩蛋",
+"block.maidensmerrymaking.pink_multi_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_purple_fade_dots_easter_egg_block": "白點粉紅紫色復活節彩蛋",
+"block.maidensmerrymaking.pink_purple_fade_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_purple_fade_easter_egg_block": "粉紅紫色復活節彩蛋",
+"block.maidensmerrymaking.pink_purple_fade_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_purple_fade_zigzag_easter_egg_block": "人字形粉紅紫色復活節彩蛋",
+"block.maidensmerrymaking.pink_purple_fade_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.pink_white_flowers_easter_egg_block": "白花粉紅色復活節彩蛋",
+"block.maidensmerrymaking.pink_white_flowers_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.purple_dots_easter_egg_block": "多色點紫色復活節彩蛋",
+"block.maidensmerrymaking.purple_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.purple_pink_flower_easter_egg_block": "粉紅花紫色復活節彩蛋",
+"block.maidensmerrymaking.purple_pink_flower_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.purple_stripes_easter_egg_block": "多彩條紋紫色復活節彩蛋",
+"block.maidensmerrymaking.purple_stripes_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.rainbow_dots_easter_egg_block": "白點粉彩紅色復活節彩蛋",
+"block.maidensmerrymaking.rainbow_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.rainbow_easter_egg_block": "粉彩紅色復活節彩蛋",
+"block.maidensmerrymaking.rainbow_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.rainbow_zigzag_easter_egg_block": "人字形粉彩紅色復活節彩蛋",
+"block.maidensmerrymaking.rainbow_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.yellow_blue_fade_dots_easter_egg_block": "白點黃綠色復活節彩蛋",
+"block.maidensmerrymaking.yellow_blue_fade_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.yellow_blue_fade_easter_egg_block": "黃綠色復活節彩蛋",
+"block.maidensmerrymaking.yellow_blue_fade_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.yellow_blue_fade_zigzag_easter_egg_block": "人字形黃綠色復活節彩蛋",
+"block.maidensmerrymaking.yellow_blue_fade_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.yellow_monochrome_easter_egg_block": "黃色條紋復活節彩蛋",
+"block.maidensmerrymaking.yellow_monochrome_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.yellow_pink_fade_dots_easter_egg_block": "白點黃粉紅色復活節彩蛋",
+"block.maidensmerrymaking.yellow_pink_fade_dots_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.yellow_pink_fade_easter_egg_block": "黃粉紅色復活節彩蛋",
+"block.maidensmerrymaking.yellow_pink_fade_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.yellow_pink_fade_zigzag_easter_egg_block": "人字形黃粉紅色復活節彩蛋",
+"block.maidensmerrymaking.yellow_pink_fade_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.yellow_white_flowers_easter_egg_block": "白花黃色復活節彩蛋",
+"block.maidensmerrymaking.yellow_white_flowers_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+
+"block.maidensmerrymaking.yellow_zigzag_easter_egg_block": "人字形黃色復活節彩蛋",
+"block.maidensmerrymaking.yellow_zigzag_easter_egg_gen_block": "復活節彩蛋裝飾方塊",
+	
+	
+	
+	"block.maidensmerrymaking.mint_plant": "薄荷種子",
+	"block.maidensmerrymaking.ginger_plant": "薑根",
+	"block.maidensmerrymaking.sweet_potato_plant": "番薯",
+	"block.maidensmerrymaking.corn_stalk": "玉米粒",
+	"block.maidensmerrymaking.mug": "馬克杯",
+	"block.maidensmerrymaking.mkeka": "節慶地毯",
+	"block.maidensmerrymaking.chalice": "聖杯",
+	"block.maidensmerrymaking.kinara": "基納拉燭台",
+	"block.maidensmerrymaking.kinara_lit": "點燃的基納拉燭台",
+	"block.maidensmerrymaking.menorah": "猶太教燭台",
+	"block.maidensmerrymaking.menorah_lit": "點燃的猶太教燭台",
+	"block.maidensmerrymaking.harvest_tray": "作物托盤",
+	"block.maidensmerrymaking.cookie_tray": "餅乾托盤",
+	"block.maidensmerrymaking.dreidel": "光明節陀螺",
+	"block.maidensmerrymaking.gelt": "光明節巧克力金幣",
+	"block.maidensmerrymaking.tiny_spruce": "小杉木樹苗",
+	"block.maidensmerrymaking.holly_sapling": "冬青樹苗",
+	"block.maidensmerrymaking.present": "聖誕禮物",
+		
+	"block.maidensmerrymaking.iron_fence": "鍛鐵柵欄",
+	"block.maidensmerrymaking.warped_picket_fence": "扭曲蕈木尖樁柵欄",
+	"block.maidensmerrymaking.crimson_picket_fence": "緋紅蕈木尖樁柵欄",
+	"block.maidensmerrymaking.warped_wreath_fence": "花環扭曲蕈木柵欄",
+	"block.maidensmerrymaking.crimson_wreath_fence": "花環緋紅蕈木柵欄",
+	"block.maidensmerrymaking.warped_wreath_lights_fence": "彩燈花環扭曲蕈木柵欄",
+	"block.maidensmerrymaking.crimson_wreath_lights_fence": "彩燈花環緋紅蕈木柵欄",
+	"block.maidensmerrymaking.warped_wreath_multi_fence": "彩燈花環扭曲蕈木柵欄",
+	"block.maidensmerrymaking.crimson_wreath_multi_fence": "彩燈花環緋紅蕈木柵欄",
+	
+	"block.maidensmerrymaking.pine_wreath_fence_gate": "花圈松木柵欄門 ",
+	"block.maidensmerrymaking.exposed_pine_wreath_fence_gate": "花圈裸露松木柵欄門",
+	"block.maidensmerrymaking.weathered_pine_wreath_fence_gate": "花圈風化松木柵欄門",
+	"block.maidensmerrymaking.aged_pine_wreath_fence_gate": "花圈老松木柵欄門",
+	
+	"block.maidensmerrymaking.pine_wreath_lights_fence_gate": "彩燈花圈松木柵欄門",
+	"block.maidensmerrymaking.exposed_pine_wreath_lights_fence_gate": "彩燈花圈裸露松木柵欄門",
+	"block.maidensmerrymaking.weathered_pine_wreath_lights_fence_gate": "彩燈花圈風化松木柵欄門",
+	"block.maidensmerrymaking.aged_pine_wreath_lights_fence_gate": "彩燈花圈老松木柵欄門",
+	
+	"block.maidensmerrymaking.pine_wreath_multi_fence_gate": "多彩燈花圈松木柵欄門",
+	"block.maidensmerrymaking.exposed_pine_wreath_multi_fence_gate": "多彩燈花圈裸露松木柵欄門",
+	"block.maidensmerrymaking.weathered_pine_wreath_multi_fence_gate": "多彩燈花圈風化松木柵欄門",
+	"block.maidensmerrymaking.aged_pine_wreath_multi_fence_gate": "多彩燈花圈老松木柵欄門",
+	
+	
+	"block.maidensmerrymaking.iron_fence_gate": "鍛鐵柵欄門",
+	"block.maidensmerrymaking.warped_picket_fence_gate": "扭曲蕈木尖樁柵欄門",
+	"block.maidensmerrymaking.crimson_picket_fence_gate": "緋紅蕈木尖樁柵欄門",
+	"block.maidensmerrymaking.warped_wreath_fence_gate": "花環扭曲蕈木柵欄門",
+	"block.maidensmerrymaking.crimson_wreath_fence_gate": "花環緋紅蕈木柵欄門",
+	"block.maidensmerrymaking.warped_wreath_lights_fence_gate": "彩燈花環扭曲蕈木柵欄門",
+	"block.maidensmerrymaking.crimson_wreath_lights_fence_gate": "彩燈花環緋紅蕈木柵欄門",
+	"block.maidensmerrymaking.warped_wreath_multi_fence_gate": "多彩燈花環扭曲蕈木柵欄門",
+	"block.maidensmerrymaking.crimson_wreath_multi_fence_gate": "多彩燈花環緋紅蕈木柵欄門",
+	
+	"block.maidensmerrymaking.warped_wreath_door": "花圈扭曲蕈木門",
+	"block.maidensmerrymaking.warped_lit_wreath_door": "彩燈花圈扭曲蕈木門",
+	"block.maidensmerrymaking.warped_lit_wreath_multi_door": "多彩燈花圈扭曲蕈木門",
+	"block.maidensmerrymaking.crimson_wreath_door": "花圈緋紅蕈木門 ",
+	"block.maidensmerrymaking.crimson_lit_wreath_door": "彩燈花圈緋紅蕈木門",
+	"block.maidensmerrymaking.crimson_lit_wreath_multi_door": "多彩燈花圈緋紅蕈木門",
+	
+	"block.maidensmerrymaking.mangrove_wreath_door": "花圈紅樹林木門 ",
+	"block.maidensmerrymaking.mangrove_lit_wreath_door": "彩燈花圈紅樹林木門",
+	"block.maidensmerrymaking.mangrove_lit_wreath_multi_door": "多彩燈花圈紅樹林木門",
+	
+	"block.maidensmerrymaking.iron_wreath_door": "花圈鐵門 ",
+	"block.maidensmerrymaking.iron_lit_wreath_door": "彩燈花圈鐵門",
+	"block.maidensmerrymaking.iron_lit_wreath_multi_door": "多彩燈花圈鐵門",
+	
+	"block.maidensmerrymaking.pine_wreath_door": "花圈松木門 ",
+	"block.maidensmerrymaking.pine_lit_wreath_door": "彩燈花圈松木門",
+	"block.maidensmerrymaking.pine_lit_wreath_multi_door": "多彩燈花圈松木門",
+	
+	"block.maidensmerrymaking.exposed_pine_wreath_door": "花圈裸露松木門 ",
+	"block.maidensmerrymaking.exposed_pine_lit_wreath_door": "彩燈花圈裸露松木門",
+	"block.maidensmerrymaking.exposed_pine_lit_wreath_multi_door": "多彩燈花圈裸露松木門",
+	
+	"block.maidensmerrymaking.weathered_pine_wreath_door": "花圈風化松木門 ",
+	"block.maidensmerrymaking.weathered_pine_lit_wreath_door": "彩燈花圈風化松木門",
+	"block.maidensmerrymaking.weathered_pine_lit_wreath_multi_door": "多彩燈花圈風化松木門",
+	
+	"block.maidensmerrymaking.aged_pine_wreath_door": "花圈老松木門 ",
+	"block.maidensmerrymaking.aged_pine_lit_wreath_door": "彩燈花圈老松木門",
+	"block.maidensmerrymaking.aged_pine_lit_wreath_multi_door": "多彩燈花圈老松木門",
+		
+	"block.maidensmerrymaking.mantel_normal_warped": "扭曲蕈木壁爐架",
+	"block.maidensmerrymaking.mantel_normal_crimson": "緋紅蕈木壁爐架",
+	
+	"block.maidensmerrymaking.mantel_normal_mangrove": "紅樹林木壁爐架",
+	
+	"block.maidensmerrymaking.mantel_normal_pine": "松木壁爐架",
+	"block.maidensmerrymaking.mantel_normal_exposed_pine": "裸露松木壁爐架",
+	"block.maidensmerrymaking.mantel_normal_weathered_pine": "風化松木壁爐架",
+	"block.maidensmerrymaking.mantel_normal_aged_pine": "老松木壁爐架",
+	
+	"block.maidensmerrymaking.roof_warped_stairs": "扭曲蕈木階梯屋頂",
+	"block.maidensmerrymaking.roof_crimson_stairs": "緋紅蕈木階梯屋頂",
+	
+	"block.maidensmerrymaking.roof_mangrove_stairs": "紅樹林木階梯屋頂",
+	
+	"block.maidensmerrymaking.snowy_warped_stairs": "扭曲蕈木積雪階梯",
+	"block.maidensmerrymaking.snowy_crimson_stairs": "緋紅蕈木積雪階梯",
+	"block.maidensmerrymaking.snowy_mangrove_stairs": "紅樹林木積雪階梯",
+	
+	"block.maidensmerrymaking.blackstone_garland_wall": "花環黑石牆",
+	"block.maidensmerrymaking.blackstone_garland_lights_wall": "彩燈花環黑石牆",
+	"block.maidensmerrymaking.blackstone_garland_multi_wall": "多彩燈花環黑石牆",
+	
+	"block.maidensmerrymaking.polished_blackstone_garland_wall": "花環拋光黑石牆",
+	"block.maidensmerrymaking.polished_blackstone_garland_lights_wall": "彩燈花環拋光黑石牆",
+	"block.maidensmerrymaking.polished_blackstone_garland_multi_wall": "多彩燈花環拋光黑石牆",
+	
+	"block.maidensmerrymaking.polished_blackstone_brick_garland_wall": "花環拋光黑石磚牆",
+	"block.maidensmerrymaking.polished_blackstone_brick_garland_lights_wall": "彩燈花環拋光黑石磚牆",
+	"block.maidensmerrymaking.polished_blackstone_brick_garland_multi_wall": "多彩燈花環拋光黑石磚牆",
+	
+	"block.maidensmerrymaking.cobbled_deepslate_garland_wall": "花環深板岩碎石牆",
+	"block.maidensmerrymaking.cobbled_deepslate_garland_lights_wall": "彩燈花環深板岩碎石牆",
+	"block.maidensmerrymaking.cobbled_deepslate_garland_multi_wall": "多彩燈花環深板岩碎石牆",
+	
+	"block.maidensmerrymaking.polished_deepslate_garland_wall": "花環拋光深板岩牆",
+	"block.maidensmerrymaking.polished_deepslate_garland_lights_wall": "彩燈花環拋光深板岩牆",
+	"block.maidensmerrymaking.polished_deepslate_garland_multi_wall": "多彩燈花環拋光深板岩牆",
+	
+	"block.maidensmerrymaking.deepslate_brick_garland_wall": "花環深板岩磚牆",
+	"block.maidensmerrymaking.deepslate_brick_garland_lights_wall": "彩燈花環深板岩磚牆",
+	"block.maidensmerrymaking.deepslate_brick_garland_multi_wall": "多彩燈花環深板岩磚牆",
+	
+	"block.maidensmerrymaking.deepslate_tile_garland_wall": "花環深板岩磚瓦牆",
+	"block.maidensmerrymaking.deepslate_tile_garland_lights_wall": "彩燈花環深板岩磚瓦牆",
+	"block.maidensmerrymaking.deepslate_tile_garland_multi_wall": "多彩燈花環深板岩磚瓦牆",
+	
+	
+"block.maidensmerrymaking.christmas_tree_stand": "樹架",
+
+"block.maidensmerrymaking.mint_plant": "薄荷種子",
+"block.maidensmerrymaking.ginger_plant": "薑根",
+
+
+"block.maidensmerrymaking.christmas_wreath": "花圈",
+"block.maidensmerrymaking.christmas_wreath_white_lights": "白色彩燈花圈",
+"block.maidensmerrymaking.christmas_wreath_multi_lights": "多彩燈花圈",
+"block.maidensmerrymaking.bow_topper": "弓樹頂飾",
+"block.maidensmerrymaking.star_topper": "星星樹頂飾",
+
+"block.maidensmerrymaking.acacia_wreath_door": "花圈相思木門",
+"block.maidensmerrymaking.birch_wreath_door": "花圈樺木門",
+"block.maidensmerrymaking.oak_wreath_door": "花圈橡木門",
+"block.maidensmerrymaking.dark_oak_wreath_door": "花圈黑橡木門",
+"block.maidensmerrymaking.spruce_wreath_door": "花圈杉木門",
+"block.maidensmerrymaking.jungle_wreath_door": "花圈叢林木門 ",
+
+"block.maidensmerrymaking.acacia_lit_wreath_door": "彩燈花圈相思木門",
+"block.maidensmerrymaking.birch_lit_wreath_door": "彩燈花圈樺木門",
+"block.maidensmerrymaking.oak_lit_wreath_door": "彩燈花圈橡木門",
+"block.maidensmerrymaking.dark_oak_lit_wreath_door": "彩燈花圈黑橡木門",
+"block.maidensmerrymaking.spruce_lit_wreath_door": "彩燈花圈杉木門",
+"block.maidensmerrymaking.jungle_lit_wreath_door": "彩燈花圈叢林木門",
+
+"block.maidensmerrymaking.acacia_lit_wreath_multi_door": "多彩燈花圈相思木門",
+"block.maidensmerrymaking.birch_lit_wreath_multi_door": "多彩燈花圈樺木門",
+"block.maidensmerrymaking.oak_lit_wreath_multi_door": "多彩燈花圈橡木門",
+"block.maidensmerrymaking.dark_oak_lit_wreath_multi_door": "多彩燈花圈黑橡木門",
+"block.maidensmerrymaking.spruce_lit_wreath_multi_door": "多彩燈花圈杉木門",
+"block.maidensmerrymaking.jungle_lit_wreath_multi_door": "多彩燈花圈叢林木門",
+
+"block.maidensmerrymaking.fireplace_logs": "壁爐原木",
+"block.maidensmerrymaking.fireplace_logs_on": "燃燒中的壁爐原木",
+"block.maidensmerrymaking.fireplace_logs_burned": "燃盡的壁爐原木",
+
+"block.maidensmerrymaking.mantel_normal_acacia": "相思木壁爐架",
+"block.maidensmerrymaking.mantel_normal_birch": "樺木壁爐架",
+"block.maidensmerrymaking.mantel_normal_oak": "橡木壁爐架",
+"block.maidensmerrymaking.mantel_normal_spruce": "杉木壁爐架",
+"block.maidensmerrymaking.mantel_normal_dark_oak": "黑橡木壁爐架",
+"block.maidensmerrymaking.mantel_normal_jungle": "叢林木壁爐架",
+
+"block.maidensmerrymaking.lamp_post": "燈柱",
+"block.maidensmerrymaking.lamp_post_on": "燈柱（點亮）",
+
+"block.maidensmerrymaking.garland_horizontal": "花環（水平）",
+"block.maidensmerrymaking.garland_vertical_left": "花環（垂直靠左）",
+"block.maidensmerrymaking.garland_vertical_right": "花環（垂直靠右）",
+"block.maidensmerrymaking.garland_vertical_corner_left": "花環（直角靠左）",
+"block.maidensmerrymaking.garland_vertical_corner_right": "花環（直角靠右）",
+
+
+"block.maidensmerrymaking.garland_horizontal_lights": "白燈花環（水平）",
+"block.maidensmerrymaking.garland_vertical_lights_left": "白燈花環（垂直靠左）",
+"block.maidensmerrymaking.garland_vertical_lights_right": "白燈花環（垂直靠右）",
+"block.maidensmerrymaking.garland_vertical_corner_lights_left": "白燈花環（直角靠左）",
+"block.maidensmerrymaking.garland_vertical_corner_lights_right": "白燈花環（直角靠右）",
+
+"block.maidensmerrymaking.garland_horizontal_multi": "多彩燈花環（水平）",
+"block.maidensmerrymaking.garland_vertical_multi_left": "多彩燈花環（垂直靠左）",
+"block.maidensmerrymaking.garland_vertical_multi_right": "多彩燈花環（垂直靠右）",
+"block.maidensmerrymaking.garland_vertical_corner_multi_left": "多彩燈花環（直角靠左）",
+"block.maidensmerrymaking.garland_vertical_corner_multi_right": "多彩燈花環（直角靠右）",
+
+"block.maidensmerrymaking.garland_diagonal_left": "花環（左斜）",
+"block.maidensmerrymaking.garland_lights_diagonal_left": "白燈花環（左斜）",
+"block.maidensmerrymaking.garland_multi_diagonal_left": "多彩燈花環（左斜）",
+
+"block.maidensmerrymaking.garland_diagonal_right": "花環（右斜）",
+"block.maidensmerrymaking.garland_lights_diagonal_right": "白燈花環（右斜）",
+"block.maidensmerrymaking.garland_multi_diagonal_right": "多彩燈花環（右斜）",
+
+"block.maidensmerrymaking.mantel_deco": "燭台壁爐裝飾",
+"block.maidensmerrymaking.mantel_deco_1": "薑餅屋壁爐裝飾",
+"block.maidensmerrymaking.mantel_deco_2": "燈籠與聖誕紅壁爐裝飾",
+"block.maidensmerrymaking.mantel_deco_3": "'Joy'字樣壁爐裝飾",
+"block.maidensmerrymaking.mantel_deco_4": "聖誕樹壁爐裝飾",
+"block.maidensmerrymaking.mantel_deco_5": "燈籠與聖誕飾品壁爐裝飾",
+
+"block.maidensmerrymaking.roof_acacia_stairs": "相思木階梯屋頂",
+"block.maidensmerrymaking.roof_birch_stairs": "樺木階梯屋頂",
+"block.maidensmerrymaking.roof_dark_oak_stairs": "黑橡木階梯屋頂",
+"block.maidensmerrymaking.roof_jungle_stairs": "叢林木階梯屋頂",
+"block.maidensmerrymaking.roof_oak_stairs": "橡木階梯屋頂",
+"block.maidensmerrymaking.roof_spruce_stairs": "杉木階梯屋頂",
+"block.maidensmerrymaking.roof_polished_blackstone_brick_stairs": "拋光黑石磚階梯屋頂",
+"block.maidensmerrymaking.roof_deepslate_brick_stairs": "深板岩磚階梯屋頂",
+"block.maidensmerrymaking.roof_stone_brick_stairs": "石磚階梯屋頂",
+
+"block.maidensmerrymaking.snowy_acacia_stairs": "相思木積雪階梯",
+"block.maidensmerrymaking.snowy_birch_stairs": "樺木積雪階梯",
+"block.maidensmerrymaking.snowy_dark_oak_stairs": "黑橡木積雪階梯",
+"block.maidensmerrymaking.snowy_jungle_stairs": "叢林木積雪階梯",
+"block.maidensmerrymaking.snowy_oak_stairs": "橡木積雪階梯",
+"block.maidensmerrymaking.snowy_spruce_stairs": "杉木積雪階梯",
+
+"block.maidensmerrymaking.snowy_polished_blackstone_brick_stairs": "拋光黑石磚積雪階梯",
+"block.maidensmerrymaking.snowy_deepslate_brick_stairs": "深板岩磚積雪階梯",
+"block.maidensmerrymaking.snowy_stone_brick_stairs": "石磚積雪階梯",
+
+"block.maidensmerrymaking.acacia_roof_slab": "相思木半磚屋頂",
+"block.maidensmerrymaking.birch_roof_slab": "樺木半磚屋頂",
+"block.maidensmerrymaking.dark_oak_roof_slab": "黑橡木半磚屋頂",
+"block.maidensmerrymaking.jungle_roof_slab": "叢林木半磚屋頂",
+"block.maidensmerrymaking.oak_roof_slab": "橡木半磚屋頂",
+"block.maidensmerrymaking.spruce_roof_slab": "杉木半磚屋頂",
+"block.maidensmerrymaking.mangrove_roof_slab": "紅樹林木半磚屋頂",
+"block.maidensmerrymaking.polished_blackstone_brick_roof_slab": "拋光黑石磚半磚屋頂",
+"block.maidensmerrymaking.deepslate_brick_roof_slab": "深板岩磚半磚屋頂",
+"block.maidensmerrymaking.stone_brick_roof_slab": "石磚半磚屋頂",
+
+"block.maidensmerrymaking.acacia_snowy_slab": "相思木積雪半磚",
+"block.maidensmerrymaking.birch_snowy_slab": "樺木積雪半磚",
+"block.maidensmerrymaking.dark_oak_snowy_slab": "黑橡木積雪半磚",
+"block.maidensmerrymaking.jungle_snowy_slab": "叢林木積雪半磚",
+"block.maidensmerrymaking.oak_snowy_slab": "橡木積雪半磚",
+"block.maidensmerrymaking.spruce_snowy_slab": "杉木積雪半磚",
+"block.maidensmerrymaking.crimson_snowy_slab": "緋紅蕈木積雪半磚",
+"block.maidensmerrymaking.warped_snowy_slab": "扭曲蕈木積雪半磚",
+"block.maidensmerrymaking.crimson_roof_slab": "緋紅蕈木半磚屋頂",
+"block.maidensmerrymaking.mangrove_snowy_slab": "紅樹林木積雪半磚",
+"block.maidensmerrymaking.warped_roof_slab": "扭曲蕈木半磚屋頂",
+
+
+"block.maidensmerrymaking.polished_blackstone_brick_snowy_slab": "拋光黑石磚積雪半磚",
+"block.maidensmerrymaking.deepslate_brick_snowy_slab": "深板岩磚積雪半磚",
+"block.maidensmerrymaking.stone_brick_snowy_slab": "石磚積雪半磚",
+
+"block.maidensmerrymaking.acacia_picket_fence": "相思木尖樁柵欄",
+"block.maidensmerrymaking.birch_picket_fence": "樺木尖樁柵欄",
+"block.maidensmerrymaking.dark_oak_picket_fence": "黑橡木尖樁柵欄",
+"block.maidensmerrymaking.jungle_picket_fence": "叢林木尖樁柵欄",
+"block.maidensmerrymaking.spruce_picket_fence": "杉木尖樁柵欄",
+"block.maidensmerrymaking.oak_picket_fence": "橡木尖樁柵欄",
+"block.maidensmerrymaking.mangrove_picket_fence": "紅樹林木尖樁柵欄",
+
+"block.maidensmerrymaking.pine_picket_fence": "松木尖樁柵欄",
+"block.maidensmerrymaking.exposed_pine_picket_fence": "裸露松木尖樁柵欄",
+"block.maidensmerrymaking.weathered_pine_picket_fence": "風化松木尖樁柵欄",
+"block.maidensmerrymaking.aged_pine_picket_fence": "老松木尖樁柵欄",
+
+"block.maidensmerrymaking.acacia_wreath_fence": "花環相思木柵欄",
+"block.maidensmerrymaking.birch_wreath_fence": "花環樺木柵欄",
+"block.maidensmerrymaking.dark_oak_wreath_fence": "花環黑橡木柵欄",
+"block.maidensmerrymaking.jungle_wreath_fence": "花環叢林木柵欄",
+"block.maidensmerrymaking.oak_wreath_fence": "花環橡木柵欄",
+"block.maidensmerrymaking.spruce_wreath_fence": "花環杉木柵欄",
+"block.maidensmerrymaking.mangrove_wreath_fence": "花環紅樹林木柵欄",
+
+"block.maidensmerrymaking.pine_wreath_fence": "花環松木柵欄",
+"block.maidensmerrymaking.exposed_pine_wreath_fence": "花環裸露松木柵欄",
+"block.maidensmerrymaking.weathered_pine_wreath_fence": "花環風化松木柵欄",
+"block.maidensmerrymaking.aged_pine_wreath_fence": "花環老松木柵欄",
+
+
+"block.maidensmerrymaking.acacia_wreath_lights_fence": "彩燈花環相思木柵欄",
+"block.maidensmerrymaking.birch_wreath_lights_fence": "彩燈花環樺木柵欄",
+"block.maidensmerrymaking.dark_oak_wreath_lights_fence": "彩燈花環黑橡木柵欄",
+"block.maidensmerrymaking.jungle_wreath_lights_fence": "彩燈花環叢林木柵欄",
+"block.maidensmerrymaking.oak_wreath_lights_fence": "彩燈花環橡木柵欄",
+"block.maidensmerrymaking.spruce_wreath_lights_fence": "彩燈花環杉木柵欄",
+"block.maidensmerrymaking.mangrove_wreath_lights_fence": "彩燈花環紅樹林木柵欄",
+
+"block.maidensmerrymaking.pine_wreath_lights_fence": "彩燈花環松木柵欄",
+"block.maidensmerrymaking.exposed_pine_wreath_lights_fence": "彩燈花環裸露松木柵欄",
+"block.maidensmerrymaking.weathered_pine_wreath_lights_fence": "彩燈花環風化松木柵欄",
+"block.maidensmerrymaking.aged_pine_wreath_lights_fence": "彩燈花環老松木柵欄",
+
+"block.maidensmerrymaking.acacia_picket_fence_gate": "相思木尖樁柵欄門",
+"block.maidensmerrymaking.birch_picket_fence_gate": "樺木尖樁柵欄門",
+"block.maidensmerrymaking.dark_oak_picket_fence_gate": "黑橡木尖樁柵欄門",
+"block.maidensmerrymaking.jungle_picket_fence_gate": "叢林木尖樁柵欄門",
+"block.maidensmerrymaking.spruce_picket_fence_gate": "杉木尖樁柵欄門",
+"block.maidensmerrymaking.oak_picket_fence_gate": "橡木尖樁柵欄門",
+"block.maidensmerrymaking.mangrove_picket_fence_gate": "紅樹林木尖樁柵欄門",
+
+"block.maidensmerrymaking.pine_picket_fence_gate": "松木尖樁柵欄門",
+"block.maidensmerrymaking.exposed_pine_picket_fence_gate": "裸露松木尖樁柵欄門",
+"block.maidensmerrymaking.weathered_pine_picket_fence_gate": "風化松木尖樁柵欄門",
+"block.maidensmerrymaking.aged_pine_picket_fence_gate": "老松木尖樁柵欄門",
+
+"block.maidensmerrymaking.acacia_wreath_multi_fence": "多彩燈花環相思木柵欄",
+"block.maidensmerrymaking.birch_wreath_multi_fence": "多彩燈花環樺木柵欄",
+"block.maidensmerrymaking.dark_oak_wreath_multi_fence": "多彩燈花環黑橡木柵欄",
+"block.maidensmerrymaking.jungle_wreath_multi_fence": "多彩燈花環叢林木柵欄",
+"block.maidensmerrymaking.oak_wreath_multi_fence": "多彩燈花環橡木柵欄",
+"block.maidensmerrymaking.spruce_wreath_multi_fence": "多彩燈花環杉木柵欄",
+"block.maidensmerrymaking.mangrove_wreath_multi_fence": "多彩燈花環紅樹林木柵欄",
+
+"block.maidensmerrymaking.pine_wreath_multi_fence": "多彩燈花環松木柵欄",
+"block.maidensmerrymaking.exposed_pine_wreath_multi_fence": "多彩燈花環裸露松木柵欄",
+"block.maidensmerrymaking.weathered_pine_wreath_multi_fence": "多彩燈花環風化松木柵欄",
+"block.maidensmerrymaking.aged_pine_wreath_multi_fence": "多彩燈花環老松木柵欄",
+
+"block.maidensmerrymaking.acacia_wreath_fence_gate": "花圈相思木柵欄門 ",
+"block.maidensmerrymaking.birch_wreath_fence_gate": "花圈樺木柵欄門 ",
+"block.maidensmerrymaking.dark_oak_wreath_fence_gate": "花圈黑橡木柵欄門 ",
+"block.maidensmerrymaking.jungle_wreath_fence_gate": "花圈叢林木柵欄門 ",
+"block.maidensmerrymaking.oak_wreath_fence_gate": "花圈橡木柵欄門",
+"block.maidensmerrymaking.spruce_wreath_fence_gate": "花圈杉木柵欄門 ",
+
+"block.maidensmerrymaking.mangrove_wreath_fence_gate": "花圈紅樹林木柵欄門 ",
+
+"block.maidensmerrymaking.acacia_wreath_lights_fence_gate": "彩燈花圈相思木柵欄門",
+"block.maidensmerrymaking.birch_wreath_lights_fence_gate": "彩燈花圈樺木柵欄門",
+"block.maidensmerrymaking.dark_oak_wreath_lights_fence_gate": "彩燈花圈黑橡木柵欄門",
+"block.maidensmerrymaking.jungle_wreath_lights_fence_gate": "彩燈花圈叢林木柵欄門",
+"block.maidensmerrymaking.oak_wreath_lights_fence_gate": "彩燈花圈橡木柵欄門",
+"block.maidensmerrymaking.spruce_wreath_lights_fence_gate": "彩燈花圈杉木柵欄門",
+"block.maidensmerrymaking.mangrove_wreath_lights_fence_gate": "彩燈花圈紅樹林木柵欄門",
+
+"block.maidensmerrymaking.acacia_wreath_multi_fence_gate": "多彩燈花圈相思木柵欄門",
+"block.maidensmerrymaking.birch_wreath_multi_fence_gate": "多彩燈花圈樺木柵欄門",
+"block.maidensmerrymaking.dark_oak_wreath_multi_fence_gate": "多彩燈花圈黑橡木柵欄門",
+"block.maidensmerrymaking.jungle_wreath_multi_fence_gate": "多彩燈花圈叢林木柵欄門",
+"block.maidensmerrymaking.oak_wreath_multi_fence_gate": "多彩燈花圈橡木柵欄門",
+"block.maidensmerrymaking.spruce_wreath_multi_fence_gate": "多彩燈花圈杉木柵欄門",
+"block.maidensmerrymaking.mangrove_wreath_multi_fence_gate": "多彩燈花圈紅樹林木柵欄門",
+
+"block.maidensmerrymaking.cobblestone_garland_wall": "花環鵝卵石牆",
+"block.maidensmerrymaking.brick_garland_wall": "花環紅磚牆",
+"block.maidensmerrymaking.prismarine_garland_wall": "花環海磷石牆",
+"block.maidensmerrymaking.red_sandstone_garland_wall": "花環紅砂岩牆",
+"block.maidensmerrymaking.mossy_cobblestone_garland_wall": "青苔鵝卵石牆",
+"block.maidensmerrymaking.granite_garland_wall": "花環花崗岩牆",
+"block.maidensmerrymaking.stone_brick_garland_wall": "花環石牆牆",
+"block.maidensmerrymaking.nether_brick_garland_wall": "花環地獄磚牆",
+"block.maidensmerrymaking.andesite_garland_wall": "花環安山岩牆",
+"block.maidensmerrymaking.red_nether_brick_garland_wall": "花環紅地獄磚牆",
+"block.maidensmerrymaking.sandstone_garland_wall": "花環砂岩牆",
+
+"block.maidensmerrymaking.end_stone_brick_garland_wall": "花環終界石磚牆",
+"block.maidensmerrymaking.diorite_garland_wall": "花環閃長岩牆",
+
+"block.maidensmerrymaking.cobblestone_garland_lights_wall": "彩燈花環鵝卵石牆（白色燈）",
+"block.maidensmerrymaking.brick_garland_lights_wall": "彩燈花環紅磚牆（白色燈）",
+"block.maidensmerrymaking.prismarine_garland_lights_wall": "彩燈花環海磷石牆（白色燈）",
+"block.maidensmerrymaking.red_sandstone_garland_lights_wall": "彩燈花環紅砂岩牆（白色燈）",
+"block.maidensmerrymaking.mossy_cobblestone_garland_lights_wall": "彩燈花環青苔鵝卵石牆（白色燈）",
+"block.maidensmerrymaking.granite_garland_lights_wall": "彩燈花環花崗岩牆（白色燈）",
+"block.maidensmerrymaking.stone_brick_garland_lights_wall": "彩燈花環石磚牆（白色燈）",
+"block.maidensmerrymaking.nether_brick_garland_lights_wall": "彩燈花環地獄磚牆（白色燈）",
+"block.maidensmerrymaking.andesite_garland_lights_wall": "彩燈花環安山岩牆（白色燈）",
+"block.maidensmerrymaking.red_nether_brick_garland_lights_wall": "彩燈花環紅地獄磚牆（白色燈）",
+"block.maidensmerrymaking.sandstone_garland_lights_wall": "彩燈花環砂岩牆（白色燈）",
+
+"block.maidensmerrymaking.end_stone_brick_garland_lights_wall": "彩燈花環終界石磚牆",
+"block.maidensmerrymaking.diorite_garland_lights_wall": "彩燈花環閃長岩牆（白色燈）",
+
+"block.maidensmerrymaking.cobblestone_garland_multi_wall": "彩燈花環鵝卵石牆（多彩燈）",
+"block.maidensmerrymaking.brick_garland_multi_wall": "彩燈花環紅磚牆（多彩燈）",
+"block.maidensmerrymaking.prismarine_garland_multi_wall": "彩燈花環海磷石牆（多彩燈）",
+"block.maidensmerrymaking.red_sandstone_garland_multi_wall": "彩燈花環紅砂岩牆（多彩燈）",
+"block.maidensmerrymaking.mossy_cobblestone_garland_multi_wall": "彩燈花環青苔鵝卵石牆（多彩燈）",
+"block.maidensmerrymaking.granite_garland_multi_wall": "彩燈花環花崗岩牆（多彩燈）",
+"block.maidensmerrymaking.stone_brick_garland_multi_wall": "彩燈花環石磚牆（多彩燈）",
+"block.maidensmerrymaking.nether_brick_garland_multi_wall": "彩燈花環地獄磚牆（多彩燈）",
+"block.maidensmerrymaking.andesite_garland_multi_wall": "彩燈花環安山岩牆（多彩燈）",
+"block.maidensmerrymaking.red_nether_brick_garland_multi_wall": "紅地獄磚牆（多彩燈）",
+"block.maidensmerrymaking.sandstone_garland_multi_wall": "彩燈花環砂岩牆（多彩燈）",
+
+"block.maidensmerrymaking.end_stone_brick_garland_multi_wall": "彩燈花環終界石磚牆（多彩燈）",
+"block.maidensmerrymaking.diorite_garland_multi_wall": "彩燈花環閃長岩牆（多彩燈）",
+
+"block.maidensmerrymaking.mini_lights_horizontal": "迷你燈（水平）",
+"block.maidensmerrymaking.mini_lights_vertical_left": "迷你燈（垂直靠左）",
+"block.maidensmerrymaking.mini_lights_vertical_right": "迷你燈（垂直靠右）",
+"block.maidensmerrymaking.mini_corner_lights_vertical_left": "迷你燈（直角靠左）",
+"block.maidensmerrymaking.mini_corner_lights_vertical_right": "迷你燈（直角靠右）",
+
+"block.maidensmerrymaking.mini_lights_diagonal_left": "迷你燈（左斜）",
+"block.maidensmerrymaking.mini_lights_diagonal_right": "迷你燈（右斜）",
+
+"block.maidensmerrymaking.mini_lights_cap": "迷你燈（頂部）",
+
+"block.maidensmerrymaking.classic_lights_horizontal": "經典燈（水平）",
+"block.maidensmerrymaking.classic_lights_diagonal_left": "經典燈（左斜）",
+"block.maidensmerrymaking.classic_lights_diagonal_right": "經典燈（右斜）",
+
+"block.maidensmerrymaking.classic_lights_horizontal": "經典燈（水平）",
+"block.maidensmerrymaking.classic_lights_vertical_left": "經典燈（垂直靠左）",
+"block.maidensmerrymaking.classic_lights_vertical_right": "經典燈（垂直靠右）",
+"block.maidensmerrymaking.classic_lights_vertical_corner_right": "經典燈（直角靠右）",
+"block.maidensmerrymaking.classic_lights_vertical_corner_left": "經典燈（直角靠左）",
+
+"block.maidensmerrymaking.classic_lights_cap": "經典燈（頂部）",
+
+"block.maidensmerrymaking.icicle_lights_horizontal": "冰柱燈（水平）",
+"block.maidensmerrymaking.icicle_lights_diagonal_left": "冰柱燈（左斜）",
+"block.maidensmerrymaking.icicle_lights_diagonal_right": "冰柱燈（右斜）",
+"block.maidensmerrymaking.icicle_lights_cap": "冰柱燈（頂部）",
+
+"block.maidensmerrymaking.twinkling_icicle_lights_horizontal": "閃爍冰柱燈（水平）",
+"block.maidensmerrymaking.twinkling_icicle_lights_diagonal_left": "閃爍冰柱燈（左斜）",
+"block.maidensmerrymaking.twinkling_icicle_lights_diagonal_right": "閃爍冰柱燈（右斜）",
+"block.maidensmerrymaking.twinkling_icicle_lights_cap": "閃爍冰柱燈（頂部）",
+
+"block.maidensmerrymaking.mini_multi_horizontal": "多彩迷你燈（水平）",
+"block.maidensmerrymaking.mini_multi_diagonal_left": "多彩迷你燈（左斜）",
+"block.maidensmerrymaking.mini_multi_diagonal_right": "多彩迷你燈（右斜）",
+
+"block.maidensmerrymaking.mini_multi_vertical_right": "多彩迷你燈（垂直靠右）",
+"block.maidensmerrymaking.mini_multi_vertical_left": "多彩迷你燈（垂直靠左）",
+"block.maidensmerrymaking.mini_corner_multi_vertical_right": "多彩迷你燈（直角靠右）",
+"block.maidensmerrymaking.mini_corner_multi_vertical_left": "多彩迷你燈（直角靠左）",
+"block.maidensmerrymaking.mini_multi_cap": "多彩迷你燈（頂部）",
+
+"block.maidensmerrymaking.classic_multi_horizontal": "多彩經典燈（水平）",
+"block.maidensmerrymaking.classic_multi_vertical_left": "多彩經典燈（垂直靠左）",
+"block.maidensmerrymaking.classic_multi_vertical_right": "多彩經典燈（垂直靠右）",
+"block.maidensmerrymaking.classic_multi_vertical_corner_right": "多彩經典燈（直角靠右）",
+"block.maidensmerrymaking.classic_multi_vertical_corner_left": "多彩經典燈（直角靠左）",
+"block.maidensmerrymaking.classic_multi_diagonal_left": "多彩經典燈（左斜）",
+"block.maidensmerrymaking.classic_multi_diagonal_right": "多彩經典燈（右斜）",
+"block.maidensmerrymaking.classic_multi_cap": "多彩經典燈（頂部）",
+
+"block.maidensmerrymaking.icicle_multi_horizontal": "多彩冰柱燈（水平）",
+"block.maidensmerrymaking.icicle_multi_diagonal_left": "多彩冰柱燈（左斜）",
+"block.maidensmerrymaking.icicle_multi_diagonal_right": "多彩冰柱燈（右斜）",
+"block.maidensmerrymaking.icicle_multi_cap": "多彩冰柱燈（頂部）",
+
+"block.maidensmerrymaking.twinkling_icicle_multi_horizontal": "閃爍多彩冰柱燈（水平）",
+"block.maidensmerrymaking.twinkling_icicle_multi_diagonal_left": "閃爍多彩冰柱燈（左斜）",
+"block.maidensmerrymaking.twinkling_icicle_multi_diagonal_right": "閃爍多彩冰柱燈（右斜）",
+"block.maidensmerrymaking.twinkling_icicle_multi_cap": "閃爍多彩冰柱燈（頂部）",
+
+"block.maidensmerrymaking.spruce_leaves_lights_white": "杉木樹葉（白色燈）",
+"block.maidensmerrymaking.spruce_leaves_lights_multi": "杉木樹葉（多彩燈）",
+"block.maidensmerrymaking.spruce_leaves_lights_large_white": "杉木樹葉（白色經典燈）",
+"block.maidensmerrymaking.spruce_leaves_lights_large_multi": "杉木樹葉（多彩經典燈）",
+"block.maidensmerrymaking.spruce_leaves_holly": "杉木樹葉（冬青漿果）"
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+
+}

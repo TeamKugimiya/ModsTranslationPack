@@ -1,0 +1,16 @@
+{
+  "text.autoconfig.appleskin.title": "AppleSkin",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltip": "在工具提示中顯示食物飽食度",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltipAlways": "總是在工具提示中顯示食物飽食度",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlay": "手持食物時顯示可回復的飢餓值",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlayWhenOffhand": "食物在副手時顯示飢餓值重疊",
+  "text.autoconfig.appleskin.option.showFoodHealthHudOverlay": "顯示估計回多少生命值重疊",
+  "text.autoconfig.appleskin.option.showFoodExhaustionHudUnderlay": "顯示飽食度消耗值",
+  "text.autoconfig.appleskin.option.showSaturationHudOverlay": "顯示飽食度消耗重疊",
+  "text.autoconfig.appleskin.option.showFoodDebugInfo": "在除錯介面中顯示食物數值",
+  "text.autoconfig.appleskin.option.showVanillaAnimationsOverlay": "顯示動畫 HUD 圖示來與 Minecraft 相符",
+  "text.autoconfig.appleskin.option.maxHudOverlayFlashAlpha": "最大 HUD 圖示閃爍的不透明度",
+
+  "modmenu.summaryTranslation.appleskin": "新增多種食物顯示相關的 HUD 改進",
+  "modmenu.descriptionTranslation.appleskin": "新增多種食物顯示相關的 HUD 改進"
+}

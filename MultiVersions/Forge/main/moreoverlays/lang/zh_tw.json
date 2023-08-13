@@ -1,0 +1,16 @@
+{
+  "key.moreoverlays.category": "亮度顯示",
+  "key.moreoverlays.chunkbounds.desc": "開關區塊邊界",
+  "key.moreoverlays.lightoverlay.desc": "開關生怪亮度顯示",
+
+  "gui.config.moreoverlays.tile": "More Overlays Updated 設定",
+  "gui.config.moreoverlays.reset_config": "重設設定",
+  "gui.config.moreoverlays.undo": "復原變更",
+  "gui.config.moreoverlays.save": "儲存",
+
+  "config.moreoverlays.category.lightoverlay": "亮度顯示",
+  "config.moreoverlays.category.chunkbounds": "區塊邊界",
+  "config.moreoverlays.category.itemsearch": "物品搜尋",
+  "config.moreoverlays.category.searchoverlay": "物品搜尋醒目提示",
+  "config.moreoverlays.category.rendersettings": "繪製設定"
+}

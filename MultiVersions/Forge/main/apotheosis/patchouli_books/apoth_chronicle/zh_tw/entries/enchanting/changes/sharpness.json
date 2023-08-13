@@ -1,0 +1,13 @@
+{
+    "name": "鋒利",
+    "icon": "minecraft:netherite_sword",
+    "category": "apotheosis:enchanting/changes",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)鋒利$()不再與其他傷害附魔互相排斥。$(p)這表示你現在可以在武器上同時附有$(9)鋒利$()，以及其中一種通常會互相排斥的傷害附魔。"
+        }
+	]
+}

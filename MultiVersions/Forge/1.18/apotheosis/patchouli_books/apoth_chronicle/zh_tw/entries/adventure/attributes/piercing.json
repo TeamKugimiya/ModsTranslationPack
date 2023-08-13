@@ -1,0 +1,17 @@
+{
+    "name": "物理穿透",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)物理穿透$()表示你攻擊目標時，將無視對方多少盔甲值。$(p)該屬性僅能在重型武器上找到。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "$(9)$(n)基礎值：$()1$(p)$(9)$(n)上限值：$()1024$(p)備註：其值為 1.0 時，表示擁有 0% 物理穿透，一旦基礎值為 0，百分比傷害加成將變得無效，普通傷害加成也將無法正常套用。"
+		}
+	]
+}

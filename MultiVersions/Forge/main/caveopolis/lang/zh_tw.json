@@ -5,7 +5,8 @@
   "item.caveopolis.mixed_stone_ingot": "混合石錠",
   "item.caveopolis.mossy_string": "苔蘚線",
   "item.caveopolis.wooden_shears": "木製剪刀",
-  
+  "item.caveopolis.wooden_shears": "木製剪刀",
+
   "item.caveopolis.white_spray_can": "白色噴漆罐",
   "item.caveopolis.gray_spray_can": "灰色噴漆罐",
   "item.caveopolis.light_gray_spray_can": "淺灰色噴漆罐",
@@ -23,13 +24,14 @@
   "item.caveopolis.red_spray_can": "紅色噴漆罐",
   "item.caveopolis.black_spray_can": "黑色噴漆罐",
   "item.caveopolis.spray_can_remover": "噴漆清除器",
-  
+  "item.caveopolis.glowstone_spray_can": "螢光石噴漆罐",
+
   "item.caveopolis.andesite_pebble": "安山岩碎石",
   "item.caveopolis.granite_pebble": "花崗岩碎石",
   "item.caveopolis.diorite_pebble": "閃長岩碎石",
   "item.caveopolis.stone_pebble": "石頭碎石",
   "item.caveopolis.cobblestone_pebble": "鵝卵石碎石",
-  
+
   "item.caveopolis.iron_fragment": "鐵碎片",
   "item.caveopolis.gold_fragment": "金碎片",
   "item.caveopolis.copper_fragment": "銅碎片",
@@ -51,8 +53,8 @@
   "item.caveopolis.uranium_fragment": "鈾碎片",
   "item.caveopolis.osmium_fragment": "鋨碎片",
   "item.caveopolis.fluorite_fragment": "氟石碎片",
-  
-  
+
+
   "item.caveopolis.raw_mixed_stone": "混合石原礦",
   "item.caveopolis.mixed_stone_nugget": "混合石粒",
   
@@ -61,8 +63,9 @@
   "block.caveopolis.bright_stone": "發光石",
   "block.caveopolis.stone_torch": "石製火把",
   "block.caveopolis.mixed_stone_ore": "混合石礦",
+  "block.caveopolis.deepslate_mixed_stone_ore": "深板岩混合石礦",
   "block.caveopolis.toprock": "頂岩",
-  
+
   "block.caveopolis.lime_colored_stone_bricks": "淺綠色石磚",
   "block.caveopolis.lime_colored_stone": "淺綠色石頭",
   "block.caveopolis.green_colored_stone_bricks": "綠色石磚",
@@ -95,9 +98,9 @@
   "block.caveopolis.black_colored_stone": "黑色石頭",
   "block.caveopolis.purple_colored_stone_bricks": "紫色石磚",
   "block.caveopolis.purple_colored_stone": "紫色石頭",
-  
-  
-  
+
+
+
   "block.caveopolis.lime_colored_stone_brick_stairs": "淺綠色石磚階梯",
   "block.caveopolis.lime_colored_stone_stairs": "淺綠色石頭階梯",
   "block.caveopolis.green_colored_stone_brick_stairs": "綠色石磚階梯",
@@ -130,8 +133,8 @@
   "block.caveopolis.black_colored_stone_stairs": "黑色石頭階梯",
   "block.caveopolis.purple_colored_stone_brick_stairs": "紫色石磚階梯",
   "block.caveopolis.purple_colored_stone_stairs": "紫色石頭階梯",
-  
-  
+
+
   "block.caveopolis.lime_colored_stone_brick_slab": "淺綠色石磚半磚",
   "block.caveopolis.lime_colored_stone_slab": "淺綠色石頭半磚",
   "block.caveopolis.green_colored_stone_brick_slab": "綠色石磚半磚",
@@ -199,10 +202,27 @@
   "block.caveopolis.black_colored_stone_wall": "黑色石牆",
   "block.caveopolis.purple_colored_stone_brick_wall": "紫色石磚牆",
   "block.caveopolis.purple_colored_stone_wall": "紫色石牆",
-  
-  
+
+  "block.caveopolis.blue_colored_bright_stone": "藍色發光石",
+  "block.caveopolis.lime_colored_bright_stone": "淺綠色發光石",
+  "block.caveopolis.green_colored_bright_stone": "綠色發光石",
+  "block.caveopolis.cyan_colored_bright_stone": "青色發光石",
+  "block.caveopolis.red_colored_bright_stone": "紅色發光石",
+  "block.caveopolis.light_gray_colored_bright_stone": "淺灰色發光石",
+  "block.caveopolis.gray_colored_bright_stone": "灰色發光石",
+  "block.caveopolis.light_blue_colored_bright_stone": "淺藍色發光石",
+  "block.caveopolis.yellow_colored_bright_stone": "黃色發光石",
+  "block.caveopolis.orange_colored_bright_stone": "橙色發光石",
+  "block.caveopolis.magenta_colored_bright_stone": "洋紅色發光石",
+  "block.caveopolis.pink_colored_bright_stone": "粉紅色發光石",
+  "block.caveopolis.brown_colored_bright_stone": "棕色發光石",
+  "block.caveopolis.white_colored_bright_stone": "白色發光石",
+  "block.caveopolis.black_colored_bright_stone": "黑色發光石",
+  "block.caveopolis.purple_colored_bright_stone": "紫色發光石",
+
+
   "itemGroup.caveopolis": "洞穴奇航",
-  
+
   "gui.caveopolis.stone_crafting_table": "石製工作台"
-  
-  }
+
+}

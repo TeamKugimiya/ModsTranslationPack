@@ -1,0 +1,12 @@
+{
+  "text.daily_rewards.claim_rewards": "使用指令「%1$s」領取你的每日獎勵！",
+  "text.daily_rewards.reward_screen": "天數獎勵：第 %1$s 天",
+  "text.daily_rewards.rewarded_item": "%1$s 恭喜你！你這個月因為在這世界待了 %3$s 天，所以獲得了「%2$s」作為獎勵。",
+  "text.daily_rewards.unclaimed_rewarded_item": "%1$s 你還未領取每日獎勵，這 %2$s 天內請不要忘記去領！",
+  "text.daily_rewards.unclaimed_rewarded_item_today": "%1$s 你還未領取每日獎勵，今天請不要忘記去領！",
+  "text.daily_rewards.next_reward.in": "距離下次獎勵：%1$s",
+  "text.daily_rewards.next_reward.reload": "重新載入來領取！",
+
+  "item.daily_rewards.empty_reward": "沒有獎勵。",
+  "item.daily_rewards.taken_reward": "已領取獎勵。"
+}

@@ -4,6 +4,7 @@
   "item.opolisutilities.home_stone": "Home Stone",
   "item.opolisutilities.advanced_home_stone": "Advanced Home Stone",
   "item.opolisutilities.super_home_stone": "Super Home Stone",
+  "item.opolisutilities.death_stone": "Death Stone",
   "item.opolisutilities.floating_block_item": "Floating Block",
   "item.opolisutilities.jerky": "Jerky",
   "item.opolisutilities.bundled_flesh": "Bundled Flesh",
@@ -16,12 +17,18 @@
   "item.opolisutilities.wallet": "Wallet",
 
   "item.opolisutilities.stone_core": "Stone Core",
+  "item.opolisutilities.mini_coal": "Mini Coal",
+  "item.opolisutilities.mini_charcoal": "Mini Charcoal",
 
   "block.opolisutilities.floating_block_block": "Floating Block",
   "block.opolisutilities.drying_table": "Drying Table",
   "block.opolisutilities.resource_generator": "Resource Generator",
+  "block.opolisutilities.resource_generator_2": "Resource Generator 2",
   "block.opolisutilities.ender_ore": "Ender Ore",
   "block.opolisutilities.deepslate_ender_ore": "Deepslate Ender Ore",
+  "block.opolisutilities.redstone_clock": "Redstone Clock",
+  "block.opolisutilities.ender_scrambler": "Ender Scrambler",
+  "block.opolisutilities.item_repairer": "Item Repairer",
 
   "tooltips.home_stone.hover.shift": "Press SHIFT for more info",
   "tooltips.home_stone.hover.alt": "Press ALT for more info",
@@ -30,15 +37,27 @@
   "tooltips.advanced_home_stone.shift.held": "Shift right click in off hand to set location. Right click in main hand to teleport there! Works across the overworld, nether and end!",
   "tooltips.super_home_stone.shift.held": "Shift right click in off hand to set location. Right click in main hand to teleport there! Works across all dimensions!",
   "tooltip.advanced_home_stone.invalid_dimension": "Cannot be used in this dimension!",
-  "tooltip.home_stone.going_saved_location": "Going to saved location!",
-  "tooltip.home_stone.no_location": "No Location Set!",
-  "tooltip.home_stone.location_set": "Location Set!",
+  "tooltips.home_stone.going_saved_location": "Going to saved location!",
+  "tooltips.home_stone.no_location": "No Location Set!",
+  "tooltips.home_stone.location_set": "Location Set!",
+
+  "tooltips.death_stone.how": "How did you get this!",
+  "tooltips.death_stone.going_saved_location": "Returning to your latest death",
+  "tooltips.death_stone.shift.held": "Right click to return to your latest death point. Works across any dimension",
+  "tooltips.ender_scrambler.shift.held": "Place down to prevent enderman from teleporting away!",
 
   "tooltips.wallet.hover.shift": "Press SHIFT for more info",
   "tooltips.wallet.shift.held": "With the wallet in your off hand, right click B Bucks in your main hand to add them to your wallet! Sneak right click to remove B Bucks!",
   "tooltips.wallet.no_b_bucks": "Your wallet is empty!",
 
-  "tooltips.floating_block.place_in_air": "Place in the air!",
+  "tooltips.floating_block.place_in_air": "Place in the air or inside water!",
+
+  "jei.opolisutilities.resource_generator": "Place a block from the resource_generator_blocks tag above the resource generator. Then place a inventory like a chest or a hopper underneath",
+
+  "jei.recipes.resource_generator_2_line_1": "Place the blocks in",
+  "jei.recipes.resource_generator_2_line_2": "world as shown!",
+  "jei.recipes.resource_generator_2_chest_1": "Puts the generated block",
+  "jei.recipes.resource_generator_2_chest_2": "into any inventory below!",
 
   "enchantment.opolisutilities.warden_smite": "Warden Smite",
 

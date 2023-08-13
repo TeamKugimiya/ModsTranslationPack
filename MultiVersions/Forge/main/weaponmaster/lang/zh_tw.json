@@ -1,0 +1,34 @@
+{
+	"weaponmaster.screen":"YDM 的武器大師",
+	"key.weaponmaster.category":"YDM 的武器大師",
+	"key.weaponmaster.opengui":"開啟設定介面",
+	"weaponmaster.screen2":"更多設定",
+	"weaponmaster.screen.reset_to_previous": "重設",
+	"weaponmaster.screen.reset_to_null":"全部重設為 0",
+	
+	"gui.weaponmaster.slot.posx":"X 位置：",
+	"gui.weaponmaster.slot.posy":"Y 位置：",
+	"gui.weaponmaster.slot.posz":"Z 位置：",
+	
+	"gui.weaponmaster.slot.rotx":"X 旋轉角度：",
+	"gui.weaponmaster.slot.roty":"Y 旋轉角度：",
+	"gui.weaponmaster.slot.rotz":"Z 旋轉角度：",
+	
+	"weaponmaster.screen.other_settings":"更多",
+	"weaponmaster.screen.shield":"盾牌",
+	"weaponmaster.screen.banner":"旗幟",
+	
+	"gui.weaponmaster.attach.head":"頭部",
+	"gui.weaponmaster.attach.body":"身體",
+	"gui.weaponmaster.attach.larm":"左手臂",
+	"gui.weaponmaster.attach.rarm":"右手臂",
+	"gui.weaponmaster.attach.lleg":"左腿",
+	"gui.weaponmaster.attach.rleg":"右腿",
+	"gui.weaponmaster.rotate":"拖曳以旋轉",
+	"gui.weaponmaster.slot.shield":"盾牌",
+	"gui.weaponmaster.slot.banner":"旗幟",
+	"gui.weaponmaster.mover":"調整的位置：",
+	"gui.weaponmaster.arrowright":"->",
+	"gui.weaponmaster.attach":"依附的身體部位："
+	
+}

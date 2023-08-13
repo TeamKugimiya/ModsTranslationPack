@@ -1,0 +1,22 @@
+{
+  "entity.netherskeletons.nether_skeleton": "地獄骷髏",
+  "item.netherskeletons.nether_skeleton_spawn_egg": "地獄骷髏 生怪蛋",
+  "entity.netherskeletons.skelly_ghast": "骷髏幽靈",
+  "item.netherskeletons.crimson_skeleton_spawn_egg": "緋紅骷髏 生怪蛋",
+  "entity.netherskeletons.crimson_skeleton": "緋紅骷髏",
+  "entity.netherskeletons.basalt_skeleton": "玄武岩骷髏",
+  "item.netherskeletons.crying_obby_skeleton_spawn_egg": "哭泣黑曜石骷髏 生怪蛋",
+  "item_group.netherskeletons.nether_skeletons": "地獄骷髏",
+  "item.netherskeletons.skelly_piglin_spawn_egg": "骷髏化豬布林 生怪蛋",
+  "item.netherskeletons.soul_skeleton_spawn_egg": "靈魂骷髏 生怪蛋",
+  "itemGroup.tabnether_skeletons": "地獄骷髏",
+  "item.netherskeletons.warped_skeleton_spawn_egg": "扭曲骷髏 生怪蛋",
+  "item.netherskeletons.basalt_skeleton_spawn_egg": "玄武岩骷髏 生怪蛋",
+  "item.netherskeletons.skelly_ghast_spawn_egg": "骷髏幽靈 生怪蛋",
+  "entity.netherskeletons.warped_skeleton": "扭曲骷髏",
+  "entity.netherskeletons.crying_obby_skeleton": "哭泣黑曜石骷髏",
+  "item.netherskeletons.charred_skeleton_spawn_egg": "焦黑骷髏 生怪蛋",
+  "entity.netherskeletons.soul_skeleton": "靈魂骷髏",
+  "entity.netherskeletons.skelly_piglin": "骷髏化豬布林",
+  "entity.netherskeletons.charred_skeleton": "焦黑骷髏"
+}

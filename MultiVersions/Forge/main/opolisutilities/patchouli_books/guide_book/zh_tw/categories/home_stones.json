@@ -1,0 +1,6 @@
+{
+	"name": "回家石",
+	"description": "模組中有數種不同類型的回家石，可用來傳送回儲存的位置。",
+	"icon": "opolisutilities:home_stone",
+	"sortnum": 3
+}

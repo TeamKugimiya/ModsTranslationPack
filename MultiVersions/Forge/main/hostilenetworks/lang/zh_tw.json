@@ -53,6 +53,7 @@
 	"hostilenetworks.fail.input": "模擬無法開始\n缺少材料：%s",
 	"hostilenetworks.fail.model": "請插入資料模型以開始戰鬥模擬",
 	"hostilenetworks.fail.faulty": "模型所需資料不足\n請插入等級為「基礎」以上的資料模型",
+	"hostilenetworks.fail.energy_mid_cycle": "模擬進度已暫停\n系統能量不足",
 	
 	"hostilenetworks.run.0": "> 正在啟動執行環境 ",
 	"hostilenetworks.run.1": "> 開始第 #%s 次迭代",
@@ -111,6 +112,10 @@
 	"hostilenetworks.trivia.shulker": "增強型傳送加農砲。\n死後會變成漂亮的儲物箱。",
 	"hostilenetworks.trivia.vindicator": "一位揮舞著亂斧的瘋子。\n盡可能與他保持安全距離。",
 	"hostilenetworks.trivia.zombified_piglin": "一位可憐的地獄居民不幸被變成了殭屍。\n但他身上仍帶著不少黃金。",
+
+	"hostilenetworks.info.no_base_drop": "不生產基礎掉落物",
+
+	"enchantment.level.0": "0",
 	
-	"enchantment.level.0": "0"
+	"curios.identifier.deep_learner": "深度學習機"
 }

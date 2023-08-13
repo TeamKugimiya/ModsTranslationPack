@@ -1,0 +1,207 @@
+{
+	"itemGroup.ba_bt": "BrassAmber Battletowers",
+	"block.ba_bt.tab_icon": "BrassAmber Battletowers",
+
+	// Entities
+	"entity.ba_bt.land_golem": "Bahryn'muul, Entombed Watcher",
+	"entity.ba_bt.ocean_golem": "Moraizu'un, Idol of the Drowned",
+	"entity.ba_bt.core_golem": "Obthu'ryn, God of the Core",
+	"entity.ba_bt.nether_golem": "Vuur'tyrahn, Tyrant Inferno",
+	"entity.ba_bt.end_golem": "Shul'losniir, Warped Guardian",
+	"entity.ba_bt.sky_golem": "Veyhz'kriin, Sky Goddess",
+
+	"entity.ba_bt.sky_minion": "Sky Minion",
+	"entity.ba_bt.platinum_skeleton": "Platinum Knight",
+	"entity.ba_bt.bt_cultist": "Cultist",
+
+	"entity.ba_bt.land_monolith": "Land Monolith",
+	"entity.ba_bt.ocean_monolith": "Ocean Monolith",
+	"entity.ba_bt.core_monolith": "Core Monolith",
+	"entity.ba_bt.nether_monolith": "Nether Monolith",
+	"entity.ba_bt.end_monolith": "End Monolith",
+	"entity.ba_bt.sky_monolith": "Sky Monolith",
+
+	"entity.ba_bt.land_obelisk": "Land Obelisk",
+	"entity.ba_bt.ocean_obelisk": "Ocean Obelisk",
+	"entity.ba_bt.core_obelisk": "Core Obelisk",
+	"entity.ba_bt.nether_obelisk": "Nether Obelisk",
+	"entity.ba_bt.end_obelisk": "End Obelisk",
+	"entity.ba_bt.sky_obelisk": "Sky Obelisk",
+
+	"entity.ba_bt.destroy_tower": "Destroy Tower",
+
+	// Golem Sounds
+	"ba_bt.subtitle.golem.hurt": "Golem hurts",
+	"ba_bt.subtitle.golem.death": "Golem dies",
+	"ba_bt.subtitle.golem.charge": "Golem charges",
+	"ba_bt.subtitle.golem.awaken": "Golem awakens",
+	"ba_bt.subtitle.golem.ambient": "Golem growls",
+	"ba_bt.subtitle.golem.special": "Golem attacks",
+
+	"ba_bt.subtitle.golem.land.fight": "Bahryn'muul Boss Music",
+
+	"ba_bt.subtitle.monolith.spawn.golem": "Golem Begins Spawning",
+
+	"ba_bt.subtitle.tower.break.start": "Tower starts breaking",
+	"ba_bt.subtitle.tower.break.crumble": "Tower crumbles down",
+	"ba_bt.subtitle.tower.ambient.music.land": "Land Tower Ambient Music",
+	"ba_bt.subtitle.tower.ambient.music.ocean": "Ocean Tower Ambient Music",
+	"ba_bt.subtitle.tower.ambient.music.core": "Core Tower Ambient Music",
+	"ba_bt.subtitle.tower.ambient.music.nether": "Nether Tower Ambient Music",
+	"ba_bt.subtitle.tower.ambient.music.end": "End Tower Ambient Music",
+	"ba_bt.subtitle.tower.ambient.music.sky": "Sky Tower Ambient Music",
+	"ba_bt.subtitle.tower.ambient.music.city": "Restored City Ambient Music",
+
+	// Blocks
+	"block.ba_bt.land_golem_chest": "Bahryn'muul's Chest",
+	"block.ba_bt.land_chest": "Land Chest",
+
+	"block.ba_bt.ocean_golem_chest": "Moraizu'un's Chest",
+	"block.ba_bt.ocean_chest": "Ocean Chest",
+
+	"block.ba_bt.platinum_block": "Platinum Block",
+	"block.ba_bt.platinum_tiles": "Platinum Tiles",
+
+	"block.ba_bt.bt_land_spawner" : "Land Spawner",
+	"block.ba_bt.bt_ocean_spawner" : "Ocean Spawner",
+	"block.ba_bt.bt_core_spawner" : "Core Spawner",
+	"block.ba_bt.bt_nether_spawner" : "Nether Spawner",
+	"block.ba_bt.bt_end_spawner" : "End Spawner",
+	"block.ba_bt.bt_sky_spawner" : "Sky Spawner",
+
+	// Containers
+	"container.ba_bt.land_golem_chest": "Bahryn'muul's Chest",
+	"container.ba_bt.land_golem_chest_double": "Large Bahryn'muul's Chest",
+	"container.ba_bt.land_chest": "Land Chest",
+	"container.ba_bt.land_chest_double": "Large Land Chest",
+
+	"container.ba_bt.tower_chest.isLocked": "Unlocks upon destruction of nearby spawners",
+	
+	"container.ba_bt.ocean_golem_chest": "Moraizu'un's Chest",
+	"container.ba_bt.ocean_golem_chest_double": "Large Moraizu'un's Chest",
+	"container.ba_bt.ocean_chest": "Ocean Chest",
+	"container.ba_bt.ocean_chest_double": "Large Ocean Chest",
+
+	// Items
+	"item.ba_bt.monolith_key_land": "Land Monolith Key",
+	"item.ba_bt.monolith_key_ocean": "Ocean Monolith Key",
+	"item.ba_bt.monolith_key_core": "Core Monolith Key",
+	"item.ba_bt.monolith_key_nether": "Nether Monolith Key",
+	"item.ba_bt.monolith_key_end": "End Monolith Key",
+	"item.ba_bt.monolith_key_sky": "Sky Monolith Key",
+
+	"item.ba_bt.guardian_eye_land": "Eye of Bahryn'muul",
+	"item.ba_bt.guardian_eye_ocean": "Eye of Moraizu'un",
+	"item.ba_bt.guardian_eye_core": "Eye of Obthu'uryn",
+	"item.ba_bt.guardian_eye_nether": "Eye of Vuur'tyrahn",
+	"item.ba_bt.guardian_eye_end": "Eye of Shul'losniir",
+	"item.ba_bt.guardian_eye_sky": "Eye of Veyhz'kriin",
+
+	"item.ba_bt.monolith_land": "Land Monolith",
+	"item.ba_bt.monolith_ocean": "Ocean Monolith",
+	"item.ba_bt.monolith_core": "Core Monolith",
+	"item.ba_bt.monolith_nether": "Nether Monolith",
+	"item.ba_bt.monolith_end": "End Monolith",
+	"item.ba_bt.monolith_sky": "Sky Monolith",
+
+	"item.ba_bt.platinum_ingot": "Platinum Ingot",
+	"item.ba_bt.platinum_shard": "Platinum Shard",
+	"item.ba_bt.platinum_sword": "Platinum Sword",
+
+	"item.ba_bt.platinum_helmet": "Platinum Helmet",
+	"item.ba_bt.platinum_chestplate": "Platinum Chestplate",
+	"item.ba_bt.platinum_leggings": "Platinum Leggings",
+	"item.ba_bt.platinum_boots": "Platinum Boots",
+
+	"item.ba_bt.land_chest_shard": "Land Chest Shard",
+	"item.ba_bt.ocean_chest_shard": "Ocean Chest Shard",
+
+	"item.ba_bt.platinum_skeleton_spawn_egg": "Platinum Knight Spawn Egg",
+
+	"item.ba_bt.bt_land_resonance_stone": "Land Resonance Stone",
+	"item.ba_bt.bt_ocean_resonance_stone": "Ocean Resonance Stone",
+	"item.ba_bt.bt_core_resonance_stone": "Core Resonance Stone",
+	"item.ba_bt.bt_nether_resonance_stone": "Nether Resonance Stone",
+	"item.ba_bt.bt_end_resonance_stone": "End Resonance Stone",
+	"item.ba_bt.bt_sky_resonance_stone": "Sky Resonance Stone",
+	"item.ba_bt.bt_city_resonance_stone": "City Resonance Stone",
+
+	// Effects
+	"effect.ba_bt.depth_dropper_effect": "Depth Dropper",
+
+	// Enchantments
+	"enchantment.ba_bt.depth_dropper": "Depth Dropper",
+
+	// Item Tooltips
+	"tooltip.ba_bt.hold_shift": "Hold §eSHIFT§r for more information.",
+	"tooltip.ba_bt.monolith_key": "I hope you know what you're doing..",
+	"tooltip.ba_bt.tower_chest": "Unlocks upon destruction of nearby spawners.",
+	"tooltip.ba_bt.golem_chest": "Bound to the guardian's life force",
+
+	"tooltip.ba_bt.monolith_land": "The Guardian has been trapped within!",
+	"tooltip.ba_bt.monolith_ocean": "The Beast waits patiently within...",
+	"tooltip.ba_bt.monolith_core": "The God waits for fools to interfere...",
+	"tooltip.ba_bt.monolith_nether": "The Tyrant lounges lazily inside...",
+	"tooltip.ba_bt.monolith_end": "The Guardian Meditates within...",
+	"tooltip.ba_bt.monolith_sky": "The Goddess watches ...",
+
+	"tooltip.ba_bt.eye_hold_shift": "Hold §eSHIFT§r to see the Guardian's last words",
+	"tooltip.ba_bt.land_eye": "Vaayus, the tower has been compromised...",
+	"tooltip.ba_bt.ocean_eye": "Praise the void... Praise me...",
+	"tooltip.ba_bt.core_eye": "Nothing can stop them now..",
+	"tooltip.ba_bt.nether_eye": "I will make you ROT in my DUNGEONS for this!...",
+	"tooltip.ba_bt.end_eye": "She approaches, through the rift...",
+	"tooltip.ba_bt.sky_eye": "I have failed you, Sr. Vaayus... ",
+
+	"item.ba_bt.bt_land_resonance_stone.desc": "Lena Raine: Ancestry",
+	"item.ba_bt.bt_ocean_resonance_stone.desc": "DM DOKURO: Void",
+	"item.ba_bt.bt_core_resonance_stone.desc": "Lena Raine: So Below",
+	"item.ba_bt.bt_nether_resonance_stone.desc": "FHP: Pigstep Cinematic Remix",
+	"item.ba_bt.bt_end_resonance_stone.desc": "LudoCrypt: Complex Radiation",
+	"item.ba_bt.bt_sky_resonance_stone.desc": "Emile van Kreiken: Clouds",
+	"item.ba_bt.bt_city_resonance_stone.desc": "Lena Raine: Labyrinthine",
+
+	// Overscreen titles
+	"title.ba_bt.land": "Bahryn'muul, Land Guardian",
+	"title.ba_bt.ocean": "Moraizu'un, Ocean Guardian",
+	"title.ba_bt.core": "Obthu'uryn, Core God",
+	"title.ba_bt.nether": "Vuur'tyrahn, Nether Tyrant",
+	"title.ba_bt.end": "Shul'losniir, End Guardian",
+	"title.ba_bt.sky": "Veyhz'kriin, Sky Goddess",
+
+	"title.ba_bt.guardian_defeated_1": " Has Fallen",
+
+	"title.ba_bt.land_defeated_2": "Without its energy...",
+	"title.ba_bt.land_defeated_3": "...The tower will collapse...",
+
+	"title.ba_bt.ocean_defeated_2": "The Idol returned to the void...",
+	"title.ba_bt.ocean_defeated_3": "...The floor starts to crumble...",
+
+	"title.ba_bt.core_defeated_2": "Without the god's vessel...",
+	"title.ba_bt.core_defeated_3": "...The walls begin to melt...",
+
+	"title.ba_bt.nether_defeated_2": "Without the tyrants control...",
+	"title.ba_bt.nether_defeated_3": "...The tower blossoms once more...",
+
+	"title.ba_bt.end_defeated_2": "Defeated but not destroyed...",
+	"title.ba_bt.end_defeated_3": "...The floor begins to vanish...",
+
+	"title.ba_bt.sky_defeated_2": "A Goddess slain...",
+	"title.ba_bt.sky_defeated_3": "...The tower dissolves into mist...",
+
+	// Advancements
+	"advancements.ba_bt.battle_tower.title": "BattleTowers",
+	"advancements.ba_bt.battle_tower.description": "BattleTowers",
+	"advancements.ba_bt.land_tower_found.title": "A test of time",
+	"advancements.ba_bt.land_tower_found.description": "-Re-discover an ancient BattleTower",
+	"advancements.ba_bt.find_land_key.title": "The Key to an Ancient Power...",
+	"advancements.ba_bt.find_land_key.description": "-Find a Monolith Key",
+	"advancements.ba_bt.kill_land_golem.title": "The ocean depths begin to stir...",
+	"advancements.ba_bt.kill_land_golem.description": "-Destroy Bahryn'muul, Entombed Watcher of the Tower",
+	"advancements.ba_bt.ocean_tower_found.title": "Mind your step",
+	"advancements.ba_bt.ocean_tower_found.description": "-Fall into the Abyssal trench",
+	"advancements.ba_bt.find_ocean_key.title": "What are they hiding...",
+	"advancements.ba_bt.find_ocean_key.description": "-Find an Ocean Monolith Key",
+	"advancements.ba_bt.kill_ocean_golem.title": "The core becomes restless...",
+	"advancements.ba_bt.kill_ocean_golem.description": "-Destroy Moraizu'un, Idol of the Drowned"
+}

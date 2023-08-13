@@ -1,0 +1,12 @@
+{
+	"name": "銅粒",
+	"icon": "opolisutilities:textures/item/copper_nugget.png",
+	"category": "opolisutilities:basic_items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "text",
+			"text": "因為在原版 Minecraft 中不存在，所以被加進遊戲裡的銅粒。"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "凋零",
+    "icon": "minecraft:textures/mob_effect/wither.png",
+    "category": "apotheosis:potion/recipes",
+	"flag": "&apotheosis:potion,!apotheosis:wstloaded",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c)凋零$()是一種敵對效果，通常無法透過合成獲得。$(p)受到這種效果影響時，你將每刻（tick）受到凋零傷害。$(p)與劇毒效果不同，這種傷害是具有致命性的。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"title": "釀造配方",
+			"item": "minecraft:wither_skeleton_skull",
+            "text": "這種藥水可以使用普通藥水，以及凋零骷髏頭顱合成。$(p)該效果可以使用一般材料，進一步延長持續時間、增強效果等級，或製作成飛濺藥水。"
+        }
+	]
+}
