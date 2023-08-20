@@ -117,6 +117,7 @@
             "modName": "Xaero's Minimap",
             "modLoader": "Forge",
             "modVersion": "main",
+            "forceOverrideID": "xaerominimap",
             "url": "https://www.mediafire.com/file/62f1cxf3o3k10bb/Xaeros_Minimap_23.6.1_Forge_1.20-tw.jar"
         },
         {

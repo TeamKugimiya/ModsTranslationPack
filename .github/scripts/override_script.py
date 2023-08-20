@@ -24,7 +24,7 @@ def loadJsonFile(filePath: str):
         sys.exit(1)
 
 ## Verify URL
-async def verify_url(mod_dicts: dict, mods_dict: dict, should_exit_on_fail: bool, session):
+async def verify_url(mod_dicts: dict, mods_dict: dict, should_exit_on_fail: bool, session):  # noqa: E501
     response = await session.head(mod_dicts["url"])
     mod_name = mod_dicts["modName"]
     status_code = response.status
@@ -70,8 +70,12 @@ def modId_Finder(dir: str):
 
 # Language Extracter TODO Refactor ALL
  
-def jar_lang_copyer(dir, modloader, version):
-    mod_id = modId_Finder(dir)
+def jar_lang_copyer(dir, modloader, modforceoverrideid, version):
+    if modforceoverrideid is not None:
+        mod_id = modforceoverrideid
+    else:
+        mod_id = modId_Finder(dir)
+
     source_path = os.path.join(dir, "assets", mod_id, "lang", "zh_tw.json")
     dest_path = Path("MultiVersions", modloader, version, mod_id, "lang", "zh_tw.json")
 
@@ -95,26 +99,26 @@ def jar_guide_copyer(dir, array, path, modloader, version, special=None):
                 if os.path.isdir(source_path):
                     manual_dirname = os.path.basename(os.path.dirname(i))
                     manual_langname = os.path.basename(i)
-                    shutil.copytree(source_path, os.path.join("MultiVersions", modloader, version, mod_id, path, manual_dirname, manual_langname))
+                    shutil.copytree(source_path, os.path.join("MultiVersions", modloader, version, mod_id, path, manual_dirname, manual_langname))  # noqa: E501
                     print(f"> 手冊複製 {i} 到 {path}")
                 elif os.path.isfile(source_path):
-                    shutil.copy(source_path, os.path.join("MultiVersions", modloader, version, mod_id, path))
+                    shutil.copy(source_path, os.path.join("MultiVersions", modloader, version, mod_id, path))  # noqa: E501
                     print(f"> 手冊複製 {i} 到 {path}")
                 else:
                     print(f"{source_path} 不是一個有效的資料夾或檔案")
             else:
                 if os.path.isdir(source_path):
-                    shutil.copytree(source_path, os.path.join("MultiVersions", modloader, version, mod_id, path, os.path.basename(i)))
+                    shutil.copytree(source_path, os.path.join("MultiVersions", modloader, version, mod_id, path, os.path.basename(i)))  # noqa: E501
                     print(f"> 手冊複製 {i} 到 {path}")
                 elif os.path.isfile(source_path):
-                    shutil.copy(source_path, os.path.join("MultiVersions", modloader, version, mod_id, path))
+                    shutil.copy(source_path, os.path.join("MultiVersions", modloader, version, mod_id, path))  # noqa: E501
                     print(f"> 手冊複製 {i} 到 {path}")
                 else:
                     print(f"{source_path} 不是一個有效的資料夾或檔案")
         except OSError as e:
             print(f"複製手冊時發生錯誤：{e}")    
 
-def jar_extract(modname, modloader, version, url):
+def jar_extract(modname, modloader, version, modforceoverrideid, url):
     temp_dir = tempfile.mkdtemp()
     override_file = os.path.join(temp_dir, os.path.basename(url))
 
@@ -125,11 +129,11 @@ def jar_extract(modname, modloader, version, url):
     with zipfile.ZipFile(override_file, "r") as jar:
         jar.extractall(temp_dir)
 
-    jar_lang_copyer(temp_dir, modloader, version)
+    jar_lang_copyer(temp_dir, modloader, modforceoverrideid, version)
 
     shutil.rmtree(temp_dir)
 
-def jar_extract_guide(modname, guidepath, guidesave, modloader, version, url, special=None):
+def jar_extract_guide(modname, guidepath, guidesave, modloader, version, url, special=None):  # noqa: E501
     temp_dir = tempfile.mkdtemp()
     override_file = os.path.join(temp_dir, os.path.basename(url))
 
@@ -140,7 +144,7 @@ def jar_extract_guide(modname, guidepath, guidesave, modloader, version, url, sp
     with zipfile.ZipFile(override_file, "r") as jar:
         jar.extractall(temp_dir)
 
-    jar_lang_copyer(temp_dir, modloader, version)
+    jar_lang_copyer(temp_dir, modloader, None, version)
 
     jar_guide_copyer(temp_dir, guidepath, guidesave, modloader, version, special)
 
@@ -194,7 +198,7 @@ def zip_extract(modname, modloader, version, url, extractAll: bool):
 
 def git_lang_copyer(dir, modloader, version):
     mod_id = modId_Finder(dir)
-    source_path = os.path.join(dir, "src", "main", "resources", "assets", mod_id, "lang", "zh_tw.json")
+    source_path = os.path.join(dir, "src", "main", "resources", "assets", mod_id, "lang", "zh_tw.json")  # noqa: E501
     dest_path = Path("MultiVersions", modloader, version, mod_id, "lang", "zh_tw.json")
 
     print("> 模組 ID", mod_id)
@@ -268,6 +272,7 @@ def process_mods_list(mods_dict: dict):
         modname = mods_dict["modName"]
         modloader = mods_dict["modLoader"]
         modversion = mods_dict["modVersion"]
+        modforceoverrideid = mods_dict.get("forceOverrideID")
         extractype = mods_dict.get("extractType", "Mods")
         guidepaths = mods_dict.get("guidePaths")
         guidesave = mods_dict.get("guideSave")
@@ -279,15 +284,15 @@ def process_mods_list(mods_dict: dict):
         if url.endswith(".json"):
             directDownload_Lang(modname, modloader, modversion, url)
         elif url.endswith(".jar") and extractype == "Mods":
-            jar_extract(modname, modloader, modversion, url)
+            jar_extract(modname, modloader, modversion, modforceoverrideid, url)
         elif url.endswith(".jar") and extractype == "Mods-With-Guide":
-            jar_extract_guide(modname, guidepaths, guidesave, modloader, modversion, url, specialcopy)
+            jar_extract_guide(modname, guidepaths, guidesave, modloader, modversion, url, specialcopy)  # noqa: E501
         elif url.endswith(".zip") and extractype == "Mods":
             zip_extract(modname, modloader, modversion, url, False)
         elif url.endswith(".zip") and extractype == "ExtractAll":
             zip_extract(modname, modloader, modversion, url, True)
         elif url.endswith(".git") and extractype == "Mods-With-Guide-Git":
-            git_clone(modname, guidepaths, guidesave, branch, modloader, modversion, url)
+            git_clone(modname, guidepaths, guidesave, branch, modloader, modversion, url)  # noqa: E501
         else:
             print(f"⚠ 模組 {modname} 並未執行到任何覆蓋！")
 
