@@ -304,7 +304,7 @@ def main(json_file_path):
 
 if __name__ == "__main__":
     if os.environ.get("CI"):
-        json_file_path = ".github/configs/override_list.json"
+        json_file_path = "../.github/configs/override_list.json"
     else:
         json_file_path = "../.github/configs/override_list.json"
 
