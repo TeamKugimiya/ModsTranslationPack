@@ -84,10 +84,8 @@ jobs:
             force_include = true
             ['{LICENSE,LICENSE_*}']
             force_include = true
-          force_include_files: |
-            LICENSE
-            LICENSE_*
-            assets/tconstruct/book/**/zh_tw/*.lang
+            ['**/*?.lang']
+            force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: DownloadArtifact
