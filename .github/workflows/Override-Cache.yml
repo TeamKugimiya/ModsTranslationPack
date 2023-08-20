@@ -49,6 +49,7 @@ jobs:
           cd cache
           zip -qr Override-Cache.zip MultiVersions/ Override/
           rm -r MultiVersions/ Override/
+          rm Pipfile Pipfile.lock override_script.py
           sha256sum Override-Cache.zip > checksum.txt
 
       - name: Upload cache to s3
