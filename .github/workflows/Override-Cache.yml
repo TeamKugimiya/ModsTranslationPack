@@ -42,7 +42,6 @@ jobs:
           cd cache
           pipenv install
           pipenv run override
-          rm OverrideScript.py Pipfile Pipfile.lock
           ls -alh
 
       - name: Compress Cache
