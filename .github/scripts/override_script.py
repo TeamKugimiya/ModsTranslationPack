@@ -304,9 +304,9 @@ def main(json_file_path):
 
 if __name__ == "__main__":
     if os.environ.get("CI"):
-        json_file_path = "../.github/configs/override_list.json"
+        json_file_path = ".github/configs/override_list.json"
     else:
-        json_file_path = "../../configs/override_list.json"
+        json_file_path = "../.github/configs/override_list.json"
 
     if len(sys.argv) > 1 and sys.argv[1] == "Test":
         mods_list = loadJsonFile(json_file_path)
