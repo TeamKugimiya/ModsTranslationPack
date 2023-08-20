@@ -51,9 +51,6 @@ jobs:
             echo "Error! No value or parameter wrong."
           fi
 
-      - name: Override mods
-        run: .github/scripts/override_mods.sh
-
       - name: Download override cache from s3
         if: github.event_name != 'pull_request'
         uses: Docker-Collection/docker-aws-s3-action@main
@@ -62,17 +59,16 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
-          dest_dir: "Override-Cache.zip"
+          dest_dir: "cache/"
           aws_command: "cp"
 
       - name: Extract caches
         if: github.event_name != 'pull_request'
         run: |
-          mv Override-Cache.zip MultiVersions/Override/
-          cd MultiVersions/Override/
+          sha256sum -c checksum.txt
+          mv Override-Cache.zip MultiVersions/
+          cd MultiVersions/
           unzip Override-Cache.zip
-          mv assets/* main/
-          rm -r assets
           rm Override-Cache.zip
 
       - name: MultiVersions!

@@ -33,24 +33,24 @@ jobs:
 
       - name: Move Script
         run: |
-          mkdir Cache
-          mv .github/Pipfile Cache/
-          mv .github/scripts/override_script.py Cache/
+          mkdir cache
+          mv .github/Pipfile cache/
+          mv .github/scripts/override_script.py cache/
 
       - name: Make Cache
         run: |
-          cd Cache
+          cd cache
           pipenv install
           pipenv run override
           rm OverrideScript.py Pipfile Pipfile.lock
           ls -alh
 
-      - name: Compress Cache # TODO
+      - name: Compress Cache
         run: |
-          cd Cache
+          cd cache
           zip -qr Override-Cache.zip MultiVersions/ Override/
           rm -r MultiVersions/ Override/
-          sha256sum Override-Caches.zip > checksum.txt
+          sha256sum Override-Cache.zip > checksum.txt
 
       - name: Upload cache to s3
         uses: Docker-Collection/docker-aws-s3-action@main
@@ -59,6 +59,6 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
-          source_dir: "Cache"
-          dest_dir: "."
+          source_dir: "cache"
+          dest_dir: "cache/"
           aws_command: "sync"
