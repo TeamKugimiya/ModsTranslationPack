@@ -256,7 +256,7 @@ def directDownload_Lang(modName: str, modLoader: str, version: str, url: str):
 ## Direct Download License File
 def directDownload_License(modName: str, url: str):
     fixed_modName = modName.replace(" ", "-")
-    path = Path("Override", f"LICENSE_{fixed_modName}")
+    path = Path("MultiVersions", "Override", f"LICENSE_{fixed_modName}")
 
     print(f"🪪 下載 {modName} 授權條款")
     path.parent.mkdir(parents=True, exist_ok=True)

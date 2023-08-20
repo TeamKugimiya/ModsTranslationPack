@@ -67,8 +67,6 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           sha256sum -c checksum.txt
-          mv Override-Cache.zip MultiVersions/
-          cd MultiVersions/
           unzip Override-Cache.zip
           rm Override-Cache.zip
 
