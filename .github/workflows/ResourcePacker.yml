@@ -60,7 +60,8 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
           dest_dir: "cache/"
-          aws_command: "cp"
+          sync_reverse: true
+          aws_command: "sync"
 
       - name: Extract caches
         if: github.event_name != 'pull_request'
