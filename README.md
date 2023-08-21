@@ -122,10 +122,10 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/MarginalPerson">
-            <img src="https://avatars.githubusercontent.com/u/59750952?v=4" width="100;" alt="MarginalPerson"/>
+        <a href="https://github.com/obscure-man">
+            <img src="https://avatars.githubusercontent.com/u/59750952?v=4" width="100;" alt="obscure-man"/>
             <br />
-            <sub><b>MarginalPerson</b></sub>
+            <sub><b>obscure_man</b></sub>
         </a>
     </td>
     <td align="center">
