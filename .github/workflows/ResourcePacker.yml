@@ -74,32 +74,32 @@ jobs:
         run: |
           .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
 
-      # - name: Make ModsTranslationPack
-      #   uses: ComunidadAylas/PackSquash-action@v4
-      #   with:
-      #     packsquash_version: latest
-      #     options: |
-      #       pack_directory = 'pack'
-      #       ['assets/immersiveengineering/manual/zh_tw/*.txt']
-      #       force_include = true
-      #       ['{LICENSE,LICENSE_*}']
-      #       force_include = true
-      #       ['**/*?.lang']
-      #       force_include = true
-      #     artifact_name: OptimizedPack-${{ inputs.matrix_version }}
-
       - name: Make ModsTranslationPack
-        uses: ComunidadAylas/PackSquash-action@v3
+        uses: ComunidadAylas/PackSquash-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          force_include_files: |
-            LICENSE
-            LICENSE_*
-            assets/tconstruct/book/**/zh_tw/*.lang
-            assets/immersiveengineering/manual/zh_tw/*.txt
-          never_store_squash_times: true
-          path: pack
+          packsquash_version: latest
+          options: |
+            pack_directory = 'pack'
+            ['assets/immersiveengineering/manual/zh_tw/*.txt']
+            force_include = true
+            ['{LICENSE,LICENSE_*}']
+            force_include = true
+            ['**/*?.lang']
+            force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
+
+      # - name: Make ModsTranslationPack
+      #   uses: ComunidadAylas/PackSquash-action@v3
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     force_include_files: |
+      #       LICENSE
+      #       LICENSE_*
+      #       assets/tconstruct/book/**/zh_tw/*.lang
+      #       assets/immersiveengineering/manual/zh_tw/*.txt
+      #     never_store_squash_times: true
+      #     path: pack
+      #     artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: DownloadArtifact
         uses: actions/download-artifact@v3
