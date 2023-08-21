@@ -28,7 +28,7 @@ on:
 jobs:
   ResourcePacker:
     name: ResourcePacker ${{ inputs.matrix_version }}
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - name: Checking Repository
