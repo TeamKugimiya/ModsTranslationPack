@@ -6,7 +6,12 @@ on:
       - "main"
     paths:
       - ".github/configs/override_list.json"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      cache_url_test:
+        description: "Test Cache URL"
+        required: false
+        type: boolean
 
 permissions:
   contents: read
@@ -42,22 +47,33 @@ jobs:
       - name: Install project dependencies
         run: poetry install
 
-      - name: Make Cache
+      - name: Make cache folder
+        run: mkdir cache
+
+      - name: Testing URL
+        if: ${{ inputs.cache_url_test }}
         run: |
-          mkdir cache
-          cd cache
+          poetry run python .github/scripts/override_script.py Test
+        working-directory: cache
+
+      - name: Make Cache
+        if: ${{ ! inputs.cache_url_test }}
+        run: |
           poetry run python ../.github/scripts/override_script.py
           ls -lh MultiVersions/
+        working-directory: cache
 
       - name: Compress Cache
+        if: ${{ ! inputs.cache_url_test }}
         run: |
-          cd cache
           zip -qr Override-Cache.zip MultiVersions/
           rm -r MultiVersions/
           rm Pipfile Pipfile.lock override_script.py
           sha256sum Override-Cache.zip > checksum.txt
+        working-directory: cache
 
       - name: Upload cache to s3
+        if: ${{ ! inputs.cache_url_test }}
         uses: Docker-Collection/docker-aws-s3-action@main
         with:
           aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
