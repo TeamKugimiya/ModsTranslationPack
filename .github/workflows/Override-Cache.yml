@@ -68,7 +68,6 @@ jobs:
         run: |
           zip -qr Override-Cache.zip MultiVersions/
           rm -r MultiVersions/
-          rm Pipfile Pipfile.lock override_script.py
           sha256sum Override-Cache.zip > checksum.txt
         working-directory: cache
 
