@@ -7,7 +7,6 @@ on:
     paths:
       - "MultiVersions/**"
       - "!MultiVersions/README.md"
-      - ".github/scripts/override_mods.sh"
 
   pull_request:
     branches:
