@@ -65,10 +65,8 @@ multiversion () {
     local pack_path=$pack_path/assets
 
   if [ "$version" = "1.19.x" ]; then
-    mixer "Override" "main"
     mixer "Fabric" "main"
   elif [ "$version" = "1.18.x" ]; then
-    mixer "Override" "main"
     mixer "Fabric" "main"
     mixer "Fabric" "1.18"
     mixer "Forge" "1.18"
