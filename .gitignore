@@ -6,7 +6,5 @@ docs/Minecraft-Lang
 SimplePusher.sh
 
 # Python
-poetry.lock
-*.lock
 .venv/
 
