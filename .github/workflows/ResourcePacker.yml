@@ -37,6 +37,7 @@ jobs:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
 
+      # Temporary fix, patched by AlexTMjugador
       - name: Install PackSquash
         run: |
           sudo mkdir -p /etc/apt/keyrings
@@ -83,6 +84,7 @@ jobs:
         run: |
           .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
 
+      # Temporary fix, patched by AlexTMjugador
       - name: Make ModsTranslationPack
         run: |
           packsquash <<'PACKSQUASH_OPTIONS'
