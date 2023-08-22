@@ -53,7 +53,7 @@ jobs:
       - name: Testing URL
         if: ${{ inputs.cache_url_test }}
         run: |
-          poetry run python .github/scripts/override_script.py Test
+          poetry run python ../.github/scripts/override_script.py Test
         working-directory: cache
 
       - name: Make Cache
