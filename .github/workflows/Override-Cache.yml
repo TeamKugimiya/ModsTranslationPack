@@ -5,8 +5,13 @@ on:
     branches:
       - "main"
     paths:
-      - ".github/configs/override_list.txt"
-  workflow_dispatch: {}
+      - ".github/configs/override_list.json"
+  workflow_dispatch:
+    inputs:
+      cache_url_test:
+        description: "Test Cache URL"
+        required: false
+        type: boolean
 
 permissions:
   contents: read
@@ -22,23 +27,60 @@ jobs:
       - name: Checking Repository
         uses: actions/checkout@v3
 
-      - name: Run Override Script
-        run: |
-          .github/scripts/override_changer.sh
-          .github/scripts/override_mods.sh
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
 
-      - name: Make Cache zip
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2
+
+      - name: Setup a local virtual environment
         run: |
-          zip -r Override-Cache.zip assets/
-          mkdir Cache
-          mv Override-Cache.zip Cache
+          poetry config virtualenvs.create true --local
+          poetry config virtualenvs.in-project true --local
+
+      - name: Cache Python
+        uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+
+      - name: Install project dependencies
+        run: poetry install
+
+      - name: Make cache folder
+        run: mkdir cache
+
+      - name: Testing URL
+        if: ${{ inputs.cache_url_test }}
+        run: |
+          poetry run python ../.github/scripts/override_script.py Test
+        working-directory: cache
+
+      - name: Make Cache
+        if: ${{ ! inputs.cache_url_test }}
+        run: |
+          poetry run python ../.github/scripts/override_script.py
+          ls -lh MultiVersions/
+        working-directory: cache
+
+      - name: Compress Cache
+        if: ${{ ! inputs.cache_url_test }}
+        run: |
+          zip -qr Override-Cache.zip MultiVersions/
+          rm -r MultiVersions/
+          sha256sum Override-Cache.zip > checksum.txt
+        working-directory: cache
 
       - name: Upload cache to s3
+        if: ${{ ! inputs.cache_url_test }}
         uses: Docker-Collection/docker-aws-s3-action@main
         with:
           aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
-          source_dir: "Cache"
+          source_dir: "cache"
+          dest_dir: "cache/"
           aws_command: "sync"

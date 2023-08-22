@@ -7,14 +7,12 @@ on:
     paths:
       - "MultiVersions/**"
       - "!MultiVersions/README.md"
-      - ".github/scripts/override_mods.sh"
 
   pull_request:
     branches:
       - "main"
     paths:
       - "MultiVersions/**"
-      - "!MultiVersions/README.md"
 
   workflow_dispatch: {}
 
@@ -35,7 +33,7 @@ jobs:
     strategy:
       matrix:
         version: [ 1.18.x, 1.19.x ]
-        
+
     uses: ./.github/workflows/ResourcePacker.yml
     with:
       matrix_version: ${{ matrix.version }}

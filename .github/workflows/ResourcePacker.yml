@@ -37,6 +37,16 @@ jobs:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
 
+      # Temporary fix, patched by AlexTMjugador
+      - name: Install PackSquash
+        run: |
+          sudo mkdir -p /etc/apt/keyrings
+          sudo wget -O /etc/apt/keyrings/packsquash.key https://deb.packages.packsquash.aylas.org/public.key
+          echo 'deb [signed-by=/etc/apt/keyrings/packsquash.key] https://deb.packages.packsquash.aylas.org/debian stable main' | \
+          sudo tee /etc/apt/sources.list.d/packsquash.list > /dev/null
+          sudo apt-get update
+          sudo apt-get install packsquash
+
       - name: Version Changer
         run: |
           if [ ${{ inputs.release }} = false ]; then
@@ -51,9 +61,6 @@ jobs:
             echo "Error! No value or parameter wrong."
           fi
 
-      - name: Override mods
-        run: .github/scripts/override_mods.sh
-
       - name: Download override cache from s3
         if: github.event_name != 'pull_request'
         uses: Docker-Collection/docker-aws-s3-action@main
@@ -62,47 +69,34 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
-          dest_dir: "Override-Cache.zip"
-          aws_command: "cp"
+          dest_dir: "cache/"
+          sync_reverse: true
+          aws_command: "sync"
 
       - name: Extract caches
         if: github.event_name != 'pull_request'
         run: |
-          mv Override-Cache.zip MultiVersions/Override/
-          cd MultiVersions/Override/
+          sha256sum -c checksum.txt
           unzip Override-Cache.zip
-          mv assets/* main/
-          rm -r assets
           rm Override-Cache.zip
 
       - name: MultiVersions!
         run: |
           .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
 
+      # Temporary fix, patched by AlexTMjugador
       - name: Make ModsTranslationPack
-        uses: ComunidadAylas/PackSquash-action@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          force_include_files: |
-            LICENSE
-            LICENSE_*
-            assets/tconstruct/book/**/zh_tw/*.lang
-            assets/immersiveengineering/manual/zh_tw/*.txt
-          never_store_squash_times: true
-          path: pack
-          artifact_name: OptimizedPack-${{ inputs.matrix_version }}
-
-      - name: DownloadArtifact
-        uses: actions/download-artifact@v3
-        with:
-          name: OptimizedPack-${{ inputs.matrix_version }}
-          path: ./
-
-      - name: Delete Artifact
-        uses: geekyeggo/delete-artifact@v2
-        with:
-          name: |
-            OptimizedPack-${{ inputs.matrix_version }}
+        run: |
+          packsquash <<'PACKSQUASH_OPTIONS'
+          pack_directory = 'pack'
+          never_store_squash_times = true
+          ['assets/immersiveengineering/manual/zh_tw/*.txt']
+          force_include = true
+          ['{LICENSE,LICENSE_*}']
+          force_include = true
+          ['**/*?.lang']
+          force_include = true
+          PACKSQUASH_OPTIONS
 
       - name: Rename ModsTranslationPack
         run: |
