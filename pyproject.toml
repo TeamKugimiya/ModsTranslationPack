@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "modstranslationpack"
+version = "0.1.0"
+description = "A simple scripts collection!"
+authors = ["Miku <26039249+xMikux@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mediafire-dl = {git = "https://github.com/Juvenal-Yescas/mediafire-dl"}
+aiohttp = "3.8.5"
+six = "1.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

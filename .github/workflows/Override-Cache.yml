@@ -24,25 +24,30 @@ jobs:
 
       - name: Setup Python
         uses: actions/setup-python@v4
+
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2
+
+      - name: Setup a local virtual environment
+        run: |
+          poetry config virtualenvs.create true --local
+          poetry config virtualenvs.in-project true --local
+
+      - name: Cache Python
+        uses: actions/cache@v3
         with:
-          python-version: "3.10"
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
 
-      - name: Install pipenv
-        run: |
-          python -m pip install --upgrade pipenv wheel
-
-      - name: Move Script
-        run: |
-          mkdir cache
-          mv .github/Pipfile cache/
-          mv .github/scripts/override_script.py cache/
+      - name: Install project dependencies
+        run: poetry install
 
       - name: Make Cache
         run: |
+          mkdir cache
           cd cache
-          pipenv install
-          pipenv run override
-          ls -alh
+          poetry run python ../.github/scripts/override_script.py
+          ls -lh MultiVersions/
 
       - name: Compress Cache
         run: |
