@@ -56,49 +56,49 @@ jobs:
           release_version: ${{ inputs.release_version }}
           matrix_version: ${{ inputs.matrix_version }}
 
-      - name: Download override cache from s3
-        if: github.event_name != 'pull_request'
-        uses: Docker-Collection/docker-aws-s3-action@main
-        with:
-          aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
-          dest_dir: "cache/"
-          sync_reverse: true
-          aws_command: "sync"
+      # - name: Download override cache from s3
+      #   if: github.event_name != 'pull_request'
+      #   uses: Docker-Collection/docker-aws-s3-action@main
+      #   with:
+      #     aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
+      #     aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #     aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
+      #     dest_dir: "cache/"
+      #     sync_reverse: true
+      #     aws_command: "sync"
 
-      - name: Extract caches
-        if: github.event_name != 'pull_request'
-        run: |
-          sha256sum -c checksum.txt
-          unzip Override-Cache.zip
-          rm Override-Cache.zip
+      # - name: Extract caches
+      #   if: github.event_name != 'pull_request'
+      #   run: |
+      #     sha256sum -c checksum.txt
+      #     unzip Override-Cache.zip
+      #     rm Override-Cache.zip
 
-      - name: MultiVersions!
-        run: |
-          .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
+      # - name: MultiVersions!
+      #   run: |
+      #     .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
 
-      # Temporary fix, patched by AlexTMjugador
-      - name: Make ModsTranslationPack
-        run: |
-          packsquash <<'PACKSQUASH_OPTIONS'
-          pack_directory = 'pack'
-          never_store_squash_times = true
-          ['assets/immersiveengineering/manual/zh_tw/*.txt']
-          force_include = true
-          ['{LICENSE,LICENSE_*}']
-          force_include = true
-          ['**/*?.lang']
-          force_include = true
-          PACKSQUASH_OPTIONS
+      # # Temporary fix, patched by AlexTMjugador
+      # - name: Make ModsTranslationPack
+      #   run: |
+      #     packsquash <<'PACKSQUASH_OPTIONS'
+      #     pack_directory = 'pack'
+      #     never_store_squash_times = true
+      #     ['assets/immersiveengineering/manual/zh_tw/*.txt']
+      #     force_include = true
+      #     ['{LICENSE,LICENSE_*}']
+      #     force_include = true
+      #     ['**/*?.lang']
+      #     force_include = true
+      #     PACKSQUASH_OPTIONS
 
-      - name: Rename ModsTranslationPack
-        run: |
-          mv ./pack.zip ModsTranslationPack-${{ inputs.matrix_version }}.zip
+      # - name: Rename ModsTranslationPack
+      #   run: |
+      #     mv ./pack.zip ModsTranslationPack-${{ inputs.matrix_version }}.zip
 
-      - name: Upload ModsTranslationPack
-        uses: actions/upload-artifact@v3
-        with:
-          name: ModsTranslationPack-${{ inputs.matrix_version }}
-          path: "*.zip"
+      # - name: Upload ModsTranslationPack
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: ModsTranslationPack-${{ inputs.matrix_version }}
+      #     path: "*.zip"
