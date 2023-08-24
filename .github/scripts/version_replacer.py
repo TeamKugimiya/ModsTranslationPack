@@ -32,7 +32,7 @@ def get_git_sha():
 
 def format_version(is_release: bool, version: str):
     release_color = "§b"
-    beta_color = "§3"
+    beta_color = "§a"
     if is_release:
         return release_color + version
     else:
