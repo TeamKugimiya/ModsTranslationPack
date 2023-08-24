@@ -38,6 +38,12 @@ def format_version(is_release: bool, version: str):
     else:
         return beta_color + f"git {version}"
 
+def boolean_fixer(bool: str):
+    if bool == "true":
+        return True
+    elif bool == "false":
+        return False
+
 def replace_pack_format(mc_version: str, config_path: Path, data_dict: dict):
     selected_version = None
     for version_info in data_dict["versions"]:
@@ -75,6 +81,6 @@ def main(mc_version: str, is_release: bool, release_version: str):
 
 if __name__ == "__main__":
     mc_version = os.environ.get("matrix_version")
-    release = os.environ.get("release")
+    release = boolean_fixer(os.environ.get("release"))
     release_version = os.environ.get("release_version")
     main(mc_version, release, release_version)
