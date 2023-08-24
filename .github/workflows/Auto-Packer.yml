@@ -23,6 +23,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+### TODO ####
+# 以 versions.json 為基準 並減少大多數更新需要設定的東西
+# 將 Per Release 寫成可重複使用流程
+
 jobs:
   Packer:
     name: Packer ${{ matrix.version }}
@@ -32,7 +36,7 @@ jobs:
 
     strategy:
       matrix:
-        version: [ 1.18.x, 1.19.x ]
+        version: [ 1.18.x, 1.19.x, 1.20.x ]
 
     uses: ./.github/workflows/ResourcePacker.yml
     with:
@@ -59,8 +63,7 @@ jobs:
         uses: geekyeggo/delete-artifact@v2
         with:
           name: |
-            ModsTranslationPack-1.18.x
-            ModsTranslationPack-1.19.x
+            ModsTranslationPack-*
 
       - name: Move all zip to workdir
         run: |
@@ -69,8 +72,9 @@ jobs:
       - name: Make Checksum
         id: checksum
         run: |
-          echo "sum-01=$(sha256sum ModsTranslationPack-1.19.x.zip)" >> $GITHUB_OUTPUT
-          echo "sum-02=$(sha256sum ModsTranslationPack-1.18.x.zip)" >> $GITHUB_OUTPUT
+          echo "sum-01=$(sha256sum ModsTranslationPack-1.20.x.zip)" >> $GITHUB_OUTPUT
+          echo "sum-02=$(sha256sum ModsTranslationPack-1.19.x.zip)" >> $GITHUB_OUTPUT
+          echo "sum-03=$(sha256sum ModsTranslationPack-1.18.x.zip)" >> $GITHUB_OUTPUT   
 
       - name: Make Current Time
         id: current_time
@@ -106,4 +110,5 @@ jobs:
             ```
             ${{ steps.checksum.outputs.sum-01 }}
             ${{ steps.checksum.outputs.sum-02 }}
+            ${{ steps.checksum.outputs.sum-03 }}
             ```
