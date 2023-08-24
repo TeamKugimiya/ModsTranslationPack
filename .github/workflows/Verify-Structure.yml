@@ -31,9 +31,5 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Test
-        run: |
-          rm MultiVersions/Fabric/1.18/trashcans/lang/en_us.json
-
       - name: Verify Structure
         run: python3 .github/scripts/verify_structure.py
