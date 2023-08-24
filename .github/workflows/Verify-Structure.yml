@@ -21,29 +21,15 @@ permissions:
 
 jobs:
   VerifyStructure:
-    name: Verify Structure (${{ matrix.name }})
+    name: Verify Structure
     runs-on: ubuntu-latest
     if: github.repository == 'xMikux/ModsTranslationPack'
-
-    strategy:
-      matrix:
-        include:
-          - name: "Forge Main"
-            path: "MultiVersions/Forge/main"
-          - name: "Forge 1.18"
-            path: "MultiVersions/Forge/1.18"
-          - name: "Fabric Main"
-            path: "MultiVersions/Fabric/main"
-          - name: "Fabric 1.18"
-            path: "MultiVersions/Fabric/1.18"
-          - name: "Patcher"
-            path: "MultiVersions/Patcher"
 
     steps:
       - name: Checking Repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      
+
       - name: Verify Structure
-        run: .github/scripts/verify_structure.sh ${{ matrix.path }} "${{ matrix.name }}"
+        run: python3 .github/scripts/verify_structure.py
