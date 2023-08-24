@@ -1,6 +1,6 @@
 {
    "pack":{
-      "pack_format":12,
-      "description":"§f模組翻譯包 版本 §6GitVersion\n§3感謝所有參與專案的貢獻者！"
+      "pack_format": ${PACK_FORMAT_PLACEHOLDER},
+      "description": "§f模組翻譯包 版本 ${VERSION_PLACEHOLDER}\n§3感謝所有參與專案的貢獻者！"
    }
 }
