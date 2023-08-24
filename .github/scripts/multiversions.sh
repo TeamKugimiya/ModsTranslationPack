@@ -64,7 +64,11 @@ multiversion () {
     local version=$1
     local pack_path=$pack_path/assets
 
-  if [ "$version" = "1.19.x" ]; then
+  # TODO
+  # 暫時支援 1.20
+  if [ "$version" = "1.20.x" ]; then
+    mixer "Fabric" "main"
+  elif [ "$version" = "1.19.x" ]; then
     mixer "Fabric" "main"
   elif [ "$version" = "1.18.x" ]; then
     mixer "Fabric" "main"
