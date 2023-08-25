@@ -25,7 +25,6 @@ jobs:
         id: contributors
         with:
           filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
-          avatarSize: 100
 
       - name: Update Readme
         run: |
@@ -39,11 +38,13 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           title: "docs(Readme): 更新貢獻者清單"
           commit-message: "docs(Readme): 更新貢獻者清單"
+          add-paths: README.md
           body: |
             此為自動化工作流程所建立的！
-            - 貢獻者清單產生
+            - 由 [create-pull-request][1] 自動產生
             
-            * 由 [create-pull-request][1] 自動產生
             [1]: https://github.com/peter-evans/create-pull-request
