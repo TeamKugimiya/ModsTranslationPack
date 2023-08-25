@@ -25,12 +25,12 @@ jobs:
         id: contributors
         with:
           filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
-          openDelimiter: '<!-- CONTRIBUTORS_CI_START -->'
-          closeDelimiter: '<!-- CONTRIBUTORS_CI_END -->'
           avatarSize: 100
 
       - name: Modify htmlTable README.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
           path: README.md
+          openDelimiter: '<!-- CONTRIBUTORS_CI_START -->'
+          closeDelimiter: '<!-- CONTRIBUTORS_CI_END -->'
           body: '${{steps.contributors.outputs.htmlTable}}'
