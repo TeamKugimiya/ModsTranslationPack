@@ -29,9 +29,10 @@ jobs:
 
       - name: Update Readme
         run: |
-          python .github/scripts/readme_replacer.py
+          python .github/scripts/content_replacer.py
         env:
           FILE_PATH: "README.md"
+          MULTILINE_MODE: True
           START_TAG: "<!-- CONTRIBUTORS_CI_START -->"
           END_TAG: "<!-- CONTRIBUTORS_CI_END -->"
           CONTENT: "${{steps.contributors.outputs.htmlTable}}"
@@ -48,7 +49,10 @@ jobs:
             📃 文件
           add-paths: README.md
           body: |
-            此為自動化工作流程所建立的！
-            - 由 [create-pull-request][1] 自動產生
-            
-            [1]: https://github.com/peter-evans/create-pull-request
+            自動化 [GitHub Action][github-action] 工作流程！
+
+            ------
+            由 [create-pull-request][cpr] 自動產生
+
+            [cpr]: https://github.com/peter-evans/create-pull-request
+            [github-action]: https://github.com/features/actions
