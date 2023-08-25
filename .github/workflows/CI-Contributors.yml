@@ -25,6 +25,7 @@ jobs:
         id: contributors
         with:
           filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
+          avatarSize: 100
 
       - name: Update Readme
         run: |
@@ -42,6 +43,7 @@ jobs:
           author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           title: "docs(Readme): 更新貢獻者清單"
           commit-message: "docs(Readme): 更新貢獻者清單"
+          branch: docs/contributor-readme
           add-paths: README.md
           body: |
             此為自動化工作流程所建立的！
