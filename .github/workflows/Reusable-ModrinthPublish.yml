@@ -1,0 +1,68 @@
+name: Reusable | Modrinth Publish
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        required: true
+        type: string
+      matrix_version:
+        required: true
+        type: string
+      mc_version:
+        required: true
+        type: string
+      codename:
+        required: false
+        type: string
+      changelog:
+        required: true
+        type: string
+      release:
+        required: true
+        type: boolean
+
+jobs:
+  modrinth-publish:
+    name: Modrinth Publish ${{ inputs.version }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: ModsTranslationPack-${{ inputs.matrix_version }}
+
+      - name: Release publish | ${{ inputs.matrix_version }}
+        uses: Kir-Antipov/mc-publish@v3.3
+        if: ${{ inputs.release }}
+        with:
+          modrinth-id: cF5VXmkW
+          modrinth-unfeature-mode: subset
+          name: ${{ inputs.version }} ${{ inputs.matrix_version }} ${{ inputs.codename }}
+          version: ${{ inputs.version }}
+          version-type: release
+          changelog: |
+            ${{ inputs.changelog }}
+          loaders: minecraft
+          game-versions: ${{ inputs.mc_version }}
+          files: |
+            ModsTranslationPack-${{ inputs.matrix_version }}.zip
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+      - name: Beta publish | ${{ inputs.matrix_version }}
+        uses: Kir-Antipov/mc-publish@v3.3
+        if: ${{ ! inputs.release }}
+        with:
+          modrinth-id: cF5VXmkW
+          modrinth-featured: false
+          name: 測試版 ${{ inputs.matrix_version }} ${{ inputs.version }}
+          version: ${{ inputs.version }}
+          version-type: beta
+          changelog: |
+            ${{ inputs.changelog }}
+          loaders: minecraft
+          game-versions: ${{ inputs.mc_version }}
+          files: |
+            ModsTranslationPack-${{ inputs.matrix_version }}.zip
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
