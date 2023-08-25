@@ -44,6 +44,8 @@ jobs:
           title: "docs(Readme): 更新貢獻者清單"
           commit-message: "docs(Readme): 更新貢獻者清單"
           branch: docs/contributor-readme
+          labels: |
+            📃 文件
           add-paths: README.md
           body: |
             此為自動化工作流程所建立的！
