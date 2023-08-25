@@ -1,4 +1,4 @@
-name: Comment PR
+name: CI | Comment PR
 
 on:
   # Only run when the other workflow is completed since

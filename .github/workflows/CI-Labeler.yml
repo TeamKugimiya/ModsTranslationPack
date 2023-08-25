@@ -1,4 +1,4 @@
-name: Labeler
+name: CI | Labeler
 
 on: 
   # issues:
