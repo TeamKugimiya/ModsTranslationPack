@@ -1,0 +1,36 @@
+name: CI | Contributors Update
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+    - "main"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  contributor-update:
+    name: Contributors Update
+    runs-on: ubuntu-latest
+    if: github.repository == 'xMikux/ModsTranslationPack'
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Contributors Images
+        uses: jaywcjlove/github-action-contributors@main
+        id: contributors
+        with:
+          filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
+          openDelimiter: '<!-- CONTRIBUTORS_CI_START -->'
+          closeDelimiter: '<!-- CONTRIBUTORS_CI_END -->'
+          avatarSize: 100
+
+      - name: Modify htmlTable README.md
+        uses: jaywcjlove/github-action-modify-file-content@main
+        with:
+          path: README.md
+          body: '${{steps.contributors.outputs.htmlTable}}'
