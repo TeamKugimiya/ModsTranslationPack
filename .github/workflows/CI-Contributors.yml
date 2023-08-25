@@ -27,20 +27,20 @@ jobs:
           filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
           avatarSize: 100
 
-      - name: Modify htmlTable README.md
-        uses: jaywcjlove/github-action-modify-file-content@main
-        with:
-          path: README.md
-          message: "docs(Readme): 更新貢獻者清單"
-          openDelimiter: '<!-- CONTRIBUTORS_CI_START -->'
-          closeDelimiter: '<!-- CONTRIBUTORS_CI_END -->'
-          body: '${{steps.contributors.outputs.htmlTable}}'
+      - name: Update Readme
+        run: |
+          python .github/scripts/readme_replacer.py
+        env:
+          FILE_PATH: "README.md"
+          START_TAG: "<!-- CONTRIBUTORS_CI_START -->"
+          END_TAG: "<!-- CONTRIBUTORS_CI_END -->"
+          CONTENT: "${{steps.contributors.outputs.htmlTable}}"
 
       - name: Create Pull Request
-        id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
-          title: 'docs(Readme): 更新貢獻者清單'
+          title: "docs(Readme): 更新貢獻者清單"
+          commit-message: "docs(Readme): 更新貢獻者清單"
           body: |
             此為自動化工作流程所建立的！
             - 貢獻者清單產生
