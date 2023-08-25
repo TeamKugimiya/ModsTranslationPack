@@ -31,6 +31,7 @@ jobs:
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
           path: README.md
+          ref: main
           branch: docs/update-contributors
           message: "docs(Readme): 更新貢獻者清單"
           openDelimiter: '<!-- CONTRIBUTORS_CI_START -->'
