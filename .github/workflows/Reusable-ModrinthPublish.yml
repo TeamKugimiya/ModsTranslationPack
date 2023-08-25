@@ -9,7 +9,7 @@ on:
       matrix_version:
         required: true
         type: string
-      mc_version:
+      game_version:
         required: true
         type: string
       codename:
@@ -39,13 +39,13 @@ jobs:
         with:
           modrinth-id: cF5VXmkW
           modrinth-unfeature-mode: subset
-          name: ${{ inputs.version }} ${{ inputs.matrix_version }} ${{ inputs.codename }}
+          name: 模組翻譯包 ${{ inputs.matrix_version }}｜${{ inputs.version }}
           version: ${{ inputs.version }}
           version-type: release
           changelog: |
             ${{ inputs.changelog }}
           loaders: minecraft
-          game-versions: ${{ inputs.mc_version }}
+          game-versions: ${{ inputs.game_version }}
           files: |
             ModsTranslationPack-${{ inputs.matrix_version }}.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
@@ -56,13 +56,13 @@ jobs:
         with:
           modrinth-id: cF5VXmkW
           modrinth-featured: false
-          name: 測試版 ${{ inputs.matrix_version }} ${{ inputs.version }}
+          name: 模組測試包 ${{ inputs.matrix_version }}｜${{ inputs.version }}
           version: ${{ inputs.version }}
           version-type: beta
           changelog: |
             ${{ inputs.changelog }}
           loaders: minecraft
-          game-versions: ${{ inputs.mc_version }}
+          game-versions: ${{ inputs.game_version }}
           files: |
             ModsTranslationPack-${{ inputs.matrix_version }}.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
