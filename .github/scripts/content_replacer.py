@@ -1,6 +1,12 @@
 import os
 import sys
 
+def boolean_fixer(bool: str):
+    if bool == "true":
+        return True
+    elif bool == "false":
+        return False
+
 def insert_content(file_path: str, multiline_mode: bool, start_tag: str, end_tag: str, content_insert: str):  # noqa: E501
     with open(file_path, "r") as file:
         file_contents = file.read()
@@ -32,7 +38,7 @@ def insert_content(file_path: str, multiline_mode: bool, start_tag: str, end_tag
 
 def main():
     file_path = os.environ.get("FILE_PATH")
-    multiline_mode = os.environ.get("MULTILINE_MODE", False)
+    multiline_mode = boolean_fixer(os.environ.get("MULTILINE_MODE", "false"))
     start_tag = os.environ.get("START_TAG")
     end_tag = os.environ.get("END_TAG")
     content = os.environ.get("CONTENT")

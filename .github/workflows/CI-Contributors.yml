@@ -32,7 +32,7 @@ jobs:
           python .github/scripts/content_replacer.py
         env:
           FILE_PATH: "README.md"
-          MULTILINE_MODE: True
+          MULTILINE_MODE: true
           START_TAG: "<!-- CONTRIBUTORS_CI_START -->"
           END_TAG: "<!-- CONTRIBUTORS_CI_END -->"
           CONTENT: "${{steps.contributors.outputs.htmlTable}}"
