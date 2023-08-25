@@ -1,4 +1,4 @@
-name: Verify Commit
+name: CI | Verify Commit
 
 on:
   workflow_dispatch: {}

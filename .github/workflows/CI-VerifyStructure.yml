@@ -1,4 +1,4 @@
-name: Verify Structure
+name: CI | Verify Structure
 
 on:
   workflow_dispatch: {}
