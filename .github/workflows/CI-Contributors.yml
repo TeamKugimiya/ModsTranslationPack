@@ -1,0 +1,58 @@
+name: CI | Contributors Update
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+    - "main"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  contributor-update:
+    name: Contributors Update
+    runs-on: ubuntu-latest
+    if: github.repository == 'xMikux/ModsTranslationPack'
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Contributors Images
+        uses: jaywcjlove/github-action-contributors@main
+        id: contributors
+        with:
+          filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
+          avatarSize: 100
+
+      - name: Update Readme
+        run: |
+          python .github/scripts/content_replacer.py
+        env:
+          FILE_PATH: "README.md"
+          MULTILINE_MODE: true
+          START_TAG: "<!-- CONTRIBUTORS_CI_START -->"
+          END_TAG: "<!-- CONTRIBUTORS_CI_END -->"
+          CONTENT: "${{steps.contributors.outputs.htmlTable}}"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          title: "docs(Readme): 更新貢獻者清單"
+          commit-message: "docs(Readme): 更新貢獻者清單"
+          branch: docs/contributor-readme
+          labels: |
+            📃 文件
+          add-paths: README.md
+          body: |
+            自動化 [GitHub Action][github-action] 工作流程！
+
+            ------
+            由 [create-pull-request][cpr] 自動產生
+
+            [cpr]: https://github.com/peter-evans/create-pull-request
+            [github-action]: https://github.com/features/actions

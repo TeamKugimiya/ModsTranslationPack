@@ -14,6 +14,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+### TODO ####
+# 以 versions.json 為基準 並減少大多數更新需要設定的東西
+# 將 Per Release 寫成可重複使用流程
+
 jobs:
   Release-Please:
     name: Release Please
@@ -41,7 +45,7 @@ jobs:
 
     strategy:
       matrix:
-        version: [ 1.18.x, 1.19.x ]
+        version: [ 1.18.x, 1.19.x, 1.20.x ]
 
     uses: ./.github/workflows/ResourcePacker.yml
     with:
@@ -68,8 +72,7 @@ jobs:
         uses: geekyeggo/delete-artifact@v2
         with:
           name: |
-            ModsTranslationPack-1.18.x
-            ModsTranslationPack-1.19.x
+            ModsTranslationPack-*
 
       - name: Move all zip to workdir
         run: |
@@ -77,9 +80,10 @@ jobs:
 
       - name: Make Checksum
         run: |
-          SUM0=$(sha256sum ModsTranslationPack-1.19.x.zip)
-          SUM1=$(sha256sum ModsTranslationPack-1.18.x.zip)
-          echo -e "$SUM0\n$SUM1" > checksums.txt
+          SUM0=$(sha256sum ModsTranslationPack-1.20.x.zip)
+          SUM1=$(sha256sum ModsTranslationPack-1.19.x.zip)
+          SUM2=$(sha256sum ModsTranslationPack-1.18.x.zip)
+          echo -e "$SUM0\n$SUM1\n$SUM2" > checksums.txt
 
       - name: Make Changelog
         id: changelog
@@ -103,7 +107,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to Modrinth (1.18.x)
-        uses: Kir-Antipov/mc-publish@v3.2
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: cF5VXmkW
           modrinth-unfeature-mode: subset
@@ -113,14 +117,12 @@ jobs:
             ${{ env.CHANGELOG }}
           loaders: minecraft
           game-versions: |
-            1.18
-            1.18.1
-            1.18.2
-          files-primary: ModsTranslationPack-1.18.x.zip
+            >=1.18
+          files: ModsTranslationPack-1.18.x.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
       - name: Publish to Modrinth (1.19.x)
-        uses: Kir-Antipov/mc-publish@v3.2
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: cF5VXmkW
           modrinth-unfeature-mode: subset
@@ -130,10 +132,21 @@ jobs:
             ${{ env.CHANGELOG }}
           loaders: minecraft
           game-versions: |
-            1.19
-            1.19.1
-            1.19.2
-            1.19.3
-            1.19.4
-          files-primary: ModsTranslationPack-1.19.x.zip
+            >=1.19
+          files: ModsTranslationPack-1.19.x.zip
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+      - name: Publish to Modrinth (1.20.x)
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: cF5VXmkW
+          modrinth-unfeature-mode: subset
+          name: 模組翻譯包 1.20.x ${{ needs.release-please.outputs.tag_name }}
+          version: ${{ needs.release-please.outputs.tag_name }}
+          changelog: |
+            ${{ env.CHANGELOG }}
+          loaders: minecraft
+          game-versions: |
+            >=1.20
+          files: ModsTranslationPack-1.20.x.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}

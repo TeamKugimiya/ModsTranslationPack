@@ -1,4 +1,4 @@
-name: Override Cache
+name: CI | Override Cache
 
 on:
   push:

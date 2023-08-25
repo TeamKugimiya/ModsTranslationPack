@@ -49,17 +49,11 @@ jobs:
 
       - name: Version Changer
         run: |
-          if [ ${{ inputs.release }} = false ]; then
-            echo "Beta Version..."
-            .github/scripts/version_change.sh 1
-            .github/scripts/version_change.sh 3 ${{ inputs.matrix_version }}
-          elif [ ${{ inputs.release }} = true ]; then
-            echo "Release Version..."
-            .github/scripts/version_change.sh 2 ${{ inputs.release_version }}
-            .github/scripts/version_change.sh 3 ${{ inputs.matrix_version }}
-          else
-            echo "Error! No value or parameter wrong."
-          fi
+          python3 .github/scripts/version_replacer.py
+        env:
+          release: ${{ inputs.release }}
+          release_version: ${{ inputs.release_version }}
+          matrix_version: ${{ inputs.matrix_version }}
 
       - name: Download override cache from s3
         if: github.event_name != 'pull_request'
