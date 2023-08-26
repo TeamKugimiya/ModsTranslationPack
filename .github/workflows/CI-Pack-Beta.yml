@@ -70,6 +70,7 @@ jobs:
     
     uses: ./.github/workflows/Reusable-ModrinthPublish.yml
     with:
+      matrix_version: ${{ matrix.version }}
       changelog: ${{ needs.changelog-generate.outputs.changelog }}
       release: false
     secrets:
