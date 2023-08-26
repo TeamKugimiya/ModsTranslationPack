@@ -40,7 +40,7 @@ jobs:
         run: |
           GAME_VERSION=$(python .github/scripts/version_extractor.py game_version)
           echo "game_version=$GAME_VERSION" >> "$GITHUB_OUTPUT"
-          GIT_VERSION=$(git rev-parse --short HEAD)
+          GIT_VERSION=git-$(git rev-parse --short HEAD)
           echo "git_version=$GIT_VERSION" >> "$GITHUB_OUTPUT"
         env:
           matrix_version: ${{ inputs.matrix_version }}
