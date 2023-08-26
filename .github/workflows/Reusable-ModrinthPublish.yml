@@ -21,6 +21,9 @@ on:
       release:
         required: true
         type: boolean
+    secrets:
+      MODRINTH_TOKEN:
+        required: true
 
 jobs:
   modrinth-publish:

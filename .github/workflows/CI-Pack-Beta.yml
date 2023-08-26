@@ -1,0 +1,78 @@
+name: CI | Pack - Beta
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "MultiVersions/**"
+      - "!MultiVersions/README.md"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  matrix-setup:
+    name: Setup Matrix
+    if: github.repository == 'xMikux/ModsTranslationPack'
+    uses: ./.github/workflows/Reusable-MatrixSetup.yml
+
+  value-setup:
+    name: Setup Values
+    needs: [ matrix-setup ]
+
+    strategy:
+      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+
+    uses: ./.github/workflows/Reusable-ValueExtractor.yml
+    with:
+      matrix_version: ${{ matrix.version }}
+
+  pack-beta:
+    name: Pack ${{ matrix.version }}
+    needs: [ matrix-setup ]
+
+    strategy:
+      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+
+    uses: ./.github/workflows/Reusable-ResourcePacker.yml
+    with:
+      matrix_version: ${{ matrix.version }}
+      release: false
+    secrets:
+      AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
+
+  modrinth-test:
+    name: Modrinth Test ${{ matrix.version }}
+    runs-on: ubuntu-latest
+    needs: [ matrix-setup, value-setup ]
+
+    strategy:
+      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+
+    steps:
+      - name: Test ${{ matrix.version }}
+        run: |
+          echo ${{ needs.value-setup.outputs.game_version }}
+          echo ${{ needs.value-setup.outputs.git_version }}
+
+  # modrinth-publish:
+  #   name: Modrinth Beta ${{ matrix.version }}
+  #   needs: [ pack-beta, matrix-setup ]
+
+  #   strategy:
+  #     matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+    
+  #   uses: ./.github/workflows/Reusable-ModrinthPublish.yml
+  #   with:
+  #     version: ${{ needs.}}
+  #   secrets:
+  #     MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}

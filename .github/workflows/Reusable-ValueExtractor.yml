@@ -1,0 +1,38 @@
+name: Reusable | Matrix Setup
+
+on:
+  workflow_call:
+    inputs:
+      matrix_version:
+        required: true
+        type: string
+    outputs:
+      game_version:
+        description: "Game Version Value"
+        value: ${{ jobs.value-extractor.outputs.game_version }}
+      git_version:
+        description: "Git Version Value"
+        value: ${{ jobs.value-extractor.outputs.git_version }}
+
+jobs:
+  value-extractor:
+    name: Value Extractor
+    runs-on: ubuntu-latest
+
+    outputs:
+      game_version: ${{ steps.value.outputs.game_version }}
+      git_version: ${{ steps.value.outputs.git_version }}
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v3
+
+      - name: Extract Values
+        id: value
+        run: |
+          GAME_VERSION=$(python .github/scripts/version_extractor.py game_version)
+          echo "game_version=$GAME_VERSION" >> "$GITHUB_OUTPUT"
+          GIT_VERSION=$(git rev-parse --short HEAD)
+          echo "git_version=$GIT_VERSION" >> "$GITHUB_OUTPUT"
+        env:
+          matrix_version: ${{ inputs.matrix_version }}
