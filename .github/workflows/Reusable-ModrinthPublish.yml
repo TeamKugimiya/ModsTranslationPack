@@ -4,12 +4,9 @@ on:
   workflow_call:
     inputs:
       version:
-        required: true
+        required: false
         type: string
       matrix_version:
-        required: true
-        type: string
-      game_version:
         required: true
         type: string
       codename:
@@ -26,9 +23,32 @@ on:
         required: true
 
 jobs:
+  value-extract:
+    name: Value Extract
+    runs-on: ubuntu-latest
+
+    outputs:
+      game_version: ${{ steps.value.outputs.game_version }}
+      git_version: ${{ steps.value.outputs.git_version }}
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v3
+
+      - name: Extract Values
+        id: value
+        run: |
+          GAME_VERSION=$(python .github/scripts/version_extractor.py game_version)
+          echo "game_version=$GAME_VERSION" >> "$GITHUB_OUTPUT"
+          GIT_VERSION=$(git rev-parse --short HEAD)
+          echo "git_version=$GIT_VERSION" >> "$GITHUB_OUTPUT"
+        env:
+          matrix_version: ${{ inputs.matrix_version }}
+
   modrinth-publish:
     name: Modrinth Publish ${{ inputs.version }}
     runs-on: ubuntu-latest
+    needs: [ value-extract ]
 
     steps:
       - name: Download Artifact
@@ -48,7 +68,7 @@ jobs:
           changelog: |
             ${{ inputs.changelog }}
           loaders: minecraft
-          game-versions: ${{ inputs.game_version }}
+          game-versions: ${{ needs.value-extract.outputs.game_version }}
           files: |
             ModsTranslationPack-${{ inputs.matrix_version }}.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
@@ -59,13 +79,13 @@ jobs:
         with:
           modrinth-id: cF5VXmkW
           modrinth-featured: false
-          name: 模組測試包 ${{ inputs.matrix_version }}｜${{ inputs.version }}
-          version: ${{ inputs.version }}
+          name: 模組測試包 ${{ inputs.matrix_version }}｜${{ needs.value-extract.outputs.git_version }}
+          version: ${{ needs.value-extract.outputs.git_version }}
           version-type: beta
           changelog: |
             ${{ inputs.changelog }}
           loaders: minecraft
-          game-versions: ${{ inputs.game_version }}
+          game-versions: ${{ needs.value-extract.outputs.game_version }}
           files: |
             ModsTranslationPack-${{ inputs.matrix_version }}.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
