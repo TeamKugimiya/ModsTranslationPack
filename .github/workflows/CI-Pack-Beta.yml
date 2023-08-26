@@ -50,25 +50,6 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
 
-  modrinth-test:
-    name: Modrinth Test ${{ matrix.version }}
-    runs-on: ubuntu-latest
-    needs: [ matrix-setup, value-setup ]
-
-    strategy:
-      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
-
-    steps:
-      - uses: cloudposse/github-action-matrix-outputs-read@main
-        id: read
-        with:
-          matrix-step-name: value-setup
-
-      - name: Test ${{ matrix.version }}
-        run: |
-          echo ${{ fromJson(steps.read.outputs.result).game_version }}
-          echo ${{ fromJson(steps.read.outputs.result).git_version }}
-
   # modrinth-publish:
   #   name: Modrinth Beta ${{ matrix.version }}
   #   needs: [ pack-beta, matrix-setup ]
