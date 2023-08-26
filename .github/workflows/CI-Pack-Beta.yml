@@ -92,3 +92,11 @@ jobs:
       release: false
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+
+  delete-artifact:
+    name: Delete Artifact
+    needs: [ modrinth-publish ]
+
+    uses: ./.github/workflows/Reusable-DeleteArtifact.yml
+    with:
+      artifact_name: ModsTranslationPack-*
