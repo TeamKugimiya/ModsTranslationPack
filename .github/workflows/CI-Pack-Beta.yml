@@ -83,6 +83,7 @@ jobs:
     needs: [ pack-beta, matrix-setup, changelog-commit ]
 
     strategy:
+      max-parallel: 1
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
     
     uses: ./.github/workflows/Reusable-ModrinthPublish.yml
