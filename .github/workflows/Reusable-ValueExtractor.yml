@@ -1,4 +1,4 @@
-name: Reusable | Matrix Setup
+name: Reusable | Value Extractor
 
 on:
   workflow_call:
