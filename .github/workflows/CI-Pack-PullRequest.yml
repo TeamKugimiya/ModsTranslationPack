@@ -1,0 +1,39 @@
+name: CI | Pack - Pull Request
+
+on:
+  pull_request:
+    branches:
+      - "main"
+    paths:
+      - "MultiVersions/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  matrix-setup:
+    name: Setup Matrix
+    if: github.repository == 'xMikux/ModsTranslationPack'
+    uses: ./.github/workflows/Reusable-MatrixSetup.yml
+
+  pack-pullrequest:
+    name: Pack ${{ matrix.version }}
+    needs: [ matrix-setup ]
+
+    strategy:
+      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+
+    uses: ./.github/workflows/Reusable-ResourcePacker.yml
+    with:
+      matrix_version: ${{ matrix.version }}
+      release: false
+    secrets:
+      AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}

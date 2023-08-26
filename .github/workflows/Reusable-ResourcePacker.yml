@@ -1,4 +1,4 @@
-name: ResourcePacker
+name: Reusable | ResourcePacker
 
 on:
   workflow_call:

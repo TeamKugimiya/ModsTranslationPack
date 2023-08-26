@@ -1,0 +1,26 @@
+name: Reusable | Matrix Setup
+
+on:
+  workflow_call:
+    outputs:
+      matrix:
+        description: "Matrix JSON"
+        value: ${{ jobs.matrix-setup.outputs.matrix }}
+
+jobs:
+  matrix-setup:
+    name: Matrix Setup
+    runs-on: ubuntu-latest
+
+    outputs:
+      matrix: ${{ steps.matrix.outputs.versions }}
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Matrix
+        id: matrix
+        run: |
+          VERSIONS=$(python .github/scripts/version_matrix.py | jq -c .)
+          echo "versions=$VERSIONS" >> "$GITHUB_OUTPUT"
