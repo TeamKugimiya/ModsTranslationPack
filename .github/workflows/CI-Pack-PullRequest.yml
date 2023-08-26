@@ -24,6 +24,7 @@ jobs:
   pack-pullrequest:
     name: Pack ${{ matrix.version }}
     runs-on: ubuntu-latest
+    needs: [ matrix-setup ]
 
     strategy:
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
