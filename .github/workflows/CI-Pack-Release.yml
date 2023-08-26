@@ -1,12 +1,9 @@
-name: CI | Pack - Beta
+name: CI | Pack - Release
+
+## TODO - Unfinished
+## Think a better way to do this.
 
 on:
-  push:
-    branches:
-      - "main"
-    paths:
-      - "MultiVersions/**"
-      - "!MultiVersions/README.md"
   workflow_dispatch: {}
 
 permissions:
@@ -22,25 +19,30 @@ jobs:
     if: github.repository == 'xMikux/ModsTranslationPack'
     uses: ./.github/workflows/Reusable-MatrixSetup.yml
 
-  changelog-commit:
-    name: Changelog Commit
+  changelog-generate:
+    name: Changelog Generate
     if: github.repository == 'xMikux/ModsTranslationPack'
     runs-on: ubuntu-latest
 
     outputs:
-      changelog-commit: ${{ steps.commit.outputs.msg }}
+      changelog: ${{ steps.changelog.outputs.changelog }}
 
     steps:
       - name: Checking Repository
         uses: actions/checkout@v3
 
-      - name: Get latest commit message
-        id: commit
-        run: |
-          MSG=$(git show -s --format=%s)
-          echo "msg=$MSG" >> "$GITHUB_OUTPUT"
+      - name: Get previous tag
+        run: echo "previous_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo '')" >> $GITHUB_ENV
 
-  pack-beta:
+      - name: Generate changelog
+        id: changelog
+        uses: jaywcjlove/changelog-generator@main
+        # if: env.previous_tag
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
+
+  pack-release:
     name: Pack ${{ matrix.version }}
     needs: [ matrix-setup ]
 
@@ -50,7 +52,7 @@ jobs:
     uses: ./.github/workflows/Reusable-ResourcePacker.yml
     with:
       matrix_version: ${{ matrix.version }}
-      release: false
+      release: true
     secrets:
       AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -58,8 +60,8 @@ jobs:
       AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
 
   modrinth-publish:
-    name: Modrinth Beta ${{ matrix.version }}
-    needs: [ pack-beta, matrix-setup, changelog-commit ]
+    name: Modrinth Release ${{ matrix.version }}
+    needs: [ pack-release, matrix-setup, changelog-generate ]
 
     strategy:
       max-parallel: 1
@@ -67,9 +69,10 @@ jobs:
     
     uses: ./.github/workflows/Reusable-ModrinthPublish.yml
     with:
+      version: $ input placeholder
       matrix_version: ${{ matrix.version }}
-      changelog: ${{ needs.changelog-commit.outputs.changelog-commit }}
-      release: false
+      changelog: ${{ needs.changelog-generate.outputs.changelog }}
+      release: true
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
 
