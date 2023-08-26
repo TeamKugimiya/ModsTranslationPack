@@ -59,10 +59,15 @@ jobs:
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
 
     steps:
+      - uses: cloudposse/github-action-matrix-outputs-read@main
+        id: read
+        with:
+          matrix-step-name: value-setup
+
       - name: Test ${{ matrix.version }}
         run: |
-          echo ${{ needs.value-setup.outputs.game_version }}
-          echo ${{ needs.value-setup.outputs.git_version }}
+          echo ${{ fromJson(steps.read.outputs.result).game_version }}
+          echo ${{ fromJson(steps.read.outputs.result).git_version }}
 
   # modrinth-publish:
   #   name: Modrinth Beta ${{ matrix.version }}

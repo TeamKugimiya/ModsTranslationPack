@@ -20,8 +20,8 @@ jobs:
     runs-on: ubuntu-latest
 
     outputs:
-      game_version: ${{ steps.value.outputs.game_version }}
-      git_version: ${{ steps.value.outputs.git_version }}
+      game_version: ${{ fromJson(steps.out.outputs.result).game_version }}
+      git_version: ${{ fromJson(steps.out.outputs.result).git_version }}
 
     steps:
       - name: Checking Repository
@@ -36,3 +36,13 @@ jobs:
           echo "git_version=$GIT_VERSION" >> "$GITHUB_OUTPUT"
         env:
           matrix_version: ${{ inputs.matrix_version }}
+
+      - name: Matrix Output
+        uses: cloudposse/github-action-matrix-outputs-write@0.3.1
+        id: out
+        with:
+          matrix-step-name: ${{ github.job }}
+          matrix-key: ${{ inputs.matrix_version }}
+          outputs: |-
+            game_version: ${{ steps.value.outputs.game_version }}
+            git_version: ${{ steps.value.outputs.git_version }}
