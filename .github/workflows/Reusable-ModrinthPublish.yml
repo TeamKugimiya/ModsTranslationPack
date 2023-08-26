@@ -89,3 +89,15 @@ jobs:
           files: |
             ModsTranslationPack-${{ inputs.matrix_version }}.zip
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+  delete-artifact:
+    name: Delete Artifacts
+    runs-on: ubuntu-latest
+    needs: [ modrinth-publish ]
+
+    steps:
+      - name: Delete All Artifact
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: |
+            ModsTranslationPack-*

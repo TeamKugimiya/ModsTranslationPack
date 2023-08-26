@@ -22,27 +22,44 @@ jobs:
     if: github.repository == 'xMikux/ModsTranslationPack'
     uses: ./.github/workflows/Reusable-MatrixSetup.yml
 
-  changelog-generate:
-    name: Changelog Generate
+  # changelog-generate:
+  #   name: Changelog Generate
+  #   runs-on: ubuntu-latest
+
+  #   outputs:
+  #     changelog: ${{ steps.changelog.outputs.changelog }}
+
+  #   steps:
+  #     - name: Checking Repository
+  #       uses: actions/checkout@v3
+
+  #     - name: Get previous tag
+  #       run: echo "previous_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo '')" >> $GITHUB_ENV
+
+  #     - name: Generate changelog
+  #       id: changelog
+  #       uses: jaywcjlove/changelog-generator@main
+  #       # if: env.previous_tag
+  #       with:
+  #         token: ${{ secrets.GITHUB_TOKEN }}
+  #         filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
+
+  changelog-commit:
+    name: Changelog Commit
     runs-on: ubuntu-latest
 
     outputs:
-      changelog: ${{ steps.changelog.outputs.changelog }}
+      changelog-commit: ${{ steps.commit.outputs.msg }}
 
     steps:
       - name: Checking Repository
         uses: actions/checkout@v3
 
-      - name: Get previous tag
-        run: echo "previous_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo '')" >> $GITHUB_ENV
-
-      - name: Generate changelog
-        id: changelog
-        uses: jaywcjlove/changelog-generator@main
-        # if: env.previous_tag
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
+      - name: Get latest commit message
+        id: commit
+        run: |
+          MSG=$(git show -s --format=%s)
+          echo "msg=$MSG" >> "$GITHUB_OUTPUT"
 
   pack-beta:
     name: Pack ${{ matrix.version }}
@@ -63,7 +80,7 @@ jobs:
 
   modrinth-publish:
     name: Modrinth Beta ${{ matrix.version }}
-    needs: [ pack-beta, matrix-setup, changelog-generate ]
+    needs: [ pack-beta, matrix-setup, changelog-commit ]
 
     strategy:
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
@@ -71,7 +88,7 @@ jobs:
     uses: ./.github/workflows/Reusable-ModrinthPublish.yml
     with:
       matrix_version: ${{ matrix.version }}
-      changelog: ${{ needs.changelog-generate.outputs.changelog }}
+      changelog: ${{ needs.changelog-commit.outputs.changelog-commit }}
       release: false
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
