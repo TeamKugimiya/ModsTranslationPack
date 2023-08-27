@@ -1,0 +1,155 @@
+# Headers
+itemGroup.botanicadds=Botanic Additions
+botania.category.botanicadds=Botanic Additions
+botanicadds.text.pools=~%s pools
+
+# Blocks
+block.botanicadds.mana_tesseract=Mana Tesseract
+block.botanicadds.terra_catalyst=Terra Catalyst
+block.botanicadds.dreamrock=Dreamrock
+block.botanicadds.mana_lapis_block=Mana Lapis Block
+block.botanicadds.elven_lapis_block=Elven Lapis Block
+block.botanicadds.elvenwood_log=Elvenwood Log
+block.botanicadds.elvenwood=Elvenwood
+block.botanicadds.elven_altar=Elven Altar
+block.botanicadds.elven_brewery=Elven Brewery
+block.botanicadds.dreaming_pool=Dreaming Mana Pool
+block.botanicadds.gaia_plate=Gaia Agglomeration Plate
+block.botanicadds.gaiasteel_block=Gaiasteel Block
+block.botanicadds.reduced_sculk_sensor=Reduced Sculk Sensor
+block.botanicadds.gaiasteel_pylon=Gaiasteel Pylon
+block.botanicadds.elven_fluxfield=Elven Mana Fluxfield
+
+# Flowers
+block.botanicadds.flowers.necroidus=Necroidus
+block.botanicadds.flowers.rainute=Rainute
+block.botanicadds.flowers.glaciflora=Glaciflora
+block.botanicadds.flowers.tempestea=Tempestea
+block.botanicadds.flowers.vibrantia=Vibrantia
+block.botanicadds.flowers.apicaria=Apicaria
+block.botanicadds.flowers.energizera=Energizera
+
+# Floating flowers
+block.botanicadds.flowers.floating.necroidus=Floating Necroidus
+block.botanicadds.flowers.floating.rainute=Floating Rainute
+block.botanicadds.flowers.floating.glaciflora=Floating Glaciflora
+block.botanicadds.flowers.floating.tempestea=Floating Tempestea
+block.botanicadds.flowers.floating.vibrantia=Floating Vibrantia
+block.botanicadds.flowers.floating.apicaria=Floating Apicaria
+block.botanicadds.flowers.floating.energizera=Floating Energizera
+
+# Flower References
+block.botanicadds.flowers.necroidus.reference=I feed on death.
+block.botanicadds.flowers.rainute.reference=It drinks the rain.
+block.botanicadds.flowers.glaciflora.reference=Thriving in the cold.
+block.botanicadds.flowers.tempestea.reference=Shockingly powerful!
+block.botanicadds.flowers.vibrantia.reference=Generates mana from the echoes of the past.
+block.botanicadds.flowers.apicaria.reference=Can soothe even the most ferocious of bees.
+block.botanicadds.flowers.energizera.reference=The silent energy harvester.
+
+# Items
+item.botanicadds.rune_tp=Rune of Teleportation
+item.botanicadds.rune_energy=Rune of Energy
+item.botanicadds.mana_lapis=Mana Lapis
+item.botanicadds.elven_lapis=Elven Lapis
+item.botanicadds.gaia_shard=Gaia Shard
+item.botanicadds.gaiasteel_ingot=Gaiasteel Ingot
+item.botanicadds.gaiasteel_nugget=Gaiasteel Nugget
+item.botanicadds.terra_protector=Terra Protector
+item.botanicadds.aura_ring_gaia=Gaia Band of Aura
+item.botanicadds.mana_ring_gaia=Gaia Band of Mana
+item.botanicadds.mana_stealer_sword=Mana Stealing Blade
+item.botanicadds.tesseract_attuner=Tesseract Attunement Tool
+item.botanicadds.sculk_petal=Sculk Petal
+
+# Tooltips
+info.botanicadds.dreaming_pool=2 Mana Pools in one block
+info.botanicadds.mana_tesseract.no_channel=Channel is not set.
+info.botanicadds.mana_tesseract.channel=Channel: %s.
+info.botanicadds.spark_attachable=Spark can be attached.
+info.botanicadds.tesseract_attuner1=Rename to create a channel.
+info.botanicadds.tesseract_attuner2=Sneak-click to toggle between public and private.
+info.botanicadds.tesseract_attuner3=Craft with a tesseract to set it's channel.
+info.botanicadds.tesseract_attuner.mode=Mode: %s.
+info.botanicadds.tesseract_attuner.mode.public=Public
+info.botanicadds.tesseract_attuner.mode.private=Private
+info.botanicadds.sculk_petal=Obtained by shearing %s with %s.
+
+# Lexicon
+botanicadds.category=Botanic Additions
+
+botanicadds.page.necroidus0=$(item)Necroidus$(0) is essentially a wither builder, but uses mana instead. You will need to drop soul sand and wither skulls nearby for the flower to build. Note: building will be anchored on the blocks above the flower, up to 4 blocks and the creation process doesn't use very much mana.
+botanicadds.page.necroidus1=Wither boi
+
+botanicadds.page.rainute0=$(item)Rainute$(0) produces $(item)Mana$(0) while it's raining. Note: This flower doesn't produce anything in snow environment.
+botanicadds.page.rainute1=Don't get it too wet!
+
+botanicadds.page.glaciflora0=$(item)Glaciflora$(0) is an alternative to $(item)Rainute$(0) but for snow biomes. You know why this is a thing....
+botanicadds.page.glaciflora1=Cold to the touch!
+
+botanicadds.page.tempestea0=$(item)Tempestea$(0) is another weather-dependent flower except this one isn't a passive one. $(item)Tempestea$(0) generates mana when a lightning occurs nearby. Afterwards, it redirects it on self and generates a lot of mana. This process heats the flower and it needs $(thing)roughly a minute$(0) to cool down.
+botanicadds.page.tempestea1=Essentially an energy converter!
+
+botanicadds.page.vibrantia0=$(item)Vibrantia$(0) comes from deep underground, where $(thing)Sculk$(0) lives. It harnesses power of $(thing)Sculk$(0) to generate mana when it senses vibrations nearby.$(br2)Making a flower from sculk, however, reduces it's feeling abilities, and thus it can no longer hear mana bursts and other projectiles at all.
+botanicadds.page.vibrantia1=I sense you...
+
+botanicadds.page.apicaria0=The $(item)Apicaria$(0) is a relaxing flower. Not you though, it takes care of keeping your bees calm.$(br2)It channels $(thing)Mana$(0) into angered bees (whom you shouldn't have touched in the first place) and saves the player from bee's anger.$(br)It also prevents bees from angering at player when one harvests the $(item)Beehive$(0)'s content.
+botanicadds.page.apicaria1=Bzzzzzz.
+
+botanicadds.page.energizera0=Through careful energy channeling, this flower creates $(thing)Mana$(0) from $(thing)Forge Energy$(0).$(br2)Any nearby blocks, containing $(thing)Forge Energy$(0) will feed the flower with energy.
+botanicadds.page.energizera1=Power is mana!
+
+botanicadds.page.mana_tesseract0=Transporting mana over insane distances, especially between dimensions was a dream, until now! $(item)Mana Tesseract$(0) is your new way of transporting mana! Of course it's far from perfect, but at least it can get you going. To change channels, you'll need to rename the $(item)Tesseract Attunement Tool$(0).
+botanicadds.page.mana_tesseract1=Space may be broken...
+botanicadds.page.mana_tesseract2=Crafting the $(item)Tesseract Attunement Tool$(0).
+
+botanicadds.page.elven_altar0=$(item)Elven Altar$(0) is suitable for faster crafting. By improving it with $(l:alfhomancy/elf_resources)$(item)Dragonstone$(0)$(/l) and $(l:botanicadds/dreamrock)$(item)Dreamrock$(0)$(/l) you can get an altar that is capable of accepting $(item)Mana$(0) from $(item)Sparks$(0). Since they transfer mana much faster, this seems to be an important device to upgrade!
+botanicadds.page.elven_altar1=Crafting the $(item)Elven Altar$(0).
+
+botanicadds.entry.elf_resources_extra=Extra Alfheim Resources
+botanicadds.page.elf_resources_extra0=$(thing)Botanic Additions$(0) expands on Alfheim resource stack, giving you more resources, which are required by this mod.
+botanicadds.page.elf_resources_extra1=Trading for $(item)Elven Lapis$(0)
+botanicadds.page.elf_resources_extra2=Trading for $(item)Dreamrock$(0)
+botanicadds.page.elf_resources_extra3=Trading for $(item)Elvenwood$(0)
+
+botanicadds.entry.basic_resources_extra=Extra Resources
+botanicadds.page.basic_resources_extra0=$(thing)Botanic Additions$(0) expands material set, adding a few runes and other miscellaneous things.
+botanicadds.page.basic_resources_extra1=Infusing $(item)Mana Lapis$(0)
+botanicadds.page.basic_resources_extra2=The $(item)Rune of Teleportation$(0)
+botanicadds.page.basic_resources_extra3=The $(item)Rune of Energy$(0)
+botanicadds.page.basic_resources_extra4=Making $(item)Elvenwood$(0)
+
+botanicadds.page.gaia_plate0=After getting your palms on elven resources, why not to upgrade your $(item)Terrestrial Agglomeration Plate$(0)? It has been pretty good at doing what it should. But perhaps it's time to upgrade? $(item)Gaia Agglomeration Plate$(0) is way more efficient in creating $(item)Terrasteel$(0) AND it can create more than just that!
+botanicadds.page.gaia_plate1=Crafting the $(item)Gaia Agglomeration Plate$(0).
+botanicadds.page.gaia_plate3=G.A. Plate
+botanicadds.page.gaia_plate4=Creating $(item)Terrasteel$(0)
+botanicadds.page.gaia_plate5=Creating $(item)Gaiasteel$(0)
+
+botanicadds.page.terra_catalyst0=$(item)Terra Catalyst$(0) is used as another type of catalyst. It may also be used as a splitter for some resources such as $(item)Gaia Spirit$(0).
+botanicadds.page.terra_catalyst1=Crafting the $(item)Terra Catalyst$(0).
+botanicadds.page.terra_catalyst2=Conjuring some $(item)Gaia Shards$(0).
+
+botanicadds.page.dreaming_pool0=$(item)Dreaming Mana Pool$(0) is another pool of mana, made from $(item)Dreamrock$(0). This pool is twice larger than a normal pool. Enjoy!
+botanicadds.page.dreaming_pool1=Getting ridiculous...
+
+botanicadds.page.mana_stealer_sword0=$(item)Mana Stealing Blade$(0) is an improvement to $(item)Terra Blade$(0). This time though, it deals more damage AND it's capable of drawing mana from your enemy players!
+botanicadds.page.mana_stealer_sword1=Crafting the $(item)Mana Stealing Blade$(0).
+
+botanicadds.page.elven_brewery0=$(item)Elven Brewery$(0) is an improved version of $(item)Botanical Brewery$(0). Combining it with $(l:alfhomancy/elf_resources)$(item)Dragonstone$(0)$(/l) and $(l:botanicadds/basics/elf_resources_extra)$(item)Dreamrock$(0)$(/l) allows attaching $(item)Sparks$(0) to it, making the crafting process way faster.
+botanicadds.page.elven_brewery1=Making $(item)Elven Brewery$(0)
+
+botanicadds.page.aura_ring_gaia0=The $(item)Gaia Band of Aura$(0) is an upgrade to $(l:baubles/aura_ring)$(item)Greater Band of Aura$(0)$(/l) with a piece of $(item)Gaiasteel$(0). This band creates mana twice as fast, as a $(item)Greater Band of Aura$(0)!
+botanicadds.page.aura_ring_gaia1=Crafting the $(item)Gaia Band of Aura$(0).
+
+botanicadds.page.mana_ring_gaia0=The $(item)Gaia Band of Mana$(0) is an upgrade to $(l:baubles/mana_ring)$(item)Greater Band of Mana$(0)$(/l) with a piece of $(item)Gaiasteel$(0). This band stores about four times as much mana, as a $(item)Greater Band of Mana$(0)!
+botanicadds.page.mana_ring_gaia1=Crafting the $(item)Gaia Band of Mana$(0).
+
+botanicadds.page.gaiasteel_pylon0=The $(item)Gaiasteel Pylon$(0) is a better version of $(l:alfhomancy/intro)$(item)Natura Pylon$(0)$(/l).$(br2)By applying some $(l:botanicadds/misc/gaia_plate)$(item)Gaiasteel$(0)$(/l) to $(l:alfhomancy/intro)$(item)Natura Pylon$(0)$(/l), it can be upgraded, thus reducing any mana cost for operating $(l:alfhomancy/intro)$(item)The Portal to Alfheim$(0)$(/l) by around four times.
+botanicadds.page.gaiasteel_pylon1=Crafting $(item)Gaiasteel Pylon$(0)
+
+botanicadds.page.elven_fluxfield0=Improving on $(l:mana/rf_generator)$(item)Mana Fluxfield$(0)$(/l) with elven resources allows one to attach spark to the Fluxfield, while also improving it's overall capacity.
+botanicadds.page.elven_fluxfield1=Twisting the fabric of magic mod reality.
+
+botania.entry.ba_terra_protector=Terra Protector
+botania.page.ba_terra_protector1=$(item)Terra Protector$(0) is aimed at providing complete protection to any damage at cost of mana. It's not made from rubber though, thus it can overheat and stop working. Don't use it too much, if you don't want to die. A good way to demonstrate what will happen is hugging a cacti.
+botania.page.ba_terra_protector2=Crafting the $(item)Terra Protector$(0).
