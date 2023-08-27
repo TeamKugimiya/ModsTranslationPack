@@ -1,0 +1,82 @@
+name: CI | Pack - Beta
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "MultiVersions/**"
+      - "!MultiVersions/README.md"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  matrix-setup:
+    name: Setup Matrix
+    if: github.repository == 'xMikux/ModsTranslationPack'
+    uses: ./.github/workflows/Reusable-MatrixSetup.yml
+
+  changelog-commit:
+    name: Changelog Commit
+    if: github.repository == 'xMikux/ModsTranslationPack'
+    runs-on: ubuntu-latest
+
+    outputs:
+      changelog-commit: ${{ steps.commit.outputs.msg }}
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v3
+
+      - name: Get latest commit message
+        id: commit
+        run: |
+          MSG=$(git show -s --format=%s)
+          echo "msg=$MSG" >> "$GITHUB_OUTPUT"
+
+  pack-beta:
+    name: Pack ${{ matrix.version }}
+    needs: [ matrix-setup ]
+
+    strategy:
+      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+
+    uses: ./.github/workflows/Reusable-ResourcePacker.yml
+    with:
+      matrix_version: ${{ matrix.version }}
+      release: false
+    secrets:
+      AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
+
+  modrinth-publish:
+    name: Modrinth Beta ${{ matrix.version }}
+    needs: [ pack-beta, matrix-setup, changelog-commit ]
+
+    strategy:
+      max-parallel: 1
+      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+    
+    uses: ./.github/workflows/Reusable-ModrinthPublish.yml
+    with:
+      matrix_version: ${{ matrix.version }}
+      changelog: ${{ needs.changelog-commit.outputs.changelog-commit }}
+      release: false
+    secrets:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+
+  delete-artifact:
+    name: Delete Artifact
+    needs: [ modrinth-publish ]
+
+    uses: ./.github/workflows/Reusable-DeleteArtifact.yml
+    with:
+      artifact_name: ModsTranslationPack-*

@@ -96,8 +96,14 @@ jobs:
         run: |
           mv ./pack.zip ModsTranslationPack-${{ inputs.matrix_version }}.zip
 
+      - name: Make Checksum
+        run: |
+          sha256sum ModsTranslationPack-${{ inputs.matrix_version }}.zip > checksum.txt
+
       - name: Upload ModsTranslationPack
         uses: actions/upload-artifact@v3
         with:
           name: ModsTranslationPack-${{ inputs.matrix_version }}
-          path: "*.zip"
+          path: |
+            *.zip
+            checksum.txt
