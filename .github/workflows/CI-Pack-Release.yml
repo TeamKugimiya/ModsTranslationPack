@@ -75,8 +75,17 @@ jobs:
 
       - name: 測試產出
         run: |
-          echo ${{ steps.changelog.outputs.changelog }} > Test.md
+          cat <<CHANGELOG > Test.md
+          ${{ steps.changelog.outputs.changelog }}
+          CHANGELOG
           cat Test.md
+
+      - name: Upload
+        uses: actions/upload-artifact@v3
+        with:
+          name: Test
+          path: |
+            Test.md
 
   # pack-release:
   #   name: Pack ${{ matrix.version }}
