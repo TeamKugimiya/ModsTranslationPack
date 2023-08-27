@@ -9,5 +9,5 @@
   "soundCategory.extrasounds$typing": "文字輸入",
   "soundCategory.extrasounds$item_drop": "物品掉落",
 
-  "tooltip.soundCategory.extrasounds_action": "這聲音在物品互動、方塊互動和實體事件時套用。"
+  "tooltip.soundCategory.extrasounds_action": "這聲音會在與物品、方塊互動，以及觸發實體事件時套用。"
 }
