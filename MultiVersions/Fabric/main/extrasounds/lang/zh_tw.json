@@ -6,7 +6,7 @@
   "soundCategory.extrasounds$chat_mention": "聊天室提及",
   "soundCategory.extrasounds$effects": "效果／藥水",
   "soundCategory.extrasounds$hotbar": "快捷欄",
-  "soundCategory.extrasounds$typing": "輸入",
+  "soundCategory.extrasounds$typing": "文字輸入",
   "soundCategory.extrasounds$item_drop": "物品掉落",
 
   "tooltip.soundCategory.extrasounds_action": "這聲音在物品互動、方塊互動和實體事件時套用。"
