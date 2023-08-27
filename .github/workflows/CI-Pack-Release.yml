@@ -73,6 +73,11 @@ jobs:
             ## 其他
             {{__unknown__}}
 
+      - name: 測試產出
+        run: |
+          echo ${{ steps.changelog.outputs.changelog }} > Test.md
+          cat Test.md
+
   # pack-release:
   #   name: Pack ${{ matrix.version }}
   #   needs: [ matrix-setup ]
