@@ -92,5 +92,4 @@ jobs:
           game-versions: ${{ needs.value-extract.outputs.game_version }}
           files: |
             ModsTranslationPack-${{ inputs.matrix_version }}.zip
-            checksum.txt
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}

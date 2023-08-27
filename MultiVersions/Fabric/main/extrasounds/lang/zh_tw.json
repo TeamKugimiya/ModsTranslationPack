@@ -1,0 +1,13 @@
+{
+  "soundCategory.extrasounds$master": "更多聲音",
+  "soundCategory.extrasounds$inventory": "物品欄",
+  "soundCategory.extrasounds$action": "動作",
+  "soundCategory.extrasounds$chat": "聊天室訊息",
+  "soundCategory.extrasounds$chat_mention": "聊天室提及",
+  "soundCategory.extrasounds$effects": "效果／藥水",
+  "soundCategory.extrasounds$hotbar": "快捷欄",
+  "soundCategory.extrasounds$typing": "文字輸入",
+  "soundCategory.extrasounds$item_drop": "物品掉落",
+
+  "tooltip.soundCategory.extrasounds_action": "這聲音會在與物品、方塊互動，以及觸發實體事件時套用。"
+}

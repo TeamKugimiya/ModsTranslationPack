@@ -70,8 +70,10 @@ multiversion () {
     mixer "Fabric" "main"
   elif [ "$version" = "1.19.x" ]; then
     mixer "Fabric" "main"
+    mixer "Fabric" "1.19"
   elif [ "$version" = "1.18.x" ]; then
     mixer "Fabric" "main"
+    mixer "Fabric" "1.19"
     mixer "Fabric" "1.18"
     mixer "Forge" "1.18"
   else
@@ -101,6 +103,7 @@ clean () {
   cleaning "Forge" "1.18"
   cleaning "Fabric" "main"
   cleaning "Fabric" "1.18"
+  cleaning "Fabric" "1.19"
 }
 
 ## Main
