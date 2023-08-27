@@ -41,8 +41,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
-          show-emoji: true
-          remove-type: false
+          show-emoji: false
+          remove-type: true
           custom-emoji: "feat💪,fix🔧,chore🧹,ci☁️,docs📑,refactor🧰,mods_feat⚡,mods_update🐌,mods_fix🐛,mods_improve✨,mods_localize🌐,mods_remove🧭"
           template: |
             ## ⚡ 新增模組翻譯
