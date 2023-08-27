@@ -41,45 +41,76 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
+          show-emoji: false
+          remove-type: true
+          template: |
+          ## ⚡ 新增模組翻譯
+          {{mods_feat}}
+          ## 🐌 更新模組翻譯
+          {{mods_update}}
+          ## 🐛 修正模組翻譯錯誤
+          {{mods_fix}}
+          ## ✨ 提升模組翻譯品質
+          {{mods_improve}}
+          ## 🌐 用語在地化
+          {{mods_localize}}
+          ## 🧭 移除翻譯
+          {{mods_remove}}
+          ## 📑 文件更新
+          {{docs}}
+          ## 🤖 工作流程
+          {{ci}}
+          ## 🧰 重構
+          {{refactor}}
+          ## 🧹 清理專案
+          {{chore}}
+          ## 🔧 修正問題
+          {{fix}}
+          ## 💪 新增功能
+          {{feat}}
+          ## 🧰 重構
+          {{refactor,perf,clean}}
+          ## 其他
+          {{__unknown__}}
 
-  pack-release:
-    name: Pack ${{ matrix.version }}
-    needs: [ matrix-setup ]
+  # pack-release:
+  #   name: Pack ${{ matrix.version }}
+  #   needs: [ matrix-setup ]
 
-    strategy:
-      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+  #   strategy:
+  #     matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
 
-    uses: ./.github/workflows/Reusable-ResourcePacker.yml
-    with:
-      matrix_version: ${{ matrix.version }}
-      release: true
-    secrets:
-      AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
+  #   uses: ./.github/workflows/Reusable-ResourcePacker.yml
+  #   with:
+  #     matrix_version: ${{ matrix.version }}
+  #     release: true
+  #   secrets:
+  #     AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+  #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  #     AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
 
-  modrinth-publish:
-    name: Modrinth Release ${{ matrix.version }}
-    needs: [ pack-release, matrix-setup, changelog-generate ]
+  # modrinth-publish:
+  #   name: Modrinth Release ${{ matrix.version }}
+  #   needs: [ pack-release, matrix-setup, changelog-generate ]
 
-    strategy:
-      max-parallel: 1
-      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+  #   strategy:
+  #     max-parallel: 1
+  #     matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
     
-    uses: ./.github/workflows/Reusable-ModrinthPublish.yml
-    with:
-      version: $ input placeholder
-      matrix_version: ${{ matrix.version }}
-      changelog: ${{ needs.changelog-generate.outputs.changelog }}
-      release: true
-    secrets:
-      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+  #   uses: ./.github/workflows/Reusable-ModrinthPublish.yml
+  #   with:
+  #     version: $ input placeholder
+  #     matrix_version: ${{ matrix.version }}
+  #     changelog: ${{ needs.changelog-generate.outputs.changelog }}
+  #     release: true
+  #   secrets:
+  #     MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
 
-  delete-artifact:
-    name: Delete Artifact
-    needs: [ modrinth-publish ]
+  # delete-artifact:
+  #   name: Delete Artifact
+  #   needs: [ modrinth-publish ]
 
-    uses: ./.github/workflows/Reusable-DeleteArtifact.yml
-    with:
-      artifact_name: ModsTranslationPack-*
+  #   uses: ./.github/workflows/Reusable-DeleteArtifact.yml
+  #   with:
+  #     artifact_name: ModsTranslationPack-*
