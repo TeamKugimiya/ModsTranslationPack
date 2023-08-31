@@ -72,18 +72,13 @@ jobs:
       max-parallel: 1
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
 
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checking Repository
-        uses: actions/checkout@v3
-
-    # uses: ./.github/workflows/Reusable-ModrinthPublish.yml
-    # with:
-    #   matrix_version: ${{ matrix.version }}
-    #   changelog: ${{ needs.changelog-commit.outputs.changelog-commit }}
-    #   release: false
-    # secrets:
-    #   MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+    uses: ./.github/workflows/Reusable-ModrinthPublish.yml
+    with:
+      matrix_version: ${{ matrix.version }}
+      changelog: ${{ needs.changelog-commit.outputs.changelog-commit }}
+      release: false
+    secrets:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
 
   delete-artifact:
     name: Delete Artifact
