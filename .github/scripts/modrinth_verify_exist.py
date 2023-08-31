@@ -31,4 +31,5 @@ if __name__ == "__main__":
     git_version = sys.argv[1]
     if len(sys.argv) < 2:
         sys.exit(1)
+    git_version = "git-3390f0b"
     main(git_version)
