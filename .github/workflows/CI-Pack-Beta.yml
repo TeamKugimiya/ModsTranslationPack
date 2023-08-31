@@ -66,16 +66,16 @@ jobs:
   modrinth-publish:
     name: Modrinth Beta ${{ matrix.version }}
     needs: [ pack-beta, matrix-setup, changelog-commit, verify-exist ]
+    if: ${{ needs.verify-exist.outputs.version_exist != 'true' }}
 
     strategy:
-      max-parallel: 4
+      max-parallel: 1
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
 
     runs-on: ubuntu-latest
     steps:
-      - name: Test
-        run: |
-          echo ${{ needs.verify-exist.outputs.version_exist }}
+      - name: Checking Repository
+        uses: actions/checkout@v3
 
     # uses: ./.github/workflows/Reusable-ModrinthPublish.yml
     # with:
