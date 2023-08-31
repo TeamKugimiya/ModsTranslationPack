@@ -40,6 +40,12 @@ jobs:
           MSG=$(git show -s --format=%s)
           echo "msg=$MSG" >> "$GITHUB_OUTPUT"
 
+  verify-exist:
+    name: Verify Version Exist
+    if: github.repository == 'xMikux/ModsTranslationPack'
+
+    uses: ./.github/workflows/Reusable-VerifyExistVersion.yml
+
   pack-beta:
     name: Pack ${{ matrix.version }}
     needs: [ matrix-setup ]
@@ -59,12 +65,13 @@ jobs:
 
   modrinth-publish:
     name: Modrinth Beta ${{ matrix.version }}
-    needs: [ pack-beta, matrix-setup, changelog-commit ]
+    needs: [ pack-beta, matrix-setup, changelog-commit, verify-exist ]
+    if: ${{ needs.verify-exist.outputs.version_exist != 'true' }}
 
     strategy:
       max-parallel: 1
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
-    
+
     uses: ./.github/workflows/Reusable-ModrinthPublish.yml
     with:
       matrix_version: ${{ matrix.version }}
