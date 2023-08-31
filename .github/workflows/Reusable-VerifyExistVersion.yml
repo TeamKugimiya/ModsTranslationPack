@@ -1,0 +1,26 @@
+name: Reusable | Verify Exist Version
+
+on:
+  workflow_call:
+    outputs:
+      version_exist:
+        description: "Version Exist"
+        value: ${{ jobs.verify_exist.outputs.version_exist }}
+
+jobs:
+  verify_exist:
+    name: Verify Version Exist
+    runs-on: ubuntu-latest
+
+    outputs:
+      version_exist: ${{ steps.verify.outputs.version_exist }}
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v3
+
+      - name: Check version exist
+        id: verify
+        run: |
+          GIT_VERSION=git-$(git rev-parse --short HEAD)
+          python .github/scripts/modrinth_verify_exist.py $GIT_VERSION
