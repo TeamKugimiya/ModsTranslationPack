@@ -20,7 +20,7 @@ def main(version):
             f.write("version_exist=true")
 
         # Print a warning message
-        print(f"::warning:: 版本 ``{version_number}`` 已存在！發佈時間 ``{date_published}``")  # noqa: E501
+        print(f"::warning::版本 {version_number} 已存在！發佈時間 {date_published}。")
     else:
         print("版本未存在！")
         # Set step output
