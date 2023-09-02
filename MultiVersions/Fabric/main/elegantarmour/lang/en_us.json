@@ -1,0 +1,17 @@
+{
+  "options.elegantCustomisation": "Elegant Customisation",
+  "options.elegantDefault": "Default Customisation",
+
+  "options.elegantarmour.default": "Default",
+  "options.elegantarmour.show": "Show",
+  "options.elegantarmour.hide": "Hide",
+  "options.elegantarmour.small.show": "Disabled",
+  "options.elegantarmour.small.hide": "Enabled",
+
+  "options.elegantarmour.helmet": "Helmet",
+  "options.elegantarmour.chestplate": "Chestplate",
+  "options.elegantarmour.leggings": "Leggings",
+  "options.elegantarmour.boots": "Boots",
+  "options.elegantarmour.elytra": "Elytra",
+  "options.elegantarmour.small": "Slim Armour"
+}

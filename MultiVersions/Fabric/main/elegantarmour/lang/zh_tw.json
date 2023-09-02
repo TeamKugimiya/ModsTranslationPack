@@ -1,0 +1,17 @@
+{
+  "options.elegantCustomisation": "優雅客製化",
+  "options.elegantDefault": "預設客製化",
+
+  "options.elegantarmour.default": "預設",
+  "options.elegantarmour.show": "顯示",
+  "options.elegantarmour.hide": "隱藏",
+  "options.elegantarmour.small.show": "停用",
+  "options.elegantarmour.small.hide": "啟用",
+
+  "options.elegantarmour.helmet": "頭盔",
+  "options.elegantarmour.chestplate": "胸甲",
+  "options.elegantarmour.leggings": "護腿",
+  "options.elegantarmour.boots": "靴子",
+  "options.elegantarmour.elytra": "鞘翅",
+  "options.elegantarmour.small": "苗條盔甲"
+}

@@ -1,0 +1,22 @@
+{
+  "options.elegantCustomisation.title" : "優雅盔甲客製化",
+  "options.elegantCustomisation" : "優雅盔甲",
+
+  "options.elegantPart.hideBoots" : "隱藏靴子",
+  "options.elegantPart.hideLeggings" : "隱藏護腿",
+  "options.elegantPart.hideChestplate" : "隱藏胸甲",
+  "options.elegantPart.hideHelmet" : "隱藏頭盔",
+  "options.elegantPart.hideElytra" : "隱藏鞘翅",
+  "options.elegantPart.hideHeadItem" : "隱藏頭部物品",
+  "options.elegantPart.thinArmour" : "苗條盔甲",
+  "options.elegantPart.clientActive" : "啟用用戶端",
+
+  "options.elegantPart.hideOthersBoots" : "隱藏其他人的靴子",
+  "options.elegantPart.hideOthersLeggings" : "隱藏其他人的護腿",
+  "options.elegantPart.hideOthersChestplate" : "隱藏其他人的胸甲",
+  "options.elegantPart.hideOthersHelmet" : "隱藏其他人的頭盔",
+  "options.elegantPart.hideOthersElytra" : "隱藏其他人的鞘翅",
+  "options.elegantPart.hideOthersHeadItem" : "隱藏其他人的頭部物品",
+  "options.elegantPart.everyoneThinArmour" : "苗條所有人的盔甲",
+  "options.elegantPart.enforceSettings" : "強制性設定"
+}
