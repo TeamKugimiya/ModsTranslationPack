@@ -1,0 +1,9 @@
+{
+  "config.jade.plugin_enigmaticgraves.grave": "《Enigmatic Graves》插件",
+  "enigmaticgraves.grave.not_found": "未綁定墓碑",
+  "entity.enigmaticgraves.grave": "墓碑",
+  "grave.locate": "墓碑位於 %s",
+  "info.grave.not_found": "找不到墓碑位置！",
+  "info.grave.remove_grave": "沒有墓碑的位置。對著墓碑使用（創造模式下）來將其移除！",
+  "item.enigmaticgraves.grave_finder": "墓碑定位器"
+}
