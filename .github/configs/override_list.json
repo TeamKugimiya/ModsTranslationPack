@@ -164,10 +164,10 @@
         },
         {
             "modName": "Dynamic FPS",
-            "modLoader": "Forge",
-            "modVersion": "main",
+            "modLoader": "Fabric",
+            "modVersion": "1.19",
             "licenseURL": "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/LICENSE",
-            "url": "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/main/src/main/resources/assets/dynamicfps/lang/zh_tw.json"
+            "url": "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/2.4.0/src/main/resources/assets/dynamicfps/lang/zh_tw.json"
         },
         {
             "modName": "CoFHCore",

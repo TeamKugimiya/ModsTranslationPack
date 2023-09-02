@@ -165,11 +165,25 @@ def zip_copyer(temp_dir, modloader, version):
     except OSError as e:
         print(f"Error occurred while copying file: {e}")
 
+# TODO Make this better
 def zip_copyer_all(temp_dir, modloader, version):
     source_path = os.path.join(temp_dir, "assets")
     dest_path = Path("MultiVersions", modloader, version)
 
     print("> 模組 ID 複製全部")
+    print("> 原始路徑", source_path)
+    print("> 目的路徑", dest_path)
+
+    try:
+        shutil.copytree(source_path, dest_path, dirs_exist_ok=True)
+    except OSError as e:
+        print(f"Error occurred while copying file: {e}")
+
+def zip_copyer_all_temp(temp_dir):
+    source_path = os.path.join(temp_dir, "MultiVersions")
+    dest_path = Path("MultiVersions")
+
+    print("> 模組 ID 複製全部（暫時）")
     print("> 原始路徑", source_path)
     print("> 目的路徑", dest_path)
 
@@ -190,7 +204,10 @@ def zip_extract(modname, modloader, version, url, extractAll: bool):
         zip.extractall(temp_dir)
 
     if extractAll:
-        zip_copyer_all(temp_dir, modloader, version)
+        if os.path.exists(os.path.join(temp_dir, "MultiVersions")):
+            zip_copyer_all_temp(temp_dir)
+        else:
+            zip_copyer_all(temp_dir, modloader, version)
     else:
         zip_copyer(temp_dir, modloader, version)
 
