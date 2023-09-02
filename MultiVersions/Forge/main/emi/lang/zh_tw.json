@@ -393,8 +393,8 @@
 
   "tag.fluid.minecraft.water": "水",
   "tag.fluid.minecraft.lava": "熔岩",
-  "tag.fluid.c.water": "Water",
-  "tag.fluid.c.lava": "Lava",
+  "tag.fluid.c.water": "水",
+  "tag.fluid.c.lava": "熔岩",
   "tag.fluid.c.milk": "牛奶",
 
   "tag.item.c.stone": "石頭",
