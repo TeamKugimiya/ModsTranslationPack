@@ -6,6 +6,11 @@ on:
       - "main"
     paths:
       - ".github/configs/override_list.json"
+  pull_request:
+    branches:
+      - "main"
+    paths:
+      - ".github/configs/override_list.json"
   workflow_dispatch:
     inputs:
       cache_url_test:
@@ -66,7 +71,7 @@ jobs:
         working-directory: cache
 
       - name: Compress Cache
-        if: ${{ ! inputs.cache_url_test }}
+        if: ${{ ! inputs.cache_url_test && github.event_name != 'pull_request' }}
         run: |
           zip -qr Override-Cache.zip MultiVersions/
           rm -r MultiVersions/
@@ -74,7 +79,7 @@ jobs:
         working-directory: cache
 
       - name: Upload cache to s3
-        if: ${{ ! inputs.cache_url_test }}
+        if: ${{ ! inputs.cache_url_test && github.event_name != 'pull_request' }}
         uses: Docker-Collection/docker-aws-s3-action@main
         with:
           aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
