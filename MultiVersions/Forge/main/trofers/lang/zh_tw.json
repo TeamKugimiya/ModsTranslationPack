@@ -1,0 +1,16 @@
+{
+  "itemGroup.trofers": "獎盃",
+  "block.trofers.trophy": "獎盃",
+  "button.trofers.cancel": "取消",
+  "config.trofers.trophy_chance": "獎盃掉落機率",
+  "config.trofers.enable_trophy_loot": "啟用獎盃戰利品",
+  "config.trofers.enable_trophy_effects": "啟用獎盃效果",
+  "message.trofers.reward_cooldown": "%s後可獲得下次獎勵",
+  "time.trofers.second": "1 秒",
+  "time.trofers.seconds": "%s 秒",
+  "time.trofers.minute": "1 分鐘",
+  "time.trofers.minutes": "%s 分鐘",
+  "time.trofers.hour": "1 小時",
+  "time.trofers.hours": "%s 小時",
+  "trophy.trofers.composed": "《%s》獎盃"
+}
