@@ -1,6 +1,7 @@
 {
     "ingoreCheckList": [
-        "ThermalFoundation",
+        "ThermalFoundation (1.19)",
+        "ThermalFoundation (1.18)",
         "MMLP CN to ZW"
     ],
     "lists": [
@@ -170,13 +171,19 @@
             "url": "https://raw.githubusercontent.com/juliand665/Dynamic-FPS/2.4.0/src/main/resources/assets/dynamicfps/lang/zh_tw.json"
         },
         {
-            "modName": "CoFHCore",
+            "modName": "CoFHCore (1.19)",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://raw.githubusercontent.com/Jimmy-sheep/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json"
+            "url": "https://raw.githubusercontent.com/CoFH/CoFHCore/1.19.x/src/main/resources/assets/cofh_core/lang/zh_tw.json"
         },
         {
-            "modName": "ThermalFoundation",
+            "modName": "CoFHCore (1.18)",
+            "modLoader": "Forge",
+            "modVersion": "1.18",
+            "url": "https://raw.githubusercontent.com/CoFH/CoFHCore/1.18.2/src/main/resources/assets/cofh_core/lang/zh_tw.json"
+        },
+        {
+            "modName": "ThermalCore (1.19)",
             "modLoader": "Forge",
             "modVersion": "main",
             "extractType": "Mods-With-Guide-Git",
@@ -184,8 +191,20 @@
                 "src/main/resources/data/thermal/patchouli_books/guidebook/zh_tw"
             ],
             "guideSave": "patchouli_books/guide",
+            "branchVersion": "1.19.x",
+            "url": "https://github.com/CoFH/ThermalCore.git"
+        },
+        {
+            "modName": "ThermalFoundation (1.18)",
+            "modLoader": "Forge",
+            "modVersion": "1.18",
+            "extractType": "Mods-With-Guide-Git",
+            "guidePaths": [
+                "src/main/resources/data/thermal/patchouli_books/guidebook/zh_tw"
+            ],
+            "guideSave": "patchouli_books/guide",
             "branchVersion": "1.18.2",
-            "url": "https://github.com/Jimmy-sheep/ThermalFoundation.git"
+            "url": "https://github.com/CoFH/ThermalFoundation.git"
         },
         {
             "modName": "Alchemistry",

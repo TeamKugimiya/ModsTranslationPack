@@ -66,8 +66,9 @@
   * [Alchemistry](https://github.com/SmashingMods/Alchemistry)<br/>
     [![GPL 2.0][GPL 2.0]](https://github.com/SmashingMods/Alchemistry/blob/1.18.x/LICENSE)
 * [Jimmy-sheep](https://github.com/Jimmy-sheep)
-  * [CoFHCore](https://github.com/CoFH/CoFHCore/tree/1.18.2)
-  * [ThermalFoundation](https://github.com/CoFH/ThermalFoundation/tree/1.18.2)
+  * [CoFHCore](https://github.com/CoFH/CoFHCore)
+  * [ThermalCore](https://github.com/CoFH/ThermalCore)
+  * [ThermalFoundation](https://github.com/CoFH/ThermalFoundation)
 * [Julian Dunskus](https://github.com/juliand665)
   * [Dynamic FPS](https://github.com/juliand665/Dynamic-FPS)<br/>
     [![MIT][MIT]](https://github.com/juliand665/Dynamic-FPS/blob/main/LICENSE)
