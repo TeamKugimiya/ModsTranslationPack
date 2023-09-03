@@ -63,22 +63,39 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
 
+  summary:
+    name: Generate Summary
+    needs: [ pack-beta ]
+
+    uses: ./.github/workflows/Reusable-Summary.yml
+
   modrinth-publish:
     name: Modrinth Beta ${{ matrix.version }}
-    needs: [ pack-beta, matrix-setup, changelog-commit, verify-exist ]
+    needs: [ pack-beta, matrix-setup, changelog-commit, verify-exist, summary ]
     if: ${{ needs.verify-exist.outputs.version_exist != 'true' }}
 
     strategy:
       max-parallel: 1
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
 
-    uses: ./.github/workflows/Reusable-ModrinthPublish.yml
-    with:
-      matrix_version: ${{ matrix.version }}
-      changelog: ${{ needs.changelog-commit.outputs.changelog-commit }}
-      release: false
-    secrets:
-      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Test
+        run: |
+          echo ${{ needs.summary.outputs.build_info }}
+
+    # uses: ./.github/workflows/Reusable-ModrinthPublish.yml
+    # with:
+    #   matrix_version: ${{ matrix.version }}
+    #   changelog: | 
+    #     ${{ needs.changelog-commit.outputs.changelog-commit }}
+
+    #     ---
+        
+    #     ${{ needs.summary.outputs.build_info }}
+    #   release: false
+    # secrets:
+    #   MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
 
   delete-artifact:
     name: Delete Artifact

@@ -1,0 +1,28 @@
+name: Reusable | Summary Generate
+
+on:
+  workflow_call:
+    outputs:
+      build_info:
+        description: "Build Info"
+        value: ${{ jobs.summary.outputs.build_info }}
+
+jobs:
+  summary:
+    name: Summary Generate
+    runs-on: ubuntu-latest
+
+    outputs:
+      build_info: ${{ steps.summary.outputs.build_info }}
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v3
+
+      - name: Download All Artifact
+        uses: actions/download-artifact@v3
+
+      - name: Summary
+        id: summary
+        run: |
+          python .github/scripts/summary_generate.py
