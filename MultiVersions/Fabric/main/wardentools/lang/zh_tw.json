@@ -17,12 +17,12 @@
   "item.wardentools.warden_hoe": "伏守者鋤",
   "item.wardentools.echo_staff": "回聲法杖",
 
-  "block.wardentools.sculkhyst_block": "伏聆媒晶方塊",
-  "block.wardentools.budding_sculkhyst": "伏聆媒晶芽床",
-  "block.wardentools.sculkhyst_cluster": "伏聆媒晶簇",
-  "block.wardentools.large_sculkhyst_bud": "大型伏聆媒晶芽",
-  "block.wardentools.medium_sculkhyst_bud": "中型伏聆媒晶芽",
-  "block.wardentools.small_sculkhyst_bud": "小型伏聆媒晶芽",
+  "block.wardentools.sculkhyst_block": "伏聆晶方塊",
+  "block.wardentools.budding_sculkhyst": "伏聆晶芽床",
+  "block.wardentools.sculkhyst_cluster": "伏聆晶簇",
+  "block.wardentools.large_sculkhyst_bud": "大型伏聆晶芽",
+  "block.wardentools.medium_sculkhyst_bud": "中型伏聆晶芽",
+  "block.wardentools.small_sculkhyst_bud": "小型伏聆晶芽",
 
   "item.minecraft.smithing_template.warden_upgrade.additions_slot_description": "增加回聲錠",
   "item.minecraft.smithing_template.warden_upgrade.applies_to": "獄髓裝備",
