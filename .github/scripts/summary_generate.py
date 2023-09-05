@@ -48,19 +48,18 @@ def main():
 
         env.close()
 
-    with open(os.environ["GITHUB_OUTPUT"], "w") as env:
-        step_output = "build_info=建構資訊\\n\\n"
-        step_output += "成品清單：\\n"
+    step_output = "建構資訊\n\n"
+    step_output += "成品清單：\n"
 
-        for i in file_list:
-            name = i["name"]
-            checksum = i["checksum"]
+    for i in file_list:
+        name = i["name"]
+        checksum = i["checksum"]
 
-            step_output += f"- **{name}** `{checksum}`\\n"
+        step_output += f"- **{name}** `{checksum}`\n"
 
-        step_output += f"建構流程：[連結](https://github.com/xMikux/ModsTranslationPack/actions/runs/{run_id}/job/)"
+    step_output += f"建構流程：[連結](https://github.com/xMikux/ModsTranslationPack/actions/runs/{run_id}/job/)"
 
-        env.write(step_output)
+    print(step_output)
 
 if __name__ == "__main__":
     main()

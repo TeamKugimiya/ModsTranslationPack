@@ -82,7 +82,8 @@ jobs:
     steps:
       - name: Hello Test
         run: |
-          echo ${{ needs.summary.outputs.build_info }}
+          echo '${{ needs.summary.outputs.build_info }}' > test.md
+          cat test.md
 
     # uses: ./.github/workflows/Reusable-ModrinthPublish.yml
     # with:

@@ -25,4 +25,8 @@ jobs:
       - name: Summary
         id: summary
         run: |
-          python .github/scripts/summary_generate.py
+          {
+            echo 'build_info<<EOF'
+            python .github/scripts/summary_generate.py
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
