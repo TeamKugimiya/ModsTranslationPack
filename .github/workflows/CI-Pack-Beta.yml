@@ -40,7 +40,7 @@ jobs:
           MSG=$(git show -s --format=%s)
           {
             echo 'msg<<EOF'
-            python .github/scripts/commit_formater.py '$MSG'
+            python .github/scripts/commit_formater.py "$MSG"
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
