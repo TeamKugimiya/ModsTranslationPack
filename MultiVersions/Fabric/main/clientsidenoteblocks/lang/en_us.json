@@ -1,0 +1,11 @@
+{
+  "text.autoconfig.clientsidenoteblocks.title": "Client Side Noteblocks Config",
+  "text.autoconfig.clientsidenoteblocks.option.debug": "Debug Mode",
+  "text.autoconfig.clientsidenoteblocks.option.debug.@Tooltip": "Enables debug mode. This will print out debug messages in the console.",
+  "text.autoconfig.clientsidenoteblocks.option.enabled": "Enabled",
+  "text.autoconfig.clientsidenoteblocks.option.enabled.@Tooltip": "Enables the Mod. A Keybind can be assigned to this in the Keybind settings",
+  "text.clientsidenoteblocks.chat.enabled": "ClientSideNoteblocks is Enabled",
+  "text.clientsidenoteblocks.chat.disabled": "ClientSideNoteblocks is Disabled",
+  "text.clientsidenoteblocks.keybind.category": "ClientSideNoteblocks",
+  "text.clientsidenoteblocks.keybind.toggle": "Toggle Mod Enabled"
+}
