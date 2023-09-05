@@ -62,18 +62,5 @@ def main():
 
         env.write(step_output)
 
-    # output = "build_info=建構資訊\\n\\n"
-    # output += "成品清單：\\n"
-
-    # for i in file_list:
-    #     name = i["name"]
-    #     checksum = i["checksum"]
-
-    #     output += f"- **{name}** `{checksum}`\\n"
-
-    # output += f"建構流程：[連結](https://github.com/xMikux/ModsTranslationPack/actions/runs/{run_id}/job/)"
-
-    # print(output)
-
 if __name__ == "__main__":
     main()
