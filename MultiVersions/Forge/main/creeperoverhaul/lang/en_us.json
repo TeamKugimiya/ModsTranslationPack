@@ -28,6 +28,8 @@
   "item.creeperoverhaul.beach_creeper_spawn_egg": "Beach Creeper Spawn Egg",
   "entity.creeperoverhaul.snowy_creeper": "Snowy Creeper",
   "item.creeperoverhaul.snowy_creeper_spawn_egg": "Snowy Creeper Spawn Egg",
+  "entity.creeperoverhaul.ocean_creeper": "Ocean Creeper",
+  "item.creeperoverhaul.ocean_creeper_spawn_egg": "Ocean Creeper Spawn Egg",
   "block.creeperoverhaul.tiny_cactus": "Tiny Cactus",
   "block.creeperoverhaul.potted_tiny_cactus": "Potted Tiny Cactus",
 
@@ -50,5 +52,9 @@
   "subtitles.creeperoverhaul.entity.sand.creeper.death": "Creeper dies",
   "subtitles.creeperoverhaul.entity.sand.creeper.hurt": "Creeper hurts",
   "subtitles.creeperoverhaul.entity.sand.creeper.prime": "Creeper hisses",
-  "subtitles.creeperoverhaul.entity.sand.creeper.explosion": "Creeper explosion"
+  "subtitles.creeperoverhaul.entity.sand.creeper.explosion": "Creeper explosion",
+  "subtitles.creeperoverhaul.entity.ocean.creeper.death": "Creeper dies",
+  "subtitles.creeperoverhaul.entity.ocean.creeper.hurt": "Creeper hurts",
+  "subtitles.creeperoverhaul.entity.ocean.creeper.inflate": "Ocean Creeper inflates",
+  "subtitles.creeperoverhaul.entity.ocean.creeper.deflate": "Ocean Creeper deflates"
 }
