@@ -1,0 +1,32 @@
+{
+  "item.wardentools.warden_upgrade_smithing_template": "Smithing Template",
+  
+  "item.wardentools.warden_soul": "Soul of Warden",
+  "item.wardentools.echo_apple": "Echo Apple",
+  "item.wardentools.echo_ingot": "Echo Ingot",
+
+  "item.wardentools.warden_helmet": "Warden Helmet",
+  "item.wardentools.warden_chestplate": "Warden Chestplate",
+  "item.wardentools.warden_leggings": "Warden Leggings",
+  "item.wardentools.warden_boots": "Warden Boots",
+  
+  "item.wardentools.warden_sword": "Warden Sword",
+  "item.wardentools.warden_axe": "Warden Axe",
+  "item.wardentools.warden_pickaxe": "Warden Pickaxe",
+  "item.wardentools.warden_shovel": "Warden Shovel",
+  "item.wardentools.warden_hoe": "Warden Hoe",
+  "item.wardentools.echo_staff": "Echo Staff",
+
+  "block.wardentools.sculkhyst_block": "Block of Sculkhyst",
+  "block.wardentools.budding_sculkhyst": "Budding Sculkhyst",
+  "block.wardentools.sculkhyst_cluster": "Sculkhyst Cluster",
+  "block.wardentools.large_sculkhyst_bud": "Large Sculkhyst Bud",
+  "block.wardentools.medium_sculkhyst_bud": "Medium Sculkhyst Bud",
+  "block.wardentools.small_sculkhyst_bud": "Small Sculkhyst Bud",
+
+  "item.minecraft.smithing_template.warden_upgrade.additions_slot_description": "Add Echo Ingot",
+  "item.minecraft.smithing_template.warden_upgrade.applies_to": "Netherite Equipment",
+  "item.minecraft.smithing_template.warden_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.minecraft.smithing_template.warden_upgrade.ingredients": "Echo Ingot",
+  "upgrade.minecraft.warden_upgrade": "Warden Upgrade"
+}
