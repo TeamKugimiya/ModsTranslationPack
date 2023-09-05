@@ -1,0 +1,23 @@
+{
+  "numeralping.option.playerList": "玩家清單",
+  "numeralping.option.playerList.desc": "在玩家清單中啟用數字延遲顯示。",
+  "numeralping.option.serverList": "伺服器清單",
+  "numeralping.option.serverList.desc": "在伺服器清單中啟用數字延遲顯示。",
+  "numeralping.option.smallPing": "小延遲數字",
+  "numeralping.option.smallPing.desc": "使用替代 Unicode 字符縮小延遲文字。",
+  "numeralping.option.defaultPingThreshold": "預設臨界值",
+  "numeralping.option.defaultPingThreshold.desc": "預設顏色的最高延遲數值。",
+  "numeralping.option.levelOnePingThreshold": "等級一臨界值",
+  "numeralping.option.levelOnePingThreshold.desc": "等級一顏色最高延遲數值。",
+  "numeralping.option.levelTwoPingThreshold": "等級二臨界值",
+  "numeralping.option.levelTwoPingThreshold.desc": "等級二顏色最高延遲數值。",
+  "numeralping.option.levelThreePingThreshold": "等級三臨界值",
+  "numeralping.option.levelThreePingThreshold.desc": "等級三顏色最高延遲數值。",
+  "numeralping.option.defaultPingColour": "預設延遲顏色",
+  "numeralping.option.levelOnePingColour": "等級一延遲顏色",
+  "numeralping.option.levelTwoPingColour": "等級二延遲顏色",
+  "numeralping.option.levelThreePingColour": "等級三延遲顏色",
+  "numeralping.option.levelFourPingColour": "等級四延遲顏色",
+  "numeralping.option.levelFourPingColour.desc": "任何高於等級三。",
+  "numeralping.option.levelFivePingColour": "連線逾時"
+}
