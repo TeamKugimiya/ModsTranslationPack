@@ -24,9 +24,9 @@
   "block.wardentools.medium_sculkhyst_bud": "中型伏聆晶芽",
   "block.wardentools.small_sculkhyst_bud": "小型伏聆晶芽",
 
-  "item.minecraft.smithing_template.warden_upgrade.additions_slot_description": "增加回聲錠",
+  "item.minecraft.smithing_template.warden_upgrade.additions_slot_description": "放置回聲錠",
   "item.minecraft.smithing_template.warden_upgrade.applies_to": "獄髓裝備",
-  "item.minecraft.smithing_template.warden_upgrade.base_slot_description": "增加獄髓盔甲、武器或工具",
+  "item.minecraft.smithing_template.warden_upgrade.base_slot_description": "放置獄髓盔甲、武器或工具",
   "item.minecraft.smithing_template.warden_upgrade.ingredients": "回聲錠",
   "upgrade.minecraft.warden_upgrade": "伏守者升級"
 }
