@@ -82,27 +82,18 @@ jobs:
       max-parallel: 1
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
 
-    runs-on: ubuntu-latest
-    steps:
-      - name: Hello Test
-        run: |
-          echo '${{ needs.changelog-commit.outputs.changelog-commit }}' >> test.md
-          echo '\n---\n' >> test.md
-          echo '${{ needs.summary.outputs.build_info }}' >> test.md
-          cat test.md
+    uses: ./.github/workflows/Reusable-ModrinthPublish.yml
+    with:
+      matrix_version: ${{ matrix.version }}
+      changelog: | 
+        ${{ needs.changelog-commit.outputs.changelog-commit }}
 
-    # uses: ./.github/workflows/Reusable-ModrinthPublish.yml
-    # with:
-    #   matrix_version: ${{ matrix.version }}
-    #   changelog: | 
-    #     ${{ needs.changelog-commit.outputs.changelog-commit }}
-
-    #     ---
+        ---
         
-    #     ${{ needs.summary.outputs.build_info }}
-    #   release: false
-    # secrets:
-    #   MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        ${{ needs.summary.outputs.build_info }}
+      release: false
+    secrets:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
 
   delete-artifact:
     name: Delete Artifact
