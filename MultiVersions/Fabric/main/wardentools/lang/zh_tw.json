@@ -1,0 +1,32 @@
+{
+  "item.wardentools.warden_upgrade_smithing_template": "鍛造模板",
+  
+  "item.wardentools.warden_soul": "伏守者靈魂",
+  "item.wardentools.echo_apple": "回聲蘋果",
+  "item.wardentools.echo_ingot": "回聲錠",
+
+  "item.wardentools.warden_helmet": "伏守者頭盔",
+  "item.wardentools.warden_chestplate": "伏守者胸甲",
+  "item.wardentools.warden_leggings": "伏守者護腿",
+  "item.wardentools.warden_boots": "伏守者靴子",
+  
+  "item.wardentools.warden_sword": "伏守者劍",
+  "item.wardentools.warden_axe": "伏守者斧",
+  "item.wardentools.warden_pickaxe": "伏守者鎬",
+  "item.wardentools.warden_shovel": "伏守者鏟",
+  "item.wardentools.warden_hoe": "伏守者鋤",
+  "item.wardentools.echo_staff": "回聲法杖",
+
+  "block.wardentools.sculkhyst_block": "伏聆晶方塊",
+  "block.wardentools.budding_sculkhyst": "伏聆晶芽床",
+  "block.wardentools.sculkhyst_cluster": "伏聆晶簇",
+  "block.wardentools.large_sculkhyst_bud": "大型伏聆晶芽",
+  "block.wardentools.medium_sculkhyst_bud": "中型伏聆晶芽",
+  "block.wardentools.small_sculkhyst_bud": "小型伏聆晶芽",
+
+  "item.minecraft.smithing_template.warden_upgrade.additions_slot_description": "放置回聲錠",
+  "item.minecraft.smithing_template.warden_upgrade.applies_to": "獄髓裝備",
+  "item.minecraft.smithing_template.warden_upgrade.base_slot_description": "放置獄髓盔甲、武器或工具",
+  "item.minecraft.smithing_template.warden_upgrade.ingredients": "回聲錠",
+  "upgrade.minecraft.warden_upgrade": "伏守者升級"
+}
