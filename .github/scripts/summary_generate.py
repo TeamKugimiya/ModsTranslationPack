@@ -48,16 +48,13 @@ def main():
 
         env.close()
 
-    step_output = "建構資訊\n\n"
-    step_output += "成品清單：\n"
+    step_output = f"🏗️ 建構資訊｜[流程](https://github.com/xMikux/ModsTranslationPack/actions/runs/{run_id})\n\n"
 
     for i in file_list:
         name = i["name"]
         checksum = i["checksum"]
 
         step_output += f"- **{name}** `{checksum}`\n"
-
-    step_output += f"建構流程：[連結](https://github.com/xMikux/ModsTranslationPack/actions/runs/{run_id}/job/)"
 
     print(step_output)
 
