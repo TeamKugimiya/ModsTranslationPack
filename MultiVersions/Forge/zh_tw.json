@@ -1,0 +1,35 @@
+{
+  "block.snifferplus.stone_pine_button": "笠松木按鈕",
+  "block.snifferplus.stone_pine_door": "笠松木門",
+  "block.snifferplus.stone_pine_fence": "笠松木柵欄",
+  "block.snifferplus.stone_pine_fence_gate": "笠松木柵欄門",
+  "block.snifferplus.stone_pine_hanging_sign": "懸掛式笠松木告示牌",
+  "block.snifferplus.stone_pine_leaves": "笠松木樹葉",
+  "block.snifferplus.stone_pine_log": "笠松木原木",
+  "block.snifferplus.stone_pine_planks": "笠松木材",
+  "block.snifferplus.stone_pine_pressure_plate": "笠松木壓力板",
+  "block.snifferplus.stone_pine_sapling": "笠松木樹苗",
+  "block.snifferplus.stone_pine_sign": "笠松木告示牌",
+  "block.snifferplus.stone_pine_slab": "笠松木半磚",
+  "block.snifferplus.stone_pine_stairs": "笠松木階梯",
+  "block.snifferplus.stone_pine_trapdoor": "笠松木地板門",
+  "block.snifferplus.stone_pine_wood": "笠松木塊",
+  "block.snifferplus.stripped_stone_pine_log": "剝皮笠松木原木",
+  "block.snifferplus.stripped_stone_pine_wood": "剝皮笠松木塊",
+
+  "block.snifferplus.ivy_body": "常春藤",
+  "block.snifferplus.ivy_head": "常春藤",
+  "block.snifferplus.fiddlefern": "琴頭蕨",
+  "block.snifferplus.tall_fiddlefern": "高琴頭蕨",
+
+  "item.snifferplus.stone_pine_boat": "笠松木船",
+  "item.snifferplus.stone_pine_chest_boat": "儲物箱笠松木船",
+  "item.snifferplus.ivy": "常春藤",
+
+  "entity.snifferplus.stone_pine_boat": "笠松木船",
+  "entity.snifferplus.stone_pine_chest_boat": "儲物箱笠松木船",
+
+  "biome.snifferplus.timeless_grotto": "永恆石窟",
+
+  "itemGroup.sniffer_plus_tab": "嗅探獸+"
+}
