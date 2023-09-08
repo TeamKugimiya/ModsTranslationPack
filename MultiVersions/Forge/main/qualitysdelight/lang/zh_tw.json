@@ -364,8 +364,8 @@
   "item.qualitysdelight.yellow_tea_leaves_gold": "黃茶茶葉",
   "item.qualitysdelight.yellow_tea_leaves_iron": "黃茶茶葉",
 
-  "itemGroup.qualitysdelight.items": "優質樂事物品",
-  "itemGroup.qualitysdelight.nether_items": "地獄樂事物品",
-  "itemGroup.qualitysdelight.ocean_items": "海洋樂事物品",
-  "itemGroup.qualitysdelight.respite_items": "農夫暇事物品"
+  "itemGroup.qualitysdelight.items": "優質樂事｜物品",
+  "itemGroup.qualitysdelight.nether_items": "地獄樂事｜物品",
+  "itemGroup.qualitysdelight.ocean_items": "海洋樂事｜物品",
+  "itemGroup.qualitysdelight.respite_items": "農夫暇事｜物品"
 }
