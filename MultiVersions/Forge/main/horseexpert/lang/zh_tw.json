@@ -1,0 +1,14 @@
+{
+  "horse.tooltip.health": "生命值：%s",
+  "horse.tooltip.health.unit": "%s 顆心",
+  "horse.tooltip.jump_height": "跳躍高度：%s",
+  "horse.tooltip.jump_height.unit": "%s 格方塊",
+  "horse.tooltip.max": "最高：%s",
+  "horse.tooltip.min": "最低：%s",
+  "horse.tooltip.speed": "速度：%s",
+  "horse.tooltip.speed.unit": "%s 方塊/秒",
+  "horse.tooltip.strength": "儲存：%s",
+  "horse.tooltip.strength.unit": "%s 個欄位",
+  "item.horseexpert.monocle": "單片眼鏡",
+  "item.horseexpert.monocle.tooltip": "戴上它以查看坐騎的統計資訊！"
+}
