@@ -1,17 +1,21 @@
 {
-  "item.seasons.season_calendar": "季節日曆",
-  "block.seasons.season_detector": "季節偵測器",
-  "block.seasons.greenhouse_glass": "溫室玻璃",
-  "tooltip.seasons.spring": "§a春季",
-  "tooltip.seasons.summer": "§6夏季",
-  "tooltip.seasons.fall": "§4秋季",
-  "tooltip.seasons.winter": "§b冬季",
-  "tooltip.seasons.calendar_info_1": "§9目前處於：",
-  "tooltip.seasons.calendar_info_2": " §7天後進入",
-  "tooltip.seasons.faster_grow": "§a這種植物會在這個季節成長得更快",
-  "tooltip.seasons.normal_grow": "§9這種植物會在這個季節以正常速度成長",
-  "tooltip.seasons.slowed_grow": "§6這種植物會在這個季節花更長的時間成長",
-  "tooltip.seasons.not_grow": "§c這種植物不會在這個季節成長",
-  "tooltip.seasons.show_more": "§7按住 §9{KEY} §7顯示更多資訊：",
-  "tooltip.seasons.crop_multipliers": "§7植物在各個季節所受到的影響："
+  "tooltip.seasons.spring": "春季",
+  "tooltip.seasons.summer": "夏季",
+  "tooltip.seasons.fall": "秋季",
+  "tooltip.seasons.winter": "冬季",
+  "tooltip.seasons.faster_grow": "在此季節成長得更快",
+  "tooltip.seasons.normal_grow": "在此季節正常成長",
+  "tooltip.seasons.slowed_grow": "在此季節成長的較慢",
+  "tooltip.seasons.not_grow": "不會在此季節成長",
+  "tooltip.seasons.show_more": "按住 %s 顯示更多資訊",
+
+  "chat.seasons.mod_installed": "看起來你已經安裝了《%s》！",
+  "chat.seasons.compatibility": "安裝額外模組來獲取完整的 Fabric 季節相容性。",
+  "chat.seasons.mod_not_installed": "看起來你還沒有安裝《%s》！",
+  "chat.seasons.extras": "安裝額外模組來獲取自訂方塊與物品，來幫助你的冒險。",
+  "chat.seasons.available_at": "可獲取於：",
+  "chat.seasons.show_once": "這則訊息只會顯示一次。",
+
+  "commands.seasons.query_1": "目前季節：%s",
+  "commands.seasons.query_2": "距離%3$s還有 %1$s 天（%2$s ticks）。"
 }
