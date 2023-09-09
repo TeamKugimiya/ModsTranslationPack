@@ -1,0 +1,21 @@
+{
+  "tooltip.seasons.spring": "春季",
+  "tooltip.seasons.summer": "夏季",
+  "tooltip.seasons.fall": "秋季",
+  "tooltip.seasons.winter": "冬季",
+  "tooltip.seasons.faster_grow": "在此季節成長得更快",
+  "tooltip.seasons.normal_grow": "在此季節正常成長",
+  "tooltip.seasons.slowed_grow": "在此季節成長的較慢",
+  "tooltip.seasons.not_grow": "不會在此季節成長",
+  "tooltip.seasons.show_more": "按住 %s 顯示更多資訊",
+
+  "chat.seasons.mod_installed": "看起來你已經安裝了《%s》！",
+  "chat.seasons.compatibility": "安裝額外模組來獲取完整的 Fabric 季節相容性。",
+  "chat.seasons.mod_not_installed": "看起來你還沒有安裝《%s》！",
+  "chat.seasons.extras": "安裝額外模組來獲取自訂方塊與物品，來幫助你的冒險。",
+  "chat.seasons.available_at": "可於此獲取：",
+  "chat.seasons.show_once": "這則訊息只會顯示一次。",
+
+  "commands.seasons.query_1": "目前季節：%s",
+  "commands.seasons.query_2": "距離%3$s還有 %1$s 天（%2$s ticks）。"
+}
