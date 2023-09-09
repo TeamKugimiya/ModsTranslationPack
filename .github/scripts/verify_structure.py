@@ -130,24 +130,19 @@ def verify_clean(json_dict: dict):
     Verify only json dict folder
     """
     path = Path("MultiVersions")
-    platform = list(json_dict["supported_platform"])
-    list_version = [version["dir_path"] for version in json_dict["versions"]]
-    platform_check = list(json_dict["supported_platform"])
-    extra = ["configs", "Patcher", "README.md"]
-    platform_check.extend(extra)
+    platform = json_dict["supported_platform"]
+    list_version = {version["dir_path"] for version in json_dict["versions"]}
+    allowed_items = set(platform + ["configs", "Patcher", "README.md"])
+    error_message = "警告，存在不允許的檔案或資料夾！"
 
-    multiversion_list = path.iterdir()
+    for item in path.iterdir():
+        if item.name not in allowed_items:
+            log_error(error_message, item)
 
-    for i in multiversion_list:
-        folder_name = i.name
-        if folder_name not in platform_check:
-            log_error("錯誤，有未允許的檔案或資料夾存在！", i)
-    for i in platform:
-        mutli_list = path.joinpath(i).iterdir()
-
-        for i in mutli_list:
-            if i.name not in list_version:
-                log_error("錯誤，有未允許的檔案或資料夾存在！", i)
+        if item.name in platform:
+            for sub_item in item.iterdir():
+                if sub_item.name not in list_version:
+                    log_error(error_message, sub_item)
 
 if __name__ == "__main__":
     versions_dict = load_json(".github/configs/versions.json")
