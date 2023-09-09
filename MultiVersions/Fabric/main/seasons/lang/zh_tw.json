@@ -13,7 +13,7 @@
   "chat.seasons.compatibility": "安裝額外模組來獲取完整的 Fabric 季節相容性。",
   "chat.seasons.mod_not_installed": "看起來你還沒有安裝《%s》！",
   "chat.seasons.extras": "安裝額外模組來獲取自訂方塊與物品，來幫助你的冒險。",
-  "chat.seasons.available_at": "可獲取於：",
+  "chat.seasons.available_at": "可於此獲取：",
   "chat.seasons.show_once": "這則訊息只會顯示一次。",
 
   "commands.seasons.query_1": "目前季節：%s",
