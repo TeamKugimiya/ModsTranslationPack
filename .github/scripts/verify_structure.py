@@ -54,7 +54,6 @@ def print_block(msg_list: set, group_title: str):
     for i in msg_list:
         print(i)
     print("::endgroup::")
-    print("")
 
 def find_subfolders(root_folder: Path):
     """
