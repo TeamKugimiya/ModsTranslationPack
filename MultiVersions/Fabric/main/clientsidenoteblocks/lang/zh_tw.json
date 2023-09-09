@@ -1,0 +1,11 @@
+{
+  "text.autoconfig.clientsidenoteblocks.title": "用戶端音階盒設定",
+  "text.autoconfig.clientsidenoteblocks.option.debug": "除錯模式",
+  "text.autoconfig.clientsidenoteblocks.option.debug.@Tooltip": "啟用除錯模式。這將會在控制台中輸出除錯訊息。",
+  "text.autoconfig.clientsidenoteblocks.option.enabled": "啟用",
+  "text.autoconfig.clientsidenoteblocks.option.enabled.@Tooltip": "啟用模組。可以在按鍵綁定設定中指定按鍵",
+  "text.clientsidenoteblocks.chat.enabled": "用戶端音階盒已啟用",
+  "text.clientsidenoteblocks.chat.disabled": "用戶端音階盒已停用",
+  "text.clientsidenoteblocks.keybind.category": "用戶端音階盒",
+  "text.clientsidenoteblocks.keybind.toggle": "開關模組功能"
+}
