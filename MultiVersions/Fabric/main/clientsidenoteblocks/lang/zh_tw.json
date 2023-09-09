@@ -7,5 +7,5 @@
   "text.clientsidenoteblocks.chat.enabled": "用戶端音階盒已啟用",
   "text.clientsidenoteblocks.chat.disabled": "用戶端音階盒已停用",
   "text.clientsidenoteblocks.keybind.category": "用戶端音階盒",
-  "text.clientsidenoteblocks.keybind.toggle": "切換模組啟用"
+  "text.clientsidenoteblocks.keybind.toggle": "開關模組功能"
 }
