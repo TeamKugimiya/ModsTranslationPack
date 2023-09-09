@@ -43,7 +43,7 @@ def log_message(msg: str, path: Path, msg_type: str):
             global ERROR_NUM # pylint: disable=W0603
             ERROR_NUM += 1
         case _:
-            print("錯誤！")
+            print("⚠️ 類型錯誤！")
             sys.exit(1)
 
 def print_block(msg_list: set, group_title: str):
@@ -65,9 +65,9 @@ def find_subfolders(root_folder: Path):
         if sub.is_dir():
             subfolders.append(sub)
         elif sub.is_file():
-            log_message("存在不該存在的檔案或資料夾！", sub, "ERROR")
+            log_message("📁 外部驗證｜存在不該存在的檔案或資料夾", sub, "ERROR")
         else:
-            log_message("找不到 JSON 檔案！", sub, "ERROR")
+            log_message("📁 外部驗證｜找不到任何檔案", sub, "ERROR")
 
     return subfolders
 
@@ -132,7 +132,7 @@ def verify_loop(platform, version):
     """
     scan_path = Path("MultiVersions", platform, version)
     if not scan_path.is_dir():
-        log_message("🚧 結構｜資料夾不存在！", scan_path, "WARN")
+        log_message("🚧 結構｜資料夾不存在", scan_path, "WARN")
         return
 
     subfolders = find_subfolders(scan_path)
@@ -148,7 +148,7 @@ def verify_clean(json_dict: dict):
     platform = json_dict["supported_platform"]
     list_version = {version["dir_path"] for version in json_dict["versions"]}
     allowed_items = set(platform + ["configs", "Patcher", "README.md"])
-    error_message = "外部驗證｜存在不允許的檔案或資料夾"
+    error_message = "📁 外部驗證｜存在不允許的檔案或資料夾"
 
     for item in path.iterdir():
         if item.name not in allowed_items:
