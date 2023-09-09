@@ -4,12 +4,13 @@ import sys
 import json
 from pathlib import Path
 
-ERROR_MSG = "結構錯誤！"
+# Message set list
+MSG_INFO = set()
+MSG_WARN = set()
+MSG_ERROR = set()
+
+# Message error count
 ERROR_NUM = 0
-LANG_ORIGINAL_FILES = ["en_us.json", "en_us.lang"]
-LANG_TRANSLATE_FILES = ["zh_tw.json", "zh_tw.lang"]
-PREFIX_ERROR = "::error::" if os.environ.get("CI") else ""
-PREFIX_WARNING = "::warning::" if os.environ.get("CI") else ""
 
 def load_json(path: Path):
     """
@@ -23,22 +24,37 @@ def load_json(path: Path):
         print(f"讀取 JSON 檔案時發生錯誤: {exc}")
         return None
 
-def log_warning(warning_msg, path):
+def log_message(msg: str, path: Path, msg_type: str):
     """
-    Log warning message and path
-    """
-    print(PREFIX_WARNING + warning_msg)
-    print(f"路徑：{path}")
+    A simple log function to add all message into their list
 
-def log_error(error_msg, path):
+    Type list: INFO, WARN, ERROR
     """
-    Log error message and path
-    Add error count
+    prefix_warn = "::warning::" if os.environ.get("CI") else ""
+    prefix_error = "::error::" if os.environ.get("CI") else ""
+
+    match msg_type:
+        case "INFO":
+            MSG_INFO.add(f"{msg} - {path}")
+        case "WARN":
+            MSG_WARN.add(f"{prefix_warn}{msg} - {path}")
+        case "ERROR":
+            MSG_ERROR.add(f"{prefix_error}{msg} - {path}")
+            global ERROR_NUM # pylint: disable=W0603
+            ERROR_NUM += 1
+        case _:
+            print("錯誤！")
+            sys.exit(1)
+
+def print_block(msg_list: set, group_title: str):
     """
-    print(PREFIX_ERROR + error_msg)
-    print(f"路徑：{path}")
-    global ERROR_NUM # pylint: disable=W0603
-    ERROR_NUM += 1
+    Print message with group (GitHub Action)
+    """
+    print(f"::group::{group_title}")
+    for i in msg_list:
+        print(i)
+    print("::endgroup::")
+    print("")
 
 def find_subfolders(root_folder: Path):
     """
@@ -50,9 +66,9 @@ def find_subfolders(root_folder: Path):
         if sub.is_dir():
             subfolders.append(sub)
         elif sub.is_file():
-            log_error("警告，資料夾搜尋到不該存在的檔案！", sub)
+            log_message("存在不該存在的檔案或資料夾！", sub, "ERROR")
         else:
-            log_error("錯誤！", sub)
+            log_message("找不到 JSON 檔案！", sub, "ERROR")
 
     return subfolders
 
@@ -60,9 +76,11 @@ def check_lang_exists(path: Path):
     """
     Check folder list, and see the correct file
     """
+    lang_original_files = ["en_us.json", "en_us.lang"]
+    lang_translate_files = ["zh_tw.json", "zh_tw.lang"]
     existing_files = set(x.name for x in path.iterdir() if x.is_file())
-    original_files_exist = set(LANG_ORIGINAL_FILES) & existing_files
-    translate_files_exist = set(LANG_TRANSLATE_FILES) & existing_files
+    original_files_exist = set(lang_original_files) & existing_files
+    translate_files_exist = set(lang_translate_files) & existing_files
 
     return len(original_files_exist) > 0 and len(translate_files_exist) > 0
 
@@ -77,10 +95,9 @@ def validate_language(subdir):
     Verify langauge is exist
     """
     if check_lang_exists(subdir):
-        print("結構語言驗證通過。")
-        print(f"路徑：{subdir}")
+        log_message("🌐 語言｜結構驗證通過", subdir, "INFO")
     else:
-        log_error(f"{ERROR_MSG}未包括正確語言檔案。", subdir)
+        log_message("🌐 語言｜結構驗證失敗（未包含 Json 翻譯檔）", subdir, "ERROR")
 
 def validate_manual(subdir):
     """
@@ -88,10 +105,9 @@ def validate_manual(subdir):
     Using file size to check the dir is no empty
     """
     if check_dir_has_data(subdir):
-        print("結構手冊驗證通過。")
-        print(f"路徑：{subdir}")
+        log_message("📖 手冊｜結構驗證通過", subdir, "INFO")
     else:
-        log_error(f"{ERROR_MSG}手冊資料夾中未有任何資料！", subdir)
+        log_message("📖 手冊｜結構驗證失敗（手冊資料夾無任何資料）", subdir, "ERROR")
 
 def verify_structure(path):
     """
@@ -100,7 +116,7 @@ def verify_structure(path):
     subfolders = find_subfolders(path)
 
     if not subfolders:
-        log_error(f"{ERROR_MSG}未包含任何資料夾。", path)
+        log_message("🚧 結構｜不存在任何資料夾。", path, "ERROR")
 
     for subdir in subfolders:
         subdir_name = subdir.name
@@ -109,7 +125,7 @@ def verify_structure(path):
         elif subdir_name == "patchouli_books":
             validate_manual(subdir)
         else:
-            log_error(f"{ERROR_MSG}資料夾下存在未被設定的結構。", subdir)
+            log_message("🚧 結構｜資料夾下存在未被設定的結構。", subdir, "ERROR")
 
 def verify_loop(platform, version):
     """
@@ -117,7 +133,7 @@ def verify_loop(platform, version):
     """
     scan_path = Path("MultiVersions", platform, version)
     if not scan_path.is_dir():
-        log_warning("警告！資料夾路徑並不存在。", scan_path)
+        log_message("🚧 結構｜資料夾不存在！", scan_path, "WARN")
         return
 
     subfolders = find_subfolders(scan_path)
@@ -133,24 +149,28 @@ def verify_clean(json_dict: dict):
     platform = json_dict["supported_platform"]
     list_version = {version["dir_path"] for version in json_dict["versions"]}
     allowed_items = set(platform + ["configs", "Patcher", "README.md"])
-    error_message = "警告，存在不允許的檔案或資料夾！"
+    error_message = "外部驗證｜存在不允許的檔案或資料夾"
 
     for item in path.iterdir():
         if item.name not in allowed_items:
-            log_error(error_message, item)
+            log_message(error_message, item, "ERROR")
 
         if item.name in platform:
             for sub_item in item.iterdir():
                 if sub_item.name not in list_version:
-                    log_error(error_message, sub_item)
+                    log_message(error_message, sub_item, "ERROR")
 
 if __name__ == "__main__":
     versions_dict = load_json(".github/configs/versions.json")
     verify_clean(versions_dict)
+
     for p in versions_dict["supported_platform"]:
         for v in versions_dict["versions"]:
             verify_loop(p, v["dir_path"])
 
+    print_block(MSG_INFO, "資訊")
+    print_block(MSG_WARN, "警告")
+    print_block(MSG_ERROR, "錯誤")
+
     if ERROR_NUM > 0:
-        print("警告：錯誤")
         sys.exit(1)
