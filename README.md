@@ -129,6 +129,12 @@
     </a>
   </td>
   <td align="center">
+    <a href="https://github.com/Ylite-cola" title="特爾">
+      <img src="https://avatars.githubusercontent.com/u/140043701?v=4" width="100;" alt="特爾"/>
+    <br /><sub><b>特爾</b></sub>
+    </a>
+  </td>
+  <td align="center">
     <a href="https://github.com/obscure-man" title="obscure_man">
       <img src="https://avatars.githubusercontent.com/u/59750952?v=4" width="100;" alt="obscure_man"/>
     <br /><sub><b>obscure_man</b></sub>
