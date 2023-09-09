@@ -1,0 +1,5 @@
+{
+  "builtinservers.badge": "內建",
+  "builtinservers.description": "此伺服器已由模組包自動增加。",
+  "builtinservers.forced": "此伺服器已被模組包強制增加且無法被更改。"
+}
