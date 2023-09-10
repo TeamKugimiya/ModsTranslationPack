@@ -123,15 +123,15 @@
     </a>
   </td>
   <td align="center">
-    <a href="https://github.com/Jeffku0107" title="旺財">
-      <img src="https://avatars.githubusercontent.com/u/76643322?v=4" width="100;" alt="旺財"/>
-    <br /><sub><b>旺財</b></sub>
-    </a>
-  </td>
-  <td align="center">
     <a href="https://github.com/Ylite-cola" title="特爾">
       <img src="https://avatars.githubusercontent.com/u/140043701?v=4" width="100;" alt="特爾"/>
     <br /><sub><b>特爾</b></sub>
+    </a>
+  </td>
+  <td align="center">
+    <a href="https://github.com/Jeffku0107" title="旺財">
+      <img src="https://avatars.githubusercontent.com/u/76643322?v=4" width="100;" alt="旺財"/>
+    <br /><sub><b>旺財</b></sub>
     </a>
   </td>
   <td align="center">
