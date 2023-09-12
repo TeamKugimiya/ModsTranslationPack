@@ -1,17 +1,17 @@
 {
   "elytratrims.command.response.get_mode": "目前 %s 的模式是 %s",
-  "elytratrims.command.response.set_mode": "%s 模式已設定成 %s",
-  "elytratrims.command.response.reset": "設定重置！",
+  "elytratrims.command.response.set_mode": "%s 模式已設為 %s",
+  "elytratrims.command.response.reset": "設定已重設！",
   "elytratrims.config.title": "鞘翅紋樣",
   "elytratrims.config.category": "設定",
   "elytratrims.config.category.render": "繪製",
   "elytratrims.config.category.texture": "紋理",
   "elytratrims.config.texture.useBannerTextures": "使用旗幟紋理",
-  "elytratrims.config.texture.useBannerTextures.tooltip": "使用旗幟紋理給鞘翅，而不是盾牌的。",
+  "elytratrims.config.texture.useBannerTextures.tooltip": "鞘翅改為使用旗幟紋理，而不是盾牌的紋理。",
   "elytratrims.config.texture.cropTrims": "裁切紋樣",
   "elytratrims.config.texture.cropTrims.tooltip": "裁切盔甲紋樣來貼合鞘翅。",
-  "elytratrims.config.texture.useDarkerTrim": "使用暗色紋樣",
-  "elytratrims.config.texture.useDarkerTrim.tooltip": "當有可使用的暗色鞘翅紋樣時。\n這使用了你盔甲紋樣相同材料的顏色。",
+  "elytratrims.config.texture.useDarkerTrim": "使用深色紋樣",
+  "elytratrims.config.texture.useDarkerTrim.tooltip": "情形許可時，使用深色的鞘翅紋樣。\n這會使用與你盔甲紋樣相同材料的顏色。",
   "elytratrims.config.texture.showBannerIcon": "顯示旗幟圖案",
   "elytratrims.config.texture.showBannerIcon.tooltip": "在鞘翅物品上顯示旗幟圖案。",
   "elytratrims.config.type.color": "染色",
@@ -29,5 +29,5 @@
   "elytratrims.config.mode.none": "無",
   "elytratrims.config.mode.self": "自己",
   "elytratrims.config.mode.others": "其他人",
-  "elytratrims.config.mode.all": "所有"
+  "elytratrims.config.mode.all": "所有人"
 }
