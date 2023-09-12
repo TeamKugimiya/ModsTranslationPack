@@ -22,8 +22,8 @@
     "option.ebe.render_enhanced_beds.comment": "啟用已處理過的床模型，在擁有大量床的區域大幅度提高效能。同時允許從遠處看到床。如果床因為其他模組變成隱形，請停用此最佳化。",
     "option.ebe.render_enhanced_shulker_boxes": "最佳化界伏盒",
     "option.ebe.render_enhanced_shulker_boxes.comment": "啟用已處理過的界伏盒模型，在擁有大量界伏盒的區域大幅度提高效能。同時允許從遠處看到界伏盒。如果界伏盒因為其他模組變成隱形，請停用此最佳化。",
-    "option.ebe.render_enhanced_decorated_pots": "最佳化裝飾性盆栽",
-    "option.ebe.render_enhanced_decorated_pots.comment": "啟用已處理過的裝飾性盆栽模型，在擁有大量裝飾性盆栽的區域大幅度提高效能。同時允許從遠處看到裝飾性盆栽。如果裝飾性盆栽變成隱形，或是模組版的盆栽圖樣沒有正確運作，請停用此最佳化。",
+    "option.ebe.render_enhanced_decorated_pots": "最佳化飾紋陶罐",
+    "option.ebe.render_enhanced_decorated_pots.comment": "啟用已處理過的飾紋陶罐模型，在擁有大量飾紋陶罐的區域大幅度提高效能。同時允許從遠處看到飾紋陶罐。如果飾紋陶罐變成隱形，或是其他模組的陶罐紋樣沒有正確運作，請停用此最佳化。",
     "option.ebe.chest_ao": "平滑儲物箱光源",
     "option.ebe.chest_ao.comment": "允許儲物箱使用平滑光源與環境遮蔽。需啟用「最佳化儲物箱」。",
     "option.ebe.sign_ao": "平滑告示牌光源",
@@ -34,7 +34,7 @@
     "option.ebe.bed_ao.comment": "允許床使用平滑光源與環境遮蔽。需啟用「最佳化床」。",
     "option.ebe.shulker_box_ao": "平滑界伏盒光源",
     "option.ebe.shulker_box_ao.comment": "允許界伏盒使用平滑光源與環境遮蔽。需啟用「最佳化界伏盒」。",
-    "option.ebe.decorated_pot_ao": "平滑裝飾性盆栽光源",
+    "option.ebe.decorated_pot_ao": "平滑飾紋陶罐光源",
     "option.ebe.decorated_pot_ao.comment": "允許裝飾性盆栽使用平滑光源與環境遮蔽。需啟用「最佳化裝飾性盆栽」。",
     "option.ebe.christmas_chests": "聖誕節儲物箱",
     "option.ebe.christmas_chests.valueComment.allowed": "已允許 - 聖誕節紋理將在 12 月 24 號到 26 號之間套用。",
@@ -55,7 +55,7 @@
     "option.ebe.experimental_signs": "實驗性告示牌",
     "option.ebe.experimental_signs.comment": "啟用非常實驗性的繪製告示牌功能，例如可與資源包配合使用的特別產生粒子紋理。",
     "option.ebe.force_resource_pack_compat": "強制資源包相容性",
-    "option.ebe.force_resource_pack_compat.comment": "啟用這個當使用資源包時方塊變成隱形的情況。不要在資源包已設計為此模組情況下啟用。如果問題仍繼續發生，請回報給它們。",
+    "option.ebe.force_resource_pack_compat.comment": "當使用的資源包造成方塊隱形時，請啟用該功能。不要在資源包已為此模組設計的情況下啟用。如果問題仍持續發生，請向資源包作者回報。",
     "option.ebe.dump": "傾印範例資源",
     "option.ebe.dump.comment": "傾印出模組預設的資源到 .minecraft/enhanced_bes_dump/，供資源包製作者們參考。",
 
@@ -68,7 +68,7 @@
     "text.ebe.bell_options": "鐘選項",
     "text.ebe.bed_options": "床選項",
     "text.ebe.shulker_box_options": "界伏盒選項",
-    "text.ebe.decorated_pot_options": "裝飾性盆栽選項",
+    "text.ebe.decorated_pot_options": "飾紋陶罐選項",
     "text.ebe.advanced": "進階",
     "text.ebe.option_value_division": "："
 }
