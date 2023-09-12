@@ -1,5 +1,5 @@
 {
-  "itemGroup.snowyspirit": "雪天精神",
+  "itemGroup.snowyspirit": "雪上潮流",
   "item.snowyspirit.sled": "%s雪橇",
   "item.snowyspirit.sled_oak": "橡木雪橇",
   "item.snowyspirit.sled_birch": "樺木雪橇",
@@ -71,7 +71,7 @@
   "item.snowyspirit.glow_lights_gray": "灰色燈串",
   "item.snowyspirit.glow_lights_black": "黑色燈串",
   "item.snowyspirit.glow_lights_brown": "棕色燈串",
-  "item.snowyspirit.glow_lights_prismatic": "多彩燈串",
+  "item.snowyspirit.glow_lights_prismatic": "彩色燈串",
   "item.snowyspirit.eggnog": "蛋奶酒",
   "item.snowyspirit.music_disc_winter.desc": "STiiX - A Carol",
   "item.snowyspirit.music_disc_winter": "唱片",
