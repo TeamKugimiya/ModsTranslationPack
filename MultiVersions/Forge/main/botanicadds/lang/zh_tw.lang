@@ -107,7 +107,7 @@ botanicadds.page.elven_altar0=$(item)精靈祭壇$(0)是個加速合成的方法
 botanicadds.page.elven_altar1=製作$(item)精靈祭壇$(0)
 
 botanicadds.entry.elf_resources_extra=更多亞爾夫海姆的資源
-botanicadds.page.elf_resources_extra0=$(thing)植物學附加$(0)增加了幾項與精靈的交易，使其能夠換到本模組添加的資源。
+botanicadds.page.elf_resources_extra0=$(thing)植物學附加$(0)增加了幾項與精靈的交易，使其能夠換到本模組新增的資源。
 botanicadds.page.elf_resources_extra1=交換$(item)精靈青金石$(0)
 botanicadds.page.elf_resources_extra2=交換$(item)夢之石$(0)
 botanicadds.page.elf_resources_extra3=交換$(item)精靈木$(0)
