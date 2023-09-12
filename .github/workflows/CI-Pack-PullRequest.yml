@@ -72,5 +72,4 @@ jobs:
 
       - name: DEBUG
         run: |
-          mkdir ${PR_NUM}
           ls -alh
