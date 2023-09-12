@@ -1,0 +1,155 @@
+# Headers
+itemGroup.botanicadds=植物學附加
+botania.category.botanicadds=植物學附加
+botanicadds.text.pools=~%s 池
+
+# Blocks
+block.botanicadds.mana_tesseract=魔力遙傳器
+block.botanicadds.terra_catalyst=泰拉催化器
+block.botanicadds.dreamrock=夢之石
+block.botanicadds.mana_lapis_block=魔力青金石方塊
+block.botanicadds.elven_lapis_block=精靈青金石方塊
+block.botanicadds.elvenwood_log=精靈木原木
+block.botanicadds.elvenwood=精靈木塊
+block.botanicadds.elven_altar=精靈祭壇
+block.botanicadds.elven_brewery=精靈釀造台
+block.botanicadds.dreaming_pool=夢境魔力池
+block.botanicadds.gaia_plate=蓋亞凝聚板
+block.botanicadds.gaiasteel_block=蓋亞鋼方塊
+block.botanicadds.reduced_sculk_sensor=失效的伏聆振測器
+block.botanicadds.gaiasteel_pylon=蓋亞鋼水晶
+block.botanicadds.elven_fluxfield=精靈魔力轉換器
+
+# Flowers
+block.botanicadds.flowers.necroidus=死靈花
+block.botanicadds.flowers.rainute=雨苣苔
+block.botanicadds.flowers.glaciflora=冰川花
+block.botanicadds.flowers.tempestea=風暴莧
+block.botanicadds.flowers.vibrantia=振動草
+block.botanicadds.flowers.apicaria=撫蜂花
+block.botanicadds.flowers.energizera=魔能花
+
+# Floating flowers
+block.botanicadds.flowers.floating.necroidus=浮空死靈花
+block.botanicadds.flowers.floating.rainute=浮空雨苣苔
+block.botanicadds.flowers.floating.glaciflora=浮空冰川花
+block.botanicadds.flowers.floating.tempestea=浮空風暴莧
+block.botanicadds.flowers.floating.vibrantia=浮空振動草
+block.botanicadds.flowers.floating.apicaria=浮空撫蜂花
+block.botanicadds.flowers.floating.energizera=浮空魔能花
+
+# Flower References
+block.botanicadds.flowers.necroidus.reference=死亡造就了我
+block.botanicadds.flowers.rainute.reference=喝光雨水
+block.botanicadds.flowers.glaciflora.reference=自寒冬中成長
+block.botanicadds.flowers.tempestea.reference=強大到令人不安
+block.botanicadds.flowers.vibrantia.reference=利用過去的回聲產生魔力
+block.botanicadds.flowers.apicaria.reference=連最兇殘的蜜蜂也能安撫
+block.botanicadds.flowers.energizera.reference=靜靜地汲取能量
+
+# Items
+item.botanicadds.rune_tp=傳送符文
+item.botanicadds.rune_energy=能量符文
+item.botanicadds.mana_lapis=魔力青金石
+item.botanicadds.elven_lapis=精靈青金石
+item.botanicadds.gaia_shard=蓋亞碎片
+item.botanicadds.gaiasteel_ingot=蓋亞鋼錠
+item.botanicadds.gaiasteel_nugget=蓋亞鋼粒
+item.botanicadds.terra_protector=Terra Protector
+item.botanicadds.aura_ring_gaia=蓋亞光環之戒
+item.botanicadds.mana_ring_gaia=蓋亞魔力之戒
+item.botanicadds.mana_stealer_sword=魔力汲取之刃
+item.botanicadds.tesseract_attuner=遙傳器設定工具
+item.botanicadds.sculk_petal=伏聆花瓣
+
+# Tooltips
+info.botanicadds.dreaming_pool=一盆能頂兩盆用
+info.botanicadds.mana_tesseract.no_channel=未設定頻道
+info.botanicadds.mana_tesseract.channel=頻道：%s
+info.botanicadds.spark_attachable=能夠接上火花
+info.botanicadds.tesseract_attuner1=重新命名以設立頻道
+info.botanicadds.tesseract_attuner2=Shift+右鍵切換公共/私人模式
+info.botanicadds.tesseract_attuner3=與魔力遙傳器合成來為其設定頻道
+info.botanicadds.tesseract_attuner.mode=模式：%s
+info.botanicadds.tesseract_attuner.mode.public=公開
+info.botanicadds.tesseract_attuner.mode.private=私人
+info.botanicadds.sculk_petal=用%2$s剪下%1$s上的「花瓣」
+
+# Lexicon
+botanicadds.category=植物學附加
+
+botanicadds.page.necroidus0=$(item)死靈花$(0)基本上就是個使用魔力的凋零怪建造器，只要在花附近丟出靈魂砂和凋零骷髏頭顱就能開始建造。$(br2)備註：凋零怪會蓋在花上方，整個過程並不會消耗太多魔力。
+botanicadds.page.necroidus1=凋零小子
+
+botanicadds.page.rainute0=$(item)雨苣苔$(0)在下雨的時候會生產$(item)魔力$(0)$(br2)備註：在雪地生態域並不會生產$(item)魔力$(0)
+botanicadds.page.rainute1=別讓它濕透了
+
+botanicadds.page.glaciflora0=$(item)冰川花$(0)是$(item)雨苣苔$(0)在雪地生態域的版本。現在你知道他為什麼流行了。
+botanicadds.page.glaciflora1=Cold to the touch!
+
+botanicadds.page.tempestea0=$(item)風暴莧$(0)也是一種看天吃飯的產能花，但是它比較主動一點。$(item)風暴莧$(0)在身邊打雷時，會將閃電引導到自身，然後產生大量魔力。之後會花朵會過熱，需要$(thing)約一分鐘$(0)來冷卻。
+botanicadds.page.tempestea1=這也算一種能源轉換器吧
+
+botanicadds.page.vibrantia0=$(item)振動草$(0)來自地底深處，住著$(thing)伏聆$(0)的地方。它利用$(thing)伏聆$(0)的能力，感知附近的振動並產生魔力。$(br2)然而，每做出兩朵花，就會有一個伏聆振測器受到傷害，再也感知不到魔力流動和其他投射物了。 
+botanicadds.page.vibrantia1=我知道你在哪
+
+botanicadds.page.apicaria0=$(item)撫蜂花$(0)是令人放鬆的花，嚴格來說，是令「蜂」放鬆。$(br2)$(item)撫蜂花$(0)將魔力引導至憤怒的蜜蜂裡，使玩家免於牠的傷害（或許你打從一開始就不應該碰牠）。不僅如此，$(item)撫蜂花$(0)也能在玩家收穫$(item)蜂巢$(0)時安撫蜜蜂。
+botanicadds.page.apicaria1=嗡嗡嗡
+
+botanicadds.page.energizera0=通過細微的能量鏈結，這朵花能夠將 $(thing)Forge 能量$(0)（FE）轉換成$(thing)魔力$(0)。
+botanicadds.page.energizera1=魔力即電力，電力即魔力
+
+botanicadds.page.mana_tesseract0=以近乎無限的距離傳輸魔力，甚至可以跨維度傳輸！$(item)魔力遙傳器$(0)是運輸魔力的新選擇。雖然算不上完美，但這是一個好的開始。$(br2)要設定頻道的話，你需要重新命名$(item)遙傳器設定工具$(0)。
+botanicadds.page.mana_tesseract1=空間可能會崩壞……
+botanicadds.page.mana_tesseract2=製作$(item)遙傳器設定工具$(0)
+
+botanicadds.page.elven_altar0=$(item)精靈祭壇$(0)是個加速合成的方法。將符文祭壇用$(l:alfhomancy/elf_resources)$(item)龍石$(0)$(/l)和$(l:botanicadds/dreamrock)$(item)夢之石$(0)$(/l)改造過後，使其能夠裝上火花，大大加速了魔力供給的速度。這可是項重大升級！
+botanicadds.page.elven_altar1=製作$(item)精靈祭壇$(0)
+
+botanicadds.entry.elf_resources_extra=更多亞爾夫海姆的資源
+botanicadds.page.elf_resources_extra0=$(thing)植物學附加$(0)增加了幾項與精靈的交易，使其能夠換到本模組新增的資源。
+botanicadds.page.elf_resources_extra1=交換$(item)精靈青金石$(0)
+botanicadds.page.elf_resources_extra2=交換$(item)夢之石$(0)
+botanicadds.page.elf_resources_extra3=交換$(item)精靈木$(0)
+botanicadds.page.elf_resources_extra4=製作$(item)精靈木塊$(0)
+
+botanicadds.entry.basic_resources_extra=更多資源
+botanicadds.page.basic_resources_extra0=$(thing)植物學附加$(0)增加了幾項材料：幾個符文和一些雜物。
+botanicadds.page.basic_resources_extra1=製作$(item)魔力青金石$(0)
+botanicadds.page.basic_resources_extra2=$(item)傳送符文$(0)
+botanicadds.page.basic_resources_extra3=$(item)能量符文$(0)
+
+botanicadds.page.gaia_plate0=既然能和精靈換到更多資源了，那要不要試著升級一下$(item)泰拉凝聚板$(0)呢？$(item)蓋亞凝聚板$(0)在製作$(item)泰拉鋼$(0)時更有效率，但是它能做的不僅如此。
+botanicadds.page.gaia_plate1=製作$(item)蓋亞凝聚板$(0)
+botanicadds.page.gaia_plate3=G.A.板
+botanicadds.page.gaia_plate4=製作$(item)泰拉鋼$(0)
+botanicadds.page.gaia_plate5=製作$(item)蓋亞鋼$(0)
+
+botanicadds.page.terra_catalyst0=$(item)泰拉催化器$(0)就是另外一種催化器，能夠將像是$(item)蓋亞之魂$(0)的東西分成小塊。
+botanicadds.page.terra_catalyst1=製作$(item)泰拉催化器$(0)
+botanicadds.page.terra_catalyst2=製作$(item)蓋亞碎片$(0)
+
+botanicadds.page.dreaming_pool0=$(item)夢境魔力池$(0)是另一種魔力池，容量是一般魔力池的兩倍。
+botanicadds.page.dreaming_pool1=事情變得不對勁……
+
+botanicadds.page.mana_stealer_sword0=$(item)魔力汲取之刃$(0)是$(item)泰拉之刃$(0)的改良版。除了傷害更高以外，還能吸取對方玩家的魔力。
+botanicadds.page.mana_stealer_sword1=製作$(item)魔力汲取之刃$(0)
+
+botanicadds.page.elven_brewery0=$(item)精靈釀造台$(0)是$(item)植物釀造台$(0)的改良版，在結合了$(l:alfhomancy/elf_resources)$(item)龍石$(0)$(/l)和$(l:botanicadds/basics/elf_resources_extra)$(item)夢之石$(0)$(/l)之後，釀造台能夠接上火花，使製造速度加快。
+botanicadds.page.elven_brewery1=製作$(item)精靈釀造台$(0)
+
+botanicadds.page.aura_ring_gaia0=$(item)蓋亞光環之戒$(0)是$(l:baubles/aura_ring)$(item)高級光環之戒$(0)$(/l)的升級版，前者能以後者兩倍的速度生產魔力。需要用一塊$(item)蓋亞鋼$(0)來升級。
+botanicadds.page.aura_ring_gaia1=製作$(item)蓋亞光環之戒$(0)
+
+botanicadds.page.mana_ring_gaia0=$(item)蓋亞魔力之戒$(0)是$(l:baubles/mana_ring)$(item)高級魔力之戒$(0)$(/l)的升級版，前者的魔力容量是後者的四倍。需要用一塊$(item)蓋亞鋼$(0)來升級。
+botanicadds.page.mana_ring_gaia1=製作$(item)蓋亞魔力之戒$(0)
+
+botanicadds.page.gaiasteel_pylon0=$(item)蓋亞鋼水晶$(0)是$(l:alfhomancy/intro)$(item)自然水晶$(0)$(/l)的升級版。只需要用一點$(l:botanicadds/misc/gaia_plate)$(item)蓋亞鋼$(0)$(/l)加上$(l:alfhomancy/intro)$(item)自然水晶$(0)$(/l)即可。$(br2)升級過後，維持$(l:alfhomancy/intro)$(item)精靈傳送門$(0)$(/l)的魔力消耗大約將會是原來的 1/4。
+botanicadds.page.gaiasteel_pylon1=製作$(item)蓋亞鋼水晶$(0)
+
+botanicadds.page.elven_fluxfield0=利用精靈的資源改良$(l:mana/rf_generator)$(item)魔力轉換器$(0)$(/l)，使其能夠接上火花，並擴充了內部容量。
+botanicadds.page.elven_fluxfield1=讓魔法變的實際一點
+
+botania.entry.ba_terra_protector=Terra Protector
+botania.page.ba_terra_protector1=$(item)Terra Protector$(0) is aimed at providing complete protection to any damage at cost of mana. It's not made from rubber though, thus it can overheat and stop working. Don't use it too much, if you don't want to die. A good way to demonstrate what will happen is hugging a cacti.
+botania.page.ba_terra_protector2=Crafting the $(item)Terra Protector$(0).
