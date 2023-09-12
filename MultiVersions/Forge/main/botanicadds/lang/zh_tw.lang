@@ -78,7 +78,7 @@ info.botanicadds.sculk_petal=用%2$s剪下%1$s上的「花瓣」
 # Lexicon
 botanicadds.category=植物學附加
 
-botanicadds.page.necroidus0=$(item)死靈花$(0)基本上就是個使用魔力的凋零怪建造器，只要在花附近丟出靈魂沙和凋零骷髏頭顱就能開始建造。$(br2)備註：凋零怪會蓋在花上方，整個過程並不會消耗太多魔力。
+botanicadds.page.necroidus0=$(item)死靈花$(0)基本上就是個使用魔力的凋零怪建造器，只要在花附近丟出靈魂砂和凋零骷髏頭顱就能開始建造。$(br2)備註：凋零怪會蓋在花上方，整個過程並不會消耗太多魔力。
 botanicadds.page.necroidus1=凋零小子
 
 botanicadds.page.rainute0=$(item)雨苣苔$(0)在下雨的時候會生產$(item)魔力$(0)$(br2)備註：在雪地生態域並不會生產$(item)魔力$(0)
