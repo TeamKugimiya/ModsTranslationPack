@@ -8,7 +8,6 @@
 	"ftbteams.not_officer": "%s 不是「%s」的隊伍幹部！",
 	"ftbteams.not_invited": "你還未被邀請加入至「%s」！",
 	"ftbteams.name_too_short": "隊伍名稱過於簡短（必須 >=3 個字元）",
-	"ftbteams.server_permissions_prevent": "伺服器權限阻止你進行該操作。",
 	"ftbteams.info.id": "完整隊伍 ID：%s",
 	"ftbteams.info.short_id": "簡短隊伍 ID：%s",
 	"ftbteams.info.owner": "所有者：%s",
@@ -84,7 +83,6 @@
 	"ftbteams.message.no_longer_allied": "你已不再是「%s」的隊伍盟友！",
 	"ftbteams.message.created_server_team": "已建立新的伺服器隊伍「%s」！",
 	"ftbteams.message.deleted_server_team": "已刪除伺服器隊伍「%s」！",
-	"ftbteams.message.team_disbanded": "已強制解散隊伍「%s」（%s）！",
 	"ftbteams.accept": "接受 ✔",
 	"ftbteams.decline": "拒絕 ✘"
 }
