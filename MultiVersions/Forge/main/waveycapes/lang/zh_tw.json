@@ -1,22 +1,22 @@
 {
-    "text.wc.title": "波浪披風設定",
+    "text.wc.title": "《波浪披風》設定",
 
     "text.wc.setting.capestyle": "披風樣式",
-    "text.wc.setting.capestyle.tooltip": "在平滑彎曲和硬塊之間切換。",
-    "text.wc.setting.capestyle.BLOCKY": "硬塊",
+    "text.wc.setting.capestyle.tooltip": "在平滑彎曲和方格披風之間切換。",
+    "text.wc.setting.capestyle.BLOCKY": "方格",
     "text.wc.setting.capestyle.SMOOTH": "平滑",
-    "text.wc.setting.windmode": "行風模式",
-    "text.wc.setting.windmode.tooltip": "給披風增加額外移動。",
+    "text.wc.setting.windmode": "隨風擺動模式",
+    "text.wc.setting.windmode.tooltip": "讓披風能隨著風擺動。",
     "text.wc.setting.windmode.NONE": "無風",
     "text.wc.setting.windmode.WAVES": "波浪",
     "text.wc.setting.capemovement": "披風擺動",
-    "text.wc.setting.capemovement.tooltip": "變更披風的行為方式。",
+    "text.wc.setting.capemovement.tooltip": "變更披風的擺動方式。",
     "text.wc.setting.capemovement.VANILLA": "經典",
     "text.wc.setting.capemovement.BASIC_SIMULATION": "模擬",
     "text.wc.setting.capemovement.BASIC_SIMULATION_3D": "模擬 V2",
     "text.wc.setting.capemovement.DUNGEONS": "地下城",
     "text.wc.setting.gravity": "重力",
     "text.wc.setting.gravity.tooltip": "變更套用在披風上的重力值。",
-    "text.wc.setting.heightMultiplier": "高度乘數器",
-    "text.wc.setting.heightMultiplier.tooltip": "變更披風對 Y 軸的移動反應程度。"
+    "text.wc.setting.heightMultiplier": "高度乘數",
+    "text.wc.setting.heightMultiplier.tooltip": "變更披風對 Y 軸移動的反應程度。"
 }
