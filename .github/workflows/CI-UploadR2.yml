@@ -1,0 +1,41 @@
+name: CI | Upload R2
+
+on:
+  workflow_run:
+    workflows: [ "CI | Pack - Pull Request" ]
+    types: [ completed ]
+
+jobs:
+  r2:
+    name: Upload R2
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get the PR number
+        if: |
+          github.event.workflow_run.event == 'pull_request' &&
+          github.event.workflow_run.conclusion == 'success' &&
+          github.repository == 'xMikux/ModsTranslationPack'
+        run: |
+          PR_RAW=$(curl 'https://api.github.com/search/issues?q=${{ github.event.workflow_run.head_commit.id }}')
+
+          PR_NUM=$(echo $PR_RAW | jq '.items | map(select(.repository_url=="https://api.github.com/repos/${{ github.repository }}")) | .[0].number')
+          echo "PR_NUM=${PR_NUM}" >> ${GITHUB_ENV}
+
+      - name: Download All Artifact
+        uses: actions/download-artifact@v3
+
+      - name: Move Artifacts Files
+        run: |
+          for i in ModsTranslationPack-*
+          do 
+            cd "$i" || exit 1
+            sha256sum -c checksum.txt
+            mv ModsTranslationPack-*.zip ../
+            cd ..
+          done
+
+      - name: DEBUG
+        run: |
+          mkdir ${PR_NUM}
+          ls -alh
