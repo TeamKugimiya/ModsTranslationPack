@@ -62,6 +62,7 @@ jobs:
 
   pack-release:
     name: Pack ${{ matrix.version }}
+    if: ${{ needs.release-please.outputs.release_created }}
     needs: [ release-please, matrix-setup ]
 
     strategy:
@@ -81,6 +82,7 @@ jobs:
 
   summary:
     name: Generate Summary
+    if: ${{ needs.release-please.outputs.release_created }}
     needs: [ pack-release ]
 
     uses: ./.github/workflows/Reusable-Summary.yml
@@ -88,6 +90,7 @@ jobs:
   make-changelog:
     name: Make Changelog 
     runs-on: ubuntu-latest
+    if: ${{ needs.release-please.outputs.release_created }}
     needs: [ release-please ]
 
     outputs:
@@ -107,6 +110,7 @@ jobs:
   release-upload:
     name: Release Upload
     runs-on: ubuntu-latest
+    if: ${{ needs.release-please.outputs.release_created }}
     needs: [ release-please ]
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
