@@ -52,8 +52,7 @@ if __name__ == "__main__":
     PROJECT_URL = "https://github.com/xMikux/ModsTranslationPack"
     commit_message = sys.argv[1]
     commit_info = extract_conventional_commits(commit_message)
-    # commit_sha = os.environ["GITHUB_SHA"]
-    commit_sha = "abcdefg"
+    commit_sha = os.environ["GITHUB_SHA"]
 
     if commit_info:
         line = "## {}\n\n".format(type_title(commit_info["type"]))
