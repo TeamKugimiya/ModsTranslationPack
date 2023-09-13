@@ -46,6 +46,7 @@
 	"ftblibrary.select_item.caps": "編輯屬性",
 	"ftblibrary.select_item.display_name": "設定顯示名稱",
 	"ftblibrary.select_image.scanning": "正在掃描圖片：這可能需要幾秒鐘的時間...",
+	"ftblibrary.select_image.rescan": "重新掃描圖片",
 	"config.group.value": "數值",
 	"sidebar_button.ftblibrary.toggle.gamemode": "切換遊戲模式",
 	"sidebar_button.ftblibrary.toggle.gamemode.tooltip": "生存與創造模式間切換",
