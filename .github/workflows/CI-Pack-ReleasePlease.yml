@@ -15,21 +15,40 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  json-formater:
+    name: Json Formater
+    runs-on: ubuntu-latest
+    if: github.repository == 'xMikux/ModsTranslationPack'
+
+    steps:
+      - name: Checking Repository
+        uses: actions/checkout@v4
+      
+      - name: Get Json
+        id: get_json
+        run: |
+          echo "json_data=$(cat .github/configs/changelog-types.json | jq -r tostring)" >> "$GITHUB_OUTPUT"
+
+    outputs:
+      json_data: ${{ steps.get_json.outputs.json_data }}
+
   release-please:
     name: Release Please
     runs-on: ubuntu-latest
-    if: github.repository == 'xMikux/ModsTranslationPack'
+    needs: [ json-formater ]
+
     steps:
       - name: Release Please
         id: release_please
         uses: google-github-actions/release-please-action@v3
+
         with:
           release-type: simple
           pull-request-title-pattern: "chore${scope}: 發佈${component} ${version}"
           pull-request-header: ":robot: 我建立了發佈 *beep* *boop*"
           labels: "自動發佈：待定"
           release-labels: "自動發佈：已發佈"
-          changelog-types: .github/configs/changelog-types.json
+          changelog-types: ${{ needs.json-formater.outputs.json_data }}
 
     outputs:
       release_created: ${{ steps.release_please.outputs.release_created }}
