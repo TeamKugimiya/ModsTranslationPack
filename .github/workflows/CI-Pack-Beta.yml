@@ -19,12 +19,16 @@ concurrency:
 jobs:
   matrix-setup:
     name: Setup Matrix
-    if: github.repository == 'xMikux/ModsTranslationPack'
+    if: |
+      contains(github.event.head_commit.message, 'chore(main): 發佈') == false &&
+      github.repository == 'xMikux/ModsTranslationPack'
     uses: ./.github/workflows/Reusable-MatrixSetup.yml
 
   changelog-commit:
     name: Changelog Commit
-    if: github.repository == 'xMikux/ModsTranslationPack'
+    if: |
+      contains(github.event.head_commit.message, 'chore(main): 發佈') == false &&
+      github.repository == 'xMikux/ModsTranslationPack'
     runs-on: ubuntu-latest
 
     outputs:
@@ -46,7 +50,9 @@ jobs:
 
   verify-exist:
     name: Verify Version Exist
-    if: github.repository == 'xMikux/ModsTranslationPack'
+    if: |
+      contains(github.event.head_commit.message, 'chore(main): 發佈') == false &&
+      github.repository == 'xMikux/ModsTranslationPack'
 
     uses: ./.github/workflows/Reusable-VerifyExistVersion.yml
 
