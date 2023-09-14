@@ -25,7 +25,7 @@
 	"ftbultimine.client_settings.x_offset": "顯示位置位移（目前尚未使用）",
 	"ftbultimine.server_settings": "伺服器設定",
 	"ftbultimine.server_settings.max_blocks": "單次可連鎖的最多方塊數",
-	"ftbultimine.server_settings.exhaustion_per_block": "耐久度的消耗乘數（每挖掘一個方塊）",
+	"ftbultimine.server_settings.exhaustion_per_block": "飢餓值的消耗乘數（每挖掘一個方塊）",
 	"ftbultimine.server_settings.merge_tags": "合併標籤（不定形）",
 	"ftbultimine.server_settings.merge_tags.tooltip": "對於「不定形」挖掘模式，擁有這些標籤中任何一個的方塊，只要與原始挖掘的方塊相符，都將視作為連鎖挖礦的有效候選方塊。",
 	"ftbultimine.server_settings.merge_tags_shaped": "合併標籤（指定形狀）",
