@@ -1,0 +1,17 @@
+{
+  "item.gildedarmor.gilded_netherite_helmet": "Gilded Netherite Helmet",
+  "item.gildedarmor.gilded_netherite_chestplate": "Gilded Netherite Chestplate",
+  "item.gildedarmor.gilded_netherite_leggings": "Gilded Netherite Leggings",
+  "item.gildedarmor.gilded_netherite_boots": "Gilded Netherite Boots",
+  "item.gildedarmor.gilded_enderite_helmet": "Gilded Enderite Helmet",
+  "item.gildedarmor.gilded_enderite_chestplate": "Gilded Enderite Chestplate",
+  "item.gildedarmor.gilded_enderite_leggings": "Gilded Enderite Leggings",
+  "item.gildedarmor.gilded_enderite_boots": "Gilded Enderite Boots",
+
+  "item.gildedarmor.smithing_template.gilding_upgrade.applies_to": "Netherite (and Enderite) Armor",
+  "item.gildedarmor.smithing_template.gilding_upgrade.ingredients": "Gold Ingot",
+  "item.gildedarmor.smithing_template.gilding_upgrade.base_slot_description": "Put a piece of Netherite (or Enderite) armor here",
+  "item.gildedarmor.smithing_template.gilding_upgrade.additions_slot_description": "Put a Gold Ingot here",
+
+  "upgrade.gildedarmor.gilding_upgrade": "Gilding Upgrade"
+}
