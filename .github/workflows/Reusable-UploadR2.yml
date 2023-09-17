@@ -18,17 +18,22 @@ jobs:
 
       - name: Move Artifacts Files
         run: |
+          mkdir ${{ inputs.pr_number }}
           for i in ModsTranslationPack-*
-          do 
+          do
             cd "$i" || exit 1
             sha256sum -c checksum.txt
-            mv ModsTranslationPack-*.zip ../
+            mv ModsTranslationPack-*.zip ../${{ inputs.pr_number }}/
             cd ..
           done
 
       - name: Upload to R2
-        uses: cloudflare/wrangler-action@v3
+        uses: Docker-Collection/docker-aws-s3-action@main
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_R2_API }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: r2 object put modstranslationspack/pr/${{ inputs.pr_number }} --file=*.zip
+          aws_s3_bucket: modstranslationspack
+          aws_access_key_id: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_s3_endpoint: ${{ secrets.CLOUDFLARE_R2_ENDPOINT }}
+          source_dir: "pr/"
+          dest_dir: "pr/${{ inputs.pr_number }}/"
+          aws_command: "sync"
