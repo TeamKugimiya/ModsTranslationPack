@@ -27,7 +27,7 @@ jobs:
 
       - name: Move Artifacts Files
         run: |
-          mkdir pr/${{ inputs.pr_number }}
+          mkdir -p pr/${{ inputs.pr_number }}
           for i in ModsTranslationPack-*
           do
             cd "$i" || exit 1
