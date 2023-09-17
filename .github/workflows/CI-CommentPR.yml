@@ -72,6 +72,7 @@ jobs:
             for (const art of artifacts) {
               body += `\n* [${art.name}.zip](https://nightly.link/${owner}/${repo}/actions/artifacts/${art.id}.zip)`;
             }
+            body += `\n</details>';
             body += `\n\n------\n此服務由 [nightly.link](https://github.com/oprypin/nightly.link) 與 [Cloudflare R2](https://www.cloudflare.com/zh-tw/developer-platform/r2/) 提供。\n這些測試用翻譯包將會在 **90** 天內過期，過期後無法再度被下載。`;
             core.info("Review thread message body:", body);
             await upsertComment(owner, repo, ${{ env.PR_NUM }},
