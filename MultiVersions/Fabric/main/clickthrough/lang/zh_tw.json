@@ -1,0 +1,35 @@
+{
+    "clickthrough.config.sneaktodye": "潛行來染色告示牌",
+    "clickthrough.config.tt.sneaktodye": "啟用：點擊穿透告示牌，潛行染色告示牌\n關閉：點擊染色告示牌，潛行不會染色告示牌",
+    
+    "clickthrough.config.ignore.1": "當告示牌第一行符合時忽略：",
+    "clickthrough.config.ignore.2": "當告示牌第二行符合時忽略：",
+    "clickthrough.config.ignore.3": "當告示牌第三行符合時忽略：",
+    "clickthrough.config.ignore.4": "當告示牌第四行符合時忽略：",
+    "clickthrough.config.onlycontainers": "僅點擊穿透到容器",
+    "clickthrough.config.switchonattack": "也重新定向左鍵按鈕",
+
+    "clickthrough.config.tt.ignore.1": "對於儲物箱商店，不要點擊穿透那些告示牌會比較好",
+    "clickthrough.config.tt.ignore.2": "對於儲物箱商店，不要點擊穿透那些告示牌會比較好",
+    "clickthrough.config.tt.ignore.3": "對於儲物箱商店，不要點擊穿透那些告示牌會比較好",
+    "clickthrough.config.tt.ignore.4": "對於儲物箱商店，不要點擊穿透那些告示牌會比較好",
+    "clickthrough.config.tt.onlycontainers": "點擊穿透儲物箱、木桶等等。但不包含類似工作台、堆肥桶等。",
+    "clickthrough.config.tt.switchonattack": "同樣也會重新定向左鍵到告示牌後方的按鈕",
+
+    "key.categories.clickthrough": "點擊穿透",
+    "key.clickthrough.toggle": "開關點擊穿透",
+    "clickthrough.msg.active": "點擊穿透已啟用",
+    "clickthrough.msg.inactive": "點擊穿透未啟用",
+
+    "clickthrough.config.switchonattack.never": "永不",
+    "clickthrough.config.switchonattack.first": "第一次點擊",
+    "clickthrough.config.switchonattack.always": "總是",
+
+  "text.autoconfig.clickthrough.title": "點擊穿透控制",
+  "text.autoconfig.clickthrough.category.clickthrough": "點擊穿透",
+  "text.autoconfig.clickthrough.option.clickthroughToggleOn": "開關點擊穿透",
+  "text.autoconfig.clickthrough.option.clickthroughWallSigns": "開關點擊穿透牆上的告示牌",
+  "text.autoconfig.clickthrough.option.clickthroughItemFrames": "開關點擊穿透物品展示框",
+  "text.autoconfig.clickthrough.option.clickthroughGlowItemFrames": "開關點擊穿透螢光物品展示框",
+  "text.autoconfig.clickthrough.option.clickthroughWallBanners": "開關點擊穿透牆上的旗幟"
+}
