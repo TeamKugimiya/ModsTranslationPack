@@ -6,6 +6,15 @@ on:
       pr_number:
         required: true
         type: string
+    secrets:
+      AWS_S3_BUCKET:
+        required: true
+      AWS_ACCESS_KEY_ID:
+        required: true
+      AWS_SECRET_ACCESS_KEY:
+        required: true
+      AWS_S3_ENDPOINT:
+        required: true
 
 jobs:
   r2-uplaod:
@@ -30,10 +39,10 @@ jobs:
       - name: Upload to R2
         uses: Docker-Collection/docker-aws-s3-action@main
         with:
-          aws_s3_bucket: modstranslationspack
-          aws_access_key_id: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
-          aws_s3_endpoint: ${{ secrets.CLOUDFLARE_R2_ENDPOINT }}
+          aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
           source_dir: "pr/"
           dest_dir: "pr/${{ inputs.pr_number }}/"
           aws_command: "sync"
