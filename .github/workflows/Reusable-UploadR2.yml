@@ -47,3 +47,49 @@ jobs:
           source_dir: "pr/${{ inputs.pr_number }}"
           dest_dir: "pr/${{ inputs.pr_number }}/"
           aws_command: "sync"
+
+      - name: Comment on PR
+        uses: actions/github-script@v6
+        with:
+          # This snippet is public-domain, taken from
+          # https://github.com/oprypin/nightly.link/blob/master/.github/workflows/pr-comment.yml
+          # and modified to allow comments on external PRs
+          script: |
+            async function upsertComment(owner, repo, issue_number, purpose, body) {
+              const {data: comments} = await github.rest.issues.listComments(
+                {owner, repo, issue_number});
+              const marker = `<!-- bot: ${purpose} -->`;
+              body = marker + "\n" + body;
+              const existing = comments.filter((c) => c.body.includes(marker));
+              if (existing.length > 0) {
+                const last = existing[existing.length - 1];
+                core.info(`Updating comment ${last.id}`);
+                await github.rest.issues.updateComment({
+                  owner, repo,
+                  body,
+                  comment_id: last.id,
+                });
+              } else {
+                core.info(`Creating a comment in issue / PR ${issue_number}`);
+                await github.rest.issues.createComment({issue_number, body, owner, repo});
+              }
+            }
+            const {owner, repo} = context.repo;
+            const run_id = '${{github.event.workflow_run.id}}';
+            const artifacts = await github.paginate(
+              github.rest.actions.listWorkflowRunArtifacts, {owner, repo, run_id});
+            if (!artifacts.length) {
+              return core.error(`No artifacts found`);
+            }
+            let body = `## ☁️ 合併請求測試翻譯包\n\n此為本合併請求的測試用翻譯包，可以直接下載並安裝資源包！\n`;
+            for (const art of artifacts) {
+              body += `\n* [${art.name}.zip](https://modstranslationpack-r2.efina.eu.org/pr/${{ inputs.pr_number }}/${art.name}.zip)`;
+            }
+            body += `\n<details>\n  <summary>備用下載點</summary>\n\n這是 GitHub 的成品，由於 GitHub 的限制關係，下載下方的 Zip 必須解壓縮，將內部的測試用翻譯包拿出來。\n`;
+            for (const art of artifacts) {
+              body += `\n* [${art.name}.zip](https://nightly.link/${owner}/${repo}/actions/artifacts/${art.id}.zip)`;
+            }
+            body += `\n\n------\n此服務由 [nightly.link](https://github.com/oprypin/nightly.link) 與 [Cloudflare R2](https://www.cloudflare.com/zh-tw/developer-platform/r2/) 提供。\n這些測試用翻譯包將會在 **90** 天內過期，過期後無法再度被下載。`;
+            core.info("Review thread message body:", body);
+            await upsertComment(owner, repo, ${{ inputs.pr_number }},
+              "nightly-link", body);
