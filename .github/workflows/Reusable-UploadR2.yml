@@ -75,7 +75,7 @@ jobs:
               }
             }
             const {owner, repo} = context.repo;
-            const run_id = '${{github.event.workflow_run.id}}';
+            const run_id = '${{ github.run_id }}';
             const artifacts = await github.paginate(
               github.rest.actions.listWorkflowRunArtifacts, {owner, repo, run_id});
             if (!artifacts.length) {
