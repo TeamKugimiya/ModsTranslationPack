@@ -68,12 +68,12 @@ jobs:
             for (const art of artifacts) {
               body += `\n* [${art.name}.zip](https://modstranslationpack-r2.efina.eu.org/pr/${{ env.PR_NUM }}/${art.name}.zip)`;
             }
-            body += `\n<details>\n  <summary>備用下載點</summary>\n\n這是 GitHub 的成品，由於 GitHub 的限制關係，下載下方的 Zip 必須解壓縮，將內部的測試用翻譯包拿出來。\n`;
+            body += `\n\n<details>\n  <summary>備用下載點</summary>\n\n這是 GitHub 的成品，由於 GitHub 的限制關係，下載下方的 Zip 必須解壓縮，將內部的測試用翻譯包拿出來。\n`;
             for (const art of artifacts) {
               body += `\n* [${art.name}.zip](https://nightly.link/${owner}/${repo}/actions/artifacts/${art.id}.zip)`;
             }
-            body += `\n</details>`;
-            body += `\n\n------\n此服務由 [nightly.link](https://github.com/oprypin/nightly.link) 與 [Cloudflare R2](https://www.cloudflare.com/zh-tw/developer-platform/r2/) 提供。\n這些測試用翻譯包將會在 **90** 天內過期，過期後無法再度被下載。`;
+            body += `\n\n</details>`;
+            body += `\n\n------\n此服務由 [Cloudflare R2](https://www.cloudflare.com/zh-tw/developer-platform/r2/) 與 [nightly.link](https://github.com/oprypin/nightly.link) 提供。\n這些測試用翻譯包將會在 **90** 天內過期，過期後無法再度被下載。`;
             core.info("Review thread message body:", body);
             await upsertComment(owner, repo, ${{ env.PR_NUM }},
               "nightly-link", body);
