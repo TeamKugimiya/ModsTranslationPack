@@ -32,7 +32,7 @@ jobs:
         with:
           aws_s3_bucket: modstranslationspack
           aws_access_key_id: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_secret_access_key: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.CLOUDFLARE_R2_ENDPOINT }}
           source_dir: "pr/"
           dest_dir: "pr/${{ inputs.pr_number }}/"
