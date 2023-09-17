@@ -35,6 +35,7 @@ jobs:
             mv ModsTranslationPack-*.zip ../pr/${{ inputs.pr_number }}/
             cd ..
           done
+          ls -alh pr/${{ inputs.pr_number }}
 
       - name: Upload to R2
         uses: Docker-Collection/docker-aws-s3-action@main
@@ -43,6 +44,6 @@ jobs:
           aws_access_key_id: ${{ secrets.CF_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.CF_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.CF_S3_ENDPOINT }}
-          source_dir: "pr/${{ inputs.pr_number }}/"
+          source_dir: "pr/${{ inputs.pr_number }}"
           dest_dir: "pr/${{ inputs.pr_number }}/"
           aws_command: "sync"
