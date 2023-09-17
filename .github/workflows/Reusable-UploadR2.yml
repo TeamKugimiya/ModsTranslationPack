@@ -7,13 +7,13 @@ on:
         required: true
         type: string
     secrets:
-      AWS_S3_BUCKET:
+      CF_S3_BUCKET:
         required: true
-      AWS_ACCESS_KEY_ID:
+      CF_ACCESS_KEY_ID:
         required: true
-      AWS_SECRET_ACCESS_KEY:
+      CF_SECRET_ACCESS_KEY:
         required: true
-      AWS_S3_ENDPOINT:
+      CF_S3_ENDPOINT:
         required: true
 
 jobs:
@@ -39,10 +39,10 @@ jobs:
       - name: Upload to R2
         uses: Docker-Collection/docker-aws-s3-action@main
         with:
-          aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
+          aws_s3_bucket: ${{ secrets.CF_S3_BUCKET }}
+          aws_access_key_id: ${{ secrets.CF_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.CF_SECRET_ACCESS_KEY }}
+          aws_s3_endpoint: ${{ secrets.CF_S3_ENDPOINT }}
           source_dir: "pr/${{ inputs.pr_number }}/"
           dest_dir: "pr/${{ inputs.pr_number }}/"
           aws_command: "sync"
