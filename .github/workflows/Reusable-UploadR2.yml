@@ -1,0 +1,34 @@
+name: Reusable | Upload R2
+
+on:
+  workflow_call:
+    inputs:
+      pr_number:
+        required: true
+        type: string
+
+jobs:
+  r2-uplaod:
+    name: Upload R2
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download All Artifact
+        uses: actions/download-artifact@v3
+
+      - name: Move Artifacts Files
+        run: |
+          for i in ModsTranslationPack-*
+          do 
+            cd "$i" || exit 1
+            sha256sum -c checksum.txt
+            mv ModsTranslationPack-*.zip ../
+            cd ..
+          done
+
+      - name: Upload to R2
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_R2_API }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: r2 object put modstranslationspack/pr/${{ inputs.pr_number }} --file=*.zip
