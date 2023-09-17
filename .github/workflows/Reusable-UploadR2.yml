@@ -27,12 +27,12 @@ jobs:
 
       - name: Move Artifacts Files
         run: |
-          mkdir ${{ inputs.pr_number }}
+          mkdir pr/${{ inputs.pr_number }}
           for i in ModsTranslationPack-*
           do
             cd "$i" || exit 1
             sha256sum -c checksum.txt
-            mv ModsTranslationPack-*.zip ../${{ inputs.pr_number }}/
+            mv ModsTranslationPack-*.zip ../pr/${{ inputs.pr_number }}/
             cd ..
           done
 
@@ -43,6 +43,6 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
-          source_dir: "pr/"
+          source_dir: "pr/${{ inputs.pr_number }}/"
           dest_dir: "pr/${{ inputs.pr_number }}/"
           aws_command: "sync"
