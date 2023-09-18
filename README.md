@@ -6,6 +6,8 @@
 
 <div align="center">
 
+![ModsTranslationPack-Banner](docs/assets/Banner.png)
+
 # 模組翻譯包
 
 [![Release][release-badge]][release-latest]
