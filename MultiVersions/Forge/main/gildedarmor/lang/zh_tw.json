@@ -3,14 +3,14 @@
   "item.gildedarmor.gilded_netherite_chestplate": "鑲金獄髓胸甲",
   "item.gildedarmor.gilded_netherite_leggings": "鑲金獄髓護腿",
   "item.gildedarmor.gilded_netherite_boots": "鑲金獄髓靴子",
-  "item.gildedarmor.gilded_enderite_helmet": "鑲金終界髓頭盔",
-  "item.gildedarmor.gilded_enderite_chestplate": "鑲金終界髓胸甲",
-  "item.gildedarmor.gilded_enderite_leggings": "鑲金終界髓護腿",
-  "item.gildedarmor.gilded_enderite_boots": "鑲金終界髓靴子",
+  "item.gildedarmor.gilded_enderite_helmet": "鑲金終髓頭盔",
+  "item.gildedarmor.gilded_enderite_chestplate": "鑲金終髓胸甲",
+  "item.gildedarmor.gilded_enderite_leggings": "鑲金終髓護腿",
+  "item.gildedarmor.gilded_enderite_boots": "鑲金終髓靴子",
 
-  "item.gildedarmor.smithing_template.gilding_upgrade.applies_to": "獄髓（及終界髓）裝備",
+  "item.gildedarmor.smithing_template.gilding_upgrade.applies_to": "獄髓（及終髓）裝備",
   "item.gildedarmor.smithing_template.gilding_upgrade.ingredients": "金錠",
-  "item.gildedarmor.smithing_template.gilding_upgrade.base_slot_description": "放置獄髓（或終界髓）盔甲",
+  "item.gildedarmor.smithing_template.gilding_upgrade.base_slot_description": "放置獄髓（或終髓）盔甲",
   "item.gildedarmor.smithing_template.gilding_upgrade.additions_slot_description": "放置金錠",
 
   "upgrade.gildedarmor.gilding_upgrade": "鑲金升級"
