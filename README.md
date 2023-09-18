@@ -8,8 +8,6 @@
 
 ![ModsTranslationPack-Banner](docs/assets/Banner.png)
 
-# 模組翻譯包
-
 [![Release][release-badge]][release-latest]
 [![Modrinth][modrinth-badge]][modrinth]
 [![License][CC BY-NC-ND 4.0]][main-license]
