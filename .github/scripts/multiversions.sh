@@ -68,17 +68,17 @@ multiversion () {
   # 暫時支援 1.20
   if [ "$version" = "1.20.x" ]; then
     mixer "Fabric" "main"
-    command_excuter "cp $multiversion_path/configs/pack-1.18.png $pack_path" "成功移動 1.18 Icon！" "移動時發生錯誤！"
+    command_excuter "cp $multiversion_path/configs/pack-1.18.png $pack_path/pack.png" "成功移動 1.18 Icon！" "移動時發生錯誤！"
   elif [ "$version" = "1.19.x" ]; then
     mixer "Fabric" "main"
     mixer "Fabric" "1.19"
-    command_excuter "cp $multiversion_path/configs/pack-1.19.png $pack_path" "成功移動 1.19 Icon！" "移動時發生錯誤！"
+    command_excuter "cp $multiversion_path/configs/pack-1.19.png $pack_path/pack.png" "成功移動 1.19 Icon！" "移動時發生錯誤！"
   elif [ "$version" = "1.18.x" ]; then
     mixer "Fabric" "main"
     mixer "Fabric" "1.19"
     mixer "Fabric" "1.18"
     mixer "Forge" "1.18"
-    command_excuter "cp $multiversion_path/configs/pack-1.20.png $pack_path" "成功移動 1.20 Icon！" "移動時發生錯誤！"
+    command_excuter "cp $multiversion_path/configs/pack-1.20.png $pack_path/pack.png" "成功移動 1.20 Icon！" "移動時發生錯誤！"
   else
     echo "⚠️ 未知版本"
     exit 1
