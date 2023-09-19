@@ -17,7 +17,7 @@ pack_path=$workflow_path/pack
 setup_pack () {
   echo "初始化翻譯包資料夾"
   mkdir -p pack/assets
-  command_excuter "cp -r $multiversion_path/configs/* $pack_path" "成功移動設定！" "移動設定時發生錯誤！"
+  command_excuter "cp $multiversion_path/configs/pack.mcmeta $pack_path" "成功移動 pack.mcmeta！" "移動時發生錯誤！"
   command_excuter "cp -r LICENSE $pack_path" "成功移動授權條款！" "移動授權條款時發生錯誤！"
   command_excuter "cp -r $multiversion_path/Forge/main/* $pack_path/assets" "成功移動主版本！" "移動主版本時發生錯誤！"
   command_excuter "cp -r $multiversion_path/Patcher/* $pack_path/assets" "成功合併 Patcher！" "合併 Patcher 時發生錯誤！"
@@ -68,14 +68,17 @@ multiversion () {
   # 暫時支援 1.20
   if [ "$version" = "1.20.x" ]; then
     mixer "Fabric" "main"
+    command_excuter "cp $multiversion_path/configs/pack-1.18.png $pack_path" "成功移動 1.18 Icon！" "移動時發生錯誤！"
   elif [ "$version" = "1.19.x" ]; then
     mixer "Fabric" "main"
     mixer "Fabric" "1.19"
+    command_excuter "cp $multiversion_path/configs/pack-1.19.png $pack_path" "成功移動 1.19 Icon！" "移動時發生錯誤！"
   elif [ "$version" = "1.18.x" ]; then
     mixer "Fabric" "main"
     mixer "Fabric" "1.19"
     mixer "Fabric" "1.18"
     mixer "Forge" "1.18"
+    command_excuter "cp $multiversion_path/configs/pack-1.20.png $pack_path" "成功移動 1.20 Icon！" "移動時發生錯誤！"
   else
     echo "⚠️ 未知版本"
     exit 1
