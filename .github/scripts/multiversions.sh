@@ -115,6 +115,7 @@ main () {
   clean
   setup_pack
   multiversion "$version"
+  ls -alh "$pack_path"
 }
 
 main
