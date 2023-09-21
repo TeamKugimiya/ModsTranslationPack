@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checking Repository
+        uses: actions/checkout@v4
+
       - name: Install poetry
         uses: abatilo/actions-poetry@v2
 
