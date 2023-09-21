@@ -55,10 +55,21 @@ jobs:
       github.repository == 'xMikux/ModsTranslationPack'
 
     uses: ./.github/workflows/Reusable-VerifyExistVersion.yml
+  
+  image-resizer:
+    name: Pack Image Resizer
+    needs: [ matrix-setup ]
+
+    strategy:
+      matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
+    
+    uses: ./.github/workflows/Reusable-ImageResize.yml
+    with:
+      matrix_version: ${{ matrix.version }}
 
   pack-beta:
     name: Pack ${{ matrix.version }}
-    needs: [ matrix-setup ]
+    needs: [ image-resizer, matrix-setup ]
 
     strategy:
       matrix: ${{ fromJson(needs.matrix-setup.outputs.matrix) }}
