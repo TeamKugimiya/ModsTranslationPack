@@ -26,9 +26,17 @@ on:
         required: true
 
 jobs:
+  image-resizer:
+    name: Pack Image Resizer
+
+    uses: ./.github/workflows/Reusable-ImageResize.yml
+    with:
+      matrix_version: ${{ inputs.matrix_version }}
+
   ResourcePacker:
     name: ResourcePacker ${{ inputs.matrix_version }}
     runs-on: ubuntu-latest
+    needs: [ image-resizer ]
 
     steps:
       - name: Checking Repository
