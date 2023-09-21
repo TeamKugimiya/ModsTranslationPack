@@ -68,6 +68,13 @@ jobs:
         run: |
           .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
 
+      # Temp
+      - name: Apply Pack Icon
+        uses: actions/download-artifact@v3
+        with:
+          name: PackIcon-${{ inputs.matrix_version }}
+          path: pack/
+
       - name: Make ModsTranslationPack
         uses: ComunidadAylas/PackSquash-action@v4
         with:
@@ -89,12 +96,6 @@ jobs:
           name: OptimizedPack-${{ inputs.matrix_version }}
           path: ./
 
-      - name: Delete Artifact
-        uses: geekyeggo/delete-artifact@v2
-        with:
-          name: |
-            OptimizedPack-${{ inputs.matrix_version }}
-
       - name: Rename ModsTranslationPack
         run: |
           mv ./pack.zip ModsTranslationPack-${{ inputs.matrix_version }}.zip
@@ -110,3 +111,10 @@ jobs:
           path: |
             *.zip
             checksum.txt
+
+      - name: Delete Artifact
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: |
+            OptimizedPack-${{ inputs.matrix_version }}
+            PackIcon-${{ inputs.matrix_version }}

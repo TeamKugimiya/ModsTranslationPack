@@ -1,0 +1,44 @@
+name: Reusable | Image Resize
+
+### Temporary use ###
+
+on:
+  workflow_call:
+    inputs:
+      matrix_version:
+        required: true
+        type: string
+
+jobs:
+  image-resize:
+    name: Image Resize
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2
+
+      - name: Setup a local virtual environment
+        run: |
+          poetry config virtualenvs.create true --local
+          poetry config virtualenvs.in-project true --local
+
+      - name: Cache Python
+        uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+
+      - name: Install project dependencies
+        run: poetry install
+
+      - name: Resize Image
+        run: |
+          python .github/scripts/image_resize.py MultiVersions/configs/pack-${{ inputs.matrix_version }}.png pack.png
+
+      - name: Upload Pack Icon
+        uses: actions/upload-artifact@v3
+        with:
+          name: PackIcon-${{ inputs.matrix_version }}
+          path: |
+            pack.png
