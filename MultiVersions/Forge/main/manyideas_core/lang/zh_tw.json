@@ -134,7 +134,7 @@
 		"main_messages": "訊息",
 			"main_messages_redstone_key": "訊息：紅石鑰匙",
 				"main_messages_redstone_key_opened_by": "紅石鑰匙：開門方式",
-					"main_messages_redstone_key_opened_by_both": "開門方式：雙重",
+					"main_messages_redstone_key_opened_by_both": "開門方式：兩種",
 						"message.manyideas_core.both.description": "右鍵及紅石",
 						"message.manyideas_core.both.title": "兩種",
 					"main_messages_redstone_key_opened_by_hand": "開門方式：右手",
