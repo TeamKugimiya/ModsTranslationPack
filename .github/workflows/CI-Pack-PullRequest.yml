@@ -43,16 +43,3 @@ jobs:
     needs: [ pack-pullrequest ]
 
     uses: ./.github/workflows/Reusable-Summary.yml
-
-  r2:
-    name: Upload R2
-    needs: [ pack-pullrequest ]
-
-    uses: ./.github/workflows/Reusable-UploadR2.yml
-    with:
-      pr_number: ${{ github.event.number }}
-    secrets:
-      CF_S3_BUCKET: ${{ secrets.CLOUDFLARE_R2_BUCKET }}
-      CF_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
-      CF_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
-      CF_S3_ENDPOINT: ${{ secrets.CLOUDFLARE_R2_ENDPOINT }}
