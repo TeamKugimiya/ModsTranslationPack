@@ -1,145 +1,15 @@
 {
-    "comment_id": "/Attributes Lib",
-
-    "item.modifiers.both_hands": "持握在手上時：",
-    
-    "attributeslib.adv.addition": "[加數：%s]",
-    "attributeslib.adv.multiply_base": "[基礎乘數：%s]",
-    "attributeslib.adv.multiply_total": "[總乘數：%s]",
-    "attributeslib.adv.base": "[實體基礎值：%s｜物品基礎值：%s]",
-    "attributeslib.adv.sharpness_bonus": "[鋒利：+%s]",
-
-    "attributeslib.value.flat": "%s",
-    "attributeslib.value.percent": "%s%%",
-
-    "attributeslib.modifier.plus": "+%s %s",
-    "attributeslib.modifier.take": "-%s %s",
-
-    "attributeslib.gui.attributes": "屬性",
-    "attributeslib.gui.base": "基礎值：%s",
-    "attributeslib.gui.min": "最小值：%s",
-    "attributeslib.gui.max": "最大值：%s",
-    "attributeslib.gui.modifiers": "調整值",
-    "attributeslib.gui.addition": "加數：%s",
-    "attributeslib.gui.multiply_base": "基礎乘數：%s",
-    "attributeslib.gui.multiply_total": "總乘數：%s",
-    "attributeslib.gui.press_shift": "按住 Shift 取得更多資訊。",
-    "attributeslib.gui.current": "目前：%s",
-    "attributeslib.gui.show_attributes": "顯示屬性",
-
-    "minecraft:generic.armor.desc": "提高物理傷害減免。",
-    "minecraft:generic.armor_toughness.desc": "降低敵人的盔甲穿透效果。",
-    "minecraft:generic.attack_damage.desc": "全力攻擊時造成的物理傷害。",
-    "minecraft:generic.attack_knockback.desc": "你的近戰攻擊能擊退敵人的距離，以半格方塊為單位。",
-    "minecraft:generic.attack_speed.desc": "每秒可進行的全力攻擊次數。",
-    "minecraft:generic.knockback_resistance.desc": "你可以忽略的擊退距離。",
-    "minecraft:generic.luck.desc": "提高好事發生的機率。",
-    "minecraft:generic.max_health.desc": "你最多可擁有的生命值。",
-    "minecraft:generic.movement_speed.desc": "行走時的移動速度。",
-
-    "forge:attack_range.desc": "你近戰攻擊的射程距離，以方塊為單位。",
-    "forge:entity_gravity.desc": "墜落時的加速度，以方塊/秒²為單位。",
-    "forge:nametag_distance.desc": "其他玩家需要在多少距離內才能看見你的名字。",
-    "forge:reach_distance.desc": "你能與事物互動的觸及距離，以方塊為單位。",
-    "forge:step_height_addition.desc": "你在不跳躍的情形下，能直接走上的最高方塊數。",
-    "forge:swim_speed.desc": "相對於正常狀態下的游泳速度。",
-    
-    "apotheosis:draw_speed": "蓄力速度",
-    "apotheosis:draw_speed.desc": "你使用遠程武器時的蓄力速度，像是弓、弩，以及三叉戟。",
-
-    "apotheosis:crit_chance": "爆擊率",
-    "apotheosis:crit_chance.desc": "你造成的傷害發生暴擊的機率，根據你的暴擊傷害造成額外傷害。",
-
-    "apotheosis:crit_damage": "爆擊傷害",
-    "apotheosis:crit_damage.desc": "暴擊的傷害倍率，包含原版的跳劈。",
-
-    "apotheosis:cold_damage": "冰霜傷害",
-    "apotheosis:cold_damage.desc": "近戰攻擊時附加的額外魔法傷害，並減緩目標的移動速度。",
-
-    "apotheosis:fire_damage": "火焰傷害",
-    "apotheosis:fire_damage.desc": "近戰攻擊時附加的額外魔法傷害，並使目標燃燒。",
-
-    "apotheosis:life_steal": "生命偷取",
-    "apotheosis:life_steal.desc": "根據所造成的傷害百分比，回復你的生命。",
-
-    "apotheosis:current_hp_damage": "目前生命傷害",
-    "apotheosis:current_hp_damage.desc": "根據目標血量，對近戰攻擊附加物理傷害加成。",
-
-    "apotheosis:overheal": "超量治癒",
-    "apotheosis:overheal.desc": "根據所造成的傷害百分比，賦與你吸收護盾。",
-
-    "apotheosis:ghost_health": "虛假生命",
-    "apotheosis:ghost_health.desc": "尚未實施",
-
-    "apotheosis:mining_speed": "挖掘速度",
-    "apotheosis:mining_speed.desc": "相對於正常狀態下的挖掘速度。",
-
-    "apotheosis:arrow_damage": "投射物傷害",
-    "apotheosis:arrow_damage.desc": "箭矢的傷害倍率。三叉戟也視作箭矢。",
-
-    "apotheosis:arrow_velocity": "投射物射速",
-    "apotheosis:arrow_velocity.desc": "箭矢的射速倍率。箭矢的傷害會隨射速增加。",
-
-    "apotheosis:experience_gained": "經驗獲得量",
-    "apotheosis:experience_gained.desc": "透過挖掘方塊與殺死生物，獲取的經驗值倍率。",
-
-    "apotheosis:healing_received": "治療獲得量",
-    "apotheosis:healing_received.desc": "所有治療效果的倍率。",
-
-    "apotheosis:armor_pierce": "盔甲穿透",
-    "apotheosis:armor_pierce.desc": "降低目標的固定盔甲值。",
-
-    "apotheosis:armor_shred": "破甲",
-    "apotheosis:armor_shred.desc": "百分比降低目標的盔甲值。",
-
-    "apotheosis:prot_pierce": "保護穿透",
-    "apotheosis:prot_pierce.desc": "降低目標的固定保護效果。",
-
-    "apotheosis:prot_shred": "保護破除",
-    "apotheosis:prot_shred.desc": "百分比降低目標的保護效果。",
-
-    "apotheosis:dodge_chance": "迴避率",
-    "apotheosis:dodge_chance.desc": "迴避近戰攻擊或投射物的機率。",
-
-    "comment_id": "/MobFx Lib - descriptions are duplicated for JEED support.",
-
-    "effect.apotheosis.knowledge": "閱歷",
-    "effect.apotheosis.knowledge.desc": "提高擊殺生物與破壞方塊時，所獲得的經驗值。",
-    "effect.apotheosis.knowledge.description": "提高擊殺生物與破壞方塊時，所獲得的經驗值。",
-
-    "effect.apotheosis.sundering": "破甲",
-    "effect.apotheosis.sundering.desc": "提高受到的傷害量。",
-    "effect.apotheosis.sundering.description": "提高受到的傷害量。",
-
-    "effect.apotheosis.vitality": "生氣勃勃",
-    "effect.apotheosis.vitality.desc": "提高受到的治療量。",
-    "effect.apotheosis.vitality.description": "提高受到的治療量。",
-
-    "effect.apotheosis.grievous": "重創",
-    "effect.apotheosis.grievous.desc": "降低受到的治療量。",
-    "effect.apotheosis.grievous.description": "降低受到的治癒量。",
-
-    "effect.apotheosis.bleeding": "流血",
-    "effect.apotheosis.bleeding.desc": "每隔兩秒受到流血傷害。",
-    "effect.apotheosis.bleeding.description": "每隔兩秒受到流血傷害。",
-    "death.attack.apotheosis.bleeding": "%s 因失血過多致死。",
-
-    "effect.apotheosis.detonation": "爆燃",
-    "effect.apotheosis.detonation.desc": "效果結束時，根據身上的火焰效果剩餘時間（tick）造成傷害。",
-    "effect.apotheosis.detonation.description": "效果結束時，根據身上的火焰效果剩餘時間（tick）造成傷害。",
-    "death.attack.apotheosis.detonation": "%s 死於爆燃。",
-
     "comment_id": "/Adventure Module",
 
     "info.apotheosis.affix_item": "神化詞綴物品",
-    
+
     "death.attack.apotheosis.execute": "%s 被 %s 處決了",
     "death.attack.apotheosis.execute.item": "%s 被 %s 用 %s 處決",
-    
+
     "misc.apotheosis.affix_name.two": "%s %s",
     "misc.apotheosis.affix_name.three": "%s %s %s",
     "misc.apotheosis.affix_name.four": "%s %s %s %s",
-    
+
     "affix.apotheosis:armor/attribute/blessed": "受祝福的",
     "affix.apotheosis:armor/attribute/blessed.suffix": "《生命》",
 
@@ -191,6 +61,9 @@
     "affix.apotheosis:armor/attribute/fortunate": "幸運的",
     "affix.apotheosis:armor/attribute/fortunate.suffix": "《四葉草》",
 
+    "affix.apotheosis:armor/attribute/winged": "羽翼的",
+    "affix.apotheosis:armor/attribute/winged.suffix": "《天空》",
+
     "affix.apotheosis:sword/attribute/intricate": "複雜的",
     "affix.apotheosis:sword/attribute/intricate.suffix": "《批判性思考》",
 
@@ -226,7 +99,7 @@
 
     "affix.apotheosis:ranged/attribute/streamlined": "流線型的",
     "affix.apotheosis:ranged/attribute/streamlined.suffix": "《狙擊手》",
-    
+
     "affix.apotheosis:sword/mob_effect/elusive": "難捉摸的",
     "affix.apotheosis:sword/mob_effect/elusive.suffix": "《閃避》",
 
@@ -277,27 +150,27 @@
 
     "affix.apotheosis:ranged/mob_effect/satanic": "極惡的",
     "affix.apotheosis:ranged/mob_effect/satanic.suffix": "《詛咒》",
-    
+
     "affix.apotheosis:ranged/special/spectral": "幽靈的",
     "affix.apotheosis:ranged/special/spectral.suffix": "《絕望者》",
     "affix.apotheosis:ranged/special/spectral.desc": "射擊時有 %s%% 機率射出第二把箭",
-    
+
     "affix.apotheosis:ranged/special/magical": "魔法的",
     "affix.apotheosis:ranged/special/magical.suffix": "《奧術》",
     "affix.apotheosis:ranged/special/magical.desc": "你的箭矢將造成魔法傷害",
-    
+
     "affix.apotheosis:sword/special/festive": "節慶的",
     "affix.apotheosis:sword/special/festive.suffix": "《派對》",
     "affix.apotheosis:sword/special/festive.desc": "殺死敵人有 %s%% 機率產生戰利品大爆發",
-    
+
     "affix.apotheosis:sword/special/thunderstruck": "雷擊的",
     "affix.apotheosis:sword/special/thunderstruck.suffix": "《風暴》",
     "affix.apotheosis:sword/special/thunderstruck.desc": "攻擊時將對附近敵人造成 %s 點傷害",
-    
+
     "affix.apotheosis:shield/special/retreating": "退縮的",
     "affix.apotheosis:shield/special/retreating.suffix": "《弄臣》",
     "affix.apotheosis:shield/special/retreating.desc": "格擋近戰攻擊時會向後躍步",
-    
+
     "affix.apotheosis:telepathic": "念動的",
     "affix.apotheosis:telepathic.suffix": "《時空》",
     "affix.apotheosis:telepathic.desc.weapon": "生物掉落物將直接傳送到你身上",
@@ -306,7 +179,7 @@
     "affix.apotheosis:heavy_weapon/special/executing": "行刑的",
     "affix.apotheosis:heavy_weapon/special/executing.suffix": "《劊子手》",
     "affix.apotheosis:heavy_weapon/special/executing.desc": "生命低於 %s%% 的敵人將直接被處決",
-    
+
     "affix.apotheosis:heavy_weapon/special/cleaving": "揮劈的",
     "affix.apotheosis:heavy_weapon/special/cleaving.suffix": "《屠夫》",
     "affix.apotheosis:heavy_weapon/special/cleaving.desc": "攻擊時有 %s%% 機率同時對附近 %s 名敵人施加傷害",
@@ -328,10 +201,10 @@
 
     "affix.apotheosis:heavy_weapon/attribute/decimating": "毀滅的",
     "affix.apotheosis:heavy_weapon/attribute/decimating.suffix": "《神王》",
-    
+
     "affix.apotheosis:heavy_weapon/attribute/murderous": "致命的",
     "affix.apotheosis:heavy_weapon/attribute/murderous.suffix": "《米諾陶洛斯》",
-    
+
     "affix.apotheosis:ranged/mob_effect/acidic": "酸蝕的",
     "affix.apotheosis:ranged/mob_effect/acidic.suffix": "《侵蝕》",
 
@@ -353,34 +226,34 @@
 
     "affix.apotheosis:melee_weapon/mob_effect/detonating": "爆燃的",
     "affix.apotheosis:melee_weapon/mob_effect/detonating.suffix": "《元素之火》",
-    
+
     "misc.apotheosis.iron": "鐵",
     "misc.apotheosis.diamond": "鑽石",
     "misc.apotheosis.netherite": "獄髓",
-    
+
     "affix.apotheosis:breaker/special/omnetic": "全能的",
     "affix.apotheosis:breaker/special/omnetic.suffix": "《奇點》",
     "affix.apotheosis:breaker/special/omnetic.desc": "這把工具挖掘所有類型方塊均有%s等級的效果",
-    
+
     "misc.apotheosis.physical": "物理",
     "misc.apotheosis.magic": "魔法",
     "misc.apotheosis.fire": "火焰",
     "misc.apotheosis.fall": "摔落",
     "misc.apotheosis.explosion": "爆炸",
     "affix.apotheosis:damage_reduction.desc": "受到的%s傷害減少 %s%%",
-    
+
     "affix.apotheosis:armor/dmg_reduction/blockading": "封鎖的",
     "affix.apotheosis:armor/dmg_reduction/blockading.suffix": "《屏障》",
-    
+
     "affix.apotheosis:armor/dmg_reduction/runed": "符文的",
     "affix.apotheosis:armor/dmg_reduction/runed.suffix": "《法術守望者》",
-    
+
     "affix.apotheosis:armor/dmg_reduction/blast_forged": "淬鍊的",
     "affix.apotheosis:armor/dmg_reduction/blast_forged.suffix": "《鍛造之神》",
-    
+
     "affix.apotheosis:armor/dmg_reduction/dwarven": "矮人",
     "affix.apotheosis:armor/dmg_reduction/dwarven.suffix": "《火山》",
-    
+
     "affix.apotheosis:armor/dmg_reduction/feathery": "覆羽的",
     "affix.apotheosis:armor/dmg_reduction/feathery.suffix": "《鷹》",
 
@@ -389,7 +262,7 @@
 
     "affix.apotheosis:armor/attribute/spiritual": "心靈的",
     "affix.apotheosis:armor/attribute/spiritual.suffix": "《巫醫》",
-    
+
     "affix.apotheosis:breaker/attribute/lucky": "幸運的",
     "affix.apotheosis:breaker/attribute/lucky.suffix": "《偶然》",
 
@@ -494,12 +367,12 @@
     "item.apotheosis.gem.apotheosis:twilight/queen": "冰雪女王寶石",
 
     "item.apotheosis.boss_summoner": "神化 Boss 召喚石",
-    "item.apotheosis.gem.common": "破碎的%s",
-    "item.apotheosis.gem.uncommon": "缺陷的%s",
-    "item.apotheosis.gem.rare": "微瑕的%s",
-    "item.apotheosis.gem.epic": "%s",
-    "item.apotheosis.gem.mythic": "無瑕的%s",
-    "item.apotheosis.gem.ancient": "完美的%s",
+    "item.apotheosis.gem.apotheosis:common": "破碎的%s",
+    "item.apotheosis.gem.apotheosis:uncommon": "缺陷的%s",
+    "item.apotheosis.gem.apotheosis:rare": "微瑕的%s",
+    "item.apotheosis.gem.apotheosis:epic": "%s",
+    "item.apotheosis.gem.apotheosis:mythic": "無瑕的%s",
+    "item.apotheosis.gem.apotheosis:ancient": "完美的%s",
     "item.apotheosis.vial_of_extraction": "奧術提取劑",
     "item.apotheosis.vial_of_expulsion": "熾炎驅逐劑",
     "item.apotheosis.vial_of_unnaming": "除名試劑",
@@ -510,6 +383,7 @@
     "item.apotheosis.rare_material": "發光的水晶碎片",
     "item.apotheosis.epic_material": "奧術沙",
     "item.apotheosis.mythic_material": "神鑄珍珠",
+    "item.apotheosis.ancient_material": "萬物之顯現",
     "item.apotheosis.sigil_of_socketing": "寶石鑲嵌咒符",
     "item.apotheosis.superior_sigil_of_socketing": "卓越的寶石鑲嵌咒符",
     "item.apotheosis.sigil_of_enhancement": "[NYI] 強化咒符",
@@ -524,7 +398,7 @@
     "block.apotheosis.reforging_table": "重鑄台",
     "block.apotheosis.reforging_table.desc": "使用寶石粉與稀有度材料，將物品再次鑄上詞綴",
     "block.apotheosis.reforging_table.desc2": "最高稀有度：%s",
-    
+
     "button.apotheosis.salvage": "分解",
     "button.apotheosis.no_salvage": "尚未選擇物品",
     "button.apotheosis.no_salvage_all": "沒有可分解的詞綴物品",
@@ -592,18 +466,18 @@
     "info.apotheosis.gem_expulsion": "用來在鍛造台中取下鑲嵌在裝備上的寶石。\n\n寶石將於該過程中損毀。",
     "info.apotheosis.unnaming": "用來在鍛造台中，將物品名稱上的詞綴元件去除。",
     "info.apotheosis.salvaging": "稀有度材料可在分解台中分解刻有詞綴的物品取得。",
-    
-    "rarity.apoth.common": "普通",
-    "rarity.apoth.uncommon": "罕見",
-    "rarity.apoth.rare": "稀有",
-    "rarity.apoth.epic": "史詩",
-    "rarity.apoth.mythic": "神話",
-    "rarity.apoth.ancient": "上古",
-    
-    "death.attack.apoth.frozen_solid": "%s 被凍成冰塊了。",
-    "death.attack.apoth.frozen_solid.player": "%s 被 %s 凍成冰塊了。",
-    "death.attack.apoth.execute": "%s 被處決了。",
-    "death.attack.apoth.execute.player": "%s 被 %s 處決了。",
+
+    "rarity.apotheosis:common": "普通",
+    "rarity.apotheosis:uncommon": "罕見",
+    "rarity.apotheosis:rare": "稀有",
+    "rarity.apotheosis:epic": "史詩",
+    "rarity.apotheosis:mythic": "神話",
+    "rarity.apotheosis:ancient": "上古",
+
+    "death.attack.apotheosis:psychic": "%s 被反擊死了。",
+    "death.attack.apotheosis:psychic.player": "%s 的攻擊 %s 反彈了。",
+    "death.attack.apotheosis:execute": "%s 被處決了。",
+    "death.attack.apotheosis:execute.player": "%s 被 %s 處決了。",
 
     "comment_id": "/Adventure + Gateways Compat",
 
@@ -641,7 +515,7 @@
 
     "advancements.apotheosis.deepshelf": "深入黑暗",
     "advancements.apotheosis.deepshelf.desc": "喚醒沉睡的深板岩書櫃。",
-    
+
     "advancements.apotheosis.sculkshelf": "信奉伏聆",
     "advancements.apotheosis.sculkshelf.desc": "使用伏守者捲鬚製作伏聆書櫃。",
 
@@ -693,7 +567,7 @@
     "advancements.apotheosis.max_stable.desc": "在位階、量子化全滿，但量子化為 0% 的附魔台上附魔一個物品。",
     "advancements.apotheosis.max_rectified": "精益求精",
     "advancements.apotheosis.max_rectified.desc": "在位階、量子化、阿卡那及校正全滿的附魔台上附魔一個物品。",
-    
+
     "advancements.apotheosis.affix": "神化詞綴",
     "advancements.apotheosis.affix.desc": "找到刻有《神化》詞綴的物品。",
 
@@ -717,25 +591,25 @@
     "advancements.apotheosis.merchant.desc": "成功與流浪商人交易一把刻有詞綴的物品。",
     "advancements.apotheosis.random": "你怎麼會有這個？",
     "advancements.apotheosis.random.desc": "從路邊的怪物身上掠奪刻有神話詞綴的物品。",
-    
+
     "advancements.apotheosis.gem": "這不是鑽石",
     "advancements.apotheosis.gem.desc": "找到一顆能被鑲嵌在詞綴物品上的神化寶石。",
 
     "advancements.apotheosis.rare_gem": "遠非完美",
     "advancements.apotheosis.rare_gem.desc": "取得一顆微瑕的寶石。",
-    
+
     "advancements.apotheosis.mythic_gem": "無瑕寶石",
     "advancements.apotheosis.mythic_gem.desc": "取得一顆無瑕的寶石。",
-    
+
     "advancements.apotheosis.ancient_gem": "無窮石頭",
     "advancements.apotheosis.ancient_gem.desc": "使用寶石切割台製作一顆完美的寶石。",
-    
+
     "advancements.apotheosis.socket": "寶石匠",
     "advancements.apotheosis.socket.desc": "使用鍛造台將寶石鑲嵌在物品上。",
 
     "advancements.apotheosis.gem_cut": "寶石雕刻匠",
     "advancements.apotheosis.gem_cut.desc": "使用寶石切割台升級神化寶石。",
-    
+
     "advancements.apotheosis.spawner.root": "《神化》生怪磚",
     "advancements.apotheosis.spawner.root.desc": "生怪磚可被收集與改造，查看 JEI 來獲得更多資訊。",
     "advancements.apotheosis.spawner": "神化生怪磚",
@@ -770,9 +644,9 @@
     "advancements.apotheosis.ultimate_spawner.desc": "擁有一個最小生成延遲、可被紅石控制、沒有 AI、忽略生成條件且忽略玩家的生怪磚。",
 
     "comment_id": "/Spawner Module",
-    
+
     "item.apotheosis.spawner": "%s 生怪磚",
-    
+
     "enchantment.apotheosis.capturing": "捕捉",
     "enchantment.apotheosis.capturing.desc": "殺死生物時，有機率掉落他們的生怪蛋。",
 
@@ -788,7 +662,7 @@
     "misc.apotheosis.shift_stats": "按住 Shift 查看狀態",
     "misc.apotheosis.ctrl_stats": "按住 Ctrl 查看狀態",
     "misc.apotheosis.banned": "無法被使用在生怪磚上",
-    
+
     "stat.apotheosis.min_delay": "最短生成延遲",
     "stat.apotheosis.max_delay": "最長生成延遲",
     "stat.apotheosis.spawn_count": "生成數量",
@@ -854,8 +728,8 @@
     "block.apotheosis.rectifier": "海洋校正書櫃",
     "block.apotheosis.rectifier_t2": "地獄校正書櫃",
     "block.apotheosis.rectifier_t3": "終界校正書櫃",
-    
-    
+
+
     "info.apotheosis.ench_power": "提供 %s 附魔能量。",
     "info.apotheosis.cobweb": "可用來移除物品上的附魔。",
     "info.apotheosis.masterwork": "極品",
@@ -926,7 +800,7 @@
 
     "enchantment.apotheosis.infusion": "灌注",
     "enchantment.apotheosis.infusion.desc": "用於「灌注附魔」合成。",
-    
+
     "enchantment.apotheosis.mounted_strike": "騎兵突擊",
     "enchantment.apotheosis.mounted_strike.desc": "騎乘在馬上時能造成額外傷害。",
 
@@ -944,12 +818,12 @@
 
     "enchantment.apotheosis.icy_thorns": "冰霜尖刺",
     "enchantment.apotheosis.icy_thorns.desc": "對攻擊者施加緩速效果。",
-    
+
     "enchantment.apotheosis.bane_of_illagers": "窳民剋星",
     "enchantment.apotheosis.bane_of_illagers.desc": "提高對窳民造成的傷害。",
 
-    "death.attack.apoth_corrupted": "%s 被腐化附魔榨乾了。",
-    "death.attack.apoth_corrupted.player": "%s 被 %s 腐化了。",
+    "death.attack.apotheosis:corrupted": "%s 被腐化附魔榨乾了。",
+    "death.attack.apotheosis:corrupted.player": "%s 被 %s 腐化了。",
 
     "item.apotheosis.prismatic_web": "海磷蜘蛛網",
     "info.apotheosis.prismatic_cobweb": "可用來移除物品上的詛咒。",
@@ -1004,7 +878,7 @@
 
     "enchantment.apotheosis.splitting": "拆解",
     "enchantment.apotheosis.splitting.desc": "鐵砧砸中具有多個附魔的附魔書時，會將不同的附魔分別拆裝到個別的書上。",
-    
+
     "enchantment.apotheosis.obliteration": "分裂",
     "enchantment.apotheosis.obliteration.desc": "鐵砧砸中只具有單一附魔的附魔書時，會將附魔等級平分至兩本不同的書上。",
 
@@ -1016,7 +890,7 @@
 
     "enchantment.apotheosis.magic_protection": "厭魔者",
     "enchantment.apotheosis.magic_protection.desc": "減少使用者造成與受到的魔法傷害。",
-    
+
     "enchantment.apotheosis.crescendo": "疊裝弩箭",
     "enchantment.apotheosis.crescendo.desc": "重新填裝弩箭後，能獲得額外的射擊次數。",
 
@@ -1037,7 +911,7 @@
 
     "enchantment.apotheosis.spearfishing": "漁獲",
     "enchantment.apotheosis.spearfishing.desc": "投擲三叉戟殺死敵人時將會掉落魚。",
-    
+
     "enchantment.apotheosis.endless_quiver": "無盡箭袋",
     "enchantment.apotheosis.endless_quiver.desc": "射擊時，所有種類的箭矢都將不會被消耗。",
 
@@ -1164,8 +1038,8 @@
     "enchantment.level.125": "CXXV",
     "enchantment.level.126": "CXXVI",
     "enchantment.level.127": "CXXVII",
-    
-    
+
+
     "block.apotheosis.library": "附魔圖書館",
     "block.apotheosis.ender_library": "亞歷山大圖書館",
     "apotheosis.ench.library": "附魔圖書館",
@@ -1191,7 +1065,7 @@
     "info.apotheosis.item_ench": "物品附魔能力：%s",
     "info.apotheosis.num_clues": "附魔提示：%s",
     "info.apotheosis.infusion_failed": "尚未滿足灌注條件",
-    
+
     "info.apotheosis.slider_power": "能量：%s",
     "info.apotheosis.enchinfo_level": "等級：%s",
     "info.apotheosis.enchinfo_rarity": "稀有度：%s",
@@ -1202,7 +1076,7 @@
     "info.apotheosis.enchinfo_title": "可套用的附魔",
     "info.apotheosis.weights": "權重",
     "info.apotheosis.all_available": "檢視所有可用的附魔",
-    
+
     "comment_id": "/Potion Module",
 
     "item.minecraft.potion.effect.resistance": "抗性藥水",
@@ -1250,6 +1124,11 @@
     "item.minecraft.lingering_potion.effect.grievous": "滯留 重創藥水",
     "item.minecraft.tipped_arrow.effect.grievous": "重創之箭",
 
+    "item.minecraft.potion.effect.flying": "飛行藥水",
+    "item.minecraft.splash_potion.effect.flying": "飛濺 飛行藥水",
+    "item.minecraft.lingering_potion.effect.flying": "滯留 飛行藥水",
+    "item.minecraft.tipped_arrow.effect.flying": "飛行之箭",
+
     "item.apotheosis.lucky_foot": "幸運兔子腳",
 
     "item.apotheosis.potion_charm_broke": "無效的藥水護符",
@@ -1260,7 +1139,7 @@
     "item.apotheosis.potion_charm.enabled": "已啟用",
     "item.apotheosis.potion_charm.disabled": "已停用",
     "item.apotheosis.potion_charm.curios_only": "僅在裝備於飾品欄時發揮效用",
-    
+
     "comment_id": "/Anvil Module",
     "info.apotheosis.anvil": "可被附魔。",
 
@@ -1292,15 +1171,15 @@
     "item.apotheosis.diamond_mining_arrow": "鑽石挖掘之箭",
     "info.apotheosis.mining_arrow.iron": "能用來破壞方塊，具有鐵鎬的強度",
     "info.apotheosis.mining_arrow.diamond": "能用來破壞方塊，具有鑽石鎬的強度",
-    
+
     "comment_id": "/Misc",
-    "generic.reachDistance": "觸及距離",
     "info.apoth.modifier_disabled": "該項改造已被停用",
-    "itemGroup.apotheosis": "神化",
+    "itemGroup.apotheosis.adventure": "神化｜冒險模組",
+    "itemGroup.apotheosis.ench": "神化｜附魔模組",
     "config.jade.plugin_apotheosis.spawner": "神化生怪磚模組",
     "config.jade.plugin_apotheosis.ench": "神化附魔模組",
     "config.jade.plugin_apotheosis.adventure": "神化冒險模組",
-    
+
     "comment_id": "Guidebook",
     "book.apotheosis.name": "暗影編年史",
     "book.apotheosis.subtitle": "《神化》指南手冊",
