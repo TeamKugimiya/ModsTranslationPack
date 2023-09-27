@@ -1,0 +1,13 @@
+{
+    "name": "色差",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)色差$()是一種用於剪刀的附魔。$(p)用來修剪任意顏色的羊時，會掉落隨機顏色的羊毛。"
+        }
+	]
+}

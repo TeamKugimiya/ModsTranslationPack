@@ -1,0 +1,13 @@
+{
+    "name": "Crit Damage",
+    "icon": "minecraft:netherite_axe",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Crit Damage$() is the damage modifier for your critical strikes.$(p)Jump crits also use your Crit Damage value, instead of the usual 1.5x multiplier.$(p)Found on weapons."
+        }
+	]
+}

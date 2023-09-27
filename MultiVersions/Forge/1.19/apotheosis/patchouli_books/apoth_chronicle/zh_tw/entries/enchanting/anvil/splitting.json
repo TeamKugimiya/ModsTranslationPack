@@ -1,0 +1,17 @@
+{
+    "name": "拆解",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/anvil",
+	"flag": "apotheosis:enchanting",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)拆解$()是一種全新的鐵砧專屬附魔。$(p)拆解鐵砧能夠將具有多個附魔的附魔書，分別「拆裝」成一系列個別的附魔書。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "至於拆解鐵砧的使用方法，你需要先將附魔書扔到世界上，然後讓鐵砧墜落在其上方。$(p)例如：有本帶有鋒利 III 以及掠奪 II 的附魔書，經過鐵砧拆解後會變成兩本書，一本會帶有鋒利 III，而另一本會帶有掠奪 II。"
+		}
+	]
+}

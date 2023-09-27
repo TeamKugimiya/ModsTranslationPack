@@ -1,0 +1,7 @@
+{
+    "name": "屬性",
+    "description": "除了原版現有的以外，《神化》還為遊戲加入了大量的新屬性。本章節將一一詳細介紹。",
+    "icon": "minecraft:diamond_chestplate",
+	"flag": "apotheosis:adventure",
+	"parent": "apotheosis:adventure/adventure"
+}

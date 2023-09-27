@@ -1,0 +1,6 @@
+{
+    "name": "園藝模組",
+    "description": "園藝模組承攬了有關植物的隨機改動。",
+    "icon": "minecraft:sugar_cane",
+	"flag": "apotheosis:garden"
+}

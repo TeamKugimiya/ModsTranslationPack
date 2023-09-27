@@ -1,0 +1,13 @@
+{
+    "name": "疊裝弩箭",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)疊裝弩箭$()是用於弩的極品附魔。$(p)每級附魔都能在重新填裝箭矢時，額外追加一發射擊。$(p)額外射擊不會產生額外的箭矢損耗。"
+        }
+	]
+}

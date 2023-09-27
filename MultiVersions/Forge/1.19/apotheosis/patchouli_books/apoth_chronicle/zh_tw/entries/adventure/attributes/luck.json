@@ -1,0 +1,17 @@
+{
+    "name": "幸運",
+    "icon": "minecraft:rabbit_foot",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)幸運$()將為你帶來好運！總之就是會增加你獲得更好掉落物的機率。$(p)任何物品都有機會被賦予這個屬性。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "幸運可以是負值，也意味著獲得稀有掉落物的機會將變得更低。"
+		}
+	]
+}

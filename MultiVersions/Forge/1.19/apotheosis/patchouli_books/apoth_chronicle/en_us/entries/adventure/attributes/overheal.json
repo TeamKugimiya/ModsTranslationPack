@@ -1,0 +1,13 @@
+{
+    "name": "Overheal",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Having $(9)Overheal$() means that part of your physical damage dealt will be gained as an absorption shield. As opposed to lifesteal, Overheal works when you are at full health.$(p)This stat is only found on heavy weapons."
+        }
+	]
+}

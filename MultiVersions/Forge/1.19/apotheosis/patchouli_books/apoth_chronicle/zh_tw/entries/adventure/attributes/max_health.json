@@ -1,0 +1,13 @@
+{
+    "name": "最高生命值",
+    "icon": "minecraft:apple",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)最高生命值$()控制玩家最高可回復的生命值上限。此值每增加 1，將額外增加 0.5 顆心。$(p)該屬性經常由盔甲以及一些盾牌提供"
+        }
+	]
+}

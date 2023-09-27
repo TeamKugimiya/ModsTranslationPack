@@ -1,0 +1,7 @@
+{
+    "name": "流浪生怪磚",
+    "description": "這些單獨的生怪磚，會稀疏地出現在洞穴中，並位於一塊堅硬的方塊上方，而其底部會藏有寶箱。$(p)由於這些生怪磚沒有已知的起源、用途，以及擁有者，故我們將其稱之為$(9)流浪生怪磚$()。",
+    "icon": "minecraft:spawner",
+	"flag": "apotheosis:adventure",
+	"parent": "apotheosis:adventure/adventure"
+}

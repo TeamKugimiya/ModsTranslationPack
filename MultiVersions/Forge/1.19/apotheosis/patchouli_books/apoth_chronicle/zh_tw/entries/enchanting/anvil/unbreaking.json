@@ -1,0 +1,13 @@
+{
+    "name": "耐久",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/anvil",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)耐久$()附魔現在可以被套用在鐵砧上。$(p)每級耐久能減少鐵砧在被使用（或墜落）時，耐久度耗損的機率。"
+        }
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "閱歷",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:potion/effects",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)閱歷$()藥水是一種增益效果。$(p)在這種效果的影響下，你殺死生物所獲得的任何經驗值都會增加。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "效果等級 I 時，會使經驗掉落增加至 4 倍。$(p)效果等級 II 時，會使經驗掉落增加至 8 倍。"
+        }
+	]
+}

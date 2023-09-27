@@ -1,0 +1,13 @@
+{
+    "name": "鏈鋸",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)鏈鋸$()是一種能套用在斧頭上的極品附魔。$(p)當用來破壞原木，會連帶破壞整棵樹木。$(p)使用該效果會損耗斧頭的耐久度。"
+        }
+	]
+}

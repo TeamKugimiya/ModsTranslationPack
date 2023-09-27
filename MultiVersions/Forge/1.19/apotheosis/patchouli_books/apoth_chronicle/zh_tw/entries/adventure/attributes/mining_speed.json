@@ -1,0 +1,13 @@
+{
+    "name": "挖掘速度",
+    "icon": "minecraft:netherite_pickaxe",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)挖掘速度$()可以提升你挖掘方塊的速度。此值為 1 時，表示挖掘速度為正常。$(p)該屬性可以鎬與鏟上找到。"
+        }
+	]
+}

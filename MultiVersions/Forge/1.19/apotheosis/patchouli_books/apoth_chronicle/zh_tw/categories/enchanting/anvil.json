@@ -1,0 +1,7 @@
+{
+    "name": "鐵砧",
+    "description": "本節詳細記載了對鐵砧的所有改動。$(p)鐵砧現在可以被附魔，且不再有等級限制，並可以使用鐵方塊對鐵砧進行修復（鐵砧介面中）。",
+    "icon": "minecraft:anvil",
+	"flag": "apotheosis:enchanting",
+	"parent": "apotheosis:enchanting/enchanting"
+}

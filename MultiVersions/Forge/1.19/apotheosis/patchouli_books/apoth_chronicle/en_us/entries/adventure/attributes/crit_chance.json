@@ -1,0 +1,17 @@
+{
+    "name": "Crit Chance",
+    "icon": "minecraft:netherite_sword",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Crit Chance$() is the chance that any damage you deal becomes a critical strike. Values over 100% allow you to perform multicrits.$(p)Found on weapons."
+        },
+		{
+			"type": "patchouli:text",
+			"text": "The amount of damage your critical strikes deal is dependent on your $(l:apotheosis:adventure/attributes/crit_damage)Crit Damage$()."
+		}
+	]
+}

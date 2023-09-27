@@ -1,0 +1,43 @@
+{
+    "name": "60 到 80 級",
+    "icon": "apotheosis:dormant_deepshelf",
+    "category": "apotheosis:enchanting/progression",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+		{
+            "type": "patchouli:crafting",
+			"title": "達到 70 級",
+			"recipe": "apotheosis:dormant_deepshelf",
+			"text": "要達到 70 級，你會需要 60 級的附魔台，並取得一些深板岩。"
+		},
+		{
+            "type": "patchouli:text",
+			"title": "達到 70 級",
+			"text": "一旦你合成出$(9)沉睡深板岩書櫃$()，你會需要去灌注它。$(p)這個灌注配方，會需要一些額外的方塊來達到能量閥值。$(p)灌注完成後，便會誕生出$(9)深板岩書櫃$()，能使你的附魔等級達到 70。"
+		},
+		{
+            "type": "patchouli:text",
+			"title": "達到 75 級",
+			"text": "若想要達到 75 級，你會需要升級你的深板岩書櫃。$(p)升級所需要的所有材料，只能在$(9)深淵$()中找到。$(p)$(9)回聲碎片$()能在遠古城市中取得，至於$(9)伏聆$()則需要使用絲綢之觸收集。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"title": "達到 75 級",
+			"recipe": "apotheosis:echoing_deepshelf",
+			"recipe2": "apotheosis:soul_touched_deepshelf"
+		},
+		{
+            "type": "patchouli:entity",
+			"entity": "minecraft:warden",
+			"title": "達到 80 級",
+			"scale": 0.95,
+			"text": "達到 80 級的最後一個步驟，會需要殺死$(9)伏守者$()，這將使你可以合成$(9)伏聆書櫃$()。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"title": "達到 80 級",
+			"recipe": "apotheosis:echoing_sculkshelf",
+			"recipe2": "apotheosis:soul_touched_sculkshelf"
+		}
+	]
+}

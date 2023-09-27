@@ -1,0 +1,13 @@
+{
+    "name": "穿甲",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)穿甲$()能讓你在攻擊時，無視目標一定百分比的盔甲值。$(p)$(9)穿甲$()效果會在$(9)盔甲穿透$()之前先被套用。"
+        }
+	]
+}

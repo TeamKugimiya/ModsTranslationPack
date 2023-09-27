@@ -1,0 +1,17 @@
+{
+    "name": "暴虐生怪磚",
+    "icon": "minecraft:zombie_head",
+    "category": "apotheosis:adventure/rogue_spawners",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "暴虐生怪磚是流浪生怪磚的一種子類型，會生成比平常更為強大的怪物。$(p)這些怪物相比於普通類型，擁有更高的血量、盔甲值以及傷害，並帶有火焰抗性。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "唯一的好處是，這些生怪磚在召喚新一輪的增援前，會有顯著的延遲。"
+        }
+	]
+}

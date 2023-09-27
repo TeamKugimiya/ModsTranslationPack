@@ -1,0 +1,13 @@
+{
+    "name": "移動速度",
+    "icon": "minecraft:leather_boots",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)移動速度$()是相對於你正常情況下行走速度的快慢。$(p)任何物品都有機會被賦予這個屬性。"
+        }
+	]
+}
