@@ -1,0 +1,21 @@
+{
+  "block.ore_tree.coal_tree_log": "Coal Tree Log",
+  "block.ore_tree.copper_tree_log": "Copper Tree Log",
+  "block.ore_tree.diamond_tree_log": "Diamond Tree Log",
+  "block.ore_tree.emerald_tree_log": "Emerald Tree Log",
+  "block.ore_tree.gold_tree_log": "Gold Tree Log",
+  "block.ore_tree.iron_tree_log": "Iron Tree Log",
+  "block.ore_tree.lapis_tree_log": "Lapis Tree Log",
+  "block.ore_tree.quartz_tree_log": "Quartz Tree Log",
+  "block.ore_tree.redstone_tree_log": "Redstone Tree Log",
+  "block.ore_tree.coal_tree_sapling": "Coal Tree Sapling",
+  "block.ore_tree.copper_tree_sapling": "Copper Tree Sapling",
+  "block.ore_tree.diamond_tree_sapling": "Diamond Tree Sapling",
+  "block.ore_tree.emerald_tree_sapling": "Emerald Tree Sapling",
+  "block.ore_tree.gold_tree_sapling": "Gold Tree Sapling",
+  "block.ore_tree.iron_tree_sapling": "Iron Tree Sapling",
+  "block.ore_tree.lapis_tree_sapling": "Lapis Tree Sapling",
+  "block.ore_tree.quartz_tree_sapling": "Quartz Tree Sapling",
+  "block.ore_tree.redstone_tree_sapling": "Redstone Tree Sapling",
+  "itemGroup.ore_tree.main": "Ore Tree"
+}
