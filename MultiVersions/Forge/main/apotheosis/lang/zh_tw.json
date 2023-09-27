@@ -325,7 +325,7 @@
 
     "bonus.apotheosis:durability.desc": "忽略 %s%% 耐久度損耗",
     "bonus.apotheosis:enchantment.desc": "%3$s +%1$s %2$s",
-    "bonus.apotheosis:enchantment.desc.mustExist": "現有的 %3$s +%1$s %2$s",
+    "bonus.apotheosis:enchantment.desc.mustExist": "現有的%3$s +%1$s %2$s",
     "bonus.apotheosis:enchantment.desc.global": "現有的所有附魔 +%s %s",
     "bonus.apotheosis:multi_attr.desc.and": "%s 以及 %s",
     "bonus.apotheosis:multi_attr.desc.and_but": "%s 以及 %s，但 %s",
