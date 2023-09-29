@@ -1,0 +1,7 @@
+{
+    "name": "藥水配方",
+	"parent": "apotheosis:potion/potion",
+    "description": "本章節將詳細介紹所有新加入的原版藥水配方。",
+    "icon": "minecraft:nether_wart",
+	"flag": "apotheosis:potion"
+}

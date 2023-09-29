@@ -1,0 +1,17 @@
+{
+    "name": "重創",
+    "icon": "apotheosis:textures/mob_effect/grievous.png",
+    "category": "apotheosis:potion/effects",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c)重創$()藥水是一種負面效果。$(p)在這種效果的影響下，獲得的所有治療效果都會減少。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "每級都能進一步減少 40% 治療效果。$(p)當效果等級達到 III 或更高等級時，所有的治療效果都將被無效化。"
+        }
+	]
+}

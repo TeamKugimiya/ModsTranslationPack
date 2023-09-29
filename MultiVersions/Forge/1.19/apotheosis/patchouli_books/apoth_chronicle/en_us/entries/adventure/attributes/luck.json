@@ -1,0 +1,17 @@
+{
+    "name": "Luck",
+    "icon": "minecraft:rabbit_foot",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Luck$() makes you lucky!  Well, that is, it increases the likelihood you receive better loot drops.$(p)Everything can grant luck."
+        },
+		{
+			"type": "patchouli:text",
+			"text": "You can have negative luck, which makes better loot drops even harder to get."
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "礦工熱忱",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(5)礦工熱忱$()是一種能套用在所有工具上的扭曲附魔。$(p)能夠讓你以非常快的速度破壞方塊，但沒辦法做到瞬間破壞。$(p)該附魔會與$(9)效率$()互相排斥。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "儘管擁有速度上限，但每級所提升的挖掘速度，會比$(9)效率$()要來得更多。$(p)因此對於基礎挖掘速度較慢的工具來說，這附魔會是這類工具的理想選擇。"
+        }
+	]
+}

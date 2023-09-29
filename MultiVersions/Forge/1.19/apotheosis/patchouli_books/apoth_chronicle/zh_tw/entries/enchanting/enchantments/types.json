@@ -1,0 +1,28 @@
+{
+    "name": "附魔類型",
+    "icon": "minecraft:emerald",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "你可能會注意到，有些附魔的名稱具有不同的顏色。$(p)這是因為《神化》引進了全新的三種附魔子類別。$(p)每種子類別都有附加一些規則。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "極品",
+            "text": "$(2)極品$()是最強大且最稀有的附魔代表。$(p)它們會需要至少 55 $(#CC00CC)最終附魔能量$()才能獲得。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "扭曲",
+            "text": "$(5)扭曲$()附魔總是會帶有一個正面效果與一個負面效果。$(p)它們會需要至少 45 $(#CC00CC)最終附魔能量$()才能獲得。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "墮落",
+            "text": "在$(4)墮落$()附魔的效果中，會附帶一個與生命值相關的代價。$(p)它們會需要至少 65 $(#CC00CC)最終附魔能量$()才能獲得。$(p)這些附魔被眾人視作一種$(c)詛咒$()。"
+        }
+	]
+}

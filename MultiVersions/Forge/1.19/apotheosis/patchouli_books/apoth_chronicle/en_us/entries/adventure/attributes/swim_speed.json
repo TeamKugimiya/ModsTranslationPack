@@ -1,0 +1,13 @@
+{
+    "name": "Swim Speed",
+    "icon": "minecraft:kelp",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Swim Speed$() is a modifier to your actual swim speed. If your swim speed was 200%, you would swim twice as fast.$(p)Only found on boots."
+        }
+	]
+}

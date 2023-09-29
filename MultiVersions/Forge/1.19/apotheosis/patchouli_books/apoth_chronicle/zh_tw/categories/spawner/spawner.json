@@ -1,0 +1,6 @@
+{
+    "name": "生怪磚模組",
+    "description": "生怪磚模組能讓你移動與調整$(9)生怪磚$()。",
+    "icon": "minecraft:spawner",
+	"flag": "apotheosis:spawner"
+}

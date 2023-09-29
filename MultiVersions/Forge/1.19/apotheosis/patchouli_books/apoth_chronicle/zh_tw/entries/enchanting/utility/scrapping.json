@@ -1,0 +1,29 @@
+{
+    "name": "拆解寶典",
+    "icon": "apotheosis:scrap_tome",
+    "category": "apotheosis:enchanting/utility",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "拆解寶典是一種從物品上，取回附魔的方式。$(p)將一本寶典與另一個物品放入鐵砧當中，會從物品上取下隨機幾個附魔，並產生一本附魔書，然後該物品便會毀損消失。"
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:scrap_tome",
+			"text": "你總是能從物品上，取回一半的附魔（向上取整數）。$(p)取下的附魔會由你的$(l:apotheosis:enchanting/table/seed)附魔種子$()決定。"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title": "卓越拆解",
+			"item": "apotheosis:improved_scrap_tome",
+			"text": "$(9)卓越拆解寶典$()是拆解寶典的升級版本。$(p)這本寶典能從物品上取下所有的附魔，而非只有一半。"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:extraction_tome",
+			"text": "$(9)提取寶典$()是拆解寶典中的完美版本。$(p)這本寶典能從物品上取下所有的附魔，且物品不會在該過程中毀損消失。"
+		}
+	]
+}

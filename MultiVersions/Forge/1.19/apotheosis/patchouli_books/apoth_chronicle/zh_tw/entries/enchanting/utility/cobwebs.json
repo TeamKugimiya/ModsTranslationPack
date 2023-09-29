@@ -1,0 +1,17 @@
+{
+    "name": "蜘蛛網",
+    "icon": "minecraft:cobweb",
+    "category": "apotheosis:enchanting/utility",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "將物品與蜘蛛網放進鐵砧當中，能將物品上的附魔全部去除。$(p)將物品與海磷蜘蛛網放進鐵砧當中，能將物品上的詛咒全部去除。"
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:cobweb",
+			"recipe2": "apotheosis:prismatic_web"
+		}
+	]
+}

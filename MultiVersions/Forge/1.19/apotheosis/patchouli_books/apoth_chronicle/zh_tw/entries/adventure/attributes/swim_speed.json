@@ -1,0 +1,13 @@
+{
+    "name": "游泳速度",
+    "icon": "minecraft:kelp",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)游泳速度$()是你實際泳速的調整值。若你的游泳速度為 200%，那麼你的游泳速度將快達兩倍。$(p)該屬性僅能在靴子上找到。"
+        }
+	]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "80 到 100 級",
+    "icon": "apotheosis:endshelf",
+    "category": "apotheosis:enchanting/progression",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+		{
+            "type": "patchouli:spotlight",
+			"title": "達到 90 級",
+			"item": "apotheosis:infused_breath",
+			"text": "若要進入倒數第二階級，你會需要 80 級的附魔台，並取得一些$(9)龍之吐息$()。$(p)只要有了這些，你便能製作$(9)灌注龍息$()，這是$(9)終界書櫃$()的核心元件。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"title": "達到 90 級",
+			"recipe": "apotheosis:endshelf",
+			"recipe2": "apotheosis:pearl_endshelf"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title": "達到 100 級",
+			"item": "minecraft:dragon_head",
+			"text": "附魔台最高可達到 100 級，但僅只有一種書櫃能提供如此龐大的能量。$(p)若想要製作出這種書櫃，你會需要前往終界外島，並成功從那裡取回$(9)龍首$()。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"title": "達到 100 級",
+			"recipe": "apotheosis:draconic_endshelf",
+			"text": "單靠一個$(9)龍裔終界書櫃$()，便能提供將附魔台從 90 級提升到 100 級的原始力量。$(p)然而，這種書櫃並不提供其他屬性的加成。"
+		}
+	]
+}

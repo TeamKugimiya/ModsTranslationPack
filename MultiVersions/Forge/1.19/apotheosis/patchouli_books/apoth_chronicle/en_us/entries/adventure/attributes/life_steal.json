@@ -1,0 +1,13 @@
+{
+    "name": "Life Steal",
+    "icon": "apotheosis:textures/mob_effect/bleeding.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Your $(9)Life Steal$() is the percentage of your physical damage dealt that is added directly to your health.$(p)Generally, only weapons provide this stat."
+        }
+	]
+}

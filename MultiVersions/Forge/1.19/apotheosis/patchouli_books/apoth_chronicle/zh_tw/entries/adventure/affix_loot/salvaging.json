@@ -1,0 +1,44 @@
+{
+    "name": "分解",
+    "icon": "apotheosis:salvaging_table",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:salvaging_table",
+			"text": "$(9)分解台$()用來將詞綴物品分解成相應的$(9)稀有度材料$()。"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:common_material",
+			"link_recipe": true,
+            "text": "一種外觀變形導致無法辨識的金屬碎片。$(p)透過分解普通稀有度的物品取得。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:uncommon_material",
+			"link_recipe": true,
+            "text": "一種耐用到不可置信的布料，外觀上充斥著歲月的痕跡。拭乾了不只一人的淚水。$(p)透過分解罕見稀有度的物品取得。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:rare_material",
+			"link_recipe": true,
+            "text": "一顆有史以來最閃耀的水晶。僅僅是一塊碎片，卻蘊含著極為強大的魔力。$(p)透過分解稀有稀有度的物品取得。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:epic_material",
+			"link_recipe": true,
+            "text": "一搓來自奇幻世界的沙粒。$(p)透過分解史詩稀有度的物品取得。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:mythic_material",
+			"link_recipe": true,
+            "text": "一顆經過淨化並蘊含與神匹敵力量的寶珠。這股強大的力量使它不易控制。$(p)這件非凡的創作，只能透過分解神話稀有度的物品取得。"
+        }
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "藥水護符",
+	"parent": "apotheosis:potion/potion",
+    "description": "本章節將詳細介紹$(9)藥水護符$()其所有用途以及細微差別。$(p)若神化的其他模組被停用，或尚未安裝某些模組，這章節可能會顯得有些空白。",
+    "icon": "apotheosis:potion_charm",
+	"flag": "apotheosis:potion",
+	"sortnum": 1
+}

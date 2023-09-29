@@ -1,0 +1,19 @@
+{
+    "name": "捕捉",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:spawner/spawner",
+	"flag": "apotheosis:spawner",
+	"sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "對著生怪磚使用$(9)生怪蛋$()，可以變更其生成的實體。$(p)通常這些生怪蛋是無法取得的。為了解決這個問題，《神化》模組為劍新增了$(9)捕捉$()附魔。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "minecraft:cow_spawn_egg",
+			"title": "生怪蛋",
+            "text": "每級$(9)捕捉$()附魔給予你 0.4% 的機率，使實體在死亡時掉落他們的生怪蛋。$(p)那些沒有生怪蛋物品（沒辦法在 JEI 中查詢到）的實體，無法掉落生怪蛋。"
+        }
+	]
+}
