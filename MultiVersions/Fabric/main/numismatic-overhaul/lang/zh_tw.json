@@ -1,5 +1,5 @@
 {
-  "item.numismatic-overhaul.bronze_coin": "銅幣",
+  "item.numismatic-overhaul.bronze_coin": "青銅幣",
   "item.numismatic-overhaul.silver_coin": "銀幣",
   "item.numismatic-overhaul.gold_coin": "金幣",
   "item.numismatic-overhaul.money_bag": "錢袋",
@@ -29,7 +29,7 @@
   "gui.numismatic-overhaul.purse_title": "錢包",
   "numismatic-overhaul.empty": "空",
   "filled_map.end_city": "終界探險家地圖",
-  "currency.numismatic-overhaul.bronze": "枚銅幣",
+  "currency.numismatic-overhaul.bronze": "枚青銅幣",
   "currency.numismatic-overhaul.silver": "枚銀幣",
   "currency.numismatic-overhaul.gold": "枚金幣",
 
