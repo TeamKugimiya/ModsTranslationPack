@@ -1,0 +1,67 @@
+{
+  "item.numismatic-overhaul.bronze_coin": "Bronze Coin",
+  "item.numismatic-overhaul.silver_coin": "Silver Coin",
+  "item.numismatic-overhaul.gold_coin": "Gold Coin",
+  "item.numismatic-overhaul.money_bag": "Money Bag",
+  "block.numismatic-overhaul.shop": "Shop",
+  "block.numismatic-overhaul.inexhaustible_shop": "Inexhaustible Shop",
+  "block.numismatic-overhaul.inexhaustible_shop.tooltip": "Creative only - never runs out of stock",
+  "block.numismatic-overhaul.piggy_bank": "Piggy Bank",
+  "gui.numismatic-overhaul.shop.price": "Price",
+  "gui.numismatic-overhaul.shop.inventory_title": "Shop Inventory",
+  "gui.numismatic-overhaul.shop.merchant_title": "Shop",
+  "gui.numismatic-overhaul.shop.transfer_tooltip.enabled": [
+    "Hoppers",
+    {
+      "text": " can ",
+      "color": "#28FFBF"
+    },
+    "insert \nitems into this shop"
+  ],
+  "gui.numismatic-overhaul.shop.transfer_tooltip.disabled": [
+    "Hoppers",
+    {
+      "text": " cannot ",
+      "color": "#EB1D36"
+    },
+    "insert \nitems into this shop"
+  ],
+  "gui.numismatic-overhaul.purse_title": "Purse",
+  "numismatic-overhaul.empty": "Empty",
+  "filled_map.end_city": "End Explorer Map",
+  "currency.numismatic-overhaul.bronze": "Bronze",
+  "currency.numismatic-overhaul.silver": "Silver",
+  "currency.numismatic-overhaul.gold": "Gold",
+
+  "itemGroup.numismatic-overhaul.main": "Numismatic Overhaul",
+  "itemGroup.numismatic-overhaul.main.button.modrinth": "Modrinth",
+  "itemGroup.numismatic-overhaul.main.button.curseforge": "CurseForge",
+  "itemGroup.numismatic-overhaul.main.button.github": "GitHub",
+  "itemGroup.numismatic-overhaul.main.button.discord": "Discord",
+
+  "text.config.numismatic-overhaul.title": "Numismatic Overhaul Configuration",
+  "text.config.numismatic-overhaul.option.enableVillagerTrading": "Enable Villager Trading",
+  "text.config.numismatic-overhaul.option.enableMcaCompatibility": "Enable MCA Compatibility",
+  "text.config.numismatic-overhaul.option.pursePositionX": "Purse X Coordinate",
+  "text.config.numismatic-overhaul.option.pursePositionY": "Purse Y Coordinate",
+  "text.config.numismatic-overhaul.option.generateCurrencyInChests": "Generate currency in loot chests",
+
+  "text.config.numismatic-overhaul.category.lootOptions": "Loot Generation",
+  "text.config.numismatic-overhaul.option.lootOptions.desertMinLoot": "Desert Temple Minimum Loot",
+  "text.config.numismatic-overhaul.option.lootOptions.desertMaxLoot": "Desert Temple Maximum Loot",
+  "text.config.numismatic-overhaul.option.lootOptions.dungeonMinLoot": "Dungeon Minimum Loot",
+  "text.config.numismatic-overhaul.option.lootOptions.dungeonMaxLoot": "Dungeon Maximum Loot",
+  "text.config.numismatic-overhaul.option.lootOptions.structureMinLoot": "Structure Minimum Loot",
+  "text.config.numismatic-overhaul.option.lootOptions.structureMaxLoot": "Structure Maximum Loot",
+  "text.config.numismatic-overhaul.option.lootOptions.strongholdLibraryMinLoot": "Stronghold Library Minimum Loot",
+  "text.config.numismatic-overhaul.option.lootOptions.strongholdLibraryMaxLoot": "Stronghold Library Maximum Loot",
+
+  "text.config.numismatic-overhaul.option.moneyMessageLocation": "Money Message Location",
+  "text.config.numismatic-overhaul.option.moneyMessageLocation.tooltip": "Decides where the money notification appears (requires rejoining world to apply)",
+  "text.config.numismatic-overhaul.enum.moneyMessageLocation.actionbar": "Actionbar",
+  "text.config.numismatic-overhaul.enum.moneyMessageLocation.chat": "Chat",
+  "text.config.numismatic-overhaul.enum.moneyMessageLocation.disabled": "Disabled",
+
+  "gamerule.moneyDropPercentage": "Money drop percentage",
+  "gamerule.moneyDropPercentage.description": "Controls how much of their money a player drops when they die, given that keepInventory is false"
+}
