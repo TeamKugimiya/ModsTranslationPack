@@ -57,7 +57,7 @@
 
 或是一些原因，將會內建一些第三方來源
 
-感謝下列各個翻譯者所製作的模組翻譯！
+感謝下列各個翻譯者、社群所製作的模組翻譯！
 
 * 部分模組簡轉繁，原始專案組織 [CFPA Team](https://github.com/CFPAOrg)<br/>
   * [MMLP-CN-to-ZW](https://github.com/TeamKugimiya/MMLP-CN-to-ZW)<br/>
@@ -102,6 +102,9 @@
         <li><a href="https://grant88.pixnet.net/blog/post/44292148">Fairy Lights</a></li>
       </ul>
   </details>
+* [Crowdin 社群](https://crowdin.com)
+  * [Sodium](https://crowdin.com/project/sodium-fabric)
+  * [Sodium Extra](https://crowdin.com/project/sodium-extra)
 
 ## 💫 翻譯貢獻者
 
