@@ -11,11 +11,11 @@
     "mob_spawner.type.creeper": "苦力怕",
     "item.minecraft.potion.effect.haste": "挖掘加速藥水",
     "item.minecraft.potion.effect.absorption": "吸收藥水",
-    "item.minecraft.potion.effect.dolphins_grace": "海豚悠游",
+    "item.minecraft.potion.effect.dolphins_grace": "海豚悠游藥水",
     "item.minecraft.splash_potion.effect.haste": "飛濺 挖掘加速藥水",
     "item.minecraft.splash_potion.effect.absorption": "飛濺 吸收藥水",
-    "item.minecraft.splash_potion.effect.dolphins_grace": "飛濺 海豚悠游",
+    "item.minecraft.splash_potion.effect.dolphins_grace": "飛濺 海豚悠游藥水",
     "item.minecraft.lingering_potion.effect.haste": "滯留 挖掘加速藥水",
     "item.minecraft.lingering_potion.effect.absorption": "滯留 吸收藥水",
-    "item.minecraft.lingering_potion.effect.dolphins_grace": "滯留 海豚悠游"
+    "item.minecraft.lingering_potion.effect.dolphins_grace": "滯留 海豚悠游藥水"
 }
