@@ -1,0 +1,34 @@
+{
+	"item.conjurer_illager.conjurer_spawn_egg": "魔術師 生怪蛋",
+	"item.conjurer_illager.conjurer_hat": "魔術師帽子",
+	"item.conjurer_illager.music_disc": "神秘唱片",
+
+	"filled_map.conjurer_illager:theatre": "遙遠的劇院地圖",
+
+	"entity.conjurer_illager.conjurer": "魔術師",
+	"entity.conjurer_illager.throwing_card": "拋出的撲克牌",
+	"entity.conjurer_illager.bouncing_ball": "彈力球",
+
+	"advancements.conjurer_illager.find_theatre": "魔術開演！",
+	"advancements.conjurer_illager.find_theatre.desc": "找到一間劇院",
+	"advancements.conjurer_illager.kill_conjurer": "多麼精彩的演出！",
+	"advancements.conjurer_illager.kill_conjurer.desc": "中止魔術秀並殺死魔術師",
+
+	"death.attack.conjurer_illager:papercut": "%1$s 被打了一手壞牌",
+	"death.attack.conjurer_illager:indirect_papercut": "%1$s 被 %2$s 打了一手壞牌",
+
+	"gui.conjurer_illager.item.conjurer_hat.desc": "降低 30% 的少量魔法傷害",
+
+	"subtitles.entity.conjurer.idle": "魔術師咯咯笑",
+	"subtitles.entity.conjurer.hurt": "魔術師受傷",
+	"subtitles.entity.conjurer.death": "魔術師死亡",
+	"subtitles.entity.conjurer.celebrate": "魔術師狂笑",
+	"subtitles.entity.conjurer.cast_spell": "魔術師準備戲法",
+	"subtitles.entity.conjurer.disappear": "魔術師消失",
+	"subtitles.entity.conjurer.prepare_vanish": "魔術師準備消失",
+	"subtitles.entity.conjurer.prepare_rabbit": "魔術師準備變出兔子",
+	"subtitles.entity.conjurer.prepare_attack": "魔術師準備攻擊",
+	"subtitles.entity.conjurer.prepare_displacement": "魔術師準備瞬移",
+	"subtitles.entity.bouncy_ball.bounce": "彈力球反彈",
+	"subtitles.entity.bouncy_ball.vanish": "彈力球破裂"
+}
