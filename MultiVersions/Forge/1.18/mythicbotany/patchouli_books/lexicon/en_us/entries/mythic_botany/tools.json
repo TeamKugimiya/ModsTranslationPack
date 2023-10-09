@@ -1,0 +1,54 @@
+{
+  "name": "lexicon.entry.mythicbotany.mythic_botany.tools",
+  "category": "mythicbotany:mythic_botany",
+  "icon": "mythicbotany:alfsteel_axe{Damage:0}",
+  "entry_color": "aa00",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "lexicon.entry.mythicbotany.mythic_botany.tools.page0.text0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_sword{Damage:0}",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.tools.page1.text0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_axe{Damage:0}",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.tools.page2.text0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_pick{Damage:0}",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.tools.page3.text0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_helmet{Damage:0}",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.tools.page4.text0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_chestplate{Damage:0}",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.tools.page5.text0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_leggings{Damage:0}",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.tools.page6.text0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_boots{Damage:0}",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.tools.page7.text0"
+    }
+  ]
+}

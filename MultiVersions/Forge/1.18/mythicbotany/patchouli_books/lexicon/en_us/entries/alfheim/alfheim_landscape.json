@@ -1,0 +1,39 @@
+{
+  "name": "lexicon.entry.mythicbotany.alfheim.alfheim_landscape",
+  "category": "mythicbotany:alfheim",
+  "icon": "mythicbotany:alf_pixie_spawn_egg",
+  "entry_color": "aa00",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "lexicon.entry.mythicbotany.alfheim.alfheim_landscape.page0.text0"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "lexicon.entry.mythicbotany.alfheim.alfheim_landscape.page1.text0",
+      "images": [
+        "mythicbotany:textures/image/alfheim_hills.png"
+      ],
+      "border": true,
+      "text": "lexicon.entry.mythicbotany.alfheim.alfheim_landscape.page1.text1"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "lexicon.entry.mythicbotany.alfheim.alfheim_landscape.page2.text0",
+      "images": [
+        "mythicbotany:textures/image/dreamwood_forest.png"
+      ],
+      "border": true,
+      "text": "lexicon.entry.mythicbotany.alfheim.alfheim_landscape.page2.text1"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "lexicon.entry.mythicbotany.alfheim.alfheim_landscape.page3.text0",
+      "images": [
+        "mythicbotany:textures/image/golden_fields.png"
+      ],
+      "border": true,
+      "text": "lexicon.entry.mythicbotany.alfheim.alfheim_landscape.page3.text1"
+    }
+  ]
+}
