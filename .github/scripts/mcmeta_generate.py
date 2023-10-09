@@ -90,7 +90,6 @@ def generate_mcmeta(mc_version: str, config_path: Path, data_dict: dict, is_rele
         version_desc = "發布版本" if is_release else "測試版本"
         version_input = version if is_release else git_sha
 
-
         print("資訊：")
         print("Minecraft 版本：", selected_version["mc_version"])
         print("資源包格式版本：", selected_version["pack_format"])
