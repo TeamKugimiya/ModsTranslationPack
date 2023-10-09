@@ -7,7 +7,7 @@
         {
             "mc_version": "1.18.x",
             "dir_path": "1.18",
-            "pack_format": "8",
+            "pack_format": 8,
             "supported_formats": {
                 "min": 8,
                 "max": 8
@@ -17,7 +17,7 @@
         {
             "mc_version": "1.19.x",
             "dir_path": "1.19",
-            "pack_format": "9",
+            "pack_format": 9,
             "supported_formats": {
                 "min": 9,
                 "max": 13
@@ -27,7 +27,7 @@
         {
             "mc_version": "1.20.x",
             "dir_path": "main",
-            "pack_format": "15",
+            "pack_format": 15,
             "supported_formats": {
                 "min": 15,
                 "max": 18

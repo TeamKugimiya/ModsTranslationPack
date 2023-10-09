@@ -97,7 +97,7 @@ def generate_mcmeta(mc_version: str, config_path: Path, data_dict: dict, is_rele
         print(f"資源包格式多版本：最低 {supported_format_min}、最高 {supported_format_max}")
         print(f"{version_desc}：{version_input}")
 
-        pack_mcmeta_json_data = pack_mcmeta_format(int(pack_format), format_version(is_release, version_input), supported_format_min, supported_format_max)
+        pack_mcmeta_json_data = pack_mcmeta_format(pack_format, format_version(is_release, version_input), supported_format_min, supported_format_max)
 
         with config_path.open("w") as file:
             json.dump(pack_mcmeta_json_data, file, ensure_ascii=False)
