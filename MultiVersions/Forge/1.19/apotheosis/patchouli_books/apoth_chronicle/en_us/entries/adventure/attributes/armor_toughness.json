@@ -1,0 +1,17 @@
+{
+    "name": "Armor Toughness",
+    "icon": "minecraft:netherite_chestplate",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Armor Toughness$() is a stat that reduces the effectiveness of incoming armor reduction.$(p)Usually provided by armor items or shields."
+        },
+		{
+			"type": "patchouli:text",
+			"text": "Each point of Armor Toughness reduces the effectiveness of Armor Pierce and Armor Shred by 1%, up to 50%.$(p)This function is unique to Apotheosis. In Vanilla Minecraft, Armor Toughness contributes to damage reduction."
+		}
+	]
+}

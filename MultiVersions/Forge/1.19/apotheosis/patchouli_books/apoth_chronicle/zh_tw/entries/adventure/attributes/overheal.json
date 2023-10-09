@@ -1,0 +1,13 @@
+{
+    "name": "超量治癒",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)超量治癒$()會將你造成的物理傷害轉換成吸收護盾。與生命偷取不同，過量治療只會在你滿血的情況下觸發。$(p)該屬性僅能在重型武器上找到。"
+        }
+	]
+}

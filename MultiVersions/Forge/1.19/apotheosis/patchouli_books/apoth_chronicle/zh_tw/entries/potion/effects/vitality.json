@@ -1,0 +1,17 @@
+{
+    "name": "生機勃勃",
+    "icon": "apotheosis:textures/mob_effect/vitality.png",
+    "category": "apotheosis:potion/effects",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)生機勃勃$()藥水是一種增益效果。$(p)在這種效果的影響下，獲得的所有治療效果都會提升。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "每級都能進一步提高 20% 治療效果。"
+        }
+	]
+}

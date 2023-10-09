@@ -1,0 +1,20 @@
+{
+    "name": "幸運",
+    "icon": "minecraft:textures/mob_effect/luck.png",
+    "category": "apotheosis:potion/recipes",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(6)幸運$()是一種非常奇特的效果。$(p)若擁有更多幸運，表示你能從某些來源獲得更好的戰利品。$(p)然而不幸的是，沒有辦法知道哪些戰利品來源，會受到$(6)幸運$()效果的影響。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"title": "釀造配方",
+			"item": "apotheosis:lucky_foot",
+			"link_recipe": true,
+            "text": "這種藥水可以使用普通藥水，以及幸運兔子腳合成。$(p)幸運兔子腳是兔子的稀有掉落物。"
+        }
+	]
+}

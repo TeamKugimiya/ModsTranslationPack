@@ -1,0 +1,7 @@
+{
+    "name": "全新效果",
+	"parent": "apotheosis:potion/potion",
+    "description": "本章節將詳細介紹由《神化》加入的全新藥水效果。",
+    "icon": "minecraft:experience_bottle",
+	"flag": "apotheosis:potion"
+}

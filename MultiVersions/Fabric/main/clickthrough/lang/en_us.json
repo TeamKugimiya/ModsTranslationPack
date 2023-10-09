@@ -1,0 +1,35 @@
+{
+    "clickthrough.config.sneaktodye": "Sneak to dye signs",
+    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
+    
+    "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
+    "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
+    "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
+    "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
+    "clickthrough.config.onlycontainers": "Only click through to containers",
+    "clickthrough.config.switchonattack": "Reroute left button as well",
+
+    "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
+    "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
+    "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
+    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops",
+    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar",
+    "clickthrough.config.tt.switchonattack": "Also redirect left button clicks to what's behind the sign",
+
+    "key.categories.clickthrough": "ClickThrough",
+    "key.clickthrough.toggle": "Turn ClickThrough on/off",
+    "clickthrough.msg.active": "ClickThrough active",
+    "clickthrough.msg.inactive": "ClickThrough inactive",
+
+    "clickthrough.config.switchonattack.never": "Never",
+    "clickthrough.config.switchonattack.first": "First click",
+    "clickthrough.config.switchonattack.always": "Always",
+
+  "text.autoconfig.clickthrough.title": "Clickthrough Control",
+  "text.autoconfig.clickthrough.category.clickthrough": "Clickthrough",
+  "text.autoconfig.clickthrough.option.clickthroughToggleOn": "Toggle if clickthrough is enabled",
+  "text.autoconfig.clickthrough.option.clickthroughWallSigns": "Toggle if clickthrough Wall Signs",
+  "text.autoconfig.clickthrough.option.clickthroughItemFrames": "Toggle if clickthrough Item Frames",
+  "text.autoconfig.clickthrough.option.clickthroughGlowItemFrames": "Toggle if clickthrough Glow Item Frames",
+  "text.autoconfig.clickthrough.option.clickthroughWallBanners": "Toggle if clickthrough Wall Banners"
+}

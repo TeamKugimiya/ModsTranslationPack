@@ -1,0 +1,20 @@
+{
+    "name": "三叉戟",
+    "icon": "minecraft:trident",
+    "category": "apotheosis:enchanting/changes",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "除了全新的附魔之外，三叉戟現在也可以附上$(9)鋒利$()、$(9)掠奪$()，以及$(9)貫穿$()附魔。$(p)鋒利與掠奪的功能，與在劍上時的效果相同。$(p)貫穿則是會讓投擲出去的三叉戟，能夠命中更多敵人。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"title": "製作三叉戟",
+			"item": "apotheosis:inert_trident",
+			"link_recipe": true,
+            "text": "《神化》模組還新增了一種合成三叉戟的方式。$(p)先合成出一把$(9)惰性三叉戟$()，然後在附魔台中使用$(l:apotheosis:enchanting/table/infusion)灌注附魔$()將其升級上去。"
+        }
+	]
+}

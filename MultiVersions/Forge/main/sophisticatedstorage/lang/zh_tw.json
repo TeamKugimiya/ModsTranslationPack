@@ -72,7 +72,7 @@
     "item.sophisticatedstorage.netherite_shulker_box": "獄髓界伏盒",
     "block.sophisticatedstorage.netherite_shulker_box": "獄髓界伏盒",
     "item.sophisticatedstorage.basic_tier_upgrade": "基礎升級",
-    "item.sophisticatedstorage.basic_tier_upgrade.tooltip": "將原版容器升級為精緻版本",
+    "item.sophisticatedstorage.basic_tier_upgrade.tooltip": "將原版容器升級為精巧版本",
     "item.sophisticatedstorage.basic_to_iron_tier_upgrade": "基礎 > 鐵升級",
     "item.sophisticatedstorage.basic_to_gold_tier_upgrade": "基礎 > 金升級",
     "item.sophisticatedstorage.basic_to_diamond_tier_upgrade": "基礎 > 鑽石升級",
@@ -185,7 +185,7 @@
     "gui.sophisticatedstorage.settings.buttons.context_storage": "儲存容器",
     "gui.sophisticatedstorage.settings.buttons.context_storage.tooltip": "該儲存容器的設定",
     "gui.sophisticatedstorage.settings.buttons.context_storage.tooltip_detail": "不受玩家的全域設定影響",
-    "keybind.sophisticatedstorage.category": "精緻儲存容器",
+    "keybind.sophisticatedstorage.category": "精巧儲存",
     "keybind.sophisticatedstorage.sort": "整理儲存容器",
     "gui.sophisticatedstorage.status.too_many_item_entity_drops": "無法破壞 %s，這將會產生大量的掉落物（%s）\n可以考慮使用 %s 或潛行狀態下破壞來略過該檢查"
 }

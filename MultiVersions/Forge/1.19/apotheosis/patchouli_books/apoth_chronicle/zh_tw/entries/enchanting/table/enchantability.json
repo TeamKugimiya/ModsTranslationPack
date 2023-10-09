@@ -1,0 +1,12 @@
+{
+    "name": "物品附魔能力",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "在原版 Minecraft 中，物品的附魔能力會影響你的$(#CC00CC)最終附魔能量$()。$(p)而《神化》已將其改為由$(#A800A8)阿卡那$()直接提供加成。$(p)$(#A800A8)阿卡那$()會將物品的附魔能力提高 50%。"
+        }
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "生命偷取",
+    "icon": "apotheosis:textures/mob_effect/bleeding.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)生命偷取$()會將你造成傷害的一定百分比值用來回復生命。$(p)該屬性通常僅由武器提供。"
+        }
+	]
+}

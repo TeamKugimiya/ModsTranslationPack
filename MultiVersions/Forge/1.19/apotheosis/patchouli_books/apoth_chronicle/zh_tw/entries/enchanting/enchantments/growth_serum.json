@@ -1,0 +1,13 @@
+{
+    "name": "生長激素",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)生長激素$()是一種用於剪刀的極品附魔。$(p)用來修剪羊毛時，羊有 50% 機率立即長回羊毛。"
+        }
+	]
+}

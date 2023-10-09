@@ -1,0 +1,13 @@
+{
+    "name": "漁獲",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)漁獲$()是一種用於三叉戟的附魔。$(p)投擲三叉戟殺死生物時，每級會有 3.5% 機率掉落隨機品種的魚。"
+        }
+	]
+}

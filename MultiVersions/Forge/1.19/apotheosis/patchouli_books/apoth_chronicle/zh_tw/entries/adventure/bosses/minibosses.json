@@ -1,0 +1,17 @@
+{
+    "name": "迷你 Boss",
+    "icon": "minecraft:skeleton_skull",
+    "category": "apotheosis:adventure/bosses",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "偶爾你會在世界上遇見被賦與名稱，或權能的生物。$(p)這些生物很可能就是$(9)神化迷你 Boss$()。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "這些迷你 Boss 會替代他們的正常對應生物，隨機出現在世界上。$(p)請務必保持警惕。"
+		}
+	]
+}

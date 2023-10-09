@@ -1,0 +1,23 @@
+{
+  "entity.pots_and_mimics.end_pot_crab": "終界罐居蟹",
+  "block.pots_and_mimics.treasure_pot": "藏寶罐",
+  "subtitles.pot_crab_hurt": "罐居蟹受傷",
+  "block.pots_and_mimics.nether_treasure_pot": "地獄藏寶罐",
+  "subtitles.pot_crab_ambient": "罐居蟹咔嗒聲",
+  "gamerule.potCrabSpawnChance.description": "定義罐居蟹從藏寶罐中生成的機率（預設值：17%）",
+  "gamerule.potCrabSpawning.description": "啟用在破壞藏寶罐時生成罐居蟹。",
+  "gamerule.potCrabSpawnChance": "罐居蟹生成機率",
+  "block.pots_and_mimics.end_treasure_pot": "終界藏寶罐",
+  "block.pots_and_mimics.decorative_end_pot": "終界藏寶罐（裝飾用）",
+  "item.pots_and_mimics.poison_pot_crab_spawn_egg": "劇毒罐居蟹 生怪蛋",
+  "subtitles.pot_crab_death": "罐居蟹死亡",
+  "block.pots_and_mimics.decorative_nether_pot": "地獄藏寶罐（裝飾用）",
+  "entity.pots_and_mimics.nether_pot_crab": "地獄罐居蟹",
+  "item.pots_and_mimics.nether_pot_crab_spawn_egg": "地獄罐居蟹 生怪蛋",
+  "entity.pots_and_mimics.pot_crab": "罐居蟹",
+  "block.pots_and_mimics.decorative_pot": "藏寶罐（裝飾用）",
+  "item.pots_and_mimics.end_pot_crab_spawn_egg": "終界罐居蟹 生怪蛋",
+  "item.pots_and_mimics.pot_crab_spawn_egg": "罐居蟹 生怪蛋",
+  "gamerule.potCrabSpawning": "生成罐居蟹",
+  "entity.pots_and_mimics.poison_pot_crab": "劇毒罐居蟹"
+}

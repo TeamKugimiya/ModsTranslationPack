@@ -1,0 +1,21 @@
+{
+    "name": "流浪商人",
+    "icon": "minecraft:emerald",
+    "category": "apotheosis:village/village",
+	"flag": "apotheosis:village",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "你曾遇過那些在你的草坪上，突然出現的可疑商人嗎？$(p)他們被稱作為$(9)流浪商人$()。$(p)通常他們只會賣一些垃圾貨。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "然而，《神化》模組已在他們的交易中，加入大量的全新物品，因此與他們互動會是相當值得的。$(p)這些交易中，包含$(9)烽火台$()或$(9)不死圖騰$()等物品，以及重度附魔的鑽石裝備。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "《神化》模組還改善了流浪商人的生成率，並讓他們能夠在地底下生成，而不僅限於地表。"
+        }
+	]
+}

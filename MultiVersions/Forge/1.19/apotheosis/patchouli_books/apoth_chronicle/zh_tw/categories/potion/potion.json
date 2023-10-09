@@ -1,0 +1,6 @@
+{
+    "name": "藥水模組",
+    "description": "藥水模組承攬了全新的藥水與藥水配方。$(p)基本上涵蓋了所有與藥水有關的事物。",
+    "icon": "minecraft:potion",
+	"flag": "apotheosis:potion"
+}

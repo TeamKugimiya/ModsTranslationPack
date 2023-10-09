@@ -1,0 +1,173 @@
+{
+    "item.modifiers.both_hands": "持握在手上時：",
+
+    "attributeslib.adv.base": "[實體基礎值：%s｜物品基礎值：%s]",
+    "attributeslib.adv.sharpness_bonus": "[鋒利：+%s]",
+
+    "attributeslib.value.flat": "%s",
+    "attributeslib.value.percent": "%s%%",
+
+    "attributeslib.value.boolean.enabled": "已啟用",
+    "attributeslib.value.boolean.disabled": "已停用",
+    "attributeslib.value.boolean.enable": "啟用",
+    "attributeslib.value.boolean.force_disable": "強制停用",
+    "attributeslib.value.boolean.invalid": "無效",
+
+    "attributeslib.modifier.plus": "+%s %s",
+    "attributeslib.modifier.take": "-%s %s",
+    "attributeslib.modifier.bool": "%s %s",
+
+    "attributeslib.gui.attributes": "屬性",
+    "attributeslib.gui.base": "基礎值：%s",
+    "attributeslib.gui.min": "最小值：%s",
+    "attributeslib.gui.max": "最大值：%s",
+    "attributeslib.gui.modifiers": "調整值",
+    "attributeslib.gui.addition": "加數：%s",
+    "attributeslib.gui.multiply_base": "基礎乘數：%s",
+    "attributeslib.gui.multiply_total": "總乘數：%s",
+    "attributeslib.gui.press_shift": "按住 Shift 取得更多資訊。",
+    "attributeslib.gui.current": "目前：%s",
+    "attributeslib.gui.show_attributes": "顯示屬性",
+
+    "attribute.name.generic.armor.desc": "提高物理傷害減免。",
+    "attribute.name.generic.armor_toughness.desc": "降低敵人的盔甲穿透效果。",
+    "attribute.name.generic.attack_damage.desc": "全力攻擊時造成的物理傷害。",
+    "attribute.name.generic.attack_knockback.desc": "你的近戰攻擊能擊退敵人的距離，以半格方塊為單位。",
+    "attribute.name.generic.attack_speed.desc": "每秒可進行的全力攻擊次數。",
+    "attribute.name.generic.knockback_resistance.desc": "你可以忽略的擊退距離。",
+    "attribute.name.generic.luck.desc": "提高好事發生的機率。",
+    "attribute.name.generic.max_health.desc": "你最多可擁有的生命值。",
+    "attribute.name.generic.movement_speed.desc": "行走時的移動速度。",
+
+    "forge.entity_reach.desc": "你能與實體互動的最遠距離，以方塊為單位。",
+    "forge.entity_gravity.desc": "墜落時的加速度，以方塊/秒²為單位。",
+    "forge.name_tag_distance.desc": "其他玩家需要在多少距離內才能看見你的名字。",
+    "forge.block_reach.desc": "你能與方塊互動的最遠距離，以方塊為單位。",
+    "forge.step_height_addition.desc": "你在不跳躍的情形下，能直接走上的最高方塊數。",
+    "forge.swim_speed.desc": "相對於正常狀態下的游泳速度。",
+
+    "attributeslib:draw_speed": "蓄力速度",
+    "attributeslib:draw_speed.desc": "你使用遠程武器時的蓄力速度，像是弓、弩，以及三叉戟。",
+
+    "attributeslib:crit_chance": "爆擊率",
+    "attributeslib:crit_chance.desc": "你造成的傷害發生暴擊的機率，根據你的暴擊傷害造成額外傷害。",
+
+    "attributeslib:crit_damage": "爆擊傷害",
+    "attributeslib:crit_damage.desc": "暴擊的傷害倍率，包含原版的跳劈。",
+
+    "attributeslib:cold_damage": "冰霜傷害",
+    "attributeslib:cold_damage.desc": "近戰攻擊時附加的額外魔法傷害，並減緩目標的移動速度。",
+
+    "attributeslib:fire_damage": "火焰傷害",
+    "attributeslib:fire_damage.desc": "近戰攻擊時附加的額外魔法傷害，並使目標燃燒。",
+
+    "attributeslib:life_steal": "生命偷取",
+    "attributeslib:life_steal.desc": "根據所造成的傷害百分比，回復你的生命。",
+
+    "attributeslib:current_hp_damage": "目前生命傷害",
+    "attributeslib:current_hp_damage.desc": "根據目標血量，對近戰攻擊附加物理傷害加成。",
+
+    "attributeslib:overheal": "超量治癒",
+    "attributeslib:overheal.desc": "根據所造成的傷害百分比，賦與你吸收護盾。",
+
+    "attributeslib:ghost_health": "虛假生命",
+    "attributeslib:ghost_health.desc": "尚未實裝",
+
+    "attributeslib:mining_speed": "挖掘速度",
+    "attributeslib:mining_speed.desc": "相對於正常狀態下的挖掘速度。",
+
+    "attributeslib:arrow_damage": "投射物傷害",
+    "attributeslib:arrow_damage.desc": "投射物的傷害倍率。三叉戟也視作投射物。",
+
+    "attributeslib:arrow_velocity": "投射物射速",
+    "attributeslib:arrow_velocity.desc": "投射物的射速倍率。投射物的傷害會隨射速增加。",
+
+    "attributeslib:experience_gained": "經驗獲得量",
+    "attributeslib:experience_gained.desc": "透過挖掘方塊與殺死生物，獲取的經驗值倍率。",
+
+    "attributeslib:healing_received": "治療獲得量",
+    "attributeslib:healing_received.desc": "所有治療效果的倍率。",
+
+    "attributeslib:armor_pierce": "盔甲穿透",
+    "attributeslib:armor_pierce.desc": "降低目標的固定盔甲值。",
+
+    "attributeslib:armor_shred": "破甲",
+    "attributeslib:armor_shred.desc": "百分比降低目標的盔甲值。",
+
+    "attributeslib:prot_pierce": "保護穿透",
+    "attributeslib:prot_pierce.desc": "降低目標的固定保護效果。",
+
+    "attributeslib:prot_shred": "保護破除",
+    "attributeslib:prot_shred.desc": "百分比降低目標的保護效果。",
+
+    "attributeslib:dodge_chance": "迴避率",
+    "attributeslib:dodge_chance.desc": "迴避近戰攻擊或投射物的機率。",
+
+    "attributeslib:elytra_flight": "鞘翅滑翔",
+    "attributeslib:elytra_flight.desc": "讓你能跟裝備鞘翅一樣滑翔。",
+
+    "attributeslib:creative_flight": "創造模式飛行",
+    "attributeslib:creative_flight.desc": "讓你能跟創造模式一樣飛行。",
+
+    "comment_id": "MobFx - descriptions are duplicated for JEED support.",
+
+    "effect.attributeslib.knowledge": "閱歷",
+    "effect.attributeslib.knowledge.desc": "提高擊殺生物與破壞方塊時，所獲得的經驗值。",
+    "effect.attributeslib.knowledge.description": "提高擊殺生物與破壞方塊時，所獲得的經驗值。",
+
+    "effect.attributeslib.sundering": "破甲",
+    "effect.attributeslib.sundering.desc": "提高受到的傷害量。",
+    "effect.attributeslib.sundering.description": "提高受到的傷害量。",
+
+    "effect.attributeslib.vitality": "生氣勃勃",
+    "effect.attributeslib.vitality.desc": "提高受到的治療量。",
+    "effect.attributeslib.vitality.description": "提高受到的治療量。",
+
+    "effect.attributeslib.grievous": "重創",
+    "effect.attributeslib.grievous.desc": "降低受到的治療量。",
+    "effect.attributeslib.grievous.description": "降低受到的治療量。",
+
+    "effect.attributeslib.bleeding": "流血",
+    "effect.attributeslib.bleeding.desc": "每隔兩秒受到流血傷害。",
+    "effect.attributeslib.bleeding.description": "每隔兩秒受到流血傷害。",
+
+    "effect.attributeslib.detonation": "爆燃",
+    "effect.attributeslib.detonation.desc": "效果結束時，根據身上的火焰效果剩餘時間（tick）造成傷害。",
+    "effect.attributeslib.detonation.description": "效果結束時，根據身上的火焰效果剩餘時間（tick）造成傷害。",
+
+    "effect.attributeslib.flying": "飛行",
+    "effect.attributeslib.flying.desc": "獲得創造模式飛行能力。",
+    "effect.attributeslib.flying.description": "獲得創造模式飛行能力。",
+
+    "effect.minecraft.night_vision.desc": "讓你身處在暗處時，依舊能夠洞察一切。",
+    "effect.minecraft.invisibility.desc": "使你身體隱形，但不包括身上的裝備。",
+    "effect.minecraft.jump_boost.desc": "提高跳躍高度。",
+    "effect.minecraft.fire_resistance.desc": "使你免疫火焰類型的傷害。",
+    "effect.minecraft.water_breathing.desc": "讓你無法溺水。",
+    "effect.minecraft.instant_health.desc": "立即恢復一些生命值。",
+    "effect.minecraft.instant_damage.desc": "立即造成一些魔法傷害。",
+    "effect.minecraft.poison.desc": "週期性造成不致命的傷害。",
+    "effect.minecraft.regeneration.desc": "讓你隨著時間回復生命值。",
+
+    "comment_id": "Damage Sources",
+
+    "death.attack.attributeslib:bleeding": "%1$s 因失血過多致死",
+    "death.attack.attributeslib:bleeding.item": "%1$s 因 %2$s 的 %3$s 而失血過多致死",
+    "death.attack.attributeslib:bleeding.player": "%1$s 在試圖逃離 %2$s 時因失血過多致死",
+
+    "death.attack.attributeslib:detonation": "%1$s 死於爆燃",
+    "death.attack.attributeslib:detonation.item": "%1$s 死於爆燃",
+    "death.attack.attributeslib:detonation.player": "%1$s 死於爆燃",
+
+    "death.attack.attributeslib:current_hp_damage": "%1$s 被擊倒了",
+    "death.attack.attributeslib:current_hp_damage.item": "%1$s 被 %2$s 用 %3$s 擊倒了",
+    "death.attack.attributeslib:current_hp_damage.player": "%1$s 在與 %2$s 戰鬥時倒下了",
+
+    "death.attack.attributeslib:fire_damage": "%1$s 因燒焦致死",
+    "death.attack.attributeslib:fire_damage.item": "%1$s 被 %2$s 用 %3$s 而燒焦致死",
+    "death.attack.attributeslib:fire_damage.player": "%1$s 在與 %2$s 戰鬥時因燒焦致死",
+
+    "death.attack.attributeslib:cold_damage": "%1$s 因凍傷致死",
+    "death.attack.attributeslib:cold_damage.item": "%1$s 被 %2$s 用 %3$s 而凍傷致死",
+    "death.attack.attributeslib:cold_damage.player": "%1$s 在與 %2$s 戰鬥時因凍傷致死"
+}

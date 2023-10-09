@@ -1,0 +1,13 @@
+{
+    "name": "火焰傷害",
+    "icon": "minecraft:blaze_powder",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)火焰傷害$()是在近戰攻擊時會附加的魔法增益傷害。並對命中目標造成短暫的燃燒傷害。造成的傷害越高，燃燒持續的時間就越久。$(p)該屬性可在近戰武器上找到。"
+        }
+	]
+}
