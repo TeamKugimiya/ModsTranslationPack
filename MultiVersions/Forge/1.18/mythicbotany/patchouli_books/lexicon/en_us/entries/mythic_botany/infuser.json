@@ -1,0 +1,57 @@
+{
+  "name": "lexicon.entry.mythicbotany.mythic_botany.infuser",
+  "category": "mythicbotany:mythic_botany",
+  "icon": "mythicbotany:alfsteel_ingot",
+  "entry_color": "aa00",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "lexicon.entry.mythicbotany.mythic_botany.infuser.page0.text0"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mythicbotany:mana_infuser",
+      "text": "lexicon.entry.mythicbotany.mythic_botany.infuser.page1.text0"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "lexicon.entry.mythicbotany.mythic_botany.infuser.page2.text0",
+      "multiblock": {
+        "mapping": {
+          "I": "mythicbotany:mana_infuser",
+          "G": "minecraft:gold_block",
+          "S": "botania:shimmerrock",
+          "0": "botania:shimmerrock"
+        },
+        "pattern": [
+          [
+            "   ",
+            " I ",
+            "   "
+          ],
+          [
+            "SGS",
+            "G0G",
+            "SGS"
+          ]
+        ],
+        "symmetrical": true
+      },
+      "text": "lexicon.entry.mythicbotany.mythic_botany.infuser.page2.text1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_ingot",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.infuser.page3.text0"
+    },
+    {
+      "type": "mythicbotany:infuser",
+      "recipe": "botania:mythicbotany_infusion/terrasteel_ingot"
+    },
+    {
+      "type": "mythicbotany:infuser",
+      "recipe": "mythicbotany:mythicbotany_infusion/alfsteel_ingot"
+    }
+  ]
+}
