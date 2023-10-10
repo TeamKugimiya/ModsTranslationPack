@@ -27,14 +27,16 @@ jobs:
             python .github/scripts/contributors_generator.py
           EOF
           )
+
+          echo "::group::Html Table"
+          echo $list_html
+          echo "::endgroup::"
+
           {
             echo 'html_table<<EOF'
             $list_html
             echo EOF
           } >> "$GITHUB_OUTPUT"
-          echo "::group::Html List"
-          echo $list_html
-          echo "::endgroup::"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
