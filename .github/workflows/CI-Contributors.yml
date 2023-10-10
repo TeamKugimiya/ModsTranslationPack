@@ -20,12 +20,18 @@ jobs:
       - name: Checking Repository
         uses: actions/checkout@v4
 
-      - name: Generate Contributors Images
-        uses: jaywcjlove/github-action-contributors@main
-        id: contributors
-        with:
-          filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
-          avatarSize: 100
+      - name: Generate Contributors Html Table
+        id: html_list
+        run: |
+          python .github/scripts/contributors_generator.py > list.html
+          {
+            echo 'html_table<<EOF'
+            cat list.html
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+          echo "::group::Html List"
+          cat list.html
+          echo "::endgroup::""
 
       - name: Update Readme
         run: |
@@ -35,24 +41,28 @@ jobs:
           MULTILINE_MODE: true
           START_TAG: "<!-- CONTRIBUTORS_CI_START -->"
           END_TAG: "<!-- CONTRIBUTORS_CI_END -->"
-          CONTENT: "${{steps.contributors.outputs.htmlTable}}"
+          CONTENT: "${{ steps.html_list.outputs.html_table }}"
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          title: "docs(Readme): 更新貢獻者清單"
-          commit-message: "docs(Readme): 更新貢獻者清單"
-          branch: docs/contributor-readme
-          labels: |
-            📃 文件
-          add-paths: README.md
-          body: |
-            自動化 [GitHub Action][github-action] 工作流程！
+      - name: DEBUG
+        run: |
+          cat README.md
 
-            ------
-            由 [create-pull-request][cpr] 自動產生
+      # - name: Create Pull Request
+      #   uses: peter-evans/create-pull-request@v5
+      #   with:
+      #     committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+      #     author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+      #     title: "docs(Readme): 更新貢獻者清單"
+      #     commit-message: "docs(Readme): 更新貢獻者清單"
+      #     branch: docs/contributor-readme
+      #     labels: |
+      #       📃 文件
+      #     add-paths: README.md
+      #     body: |
+      #       自動化 [GitHub Action][github-action] 工作流程！
 
-            [cpr]: https://github.com/peter-evans/create-pull-request
-            [github-action]: https://github.com/features/actions
+      #       ------
+      #       由 [create-pull-request][cpr] 自動產生
+
+      #       [cpr]: https://github.com/peter-evans/create-pull-request
+      #       [github-action]: https://github.com/features/actions
