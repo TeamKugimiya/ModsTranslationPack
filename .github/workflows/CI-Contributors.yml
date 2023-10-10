@@ -37,7 +37,9 @@ jobs:
 
       - name: Print Html Table
         run: |
-          echo ${{ steps.html_list.outputs.html_table }}
+          cat << EOF 
+          ${{ steps.html_list.outputs.html_table }}
+          EOF
 
       - name: Update Readme
         run: |
