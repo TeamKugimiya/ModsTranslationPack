@@ -25,19 +25,15 @@ jobs:
         run: |
           list_html=$(cat <<-EOF
             python .github/scripts/contributors_generator.py
-          EOF
-          )
+          EOF)
           {
             echo 'html_table<<EOF'
             $list_html
             echo EOF
           } >> "$GITHUB_OUTPUT"
           echo "::group::Html List"
-          echo "$list_html"
+          echo $list_html
           echo "::endgroup::"
-
-          python .github/scripts/contributors_generator.py > html.list
-          cat html.list
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
