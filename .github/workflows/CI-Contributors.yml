@@ -26,7 +26,7 @@ jobs:
           python .github/scripts/contributors_generator.py > list.html
           {
             echo 'html_table<<EOF'
-            cat list.html
+            'cat list.html'
             echo EOF
           } >> "$GITHUB_OUTPUT"
           echo "::group::Html List"
