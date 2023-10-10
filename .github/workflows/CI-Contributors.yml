@@ -23,15 +23,18 @@ jobs:
       - name: Generate Contributors Html Table
         id: html_list
         run: |
-          python .github/scripts/contributors_generator.py > list.html
+          list_html=$(cat <<-EOF
+          python .github/scripts/contributors_generator.py
+          EOF
+          )
           {
             echo 'html_table<<EOF'
-            'cat list.html'
+            $list_html
             echo EOF
           } >> "$GITHUB_OUTPUT"
           echo "::group::Html List"
-          cat list.html
-          echo "::endgroup::""
+          echo "$list_html"
+          echo "::endgroup::"
 
       - name: Update Readme
         run: |
