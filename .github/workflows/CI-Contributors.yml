@@ -27,11 +27,6 @@ jobs:
             python .github/scripts/contributors_generator.py
           EOF
           )
-
-          echo "::group::Html Table"
-          echo $list_html
-          echo "::endgroup::"
-
           {
             echo 'html_table<<EOF'
             $list_html
@@ -39,6 +34,10 @@ jobs:
           } >> "$GITHUB_OUTPUT"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Print Html Table
+        run: |
+          echo ${{ steps.html_list.outputs.html_table }}
 
       - name: Update Readme
         run: |
