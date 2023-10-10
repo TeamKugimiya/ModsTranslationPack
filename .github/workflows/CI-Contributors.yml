@@ -38,6 +38,8 @@ jobs:
 
           python .github/scripts/contributors_generator.py > html.list
           cat html.list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update Readme
         run: |
