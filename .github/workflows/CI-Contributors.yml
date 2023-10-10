@@ -24,7 +24,7 @@ jobs:
         id: html_list
         run: |
           list_html=$(cat <<-EOF
-          python .github/scripts/contributors_generator.py
+            python .github/scripts/contributors_generator.py
           EOF
           )
           {
@@ -35,6 +35,9 @@ jobs:
           echo "::group::Html List"
           echo "$list_html"
           echo "::endgroup::"
+
+          python .github/scripts/contributors_generator.py > html.list
+          cat html.list
 
       - name: Update Readme
         run: |
