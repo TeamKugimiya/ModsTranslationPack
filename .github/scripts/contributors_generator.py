@@ -56,11 +56,12 @@ def generate_html_list(user_list: dict):
         html_table += '    <td align="center">\n'
         html_table += f'      <a href="{user["html_url"]}" title="{user["user_name"]}">\n'
         html_table += f'        <img src="{user["avatar_url"]}" width="100;" alt="{user["user_name"]}"/>\n'
-        html_table += f'        <br /><sub><b>{user["user_name"]}</b></sub>\n'
+        html_table += '        <br />\n'
+        html_table += f'        <sub><b>{user["user_name"]}</b></sub>\n'
         html_table += '      </a>\n'
         html_table += '    </td>\n'
 
-        if i % 7 == 0 and i != len(user_list):
+        if i % 6 == 0 and i != len(user_list):
             html_table += "  </tr>\n  <tr>\n"
 
     html_table += "  </tr>\n</table>"
