@@ -1,0 +1,17 @@
+{
+    "name": "附魔能力",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:enchanting/changes",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "在原版 Minecraft 中，未有明確$(l:apotheosis:enchanting/table/enchantability)物品附魔能力$()的所有物品，其預設值都為 0。$(p)而《神化》模組則將該預設值變更為 1。$(p)這導致某些物品意外地可以進行附魔。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "這項調整不會變更具有明確附魔能力值的物品。$(p)附魔等級為 0 的物品，是無法進行附魔的。"
+        }
+	]
+}

@@ -26,9 +26,17 @@ on:
         required: true
 
 jobs:
+  image-resizer:
+    name: Pack Image Resizer
+
+    uses: ./.github/workflows/Reusable-ImageResize.yml
+    with:
+      matrix_version: ${{ inputs.matrix_version }}
+
   ResourcePacker:
     name: ResourcePacker ${{ inputs.matrix_version }}
     runs-on: ubuntu-latest
+    needs: [ image-resizer ]
 
     steps:
       - name: Checking Repository
@@ -36,16 +44,6 @@ jobs:
         with:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
-
-      # Temporary fix, patched by AlexTMjugador
-      - name: Install PackSquash
-        run: |
-          sudo mkdir -p /etc/apt/keyrings
-          sudo wget -O /etc/apt/keyrings/packsquash.key https://deb.packages.packsquash.aylas.org/public.key
-          echo 'deb [signed-by=/etc/apt/keyrings/packsquash.key] https://deb.packages.packsquash.aylas.org/debian stable main' | \
-          sudo tee /etc/apt/sources.list.d/packsquash.list > /dev/null
-          sudo apt-get update
-          sudo apt-get install packsquash
 
       - name: Version Changer
         run: |
@@ -78,19 +76,33 @@ jobs:
         run: |
           .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
 
-      # Temporary fix, patched by AlexTMjugador
+      # Temp
+      - name: Apply Pack Icon
+        uses: actions/download-artifact@v3
+        with:
+          name: PackIcon-${{ inputs.matrix_version }}
+          path: pack/
+
       - name: Make ModsTranslationPack
-        run: |
-          packsquash <<'PACKSQUASH_OPTIONS'
-          pack_directory = 'pack'
-          never_store_squash_times = true
-          ['assets/immersiveengineering/manual/zh_tw/*.txt']
-          force_include = true
-          ['{LICENSE,LICENSE_*}']
-          force_include = true
-          ['**/*?.lang']
-          force_include = true
-          PACKSQUASH_OPTIONS
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          packsquash_version: latest-unstable
+          options: |
+            pack_directory = 'pack'
+            never_store_squash_times = true
+            ['assets/immersiveengineering/manual/zh_tw/*.txt']
+            force_include = true
+            ['{LICENSE,LICENSE_*}']
+            force_include = true
+            ['**/*?.lang']
+            force_include = true
+          artifact_name: OptimizedPack-${{ inputs.matrix_version }}
+
+      - name: DownloadArtifact
+        uses: actions/download-artifact@v3
+        with:
+          name: OptimizedPack-${{ inputs.matrix_version }}
+          path: ./
 
       - name: Rename ModsTranslationPack
         run: |
@@ -107,3 +119,10 @@ jobs:
           path: |
             *.zip
             checksum.txt
+
+      - name: Delete Artifact
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: |
+            OptimizedPack-${{ inputs.matrix_version }}
+            PackIcon-${{ inputs.matrix_version }}

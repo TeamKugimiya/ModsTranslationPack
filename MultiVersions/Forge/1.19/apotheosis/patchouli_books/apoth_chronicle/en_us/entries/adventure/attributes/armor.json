@@ -1,0 +1,17 @@
+{
+    "name": "Armor",
+    "icon": "minecraft:iron_chestplate",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Armor$() is a measure of how resistant you are to physical damage.$(p)Usually provided by armor items, and shields.$(p)Your physical damage taken is reduced by $(9)50 / (50 + armor)$()"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "The aforementioned formula is not the one used by Vanilla Minecraft, as Apotheosis replaces it."
+		}
+	]
+}

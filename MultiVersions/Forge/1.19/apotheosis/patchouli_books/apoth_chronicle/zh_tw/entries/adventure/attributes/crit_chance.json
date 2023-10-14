@@ -1,0 +1,17 @@
+{
+    "name": "爆擊機率",
+    "icon": "minecraft:netherite_sword",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)爆擊機率$()是你所造成的任何傷害，發生爆擊的機率。當爆擊率高於 100% 時，單次傷害將有機會造成多次爆擊。$(p)該屬性可在武器上找到。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "你暴擊所能造成的傷害量，是取決於你的$(l:apotheosis:adventure/attributes/crit_damage)暴擊傷害$()屬性。"
+		}
+	]
+}

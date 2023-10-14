@@ -1,0 +1,20 @@
+{
+  "pack.portable_tables.pack_name": "攜帶式功能台 Programmer Art",
+  "item.portable_tables.portable_anvil": "攜帶式鐵砧",
+  "item.portable_tables.portable_chipped_anvil": "微損的攜帶式鐵砧",
+  "item.portable_tables.portable_damaged_anvil": "耗損的攜帶式鐵砧",
+  "item.portable_tables.portable_blast_furnace": "攜帶式高爐",
+  "item.portable_tables.portable_cartography_table": "攜帶式製圖台",
+  "item.portable_tables.portable_crafting_table": "攜帶式工作台",
+  "item.portable_tables.portable_furnace": "攜帶式熔爐",
+  "item.portable_tables.portable_grindstone": "攜帶式砂輪",
+  "item.portable_tables.portable_loom": "攜帶式紡織機",
+  "item.portable_tables.portable_smithing": "攜帶式鍛造台",
+  "item.portable_tables.portable_smoker": "攜帶式煙燻爐",
+  "item.portable_tables.portable_stonecutter": "攜帶式切石機",
+  "item.portable_tables.portable_bell": "攜帶式鐘",
+  "itemGroup.portable_tables.tables": "攜帶式功能台",
+  "key.categories.portable_tables": "攜帶式功能台",
+  "key.portable_tables.open_craft": "開啟攜帶式工作台",
+  "key.portable_tables.open_furnace": "開啟攜帶式熔爐"
+}

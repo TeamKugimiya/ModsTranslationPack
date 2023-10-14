@@ -1,0 +1,13 @@
+{
+    "name": "爆擊傷害",
+    "icon": "minecraft:netherite_axe",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)暴擊傷害$()是你造成暴擊時的傷害加成。$(p)跳劈也同樣使用你的暴擊傷害值，而不是通常的 1.5 倍加成。$(p)該屬性可在武器上找到。"
+        }
+	]
+}

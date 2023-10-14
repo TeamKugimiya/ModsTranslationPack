@@ -1,0 +1,56 @@
+name: CI | Upload R2
+
+on:
+  workflow_run:
+    workflows: [ "CI | Pack - Pull Request" ]
+    types: [ completed ]
+
+permissions:
+  actions: read
+
+jobs:
+  r2-uplaod:
+    name: Upload R2
+    runs-on: ubuntu-latest
+    if: |
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.repository == 'xMikux/ModsTranslationPack'
+
+    steps:
+      - name: Get the PR number
+        run: |
+          PR_RAW=$(curl 'https://api.github.com/search/issues?q=${{ github.event.workflow_run.head_commit.id }}')
+          PR_NUM=$(echo $PR_RAW | jq '.items | map(select(.repository_url=="https://api.github.com/repos/${{ github.repository }}")) | .[0].number')
+          echo "PR_NUM=${PR_NUM}" >> ${GITHUB_ENV}
+
+      - name: Download All ModsTranslationPack Artifact
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          name: ModsTranslationPack-[0-9]+\.[0-9]+\.x
+          run_id: ${{ github.event.workflow_run.id }}
+          name_is_regexp: true
+
+      - name: Move Artifact Files
+        run: |
+          mkdir -p pr/${{ env.PR_NUM }}
+          for i in ModsTranslationPack-*
+          do
+            cd "$i" || exit 1
+            sha256sum -c checksum.txt
+            mv ModsTranslationPack-*.zip ../pr/${{ env.PR_NUM }}/
+            cd ..
+          done
+          ls -alh pr/${{ env.PR_NUM }}
+
+      - name: Upload to R2
+        uses: Docker-Collection/docker-aws-s3-action@main
+        with:
+          aws_s3_bucket: ${{ secrets.CLOUDFLARE_R2_BUCKET }}
+          aws_access_key_id: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
+          aws_s3_endpoint: ${{ secrets.CLOUDFLARE_R2_ENDPOINT }}
+          source_dir: "pr/${{ env.PR_NUM }}"
+          dest_dir: "pr/${{ env.PR_NUM }}/"
+          aws_command: "sync"

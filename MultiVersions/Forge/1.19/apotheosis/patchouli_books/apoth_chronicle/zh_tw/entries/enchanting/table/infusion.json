@@ -1,0 +1,20 @@
+{
+    "name": "灌注附魔",
+    "icon": "apotheosis:infused_hellshelf",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)灌注附魔$()是一種透過附魔台進行的全新合成方式。$(p)每個灌注配方都有 1 個物品輸入，以及 3 項屬性需求值。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "每項屬性需求都有其必要的最低值，並可以根據情況調整至最大值。$(p)灌注附魔只能選擇第三個附魔欄位，並讓你超支經驗。"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "要開始進行灌注附魔，只需要將物品放入附魔台的欄位上。$(p)若你的 3 項屬性都有達成正確值，第三格附魔欄位將會亮起，點擊該欄位後便能進行灌注。"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "抗擊退",
+    "icon": "minecraft:shulker_shell",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)抗擊退$()決定你受到攻擊時的擊退減免程度。達到最大值時，你將完全免疫擊退。$(p)該屬性經常由盔甲以及一些盾牌提供。"
+        }
+	]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "lexicon.entry.mythicbotany.mythic_botany.manaband",
+  "category": "mythicbotany:mythic_botany",
+  "icon": "mythicbotany:mana_ring_greatest",
+  "entry_color": "aa00",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:mana_ring_greatest",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.manaband.page0.text0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:aura_ring_greatest",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.mythic_botany.manaband.page1.text0"
+    }
+  ]
+}

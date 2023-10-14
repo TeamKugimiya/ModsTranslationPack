@@ -1,0 +1,20 @@
+{
+  "pack.portable_tables.pack_name": "Portable Tables Programmer Art",
+  "item.portable_tables.portable_anvil": "Portable Anvil",
+  "item.portable_tables.portable_chipped_anvil": "Portable Chipped Anvil",
+  "item.portable_tables.portable_damaged_anvil": "Portable Damaged Anvil",
+  "item.portable_tables.portable_blast_furnace": "Portable Blast Furnace",
+  "item.portable_tables.portable_cartography_table": "Portable Cartography Table",
+  "item.portable_tables.portable_crafting_table": "Portable Crafting Table",
+  "item.portable_tables.portable_furnace": "Portable Furnace",
+  "item.portable_tables.portable_grindstone": "Portable Grindstone",
+  "item.portable_tables.portable_loom": "Portable Loom",
+  "item.portable_tables.portable_smithing": "Portable Smithing Table",
+  "item.portable_tables.portable_smoker": "Portable Smoker",
+  "item.portable_tables.portable_stonecutter": "Portable Stonecutter",
+  "item.portable_tables.portable_bell": "Portable Bell",
+  "itemGroup.portable_tables.tables": "Portable Tables",
+  "key.categories.portable_tables": "Portable Tables",
+  "key.portable_tables.open_craft": "Open Portable Crafting Table",
+  "key.portable_tables.open_furnace": "Open Portable Furnace"
+}

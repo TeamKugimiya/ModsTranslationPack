@@ -1,0 +1,7 @@
+{
+    "name": "全新附魔",
+    "description": "本節的每個項目，都詳細記述了由該模組加入的全新附魔。$(p)由其他模組加入的附魔，將不在本節列舉。",
+    "icon": "minecraft:enchanted_book",
+	"flag": "apotheosis:enchanting",
+	"parent": "apotheosis:enchanting/enchanting"
+}

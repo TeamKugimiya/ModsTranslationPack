@@ -1,0 +1,17 @@
+{
+    "name": "盔甲值",
+    "icon": "minecraft:iron_chestplate",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)盔甲值$()是計算盔甲能幫你抵抗多少物理傷害的屬性。$(p)該屬性經常由盔甲物品以及盾牌提供。$(p)你所承受的物理傷害將減少為 $(9)50 / (50 + 盔甲值)$()。"
+        },
+		{
+			"type": "patchouli:text",
+			"text": "以上提及的公式並非原版 Minecraft 所使用的，因為《神化》模組對其進行了替換。"
+		}
+	]
+}

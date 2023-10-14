@@ -1,0 +1,19 @@
+{
+    "name": "抗性",
+    "icon": "minecraft:textures/mob_effect/resistance.png",
+    "category": "apotheosis:potion/recipes",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)抗性$()是一種非常實用的效果，在原版 Minecraft 當中沒有合成配方。$(p)每級會額外對所有傷害類型 +20% 傷害減免。$(p)你還會需要使用該藥水來合成$(l:apotheosis:potion/effects/sundering)破甲$()藥水。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"title": "釀造配方",
+			"item": "minecraft:shulker_shell",
+            "text": "這種藥水可以使用普通藥水，以及界伏殼合成。$(p)該效果可以使用一般材料，進一步延長持續時間、增強效果等級，或製作成飛濺藥水。"
+        }
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "item.endercrop.ender_seeds": "終界果種子",
+  "block.ender_crop.ender_crop": "終界果植株",
+  "block.endercrop.tilled_end_stone": "終界石耕地",
+  "endercrop.alert.hoe": "此方塊只能被有耐久附魔 I+ 的鋤頭犁地",
+  "endercrop.alert.hoetool": "此方塊只能被挖掘 %s 級的工具犁地",
+  "endercrop.tip.seed": "可種植在原版耕地或終界石耕地上",
+  "endercrop.wailatop.nogrowth": "停止生長",
+  "endercrop.wailatop.moist": "濕潤",
+  "endercrop.wailatop.dry": "乾涸",
+  "endercrop.wailatop.light": "亮度",
+  "endercrop.waila.hoeable": "可犁地",
+  "endercrop.waila.nothoeable": "無法犁地",
+  "endercrop.top.hoe": "鋤頭",
+  "config.jade.plugin_endercrop.endstone": "犁地終界石",
+  "config.jade.plugin_endercrop.endercrop": "終界果植株資訊"
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Tome of Scrapping",
+    "icon": "apotheosis:scrap_tome",
+    "category": "apotheosis:enchanting/utility",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Tome of Scrapping is a way of retrieving enchantments from an item.$(p)Combining one with another item in an anvil will destroy the other item, and make a book with some of the enchantments at random."
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:scrap_tome",
+			"text": "You will always receive half of the enchantments (rounded up).$(p)The enchantments selected are based on your $(l:apotheosis:enchanting/table/seed)Enchanting Seed$()."
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title": "Superior Scrapping",
+			"item": "apotheosis:improved_scrap_tome",
+			"text": "The $(9)Tome of Superior Scrapping$() is an upgraded version of the Tome of Scrapping.$(p)It extracts all of the enchantments on the item, instead of half of them."
+		},
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:extraction_tome",
+			"text": "The $(9)Tome of Extraction$() is a perfected version of the Tome of Scrapping.$(p)It extracts all the enchantments from an item, and does not destroy the item in the process."
+		}
+	]
+}

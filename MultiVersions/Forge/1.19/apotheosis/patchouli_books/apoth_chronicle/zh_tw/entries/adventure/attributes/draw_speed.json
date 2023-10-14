@@ -1,0 +1,13 @@
+{
+    "name": "蓄力速度",
+    "icon": "minecraft:bow",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)蓄力速度$()決定你遠程武器所需的蓄力時間。1 = 加快 100%，2 = 加快 200% 以此類推。$(p)該屬性可在遠程武器上找到。"
+        }
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "冰霜尖刺",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)冰霜尖刺$()是一種用於胸甲的附魔。$(p)會對攻擊者施加減速效果。持續時間與效果強度，會隨附魔等級提升而增加。$(p)該附魔會與$(9)尖刺$()互相排斥。"
+        }
+	]
+}

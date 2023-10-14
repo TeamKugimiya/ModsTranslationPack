@@ -1,0 +1,40 @@
+{
+  "name": "lexicon.entry.mythicbotany.mythic_botany.functional",
+  "category": "mythicbotany:mythic_botany",
+  "icon": "mythicbotany:hellebore",
+  "entry_color": "aa00",
+  "pages": [
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "mythicbotany:aquapanthus_petal_apothecary"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "lexicon.entry.mythicbotany.mythic_botany.functional.page1.text0"
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "mythicbotany:exoblaze_petal_apothecary"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "lexicon.entry.mythicbotany.mythic_botany.functional.page3.text0"
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "mythicbotany:hellebore_petal_apothecary"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "lexicon.entry.mythicbotany.mythic_botany.functional.page5.text0"
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "recipe": "mythicbotany:petrunia_petal_apothecary"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "lexicon.entry.mythicbotany.mythic_botany.functional.page7.text0"
+    }
+  ]
+}

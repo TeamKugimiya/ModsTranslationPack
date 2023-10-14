@@ -1,0 +1,13 @@
+{
+    "name": "冰霜傷害",
+    "icon": "minecraft:blue_ice",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)冰霜傷害$()是在近戰攻擊時會附加的魔法增益傷害。對目標造成的緩速效果會根據傷害強度而定。$(p)該屬性可在近戰武器上找到。"
+        }
+	]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "終界拴繩",
+    "icon": "apotheosis:ender_lead",
+    "category": "apotheosis:garden/garden",
+	"flag": "apotheosis:garden",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "終界拴繩是一種能用來捕捉農場動物的物品。$(p)使用該拴繩捶打一下動物，便能將其捕捉，點擊右鍵能將捕捉到的動物釋放出來。$(p)農場動物通常是指那些能夠繁殖的動物。"
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:ender_lead",
+			"text": ""
+		}
+	]
+}

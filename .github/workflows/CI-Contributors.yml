@@ -20,12 +20,26 @@ jobs:
       - name: Checking Repository
         uses: actions/checkout@v4
 
-      - name: Generate Contributors Images
-        uses: jaywcjlove/github-action-contributors@main
-        id: contributors
-        with:
-          filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
-          avatarSize: 100
+      - name: Generate Contributors Html Table
+        id: html_list
+        run: |
+          list_html=$(cat <<-EOF
+            python .github/scripts/contributors_generator.py
+          EOF
+          )
+          {
+            echo 'html_table<<EOF'
+            $list_html
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Print Html Table
+        run: |
+          cat << EOF 
+          ${{ steps.html_list.outputs.html_table }}
+          EOF
 
       - name: Update Readme
         run: |
@@ -35,7 +49,7 @@ jobs:
           MULTILINE_MODE: true
           START_TAG: "<!-- CONTRIBUTORS_CI_START -->"
           END_TAG: "<!-- CONTRIBUTORS_CI_END -->"
-          CONTENT: "${{steps.contributors.outputs.htmlTable}}"
+          CONTENT: "${{ steps.html_list.outputs.html_table }}"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
