@@ -144,7 +144,7 @@
   "block.infinitybuttons.purple_safe_emergency_button": "紫色安全按鈕",
   "block.infinitybuttons.magenta_safe_emergency_button": "洋紅色安全按鈕",
   "block.infinitybuttons.pink_safe_emergency_button": "粉紅色安全按鈕",
-  "block.infinitybuttons.fancy_safe_emergency_button": "\u00A7c豪\u00A76a\u00A7e華\u00A7ac\u00A7炫\u00A79E\u00A7d彩\u00A7ce\u00A76緊\u00A7eg\u00A7a急\u00A7bn\u00A79按\u00A7dy \u00A7c鈕",
+  "block.infinitybuttons.fancy_safe_emergency_button": "\u00A7c豪\u00A76\u00A7e華\u00A7a\u00A7炫\u00A79\u00A7d彩\u00A7c\u00A76緊\u00A7e\u00A7a急\u00A7b\u00A79按\u00A7d\u00A7c鈕",
 
   "block.infinitybuttons.bookshelf_secret_button": "書櫃隱藏按鈕",
   "block.infinitybuttons.spruce_bookshelf_secret_button": "杉木書櫃隱藏按鈕",
@@ -404,7 +404,7 @@
   "text.autoconfig.infinitybuttons.option.forceJadeHiding.@Tooltip[1]": " ",
   "text.autoconfig.infinitybuttons.option.forceJadeHiding.@Tooltip[2]": "§c更改此用戶端設定不會對伺服器造成影響，",
   "text.autoconfig.infinitybuttons.option.forceJadeHiding.@Tooltip[3]": "§c僅能在伺服器設定檔案中更改",
-  "text.autoconfig.infinitybuttons.title": "Infinity Buttons 設定",
+  "text.autoconfig.infinitybuttons.title": "《無限按鈕》設定",
 
   "tag.item.infinitybuttons.bookshelf_secret_buttons": "書櫃隱藏按鈕",
   "tag.item.infinitybuttons.concrete_powder_buttons": "混凝土粉末按鈕",
