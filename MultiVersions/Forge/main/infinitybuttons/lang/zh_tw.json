@@ -400,7 +400,8 @@
   "text.autoconfig.infinitybuttons.option.diamondParticles": "鑽石按鈕的粒子密度",
   "text.autoconfig.infinitybuttons.option.diamondParticles.@Tooltip": "是否在鑽石按鈕周圍產生粒子效果",
   "text.autoconfig.infinitybuttons.option.forceJadeHiding": "強制隱藏 Jade（提示框模組）",
-  "text.autoconfig.infinitybuttons.option.forceJadeHiding.@Tooltip[0]": "伺服器是否應在用戶端使用 Jude 時，強制隱藏用戶端對隱藏按鈕的資訊提示框",
+  "text.autoconfig.infinitybuttons.option.forceJadeHiding.@Tooltip[0]": "伺服器是否應在用戶端使用 Jade 時，強制隱藏用戶端對隱藏按鈕的資訊提示框",
+
   "text.autoconfig.infinitybuttons.option.forceJadeHiding.@Tooltip[1]": " ",
   "text.autoconfig.infinitybuttons.option.forceJadeHiding.@Tooltip[2]": "§c更改此用戶端設定不會對伺服器造成影響，",
   "text.autoconfig.infinitybuttons.option.forceJadeHiding.@Tooltip[3]": "§c僅能在伺服器設定檔案中更改",
