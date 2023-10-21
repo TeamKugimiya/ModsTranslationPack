@@ -45,9 +45,9 @@ jobs:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
 
-      - name: Version Changer
+      - name: Pack mcmeta generate
         run: |
-          python3 .github/scripts/version_replacer.py
+          python3 .github/scripts/mcmeta_generate.py
         env:
           release: ${{ inputs.release }}
           release_version: ${{ inputs.release_version }}
