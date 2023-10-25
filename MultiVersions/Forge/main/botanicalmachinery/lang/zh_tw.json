@@ -30,7 +30,7 @@
   "lexicon.botanicalmachinery.introduction.page1": "$(d)源質鋼$(0)還有很多未發現的特性。$(br2)利用$(l:botania:baubles/aura_ring)高級光環之戒$()，使$(d)源質鋼$(0)暴露在一定濃度且穩定供應的魔力下。此時的$(d)源質鋼$(0)能夠使植物學家們的設備變得現代化，大大增加了設備的效率。$(br2)然而，就連精靈也不是很理解其中的原理，我們也不知道機器的製程是否安全。",
 
   "lexicon.botanicalmachinery.mana_battery": "魔力電池",
-  "lexicon.botanicalmachinery.mana_battery.recipe": "這就是所有你所需要的",
+  "lexicon.botanicalmachinery.mana_battery.recipe": "這就是你所需要的一切",
   "lexicon.botanicalmachinery.mana_battery.page1": "利用$(l:botania:alfhomancy/gaia_ritual)蓋亞$()的力量，將$(l:botania:baubles/mana_ring)高級魔力之戒$()變成一個魔力容量為一般魔力池十倍的方塊。還能夠利用漏斗進行自動化，自動填充或抽取魔力石板的魔力。",
 
   "lexicon.botanicalmachinery.alfheim_market": "精靈市集",
