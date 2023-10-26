@@ -47,7 +47,7 @@
 
   "lexicon.botanicalmachinery.mechanical_runic_altar": "機械符文祭壇",
   "lexicon.botanicalmachinery.mechanical_runic_altar.recipe": "符文，到處都是符文。",
-  "lexicon.botanicalmachinery.mechanical_runic_altar.page1": "讓做符文變得更方便。原理很簡單，就是讓一般的$(l:botania:basics/rune_altar)符文祭壇$()能夠用漏斗輸入和輸出而已。",
+  "lexicon.botanicalmachinery.mechanical_runic_altar.page1": "使符文的製作流程變得更加容易。原理很簡單，就是讓一般的$(l:botania:basics/rune_altar)符文祭壇$()能夠用漏斗輸入和輸出而已。",
 
   "lexicon.botanicalmachinery.mechanical_daisy": "機械白雛菊",
   "lexicon.botanicalmachinery.mechanical_daisy.recipe": "看起來多美妙",
