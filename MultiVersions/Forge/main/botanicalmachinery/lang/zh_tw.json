@@ -1,0 +1,63 @@
+{
+  "itemGroup.botanicalmachinery": "植物學機械",
+
+  "item.botanicalmachinery.mana_emerald": "魔力綠寶石",
+
+  "block.botanicalmachinery.mana_emerald_block": "魔力綠寶石方塊",
+  "block.botanicalmachinery.alfheim_market": "精靈市集",
+  "block.botanicalmachinery.industrial_agglomeration_factory": "工業凝聚機",
+  "block.botanicalmachinery.mana_battery": "魔力電池",
+  "block.botanicalmachinery.mana_battery_creative": "創造模式魔力電池",
+  "block.botanicalmachinery.mechanical_brewery": "機械釀造台",
+  "block.botanicalmachinery.mechanical_apothecary": "機械花藥台",
+  "block.botanicalmachinery.mechanical_daisy": "機械白雛菊",
+  "block.botanicalmachinery.mechanical_mana_pool": "機械魔力池",
+  "block.botanicalmachinery.mechanical_runic_altar": "機械符文祭壇",
+
+  "screen.botanicalmachinery.alfheim_market": "精靈市集",
+  "screen.botanicalmachinery.industrial_agglomeration_factory": "工業凝聚機",
+  "screen.botanicalmachinery.mana_battery": "魔力電池",
+  "screen.botanicalmachinery.mana_battery_creative": "創造模式魔力電池",
+  "screen.botanicalmachinery.mechanical_apothecary": "機械花藥台",
+  "screen.botanicalmachinery.mechanical_brewery": "機械釀造台",
+  "screen.botanicalmachinery.mechanical_daisy": "機械白雛菊",
+  "screen.botanicalmachinery.mechanical_mana_pool": "機械魔力池",
+  "screen.botanicalmachinery.mechanical_runic_altar": "機械符文祭壇",
+
+  "lexicon.botanicalmachinery.title": "植物學機械",
+  "lexicon.botanicalmachinery.description": "植物學機械由 $(item)MelanX$() 製作，使你的自動化設施更加簡潔。",
+  "lexicon.botanicalmachinery.introduction": "新發現",
+  "lexicon.botanicalmachinery.introduction.page1": "$(d)源質鋼$(0)還有很多未發現的特性。$(br2)利用$(l:botania:baubles/aura_ring)高級光環之戒$()，使$(d)源質鋼$(0)暴露在一定濃度且穩定供應的魔力下。此時的$(d)源質鋼$(0)能夠使植物學家們的設備變得現代化，大大增加了設備的效率。$(br2)然而，就連精靈也不是很理解其中的原理，我們也不知道機器的製程是否安全。",
+
+  "lexicon.botanicalmachinery.mana_battery": "魔力電池",
+  "lexicon.botanicalmachinery.mana_battery.recipe": "這就是你所需要的一切",
+  "lexicon.botanicalmachinery.mana_battery.page1": "利用$(l:botania:alfhomancy/gaia_ritual)蓋亞$()的力量，將$(l:botania:baubles/mana_ring)高級魔力之戒$()變成一個魔力容量為一般魔力池十倍的方塊。還能夠利用漏斗進行自動化，自動填充或抽取魔力石板的魔力。",
+
+  "lexicon.botanicalmachinery.alfheim_market": "精靈市集",
+  "lexicon.botanicalmachinery.alfheim_market.recipe": "建立市場",
+  "lexicon.botanicalmachinery.alfheim_market.page1": "縮小板的$(l:botania:alfhomancy/intro)精靈傳送門$()，不用再透過體積龐大的傳送門交易了。只要小心別放麵包進去……",
+
+  "lexicon.botanicalmachinery.industrial_agglomeration_factory": "工業凝聚機",
+  "lexicon.botanicalmachinery.industrial_agglomeration_factory.recipe": "僅使用綠色能源",
+  "lexicon.botanicalmachinery.industrial_agglomeration_factory.page1": "$(l:botania:basics/terrasteel)泰拉凝聚板$()通常下面需要一個穩定平台，現在再也不用了。$(br2)一般的植物學家都不曉得有這樣的機器，何不試一試呢？",
+
+  "lexicon.botanicalmachinery.mechanical_mana_pool": "機械魔力池",
+  "lexicon.botanicalmachinery.mechanical_mana_pool.recipe": "機械化魔力池",
+  "lexicon.botanicalmachinery.mechanical_mana_pool.page1": "就跟一般的$(l:botania:mana/pool)魔力池$()一樣，他可以儲存魔力、為物品注入魔力，以及使用催化器。$(br)不同的是，上述操作都是在機械魔力池的內部完成的。你不需要把催化劑放到池子底下。",
+
+  "lexicon.botanicalmachinery.mechanical_runic_altar": "機械符文祭壇",
+  "lexicon.botanicalmachinery.mechanical_runic_altar.recipe": "符文，到處都是符文。",
+  "lexicon.botanicalmachinery.mechanical_runic_altar.page1": "使符文的製作流程變得更加容易。原理很簡單，就是讓一般的$(l:botania:basics/rune_altar)符文祭壇$()能夠用漏斗輸入和輸出而已。",
+
+  "lexicon.botanicalmachinery.mechanical_daisy": "機械白雛菊",
+  "lexicon.botanicalmachinery.mechanical_daisy.recipe": "看起來多美妙",
+  "lexicon.botanicalmachinery.mechanical_daisy.page1": "將浮空$(l:botania:basics/pure_daisy)白雛菊$()放到$(d)源質鋼$(0)平台上，就能用一格方塊的空間處理八個方塊。當然，液體也行。",
+
+  "lexicon.botanicalmachinery.mechanical_brewery": "機械釀造台",
+  "lexicon.botanicalmachinery.mechanical_brewery.recipe": "釀造",
+  "lexicon.botanicalmachinery.mechanical_brewery.page1": "改良版$(l:botania:devices/brewery)植物釀造台$()，可以用火花接收魔力，讓自動化更方便。",
+
+  "lexicon.botanicalmachinery.mechanical_apothecary": "機械花藥台",
+  "lexicon.botanicalmachinery.mechanical_apothecary.recipe": "每種花都來一點",
+  "lexicon.botanicalmachinery.mechanical_apothecary.page1": "改良版$(l:botania:basics/apothecary)花藥台$()，加入水、種子和其他材料就能做出你心目中的那朵花。"
+}
