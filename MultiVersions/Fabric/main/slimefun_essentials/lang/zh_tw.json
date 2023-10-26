@@ -3,7 +3,7 @@
   "slimefun_essentials.title": "Slimefun Essentials",
   "slimefun_essentials.category": "一般",
   "slimefun_essentials.option.placed_block_features": "啟用放置方塊模型顯示功能",
-  "slimefun_essentials.option.placed_block_features.tooltip": "-> Slimefun Essentials 是否給予黏液科技方塊自訂紋理模型？（需要 MoreBlockPredicates 安裝在用戶端，SlimefunServerEssentials 安裝在伺服器上）\n-> Jade 整合需要",
+  "slimefun_essentials.option.placed_block_features.tooltip": "-> Slimefun Essentials 是否給予黏液科技方塊自訂紋理模型？（需要將 MoreBlockPredicates 安裝在用戶端，並將 SlimefunServerEssentials 安裝在伺服器上）\n-> Jade 整合需要",
   "slimefun_essentials.option.auto_toggle_addons": "啟用自動附加支援",
   "slimefun_essentials.option.auto_toggle_addons.tooltip": "Slimefun Essentials 是否自動啟用／停用附加支援？（需要 SlimefunServerEssentials 安裝在伺服器上）",
   "slimefun_essentials.option.addons": "已啟用的黏液附加：",
