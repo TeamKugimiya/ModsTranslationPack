@@ -13,7 +13,8 @@
   "progressivebosses:elder_minion": "遠古深海守衛僕從",
 
   "progressivebosses:command.player_get_wither_difficulty": "%s 召喚了 %d 隻凋零怪",
-  "progressivebosses:command.player_get_dragon_difficulty": "%s 殺了 %d 條終界龍",
+  "progressivebosses:command.player_get_dragon_difficulty": "%s 殺死了 %d 條終界龍",
+
   "progressivebosses:command.player_set_boss_difficulty": "將 %s 的 %s 難度設為 %d",
   "progressivebosses:command.player_add_boss_difficulty": "將 %3$s 的 %2$s 難度 +%1$d（現在為 %4$d）",
   "progressivebosses:command.summoned_entity": "召喚難度 %2$d 的%1$s",
