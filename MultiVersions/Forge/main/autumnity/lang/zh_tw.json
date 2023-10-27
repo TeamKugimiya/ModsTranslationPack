@@ -3,9 +3,9 @@
   "block.autumnity.snail_goo": "蝸牛黏液球",
   "block.autumnity.snail_goo_block": "蝸牛黏液方塊",
   "block.autumnity.pancake": " 楓糖漿鬆餅",
-  "block.autumnity.foul_berry_bush_pips": "穢莓籽",
-  "block.autumnity.foul_berry_bush": "穢莓灌木叢",
-  "block.autumnity.tall_foul_berry_bush": "高穢莓灌木叢",
+  "block.autumnity.foul_berry_bush_pips": "臭莓籽",
+  "block.autumnity.foul_berry_bush": "臭莓灌木叢",
+  "block.autumnity.tall_foul_berry_bush": "高臭莓灌木叢",
   "_comment": "A flower that generates in Maple Forests.",
   "block.autumnity.autumn_crocus": "番紅花",
   "block.autumnity.potted_autumn_crocus": "番紅花盆栽",
@@ -85,9 +85,9 @@
   
   "item.autumnity.sap_bottle": "楓木樹液瓶",
   "item.autumnity.syrup_bottle": "楓糖漿瓶",
-  "item.autumnity.foul_berries": "穢莓",
-  "item.autumnity.foul_berry_pips": "穢莓籽",
-  "item.autumnity.foul_soup": "穢莓湯",
+  "item.autumnity.foul_berries": "臭莓",
+  "item.autumnity.foul_berry_pips": "臭莓籽",
+  "item.autumnity.foul_soup": "臭莓湯",
   "item.autumnity.pumpkin_bread": "南瓜麵包",
   
   "item.autumnity.snail_spawn_egg": "蝸牛 生怪蛋",
@@ -141,7 +141,7 @@
   "subtitles.autumnity.entity.turkey.death": "火雞死亡",
   "subtitles.autumnity.entity.turkey.egg": "火雞下蛋",
   
-  "subtitles.autumnity.block.turkey.cut": "火雞肉切塊",
+  "subtitles.autumnity.block.turkey.cut": "切火雞肉",
   
   "subtitles.autumnity.item.armor.equip_snail": "蝸牛殼盔甲裝備聲",
   
@@ -152,8 +152,8 @@
   "block.autumnity.maple_boards": "楓木寬木板",
   "block.autumnity.maple_bookshelf": "楓木書櫃",
   "block.autumnity.maple_ladder": "楓木梯子",
-  "block.autumnity.foul_berry_basket": "穢莓桶",
-  "block.autumnity.potted_foul_berries": "穢莓灌木叢盆栽",
+  "block.autumnity.foul_berry_basket": "臭莓桶",
+  "block.autumnity.potted_foul_berries": "臭莓灌木叢盆栽",
   "block.autumnity.maple_beehive": "楓木蜂箱",
   "block.autumnity.maple_post": "楓木桿",
   "block.autumnity.stripped_maple_post": "剝皮楓木桿",
@@ -176,7 +176,7 @@
   "advancements.autumnity.husbandry.fungivore_diet.title": "食真菌動物的日常飲食",
   "advancements.autumnity.husbandry.fungivore_diet.description": "餵食一隻蝸牛任意種類的蘑菇和蕈菇",
   "advancements.autumnity.husbandry.cure_foul_taste.title": "終於有點好吃的了",
-  "advancements.autumnity.husbandry.cure_foul_taste.description": "在食用完穢莓後吃點好吃的食物",
+  "advancements.autumnity.husbandry.cure_foul_taste.description": "在食用完臭莓後吃點好吃的食物",
   
   "block.minecraft.banner.autumnity.maple_leaf.black": "黑色楓葉標誌",
   "block.minecraft.banner.autumnity.maple_leaf.red": "紅色楓葉標誌",
