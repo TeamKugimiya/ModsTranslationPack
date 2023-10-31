@@ -96,6 +96,8 @@ jobs:
             force_include = true
             ['**/*?.lang']
             force_include = true
+            ['**/*?.md']
+            force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: DownloadArtifact
