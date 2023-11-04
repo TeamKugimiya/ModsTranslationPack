@@ -1,0 +1,5 @@
+{
+  "block.echochest.echo_chest": "回聲儲物箱",
+  "block.echochest.echo_chest.description": "收集半徑 8 格方塊內的生物掉落的物品和經驗。",
+  "container.echo_chest": "回聲儲物箱"
+}
