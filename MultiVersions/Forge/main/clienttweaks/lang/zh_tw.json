@@ -1,5 +1,5 @@
 {
-    "key.clienttweaks.d t": "開關「停用走路輔助」功能",
+    "key.clienttweaks.disableStepAssist": "開關「停用走路輔助」功能",
     "key.clienttweaks.disableLogStripping": "開關「停用原木剝皮」功能",
     "key.clienttweaks.hideOffhandItem": "開關「隱藏非慣用手物品」功能",
     "key.categories.clienttweaks": "用戶端調整",
