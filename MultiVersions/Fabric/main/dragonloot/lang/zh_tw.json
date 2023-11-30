@@ -26,10 +26,10 @@
   "text.autoconfig.dragonloot.option.scale_minimum_drop_amount": "終界龍鱗最低掉落數量",
   "text.autoconfig.dragonloot.option.additional_scales_per_player": "每一位玩家的額外終界龍鱗",
   "text.autoconfig.dragonloot.option.additional_scale_drop_chance": "額外終界龍鱗掉落機率",
-  "text.autoconfig.dragonloot.option.dragon_armor_protection_helmet": "終界龍鱗頭盔護甲植",
-  "text.autoconfig.dragonloot.option.dragon_armor_protection_chest": "終界龍鱗胸甲護甲植",
-  "text.autoconfig.dragonloot.option.dragon_armor_protection_leggings": "終界龍鱗護腿護甲植",
-  "text.autoconfig.dragonloot.option.dragon_armor_protection_boots": "終界龍鱗靴子護甲植",
+  "text.autoconfig.dragonloot.option.dragon_armor_protection_helmet": "終界龍鱗頭盔盔甲值",
+  "text.autoconfig.dragonloot.option.dragon_armor_protection_chest": "終界龍鱗胸甲盔甲值",
+  "text.autoconfig.dragonloot.option.dragon_armor_protection_leggings": "終界龍鱗護腿盔甲值",
+  "text.autoconfig.dragonloot.option.dragon_armor_protection_boots": "終界龍鱗靴子盔甲值",
   "text.autoconfig.dragonloot.option.dragon_armor_durability_multiplier": "終界龍鱗盔甲耐久度倍數",
   "text.autoconfig.dragonloot.option.dragon_item_durability_multiplier": "終界龍鱗製物品耐久度倍數",
   "text.autoconfig.dragonloot.option.dragon_item_base_damage": "終界龍鱗製物品基礎傷害",
@@ -40,5 +40,5 @@
   "text.autoconfig.dragonloot.option.dragon_tool_enchantability": "終界龍鱗工具附魔能力",
 
   "dragonloot.advancements.dragon_armor.title": "來自龍身",
-  "dragonloot.advancements.dragon_armor.description": "獲得全套終界龍鱗盔甲"
+  "dragonloot.advancements.dragon_armor.description": "取得全套終界龍鱗盔甲"
 }
