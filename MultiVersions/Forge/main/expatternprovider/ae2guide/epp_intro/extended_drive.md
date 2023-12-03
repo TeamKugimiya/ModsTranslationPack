@@ -9,7 +9,7 @@ item_ids:
 - expatternprovider:ex_drive
 ---
 
-# ME Extended Drive
+# ME 擴充驅動器
 
 <Row gap="20">
 <BlockImage id="expatternprovider:ex_drive" scale="8"></BlockImage>
