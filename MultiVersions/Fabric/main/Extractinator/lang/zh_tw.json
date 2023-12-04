@@ -1,0 +1,18 @@
+{
+  "itemGroup.extractinator.main": "沙石提煉機",
+  "block.extractinator.extractinator": "沙石提煉機",
+  "block.extractinator.silt": "沉泥",
+  "block.extractinator.slush": "雪泥",
+  "emi.category.extractinator.extractinator": "沙石提煉機",
+  "text.extractinator.drop_chance": "掉落機率：%s%%",
+  "text.resourcefulconfig.extractinator.option.extractTicks": "提煉時間（刻）",
+  "text.resourcefulconfig.extractinator.option.extractTicks.tooltip": "沙石提煉機提煉單個方塊所需要的時間",
+  "text.resourcefulconfig.extractinator.option.extractinatorDurability": "沙石提煉機耐久度",
+  "text.resourcefulconfig.extractinator.option.extractinatorDurability.tooltip": "沙石提煉機在損壞前的使用次數",
+  "text.resourcefulconfig.extractinator.option.lootMultiplier": "戰利品乘數",
+  "text.resourcefulconfig.extractinator.option.lootMultiplier.tooltip": "戰利品掉落的數量將乘以此數值",
+  "text.resourcefulconfig.extractinator.option.silent": "靜音",
+  "text.resourcefulconfig.extractinator.option.silent.tooltip": "將沙石提煉機調整為靜音",
+  "text.resourcefulconfig.extractinator.option.worldgen": "世界生成",
+  "text.resourcefulconfig.extractinator.option.worldgen.tooltip": "[僅限 Fabric 端] 生成沉泥及雪泥"
+}
