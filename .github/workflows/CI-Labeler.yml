@@ -17,6 +17,9 @@ jobs:
       github.repository == 'xMikux/ModsTranslationPack'
 
     steps:
+      - name: Checking Repository
+        uses: actions/checkout@v4
+
       - name: Path Labeler
         uses: actions/labeler@v5
         with:
