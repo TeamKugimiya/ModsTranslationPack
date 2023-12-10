@@ -38,12 +38,13 @@ jobs:
     needs: [ json-formater ]
 
     steps:
+      - name: Checking Repository
+        uses: actions/checkout@v4
+
       - name: Release Please
         id: release_please
         uses: google-github-actions/release-please-action@v4
-
         with:
-          release-type: simple
           config-file: .github/configs/release-please-config.json
 
     outputs:
