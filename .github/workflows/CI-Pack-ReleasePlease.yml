@@ -46,6 +46,7 @@ jobs:
         uses: google-github-actions/release-please-action@v4
         with:
           config-file: .github/configs/release-please-config.json
+          manifest-file: .github/configs/.release-please-manifest.json
 
     outputs:
       release_created: ${{ steps.release_please.outputs.release_created }}
