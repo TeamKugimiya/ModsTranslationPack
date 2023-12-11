@@ -1,0 +1,66 @@
+{
+  "itemGroup.crabbersdelight": "螃蟹樂事",
+
+  "item.crabbersdelight.crab": "螃蟹",
+  "item.crabbersdelight.cooked_crab": "烤螃蟹",
+  "item.crabbersdelight.clawster": "蟹鉗",
+  "item.crabbersdelight.cooked_clawster": "烤蟹鉗",
+  "item.crabbersdelight.shrimp": "蝦",
+  "item.crabbersdelight.cooked_shrimp": "烤蝦",
+  "item.crabbersdelight.clam": "蛤蜊",
+  "item.crabbersdelight.raw_clam_meat": "生蛤蜊肉",
+  "item.crabbersdelight.cooked_clam_meat": "烤蛤蜊肉",
+  "item.crabbersdelight.pearl": "珍珠",
+  "item.crabbersdelight.kelp_shake": "海帶奶昔",
+  "item.crabbersdelight.crab_cakes": "蟹肉餅",
+  "item.crabbersdelight.crab_legs": "蟹腿",
+  "item.crabbersdelight.cooked_tropical_fish": "烤熱帶魚",
+  "item.crabbersdelight.shrimp_skewer": "烤蝦串",
+  "item.crabbersdelight.surf_and_turf": "海陸雙拼",
+  "item.crabbersdelight.fish_stick": "魚柳",
+  "item.crabbersdelight.clam_bake": "烤蛤蜊海濱大餐",
+  "item.crabbersdelight.clam_chowder": "蛤蜊巧達濃湯",
+  "item.crabbersdelight.tropical_fish_slice": "熱帶魚片",
+  "item.crabbersdelight.cooked_tropical_fish_slice": "烤熱帶魚片",
+  "item.crabbersdelight.bisque": "法式海鮮濃湯",
+  "item.crabbersdelight.seafood_gumbo": "海鮮秋葵濃湯",
+  "item.crabbersdelight.stuffed_nautilus_shell": "鸚鵡螺殼餡",
+
+  "item.crabbersdelight.bucket_of_crab_chum": "螃蟹誘餌桶",
+  "item.crabbersdelight.bucket_of_clawster_chum": "蟹鉗誘餌桶",
+  "item.crabbersdelight.bucket_of_clam_chum": "蛤蜊誘餌桶",
+  "item.crabbersdelight.bucket_of_shrimp_chum": "蝦誘餌桶",
+
+
+  "item.crabbersdelight.crab_spawn_egg": "螃蟹 生怪蛋",
+  "item.crabbersdelight.crab_bucket": "螃蟹桶",
+
+  "block.crabbersdelight.crab_trap": "捕蟹籃",
+  "block.crabbersdelight.crab_barrel": "螃蟹木桶",
+  "block.crabbersdelight.clam_barrel": "蛤蜊木桶",
+  "block.crabbersdelight.clawster_barrel": "蟹鉗木桶",
+  "block.crabbersdelight.shrimp_barrel": "鮮蝦木桶",
+  "block.crabbersdelight.cod_barrel": "鱈魚木桶",
+  "block.crabbersdelight.salmon_barrel": "鮭魚木桶",
+  "block.crabbersdelight.pufferfish_barrel": "河豚木桶",
+  "block.crabbersdelight.tropical_fish_barrel": "熱帶魚木桶",
+  "block.crabbersdelight.lanternfish_barrel": "燈籠魚木桶",
+  "block.crabbersdelight.nautilus_shell_block": "鸚鵡螺殼方塊",
+  "block.crabbersdelight.pearl_block": "珍珠方塊",
+
+  "entity.crabbersdelight.crab": "螃蟹",
+
+  "crabbersdelight.advancement.root": "螃蟹樂事",
+  "crabbersdelight.advancement.root.desc": "一場海鮮冒險正在等著你！",
+
+  "crabbersdelight.advancement.craft_crab_trap": "這是個「蟹」阱！",
+  "crabbersdelight.advancement.craft_crab_trap.desc": "使用安全網、木半磚和木棒製作你的第一個捕蟹籃",
+
+  "crabbersdelight.advancement.cook_crustaceans": "甲殼動物烹飪站",
+  "crabbersdelight.advancement.cook_crustaceans.desc": "用烹飪鍋將螃蟹、鮮蝦和蟹鉗一起煮熟",
+
+  "crabbersdelight.advancement.get_pearl": "甜美的珍珠之母！",
+  "crabbersdelight.advancement.get_pearl.desc": "在砧板上剖開蛤蜊，來獲得你的第一顆珍珠。也許某位神秘的商人會發現它的價值……",
+
+  "crabbersdelight.block.crab_trap.not_waterlogged": "捕蟹籃必需放置在水中"
+}

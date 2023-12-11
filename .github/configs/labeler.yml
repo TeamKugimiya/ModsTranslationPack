@@ -1,11 +1,14 @@
 "🌐 翻譯":
-- MultiVersions/**
+- changed-files:
+  - any-glob-to-any-file: "MultiVersions/**"
 
 "☁️ 工作流程":
-- .github/workflows/*
-- .github/scripts/*
-- .github/configs/*
+- changed-files:
+  - any-glob-to-any-file: ".github/workflows/*"
+  - any-glob-to-any-file: ".github/scripts/*"
+  - any-glob-to-any-file: ".github/configs/*"
 
 "📃 文件":
-- docs/*
-- README.md
+- changed-files:
+  - any-glob-to-any-file: "docs/*"
+  - any-glob-to-any-file: "README.md"

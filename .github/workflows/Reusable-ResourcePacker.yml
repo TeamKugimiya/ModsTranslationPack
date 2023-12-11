@@ -45,9 +45,9 @@ jobs:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
 
-      - name: Version Changer
+      - name: Pack mcmeta generate
         run: |
-          python3 .github/scripts/version_replacer.py
+          python3 .github/scripts/mcmeta_generate.py
         env:
           release: ${{ inputs.release }}
           release_version: ${{ inputs.release_version }}
@@ -95,6 +95,10 @@ jobs:
             ['{LICENSE,LICENSE_*}']
             force_include = true
             ['**/*?.lang']
+            force_include = true
+            ['**/*?.md']
+            force_include = true
+            ['assets/expatternprovider/ae2guide/pic/*?.png']
             force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 

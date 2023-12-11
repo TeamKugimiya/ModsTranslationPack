@@ -1,0 +1,20 @@
+{
+  "item.sleeping_bags.white_sleeping_bag": "白色睡袋",
+  "item.sleeping_bags.orange_sleeping_bag": "橙色睡袋",
+  "item.sleeping_bags.magenta_sleeping_bag": "洋紅色睡袋",
+  "item.sleeping_bags.light_blue_sleeping_bag": "淺藍色睡袋",
+  "item.sleeping_bags.yellow_sleeping_bag": "黃色睡袋",
+  "item.sleeping_bags.lime_sleeping_bag": "淺綠色睡袋",
+  "item.sleeping_bags.pink_sleeping_bag": "粉紅色睡袋",
+  "item.sleeping_bags.gray_sleeping_bag": "灰色睡袋",
+  "item.sleeping_bags.light_gray_sleeping_bag": "淺灰色睡袋",
+  "item.sleeping_bags.cyan_sleeping_bag": "青色睡袋",
+  "item.sleeping_bags.purple_sleeping_bag": "紫色睡袋",
+  "item.sleeping_bags.blue_sleeping_bag": "藍色睡袋",
+  "item.sleeping_bags.brown_sleeping_bag": "棕色睡袋",
+  "item.sleeping_bags.green_sleeping_bag": "綠色睡袋",
+  "item.sleeping_bags.red_sleeping_bag": "紅色睡袋",
+  "item.sleeping_bags.black_sleeping_bag": "黑色睡袋",
+  "message.sleeping_bags.cant_sleep_here": "你無法在此處睡覺",
+  "message.sleeping_bags.cant_sleep_in_air": "你必須先雙腳著地後才能睡覺"
+}
