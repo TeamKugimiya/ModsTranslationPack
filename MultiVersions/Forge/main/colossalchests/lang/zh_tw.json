@@ -67,6 +67,6 @@
     "multiblock.colossalchests.error.prefix.info": "巨型儲物箱的多方塊結構有誤",
     "multiblock.colossalchests.error.unexpected": "巨型儲物箱的結構發生預期外的錯誤",
     "multiblock.colossalchests.error.material": "在 %2$s 的方塊材質應為 %3$s 而非 %1$s",
-    "multiblock.colossalchests.error.upgrade": "升級儲物箱的材料不足，需要 %s 個核心、%s 個接口和 %s 個外殼。並且材料等級至少要為%s.",
+    "multiblock.colossalchests.error.upgrade": "升級儲物箱的材料不足，需要 %s 個核心、%s 個介面和 %s 個外殼。並且材料等級至少要為%s。",
     "multiblock.colossalchests.error.upgradeLimit": "你無法再改變這個儲物箱了"
 }
