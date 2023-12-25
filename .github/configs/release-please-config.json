@@ -73,9 +73,9 @@
             ],
             "pull-request-title-pattern": "chore${scope}: 發佈${component} ${version}",
             "pull-request-header": ":robot: 我建立了發佈 *beep* *boop*",
-            "pull-request-footer": "此 PR 由 [Release Please](https://github.com/googleapis/release-please) 自動建立。",
-            "label": "自動發佈：待定",
-            "release-label": "自動發佈：已發佈"
+            "pull-request-footer": "此 PR 由 [Release Please](https://github.com/googleapis/release-please) 自動建立。"
         }
-    }
+    },
+   "label": "自動發佈：待定",
+   "release-label": "自動發佈：已發佈"
 }
