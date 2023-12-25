@@ -125,7 +125,7 @@ jobs:
             checksum.txt
 
       - name: Delete Artifact
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v4
         with:
           name: |
             OptimizedPack-${{ inputs.matrix_version }}
