@@ -40,7 +40,7 @@ jobs:
           poetry run python .github/scripts/image_resize.py MultiVersions/configs/pack-${{ inputs.matrix_version }}.png pack.png
 
       - name: Upload Pack Icon
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: PackIcon-${{ inputs.matrix_version }}
           path: |
