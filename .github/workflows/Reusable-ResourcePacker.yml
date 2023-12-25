@@ -78,7 +78,7 @@ jobs:
 
       # Temp
       - name: Apply Pack Icon
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: PackIcon-${{ inputs.matrix_version }}
           path: pack/
@@ -103,7 +103,7 @@ jobs:
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: DownloadArtifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: OptimizedPack-${{ inputs.matrix_version }}
           path: ./
