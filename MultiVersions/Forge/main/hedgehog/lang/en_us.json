@@ -1,0 +1,13 @@
+{
+  "block.hedgehog.kiwi_vines": "Kiwi Vines",
+  "item.hedgehog.kiwi": "Kiwi",
+  "item.hedgehog.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
+  "subtitles.entity.hedgehog.hedgehog.ambient": "Hedgehog sniffs",
+  "subtitles.entity.hedgehog.hedgehog.scared": "Hedgehog hisses",
+  "subtitles.entity.hedgehog.hedgehog.eating": "Hedgehog munches",
+  "subtitles.entity.hedgehog.hedgehog.hurt": "Hedgehog hurts",
+  "subtitles.entity.hedgehog.hedgehog.death": "Hedgehog dies",
+  "death.attack.mob.hedgehog:hedgehog": "%1$s was spiked to death by %2$s",
+  "death.attack.mob.hedgehog:hedgehog.item": "%1$s was killed by a %2$s weilding %3$s",
+  "entity.hedgehog.hedgehog": "Hedgehog"
+}
