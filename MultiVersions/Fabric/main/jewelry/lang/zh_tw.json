@@ -1,0 +1,98 @@
+{
+  "itemGroup.jewelry.generic": "RPG 系列｜珠寶",
+  "block.jewelry.gem_vein": "寶石礦",
+  "block.jewelry.deepslate_gem_vein": "深板岩寶石礦",
+  "block.jewelry.jewelers_kit": "珠寶匠成套工具台",
+  "block.jewelry.jewelers_kit.hint": "珠寶匠村民的工作站",
+
+  "entity.minecraft.villager.jeweler": "珠寶匠",
+
+  "item.jewelry.ruby": "紅寶石",
+  "item.jewelry.topaz": "黃玉",
+  "item.jewelry.citrine": "黃水晶",
+  "item.jewelry.jade": "翡翠",
+  "item.jewelry.sapphire": "藍寶石",
+  "item.jewelry.tanzanite": "坦桑石",
+
+  "item.jewelry.copper_ring": "銅製戒指",
+  "item.jewelry.iron_ring": "鐵製戒指",
+  "item.jewelry.gold_ring": "黃金戒指",
+  "item.jewelry.emerald_necklace": "綠寶石項鍊",
+  "item.jewelry.diamond_necklace": "鑽石項鍊",
+
+  "item.jewelry.ruby_ring": "紅寶石戒指",
+  "item.jewelry.topaz_ring": "黃玉戒指",
+  "item.jewelry.citrine_ring": "黃水晶戒指",
+  "item.jewelry.jade_ring": "翡翠戒指",
+  "item.jewelry.sapphire_ring": "藍寶石戒指",
+  "item.jewelry.tanzanite_ring": "坦桑石戒指",
+  "item.jewelry.ruby_necklace": "紅寶石項鍊",
+  "item.jewelry.topaz_necklace": "黃玉項鍊",
+  "item.jewelry.citrine_necklace": "黃水晶項鍊",
+  "item.jewelry.jade_necklace": "翡翠項鍊",
+  "item.jewelry.sapphire_necklace": "藍寶石項鍊",
+  "item.jewelry.tanzanite_necklace": "坦桑石項鍊",
+
+  "item.jewelry.netherite_ruby_ring": "獄髓紅寶石戒指",
+  "item.jewelry.netherite_topaz_ring": "獄髓黃玉戒指",
+  "item.jewelry.netherite_citrine_ring": "獄髓黃水晶戒指",
+  "item.jewelry.netherite_jade_ring": "獄髓翡翠戒指",
+  "item.jewelry.netherite_sapphire_ring": "獄髓藍寶石戒指",
+  "item.jewelry.netherite_tanzanite_ring": "獄髓坦桑石戒指",
+  "item.jewelry.netherite_ruby_necklace": "獄髓紅寶石項鍊",
+  "item.jewelry.netherite_topaz_necklace": "獄髓黃玉項鍊",
+  "item.jewelry.netherite_citrine_necklace": "獄髓黃水晶項鍊",
+  "item.jewelry.netherite_jade_necklace": "獄髓翡翠項鍊",
+  "item.jewelry.netherite_sapphire_necklace": "獄髓藍寶石項鍊",
+  "item.jewelry.netherite_tanzanite_necklace": "獄髓坦桑石項鍊",
+
+  "item.jewelry.unique_attack_ring": "憤怒之戒",
+  "item.jewelry.unique_attack_ring.lore": "一塊碎裂的縞瑪瑙，被粗糙的手法重新利用",
+  "item.jewelry.unique_attack_necklace": "刑罰護符",
+  "item.jewelry.unique_attack_necklace.lore": "原主人肯定不怎麼受歡迎",
+
+  "item.jewelry.unique_dex_ring": "安格莉絲塔的復仇",
+  "item.jewelry.unique_dex_ring.lore": "他們不會察覺你的出現，但肯定會察覺你的離去",
+  "item.jewelry.unique_dex_necklace": "高傲勛章",
+  "item.jewelry.unique_dex_necklace.lore": "小心別被你的野心扼住喉嚨",
+
+  "item.jewelry.unique_archer_ring": "薩拉斯遊俠指環",
+  "item.jewelry.unique_archer_ring.lore": "最精湛的精靈工藝物",
+  "item.jewelry.unique_archer_necklace": "達納蘇斯步行護符",
+  "item.jewelry.unique_archer_necklace.lore": "世代相傳的上古遺物",
+
+  "item.jewelry.unique_tank_ring": "主宰指環",
+  "item.jewelry.unique_tank_ring.lore": "輕巧又耐用，由鈦金屬所製成",
+  "item.jewelry.unique_tank_necklace": "哨兵護符",
+  "item.jewelry.unique_tank_necklace.lore": "守護者內心的堡壘",
+
+  "item.jewelry.unique_arcane_ring": "全能之戒",
+  "item.jewelry.unique_arcane_ring.lore": "流轉著宇宙的能量",
+  "item.jewelry.unique_arcane_necklace": "自由魔法護符",
+  "item.jewelry.unique_arcane_necklace.lore": "刻文的光芒太過刺眼，以至於無法閱讀，或許與輻射有關？",
+
+  "item.jewelry.unique_fire_ring": "日炎圖章戒指",
+  "item.jewelry.unique_fire_ring.lore": "精緻的精靈設計物，在太陽之井的中心鑄造而成",
+  "item.jewelry.unique_fire_necklace": "日炎垂飾",
+  "item.jewelry.unique_fire_necklace.lore": "魔導師平臺的主人送給最偉大的魔法師的禮物",
+
+  "item.jewelry.unique_frost_ring": "永凍之霜石",
+  "item.jewelry.unique_frost_ring.lore": "時光流逝，此物長存",
+  "item.jewelry.unique_frost_necklace": "冰川碎片",
+  "item.jewelry.unique_frost_necklace.lore": "邊緣異常地鋒利，但表面摸起來卻很光滑",
+
+  "item.jewelry.unique_healing_ring": "安妮特的擁抱",
+  "item.jewelry.unique_healing_ring.lore": "幾乎是無價之寶",
+  "item.jewelry.unique_healing_necklace": "阿德里亞的垂飾",
+  "item.jewelry.unique_healing_necklace.lore": "存有一小片來自塞萊提蒂斯聖域的碎片",
+
+  "item.jewelry.unique_lightning_ring": "不穩電流戒指",
+  "item.jewelry.unique_lightning_ring.lore": "掌握不可控之物！",
+  "item.jewelry.unique_lightning_necklace": "冷酷風暴護符",
+  "item.jewelry.unique_lightning_necklace.lore": "從人造次時空區域中提取真空能量，直到熵值達到最大",
+
+  "item.jewelry.unique_soul_ring": "囚魂圖章戒指",
+  "item.jewelry.unique_soul_ring.lore": "切勿打破，其中的靈魂會被囚禁是有原因的",
+  "item.jewelry.unique_soul_necklace": "神秘項鍊",
+  "item.jewelry.unique_soul_necklace.lore": "附著的尖牙預示著某種真正的邪惡"
+}
