@@ -84,7 +84,7 @@ jobs:
           path: pack/
 
       - name: Make ModsTranslationPack
-        uses: ComunidadAylas/PackSquash-action@v4
+        uses: ComunidadAylas/PackSquash-action@master
         with:
           packsquash_version: latest-unstable
           options: |
