@@ -1,0 +1,18 @@
+{
+  "slimefun_essentials.open_config": "Open Config",
+  "slimefun_essentials.title": "Slimefun Essentials",
+  "slimefun_essentials.category": "General",
+  "slimefun_essentials.option.placed_block_features": "Enable Placed Block Features",
+  "slimefun_essentials.option.placed_block_features.tooltip": "-> Should Slimefun Essentials give Slimefun Blocks Custom Textures? (Requires MoreBlockPredicates to be Installed on this Client and SlimefunServerEssentials on the Server)\n-> Required for Jade Integration",
+  "slimefun_essentials.option.auto_toggle_addons": "Enable Auto Addons",
+  "slimefun_essentials.option.auto_toggle_addons.tooltip": "Should Slimefun Essentials automatically Enable/Disable Addon Support? (Requires SlimefunServerEssentials on the Server)",
+  "slimefun_essentials.option.addons": "Enabled Slimefun Addons:",
+  "slimefun_essentials.option.addons.tooltip": "Add/Remove all Slimefun Addons you want Enabled (Check Mod Description for all supported)",
+
+  "slimefun_essentials.recipe.category.slimefun" : "%s",
+  "slimefun_essentials.recipe.time": "%s Seconds (%s Ticks)",
+  "slimefun_essentials.recipe.energy.use": "%sJ Used",
+  "slimefun_essentials.recipe.energy.generate": "%sJ Generated",
+  "slimefun_essentials.recipe.label.day": "This block must be exposed to the Sun to process this Recipe!",
+  "slimefun_essentials.recipe.label.night": "This block must be exposed to the Moon to process this Recipe!"
+}
