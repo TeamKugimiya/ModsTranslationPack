@@ -14,7 +14,8 @@ jobs:
 
     steps:
       - name: Delete Artifact
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           name: |
             ${{ inputs.artifact_name }}

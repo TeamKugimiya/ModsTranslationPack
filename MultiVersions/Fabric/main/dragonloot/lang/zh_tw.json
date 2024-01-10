@@ -1,0 +1,44 @@
+{
+  "block.dragonloot.dragon_anvil": "終界龍鱗鐵砧",
+  "item.dragonloot.dragon_scale": "終界龍鱗",
+  
+  "item.dragonloot.dragon_helmet": "終界龍鱗頭盔",
+  "item.dragonloot.dragon_chestplate": "終界龍鱗胸甲",
+  "item.dragonloot.dragon_leggings": "終界龍鱗護腿",
+  "item.dragonloot.dragon_boots": "終界龍鱗靴子",
+  "item.dragonloot.upgraded_dragon_chestplate": "終界龍鱗翅翼胸甲",
+
+  "item.dragonloot.dragon_pickaxe": "終界龍鱗鎬",
+  "item.dragonloot.dragon_axe": "終界龍鱗斧",
+  "item.dragonloot.dragon_shovel": "終界龍鱗鏟",
+  "item.dragonloot.dragon_hoe": "終界龍鱗鋤",
+  "item.dragonloot.dragon_sword": "終界龍鱗劍",
+  "item.dragonloot.dragon_bow": "終界龍鱗弓",
+  "item.dragonloot.dragon_crossbow": "終界龍鱗弩",
+
+  "item.dragonloot.dragon_horse_armor": "終界龍鱗製馬鎧",
+  "item.dragonloot.dragon_trident": "終界龍鱗三叉戟",
+  "entity.dragonloot.dragon_trident": "終界龍鱗三叉戟",
+
+  "itemGroup.dragonloot.dragonloot": "終界龍戰利品",
+
+  "text.autoconfig.dragonloot.title": "《終界龍戰利品》設定",
+  "text.autoconfig.dragonloot.option.scale_minimum_drop_amount": "終界龍鱗最低掉落數量",
+  "text.autoconfig.dragonloot.option.additional_scales_per_player": "每一位玩家的額外終界龍鱗",
+  "text.autoconfig.dragonloot.option.additional_scale_drop_chance": "額外終界龍鱗掉落機率",
+  "text.autoconfig.dragonloot.option.dragon_armor_protection_helmet": "終界龍鱗頭盔盔甲值",
+  "text.autoconfig.dragonloot.option.dragon_armor_protection_chest": "終界龍鱗胸甲盔甲值",
+  "text.autoconfig.dragonloot.option.dragon_armor_protection_leggings": "終界龍鱗護腿盔甲值",
+  "text.autoconfig.dragonloot.option.dragon_armor_protection_boots": "終界龍鱗靴子盔甲值",
+  "text.autoconfig.dragonloot.option.dragon_armor_durability_multiplier": "終界龍鱗盔甲耐久度倍數",
+  "text.autoconfig.dragonloot.option.dragon_item_durability_multiplier": "終界龍鱗製物品耐久度倍數",
+  "text.autoconfig.dragonloot.option.dragon_item_base_damage": "終界龍鱗製物品基礎傷害",
+  "text.autoconfig.dragonloot.option.dragon_anvil_no_cap": "終界龍鱗鐵砧無使用次數上限",
+  "text.autoconfig.dragonloot.option.dragon_armor_toughness": "終界龍鱗盔甲強度",
+  "text.autoconfig.dragonloot.option.dragon_armor_knockback_resistance": "終界龍鱗盔甲擊退抗性",
+  "text.autoconfig.dragonloot.option.dragon_armor_enchantability": "終界龍鱗盔甲附魔能力",
+  "text.autoconfig.dragonloot.option.dragon_tool_enchantability": "終界龍鱗工具附魔能力",
+
+  "dragonloot.advancements.dragon_armor.title": "來自龍身",
+  "dragonloot.advancements.dragon_armor.description": "取得全套終界龍鱗盔甲"
+}

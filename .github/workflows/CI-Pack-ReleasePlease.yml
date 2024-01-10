@@ -7,6 +7,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
+  actions: write
   contents: write
   pull-requests: write
 
@@ -38,17 +39,15 @@ jobs:
     needs: [ json-formater ]
 
     steps:
+      - name: Checking Repository
+        uses: actions/checkout@v4
+
       - name: Release Please
         id: release_please
         uses: google-github-actions/release-please-action@v4
-
         with:
-          release-type: simple
-          pull-request-title-pattern: "chore${scope}: 發佈${component} ${version}"
-          pull-request-header: ":robot: 我建立了發佈 *beep* *boop*"
-          labels: "自動發佈：待定"
-          release-labels: "自動發佈：已發佈"
-          changelog-types: ${{ needs.json-formater.outputs.json_data }}
+          config-file: .github/configs/release-please-config.json
+          manifest-file: .github/configs/.release-please-manifest.json
 
     outputs:
       release_created: ${{ steps.release_please.outputs.release_created }}
@@ -117,7 +116,7 @@ jobs:
 
     steps:
       - name: Download All Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
 
       - name: Upload Release Artifact
         run: |
