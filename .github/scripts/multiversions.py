@@ -160,7 +160,7 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
         ### TODO this function have oreder problem
         src_data = open(src, "r", encoding="utf8").read()
         dest_data = open(dest, "r", encoding="utf8").read()
-        merged_data = merge(src_data, dest_data)
+        merged_data = merge(dest_data, src_data)
 
         return merged_data
 
