@@ -1,6 +1,7 @@
 """Combine all multiversions language script"""
 
 import json
+import os
 import sys
 import shutil
 from pathlib import Path
@@ -12,11 +13,22 @@ from loguru import logger
 ## Init pack path
 RESOURCEPACK_PATH = Path("pack/assets")
 
+## Config Path
+MODS_SETTINGS = Path("MultiVersions/configs/mods-settings.json")
+VERSIONS_CONFIG = Path(".github/configs/versions.json")
+
 ## Log Messages
 
 MSG_COPY = "📂 複製－"
 MSG_MIX_COPY = "🗂️  混合複製－"
-MSG_IGNORE_COPY = "🏁 忽略複製－"
+MSG_IGNORE_COPY = "🚧 忽略複製－"
+
+MSG_GUIDE_COPY = "📖 複製手冊－"
+MSG_GUIDE_IGNORE_COPY = "🚧 忽略複製手冊－"
+
+MSG_PLATFORM_FIRST = "🚩 平台 {platform}｜版本 {version}｜模組語言首次複製"
+MSG_PLATFORM_SECOND = "🚩 平台 {platform}｜版本 {version}｜模組語言二次複製與混合"
+MSG_PLATFORM_GUIDE = "🚩 平台 {platform}｜版本 {version}｜手冊複製"
 
 MSG_DEBUG_SRC = "｜原始路徑："
 MSG_DEBUG_DEST = "｜目標路徑："
@@ -37,8 +49,8 @@ def ci_formatter(ci: bool):
     logger.remove()
     logger.add(sys.stderr, format=log_format)
 
-    if ci:
-        pass
+    if not ci:
+        logger.add("loguru.log")
 
 def load_json(path: Path) -> dict:
     """
@@ -102,7 +114,7 @@ def generate_ignore_id(version: str) -> set:
 
     return ids
 
-def copy_lang(platform: str, version: str, ignore_ids: set, first_copy: bool):
+def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first_copy: bool):
     """
     Copy mod langauge file from source to destination (workdir of pack)
     When first_copy bool is false, it will start to verify ignore_ids to check need to mixup or not.
@@ -110,6 +122,7 @@ def copy_lang(platform: str, version: str, ignore_ids: set, first_copy: bool):
         Parameters:
             platform (str): Platform name
             version (str): Version name
+            dir_path (str): The dir of path
             ignore_ids (str): Ignore Ids set
             first_copy (bool): Fist time copy, if not, well have another logical
     """
@@ -143,6 +156,7 @@ def copy_lang(platform: str, version: str, ignore_ids: set, first_copy: bool):
             Returs:
                 str: the data of json
         """
+        ### TODO this function have oreder problem
         src_data = open(src, "r", encoding="utf8").read()
         dest_data = open(dest, "r", encoding="utf8").read()
         merged_data = merge(src_data, dest_data)
@@ -150,11 +164,11 @@ def copy_lang(platform: str, version: str, ignore_ids: set, first_copy: bool):
         return merged_data
 
     if first_copy:
-        logger.info("首次複製開始！")
+        logger.info(MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info("")
 
         # Init subdirs
-        subdirs = generate_subdirs(platform, version)
+        subdirs = generate_subdirs(platform, dir_path)
 
         # Init Pack dir
         logger.info("初始化工作資料夾")
@@ -175,12 +189,11 @@ def copy_lang(platform: str, version: str, ignore_ids: set, first_copy: bool):
             shutil.copyfile(src_path, dest_path.joinpath(file_suffix))
     else:
         logger.info("")
-        logger.info("二次複製開始！")
-        logger.info("進行必要混合。")
+        logger.info(MSG_PLATFORM_SECOND.format(platform=platform, version=version))
         logger.info("")
 
         # Init subdirs
-        subdirs = generate_subdirs(platform, version)
+        subdirs = generate_subdirs(platform, dir_path)
 
         if ignore_ids is None:
             ignore_ids = {}
@@ -211,22 +224,100 @@ def copy_lang(platform: str, version: str, ignore_ids: set, first_copy: bool):
             else:
                 logger.info(f"{MSG_IGNORE_COPY}{mod_id}")
 
-def copy_guide():
+def copy_guide(platform: str, version: str, dir_path: str):
     """
-    
+    Copy mod guide if exist, this will check config file to see what the path of.
+
+        Parameters:
+            platform (str): Platform name
+            version (str): Version name
+            dir_path (str): The dir of path
     """
-    pass
+    logger.info("")
+    logger.info(MSG_PLATFORM_GUIDE.format(platform=platform, version=version))
+    logger.info("")
+
+    for i in Path(f"MultiVersions/{platform}/{dir_path}").iterdir():
+        for j in i.iterdir():
+            if j.name != "lang":
+                # Default guide path
+                if j.name == "patchouli_books":
+                    mod_id = j.parent.name
+                    for i in j.iterdir():
+                        guide_id = i.name
+                    src_path = j.joinpath(f"{guide_id}/zh_tw")
+                    # pylint: disable=line-too-long
+                    dest_path = Path(f"{RESOURCEPACK_PATH}/{mod_id}/patchouli_books/{guide_id}/zh_tw")
+
+                    if dest_path.exists() is not True:
+                        logger.info(f"{MSG_GUIDE_COPY}{mod_id}")
+                        logger.debug(f"{MSG_DEBUG_SRC}{src_path}")
+                        logger.debug(f"{MSG_DEBUG_DEST}{dest_path}")
+                        shutil.copytree(src_path, dest_path)
+                    else:
+                        logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
+                # Special guide path
+                elif j.name == "ae2guide" or j.name == "book":
+                    mod_id = j.parent.name
+                    src_path = j
+                    dest_path = Path(f"{RESOURCEPACK_PATH}/{mod_id}/{j.name}")
+
+                    if dest_path.exists() is not True:
+                        logger.info(f"{MSG_GUIDE_COPY}{mod_id}")
+                        logger.debug(f"{MSG_DEBUG_SRC}{src_path}")
+                        logger.debug(f"{MSG_DEBUG_DEST}{dest_path}")
+                        shutil.copytree(src_path, dest_path)
+                    else:
+                        logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
+                else:
+                    logger.error(f"⚠️ 未收入 {j.name} 的手冊資料夾行為！")
+
+def extract_versions(path: Path, version: str) -> dict:
+    """
+    Extract mc_versions to new array, with setting version
+
+        Parameters:
+            path (str): The path of version json
+            version (str): Version of matrix
+    """
+    mc_versions = []
+    json_data = load_json(path)
+
+    for ver in json_data["versions"]:
+        mc_versions.append({"version": ver["mc_version"], "dir_path": ver["dir_path"]})
+
+    index = next((i for i, item in enumerate(mc_versions) if item['version'] == version), None)
+
+    if index is not None:
+        return mc_versions[index:]
+
+    logger.error(f"不存在 {version} 版本！")
+    sys.exit(1)
 
 def main():
     """
-    abc
+    First run of function
     """
-    ci_formatter(False)
-    test_ignore = {"ftbchunks", "itemcollectors"}
-    copy_lang("Forge", "main", test_ignore, True)
-    copy_lang("Forge", "1.18", test_ignore, False)
-    # LOGURU_LEVEL=INFO
-    # I need to change CI to use loguru level to info
-    # For debug, there have an bool to control it
+    ci_formatter(os.environ.get("CI"))
 
-main()
+    # Init Vars
+    mc_version_matrix = os.environ.get("matrix_version")
+    # mc_version_matrix = "1.18.x"
+    version_list = extract_versions(VERSIONS_CONFIG, mc_version_matrix)
+
+    # Generate ignore list
+    ignore_list = None
+    mod_settings_data = load_json(MODS_SETTINGS)
+    for i in mod_settings_data["versions"]:
+        if i["version"] == mc_version_matrix:
+            ignore_list = i["keeplist"]
+
+    # Copy guide and lang files
+    for i in version_list:
+        first_run = True if i["version"] == mc_version_matrix else False
+        copy_lang("Forge", i["version"], i["dir_path"], ignore_list, first_run)
+        copy_lang("Fabric", i["version"], i["dir_path"], ignore_list, False)
+        copy_guide("Forge", i["version"], i["dir_path"])
+
+if __name__ == "__main__":
+    main()

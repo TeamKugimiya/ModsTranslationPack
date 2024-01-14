@@ -45,6 +45,23 @@ jobs:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
 
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2
+
+      - name: Setup a local virtual environment
+        run: |
+          poetry config virtualenvs.create true --local
+          poetry config virtualenvs.in-project true --local
+
+      - name: Cache Python
+        uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+
+      - name: Install project dependencies
+        run: poetry install
+
       - name: Pack mcmeta generate
         run: |
           python3 .github/scripts/mcmeta_generate.py
@@ -74,7 +91,14 @@ jobs:
 
       - name: MultiVersions!
         run: |
-          .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
+          poetry run python .github/scripts/multiversions.py
+        env:
+          matrix_version: ${{ inputs.matrix_version }}
+          LOGURU_LEVEL: "INFO"
+      
+      - name: Test
+        run: |
+          ls -alh MultiVersions
 
       # Temp
       - name: Apply Pack Icon

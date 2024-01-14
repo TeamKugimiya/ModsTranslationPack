@@ -3,21 +3,7 @@
         {
             "version": "1.18.x",
             "keeplist": [
-                "abcdefg",
-                "ccab",
-                "idingore"
-            ]
-        },
-        {
-            "version": "1.19.x",
-            "keeplist": [
-                "dddefgea"
-            ]
-        },
-        {
-            "version": "main",
-            "keeplist": [
-                "deadsds"
+                "ae2"
             ]
         }
     ]
