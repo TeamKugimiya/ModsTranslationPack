@@ -77,17 +77,29 @@ jobs:
 
       - name: Download override cache from s3
         # if: github.event_name != 'pull_request'
-        uses: Docker-Collection/docker-aws-s3-action@main
-        with:
-          aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
-          dest_dir: "cache/"
-          sync_reverse: true
-          aws_command: "sync"
-        env:
-          RUNNER_ENVIRONMENT: ""
+        run: |
+          docker run \
+            --rm -it \
+            -v "/home/runner/work/ModsTranslationPack/ModsTranslationPack":"/github/workspace" \
+            -e AWS_S3_BUCKET="${{ secrets.AWS_S3_BUCKET }}" \
+            -e AWS_ACCESS_KEY_ID="${{ secrets.AWS_ACCESS_KEY_ID }}" \
+            -e AWS_SECRET_ACCESS_KEY="${{ secrets.AWS_SECRET_ACCESS_KEY }}" \
+            -e AWS_S3_ENDPOINT="${{ secrets.AWS_S3_ENDPOINT }}" \
+            -e DEST_DIR="cache/" \
+            -e AWS_COMMAND="sync" \
+            ghcr.io/docker-collection/aws-s3:latest
+        
+        # uses: Docker-Collection/docker-aws-s3-action@main
+        # with:
+        #   aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
+        #   aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        #   aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        #   aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
+        #   dest_dir: "cache/"
+        #   sync_reverse: true
+        #   aws_command: "sync"
+        # env:
+        #   PYTHONPATH: "/usr/bin/python3"
 
       - name: Extract caches
         # if: github.event_name != 'pull_request'
