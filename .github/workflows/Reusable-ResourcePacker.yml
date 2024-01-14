@@ -54,19 +54,19 @@ jobs:
       # - name: Install poetry
       #   uses: abatilo/actions-poetry@v2
 
-      # - name: Setup a local virtual environment
-      #   run: |
-      #     poetry config virtualenvs.create true --local
-      #     poetry config virtualenvs.in-project true --local
+      - name: Setup a local virtual environment
+        run: |
+          poetry config virtualenvs.create true --local
+          poetry config virtualenvs.in-project true --local
 
-      # - name: Cache Python
-      #   uses: actions/cache@v3
-      #   with:
-      #     path: ./.venv
-      #     key: venv-${{ hashFiles('poetry.lock') }}
+      - name: Cache Python
+        uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
 
-      # - name: Install project dependencies
-      #   run: poetry install
+      - name: Install project dependencies
+        run: poetry install
 
       # - name: Pack mcmeta generate
       #   run: |
