@@ -86,7 +86,7 @@ jobs:
             -e AWS_SECRET_ACCESS_KEY="${{ secrets.AWS_SECRET_ACCESS_KEY }}" \
             -e AWS_S3_ENDPOINT="${{ secrets.AWS_S3_ENDPOINT }}" \
             -e DEST_DIR="/github/workspace" \
-            -e SOURCE_DIR="cache/" \
+            -e SOURCE_DIR="/cache/" \
             -e AWS_COMMAND="sync" \
             ghcr.io/docker-collection/aws-s3:latest
         
