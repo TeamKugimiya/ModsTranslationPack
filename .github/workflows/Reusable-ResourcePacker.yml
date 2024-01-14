@@ -54,7 +54,7 @@ jobs:
           matrix_version: ${{ inputs.matrix_version }}
 
       - name: Download override cache from s3
-        # if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request'
         uses: Docker-Collection/docker-aws-s3-action@main
         with:
           aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
@@ -66,7 +66,7 @@ jobs:
           aws_command: "sync"
 
       - name: Extract caches
-        # if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request'
         run: |
           sha256sum -c checksum.txt
           unzip Override-Cache.zip
