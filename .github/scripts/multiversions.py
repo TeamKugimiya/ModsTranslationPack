@@ -305,7 +305,6 @@ def main():
 
     # Init Vars
     mc_version_matrix = os.environ.get("matrix_version")
-    mc_version_matrix = "1.20.x"
     version_list = extract_versions(VERSIONS_CONFIG, mc_version_matrix)
 
     # Generate ignore list
