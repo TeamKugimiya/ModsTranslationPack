@@ -79,7 +79,7 @@ jobs:
         # if: github.event_name != 'pull_request'
         run: |
           docker run \
-            --rm -it \
+            --rm \
             -v "/home/runner/work/ModsTranslationPack/ModsTranslationPack":"/github/workspace" \
             -e AWS_S3_BUCKET="${{ secrets.AWS_S3_BUCKET }}" \
             -e AWS_ACCESS_KEY_ID="${{ secrets.AWS_ACCESS_KEY_ID }}" \
