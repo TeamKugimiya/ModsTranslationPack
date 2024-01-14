@@ -76,7 +76,13 @@ jobs:
           matrix_version: ${{ inputs.matrix_version }}
 
       - name: Dump vars context
-        run: printenv
+        run: |
+          echo $pythonLocation
+          echo $PKG_CONFIG_PATH
+          echo $Python_ROOT_DIR
+          echo $Python2_ROOT_DIR
+          echo $Python3_ROOT_DIR
+          echo $LD_LIBRARY_PATH
 
       - name: Download override cache from s3
         # if: github.event_name != 'pull_request'
