@@ -45,36 +45,36 @@ jobs:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.10"
-          update-environment: false
+      # - name: Setup Python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: "3.10"
+      #     update-environment: false
 
-      - name: Install poetry
-        uses: abatilo/actions-poetry@v2
+      # - name: Install poetry
+      #   uses: abatilo/actions-poetry@v2
 
-      - name: Setup a local virtual environment
-        run: |
-          poetry config virtualenvs.create true --local
-          poetry config virtualenvs.in-project true --local
+      # - name: Setup a local virtual environment
+      #   run: |
+      #     poetry config virtualenvs.create true --local
+      #     poetry config virtualenvs.in-project true --local
 
-      - name: Cache Python
-        uses: actions/cache@v3
-        with:
-          path: ./.venv
-          key: venv-${{ hashFiles('poetry.lock') }}
+      # - name: Cache Python
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: ./.venv
+      #     key: venv-${{ hashFiles('poetry.lock') }}
 
-      - name: Install project dependencies
-        run: poetry install
+      # - name: Install project dependencies
+      #   run: poetry install
 
-      - name: Pack mcmeta generate
-        run: |
-          python3 .github/scripts/mcmeta_generate.py
-        env:
-          release: ${{ inputs.release }}
-          release_version: ${{ inputs.release_version }}
-          matrix_version: ${{ inputs.matrix_version }}
+      # - name: Pack mcmeta generate
+      #   run: |
+      #     python3 .github/scripts/mcmeta_generate.py
+      #   env:
+      #     release: ${{ inputs.release }}
+      #     release_version: ${{ inputs.release_version }}
+      #     matrix_version: ${{ inputs.matrix_version }}
 
       - name: Download override cache from s3
         # if: github.event_name != 'pull_request'
@@ -95,65 +95,65 @@ jobs:
           unzip Override-Cache.zip
           rm Override-Cache.zip checksum.txt
 
-      - name: MultiVersions mixer
-        run: |
-          poetry run python .github/scripts/multiversions.py
-        env:
-          matrix_version: ${{ inputs.matrix_version }}
-          LOGURU_LEVEL: "INFO"
+      # - name: MultiVersions mixer
+      #   run: |
+      #     poetry run python .github/scripts/multiversions.py
+      #   env:
+      #     matrix_version: ${{ inputs.matrix_version }}
+      #     LOGURU_LEVEL: "INFO"
 
-      - name: Copy misc things
-        run: |
-          cp MultiVersions/configs/pack.mcmeta pack/
-          ls -alh MultiVersions
-        # cp MultiVersions/Override/LICENSE_* pack/
+      # - name: Copy misc things
+      #   run: |
+      #     cp MultiVersions/configs/pack.mcmeta pack/
+      #     ls -alh MultiVersions
+      #   # cp MultiVersions/Override/LICENSE_* pack/
 
-      - name: Apply Pack Icon
-        uses: actions/download-artifact@v4
-        with:
-          name: PackIcon-${{ inputs.matrix_version }}
-          path: pack/
+      # - name: Apply Pack Icon
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: PackIcon-${{ inputs.matrix_version }}
+      #     path: pack/
 
-      - name: Make ModsTranslationPack
-        uses: ComunidadAylas/PackSquash-action@v4
-        with:
-          packsquash_version: latest-unstable
-          options: |
-            pack_directory = 'pack'
-            never_store_squash_times = true
-            ['assets/immersiveengineering/manual/zh_tw/*.txt']
-            force_include = true
-            ['{LICENSE,LICENSE_*}']
-            force_include = true
-            ['**/*?.lang']
-            force_include = true
-            ['**/*?.md']
-            force_include = true
-            ['assets/expatternprovider/ae2guide/pic/*?.png']
-            force_include = true
-          artifact_name: OptimizedPack-${{ inputs.matrix_version }}
+      # - name: Make ModsTranslationPack
+      #   uses: ComunidadAylas/PackSquash-action@v4
+      #   with:
+      #     packsquash_version: latest-unstable
+      #     options: |
+      #       pack_directory = 'pack'
+      #       never_store_squash_times = true
+      #       ['assets/immersiveengineering/manual/zh_tw/*.txt']
+      #       force_include = true
+      #       ['{LICENSE,LICENSE_*}']
+      #       force_include = true
+      #       ['**/*?.lang']
+      #       force_include = true
+      #       ['**/*?.md']
+      #       force_include = true
+      #       ['assets/expatternprovider/ae2guide/pic/*?.png']
+      #       force_include = true
+      #     artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
-      - name: Download Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: OptimizedPack-${{ inputs.matrix_version }}
-          path: ./
+      # - name: Download Artifact
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: OptimizedPack-${{ inputs.matrix_version }}
+      #     path: ./
 
-      - name: Rename ModsTranslationPack
-        run: |
-          mv ./pack.zip ModsTranslationPack-${{ inputs.matrix_version }}.zip
+      # - name: Rename ModsTranslationPack
+      #   run: |
+      #     mv ./pack.zip ModsTranslationPack-${{ inputs.matrix_version }}.zip
 
-      - name: Make Checksum
-        run: |
-          sha256sum ModsTranslationPack-${{ inputs.matrix_version }}.zip > checksum.txt
+      # - name: Make Checksum
+      #   run: |
+      #     sha256sum ModsTranslationPack-${{ inputs.matrix_version }}.zip > checksum.txt
 
-      - name: Upload ModsTranslationPack
-        uses: actions/upload-artifact@v4
-        with:
-          name: ModsTranslationPack-${{ inputs.matrix_version }}
-          path: |
-            *.zip
-            checksum.txt
+      # - name: Upload ModsTranslationPack
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: ModsTranslationPack-${{ inputs.matrix_version }}
+      #     path: |
+      #       *.zip
+      #       checksum.txt
 
   delete-artifact:
     name: Delete Artifact
