@@ -81,14 +81,15 @@ jobs:
           docker run \
             --rm \
             -v "/home/runner/work/ModsTranslationPack/ModsTranslationPack":"/github/workspace" \
-            -e AWS_S3_BUCKET="${{ secrets.AWS_S3_BUCKET }}" \
-            -e AWS_ACCESS_KEY_ID="${{ secrets.AWS_ACCESS_KEY_ID }}" \
-            -e AWS_SECRET_ACCESS_KEY="${{ secrets.AWS_SECRET_ACCESS_KEY }}" \
-            -e AWS_S3_ENDPOINT="${{ secrets.AWS_S3_ENDPOINT }}" \
-            -e DEST_DIR="/github/workspace" \
-            -e SOURCE_DIR="/cache/" \
-            -e AWS_COMMAND="sync" \
-            ghcr.io/docker-collection/aws-s3:latest
+            -e INPUT_SYNC_REVERSE="true" \
+            -e INPUT_AWS_S3_BUCKET="${{ secrets.AWS_S3_BUCKET }}" \
+            -e INPUT_AWS_ACCESS_KEY_ID="${{ secrets.AWS_ACCESS_KEY_ID }}" \
+            -e INPUT_AWS_SECRET_ACCESS_KEY="${{ secrets.AWS_SECRET_ACCESS_KEY }}" \
+            -e INPUT_AWS_S3_ENDPOINT="${{ secrets.AWS_S3_ENDPOINT }}" \
+            -e INPUT_DEST_DIR="cache/" \
+            -e INPUT_SOURCE_DIR="/github/workspace" \
+            -e INPUT_AWS_COMMAND="sync" \
+            ghcr.io/docker-collection/aws-cli-action:latest
         
         # uses: Docker-Collection/docker-aws-s3-action@main
         # with:
