@@ -96,8 +96,10 @@ jobs:
           matrix_version: ${{ inputs.matrix_version }}
           LOGURU_LEVEL: "INFO"
       
-      - name: Test
+      - name: Copy misc things
         run: |
+          cp MultiVersions/configs/pack.mcmeta pack/
+          cp MultiVersions/Override/LICENSE_* pack/
           ls -alh MultiVersions
 
       # Temp
