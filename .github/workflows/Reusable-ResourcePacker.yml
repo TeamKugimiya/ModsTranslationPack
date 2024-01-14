@@ -86,6 +86,8 @@ jobs:
           dest_dir: "cache/"
           sync_reverse: true
           aws_command: "sync"
+        env:
+          RUNNER_ENVIRONMENT: ""
 
       - name: Extract caches
         # if: github.event_name != 'pull_request'
