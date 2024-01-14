@@ -88,7 +88,12 @@ jobs:
           sync_reverse: true
           aws_command: "sync"
         env:
-          GITHUB_ENV: "" 
+          pythonLocation: ""
+          PKG_CONFIG_PATH: ""
+          Python_ROOT_DIR: ""
+          Python2_ROOT_DIR: ""
+          Python3_ROOT_DIR: ""
+          LD_LIBRARY_PATH: ""
 
       - name: Extract caches
         # if: github.event_name != 'pull_request'
