@@ -115,7 +115,7 @@ def generate_ignore_id(version: str) -> set:
 
     return ids
 
-def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first_copy: bool, ci: bool):
+def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first_copy: bool):
     """
     Copy mod langauge file from source to destination (workdir of pack)
     When first_copy bool is false, it will start to verify ignore_ids to check need to mixup or not.
@@ -126,7 +126,6 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
             dir_path (str): The dir of path
             ignore_ids (str): Ignore Ids set
             first_copy (bool): Fist time copy, if not, well have another logical
-            ci (bool): If is ci, then it will append group context
     """
 
     def verify_legacy(path: Path) -> str:
@@ -166,8 +165,6 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
         return merged_data
 
     if first_copy:
-        if ci:
-            logger.info("::group::" + MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info(MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info("")
 
@@ -191,12 +188,7 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
             logger.debug(f"{MSG_DEBUG_DEST}{dest_path.joinpath(file_suffix)}")
             dest_path.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(src_path, dest_path.joinpath(file_suffix))
-
-        if ci:
-            logger.info("::endgroup::")
     else:
-        if ci:
-            logger.info("::group::" + MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info("")
         logger.info(MSG_PLATFORM_SECOND.format(platform=platform, version=version))
         logger.info("")
@@ -233,10 +225,7 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
             else:
                 logger.info(f"{MSG_IGNORE_COPY}{mod_id}")
 
-        if ci:
-            logger.info("::endgroup::")
-
-def copy_guide(platform: str, version: str, dir_path: str, ci: bool):
+def copy_guide(platform: str, version: str, dir_path: str):
     """
     Copy mod guide if exist, this will check config file to see what the path of.
 
@@ -244,10 +233,7 @@ def copy_guide(platform: str, version: str, dir_path: str, ci: bool):
             platform (str): Platform name
             version (str): Version name
             dir_path (str): The dir of path
-            ci (bool): If is ci, then it will append group context
     """
-    if ci:
-        logger.info("::group::" + MSG_PLATFORM_GUIDE.format(platform=platform, version=version))
     logger.info("")
     logger.info(MSG_PLATFORM_GUIDE.format(platform=platform, version=version))
     logger.info("")
@@ -272,7 +258,7 @@ def copy_guide(platform: str, version: str, dir_path: str, ci: bool):
                     else:
                         logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
                 # Special guide path
-                elif j.name == "ae2guide" or j.name == "book" or j.name == "blue_skies":
+                elif j.name == "ae2guide" or j.name == "book" or j.name == "blue_skies" or j.name == "manual":
                     mod_id = j.parent.name
                     src_path = j
                     dest_path = Path(f"{RESOURCEPACK_PATH}/{mod_id}/{j.name}")
@@ -286,8 +272,6 @@ def copy_guide(platform: str, version: str, dir_path: str, ci: bool):
                         logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
                 else:
                     logger.error(f"⚠️ 未收入 {j} 的手冊資料夾行為！")
-    if ci:
-        logger.info("::endgroup::")
 
 def extract_versions(path: Path, version: str) -> dict:
     """
@@ -333,9 +317,9 @@ def main():
     # Copy guide and lang files
     for i in version_list:
         first_run = True if i["version"] == mc_version_matrix else False
-        copy_lang("Forge", i["version"], i["dir_path"], ignore_list, first_run, ci)
-        copy_lang("Fabric", i["version"], i["dir_path"], ignore_list, False, ci)
-        copy_guide("Forge", i["version"], i["dir_path"], ci)
+        copy_lang("Forge", i["version"], i["dir_path"], ignore_list, first_run)
+        copy_lang("Fabric", i["version"], i["dir_path"], ignore_list, False)
+        copy_guide("Forge", i["version"], i["dir_path"])
 
 if __name__ == "__main__":
     main()
