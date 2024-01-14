@@ -76,7 +76,7 @@ jobs:
           matrix_version: ${{ inputs.matrix_version }}
 
       - name: Download override cache archive
-        # if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request'
         uses: prewk/s3-cp-action@v2
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -86,7 +86,7 @@ jobs:
           dest: "./"
 
       - name: Download override cache checksum
-        # if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request'
         uses: prewk/s3-cp-action@v2
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
