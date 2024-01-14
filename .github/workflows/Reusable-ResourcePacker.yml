@@ -83,6 +83,7 @@ jobs:
           echo $Python2_ROOT_DIR
           echo $Python3_ROOT_DIR
           echo $LD_LIBRARY_PATH
+          echo $GITHUB_ENV
 
       - name: Download override cache from s3
         # if: github.event_name != 'pull_request'
@@ -95,8 +96,8 @@ jobs:
           dest_dir: "cache/"
           sync_reverse: true
           aws_command: "sync"
-        # env:
-        #   Python3_ROOT_DIR: 
+        env:
+          GITHUB_ENV: "" 
 
       - name: Extract caches
         # if: github.event_name != 'pull_request'
