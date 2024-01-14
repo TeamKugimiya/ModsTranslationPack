@@ -75,6 +75,11 @@ jobs:
           release_version: ${{ inputs.release_version }}
           matrix_version: ${{ inputs.matrix_version }}
 
+      - name: Dump vars context
+        env:
+          VARS_JSON: ${{ toJson(vars)}}
+        run: echo "${VARS_JSON}"
+
       - name: Download override cache from s3
         # if: github.event_name != 'pull_request'
         uses: Docker-Collection/docker-aws-s3-action@main
@@ -86,6 +91,8 @@ jobs:
           dest_dir: "cache/"
           sync_reverse: true
           aws_command: "sync"
+        # env:
+        #   Python3_ROOT_DIR: 
 
       - name: Extract caches
         # if: github.event_name != 'pull_request'
