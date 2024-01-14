@@ -172,7 +172,6 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
         subdirs = generate_subdirs(platform, dir_path)
 
         # Init Pack dir
-        logger.info("初始化工作資料夾")
         Path.mkdir(RESOURCEPACK_PATH, parents=True)
 
         # Copy files
