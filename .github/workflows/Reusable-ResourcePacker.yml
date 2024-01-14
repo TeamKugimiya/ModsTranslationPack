@@ -77,7 +77,6 @@ jobs:
 
       - name: Download override cache from s3
         # if: github.event_name != 'pull_request'
-        if: always()
         uses: Docker-Collection/docker-aws-s3-action@main
         with:
           aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
@@ -88,12 +87,7 @@ jobs:
           sync_reverse: true
           aws_command: "sync"
         env:
-          pythonLocation: ""
-          PKG_CONFIG_PATH: ""
-          Python_ROOT_DIR: ""
-          Python2_ROOT_DIR: ""
-          Python3_ROOT_DIR: ""
-          LD_LIBRARY_PATH: ""
+          PYTHONPATH: ""
 
       - name: Extract caches
         # if: github.event_name != 'pull_request'
