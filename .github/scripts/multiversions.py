@@ -167,7 +167,7 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
 
     if first_copy:
         if ci:
-            print("::group::" + MSG_PLATFORM_FIRST.format(platform=platform, version=version))
+            logger.info("::group::" + MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info(MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info("")
 
@@ -193,10 +193,10 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
             shutil.copyfile(src_path, dest_path.joinpath(file_suffix))
 
         if ci:
-            print("::endgroup::")
+            logger.info("::endgroup::")
     else:
         if ci:
-            print("::group::" + MSG_PLATFORM_FIRST.format(platform=platform, version=version))
+            logger.info("::group::" + MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info("")
         logger.info(MSG_PLATFORM_SECOND.format(platform=platform, version=version))
         logger.info("")
@@ -234,7 +234,7 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
                 logger.info(f"{MSG_IGNORE_COPY}{mod_id}")
 
         if ci:
-            print("::endgroup::")
+            logger.info("::endgroup::")
 
 def copy_guide(platform: str, version: str, dir_path: str, ci: bool):
     """
@@ -247,7 +247,7 @@ def copy_guide(platform: str, version: str, dir_path: str, ci: bool):
             ci (bool): If is ci, then it will append group context
     """
     if ci:
-        print("::group::" + MSG_PLATFORM_GUIDE.format(platform=platform, version=version))
+        logger.info("::group::" + MSG_PLATFORM_GUIDE.format(platform=platform, version=version))
     logger.info("")
     logger.info(MSG_PLATFORM_GUIDE.format(platform=platform, version=version))
     logger.info("")
@@ -285,9 +285,9 @@ def copy_guide(platform: str, version: str, dir_path: str, ci: bool):
                     else:
                         logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
                 else:
-                    logger.error(f"⚠️ 未收入 {j.name} 的手冊資料夾行為！")
+                    logger.error(f"⚠️ 未收入 {j} 的手冊資料夾行為！")
     if ci:
-        print("::endgroup::")
+        logger.info("::endgroup::")
 
 def extract_versions(path: Path, version: str) -> dict:
     """
