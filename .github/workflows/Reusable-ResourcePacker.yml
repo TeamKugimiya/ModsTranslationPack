@@ -96,7 +96,7 @@ jobs:
           dest: "./"
 
       - name: Extract caches
-        # if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request'
         run: |
           sha256sum -c checksum.txt
           unzip Override-Cache.zip
