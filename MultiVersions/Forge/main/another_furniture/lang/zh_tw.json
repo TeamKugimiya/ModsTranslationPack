@@ -1,7 +1,6 @@
 {
-    "itemGroup.another_furniture": "另類家具",
-
     "itemGroup.another_furniture.tab": "另類家具",
+
     "subtitles.block.another_furniture.service_bell.use": "鈴聲",
     "subtitles.block.another_furniture.chair.tuck": "椅子塞入",
     "subtitles.block.another_furniture.chair.untuck": "椅子未塞入",
@@ -22,6 +21,8 @@
     "block.another_furniture.mangrove_chair": "紅樹林木椅子",
     "block.another_furniture.crimson_chair": "緋紅蕈木椅子",
     "block.another_furniture.warped_chair": "扭曲蕈木椅子",
+    "block.another_furniture.bamboo_chair": "竹椅子",
+    "block.another_furniture.cherry_chair": "櫻花木椅子",
 
     "block.another_furniture.oak_shelf": "橡木書架",
     "block.another_furniture.spruce_shelf": "杉木書架",
@@ -32,6 +33,8 @@
     "block.another_furniture.mangrove_shelf": "紅樹林木書架",
     "block.another_furniture.crimson_shelf": "緋紅蕈木書架",
     "block.another_furniture.warped_shelf": "扭曲蕈木書架",
+	"block.another_furniture.bamboo_shelf": "竹書架",
+    "block.another_furniture.cherry_shelf": "櫻花木書架",
 
     "block.another_furniture.oak_table": "橡木桌子",
     "block.another_furniture.spruce_table": "杉木桌子",
@@ -42,6 +45,8 @@
     "block.another_furniture.mangrove_table": "紅樹林木桌子",
     "block.another_furniture.crimson_table": "緋紅蕈木桌子",
     "block.another_furniture.warped_table": "扭曲蕈木桌子",
+	"block.another_furniture.bamboo_table": "竹桌子",
+    "block.another_furniture.cherry_table": "櫻花木桌子",
 
     "block.another_furniture.oak_shutter": "橡木百葉窗",
     "block.another_furniture.spruce_shutter": "杉木百葉窗",
@@ -52,16 +57,20 @@
     "block.another_furniture.mangrove_shutter": "紅樹林木百葉窗",
     "block.another_furniture.crimson_shutter": "緋紅蕈木百葉窗",
     "block.another_furniture.warped_shutter": "扭曲蕈木百葉窗",
+	"block.another_furniture.bamboo_shutter": "竹百葉窗",
+    "block.another_furniture.cherry_shutter": "櫻花木百葉窗",
 
-    "block.another_furniture.oak_planter_box": "橡木花盒",
-    "block.another_furniture.spruce_planter_box": "杉木花盒",
-    "block.another_furniture.birch_planter_box": "樺木花盒",
-    "block.another_furniture.jungle_planter_box": "叢林木花盒",
-    "block.another_furniture.acacia_planter_box": "相思木花盒",
-    "block.another_furniture.dark_oak_planter_box": "黑橡木花盒",
-    "block.another_furniture.mangrove_planter_box": "紅樹林木花盒",
-    "block.another_furniture.crimson_planter_box": "緋紅蕈木花盒",
-    "block.another_furniture.warped_planter_box": "扭曲蕈木花盒",
+    "block.another_furniture.oak_flower_box": "橡木花盒",
+    "block.another_furniture.spruce_flower_box": "杉木花盒",
+    "block.another_furniture.birch_flower_box": "樺木花盒",
+    "block.another_furniture.jungle_flower_box": "叢林木花盒",
+    "block.another_furniture.acacia_flower_box": "相思木花盒",
+    "block.another_furniture.dark_oak_flower_box": "黑橡木花盒",
+    "block.another_furniture.mangrove_flower_box": "紅樹林木花盒",
+    "block.another_furniture.crimson_flower_box": "緋紅蕈木花盒",
+    "block.another_furniture.warped_flower_box": "扭曲蕈木花盒",
+	"block.another_furniture.bamboo_flower_box": "竹花盒",
+    "block.another_furniture.cherry_flower_box": "櫻花木花盒",
 
     "block.another_furniture.oak_bench": "橡木長椅",
     "block.another_furniture.spruce_bench": "杉木長椅",
@@ -72,6 +81,8 @@
     "block.another_furniture.mangrove_bench": "紅樹林木長椅",
     "block.another_furniture.crimson_bench": "緋紅蕈木長椅",
     "block.another_furniture.warped_bench": "扭曲蕈木長椅",
+	"block.another_furniture.bamboo_bench": "竹長椅",
+    "block.another_furniture.cherry_bench": "櫻花木長椅",
 
     "block.another_furniture.oak_drawer": "橡木抽屜",
     "block.another_furniture.spruce_drawer": "杉木抽屜",
@@ -82,6 +93,8 @@
     "block.another_furniture.mangrove_drawer": "紅樹林木抽屜",
     "block.another_furniture.crimson_drawer": "緋紅蕈木抽屜",
     "block.another_furniture.warped_drawer": "扭曲蕈木抽屜",
+	"block.another_furniture.bamboo_drawer": "竹抽屜",
+    "block.another_furniture.cherry_drawer": "櫻花木抽屜",
 
     "block.another_furniture.white_sofa": "白色沙發",
     "block.another_furniture.orange_sofa": "橙色沙發",
@@ -196,13 +209,6 @@
     "block.another_furniture.dark_oak_lattice": "黑橡木格柵",
     "block.another_furniture.crimson_lattice": "緋紅蕈木格柵",
     "block.another_furniture.warped_lattice": "扭曲蕈木格柵",
-
-    "block.another_furniture.oak_picket_fence": "橡木尖頭圍籬",
-    "block.another_furniture.spruce_picket_fence": "杉木尖頭圍籬",
-    "block.another_furniture.birch_picket_fence": "樺木尖頭圍籬",
-    "block.another_furniture.jungle_picket_fence": "叢林木尖頭圍籬",
-    "block.another_furniture.acacia_picket_fence": "相思木尖頭圍籬",
-    "block.another_furniture.dark_oak_picket_fence": "黑橡木尖頭圍籬",
-    "block.another_furniture.crimson_picket_fence": "緋紅蕈木尖頭圍籬",
-    "block.another_furniture.warped_picket_fence": "扭曲蕈木尖頭圍籬"
+    "block.another_furniture.bamboo_lattice": "竹格柵",
+    "block.another_furniture.cherry_lattice": "櫻花木格柵"
 }
