@@ -20,7 +20,7 @@ VERSIONS_CONFIG = Path(".github/configs/versions.json")
 ## Log Messages
 
 MSG_COPY = "📂 複製－"
-MSG_MIX_COPY = "🗂️  混合複製－"
+MSG_MIX_COPY = "🗂️ 混合複製－"
 MSG_IGNORE_COPY = "🚧 忽略複製－"
 
 MSG_GUIDE_COPY = "📖 複製手冊－"
@@ -41,15 +41,16 @@ def ci_formatter(ci: bool):
 
         Parameters:
             ci (bool): Check if is ci
-            debug (bool): Enable debug mode
     """
-    # pylint: disable=line-too-long
-    log_format = "<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>{level: <8}</level> | <cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - <level>{message}</level>"
-
-    logger.remove()
-    logger.add(sys.stderr, format=log_format)
-
-    if not ci:
+    if ci:
+        # pylint: disable=line-too-long
+        log_format = "<green>{time:YYYY-MM-DD HH:mm:ss}</green>｜<level>{level: <8}</level> - <level>{message}</level>"
+        logger.remove()
+        logger.add(sys.stderr, format=log_format)
+    else:
+        log_format = "<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>{level: <8}</level> | <cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - <level>{message}</level>"
+        logger.remove()
+        logger.add(sys.stderr, format=log_format)
         logger.add("loguru.log")
 
 def load_json(path: Path) -> dict:
@@ -114,7 +115,7 @@ def generate_ignore_id(version: str) -> set:
 
     return ids
 
-def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first_copy: bool):
+def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first_copy: bool, ci: bool):
     """
     Copy mod langauge file from source to destination (workdir of pack)
     When first_copy bool is false, it will start to verify ignore_ids to check need to mixup or not.
@@ -125,6 +126,7 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
             dir_path (str): The dir of path
             ignore_ids (str): Ignore Ids set
             first_copy (bool): Fist time copy, if not, well have another logical
+            ci (bool): If is ci, then it will append group context
     """
 
     def verify_legacy(path: Path) -> str:
@@ -164,6 +166,8 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
         return merged_data
 
     if first_copy:
+        if ci:
+            print("::group::" + MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info(MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info("")
 
@@ -187,7 +191,12 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
             logger.debug(f"{MSG_DEBUG_DEST}{dest_path.joinpath(file_suffix)}")
             dest_path.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(src_path, dest_path.joinpath(file_suffix))
+
+        if ci:
+            print("::endgroup::")
     else:
+        if ci:
+            print("::group::" + MSG_PLATFORM_FIRST.format(platform=platform, version=version))
         logger.info("")
         logger.info(MSG_PLATFORM_SECOND.format(platform=platform, version=version))
         logger.info("")
@@ -224,7 +233,10 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
             else:
                 logger.info(f"{MSG_IGNORE_COPY}{mod_id}")
 
-def copy_guide(platform: str, version: str, dir_path: str):
+        if ci:
+            print("::endgroup::")
+
+def copy_guide(platform: str, version: str, dir_path: str, ci: bool):
     """
     Copy mod guide if exist, this will check config file to see what the path of.
 
@@ -232,7 +244,10 @@ def copy_guide(platform: str, version: str, dir_path: str):
             platform (str): Platform name
             version (str): Version name
             dir_path (str): The dir of path
+            ci (bool): If is ci, then it will append group context
     """
+    if ci:
+        print("::group::" + MSG_PLATFORM_GUIDE.format(platform=platform, version=version))
     logger.info("")
     logger.info(MSG_PLATFORM_GUIDE.format(platform=platform, version=version))
     logger.info("")
@@ -271,6 +286,8 @@ def copy_guide(platform: str, version: str, dir_path: str):
                         logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
                 else:
                     logger.error(f"⚠️ 未收入 {j.name} 的手冊資料夾行為！")
+    if ci:
+        print("::endgroup::")
 
 def extract_versions(path: Path, version: str) -> dict:
     """
@@ -298,7 +315,8 @@ def main():
     """
     First run of function
     """
-    ci_formatter(os.environ.get("CI"))
+    ci = os.environ.get("CI")
+    ci_formatter(ci)
 
     # Init Vars
     mc_version_matrix = os.environ.get("matrix_version")
@@ -315,9 +333,9 @@ def main():
     # Copy guide and lang files
     for i in version_list:
         first_run = True if i["version"] == mc_version_matrix else False
-        copy_lang("Forge", i["version"], i["dir_path"], ignore_list, first_run)
-        copy_lang("Fabric", i["version"], i["dir_path"], ignore_list, False)
-        copy_guide("Forge", i["version"], i["dir_path"])
+        copy_lang("Forge", i["version"], i["dir_path"], ignore_list, first_run, ci)
+        copy_lang("Fabric", i["version"], i["dir_path"], ignore_list, False, ci)
+        copy_guide("Forge", i["version"], i["dir_path"], ci)
 
 if __name__ == "__main__":
     main()
