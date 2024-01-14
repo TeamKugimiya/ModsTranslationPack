@@ -272,7 +272,7 @@ def copy_guide(platform: str, version: str, dir_path: str, ci: bool):
                     else:
                         logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
                 # Special guide path
-                elif j.name == "ae2guide" or j.name == "book":
+                elif j.name == "ae2guide" or j.name == "book" or j.name == "blue_skies":
                     mod_id = j.parent.name
                     src_path = j
                     dest_path = Path(f"{RESOURCEPACK_PATH}/{mod_id}/{j.name}")
