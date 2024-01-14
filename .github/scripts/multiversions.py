@@ -5,7 +5,6 @@ import os
 import sys
 import shutil
 from pathlib import Path
-from jsonmerge import merge
 from loguru import logger
 
 # Constant
@@ -157,12 +156,15 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
             Returs:
                 str: the data of json
         """
-        ### TODO this function have oreder problem
-        src_data = open(src, "r", encoding="utf8").read()
-        dest_data = open(dest, "r", encoding="utf8").read()
-        merged_data = merge(dest_data, src_data)
+        with open(src, "r", encoding="utf8") as file1:
+            data1 = json.load(file1)
 
-        return merged_data
+        with open(dest, "r", encoding="utf8") as file2:
+            data2 = json.load(file2)
+
+        combined_data = {**data1, **data2}
+
+        return combined_data
 
     if first_copy:
         logger.info(MSG_PLATFORM_FIRST.format(platform=platform, version=version))
@@ -214,7 +216,7 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
                     logger.debug(f"{MSG_DEBUG_DEST}{dest_path.joinpath(file_suffix)}")
                     mix_data = mix_lang(src_path, dest_path.joinpath(file_suffix))
                     with open(dest_path.joinpath(file_suffix), "w", encoding="utf8") as f:
-                        f.write(mix_data)
+                        f.write(str(mix_data))
                 else:
                     logger.info(f"{MSG_COPY}{mod_id}")
                     logger.debug(f"{MSG_DEBUG_SRC}{src_path}")
@@ -303,7 +305,7 @@ def main():
 
     # Init Vars
     mc_version_matrix = os.environ.get("matrix_version")
-    # mc_version_matrix = "1.18.x"
+    mc_version_matrix = "1.20.x"
     version_list = extract_versions(VERSIONS_CONFIG, mc_version_matrix)
 
     # Generate ignore list

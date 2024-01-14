@@ -11,7 +11,6 @@ mediafire-dl = {git = "https://github.com/Juvenal-Yescas/mediafire-dl"}
 aiohttp = "3.9.1"
 six = "1.16.0"
 pillow = "^10.0.1"
-jsonmerge = "1.9.2"
 loguru = "^0.7.2"
 
 [build-system]
