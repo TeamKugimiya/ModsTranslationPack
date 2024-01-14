@@ -112,8 +112,9 @@ jobs:
       - name: Copy misc things
         run: |
           cp MultiVersions/configs/pack.mcmeta pack/
-          ls -alh MultiVersions
-        # cp MultiVersions/Override/LICENSE_* pack/
+          if [[ -d "MultiVersions/Override/" ]]; then
+            cp MultiVersions/Override/LICENSE_* pack/
+          fi
 
       - name: Apply Pack Icon
         uses: actions/download-artifact@v4
