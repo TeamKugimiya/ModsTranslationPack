@@ -95,12 +95,12 @@ jobs:
         env:
           matrix_version: ${{ inputs.matrix_version }}
           LOGURU_LEVEL: "INFO"
-      
+
       - name: Copy misc things
         run: |
           cp MultiVersions/configs/pack.mcmeta pack/
-          cp MultiVersions/Override/LICENSE_* pack/
           ls -alh MultiVersions
+        # cp MultiVersions/Override/LICENSE_* pack/
 
       # Temp
       - name: Apply Pack Icon
