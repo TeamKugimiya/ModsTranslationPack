@@ -67,13 +67,13 @@ jobs:
       - name: Install project dependencies
         run: poetry install
 
-      # - name: Pack mcmeta generate
-      #   run: |
-      #     python3 .github/scripts/mcmeta_generate.py
-      #   env:
-      #     release: ${{ inputs.release }}
-      #     release_version: ${{ inputs.release_version }}
-      #     matrix_version: ${{ inputs.matrix_version }}
+      - name: Pack mcmeta generate
+        run: |
+          python3 .github/scripts/mcmeta_generate.py
+        env:
+          release: ${{ inputs.release }}
+          release_version: ${{ inputs.release_version }}
+          matrix_version: ${{ inputs.matrix_version }}
 
       - name: Download override cache archive
         # if: github.event_name != 'pull_request'
@@ -95,32 +95,6 @@ jobs:
           source: "s3://${{ secrets.AWS_S3_BUCKET }}/cache/checksum.txt"
           dest: "./"
 
-        # run: |
-        #   docker run \
-        #     --rm \
-        #     -v "/home/runner/work/ModsTranslationPack/ModsTranslationPack":"/github/workspace" \
-        #     -e INPUT_SYNC_REVERSE="true" \
-        #     -e INPUT_AWS_S3_BUCKET="${{ secrets.AWS_S3_BUCKET }}" \
-        #     -e INPUT_AWS_ACCESS_KEY_ID="${{ secrets.AWS_ACCESS_KEY_ID }}" \
-        #     -e INPUT_AWS_SECRET_ACCESS_KEY="${{ secrets.AWS_SECRET_ACCESS_KEY }}" \
-        #     -e INPUT_AWS_S3_ENDPOINT="${{ secrets.AWS_S3_ENDPOINT }}" \
-        #     -e INPUT_DEST_DIR="cache/" \
-        #     -e INPUT_SOURCE_DIR="/github/workspace" \
-        #     -e INPUT_AWS_COMMAND="sync" \
-        #     ghcr.io/docker-collection/aws-cli-action:latest
-        
-        # uses: Docker-Collection/docker-aws-s3-action@main
-        # with:
-        #   aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
-        #   aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        #   aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        #   aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
-        #   dest_dir: "cache/"
-        #   sync_reverse: true
-        #   aws_command: "sync"
-        # env:
-        #   PYTHONPATH: "/usr/bin/python3"
-
       - name: Extract caches
         # if: github.event_name != 'pull_request'
         run: |
@@ -128,65 +102,65 @@ jobs:
           unzip Override-Cache.zip
           rm Override-Cache.zip checksum.txt
 
-      # - name: MultiVersions mixer
-      #   run: |
-      #     poetry run python .github/scripts/multiversions.py
-      #   env:
-      #     matrix_version: ${{ inputs.matrix_version }}
-      #     LOGURU_LEVEL: "INFO"
+      - name: MultiVersions mixer
+        run: |
+          poetry run python .github/scripts/multiversions.py
+        env:
+          matrix_version: ${{ inputs.matrix_version }}
+          LOGURU_LEVEL: "INFO"
 
-      # - name: Copy misc things
-      #   run: |
-      #     cp MultiVersions/configs/pack.mcmeta pack/
-      #     ls -alh MultiVersions
-      #   # cp MultiVersions/Override/LICENSE_* pack/
+      - name: Copy misc things
+        run: |
+          cp MultiVersions/configs/pack.mcmeta pack/
+          ls -alh MultiVersions
+        # cp MultiVersions/Override/LICENSE_* pack/
 
-      # - name: Apply Pack Icon
-      #   uses: actions/download-artifact@v4
-      #   with:
-      #     name: PackIcon-${{ inputs.matrix_version }}
-      #     path: pack/
+      - name: Apply Pack Icon
+        uses: actions/download-artifact@v4
+        with:
+          name: PackIcon-${{ inputs.matrix_version }}
+          path: pack/
 
-      # - name: Make ModsTranslationPack
-      #   uses: ComunidadAylas/PackSquash-action@v4
-      #   with:
-      #     packsquash_version: latest-unstable
-      #     options: |
-      #       pack_directory = 'pack'
-      #       never_store_squash_times = true
-      #       ['assets/immersiveengineering/manual/zh_tw/*.txt']
-      #       force_include = true
-      #       ['{LICENSE,LICENSE_*}']
-      #       force_include = true
-      #       ['**/*?.lang']
-      #       force_include = true
-      #       ['**/*?.md']
-      #       force_include = true
-      #       ['assets/expatternprovider/ae2guide/pic/*?.png']
-      #       force_include = true
-      #     artifact_name: OptimizedPack-${{ inputs.matrix_version }}
+      - name: Make ModsTranslationPack
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          packsquash_version: latest-unstable
+          options: |
+            pack_directory = 'pack'
+            never_store_squash_times = true
+            ['assets/immersiveengineering/manual/zh_tw/*.txt']
+            force_include = true
+            ['{LICENSE,LICENSE_*}']
+            force_include = true
+            ['**/*?.lang']
+            force_include = true
+            ['**/*?.md']
+            force_include = true
+            ['assets/expatternprovider/ae2guide/pic/*?.png']
+            force_include = true
+          artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
-      # - name: Download Artifact
-      #   uses: actions/download-artifact@v4
-      #   with:
-      #     name: OptimizedPack-${{ inputs.matrix_version }}
-      #     path: ./
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: OptimizedPack-${{ inputs.matrix_version }}
+          path: ./
 
-      # - name: Rename ModsTranslationPack
-      #   run: |
-      #     mv ./pack.zip ModsTranslationPack-${{ inputs.matrix_version }}.zip
+      - name: Rename ModsTranslationPack
+        run: |
+          mv ./pack.zip ModsTranslationPack-${{ inputs.matrix_version }}.zip
 
-      # - name: Make Checksum
-      #   run: |
-      #     sha256sum ModsTranslationPack-${{ inputs.matrix_version }}.zip > checksum.txt
+      - name: Make Checksum
+        run: |
+          sha256sum ModsTranslationPack-${{ inputs.matrix_version }}.zip > checksum.txt
 
-      # - name: Upload ModsTranslationPack
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: ModsTranslationPack-${{ inputs.matrix_version }}
-      #     path: |
-      #       *.zip
-      #       checksum.txt
+      - name: Upload ModsTranslationPack
+        uses: actions/upload-artifact@v4
+        with:
+          name: ModsTranslationPack-${{ inputs.matrix_version }}
+          path: |
+            *.zip
+            checksum.txt
 
   delete-artifact:
     name: Delete Artifact
