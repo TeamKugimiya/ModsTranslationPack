@@ -76,9 +76,7 @@ jobs:
           matrix_version: ${{ inputs.matrix_version }}
 
       - name: Dump vars context
-        env:
-          VARS_JSON: ${{ toJson(vars)}}
-        run: echo "${VARS_JSON}"
+        run: printenv
 
       - name: Download override cache from s3
         # if: github.event_name != 'pull_request'
