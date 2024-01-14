@@ -164,7 +164,7 @@ def copy_lang(platform: str, version: str, dir_path: str, ignore_ids: set, first
 
         combined_data = {**data1, **data2}
 
-        return combined_data
+        return json.dumps(combined_data, indent=2, ensure_ascii=False)
 
     if first_copy:
         logger.info(MSG_PLATFORM_FIRST.format(platform=platform, version=version))
