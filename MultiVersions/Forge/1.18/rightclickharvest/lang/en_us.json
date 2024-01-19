@@ -1,0 +1,9 @@
+{
+  "rightclickharvest.jamlibconfig.title": "Right Click Harvest Config",
+  "rightclickharvest.jamlibconfig.requireHoe": "Require Hoe",
+  "rightclickharvest.jamlibconfig.requireHoe.tooltip": "Only allow harvesting certain crops (e.g. wheat, carrots) if the player is holding a hoe in their hand.",
+  "rightclickharvest.jamlibconfig.harvestInRadius": "Harvest in Radius",
+  "rightclickharvest.jamlibconfig.harvestInRadius.tooltip": "Make hoes of different tiers harvest multiple blocks in a radius. Requires `requireHoe` to be set to true.",
+  "rightclickharvest.jamlibconfig.useHunger": "Use Hunger",
+  "rightclickharvest.jamlibconfig.useHunger.tooltip": "Use hunger when harvesting crops."
+}
