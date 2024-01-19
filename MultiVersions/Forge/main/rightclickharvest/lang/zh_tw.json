@@ -1,9 +1,16 @@
 {
-  "rightclickharvest.jamlibconfig.title": "Right Click Harvest 設定",
-  "rightclickharvest.jamlibconfig.requireHoe": "需要鋤頭",
-  "rightclickharvest.jamlibconfig.requireHoe.tooltip": "當玩家拿著鋤頭時，僅允許收割特定農作物（例如：小麥、胡蘿蔔）。",
-  "rightclickharvest.jamlibconfig.harvestInRadius": "範圍收割作物",
-  "rightclickharvest.jamlibconfig.harvestInRadius.tooltip": "使鋤頭在不同等級下有不同倍數的範圍。需要將「需要鋤頭」的設定打開。",
-  "rightclickharvest.jamlibconfig.useHunger": "使用飢餓值",
-  "rightclickharvest.jamlibconfig.useHunger.tooltip": "當收割作物時消耗飢餓值。"
+  "config.rightclickharvest.title": "Right Click Harvest 設定",
+  "config.rightclickharvest.requireHoe": "需要鋤頭",
+  "config.rightclickharvest.requireHoe.tooltip": "當玩家拿著鋤頭時，僅允許收割特定農作物（例如：小麥、胡蘿蔔）。",
+  "config.rightclickharvest.harvestInRadius": "範圍收割作物",
+  "config.rightclickharvest.harvestInRadius.tooltip": "使鋤頭在不同等級下有不同倍數的範圍。需要將「需要鋤頭」的設定打開。",
+  "config.rightclickharvest.hungerLevel": "飢餓值等級",
+  "config.rightclickharvest.hungerLevel.tooltip": "當收割作物時消耗飢餓值。",
+  "config.rightclickharvest.hungerLevel.none": "無",
+  "config.rightclickharvest.hungerLevel.low": "低",
+  "config.rightclickharvest.hungerLevel.normal": "普通",
+  "config.rightclickharvest.hungerLevel.high": "高",
+  "config.rightclickharvest.discord": "在 Discord 上聊天",
+  "config.rightclickharvest.github": "在 GitHub 上回報錯誤和請求新功能",
+  "config.rightclickharvest.modrinth": "在 Modrinth 上檢查更新"
 }
