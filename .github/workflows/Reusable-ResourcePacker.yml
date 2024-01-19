@@ -112,6 +112,7 @@ jobs:
       - name: Copy misc things
         run: |
           cp MultiVersions/configs/pack.mcmeta pack/
+          cp LICENSE pack/
           if [[ -d "MultiVersions/Override/" ]]; then
             cp MultiVersions/Override/LICENSE_* pack/
           fi
