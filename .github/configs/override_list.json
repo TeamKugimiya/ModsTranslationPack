@@ -220,6 +220,54 @@
             "extractType": "ExtractAll",
             "licenseURL": "https://raw.githubusercontent.com/CFPAOrg/Minecraft-Mod-Language-Package/main/LICENSE",
             "url": "https://github.com/TeamKugimiya/MMLP-CN-to-ZW/releases/download/latest/MMLP-CN-to-ZW.zip"
+        },
+        {
+            "modName": "BlossomLib",
+            "modLoader": "Fabric",
+            "modVersion": "main",
+            "modID": "blossom-lib",
+            "licenseURL": "https://raw.githubusercontent.com/BlossomMods/BlossomLib/main/LICENSE",
+            "url": "https://raw.githubusercontent.com/BlossomMods/BlossomLib/main/src/main/resources/data/blossom/lang/zh_tw.json"
+        },
+        {
+            "modName": "BlossomHomes",
+            "modLoader": "Fabric",
+            "modVersion": "main",
+            "modID": "blossom-homes",
+            "licenseURL": "https://raw.githubusercontent.com/BlossomMods/BlossomHomes/main/LICENSE",
+            "url": "https://raw.githubusercontent.com/BlossomMods/BlossomHomes/main/src/main/resources/data/blossom/lang/zh_tw.json"
+        },
+        {
+            "modName": "BlossomTpa",
+            "modLoader": "Fabric",
+            "modVersion": "main",
+            "modID": "blossom-tpa",
+            "licenseURL": "https://raw.githubusercontent.com/BlossomMods/BlossomTpa/main/LICENSE",
+            "url": "https://raw.githubusercontent.com/BlossomMods/BlossomTpa/main/src/main/resources/data/blossom/lang/zh_tw.json"
+        },
+        {
+            "modName": "BlossomBack",
+            "modLoader": "Fabric",
+            "modVersion": "main",
+            "modID": "blossom-back",
+            "licenseURL": "https://raw.githubusercontent.com/BlossomMods/BlossomBack/main/LICENSE",
+            "url": "https://raw.githubusercontent.com/BlossomMods/BlossomBack/main/src/main/resources/data/blossom/lang/zh_tw.json"
+        },
+        {
+            "modName": "BlossomWarps",
+            "modLoader": "Fabric",
+            "modVersion": "main",
+            "modID": "blossom-warps",
+            "licenseURL": "https://raw.githubusercontent.com/BlossomMods/BlossomWarps/main/LICENSE",
+            "url": "https://raw.githubusercontent.com/BlossomMods/BlossomWarps/main/src/main/resources/data/blossom/lang/zh_tw.json"
+        },
+        {
+            "modName": "BlossomPVP",
+            "modLoader": "Fabric",
+            "modVersion": "main",
+            "modID": "blossom-pvp",
+            "licenseURL": "https://raw.githubusercontent.com/BlossomMods/BlossomPVP/main/LICENSE",
+            "url": "https://raw.githubusercontent.com/BlossomMods/BlossomPVP/main/src/main/resources/data/blossom/lang/zh_tw.json"
         }
     ]
 }
