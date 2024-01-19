@@ -1,0 +1,68 @@
+{
+  "servercountryflags.locationInfo.unknown": "（未知）",
+  "servercountryflags.locationInfo.cooldown": "（API 正在冷卻中）",
+  "servercountryflags.locationInfo.distance": "≈ %d %s遠",
+  "servercountryflags.locationInfo.km": "公里",
+  "servercountryflags.locationInfo.mi": "英里",
+  "servercountryflags.locationInfo.isp": "ISP：%s",
+  "servercountryflags.servermap.title": "伺服器地圖",
+  "servercountryflags.servermap.home": "家",
+
+  "servercountryflags.config.category.border": "邊框",
+  "servercountryflags.config.category.preferences": "偏好",
+  "servercountryflags.config.category.locale": "語言",
+
+  "servercountryflags.config.header": "伺服器國家旗幟設定",
+
+  "servercountryflags.config.field.flagPosition.name": "旗幟位置",
+  "servercountryflags.config.field.flagPosition.description": "更改旗幟顯示的位置。可用選項：預設、左、右、伺服器名稱前方",
+  "servercountryflags.config.field.flagPosition.value.behindName": "伺服器名稱前方",
+  "servercountryflags.config.field.flagPosition.value.left": "左",
+  "servercountryflags.config.field.flagPosition.value.right": "右",
+  "servercountryflags.config.field.flagPosition.value.default": "預設",
+
+  "servercountryflags.config.field.flagBorder.name": "旗幟邊框",
+  "servercountryflags.config.field.flagBorder.description": "在旗幟周圍顯示邊框",
+
+  "servercountryflags.config.field.borderColor.name": "邊框顏色",
+  "servercountryflags.config.field.borderColor.description": "在旗幟周圍的邊框顏色",
+
+  "servercountryflags.config.field.reloadOnRefresh.name": "重新整理時重新載入",
+  "servercountryflags.config.field.reloadOnRefresh.description": "強制旗幟在伺服器列表重新整理時重新載入",
+
+  "servercountryflags.config.field.showDistance.name": "顯示距離",
+  "servercountryflags.config.field.showDistance.description": "滑鼠懸停在旗幟上，顯示大概與伺服器相隔的距離",
+
+  "servercountryflags.config.field.useKm.name": "使用公里制",
+  "servercountryflags.config.field.useKm.description": "使用公里替代英里",
+
+  "servercountryflags.config.field.forceEnglish.name": "強制英文",
+  "servercountryflags.config.field.forceEnglish.description": "強制 API 結果以英文顯示而非你的遊戲語言",
+
+  "servercountryflags.config.field.displayUnknownFlag.name": "顯示未知旗幟",
+  "servercountryflags.config.field.displayUnknownFlag.description": "顯示未知旗幟當我們沒有關於該伺服器資料的時候",
+
+  "servercountryflags.config.field.displayCooldownFlag.name": "顯示冷卻旗幟",
+  "servercountryflags.config.field.displayCooldownFlag.description": "顯示逾時旗幟當我們進入 API 冷卻時",
+
+  "servercountryflags.config.field.showDistrict.name": "顯示區域",
+  "servercountryflags.config.field.showDistrict.description": "若有的話，將顯示該地區的區域",
+
+  "servercountryflags.config.field.showISP.name": "顯示 ISP",
+  "servercountryflags.config.field.showISP.description": "若有的話，顯示該主機的 IPS 提供商",
+
+  "servercountryflags.config.field.mapButton.name": "地圖按鈕",
+  "servercountryflags.config.field.mapButton.description": "在伺服器列表中顯示可打開世界地圖的按鈕",
+
+  "servercountryflags.config.field.mapButtonRight.name": "地圖按鈕在右側",
+  "servercountryflags.config.field.mapButtonRight.description": "決定地圖按鈕該在右側還是左側",
+
+  "servercountryflags.config.field.showHomeOnMap.name": "顯示自家在地圖上",
+  "servercountryflags.config.field.showHomeOnMap.description": "顯示你家的位置在伺服器地圖中",
+
+  "servercountryflags.config.field.resolveRedirects.name": "解析 SRV 重新導向",
+  "servercountryflags.config.field.resolveRedirects.description": "使用重新導向的 IP，而不僅僅解析 IP（若有的話）",
+
+  "servercountryflags.config.field.serverBrowserIntegration.name": "伺服器瀏覽整合",
+  "servercountryflags.config.field.serverBrowserIntegration.description": "若該模組已安裝，在伺服器瀏覽中顯示旗幟"
+}

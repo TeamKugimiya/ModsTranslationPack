@@ -1,0 +1,68 @@
+{
+  "servercountryflags.locationInfo.unknown": "(unknown)",
+  "servercountryflags.locationInfo.cooldown": "(API on cooldown)",
+  "servercountryflags.locationInfo.distance": "≈ %d %s away",
+  "servercountryflags.locationInfo.km": "km",
+  "servercountryflags.locationInfo.mi": "mi",
+  "servercountryflags.locationInfo.isp": "ISP: %s",
+  "servercountryflags.servermap.title": "Server Map",
+  "servercountryflags.servermap.home": "Home",
+
+  "servercountryflags.config.category.border": "Border",
+  "servercountryflags.config.category.preferences": "Preferences",
+  "servercountryflags.config.category.locale": "Locale",
+
+  "servercountryflags.config.header": "Server Country Flags Config",
+
+  "servercountryflags.config.field.flagPosition.name": "Flag Position",
+  "servercountryflags.config.field.flagPosition.description": "Changes the flags' positions. Available options: default, left, right, behindName",
+  "servercountryflags.config.field.flagPosition.value.behindName": "Behind Name",
+  "servercountryflags.config.field.flagPosition.value.left": "Left",
+  "servercountryflags.config.field.flagPosition.value.right": "Right",
+  "servercountryflags.config.field.flagPosition.value.default": "Default",
+
+  "servercountryflags.config.field.flagBorder.name": "Flag Border",
+  "servercountryflags.config.field.flagBorder.description": "Displays a border around flags",
+
+  "servercountryflags.config.field.borderColor.name": "Border Color",
+  "servercountryflags.config.field.borderColor.description": "Border color around flags",
+
+  "servercountryflags.config.field.reloadOnRefresh.name": "Reload on Refresh",
+  "servercountryflags.config.field.reloadOnRefresh.description": "Forces flags to be reloaded when the server list is refreshed",
+
+  "servercountryflags.config.field.showDistance.name": "Show Distance",
+  "servercountryflags.config.field.showDistance.description": "Shows the approximate distance between the server and you when you hover over a flag",
+
+  "servercountryflags.config.field.useKm.name": "Use Kilometers",
+  "servercountryflags.config.field.useKm.description": "Uses kilometers instead of miles",
+
+  "servercountryflags.config.field.forceEnglish.name": "Force English",
+  "servercountryflags.config.field.forceEnglish.description": "Forces the API results to be in English instead of your in-game language",
+
+  "servercountryflags.config.field.displayUnknownFlag.name": "Display Unknown Flag",
+  "servercountryflags.config.field.displayUnknownFlag.description": "Displays the unknown flag when we don't have data about the server yet",
+
+  "servercountryflags.config.field.displayCooldownFlag.name": "Display Cooldown Flag",
+  "servercountryflags.config.field.displayCooldownFlag.description": "Displays a timeout flag when we have an API cooldown",
+
+  "servercountryflags.config.field.showDistrict.name": "Show District",
+  "servercountryflags.config.field.showDistrict.description": "Shows the district of the location too, if available",
+
+  "servercountryflags.config.field.showISP.name": "Show ISP",
+  "servercountryflags.config.field.showISP.description": "Shows the ISP of the host, if available",
+
+  "servercountryflags.config.field.mapButton.name": "Map Button",
+  "servercountryflags.config.field.mapButton.description": "Shows a map button in the server list which opens the server map",
+
+  "servercountryflags.config.field.mapButtonRight.name": "Map Button on the Right Side",
+  "servercountryflags.config.field.mapButtonRight.description": "Decides whether the map button should be on the right side or the left side",
+
+  "servercountryflags.config.field.showHomeOnMap.name": "Show Home on Map",
+  "servercountryflags.config.field.showHomeOnMap.description": "Shows your location on the server map too",
+
+  "servercountryflags.config.field.resolveRedirects.name": "Resolve SRV Redirects",
+  "servercountryflags.config.field.resolveRedirects.description": "Uses the redirected IP (if present) instead of just the resolved IP",
+
+  "servercountryflags.config.field.serverBrowserIntegration.name": "Server Browser Integration",
+  "servercountryflags.config.field.serverBrowserIntegration.description": "Displays flags in the Server Browser, if that mod is installed"
+}
