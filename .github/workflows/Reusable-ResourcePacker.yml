@@ -45,6 +45,28 @@ jobs:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2
+
+      - name: Setup a local virtual environment
+        run: |
+          poetry config virtualenvs.create true --local
+          poetry config virtualenvs.in-project true --local
+
+      - name: Cache Python
+        uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+
+      - name: Install project dependencies
+        run: poetry install
+
       - name: Pack mcmeta generate
         run: |
           python3 .github/scripts/mcmeta_generate.py
@@ -53,17 +75,25 @@ jobs:
           release_version: ${{ inputs.release_version }}
           matrix_version: ${{ inputs.matrix_version }}
 
-      - name: Download override cache from s3
+      - name: Download override cache archive
         if: github.event_name != 'pull_request'
-        uses: Docker-Collection/docker-aws-s3-action@main
+        uses: prewk/s3-cp-action@v2
         with:
-          aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
-          dest_dir: "cache/"
-          sync_reverse: true
-          aws_command: "sync"
+          source: "s3://${{ secrets.AWS_S3_BUCKET }}/cache/Override-Cache.zip"
+          dest: "./"
+
+      - name: Download override cache checksum
+        if: github.event_name != 'pull_request'
+        uses: prewk/s3-cp-action@v2
+        with:
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_s3_endpoint: ${{ secrets.AWS_S3_ENDPOINT }}
+          source: "s3://${{ secrets.AWS_S3_BUCKET }}/cache/checksum.txt"
+          dest: "./"
 
       - name: Extract caches
         if: github.event_name != 'pull_request'
@@ -72,11 +102,21 @@ jobs:
           unzip Override-Cache.zip
           rm Override-Cache.zip checksum.txt
 
-      - name: MultiVersions!
+      - name: MultiVersions mixer
         run: |
-          .github/scripts/multiversions.sh ${{ inputs.matrix_version }}
+          poetry run python .github/scripts/multiversions.py
+        env:
+          matrix_version: ${{ inputs.matrix_version }}
+          LOGURU_LEVEL: "INFO"
 
-      # Temp
+      - name: Copy misc things
+        run: |
+          cp MultiVersions/configs/pack.mcmeta pack/
+          cp LICENSE pack/
+          if [[ -d "MultiVersions/Override/" ]]; then
+            cp MultiVersions/Override/LICENSE_* pack/
+          fi
+
       - name: Apply Pack Icon
         uses: actions/download-artifact@v4
         with:

@@ -1,0 +1,10 @@
+{
+    "versions": [
+        {
+            "version": "1.18.x",
+            "keeplist": [
+                "ae2"
+            ]
+        }
+    ]
+}
