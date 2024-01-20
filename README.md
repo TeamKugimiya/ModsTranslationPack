@@ -105,6 +105,13 @@
 * [Crowdin 社群](https://crowdin.com)
   * [Sodium](https://crowdin.com/project/sodium-fabric)
   * [Sodium Extra](https://crowdin.com/project/sodium-extra)
+* [BlossomMods - Pau1am](https://github.com/BlossomMods)
+  * [BlossomLib](https://github.com/BlossomMods/BlossomLib)
+  * [BlossomHomes](https://github.com/BlossomMods/BlossomHomes)
+  * [BlossomTpa](https://github.com/BlossomMods/BlossomTpa)
+  * [BlossomBack](https://github.com/BlossomMods/BlossomBack)
+  * [BlossomWarps](https://github.com/BlossomMods/BlossomWarps)
+  * [BlossomPVP](https://github.com/BlossomMods/BlossomPVP)
 
 ## 💫 翻譯貢獻者
 

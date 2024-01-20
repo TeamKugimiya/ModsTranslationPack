@@ -264,9 +264,9 @@ def git_clone(modname, guidepath, guidesave, branch, modloader, version, url):
 # Process Download Action
 
 ## Direct Download JSON File
-def directDownload_Lang(modName: str, modLoader: str, version: str, url: str):
+def directDownload_Lang(modName: str, modID: str, modLoader: str, version: str, url: str):
     url_parts = url.split("/")
-    modId = url_parts[-3]
+    modId = modID if modID is not None else url_parts[-3]
     path = Path("MultiVersions", modLoader, version, modId, "lang", "zh_tw.json")
 
     print_mod_info(modName, modId)
@@ -289,6 +289,7 @@ def process_mods_list(mods_dict: dict):
         modname = mods_dict["modName"]
         modloader = mods_dict["modLoader"]
         modversion = mods_dict["modVersion"]
+        modid = mods_dict.get("modID")
         modforceoverrideid = mods_dict.get("forceOverrideID")
         extractype = mods_dict.get("extractType", "Mods")
         guidepaths = mods_dict.get("guidePaths")
@@ -299,7 +300,7 @@ def process_mods_list(mods_dict: dict):
         url = mods_dict["url"]
 
         if url.endswith(".json"):
-            directDownload_Lang(modname, modloader, modversion, url)
+            directDownload_Lang(modname, modid, modloader, modversion, url)
         elif url.endswith(".jar") and extractype == "Mods":
             jar_extract(modname, modloader, modversion, modforceoverrideid, url)
         elif url.endswith(".jar") and extractype == "Mods-With-Guide":
