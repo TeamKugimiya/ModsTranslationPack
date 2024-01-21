@@ -1,0 +1,11 @@
+{
+  "warning.32bit": "你正在 64 位元的系統上使用 32 位元的 Java，請安裝 64 位元的 Java。",
+
+  "warning.toomuch": "分配的記憶體超過模組包建議的數值（%s mb），最大記憶體分配為：%s mb。依據你的系統所推薦分配的記憶體量：%s mb。\n",
+  "warning.toolow": "分配的記憶體小於模組包建議的數值（%s mb），最小記憶體分配為：%s mb。依據你的系統所推薦分配的記憶體量：%s mb。\n",
+  "warning.overrecommended": "已分配的記憶體（%s mb）大於系統推薦值，推薦分配：%s mb。\n",
+  "warning.underrecommended": "已分配的記憶體（%s mb）小於系統推薦值，推薦分配：%s mb。\n",
+  "warning.recommendedbelowmin": "你的系統 %s 已低於此模組包所需的最小記憶體 %s mb。你可能會遇到頻繁卡頓等問題。\n",
+  "button.howto": "打開指南",
+  "button.stopremind": "停止顯示"
+}
