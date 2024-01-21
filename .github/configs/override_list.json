@@ -235,7 +235,7 @@
             "modVersion": "main",
             "modID": "blossom-homes",
             "licenseURL": "https://raw.githubusercontent.com/BlossomMods/BlossomHomes/main/LICENSE",
-            "url": "https://raw.githubusercontent.com/BlossomMods/BlossomHomes/main/src/main/resources/data/blossom/lang/zh_tw.json"
+            "url": "https://raw.githubusercontent.com/xMikux/BlossomHomes/main/src/main/resources/data/blossom/lang/zh_tw.json"
         },
         {
             "modName": "BlossomTpa",
