@@ -1,0 +1,5 @@
+{
+  "block.netherchested.nether_chest": "地獄儲物箱",
+  "block.netherchested.nether_chest.description": "可以在單格欄位中儲存比其他物品欄還多的物品。",
+  "container.nether_chest": "地獄儲物箱"
+}
