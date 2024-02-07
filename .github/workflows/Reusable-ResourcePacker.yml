@@ -109,6 +109,12 @@ jobs:
           matrix_version: ${{ inputs.matrix_version }}
           LOGURU_LEVEL: "INFO"
 
+      - name: Move Patch
+        run: |
+          poetry run python .github/scripts/pacther_mover.py
+        env:
+          LOGURU_LEVEL: "INFO"
+
       - name: Copy misc things
         run: |
           cp MultiVersions/configs/pack.mcmeta pack/
