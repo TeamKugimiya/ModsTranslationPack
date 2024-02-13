@@ -3,6 +3,7 @@
 import os
 import sys
 import shutil
+import json
 from loguru import logger
 from pathlib import Path
 
@@ -26,7 +27,27 @@ def ci_formatter(ci: bool):
         logger.add(sys.stderr, format=log_format)
         logger.add("loguru.log")
 
-def patch_mover(version_pat: str):
+def override_extracter(version: str):
+    data = {}
+    dir_path = None
+
+    with open("MultiVersions/Patcher/.config.json", "r", encoding="utf8") as f:
+        patcher_data = json.load(f)
+    
+    with open(".github/configs/versions.json", "r", encoding="utf8") as f:
+        versions_data = json.load(f)
+
+    for i in versions_data["versions"]:
+        if i["mc_version"] == version:
+            dir_path = i["dir_path"]
+
+    for i in patcher_data["forced_override"]:
+        if i["version"] == dir_path:
+            data = i["mods_id"]
+
+    return data, dir_path
+
+def patch_mover(version_path: str, override_dict: dict):
     """
     Simple patch mover
     """
@@ -34,18 +55,28 @@ def patch_mover(version_pat: str):
     logger.info(f"🚩 複製補丁（{version_path}）")
     logger.info("")
 
-    if patcher_path.exist():
+    if patcher_path.exists():
+        for i in Path(patcher_path).iterdir():
+            id = i.name
+            id_log = i.name
 
-    for i in Path(f"").iterdir():
-        id = i.name
-        if id.endswith("patch"):
-            logger.info(f"📂 複製 {id}")
+            if id.endswith("patch") is not True:
+                logger.error(f"⚠️ {id} 不符合資料夾命名規則")
+                sys.exit(1)
+
+            if id in override_dict:
+                id = i.name.rstrip("-patch")
+                id_log = (f"{id}（覆寫）")
+
+            logger.info(f"📂 複製 {id_log}")
             path = Path(f"{RESOURCEPACK_PATH}/{id}/lang")
             path.mkdir(parents=True)
             shutil.copy(i.joinpath("lang/zh_tw.json"), path)
-        else:
-            logger.error(f"⚠️ {id} 不符合資料夾命名規則")
-            sys.exit(1)
+        
+        logger.info("")
+
+    else:
+        logger.warning(f"⚠️ {version_path} 資料夾不存在！")
 
 def main():
     """
@@ -53,6 +84,11 @@ def main():
     """
     ci = os.environ.get("CI")
     ci_formatter(ci)
-    patch_mover()
+    ci_version = os.environ.get("matrix_version", "1.19.x")
+
+    patch_mover("global", {})
+
+    override_dict_version, dir_path = override_extracter(ci_version)
+    patch_mover(dir_path, override_dict_version)
 
 main()
