@@ -84,7 +84,7 @@ def main():
     """
     ci = os.environ.get("CI")
     ci_formatter(ci)
-    ci_version = os.environ.get("matrix_version", "1.19.x")
+    ci_version = os.environ.get("matrix_version")
 
     patch_mover("global", {})
 
