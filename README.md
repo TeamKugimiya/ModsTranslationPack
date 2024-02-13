@@ -193,6 +193,13 @@
       </a>
     </td>
     <td align="center">
+      <a href="https://github.com/shineOuO1209" title="shineOuO1209">
+        <img src="https://avatars.githubusercontent.com/u/127597656?v=4" width="100;" alt="shineOuO1209"/>
+        <br />
+        <sub><b>shineOuO1209</b></sub>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/SiongSng" title="菘菘">
         <img src="https://avatars.githubusercontent.com/u/48402225?v=4" width="100;" alt="菘菘"/>
         <br />
