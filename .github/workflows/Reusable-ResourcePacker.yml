@@ -114,6 +114,7 @@ jobs:
           poetry run python .github/scripts/pacther_mover.py
         env:
           LOGURU_LEVEL: "INFO"
+          matrix_version: ${{ inputs.matrix_version }}
 
       - name: Copy misc things
         run: |
