@@ -26,13 +26,17 @@ def ci_formatter(ci: bool):
         logger.add(sys.stderr, format=log_format)
         logger.add("loguru.log")
 
-def patch_mover():
+def patch_mover(version_pat: str):
     """
     Simple patch mover
     """
-    logger.info("🚩 複製補丁")
+    patcher_path = Path(f"MultiVersions/Patcher/{version_path}")
+    logger.info(f"🚩 複製補丁（{version_path}）")
     logger.info("")
-    for i in Path("MultiVersions/Patcher").iterdir():
+
+    if patcher_path.exist():
+
+    for i in Path(f"").iterdir():
         id = i.name
         if id.endswith("patch"):
             logger.info(f"📂 複製 {id}")
