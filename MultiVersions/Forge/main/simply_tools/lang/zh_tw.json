@@ -1,6 +1,6 @@
 {
     "enchantment.simplytools.power_of_the_depth": "深度挖掘",
-    "enchantment.simplytools.power_of_the_depth.desc": "增加槌子與挖掘鏟的挖掘深度",
+    "enchantment.simplytools.power_of_the_depth.desc": "增加鎚子與挖掘鏟的挖掘深度",
   
     "block.simplytools.clean_end_stone": "澄清終界石",
     "block.simplytools.clean_end_stone_button": "澄清終界石製按鈕",
@@ -11,7 +11,7 @@
   
     "item.simplytools.paper_bundle": "一疊的紙",
   
-    "item.simplytools.wooden_hammer": "木錘",
+    "item.simplytools.wooden_hammer": "木鎚",
     "item.simplytools.wooden_hammer_head": "木錘頭",
     "item.simplytools.stone_hammer": "石錘",
     "item.simplytools.stone_hammer_head": "石錘頭",
