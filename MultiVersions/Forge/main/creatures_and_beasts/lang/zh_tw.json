@@ -2,7 +2,7 @@
     "item.cnb.cindershell_shell_shard": "灰燼貝殼碎片",
     "item.cnb.apple_slice": "蘋果片",
     "item.cnb.lizard_egg": "蜥蜴蛋",
-    "item.cnb.entity_net": "生物捕捉網 ",
+    "item.cnb.entity_net": "生物捕捉網",
     "item.cnb.yeti_antler": "雪怪角",
     "item.cnb.yeti_hide": "雪怪皮",
   
@@ -48,17 +48,17 @@
     "item.cnb.lizard_item_jungle_2": "蜥蜴",
     "item.cnb.lizard_item_mushroom": "蜥蜴",
   
-    "item.cnb.sporeling_overworld_egg": "主世界蘑菇怪生怪蛋",
-    "item.cnb.sporeling_nether_egg": "地獄異化蘑菇怪生怪蛋",
-    "item.cnb.little_grebe_spawn_egg": "小鸊鷉生怪蛋",
-    "item.cnb.lizard_spawn_egg": "蜥蜴生怪蛋",
-    "item.cnb.cindershell_spawn_egg": "燼殼獸生怪蛋",
+    "item.cnb.sporeling_overworld_egg": "主世界蘑菇怪 生怪蛋",
+    "item.cnb.sporeling_nether_egg": "地獄異化蘑菇怪 生怪蛋",
+    "item.cnb.little_grebe_spawn_egg": "小鸊鷉 生怪蛋",
+    "item.cnb.lizard_spawn_egg": "蜥蜴 生怪蛋",
+    "item.cnb.cindershell_spawn_egg": "燼殼獸 生怪蛋",
     "item.cnb.cindershell_bucket": "燼殼獸桶",
-    "item.cnb.lilytad_spawn_egg": "小小蓮生怪蛋",
-    "item.cnb.yeti_spawn_egg": "Yeti生怪蛋",
-    "item.cnb.minipad_spawn_egg": "迷你蓮生怪蛋",
-    "item.cnb.end_whale_spawn_egg": "終界鯨生怪蛋",
-    "item.cnb.cactem_spawn_egg": "妖人掌生怪蛋",
+    "item.cnb.lilytad_spawn_egg": "小小蓮 生怪蛋",
+    "item.cnb.yeti_spawn_egg": "雪怪 生怪蛋",
+    "item.cnb.minipad_spawn_egg": "迷你蓮 生怪蛋",
+    "item.cnb.end_whale_spawn_egg": "終界鯨 生怪蛋",
+    "item.cnb.cactem_spawn_egg": "妖人掌 生怪蛋",
   
     "entity.cnb.little_grebe": "小鸊鷉",
     "entity.cnb.little_grebe_chick": "幼年小鸊鷉",
@@ -85,9 +85,9 @@
     "entity.sporeling_nether.ambient": "蘑菇怪咆嘯",
     "entity.sporeling_nether.hurt": "敵對的蘑菇怪受傷",
     "entity.sporeling_warped.ambient": "蘑菇怪吱吱叫",
-    "entity.sporeling_warped.hurt": "中立的蘑菇怪受傷",
+    "entity.sporeling_warped.hurt": "中立蘑菇怪受傷",
   
-    "entity.sporeling.bite": "Sporeling bites",
+    "entity.sporeling.bite": "蘑菇怪啃咬",
     "entity.lilytad.ambient": "小小蓮啁啾",
     "entity.lilytad.hurt": "小小蓮受傷",
     "entity.lilytad.death": "小小蓮死亡",
@@ -112,7 +112,7 @@
     "item.heal_spell_book.player_heal": "施放法術",
     "item.cactem_spear.throw": "擲出的矛",
   
-    "itemGroup.cnb_tab": "Creatures And Beasts",
+    "itemGroup.cnb_tab": "動物與野獸",
   
     "cnb.container.cinder_furnace": "灰燼熔爐",
   
