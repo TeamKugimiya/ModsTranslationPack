@@ -40,10 +40,10 @@
   "servercountryflags.config.field.forceEnglish.description": "強制 API 結果以英文顯示而非你的遊戲語言",
 
   "servercountryflags.config.field.displayUnknownFlag.name": "顯示未知旗幟",
-  "servercountryflags.config.field.displayUnknownFlag.description": "顯示未知旗幟當我們沒有關於該伺服器資料的時候",
+  "servercountryflags.config.field.displayUnknownFlag.description": "當我們沒有關於該伺服器的資料時，顯示未知旗幟",
 
   "servercountryflags.config.field.displayCooldownFlag.name": "顯示冷卻旗幟",
-  "servercountryflags.config.field.displayCooldownFlag.description": "顯示逾時旗幟當我們進入 API 冷卻時",
+  "servercountryflags.config.field.displayCooldownFlag.description": "當我們進入 API 冷卻時，顯示逾時旗幟",
 
   "servercountryflags.config.field.showDistrict.name": "顯示區域",
   "servercountryflags.config.field.showDistrict.description": "若有的話，將顯示該地區的區域",
@@ -52,13 +52,13 @@
   "servercountryflags.config.field.showISP.description": "若有的話，顯示該主機的 IPS 提供商",
 
   "servercountryflags.config.field.mapButton.name": "地圖按鈕",
-  "servercountryflags.config.field.mapButton.description": "在伺服器列表中顯示可打開世界地圖的按鈕",
+  "servercountryflags.config.field.mapButton.description": "在伺服器列表中顯示一顆按鈕，可用於開啟伺服器地圖",
 
   "servercountryflags.config.field.mapButtonRight.name": "地圖按鈕在右側",
   "servercountryflags.config.field.mapButtonRight.description": "決定地圖按鈕該在右側還是左側",
 
   "servercountryflags.config.field.showHomeOnMap.name": "顯示自家在地圖上",
-  "servercountryflags.config.field.showHomeOnMap.description": "顯示你家的位置在伺服器地圖中",
+  "servercountryflags.config.field.showHomeOnMap.description": "在伺服器地圖上顯示你家的位置",
 
   "servercountryflags.config.field.resolveRedirects.name": "解析 SRV 重新導向",
   "servercountryflags.config.field.resolveRedirects.description": "使用重新導向的 IP，而不僅僅解析 IP（若有的話）",
