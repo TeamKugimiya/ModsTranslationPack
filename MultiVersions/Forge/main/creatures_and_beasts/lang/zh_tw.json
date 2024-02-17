@@ -1,5 +1,5 @@
 {
-    "item.cnb.cindershell_shell_shard": "灰燼貝殼碎片",
+    "item.cnb.cindershell_shell_shard": "燼殼碎片",
     "item.cnb.apple_slice": "蘋果片",
     "item.cnb.lizard_egg": "蜥蜴蛋",
     "item.cnb.entity_net": "生物捕捉網",
@@ -116,5 +116,5 @@
   
     "cnb.container.cinder_furnace": "灰燼熔爐",
   
-    "cnb.item.tooltip.cinder_furnace": "\u00A77右鍵點擊燼殼獸以裝備在其身上"
+    "cnb.item.tooltip.cinder_furnace": "\u00A77對著燼殼獸點擊右鍵，將熔爐裝備在牠身上"
   }
