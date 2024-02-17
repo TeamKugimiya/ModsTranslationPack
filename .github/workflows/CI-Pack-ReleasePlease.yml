@@ -65,7 +65,7 @@ jobs:
   summary:
     name: Generate Summary
     if: ${{ needs.release-please.outputs.release_created }}
-    needs: [ pack-release ]
+    needs: [ release-please, pack-release ]
 
     uses: ./.github/workflows/Reusable-Summary.yml
 
@@ -93,11 +93,17 @@ jobs:
     name: Release Upload
     runs-on: ubuntu-latest
     if: ${{ needs.release-please.outputs.release_created }}
-    needs: [ release-please ]
+    needs: [ release-please, pack-release ]
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
+      - name: Checking Repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.release-please.outputs.tag_name }}
+          fetch-depth: 0
+
       - name: Download All Artifact
         uses: actions/download-artifact@v4
 
@@ -107,9 +113,11 @@ jobs:
           do 
             cd "$i" || exit 1
             sha256sum -c checksum.txt
+            cat checksum.txt >> ../checksums.txt
             gh release upload ${{ needs.release-please.outputs.tag_name }} $i.zip
             cd ..
           done
+          gh release upload ${{ needs.release-please.outputs.tag_name }} checksums.txt
 
   modrinth-publish:
     name: Modrinth Release ${{ matrix.version }}
