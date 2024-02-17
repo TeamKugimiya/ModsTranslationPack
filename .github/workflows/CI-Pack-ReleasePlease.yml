@@ -16,27 +16,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  json-formater:
-    name: Json Formater
-    runs-on: ubuntu-latest
-    if: github.repository == 'xMikux/ModsTranslationPack'
-
-    steps:
-      - name: Checking Repository
-        uses: actions/checkout@v4
-      
-      - name: Get Json
-        id: get_json
-        run: |
-          echo "json_data=$(cat .github/configs/changelog-types.json | jq -r tostring)" >> "$GITHUB_OUTPUT"
-
-    outputs:
-      json_data: ${{ steps.get_json.outputs.json_data }}
-
   release-please:
     name: Release Please
+    if: github.repository == 'xMikux/ModsTranslationPack'
     runs-on: ubuntu-latest
-    needs: [ json-formater ]
 
     steps:
       - name: Checking Repository
