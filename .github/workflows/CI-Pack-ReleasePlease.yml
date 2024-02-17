@@ -65,7 +65,7 @@ jobs:
   summary:
     name: Generate Summary
     if: ${{ needs.release-please.outputs.release_created }}
-    needs: [ pack-release ]
+    needs: [ release-please, pack-release ]
 
     uses: ./.github/workflows/Reusable-Summary.yml
 
@@ -93,7 +93,7 @@ jobs:
     name: Release Upload
     runs-on: ubuntu-latest
     if: ${{ needs.release-please.outputs.release_created }}
-    needs: [ release-please ]
+    needs: [ release-please, pack-release ]
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
