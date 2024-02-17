@@ -1,0 +1,13 @@
+{
+	"item.display_case.display_case": "Display Case",
+	"item.display_case.display_case_lid": "Display case lid",
+	"block.display_case.display_case": "Display Case",
+	"advancement.display_case.collapse.title": "The collapse",
+	"advancement.display_case.collapse.description": "",
+	"advancement.display_case.colorful.title": "Colorful!",
+	"advancement.display_case.colorful.description": "Change color of display case",
+	"advancement.display_case.display_item.title": "What an item!",
+	"advancement.display_case.display_item.description": "Put the item in the display case",
+	"advancement.display_case.infinity_case.title": "To infinity and beyond",
+	"advancement.display_case.infinity_case.description": "Put the display case in the display case"
+}
