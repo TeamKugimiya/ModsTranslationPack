@@ -93,8 +93,8 @@
     "item.simplytools.obsidian_excavator_head": "黑曜石挖掘鏟頭",
     "item.simplytools.paper_excavator": "紙挖掘鏟",
     "item.simplytools.paper_excavator_head": "紙挖掘鏟頭",
-    "item.simplytools.prismarine_excavator": "藍寶石挖掘鏟",
-    "item.simplytools.prismarine_excavator_head": "藍寶石挖掘鏟頭",
+    "item.simplytools.prismarine_excavator": "海磷石挖掘鏟",
+    "item.simplytools.prismarine_excavator_head": "海磷石挖掘鏟頭",
     "item.simplytools.quartz_excavator": "石英挖掘鏟",
     "item.simplytools.quartz_excavator_head": "石英挖掘鏟頭",
     "item.simplytools.redstone_excavator": "紅石挖掘鏟",
@@ -105,5 +105,5 @@
     "item.simplytools.enderite_excavator": "終界水晶挖掘鏟",
     "item.simplytools.enderite_excavator_head": "終界水晶挖掘鏟頭",
   
-    "tooltip.simplytools.compat.not_loaded_list": "要使用此物品，至少缺少以下模組之一："
+    "tooltip.simplytools.compat.not_loaded_list": "要使用此物品，需要安裝以下其中一個模組："
   }
