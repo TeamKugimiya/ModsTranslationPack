@@ -123,7 +123,7 @@
   "text.config.fwaystones/config.option.free_local_void_teleport": "局部虛空是否能被免費使用",
   "text.config.fwaystones/config.option.store_waystone_data_on_sneak_break": "傳送石碑在被潛行破壞時，是否保留資料",
   "text.config.fwaystones/config.option.discover_waystone_on_map_use": "使用地圖時是否能啟動傳送石碑",
-  "text.config.fwaystones/config.option.can_owners_redeem_payments": "傳送石碑的所有人是否能獲得傳送成本",
+  "text.config.fwaystones/config.option.can_owners_redeem_payments": "傳送石碑的所有者是否能獲得傳送成本",
   "text.config.fwaystones/config.option.waystone_block_hardness": "傳送石碑的方塊硬度",
   "text.config.fwaystones/config.option.waystone_block_required_mining_level": "破壞傳送石碑所需的挖掘等級",
   "text.config.fwaystones/config.option.permission_level_for_breaking_waystones": "誰能破壞傳送石碑",
