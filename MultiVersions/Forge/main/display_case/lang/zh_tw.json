@@ -1,0 +1,13 @@
+{
+	"item.display_case.display_case": "展示盒",
+	"item.display_case.display_case_lid": "展示盒蓋子",
+	"block.display_case.display_case": "展示盒",
+	"advancement.display_case.collapse.title": "The collapse",
+	"advancement.display_case.collapse.description": "",
+	"advancement.display_case.colorful.title": "五彩繽紛！",
+	"advancement.display_case.colorful.description": "改變展示盒的顏色",
+	"advancement.display_case.display_item.title": "超讚物品！",
+	"advancement.display_case.display_item.description": "將物品放進展示盒",
+	"advancement.display_case.infinity_case.title": "無限大空間",
+	"advancement.display_case.infinity_case.description": "將展示盒放進展示盒"
+}
