@@ -16,7 +16,7 @@
   "text.autoconfig.chat_heads.option.handleSystemMessages.@Tooltip": "是否可以將頭像套用在「純」伺服器訊息中。\n注意有很多伺服器將玩家訊息轉換成伺服器訊息！\n（例如正在運行 FreedomChat 插件的伺服器）\n僅在你知道自己在做什麼時關閉此選項！ ",
   "text.autoconfig.chat_heads.option.nameAliases": "名稱別名",
   "text.autoconfig.chat_heads.option.nameAliases.@Tooltip": "有些伺服器允許設定別名，這將無法自動的配對名稱。\n在這裡你可以手動指定配對別名來配對上他們的設定檔名，像是：\nnickname -> profilename\nnick1 nick2 nick3 -> profilename",
-  "text.chat_heads.config.error.title": "無法打開設定選單",
+  "text.chat_heads.config.error.title": "無法開啟設定選單",
   "text.chat_heads.config.error.no_cloth_config": "尚未安裝「Cloth Config」模組！",
   "text.chat_heads.config.error.cloth_config_link": "在 CurseForge 上開啟「Cloth Config」頁面"
 }
