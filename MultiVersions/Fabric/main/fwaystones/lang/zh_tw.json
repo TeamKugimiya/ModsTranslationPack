@@ -30,7 +30,7 @@
   "container.fwaystones.abyss_watcher": "深淵凝視者",
   "fwaystones.gui.displayed_waystones": "已顯示的傳送石碑數：%s",
   "fwaystones.gui.contains": "搜尋方式：名稱任何位置（完全相符）",
-  "fwaystones.gui.contains_subsequence": "搜尋方式：搜尋方式：文字子序列",
+  "fwaystones.gui.contains_subsequence": "搜尋方式：文字子序列",
   "fwaystones.gui.starts_with": "搜尋方式：名稱開頭",
   "fwaystones.gui.cost_tooltip": "傳送成本：%s",
   "fwaystones.gui.dimension_tooltip": "維度：%s",
