@@ -1,0 +1,54 @@
+{
+	"modmenu.descriptionTranslation.universal_ores": "對安山岩、閃長岩、花崗岩和凝灰岩新增不同種類的礦物模樣。",
+
+	"block.universal_ores.andesite_coal_ore": "安山岩煤礦",
+	"block.universal_ores.andesite_iron_ore": "安山岩鐵礦",
+	"block.universal_ores.andesite_gold_ore": "安山岩金礦",
+	"block.universal_ores.andesite_copper_ore": "安山岩銅礦",
+	"block.universal_ores.andesite_lapis_ore": "安山岩青金石礦",
+	"block.universal_ores.andesite_redstone_ore": "安山岩紅石礦",
+	"block.universal_ores.andesite_emerald_ore": "安山岩綠寶石礦",
+	"block.universal_ores.andesite_diamond_ore": "安山岩鑽石礦",
+
+	"block.universal_ores.diorite_coal_ore": "閃長岩煤礦",
+	"block.universal_ores.diorite_iron_ore": "閃長岩鐵礦",
+	"block.universal_ores.diorite_gold_ore": "閃長岩金礦",
+	"block.universal_ores.diorite_copper_ore": "閃長岩銅礦",
+	"block.universal_ores.diorite_lapis_ore": "閃長岩青金石礦",
+	"block.universal_ores.diorite_redstone_ore": "閃長岩紅石礦",
+	"block.universal_ores.diorite_emerald_ore": "閃長岩綠寶石礦",
+	"block.universal_ores.diorite_diamond_ore": "閃長岩鑽石礦",
+
+	"block.universal_ores.granite_coal_ore": "花崗岩煤礦",
+	"block.universal_ores.granite_iron_ore": "花崗岩鐵礦",
+	"block.universal_ores.granite_gold_ore": "花崗岩金礦",
+	"block.universal_ores.granite_copper_ore": "花崗岩銅礦",
+	"block.universal_ores.granite_lapis_ore": "花崗岩青金石礦",
+	"block.universal_ores.granite_redstone_ore": "花崗岩紅石礦",
+	"block.universal_ores.granite_emerald_ore": "花崗岩綠寶石礦",
+	"block.universal_ores.granite_diamond_ore": "花崗岩鑽石礦",
+
+	"block.universal_ores.tuff_coal_ore": "凝灰岩煤礦",
+	"block.universal_ores.tuff_iron_ore": "凝灰岩鐵礦",
+	"block.universal_ores.tuff_gold_ore": "凝灰岩金礦",
+	"block.universal_ores.tuff_copper_ore": "凝灰岩銅礦",
+	"block.universal_ores.tuff_lapis_ore": "凝灰岩青金石礦",
+	"block.universal_ores.tuff_redstone_ore": "凝灰岩紅石礦",
+	"block.universal_ores.tuff_emerald_ore": "凝灰岩綠寶石礦",
+	"block.universal_ores.tuff_diamond_ore": "凝灰岩鑽石礦",
+	
+	"block.universal_ores.calcite_coal_ore": "方解石煤礦",
+	"block.universal_ores.calcite_iron_ore": "方解石鐵礦",
+	"block.universal_ores.calcite_gold_ore": "方解石金礦",
+	"block.universal_ores.calcite_copper_ore": "方解石銅礦",
+	"block.universal_ores.calcite_lapis_ore": "方解石青金石礦",
+	"block.universal_ores.calcite_redstone_ore": "方解石紅石礦",
+	"block.universal_ores.calcite_emerald_ore": "方解石綠寶石礦",
+	"block.universal_ores.calcite_diamond_ore": "方解石鑽石礦",
+
+	"block.universal_ores.blackstone_gold_ore": "黑石金礦",
+	"block.universal_ores.blackstone_quartz_ore": "黑石地獄石英礦",
+
+	"block.universal_ores.basalt_gold_ore": "玄武岩金礦",
+	"block.universal_ores.basalt_quartz_ore": "玄武岩地獄石英礦"
+}

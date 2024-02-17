@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install poetry
-        uses: abatilo/actions-poetry@v2
+        uses: abatilo/actions-poetry@v3
 
       - name: Setup a local virtual environment
         run: |
@@ -27,7 +27,7 @@ jobs:
           poetry config virtualenvs.in-project true --local
 
       - name: Cache Python
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ./.venv
           key: venv-${{ hashFiles('poetry.lock') }}
@@ -40,7 +40,7 @@ jobs:
           poetry run python .github/scripts/image_resize.py MultiVersions/configs/pack-${{ inputs.matrix_version }}.png pack.png
 
       - name: Upload Pack Icon
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: PackIcon-${{ inputs.matrix_version }}
           path: |

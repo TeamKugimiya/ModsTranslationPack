@@ -1,0 +1,10 @@
+{
+    "forced_override": [
+        {
+            "version": "main",
+            "mods_id": [
+                "naturescompass-patch"
+            ]
+        }
+    ]
+}

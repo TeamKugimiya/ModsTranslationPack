@@ -1,9 +1,16 @@
 {
-  "rightclickharvest.jamlibconfig.title": "Right Click Harvest Config",
-  "rightclickharvest.jamlibconfig.requireHoe": "Require Hoe",
-  "rightclickharvest.jamlibconfig.requireHoe.tooltip": "Only allow harvesting certain crops (e.g. wheat, carrots) if the player is holding a hoe in their hand.",
-  "rightclickharvest.jamlibconfig.harvestInRadius": "Harvest in Radius",
-  "rightclickharvest.jamlibconfig.harvestInRadius.tooltip": "Make hoes of different tiers harvest multiple blocks in a radius. Requires `requireHoe` to be set to true.",
-  "rightclickharvest.jamlibconfig.useHunger": "Use Hunger",
-  "rightclickharvest.jamlibconfig.useHunger.tooltip": "Use hunger when harvesting crops."
+  "config.rightclickharvest.title": "Right Click Harvest Config",
+  "config.rightclickharvest.requireHoe": "Require Hoe",
+  "config.rightclickharvest.requireHoe.tooltip": "Only allow harvesting certain crops (e.g. wheat, carrots) if the player is holding a hoe in their hand.",
+  "config.rightclickharvest.harvestInRadius": "Harvest in Radius",
+  "config.rightclickharvest.harvestInRadius.tooltip": "Make hoes of different tiers harvest multiple blocks in a radius. Requires `requireHoe` to be set to true.",
+  "config.rightclickharvest.hungerLevel": "Hunger Level",
+  "config.rightclickharvest.hungerLevel.tooltip": "The food usage when harvesting crops.",
+  "config.rightclickharvest.hungerLevel.none": "None",
+  "config.rightclickharvest.hungerLevel.low": "Low",
+  "config.rightclickharvest.hungerLevel.normal": "Normal",
+  "config.rightclickharvest.hungerLevel.high": "High",
+  "config.rightclickharvest.discord": "Chat on Discord",
+  "config.rightclickharvest.github": "Report bugs and request new features on GitHub",
+  "config.rightclickharvest.modrinth": "Check for updates on Modrinth"
 }

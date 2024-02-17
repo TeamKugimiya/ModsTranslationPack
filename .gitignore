@@ -7,4 +7,5 @@ SimplePusher.sh
 
 # Python
 .venv/
-
+__pycache__/
+loguru.log

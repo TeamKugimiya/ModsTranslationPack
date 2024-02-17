@@ -105,65 +105,109 @@
 * [Crowdin 社群](https://crowdin.com)
   * [Sodium](https://crowdin.com/project/sodium-fabric)
   * [Sodium Extra](https://crowdin.com/project/sodium-extra)
+* [BlossomMods - Pau1am](https://github.com/BlossomMods)
+  * [BlossomLib](https://github.com/BlossomMods/BlossomLib)
+  * [BlossomHomes](https://github.com/BlossomMods/BlossomHomes)
+  * [BlossomTpa](https://github.com/BlossomMods/BlossomTpa)
+  * [BlossomBack](https://github.com/BlossomMods/BlossomBack)
+  * [BlossomWarps](https://github.com/BlossomMods/BlossomWarps)
+  * [BlossomPVP](https://github.com/BlossomMods/BlossomPVP)
 
 ## 💫 翻譯貢獻者
 
 感謝以下貢獻者才能讓更多玩家體驗到完整的中文化模組體驗！
 
 <!-- CONTRIBUTORS_CI_START -->
-
-<table><tr>
-  <td align="center">
-    <a href="https://github.com/xMikux" title="Miku">
-      <img src="https://avatars.githubusercontent.com/u/26039249?v=4" width="100;" alt="Miku"/>
-    <br /><sub><b>Miku</b></sub>
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/StarskyXIII" title="StarskyXIII">
-      <img src="https://avatars.githubusercontent.com/u/71606873?v=4" width="100;" alt="StarskyXIII"/>
-    <br /><sub><b>StarskyXIII</b></sub>
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/Ylite-cola" title="特爾">
-      <img src="https://avatars.githubusercontent.com/u/140043701?v=4" width="100;" alt="特爾"/>
-    <br /><sub><b>特爾</b></sub>
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/Jeffku0107" title="旺財">
-      <img src="https://avatars.githubusercontent.com/u/76643322?v=4" width="100;" alt="旺財"/>
-    <br /><sub><b>旺財</b></sub>
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/obscure-man" title="obscure_man">
-      <img src="https://avatars.githubusercontent.com/u/59750952?v=4" width="100;" alt="obscure_man"/>
-    <br /><sub><b>obscure_man</b></sub>
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/rhuba8324" title="rhuba8324">
-      <img src="https://avatars.githubusercontent.com/u/53090204?v=4" width="100;" alt="rhuba8324"/>
-    <br /><sub><b>rhuba8324</b></sub>
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/JustSimplyKyle" title="SimplyKyle!">
-      <img src="https://avatars.githubusercontent.com/u/68589851?v=4" width="100;" alt="SimplyKyle!"/>
-    <br /><sub><b>SimplyKyle!</b></sub>
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/SiongSng" title="菘菘">
-      <img src="https://avatars.githubusercontent.com/u/48402225?v=4" width="100;" alt="菘菘"/>
-    <br /><sub><b>菘菘</b></sub>
-    </a>
-  </td>
-</tr></table>
-
-
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/xMikux" title="Miku">
+        <img src="https://avatars.githubusercontent.com/u/26039249?v=4" width="100;" alt="Miku"/>
+        <br />
+        <sub><b>Miku</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/StarskyXIII" title="StarskyXIII">
+        <img src="https://avatars.githubusercontent.com/u/71606873?v=4" width="100;" alt="StarskyXIII"/>
+        <br />
+        <sub><b>StarskyXIII</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Ylite-cola" title="特爾">
+        <img src="https://avatars.githubusercontent.com/u/140043701?v=4" width="100;" alt="特爾"/>
+        <br />
+        <sub><b>特爾</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/obscure-man" title="obscure_man">
+        <img src="https://avatars.githubusercontent.com/u/59750952?v=4" width="100;" alt="obscure_man"/>
+        <br />
+        <sub><b>obscure_man</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Jeffku0107" title="旺財">
+        <img src="https://avatars.githubusercontent.com/u/76643322?v=4" width="100;" alt="旺財"/>
+        <br />
+        <sub><b>旺財</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rhuba8324" title="rhuba8324">
+        <img src="https://avatars.githubusercontent.com/u/53090204?v=4" width="100;" alt="rhuba8324"/>
+        <br />
+        <sub><b>rhuba8324</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/NoahsarkTaiwan2008" title="NoahsarkTaiwan2008">
+        <img src="https://avatars.githubusercontent.com/u/140701686?v=4" width="100;" alt="NoahsarkTaiwan2008"/>
+        <br />
+        <sub><b>NoahsarkTaiwan2008</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/JustSimplyKyle" title="SimplyKyle!">
+        <img src="https://avatars.githubusercontent.com/u/68589851?v=4" width="100;" alt="SimplyKyle!"/>
+        <br />
+        <sub><b>SimplyKyle!</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/alan198731520" title="alan198731520">
+        <img src="https://avatars.githubusercontent.com/u/47174565?v=4" width="100;" alt="alan198731520"/>
+        <br />
+        <sub><b>alan198731520</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/notlin4" title="notlin4">
+        <img src="https://avatars.githubusercontent.com/u/121224522?v=4" width="100;" alt="notlin4"/>
+        <br />
+        <sub><b>notlin4</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/shineOuO1209" title="shineOuO1209">
+        <img src="https://avatars.githubusercontent.com/u/127597656?v=4" width="100;" alt="shineOuO1209"/>
+        <br />
+        <sub><b>shineOuO1209</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SiongSng" title="菘菘">
+        <img src="https://avatars.githubusercontent.com/u/48402225?v=4" width="100;" alt="菘菘"/>
+        <br />
+        <sub><b>菘菘</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 <!-- CONTRIBUTORS_CI_END -->
 
 <!-- 橫幅 -->
