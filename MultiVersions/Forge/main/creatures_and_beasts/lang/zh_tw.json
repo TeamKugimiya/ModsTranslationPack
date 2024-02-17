@@ -1,0 +1,120 @@
+{
+    "item.cnb.cindershell_shell_shard": "燼殼碎片",
+    "item.cnb.apple_slice": "蘋果片",
+    "item.cnb.lizard_egg": "蜥蜴蛋",
+    "item.cnb.entity_net": "生物捕捉網",
+    "item.cnb.yeti_antler": "雪怪角",
+    "item.cnb.yeti_hide": "雪怪皮",
+  
+    "item.cnb.pink_minipad_flower": "粉紅色迷你花瓣",
+    "item.cnb.light_pink_minipad_flower": "淺粉色迷你花瓣",
+    "item.cnb.yellow_minipad_flower": "黃色迷你花瓣",
+    "item.cnb.pink_minipad_flower_glow": "粉紅色發光迷你花瓣",
+    "item.cnb.light_pink_minipad_flower_glow": "淺粉色發光迷你花瓣",
+    "item.cnb.yellow_minipad_flower_glow": "黃色發光迷你花瓣",
+  
+    "item.cnb.heal_spell_book_1": "治療咒語書",
+    "item.cnb.heal_spell_book_2": "治療咒語書",
+    "item.cnb.heal_spell_book_3": "治療咒語書",
+  
+    "item.cnb.flower_crown": "花冠",
+    "item.cnb.glowing_flower_crown": "發光花冠",
+    "item.cnb.sporeling_backpack": "孢子背包",
+  
+    "item.cnb.cinder_sword": "燼殼劍",
+    "item.cnb.cinder_sword_1": "燼殼劍",
+    "item.cnb.cinder_sword_2": "燼殼劍",
+    "item.cnb.cinder_sword_3": "燼殼劍",
+    "item.cnb.cinder_sword_4": "燼殼劍",
+  
+    "item.cnb.cactem_spear": "妖人掌長茅",
+  
+    "item.cnb.pink_waterlily": "粉紅色睡蓮",
+    "item.cnb.light_pink_waterlily": "淺粉色睡蓮",
+    "item.cnb.yellow_waterlily": "黃色睡蓮",
+    "block.cnb.pink_waterlily_block": "粉紅色睡蓮",
+    "block.cnb.potted_pink_waterlily": "粉紅色睡蓮盆栽",
+    "block.cnb.light_pink_waterlily_block": "淺粉色睡蓮",
+    "block.cnb.potted_light_pink_waterlily": "淺粉色睡蓮盆栽",
+    "block.cnb.yellow_waterlily_block": "黃色睡蓮",
+    "block.cnb.potted_yellow_waterlily": "黃色睡蓮盆栽",
+  
+    "block.cnb.lizard_egg_block": "蜥蜴蛋方塊",
+    "block.cnb.cinder_furnace": "灰燼熔爐",
+  
+    "item.cnb.lizard_item_desert": "蜥蜴",
+    "item.cnb.lizard_item_desert_2": "蜥蜴",
+    "item.cnb.lizard_item_jungle": "蜥蜴",
+    "item.cnb.lizard_item_jungle_2": "蜥蜴",
+    "item.cnb.lizard_item_mushroom": "蜥蜴",
+  
+    "item.cnb.sporeling_overworld_egg": "主世界蘑菇怪 生怪蛋",
+    "item.cnb.sporeling_nether_egg": "地獄異化蘑菇怪 生怪蛋",
+    "item.cnb.little_grebe_spawn_egg": "小鸊鷉 生怪蛋",
+    "item.cnb.lizard_spawn_egg": "蜥蜴 生怪蛋",
+    "item.cnb.cindershell_spawn_egg": "燼殼獸 生怪蛋",
+    "item.cnb.cindershell_bucket": "燼殼獸桶",
+    "item.cnb.lilytad_spawn_egg": "小小蓮 生怪蛋",
+    "item.cnb.yeti_spawn_egg": "雪怪 生怪蛋",
+    "item.cnb.minipad_spawn_egg": "迷你蓮 生怪蛋",
+    "item.cnb.end_whale_spawn_egg": "終界鯨 生怪蛋",
+    "item.cnb.cactem_spawn_egg": "妖人掌 生怪蛋",
+  
+    "entity.cnb.little_grebe": "小鸊鷉",
+    "entity.cnb.little_grebe_chick": "幼年小鸊鷉",
+    "entity.cnb.cindershell": "燼殼獸",
+    "entity.cnb.lizard": "蜥蜴",
+    "entity.cnb.sporeling": "蘑菇怪",
+    "entity.cnb.yeti": "雪怪",
+    "entity.cnb.lilytad": "小小蓮",
+    "entity.cnb.minipad": "迷你蓮",
+    "entity.cnb.end_whale": "終界鯨",
+    "entity.cnb.cactem": "妖人掌",
+  
+    "entity.little_grebe_chick.ambient": "小鸊鷉唧唧叫",
+    "entity.little_grebe.ambient": "小鸊鷉唧唧叫",
+    "entity.little_grebe.hurt": "小鸊鷉受傷",
+    "entity.lizard.egg_hatch": "小鸊鷉孵化",
+  
+    "entity.cindershell.ambient": "燼殼獸咆嘯",
+    "entity.cindershell.hurt": "燼殼獸受傷",
+    "entity.cindershell.eat": "燼殼獸進食",
+  
+    "entity.sporeling_overworld.ambient": "蘑菇怪尖叫",
+    "entity.sporeling_overworld.hurt": "蘑菇怪受傷",
+    "entity.sporeling_nether.ambient": "蘑菇怪咆嘯",
+    "entity.sporeling_nether.hurt": "敵對的蘑菇怪受傷",
+    "entity.sporeling_warped.ambient": "蘑菇怪吱吱叫",
+    "entity.sporeling_warped.hurt": "中立蘑菇怪受傷",
+  
+    "entity.sporeling.bite": "蘑菇怪啃咬",
+    "entity.lilytad.ambient": "小小蓮啁啾",
+    "entity.lilytad.hurt": "小小蓮受傷",
+    "entity.lilytad.death": "小小蓮死亡",
+  
+    "entity.yeti.ambient": "雪怪咆嘯",
+    "entity.yeti.hurt": "雪怪受傷",
+    "entity.yeti.step": "雪怪走路",
+    "entity.yeti.hit": "雪怪攻擊",
+    "entity.yeti_adult.eat": "雪怪進食",
+    "entity.yeti_baby.eat": "幼年雪怪咀嚼",
+  
+    "entity.minipad.hurt": "迷你蓮受傷",
+    "entity.minipad.step": "迷你蓮走路",
+    "entity.minipad.swim": "迷你蓮游泳",
+  
+    "entity.end_whale.ambient": "終界鯨吼叫",
+  
+    "entity.cactem.ambient": "妖人掌吱吱作響",
+    "entity.cactem.hurt": "妖人掌受傷",
+    "entity.cactem.heal": "妖人掌施放法術",
+  
+    "item.heal_spell_book.player_heal": "施放法術",
+    "item.cactem_spear.throw": "擲出的矛",
+  
+    "itemGroup.cnb_tab": "動物與野獸",
+  
+    "cnb.container.cinder_furnace": "灰燼熔爐",
+  
+    "cnb.item.tooltip.cinder_furnace": "\u00A77對著燼殼獸點擊右鍵，將熔爐裝備在牠身上"
+  }
