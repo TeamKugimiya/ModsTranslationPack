@@ -1,0 +1,54 @@
+{
+	"modmenu.descriptionTranslation.universal_ores": "Adds ores variants for andesite, diorite, granite and tuff.",
+
+	"block.universal_ores.andesite_coal_ore": "Andesite Coal Ore",
+	"block.universal_ores.andesite_iron_ore": "Andesite Iron Ore",
+	"block.universal_ores.andesite_gold_ore": "Andesite Gold Ore",
+	"block.universal_ores.andesite_copper_ore": "Andesite Copper Ore",
+	"block.universal_ores.andesite_lapis_ore": "Andesite Lapis Lazuli Ore",
+	"block.universal_ores.andesite_redstone_ore": "Andesite Redstone Ore",
+	"block.universal_ores.andesite_emerald_ore": "Andesite Emerald Ore",
+	"block.universal_ores.andesite_diamond_ore": "Andesite Diamond Ore",
+
+	"block.universal_ores.diorite_coal_ore": "Diorite Coal Ore",
+	"block.universal_ores.diorite_iron_ore": "Diorite Iron Ore",
+	"block.universal_ores.diorite_gold_ore": "Diorite Gold Ore",
+	"block.universal_ores.diorite_copper_ore": "Diorite Copper Ore",
+	"block.universal_ores.diorite_lapis_ore": "Diorite Lapis Lazuli Ore",
+	"block.universal_ores.diorite_redstone_ore": "Diorite Redstone Ore",
+	"block.universal_ores.diorite_emerald_ore": "Diorite Emerald Ore",
+	"block.universal_ores.diorite_diamond_ore": "Diorite Diamond Ore",
+
+	"block.universal_ores.granite_coal_ore": "Granite Coal Ore",
+	"block.universal_ores.granite_iron_ore": "Granite Iron Ore",
+	"block.universal_ores.granite_gold_ore": "Granite Gold Ore",
+	"block.universal_ores.granite_copper_ore": "Granite Copper Ore",
+	"block.universal_ores.granite_lapis_ore": "Granite Lapis Lazuli Ore",
+	"block.universal_ores.granite_redstone_ore": "Granite Redstone Ore",
+	"block.universal_ores.granite_emerald_ore": "Granite Emerald Ore",
+	"block.universal_ores.granite_diamond_ore": "Granite Diamond Ore",
+
+	"block.universal_ores.tuff_coal_ore": "Tuff Coal Ore",
+	"block.universal_ores.tuff_iron_ore": "Tuff Iron Ore",
+	"block.universal_ores.tuff_gold_ore": "Tuff Gold Ore",
+	"block.universal_ores.tuff_copper_ore": "Tuff Copper Ore",
+	"block.universal_ores.tuff_lapis_ore": "Tuff Lapis Lazuli Ore",
+	"block.universal_ores.tuff_redstone_ore": "Tuff Redstone Ore",
+	"block.universal_ores.tuff_emerald_ore": "Tuff Emerald Ore",
+	"block.universal_ores.tuff_diamond_ore": "Tuff Diamond Ore",
+	
+	"block.universal_ores.calcite_coal_ore": "Calcite Coal Ore",
+	"block.universal_ores.calcite_iron_ore": "Calcite Iron Ore",
+	"block.universal_ores.calcite_gold_ore": "Calcite Gold Ore",
+	"block.universal_ores.calcite_copper_ore": "Calcite Copper Ore",
+	"block.universal_ores.calcite_lapis_ore": "Calcite Lapis Lazuli Ore",
+	"block.universal_ores.calcite_redstone_ore": "Calcite Redstone Ore",
+	"block.universal_ores.calcite_emerald_ore": "Calcite Emerald Ore",
+	"block.universal_ores.calcite_diamond_ore": "Calcite Diamond Ore",
+
+	"block.universal_ores.blackstone_gold_ore": "Blackstone Gold Ore",
+	"block.universal_ores.blackstone_quartz_ore": "Blackstone Quartz Ore",
+
+	"block.universal_ores.basalt_gold_ore": "Basalt Gold Ore",
+	"block.universal_ores.basalt_quartz_ore": "Basalt Quartz Ore"
+}

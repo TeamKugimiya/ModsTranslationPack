@@ -15,7 +15,7 @@
 [![Stars][repo-stars]][github]
 
 <h3>一個包含了各式各樣的模組翻譯的資源包～</h3>
-<h3>目前已收錄 <code><!-- MODS_NUMBER_CI_START -->406<!-- MODS_NUMBER_CI_END --></code> 款模組</h3>
+<h3>目前已收錄 <code><!-- MODS_NUMBER_CI_START -->478<!-- MODS_NUMBER_CI_END --></code> 款模組</h3>
 
 </div>
 
@@ -105,6 +105,13 @@
 * [Crowdin 社群](https://crowdin.com)
   * [Sodium](https://crowdin.com/project/sodium-fabric)
   * [Sodium Extra](https://crowdin.com/project/sodium-extra)
+* [BlossomMods - Pau1am](https://github.com/BlossomMods)
+  * [BlossomLib](https://github.com/BlossomMods/BlossomLib)
+  * [BlossomHomes](https://github.com/BlossomMods/BlossomHomes)
+  * [BlossomTpa](https://github.com/BlossomMods/BlossomTpa)
+  * [BlossomBack](https://github.com/BlossomMods/BlossomBack)
+  * [BlossomWarps](https://github.com/BlossomMods/BlossomWarps)
+  * [BlossomPVP](https://github.com/BlossomMods/BlossomPVP)
 
 ## 💫 翻譯貢獻者
 
@@ -149,14 +156,21 @@
       </a>
     </td>
     <td align="center">
+      <a href="https://github.com/alan198731520" title="alan198731520">
+        <img src="https://avatars.githubusercontent.com/u/47174565?v=4" width="100;" alt="alan198731520"/>
+        <br />
+        <sub><b>alan198731520</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <a href="https://github.com/rhuba8324" title="rhuba8324">
         <img src="https://avatars.githubusercontent.com/u/53090204?v=4" width="100;" alt="rhuba8324"/>
         <br />
         <sub><b>rhuba8324</b></sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/NoahsarkTaiwan2008" title="NoahsarkTaiwan2008">
         <img src="https://avatars.githubusercontent.com/u/140701686?v=4" width="100;" alt="NoahsarkTaiwan2008"/>
@@ -172,17 +186,17 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/alan198731520" title="alan198731520">
-        <img src="https://avatars.githubusercontent.com/u/47174565?v=4" width="100;" alt="alan198731520"/>
-        <br />
-        <sub><b>alan198731520</b></sub>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/notlin4" title="notlin4">
         <img src="https://avatars.githubusercontent.com/u/121224522?v=4" width="100;" alt="notlin4"/>
         <br />
         <sub><b>notlin4</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/shineOuO1209" title="shineOuO1209">
+        <img src="https://avatars.githubusercontent.com/u/127597656?v=4" width="100;" alt="shineOuO1209"/>
+        <br />
+        <sub><b>shineOuO1209</b></sub>
       </a>
     </td>
     <td align="center">
