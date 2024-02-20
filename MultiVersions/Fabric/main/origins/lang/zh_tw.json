@@ -221,7 +221,7 @@
 
   "layer.origins.origin.name": "種族",
   "origin.origins.empty.name": "無",
-  "origin.origins.empty.description": "你並未擁有起源",
+  "origin.origins.empty.description": "你並沒有種族",
 
   "death.attack.no_water_for_gills": "%1$s 並未保持濕潤",
   "death.attack.no_water_for_gills.player": "%1$s 在和 %2$s 戰鬥時並未保持濕潤",
