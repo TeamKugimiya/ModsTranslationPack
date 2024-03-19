@@ -16,6 +16,5 @@ jobs:
       - name: Delete Artifact
         uses: geekyeggo/delete-artifact@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           name: |
             ${{ inputs.artifact_name }}
