@@ -1,0 +1,16 @@
+{
+  "advancementframes.gui.advancements": "Select an Advancement to display",
+  "advancementframes.gui.statistics": "Select a Statistic to display",
+  "advancementframes.message": "%1$s has made the advancement %2$s",
+  "block.advancementframes.advancement_frame": "Advancement Frame",
+  "block.advancementframes.stat_frame": "Stat Frame",
+  "stat.advancementframes.used": "%s Used",
+  "stat.advancementframes.dropped": "%s Dropped",
+  "stat.advancementframes.crafted": "%s Crafted",
+  "stat.advancementframes.mined": "%s Mined",
+  "stat.advancementframes.broken": "%s Broken",
+  "stat.advancementframes.picked_up": "%s Broken",
+  "stat.advancementframes.killed": "%s Killed",
+  "stat.advancementframes.killed_by": "Killed by %s",
+  "advancementframes.display_source.stat": "Stat Value"
+}
