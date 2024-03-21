@@ -1,0 +1,16 @@
+{
+  "advancementframes.gui.advancements": "選擇要展示的進度",
+  "advancementframes.gui.statistics": "選擇要展示的統計資訊",
+  "advancementframes.message": "%1$s 已完成進度 %2$s",
+  "block.advancementframes.advancement_frame": "進度展示框",
+  "block.advancementframes.stat_frame": "統計展示框",
+  "stat.advancementframes.used": "%s 使用次數",
+  "stat.advancementframes.dropped": "%s 丟棄數量",
+  "stat.advancementframes.crafted": "%s 合成次數",
+  "stat.advancementframes.mined": "%s 挖掘次數",
+  "stat.advancementframes.broken": "%s 損壞次數",
+  "stat.advancementframes.picked_up": "%s 拾起數量",
+  "stat.advancementframes.killed": "殺死過的%s數量",
+  "stat.advancementframes.killed_by": "被%s殺死的次數",
+  "advancementframes.display_source.stat": "統計數值"
+}
