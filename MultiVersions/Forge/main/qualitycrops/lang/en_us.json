@@ -117,6 +117,21 @@
   "item.qualitycrops.wheat_diamond": "Wheat",
   "item.qualitycrops.wheat_gold": "Wheat",
   "item.qualitycrops.wheat_iron": "Wheat",
+  "item.qualitycrops.sugar_diamond": "Sugar",
+  "item.qualitycrops.sugar_gold": "Sugar",
+  "item.qualitycrops.sugar_iron": "Sugar",
+  "item.qualitycrops.sugar_cane_diamond": "Sugar Cane",
+  "item.qualitycrops.sugar_cane_gold": "Sugar Cane",
+  "item.qualitycrops.sugar_cane_iron": "Sugar Cane",
+  "item.qualitycrops.iron_fertilizer": "Iron Fertilizer",
+  "item.qualitycrops.gold_fertilizer": "Gold Fertilizer",
+  "item.qualitycrops.diamond_fertilizer": "Diamond Fertilizer",
+
+  "block.qualitycrops.diamond_farmland": "Diamond Farmland",
+  "block.qualitycrops.gold_farmland": "Gold Farmland",
+  "block.qualitycrops.iron_farmland": "Iron Farmland",
+
   "itemGroup.qualitycrops.crops": "Quality Crops",
-  "itemGroup.qualitycrops.items": "Quality Items"
+  "itemGroup.qualitycrops.items": "Quality Crops Items",
+  "itemGroup.qualitycrops.quality_items": "Quality Items"
 }
