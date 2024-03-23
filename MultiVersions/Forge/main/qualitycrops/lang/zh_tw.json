@@ -117,6 +117,21 @@
   "item.qualitycrops.wheat_diamond": "小麥",
   "item.qualitycrops.wheat_gold": "小麥",
   "item.qualitycrops.wheat_iron": "小麥",
-  "itemGroup.qualitycrops.crops": "優質作物",
-  "itemGroup.qualitycrops.items": "優質作物｜物品"
+  "item.qualitycrops.sugar_diamond": "糖",
+  "item.qualitycrops.sugar_gold": "糖",
+  "item.qualitycrops.sugar_iron": "糖",
+  "item.qualitycrops.sugar_cane_diamond": "甘蔗",
+  "item.qualitycrops.sugar_cane_gold": "甘蔗",
+  "item.qualitycrops.sugar_cane_iron": "甘蔗",
+  "item.qualitycrops.iron_fertilizer": "鐵星品質肥料",
+  "item.qualitycrops.gold_fertilizer": "金星品質肥料",
+  "item.qualitycrops.diamond_fertilizer": "鑽石星品質肥料",
+
+  "block.qualitycrops.diamond_farmland": "鑽石星品質耕地",
+  "block.qualitycrops.gold_farmland": "金星品質耕地",
+  "block.qualitycrops.iron_farmland": "鐵星品質耕地",
+
+  "itemGroup.qualitycrops.crops": "優質作物｜農作物",
+  "itemGroup.qualitycrops.items": "優質作物｜農耕物品",
+  "itemGroup.qualitycrops.quality_items": "優質作物｜食品"
 }
