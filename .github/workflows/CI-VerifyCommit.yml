@@ -24,6 +24,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Verify Commit
-        uses: taskmedia/action-conventional-commits@v1.1.14
+        uses: taskmedia/action-conventional-commits@v1.1.15
         with:
           types: "feat|fix|chore|ci|docs|refactor|test|mods_feat|mods_update|mods_fix|mods_improve|mods_localize|mods_remove"
