@@ -1,0 +1,13 @@
+{
+  "entity.rapscallionsandrockhoppers.penguin": "企鵝",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.ambient": "企鵝鳴叫聲",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.cough": "企鵝咳嗽",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.death": "企鵝死亡",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.eat": "企鵝進食",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.hurt": "企鵝受傷",
+  "subtitles.rapscallionsandrockhoppers.entity.pengui.jump": "企鵝跳躍",
+  "block.rapscallionsandrockhoppers.penguin_egg": "企鵝蛋",
+  "item.rapscallionsandrockhoppers.penguin_spawn_egg": "企鵝 生怪蛋",
+  "item.rapscallionsandrockhoppers.boat_hook": "船鉤",
+  "item.rapscallionsandrockhoppers.fish_bones": "魚骨頭"
+}
