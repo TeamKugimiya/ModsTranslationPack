@@ -1,0 +1,13 @@
+{
+  "entity.rapscallionsandrockhoppers.penguin": "Penguin",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.ambient": "Penguin honks",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.cough": "Penguin coughs",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.death": "Penguin dies",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.eat": "Penguin eats",
+  "subtitles.rapscallionsandrockhoppers.entity.penguin.hurt": "Penguin hurts",
+  "subtitles.rapscallionsandrockhoppers.entity.pengui.jump": "Penguin jumps",
+  "block.rapscallionsandrockhoppers.penguin_egg": "Penguin Egg",
+  "item.rapscallionsandrockhoppers.penguin_spawn_egg": "Penguin Spawn Egg",
+  "item.rapscallionsandrockhoppers.boat_hook": "Boat Hook",
+  "item.rapscallionsandrockhoppers.fish_bones": "Fish Bones"
+}
