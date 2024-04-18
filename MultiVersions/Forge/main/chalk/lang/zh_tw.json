@@ -19,7 +19,7 @@
   "item.chalk.white_chalk": "白色粉筆",
 
   "item.chalk.chalk_box": "粉筆盒",
-  "item.chalk.chalk_box.tooltip.drawing_with": "Drawing with: ",
+  "item.chalk.chalk_box.tooltip.drawing_with": "目前使用：",
   "item.chalk.chalk_box.tooltip.open": "<點擊右鍵以開啟>",
   "container.chalk.chalk_box": "粉筆盒",
 
