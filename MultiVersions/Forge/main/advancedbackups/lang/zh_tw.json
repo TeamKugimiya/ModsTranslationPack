@@ -1,0 +1,6 @@
+{
+    "advancedbackups.backup_starting" : "正在開始備份！",
+    "advancedbackups.progress": "備份進行中：%1$s%%",
+    "advancedbackups.backup_failed": "備份失敗！\n請檢查記錄檔以獲得更多資訊。",
+    "advancedbackups.backup_finished": "備份已完成！"
+}
