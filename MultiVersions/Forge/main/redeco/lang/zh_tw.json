@@ -2,7 +2,9 @@
   "item.redeco.glowstone_light_bulb": "螢石粉燈泡",
   "item.redeco.glow_ink_light_bulb": "螢光墨囊燈泡",
   "item.redeco.amethyst_light_bulb": "紫水晶燈泡",
+
   "item.redeco.hammer": "鎚子",
+
   "item.redeco.white_upholstery": "白色鋪墊",
   "item.redeco.orange_upholstery": "橙色鋪墊",
   "item.redeco.magenta_upholstery": "洋紅色鋪墊",
@@ -19,30 +21,36 @@
   "item.redeco.green_upholstery": "綠色鋪墊",
   "item.redeco.red_upholstery": "紅色鋪墊",
   "item.redeco.black_upholstery": "黑色鋪墊",
+
   "block.redeco.glowstone_light_bulb": "螢石粉燈泡",
   "block.redeco.glow_ink_light_bulb": "螢光墨囊燈泡",
   "block.redeco.amethyst_light_bulb": "紫水晶燈泡",
+
   "block.redeco.spyglass_stand": "望遠鏡架",
+
   "block.redeco.paper_pane": "和室紙片",
   "block.redeco.paper_door": "紙門",
   "block.redeco.paper_trapdoor": "紙地板門",
+
   "block.redeco.jar": "玻璃罐",
-  "block.redeco.fern_terrarium": "蕨玻璃盆栽",
-  "block.redeco.grass_terrarium": "草玻璃盆栽",
-  "block.redeco.azalea_terrarium": "杜鵑叢玻璃盆栽",
-  "block.redeco.flowering_azalea_terrarium": "開花的杜鵑叢玻璃盆栽",
-  "block.redeco.dripleaf_terrarium": "懸葉草玻璃盆栽",
-  "block.redeco.bamboo_terrarium": "竹子玻璃盆栽",
-  "block.redeco.glowberry_terrarium": "螢光莓玻璃盆栽",
-  "block.redeco.red_mushroom_terrarium": "紅色蘑菇玻璃盆栽",
-  "block.redeco.brown_mushroom_terrarium": "棕色蘑菇玻璃盆栽",
-  "block.redeco.mangrove_terrarium": "紅樹林木胎生苗玻璃盆栽",
-  "block.redeco.crimson_fungus_terrarium": "緋紅蕈菇玻璃盆栽",
-  "block.redeco.warped_fungus_terrarium": "扭曲蕈菇玻璃盆栽",
-  "block.redeco.sculk_terrarium": "伏聆玻璃盆栽",
-  "block.redeco.pink_petals_terrarium": "粉瓣花玻璃盆栽",
+  "block.redeco.fern_terrarium": "玻璃盆栽（蕨）",
+  "block.redeco.grass_terrarium": "玻璃盆栽（草）",
+  "block.redeco.azalea_terrarium": "玻璃盆栽（杜鵑叢）",
+  "block.redeco.flowering_azalea_terrarium": "玻璃盆栽（開花的杜鵑叢）",
+  "block.redeco.dripleaf_terrarium": "玻璃盆栽（懸葉草）",
+  "block.redeco.bamboo_terrarium": "玻璃盆栽（竹子）",
+  "block.redeco.glowberry_terrarium": "玻璃盆栽（螢光莓）",
+  "block.redeco.red_mushroom_terrarium": "玻璃盆栽（紅色蘑菇）",
+  "block.redeco.brown_mushroom_terrarium": "玻璃盆栽（棕色蘑菇）",
+  "block.redeco.mangrove_terrarium": "玻璃盆栽（紅樹林木胎生苗）",
+  "block.redeco.crimson_fungus_terrarium": "玻璃盆栽（緋紅蕈菇）",
+  "block.redeco.warped_fungus_terrarium": "玻璃盆栽（扭曲蕈菇）",
+  "block.redeco.sculk_terrarium": "玻璃盆栽（伏聆）",
+  "block.redeco.pink_petals_terrarium": "玻璃盆栽（粉瓣花）",
+
   "block.redeco.stone_lantern": "石燈籠",
   "block.redeco.deepslate_lantern": "深板岩燈籠",
+
   "block.redeco.stone_stepping_stones": "石頭踏腳石",
   "block.redeco.cobblestone_stepping_stones": "鵝卵石踏腳石",
   "block.redeco.mossy_cobblestone_stepping_stones": "青苔鵝卵石踏腳石",
@@ -51,6 +59,7 @@
   "block.redeco.calcite_stepping_stones": "方解石踏腳石",
   "block.redeco.blackstone_stepping_stones": "黑石踏腳石",
   "block.redeco.mud_brick_stepping_stones": "泥磚踏腳石",
+
   "block.redeco.polished_oak_planks": "拋光橡木材",
   "block.redeco.polished_spruce_planks": "拋光杉木材",
   "block.redeco.polished_birch_planks": "拋光樺木材",
@@ -62,6 +71,7 @@
   "block.redeco.polished_mangrove_planks": "拋光紅樹林木材",
   "block.redeco.polished_cherry_planks": "拋光櫻花木材",
   "block.redeco.polished_bamboo_planks": "拋光竹材",
+
   "block.redeco.polished_oak_stairs": "拋光橡木階梯",
   "block.redeco.polished_spruce_stairs": "拋光杉木階梯",
   "block.redeco.polished_birch_stairs": "拋光樺木階梯",
@@ -73,6 +83,7 @@
   "block.redeco.polished_mangrove_stairs": "拋光紅樹林木階梯",
   "block.redeco.polished_cherry_stairs": "拋光櫻花木階梯",
   "block.redeco.polished_bamboo_stairs": "拋光竹階梯",
+
   "block.redeco.polished_oak_slab": "拋光橡木半磚",
   "block.redeco.polished_spruce_slab": "拋光杉木半磚",
   "block.redeco.polished_birch_slab": "拋光樺木半磚",
@@ -84,6 +95,7 @@
   "block.redeco.polished_mangrove_slab": "拋光紅樹林木半磚",
   "block.redeco.polished_cherry_slab": "拋光櫻花木半磚",
   "block.redeco.polished_bamboo_slab": "拋光竹半磚",
+
   "block.redeco.oak_table": "橡木桌",
   "block.redeco.spruce_table": "杉木桌",
   "block.redeco.birch_table": "樺木桌",
@@ -95,6 +107,7 @@
   "block.redeco.mangrove_table": "紅樹林木桌",
   "block.redeco.cherry_table": "櫻花木桌",
   "block.redeco.bamboo_table": "竹桌",
+
   "block.redeco.oak_coffee_table": "橡木茶几",
   "block.redeco.spruce_coffee_table": "杉木茶几",
   "block.redeco.birch_coffee_table": "樺木茶几",
@@ -106,6 +119,7 @@
   "block.redeco.mangrove_coffee_table": "紅樹林木茶几",
   "block.redeco.cherry_coffee_table": "櫻花木茶几",
   "block.redeco.bamboo_coffee_table": "竹茶几",
+
   "block.redeco.oak_side_table": "橡木邊桌",
   "block.redeco.spruce_side_table": "杉木邊桌",
   "block.redeco.birch_side_table": "樺木邊桌",
@@ -117,6 +131,7 @@
   "block.redeco.mangrove_side_table": "紅樹林木邊桌",
   "block.redeco.cherry_side_table": "櫻花木邊桌",
   "block.redeco.bamboo_side_table": "竹邊桌",
+
   "block.redeco.oak_drawers": "橡木抽屜櫃",
   "block.redeco.spruce_drawers": "杉木抽屜櫃",
   "block.redeco.birch_drawers": "樺木抽屜櫃",
@@ -128,6 +143,7 @@
   "block.redeco.mangrove_drawers": "紅樹林木抽屜櫃",
   "block.redeco.cherry_drawers": "櫻花木抽屜櫃",
   "block.redeco.bamboo_drawers": "竹抽屜櫃",
+
   "block.redeco.oak_chair": "橡木椅",
   "block.redeco.spruce_chair": "杉木椅",
   "block.redeco.birch_chair": "樺木椅",
@@ -139,6 +155,7 @@
   "block.redeco.mangrove_chair": "紅樹林木椅",
   "block.redeco.cherry_chair": "櫻花木椅",
   "block.redeco.bamboo_chair": "竹椅",
+
   "block.redeco.oak_stool": "橡木椅凳",
   "block.redeco.spruce_stool": "杉木椅凳",
   "block.redeco.birch_stool": "樺木椅凳",
@@ -150,6 +167,7 @@
   "block.redeco.mangrove_stool": "紅樹林木椅凳",
   "block.redeco.cherry_stool": "櫻花木椅凳",
   "block.redeco.bamboo_stool": "竹椅凳",
+
   "block.redeco.oak_bench": "橡木長椅",
   "block.redeco.spruce_bench": "杉木長椅",
   "block.redeco.birch_bench": "樺木長椅",
@@ -161,6 +179,7 @@
   "block.redeco.mangrove_bench": "紅樹林木長椅",
   "block.redeco.cherry_bench": "櫻花木長椅",
   "block.redeco.bamboo_bench": "竹長椅",
+
   "block.redeco.oak_shelf": "橡木壁架",
   "block.redeco.spruce_shelf": "杉木壁架",
   "block.redeco.birch_shelf": "樺木壁架",
@@ -172,6 +191,7 @@
   "block.redeco.mangrove_shelf": "紅樹林木壁架",
   "block.redeco.cherry_shelf": "櫻花木壁架",
   "block.redeco.bamboo_shelf": "竹壁架",
+
   "block.redeco.oak_crate": "橡木箱",
   "block.redeco.spruce_crate": "杉木箱",
   "block.redeco.birch_crate": "樺木箱",
@@ -183,6 +203,7 @@
   "block.redeco.mangrove_crate": "紅樹林木箱",
   "block.redeco.cherry_crate": "櫻花木箱",
   "block.redeco.bamboo_crate": "竹箱",
+
   "block.redeco.oak_plank_fence": "橡木材柵欄",
   "block.redeco.spruce_plank_fence": "杉木材柵欄",
   "block.redeco.birch_plank_fence": "樺木材柵欄",
@@ -194,6 +215,7 @@
   "block.redeco.mangrove_plank_fence": "紅樹林木材柵欄",
   "block.redeco.cherry_plank_fence": "櫻花木材柵欄",
   "block.redeco.bamboo_plank_fence": "竹材柵欄",
+
   "block.redeco.oak_plank_gate": "橡木材柵欄門",
   "block.redeco.spruce_plank_gate": "杉木材柵欄門",
   "block.redeco.birch_plank_gate": "樺木材柵欄門",
@@ -205,17 +227,19 @@
   "block.redeco.mangrove_plank_gate": "紅樹林木材柵欄門",
   "block.redeco.cherry_plank_gate": "櫻花木材柵欄門",
   "block.redeco.bamboo_plank_gate": "竹材柵欄門",
-  "block.redeco.oak_lattice": "橡木格柵",
-  "block.redeco.spruce_lattice": "杉木格柵",
-  "block.redeco.birch_lattice": "樺木格柵",
-  "block.redeco.jungle_lattice": "叢林木格柵",
-  "block.redeco.dark_oak_lattice": "黑橡木格柵",
-  "block.redeco.acacia_lattice": "相思木格柵",
-  "block.redeco.crimson_lattice": "緋紅蕈木格柵",
-  "block.redeco.warped_lattice": "扭曲蕈木格柵",
-  "block.redeco.mangrove_lattice": "紅樹林木格柵",
-  "block.redeco.cherry_lattice": "櫻花木格柵",
-  "block.redeco.bamboo_lattice": "竹格柵",
+
+  "block.redeco.oak_lattice": "橡木交叉格柵",
+  "block.redeco.spruce_lattice": "杉木交叉格柵",
+  "block.redeco.birch_lattice": "樺木交叉格柵",
+  "block.redeco.jungle_lattice": "叢林木交叉格柵",
+  "block.redeco.dark_oak_lattice": "黑橡木交叉格柵",
+  "block.redeco.acacia_lattice": "相思木交叉格柵",
+  "block.redeco.crimson_lattice": "緋紅蕈木交叉格柵",
+  "block.redeco.warped_lattice": "扭曲蕈木交叉格柵",
+  "block.redeco.mangrove_lattice": "紅樹林木交叉格柵",
+  "block.redeco.cherry_lattice": "櫻花木交叉格柵",
+  "block.redeco.bamboo_lattice": "竹交叉格柵",
+
   "block.redeco.oak_counter": "橡木料理檯",
   "block.redeco.spruce_counter": "杉木料理檯",
   "block.redeco.birch_counter": "樺木料理檯",
@@ -227,6 +251,7 @@
   "block.redeco.mangrove_counter": "紅樹林木料理檯",
   "block.redeco.cherry_counter": "櫻花木料理檯",
   "block.redeco.bamboo_counter": "竹料理檯",
+
   "block.redeco.oak_drawer_counter": "橡木抽屜式料理檯",
   "block.redeco.spruce_drawer_counter": "杉木抽屜式料理檯",
   "block.redeco.birch_drawer_counter": "樺木抽屜式料理檯",
@@ -238,6 +263,7 @@
   "block.redeco.mangrove_drawer_counter": "紅樹林木抽屜式料理檯",
   "block.redeco.cherry_drawer_counter": "櫻花木抽屜式料理檯",
   "block.redeco.bamboo_drawer_counter": "竹抽屜式料理檯",
+
   "block.redeco.oak_cabinet_counter": "橡木櫥櫃式料理檯",
   "block.redeco.spruce_cabinet_counter": "杉木櫥櫃式料理檯",
   "block.redeco.birch_cabinet_counter": "樺木櫥櫃式料理檯",
@@ -249,6 +275,7 @@
   "block.redeco.mangrove_cabinet_counter": "紅樹林木櫥櫃式料理檯",
   "block.redeco.cherry_cabinet_counter": "櫻花木櫥櫃式料理檯",
   "block.redeco.bamboo_cabinet_counter": "竹櫥櫃式料理檯",
+
   "block.redeco.oak_cabinet": "橡木櫥櫃",
   "block.redeco.spruce_cabinet": "杉木櫥櫃",
   "block.redeco.birch_cabinet": "樺木櫥櫃",
@@ -260,6 +287,7 @@
   "block.redeco.mangrove_cabinet": "紅樹林木櫥櫃",
   "block.redeco.cherry_cabinet": "櫻花木櫥櫃",
   "block.redeco.bamboo_cabinet": "竹櫥櫃",
+
   "block.redeco.oak_display_case": "橡木展示盒",
   "block.redeco.spruce_display_case": "杉木展示盒",
   "block.redeco.birch_display_case": "樺木展示盒",
@@ -271,6 +299,7 @@
   "block.redeco.mangrove_display_case": "紅樹林木展示盒",
   "block.redeco.cherry_display_case": "櫻花木展示盒",
   "block.redeco.bamboo_display_case": "竹展示盒",
+
   "block.redeco.oak_sword_mount": "橡木劍架",
   "block.redeco.spruce_sword_mount": "杉木劍架",
   "block.redeco.birch_sword_mount": "樺木劍架",
@@ -282,6 +311,7 @@
   "block.redeco.mangrove_sword_mount": "紅樹林木劍架",
   "block.redeco.cherry_sword_mount": "櫻花木劍架",
   "block.redeco.bamboo_sword_mount": "竹劍架",
+
   "block.redeco.oak_pedestal": "橡木展示柱",
   "block.redeco.spruce_pedestal": "杉木展示柱",
   "block.redeco.birch_pedestal": "樺木展示柱",
@@ -293,6 +323,7 @@
   "block.redeco.mangrove_pedestal": "紅樹林木展示柱",
   "block.redeco.cherry_pedestal": "櫻花木展示柱",
   "block.redeco.bamboo_pedestal": "竹展示柱",
+
   "block.redeco.white_sofa": "白色沙發",
   "block.redeco.orange_sofa": "橙色沙發",
   "block.redeco.magenta_sofa": "洋紅色沙發",
@@ -309,6 +340,7 @@
   "block.redeco.green_sofa": "綠色沙發",
   "block.redeco.red_sofa": "紅色沙發",
   "block.redeco.black_sofa": "黑色沙發",
+
   "block.redeco.white_ottoman": "白色鄂圖曼椅凳",
   "block.redeco.orange_ottoman": "橙色鄂圖曼椅凳",
   "block.redeco.magenta_ottoman": "洋紅色鄂圖曼椅凳",
@@ -325,6 +357,7 @@
   "block.redeco.green_ottoman": "綠色鄂圖曼椅凳",
   "block.redeco.red_ottoman": "紅色鄂圖曼椅凳",
   "block.redeco.black_ottoman": "黑色鄂圖曼椅凳",
+
   "block.redeco.white_cushion": "白色坐墊",
   "block.redeco.orange_cushion": "橙色坐墊",
   "block.redeco.magenta_cushion": "洋紅色坐墊",
@@ -341,6 +374,7 @@
   "block.redeco.green_cushion": "綠色坐墊",
   "block.redeco.red_cushion": "紅色坐墊",
   "block.redeco.black_cushion": "黑色坐墊",
+
   "block.redeco.white_lamp": "白色燈具",
   "block.redeco.orange_lamp": "橙色燈具",
   "block.redeco.magenta_lamp": "洋紅色燈具",
@@ -357,6 +391,7 @@
   "block.redeco.green_lamp": "綠色燈具",
   "block.redeco.red_lamp": "紅色燈具",
   "block.redeco.black_lamp": "黑色燈具",
+
   "block.redeco.white_paper_lantern": "白色紙燈籠",
   "block.redeco.orange_paper_lantern": "橙色紙燈籠",
   "block.redeco.magenta_paper_lantern": "洋紅色紙燈籠",
@@ -373,6 +408,7 @@
   "block.redeco.green_paper_lantern": "綠色紙燈籠",
   "block.redeco.red_paper_lantern": "紅色紙燈籠",
   "block.redeco.black_paper_lantern": "黑色紙燈籠",
+
   "block.redeco.white_pet_bed": "白色寵物床",
   "block.redeco.orange_pet_bed": "橙色寵物床",
   "block.redeco.magenta_pet_bed": "洋紅色寵物床",
@@ -389,6 +425,7 @@
   "block.redeco.green_pet_bed": "綠色寵物床",
   "block.redeco.red_pet_bed": "紅色寵物床",
   "block.redeco.black_pet_bed": "黑色寵物床",
+
   "block.redeco.white_fluffy_carpet": "白色絨毛地毯",
   "block.redeco.orange_fluffy_carpet": "橙色絨毛地毯",
   "block.redeco.magenta_fluffy_carpet": "洋紅色絨毛地毯",
@@ -405,6 +442,7 @@
   "block.redeco.green_fluffy_carpet": "綠色絨毛地毯",
   "block.redeco.red_fluffy_carpet": "紅色絨毛地毯",
   "block.redeco.black_fluffy_carpet": "黑色絨毛地毯",
+
   "block.redeco.white_awning": "白色遮陽棚",
   "block.redeco.orange_awning": "橙色遮陽棚",
   "block.redeco.magenta_awning": "洋紅色遮陽棚",
@@ -421,10 +459,14 @@
   "block.redeco.green_awning": "綠色遮陽棚",
   "block.redeco.red_awning": "紅色遮陽棚",
   "block.redeco.black_awning": "黑色遮陽棚",
+
   "tooltip.redeco.block.stepping_stones": "§7手持鎬子並點擊右鍵可減少踏腳石數量",
+
   "tooltip.redeco.block.stone_lantern": "§7手持鎬子並點擊右鍵，可增加／移除支柱",
   "tooltip.redeco.block.deepslate_lantern": "§7手持鎬子並點擊右鍵，可增加／移除支柱",
+
   "itemGroup.redeco.redeco_tab": "Re:Deco",
+
   "container.redeco.drawers": "抽屜櫃",
   "container.redeco.side_table": "邊桌",
   "container.redeco.cabinet": "櫥櫃"
