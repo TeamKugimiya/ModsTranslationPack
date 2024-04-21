@@ -1,0 +1,13 @@
+{
+  "gui.darkmodeeverywhere.dark_mode": "深色模式",
+  "gui.darkmodeeverywhere.light_mode": "淺色模式",
+  "gui.darkmodeeverywhere.perfect_dark": "極致深色",
+  "gui.darkmodeeverywhere.less_perfect_dark": "中度深色",
+  "gui.darkmodeeverywhere.toasted_light": "輕度深色",
+  "gui.tooltip.darkmodeeverywhere.shader_switch_tooltip": " * 使用 Shift 鍵快速切換至淺色模式",
+  "config.darkemodeeverywhere.method_shader_blacklist": "深色模式著色器不會套用的「方法字串（算繪方法）」類別清單。\\n每個字串都由類別，以及阻止深色模式著色器的方法（或任何子字串）所組成。\\n例如：「renderHunger」就足以阻止「net.minecraftforge.client.gui.overlay.ForgeGui:renderFood」（任何一種都可以）",
+  "config.darkemodeeverywhere.method_shader_dump": "啟用該設定後，將每 5 秒傾印套用深色模式著色器的 GUI 算繪方法\n傾印將由「方法字串」類別所組成，例如「net.minecraftforge.client.gui.overlay.ForgeGui:renderFood」\n使用該功能來幫助找到要加入黑名單的 GUI 算繪方法字串。",
+  "config.darkemodeeverywhere.button_position_x": "GUI 左側邊界的像素間距（x 軸）",
+  "config.darkemodeeverywhere.button_position_y": "GUI 底部邊界的像素間距（y 軸）",
+  "config.darkmodeeverywhere.enabled": "已啟用"
+}
