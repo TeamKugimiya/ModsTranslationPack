@@ -1,0 +1,31 @@
+{
+  "item.moredelight.wooden_knife": "Wooden Knife",
+  "item.moredelight.stone_knife": "Stone Knife",
+
+  "item.moredelight.bread_slice": "Bread Slice",
+  "item.moredelight.toast": "Toast",
+  "item.moredelight.toast_with_egg": "Toast with Egg",
+  "item.moredelight.toast_with_honey": "Toast with Honey",
+  "item.moredelight.toast_with_sweet_berries": "Toast with Sweet Berries",
+  "item.moredelight.toast_with_chocolate": "Toast with Chocolate",
+  "item.moredelight.omelette": "Omelette",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Cooked Rice with Milk Cream and Beef",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta with Milk Cream and Ham",
+  "item.moredelight.diced_potatoes": "Diced Potatoes",
+
+  "item.moredelight.mashed_potatoes": "Mashed Potatoes",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Cooked Diced Potatoes with Chicken Cuts",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Cooked Diced Potatoes with Beef",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Cooked Diced Potatoes with Porkchop",
+  "item.moredelight.potato_salad": "Potato Salad",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Chicken Sandwich with Egg and Tomato",
+  "item.moredelight.egg_with_bacon_sandwich": "Egg with Bacon Sandwich",
+  "item.moredelight.tomato_sandwich": "Tomato Sandwich",
+  "item.moredelight.steak_with_egg_sandwich": "Steak with Egg Sandwich",
+  "item.moredelight.carrot_soup": "Carrot Soup",
+  "item.moredelight.chocolate_popsicle": "Chocolate Popsicle",
+  "item.moredelight.toast_with_glow_berries": "Toast with Glow Berries",
+  "item.moredelight.toast_with_cheese": "Toast with Cheese",
+  "item.moredelight.chicken_salad": "Chicken Salad",
+  "item.moredelight.toast_with_blueberries": "Toast with Blueberries"
+}
