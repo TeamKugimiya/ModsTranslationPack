@@ -30,7 +30,7 @@
             "pack_format": 15,
             "supported_formats": {
                 "min": 15,
-                "max": 22
+                "max": 32
             },
             "game_version": ">=1.20"
         }
