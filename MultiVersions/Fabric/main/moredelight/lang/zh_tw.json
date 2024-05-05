@@ -1,0 +1,31 @@
+{
+  "item.moredelight.wooden_knife": "木刀",
+  "item.moredelight.stone_knife": "石刀",
+
+  "item.moredelight.bread_slice": "麵包片",
+  "item.moredelight.toast": "吐司",
+  "item.moredelight.toast_with_egg": "煎蛋吐司",
+  "item.moredelight.toast_with_honey": "蜂蜜吐司",
+  "item.moredelight.toast_with_sweet_berries": "甜莓吐司",
+  "item.moredelight.toast_with_chocolate": "巧克力吐司",
+  "item.moredelight.omelette": "歐姆蛋",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "鮮奶牛肉燴飯",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "火腿牛奶義麵",
+  "item.moredelight.diced_potatoes": "馬鈴薯丁",
+  
+  "item.moredelight.mashed_potatoes": "馬鈴薯泥",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "烤雞肉塊馬鈴薯丁",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "烤牛肉馬鈴薯丁",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "烤豬肉馬鈴薯丁",
+  "item.moredelight.potato_salad": "馬鈴薯沙拉",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "雞肉番茄夾蛋三明治",
+  "item.moredelight.egg_with_bacon_sandwich": "培根夾蛋三明治",
+  "item.moredelight.tomato_sandwich": "番茄三明治",
+  "item.moredelight.steak_with_egg_sandwich": "牛排夾蛋三明治",
+  "item.moredelight.carrot_soup": "胡蘿蔔湯",
+  "item.moredelight.chocolate_popsicle": "巧克力冰棒",
+  "item.moredelight.toast_with_glow_berries": "螢光莓吐司",
+  "item.moredelight.toast_with_cheese": "乳酪吐司",
+  "item.moredelight.chicken_salad": "雞肉沙拉",
+  "item.moredelight.toast_with_blueberries": "藍莓吐司"
+}
