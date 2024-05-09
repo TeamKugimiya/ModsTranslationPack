@@ -5,6 +5,6 @@
   "config.waterdripsound.volume": "音量",
   "config.waterdripsound.dripChance": "滴落聲出現機率",
   "config.waterdripsound.useDripstoneSounds": "使用鐘乳石版本音效",
-  "tooltip.config.waterdripsound.useDripstoneSounds": "若啟用，將使用 1.17 版本中增加的鐘乳石、水，熔岩的滴落聲音效。\n若禁用，則會使用此模組舊版本的音效。",
+  "tooltip.config.waterdripsound.useDripstoneSounds": "若啟用，將使用 1.17 版本中增加的鐘乳石、水，熔岩的滴落聲音效。\n若停用，則會使用此模組舊版本的音效。",
   "config.waterdripsound.soundCategory": "音效類別"
 }
