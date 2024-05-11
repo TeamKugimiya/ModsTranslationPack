@@ -30,7 +30,7 @@
   "mod_gui.brandonscore.energy_bar.input": "輸入",
   "mod_gui.brandonscore.energy_bar.io": "I/O",
   "mod_gui.brandonscore.energy_bar.op": "OP",
-  "mod_gui.brandonscore.energy_bar.operational_potential": "運轉資訊",
+  "mod_gui.brandonscore.energy_bar.operational_potential": "運轉潛能（Operational Potential）",
   "mod_gui.brandonscore.energy_bar.output": "輸出",
   "mod_gui.brandonscore.energy_bar.rf": "RF",
   "mod_gui.brandonscore.energy_bar.stored": "已儲存",
@@ -88,7 +88,7 @@
   "op.brandonscore.op_capacity": "OP 容量",
   "op.brandonscore.op_stored": "OP 已儲存",
   "op.brandonscore.op_transfer": "OP 傳輸速率",
-  "op.brandonscore.operational_potential": "運轉資訊",
+  "op.brandonscore.operational_potential": "Operational Potential",
   "struct_build.brandonscore.found_invalid": "建造時發生錯誤：在座標 %2$s 找到無效方塊「%1$s」。",
   "struct_build.brandonscore.missing_required": "建造時發生錯誤：無法完成結構！缺少所需方塊「%s」。"
 }
