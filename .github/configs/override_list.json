@@ -268,6 +268,12 @@
             "modID": "blossom-pvp",
             "licenseURL": "https://raw.githubusercontent.com/BlossomMods/BlossomPVP/main/LICENSE",
             "url": "https://raw.githubusercontent.com/BlossomMods/BlossomPVP/main/src/main/resources/data/blossom/lang/zh_tw.json"
+        },
+        {
+            "modName": "Gobber",
+            "modLoader": "Forge",
+            "modVersion": "1.18",
+            "url": "https://www.mediafire.com/file/2nc6eg2uidwzw8j/Gobber2-Forge-1.18.2-2.6.37-tw.jar"
         }
     ]
 }
