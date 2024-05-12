@@ -100,6 +100,7 @@
         <li><a href="https://grant88.pixnet.net/blog/post/44851513">BCLib</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/43700814">JourneyMap</a></li>
         <li><a href="https://grant88.pixnet.net/blog/post/44292148">Fairy Lights</a></li>
+        <li><a href="https://grant88.pixnet.net/blog/post/45254902">Gobber</a></li>
       </ul>
   </details>
 * [Crowdin 社群](https://crowdin.com)
