@@ -225,10 +225,12 @@
   "origins.gui.impact.low": "低",
   "origins.gui.impact.medium": "中",
   "origins.gui.impact.high": "高",
-  "origins.gui.version_mismatch": "伺服器安裝的起源模組版本（v%1$s）和你的（v%2$s）不相同且不相容。",
+  "origins.gui.version_mismatch": "伺服器的《起源》模組版本「v%1$s」，與你安裝的「v%2$s」不相同且不相容。",
+
 
   "origins.gui.badge.active": "按 %s 使用能力",
-  "origins.gui.badge.toggle": "按 %s 切換開關",
+  "origins.gui.badge.toggle": "按 %s 開關能力",
+
   "origins.gui.badge.recipe.crafting.shaped": "合成配方（有序）：",
   "origins.gui.badge.recipe.crafting.shapeless": "合成配方（無序）：",
 
