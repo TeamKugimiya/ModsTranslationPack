@@ -104,7 +104,7 @@
   "power.origins.burn_in_daylight.description": "當你不隱形時，陽光會讓你著火。",
 
   "power.origins.fall_immunity.name": "雜技",
-  "power.origins.fall_immunity.description": "不管你從多高跳下來，都不會讓你受到摔落傷害。",
+  "power.origins.fall_immunity.description": "無論從多麼高的地方跳下來，你都不會受到摔落傷害。",
 
   "power.origins.sprint_jump.name": "腳踝有力",
   "power.origins.sprint_jump.description": "在跑步時能跳得更高。",
@@ -152,7 +152,7 @@
 
 
   "power.origins.shulker_inventory.name": "囤積物資",
-  "power.origins.shulker_inventory.description": "你有額外 9 格死亡還能保留物品的物品欄。",
+  "power.origins.shulker_inventory.description": "你有額外 9 格物品欄，在死亡時能夠保留物品。",
 
   "power.origins.natural_armor.name": "外殼結實",
 
