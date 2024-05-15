@@ -1,5 +1,73 @@
 # Changelog
 
+## [1.7.10](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.9...v1.7.10) (2024-05-15)
+
+
+### 🔧 修正錯誤
+
+* **deps:** update dependency aiohttp to v3.9.4 ([#605](https://github.com/xMikux/ModsTranslationPack/issues/605)) ([89d565c](https://github.com/xMikux/ModsTranslationPack/commit/89d565cfb86fedf26a869bc73511d67630e162a5))
+* **deps:** update dependency aiohttp to v3.9.5 ([#610](https://github.com/xMikux/ModsTranslationPack/issues/610)) ([f3f17e7](https://github.com/xMikux/ModsTranslationPack/commit/f3f17e79e5159f12bb8a7e3b2afa28c3d0244923))
+* **deps:** update dependency pillow to v10.3.0 ([#599](https://github.com/xMikux/ModsTranslationPack/issues/599)) ([81dc7b3](https://github.com/xMikux/ModsTranslationPack/commit/81dc7b3f3e787edbd04c2f4487bf8a19b6f077ec))
+
+
+### 🧹 整理專案
+
+* **CI:** 更新版本至 1.20.5 ([#623](https://github.com/xMikux/ModsTranslationPack/issues/623)) ([df57e2f](https://github.com/xMikux/ModsTranslationPack/commit/df57e2f6723bacb9edb5b7ecaa1870dd405636c4))
+* **deps:** update geekyeggo/delete-artifact action to v5 ([#592](https://github.com/xMikux/ModsTranslationPack/issues/592)) ([3e9d929](https://github.com/xMikux/ModsTranslationPack/commit/3e9d929f26a7b313e5853042f13b15f66d4d9414))
+* **deps:** update taskmedia/action-conventional-commits action to v1.1.14 ([#587](https://github.com/xMikux/ModsTranslationPack/issues/587)) ([714bd19](https://github.com/xMikux/ModsTranslationPack/commit/714bd19cd646b7b0c858e641f9d1f99883a249bc))
+* **deps:** update taskmedia/action-conventional-commits action to v1.1.15 ([#598](https://github.com/xMikux/ModsTranslationPack/issues/598)) ([2581d94](https://github.com/xMikux/ModsTranslationPack/commit/2581d949c90e7124dace33819c610833439a096f))
+* **deps:** update taskmedia/action-conventional-commits action to v1.1.16 ([#620](https://github.com/xMikux/ModsTranslationPack/issues/620)) ([c56b45e](https://github.com/xMikux/ModsTranslationPack/commit/c56b45efd514345f9354db98135ffb1801f9c5f8))
+* **deps:** update taskmedia/action-conventional-commits action to v1.1.17 ([#630](https://github.com/xMikux/ModsTranslationPack/issues/630)) ([2143d5c](https://github.com/xMikux/ModsTranslationPack/commit/2143d5c0fdb751da4dcd45ca897b6ab664f4bb02))
+* **Override:** 新增 Gobber 覆蓋 ([#629](https://github.com/xMikux/ModsTranslationPack/issues/629)) ([d62d1b5](https://github.com/xMikux/ModsTranslationPack/commit/d62d1b55c605244433e8e339050faf7097deceb5))
+* **Override:** 更新覆蓋 ([#628](https://github.com/xMikux/ModsTranslationPack/issues/628)) ([f11932c](https://github.com/xMikux/ModsTranslationPack/commit/f11932c8061aad68b3a3321e81c793e2164b5c74))
+
+
+### 📑 文件更新
+
+* **Readme:** 更新模組數量 ([#593](https://github.com/xMikux/ModsTranslationPack/issues/593)) ([bbcc4ee](https://github.com/xMikux/ModsTranslationPack/commit/bbcc4ee513086b65537b57602c768131d98d82e1))
+
+
+### ⚡ 新增模組翻譯
+
+* **Advanced Backups:** 新增進階備份 v3.5 ([#615](https://github.com/xMikux/ModsTranslationPack/issues/615)) ([50c8fc5](https://github.com/xMikux/ModsTranslationPack/commit/50c8fc55def9f8de52e5d001159b8bf941781ea3))
+* **Advancement Frames:** 新增進度展示框 v2.2.3 ([#590](https://github.com/xMikux/ModsTranslationPack/issues/590)) ([dea3c6c](https://github.com/xMikux/ModsTranslationPack/commit/dea3c6c2f3bf5d17ded1106a0ea693308efae3c0))
+* **Amendments:** 新增 Amendments v1.1.10 ([#589](https://github.com/xMikux/ModsTranslationPack/issues/589)) ([a3e62db](https://github.com/xMikux/ModsTranslationPack/commit/a3e62db09002cd940d85596559b3df76c880a6eb))
+* **Block Runner:** 新增 Block Runner v8.0.4 ([#602](https://github.com/xMikux/ModsTranslationPack/issues/602)) ([ca02fd3](https://github.com/xMikux/ModsTranslationPack/commit/ca02fd32fdba676864f7333157cc2a9912357d0d))
+* **Brandon's Core:** 新增 Brandon's Core v3.1.10 ([#625](https://github.com/xMikux/ModsTranslationPack/issues/625)) ([8bdd730](https://github.com/xMikux/ModsTranslationPack/commit/8bdd730249a0adb32563b2c03eae13f37fec3f59))
+* **Camp Chair:** 新增露營椅 v1.0.3 ([#591](https://github.com/xMikux/ModsTranslationPack/issues/591)) ([d503c88](https://github.com/xMikux/ModsTranslationPack/commit/d503c88b383dc56c2693682191a9f419354511a1))
+* **Chalk:** 新增粉筆 v1.6.3 ([#609](https://github.com/xMikux/ModsTranslationPack/issues/609)) ([2405ee4](https://github.com/xMikux/ModsTranslationPack/commit/2405ee43df1eaae35ac736c42927ac4f5e9fa4c5))
+* **Convenient Decor:** 新增精簡裝飾 v0.4.1 ([#597](https://github.com/xMikux/ModsTranslationPack/issues/597)) ([179418b](https://github.com/xMikux/ModsTranslationPack/commit/179418bfb13f91c511b231b32af80b224c3e72d5))
+* **Dark Mode Everywhere:** 新增深色模式無處不在 v1.1.4 ([#612](https://github.com/xMikux/ModsTranslationPack/issues/612)) ([19ee9c9](https://github.com/xMikux/ModsTranslationPack/commit/19ee9c98c75f157e42a8f2c9952ad16bcb54212e))
+* **Draconic Additions:** 新增龍族進化：追加 v2.2.7.10 ([#627](https://github.com/xMikux/ModsTranslationPack/issues/627)) ([e9ef74b](https://github.com/xMikux/ModsTranslationPack/commit/e9ef74bebfbe7658c651e479111c32f0998dca1a))
+* **Draconic Evolution:** 新增龍族進化 v3.0.31 ([#626](https://github.com/xMikux/ModsTranslationPack/issues/626)) ([c555ae0](https://github.com/xMikux/ModsTranslationPack/commit/c555ae011ea3a648c7c2818da1af8f77b9dcaaff))
+* **Drip Sounds:** 新增滴落音效 v0.3.2 ([#621](https://github.com/xMikux/ModsTranslationPack/issues/621)) ([648e34f](https://github.com/xMikux/ModsTranslationPack/commit/648e34fc770445ec218131a79ff720fcf335c97d))
+* **Enigmatic Unity:** 新增謎團統合 v1.5 ([#611](https://github.com/xMikux/ModsTranslationPack/issues/611)) ([38ff16d](https://github.com/xMikux/ModsTranslationPack/commit/38ff16d9c99ff36ee79cf73ad150473ecf6669ad))
+* **Hamsters Plus:** 新增 Hamsters Plus ([#600](https://github.com/xMikux/ModsTranslationPack/issues/600)) ([0f3e37f](https://github.com/xMikux/ModsTranslationPack/commit/0f3e37f16380c3b91db0edd322af9f7dc011b5ef))
+* **Mob Scarecrow:** 新增生物稻草人 v2.3.0 ([#594](https://github.com/xMikux/ModsTranslationPack/issues/594)) ([f77eb17](https://github.com/xMikux/ModsTranslationPack/commit/f77eb1780e4db0caeb161563f52d4f30169f1bbf))
+* **More Delight:** 新增 More Delight v1.2.2 ([#622](https://github.com/xMikux/ModsTranslationPack/issues/622)) ([92aa506](https://github.com/xMikux/ModsTranslationPack/commit/92aa506b6c44088fdc5033c7e3931daaa504c909))
+* **Ocean's Delight:** 新增海洋樂事 v1.0.2 ([#618](https://github.com/xMikux/ModsTranslationPack/issues/618)) ([c09f2cd](https://github.com/xMikux/ModsTranslationPack/commit/c09f2cd6eac97be1a9043f7e2bdf76de24b55a83))
+* **Origins: Classes:** 新增起源：職業 v1.20-1.7.0 ([#586](https://github.com/xMikux/ModsTranslationPack/issues/586)) ([06db6ae](https://github.com/xMikux/ModsTranslationPack/commit/06db6ae55a90c56e3cf1bc407b4f072bf2b6c591))
+* **Origins:** 新增起源 1.20.1-v1.10.0 ([#585](https://github.com/xMikux/ModsTranslationPack/issues/585)) ([d060dab](https://github.com/xMikux/ModsTranslationPack/commit/d060dab6ea43552747736333bf4804a6a8b55b0d))
+* **Pumpkin Pie Delight:** 新增南瓜派樂事 v1.0.1 ([#617](https://github.com/xMikux/ModsTranslationPack/issues/617)) ([f791721](https://github.com/xMikux/ModsTranslationPack/commit/f7917211d8736a3382d1241665b46e77e2db9ca7))
+* **Quark Delight:** 新增 Quark 樂事 v1.0.0 ([#596](https://github.com/xMikux/ModsTranslationPack/issues/596)) ([516613a](https://github.com/xMikux/ModsTranslationPack/commit/516613a1c45f68ae9581ede9c16fdafcfbfc7191))
+* **Rapscallions and Rockhoppers:** 新增 Rapscallions and Rockhoppers v1.1.2 ([#607](https://github.com/xMikux/ModsTranslationPack/issues/607)) ([78ec832](https://github.com/xMikux/ModsTranslationPack/commit/78ec832d907d38b0a5a9ed019c2faecffef0e60f))
+* **Re:Deco:** 新增 Re:Deco v1.8.0 ([#616](https://github.com/xMikux/ModsTranslationPack/issues/616)) ([ef1fae9](https://github.com/xMikux/ModsTranslationPack/commit/ef1fae991078936f706730fd4e0ef5e6a914dcc4))
+* **Stackables:** 新增 Stackables v2.0.1 ([#604](https://github.com/xMikux/ModsTranslationPack/issues/604)) ([9a95507](https://github.com/xMikux/ModsTranslationPack/commit/9a95507ca947242e4f269be7b3b7788e6dda1fb2))
+* **StarbuncleMania:** 新增星寶石獸狂熱 v1.0.11 ([#613](https://github.com/xMikux/ModsTranslationPack/issues/613)) ([1779018](https://github.com/xMikux/ModsTranslationPack/commit/17790183eb7fd4c0348180d54a5b81adeeeabbb5))
+* **Superior Shields:** 新增卓越護盾 v3.0.2a ([#614](https://github.com/xMikux/ModsTranslationPack/issues/614)) ([80eebb8](https://github.com/xMikux/ModsTranslationPack/commit/80eebb82ab3b2381b82fd8182be9996124403977))
+* **The Aether:** 新增天堂 v1.4.2 ([#579](https://github.com/xMikux/ModsTranslationPack/issues/579)) ([9898f04](https://github.com/xMikux/ModsTranslationPack/commit/9898f04fa9b0ad0689b1e3ff00bb4bc2211b4546))
+* **Vanilla Cookbook:** 新增 Vanilla Cookbook v2.2.2 ([#619](https://github.com/xMikux/ModsTranslationPack/issues/619)) ([acea8c4](https://github.com/xMikux/ModsTranslationPack/commit/acea8c48944540708ac102f9898be989e8a6f951))
+
+
+### 🐌 更新模組翻譯
+
+* **Comforts:** 更新翻譯至 v6.3.5 ([#601](https://github.com/xMikux/ModsTranslationPack/issues/601)) ([87e2d85](https://github.com/xMikux/ModsTranslationPack/commit/87e2d8527fcddd948c2ef8fc4578b27f9416caa9))
+* **Crabber's Delight:** 更新翻譯至 1.1.4 ([#603](https://github.com/xMikux/ModsTranslationPack/issues/603)) ([261770a](https://github.com/xMikux/ModsTranslationPack/commit/261770a24393f1aae609ef64f51818a872cd73f9))
+* **Enderman Overhaul:** 更新翻譯至 v1.1.8 ([#608](https://github.com/xMikux/ModsTranslationPack/issues/608)) ([b0cbefc](https://github.com/xMikux/ModsTranslationPack/commit/b0cbefcf9865f635605e6bb23219a465634ef396))
+* **Let's Do: Beachparty:** 更新翻譯至 v1.1.4 ([#606](https://github.com/xMikux/ModsTranslationPack/issues/606)) ([0abb8c5](https://github.com/xMikux/ModsTranslationPack/commit/0abb8c5da723c80f03640341ba51fd71c57bd0ee))
+* **Quality Crops:** 更新翻譯至 v1.3.3 ([#595](https://github.com/xMikux/ModsTranslationPack/issues/595)) ([c3b8352](https://github.com/xMikux/ModsTranslationPack/commit/c3b83524bdc225b778ecb4d224097e45bb874a0f))
+* **Woodworks:** 更新至 v3.0.1 ([#624](https://github.com/xMikux/ModsTranslationPack/issues/624)) ([9b97349](https://github.com/xMikux/ModsTranslationPack/commit/9b973494efd1d96c4c1575e277ee535fba66e1c0))
+
 ## [1.7.9](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.8...v1.7.9) (2024-02-17)
 
 
