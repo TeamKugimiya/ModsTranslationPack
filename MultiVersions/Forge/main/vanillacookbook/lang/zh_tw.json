@@ -127,7 +127,7 @@
 	"block.vanillacookbook.pancake_stack": "鬆餅堆",
 	"block.vanillacookbook.brownie_tray": "方格布朗尼",
 	"vanillacookbook.tooltip.cheese": "解除所有狀態效果",
-	"vanillacookbook.tooltip.golden_fruit_salad": "治療 2 點生命值",
+	"vanillacookbook.tooltip.golden_fruit_salad": "治療 2 顆心",
 	"vanillacookbook.tooltip.ice_cream": "冰涼止火",
 	"vanillacookbook.tooltip.chocolate_ice_cream": "冰涼止火",
 	"vanillacookbook.tooltip.berry_ice_cream": "冰涼止火",
@@ -151,12 +151,12 @@
 	"vanillacookbook.tooltip.rose_rock_candy": "解除劇毒效果",
 	"vanillacookbook.tooltip.polished_rose_rock_candy": "解除劇毒效果",
 	"vanillacookbook.tooltip.mana_roll": "解除所有狀態效果",
-	"vanillacookbook.tooltip.tater_puffs": "50% 機率治療 1 顆生命值",
+	"vanillacookbook.tooltip.tater_puffs": "50% 機率治療 1 顆心",
 	"advancements.more_balanced_diet.title": "絕對均衡飲食",
 	"advancements.more_balanced_diet.description": "再次吃遍所有可以食用的東西！",
 	"advancements.cake.title": "智慧之食",
 	"advancements.cake.description": "合成一本食譜蛋糕，感謝你使用《Vanilla Cookbook》！",
 	"advancements.easter_egg.title": "復活節彩蛋！",
 	"advancements.easter_egg.description": "你找到了一顆復活節彩蛋...如假包換！",
-	"itemGroup.vanillacookbook": "Vanilla Cookbook"
+	"itemGroup.vanillacookbook": "原版烹飪食譜"
 }
