@@ -1,0 +1,98 @@
+{
+	"itemGroup.starbunclemania": "星寶石獸狂熱",
+
+	"starbunclemania.glyph_name.glyph_": "",
+	"starbunclemania.glyph_name.glyph_place_fluid": "放置流體",
+	"starbunclemania.glyph_desc.glyph_place_fluid": "將流體放置在世界上。流體會從施法者快捷爛，或炮塔旁的流體容器中取用。",
+	"starbunclemania.glyph_name.glyph_pickup_fluid": "拾取流體",
+	"starbunclemania.glyph_desc.glyph_pickup_fluid": "拾取世界上的流體，並裝進施法者快捷欄，或炮塔旁的流體容器中。",
+
+
+	"block.starbunclemania.fluid_jar": "流體罐",
+	"block.starbunclemania.fluid_sourcelink": "流體魔源通道",
+	"block.starbunclemania.source_condenser": "魔源凝結器",
+
+	"item.starbunclemania.direction_scroll": "方位卷軸",
+	"item.starbunclemania.fluid_scroll_allow": "流體卷軸：允許",
+	"item.starbunclemania.fluid_scroll_deny": "流體卷軸：拒絕",
+
+	"item.starbunclemania.star_hat": "布魯士帽",
+	"item.starbunclemania.wyrm_degree": "書龍學位",
+	"item.starbunclemania.star_battery": "星寶石獸電池",
+	"item.starbunclemania.star_bucket": "星寶石獸桶",
+	"item.starbunclemania.star_balloon": "星寶石獸氣球",
+	"item.starbunclemania.star_bin": "星寶石獸垃圾桶",
+	"item.starbunclemania.star_saddle": "星寶石獸鞍 [半成品]",
+	"item.starbunclemania.star_sword": "星寶石獸劍 [半成品]",
+	"item.starbunclemania.star_wand": "神聖之杖 [半成品]",
+	"item.starbunclemania.fluid_jar": "流體罐",
+	"item.starbunclemania.source_fluid_bucket": "液態魔源桶",
+	"fluid_type.starbunclemania.source_fluid": "液態魔源",
+	"gas.starbunclemania.source_gas": "氣態魔源",
+	"entity.starbunclemania.starby_mount": "星寶石獸",
+
+	"ars_nouveau.starbuncle.sided_item_behavior_set": "星寶石獸將會從方塊的指定一側，存放／取出物品",
+	"ars_nouveau.starbuncle.fluid_behavior_set": "星寶石獸將開始運輸流體",
+	"ars_nouveau.starbuncle.energy_behavior_set": "星寶石獸將開始運輸能量",
+	"ars_nouveau.starbuncle.gas_behavior_set": "星寶石獸將開始運輸氣體",
+	"ars_nouveau.starbuncle.trash_behavior_set": "星寶石獸將會銷毀物品",
+	"ars_nouveau.starbuncle.sword_behavior_set": "星寶石獸選擇開始付諸暴力",
+	"ars_nouveau.starbuncle.heal_behavior_set": "星寶石獸將開始治療生物",
+
+	"ars_nouveau.starbuncle.default_behavior": "已還原回預設的物品傳輸模式",
+	"ars_nouveau.starbuncle.energy_to": "星寶石獸將在這裡儲存能量",
+	"ars_nouveau.starbuncle.energy_from": "星寶石獸將從這顆電池中取出能量",
+
+	"starbunclemania.tooltip.fluid_jar": "已儲存 %dmB 的",
+	"ars_nouveau.starbuncle.fluid_to": "星寶石獸將在這裡儲存流體",
+	"ars_nouveau.starbuncle.fluid_from": "星寶石獸將從這個容器取出流體",
+
+	"starbunclemania.tooltip.gas": "已儲存 %dmB 的",
+	"ars_nouveau.starbuncle.gas_to": "星寶石獸將在這裡儲存氣體",
+	"ars_nouveau.starbuncle.gas_from": "星寶石獸將從這個容器取出氣體",
+
+	"ars_nouveau.starbuncle.trashing_items": "銷毀地面與 %d 處容器中的物品",
+
+	"ars_nouveau.starbuncle.storing_energy": "正在向 %d 處位置儲存能量",
+	"ars_nouveau.starbuncle.taking_energy": "正在從 %d 處位置取出能量",
+
+	"ars_nouveau.starbuncle.storing_fluid": "正在向 %d 處位置儲存流體",
+	"ars_nouveau.starbuncle.taking_fluid": "正在從 %d 處位置取出流體",
+
+	"ars_nouveau.starbuncle.storing_gas": "正在向 %d 處位置儲存氣體",
+	"ars_nouveau.starbuncle.taking_gas": "正在從 %d 處位置取出氣體",
+
+	"starbunclemania.cosmetic": "裝飾配件",
+	"starbunclemania.page.direction_scroll": "為星寶石獸自動化，指定與方塊的特定面／方位互動。當對著星寶石獸使用卷軸，或是將卷軸放入方塊上的物品展示框，星寶石獸將會與方塊的特定一側互動。",
+	"starbunclemania.page.fluid_scroll": "為星寶石獸流體自動化，提供篩選方式。使用方式如同物品卷軸，對著星寶石獸使用，或是將卷軸放入流體容器上的物品展示框。",
+	"starbunclemania.page.fluid_jar": "由奔流至高木製作而成的流體儲罐，最多能容納 16 桶的流體。若用來儲存藥水流體，並將藥水罐放在儲罐上方，藥水流體將會被轉換進罐子當中，以供燒瓶／混合器使用。",
+	"starbunclemania.page.fluid_sourcelink": "藉由消耗流體來產生魔源。將受支援的儲罐放置在魔源通道下方時，將會從該容器中抽取流體。",
+	"starbunclemania.page.source_condenser": "用來將罐子中的魔源凝結成穩定可用的流體。在凝結器下方放置受支援的流體儲罐時，會自動將凝結後的流體輸出進該容器中。",
+	"starbunclemania.page.star_hat": "來自《星寶石獸狂熱》模組的裝飾配件，不僅是能用來討星寶石獸工人歡心，也能將其使用在你的星寶石獸使魔上！這頂帽子沒有任何用途，但它看起來確實很時尚。拿著裝飾配件對著星寶石獸 Shift + 按下右鍵，只會為其戴上一頂裝飾性的帽子，而不是指派自動化作業。",
+	"starbunclemania.page.star_battery": "指派星寶石獸運輸能量。戴上該裝飾配件後，使用支配之杖來對其分配能量方塊。",
+	"starbunclemania.page.star_bucket": "指派星寶石獸運輸流體。戴上該裝飾配件後，使用支配之杖來對其分配流體容器。",
+	"starbunclemania.page.star_balloon": "指派星寶石獸運輸來自《通用機械》的簡易氣體。若僅作為裝飾用途，能用染料對氣球進行染色；但當用來運輸氣體時，氣球將會隨載運的氣體變色。戴上該裝飾配件後，使用支配之杖來對其分配氣體容器。",
+	"starbunclemania.page.wyrm_degree": "讓星寶石獸能透過方位卷軸，從方塊的指定一側存入／取出物品。",
+	"starbunclemania.page.star_bin": "指派星寶石獸進行垃圾處理。戴上該裝飾配件後，星寶石獸將會銷毀周遭地面上的任何物品。",
+	"starbunclemania.page.star_saddle": "指派星寶石獸載運玩家。戴上該裝飾配件後，星寶石獸將變成能夠載運玩家的大小。[功能仍是半成品，功能上可能會有些小瑕疵]",
+
+	"starbunclemania.adv.title.wyrm_degree": "這也要歸功於我的兩個學位...",
+	"starbunclemania.adv.desc.wyrm_degree": "獲得書龍學位",
+	"starbunclemania.adv.title.star_battery": "能量運輸",
+	"starbunclemania.adv.desc.star_battery": "獲得星寶石獸電池",
+	"starbunclemania.adv.title.star_bucket": "流體運輸",
+	"starbunclemania.adv.desc.star_bucket": "獲得星寶石獸桶",
+	"starbunclemania.adv.title.star_balloon": "氣體運輸",
+	"starbunclemania.adv.desc.star_balloon": "獲得星寶石獸氣球",
+	"starbunclemania.adv.title.star_bin": "垃圾愛好者",
+	"starbunclemania.adv.desc.star_bin": "獲得星寶石獸垃圾桶",
+	"starbunclemania.adv.title.fluid_jar": "如果...",
+	"starbunclemania.adv.desc.fluid_jar": "獲得流體罐",
+	"starbunclemania.adv.title.fluid_sourcelink": "魔源灑水器",
+	"starbunclemania.adv.desc.fluid_sourcelink": "獲得流體魔源通道",
+	"starbunclemania.adv.title.source_condenser": "異端黏性物",
+	"starbunclemania.adv.desc.source_condenser": "獲得魔源凝結器",
+	"starbunclemania.adv.title.": "",
+	"starbunclemania.adv.desc.": ""
+
+}
