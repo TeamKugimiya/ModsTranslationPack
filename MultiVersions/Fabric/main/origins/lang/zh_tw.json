@@ -1,0 +1,247 @@
+{
+  "origin.origins.human.name": "人類",
+  "origin.origins.human.description": "平平無奇的人類，正等著你開始平凡的 Minecraft 旅途。",
+
+  "origin.origins.merling.name": "人魚族",
+  "origin.origins.merling.description": "這類海洋生物並不適合離開水下太久。",
+
+  "origin.origins.arachnid.name": "蛛形族",
+  "origin.origins.arachnid.description": "攀爬和織網捕捉獵物的能力，使蛛形族生物成為優秀的獵人。",
+
+  "origin.origins.blazeborn.name": "烈焰族",
+  "origin.origins.blazeborn.description": "身為烈焰使者的後代，烈焰族天生免疫地獄裡的種種威脅。",
+
+  "origin.origins.avian.name": "鳥人族",
+  "origin.origins.avian.description": "鳥人族很久以前就失去了飛行能力，這種和平的生物現在只能夠靠著滑翔在兩地之間來回。",
+
+  "origin.origins.phantom.name": "半夜魅人族",
+  "origin.origins.phantom.description": "身為半人、半夜魅，半夜魅人族能夠在夜魅和人類型態之間切換。",
+
+  "origin.origins.feline.name": "貓人族",
+  "origin.origins.feline.description": "貓人族有著貓一般的外表，能夠嚇跑苦力怕；並且和貓一樣靈活，能夠從高處落下並安全著陸。",
+
+  "origin.origins.elytrian.name": "帶翼族",
+  "origin.origins.elytrian.description": "由於長年隨風飛行，帶翼族在頭上沒有足夠的空間時會感到不適。",
+
+  "origin.origins.enderian.name": "終界族",
+  "origin.origins.enderian.description": "作為終界龍的後代子嗣，終界族擁有傳送的能力，但也害怕接觸水。",
+
+  "origin.origins.shulk.name": "蚌殼族",
+  "origin.origins.shulk.description": "蚌殼族和界伏蚌之間的親緣關係接近，身體包覆著殼狀的皮膚以保護自己。",
+
+  "power.origins.water_breathing.name": "用鰓呼吸",
+  "power.origins.water_breathing.description": "你只能在水下呼吸。",
+
+  "power.origins.aqua_affinity.name": "親水性",
+  "power.origins.aqua_affinity.description": "你在水下的挖掘速度，與在陸地上的一般人並無差異。",
+
+  "power.origins.water_vision.name": "水下視力良好",
+  "power.origins.water_vision.description": "你在水中的視力一流。",
+
+  "power.origins.swim_speed.name": "鰭",
+  "power.origins.swim_speed.description": "你的游泳速度獲得提升。",
+
+  "power.origins.like_water.name": "人水合一",
+  "power.origins.like_water.description": "只要你想，你在水裡就永遠不會下沉。",
+
+  "power.origins.fragile.name": "脆弱",
+  "power.origins.fragile.description": "你和一般人相比少了三顆心的血量。",
+
+  "power.origins.webbing.name": "織網",
+  "power.origins.webbing.description": "當你近戰攻擊敵人時使他們陷入蜘蛛網。",
+
+  "power.origins.climbing.name": "攀爬",
+  "power.origins.climbing.description": "除了梯子之外，你還能爬上牆壁。",
+
+  "power.origins.carnivore.name": "肉食生物",
+  "power.origins.carnivore.description": "你的飲食被限制，只能靠吃肉充飢。",
+
+  "power.origins.fire_immunity.name": "免疫火焰",
+  "power.origins.fire_immunity.description": "你免疫所有種類的火焰攻擊",
+
+  "power.origins.nether_spawn.name": "地獄原生種",
+  "power.origins.nether_spawn.description": "你的自然重生點位於地獄",
+
+  "power.origins.burning_wrath.name": "烈炎之怒",
+  "power.origins.burning_wrath.description": "當你著火時，攻擊能造成額外傷害。",
+
+  "power.origins.hotblooded.name": "熾熱血液",
+  "power.origins.hotblooded.description": "你的身體熱到足以分解毒素，能夠免疫劇毒和飢餓狀態。",
+
+  "power.origins.water_vulnerability.name": "恐水",
+  "power.origins.water_vulnerability.description": "接觸水將會受到持續傷害",
+
+  "power.origins.tailwind.name": "順風",
+  "power.origins.tailwind.description": "你走路比其他人還要快一些",
+
+  "power.origins.slow_falling.name": "輕如鴻毛",
+  "power.origins.slow_falling.description": "你會像羽毛一樣緩緩落下，除非你在墜落過程時潛行。",
+
+  "power.origins.vegetarian.name": "素食者",
+  "power.origins.vegetarian.description": "你無法消化任何肉類",
+
+  "power.origins.fresh_air.name": "新鮮空氣",
+  "power.origins.fresh_air.description": "你睡覺時必須待在海拔至少 86 格方塊的地方，才能呼吸新鮮空氣。",
+
+  "power.origins.phasing.name": "穿牆術",
+  "power.origins.phasing.description": "當夜魅化時，你可以走入除了黑曜石的固體方塊。",
+
+  "power.origins.invisibility.name": "隱形",
+  "power.origins.invisibility.description": "當夜魅化時，你將會隱身",
+
+  "power.origins.hunger_over_time.name": "新陳代謝快速",
+  "power.origins.hunger_over_time.description": "夜魅化使你更快感到飢餓。",
+
+  "power.origins.burn_in_daylight.name": "對光過敏",
+  "power.origins.burn_in_daylight.description": "當你不隱形時，陽光會讓你著火。",
+
+  "power.origins.fall_immunity.name": "雜技",
+  "power.origins.fall_immunity.description": "無論從多麼高的地方跳下來，你都不會受到摔落傷害。",
+
+  "power.origins.sprint_jump.name": "腳踝有力",
+  "power.origins.sprint_jump.description": "在跑步時能跳得更高。",
+
+  "power.origins.nine_lives.name": "九條命",
+  "power.origins.nine_lives.description": "你和一般人相比少了一顆心的血量。",
+
+  "power.origins.cat_vision.name": "夜行性",
+  "power.origins.cat_vision.description": "當你不在水中時，在黑暗中的視力非常清晰。",
+
+  "power.origins.weak_arms.name": "手臂虛弱",
+  "power.origins.weak_arms.description": "除非有力量狀態，否則你無法挖掘相鄰超過兩個石頭的石頭。",
+
+  "power.origins.scare_creepers.name": "貓一般的外表",
+  "power.origins.scare_creepers.description": "苦力怕會被你嚇跑，只有當你先攻擊他們時才會爆炸。",
+
+  "power.origins.launch_into_air.name": "風神的饋贈",
+  "power.origins.launch_into_air.description": "你每 30 秒就能夠衝上 20 格高的地方。",
+
+  "power.origins.elytra.name": "翅膀",
+  "power.origins.elytra.description": "自帶鞘翅，無須裝備。",
+
+  "power.origins.light_armor.name": "兼顧活動性",
+  "power.origins.light_armor.description": "你無法穿戴重甲（盔甲值大於鎖鏈盔甲。）",
+
+  "power.origins.claustrophobia.name": "幽閉恐懼",
+  "power.origins.claustrophobia.description": "在天花板過低的地方，會使你變得虛弱並且走得更慢。",
+
+  "power.origins.more_kinetic_damage.name": "骨骼脆弱",
+  "power.origins.more_kinetic_damage.description": "摔落和滑翔撞擊到方塊時，受到的傷害將會增加。",
+
+  "power.origins.aerial_combatant.name": "天空鬥士",
+  "power.origins.aerial_combatant.description": "在用鞘翅飛行時，攻擊會附加大量的額外傷害。",
+
+  "power.origins.throw_ender_pearl.name": "傳送",
+  "power.origins.throw_ender_pearl.description": "當你想要時，你可以丟出一個不會造成傷害的終界珍珠用來傳送。",
+
+  "power.origins.pumpkin_hate.name": "害怕南瓜",
+  "power.origins.pumpkin_hate.description": "因為某些原因，你對南瓜產生了恐懼。",
+
+  "power.origins.extra_reach.name": "身軀瘦長",
+  "power.origins.extra_reach.description": "你的手能觸及到更遠的地方。",
+
+  "power.origins.shulker_inventory.name": "囤積物資",
+  "power.origins.shulker_inventory.description": "你有額外 9 格物品欄，在死亡時能夠保留物品。",
+
+  "power.origins.natural_armor.name": "外殼結實",
+  "power.origins.natural_armor.description": "就算你不穿任何裝備，你還有外殼能夠提供防護。",
+
+  "power.origins.more_exhaustion.name": "大胃王",
+  "power.origins.more_exhaustion.description": "你的體力消耗得更快，需要吃更多食物來補足。",
+
+  "power.origins.no_shield.name": "難以舉盾",
+  "power.origins.no_shield.description": "你手部天生的構造，使你注定無法好好地舉起盾牌。",
+
+  "power.origins.strong_arms.name": "手臂強壯",
+  "power.origins.strong_arms.description": "你不用鎬子就能挖下石頭。",
+
+  "power.origins.translucent.name": "半透明",
+  "power.origins.translucent.description": "你的皮膚是半透明的",
+
+  "power.origins.end_spawn.name": "終界原生種",
+  "power.origins.end_spawn.description": "你將會在終界開始旅途",
+
+  "power.origins.master_of_webs.name": "織網大師",
+  "power.origins.master_of_webs.description": "你在蜘蛛網內暢行無阻。當你近戰攻擊敵人時，他們會被蜘蛛網陷住一陣子。並且有任何非節肢動物陷入蜘蛛網時都會被你感知到。你還可以用線合成蜘蛛網。",
+
+  "power.origins.lay_eggs.name": "產卵",
+  "power.origins.lay_eggs.description": "當你早上起床時，便會產下一顆蛋。",
+
+  "power.origins.phantomize.name": "夜魅型態",
+  "power.origins.phantomize.description": "在你飢餓值夠用來跑步時，你可以自由地在人形態和夜魅形態之間切換。",
+
+  "power.origins.like_air.name": "飛總比跑來的快",
+  "power.origins.like_air.description": "行走速度的加成也會套用在飛行速度。",
+
+  "power.origins.velvet_paws.name": "毛茸茸的爪子",
+  "power.origins.velvet_paws.description": "你的腳步不帶有任何氣息，不會引起附近生物的注意。",
+
+  "category.origins": "起源",
+  "key.origins.primary_active": "發動第一能力",
+  "key.origins.secondary_active": "發動第二能力",
+  "key.origins.view_origin": "查看起源",
+
+  "text.autoconfig.origins.title": "《起源》設定",
+  "text.autoconfig.origins.option.xOffset": "冷卻條 X 軸偏移量",
+  "text.autoconfig.origins.option.yOffset": "冷卻條 Y 軸偏移量",
+  "text.autoconfig.origins.option.phantomizedOverlayStrength": "夜魅化視野強度",
+
+  "item.origins.orb_of_origin": "起源之球",
+  "item.origins.orb_of_origin.layer_generic": "選擇新的%s",
+  "item.origins.orb_of_origin.layer_specific": "將你的%1$s設為%2$s",
+
+  "enchantment.origins.water_protection": "水蝕保護",
+  "enchantment.origins.water_protection.desc": "延緩恐水症造成的傷害。",
+
+  "container.shulker_inventory_power": "蚌殼容器",
+
+  "origins.gui.select": "選擇",
+  "origins.gui.close": "關閉",
+  "origins.gui.choose": "選擇",
+  "origins.gui.choose_origin.title": "選擇你的%s",
+  "origins.gui.view_origin.title": "這是你的%s",
+  "origins.gui.view_origin.empty": "你無法選擇任何種族",
+  "origins.gui.view_origin.not_installed": "伺服器並未安裝《起源》模組",
+  "origins.gui.impact.impact": "影響",
+  "origins.gui.impact.none": "無",
+  "origins.gui.impact.low": "低",
+  "origins.gui.impact.medium": "中",
+  "origins.gui.impact.high": "高",
+  "origins.gui.version_mismatch": "伺服器的《起源》模組版本「v%1$s」，與你安裝的「v%2$s」不相同且不相容。",
+
+  "origins.gui.badge.active": "按 %s 使用能力",
+  "origins.gui.badge.toggle": "按 %s 開關能力",
+  "origins.gui.badge.recipe.crafting.shaped": "合成配方（有序）：",
+  "origins.gui.badge.recipe.crafting.shapeless": "合成配方（無序）：",
+
+  "origins.gui.unbound_key": "§o未綁定§r",
+
+  "origin.origins.random.name": "隨機",
+  "origin.origins.random.description": "將從以下種族中選擇其中一個：",
+
+  "layer.origins.origin.name": "種族",
+  "origin.origins.empty.name": "無",
+  "origin.origins.empty.description": "你並沒有種族",
+
+  "death.attack.no_water_for_gills": "%1$s 並未保持濕潤",
+  "death.attack.no_water_for_gills.player": "%1$s 在和 %2$s 戰鬥時並未保持濕潤",
+  "death.attack.hurt_by_water": "%1$s 泡澡泡太久了",
+  "death.attack.hurt_by_water.player": "%1$s 被 %2$s 推下水裡",
+  "death.attack.genericDamageOverTime": "%1$s 死於持續傷害效果",
+  "death.attack.genericDamageOverTime.player": "%1$s 在和 %2$s 戰鬥時死於持續傷害效果",
+
+  "commands.origin.origin_not_found": "未知的起源：%s",
+  "commands.origin.layer_not_found": "未知的類別：%s",
+  "commands.origin.unregistered_in_layer": "%1$s起源並未登錄在%2$s的類別之中！",
+  "commands.origin.get.result": "%s 有以下的%s：%s（%s）",
+  "commands.origin.gui.all": "為 %s 位玩家開啟指定介面",
+  "commands.origin.gui.layer": "為 %1$s 位玩家開啟%2$s介面",
+  "commands.origin.random.all": "為 %1$s 位玩家隨機選擇 %2$s 種起源",
+  "commands.origin.random.not_allowed": "%1$s起源不能被隨機選擇！",
+  "commands.origin.random.success.multiple": "為 %1$s 位玩家隨機選擇一種%2$s起源",
+  "commands.origin.random.success.single": "為 %1$s 的%3$s起源，隨機選擇到了%2$s",
+  "commands.origin.set.success.multiple": "將 %s 位玩家的%s起源設為%s",
+  "commands.origin.set.success.single": "將 %s 的%s起源設為%s",
+
+  "origins.avian_sleep_fail": "你需要新鮮空氣才能睡覺"
+}
