@@ -1,0 +1,72 @@
+{
+  "itemGroup.createutilities.base": "Create Utilities",
+
+  "block.createutilities.gearcube": "6-Axis Gearbox",
+  "block.createutilities.lshaped_gearbox": "L-Shaped Gearbox",
+  "block.createutilities.void_motor": "Void Motor",
+  "block.createutilities.void_chest": "Void Chest",
+  "block.createutilities.void_tank": "Void Tank",
+  "block.createutilities.void_battery": "Void Battery",
+  "block.createutilities.void_casing": "Void Casing",
+  "block.createutilities.void_steel_block": "Block of Void Steel",
+  "block.createutilities.void_steel_scaffolding": "Void Steel Scaffolding",
+  "block.createutilities.void_steel_ladder": "Void Steel Ladder",
+  "block.createutilities.void_steel_bars": "Void Steel Bars",
+  "block.createutilities.amethyst_tiles": "Amethyst Tiles",
+  "block.createutilities.small_amethyst_tiles": "Small Amethyst Tiles",
+
+  "item.createutilities.void_steel_ingot": "Void Steel Ingot",
+  "item.createutilities.void_steel_sheet": "Void Steel Sheet",
+  "item.createutilities.graviton_tube": "Graviton Tube",
+  "item.createutilities.polished_amethyst": "Polished Amethyst",
+
+  "createutilities.logistics.owner": "Owner",
+  "createutilities.logistics.void.click_to_set_owner": "Click to own",
+  "createutilities.logistics.void.click_to_remove_owner": "Click to forfeit ownership",
+
+  "createutilities.tooltip.void_battery.header": "Void Battery Info:",
+  "createutilities.tooltip.void_battery.energy": "Energy",
+
+  "createutilities.ponder.gearcube.header": "Relaying Rotational Force using 6-Axis Gearboxes",
+  "createutilities.ponder.gearcube.text_1": "Relaying rotation in all directions can get bulky quickly",
+  "createutilities.ponder.gearcube.text_2": "A 6-Axis Gearcube is the more compact equivalent of this setup",
+
+  "createutilities.ponder.lshaped_gearbox.header": "Relaying Rotational Force using L-Shaped Gearboxes",
+  "createutilities.ponder.lshaped_gearbox.text_1": "Changing directions can get bulky quickly",
+  "createutilities.ponder.lshaped_gearbox.text_2": "A more compact alternative to this setup is using a Gearbox, but two shafts go unused",
+  "createutilities.ponder.lshaped_gearbox.text_3": "With an L-Shaped Gearbox you can make this in a cleaner and cheaper way",
+  "createutilities.ponder.lshaped_gearbox.text_4": "By Right-clicking it with a Wrench, you can change the orientation of the secondary axis",
+
+  "createutilities.ponder.void_motor.header": "Using Void Motors",
+  "createutilities.ponder.void_motor.text_1": "Void Motors can transmit Rotational Force across distances",
+  "createutilities.ponder.void_motor.text_2": "Placing items in the two upper slots can specify a Frequency",
+  "createutilities.ponder.void_motor.text_3": "Right-click the bottom slot to unclaim the Void Motor",
+  "createutilities.ponder.void_motor.text_4": "Right-click it again to re-claim it",
+  "createutilities.ponder.void_motor.text_5": "If a Void Motor is claimed, only it's owner is able to edit it's Frequency",
+  "createutilities.ponder.void_motor.text_6": "A Void Motor will only receive Rotational Force from Void Motors with the same Frequency and Owner",
+
+  "createutilities.ponder.void_chest.header": "Using Void Chests",
+  "createutilities.ponder.void_chest.text_1": "Void Chests can transmit Items across distances",
+  "createutilities.ponder.void_chest.text_2": "Placing items in the two upper slots can specify a Frequency",
+  "createutilities.ponder.void_chest.text_3": "Right-click the bottom slot to unclaim the Void Chest",
+  "createutilities.ponder.void_chest.text_4": "Right-click it again to re-claim it",
+  "createutilities.ponder.void_chest.text_5": "If a Void Chest is claimed, only it's owner is able to edit it's Frequency",
+  "createutilities.ponder.void_chest.text_6": "A Void Chest will only receive Items from Void Chests with the same Frequency and Owner",
+
+  "createutilities.ponder.void_tank.header": "Using Void Tanks",
+  "createutilities.ponder.void_tank.text_1": "Void Tanks can transmit Fluids across distances",
+  "createutilities.ponder.void_tank.text_2": "Placing items in the two upper slots can specify a Frequency",
+  "createutilities.ponder.void_tank.text_3": "Right-click the bottom slot to unclaim the Void Tank",
+  "createutilities.ponder.void_tank.text_4": "Right-click it again to re-claim it",
+  "createutilities.ponder.void_tank.text_5": "If a Void Tank is claimed, only it's owner is able to edit it's Frequency",
+  "createutilities.ponder.void_tank.text_6": "A Void Tank will only receive Fluids from Void Tanks with the same Frequency and Owner",
+
+  "createutilities.ponder.void_battery.header": "Using Void Batteries",
+  "createutilities.ponder.void_battery.text_1": "Void Batteries can transmit Energy across distances",
+  "createutilities.ponder.void_battery.text_2": "Placing items in the two upper slots can specify a Frequency",
+  "createutilities.ponder.void_battery.text_3": "Right-click the bottom slot to unclaim the Void Battery",
+  "createutilities.ponder.void_battery.text_4": "Right-click it again to re-claim it",
+  "createutilities.ponder.void_battery.text_5": "If a Void Battery is claimed, only it's owner is able to edit it's Frequency",
+  "createutilities.ponder.void_battery.text_6": "A Void Battery will only receive Energy from Void Batteries with the same Frequency and Owner"
+
+}
