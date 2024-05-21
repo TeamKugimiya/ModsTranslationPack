@@ -86,11 +86,11 @@
 	"ftblibrary.palette.blues": "藍色",
 	"ftblibrary.palette.recent": "最近使用的顏色",
 	"ftblibrary.panel.position.top_left": "左上",
-	"ftblibrary.panel.position.top": "上",
+	"ftblibrary.panel.position.top": "中上",
 	"ftblibrary.panel.position.top_right": "右上",
 	"ftblibrary.panel.position.left": "左",
 	"ftblibrary.panel.position.right": "右",
 	"ftblibrary.panel.position.bottom_left": "左下",
-	"ftblibrary.panel.position.bottom": "下",
+	"ftblibrary.panel.position.bottom": "中下",
 	"ftblibrary.panel.position.bottom_right": "右下"
 }
