@@ -1,0 +1,72 @@
+{
+  "itemGroup.createutilities.base": "動力機械｜實用設備",
+
+  "block.createutilities.gearcube": "六軸齒輪箱",
+  "block.createutilities.lshaped_gearbox": "L 形齒輪箱",
+  "block.createutilities.void_motor": "虛空馬達",
+  "block.createutilities.void_chest": "虛空儲物箱",
+  "block.createutilities.void_tank": "虛空儲存罐",
+  "block.createutilities.void_battery": "虛空電池",
+  "block.createutilities.void_casing": "虛空機殼",
+  "block.createutilities.void_steel_block": "虛空鋼方塊",
+  "block.createutilities.void_steel_scaffolding": "虛空鋼鷹架",
+  "block.createutilities.void_steel_ladder": "虛空鋼梯子",
+  "block.createutilities.void_steel_bars": "虛空鋼柵欄",
+  "block.createutilities.amethyst_tiles": "紫水晶磚瓦",
+  "block.createutilities.small_amethyst_tiles": "小紫水晶磚瓦",
+
+  "item.createutilities.void_steel_ingot": "虛空鋼錠",
+  "item.createutilities.void_steel_sheet": "虛空鋼板",
+  "item.createutilities.graviton_tube": "重力子管",
+  "item.createutilities.polished_amethyst": "拋光紫水晶",
+
+  "createutilities.logistics.owner": "擁有者",
+  "createutilities.logistics.void.click_to_set_owner": "點擊認領",
+  "createutilities.logistics.void.click_to_remove_owner": "點擊撤銷擁有權",
+
+  "createutilities.tooltip.void_battery.header": "虛空電池資訊：",
+  "createutilities.tooltip.void_battery.energy": "能量",
+
+  "createutilities.ponder.gearcube.header": "使用六軸齒輪箱傳輸動力",
+  "createutilities.ponder.gearcube.text_1": "朝六個方向傳輸動力，很容易使得整個旋轉體系變得臃腫不堪",
+  "createutilities.ponder.gearcube.text_2": "六軸齒輪箱則是替代方案，它的體積更為小巧緊湊",
+
+  "createutilities.ponder.lshaped_gearbox.header": "使用 L 形齒輪箱傳輸動力",
+  "createutilities.ponder.lshaped_gearbox.text_1": "更改旋轉軸向，很容易使得整個旋轉體系變得臃腫不堪",
+  "createutilities.ponder.lshaped_gearbox.text_2": "齒輪箱則是更緊湊的替代方案，但會有兩邊的傳動軸被閒置",
+  "createutilities.ponder.lshaped_gearbox.text_3": "使用 L 形齒輪箱，你能以更簡潔且更便宜的方式，來實現這個目標",
+  "createutilities.ponder.lshaped_gearbox.text_4": "手持扳手點擊右鍵，你可以改變次軸的朝向",
+
+  "createutilities.ponder.void_motor.header": "使用虛空馬達",
+  "createutilities.ponder.void_motor.text_1": "虛空馬達可以跨距離傳輸動力",
+  "createutilities.ponder.void_motor.text_2": "在它們上方所帶的槽位中放上物品，可以為它們指定頻率",
+  "createutilities.ponder.void_motor.text_3": "對著底部的槽位點擊右鍵，可以撤銷你虛空馬達的擁有權",
+  "createutilities.ponder.void_motor.text_4": "再次點擊右鍵來重新認領擁有權",
+  "createutilities.ponder.void_motor.text_5": "若虛空馬達已被認領擁有權，只有擁有者能夠編輯它的頻率",
+  "createutilities.ponder.void_motor.text_6": "虛空馬達只會從具有相同頻率，以及擁有者的虛空馬達接收動力",
+
+  "createutilities.ponder.void_chest.header": "使用虛空儲物箱",
+  "createutilities.ponder.void_chest.text_1": "虛空儲物箱可以跨距離傳輸物品",
+  "createutilities.ponder.void_chest.text_2": "在它們所帶的槽位中放上物品，可以為它們指定頻率",
+  "createutilities.ponder.void_chest.text_3": "對著底部的槽位點擊右鍵，可以撤銷你虛空儲物箱的擁有權",
+  "createutilities.ponder.void_chest.text_4": "再次點擊右鍵來重新認領擁有權",
+  "createutilities.ponder.void_chest.text_5": "若虛空儲物箱已被認領擁有權，只有擁有者能夠編輯它的頻率",
+  "createutilities.ponder.void_chest.text_6": "虛空儲物箱只會從具有相同頻率，以及擁有者的虛空儲物箱接收物品",
+
+  "createutilities.ponder.void_tank.header": "使用虛空儲存罐",
+  "createutilities.ponder.void_tank.text_1": "虛空儲存罐可以跨距離傳輸流體",
+  "createutilities.ponder.void_tank.text_2": "在它們上方所帶的槽位中放上物品，可以為它們指定頻率",
+  "createutilities.ponder.void_tank.text_3": "對著底部的槽位點擊右鍵，可以撤銷你虛空儲存罐的擁有權",
+  "createutilities.ponder.void_tank.text_4": "再次點擊右鍵來重新認領擁有權",
+  "createutilities.ponder.void_tank.text_5": "若虛空儲存罐已被認領擁有權，只有擁有者能夠編輯它的頻率",
+  "createutilities.ponder.void_tank.text_6": "虛空儲存罐只會從具有相同頻率，以及擁有者的虛空儲存罐接收流體",
+
+  "createutilities.ponder.void_battery.header": "使用虛空電池",
+  "createutilities.ponder.void_battery.text_1": "虛空電池可以跨距離傳輸能量",
+  "createutilities.ponder.void_battery.text_2": "在它們上方所帶的槽位中放上物品，可以為它們指定頻率",
+  "createutilities.ponder.void_battery.text_3": "對著底部的槽位點擊右鍵，可以撤銷你虛空電池的擁有權",
+  "createutilities.ponder.void_battery.text_4": "再次點擊右鍵來重新認領擁有權",
+  "createutilities.ponder.void_battery.text_5": "若虛空電池已被認領擁有權，只有擁有者能夠編輯它的頻率",
+  "createutilities.ponder.void_battery.text_6": "虛空電池只會從具有相同頻率，以及擁有者的虛空電池接收能量"
+
+}
