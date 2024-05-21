@@ -304,7 +304,7 @@
 	"ftbquests.gui.page_break": "新增分頁",
 	"ftbquests.gui.confirm_esc": "捨棄未儲存的變更？",
 	"ftbquests.gui.key_reference.player": "一般控制\n-;拉遠畫面\n+;拉近畫面\n0;重設畫面縮放\nTab;下一個章節\nShift + Tab;前一個章節\n1 - 9;前往章節\n空白鍵;畫面置中\nCtrl + F;搜尋\nF1;滑鼠停留在任務上時，顯示延伸資訊\n左鍵;檢視任務詳細資訊\n滑鼠滾輪;上／下滾動畫面\nShift + 滑鼠滾輪;左／右滾動畫面\nCtrl + 滑鼠滾輪;拉近／拉遠畫面",
-	"ftbquests.gui.key_reference.editor": "編輯器模式\nCtrl + 左鍵;切換物件選擇\n中鍵;移動選擇的任務\n右鍵;內容選單\n中鍵：拖曳;選擇拖曳框的任務\nCtrl + 中鍵：拖曳;切換拖曳框的物件選擇\nCtrl + A;全部選取\nCtrl + D;解除選擇\nCtrl + 方向鍵;移動選擇的任務\nCtrl + R;開關十字線\nCtrl + C;Copy Selected/Hovered Object\nCtrl + V;Paste Selection\nCtrl + Shift + V;Paste Quest (no dependencies)\nCtrl + Alt + V;Paste as Quest Link\n\n任務檢視面板\nT;編輯任務標題\nS;編輯任務副標題\nD;編輯任務描述",
+	"ftbquests.gui.key_reference.editor": "編輯器模式\nCtrl + 左鍵;切換物件選擇\n中鍵;移動選擇的任務\n右鍵;內容選單\n中鍵：拖曳;選擇拖曳框的任務\nCtrl + 中鍵：拖曳;切換拖曳框的物件選擇\nCtrl + A;全部選取\nCtrl + D;解除選擇\nCtrl + 方向鍵;移動選擇的任務\nCtrl + R;開關十字線\nCtrl + C;複製選取／游標懸停的物件\nCtrl + V;貼上選取的物件\nCtrl + Shift + V;貼上任務（不包含前置任務）\nCtrl + Alt + V;作為任務連結貼上\n\n任務檢視面板\nT;編輯任務標題\nS;編輯任務副標題\nD;編輯任務描述",
 	"ftbquest.gui.set_autofocused": "設為自動任務焦點",
 	"ftbquest.gui.clear_autofocused": "清除自動任務焦點",
 	"ftbquests.task": "任務目標",
