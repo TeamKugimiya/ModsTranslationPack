@@ -30,7 +30,7 @@
   "mod_gui.brandonscore.energy_bar.input": "輸入",
   "mod_gui.brandonscore.energy_bar.io": "I/O",
   "mod_gui.brandonscore.energy_bar.op": "OP",
-  "mod_gui.brandonscore.energy_bar.operational_potential": "運轉潛能（Operational Potential）",
+  "mod_gui.brandonscore.energy_bar.operational_potential": "運轉位能（Operational Potential）",
   "mod_gui.brandonscore.energy_bar.output": "輸出",
   "mod_gui.brandonscore.energy_bar.rf": "RF",
   "mod_gui.brandonscore.energy_bar.stored": "已儲存",
