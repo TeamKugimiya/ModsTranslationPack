@@ -274,6 +274,13 @@
             "modLoader": "Forge",
             "modVersion": "1.18",
             "url": "https://www.mediafire.com/file/2nc6eg2uidwzw8j/Gobber2-Forge-1.18.2-2.6.37-tw.jar"
+        },
+        {
+            "modName": "Sodium",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "modID": "sodium",
+            "url": "https://raw.githubusercontent.com/Madis0/sodium-fabric-translations/main/Sodium%20Translations/assets/sodium/lang/zh_tw.json"
         }
     ]
 }
