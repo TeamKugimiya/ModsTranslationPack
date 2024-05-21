@@ -30,8 +30,7 @@ def main(versions_dict):
             if os.path.isdir(dir_path):
                 mods.update(list_subfolder(dir_path))
 
-    # 移除 Sodium & Sodium Extra，這些來自 Crowdin
-    mods.remove("sodium")
+    # 移除 Sodium Extra，來自於 Crowdin
     mods.remove("sodium-extra")
 
     return len(mods)
