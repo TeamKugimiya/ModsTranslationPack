@@ -277,7 +277,7 @@
         },
         {
             "modName": "Sodium",
-            "modLoader": "Forge",
+            "modLoader": "Fabric",
             "modVersion": "main",
             "modID": "sodium",
             "url": "https://raw.githubusercontent.com/Madis0/sodium-fabric-translations/main/Sodium%20Translations/assets/sodium/lang/zh_tw.json"
