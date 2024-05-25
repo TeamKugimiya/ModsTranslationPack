@@ -1,0 +1,5 @@
+{
+  "embeddium.conflicting_mod": "Embeddium 檢測到已知會造成顯示問題／導致崩潰的模組。建議解除安裝這些模組。請參閱以下清單。",
+  "embeddium.conflicting_mod_list": "[{2}]",
+  "embeddium.search_bar_empty": "搜尋選項..."
+}
