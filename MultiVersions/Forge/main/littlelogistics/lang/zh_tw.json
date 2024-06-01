@@ -7,7 +7,8 @@
     "item.littlelogistics.fishing_barge": "捕魚駁船",
     "item.littlelogistics.spring": "載具鎖鏈",
 
-    "item.littlelogistics.tug_route": "拖船線路配置器",
+    "item.littlelogistics.tug_route": "拖船線路控制器",
+
     "item.littlelogistics.locomotive_route": "車頭線路配置器",
     "item.littlelogistics.energy_tug": "能量拖船",
     "item.littlelogistics.fluid_barge": "液體駁船",
