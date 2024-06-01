@@ -100,7 +100,7 @@
     "item.littlelogistics.spring.tooFar": "由於車輛距離過遠，無法連接",
     "item.littlelogistics.spring.noLoops": "車輛不能循環連接",
     "item.littlelogistics.spring.badTypes": "這些車輛無法連接在一起!",
-    "item.littlelogistics.fishing_barge.description": "為了獲得最大收益，應該在開闊的深水域上使用長途路線",
+  "item.littlelogistics.fishing_barge.description": "為了獲得最佳產量，建議在深水和開闊水域的長途路線上使用。",
   
     "item.littlelogistics.creative_capacitor": "創意電容器",
   
