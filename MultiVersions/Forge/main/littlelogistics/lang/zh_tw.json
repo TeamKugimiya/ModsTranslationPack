@@ -103,7 +103,8 @@
 
   "item.littlelogistics.fishing_barge.description": "為了獲得最佳產量，建議在深水和開闊水域的長途路線上使用。",
   
-    "item.littlelogistics.creative_capacitor": "創意電容器",
+    "item.littlelogistics.creative_capacitor": "創造模式電容器",
+
   
     "block.littlelogistics.vessel_charger.capacity": "%s/%s FE",
     "block.littlelogistics.fluid_hopper.capacity": "%s %s/%s mB",
