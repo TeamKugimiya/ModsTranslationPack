@@ -1,7 +1,8 @@
 {
     "item.littlelogistics.tug": "蒸氣拖船",
     "item.littlelogistics.barge": "運輸駁船",
-    "item.littlelogistics.chunk_loader_barge": "加載駁船",
+    "item.littlelogistics.chunk_loader_barge": "區塊載入駁船",
+
     "item.littlelogistics.seater_barge": "座艙駁船",
     "item.littlelogistics.fishing_barge": "捕魚駁船",
     "item.littlelogistics.spring": "車輛鏈條",
