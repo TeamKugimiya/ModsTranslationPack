@@ -1,0 +1,13 @@
+{
+  "sodium.options.use_compact_vertex_format.name": "使用緊湊型頂點格式",
+  "sodium.options.use_compact_vertex_format.tooltip": "啟用該選項後，將使用更緊湊的頂點格式來繪製區塊。\n這可以顯著減少圖形記憶體使用量和頻寬需求，特別是整合式顯示卡。\n但由於它降低了位置和紋理座標屬性的精度，可能會導致在使用某些資源包時，出現 Z-fighting 問題。\n在安裝《Oculus》模組時，停用此選項將不會有任何效果。",
+  "sodium.options.translucent_face_sorting.name": "半透明面排序",
+  "sodium.options.translucent_face_sorting.tooltip": "啟用該選項後，遊戲將正確地套用染色玻璃、水等方塊表面的半透明效果。",
+  "sodium.options.buttons.donate": "贊助支持 Sodium！",
+  "sodium.console.game_restart": "必須重啟遊戲來套用顯示設定的變更！",
+  "sodium.console.broken_nvidia_driver": "你的 NVIDIA 圖形驅動程式已過時！\n  * 安裝 Embeddium 將造成嚴重的性能問題和崩潰。\n  * 請將你的圖形驅動程式更新到最新版本（536.23 或以上版本。）",
+  "sodium.console.pojav_launcher": "在使用 Embeddium 時不支援 PojavLauncher。\n  * 您很可能會遇到極端的性能問題、圖形錯誤和崩潰。\n  * 如果你決定繼續使用，你將必須自行承擔風險──我們將不會為你提供任何錯誤或崩潰的幫助！",
+  "sodium.console.core_shaders_error": "以下這些資源包與 Embeddium 不相容：",
+  "sodium.console.core_shaders_warn": "以下這些資源包可能與 Embeddium 不相容：",
+  "sodium.console.core_shaders_info": "檢查遊戲記錄檔來獲得更多資訊。"
+}

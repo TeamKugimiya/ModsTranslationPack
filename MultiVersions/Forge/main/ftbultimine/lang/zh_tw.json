@@ -4,6 +4,7 @@
 	"ftbultimine.info.base": "FTB 連鎖挖礦%s",
 	"ftbultimine.info.active": "啟用中",
 	"ftbultimine.info.not_active": "尚未啟用",
+	"ftbultimine.info.cooldown": "冷卻中",
 	"ftbultimine.info.blocks": "將挖掘 %d 個方塊",
 	"ftbultimine.info.partial_render": "已繪製 %d 個方塊",
 	"ftbultimine.change_shape": "按住 Shift +（滾動滑鼠滾輪或鍵盤上／下鍵）來變更挖掘形狀",
@@ -39,5 +40,9 @@
 	"ftbultimine.server_settings.right_click_axe": "斧：右鍵點擊複數個方塊",
 	"ftbultimine.server_settings.right_click_hoe": "鋤：右鍵點擊複數個方塊",
 	"ftbultimine.server_settings.right_click_shovel": "鏟：右鍵點擊複數個方塊",
-	"ftbultimine.server_settings.right_click_harvesting": "允許連鎖收穫作物"
+	"ftbultimine.server_settings.right_click_harvesting": "允許連鎖收穫作物",
+	"ftbultimine.server_settings.experience_per_block": "經驗值消耗（每挖掘一個方塊）",
+	"ftbultimine.server_settings.experience_per_block.tooltip": "此值可以為小數。",
+	"ftbultimine.server_settings.ultimine_cooldown": "連鎖挖礦冷卻時間（刻）",
+	"ftbultimine.server_settings.ultimine_cooldown.tooltip": "連續使用連鎖挖礦功能之間，所需的時間間隔（以刻為單位）。"
 }

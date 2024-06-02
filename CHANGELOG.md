@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.7.11](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.10...v1.7.11) (2024-05-25)
+
+
+### 🔧 修正錯誤
+
+* **Mods Counter:** 移除 Sodium 條件排除 ([#636](https://github.com/xMikux/ModsTranslationPack/issues/636)) ([ac6a907](https://github.com/xMikux/ModsTranslationPack/commit/ac6a907326ebe885744a6afcdcabe8df866e0251))
+
+
+### ☁️ 工作流程
+
+* **Override:** 將 Sodium 改為覆蓋 ([#634](https://github.com/xMikux/ModsTranslationPack/issues/634)) ([28604f1](https://github.com/xMikux/ModsTranslationPack/commit/28604f10f7ed20bdde1bd56eff15eadd8e7ca51c))
+* **Override:** 將 Sodium 覆蓋改為 Fabric ([#643](https://github.com/xMikux/ModsTranslationPack/issues/643)) ([9e4ebc7](https://github.com/xMikux/ModsTranslationPack/commit/9e4ebc75e849423271a79909e4d22871d3aafad4))
+
+
+### 📑 文件更新
+
+* **Readme:** 更新模組數量 ([#632](https://github.com/xMikux/ModsTranslationPack/issues/632)) ([d2f0ff1](https://github.com/xMikux/ModsTranslationPack/commit/d2f0ff15b3545f53db8239a6c2db2bc42aba5784))
+
+
+### ⚡ 新增模組翻譯
+
+* **Create Utilities:** 新增動力機械｜實用設備 v0.3.0 ([#631](https://github.com/xMikux/ModsTranslationPack/issues/631)) ([f63b732](https://github.com/xMikux/ModsTranslationPack/commit/f63b7324ddb78d0b43617b5cd8676036237baf11))
+* **Embeddium++:** 新增 Embeddium++ v1.2.13 ([#646](https://github.com/xMikux/ModsTranslationPack/issues/646)) ([783b660](https://github.com/xMikux/ModsTranslationPack/commit/783b6606c41873407c107c7b68077a523e26ea02))
+* **Embeddium:** 新增 Embeddium v0.3.19 ([#645](https://github.com/xMikux/ModsTranslationPack/issues/645)) ([681d34b](https://github.com/xMikux/ModsTranslationPack/commit/681d34b775c184c77910a9d18a514788ccc585eb))
+
+
+### 🐌 更新模組翻譯
+
+* **FTB Chunks:** 更新 FTB Chunks 1.19 翻譯至 v4.4 ([#637](https://github.com/xMikux/ModsTranslationPack/issues/637)) ([48e62e9](https://github.com/xMikux/ModsTranslationPack/commit/48e62e90b6091135b6890740f93a64c5834d1605))
+* **FTB Chunks:** 更新至 v2001.3.0 ([#640](https://github.com/xMikux/ModsTranslationPack/issues/640)) ([0def832](https://github.com/xMikux/ModsTranslationPack/commit/0def83200d511fd0e0c739b6f152030c982d0f19))
+* **FTB Library:** 更新至 v2001.2.1 ([#641](https://github.com/xMikux/ModsTranslationPack/issues/641)) ([633d0b3](https://github.com/xMikux/ModsTranslationPack/commit/633d0b3c8ec99b4c495b2b9ee990421eed645571))
+* **FTB Quests:** 更新至 v2001.4.3 ([#642](https://github.com/xMikux/ModsTranslationPack/issues/642)) ([72a163f](https://github.com/xMikux/ModsTranslationPack/commit/72a163fe3f25849bf0dc2077667837753a673ffe))
+* **FTB Teams:** 更新至 v2001.3.0 ([#639](https://github.com/xMikux/ModsTranslationPack/issues/639)) ([f6e3fc4](https://github.com/xMikux/ModsTranslationPack/commit/f6e3fc46bceed55d0969eb58743b25ffb6077420))
+* **FTB Ultimine:** 更新至 v2001.1.4 ([#638](https://github.com/xMikux/ModsTranslationPack/issues/638)) ([0bc5caa](https://github.com/xMikux/ModsTranslationPack/commit/0bc5caab5ee46b745015b6c93bfe992971988a24))
+
+
+### 🐛 修正模組翻譯錯誤
+
+* **Brandon's Core:** Operational Potential 改譯 ([#635](https://github.com/xMikux/ModsTranslationPack/issues/635)) ([231e54e](https://github.com/xMikux/ModsTranslationPack/commit/231e54e1d5e6275a098ba00c58edccd0fb9b0148))
+
 ## [1.7.10](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.9...v1.7.10) (2024-05-15)
 
 
