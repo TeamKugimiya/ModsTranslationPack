@@ -26,7 +26,7 @@ jobs:
 
       - name: Download All ModsTranslationPack Artifact
         id: download-artifact
-        uses: dawidd6/action-download-artifact@v3
+        uses: dawidd6/action-download-artifact@v4
         with:
           name: ModsTranslationPack-[0-9]+\.[0-9]+\.x
           run_id: ${{ github.event.workflow_run.id }}
