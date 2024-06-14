@@ -1,170 +1,114 @@
 {
-    "item.littlelogistics.tug": "蒸氣拖船",
-    "item.littlelogistics.barge": "儲物箱駁船",
+  "item.littlelogistics.tug": "蒸氣拖船",
+  "item.littlelogistics.barge": "儲物箱駁船",
+  "item.littlelogistics.chunk_loader_barge": "區塊載入駁船",
+  "item.littlelogistics.seater_barge": "座艙駁船",
+  "item.littlelogistics.fishing_barge": "捕魚駁船",
+  "item.littlelogistics.spring": "載具鎖鏈",
+  "item.littlelogistics.tug_route": "拖船線路控制器",
+  "item.littlelogistics.locomotive_route": "車頭線路控制器",
+  "item.littlelogistics.energy_tug": "能量拖船",
+  "item.littlelogistics.fluid_barge": "流體罐駁船",
+  "item.littlelogistics.fluid_car": "流體罐車廂",
+  "item.littlelogistics.chest_car": "運輸車廂",
+  "item.littlelogistics.chunk_loader_car": "區塊載入車廂",
+  "item.littlelogistics.seater_car": "車廂",
+  "item.littlelogistics.steam_locomotive": "蒸氣車頭",
+  "item.littlelogistics.energy_locomotive": "能量車頭",
 
-    "item.littlelogistics.chunk_loader_barge": "區塊載入駁船",
+  "item.littlelogistics.receiver_component": "無線接收器元件",
+  "item.littlelogistics.transmitter_component": "無線發射器元件",
+  "item.littlelogistics.conductors_wrench": "列車長扳手",
 
-    "item.littlelogistics.seater_barge": "座艙駁船",
-    "item.littlelogistics.fishing_barge": "捕魚駁船",
-    "item.littlelogistics.spring": "載具鎖鏈",
+  "entity.littlelogistics.tug": "蒸氣拖船",
+  "entity.littlelogistics.barge": "儲物箱駁船",
+  "entity.littlelogistics.chunk_loader_barge": "區塊載入駁船",
+  "entity.littlelogistics.fishing_barge": "捕魚駁船",
+  "entity.littlelogistics.spring": "載具鎖鏈",
+  "entity.littlelogistics.energy_tug": "能量拖船",
+  "entity.littlelogistics.fluid_barge": "流體罐駁船",
+  "entity.littlelogistics.seater_barge": "儲物箱車廂",
+  "entity.littlelogistics.fluid_car": "流體罐車廂",
+  "entity.littlelogistics.chest_car": "儲物箱車廂",
+  "entity.littlelogistics.chunk_loader_car": "區塊載入車廂",
+  "entity.littlelogistics.seater_car": "車廂",
+  "entity.littlelogistics.steam_locomotive": "蒸氣車頭",
+  "entity.littlelogistics.energy_locomotive": "能量車頭",
 
-    "item.littlelogistics.tug_route": "拖船線路控制器",
+  "block.littlelogistics.tug_dock": "拖船碼頭",
+  "block.littlelogistics.barge_dock": "駁船碼頭",
+  "block.littlelogistics.guide_rail_tug": "拖船導軌",
+  "block.littlelogistics.guide_rail_corner": "船舶轉向導軌",
+  "block.littlelogistics.vessel_charger": "載具充能器",
+  "block.littlelogistics.fluid_hopper": "流體漏斗",
+  "block.littlelogistics.rapid_hopper": "快速漏斗",
+  "block.littlelogistics.vessel_detector": "載具探測器",
 
-    "item.littlelogistics.locomotive_route": "車頭線路控制器",
+  "block.littlelogistics.junction_rail": "交匯鐵軌",
+  "block.littlelogistics.switch_rail": "道岔鐵軌",
+  "block.littlelogistics.automatic_switch_rail": "自動道岔鐵軌",
+  "block.littlelogistics.tee_junction_rail": "T 型交匯鐵軌",
+  "block.littlelogistics.automatic_tee_junction_rail": "自動 T 形交匯鐵軌",
+  "block.littlelogistics.locomotive_dock_rail": "車頭裝卸貨鐵軌",
+  "block.littlelogistics.car_dock_rail": "車廂裝卸貨鐵軌",
 
-    "item.littlelogistics.energy_tug": "能量拖船",
-    "item.littlelogistics.fluid_barge": "流體罐駁船",
+  "screen.littlelogistics.tug": "蒸氣拖船",
+  "screen.littlelogistics.fishing_barge": "自動捕魚駁船",
+  "screen.littlelogistics.energy_tug": "能量拖船",
+  "screen.littlelogistics.energy_tug.energy": "%s/%s FE",
 
-    "item.littlelogistics.fluid_car": "流體罐車廂",
+  "screen.littlelogistics.tug_route": "拖船線路控制器",
+  "screen.littlelogistics.tug_route.rename_button": "重新命名節點",
+  "screen.littlelogistics.tug_route.up_button": "上移節點",
+  "screen.littlelogistics.tug_route.down_button": "下移節點",
+  "screen.littlelogistics.tug_route.delete_button": "移除節點",
+  "screen.littlelogistics.tug_route.rename": "重新命名 %s",
+  "screen.littlelogistics.tug_route.confirm": "儲存",
 
-    "item.littlelogistics.chest_car": "運輸車廂",
-    "item.littlelogistics.chunk_loader_car": "區塊載入車廂",
+  "screen.littlelogistics.locomotive.route": "目的地：",
+  "screen.littlelogistics.locomotive.on": "發動引擎",
+  "screen.littlelogistics.locomotive.off": "熄火",
+  "screen.littlelogistics.locomotive.register": "註冊",
+  "screen.littlelogistics.locomotive.registration": "註冊",
+  "screen.littlelogistics.locomotive.register_info": "已註冊的載具，可以在不載入區塊的情況下行駛。",
+  "screen.littlelogistics.locomotive.frozen": "根據伺服器設定，這個載具因擁有者離線而被停駛。",
 
-    "item.littlelogistics.seater_car": "車廂",
-    "item.littlelogistics.steam_locomotive": "蒸氣車頭",
-    "item.littlelogistics.energy_locomotive": "能量車頭",
-  
-    "item.littlelogistics.receiver_component": "無線接收器元件",
+  "global.littlelogistics.locomotive.register_success": "已達到載具註冊數量的最大上限：%s",
+  "global.littlelogistics.locomotive.register_fail": "成功註冊載具，載具已註冊數：%s/%s",
 
-    "item.littlelogistics.transmitter_component": "無線發射器元件",
+  "item.littlelogistics.tug_route.description": "在路徑末尾處點擊右鍵來新增節點；在同一位置，再次點擊右鍵可刪除節點。按住 Shift 並點擊右鍵，可開啟控制器選單。",
+  "item.littlelogistics.tug_route.num_nodes": "路線節點：%s",
+  "item.littlelogistics.tug_route.added": "已新增線路節點「X：%s Z：%s」",
+  "item.littlelogistics.tug_route.removed": "已移除線路節點「X：%s Z：%s」",
+  "item.littlelogistics.tug_route.node": "%s. 節點",
+  "item.littlelogistics.tug_route.node_named": "%s. %s",
+  "item.littlelogistics.tug_route.node_line": "節點 %s: %s, %s",
 
-    "item.littlelogistics.conductors_wrench": "列車長扳手",
+  "item.littlelogistics.conductors_wrench.description": "可用於旋轉原版的鐵軌，並設定《Little Logistics》模組的方塊。",
 
-  
-    "entity.littlelogistics.tug": "蒸氣拖船",
-    "entity.littlelogistics.barge": "儲物箱駁船",
+  "item.littlelogistics.locomotive_route.description": "對著鐵軌點擊右鍵，在路線上新增或移除節點。",
+  "item.littlelogistics.locomotive_route.num_nodes": "路線節點：%s",
+  "item.littlelogistics.locomotive_route.added": "已新增路線節點「X：%s Y：%s Z：%s」",
+  "item.littlelogistics.locomotive_route.removed": "已移除路線節點「X：%s Y：%s Z：%s」",
 
-    "entity.littlelogistics.chunk_loader_barge": "區塊載入駁船",
-
-    "entity.littlelogistics.fishing_barge": "捕魚駁船",
-    "entity.littlelogistics.spring": "載具鎖鏈",
-
-    "entity.littlelogistics.energy_tug": "能量拖船",
-    "entity.littlelogistics.fluid_barge": "流體罐駁船",
-
-    "entity.littlelogistics.seater_barge": "儲物箱車廂",
-
-    "entity.littlelogistics.fluid_car": "流體罐車廂",
-
-    "entity.littlelogistics.chest_car": "儲物箱車廂",
-
-    "entity.littlelogistics.chunk_loader_car": "區塊載入車廂",
-
-    "entity.littlelogistics.seater_car": "車廂",
-    "entity.littlelogistics.steam_locomotive": "蒸氣車頭",
-    "entity.littlelogistics.energy_locomotive": "能量車頭",
-  
-    "block.littlelogistics.tug_dock": "拖船碼頭",
-    "block.littlelogistics.barge_dock": "駁船碼頭",
-    "block.littlelogistics.guide_rail_tug": "拖船導軌",
-    "block.littlelogistics.guide_rail_corner": "船舶轉向導軌",
-    "block.littlelogistics.vessel_charger": "載具充能器",
-
-    "block.littlelogistics.fluid_hopper": "流體漏斗",
-    "block.littlelogistics.rapid_hopper": "快速漏斗",
-    "block.littlelogistics.vessel_detector": "載具探測器",
-
-  
-    "block.littlelogistics.junction_rail": "交匯鐵軌",
-
-    "block.littlelogistics.switch_rail": "道岔鐵軌",
-
-    "block.littlelogistics.automatic_switch_rail": "自動道岔鐵軌",
-
-    "block.littlelogistics.tee_junction_rail": "T 型交匯鐵軌",
-
-    "block.littlelogistics.automatic_tee_junction_rail": "自動 T 形交匯鐵軌",
-
-    "block.littlelogistics.locomotive_dock_rail": "車頭裝卸貨鐵軌",
-
-    "block.littlelogistics.car_dock_rail": "車廂裝卸貨鐵軌",
-
-  
-    "screen.littlelogistics.tug": "蒸氣拖船",
-    "screen.littlelogistics.fishing_barge": "自動捕魚駁船",
-    "screen.littlelogistics.energy_tug": "能量拖船",
-    "screen.littlelogistics.energy_tug.energy": "%s/%s FE",
-  
-    "screen.littlelogistics.tug_route": "拖船線路控制器",
-
-    "screen.littlelogistics.tug_route.rename_button": "重新命名節點",
-
-    "screen.littlelogistics.tug_route.up_button": "上移節點",
-    "screen.littlelogistics.tug_route.down_button": "下移節點",
-    "screen.littlelogistics.tug_route.delete_button": "移除節點",
-    "screen.littlelogistics.tug_route.rename": "重新命名 %s",
-
-    "screen.littlelogistics.tug_route.confirm": "儲存",
-  
-    "screen.littlelogistics.locomotive.route": "目的地：",
-
-    "screen.littlelogistics.locomotive.on": "發動引擎",
-
-    "screen.littlelogistics.locomotive.off": "熄火",
-    "screen.littlelogistics.locomotive.register": "註冊",
-
-    "screen.littlelogistics.locomotive.registration": "註冊",
-    "screen.littlelogistics.locomotive.register_info": "已註冊的載具，可以在不載入區塊的情況下行駛。",
-
-    "screen.littlelogistics.locomotive.frozen": "根據伺服器設定，這個載具因擁有者離線而被停駛。",
-
-  
-    "global.littlelogistics.locomotive.register_success": "已達到載具註冊數量的最大上限：%s",
-
-    "global.littlelogistics.locomotive.register_fail": "成功註冊載具，載具已註冊數：%s/%s",
-
-  
-    "item.littlelogistics.tug_route.description": "在路徑末尾處點擊右鍵來新增節點；在同一位置，再次點擊右鍵可刪除節點。按住 Shift 並點擊右鍵，可開啟控制器選單。",
-
-    "item.littlelogistics.tug_route.num_nodes": "路線節點：%s",
-
-    "item.littlelogistics.tug_route.added": "已新增線路節點「X：%s Z：%s」",
-
-    "item.littlelogistics.tug_route.removed": "已移除線路節點「X：%s Z：%s」",
-
-    "item.littlelogistics.tug_route.node": "%s. 節點",
-    "item.littlelogistics.tug_route.node_named": "%s. %s",
-    "item.littlelogistics.tug_route.node_line": "節點 %s: %s, %s",
-  
-    "item.littlelogistics.conductors_wrench.description": "可用於旋轉原版的鐵軌，並設定《Little Logistics》模組的方塊。",
-
-  
-    "item.littlelogistics.locomotive_route.description": "對著鐵軌點擊右鍵，在路線上新增或移除節點。",
-
-    "item.littlelogistics.locomotive_route.num_nodes": "路線節點：%s",
-
-    "item.littlelogistics.locomotive_route.added": "已新增路線節點「X：%s Y：%s Z：%s」",
-
-    "item.littlelogistics.locomotive_route.removed": "已移除路線節點「X：%s Y：%s Z：%s」",
-
-  
-    "item.littlelogistics.spring.description": "用於連接載具。當相連的載具位於未載入的區塊時，會試圖等待以避免斷開連結。",
-
-    "item.littlelogistics.spring.notToSelf": "您無法將載具連接至自身",
-
-    "item.littlelogistics.spring.noTwoTugs": "您無法同時連接至兩個拖船",
-
-    "item.littlelogistics.spring.noTwoLoco": "您無法同時連接兩個車頭",
-
-    "item.littlelogistics.spring.tooFar": "由於載具相距過遠，故無法連接",
-
-    "item.littlelogistics.spring.noLoops": "載具不能呈閉環連接",
-
-    "item.littlelogistics.spring.badTypes": "這些類型的載具無法連接在一起！",
-
+  "item.littlelogistics.spring.description": "用於連接載具。當相連的載具位於未載入的區塊時，會試圖等待以避免斷開連結。",
+  "item.littlelogistics.spring.notToSelf": "您無法將載具連接至自身",
+  "item.littlelogistics.spring.noTwoTugs": "您無法同時連接至兩個拖船",
+  "item.littlelogistics.spring.noTwoLoco": "您無法同時連接兩個車頭",
+  "item.littlelogistics.spring.tooFar": "由於載具相距過遠，故無法連接",
+  "item.littlelogistics.spring.noLoops": "載具不能呈閉環連接",
+  "item.littlelogistics.spring.badTypes": "這些類型的載具無法連接在一起！",
   "item.littlelogistics.fishing_barge.description": "為了獲得最佳產量，建議在深水和開闊水域的長途路線上使用。",
-  
-    "item.littlelogistics.creative_capacitor": "創造模式電容器",
 
-  
-    "block.littlelogistics.vessel_charger.capacity": "%s/%s FE",
-    "block.littlelogistics.fluid_hopper.capacity": "%s %s/%s mB",
-    "block.littlelogistics.fluid_hopper.capacity_empty": "空 0/%s mB",
-    "entity.littlelogistics.fluid_barge.capacity": "%s %s/%s mB",
-    "entity.littlelogistics.fluid_barge.capacity_empty": "空 0/%s mB",
-  
-    "subtitle.littlelogistics.steam_tug_whistle": "蒸氣拖船鳴笛",
-    "subtitle.littlelogistics.tug_docking": "拖船入港",
-    "subtitle.littlelogistics.tug_undocking": "拖船出港"
-  }
-  
+  "item.littlelogistics.creative_capacitor": "創造模式電容器",
+
+  "block.littlelogistics.vessel_charger.capacity": "%s/%s FE",
+  "block.littlelogistics.fluid_hopper.capacity": "%s %s/%s mB",
+  "block.littlelogistics.fluid_hopper.capacity_empty": "空 0/%s mB",
+  "entity.littlelogistics.fluid_barge.capacity": "%s %s/%s mB",
+  "entity.littlelogistics.fluid_barge.capacity_empty": "空 0/%s mB",
+
+  "subtitle.littlelogistics.steam_tug_whistle": "蒸氣拖船鳴笛",
+  "subtitle.littlelogistics.tug_docking": "拖船入港",
+  "subtitle.littlelogistics.tug_undocking": "拖船出港"
+}
