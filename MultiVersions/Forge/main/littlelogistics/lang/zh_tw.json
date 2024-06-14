@@ -92,9 +92,9 @@
   "item.littlelogistics.locomotive_route.removed": "已移除路線節點「X：%s Y：%s Z：%s」",
 
   "item.littlelogistics.spring.description": "用於連接載具。當相連的載具位於未載入的區塊時，會試圖等待以避免斷開連結。",
-  "item.littlelogistics.spring.notToSelf": "您無法將載具連接至自身",
-  "item.littlelogistics.spring.noTwoTugs": "您無法同時連接至兩個拖船",
-  "item.littlelogistics.spring.noTwoLoco": "您無法同時連接兩個車頭",
+  "item.littlelogistics.spring.notToSelf": "你無法將載具連接至自身",
+  "item.littlelogistics.spring.noTwoTugs": "你無法同時連接至兩個拖船",
+  "item.littlelogistics.spring.noTwoLoco": "你無法同時連接兩個車頭",
   "item.littlelogistics.spring.tooFar": "由於載具相距過遠，故無法連接",
   "item.littlelogistics.spring.noLoops": "載具不能呈閉環連接",
   "item.littlelogistics.spring.badTypes": "這些類型的載具無法連接在一起！",
