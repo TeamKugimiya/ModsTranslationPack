@@ -26,13 +26,23 @@
         },
         {
             "mc_version": "1.20.x",
-            "dir_path": "main",
+            "dir_path": "1.20",
             "pack_format": 15,
             "supported_formats": {
                 "min": 15,
                 "max": 32
             },
-            "game_version": ">=1.20"
+            "game_version": ">=1.20 <1.21"
+        },
+        {
+            "mc_version": "1.21.x",
+            "dir_path": "main",
+            "pack_format": 34,
+            "supported_formats": {
+                "min": 34,
+                "max": 34
+            },
+            "game_version": ">=1.21"
         }
     ]
 }
