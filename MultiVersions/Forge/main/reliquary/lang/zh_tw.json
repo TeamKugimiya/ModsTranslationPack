@@ -381,7 +381,7 @@
     "waila.reliquary.altar.inactive": "閒置中",
     "waila.reliquary.altar.active": "活動中",
     "waila.reliquary.altar.time_remaining": "剩餘時間：%s",
-    "waila.reliquary.shift_for_more": "按住 shift 以查看更多資訊",
+    "waila.reliquary.shift_for_more": "按住 shift 查看更多資訊",
     "waila.reliquary.pedestal.redstone_powered": "已被紅石啟動",
     "waila.reliquary.pedestal.state": "狀態：%s",
     "waila.reliquary.pedestal.state.on": "開",
