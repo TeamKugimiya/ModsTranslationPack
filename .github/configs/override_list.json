@@ -281,6 +281,12 @@
             "modVersion": "main",
             "modID": "sodium",
             "url": "https://raw.githubusercontent.com/Madis0/sodium-fabric-translations/main/Sodium%20Translations/assets/sodium/lang/zh_tw.json"
+        },
+        {
+            "modName": "bloodmagic",
+            "modLoader": "Forge",
+            "modVersion": "main",
+            "url": "https://mega.nz/file/7MMFmLJD#12FJNfYKRJ24OZ5dunQosK6s0fd1lxjjbi5l3MbC-Xw"
         }
     ]
 }

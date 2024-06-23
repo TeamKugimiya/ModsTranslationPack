@@ -72,6 +72,8 @@
 * [Julian Dunskus](https://github.com/juliand665)
   * [Dynamic FPS](https://github.com/juliand665/Dynamic-FPS)<br/>
     [![MIT][MIT]](https://github.com/juliand665/Dynamic-FPS/blob/main/LICENSE)
+* [NightSora]https://home.gamer.com.tw/homeindex.php?owner=n0935850816)
+  * [Blood Magic 3](https://forum.gamer.com.tw/C.php?bsn=18673&snA=197467)
 * [steak0902](https://home.gamer.com.tw/homeindex.php?owner=minecraft15)
   * [Immersive Engineering](https://forum.gamer.com.tw/C.php?bsn=18673&snA=196127)
 * [Grant88](https://grant88.pixnet.net/blog)
