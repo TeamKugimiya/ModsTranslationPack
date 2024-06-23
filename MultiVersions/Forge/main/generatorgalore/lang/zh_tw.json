@@ -34,7 +34,7 @@
   "generatorgalore.screen.fluid_level": "%s: %s",
   "generatorgalore.screen.fuel_time": "剩餘燃料時間：%s",
   "generatorgalore.screen.generation_rate": "發電效率：%sFE/t",
-  "generatorgalore.screen.transfer_rate": "傳輸率：%sFE/t",
+  "generatorgalore.screen.transfer_rate": "傳輸速率：%sFE/t",
   "generatorgalore.screen.max_energy": "最大容量：%sFE",
   "generatorgalore.screen.fuel_type": "燃料類型：%s",
   "generatorgalore.recipe.solid_fuel": "固體燃料",
