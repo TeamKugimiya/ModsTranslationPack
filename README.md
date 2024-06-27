@@ -173,6 +173,20 @@
       </a>
     </td>
     <td align="center">
+      <a href="https://github.com/BirdAsung" title="BirdAsung">
+        <img src="https://avatars.githubusercontent.com/u/97365966?v=4" width="100;" alt="BirdAsung"/>
+        <br />
+        <sub><b>BirdAsung</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/HankLai1207" title="Maver1ck">
+        <img src="https://avatars.githubusercontent.com/u/85329357?v=4" width="100;" alt="Maver1ck"/>
+        <br />
+        <sub><b>Maver1ck</b></sub>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/NoahsarkTaiwan2008" title="NoahsarkTaiwan2008">
         <img src="https://avatars.githubusercontent.com/u/140701686?v=4" width="100;" alt="NoahsarkTaiwan2008"/>
         <br />
@@ -193,6 +207,8 @@
         <sub><b>notlin4</b></sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/shineOuO1209" title="shineOuO1209">
         <img src="https://avatars.githubusercontent.com/u/127597656?v=4" width="100;" alt="shineOuO1209"/>
