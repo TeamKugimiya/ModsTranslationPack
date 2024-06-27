@@ -1,0 +1,45 @@
+{
+    "_comment": "-------------------------------------- EnderChests zh_tw.json Localization --------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.enderchests": "終界箱",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.enderchests.bag.nolink1": "無法同步顏色代碼，你不是該儲物箱的擁有者",
+    "error.enderchests.bag.nolink2": "無法同步顏色代碼，無法識別儲物箱擁有者",
+    "error.enderchests.bag.nolink3": "無法同步顏色代碼，你不在相同隊伍裡",
+    "error.enderchests.bag.corrupted": "無法開啟提袋；遺失堆疊 NBT 資料",
+
+    "error.enderchests.chest.public.disabled": "儲物箱的公用模式已停用，必須先升級才能使用",
+    "error.enderchests.chest.private.disabled": "儲物箱的私人模式已停用",
+    "error.enderchests.chest.team.disabled": "儲物箱的團隊模式已停用",
+    "error.enderchests.chest.private.denied": "僅擁有者能執行該行動",
+    "error.enderchests.chest.team.denied": "僅隊伍成員能執行該行動",
+    "error.enderchests.chest.upgrade_used": "該升級物品每個儲物箱只能套用一次",
+    "error.enderchests.bag.public.disabled": "提袋的公用模式已停用",
+    "error.enderchests.bag.private.disabled": "提袋的私人模式已停用",
+    "error.enderchests.bag.team.disabled": "提袋的隊伍模式已停用",
+
+    "info.enderchests.chest.public": "公用",
+    "info.enderchests.chest.code": "代碼：",
+    "info.enderchests.chest.capacity": "儲物箱容量已提升至",
+
+    "info.enderchests.craftingmaterial": "合成材料",
+
+    "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "item.enderchests.ender_pouch": "終界提袋",
+
+    "item.enderchests.bag.public": "終界提袋",
+    "item.enderchests.bag.private": "終界提袋",
+    "item.enderchests.bag.team": "終界提袋",
+
+    "block.enderchests.chest.public": "終界箱",
+    "block.enderchests.chest.private": "終界箱",
+    "block.enderchests.chest.team": "終界箱",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.enderchests.server_data_missing": " §6⚠ §4未從伺服器接收到 HUD 資料§6⚠",
+
+    "config.jade.plugin_enderchests.hud": "啟用插件"
+}
