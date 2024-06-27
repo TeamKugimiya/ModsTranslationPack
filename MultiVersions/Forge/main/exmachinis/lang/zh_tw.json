@@ -21,7 +21,7 @@
   "exmachinis.int.jei.category.flux_compactor": "通量自動壓縮機會拿內部儲物空間的物品，\n並將壓縮過的成品輸出到此機器底下的儲物空間。\n\n升級可以增加一次能處理的數量。\n\n這個機器可以透過紅石訊號來停止。\n\n輸出面可以透過源自虛無中的鎚子來進行更改，Shift + 右鍵來設定。\n",
   "exmachinis.int.jei.category.flux_hammer": "通量自動鎚會拿內部儲物空間的物品，\n並將鎚過的成品輸出到此機器前方的儲物空間。\n\n升級可以增加一次能處理的數量。\n\n這個機器可以透過紅石訊號來停止。\n\n輸出面可以透過源自虛無中的鎚子來進行更改，Shift + 右鍵來設定。\n",
   "exmachinis.int.jei.category.flux_sieve": "通量自動篩網會拿內部儲物空間的物品，\n並將篩過的成品輸出到此機器底下的儲物空間。\n\n升級可以增加一次能處理的數量。\n\n篩網可以在鐵砧中附上幸運來增加掉落機率。\n\n這個機器可以透過紅石訊號來停止。\n\n輸出面可以透過源自虛無中的鎚子來進行更改，Shift + 右鍵來設定。\n",
-  "exmachinis.int.jei.category.item_buffer": "物品暫存器會拿內部儲物空間的物品，\n並將它們移動到此機器底下的儲物空間。\n\n升級可以增加一次能處理的數量。\n\n比較器升級可以朝特定方塊產生紅石訊號。\n你可以透過這個機制來關閉其他機器。\n\n這個機器可以透過紅石訊號來停止。\n\n輸出面可以透過源自虛無中的鎚子來進行更改，Shift + 右鍵來設定。\n",
+  "exmachinis.int.jei.category.item_buffer": "物品暫存器會拿內部儲物空間的物品，\n並將它們移動到此機器底下的儲物空間。\n\n升級可以增加一次能處理的數量。\n\n比較器升級可以朝特定方向產生紅石訊號。\n你可以透過這個機制來關閉其他機器。\n\n這個機器可以透過紅石訊號來停止。\n\n輸出面可以透過源自虛無中的鎚子來進行更改，Shift + 右鍵來設定。\n",
   "gui.exmachinis.inventoryFull": "物品欄已滿。",
   "gui.exmachinis.inventoryMissing": "缺少儲存空間輸出面。",
   "gui.exmachinis.meshMissing": "需要篩網來運作。",
