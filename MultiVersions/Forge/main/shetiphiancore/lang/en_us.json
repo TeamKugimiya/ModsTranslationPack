@@ -1,0 +1,134 @@
+﻿{
+    "_comment": "------------------------------------- ShetiPhianCore en_us.json Localization -------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.shetiphiancore": "ShetiPhianCore",
+
+    "info.down": "Down",
+    "info.up": "Up",
+    "info.north": "North",
+    "info.south": "South",
+    "info.west": "West",
+    "info.east": "East",
+    "info.bottom": "Bottom",
+    "info.top": "Top",
+    "info.back": "Back",
+    "info.front": "Front",
+    "info.left": "Left",
+    "info.right": "Right",
+
+    "gui.side_disabled": "Disabled",
+
+    "color.white": "White",
+    "color.orange": "Orange",
+    "color.magenta": "Magenta",
+    "color.light_blue": "Light Blue",
+    "color.yellow": "Yellow",
+    "color.lime": "Lime",
+    "color.pink": "Pink",
+    "color.gray": "Gray",
+    "color.light_gray": "Light Gray",
+    "color.cyan": "Cyan",
+    "color.purple": "Purple",
+    "color.blue": "Blue",
+    "color.brown": "Brown",
+    "color.green": "Green",
+    "color.red": "Red",
+    "color.black": "Black",
+
+    "key.shetiphiancore.tool.next": "Held Item; Mode/Selection Next",
+    "key.shetiphiancore.tool.previous": "Held Item; Mode/Selection Previous",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "info.shetiphian.holdshift": "§2Hold SHIFT for more info",
+    "info.shetiphian.creativeolny": "§eCreative Mode Only Item",
+    "info.shetiphian.guide": "Fruzstrated's Guide",
+    "info.shetiphian.unused": "§5§o  unused/deprecated item",
+
+    "error.shetiphian.team.noteam": "Your not on a team",
+    "error.shetiphian.team.wrong": "Object owned by another team",
+
+    "info.shetiphian.texture.missing": "Texture Data Missing",
+    "info.shetiphian.texture.invalid": "Texture Block Missing",
+    "info.shetiphian.texture.defaulted": "Using Default",
+
+    "info.shetiphian.mode_change": "§3Change Mode:§o",
+    "info.shetiphian.sneak_scroll": "Sneak+Scroll",
+
+    "_comment": "--------------------------------------------------- TEAMS -----------------------------------------------------!",
+    "shetiphiancore.team.create.success": "Team Created Successfully",
+    "shetiphiancore.team.create.fail.inteam": "You must leave your current team first",
+    "shetiphiancore.team.create.fail.exists": "A team with that name already exists",
+
+    "shetiphiancore.team.rename.success": "'%1$s' has been renamed to '%2$s'",
+    "shetiphiancore.team.rename.fail.same": "Rename aborted; new and old names match",
+
+    "shetiphiancore.team.invite.send.success": "The invite has been sent",
+    "shetiphiancore.team.invite.send.fail.member": "Player is already a member",
+    "shetiphiancore.team.invite.send.fail.pending": "Player already has a pending team invite to '%1$s'",
+    "shetiphiancore.team.invite.receive.notice": "You have been invited to join '%1$s' (use %2$s within the next %3$s minutes to accept)",
+    "shetiphiancore.team.invite.accept.success": "You are now a member of '%1$s'",
+    "shetiphiancore.team.invite.accept.success.notice": "%1$s has joined the team",
+    "shetiphiancore.team.invite.accept.fail.permissions": "Could not join as the player who invited you no longer has permissions to add members",
+    "shetiphiancore.team.invite.accept.fail.member": "You are already a member of this team",
+    "shetiphiancore.team.invite.accept.fail.inteam": "Can not accept an invite while in a team",
+    "shetiphiancore.team.invite.accept.fail.noinvite": "There are no open team invites to accept",
+
+    "shetiphiancore.team.leave.success": "You have left the team",
+    "shetiphiancore.team.leave.success.notice": "%1$s has left the team",
+    "shetiphiancore.team.leave.fail.leader": "You must transfer leadership first or disband the team instead",
+
+    "shetiphiancore.team.kick.success": "Player was kicked from the team",
+    "shetiphiancore.team.kick.success.notice": "You have been kicked from your team",
+    "shetiphiancore.team.kick.fail.rank": "You can only kick player of lower rank",
+    "shetiphiancore.team.kick.fail.team": "That player is not a member of your team",
+
+    "shetiphiancore.team.rank.promote.success": "Member successfully promoted",
+    "shetiphiancore.team.rank.promote.success.notice": "You have been promoted to a team manager",
+    "shetiphiancore.team.rank.promote.fail.manager": "Member already has management access",
+    "shetiphiancore.team.rank.promote.fail.not_member": "Can not promote a player who isn't a member",
+
+    "shetiphiancore.team.rank.demote.success": "Member successfully demoted",
+    "shetiphiancore.team.rank.demote.success.notice": "You have been demoted and are no longer a team manager",
+    "shetiphiancore.team.rank.demote.success.self": "You have successfully demoted yourself",
+
+    "shetiphiancore.team.transfer.success": "Leadership successfully transferred",
+    "shetiphiancore.team.transfer.success.notice": "You are now the leader of '%1$s'",
+    "shetiphiancore.team.transfer.fail.same": "Transfer aborted: user is already leader",
+
+    "shetiphiancore.team.disband.success": "'%1$s' has been disbanded",
+
+    "shetiphiancore.team.no_teams": "There are no teams",
+    "shetiphiancore.team.members.empty": "Team has no members",
+    "shetiphiancore.team.members.error.noteam": "Team doesn't exist",
+
+    "shetiphiancore.team.error.no_team": "You are not in a team",
+    "shetiphiancore.team.error.not_leader": "You are not the team leader",
+    "shetiphiancore.team.error.not_manager.self": "You are not a team manager",
+    "shetiphiancore.team.error.not_manager.other": "Player is not a team manager",
+
+    "shetiphiancore.team.sysadmin.create.success": "'%1$s'['%2$s'] Created",
+    "shetiphiancore.team.sysadmin.rename.success": "'%1$s' display name changed from '%2$s' to '%3$s'",
+    "shetiphiancore.team.sysadmin.kick.success": "%1$s player(s) have been removed from their teams",
+    "shetiphiancore.team.sysadmin.kick.inform": "An admin has removed you from '%1$s'",
+    "shetiphiancore.team.sysadmin.add.success": "%1$s player(s) have been added to '%2$s'",
+    "shetiphiancore.team.sysadmin.add.inform": "An admin added you to '%1$s'",
+    "shetiphiancore.team.sysadmin.transfer.success": "Leadership of '%1$s' has been transferred to '%2$s'",
+    "shetiphiancore.team.sysadmin.disband.success": "'%1$s' has been disbanded, all players have been kicked",
+    "shetiphiancore.team.sysadmin.disband.inform": "An admin disbanded '%1$s', you are no longer in a team",
+
+    "_comment": "------------------------------------------------ NAME CORRECTIONS ------------------------------------------------!",
+    "fluid.tile.lava": "Lava",
+    "fluid.tile.water": "Water",
+    "item.dyePowder.green": "Green Dye",
+    "item.dyePowder.red": "Red Dye",
+    "item.dyePowder.yellow": "Yellow Dye",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.shetiphiancore.extended_power": "Extended Power:",
+
+    "config.jade.plugin_shetiphiancore.hud": "Enable Plugin",
+    "config.jade.plugin_shetiphiancore.hud.rgb16": "RGB16 Block Values",
+    "config.jade.plugin_shetiphiancore.hud.redstone": "Extended Redstone"
+}

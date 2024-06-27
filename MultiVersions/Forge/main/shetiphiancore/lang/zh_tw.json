@@ -1,0 +1,134 @@
+﻿{
+    "_comment": "------------------------------------- ShetiPhianCore zh_tw.json Localization -------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.shetiphiancore": "ShetiPhianCore",
+
+    "info.down": "下",
+    "info.up": "上",
+    "info.north": "北",
+    "info.south": "南",
+    "info.west": "西",
+    "info.east": "東",
+    "info.bottom": "底部",
+    "info.top": "頂部",
+    "info.back": "後",
+    "info.front": "前",
+    "info.left": "左",
+    "info.right": "右",
+
+    "gui.side_disabled": "已停用",
+
+    "color.white": "白",
+    "color.orange": "橙",
+    "color.magenta": "洋紅",
+    "color.light_blue": "淺藍",
+    "color.yellow": "黃",
+    "color.lime": "淺綠",
+    "color.pink": "粉紅",
+    "color.gray": "灰色",
+    "color.light_gray": "淺灰",
+    "color.cyan": "青",
+    "color.purple": "紫",
+    "color.blue": "藍",
+    "color.brown": "棕",
+    "color.green": "綠",
+    "color.red": "紅",
+    "color.black": "黑",
+
+    "key.shetiphiancore.tool.next": "手持物品：下一個模式／選擇",
+    "key.shetiphiancore.tool.previous": "手持物品：上一個模式／選擇",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "info.shetiphian.holdshift": "§2按住 SHIFT 查看更多資訊",
+    "info.shetiphian.creativeolny": "§e創造模式物品",
+    "info.shetiphian.guide": "Fruzstrated 的指南",
+    "info.shetiphian.unused": "§5§o  不再使用／已棄用的物品",
+
+    "error.shetiphian.team.noteam": "你還未在一個隊伍裡",
+    "error.shetiphian.team.wrong": "該物件由其他隊伍所擁有",
+
+    "info.shetiphian.texture.missing": "遺失紋理資料",
+    "info.shetiphian.texture.invalid": "遺失紋理方塊",
+    "info.shetiphian.texture.defaulted": "使用預設",
+
+    "info.shetiphian.mode_change": "§3變更模式：§o",
+    "info.shetiphian.sneak_scroll": "潛行 + 滾動滾輪",
+
+    "_comment": "--------------------------------------------------- TEAMS -----------------------------------------------------!",
+    "shetiphiancore.team.create.success": "成功建立隊伍",
+    "shetiphiancore.team.create.fail.inteam": "你必須先離開目前的隊伍",
+    "shetiphiancore.team.create.fail.exists": "已存在相同名稱的隊伍",
+
+    "shetiphiancore.team.rename.success": "「%1$s」已重新命名為「%2$s」",
+    "shetiphiancore.team.rename.fail.same": "重新命名已中止：新名稱與舊名稱相同",
+
+    "shetiphiancore.team.invite.send.success": "已寄送邀請",
+    "shetiphiancore.team.invite.send.fail.member": "玩家已是隊伍成員",
+    "shetiphiancore.team.invite.send.fail.pending": "玩家已經有來自「%1$s」的待處理隊伍邀請",
+    "shetiphiancore.team.invite.receive.notice": "你已被邀請加入至「%1$s」（請在 %3$s 分鐘內 %2$s 來接受邀請）",
+    "shetiphiancore.team.invite.accept.success": "你現在是「%1$s」的隊伍成員",
+    "shetiphiancore.team.invite.accept.success.notice": "%1$s 已加入隊伍",
+    "shetiphiancore.team.invite.accept.fail.permissions": "無法加入隊伍，因為邀請你的玩家不再有新增成員的權限",
+    "shetiphiancore.team.invite.accept.fail.member": "你已是該隊伍的成員",
+    "shetiphiancore.team.invite.accept.fail.inteam": "在隊伍中時無法接受邀請",
+    "shetiphiancore.team.invite.accept.fail.noinvite": "沒有可接受的隊伍邀請",
+
+    "shetiphiancore.team.leave.success": "你已離開退伍",
+    "shetiphiancore.team.leave.success.notice": "%1$s 已離開隊伍",
+    "shetiphiancore.team.leave.fail.leader": "你必須先轉讓擁有權或解散隊伍",
+
+    "shetiphiancore.team.kick.success": "玩家已被踢出隊伍",
+    "shetiphiancore.team.kick.success.notice": "你已被隊伍踢出",
+    "shetiphiancore.team.kick.fail.rank": "你只能踢出職位比你低的玩家",
+    "shetiphiancore.team.kick.fail.team": "該位玩家部是你的隊伍成員",
+
+    "shetiphiancore.team.rank.promote.success": "已成功晉升成員",
+    "shetiphiancore.team.rank.promote.success.notice": "你已被晉升為隊伍管理者",
+    "shetiphiancore.team.rank.promote.fail.manager": "該成員已有管理權",
+    "shetiphiancore.team.rank.promote.fail.not_member": "無法晉升不是隊伍成員的玩家",
+
+    "shetiphiancore.team.rank.demote.success": "已成功降職成員",
+    "shetiphiancore.team.rank.demote.success.notice": "你已被降職，不再是隊伍管理者",
+    "shetiphiancore.team.rank.demote.success.self": "你已成功降職自己",
+
+    "shetiphiancore.team.transfer.success": "已成功轉讓擁有權",
+    "shetiphiancore.team.transfer.success.notice": "你現在是「%1$s」的擁有者",
+    "shetiphiancore.team.transfer.fail.same": "轉讓中止：使用者已是擁有者",
+
+    "shetiphiancore.team.disband.success": "%1$s 已被解散",
+
+    "shetiphiancore.team.no_teams": "還沒有隊伍",
+    "shetiphiancore.team.members.empty": "隊伍沒有成員",
+    "shetiphiancore.team.members.error.noteam": "隊伍不存在",
+
+    "shetiphiancore.team.error.no_team": "你不在一個隊伍裡",
+    "shetiphiancore.team.error.not_leader": "你不是隊伍擁有者",
+    "shetiphiancore.team.error.not_manager.self": "你不是隊伍管理者",
+    "shetiphiancore.team.error.not_manager.other": "玩家不是隊伍管理者",
+
+    "shetiphiancore.team.sysadmin.create.success": "已建立隊伍「%1$s」【顯示名稱：%2$s】",
+    "shetiphiancore.team.sysadmin.rename.success": "「%1$s」的顯示名稱已從「%2$s」變更為「%3$s」",
+    "shetiphiancore.team.sysadmin.kick.success": "%1$s 名玩家已從他們的隊伍中移除",
+    "shetiphiancore.team.sysadmin.kick.inform": "管理員已將你從「%1$s」移除",
+    "shetiphiancore.team.sysadmin.add.success": "%1$s 名玩家已被加入進「%2$s」",
+    "shetiphiancore.team.sysadmin.add.inform": "管理員已將你加入進「%1$s」",
+    "shetiphiancore.team.sysadmin.transfer.success": "「%1$s」的擁有權已轉讓給「%2$s」",
+    "shetiphiancore.team.sysadmin.disband.success": "「%1$s」已被解散，隊伍中的所有玩家已被踢出",
+    "shetiphiancore.team.sysadmin.disband.inform": "管理員已解散「%1$s」，你已不在一個隊伍裡",
+
+    "_comment": "------------------------------------------------ NAME CORRECTIONS ------------------------------------------------!",
+    "fluid.tile.lava": "熔岩",
+    "fluid.tile.water": "水",
+    "item.dyePowder.green": "綠色染料",
+    "item.dyePowder.red": "紅色染料",
+    "item.dyePowder.yellow": "黃色染料",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.shetiphiancore.extended_power": "擴充能量：",
+
+    "config.jade.plugin_shetiphiancore.hud": "啟用插件",
+    "config.jade.plugin_shetiphiancore.hud.rgb16": "RGB16 方塊值",
+    "config.jade.plugin_shetiphiancore.hud.redstone": "擴充紅石"
+}
