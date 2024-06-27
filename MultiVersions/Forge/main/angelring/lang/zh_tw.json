@@ -1,5 +1,23 @@
 {
-  "item.angelring.itemring": "天使指環",
-  "item.angelring.itemdiamondring": "鑽石指環",
-  "curios.identifier.angelring": "天使指環"
+  "item.angelring.angel_ring": "天使戒指",
+  "item.angelring.diamond_ring": "鑽石戒指",
+  "item.angelring.angel_ring.not_enough_xp": "你需要有經驗值才能飛行。取得更多經驗值來再次飛行。",
+  "item.angelring.angel_ring.tooltip": "按住 §eShift§7 查看更多資訊！",
+  "item.angelring.angel_ring.desc0": "天使戒指在飛行時，會隨時間消耗玩家的經驗值。",
+  "item.angelring.angel_ring.desc1": "如果玩家的經驗值少於 1 級，",
+  "item.angelring.angel_ring.desc2": "魔法將會消失，並使飛行能力失效。",
+  "item.angelring.angel_ring.classic.desc0": "天使戒指已切換至經典模式。裝備在飾品欄時賦予創造模式飛行能力。",
+  "item.angelring.angel_ring.classic.desc1": "藉由在設定檔中將經驗值消耗，設為大於 0 的值，來切換到重新平衡模式。",
+  "item.angelring.energetic_angel_ring": "充能天使戒指",
+  "item.angelring.energetic_angel_ring.not_enough_fe": "你需要更多 FE 才能飛行。為你的天使戒指充能來再次飛行。",
+  "item.angelring.energetic_angel_ring.tooltip": "按住 §eShift§7 查看更多資訊！",
+  "item.angelring.energetic_angel_ring.desc0": "天使戒指在飛行時，會隨時間消耗其儲存的 FE。",
+  "item.angelring.energetic_angel_ring.desc1": "天使戒指目前存有 %s／%s FE。",
+  "item.angelring.leadstone_angel_ring": "鉛石天使戒指",
+  "item.angelring.hardened_angel_ring": "硬化天使戒指",
+  "item.angelring.reinforced_angel_ring": "強化天使戒指",
+  "item.angelring.resonant_angel_ring": "諧振天使戒指",
+  "curios.identifier.angelring": "天使戒指",
+  "itemGroup.angelring2": "天使戒指 2",
+  "angelring.warning": "§c你的天使戒指電量不足！"
 }
