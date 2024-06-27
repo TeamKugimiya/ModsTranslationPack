@@ -6,7 +6,7 @@
   "item.angelring.angel_ring.desc0": "天使戒指在飛行時，會隨時間消耗玩家的經驗值。",
   "item.angelring.angel_ring.desc1": "如果玩家的經驗值少於 1 級，",
   "item.angelring.angel_ring.desc2": "魔法將會消失，並使飛行能力失效。",
-  "item.angelring.angel_ring.classic.desc0": "天使戒指已切換至經典模式。裝備在飾品欄時賦予創造模式飛行能力。",
+  "item.angelring.angel_ring.classic.desc0": "天使戒指已切換至經典模式。\n裝備在飾品欄時，賦予創造模式飛行能力。",
   "item.angelring.angel_ring.classic.desc1": "藉由在設定檔中將經驗值消耗，設為大於 0 的值，來切換到重新平衡模式。",
   "item.angelring.energetic_angel_ring": "充能天使戒指",
   "item.angelring.energetic_angel_ring.not_enough_fe": "你需要更多 FE 才能飛行。為你的天使戒指充能來再次飛行。",
