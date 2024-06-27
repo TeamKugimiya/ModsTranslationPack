@@ -1,0 +1,19 @@
+{
+	"block.jumbofurnace.jumbo_furnace": "巨無霸熔爐",
+	"item.jumbofurnace.jumbo_furnace": "巨無霸熔爐",
+	"item.jumbofurnace.jumbo_furnace_jei": "巨無霸熔爐",
+	"container.jumbofurnace.jumbo_furnace": "巨無霸熔爐",
+	"gui.jumbofurnace.category.jumbo_smelting": "巨無霸熔煉",
+	"gui.jumbofurnace.category.jumbo_furnace_upgrade": "巨無霸熔爐升級",
+	"gui.jumbofurnace.category.multiblock_building": "多方塊結構建造",
+	"jumbofurnace.jumbo_furnace_info_tooltip": "將 27 個熔爐放置在 3x3x3 的立方體區域中，來搭建出巨無霸熔爐",
+	"jumbofurnace.jumbo_furnace_upgrade_info": "以上物品可以放置在巨無霸熔爐的升級欄位中，用於增加每個烹飪週期可熔煉的配方數量。",
+	"jumbofurnace.advancements.story.assemble_jumbo_furnace.title": "巨無霸熔爐",
+	"jumbofurnace.advancements.story.assemble_jumbo_furnace.description": "將 27 個熔爐放置在 3x3x3 的立方體區域中，來搭建出巨無霸熔爐",
+	"jumbofurnace.advancements.story.obtain_jumbo_furnace.title": "較小的外在",
+	"jumbofurnace.advancements.story.obtain_jumbo_furnace.description": "製作巨無霸熔爐物品（透過在巨無霸熔爐中熔煉 27 個熔爐）",
+	"jumbofurnace.advancements.story.upgrade_jumbo_furnace.title": "較大的內在",
+	"jumbofurnace.advancements.story.upgrade_jumbo_furnace.description": "使用巨無霸熔爐升級你的巨無霸熔爐",
+	"jumbofurnace.advancements.story.fully_upgrade_jumbo_furnace.title": "層層熔爐",
+	"jumbofurnace.advancements.story.fully_upgrade_jumbo_furnace.description": "用整整一組 64 個巨無霸熔爐，來完全升級一座巨無霸熔爐"
+}
