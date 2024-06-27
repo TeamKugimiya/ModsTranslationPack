@@ -4,7 +4,7 @@
     "category": "allthemodium:food",
     "pages": [{
             "type": "crafting",
-            "recipe": "allthemodium:main/allthemodium_carrot",
+            "recipe": "allthemodium:allthemodium_carrot",
             "title": "Allthemodium Carrot"
         },
         {

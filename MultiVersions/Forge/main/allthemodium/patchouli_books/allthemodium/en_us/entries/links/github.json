@@ -2,7 +2,7 @@
     "name": "Github",
     "icon": "allthemodium:unobtainium_block",
     "category": "allthemodium:links",
-    "sortnum": "1",
+    "sortnum": 1,
     "pages": [{
         "type": "link",
         "url": "https://github.com/AllTheMods",

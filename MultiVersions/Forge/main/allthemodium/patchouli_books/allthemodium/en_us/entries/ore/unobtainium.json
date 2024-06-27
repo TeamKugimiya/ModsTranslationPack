@@ -2,7 +2,7 @@
     "name": "Unobtainium Ore",
     "icon": "allthemodium:unobtainium_ore",
     "category": "allthemodium:ore",
-    "sortnum": "3",
+    "sortnum": 3,
     "pages": [{
         "type": "spotlight",
         "item": "allthemodium:unobtainium_ore",

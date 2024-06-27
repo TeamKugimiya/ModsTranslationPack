@@ -2,7 +2,7 @@
     "name": "Discord",
     "icon": "allthemodium:vibranium_block",
     "category": "allthemodium:links",
-    "sortnum": "2",
+    "sortnum": 2,
     "pages": [{
         "type": "link",
         "url": "https://discord.gg/K5FBPYa",

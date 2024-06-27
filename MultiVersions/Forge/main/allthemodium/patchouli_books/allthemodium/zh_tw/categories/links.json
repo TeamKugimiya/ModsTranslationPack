@@ -1,6 +1,6 @@
 {
 	"name": "連結",
 	"description": "當你遇到困難時，這些連結或許能提供你一些幫助。$(li)Github 可以追蹤和回報模組包問題。$(li)Discord 是你與人談論模組包話題的好地方。$(li)Reddit 是個方便你展示建築或詢問問題的論壇。",
-	"icon": "atmadditions:atm_star",
+	"icon": "allthetweaks:atm_star",
 	"sortnum": 1
 }
