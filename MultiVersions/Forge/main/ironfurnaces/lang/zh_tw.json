@@ -15,7 +15,6 @@
     "item.ironfurnaces.augment_fuel": "熔爐套件：燃料效率",
     "item.ironfurnaces.augment_factory": "熔爐套件：工業化升級",
     "item.ironfurnaces.augment_generator": "熔爐套件：發電機升級",
-    "item.ironfurnaces.augment_xp": "熔爐套件：經驗升級",
     "item.ironfurnaces.gui": "熔爐套件：物流選項",
     "item.ironfurnaces.item_spooky": "熔爐外觀：駭人南瓜",
     "item.ironfurnaces.item_xmas": "熔爐外觀：聖誕禮物",
@@ -28,7 +27,6 @@
     "item.ironfurnaces.upgrade_iron2": "熔爐升級：銅 > 鐵",
     "item.ironfurnaces.upgrade_gold2": "熔爐升級：銀 > 黃金",
     "item.ironfurnaces.item_copy": "熔爐設定連接器",
-    "item.ironfurnaces.item_linker": "彩虹連接器",
 
     "_comment": "TAB",
     "itemGroup.ironfurnaces": "鐵熔爐",
@@ -144,8 +142,11 @@
     "tooltip.ironfurnaces.hold": "按住 ",
     "tooltip.ironfurnaces.for_details": " 查看詳細資訊。",
     "tooltip.ironfurnaces.augment_slot": "套件欄位",
-    "tooltip.ironfurnaces.rainbow_gen1": "當所有種類熔爐處於發電狀態，且使用彩虹連接器與彩虹熔爐相連時，彩虹熔爐將會產生",
+    "tooltip.ironfurnaces.rainbow_gen1": "當所有種類的熔爐處於發電狀態時，將產生",
     "tooltip.ironfurnaces.rainbow_gen2": "RF/tick",
+    "tooltip.ironfurnaces.rainbow_gen3": "為了讓每個等級的熔爐都處於發電狀態，其內部能量暫存區不得是滿的",
+    "tooltip.ironfurnaces.rainbow_gen4": "熔爐會朝設定為「輸出」的任何一側輸出能量，這時將不會向內部暫存區增加能量",
+    "tooltip.ironfurnaces.rainbow_gen5": "你只能擁有一台彩虹發電機",
 
 
 
