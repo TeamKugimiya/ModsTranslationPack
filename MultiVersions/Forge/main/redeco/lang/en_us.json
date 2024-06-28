@@ -28,6 +28,8 @@
 
   "block.redeco.spyglass_stand": "Spyglass Stand",
 
+  "block.redeco.trash_bin": "Trash Bin",
+
   "block.redeco.paper_pane": "Paper Pane",
   "block.redeco.paper_door": "Paper Door",
   "block.redeco.paper_trapdoor": "Paper Trapdoor",
@@ -460,14 +462,14 @@
   "block.redeco.red_awning": "Red Awning",
   "block.redeco.black_awning": "Black Awning",
 
-  "tooltip.redeco.block.stepping_stones": "§7right click with pickaxe to pick up",
-
-  "tooltip.redeco.block.stone_lantern": "§7right click with pickaxe to add/remove legs",
-  "tooltip.redeco.block.deepslate_lantern": "§7right click with pickaxe to add/remove legs",
+  "tooltip.redeco.stepping_stones": "right click with pickaxe to pick up",
+  "tooltip.redeco.stone_lantern": "right click with pickaxe to add/remove legs",
+  "tooltip.redeco.trash_bin": "sneak + right click to empty",
 
   "itemGroup.redeco.redeco_tab": "Re:Deco",
 
   "container.redeco.drawers": "Drawers",
   "container.redeco.side_table": "Side Table",
-  "container.redeco.cabinet": "Cabinet"
+  "container.redeco.cabinet": "Cabinet",
+  "container.redeco.trash_bin": "Trash Bin"
 }
