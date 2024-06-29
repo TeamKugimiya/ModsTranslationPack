@@ -10,7 +10,7 @@
   "block.plentyplates.obsidian_pressure_plate": "黑曜石壓力板",
   "block.plentyplates.obsidian_pressure_plate.entities": "玩家",
   "block.plentyplates.pressure_plate.activated_by": "適用於：%s",
-  "block.plentyplates.pressure_plate.description": "按住 %s + 空手點擊 %s，可對壓力版進行設定",
+  "block.plentyplates.pressure_plate.description": "按住 %s + 空手點擊 %s，可對壓力板進行設定",
   "block.plentyplates.stone_bricks_pressure_plate": "石磚壓力板",
   "block.plentyplates.stone_bricks_pressure_plate.entities": "生物",
   "container.pressure_plate": "壓力板",
