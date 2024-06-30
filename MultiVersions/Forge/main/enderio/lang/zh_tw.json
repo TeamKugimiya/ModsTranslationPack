@@ -534,7 +534,7 @@
   "tooltip.enderio.grinding_ball_power_use": "耗能：%s%%",
   "tooltip.enderio.grinding_ball_remaining": "剩餘：%s%%",
   "tooltip.enderio.grinding_ball_title": "半自動研磨機的研磨珠",
-  "tooltip.enderio.gui.show_advanced_tooltip": "<Hold Shift>",
+  "tooltip.enderio.gui.show_advanced_tooltip": "<按住 Shift>",
   "tooltip.enderio.photovoltaic_cell.advanced": "白天時產生能量",
   "tooltip.enderio.photovoltaic_cell.advanced2": "必須要能直視天空",
   "tooltip.enderio.photovoltaic_cell.advanced3": "最大產出：",
