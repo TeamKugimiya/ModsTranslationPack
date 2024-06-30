@@ -28,6 +28,8 @@
 
   "block.redeco.spyglass_stand": "望遠鏡架",
 
+  "block.redeco.trash_bin": "垃圾桶",
+
   "block.redeco.paper_pane": "和室紙片",
   "block.redeco.paper_door": "紙門",
   "block.redeco.paper_trapdoor": "紙地板門",
@@ -460,14 +462,14 @@
   "block.redeco.red_awning": "紅色遮陽棚",
   "block.redeco.black_awning": "黑色遮陽棚",
 
-  "tooltip.redeco.block.stepping_stones": "§7手持鎬子並點擊右鍵可減少踏腳石數量",
-
-  "tooltip.redeco.block.stone_lantern": "§7手持鎬子並點擊右鍵，可增加／移除支柱",
-  "tooltip.redeco.block.deepslate_lantern": "§7手持鎬子並點擊右鍵，可增加／移除支柱",
+  "tooltip.redeco.stepping_stones": "手持鎬子並點擊右鍵，可拾起踏腳石",
+  "tooltip.redeco.stone_lantern": "手持鎬子並點擊右鍵，可增加／移除支柱",
+  "tooltip.redeco.trash_bin": "潛行並點擊右鍵以清空",
 
   "itemGroup.redeco.redeco_tab": "Re:Deco",
 
   "container.redeco.drawers": "抽屜櫃",
   "container.redeco.side_table": "邊桌",
-  "container.redeco.cabinet": "櫥櫃"
+  "container.redeco.cabinet": "櫥櫃",
+  "container.redeco.trash_bin": "垃圾桶"
 }
