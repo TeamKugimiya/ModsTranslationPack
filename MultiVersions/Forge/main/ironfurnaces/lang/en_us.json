@@ -15,7 +15,6 @@
     "item.ironfurnaces.augment_fuel": "Augment: Fuel Efficiency",
     "item.ironfurnaces.augment_factory": "Augment: Factory",
     "item.ironfurnaces.augment_generator": "Augment: Generator",
-    "item.ironfurnaces.augment_xp": "Augment: Experience",
     "item.ironfurnaces.gui": "Augment: Inventory Config",
     "item.ironfurnaces.item_spooky": "Furnace Spooka-lator",
     "item.ironfurnaces.item_xmas": "Furnace Wrapping Papers",
@@ -28,7 +27,6 @@
     "item.ironfurnaces.upgrade_iron2": "Copper to Iron Furnace Upgrade",
     "item.ironfurnaces.upgrade_gold2": "Silver to Gold Furnace Upgrade",
     "item.ironfurnaces.item_copy": "Furnace Settings Linker",
-    "item.ironfurnaces.item_linker": "Rainbow Linker",
 
     "_comment": "TAB",
     "itemGroup.ironfurnaces": "Iron Furnaces",
@@ -145,8 +143,10 @@
     "tooltip.ironfurnaces.for_details": " for Details.",
     "tooltip.ironfurnaces.augment_slot": "Augment Slot",
     "tooltip.ironfurnaces.rainbow_gen1": "Will generate",
-    "tooltip.ironfurnaces.rainbow_gen2": "RF/tick if all other furnaces are generating power and they are connected with the Rainbow Linker",
-
+    "tooltip.ironfurnaces.rainbow_gen2": "RF/tick if all other furnaces are generating power",
+    "tooltip.ironfurnaces.rainbow_gen3": "For power generation, one of each tier of furnace must be an active generator and not have a full buffer",
+    "tooltip.ironfurnaces.rainbow_gen4": "Outputs energy to any side that is configured as output, it wont add energy to the internal buffer",
+    "tooltip.ironfurnaces.rainbow_gen5": "You can only have one Rainbow Generator",
 
 
     "_comment": "Updates",
