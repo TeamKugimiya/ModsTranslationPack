@@ -1,0 +1,58 @@
+﻿{
+    "_comment": "--------------------------------------- EnderTanks zh_tw.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.endertanks": "終界儲罐",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.endertanks.bucket.nolink1": "無法同步顏色代碼，你不是該儲罐的擁有者",
+    "error.endertanks.bucket.nolink2": "無法同步顏色代碼，無法識別儲罐擁有者",
+    "error.endertanks.bucket.nolink3": "無法同步顏色代碼，你不在相同隊伍裡",
+
+    "error.endertanks.tank.public.disabled": "儲罐的公用模式已停用，必須先升級才能使用",
+    "error.endertanks.tank.private.disabled": "儲罐的私人模式已停用",
+    "error.endertanks.tank.team.disabled": "儲罐的隊伍模式已停用",
+    "error.endertanks.tank.private.denied": "僅擁有者能執行該行動",
+    "error.endertanks.tank.team.denied": "僅隊伍成員能執行該行動",
+    "error.endertanks.tank.upgrade_used": "該升級物品每個儲罐只能套用一次",
+    "error.endertanks.bucket.public.disabled": "桶的公用模式已停用",
+    "error.endertanks.bucket.private.disabled": "桶的私人模式已停用",
+    "error.endertanks.bucket.team.disabled": "桶的團隊模式已停用",
+
+    "info.endertanks.bucket.mode.normal": "§7模式：§o普通（拾取、潛行狀態下放置）",
+    "info.endertanks.bucket.mode.invert": "§7模式：§o反向（放置、潛行狀態下拾取）",
+    "info.endertanks.bucket.mode.pickup": "§7模式：§o僅拾取",
+    "info.endertanks.bucket.mode.place": "§7模式：§o僅放置",
+
+    "info.endertanks.bucket.header": "桶",
+    "info.endertanks.tank.header": "儲罐",
+    "info.endertanks.tank.empty": "空",
+    "info.endertanks.tank.public": "公用",
+    "info.endertanks.tank.code": "代碼：",
+    "info.endertanks.tank.capacity": "儲罐容量已升級至",
+    "info.endertanks.tank.pump.upgrade": "泵浦已升級至",
+    "info.endertanks.tank.pump": "泵浦",
+
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "item.endertanks.bucket.public": "終界桶",
+    "item.endertanks.bucket.private": "終界桶",
+    "item.endertanks.bucket.team": "終界桶",
+    "block.endertanks.tank.public": "終界儲罐",
+    "block.endertanks.tank.private": "終界儲罐",
+    "block.endertanks.tank.team": "終界儲罐",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.endertanks.server_data_missing": " §6⚠ §4未從伺服器接收到 HUD 資料§6⚠",
+
+    "config.jade.plugin_endertanks.hud": "啟用插件",
+    "config.jade.plugin_endertanks.hud.basic": "擁有者與代碼",
+    "config.jade.plugin_endertanks.hud.contents": "包含的內容物",
+    "config.jade.plugin_endertanks.hud.status": "泵浦 & 比較器狀態",
+
+    "info.endertanks.tank.type.fluid": "§3§o流體：§r",
+    "info.endertanks.tank.type.mekanism.gas": "§3§o《通用機械》氣體：§r",
+    "info.endertanks.tank.type.mekanism.infusion": "§3§o《通用機械》灌注類型：§r",
+    "info.endertanks.tank.type.mekanism.pigment": "§3§o《通用機械》顏料：§r",
+    "info.endertanks.tank.type.mekanism.slurry": "§3§o《通用機械》漿液：§r"
+}
