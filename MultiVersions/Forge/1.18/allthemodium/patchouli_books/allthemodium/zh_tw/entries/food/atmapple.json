@@ -1,0 +1,15 @@
+{
+    "name": "ATM 金屬蘋果",
+    "icon": "allthemodium:allthemodium_apple",
+    "category": "allthemodium:food",
+    "pages": [{
+            "type": "crafting",
+            "recipe": "allthemodium:allthemodium_apple",
+            "title": "ATM 金屬蘋果"
+        },
+        {
+            "type": "text",
+            "text": "ATM 金屬蘋果能回復玩家 20 飢餓值與 80 飽食度。蘋果擁有以下效果：$(li)快速食用$(li)飢餓值為滿時也可食用$(li)30 秒的吸收 X 效果$(li)30 秒的抗性 X 效果"
+        }
+    ]
+}

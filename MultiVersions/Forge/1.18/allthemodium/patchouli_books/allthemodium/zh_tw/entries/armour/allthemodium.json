@@ -1,0 +1,32 @@
+{
+    "name": "ATM 金屬盔甲",
+    "icon": "allthemodium:allthemodium_chestplate",
+    "category": "allthemodium:armour",
+    "sortnum": 1,
+    "pages": [{
+            "type": "text",
+            "text": "ATM 盔甲除了提供盔甲強度和抗擊退外，還額外提供一些好處：$(li)水下呼吸$(li)免疫穿戴鞘翅飛行時的撞擊傷害$(li)免疫來自火焰及熔岩的傷害$(li)免疫摔落傷害"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/allthemodium_helmet",
+            "recipe2": "kubejs:minecraft_netherite_helmet_upgrade"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/allthemodium_chestplate",
+            "recipe2": "kubejs:minecraft_netherite_chestplate_upgrade"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/allthemodium_leggings",
+            "recipe2": "kubejs:minecraft_netherite_leggings_upgrade"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/allthemodium_boots",
+            "recipe2": "kubejs:minecraft_netherite_boots_upgrade"
+        }
+    ]
+}

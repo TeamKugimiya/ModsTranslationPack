@@ -1,0 +1,21 @@
+{
+    "name": "難得素盔甲",
+    "icon": "allthemodium:unobtainium_chestplate",
+    "category": "allthemodium:armour",
+    "sortnum": 3,
+    "pages": [{
+            "type": "text",
+            "text": "難得素盔甲留有所有汎金屬盔甲的能力，並大幅提升了盔甲值、裝備強度和抗擊退，且額外提供：$(li)免疫界伏蚌的懸浮攻擊$(li)從汎金屬盔甲升級上來時，會保留原裝備上的附魔"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/unobtainium_helmet",
+            "recipe2": "allthemodium:main/unobtainium_chestplate"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/unobtainium_leggings",
+            "recipe2": "allthemodium:main/unobtainium_boots"
+        }
+    ]
+}

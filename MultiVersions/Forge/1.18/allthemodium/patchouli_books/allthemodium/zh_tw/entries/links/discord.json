@@ -1,0 +1,12 @@
+{
+    "name": "Discord",
+    "icon": "allthemodium:vibranium_block",
+    "category": "allthemodium:links",
+    "sortnum": 2,
+    "pages": [{
+        "type": "link",
+        "url": "https://discord.gg/K5FBPYa",
+        "link_text": "Discord 邀請",
+        "text": "我們的 Discord 中，有我們各款模組包各自專用的聊天室，提供玩家幫助與日常討論。"
+    }]
+}

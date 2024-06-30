@@ -1,0 +1,21 @@
+{
+    "name": "汎金屬盔甲",
+    "icon": "allthemodium:vibranium_chestplate",
+    "category": "allthemodium:armour",
+    "sortnum": 2,
+    "pages": [{
+            "type": "text",
+            "text": "汎金屬盔甲留有所有 ATM 金屬盔甲的能力，並提升了盔甲值、盔甲強度和抗擊退，且額外提供：$(li)免疫凋零效果傷害$(li)魔法抗性$(li)免疫噁心$(li)從 ATM 金屬盔甲升級上來時，會保留原裝備上的附魔"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/vibranium_helmet",
+            "recipe2": "allthemodium:main/vibranium_chestplate"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/vibranium_leggings",
+            "recipe2": "allthemodium:main/vibranium_boots"
+        }
+    ]
+}

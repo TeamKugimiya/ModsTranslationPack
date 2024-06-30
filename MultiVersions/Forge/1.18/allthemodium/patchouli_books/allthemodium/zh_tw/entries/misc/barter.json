@@ -1,0 +1,28 @@
+{
+    "name": "以物易物",
+    "icon": "minecraft:piglin_spawn_egg",
+    "category": "allthemodium:misc",
+    "sortnum": 2,
+    "pages": [{
+            "type": "entity",
+            "entity": "minecraft:piglin",
+            "rotate": "false",
+            "default_rotation": "-45"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:gold_ingot",
+            "title": "Bartering",
+            "link_recipe": false,
+            "text": "與豬布林以物易物，是遊戲前期獲得資源不錯的方式。你可以將金錠扔在地板上，或拿著金錠對著牠們點擊右鍵來與牠們進行交易。$(br2)翻閱至下一頁以查看新加入的交易。"
+        },
+        {
+            "type": "text",
+            "text": "$(li)ATM 金屬靴子 - 權重 1$(li)ATM 金屬藥水 - 權重 1$(li)2-4 個 ATM 金屬蘋果 - 權重 4$(li)1-2 個 ATM 金屬胡蘿蔔 -  權重 3$(li)1-4 個 ATM 金屬粒 - 權重 8"
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}
