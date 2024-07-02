@@ -1,6 +1,9 @@
 {
     "comment_id": "/Adventure Module",
 
+    "key.categories.apotheosis": "神化",
+    "key.apotheosis.toggle_radial_mining": "變更徑向挖掘模式",
+
     "info.apotheosis.affix_item": "神化詞綴物品",
 
     "death.attack.apotheosis.execute": "%s 被 %s 處決了",
@@ -9,6 +12,13 @@
     "misc.apotheosis.affix_name.two": "%s %s",
     "misc.apotheosis.affix_name.three": "%s %s %s",
     "misc.apotheosis.affix_name.four": "%s %s %s %s",
+    "misc.apotheosis.affix_bounds": "[%s\u00A0-\u00A0%s]",
+
+    "misc.apotheosis.radial_state_updated": "徑向挖掘模式：「%s」",
+    "misc.apotheosis.radial_state.require_not_sneaking": "潛行時停用",
+    "misc.apotheosis.radial_state.require_sneaking": "潛行時啟用",
+    "misc.apotheosis.radial_state.enabled": "已啟用",
+    "misc.apotheosis.radial_state.disabled": "已停用",
 
     "affix.apotheosis:armor/attribute/blessed": "受祝福的",
     "affix.apotheosis:armor/attribute/blessed.suffix": "《生命》",
@@ -278,10 +288,8 @@
     "affix.apotheosis:armor/mob_effect/bursting": "蓬勃的",
     "affix.apotheosis:armor/mob_effect/bursting.suffix": "《活力》",
 
-    "affix.apotheosis:socket": "",
-    "affix.apotheosis:socket.suffix": "",
-    "affix.apotheosis:durable": "",
-    "affix.apotheosis:durable.suffix": "",
+    "affix.apotheosis:durable": "耐用的",
+    "affix.apotheosis:durable.suffix": "《耐用性》",
 
     "affix.apotheosis.target.attack_self": "攻擊敵人時，獲得 %s",
     "affix.apotheosis.target.attack_target": "攻擊敵人時，給對方造成 %s",
@@ -333,7 +341,7 @@
     "bonus.apotheosis:bloody_arrow.desc": "處於燃燒狀態時，你將失去 %s%% 最高生命值並造成 %s%% 傷害。 %s",
     "bonus.apotheosis:leech_block.desc": "格檔攻擊將回復等同於 %s%% 傷害的生命值。 %s",
     "bonus.apotheosis:all_stats.desc": "所有數值 +%s%%",
-    "gem.apotheosis:overworld/royalty.bonus.pickaxe": "破壞鐵礦時有 %s%% 機率掉落金原礦。",
+    "gem.apotheosis:overworld/royalty.bonus.pickaxe": "破壞銅礦時有 %s%% 機率掉落金原礦。",
     "bonus.apotheosis:mageslayer.desc": "忽略 %s%% 魔法傷害，並回復同等量的生命值。",
     "bonus.apotheosis:twilight_ore_magnet.desc": "可用作礦物磁鐵，將額外損耗 %s 耐久度。",
     "bonus.apotheosis:twilight_treasure_goblin.desc": "攻擊實體時有 %s%% 機率召喚一隻寶藏哥布林。 %s",
@@ -384,26 +392,46 @@
     "item.apotheosis.epic_material": "奧術沙",
     "item.apotheosis.mythic_material": "神鑄珍珠",
     "item.apotheosis.ancient_material": "萬物之顯現",
-    "item.apotheosis.sigil_of_socketing": "寶石鑲嵌咒符",
-    "item.apotheosis.superior_sigil_of_socketing": "卓越的寶石鑲嵌咒符",
-    "item.apotheosis.sigil_of_enhancement": "[NYI] 強化咒符",
-    "item.apotheosis.superior_sigil_of_enhancement": "[NYI] 卓越的強化咒符",
+    "item.apotheosis.gem_fused_slate": "玉嵌石板",
+
+    "item.apotheosis.sigil_of_socketing": "鑲嵌咒符",
+    "item.apotheosis.sigil_of_socketing.desc": "為物品新增一個鑲嵌槽",
+
+    "item.apotheosis.sigil_of_withdrawal": "卸除咒符",
+    "item.apotheosis.sigil_of_withdrawal.desc": "將鑲嵌在物品上的寶石全部卸除",
+
+    "item.apotheosis.sigil_of_rebirth": "重生咒符",
+    "item.apotheosis.sigil_of_rebirth.desc": "用於重鑄台的重鑄材料",
+
+    "item.apotheosis.sigil_of_enhancement": "強化咒符",
+    "item.apotheosis.sigil_of_enhancement.desc": "用於詞綴改造台的改造材料",
+
+    "item.apotheosis.sigil_of_unnaming": "除名咒符",
+    "item.apotheosis.sigil_of_unnaming.desc": "移除物品上的詞綴名稱",
 
     "block.apotheosis.boss_spawner": "Boss 生怪磚",
     "block.apotheosis.gem_cutting_table": "寶石切割台",
-    "block.apotheosis.gem_cutting_table.desc": "使用寶石粉與稀有度材料來升級寶石",
+    "block.apotheosis.gem_cutting_table.desc": "使用重生咒符與稀有度材料來重鑄物品",
     "block.apotheosis.salvaging_table": "分解台",
     "block.apotheosis.salvaging_table.desc": "將詞綴物品分解成稀有度材料",
     "block.apotheosis.simple_reforging_table": "簡易重鑄台",
     "block.apotheosis.reforging_table": "重鑄台",
     "block.apotheosis.reforging_table.desc": "使用寶石粉與稀有度材料，將物品再次鑄上詞綴",
     "block.apotheosis.reforging_table.desc2": "最高稀有度：%s",
+    "block.apotheosis.augmenting_table": "詞綴改造台",
+    "block.apotheosis.augmenting_table.desc": "使用強化咒符來強化或洗鍊指定詞綴",
 
     "button.apotheosis.salvage": "分解",
     "button.apotheosis.no_salvage": "尚未選擇物品",
     "button.apotheosis.no_salvage_all": "沒有可分解的詞綴物品",
     "button.apotheosis.upgrade": "升級寶石",
     "button.apotheosis.upgrade.no": "缺少輸入物品",
+    "button.apotheosis.augmenting.upgrade": "升級目前選擇的詞綴",
+    "button.apotheosis.augmenting.reroll": "洗鍊目前選擇的詞綴",
+    "button.apotheosis.augmenting.no_selection": "尚未選擇詞綴",
+    "button.apotheosis.augmenting.max_level": "已達到等級上限",
+    "button.apotheosis.augmenting.no_alternatives": "沒有可洗鍊出的詞綴",
+    "button.apotheosis.augmenting.upgrade.cost": "成本：%sx %s",
 
     "menu.apotheosis.gem_cutting": "寶石切割",
     "container.apotheosis.salvage": "分解",
@@ -420,6 +448,10 @@
     "text.apotheosis.no_upgrade": "已達到最高等級",
     "text.apotheosis.cut_cost": "寶石切割成本",
     "text.apotheosis.one_rarity_mat": "稀有度材料（1）",
+    "text.apotheosis.potential_rerolls": "可能洗鍊出的詞綴",
+    "text.apotheosis.upgraded_form": "升級預覽",
+    "text.apotheosis.alternative_page": "第 %s/%s 頁（滾動滾輪來換頁）",
+
     "title.apotheosis.smithing": "神化鍛造",
     "title.apotheosis.salvaging": "分解",
 
@@ -675,6 +707,7 @@
     "stat.apotheosis.ignore_light": "忽略生成亮度",
     "stat.apotheosis.no_ai": "沒有 AI",
     "stat.apotheosis.silent": "靜音",
+    "stat.apotheosis.baby": "幼年化",
 
     "stat.apotheosis.min_delay.desc": "每次生成最短的間隔時間（單位為 tick）",
     "stat.apotheosis.max_delay.desc": "每次生成最長的間隔時間（單位為 tick）",
@@ -688,6 +721,7 @@
     "stat.apotheosis.ignore_light.desc": "生怪磚將無視生成的亮度條件",
     "stat.apotheosis.no_ai.desc": "生成出的實體將沒有 AI",
     "stat.apotheosis.silent.desc": "生成的實體將不會發出聲響",
+    "stat.apotheosis.baby.desc": "當實體具有幼年型態時，生怪磚將總是生成幼年實體",
 
     "title.apotheosis.spawner": "生怪磚改造",
     "info.apotheosis.spawner": "生怪磚可被附有%s的工具破壞後取得，且可使用各種物品進行改造。",
@@ -723,12 +757,13 @@
     "block.apotheosis.melonshelf": "西瓜書櫃",
     "block.apotheosis.stoneshelf": "石頭書櫃",
 
-    "block.apotheosis.sightshelf": "視界書櫃",
-    "block.apotheosis.sightshelf_t2": "精湛視界書櫃",
+    "block.apotheosis.sightshelf": "視界地獄書櫃",
+    "block.apotheosis.sightshelf_t2": "精湛視界地獄書櫃",
     "block.apotheosis.rectifier": "海洋校正書櫃",
     "block.apotheosis.rectifier_t2": "地獄校正書櫃",
     "block.apotheosis.rectifier_t3": "終界校正書櫃",
-
+    "block.apotheosis.filtering_shelf": "海洋篩選書櫃",
+    "block.apotheosis.treasure_shelf": "祕寶深板岩書櫃",
 
     "info.apotheosis.ench_power": "提供 %s 附魔能量。",
     "info.apotheosis.cobweb": "可用來移除物品上的附魔。",
@@ -747,6 +782,8 @@
     "info.apotheosis.arcana": " - 阿卡那：%s%%",
     "info.apotheosis.rectification": " - 校正：%s%%",
     "info.apotheosis.clues": " - 附魔提示：%s",
+    "info.apotheosis.allows_treasure": " - 允許寶藏附魔",
+    "info.apotheosis.filter": "附魔篩選：",
     "info.apotheosis.eterna.p": " - 位階：+%s（最多 %s）",
     "info.apotheosis.quanta.p": " - 量子化：+%s%%",
     "info.apotheosis.arcana.p": " - 阿卡那：+%s%%",
@@ -758,10 +795,10 @@
     "info.apotheosis.rectification.t": "校正：%s%%",
     "info.apotheosis.clues.t": "附魔提示：%s",
     "gui.apotheosis.enchant.eterna.desc": " - 魔法能量",
-    "gui.apotheosis.enchant.eterna.desc2": "決定附魔台可用的附魔等級",
+    "gui.apotheosis.enchant.eterna.desc2": "設定最高可附魔等級",
     "gui.apotheosis.enchant.eterna.desc3": "目前數值：%s/%s",
     "gui.apotheosis.enchant.quanta.desc": " - 原初混沌",
-    "gui.apotheosis.enchant.quanta.desc2": "調整附魔等級的波動範圍",
+    "gui.apotheosis.enchant.quanta.desc2": "提高附魔的隨機性",
     "gui.apotheosis.enchant.quanta.desc3": "能減少量子化帶來的負面影響",
     "gui.apotheosis.enchant.quanta.desc4": "目前數值：%s%%",
     "gui.apotheosis.enchant.arcana.desc": " - 超凡的純粹之物",
@@ -797,6 +834,8 @@
     "info.apotheosis.tradeable.not": "不可交易",
     "info.apotheosis.treasure": "可尋寶",
     "info.apotheosis.treasure.not": "不可尋寶",
+    "info.apotheosis.filtering_shelf": "將附魔書放入書櫃，來防止他們出現在附魔台裡。",
+    "info.apotheosis.filtering_shelf2": "根據放入的附魔書數量，獲得對應的位階與阿卡那。",
 
     "enchantment.apotheosis.infusion": "灌注",
     "enchantment.apotheosis.infusion.desc": "用於「灌注附魔」合成。",
@@ -921,6 +960,7 @@
     "forge.entity_gravity": "重力",
     "block.reeds": "甘蔗",
     "potion.potency.3": "IV",
+    "enchantment.level.0": "0",
     "enchantment.level.11": "XI",
     "enchantment.level.12": "XII",
     "enchantment.level.13": "XIII",
@@ -1065,6 +1105,8 @@
     "info.apotheosis.item_ench": "物品附魔能力：%s",
     "info.apotheosis.num_clues": "附魔提示：%s",
     "info.apotheosis.infusion_failed": "尚未滿足灌注條件",
+    "info.apotheosis.anvil_at": "使用 %s 級經驗鍛造",
+    "info.apotheosis.anvil_xp_cost": "消耗經驗：%s",
 
     "info.apotheosis.slider_power": "能量：%s",
     "info.apotheosis.enchinfo_level": "等級：%s",
@@ -1162,13 +1204,17 @@
     "name.apotheosis.vigilance": "生命的體悟",
     "apotheosis.recipes.fletching": "製箭",
     "item.apotheosis.obsidian_arrow": "黑曜石之箭",
+    "entity.apotheosis.obsidian_arrow": "黑曜石之箭",
     "info.apotheosis.obsidian_arrow": "+20%% 傷害",
     "item.apotheosis.broadhead_arrow": "寬頭之箭",
+    "entity.apotheosis.broadhead_arrow": "寬頭之箭",
     "info.apotheosis.broadhead_arrow": "流血（0:15）",
     "item.apotheosis.explosive_arrow": "爆炸之箭",
+    "entity.apotheosis.explosive_arrow": "爆炸之箭",
     "info.apotheosis.explosive_arrow": "爆炸半徑：2",
     "item.apotheosis.iron_mining_arrow": "鐵製挖掘之箭",
     "item.apotheosis.diamond_mining_arrow": "鑽石挖掘之箭",
+    "entity.apotheosis.mining_arrow": "挖掘之箭",
     "info.apotheosis.mining_arrow.iron": "能用來破壞方塊，具有鐵鎬的強度",
     "info.apotheosis.mining_arrow.diamond": "能用來破壞方塊，具有鑽石鎬的強度",
 

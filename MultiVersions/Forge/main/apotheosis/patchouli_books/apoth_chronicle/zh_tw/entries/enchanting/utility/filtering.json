@@ -1,0 +1,27 @@
+{
+    "name": "附魔篩選",
+    "icon": "apotheosis:filtering_shelf",
+    "category": "apotheosis:enchanting/utility",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "有些時候，我們會希望在附魔的過程中，來完全避免一些附魔出現。$(p)$(9)海洋篩選書櫃$()能讓你達成這個目的。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:filtering_shelf",
+            "title": "海洋篩選書櫃",
+            "text": "你能在書櫃中，放入最多 6 本僅有單一附魔的附魔書，藉此防止它們出現在附魔結果當中。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "使用書櫃的方式非常簡單，只需要將一本你想列入黑名單的單一附魔書，放入到書櫃當中。$(p)該附魔將不再會出現在附魔台的結果當中。$(p)書櫃也會根據放入的附魔書數量，獲得相對應的$(#3DB53D)位階$()與$(#A800A8)阿卡那$()。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "備註：放入附魔書的方式，與浮雕書櫃的使用方法相同，且書櫃必須放置在有效的書櫃位置上才能運作。$(p)被列入黑名單的附魔，將會顯示在$(l:apotheosis:enchanting/table/info)附魔資訊畫面$()當中。"
+        }
+    ]
+}
