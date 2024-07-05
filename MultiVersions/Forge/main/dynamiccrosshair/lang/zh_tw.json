@@ -12,7 +12,7 @@
   "dynamiccrosshair.option.thirdPersonCrosshair": "在第三人稱視角中顯示十字準心",
   "dynamiccrosshair.option.thirdPersonCrosshair.description": "在第三人稱視角時不要隱藏準心。這僅適用於背面視角，而非正面視角。",
   "dynamiccrosshair.option.hideWithScreen": "當打開界面時隱藏準心",
-  "dynamiccrosshair.option.hideWithScreen.description": "當任何界面開啟時隱藏準心。",
+  "dynamiccrosshair.option.hideWithScreen.description": "當任何介面開啟時隱藏準心。",
   "dynamiccrosshair.option.hideWithMap": "拿地圖時隱藏",
   "dynamiccrosshair.option.hideWithMap.description": "當雙手持有地圖時隱藏準心，以免遮擋地圖內容。",
   "dynamiccrosshair.option.fixCenteredCrosshair": "修正準心中心點",
