@@ -1,0 +1,39 @@
+{
+    "name": "詞綴改造",
+    "icon": "apotheosis:augmenting_table",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)詞綴改造台$()是遊戲後期，用來強化物品上指定詞綴的工作站。$(p)透過這個改造台，你可以升級或重新洗煉單一詞綴，至於其餘部分則保持不變。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:augmenting_table",
+            "text": "要合成出詞綴改造台，你需要以$(9)附魔台$()為基底，透過兩顆神鑄珍珠向其灌注$(9)地獄之星$()的力量。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "輸入欄位",
+            "text": "詞綴改造台有兩個輸入欄位。$(p)上面那一格用來放入你想要改造的詞綴物品。$(p)正常來說，你應該只改造$(#ED7014)神化$()或以上稀有度的物品，但你仍可以考慮改造$(#BB00BB)史詩$()稀有度的物品。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:sigil_of_enhancement",
+            "title": "輸入欄位",
+            "text": "下面那一格則用來放入$(9)強化咒符$()，這是改造詞綴物品所需要的材料。$(p)最後，你需要從下拉式選單中，選擇想要改造的詞綴。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "升級",
+            "text": "在詞綴改造台中，你能做的第一件事情是強化詞綴。$(p)這會消耗 2 個$(9)強化咒符$()，並提升目前詞綴的 25% 屬性。$(p)屬性可提升的幅度，會根據詞綴而有所不同。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "洗鍊",
+            "text": "在詞綴改造台中，你能做的第二件事情是重新洗煉詞綴。$(p)這會消耗 1 個$(9)強化咒符$()，並將你所選擇的詞綴，替換為另一個相同類型的詞綴。$(p)可洗鍊出的詞綴選項，將會顯示在改造台的介面左側。"
+        }
+    ]
+}

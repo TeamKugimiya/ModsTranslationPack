@@ -1,0 +1,19 @@
+{
+    "name": "寶藏附魔",
+    "icon": "apotheosis:treasure_shelf",
+    "category": "apotheosis:enchanting/utility",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "寶藏附魔是指那些通常無法透過附魔台取得的特殊附魔。$(p)然而這個問題，可以透過$(9)祕寶深板岩書櫃$()解決。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:treasure_shelf",
+            "title": "祕寶深板岩書櫃",
+            "text": "將這種書櫃放置在有效的書櫃位置上，寶藏附魔將會出現在附魔結果當中。$(p)但要記住，大多數的$(4)詛咒$()附魔，也都是寶藏附魔。"
+        }
+    ]
+}
