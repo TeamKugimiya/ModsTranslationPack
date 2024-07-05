@@ -43,7 +43,7 @@
     "forge.entity_gravity.desc": "墜落時的加速度，以方塊/秒²為單位。",
     "forge.name_tag_distance.desc": "其他玩家需要在多少距離內才能看見你的名字。",
     "forge.block_reach.desc": "你能與方塊互動的最遠距離，以方塊為單位。",
-    "forge.step_height_addition.desc": "你在不跳躍的情形下，能直接走上的最高方塊數。",
+    "forge.step_height.desc": "你在不跳躍的情形下，能直接走上的最高方塊數。",
     "forge.swim_speed.desc": "相對於正常狀態下的游泳速度。",
 
     "attributeslib:draw_speed": "蓄力速度",
