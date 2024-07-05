@@ -1,0 +1,22 @@
+{
+  "arseng.page.source_acceptor": "ME 魔源轉換器能將魔源轉換成 AE 能量。將轉換器連接至 ME 網路，並透過中繼器向其提供魔源，藉此簡單地使用魔源為網路供應能量。",
+  "arseng.page.source_acceptor_description": "魔源轉換器有方塊與線纜部件兩種形式。",
+  "arseng.page.source_cell_housing": "ME 魔源單元可以使用 ME 魔源單元外殼製作而成。它們可以在《應用能源 2》的 ME 系統中，儲存許多罐的魔源。",
+  "block.arseng.source_acceptor": "ME 魔源轉換器",
+  "item.arseng.cable_source_acceptor": "ME 魔源接收器",
+  "item.arseng.creative_source_cell": "創造模式 ME 魔源單元",
+  "item.arseng.portable_source_cell_16k": "16k 攜帶式魔源單元",
+  "item.arseng.portable_source_cell_1k": "1k 攜帶式魔源單元",
+  "item.arseng.portable_source_cell_256k": "256k 攜帶式魔源單元",
+  "item.arseng.portable_source_cell_4k": "4k 攜帶式魔源單元",
+  "item.arseng.portable_source_cell_64k": "64k 攜帶式魔源單元",
+  "item.arseng.source_cell_housing": "ME 魔源單元外殼",
+  "item.arseng.source_p2p_tunnel": "ME 魔源 P2P 通道",
+  "item.arseng.source_storage_cell_16k": "16k ME 魔源儲存單元",
+  "item.arseng.source_storage_cell_1k": "1k ME 魔源儲存單元",
+  "item.arseng.source_storage_cell_256k": "256k ME 魔源儲存單元",
+  "item.arseng.source_storage_cell_4k": "4k ME 魔源儲存單元",
+  "item.arseng.source_storage_cell_64k": "64k ME 魔源儲存單元",
+  "item.arseng.spell_p2p_tunnel": "ME 法術 P2P 通道",
+  "itemGroup.arseng": "應用能源｜新生魔藝擴充"
+}
