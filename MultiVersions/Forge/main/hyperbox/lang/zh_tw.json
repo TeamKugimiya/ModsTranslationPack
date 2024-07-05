@@ -1,0 +1,15 @@
+{
+	"block.hyperbox.hyperbox": "箱庭",
+	"block.hyperbox.hyperbox_preview": "箱庭",
+	"block.hyperbox.aperture": "交界孔縫",
+	"menu.hyperbox": "建立箱庭維度",
+	"menu.hyperbox.edit_dimension": "維度 ID",
+	"menu.hyperbox.edit_name": "箱庭名稱",
+	"menu.hyperbox.use_default_name_checkbox": "使用預設名稱",
+	"menu.hyperbox.save_and_enter": "儲存並進入",
+	"menu.hyperbox.save_and_exit": "儲存並退出",
+	"menu.hyperbox.dimension_id_in_use": "維度 ID 已被使用",
+	"menu.hyperbox.message.no_id": "建立箱庭維度時發生錯誤：維度 ID 缺失或為空",
+	"menu.hyperbox.message.invalid_id": "建立箱庭維度時發生錯誤：位置路徑中不得包含非 [a-z0-9/._-] 的字元：%s",
+	"menu.hyperbox.message.existing_id": "建立箱庭維度時發生錯誤：維度 ID 已經存在：%s"
+}
