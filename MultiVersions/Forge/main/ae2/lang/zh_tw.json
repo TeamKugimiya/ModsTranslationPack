@@ -596,7 +596,7 @@
   "gui.tooltips.ae2.InterfaceTerminalDisplayMode": "顯示模式",
   "gui.tooltips.ae2.InventoryTweaks": "Inventory Tweaks",
   "gui.tooltips.ae2.ItemName": "物品名稱",
-  "gui.tooltips.ae2.LeftClick": "左鍵點擊",
+  "gui.tooltips.ae2.LeftClick": "點擊左鍵",
   "gui.tooltips.ae2.LevelType": "檢測類型",
   "gui.tooltips.ae2.LevelType_Energy": "能量",
   "gui.tooltips.ae2.LevelType_Item": "物品",
