@@ -147,6 +147,8 @@ jobs:
             force_include = true
             ['assets/expatternprovider/ae2guide/pic/*?.png']
             force_include = true
+            ['assets/appliede/ae2guide/diagrams/*?.png']
+            force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: Download Artifact
