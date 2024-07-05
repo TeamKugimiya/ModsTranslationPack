@@ -20,7 +20,7 @@
   "dynamiccrosshair.option.dynamicCrosshairStyle": "使用動態準心樣式",
   "dynamiccrosshair.option.dynamicCrosshairStyle.description": "當啟用時，使用依情況變化的樣式。\n當停用時，準心將始終保持原始款式，但仍可以根據下面的設置進行隱藏。",
   "dynamiccrosshair.group.crosshairConfig": "此時顯示準心",
-  "dynamiccrosshair.group.crosshairConfig.description": "配置準心應在何種情況下可見。在其他所有情況下，它將被隱藏。",
+  "dynamiccrosshair.group.crosshairConfig.description": "設定準心應在何種情況下可見。在其他所有情況下，它將被隱藏。",
   "dynamiccrosshair.option.crosshairConfig.onBlock": "看向方塊",
   "dynamiccrosshair.option.crosshairConfig.onBlock.description": "在以下情況下顯示準心：\n如果有目標：當任何方塊被鎖定時。\n如果可互動：當鎖定的方塊可以進行互動操作時。\n停用：不根據方塊目標顯示；仍可能使用鎖定的方塊來評估手持物品。",
   "dynamiccrosshair.option.crosshairConfig.onInteractableBlock": "突顯可互動方塊",
