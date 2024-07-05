@@ -1,7 +1,9 @@
 {
-  "gui.ae2wtlib.creativetab": "AE2 無線終端機程式庫（AE2WTLib）",
+  "itemGroup.ae2wtlib.general": "AE2 無線終端機程式庫（AE2WTLib）",
+  "itemGroup.ae2wtlib": "AE2 無線終端機程式庫（AE2WTLib）",
 
-  "gui.ae2wtlib.trash": "垃圾桶",
+  "gui.ae2wtlib.emptytrash": "清空垃圾桶",
+  "gui.ae2wtlib.emptytrash.desc": "刪除垃圾桶欄位上的物品",
 
   "item.ae2wtlib.quantum_bridge_card": "量子橋卡",
   "item.ae2wtlib.quantum_bridge_card.desc": "將無線終端機連結至量子橋，以獲得無限的收訊範圍",
@@ -22,8 +24,9 @@
   "gui.ae2wtlib.Magnet": "磁力卡篩選器",
   "gui.ae2wtlib.whitelist": "白名單",
   "gui.ae2wtlib.blacklist": "黑名單",
-  "gui.ae2wtlib.pickup_filter": "物品欄篩選器：",
-  "gui.ae2wtlib.insert_filter": "ME 系統篩選器：",
+  "gui.ae2wtlib.pickup": "物品欄",
+  "gui.ae2wtlib.insert": "ME 系統",
+  "gui.ae2wtlib.filter": " 篩選器：",
   "gui.ae2wtlib.copy_pickup": "複製到物品欄篩選器",
   "gui.ae2wtlib.copy_insert": "複製到 ME 系統篩選器",
   "gui.ae2wtlib.switch": "調換篩選器",
@@ -38,9 +41,12 @@
   "key.ae2.ae2wtlib_restock": "開關快捷欄補充功能",
   "key.ae2.ae2wtlib_magnet": "開關磁力卡",
 
-  "chat.ae2wtlib.NetworkNotPowered" :  "網路沒有能量",
-
   "text.autoconfig.de/mari_023/ae2wtlib.title": "AE2 無線終端機程式庫",
 
-  "text.autoconfig.de/mari_023/ae2wtlib.option.magnetCardRange": "磁力卡範圍"
+  "text.autoconfig.de/mari_023/ae2wtlib.option.outOfRangePowerMultiplier": "範圍外能量消耗乘數",
+  "text.autoconfig.de/mari_023/ae2wtlib.option.magnetCardRange": "磁力卡範圍",
+  "text.autoconfig.de/mari_023/ae2wtlib.option.enableTrinket": "啟用《Trinkets》模組整合",
+
+  "text.autoconfig.de/mari_023/ae2wtlib.option.outOfRangePowerMultiplier.@Tooltip": "若將此選項設為低於 1 的數值，則處在無線存取點的訊號範圍內時，反而會需要使用更多能量。",
+  "text.autoconfig.de/mari_023/ae2wtlib.option.magnetCardRange.@Tooltip": ""
 }
