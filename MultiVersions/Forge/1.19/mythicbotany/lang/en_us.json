@@ -12,7 +12,6 @@
   "item.mythicbotany.helheim_rune": "Rune of Helheim",
   "item.mythicbotany.alfsteel_ingot": "Alfsteel Ingot",
   "item.mythicbotany.alfsteel_nugget": "Alfsteel Nugget",
-  "item.mythicbotany.inactive_alsteel_template": "Outlandish Smithing Template",
   "item.mythicbotany.alfsteel_sword": "Alf Blade",
   "item.mythicbotany.alfsteel_pick": "Alf Shatterer",
   "item.mythicbotany.alfsteel_axe": "Alf Truncator",
@@ -97,11 +96,6 @@
   "tooltip.mythicbotany.rune_offset": "Relative position: %s, %s",
   "tooltip.mythicbotany.sacrifice_entity1": "Entity must be near the ritual.",
   "tooltip.mythicbotany.sacrifice_entity2": "It will be sacrificed in the process.",
-  "tooltip.mythicbotany.alfsteel_template.applies_to": "Terrasteel Equipment",
-  "tooltip.mythicbotany.alfsteel_template.upgrade": "Alfsteel Upgrade",
-  "tooltip.mythicbotany.alfsteel_template.slot_description": "Add %s",
-  "tooltip.mythicbotany.alfsteel_template.slot_base": "terrasteel armor, weapon or tool",
-  
   
   "message.mythicbotany.mimir_knowledge": "As you drink the water from the well of Mimir you gain knowledge about things you could never imagine in your wildest dreams.",
   "message.mythicbotany.mimir_known": "You've already gained the knowledge from the well of Mimir.",
