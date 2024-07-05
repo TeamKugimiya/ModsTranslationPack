@@ -7,16 +7,20 @@ categories:
 - extended devices
 item_ids:
 - expatternprovider:ex_pattern_access_part
+- expatternprovider:wireless_ex_pat
 ---
 
 # ME 擴充樣板存取終端機
 
 相比於 <ItemLink id="ae2:pattern_access_terminal" />，ME 擴充樣板存取終端機提供額外 3 種功能。
 
+<Row gap="20">
 <GameScene zoom="6" background="transparent">
 <ImportStructure src="../structure/cable_ex_pattern_terminal.snbt"></ImportStructure>
 <IsometricCamera yaw="180"></IsometricCamera>
 </GameScene>
+<ItemImage id="expatternprovider:wireless_ex_pat" scale="4"></ItemImage>
+</Row>
 
 ## 更好的樣板搜尋
 

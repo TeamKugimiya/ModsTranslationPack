@@ -17,10 +17,5 @@ item_ids:
 <ItemImage id="expatternprovider:infinity_cell" scale="4"></ItemImage>
 </Row>
 
-這種單元存有 2.1 億物品／流體，且你能夠從中取得無限量的鵝卵石／水。
-
-# 升級
-
-ME 無限單元支援 <ItemLink id="ae2:void_card" />。你可以將無限量的鵝卵石／水存入裝有溢出銷毀卡的單元中。
-因此你還能夠將其作為鵝卵石／水的垃圾桶使用。
+這種單元存有 2.1 億物品／流體，且你能夠從中取得，或向其存入無限量的鵝卵石／水。
 
