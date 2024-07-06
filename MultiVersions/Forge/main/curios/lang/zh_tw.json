@@ -1,6 +1,7 @@
 {
   "curios.name": "Curios",
   "curios.slot": "欄位",
+  "curios.tooltip.slot": "欄位：",
   "curios.cosmetic": "時裝",
   "commands.curios.set.success": "已將 %3$s 的 %1$s 欄位設為 %2$d 個",
   "commands.curios.add.success": "已將 %3$s 的 %2$s 欄位設為 %1$d 個",
@@ -9,7 +10,10 @@
   "commands.curios.lock.success": "已鎖定 %2$s 的 %1$s 欄位",
   "commands.curios.clear.success": "已清空 %2$s 的 %1$s 欄位",
   "commands.curios.clearAll.success": "已清空 %s 的所有飾品欄位",
+  "commands.curios.drop.success": "已將 %2$s %1$s 欄位的物品棄置在地上",
+  "commands.curios.dropAll.success": "已將 %s 所有欄位的物品棄置在地上",
   "commands.curios.reset.success": "已重設 %s 的飾品欄位",
+  "commands.curios.replace.success": "已將 %2$s 的 %1$s 欄位替換成 %3$s",
   "argument.entity.options.curios.description": "實體 Curios 飾品欄",
   "argument.curios.type.unknown": "未知的 Curios 欄位類型：%s",
   "curios.identifier.curio": "飾品",
@@ -40,5 +44,7 @@
   "curios.modifiers.slots.take.2": "-%s%% %s欄位",
   "key.curios.category": "Curios",
   "key.curios.open.desc": "開啟／關閉 Curios 飾品欄",
-  "gui.curios.toggle": "切換可見性"
+  "gui.curios.toggle": "切換可見性",
+  "gui.curios.toggle.cosmetics": "切換時裝",
+  "gui.curios.page": "頁數 %d／%d"
 }

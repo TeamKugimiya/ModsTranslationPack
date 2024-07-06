@@ -40,6 +40,18 @@ ME 無線網路連接器能夠像 <ItemLink id="ae2:quantum_link" /> 一樣，�
   <ImportStructure src="../structure/wireless_connector_on.snbt"></ImportStructure>
 </GameScene>
 
+## 顏色
+
+無線網路連接器可以像線纜那樣被染色，且只能與相同顏色的線纜／連接器相連。
+
+你需要使用 <ItemLink id="ae2:color_applicator" /> 來為網路連接器染色。
+
+你可以像這樣設置你的無線網路連接器：
+
+<GameScene zoom="3" background="transparent" interactive={true}>
+  <ImportStructure src="../structure/wireless_connector_setup.snbt"></ImportStructure>
+</GameScene>
+
 ## 耗電量
 
 隨著連線距離越長，ME 無線網路連接器將需要消耗更多能量。

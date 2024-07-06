@@ -1,0 +1,17 @@
+{
+    "name": "經驗成本",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:enchanting/changes",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "在原版遊戲中，消耗等級的東西（如附魔桌和鐵砧）無論你等級多少，都會從你身上扣除固定量的等級。$(p)《神化》對這兩者進行了改動，使其消耗為「最佳」的經驗量。"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "對於附魔台，你將被扣除的經驗值，會相當於你剛好達到進行該附魔所需的等級。$(p)鐵砧也是類似情況，但消耗的是從零開始計算的經驗值（而不是只扣除最高的 N 個等級）。"
+        }
+	]
+}

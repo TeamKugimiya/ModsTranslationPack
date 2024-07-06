@@ -1,22 +1,25 @@
 {
-  "itemGroup.biggerreactors": "大型反應爐",
+  "item_group.biggerreactors": "大型反應爐",
 
   "item.biggerreactors.wrench": "反應爐扳手",
 
-  "fluid.biggerreactors.liquid_uranium": "液態鈾",
+  "fluid_type.biggerreactors.liquid_uranium": "液態鈾",
   "item.biggerreactors.liquid_uranium_bucket": "液態鈾桶",
-  "fluid.biggerreactors.steam": "蒸氣",
+  "fluid_type.biggerreactors.steam": "蒸氣",
   "item.biggerreactors.steam_bucket": "蒸氣桶",
-  "fluid.biggerreactors.liquid_obsidian": "液態黑曜石",
+  "fluid_type.biggerreactors.liquid_obsidian": "液態黑曜石",
   "item.biggerreactors.liquid_obsidian_bucket": "液態黑曜石桶",
 
   "fluid.biggerreactors.superheated_sodium": "液態過熱鈉",
   "item.biggerreactors.superheated_sodium_bucket": "液態過熱鈉桶",
 
   "block.biggerreactors.uranium_ore": "鈾礦",
+  "block.biggerreactors.deepslate_uranium_ore": "深板岩鈾礦",
   "block.biggerreactors.uranium_block": "鈾方塊",
+  "block.biggerreactors.raw_uranium_block": "鈾原礦方塊",
   "item.biggerreactors.uranium_dust": "鈾粉",
   "item.biggerreactors.uranium_ingot": "鈾錠",
+  "item.biggerreactors.uranium_chunk": "鈾原礦",
 
   "block.biggerreactors.blutonium_block": "藍鈽方塊",
   "item.biggerreactors.blutonium_dust": "藍鈽粉",
@@ -33,6 +36,9 @@
   "block.biggerreactors.ludicrite_block": "鏀方塊",
   "item.biggerreactors.ludicrite_dust": "鏀粉",
   "item.biggerreactors.ludicrite_ingot": "鏀錠",
+
+  "tooltip.biggerreactors.is_a_moderator" : "§e這方塊或流體能作為大型反應爐的減速劑使用",
+  "tooltip.biggerreactors.is_a_coil" : "§e這方塊能作為大型渦輪機的線圈使用",
 
   "multiblock.error.biggerreactors.no_terminal": "反應爐至少需要一台終端機。",
   "multiblock.error.biggerreactors.no_rods": "反應爐至少需要一根燃料棒。",

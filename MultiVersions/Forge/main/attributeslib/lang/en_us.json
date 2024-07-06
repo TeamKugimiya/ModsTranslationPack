@@ -43,7 +43,7 @@
 	"forge.entity_gravity.desc": "Acceleration towrds the ground, in blocks/s²",
 	"forge.name_tag_distance.desc": "How far away another player must be to see your name.",
 	"forge.block_reach.desc": "How far you can interact with blocks, in blocks.",
-	"forge.step_height_addition.desc": "How many blocks you may step up without jumping.",
+	"forge.step_height.desc": "How many blocks you may step up without jumping.",
 	"forge.swim_speed.desc": "How fast you swim, relative to normal.",
 
 	"attributeslib:draw_speed": "Draw Speed",

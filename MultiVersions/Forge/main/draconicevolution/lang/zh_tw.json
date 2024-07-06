@@ -50,7 +50,7 @@
   "block.draconicevolution.wyvern_wireless_crystal": "雙足飛龍無線能量水晶",
   "death.attack.administrative.kill": "%1$s 應當被當權者處決",
   "death.attack.draconicevolution.draconic_guardian": "%1$s 被 %2$s 撕成碎片",
-  "death.attack.draconicevolution.guardian_laser": "%1$s 被 by %2$s 使用雷射光束蒸發了",
+  "death.attack.draconicevolution.guardian_laser": "%1$s 被 %2$s 使用雷射光束蒸發了",
   "death.attack.draconicevolution.guardian_projectile": "%1$s 被 %2$s 澈底毀滅了",
   "disenchanter.draconicevolution.not_enough_levels": "你需要 %s 等經驗來拆解該附魔！",
   "dislocate.draconicevolution.already_bound": "發生錯誤：此符咒只能綁定一個位置。",

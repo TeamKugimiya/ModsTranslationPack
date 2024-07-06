@@ -12,7 +12,7 @@
 		{
 			"title": "稀有度",
             "type": "patchouli:text",
-            "text": "與詞綴物品相同，每種寶石都擁有$(l:apotheosis:adventure/affix_loot/rarities)稀有度$()。寶石的強度僅由稀有度決定，稀有度越高的寶石，其升級成本也就較為昂貴。$(p)寶石無法升級到上古稀有度。"
+            "text": "與詞綴物品相同，每種寶石都擁有$(l:apotheosis:adventure/affix_loot/rarities)稀有度$()。$(p)寶石的強度僅由稀有度決定，稀有度越高的寶石，其升級成本也就較為昂貴。$(p)寶石無法升級到上古稀有度。"
         },
 		{
 			"type": "patchouli:text",
@@ -31,15 +31,9 @@
 		},
 		{
             "type": "patchouli:crafting",
-			"recipe": "apotheosis:vial_of_expulsion",
-			"title": "熾炎驅逐",
-			"text": "將鑲嵌寶石的物品與$(9)熾炎驅逐劑$()依序放入鍛造台中，能夠將物品上的寶石摘除，但摘除的過程中寶石將會損毀。"
-		},
-		{
-            "type": "patchouli:crafting",
-			"recipe": "apotheosis:vial_of_extraction",
-			"title": "奧術提取",
-			"text": "將鑲嵌寶石的物品與$(9)奧術提取劑$()依序放入鍛造台中，能夠將物品上的寶石摘除，但摘除的過程中物品將會損毀。"
+			"recipe": "apotheosis:sigil_of_withdrawal",
+			"title": "卸除咒符",
+			"text": "將鑲嵌寶石的物品與$(9)卸除咒符$()依序放入鍛造台中，能夠將鑲嵌在物品上的寶石全部摘除。物品與摘除下來的寶石都將會全數返還。"
 		}
 	]
 }
