@@ -1,0 +1,16 @@
+{
+	"gui.crafting_on_a_stick.prefix": "",
+	"gui.crafting_on_a_stick.suffix": " on a Stick",
+	"item.crafting_on_a_stick.crafting_table": "%1$s%2$s%3$s",
+	"item.crafting_on_a_stick.loom": "%1$s%2$s%3$s",
+	"item.crafting_on_a_stick.grindstone": "%1$s%2$s%3$s",
+	"item.crafting_on_a_stick.cartography_table": "%1$s%2$s%3$s",
+	"item.crafting_on_a_stick.stonecutter": "%1$s%2$s%3$s",
+	"item.crafting_on_a_stick.smithing_table": "%1$s%2$s%3$s",
+	"item.crafting_on_a_stick.anvil": "%1$s%2$s%3$s",
+	"item.crafting_on_a_stick.chipped_anvil": "%1$s%2$s%3$s",
+	"item.crafting_on_a_stick.damaged_anvil": "%1$s%2$s%3$s",
+
+	"curios.identifier.crafting_on_a_stick": "Crafting on a Stick",
+	"crafting_on_a_stick.key.open_curios": "Open Crafting on a Stick"
+}
