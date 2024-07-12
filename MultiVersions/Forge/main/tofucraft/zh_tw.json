@@ -127,11 +127,8 @@
   "item.tofucraft.salt": "鹽",
   "item.tofucraft.morijio": "鹽堆",
   "item.tofucraft.bittern_bottle": "鹽鹵瓶",
-
   "item.tofucraft.crimson_fluid_bottle" : "緋紅流體瓶",
-
   "item.tofucraft.warped_fluid_bottle" : "扭曲流體瓶",
-
   "item.tofucraft.shroom_bottle" : "蘑菇燈瓶",
   "item.tofucraft.leek": "蔥",
   "item.tofucraft.rice": "米",
@@ -238,7 +235,6 @@
   "item.tofucraft.tofu_chikuwa": "豆腐竹輪",
   "item.tofucraft.yuba": "豆皮",
   "item.tofucraft.tofuwood_stick": "豆腐石棒",
-
   "item.tofucraft.tofu_shield": "鋼豆腐盾",
   "item.tofucraft.tofuforce_core": "豆腐能核心",
   "item.tofucraft.tofu_gauntlet": "豆腐拳套",
@@ -248,7 +244,6 @@
   "item.tofucraft.tf_oscillator": "豆腐能振盪器",
   "item.tofucraft.reflect_tofu_shield" : "反射豆腐盾",
   "item.tofucraft.tofu_core" : "豆腐引爆器",
-
   "item.tofucraft.tofu_bomb": "豆腐炸彈",
   "item.tofucraft.tomato_soybean_stew": "番茄大豆燉菜",
   "item.tofucraft.yudofu": "湯豆腐鍋",
@@ -267,16 +262,12 @@
   "item.tofucraft.tofu_upgrade_smithing_template" : "豆腐升級模板",
   "item.tofucraft.zunda_upgrade_smithing_template" : "毛豆泥升級模板",
   "item.tofucraft.smithing_template.tofu_upgrade.additions_slot_description" : "放置鑽石豆腐方塊",
-
   "item.tofucraft.smithing_template.tofu_upgrade.applies_to" : "鋼豆腐裝備",
   "item.tofucraft.smithing_template.tofu_upgrade.base_slot_description" : "放置鋼豆腐盔甲、武器或工具",
-
   "item.tofucraft.smithing_template.tofu_upgrade.ingredients" : "鑽石豆腐方塊",
   "item.tofucraft.smithing_template.zunda_bow_upgrade.additions_slot_description" : "放置毛豆泥",
-
   "item.tofucraft.smithing_template.zunda_bow_upgrade.applies_to" : "弓",
   "item.tofucraft.smithing_template.zunda_bow_upgrade.base_slot_description" : "放置弓",
-
   "item.tofucraft.smithing_template.zunda_bow_upgrade.ingredients" : "毛豆泥球",
   "item.tofucraft.tofunian_banner_pattern" : "旗幟圖案",
   "item.tofucraft.tofunian_banner_pattern.desc" : "豆腐村民",
@@ -322,7 +313,6 @@
   "block.tofucraft.tofuishi_brick": "豆腐磚",
   "block.tofucraft.tofuishi_smooth_brick": "平滑豆腐磚",
   "block.tofucraft.tofuishi_chiseled_brick": "浮雕豆腐磚",
-
   "block.tofucraft.tofuzunda_brick": "毛豆泥豆腐磚",
   "block.tofucraft.tofuzunda_smooth_brick": "平滑毛豆泥豆腐磚",
   "block.tofucraft.tofuhell_brick": "地獄豆腐磚",
@@ -331,7 +321,6 @@
   "block.tofucraft.tofusoul_smooth_brick": "平滑靈魂豆腐磚",
   "block.tofucraft.concrete_tofu": "豆腐混凝土",
   "block.tofucraft.concrete_powder_tofu": "豆腐混凝土粉末",
-
   "block.tofucraft.momen_tofu_namako_wall": "豆腐菱紋牆",
   "block.tofucraft.tofustair_kinu": "嫩豆腐階梯",
   "block.tofucraft.tofustair_momen": "豆腐階梯",
@@ -416,11 +405,8 @@
   "block.tofucraft.tofustem_moss" : "被苔蘚覆蓋的豆腐莖稈",
   "block.tofucraft.tofustem_cache" : "豆腐莖稈堆",
   "block.tofucraft.tofustem_planks" : "豆腐莖稈材",
-
   "block.tofucraft.tofustem_planks_stair" : "豆腐莖稈材階梯",
-
   "block.tofucraft.tofustem_planks_slab" : "豆腐莖稈材半磚",
-
   "block.tofucraft.tofustem_fence" : "蔥稈",
   "block.tofucraft.tofustem_fence_gate" : "蔥稈門",
   "block.tofucraft.tofustem_door": "豆腐莖稈門",
@@ -433,7 +419,6 @@
   "block.tofucraft.seeds_soybeans_soul_block": "靈魂大豆方塊",
   "block.tofucraft.morijio" : "鹽堆",
   "block.tofucraft.tofuchest" : "豆腐儲物箱",
-
   "block.tofucraft.tofubed" : "豆腐床",
   "block.tofucraft.foodplate" : "食物盤子",
   "block.tofucraft.wheat_bowl" : "小麥碗",
@@ -463,14 +448,12 @@
   "block.tofucraft.blockleek" : "蔥",
   "block.tofucraft.leek_stem" : "蔥莖",
   "block.tofucraft.leek_planks" : "蔥莖材",
-
   "block.tofucraft.leek_planks_stair" : "蔥莖階梯",
   "block.tofucraft.leek_planks_slab" : "蔥莖半磚",
   "block.tofucraft.leek_fence" : "蔥莖柵欄",
   "block.tofucraft.leek_fence_gate" : "蔥莖門",
   "block.tofucraft.leek_green_stem" : "翠綠蔥莖",
   "block.tofucraft.leek_green_planks" : "翠綠蔥莖材",
-
   "block.tofucraft.leek_green_planks_stair" : "翠綠蔥莖階梯",
   "block.tofucraft.leek_green_planks_slab" : "翠綠蔥莖半磚",
   "block.tofucraft.leek_green_fence" : "翠綠蔥莖柵欄",
@@ -478,21 +461,15 @@
   "block.tofucraft.leek_green_door": "翠綠蔥莖門",
   "block.tofucraft.leek_green_trapdoor": "翠綠蔥莖地板門",
   "block.tofucraft.sapling_tofu" : "豆腐木樹苗",
-
   "block.tofucraft.leaves_tofu" : "豆腐木樹葉",
-
   "block.tofucraft.soymilk_cauldron" : "豆漿鍋",
   "block.tofucraft.tofustem_sign" : "豆腐莖稈告示牌",
   "block.tofucraft.leek_sign" : "蔥莖告示牌",
   "block.tofucraft.leek_green_sign" : "翠綠蔥莖告示牌",
   "block.tofucraft.tofustem_hanging_sign" : "懸掛式豆腐莖稈告示牌",
-
   "block.tofucraft.leek_hanging_sign" : "懸掛式蔥莖告示牌",
-
   "block.tofucraft.leek_green_hanging_sign" : "懸掛式翠綠蔥莖告示牌",
-
   "block.tofucraft.tofu_detector" : "豆腐感測器",
-
   "block.tofucraft.tf_storage" : "豆腐能儲存器",
   "block.tofucraft.tf_crafter": "豆腐能工匠",
   "block.tofucraft.tf_oven": "豆腐能熔爐",
@@ -542,7 +519,6 @@
   "entity.tofucraft.zundamite": "毛豆泥蟎",
   "advancements.tofucraft.root.title" : "豆腐工藝",
   "advancements.tofucraft.root.description" : "一邊製作豆腐，一邊發現新的可能吧！",
-
   "advancements.tofucraft.make_saltpan.title" : "搭建鹽田",
   "advancements.tofucraft.make_saltpan.description" : "合成鹽田",
   "advancements.tofucraft.bittern_bottle.title" : "獲得鹽鹵",
@@ -560,9 +536,7 @@
   "advancements.tofucraft.tofugem.title": "能量的來源",
   "advancements.tofucraft.tofugem.description": "獲得豆腐寶石",
   "advancements.tofucraft.tofudiamond.title": "豆腐世界的鑽石？",
-
   "advancements.tofucraft.tofudiamond.description": "取得 9 顆鑽石豆腐粒，製作鑽石豆腐",
-
   "advancements.tofucraft.tofuvillage.title": "可愛的豆腐之家",
   "advancements.tofucraft.tofuvillage.description": "找到豆腐村莊",
   "advancements.tofucraft.trade_with_tofunian.title": "新鮮交易",
@@ -607,7 +581,6 @@
   "itemGroup.tofu_delight" : "豆腐樂事",
   "effect.tofucraft.soy_healthy" : "大豆健康",
   "container.tofucraft.tofuchest" : "豆腐儲物箱",
-
   "container.tofucraft.salt_furnace" : "鹽爐",
   "container.tofucraft.tf_storage" : "豆腐能儲存器",
   "container.tofucraft.tf_crafter": "豆腐能工匠",
@@ -643,44 +616,28 @@
   "fluid_type.tofucraft.soymilk_soul": "靈魂豆漿",
   "fluid_type.tofucraft.bittern": "鹽鹵",
   "subtitles.entity.tofunian.idle": "豆腐村民嘀咕",
-
   "subtitles.entity.tofunian.yes": "豆腐村民同意",
-
   "subtitles.entity.tofunian.no": "豆腐村民拒絕",
-
   "subtitles.entity.tofunian.hurt": "豆腐村民受傷",
-
   "subtitles.entity.tofunian.death": "豆腐村民死亡",
-
   "subtitles.entity.tofuspider.idle": "豆腐蜘蛛低吼",
-
   "subtitles.entity.tofuspider.hurt": "豆腐蜘蛛受傷",
-
   "subtitles.entity.tofuspider.death": "豆腐蜘蛛死亡",
-
   "subtitles.entity.tofuspider.spit": "豆腐蜘蛛發怒",
-
   "subtitles.entity.zombie_tofunian.idle" : "殭屍豆腐村民吼叫",
-
   "subtitles.entity.zombie_tofunian.hurt" : "殭屍豆腐村民受傷",
-
   "subtitles.entity.zombie_tofunian.death" : "殭屍豆腐村民死亡",
-
   "subtitles.block.soybean_soul.soul_breath" : "靈魂的呼吸",
   "subtitles.block.soybean.soybean_crack" : "大豆破碎",
   "tofucraft.bittern_bottle.jei_desc" : "透過對著流體點擊右鍵，可將豆漿凝固並獲得豆腐。",
-
   "tofucraft.blocktofukinu.jei_desc" : "對著豆漿右鍵使用鹽鹵瓶獲得。",
-
   "tofucraft.blocktofumomen.jei_desc" : "在頂部和底部放置石頭，隨著時間的推移會變得更硬。",
   "tofucraft.soymilk.jei_desc" : "每次飲用豆漿都可以獲得一些正面效果. 如果你每天堅持飲用，效果會更好。",
   "item.tofucraft.soymilk.drink_day" : "豆漿飲用天數 %1$s",
   "entity.tofucraft.slabfish.type.bagu_chan" : "小 BAGU",
-
   "entity.tofucraft.slabfish.type.tofu" : "豆腐",
   "tofucraft.tofu_book.tooltip" : "豆腐知識大全 2022",
   "tofucraft.tofu_book.tooltip2" : "如果你想閱讀這本書，請安裝《Patchouli》模組！",
-
   "item.tofucraft.tofu_book" : "豆腐手冊",
   "tofucraft.jei.bittern" : "鹵製",
   "tofucraft.jei.harden" : "硬化",
@@ -689,15 +646,10 @@
   "tofucraft.config.travelerTofunianSpawn" : "豆腐流浪商人生成",
   "itemGroup.tofucraft.tofus.main_tab" : "豆腐工藝",
   "itemGroup.tofucraft.tofu_foods.main_tab" : "豆腐工藝｜食物",
-
   "itemGroup.tofucraft.tofu_misc.main_tab" : "豆腐工藝｜雜項",
-
   "itemGroup.tofucraft.tofu_tools.main_tab" : "豆腐工藝｜工具",
-
   "itemGroup.tofucraft.tofu_building_blocks.main_tab" : "豆腐工藝｜建築方塊",
-
   "itemGroup.tofucraft.tofu_mechanical_blocks.main_tab" : "豆腐工藝｜機械",
-
   "item.tofucraft.kinako_bread" : "炸黃豆麵包",
   "item.tofucraft.edamame_templa" : "毛豆天婦羅",
   "trim_material.tofucraft.tofu_metal" : "鋼豆腐裝飾",
