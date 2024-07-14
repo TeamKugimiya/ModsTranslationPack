@@ -194,12 +194,21 @@
       </a>
     </td>
     <td align="center">
+      <a href="https://github.com/PhilosophicalVitamins" title="PhilosophicalVitamins">
+        <img src="https://avatars.githubusercontent.com/u/129835323?v=4" width="100;" alt="PhilosophicalVitamins"/>
+        <br />
+        <sub><b>PhilosophicalVitamins</b></sub>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/JustSimplyKyle" title="SimplyKyle!">
         <img src="https://avatars.githubusercontent.com/u/68589851?v=4" width="100;" alt="SimplyKyle!"/>
         <br />
         <sub><b>SimplyKyle!</b></sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/yichifauzi" title="dirtTW">
         <img src="https://avatars.githubusercontent.com/u/31981880?v=4" width="100;" alt="dirtTW"/>
@@ -207,8 +216,6 @@
         <sub><b>dirtTW</b></sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/notlin4" title="notlin4">
         <img src="https://avatars.githubusercontent.com/u/121224522?v=4" width="100;" alt="notlin4"/>
