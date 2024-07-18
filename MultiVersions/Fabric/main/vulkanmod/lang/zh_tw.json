@@ -1,8 +1,8 @@
 {
   "vulkanmod.options.unknown": "未知",
 
-  "vulkanmod.options.pages.video": "影像設定",
-  "vulkanmod.options.pages.graphics": "圖形設定",
+  "vulkanmod.options.pages.video": "影像設置",
+  "vulkanmod.options.pages.graphics": "圖形設置",
   "vulkanmod.options.pages.optimizations": "效能最佳化",
   "vulkanmod.options.pages.other": "其他",
 
