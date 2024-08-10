@@ -166,6 +166,13 @@
   </tr>
   <tr>
     <td align="center">
+      <a href="https://github.com/yichifauzi" title="dirtTW">
+        <img src="https://avatars.githubusercontent.com/u/31981880?v=4" width="100;" alt="dirtTW"/>
+        <br />
+        <sub><b>dirtTW</b></sub>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/rhuba8324" title="rhuba8324">
         <img src="https://avatars.githubusercontent.com/u/53090204?v=4" width="100;" alt="rhuba8324"/>
         <br />
@@ -200,20 +207,13 @@
         <sub><b>PhilosophicalVitamins</b></sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/JustSimplyKyle" title="SimplyKyle!">
         <img src="https://avatars.githubusercontent.com/u/68589851?v=4" width="100;" alt="SimplyKyle!"/>
         <br />
         <sub><b>SimplyKyle!</b></sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/yichifauzi" title="dirtTW">
-        <img src="https://avatars.githubusercontent.com/u/31981880?v=4" width="100;" alt="dirtTW"/>
-        <br />
-        <sub><b>dirtTW</b></sub>
       </a>
     </td>
     <td align="center">
