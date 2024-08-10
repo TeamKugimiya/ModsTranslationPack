@@ -1,0 +1,8 @@
+{
+	"item.matc.inferium_crystal" : "§e下級注魔水晶",
+	"item.matc.prudentium_crystal" : "§2初級注魔水晶",
+	"item.matc.tertium_crystal" : "§6中級注魔水晶",
+	"item.matc.imperium_crystal" : "§9高級注魔水晶",
+	"item.matc.supremium_crystal" : "§c終極注魔水晶",
+	"itemGroup.matc": "神秘農業｜分級水晶"
+}
