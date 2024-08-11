@@ -1,0 +1,7 @@
+{
+	"itemGroup.creativewirelesstransmitter": "創造模式無線訊號發射器",
+	"block.creativewirelesstransmitter.creative_wireless_transmitter": "無線訊號發射器（創造模式）",
+	"gui.creativewirelesstransmitter.creative_wireless_transmitter.distance": "訊號範圍：無限",
+	"advancements.creativewirelesstransmitter.creative_wireless": "你這封弊者...",
+	"advancements.creativewirelesstransmitter.creative_wireless.description": "透過無線訊號發射器（創造模式），發射能跨維度，且訊號範圍無限的網路訊號。"
+}
