@@ -3,7 +3,7 @@
 
   "resourcify.type.resource_packs": "資源包",
   "resourcify.type.data_packs": "資料包",
-  "resourcify.type.shaders": "光影",
+  "resourcify.type.shaders": "光影包",
 
   "resourcify.browse.search": "搜尋%s……",
   "resourcify.browse.sort.relevance": "相關性",
@@ -24,7 +24,7 @@
   "resourcify.project.external_resources": "外部資源：",
   "resourcify.project.issues": "議題",
   "resourcify.project.source": "原始碼",
-  "resourcify.project.wiki": "維基",
+  "resourcify.project.wiki": "Wiki",
   "resourcify.project.discord": "Discord",
   "resourcify.project.members": "專案成員：",
   "resourcify.project.dependencies": "依賴",
@@ -40,14 +40,14 @@
   "resourcify.version.type.beta": "測試版",
   "resourcify.version.type.alpha": "預覽版",
   "resourcify.version.download_count": "%,d 下載數",
-  "resourcify.version.published_on": "發佈於 %1$tY %1$tb %1$te",
+  "resourcify.version.published_on": "發布於 %1$tY %1$tb %1$te",
 
   "resourcify.updates.checking": "檢查更新……",
-  "resourcify.updates.wait": "請稍後等待所有更新完成再關閉介面。",
+  "resourcify.updates.wait": "請耐心等待所有更新完成後再關閉介面。",
   "resourcify.updates.update_all": "全部更新",
   "resourcify.updates.update": "更新",
   "resourcify.updates.updating": "更新中……",
-  "resourcify.updates.updates": "更新 ",
+  "resourcify.updates.updates": "更新",
   "resourcify.updates.updates_available": "有 %d 個可%s！",
   "resourcify.updates.update_singular": "更新",
   "resourcify.updates.update_plural": "更新",
@@ -57,7 +57,7 @@
   "resourcify.config.source.title": "預設來源",
   "resourcify.config.source.description": "開啟瀏覽頁面時預設所選的來源。",
   "resourcify.config.ads.title": "啟用廣告",
-  "resourcify.config.ads.description": "在瀏覽頁面上顯示小小的廣告來幫助支援開發 Resourcify。",
+  "resourcify.config.ads.description": "在瀏覽頁面上顯示小小的廣告，幫助支持 Resourcify 的開發。",
 
   "resourcify.categories.adventure": "Adventure",
   "resourcify.categories.categories": "類別",
@@ -133,7 +133,7 @@
   "resourcify.categories.mod_support": "模組支援",
   "resourcify.categories.miscellaneous": "雜項",
   "resourcify.categories.photo_realistic": "Photo Realistic",
-  "resourcify.categories.font_packs": "字形包",
+  "resourcify.categories.font_packs": "字型包",
   "resourcify.categories.vanilla": "原版",
   "resourcify.categories.medieval": "中世紀"
 }
