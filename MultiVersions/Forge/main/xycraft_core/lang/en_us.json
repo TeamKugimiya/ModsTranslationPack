@@ -1,0 +1,7 @@
+{
+  "gui.xycraft_core.slot.strict": "Strict Mode",
+  "gui.xycraft_core.slot.strict.set": "Use %1$s to toggle Strict Mode",
+  "key.category.xycraft_core.key_binds": "XyCraft",
+  "key.xycraft_core.modifier_key": "Modifier Key",
+  "xycraft.core.system.finished_reloading": "Reload has finished!"
+}

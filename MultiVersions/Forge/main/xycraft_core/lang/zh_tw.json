@@ -1,0 +1,7 @@
+{
+  "gui.xycraft_core.slot.strict": "嚴格模式",
+  "gui.xycraft_core.slot.strict.set": "使用 %1$s 切換嚴格模式",
+  "key.category.xycraft_core.key_binds": "Xy 工藝",
+  "key.xycraft_core.modifier_key": "調整鍵",
+  "xycraft.core.system.finished_reloading": "重新載入完成！"
+}
