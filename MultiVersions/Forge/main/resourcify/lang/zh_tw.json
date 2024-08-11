@@ -35,10 +35,10 @@
   "resourcify.version.install_version": "安裝 %s",
   "resourcify.version.installed": "已安裝",
   "resourcify.version.installing": "安裝中……",
-  "resourcify.version.type.release": "發佈版",
+  "resourcify.version.type.release": "正式版",
   "resourcify.version.type.snapshot": "快照版",
-  "resourcify.version.type.beta": "測試版",
-  "resourcify.version.type.alpha": "預覽版",
+  "resourcify.version.type.beta": "Beta 版",
+  "resourcify.version.type.alpha": "Alpha 版",
   "resourcify.version.download_count": "%,d 下載數",
   "resourcify.version.published_on": "發布於 %1$tY %1$tb %1$te",
 
