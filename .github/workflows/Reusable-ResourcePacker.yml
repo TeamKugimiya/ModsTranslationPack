@@ -95,11 +95,16 @@ jobs:
           source: "s3://${{ secrets.AWS_S3_BUCKET }}/cache/checksum.txt"
           dest: "./"
 
-      - name: Extract caches
+      - name: Verify cache & Testing
         if: github.event_name != 'pull_request'
         run: |
           sha256sum -c checksum.txt
-          unzip Override-Cache.zip
+          unzip -t Override-Cache.zip
+
+      - name: Extract cache
+        if: github.event_name != 'pull_request'
+        run: |
+          unzip Override-Cache.zip || true
           rm Override-Cache.zip checksum.txt
 
       - name: MultiVersions mixer

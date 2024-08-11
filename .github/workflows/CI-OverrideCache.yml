@@ -78,6 +78,12 @@ jobs:
           sha256sum Override-Cache.zip > checksum.txt
         working-directory: cache
 
+      - name: Testing Cache
+        if: ${{ ! inputs.cache_url_test && github.event_name != 'pull_request' }}
+        run: |
+          unzip -t Override-Cache.zip
+        working-directory: cache
+
       - name: Upload cache to s3
         if: ${{ ! inputs.cache_url_test && github.event_name != 'pull_request' }}
         uses: Docker-Collection/docker-aws-s3-action@main
