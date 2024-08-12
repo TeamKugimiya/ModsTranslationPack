@@ -1,0 +1,43 @@
+{
+  "name": "進階雷射連接器",
+  "icon": "laserio:laser_connector_advanced",
+  "sortnum": 2,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "進階雷射連接器的使用方式，與$(l:laserio:laser_connector)雷射連接器$(/l)相似。可以與其他普通的連接器和節點相連，最多能連接 8 格遠。$(br2)當與另一個進階雷射連接器相連形成配對時，其連接範圍為無限，且能夠橫跨維度！"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "進階雷射連接器",
+      "images": [
+        "laserio:textures/book/entries/laser_connector_advanced1.png"
+      ],
+      "border": true,
+      "text": "形成配對的兩個進階雷射連接器"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "若連接器已經配對了另一個進階雷射連接器，當你嘗試再將其與新的進階雷射連接器進行配對，則原先的連結將會中斷，以形成新的配對。$(br2)手持$(l:laserio:laser_wrench)雷射扳手$(/l)看向連接器時，你會看到其配對方塊的所在座標。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "配對座標",
+      "images": [
+        "laserio:textures/book/entries/laser_connector_advanced2.png"
+      ],
+      "border": true,
+      "text": "顯示配對連接器的所在座標"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "進階雷射連接器不會為你強制載入其所在的區塊。你需要自己負責處理所有區塊的載入！位於未載入區塊的節點將無法運作。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "進階雷射連接器",
+      "recipe": "laserio:laser_connector_advanced"
+    }
+  ]
+}
