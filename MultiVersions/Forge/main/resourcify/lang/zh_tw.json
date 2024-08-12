@@ -40,7 +40,7 @@
   "resourcify.version.type.beta": "Beta 版",
   "resourcify.version.type.alpha": "Alpha 版",
   "resourcify.version.download_count": "%,d 次下載",
-  "resourcify.version.published_on": "發布於 %1$tY %1$tb %1$te",
+  "resourcify.version.published_on": "發布於 %1$tY 年 %1$tm 月 %1$td 日",
 
   "resourcify.updates.checking": "檢查更新……",
   "resourcify.updates.wait": "請耐心等待所有更新完成後再關閉介面。",
@@ -104,7 +104,7 @@
   "resourcify.categories.resolutions": "解析度",
   "resourcify.categories.simplistic": "簡單化",
   "resourcify.categories.themed": "主題",
-  "resourcify.categories.tweaks": "調整",
+  "resourcify.categories.tweaks": "小改動",
   "resourcify.categories.vanilla-like": "類原版",
   "resourcify.categories.atmosphere": "大氣",
   "resourcify.categories.bloom": "眩光",
@@ -125,7 +125,7 @@
   "resourcify.categories.shadows": "陰影",
 
   "resourcify.categories.512x_and_higher": "512× 以上",
-  "resourcify.categories.steampunk": "蒸氣龐克",
+  "resourcify.categories.steampunk": "蒸汽龐克",
   "resourcify.categories.data_packs": "資料包",
   "resourcify.categories.traditional": "傳統",
   "resourcify.categories.animated": "動畫",
