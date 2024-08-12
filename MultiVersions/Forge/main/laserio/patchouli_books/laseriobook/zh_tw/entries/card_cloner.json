@@ -1,0 +1,21 @@
+{
+  "name": "卡片設定複製器",
+  "icon": "laserio:card_cloner",
+  "sortnum": 2,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "卡片設定複製器能用來將卡片上的設定，「複製貼上」到另一張卡片上！在$(l:laserio:laser_node)雷射節點$(/l)的介面中， 將卡片設定複製器拿在游標上，然後對著卡片點擊左鍵來複製它的設定。$(br2)對著卡片點擊右鍵，來將儲存的設定貼上。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "貼上設定的過程中，將自動從目前可用的$(l:laserio:card_holder)卡片收納器$(/l)中，取出（或放回）$(l:laserio:overclocker_card)超頻$(/l)和$(l:laserio:filters)篩選器$(/l)。這些物品不會從玩家的物品欄中取用。$(br2)若缺少任何必要的物品，貼上將會失敗。因為它無法只貼上一部份的設定。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "卡片設定複製器",
+      "recipe": "laserio:card_cloner"
+    }
+  ]
+}

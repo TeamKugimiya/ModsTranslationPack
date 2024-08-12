@@ -1,0 +1,29 @@
+{
+  "name": "NBT 篩選器",
+  "sortnum": 3,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_nbt",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "NBT 篩選器擁有和$(l:laserio:filter_tag)標籤篩選器$(/l)，相似的介面與功能。$(br2)將物品放入篩選器介面右上角的欄位上，將會顯示該物品所擁有的 NBT 標籤。將標籤加進篩選清單中（使用方式與標籤篩選器的用法箱同），將會篩選擁有這些標籤的物品，而不會考慮這些標籤的具體值。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "NBT 介面",
+      "images": [
+        "laserio:textures/book/entries/nbt_filter.png"
+      ],
+      "border": true,
+      "text": "NBT 介面"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "舉個例子，所有附魔物品都擁有「Enchantments」標籤，該標籤指定了像是掠奪、鋒利等附魔。若你將「Enchantments」標籤加到清單上，篩選器將會篩選出所有帶有附魔的物品。$(br2)帶有附魔的劍可以進入一個容器中，而沒有附魔的劍，則會進入另一個容器。無論劍上套用了什麼種類的附魔。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "其餘功能都與$(l:laserio:filter_tag)標籤篩選器$(/l)相同，請翻閱該條目來取得更多資訊。"
+    }
+  ]
+}
