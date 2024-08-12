@@ -40,7 +40,7 @@
   "resourcify.version.type.beta": "Beta 版",
   "resourcify.version.type.alpha": "Alpha 版",
   "resourcify.version.download_count": "%,d 次下載",
-  "resourcify.version.published_on": "發布於 %1$tY %1$tb %1$te",
+  "resourcify.version.published_on": "發布於 %1$tY 年 %1$tm 月 %1$td 日",
 
   "resourcify.updates.checking": "檢查更新……",
   "resourcify.updates.wait": "請耐心等待所有更新完成後再關閉介面。",
