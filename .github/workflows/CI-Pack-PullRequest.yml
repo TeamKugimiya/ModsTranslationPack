@@ -19,7 +19,7 @@ concurrency:
 jobs:
   matrix-setup:
     name: Setup Matrix
-    if: github.repository == 'xMikux/ModsTranslationPack'
+    if: github.repository == 'TeamKugimiya/ModsTranslationPack'
     uses: ./.github/workflows/Reusable-MatrixSetup.yml
 
   pack-pullrequest:

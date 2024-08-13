@@ -166,8 +166,8 @@ mods_fix(Just Enough Items): 修正錯字
 不用擔心，你只需建立你的 PR，我們將會告訴你該怎麼修正！
 
 <!-- 連結 -->
-[github]: https://github.com/xMikux/ModsTranslationPack/
-[pre-release]: https://github.com/xMikux/ModsTranslationPack/releases/tag/latest-build
+[github]: https://github.com/TeamKugimiya/ModsTranslationPack/
+[pre-release]: https://github.com/TeamKugimiya/ModsTranslationPack/releases/tag/latest-build
 [discord-invite]: https://discord.gg/7BbPMtygHU
 [mdn-translate-guide]: https://github.com/mdn/translated-content/blob/main/docs/zh-tw/translation-guide.md
 [microsoft-lang-portal]: https://www.microsoft.com/zh-tw/language/

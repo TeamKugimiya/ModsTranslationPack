@@ -49,7 +49,7 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         sys.exit(1)
 
-    PROJECT_URL = "https://github.com/xMikux/ModsTranslationPack"
+    PROJECT_URL = "https://github.com/TeamKugimiya/ModsTranslationPack"
     commit_message = sys.argv[1]
     commit_info = extract_conventional_commits(commit_message)
     commit_sha = os.environ["GITHUB_SHA"]

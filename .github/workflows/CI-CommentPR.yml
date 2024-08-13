@@ -17,7 +17,7 @@ jobs:
     if: |
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success' &&
-      github.repository == 'xMikux/ModsTranslationPack'
+      github.repository == 'TeamKugimiya/ModsTranslationPack'
 
     steps:
       - name: Get the PR number

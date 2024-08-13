@@ -23,7 +23,7 @@ def get_contributors_list():
     """
     Using GitHub contributors api to get list, and return needs info list
     """
-    response = requests.get("https://api.github.com/repos/xMikux/ModsTranslationPack/contributors?per_page=100", headers=AUTH_HEADER, timeout=6)
+    response = requests.get("https://api.github.com/repos/TeamKugimiya/ModsTranslationPack/contributors?per_page=100", headers=AUTH_HEADER, timeout=6)
     contributor_list = []
 
     if response.status_code == 200:

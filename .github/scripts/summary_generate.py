@@ -48,7 +48,7 @@ def main():
 
         env.close()
 
-    step_output = f"🏗️ 建構資訊｜[流程](https://github.com/xMikux/ModsTranslationPack/actions/runs/{run_id})\n\n"
+    step_output = f"🏗️ 建構資訊｜[流程](https://github.com/TeamKugimiya/ModsTranslationPack/actions/runs/{run_id})\n\n"
 
     for i in file_list:
         name = i["name"]

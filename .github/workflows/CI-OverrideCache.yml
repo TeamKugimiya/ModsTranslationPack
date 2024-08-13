@@ -26,7 +26,7 @@ jobs:
     name: Cache Override
     runs-on: ubuntu-latest
     if: |
-      github.repository == 'xMikux/ModsTranslationPack'
+      github.repository == 'TeamKugimiya/ModsTranslationPack'
 
     steps:
       - name: Checking Repository

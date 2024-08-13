@@ -23,7 +23,7 @@ jobs:
   VerifyStructure:
     name: Verify Structure
     runs-on: ubuntu-latest
-    if: github.repository == 'xMikux/ModsTranslationPack'
+    if: github.repository == 'TeamKugimiya/ModsTranslationPack'
 
     steps:
       - name: Checking Repository

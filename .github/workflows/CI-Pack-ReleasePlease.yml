@@ -18,7 +18,7 @@ concurrency:
 jobs:
   release-please:
     name: Release Please
-    if: github.repository == 'xMikux/ModsTranslationPack'
+    if: github.repository == 'TeamKugimiya/ModsTranslationPack'
     runs-on: ubuntu-latest
 
     steps:
@@ -85,7 +85,7 @@ jobs:
           Tags=${{ needs.release-please.outputs.tag_name }}
           {
             echo 'changelog<<EOF'
-            curl https://api.github.com/repos/xMikux/ModsTranslationPack/releases/tags/$Tags -H "Accept: application/vnd.github+json" | jq -r .body
+            curl https://api.github.com/repos/TeamKugimiya/ModsTranslationPack/releases/tags/$Tags -H "Accept: application/vnd.github+json" | jq -r .body
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
