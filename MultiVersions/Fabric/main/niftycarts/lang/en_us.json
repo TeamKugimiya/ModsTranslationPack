@@ -1,0 +1,16 @@
+{
+  "item.niftycarts.supply_cart": "Supply Cart",
+  "item.niftycarts.plow": "Plow",
+  "item.niftycarts.animal_cart": "Animal Cart",
+  "item.niftycarts.wheel": "Wheel",
+  "entity.niftycarts.supply_cart": "Supply Cart",
+  "entity.niftycarts.plow": "Plow",
+  "entity.niftycarts.animal_cart": "Animal Cart",
+  "entity.niftycarts.postilion": "Postilion",
+  "key.categories.niftycarts": "NiftyCarts",
+  "key.niftycarts.desc": "Action Key",
+  "subtitles.niftycarts.cart.attached": "Cart attaches",
+  "subtitles.niftycarts.cart.detached": "Cart detaches",
+  "subtitles.niftycarts.cart.placed": "Cart placed",
+  "stat.niftycarts.cart_one_cm": "Distance by Cart"
+}
