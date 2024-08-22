@@ -1,0 +1,90 @@
+{
+  "item.expandeddelight.asparagus": "Asparagus",
+  "item.expandeddelight.asparagus_seeds": "Asparagus Seeds",
+  "item.expandeddelight.asparagus_soup": "Asparagus Soup",
+  "item.expandeddelight.asparagus_soup_creamy": "Creamy Asparagus Soup",
+  "item.expandeddelight.asparagus_and_bacon_cheesy": "Cheesy Asparagus and Bacon",
+
+  "item.expandeddelight.sweet_potato": "Sweet Potato",
+  "item.expandeddelight.baked_sweet_potato": "Baked Sweet Potato",
+  "item.expandeddelight.sweet_potato_salad": "Sweet Potato Salad",
+
+  "item.expandeddelight.chili_pepper": "Chili Pepper",
+  "item.expandeddelight.chili_pepper_seeds": "Chili Pepper Seeds",
+  "item.expandeddelight.peperonata": "Peperonata",
+
+  "item.expandeddelight.peanut": "Peanut",
+  "item.expandeddelight.peanut_butter": "Peanut Butter",
+  "item.expandeddelight.peanut_butter_sandwich": "Peanut Butter Sandwich",
+  "item.expandeddelight.peanut_butter_honey_sandwich": "Peanut Butter and Honey Sandwich",
+  "item.expandeddelight.peanut_salad": "Peanut Salad",
+  "item.expandeddelight.peanut_honey_soup": "Honey Peanut Soup",
+  "item.expandeddelight.sweet_berry_jelly_sandwich": "Peanut Butter and Sweet Berry Jelly Sandwich",
+  "item.expandeddelight.glow_berry_jelly_sandwich": "Peanut Butter and Glow Berry Jelly Sandwich",
+
+  "item.expandeddelight.crushing_mallet": "Crushing Mallet",
+  "item.expandeddelight.glass_jar": "Glass Jar",
+  "item.expandeddelight.cinnamon_stick": "Cinnamon Stick",
+  "item.expandeddelight.cinnamon": "Cinnamon",
+  "item.expandeddelight.salt_rock": "Salt Rock",
+  "item.expandeddelight.salt": "Salt",
+
+  "item.expandeddelight.cheese_slice": "Cheese Slice",
+  "item.expandeddelight.cheese_sandwich": "Cheese Sandwich",
+  "item.expandeddelight.grilled_cheese": "Grilled Cheese",
+  "item.expandeddelight.mac_and_cheese": "Mac and Cheese",
+  "item.expandeddelight.sweet_roll": "Sweet Roll",
+  "item.expandeddelight.berry_sweet_roll": "Berry Sweet Roll",
+  "item.expandeddelight.glow_berry_sweet_roll": "Glow Berry Sweet Roll",
+  "item.expandeddelight.cinnamon_rice": "Cinnamon Rice",
+  "item.expandeddelight.cinnamon_apples": "Cinnamon Apples",
+  "item.expandeddelight.chocolate_cookie": "Chocolate Cookie",
+  "item.expandeddelight.sugar_cookie": "Sugar Cookie",
+  "item.expandeddelight.snickerdoodle": "Snickerdoodle",
+
+  "item.expandeddelight.apple_juice": "Apple Juice",
+  "item.expandeddelight.sweet_berry_juice": "Sweet Berry Juice",
+  "item.expandeddelight.glow_berry_juice": "Glow Berry Juice",
+
+  "item.expandeddelight.sweet_berry_jelly": "Sweet Berry Jelly",
+  "item.expandeddelight.glow_berry_jelly": "Glow Berry Jelly",
+
+  "item.expandeddelight.juicer_item": "Juicer",
+
+  "block.expandeddelight.asparagus_crate": "Asparagus Crate",
+  "block.expandeddelight.wild_asparagus": "Wild Asparagus",
+  "block.expandeddelight.asparagus_crop": "Asparagus",
+
+  "block.expandeddelight.sweet_potato_crate": "Sweet Potato Crate",
+  "block.expandeddelight.wild_sweet_potato": "Wild Sweet Potatoes",
+  "block.expandeddelight.sweet_potato_crop": "Sweet Potato",
+
+  "block.expandeddelight.chili_pepper_crate": "Chili Pepper Crate",
+  "block.expandeddelight.wild_chili_pepper": "Wild Chili Pepper",
+  "block.expandeddelight.chili_pepper_crop": "Chili Peppers",
+
+  "block.expandeddelight.wild_peanuts": "Wild Peanuts",
+  "block.expandeddelight.peanut_crop": "Peanuts",
+
+  "block.expandeddelight.salt_ore": "Salt Ore",
+  "block.expandeddelight.deepslate_salt_ore": "Deepslate Salt Ore",
+
+  "block.expandeddelight.cheese_wheel": "Cheese Wheel",
+
+  "block.expandeddelight.juicer": "Juicer",
+  "block.expandeddelight.cask": "Cask",
+
+  "container.expandeddelight.juicer": "Juicer",
+
+  "expandeddelight.container.juicer": "Juicer",
+  "expandeddelight.container.recipe_book.juiceable": "Showing Juiceable",
+  "expandeddelight.jei.juicing": "Juicing",
+
+  "itemGroup.expandeddelight": "Expanded Delight",
+
+  "expandeddelight.jei.info.wild_asparagus": "Asparagus can be commonly found as a wild plant in plains.",
+  "expandeddelight.jei.info.wild_sweet_potato": "Sweet potatoes can be commonly found as a wild plant in jungles.",
+  "expandeddelight.jei.info.wild_chili_pepper": "Chili peppers can be commonly found as a wild plant in deserts.",
+  "expandeddelight.jei.info.wild_peanuts": "Peanuts can be commonly found as a wild plant in savannas.",
+  "expandeddelight.jei.info.salt_ore": "Salt Ore can be commonly found underground specifically in ocean biomes."
+}

@@ -1,0 +1,90 @@
+{
+  "item.expandeddelight.asparagus": "蘆筍",
+  "item.expandeddelight.asparagus_seeds": "蘆筍種子",
+  "item.expandeddelight.asparagus_soup": "蘆筍湯",
+  "item.expandeddelight.asparagus_soup_creamy": "奶油蘆筍湯",
+  "item.expandeddelight.asparagus_and_bacon_cheesy": "起司培根蘆筍",
+
+  "item.expandeddelight.sweet_potato": "地瓜",
+  "item.expandeddelight.baked_sweet_potato": "烤地瓜",
+  "item.expandeddelight.sweet_potato_salad": "地瓜沙拉",
+
+  "item.expandeddelight.chili_pepper": "紅辣椒",
+  "item.expandeddelight.chili_pepper_seeds": "紅辣椒種子",
+  "item.expandeddelight.peperonata": "義式燉甜椒",
+
+  "item.expandeddelight.peanut": "花生",
+  "item.expandeddelight.peanut_butter": "花生醬",
+  "item.expandeddelight.peanut_butter_sandwich": "花生醬三明治",
+  "item.expandeddelight.peanut_butter_honey_sandwich": "蜂蜜花生醬三明治",
+  "item.expandeddelight.peanut_salad": "花生沙拉",
+  "item.expandeddelight.peanut_honey_soup": "蜂蜜花生湯",
+  "item.expandeddelight.sweet_berry_jelly_sandwich": "花生甜莓果醬三明治",
+  "item.expandeddelight.glow_berry_jelly_sandwich": "花生螢光莓果醬三明治",
+
+  "item.expandeddelight.crushing_mallet": "碎物槌",
+  "item.expandeddelight.glass_jar": "玻璃罐",
+  "item.expandeddelight.cinnamon_stick": "肉桂棒",
+  "item.expandeddelight.cinnamon": "肉桂粉",
+  "item.expandeddelight.salt_rock": "岩鹽",
+  "item.expandeddelight.salt": "鹽",
+
+  "item.expandeddelight.cheese_slice": "起司片",
+  "item.expandeddelight.cheese_sandwich": "起司三明治",
+  "item.expandeddelight.grilled_cheese": "烤起司三明治",
+  "item.expandeddelight.mac_and_cheese": "起司通心粉",
+  "item.expandeddelight.sweet_roll": "香甜捲",
+  "item.expandeddelight.berry_sweet_roll": "甜莓捲",
+  "item.expandeddelight.glow_berry_sweet_roll": "螢光莓捲",
+  "item.expandeddelight.cinnamon_rice": "肉桂燉飯",
+  "item.expandeddelight.cinnamon_apples": "肉桂蘋果",
+  "item.expandeddelight.chocolate_cookie": "巧克力餅乾",
+  "item.expandeddelight.sugar_cookie": "糖霜餅乾",
+  "item.expandeddelight.snickerdoodle": "肉桂餅乾",
+
+  "item.expandeddelight.apple_juice": "蘋果汁",
+  "item.expandeddelight.sweet_berry_juice": "甜莓汁",
+  "item.expandeddelight.glow_berry_juice": "螢光莓汁",
+
+  "item.expandeddelight.sweet_berry_jelly": "甜莓果醬",
+  "item.expandeddelight.glow_berry_jelly": "螢光莓果醬",
+
+  "item.expandeddelight.juicer_item": "果汁機",
+
+  "block.expandeddelight.asparagus_crate": "蘆筍箱",
+  "block.expandeddelight.wild_asparagus": "野生蘆筍",
+  "block.expandeddelight.asparagus_crop": "蘆筍植株",
+
+  "block.expandeddelight.sweet_potato_crate": "地瓜箱",
+  "block.expandeddelight.wild_sweet_potato": "野生地瓜",
+  "block.expandeddelight.sweet_potato_crop": "地瓜",
+
+  "block.expandeddelight.chili_pepper_crate": "紅辣椒箱",
+  "block.expandeddelight.wild_chili_pepper": "野生紅辣椒",
+  "block.expandeddelight.chili_pepper_crop": "紅辣椒植株",
+
+  "block.expandeddelight.wild_peanuts": "野生花生",
+  "block.expandeddelight.peanut_crop": "花生植株",
+
+  "block.expandeddelight.salt_ore": "鹽礦",
+  "block.expandeddelight.deepslate_salt_ore": "深板岩鹽礦",
+
+  "block.expandeddelight.cheese_wheel": "起司輪",
+
+  "block.expandeddelight.juicer": "果汁機",
+  "block.expandeddelight.cask": "酒桶",
+
+  "container.expandeddelight.juicer": "果汁機",
+
+  "expandeddelight.container.juicer": "果汁機",
+  "expandeddelight.container.recipe_book.juiceable": "已列出可榨汁項目",
+  "expandeddelight.jei.juicing": "榨汁",
+
+  "itemGroup.expandeddelight": "擴展樂事",
+  
+  "expandeddelight.jei.info.wild_asparagus": "蘆筍是平原中常見的野生植物",
+  "expandeddelight.jei.info.wild_sweet_potato": "紅辣椒是叢林中常見的野生植物",
+  "expandeddelight.jei.info.wild_chili_pepper": "紅辣椒是沙漠中常見的野生植物",
+  "expandeddelight.jei.info.wild_peanuts": "花生是莽原中常見的野生植物",
+  "expandeddelight.jei.info.salt_ore": "鹽礦通常能在海洋生態域的地底中找到"
+}
