@@ -1,0 +1,17 @@
+{
+  "item.astikorcarts.supply_cart": "運貨馬車",
+  "item.astikorcarts.plow": "犁",
+  "item.astikorcarts.animal_cart": "動物運送馬車",
+  "item.astikorcarts.wheel": "車輪",
+  "itemGroup.astikorcarts": "AstikorCarts",
+  "entity.astikorcarts.supply_cart": "運貨馬車",
+  "entity.astikorcarts.plow": "犁",
+  "entity.astikorcarts.animal_cart": "動物運送馬車",
+  // "entity.astikorcarts.postilion": "Postilion",
+  "key.categories.astikorcarts": "AstikorCarts",
+  "key.astikorcarts.desc": "將動物與馬車連接／分離",
+  "subtitles.astikorcarts.cart.attached": "馬車連接",
+  "subtitles.astikorcarts.cart.detached": "馬車分離",
+  "subtitles.astikorcarts.cart.placed": "放置馬車",
+  "stat.astikorcarts.cart_one_cm": "乘坐馬車移動距離"
+}
