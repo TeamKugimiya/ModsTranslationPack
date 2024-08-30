@@ -1,0 +1,22 @@
+{
+    "name": "入門",
+    "icon": "minecraft:writable_book",
+    "category": "productivetrees:guide",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "flag": "mod:productivebees",
+            "text": "將一棵樹放在另一棵樹旁邊，靠近一些蜜蜂，就會獲利。$(br)蜂巢可以被模擬，範圍升級每次升級都會增加 2 個方塊的工作區域。基數範圍為 4。$(br2)請注意，該模組處於測試階段，功能不完整。$(br)具體來說，樹木的生長特徵（它們生長時的外觀）正在開發中。"
+        },
+        {
+            "type": "patchouli:text",
+            "flag": "!mod:productivebees",
+            "text": "收集葉子並透過花粉篩提取花粉。使用葉子上的花粉球為其授粉並獲得新的樹種。$(br2)請注意，該模組尚處於測試階段，功能不完整。$(br1)具體來說，樹木的生長特徵（它們生長時的外觀）正在開發中。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:spyglass",
+            "text": "您可以使用望遠鏡來更好地發現哪些葉子已授粉。"
+        }
+    ]
+}

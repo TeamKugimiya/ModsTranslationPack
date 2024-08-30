@@ -1,0 +1,6 @@
+{
+  "name": "Tree Tap 模組相容",
+  "description": "該模組與 Tree Tap 模組相容，可以提取一些額外的樹產品。",
+  "icon": "productivetrees:maple_sap_bucket",
+  "flag": "!mod:treetap"
+}

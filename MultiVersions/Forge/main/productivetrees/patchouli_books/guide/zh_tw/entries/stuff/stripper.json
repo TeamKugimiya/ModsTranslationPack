@@ -1,0 +1,17 @@
+{
+    "name": "剝皮機",
+    "icon": "productivetrees:stripper",
+    "category": "productivetrees:stuff",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivetrees:stripper",
+            "text": "剝掉木頭上的樹皮，使其裸露並剝落。需要斧頭才能操作。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivetrees:stripper",
+            "text": ""
+        }
+    ]
+}

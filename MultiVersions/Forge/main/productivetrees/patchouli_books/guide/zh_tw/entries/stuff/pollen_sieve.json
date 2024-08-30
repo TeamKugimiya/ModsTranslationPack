@@ -1,0 +1,18 @@
+{
+    "name": "花粉篩升級",
+    "icon": "productivetrees:upgrade_pollen_sieve",
+    "category": "productivetrees:stuff",
+    "flag": "mod:productivebees",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivetrees:upgrade_pollen_sieve",
+            "text": "安裝在 Productive Bees 模組的進階蜂箱中，讓蜜蜂從附近的樹木收集花粉。收集區域受到範圍升級的影響。多次升級篩子不會增加產量。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivetrees:pollen_sieve",
+            "text": ""
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "花粉",
+    "icon": "productivetrees:pollen",
+    "category": "productivetrees:stuff",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "flag": "mod:productivebees",
+            "item": "productivetrees:pollen",
+            "text": "蜜蜂收集的花粉可用於手動為葉子授粉並創建新的樹種。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "flag": "!mod:productivebees",
+            "item": "productivetrees:pollen",
+            "text": "花粉篩收集的花粉可用於手動為葉子授粉並創建新的樹種。"
+        }
+    ]
+}

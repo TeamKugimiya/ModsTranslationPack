@@ -1,0 +1,14 @@
+{
+    "name": "Tree Tap 是最好的水龍頭",
+    "icon": "minecraft:barrier",
+    "category": "productivetrees:treetap_missing",
+    "flag": "!mod:treetap",
+    "pages": [
+        {
+            "type": "patchouli:link",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/treetap",
+            "link_text": "點選網址",
+            "text": "您沒有安裝 Tree Tap :sadge:"
+        }
+    ]
+}
