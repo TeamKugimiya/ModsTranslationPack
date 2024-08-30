@@ -1,0 +1,1 @@
+{"name":"農場蜂","icon":"minecraft:wheat","read_by_default":true,"sortnum":1,"category":"productivebees:bees_worker","pages":[{"type":"patchouli:text","title":"農場蜂","text":"會收割附近 4 個方塊距離內的農作物並將產物留在地上, 可安裝《距離升級》來擴大範圍。如果有安裝點擊滑鼠右鍵就可收割的模組, 蜜蜂便可那麼做。"},{"type":"patchouli:entity","entity":"productivebees:farmer_bee"}]}

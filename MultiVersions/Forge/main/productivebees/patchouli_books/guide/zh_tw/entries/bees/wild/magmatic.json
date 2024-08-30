@@ -1,0 +1,1 @@
+{"name":"岩漿蜂","icon":"minecraft:magma_block","read_by_default":true,"category":"productivebees:bees_wild","pages":[{"type":"patchouli:text","title":"岩漿蜂","text":"居住於地獄要塞中的地獄磚巢, 喜歡採集岩漿塊或地獄疙瘩。$(br)搭建牠們圍牆的材料得當心, 這些小傢伙會把鵝卵石變成岩漿。","anchor":"magmatic"},{"type":"patchouli:entity","entity":"productivebees:configurable_bee{type:'productivebees:magmatic'}"}]}

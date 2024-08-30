@@ -1,0 +1,1 @@
+{"name":"殭屍蜂","icon":"minecraft:rotten_flesh","read_by_default":true,"category":"productivebees:bees_hive","flag":"productivebees:zombie","pages":[{"type":"patchouli:text","title":"殭屍蜂","text":"會住進位於黑暗處還有剩餘空位的進階蜂箱。","anchor":"zombie"},{"type":"patchouli:entity","entity":"productivebees:configurable_bee{type:'productivebees:zombie'}"}]}

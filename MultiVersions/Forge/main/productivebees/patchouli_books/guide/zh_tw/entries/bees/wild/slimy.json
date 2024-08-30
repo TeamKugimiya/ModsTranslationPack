@@ -1,0 +1,1 @@
+{"name":"史萊姆蜂","icon":"minecraft:slime_ball","read_by_default":true,"category":"productivebees:bees_wild","pages":[{"type":"patchouli:text","title":"史萊姆蜂","text":"居住於沼澤地區的史萊姆巢, 喜歡採集沼澤地區的花朵, 但也會在其它地區採集。","anchor":"slimy"},{"type":"patchouli:entity","entity":"productivebees:configurable_bee{type:'productivebees:slimy'}"}]}

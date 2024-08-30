@@ -1,0 +1,1 @@
+{"name":"挖掘蜂","icon":"productivebees:spawn_egg_digger_bee","read_by_default":true,"sortnum":6,"category":"productivebees:bees_solitary","pages":[{"type":"patchouli:text","title":"挖掘蜂","text":"英文名: Digger Bee$(br)學名: Anthophora urbana","anchor":"digger"},{"type":"patchouli:entity","entity":"productivebees:digger_bee"}]}

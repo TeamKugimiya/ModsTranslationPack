@@ -1,0 +1,1 @@
+{"name":"石匠蜂","icon":"productivebees:spawn_egg_mason_bee","read_by_default":true,"sortnum":8,"category":"productivebees:bees_solitary","pages":[{"type":"patchouli:text","title":"石匠蜂","text":"英文名: Mason Bee$(br)學名: Osmia lignaria","anchor":"mason"},{"type":"patchouli:entity","entity":"productivebees:mason_bee"}]}

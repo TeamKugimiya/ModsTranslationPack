@@ -1,0 +1,1 @@
+{"name":"牧場蜂","icon":"minecraft:milk_bucket","read_by_default":true,"sortnum":2,"category":"productivebees:bees_worker","pages":[{"type":"patchouli:text","title":"牧場蜂","text":"會幫附近的牛、羊或駱馬擠奶並在牠的蜂箱中製造牛奶蜂巢, 還會幫羊剪毛。$(br2)大部分的牛在被這種蜜蜂取奶的時候會受到傷害。"},{"type":"patchouli:entity","entity":"productivebees:rancher_bee"}]}

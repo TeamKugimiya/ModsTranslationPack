@@ -1,0 +1,19 @@
+{
+    "name": "海磷蜂",
+    "icon": "minecraft:prismarine_shard",
+    "read_by_default": true,
+    "category": "productivebees:bees_hive",
+    "flag": "productivebees:prismarine",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "海磷蜂",
+            "text": "透過在海洋生物群落中釣魚獲得。",
+            "anchor": "prismarine"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:prismarine'}"
+        }
+    ]
+}

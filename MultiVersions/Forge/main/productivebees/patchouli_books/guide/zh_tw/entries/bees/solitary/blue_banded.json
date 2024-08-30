@@ -1,0 +1,1 @@
+{"name":"藍帶蜂","icon":"productivebees:spawn_egg_blue_banded_bee","read_by_default":true,"sortnum":2,"category":"productivebees:bees_solitary","pages":[{"type":"patchouli:text","title":"藍帶蜂","text":"英文名: Blue Banded Bee$(br)學名: Amegilla cingulata","anchor":"blue_banded"},{"type":"patchouli:entity","entity":"productivebees:blue_banded_bee"}]}

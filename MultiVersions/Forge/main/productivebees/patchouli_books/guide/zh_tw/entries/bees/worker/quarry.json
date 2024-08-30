@@ -1,0 +1,1 @@
+{"name":"採石蜂","icon":"minecraft:wooden_pickaxe","read_by_default":true,"sortnum":4,"category":"productivebees:bees_worker","pages":[{"type":"patchouli:text","title":"採石蜂","text":"會從蜂箱附近的石頭、沙子或礫石上收集石屑並帶回蜂箱。$(br)石屑可合成為對應的方塊。"},{"type":"patchouli:entity","entity":"productivebees:quarry_bee"}]}

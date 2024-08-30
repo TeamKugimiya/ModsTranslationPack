@@ -1,0 +1,1 @@
+{"name":"分離機","icon":"productivebees:centrifuge","category":"productivebees:blocks","pages":[{"type":"patchouli:spotlight","item":"productivebees:centrifuge","text":"《分離機》可將資源蜂巢分離成資源與蜂蜜。機器中可存放 10 桶液體, 且會自動輸出至旁邊的液體容器方塊。$(br)《能量型分離機》需使用 FE 能量來進行更高速的運轉。$(br)《分離機》還可用來分離 《瓶中的蜜蜂樣本》為$(l:genetics/transferring)基因$(/l)樣本。"}]}

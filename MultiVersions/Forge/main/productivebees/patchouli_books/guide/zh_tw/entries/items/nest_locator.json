@@ -1,0 +1,1 @@
+{"name":"巢穴指向器","icon":"productivebees:nest_locator","category":"productivebees:items","pages":[{"type":"patchouli:spotlight","item":"productivebees:nest_locator","text":"可辨識附近巢穴發出的微弱嗡嗡聲。拿著指向器對著要尋找的巢穴或該類型的方塊潛行並點擊滑鼠右鍵以進行設定, 例如你想找尋沙巢, 則對著沙巢或沙方塊做設定。再次點擊滑鼠右鍵就會指向附近該類型的巢穴。"},{"type":"patchouli:crafting","recipe":"productivebees:nest_locator"}]}

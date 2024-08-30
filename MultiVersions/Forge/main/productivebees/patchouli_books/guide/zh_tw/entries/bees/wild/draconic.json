@@ -1,0 +1,1 @@
+{"name":"龍族蜂","icon":"productivebees:draconic_chunk","read_by_default":true,"category":"productivebees:bees_wild","pages":[{"type":"patchouli:text","title":"龍族蜂","text":"居住於終界主島上的黑曜石柱中, 相當罕見, 會在島上四處飛行以收集空氣中的花蜜, 若是遇到龍蛋的話也會採集。","anchor":"draconic"},{"type":"patchouli:entity","entity":"productivebees:configurable_bee{type:'productivebees:draconic'}"}]}

@@ -1,0 +1,1 @@
+{"name":"木料蜂","icon":"minecraft:wooden_axe","read_by_default":true,"sortnum":3,"category":"productivebees:bees_worker","pages":[{"type":"patchouli:text","title":"木料蜂","text":"從附近的木頭上收集木屑並帶回蜂箱。$(br)木屑可合成為原木。"},{"type":"patchouli:entity","entity":"productivebees:lumber_bee"}]}

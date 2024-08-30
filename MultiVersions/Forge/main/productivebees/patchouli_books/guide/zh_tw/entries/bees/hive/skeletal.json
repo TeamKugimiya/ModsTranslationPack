@@ -1,0 +1,1 @@
+{"name":"骷髏蜂","icon":"minecraft:bone_meal","read_by_default":true,"category":"productivebees:bees_hive","flag":"productivebees:skeletal","pages":[{"type":"patchouli:text","title":"骷髏蜂","text":"會住進位於黑暗處還有剩餘空位的進階蜂箱。","anchor":"skeletal"},{"type":"patchouli:entity","entity":"productivebees:configurable_bee{type:'productivebees:skeletal'}"}]}

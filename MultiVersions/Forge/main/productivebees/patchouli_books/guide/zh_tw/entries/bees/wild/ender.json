@@ -1,0 +1,1 @@
+{"name":"終界蜂","icon":"minecraft:ender_pearl","read_by_default":true,"category":"productivebees:bees_wild","flag":"productivebees:ender","pages":[{"type":"patchouli:text","title":"終界蜂","text":"居住於終界小島上的終界石巢, 喜歡採集當地的歌萊枝。","anchor":"ender"},{"type":"patchouli:entity","entity":"productivebees:configurable_bee{type:'productivebees:ender'}"}]}

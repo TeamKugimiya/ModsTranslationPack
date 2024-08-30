@@ -1,0 +1,1 @@
+{"name":"撿拾蜂","icon":"minecraft:shulker_shell","read_by_default":true,"sortnum":6,"category":"productivebees:bees_worker","pages":[{"type":"patchouli:text","title":"撿拾蜂","text":"會撿拾附近地上的物品並放回蜂箱, 比《$(l:bees/worker/collector)收集蜂$(/l)》更好、更酷。$(br)結合農場蜂就可成為自動化農場了。"},{"type":"patchouli:entity","entity":"productivebees:hoarder_bee"}]}

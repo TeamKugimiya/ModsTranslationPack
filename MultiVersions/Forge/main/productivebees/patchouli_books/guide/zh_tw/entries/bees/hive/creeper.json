@@ -1,0 +1,1 @@
+{"name":"苦力怕蜂","icon":"minecraft:gunpowder","read_by_default":true,"category":"productivebees:bees_hive","flag":"productivebees:creeper","pages":[{"type":"patchouli:text","title":"苦力怕蜂","text":"餵食TNT給一般的蜜蜂就會轉變成。","anchor":"creeper"},{"type":"patchouli:entity","entity":"productivebees:creeper_bee"}]}

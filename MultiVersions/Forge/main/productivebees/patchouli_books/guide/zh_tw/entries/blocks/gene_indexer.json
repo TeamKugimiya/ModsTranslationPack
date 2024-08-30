@@ -1,0 +1,1 @@
+{"name":"基因整合機","icon":"productivebees:gene_indexer","category":"productivebees:blocks","pages":[{"type":"patchouli:spotlight","item":"productivebees:gene_indexer","text":"你被基因樣本淹沒了嗎？ 你常常為了提高機率而合併基因嗎？ 那麼這臺機器就是為你設計的！"},{"type":"patchouli:text","text":"將你手上的基因樣本都塞進這臺機器後開啟控制桿, 就可以看著機器為你自動合併裡面的基因樣本。這可能不是最有效率的方式....但至少是自動的！$(br)需要紅石信號。"}]}

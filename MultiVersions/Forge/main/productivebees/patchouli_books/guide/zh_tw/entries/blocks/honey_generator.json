@@ -1,0 +1,1 @@
+{"name":"蜂蜜產能機","icon":"productivebees:honey_generator","category":"productivebees:blocks","pages":[{"type":"patchouli:spotlight","item":"productivebees:honey_generator","text":"燃燒蜂蜜來產生能量。可由管路輸入蜂蜜或從介面中添加蜂蜜瓶、蜂蜜塊或蜂蜜桶。"},{"type":"patchouli:text","text":"《蜂蜜產能機》可裝上兩種升級: 一種是《$(l:items/upgrades#productivity)生產升級$(/l)》, 可降低蜂蜜的消耗量。另一種是《$(l:items/upgrades#speed)效率升級$(/l)》, 可加快產能速度。"}]}

@@ -1,0 +1,1 @@
+{"name":"凋零蜂","icon":"productivebees:wither_skull_chip","read_by_default":true,"category":"productivebees:bees_hive","flag":"productivebees:withered","pages":[{"type":"patchouli:text","title":"凋零蜂","text":"餵食凋零玫瑰給《$(l:bees/hive/skeletal)骷髏蜂$(/l)》就會轉變成。","anchor":"withered"},{"type":"patchouli:entity","entity":"productivebees:configurable_bee{type:'productivebees:withered'}"}]}

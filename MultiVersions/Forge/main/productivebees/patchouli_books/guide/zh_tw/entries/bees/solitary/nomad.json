@@ -1,0 +1,1 @@
+{"name":"流浪蜂","icon":"productivebees:spawn_egg_nomad_bee","read_by_default":true,"sortnum":10,"category":"productivebees:bees_solitary","pages":[{"type":"patchouli:text","title":"流浪蜂","text":"英文名: Nomad Bee$(br)學名: Nomada marshamella","anchor":"nomad"},{"type":"patchouli:entity","entity":"productivebees:nomad_bee"}]}
