@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.8.1](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.0...v1.8.1) (2024-08-31)
+
+
+### 🧹 整理專案
+
+* 轉移到翻譯組下 ([c48e146](https://github.com/TeamKugimiya/ModsTranslationPack/commit/c48e146f0028f1e27fca5f08a5cf98205af94e9f))
+
+
+### 📑 文件更新
+
+* **readme:** 更新專案資訊 ([4c56ec7](https://github.com/TeamKugimiya/ModsTranslationPack/commit/4c56ec7a29d0f032e153614ebd1f318ea51d1fa8))
+* **Readme:** 更新模組數量 ([#750](https://github.com/TeamKugimiya/ModsTranslationPack/issues/750)) ([0a69f3c](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0a69f3c106c2404d0f05c7cada4fc8e6395df17b))
+
+
+### ⚡ 新增模組翻譯
+
+* **AstikorCarts Redux:** 新增 AstikorCarts Redux v1.1.8 ([#749](https://github.com/TeamKugimiya/ModsTranslationPack/issues/749)) ([7371b45](https://github.com/TeamKugimiya/ModsTranslationPack/commit/7371b453bdf576fd78b91a7339b92340f27bad85))
+* **Expanded Delight:** 新增擴展樂事 v0.1.2.2 ([#747](https://github.com/TeamKugimiya/ModsTranslationPack/issues/747)) ([cea600d](https://github.com/TeamKugimiya/ModsTranslationPack/commit/cea600d3a15f0ffe0ef282525687a7fa480fcbeb))
+* **NiftyCarts:** 新增 NiftyCarts v3.3.1 ([#748](https://github.com/TeamKugimiya/ModsTranslationPack/issues/748)) ([fa2b2f3](https://github.com/TeamKugimiya/ModsTranslationPack/commit/fa2b2f3eadd193cbb4c36f50283e8f33d8d0e8cf))
+* **Oh The Biomes We've Gone:** 新增我們走過的生態域 v1.1.1 Beta ([#746](https://github.com/TeamKugimiya/ModsTranslationPack/issues/746)) ([c246448](https://github.com/TeamKugimiya/ModsTranslationPack/commit/c2464488a3c97cc36c4e6367530b46115966d499))
+
+
+### 🐛 修正模組翻譯錯誤
+
+* 將 ExtendedAE 與 AE2 翻譯轉移至 1.20 ([#752](https://github.com/TeamKugimiya/ModsTranslationPack/issues/752)) ([139b161](https://github.com/TeamKugimiya/ModsTranslationPack/commit/139b16156e7c195cd63a817fbc7f495f7e43df77))
+
 ## [1.8.0](https://github.com/xMikux/ModsTranslationPack/compare/v1.7.11...v1.8.0) (2024-08-12)
 
 
