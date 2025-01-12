@@ -9,7 +9,7 @@ readme = "README.md"
 python = "^3.10"
 mediafire-dl = {git = "https://github.com/Juvenal-Yescas/mediafire-dl"}
 aiohttp = "3.10.3"
-six = "1.16.0"
+six = "1.17.0"
 pillow = "^10.0.1"
 loguru = "^0.7.2"
 
