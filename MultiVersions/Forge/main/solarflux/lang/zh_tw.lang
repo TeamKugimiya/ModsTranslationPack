@@ -1,0 +1,81 @@
+
+itemGroup.solarflux=日光通量：重製版
+
+block.solarflux.sp_1=太陽能板 I
+block.solarflux.sp_2=太陽能板 II
+block.solarflux.sp_3=太陽能板 III
+block.solarflux.sp_4=太陽能板 IV
+block.solarflux.sp_5=太陽能板 V
+block.solarflux.sp_6=太陽能板 VI
+block.solarflux.sp_7=太陽能板 VII
+block.solarflux.sp_8=太陽能板 VIII
+
+item.solarflux.mirror=鏡子
+item.solarflux.blazing_coating=烈焰塗層
+item.solarflux.emerald_glass=綠寶石玻璃
+item.solarflux.ender_glass=終界玻璃
+item.solarflux.photovoltaic_cell_1=光伏電池 I
+item.solarflux.photovoltaic_cell_2=光伏電池 II
+item.solarflux.photovoltaic_cell_3=光伏電池 III
+item.solarflux.photovoltaic_cell_4=光伏電池 IV
+item.solarflux.photovoltaic_cell_5=光伏電池 V
+item.solarflux.photovoltaic_cell_6=光伏電池 VI
+item.solarflux.blank_upgrade=空白升級
+item.solarflux.efficiency_upgrade=效率升級
+item.solarflux.low_light_upgrade=低日照升級
+item.solarflux.traversal_upgrade=機器充能升級
+item.solarflux.transfer_rate_upgrade=傳輸速率升級
+item.solarflux.capacity_upgrade=電池容量升級
+item.solarflux.furnace_upgrade=熔爐升級
+item.solarflux.dispersive_upgrade=玩家無線充能升級
+item.solarflux.block_charging_upgrade=方塊無線充能升級
+
+info.solarflux.energy.stored1=已儲存能量：%,d FE
+info.solarflux.energy.stored2=已儲存能量：%,d/%,d FE
+info.solarflux.energy.generation=發電量：%,d FE/tick
+info.solarflux.energy.transfer=能量傳輸速率：%,d FE/tick
+info.solarflux.energy.capacity=電池容量：%,d FE
+info.solarflux.energy.efficiency=發電效率：%,d%%
+info.solarflux.sun.intensity=亮度：%,d%%
+info.solarflux.upgrades.installed=升級
+info.solarflux.hold.for.info=按住 %s 查看詳細資訊
+info.solarflux.shift=Shift
+info.solarflux.maximum=最大
+info.solarflux.contentretained=內容物已保留
+info.solarflux.resetcontent=放上合成欄位來重設狀態
+info.solarflux.decreasingReturnsToScale=規模收益遞減
+info.solarflux.constantReturnsToScale=規模收益不變
+info.solarflux.increasingReturnsToScale=規模收益遞增
+info.solarflux.solar.panel.upgrade=太陽能板升級
+info.solarflux.efficiency_upgrade=提高 %.2f%% 發電量。
+info.solarflux.upgrade.low.light=在低日照環境下產生更多 FE 能量，但在滿日照環境下產生的能量將變少。
+info.solarflux.traversal_upgrade=將能量分配給 %d 格範圍內相連的機器。
+info.solarflux.transfer_rate_upgrade=提高 %.2f%% 能量傳輸速率。
+info.solarflux.capacity_upgrade=提高 %.2f%% 電池容量。
+info.solarflux.furnace_upgrade=積蓄能量來為原版的熔爐供應熱能。
+info.solarflux.dispersive_upgrade=為 %d 格範圍內的玩家進行無線充能。
+info.solarflux.block_charging_upgrade=向 %d 格範圍內的指定方塊無線傳輸能量。
+
+## AVARITIA COMPATIBILITY ##
+block.solarflux.sp_avaritia.neutronium=中子素太陽能板
+block.solarflux.sp_avaritia.infinity=無盡太陽能板
+
+## DRACONIC EVOLUTION ##
+block.solarflux.sp_de.wyvern=雙足飛龍太陽能板
+block.solarflux.sp_de.draconic=神龍太陽能板
+block.solarflux.sp_de.chaotic=混沌太陽能板
+
+## TWILIGHT FOREST ##
+block.solarflux.sp_tf.carminite=砷鉛鐵太陽能板
+block.solarflux.sp_tf.fiery=熾熱金屬太陽能板
+
+item.solarflux.twilightforest.twilight_cell_1=暮光森林電池 I
+item.solarflux.twilightforest.twilight_cell_2=暮光森林電池 II
+item.solarflux.twilightforest.twilight_upgrade=暮光森林日照升級
+
+info.solarflux.twilightforest.twilight_upgrade=略為提高太陽能板在暮光森林中收集到的日照量。
+
+## APPLIED ENERGISTICS ##
+item.solarflux.ae2.energy_upgrade=AE 能量升級
+
+info.solarflux.ae2.energy_upgrade=讓太陽能板能直接接上 ME 網路。
