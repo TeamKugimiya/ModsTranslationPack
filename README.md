@@ -197,10 +197,10 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/NoahsarkTaiwan2008" title="NoahsarkTaiwan2008">
-        <img src="https://avatars.githubusercontent.com/u/140701686?v=4" width="100;" alt="NoahsarkTaiwan2008"/>
+      <a href="https://github.com/NoahsarkTaiwan2008" title="Hikari">
+        <img src="https://avatars.githubusercontent.com/u/140701686?v=4" width="100;" alt="Hikari"/>
         <br />
-        <sub><b>NoahsarkTaiwan2008</b></sub>
+        <sub><b>Hikari</b></sub>
       </a>
     </td>
     <td align="center">
