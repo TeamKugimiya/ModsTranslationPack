@@ -39,6 +39,8 @@ jobs:
 
       - name: Install poetry
         uses: abatilo/actions-poetry@v3
+        with:
+          poetry-version: 1.8.5
 
       - name: Setup a local virtual environment
         run: |
