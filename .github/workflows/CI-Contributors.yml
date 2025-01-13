@@ -54,10 +54,9 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           title: "docs(Readme): 更新貢獻者清單"
           commit-message: "docs(Readme): 更新貢獻者清單"
+          sign-commits: true
           branch: docs/contributor-readme
           labels: |
             📃 文件
