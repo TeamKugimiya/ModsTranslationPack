@@ -1,3 +1,11 @@
 {
-  "sidebar_button.ftbessentials.trash_can": "垃圾桶"
+  "sidebar_button.ftbessentials.trash_can": "垃圾桶",
+  "ftbessentials.chat.status.start_record": "正在錄製中！",
+  "ftbessentials.chat.status.stop_record": "已結束錄製！",
+  "ftbessentials.chat.status.start_stream": "正在直播中！",
+  "ftbessentials.chat.status.stop_stream": "已結束直播！",
+  "ftbessentials.messages.kick_self": "你將自己踢出了遊戲！",
+  "ftbessentials.feedback.limit_radius": "已將半徑限制在 %s",
+  "ftbessentials.feedback.players_within": "距離 %2$sm 內有 %1$s 名玩家",
+  "ftbessentials.teleport_prevented": "傳送已被阻止！"
 }

@@ -1,3 +1,11 @@
 {
-  "sidebar_button.ftbessentials.trash_can": "Trash Can"
+  "sidebar_button.ftbessentials.trash_can": "Trash Can",
+  "ftbessentials.chat.status.start_record": "is now recording!",
+  "ftbessentials.chat.status.stop_record": "is no longer recording!",
+  "ftbessentials.chat.status.start_stream": "is now streaming!",
+  "ftbessentials.chat.status.stop_stream": "is no longer streaming!",
+  "ftbessentials.messages.kick_self": "You kicked yourself!",
+  "ftbessentials.feedback.limit_radius": "Limiting radius to %s",
+  "ftbessentials.feedback.players_within": "%s player(s) within %sm",
+  "ftbessentials.teleport_prevented": "Teleportation was prevented!"
 }
