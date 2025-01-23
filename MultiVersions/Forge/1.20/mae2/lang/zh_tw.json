@@ -1,0 +1,23 @@
+{
+    "block.mae2.4x_crafting_accelerator": "4x 協同處理合成單元",
+    "block.mae2.16x_crafting_accelerator": "16x 協同處理合成單元",
+    "block.mae2.64x_crafting_accelerator": "64x 協同處理合成單元",
+    "block.mae2.256x_crafting_accelerator": "256x 協同處理合成單元",
+    "gui.mae2.creative_tab": "應用能源 2｜現代內容擴充",
+    "gui.mae2.attunement.eu.item": "帶有 EU 能量的物品",
+    "gui.mae2.faulty.aoe": "範圍貼上：%1$sx%1$s",
+    "gui.mae2.faulty.radius": "%1$sx%1$s",
+    "gui.mae2.faulty.global": "全域貼上",
+    "gui.mae2.faulty.increment": "遞增",
+    "gui.mae2.faulty.decrement": "遞減",
+    "item.mae2.pattern_p2p_tunnel": "樣板 P2P 通道",
+    "item.mae2.eu_p2p_tunnel": "EU P2P 通道",
+    "item.mae2.eu_multi_p2p_tunnel": "EU P2P 多通道",
+    "item.mae2.pattern_multi_p2p_tunnel": "樣板 P2P 多通道",
+    "item.mae2.fe_multi_p2p_tunnel": "FE P2P 多通道",
+    "item.mae2.fluid_multi_p2p_tunnel": "流體 P2P 多通道",
+    "item.mae2.item_multi_p2p_tunnel": "物品 P2P 多通道",
+    "item.mae2.redstone_multi_p2p_tunnel": "紅石 P2P 多通道",
+    "item.mae2.faulty_card": "故障記憶卡",
+    "waila.mae2.P2POutputManyInputs": "已建立連結（輸出端） - %s 個輸入"
+}

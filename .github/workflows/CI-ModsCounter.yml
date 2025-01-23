@@ -38,12 +38,11 @@ jobs:
           CONTENT: "${{ steps.mods.outputs.number }}"
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
-          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           title: "docs(Readme): 更新模組數量"
           commit-message: "docs(Readme): 更新模組數量"
+          sign-commits: true
           branch: docs/mod-counter-readme
           labels: |
             📃 文件

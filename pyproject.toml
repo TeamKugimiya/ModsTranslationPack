@@ -8,9 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 mediafire-dl = {git = "https://github.com/Juvenal-Yescas/mediafire-dl"}
-aiohttp = "3.10.3"
-six = "1.16.0"
-pillow = "^10.0.1"
+aiohttp = "3.11.11"
+six = "1.17.0"
+pillow = "^11.0.0"
 loguru = "^0.7.2"
 
 [build-system]
