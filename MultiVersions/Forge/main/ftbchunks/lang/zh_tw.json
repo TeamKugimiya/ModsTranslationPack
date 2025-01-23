@@ -207,7 +207,7 @@
   "ftbchunks.location_mode_override": "覆寫隊伍的「位置可見度」",
   "ftbchunks.location_mode_override.tooltip": "若該選項設為「True」，隊伍的「位置可見度」設定將被忽略，\n所有玩家都能在地圖上看見彼此的頭像。",
   "ftbchunks.piston_protection": "活塞保護",
-  "ftbchunks.piston_protection.tooltip": "若該選項設為「True」，活塞可能無法推／拉不同隊伍領地上的方塊\n（除非方塊被推入／拉進「方塊編輯模式」設定為「Public」的領地）。\n若「停用領地保護」選項的設定為「True」，則此設定將被忽略。",
+  "ftbchunks.piston_protection.tooltip": "若該選項設為「True」，活塞可能無法推／拉不同隊伍領地上的方塊\n（除非方塊被推入／拉進「方塊編輯模式」設定為「公開」的領地）。\n若「停用領地保護」選項的設定為「True」，則此設定將被忽略。",
   "ftbchunks.fake_players.max_prevented_log_age": "「防止玩家模擬器存取」記錄檔的存留期",
   "ftbchunks.fake_players.max_prevented_log_age.tooltip": "「防止玩家模擬器存取」記錄檔的存留天數。\n備註：這是還未完全實施的功能；未來將用來顯示與控制，玩家模擬器在你領地中的存取紀錄。",
   "ftbchunks.claim_result": "區塊變動數：%d／%d",
