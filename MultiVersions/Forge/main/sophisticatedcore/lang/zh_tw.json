@@ -16,7 +16,7 @@
   "upgrade_group.sophisticatedcore.jukebox_upgrades": "唱片機升級",
   "gui.sophisticatedcore.settings.no_sort": "略過整理",
   "gui.sophisticatedcore.settings.no_sort.tooltip": "略過整理設定",
-  "gui.sophisticatedcore.settings.no_sort.tooltip_detail": "選擇整理時欲略過的欄位\n展開選項卡以調整欄位設定",
+  "gui.sophisticatedcore.settings.no_sort.tooltip_detail": "選擇整理時欲略過的欄位\n展開頁籤以調整欄位設定",
   "gui.sophisticatedcore.settings.no_sort.tooltip_open_detail": "選擇整理時欲略過的欄位\n選擇全部／解除選取全部 = 下方按鈕\n選擇欄位 = 左鍵／拖曳\n解除選擇欄位 = 右鍵／拖曳",
   "gui.sophisticatedcore.settings.memory": "記憶",
   "gui.sophisticatedcore.settings.memory.tooltip": "欄位記憶設定",
