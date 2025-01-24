@@ -87,5 +87,6 @@
 	"ftbteams.message.deleted_server_team": "已刪除伺服器隊伍「%s」！",
 	"ftbteams.message.team_disbanded": "已強制解散隊伍「%s」（%s）！",
 	"ftbteams.accept": "接受 ✔",
-	"ftbteams.decline": "拒絕 ✘"
+	"ftbteams.decline": "拒絕 ✘",
+	"ftbteams.click_show_info": "點擊顯示隊伍資訊"
 }
