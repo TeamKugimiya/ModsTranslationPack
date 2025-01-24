@@ -207,6 +207,8 @@
 	"ftbquests.quest.min_required_dependencies.tooltip": "若你將數值設為大於 0 的任何數，它將會變成「或」任務，該任務只要完成一定數量的前置任務就可解鎖",
 	"ftbquests.quest.visibility.hide_text_until_complete": "隱藏文字直到任務目標完成",
 	"ftbquests.quest.visibility.hide_text_until_complete.tooltip": "任務細項可被開啟，但描述文字會被隱藏，直到任務完成",
+	"ftbquests.quest.visibility.hide_lock_icon": "隱藏鎖定圖示",
+	"ftbquests.quest.visibility.hide_lock_icon.tooltip": "隱藏顯示在任務上的鎖定圖示\n這類任務通常因前置任務未完成而被鎖定",
 	"ftbquests.quest.misc.disable_jei": "停用 JEI 配方",
 	"ftbquests.quest.misc.optional": "可選任務",
 	"ftbquests.quest.locked": "已被鎖定：尚未完成前置任務",
