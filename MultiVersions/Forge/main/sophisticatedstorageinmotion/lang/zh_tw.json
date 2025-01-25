@@ -1,0 +1,9 @@
+{
+  "itemGroup.sophisticatedstorageinmotion": "精巧儲存：運輸載具",
+  "item.sophisticatedstorageinmotion.storage_minecart": "%s礦車",
+  "item.sophisticatedstorageinmotion.storage_boat": "%2$s%1$s船",
+  "item.sophisticatedstorageinmotion.storage_raft": "%2$s%1$s筏",
+  "entity.sophisticatedstorageinmotion.storage_minecart": "%s礦車",
+  "entity.sophisticatedstorageinmotion.storage_boat": "%2$s%1$s船",
+  "entity.sophisticatedstorageinmotion.storage_raft": "%2$s%1$s筏"
+}

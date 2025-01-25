@@ -1,0 +1,9 @@
+{
+  "itemGroup.sophisticatedstorageinmotion": "Sophisticated Storage In Motion",
+  "item.sophisticatedstorageinmotion.storage_minecart": "%s Minecart",
+  "item.sophisticatedstorageinmotion.storage_boat": "%s Boat with %s",
+  "item.sophisticatedstorageinmotion.storage_raft": "%s Raft with %s",
+  "entity.sophisticatedstorageinmotion.storage_minecart": "%s Minecart",
+  "entity.sophisticatedstorageinmotion.storage_boat": "%s Boat with %s",
+  "entity.sophisticatedstorageinmotion.storage_raft": "%s Raft with %s"
+}
