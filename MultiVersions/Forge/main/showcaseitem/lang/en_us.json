@@ -1,3 +1,5 @@
 {
-  "key.showcaseitem.showcaseitem": "Showcase Item"
+  "category.showcaseitem": "Showcase Item",
+  "key.showcaseitem.showcaseitem": "Showcase Item",
+  "showcaseitem.misc.shared_item": "%s shared an item: "
 }
