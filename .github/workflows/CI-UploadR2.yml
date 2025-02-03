@@ -52,5 +52,5 @@ jobs:
           aws_secret_access_key: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
           aws_s3_endpoint: ${{ secrets.CLOUDFLARE_R2_ENDPOINT }}
           source_dir: "pr/${{ env.PR_NUM }}"
-          dest_dir: "pr/${{ env.PR_NUM }}/"
+          dest_dir: "modstranslationpack/pr/${{ env.PR_NUM }}/"
           aws_command: "sync"
