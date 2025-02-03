@@ -82,7 +82,7 @@ jobs:
         run: |
           wget ${{ secrets.OVERRIDE_CACHE_URL }}
 
-      - name: Extract cache
+      - name: Extract cache archive
         if: github.event_name != 'pull_request'
         run: |
           unzip override.zip || true
