@@ -24,6 +24,8 @@ on:
         required: true
       AWS_S3_ENDPOINT:
         required: true
+      OVERRIDE_CACHE_URL:
+        required: true
 
 jobs:
   image-resizer:
