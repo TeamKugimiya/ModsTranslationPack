@@ -47,5 +47,10 @@
   "tooltip.titanium.redstone.redstone": "紅石模式：接收到紅石訊號時運作",
   "tooltip.titanium.redstone.once": "紅石模式：接收到脈衝訊號時運作",
   "tooltip.titanium.unlocks": "欄位解鎖：",
-  "tooltip.titanium.locks": "欄位鎖定："
+  "tooltip.titanium.locks": "欄位鎖定：",
+  "tooltip.titanium.power": "能量：",
+  "tooltip.titanium.eta": "處理進度：",
+  "tooltip.titanium.sec_short": "秒",
+  "tooltip.titanium.hold_moreinfo": "按住 %s 取得更多資訊",
+  "tooltip.titanium.energy": "能量："
 }

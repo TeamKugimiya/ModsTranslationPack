@@ -46,5 +46,10 @@
   "tooltip.titanium.redstone.redstone": "Redstone Mode: Run with redstone signal",
   "tooltip.titanium.redstone.once": "Redstone Mode: Run on Pulse",
   "tooltip.titanium.unlocks": "Unlocks:",
-  "tooltip.titanium.locks": "Locks:"
+  "tooltip.titanium.locks": "Locks:",
+  "tooltip.titanium.power": "Power:",
+  "tooltip.titanium.eta": "ETA: ",
+  "tooltip.titanium.sec_short": "s",
+  "tooltip.titanium.hold_moreinfo": "Hold %s for more information",
+  "tooltip.titanium.energy": "Energy: "
 }
