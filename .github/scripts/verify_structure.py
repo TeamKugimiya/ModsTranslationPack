@@ -125,6 +125,8 @@ def verify_structure(path):
             validate_manual(subdir)
         elif subdir_name == "ae2guide":
             pass
+        elif subdir_name == "guides":
+            pass
         else:
             log_message("🚧 結構｜資料夾下存在未被設定的結構。", subdir, "ERROR")
 
