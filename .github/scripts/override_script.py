@@ -1,4 +1,3 @@
-import mediafire_dl
 import tempfile
 import os
 import zipfile
@@ -10,8 +9,20 @@ import subprocess
 import aiohttp
 import asyncio
 from pathlib import Path
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
-### Utils (?) ###
+
+def get_mediafile_link(url) -> str:
+    driver = webdriver.Chrome()
+    driver.get(url)
+    try:
+        download_button = driver.find_element(By.ID, "downloadButton")
+        download_url = download_button.get_attribute("href")
+        return download_url
+    finally:
+        driver.quit()
+
 
 ## Load JSON
 def loadJsonFile(filePath: str):
@@ -57,7 +68,8 @@ def downloadFile(url: str, filePath, gitBranch: str =None):
         url.startswith("https://raw.githubusercontent.com/"):
         urllib.request.urlretrieve(url, filePath)
     elif url.startswith("https://www.mediafire.com/"):
-        mediafire_dl.download(url, filePath, quiet=True)
+        link = get_mediafile_link(url)
+        urllib.request.urlretrieve(link, filePath)
     else:
         print("⚠️ 錯誤，無法自我找到正確的下載方式")
         sys.exit(1)
@@ -322,7 +334,7 @@ def process_mods_list(mods_dict: dict):
 # Execute
 def main(json_file_path):
     mods_list = loadJsonFile(json_file_path)
-    asyncio.run(verifyURL(True, mods_list))
+    # asyncio.run(verifyURL(True, mods_list))
     process_mods_list(mods_list)
 
 if __name__ == "__main__":

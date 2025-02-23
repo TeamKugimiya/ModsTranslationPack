@@ -45,13 +45,13 @@
             "modName": "Macaw's Fences and Wall",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://www.mediafire.com/file/18c97py5agr0g5j/mcw-fences-1.0.7-mc1.19.3forge-tw.jar"
+            "url": "https://www.mediafire.com/file/pdsg4wvhd3kmu2q/mcw-fences-1.1.2-mc1.21.1neoforge-tw.jar"
         },
         {
             "modName": "Macaw's Bridges",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://www.mediafire.com/file/f508an5jjm6m4u1/mcw-bridges-2.0.6-mc1.19.3forge-tw.jar"
+            "url": "https://www.mediafire.com/file/modonqilm7j19m0/mcw-bridges-3.0.0-mc1.21.1neoforge-tw.jar"
         },
         {
             "modName": "Macaw's Trapdoors",
@@ -63,19 +63,19 @@
             "modName": "Macaw's Doors",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://www.mediafire.com/file/l2w28giuz21xi7u/mcw-doors-1.0.8forge-mc1.19.3-tw.jar"
+            "url": "https://www.mediafire.com/file/1xgp7vjg6x6yubd/mcw-doors-1.1.1-mc1.21.1neoforge-tw.jar"
         },
         {
             "modName": "Macaw's Roofs",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://www.mediafire.com/file/qbihy542fkdcug9/mcw-roofs-2.2.2-mc1.19.2forge-tw.jar"
+            "url": "https://www.mediafire.com/file/o8i7s8ty8bn2js0/mcw-roofs-2.2.2-mc1.19.3forge-tw.jar"
         },
         {
             "modName": "Macaw's Furniture",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://www.mediafire.com/file/zjeupxm0chjraj5/mcw-furniture-3.1.0-mc1.19.3forge-tw.jar"
+            "url": "https://www.mediafire.com/file/17wb040irntf1e1/mcw-furniture-3.3.0-mc1.21.1neoforge-tw.jar"
         },
         {
             "modName": "Macaw's Windows",
@@ -106,20 +106,20 @@
             "modName": "Cooking for Blockheads",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://www.mediafire.com/file/keqypbarfysftgt/cookingforblockheads-forge-1.20-16.0.0-tw.jar"
+            "url": "https://www.mediafire.com/file/6yfbo3yqr3t8htt/cookingforblockheads-neoforge-1.21.3-21.3.1-tw.jar"
         },
         {
             "modName": "Xaero's World Map",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://www.mediafire.com/file/6ynqlpavjya9azg/XaerosWorldMap_1.38.8_Forge_1.21-tw.jar"
+            "url": "https://www.mediafire.com/file/wq8nsnmkk0tf5du/XaerosWorldMap_1.39.3_Forge_1.21.4-tw.jar"
         },
         {
             "modName": "Xaero's Minimap",
             "modLoader": "Forge",
             "modVersion": "main",
             "forceOverrideID": "xaerominimap",
-            "url": "https://www.mediafire.com/file/rw4obszdxggg3rz/Xaeros_Minimap_24.2.1_Forge_1.21-tw.jar"
+            "url": "https://www.mediafire.com/file/a5u5axywm0zntp2/Xaeros_Minimap_25.0.1_Forge_1.21.4-tw.jar"
         },
         {
             "modName": "The Twilight Forest",
@@ -155,7 +155,7 @@
             "modName": "JourneyMap",
             "modLoader": "Forge",
             "modVersion": "main",
-            "url": "https://www.mediafire.com/file/2msoey0mmlz8d4k/journeymap-1.20.4-5.9.20-forge-tw.jar"
+            "url": "https://www.mediafire.com/file/8w6g3w7wbzci12j/journeymap-forge-1.21.4-6.0.0-beta.32-tw.jar"
         },
         {
             "modName": "Fairy Lights",
