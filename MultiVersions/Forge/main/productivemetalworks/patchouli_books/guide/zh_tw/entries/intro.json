@@ -1,0 +1,71 @@
+{
+  "category": "productivemetalworks:intro",
+  "icon": "productivemetalworks:black_foundry_controller",
+  "name": "鑄造爐",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "歡迎遊玩《Productive Metalworks》模組。這是一款靈感來自《Tinker's Construct》冶煉爐的模組。但你會發現一些不同之處，以及許多相似之處。請注意，此模組不是一款用於打造工具的模組，它只提供鑄造爐。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "要開始搭建鑄造爐，你需要透過熔煉耐火黏土，來獲得一些耐火磚。你將從製作黑色耐火磚開始，這是磚頭的基礎顏色，你可以藉由染色來獲得不同顏色的磚頭。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你需要以下方塊來搭建你的鑄造爐：$(br)* 鑄造爐控制器$(br)* 鑄造爐燃料罐$(br)* 液體加熱線圈$(br)* 鑄造爐排液口$(br)* 耐火磚或鑄造爐玻璃$(br)* 鑄造盆或鑄造桌"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "A": "productivemetalworks:casting_table",
+          "B": "productivemetalworks:liquid_heating_coil[attached=true]",
+          "C": "productivemetalworks:black_foundry_controller[facing=east,attached=true]",
+          "D": "productivemetalworks:black_foundry_drain[facing=east]",
+          "P": "productivemetalworks:foundry_tap[facing=south]",
+          "Q": "productivemetalworks:foundry_tap[facing=east]",
+          "S": "productivemetalworks:casting_basin",
+          "T": "productivemetalworks:black_foundry_tank[facing=east]",
+          "W": "productivemetalworks:black_fire_bricks"
+        },
+        "pattern": [
+          [
+            " WWW ",
+            "W   W",
+            "W   W",
+            "W   W",
+            " WWW ",
+            "     "
+          ],
+          [
+            " WWW ",
+            "W   W",
+            "W 0 W",
+            "W   W",
+            " TCDP",
+            "   Q "
+          ],
+          [
+            "     ",
+            " BBB ",
+            " BBB ",
+            " BBB ",
+            "    A",
+            "   S "
+          ]
+        ]
+      },
+      "multiblock_id": "foundry",
+      "name": "3x3 鑄造爐"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "有個很大的區別，是你需要在鑄造爐結構的底部，擺放液體加熱線圈。這些線圈使你能夠真正為鑄造爐加熱。鑄造爐結構的角落，是否要擺放方塊是完全可選的。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)預設情況下，鑄造爐將以 1.3 倍的速度熔煉原礦，熔化速度由使用的燃料決定。"
+    }
+  ]
+}
