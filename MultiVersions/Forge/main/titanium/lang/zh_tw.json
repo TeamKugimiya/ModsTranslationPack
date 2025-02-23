@@ -22,7 +22,7 @@
   "tooltip.titanium.facing_handler.real_output": "輸出",
   "tooltip.titanium.facing_handler.fluid_input": "手動輸入流體",
   "tooltip.titanium.facing_handler.fluid": "流體儲罐",
-  "tooltip.titanium.progressbar.progress": "進度：",
+  "tooltip.titanium.progressbar.progress": "處理進度：",
   "tooltip.titanium.tank.fluid": "流體：",
   "tooltip.titanium.tank.empty": "空",
   "tooltip.titanium.tank.amount": "數量：",
@@ -49,8 +49,8 @@
   "tooltip.titanium.unlocks": "欄位解鎖：",
   "tooltip.titanium.locks": "欄位鎖定：",
   "tooltip.titanium.power": "能量：",
-  "tooltip.titanium.eta": "處理進度：",
-  "tooltip.titanium.sec_short": "秒",
+  "tooltip.titanium.eta": "預計完成時間：",
+  "tooltip.titanium.sec_short": " 秒",
   "tooltip.titanium.hold_moreinfo": "按住 %s 取得更多資訊",
   "tooltip.titanium.energy": "能量："
 }
