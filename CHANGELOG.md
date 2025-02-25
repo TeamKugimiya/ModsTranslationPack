@@ -1,5 +1,85 @@
 # Changelog
 
+## [1.8.2](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.1...v1.8.2) (2025-02-25)
+
+
+### 🔧 修正錯誤
+
+* **deps:** update dependency aiohttp to v3.11.11 ([#763](https://github.com/TeamKugimiya/ModsTranslationPack/issues/763)) ([ae706cb](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ae706cb4b0ee00910a8774f6b836b6180f2f78b6))
+* **deps:** update dependency aiohttp to v3.11.12 ([#791](https://github.com/TeamKugimiya/ModsTranslationPack/issues/791)) ([2e06327](https://github.com/TeamKugimiya/ModsTranslationPack/commit/2e06327386874fd456a433eacc89ef132c929c5f))
+* **deps:** update dependency aiohttp to v3.11.13 ([#804](https://github.com/TeamKugimiya/ModsTranslationPack/issues/804)) ([10334c6](https://github.com/TeamKugimiya/ModsTranslationPack/commit/10334c6f414b35fb139b8acab674221bba179623))
+* **deps:** update dependency loguru to v0.7.3 ([#760](https://github.com/TeamKugimiya/ModsTranslationPack/issues/760)) ([f0654cb](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f0654cb7aee1e5adf31d491ea618f27edd7fd25b))
+* **deps:** update dependency pillow to v11 ([#768](https://github.com/TeamKugimiya/ModsTranslationPack/issues/768)) ([230beb5](https://github.com/TeamKugimiya/ModsTranslationPack/commit/230beb5b62b76e1c6601d6aafa3d3391535322e4))
+* **deps:** update dependency six to v1.17.0 ([#764](https://github.com/TeamKugimiya/ModsTranslationPack/issues/764)) ([bdee100](https://github.com/TeamKugimiya/ModsTranslationPack/commit/bdee10058bdbd5d0ee012902ec594bd1f7eb5a6c))
+
+
+### 🧹 整理專案
+
+* **deps:** update abatilo/actions-poetry action to v4 ([#765](https://github.com/TeamKugimiya/ModsTranslationPack/issues/765)) ([38dc727](https://github.com/TeamKugimiya/ModsTranslationPack/commit/38dc72738aa378d803b58fa4d936f3410a66b74e))
+* **deps:** update dawidd6/action-download-artifact action to v7 ([#766](https://github.com/TeamKugimiya/ModsTranslationPack/issues/766)) ([37196be](https://github.com/TeamKugimiya/ModsTranslationPack/commit/37196bee6b5e49844bdb3cd3e1b665d4405f91ca))
+* **deps:** update dawidd6/action-download-artifact action to v8 ([#777](https://github.com/TeamKugimiya/ModsTranslationPack/issues/777)) ([ca092d0](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ca092d074390171640560bf157b1647081fa3470))
+* **deps:** update peter-evans/create-pull-request action to v7 ([#767](https://github.com/TeamKugimiya/ModsTranslationPack/issues/767)) ([b11b436](https://github.com/TeamKugimiya/ModsTranslationPack/commit/b11b436d2f6701487d1cdd09bb0a6e5bae21b308))
+* **deps:** update taskmedia/action-conventional-commits action to v1.1.19 ([#758](https://github.com/TeamKugimiya/ModsTranslationPack/issues/758)) ([9012535](https://github.com/TeamKugimiya/ModsTranslationPack/commit/9012535f116764f44b531d0c977099eac37e7c9b))
+* **deps:** update taskmedia/action-conventional-commits action to v1.1.20 ([#787](https://github.com/TeamKugimiya/ModsTranslationPack/issues/787)) ([c08a83e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/c08a83e652ed0b74e749ef7db76608b7ab2d39b7))
+* 新增 1.21.4 支援 ([#757](https://github.com/TeamKugimiya/ModsTranslationPack/issues/757)) ([f2a25e8](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f2a25e882dedd026d31f690c911bd9866ad35f34))
+
+
+### ☁️ 工作流程
+
+* **Create PR:** Use sign commit ([#771](https://github.com/TeamKugimiya/ModsTranslationPack/issues/771)) ([6fe5bc6](https://github.com/TeamKugimiya/ModsTranslationPack/commit/6fe5bc6409e7e37ca535be9f6187eeba15d30164))
+* **MultiVersions:** 新增新指南複製路徑 ([#796](https://github.com/TeamKugimiya/ModsTranslationPack/issues/796)) ([d51be50](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d51be5098b9af1b21174172f03ced1e35f3708d8))
+* **Override:** 更新覆蓋 ([#802](https://github.com/TeamKugimiya/ModsTranslationPack/issues/802)) ([d45c58e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d45c58e0bff6b13cc1da41832859ecf5ff74bc1b))
+* **Poetry:** Install old version ([#754](https://github.com/TeamKugimiya/ModsTranslationPack/issues/754)) ([b277310](https://github.com/TeamKugimiya/ModsTranslationPack/commit/b27731092027940b878c3146133c4c1bf40dd2a3))
+* **VerifyStructure:** 新增例外資料結構 ([#795](https://github.com/TeamKugimiya/ModsTranslationPack/issues/795)) ([ad065fb](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ad065fb2dcff7400b620775e547133f51bcd5559))
+* 修正發布問題 ([#792](https://github.com/TeamKugimiya/ModsTranslationPack/issues/792)) ([6132239](https://github.com/TeamKugimiya/ModsTranslationPack/commit/6132239f7f53f2888223ca918e7576e38625ccaa))
+* 更新 Python 與修改 cache ([#790](https://github.com/TeamKugimiya/ModsTranslationPack/issues/790)) ([42f18f6](https://github.com/TeamKugimiya/ModsTranslationPack/commit/42f18f6b2a32ea1bf74f708d3a798c85cd2f9dc5))
+* 更新 r2 連結 ([#789](https://github.com/TeamKugimiya/ModsTranslationPack/issues/789)) ([3e81085](https://github.com/TeamKugimiya/ModsTranslationPack/commit/3e8108534e0cdf0bce01b42954c30f50ad5dfcdf))
+
+
+### 📑 文件更新
+
+* **Readme:** 更新模組數量 ([#772](https://github.com/TeamKugimiya/ModsTranslationPack/issues/772)) ([395ff5b](https://github.com/TeamKugimiya/ModsTranslationPack/commit/395ff5b2e49c7042af27e62981602898710e0df1))
+* **Readme:** 更新模組數量 ([#780](https://github.com/TeamKugimiya/ModsTranslationPack/issues/780)) ([90eef23](https://github.com/TeamKugimiya/ModsTranslationPack/commit/90eef23ca7a022bc72590e9a78fed6a95aaadaa4))
+* **Readme:** 更新模組數量 ([#803](https://github.com/TeamKugimiya/ModsTranslationPack/issues/803)) ([3f1a16a](https://github.com/TeamKugimiya/ModsTranslationPack/commit/3f1a16ad1266d1461cee0a613192c14612065a45))
+* **Readme:** 更新貢獻者清單 ([#755](https://github.com/TeamKugimiya/ModsTranslationPack/issues/755)) ([93056b9](https://github.com/TeamKugimiya/ModsTranslationPack/commit/93056b943d10c2e56ba4c4d577631c74f7a3e74f))
+
+
+### ⚡ 新增模組翻譯
+
+* **Modern AE2 Additions:** 新增應用能源 2｜現代內容擴充 ([#770](https://github.com/TeamKugimiya/ModsTranslationPack/issues/770)) ([43dc995](https://github.com/TeamKugimiya/ModsTranslationPack/commit/43dc99562ef854c246e2fbe9464ca7b2dbbe4b8e))
+* **Productive Metalworks:** 新增生產金屬加工 v1.2.1 ([#793](https://github.com/TeamKugimiya/ModsTranslationPack/issues/793)) ([0523327](https://github.com/TeamKugimiya/ModsTranslationPack/commit/05233275bde0474bdc245fdc4f2ad7244de61d5d))
+* **Replication:** 新增複製科技 v1.1.15 ([#794](https://github.com/TeamKugimiya/ModsTranslationPack/issues/794)) ([42380a2](https://github.com/TeamKugimiya/ModsTranslationPack/commit/42380a2cb566d36c8c3ba49fbc90103403805351))
+* **Solar Flux Reborn:** 新增 日光通量：重製版 v20.1.6 ([#762](https://github.com/TeamKugimiya/ModsTranslationPack/issues/762)) ([37a8d01](https://github.com/TeamKugimiya/ModsTranslationPack/commit/37a8d0127ce625e06f59472908d89fb6f653de57))
+
+
+### 🐌 更新模組翻譯
+
+* **Creeper Overhaul:** 更新翻譯至 v4.0.6 ([#799](https://github.com/TeamKugimiya/ModsTranslationPack/issues/799)) ([60bd26a](https://github.com/TeamKugimiya/ModsTranslationPack/commit/60bd26a4f26f7c499cd840acb902f48821ca9dcb))
+* **EMI:** 更新至 v1.1.19 ([#778](https://github.com/TeamKugimiya/ModsTranslationPack/issues/778)) ([3f9b451](https://github.com/TeamKugimiya/ModsTranslationPack/commit/3f9b451e3fced212e0d77aa8aadf36e4e38fbc99))
+* **Ender IO:** 更新至 v6.2.7 ([#753](https://github.com/TeamKugimiya/ModsTranslationPack/issues/753)) ([43ffb4a](https://github.com/TeamKugimiya/ModsTranslationPack/commit/43ffb4a154675988b67985d632f1fb2aae27a4b6))
+* **ExtendedAE:** 更新至 v1.3.2 ([#759](https://github.com/TeamKugimiya/ModsTranslationPack/issues/759)) ([3c9a3c4](https://github.com/TeamKugimiya/ModsTranslationPack/commit/3c9a3c489eabd747b93724d6201ea5cb886f857c))
+* **FTB Chunks:** 更新至 v2001.3.4 ([#774](https://github.com/TeamKugimiya/ModsTranslationPack/issues/774)) ([0bb7cfe](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0bb7cfefc8a22d3784663f9105ff7fa7937fd109))
+* **FTB Chunks:** 更新至 v2101.1.6 ([#783](https://github.com/TeamKugimiya/ModsTranslationPack/issues/783)) ([ff94209](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ff9420903646a40b591d10c9ac08494658425d7a))
+* **FTB Essentials:** 更新至 v2101.1.4 ([#785](https://github.com/TeamKugimiya/ModsTranslationPack/issues/785)) ([daa52ca](https://github.com/TeamKugimiya/ModsTranslationPack/commit/daa52ca2cd75fecffa24d790075bc1b8e66c963e))
+* **FTB Library:** 更新至 v2001.2.7 ([#773](https://github.com/TeamKugimiya/ModsTranslationPack/issues/773)) ([f5acd5f](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f5acd5f177002a92d5fa6922999bb04a6fb2283c))
+* **FTB Library:** 更新至 v2101.1.7 ([#781](https://github.com/TeamKugimiya/ModsTranslationPack/issues/781)) ([ba867bb](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ba867bbd7b7e0ca656dca4d3fe195aff521e7d3f))
+* **FTB Quests:** 更新至 v2001.4.9 ([#775](https://github.com/TeamKugimiya/ModsTranslationPack/issues/775)) ([d2dd411](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d2dd411c49706d502cfe141fcdb8ffaeb478914c))
+* **FTB Quests:** 更新至 v2101.1.3 ([#782](https://github.com/TeamKugimiya/ModsTranslationPack/issues/782)) ([9b13229](https://github.com/TeamKugimiya/ModsTranslationPack/commit/9b13229d72ccce8ecd1b2563824f41a6b504a2ec))
+* **FTB Teams:** 更新至 v2101.1.2 ([#786](https://github.com/TeamKugimiya/ModsTranslationPack/issues/786)) ([7068b0b](https://github.com/TeamKugimiya/ModsTranslationPack/commit/7068b0b43a54515e9f1f5de8404cbcef03fb52c4))
+* **FTB Ultimine:** 更新至 v2101.1.1 ([#784](https://github.com/TeamKugimiya/ModsTranslationPack/issues/784)) ([fa175ac](https://github.com/TeamKugimiya/ModsTranslationPack/commit/fa175ac6a4b320c520720dac73590b5e0d641548))
+* **Functional Storage:** 更新翻譯至 v1.4.2 ([#801](https://github.com/TeamKugimiya/ModsTranslationPack/issues/801)) ([4e4a20b](https://github.com/TeamKugimiya/ModsTranslationPack/commit/4e4a20b479b33ad4daf1bbaad88ef9ca77f1886f))
+* **Iron Jetpacks:** 更新至 v7.0.8 ([#776](https://github.com/TeamKugimiya/ModsTranslationPack/issues/776)) ([704f6c5](https://github.com/TeamKugimiya/ModsTranslationPack/commit/704f6c5de730d9329d7ecc7842a7df7ade604fc5))
+* **Oh The Biomes We've Gone:** 更新翻譯至 v2.3.6 ([#797](https://github.com/TeamKugimiya/ModsTranslationPack/issues/797)) ([2ff1071](https://github.com/TeamKugimiya/ModsTranslationPack/commit/2ff107160988b1cd6ad60fcf8298237dc9c13f9b))
+* **Re: Deco:** 更新翻譯至 v1.14.1 ([#798](https://github.com/TeamKugimiya/ModsTranslationPack/issues/798)) ([0b6c0a9](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0b6c0a9998c12ab35f95716c78de8b5dfb782d75))
+* **Showcase Item:** 更新至 v1.0.1 ([#788](https://github.com/TeamKugimiya/ModsTranslationPack/issues/788)) ([dba875d](https://github.com/TeamKugimiya/ModsTranslationPack/commit/dba875d9e98c2d4101a784cff20a2558d49b9217))
+* **Sophisticated Series:** 更新精巧系列全家桶 ([#779](https://github.com/TeamKugimiya/ModsTranslationPack/issues/779)) ([7a11a4d](https://github.com/TeamKugimiya/ModsTranslationPack/commit/7a11a4d50e5b4f180ee28eb643f0ab8069c48e5e))
+* **Titanium:** 更新翻譯至 v4.0.34 ([#800](https://github.com/TeamKugimiya/ModsTranslationPack/issues/800)) ([7208a7f](https://github.com/TeamKugimiya/ModsTranslationPack/commit/7208a7f5d80f196a15df8c8e2efd0068a8c1a673))
+
+
+### 🐛 修正模組翻譯錯誤
+
+* **Applied Energistics 2:** 修正光源 P2P 通道譯名 ([#769](https://github.com/TeamKugimiya/ModsTranslationPack/issues/769)) ([9e4bee1](https://github.com/TeamKugimiya/ModsTranslationPack/commit/9e4bee1f021a7841eed31fe4cf28f1f16268e7b8))
+
 ## [1.8.1](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.0...v1.8.1) (2024-08-31)
 
 
