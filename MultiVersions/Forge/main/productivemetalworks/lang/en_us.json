@@ -129,6 +129,8 @@
   "block.productivemetalworks.yellow_foundry_tank": "Yellow Foundry Tank",
   "block.productivemetalworks.yellow_foundry_window": "Yellow Foundry Window",
   "block.productivemetalworksfoundry_tank.fluid_tooltip": "Contains %smb %s",
+  "book.productivemetalworks.landing_text": "A shallow look into the world of metalworking.$(br2)Put on your gloves 'cause it's gonna get hot.",
+  "book.productivemetalworks.name": "Big Book of Metallurgy",
   "fluid_type.productivemetalworks.meat": "Meat",
   "fluid_type.productivemetalworks.molten_aluminum": "Molten Aluminum",
   "fluid_type.productivemetalworks.molten_amethyst": "Molten Amethyst",

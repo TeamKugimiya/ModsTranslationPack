@@ -129,6 +129,8 @@
   "block.productivemetalworks.yellow_foundry_tank": "黃色鑄造爐燃料罐",
   "block.productivemetalworks.yellow_foundry_window": "黃色鑄造爐玻璃",
   "block.productivemetalworksfoundry_tank.fluid_tooltip": "包含 %smB 的%s",
+  "book.productivemetalworks.landing_text": "對金屬加工世界的淺顯介紹。$(br2)戴上你的手套，因為接下來會很火燙。",
+  "book.productivemetalworks.name": "冶金大全",
   "fluid_type.productivemetalworks.meat": "肉湯",
   "fluid_type.productivemetalworks.molten_aluminum": "熔融鋁",
   "fluid_type.productivemetalworks.molten_amethyst": "熔融紫水晶",
