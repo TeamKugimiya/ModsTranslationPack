@@ -17,8 +17,8 @@
 <h3>一個包含了各式各樣的模組翻譯的資源包～</h3>
 <h3>目前已收錄 <code><!-- MODS_NUMBER_CI_START -->556<!-- MODS_NUMBER_CI_END --></code> 款模組</h3>
 
-<h3>本專案因團隊人員現實因素，暫無法繼續維護，願未來有機會繼續更新。</h3>
-<h3>若想繼續幫助翻譯更多模組，可查看 <a href="https://modrinth.com/resourcepack/paratranslationpack">Para 翻譯包</a></h3>
+<h3>有需要更簡單的翻譯方式，不透過 Git 版本控制</h3>
+<h3>可查看我們的社群版 <a href="https://modrinth.com/resourcepack/paratranslationpack">Para 翻譯包</a></h3>
 
 </div>
 
