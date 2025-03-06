@@ -66,7 +66,7 @@ jobs:
             }
             let body = `## ☁️ 合併請求測試翻譯包\n\n此為本合併請求的測試用翻譯包，可以直接下載並安裝資源包！\n`;
             for (const art of artifacts) {
-              body += `\n* [${art.name}.zip](https://teamkugimiya-r2.efina.eu.org/modstranslationpack/pr/${{ env.PR_NUM }}/${art.name}.zip)`;
+              body += `\n* [${art.name}.zip](https://gh-r2.teamkugimiya.org/modstranslationpack/pr/${{ env.PR_NUM }}/${art.name}.zip)`;
             }
             body += `\n\n<details>\n  <summary>備用下載點</summary>\n\n這是 GitHub 的成品，由於 GitHub 的限制關係，下載下方的 Zip 必須解壓縮，將內部的測試用翻譯包拿出來。\n`;
             for (const art of artifacts) {
