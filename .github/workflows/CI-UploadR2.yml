@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Setup s3cmd
-        uses: s3-actions/s3cmd@v1.9.0
+        uses: s3-actions/s3cmd@v1.10.0
         with:
           provider: cloudflare
           account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
