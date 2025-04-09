@@ -98,7 +98,11 @@
 	"item.vanillacookbook.cooked_sniffer_egg": "烤嗅探獸蛋",
 	"item.vanillacookbook.pitcher_praline": "瓶子草果仁糖",
 	"item.vanillacookbook.cherry_blossom_tea": "櫻花花茶",
+	"item.vanillacookbook.sweet_skewer": "甜果串",
+	"item.vanillacookbook.sculky_cheese": "伏聆乳酪",
+
 	"item.vanillacookbook.the_sludge": "「淤泥」",
+
 	"item.vanillacookbook.pizza": "披薩",
 	"item.vanillacookbook.berry_cake_slice": "甜莓蛋糕片",
 	"item.vanillacookbook.book_cake_slice": "食譜蛋糕片",
@@ -110,10 +114,13 @@
 	"item.vanillacookbook.mohnkuchen_slice": "罌粟籽蛋糕片",
 	"item.vanillacookbook.rose_cake_slice": "玫瑰蛋糕片",
 	"item.vanillacookbook.glow_berry_cake_slice": "螢光莓蛋糕片",
+
 	"item.vanillacookbook.rose_rock_candy": "玫瑰冰糖",
 	"item.vanillacookbook.polished_rose_rock_candy": "拋光玫瑰冰糖",
+
 	"item.vanillacookbook.mana_roll": "瑪納瑞士捲",
 	"item.vanillacookbook.tater_puffs": "炸薯球",
+
 	"block.vanillacookbook.berry_cake": "甜莓蛋糕",
 	"block.vanillacookbook.carrot_cake": "胡蘿蔔蛋糕",
 	"block.vanillacookbook.cheesecake": "乳酪蛋糕",
@@ -126,6 +133,7 @@
 	"block.vanillacookbook.glow_berry_cake": "螢光莓蛋糕",
 	"block.vanillacookbook.pancake_stack": "鬆餅堆",
 	"block.vanillacookbook.brownie_tray": "方格布朗尼",
+
 	"vanillacookbook.tooltip.cheese": "解除所有狀態效果",
 	"vanillacookbook.tooltip.golden_fruit_salad": "治療 2 顆心",
 	"vanillacookbook.tooltip.ice_cream": "冰涼止火",
@@ -136,7 +144,7 @@
 	"vanillacookbook.tooltip.snow_horn": "冰涼止火",
 	"vanillacookbook.tooltip.potato_chips": "50% 機率解除飢餓效果",
 	"vanillacookbook.tooltip.hot_potato_chips": "50% 機率解除飢餓效果",
-	"vanillacookbook.tooltip.beetroot_chips": "50% 機率解除飢餓效果",
+	"vanillacookbook.tooltip.beet_chips": "50% 機率解除飢餓效果",
 	"vanillacookbook.tooltip.apple_chips": "50% 機率解除飢餓效果",
 	"vanillacookbook.tooltip.honey_candy": "30% 機率解除飢餓效果",
 	"vanillacookbook.tooltip.berry_candy": "30% 機率解除飢餓效果",
@@ -148,15 +156,19 @@
 	"vanillacookbook.tooltip.chocolate_milk": "解除所有狀態效果",
 	"vanillacookbook.tooltip.berry_milk": "解除所有狀態效果",
 	"vanillacookbook.tooltip.cheesecake_slice": "解除所有狀態效果",
+	"vanillacookbook.tooltip.sculky_cheese": "解除所有狀態效果 & 每擁有 6 級經驗等級，額外恢復 1 點飢餓值和 2 點飽食度",
 	"vanillacookbook.tooltip.rose_rock_candy": "解除劇毒效果",
 	"vanillacookbook.tooltip.polished_rose_rock_candy": "解除劇毒效果",
 	"vanillacookbook.tooltip.mana_roll": "解除所有狀態效果",
 	"vanillacookbook.tooltip.tater_puffs": "50% 機率治療 1 顆心",
+	"vanillacookbook.tooltip.the_sludge": "清除所有飢餓值及飽食度",
+
 	"advancements.more_balanced_diet.title": "絕對均衡飲食",
 	"advancements.more_balanced_diet.description": "再次吃遍所有可以食用的東西！",
 	"advancements.cake.title": "智慧之食",
-	"advancements.cake.description": "合成一本食譜蛋糕，感謝你使用《Vanilla Cookbook》！",
+	"advancements.cake.description": "合成一本食譜蛋糕，感謝你使用《原版烹飪食譜》！",
 	"advancements.easter_egg.title": "復活節彩蛋！",
 	"advancements.easter_egg.description": "你找到了一顆復活節彩蛋...如假包換！",
+
 	"itemGroup.vanillacookbook": "原版烹飪食譜"
 }

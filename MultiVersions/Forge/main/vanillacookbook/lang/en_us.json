@@ -98,6 +98,8 @@
 	"item.vanillacookbook.cooked_sniffer_egg": "Cooked Sniffer Egg",
 	"item.vanillacookbook.pitcher_praline": "Pitcher Praline",
 	"item.vanillacookbook.cherry_blossom_tea": "Cherry Blossom Tea",
+	"item.vanillacookbook.sweet_skewer": "Sweet Skewer",
+	"item.vanillacookbook.sculky_cheese": "Sculky Cheese",
 	
 	"item.vanillacookbook.the_sludge": "The Sludge",
 	
@@ -142,7 +144,7 @@
 	"vanillacookbook.tooltip.snow_horn": "Extinguishes Burns",
 	"vanillacookbook.tooltip.potato_chips": "50% Chance to Clear Hunger",
 	"vanillacookbook.tooltip.hot_potato_chips": "50% Chance to Clear Hunger",
-	"vanillacookbook.tooltip.beetroot_chips": "50% Chance to Clear Hunger",
+	"vanillacookbook.tooltip.beet_chips": "50% Chance to Clear Hunger",
 	"vanillacookbook.tooltip.apple_chips": "50% Chance to Clear Hunger",
 	"vanillacookbook.tooltip.honey_candy": "30% Chance to Clear Hunger",
 	"vanillacookbook.tooltip.berry_candy": "30% Chance to Clear Hunger",
@@ -150,6 +152,7 @@
 	"vanillacookbook.tooltip.chocolate": "30% Chance to Clear Hunger",
 	"vanillacookbook.tooltip.pitcher_praline": "Clears Mining Fatigue",
 	"vanillacookbook.tooltip.stuffed_sea_pickle": "Clears All Effects",
+	"vanillacookbook.tooltip.sculky_cheese": "Clears All Effects & Restores 1 Hunger and 2 Saturation More Every 6 XP Levels",
 	"vanillacookbook.tooltip.milk_bottle": "Clears All Effects",
 	"vanillacookbook.tooltip.chocolate_milk": "Clears All Effects",
 	"vanillacookbook.tooltip.berry_milk": "Clears All Effects",
@@ -158,6 +161,7 @@
 	"vanillacookbook.tooltip.polished_rose_rock_candy": "Clears Poison",
 	"vanillacookbook.tooltip.mana_roll": "Clears All Effects",
 	"vanillacookbook.tooltip.tater_puffs": "50% Chance to Heal 1 Heart",
+	"vanillacookbook.tooltip.the_sludge": "Removes All Hunger and Saturation",
 	
 	"advancements.more_balanced_diet.title": "An Even More Balanced Diet",
 	"advancements.more_balanced_diet.description": "Eat everything that is edible... again!",
