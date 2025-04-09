@@ -3,7 +3,7 @@
   
   "item.wardentools.warden_soul": "Soul of Warden",
   "item.wardentools.echo_apple": "Echo Apple",
-  "item.wardentools.echo_ingot": "Echo Ingot",
+  "item.wardentools.sculk_shell": "Sculk Shell",
 
   "item.wardentools.warden_helmet": "Warden Helmet",
   "item.wardentools.warden_chestplate": "Warden Chestplate",
@@ -24,9 +24,9 @@
   "block.wardentools.medium_sculkhyst_bud": "Medium Sculkhyst Bud",
   "block.wardentools.small_sculkhyst_bud": "Small Sculkhyst Bud",
 
-  "item.minecraft.smithing_template.warden_upgrade.additions_slot_description": "Add Echo Ingot",
+  "item.minecraft.smithing_template.warden_upgrade.additions_slot_description": "Add Sculk Shell",
   "item.minecraft.smithing_template.warden_upgrade.applies_to": "Netherite Equipment",
   "item.minecraft.smithing_template.warden_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
-  "item.minecraft.smithing_template.warden_upgrade.ingredients": "Echo Ingot",
+  "item.minecraft.smithing_template.warden_upgrade.ingredients": "Sculk Shell",
   "upgrade.minecraft.warden_upgrade": "Warden Upgrade"
 }
