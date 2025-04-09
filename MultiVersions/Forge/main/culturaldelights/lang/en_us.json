@@ -1,4 +1,7 @@
 {
+  "creativetab.culturaldelights.culturaldelights_tab": "Cultural Delights",
+
+
   "item.culturaldelights.cucumber_seeds": "Cucumber Seeds",
   "item.culturaldelights.eggplant_seeds": "Eggplant Seeds",
   "item.culturaldelights.corn_kernels": "Corn Kernels",
@@ -43,6 +46,7 @@
   "item.culturaldelights.spicy_curry": "Spicy Curry",
   "item.culturaldelights.pork_wrap": "Pork Wrap",
   "item.culturaldelights.fish_taco": "Fish Taco",
+  "item.culturaldelights.poached_eggplants": "Poached Eggplants",
 
   "item.culturaldelights.chicken_roll": "Chicken Roll",
   "item.culturaldelights.midori_roll": "Midori Roll",
