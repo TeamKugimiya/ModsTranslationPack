@@ -31,13 +31,13 @@
   "text.autoconfig.dragonloot.option.dragon_armor_protection_leggings": "Dragon Armor Leggings Protection",
   "text.autoconfig.dragonloot.option.dragon_armor_protection_boots": "Dragon Armor Boots Protection",
   "text.autoconfig.dragonloot.option.dragon_armor_durability_multiplier": "Dragon Armor Durability Multiplier",
-  "text.autoconfig.dragonloot.option.dragon_item_durability_multiplier": "Dragon Item Durability Multiplier",
+  "text.autoconfig.dragonloot.option.dragon_item_durability": "Dragon Item Durability",
   "text.autoconfig.dragonloot.option.dragon_item_base_damage": "Dragon Item Base Damage",
   "text.autoconfig.dragonloot.option.dragon_anvil_no_cap": "Dragon Anvil No Cap",
   "text.autoconfig.dragonloot.option.dragon_armor_toughness": "Dragon Armor Toughness",
   "text.autoconfig.dragonloot.option.dragon_armor_knockback_resistance": "Dragon Armor Knockback Resistance",
   "text.autoconfig.dragonloot.option.dragon_armor_enchantability": "Dragon Armor Enchantability",
-  "text.autoconfig.dragonloot.option.dragon_tool_enchantability": "Dragon Tool Enchantability",
+  "text.autoconfig.dragonloot.option.dragon_item_mining_speed_multiplier": "Dragon Item Mining Speed Multiplier",
 
   "dragonloot.advancements.dragon_armor.title": "From the scales of the beast",
   "dragonloot.advancements.dragon_armor.description": "Get a full suit of Dragon armor"
