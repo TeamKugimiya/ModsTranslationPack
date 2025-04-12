@@ -1,4 +1,6 @@
 {
   "key.findme.search": "從附近容器搜尋物品",
+  "key.findme.pull_one": "從附近容器取出 1 個物品",
+  "key.findme.pull_stack": "從附近容器取出 1 組物品",
   "key.findme.category": "Find Me"
 }

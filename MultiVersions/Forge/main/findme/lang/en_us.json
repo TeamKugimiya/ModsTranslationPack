@@ -1,4 +1,6 @@
 {
   "key.findme.search": "Search Nearby Inventories For Items",
+  "key.findme.pull_one": "Pull 1 Item From Nearby Inventories",
+  "key.findme.pull_stack": "Pull 1 Stack From Nearby Inventories",
   "key.findme.category": "Find Me"
 }
