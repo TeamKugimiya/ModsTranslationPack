@@ -1,0 +1,10 @@
+{
+  "trashslot.serverNotInstalled": "伺服器上尚未安裝《TrashSlot》模組。本模組功能將暫時停用。",
+  "key.trashslot.toggle": "顯示／隱藏垃圾桶欄位",
+  "key.trashslot.delete": "刪除物品",
+  "key.trashslot.deleteAll": "刪除所有相同類型的物品",
+  "key.categories.trashslot": "垃圾桶欄位",
+  "trashslot.config.instantDeletion": "立即刪除",
+  "text.autoconfig.trashslot.title": "垃圾桶欄位",
+  "text.autoconfig.trashslot.option.instantDeletion": "立即刪除"
+}
