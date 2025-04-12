@@ -10,7 +10,7 @@ package-mode = false
 python = "^3.12"
 aiohttp = "3.11.16"
 six = "1.17.0"
-pillow = "11.1.0"
+pillow = "11.2.1"
 loguru = "0.7.3"
 selenium = "4.31.0"
 
