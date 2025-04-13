@@ -21,6 +21,8 @@ on:
     secrets:
       MODRINTH_TOKEN:
         required: true
+      CURSEFORGE_TOKEN:
+        required: true
 
 jobs:
   value-extract:
@@ -65,6 +67,8 @@ jobs:
         with:
           modrinth-id: cF5VXmkW
           modrinth-unfeature-mode: subset
+          curseforge-id: 1242047
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           name: 模組翻譯包 ${{ inputs.matrix_version }}｜${{ inputs.version }}
           version: ${{ inputs.version }}
           version-type: release
@@ -82,6 +86,8 @@ jobs:
         with:
           modrinth-id: cF5VXmkW
           modrinth-featured: false
+          curseforge-id: 1242047
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           name: 模組測試包 ${{ inputs.matrix_version }}｜${{ needs.value-extract.outputs.git_version }}
           version: ${{ needs.value-extract.outputs.git_version_format }}
           version-type: beta

@@ -102,6 +102,7 @@ jobs:
       release: false
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+      CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
 
   delete-artifact:
     name: Delete Artifact

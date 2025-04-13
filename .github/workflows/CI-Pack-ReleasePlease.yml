@@ -141,6 +141,7 @@ jobs:
       version: ${{ needs.release-please.outputs.tag_name }}
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+      CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
 
   delete-artifact:
     name: Delete Artifact
