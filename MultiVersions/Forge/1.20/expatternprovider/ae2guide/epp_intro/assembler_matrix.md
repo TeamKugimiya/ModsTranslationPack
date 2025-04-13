@@ -8,6 +8,7 @@ categories:
 item_ids:
 - expatternprovider:assembler_matrix_frame
 - expatternprovider:assembler_matrix_wall
+- expatternprovider:assembler_matrix_glass
 - expatternprovider:assembler_matrix_pattern
 - expatternprovider:assembler_matrix_crafter
 - expatternprovider:assembler_matrix_speed
@@ -18,6 +19,9 @@ item_ids:
 <Row>
 <BlockImage id="expatternprovider:assembler_matrix_frame" p:formed="true" p:powered="true" scale="5"></BlockImage>
 <BlockImage id="expatternprovider:assembler_matrix_wall" scale="5"></BlockImage>
+<BlockImage id="expatternprovider:assembler_matrix_glass" scale="5"></BlockImage>
+</Row>
+<Row>
 <BlockImage id="expatternprovider:assembler_matrix_pattern" scale="5"></BlockImage>
 <BlockImage id="expatternprovider:assembler_matrix_crafter" scale="5"></BlockImage>
 <BlockImage id="expatternprovider:assembler_matrix_speed" scale="5"></BlockImage>
@@ -35,7 +39,7 @@ item_ids:
 
 組裝機矩陣是一種長方體結構，其邊長介於 3 至 7 之間。
 - 結構邊框由組裝機矩陣框架構成。
-- 結構牆面由組裝機矩陣外牆構成。
+- 結構牆面由組裝機矩陣外牆／玻璃構成。
 - 結構內部由組裝機矩陣樣板／合成／速度核心構成。
 
 組裝機矩陣結構，內部須包含至少一個樣板核心與合成核心。

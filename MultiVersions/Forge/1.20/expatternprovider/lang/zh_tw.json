@@ -16,6 +16,7 @@
   "block.expatternprovider.oversize_interface": "ME 特大介面",
   "block.expatternprovider.assembler_matrix_frame": "組裝機矩陣框架",
   "block.expatternprovider.assembler_matrix_wall": "組裝機矩陣外牆",
+  "block.expatternprovider.assembler_matrix_glass": "組裝機矩陣玻璃",
   "block.expatternprovider.assembler_matrix_pattern": "組裝機矩陣樣板核心",
   "block.expatternprovider.assembler_matrix_crafter": "組裝機矩陣合成核心",
   "block.expatternprovider.assembler_matrix_speed": "組裝機矩陣速度核心",
