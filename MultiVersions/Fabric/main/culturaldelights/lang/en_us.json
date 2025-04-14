@@ -19,6 +19,7 @@
   "item.culturaldelights.cut_eggplant": "Cut Eggplant",
   "item.culturaldelights.smoked_cut_eggplant": "Smoked Cut Eggplant",
   "item.culturaldelights.corn_cob": "Corn Cob",
+  "item.culturaldelights.ginger": "Ginger",
   "item.culturaldelights.popcorn": "Popcorn",
   "item.culturaldelights.corn_dough": "Corn Dough",
   "item.culturaldelights.tortilla": "Tortilla",
@@ -30,17 +31,19 @@
   "item.culturaldelights.cooked_calamari": "Cooked Calamari",
 
   "item.culturaldelights.elote": "Elote",
+  "item.culturaldelights.empanada": "Empanada",
   "item.culturaldelights.hearty_salad": "Hearty Salad",
   "item.culturaldelights.beef_burrito": "Beef Burrito",
   "item.culturaldelights.mutton_sandwich": "Mutton Sandwich",
   "item.culturaldelights.eggplant_burger": "Eggplant Burger",
-  "item.culturaldelights.fried_eggplant_pasta": "Fried Eggplant Pasta",
   "item.culturaldelights.avocado_toast": "Avocado Toast",
   "item.culturaldelights.creamed_corn": "Creamed Corn",
   "item.culturaldelights.chicken_taco": "Chicken Taco",
   "item.culturaldelights.spicy_curry": "Spicy Curry",
   "item.culturaldelights.pork_wrap": "Pork Wrap",
   "item.culturaldelights.fish_taco": "Fish Taco",
+  "item.culturaldelights.poached_eggplants": "Poached Eggplants",
+  "item.culturaldelights.eggplant_parmesan": "Plate of Eggplant Parmesan",
 
   "item.culturaldelights.chicken_roll": "Chicken Roll",
   "item.culturaldelights.midori_roll": "Midori Roll",
@@ -52,10 +55,11 @@
   "item.culturaldelights.egg_roll": "Egg Roll",
   "item.culturaldelights.calamari_roll": "Calamari Roll",
 
-  "block.culturaldelights.corn": "Corn",
-  "block.culturaldelights.corn_upper": "Corn",
   "block.culturaldelights.cucumbers": "Cucumbers",
   "block.culturaldelights.eggplants": "Eggplants",
+  "block.culturaldelights.corn": "Corn",
+  "block.culturaldelights.corn": "Corn Upper",
+
   "block.culturaldelights.avocado_bundle": "Avocado Bundle",
   "block.culturaldelights.wild_cucumbers": "Wild Cucumbers",
   "block.culturaldelights.wild_corn": "Wild Corn",
@@ -63,7 +67,7 @@
   "block.culturaldelights.avocado_log": "Avocado Log",
   "block.culturaldelights.avocado_wood": "Avocado Wood",
   "block.culturaldelights.avocado_leaves": "Avocado Leaves",
-  "block.culturaldelights.avocado_leaf_carpet": "Avocado Leaf Carpet",
+  "block.culturaldelights.fruiting_avocado_leaves": "Fruiting Avocado Leaves",
   "block.culturaldelights.avocado_sapling": "Avocado Sapling",
   "block.culturaldelights.avocado_pit": "Avocado Pit",
   "block.culturaldelights.avocado_crate": "Avocado Crate",
@@ -71,5 +75,8 @@
   "block.culturaldelights.pickle_crate": "Pickle Crate",
   "block.culturaldelights.corn_cob_crate": "Corn Cob Crate",
   "block.culturaldelights.eggplant_crate": "Eggplant Crate",
-  "block.culturaldelights.white_eggplant_crate": "White Eggplant Crate"
+  "block.culturaldelights.white_eggplant_crate": "White Eggplant Crate",
+  "block.culturaldelights.eggplant_parmesan_block": "Eggplant Parmesan",
+
+  "creativetab.culturaldelights.culturaldelights_tab": "Cultural Delights"
 }
