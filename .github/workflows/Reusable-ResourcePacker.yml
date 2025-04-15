@@ -141,6 +141,10 @@ jobs:
             force_include = true
             ['assets/advanced_ae/ae2guide/_zh_tw/structure/*?.snbt']
             force_include = true
+            ['assets/advanced_ae/ae2guide/pic/*?.png']
+            force_include = true
+            ['assets/advanced_ae/ae2guide/structure/*?.snbt']
+            force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: Download Artifact
