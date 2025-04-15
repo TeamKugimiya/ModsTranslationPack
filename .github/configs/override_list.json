@@ -20,7 +20,7 @@
         {
             "modName": "Tinkers' Construct",
             "modLoader": "Forge",
-            "modVersion": "main",
+            "modVersion": "1.18",
             "extractType": "Mods-With-Guide",
             "guidePaths": [
                 "assets/tconstruct/book/tinkers_gadgetry/zh_tw",
