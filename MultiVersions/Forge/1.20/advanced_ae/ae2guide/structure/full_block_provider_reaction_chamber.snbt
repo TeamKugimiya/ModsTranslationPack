@@ -1,0 +1,13 @@
+{
+    DataVersion: 3955,
+    size: [1, 2, 1],
+    data: [
+        {pos: [0, 0, 0], state: "advanced_ae:reaction_chamber{facing:north,working:false}", nbt: {auto_export: "NO", id: "advanced_ae:reaction_chamber", internalCurrentPower: 0.0d, inv: {item0: {}, item1: {}, item2: {}, item3: {}, item4: {}, item5: {}, item6: {}, item7: {}, item8: {}, item9: {}}, outputs: ["FRONT", "BACK", "TOP", "BOTTOM", "LEFT", "RIGHT"], proxy: {p: 0}, visual: {working: 0b}}},
+        {pos: [0, 1, 0], state: "ae2:pattern_provider{push_direction:all}", nbt: {blocking_mode: "NO", id: "ae2:pattern_provider", lock_crafting_mode: "NONE", pattern_access_terminal: "YES", priority: 0, proxy: {p: 0}, returnInv: [], sendList: [], visual: {}}}
+    ],
+    entities: [],
+    palette: [
+        "advanced_ae:reaction_chamber{facing:north,working:false}",
+        "ae2:pattern_provider{push_direction:all}"
+    ]
+}
