@@ -1,5 +1,77 @@
 # Changelog
 
+## [1.8.3](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.2...v1.8.3) (2025-04-17)
+
+
+### 🔧 修正錯誤
+
+* **deps:** update dependency aiohttp to v3.11.14 ([#815](https://github.com/TeamKugimiya/ModsTranslationPack/issues/815)) ([89166a0](https://github.com/TeamKugimiya/ModsTranslationPack/commit/89166a02ef48af43ac1a50b72bbbf8d1d366be0d))
+* **deps:** update dependency aiohttp to v3.11.16 ([#818](https://github.com/TeamKugimiya/ModsTranslationPack/issues/818)) ([d498059](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d4980597311f3982bd0785696db139f7a119d03d))
+* **deps:** update dependency pillow to v11.2.1 ([#835](https://github.com/TeamKugimiya/ModsTranslationPack/issues/835)) ([d213a07](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d213a07a290ad18b127d887fffd466a2be3d1c72))
+* **deps:** update dependency selenium to v4.31.0 ([#817](https://github.com/TeamKugimiya/ModsTranslationPack/issues/817)) ([fa8f1f9](https://github.com/TeamKugimiya/ModsTranslationPack/commit/fa8f1f9035ebe1cd4c5866f6870c25588620281d))
+* 修正 codeowner ([#810](https://github.com/TeamKugimiya/ModsTranslationPack/issues/810)) ([ac62ec3](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ac62ec35b7213a25a79393b9ebb56d1934c3422e))
+
+
+### 🧹 整理專案
+
+* **deps:** update dawidd6/action-download-artifact action to v9 ([#805](https://github.com/TeamKugimiya/ModsTranslationPack/issues/805)) ([f84bf99](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f84bf99fc37645523ab6ac140fa8eb4c87f7884d))
+* **deps:** update dependency python to 3.13 ([#814](https://github.com/TeamKugimiya/ModsTranslationPack/issues/814)) ([ac43aff](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ac43aff29e82794b36719aa510091e78cde17b95))
+* **deps:** update s3-actions/s3cmd action to v1.10.0 ([#816](https://github.com/TeamKugimiya/ModsTranslationPack/issues/816)) ([9a81e7f](https://github.com/TeamKugimiya/ModsTranslationPack/commit/9a81e7f71280801c272feaa0c81b7d995fcfe7f5))
+* **Override:** 更新覆蓋 ([#839](https://github.com/TeamKugimiya/ModsTranslationPack/issues/839)) ([0c14c66](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0c14c66e554868008c01ed1eaccba28819ab0969))
+* 將 TInker 設定於 1.18 ([#844](https://github.com/TeamKugimiya/ModsTranslationPack/issues/844)) ([62b0c16](https://github.com/TeamKugimiya/ModsTranslationPack/commit/62b0c165d6ab216a9de0668b281bac03eefbd8c8))
+* 新增 1.21.5 支援 ([#828](https://github.com/TeamKugimiya/ModsTranslationPack/issues/828)) ([339feb5](https://github.com/TeamKugimiya/ModsTranslationPack/commit/339feb5af4bb55e630c9da50382930bb680b5737))
+* 更新 codeowner ([#809](https://github.com/TeamKugimiya/ModsTranslationPack/issues/809)) ([3bf272c](https://github.com/TeamKugimiya/ModsTranslationPack/commit/3bf272c16aa04eb43b0145ccef6c7838decb201f))
+* 更新 readme ([#811](https://github.com/TeamKugimiya/ModsTranslationPack/issues/811)) ([f02899c](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f02899c01374e9dea75372e7b8d9218a11cde0c8))
+
+
+### ☁️ 工作流程
+
+* **CommentPR:** 更新 R2 連結 ([#812](https://github.com/TeamKugimiya/ModsTranslationPack/issues/812)) ([f5b190c](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f5b190cb57464d334acfc55ec67f7a561f47eafb))
+* **ModrinthPublish:** 新增 CurseForge 發布 ([#837](https://github.com/TeamKugimiya/ModsTranslationPack/issues/837)) ([50a2908](https://github.com/TeamKugimiya/ModsTranslationPack/commit/50a2908656f3718bdb713ba8a5f19691570c80b3))
+* **ResourcePacker:** 新增指南的強制打包路徑 ([#846](https://github.com/TeamKugimiya/ModsTranslationPack/issues/846)) ([d6cd1fa](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d6cd1fac00bb69718b98ef73b00ad6eb137f5e92))
+* **UploadR2:** 調整 s3 的方式 ([#813](https://github.com/TeamKugimiya/ModsTranslationPack/issues/813)) ([5f6f7cb](https://github.com/TeamKugimiya/ModsTranslationPack/commit/5f6f7cb8f968ca71403bae580bb5f451357f7eb9))
+
+
+### 📑 文件更新
+
+* **Readme:** 更新模組數量 ([#845](https://github.com/TeamKugimiya/ModsTranslationPack/issues/845)) ([5b8f9c7](https://github.com/TeamKugimiya/ModsTranslationPack/commit/5b8f9c7e862b9a93eb7da1ba4160247dcb750330))
+* **Readme:** 更新模組數量 ([#848](https://github.com/TeamKugimiya/ModsTranslationPack/issues/848)) ([96c2ea4](https://github.com/TeamKugimiya/ModsTranslationPack/commit/96c2ea456fff9750216e069ea62e38bea2283fc2))
+
+
+### ⚡ 新增模組翻譯
+
+* **AdvancedAE:** 新增 AE 進階功能 v1.2.5 ([#843](https://github.com/TeamKugimiya/ModsTranslationPack/issues/843)) ([5c15a3b](https://github.com/TeamKugimiya/ModsTranslationPack/commit/5c15a3b1b3218fb12b47b718d8f04fce8fdea9c3))
+
+
+### 🐌 更新模組翻譯
+
+* **Angel Ring:** 更新翻譯至 v2.3.1 ([#829](https://github.com/TeamKugimiya/ModsTranslationPack/issues/829)) ([64e2b12](https://github.com/TeamKugimiya/ModsTranslationPack/commit/64e2b12e9cde57dd8d46ce7b5d16900501b1cf6f))
+* **Crafting Tweaks:** 更新翻譯至 v21.1.5 ([#834](https://github.com/TeamKugimiya/ModsTranslationPack/issues/834)) ([2c48127](https://github.com/TeamKugimiya/ModsTranslationPack/commit/2c48127f6708c6dc7535762c95f31ef4713c641e))
+* **Cultural Delights:** 更新翻譯至 v0.17.3 ([#823](https://github.com/TeamKugimiya/ModsTranslationPack/issues/823)) ([740b030](https://github.com/TeamKugimiya/ModsTranslationPack/commit/740b030f37884394d053518db13624589ed40055))
+* **Cultural Delights:** 更新翻譯至 v0.17.6 ([#841](https://github.com/TeamKugimiya/ModsTranslationPack/issues/841)) ([1225722](https://github.com/TeamKugimiya/ModsTranslationPack/commit/122572273c49380569b9efbd3c4f77e3b5ade279))
+* **Dragon Loot:** 更新翻譯至 v1.1.7 ([#824](https://github.com/TeamKugimiya/ModsTranslationPack/issues/824)) ([e9af9b3](https://github.com/TeamKugimiya/ModsTranslationPack/commit/e9af9b38d6a9b6846c464429ac736af07846245b))
+* **Expanded Delight:** 更新翻譯至 v0.1.3.1 ([#840](https://github.com/TeamKugimiya/ModsTranslationPack/issues/840)) ([2bbc20e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/2bbc20e42c2cbb39ce61c6baf63ea08b23b586fd))
+* **ExtendedAE:** 更新翻譯至 v1.3.5 ([#838](https://github.com/TeamKugimiya/ModsTranslationPack/issues/838)) ([6942f76](https://github.com/TeamKugimiya/ModsTranslationPack/commit/6942f76e5d059ad3f63e826d4abf8c971a883cc5))
+* **FindMe:** 更新翻譯至 v3.3.2 ([#832](https://github.com/TeamKugimiya/ModsTranslationPack/issues/832)) ([c785afd](https://github.com/TeamKugimiya/ModsTranslationPack/commit/c785afd08e72ebe26b4b30f583aab1abe4571190))
+* **Glassential:** 更新翻譯至 v2.0.0 ([#827](https://github.com/TeamKugimiya/ModsTranslationPack/issues/827)) ([650ff48](https://github.com/TeamKugimiya/ModsTranslationPack/commit/650ff488aa05f34dbbc6cc664a4d955711a4067f))
+* **Let's Do Bakery:** 更新翻譯至 v2.0.4 ([#842](https://github.com/TeamKugimiya/ModsTranslationPack/issues/842)) ([b329911](https://github.com/TeamKugimiya/ModsTranslationPack/commit/b329911fed5138711170c827f8514706448f10e2))
+* **Let's Do Beachparty:** 更新翻譯至 v2.0.0 ([#826](https://github.com/TeamKugimiya/ModsTranslationPack/issues/826)) ([6bd34d8](https://github.com/TeamKugimiya/ModsTranslationPack/commit/6bd34d846fa89835c4a27ca375e7e1b4c2966a27))
+* **Let's Do Meadow:** 更新翻譯至 v1.3.24 ([#825](https://github.com/TeamKugimiya/ModsTranslationPack/issues/825)) ([e02d48d](https://github.com/TeamKugimiya/ModsTranslationPack/commit/e02d48dc9c01e3554eb221f04c7e626f02e726ce))
+* **Plushie Mod:** 更新翻譯至 v1.5.1 ([#822](https://github.com/TeamKugimiya/ModsTranslationPack/issues/822)) ([539bd21](https://github.com/TeamKugimiya/ModsTranslationPack/commit/539bd214e2dd71e3faebb8461474653ed9ed7f36))
+* **Productive Metalworks:** 更新翻譯至 v1.2.2 ([#807](https://github.com/TeamKugimiya/ModsTranslationPack/issues/807)) ([62e61f7](https://github.com/TeamKugimiya/ModsTranslationPack/commit/62e61f7f3f5f69081e782030877f96d73c0b32e0))
+* **Replication:** 更新翻譯至 v1.1.18 ([#806](https://github.com/TeamKugimiya/ModsTranslationPack/issues/806)) ([9e91535](https://github.com/TeamKugimiya/ModsTranslationPack/commit/9e9153500c9acdb99e88f10e1f82bdc7e2819b9b))
+* **Some Assembly Required:** 更新翻譯至 v5.1.1 ([#847](https://github.com/TeamKugimiya/ModsTranslationPack/issues/847)) ([0f28925](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0f28925f1394153c5f16cb9c633407efdf36dcb8))
+* **Sophisticated Series:** 更新精巧系列全家桶 ([#831](https://github.com/TeamKugimiya/ModsTranslationPack/issues/831)) ([438e7fe](https://github.com/TeamKugimiya/ModsTranslationPack/commit/438e7fe3f4ccb4511fa71b0a88987e77a2986d23))
+* **Thermal Extra:** 更新翻譯至 v3.2.4 ([#830](https://github.com/TeamKugimiya/ModsTranslationPack/issues/830)) ([f88342c](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f88342cd091a0e45f15dcdf4c1b54b9fa3829475))
+* **TrashSlot:** 更新翻譯至 v21.1.5 ([#833](https://github.com/TeamKugimiya/ModsTranslationPack/issues/833)) ([2272536](https://github.com/TeamKugimiya/ModsTranslationPack/commit/2272536229090f16c7c273af15081cf494a9c5c3))
+* **Vanilla Cookbook:** 更新翻譯至 v2.2.3 ([#820](https://github.com/TeamKugimiya/ModsTranslationPack/issues/820)) ([ec0acfb](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ec0acfbd16ddb036209a7e1902b6aafc067e14c6))
+* **Warden Tools:** 更新翻譯至 v2.5.0 ([#821](https://github.com/TeamKugimiya/ModsTranslationPack/issues/821)) ([0379961](https://github.com/TeamKugimiya/ModsTranslationPack/commit/03799614fee38465f553cb332293e224c21ce00e))
+
+
+### 🐛 修正模組翻譯錯誤
+
+* **Functional Storage:** 修正 1.20 錯誤的翻譯文本 ([#836](https://github.com/TeamKugimiya/ModsTranslationPack/issues/836)) ([ec8c23a](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ec8c23aa6bd155f9ae9783cc9588d0d3b913394b))
+
 ## [1.8.2](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.1...v1.8.2) (2025-02-25)
 
 
