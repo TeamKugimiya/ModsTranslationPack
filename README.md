@@ -10,6 +10,7 @@
 
 [![Release][release-badge]][release-latest]
 [![Modrinth][modrinth-badge]][modrinth]
+[![CurseForge][curseforge-badge]][curseforge]
 [![License][CC BY-NC-ND 4.0]][main-license]
 [![Discord][discord-badge]][discord-invite]
 [![Stars][repo-stars]][github]
@@ -26,7 +27,11 @@
 
 <div align="center">
 
-✭ [🌐 安裝翻譯包](#-安裝翻譯包) • [💫 貢獻與回報問題](#-貢獻與回報問題) • [✨ 第三方翻譯來源](#-第三方翻譯來源) • [💫 翻譯貢獻者](#-翻譯貢獻者) ✭
+[![CurseForge][doc-curseforge]][curseforge]
+[![Modrinth][doc-modrinth]][modrinth]
+[![Website][doc-website]][website]
+[![GitHub][doc-github]][github]
+[![Discord][doc-discord]][discord-invite]
 
 </div>
 
@@ -245,13 +250,20 @@
 <!-- CONTRIBUTORS_CI_END -->
 
 <!-- 橫幅 -->
-[project-banner]: docs/assets/Banner.png
+[project-banner]: https://cdn.teamkugimiya.org/banners/ModsTranslationPack.png
 
 <!-- 徽章 -->
-[modrinth-badge]: https://img.shields.io/modrinth/dt/cF5VXmkW?label=Modrinth%20%E4%B8%8B%E8%BC%89%E6%95%B8&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMSAxMSIgd2lkdGg9IjE0LjY2NyIgaGVpZ2h0PSIxNC42NjciICB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxkZWZzPjxjbGlwUGF0aCBpZD0iQSI%2BPHBhdGggZD0iTTAgMGgxMXYxMUgweiIvPjwvY2xpcFBhdGg%2BPC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNBKSI%2BPHBhdGggZD0iTTEuMzA5IDcuODU3YTQuNjQgNC42NCAwIDAgMS0uNDYxLTEuMDYzSDBDLjU5MSA5LjIwNiAyLjc5NiAxMSA1LjQyMiAxMWMxLjk4MSAwIDMuNzIyLTEuMDIgNC43MTEtMi41NTZoMGwtLjc1LS4zNDVjLS44NTQgMS4yNjEtMi4zMSAyLjA5Mi0zLjk2MSAyLjA5MmE0Ljc4IDQuNzggMCAwIDEtMy4wMDUtMS4wNTVsMS44MDktMS40NzQuOTg0Ljg0NyAxLjkwNS0xLjAwM0w4LjE3NCA1LjgybC0uMzg0LS43ODYtMS4xMTYuNjM1LS41MTYuNjk0LS42MjYuMjM2LS44NzMtLjM4N2gwbC0uMjEzLS45MS4zNTUtLjU2Ljc4Ny0uMzcuODQ1LS45NTktLjcwMi0uNTEtMS44NzQuNzEzLTEuMzYyIDEuNjUxLjY0NSAxLjA5OC0xLjgzMSAxLjQ5MnptOS42MTQtMS40NEE1LjQ0IDUuNDQgMCAwIDAgMTEgNS41QzExIDIuNDY0IDguNTAxIDAgNS40MjIgMCAyLjc5NiAwIC41OTEgMS43OTQgMCA0LjIwNmguODQ4QzEuNDE5IDIuMjQ1IDMuMjUyLjgwOSA1LjQyMi44MDljMi42MjYgMCA0Ljc1OCAyLjEwMiA0Ljc1OCA0LjY5MSAwIC4xOS0uMDEyLjM3Ni0uMDM0LjU2bC43NzcuMzU3aDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiM1ZGE0MjYiLz48L2c%2BPC9zdmc%2B&style=flat-square
+[modrinth-badge]: https://img.shields.io/modrinth/dt/cF5VXmkW?style=flat-square&logo=modrinth&label=Modrinth%20下載數
+[curseforge-badge]: https://img.shields.io/curseforge/dt/1242047?style=flat-square&logo=curseforge&label=CurseForge%20下載數
 [release-badge]: https://img.shields.io/github/v/release/TeamKugimiya/ModsTranslationPack?label=%E7%99%BC%E4%BD%88%E7%89%88&logo=semanticrelease&style=flat-square
 [discord-badge]: https://img.shields.io/discord/947630690315411476?label=%E9%87%98%E5%AE%AE%E7%BF%BB%E8%AD%AF%E7%B5%84&logo=discord&style=flat-square
 [repo-stars]: https://img.shields.io/github/stars/TeamKugimiya/ModsTranslationPack?label=%E2%AD%90%E6%98%9F%E6%98%9F%E6%95%B8&style=flat-square
+
+[doc-discord]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/social/discord-plural_vector.svg
+[doc-curseforge]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/curseforge_vector.svg
+[doc-modrinth]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/modrinth_vector.svg
+[doc-github]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/social/github-plural_vector.svg
+[doc-website]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/documentation/website_vector.svg
 
 <!-- 授權條款徽章 -->
 [CC BY-NC-ND 4.0]: https://img.shields.io/badge/授權條款-CC%20BY--NC--ND%204.0-orange?style=flat-square&logo=creativecommons
@@ -261,8 +273,10 @@
 [MIT]: https://img.shields.io/badge/授權條款-MIT-orange?style=flat-square
 
 <!-- 連結 -->
+[website]: https://teamkugimiya.org/
 [github]: https://github.com/TeamKugimiya/ModsTranslationPack
 [modrinth]: https://modrinth.com/resourcepack/modstranslationpack
+[curseforge]: https://www.curseforge.com/minecraft/texture-packs/modstranslationpack
 [release-latest]: https://github.com/TeamKugimiya/ModsTranslationPack/releases/latest
 [discord-invite]: https://discord.gg/7BbPMtygHU
 [prp]: https://www.curseforge.com/minecraft/mc-mods/prp
