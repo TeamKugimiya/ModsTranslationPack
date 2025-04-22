@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![ModsTranslationPack][project-banner]][modrinth]
+![ModsTranslationPack][project-banner]
 
 [![Release][release-badge]][release-latest]
 [![Modrinth][modrinth-badge]][modrinth]
@@ -259,11 +259,11 @@
 [discord-badge]: https://img.shields.io/discord/947630690315411476?label=%E9%87%98%E5%AE%AE%E7%BF%BB%E8%AD%AF%E7%B5%84&logo=discord&style=flat-square
 [repo-stars]: https://img.shields.io/github/stars/TeamKugimiya/ModsTranslationPack?label=%E2%AD%90%E6%98%9F%E6%98%9F%E6%95%B8&style=flat-square
 
-[doc-discord]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/social/discord-plural_vector.svg
-[doc-curseforge]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/curseforge_vector.svg
-[doc-modrinth]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/modrinth_vector.svg
-[doc-github]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/social/github-plural_vector.svg
-[doc-website]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/documentation/website_vector.svg
+[doc-discord]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/discord-plural_vector.svg
+[doc-curseforge]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/curseforge_vector.svg
+[doc-modrinth]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/modrinth_vector.svg
+[doc-github]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/github-plural_vector.svg
+[doc-website]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/documentation/website_vector.svg
 
 <!-- 授權條款徽章 -->
 [CC BY-NC-ND 4.0]: https://img.shields.io/badge/授權條款-CC%20BY--NC--ND%204.0-orange?style=flat-square&logo=creativecommons
