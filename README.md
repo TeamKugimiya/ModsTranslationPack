@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![ModsTranslationPack][project-banner]
+[![ModsTranslationPack][project-banner]][github]
 
 [![Release][release-badge]][release-latest]
 [![Modrinth][modrinth-badge]][modrinth]
@@ -67,6 +67,8 @@
 
 感謝下列各個翻譯者、社群所製作的模組翻譯！
 
+<details>
+  <summary>展開清單</summary>
 * 部分模組簡轉繁，原始專案組織 [CFPA Team](https://github.com/CFPAOrg)<br/>
   * [MMLP-CN-to-ZW](https://github.com/TeamKugimiya/MMLP-CN-to-ZW)<br/>
     [![CC BY-NC-SA 4.0][CC BY-NC-SA 4.0]](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/main/LICENSE)
@@ -121,6 +123,7 @@
   * [BlossomBack](https://github.com/BlossomMods/BlossomBack)
   * [BlossomWarps](https://github.com/BlossomMods/BlossomWarps)
   * [BlossomPVP](https://github.com/BlossomMods/BlossomPVP)
+</details>
 
 ## 💫 翻譯貢獻者
 
