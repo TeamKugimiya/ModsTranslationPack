@@ -12,7 +12,7 @@ aiohttp = "3.12.13"
 six = "1.17.0"
 pillow = "11.2.1"
 loguru = "0.7.3"
-selenium = "4.33.0"
+selenium = "4.34.0"
 
 [build-system]
 requires = ["poetry-core"]
