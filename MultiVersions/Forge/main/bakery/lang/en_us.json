@@ -142,5 +142,7 @@
   "sound.bakery.cabinet_open": "Opening Cabinet",
   "sound.bakery.drawer_close": "Closing Drawer",
   "sound.bakery.drawer_open": "Opening Drawer",
-  "sound.bakery.cooking_pot_hit": "Clang!"
+  "sound.bakery.cooking_pot_hit": "Clang!",
+  "gui.bakery.street_sign.edit": "Edit Street Sign",
+  "gui.bakery.street_sign.done" : "Done"
 }

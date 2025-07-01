@@ -142,5 +142,7 @@
   "sound.bakery.cabinet_open": "開啟櫥櫃",
   "sound.bakery.drawer_close": "關閉抽屜櫃",
   "sound.bakery.drawer_open": "開啟抽屜櫃",
-  "sound.bakery.cooking_pot_hit": "噹啷！"
+  "sound.bakery.cooking_pot_hit": "噹啷！",
+  "gui.bakery.street_sign.edit": "編輯街道招牌",
+  "gui.bakery.street_sign.done" : "完成"
 }
