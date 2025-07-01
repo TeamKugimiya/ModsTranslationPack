@@ -1,5 +1,26 @@
 {
   "item.heartstone.heartstone": "尋心石",
   "subtitle.heartstone.sub": "尋心石悶響",
-  "message.heartstone.id": "Id：%s"
+  "message.heartstone.id": "Id：%s",
+  "message.heartstone.cracked": "尋心石已破碎",
+  "item.minecraft.firework_star.shape.heartstone:heart": "心型",
+
+  "block.heartstone.banner.heart.black": "黑色愛心",
+  "block.heartstone.banner.heart.blue": "藍色愛心",
+  "block.heartstone.banner.heart.brown": "棕色愛心",
+  "block.heartstone.banner.heart.cyan": "青色愛心",
+  "block.heartstone.banner.heart.gray": "灰色愛心",
+  "block.heartstone.banner.heart.green": "綠色愛心",
+  "block.heartstone.banner.heart.light_blue": "淺藍色愛心",
+  "block.heartstone.banner.heart.light_gray": "淺灰色愛心",
+  "block.heartstone.banner.heart.lime": "淺綠色愛心",
+  "block.heartstone.banner.heart.magenta": "洋紅色愛心",
+  "block.heartstone.banner.heart.orange": "橙色愛心",
+  "block.heartstone.banner.heart.pink": "粉紅色愛心",
+  "block.heartstone.banner.heart.purple": "紫色愛心",
+  "block.heartstone.banner.heart.red": "紅色愛心",
+  "block.heartstone.banner.heart.white": "白色愛心",
+  "block.heartstone.banner.heart.yellow": "黃色愛心",
+  "item.heartstone.heart_banner_pattern.desc": "愛心",
+  "item.heartstone.heart_banner_pattern": "旗幟圖案"
 }

@@ -1,5 +1,26 @@
 {
   "item.heartstone.heartstone": "Heartstone",
   "subtitle.heartstone.sub": "Heartstone thud",
-  "message.heartstone.id": "Id: %s"
+  "message.heartstone.id": "Id: %s",
+  "message.heartstone.cracked": "Cracked",
+  "item.minecraft.firework_star.shape.heartstone:heart": "Heart Shaped",
+
+  "block.heartstone.banner.heart.black": "Black Heart",
+  "block.heartstone.banner.heart.blue": "Blue Heart",
+  "block.heartstone.banner.heart.brown": "Brown Heart",
+  "block.heartstone.banner.heart.cyan": "Cyan Heart",
+  "block.heartstone.banner.heart.gray": "Gray Heart",
+  "block.heartstone.banner.heart.green": "Green Heart",
+  "block.heartstone.banner.heart.light_blue": "Light Blue Heart",
+  "block.heartstone.banner.heart.light_gray": "Light Gray Heart",
+  "block.heartstone.banner.heart.lime": "Lime Heart",
+  "block.heartstone.banner.heart.magenta": "Magenta Heart",
+  "block.heartstone.banner.heart.orange": "Orange Heart",
+  "block.heartstone.banner.heart.pink": "Pink Heart",
+  "block.heartstone.banner.heart.purple": "Purple Heart",
+  "block.heartstone.banner.heart.red": "Red Heart",
+  "block.heartstone.banner.heart.white": "White Heart",
+  "block.heartstone.banner.heart.yellow": "Yellow Heart",
+  "item.heartstone.heart_banner_pattern.desc": "Heart",
+  "item.heartstone.heart_banner_pattern": "Banner Pattern"
 }
