@@ -1,0 +1,16 @@
+{
+  "item.niftycarts.supply_cart": "運貨馬車",
+  "item.niftycarts.plow": "犁",
+  "item.niftycarts.animal_cart": "動物運送馬車",
+  "item.niftycarts.wheel": "車輪",
+  "entity.niftycarts.supply_cart": "運貨馬車",
+  "entity.niftycarts.plow": "犁",
+  "entity.niftycarts.animal_cart": "動物運送馬車",
+  // "entity.niftycarts.postilion": "Postilion",
+  "key.categories.niftycarts": "NiftyCarts",
+  "key.niftycarts.desc": "將動物與馬車連接／分離",
+  "subtitles.niftycarts.cart.attached": "馬車連接",
+  "subtitles.niftycarts.cart.detached": "馬車分離",
+  "subtitles.niftycarts.cart.placed": "放置馬車",
+  "stat.niftycarts.cart_one_cm": "乘坐馬車移動距離"
+}
