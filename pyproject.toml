@@ -8,7 +8,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
-aiohttp = "3.12.14"
+aiohttp = "3.12.15"
 six = "1.17.0"
 pillow = "11.3.0"
 loguru = "0.7.3"
