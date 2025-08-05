@@ -6,7 +6,6 @@
   "entity.niftycarts.supply_cart": "運貨馬車",
   "entity.niftycarts.plow": "犁",
   "entity.niftycarts.animal_cart": "動物運送馬車",
-  // "entity.niftycarts.postilion": "Postilion",
   "key.categories.niftycarts": "NiftyCarts",
   "key.niftycarts.desc": "將動物與馬車連接／分離",
   "subtitles.niftycarts.cart.attached": "馬車連接",
