@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: Checking Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Release Please
         id: release_please
@@ -100,7 +100,7 @@ jobs:
 
     steps:
       - name: Checking Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.release-please.outputs.tag_name }}
           fetch-depth: 0

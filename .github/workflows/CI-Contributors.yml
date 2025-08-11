@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checking Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Generate Contributors Html Table
         id: html_list
