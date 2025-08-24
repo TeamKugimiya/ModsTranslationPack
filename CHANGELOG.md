@@ -1,5 +1,46 @@
 # Changelog
 
+## [1.8.4](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.3...v1.8.4) (2025-08-24)
+
+
+### 🔧 修正錯誤
+
+* **deps:** update dependency aiohttp to v3.11.18 ([#850](https://github.com/TeamKugimiya/ModsTranslationPack/issues/850)) ([968c296](https://github.com/TeamKugimiya/ModsTranslationPack/commit/968c296bc3dd5ef1bdf6eeb44f850b5b993ec565))
+* **deps:** update dependency aiohttp to v3.12.13 ([#855](https://github.com/TeamKugimiya/ModsTranslationPack/issues/855)) ([1374ad3](https://github.com/TeamKugimiya/ModsTranslationPack/commit/1374ad3d9fc7f92cb96f6b830c1c3e88849c2b72))
+* **deps:** update dependency aiohttp to v3.12.14 ([#869](https://github.com/TeamKugimiya/ModsTranslationPack/issues/869)) ([722bf2d](https://github.com/TeamKugimiya/ModsTranslationPack/commit/722bf2dd0d9ead04bb7b5239f731b585740199c6))
+* **deps:** update dependency aiohttp to v3.12.15 ([#870](https://github.com/TeamKugimiya/ModsTranslationPack/issues/870)) ([d63c396](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d63c3968c73f102d93ce02d2dc382b933c291cb6))
+* **deps:** update dependency pillow to v11.3.0 ([#867](https://github.com/TeamKugimiya/ModsTranslationPack/issues/867)) ([888523f](https://github.com/TeamKugimiya/ModsTranslationPack/commit/888523f3fd2f8eeb9c932c16c1f0beae87763cd8))
+* **deps:** update dependency selenium to v4.33.0 ([#854](https://github.com/TeamKugimiya/ModsTranslationPack/issues/854)) ([87c01ce](https://github.com/TeamKugimiya/ModsTranslationPack/commit/87c01ce4f0142e16976694fff1ae77691bb5ac05))
+* **deps:** update dependency selenium to v4.34.0 ([#858](https://github.com/TeamKugimiya/ModsTranslationPack/issues/858)) ([ef6a15f](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ef6a15fa45d7473e80f3bd9d1e1bc84d5603dd68))
+* **deps:** update dependency selenium to v4.34.2 ([#868](https://github.com/TeamKugimiya/ModsTranslationPack/issues/868)) ([1bd807c](https://github.com/TeamKugimiya/ModsTranslationPack/commit/1bd807c878b0b47246d8a5340d8ef9421097dfe1))
+* **deps:** update dependency selenium to v4.35.0 ([#873](https://github.com/TeamKugimiya/ModsTranslationPack/issues/873)) ([80eebd4](https://github.com/TeamKugimiya/ModsTranslationPack/commit/80eebd4115f887c06cc5d38d0c666dbb0862721c))
+
+
+### 🧹 整理專案
+
+* **deps:** update actions/checkout action to v5 ([#872](https://github.com/TeamKugimiya/ModsTranslationPack/issues/872)) ([98368c8](https://github.com/TeamKugimiya/ModsTranslationPack/commit/98368c81f3eb6d57856754c9b34db980b675eae0))
+* **deps:** update actions/download-artifact action to v5 ([#871](https://github.com/TeamKugimiya/ModsTranslationPack/issues/871)) ([b3fa3c4](https://github.com/TeamKugimiya/ModsTranslationPack/commit/b3fa3c41a84f05d0463283ea8533da41cc08be35))
+* **deps:** update dawidd6/action-download-artifact action to v11 ([#857](https://github.com/TeamKugimiya/ModsTranslationPack/issues/857)) ([f3bb33e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f3bb33eaef08495235ac0e1421fc16906632c6cf))
+* **deps:** update s3-actions/s3cmd action to v2 ([#851](https://github.com/TeamKugimiya/ModsTranslationPack/issues/851)) ([861a8a0](https://github.com/TeamKugimiya/ModsTranslationPack/commit/861a8a0b326f471863cea023b37283c6694170d9))
+* **deps:** update s3-actions/s3cmd action to v2.0.1 ([#874](https://github.com/TeamKugimiya/ModsTranslationPack/issues/874)) ([9f27f81](https://github.com/TeamKugimiya/ModsTranslationPack/commit/9f27f819a948f55ed7dcf0c47b06ba915537ccfc))
+* 新增 1.21.6 & 1.21.7 支援 ([#860](https://github.com/TeamKugimiya/ModsTranslationPack/issues/860)) ([be14c30](https://github.com/TeamKugimiya/ModsTranslationPack/commit/be14c300943f35888cceb81833426e12fb7f2513))
+
+
+### 📑 文件更新
+
+* **README:** 更新 readme ([#853](https://github.com/TeamKugimiya/ModsTranslationPack/issues/853)) ([0e6fc03](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0e6fc03c8fa903bb52ccb196f8776c6a08e19db9))
+
+
+### 🐌 更新模組翻譯
+
+* **Chef's Delight:** 更新翻譯至 v1.0.4 ([#862](https://github.com/TeamKugimiya/ModsTranslationPack/issues/862)) ([18fb86e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/18fb86e2e42179fe12d21fa278dd2bd91474e248))
+* **Decoration Delight:** 更新翻譯至 v1 ([#865](https://github.com/TeamKugimiya/ModsTranslationPack/issues/865)) ([12c5098](https://github.com/TeamKugimiya/ModsTranslationPack/commit/12c5098117e61bf9640c124df8d4622ed1548557))
+* **Heartstone:** 更新翻譯至 v1.3.0 ([#866](https://github.com/TeamKugimiya/ModsTranslationPack/issues/866)) ([46dc9d2](https://github.com/TeamKugimiya/ModsTranslationPack/commit/46dc9d2bf459d7329941b5e47454459add2e96c6))
+* **Let's Do Bakery:** 更新翻譯至 v2.0.5 ([#864](https://github.com/TeamKugimiya/ModsTranslationPack/issues/864)) ([564561b](https://github.com/TeamKugimiya/ModsTranslationPack/commit/564561bc4eea29b3f48897a00b111c6f98f23e0d))
+* **NiftyCarts:** 更新翻譯至 v21.1.0 ([#863](https://github.com/TeamKugimiya/ModsTranslationPack/issues/863)) ([a34ad0b](https://github.com/TeamKugimiya/ModsTranslationPack/commit/a34ad0bd90639fa981d5c823be158eddcd899ef0))
+* **Oh The Biomes We've Gone:** 更新翻譯至 v2.4.4 ([#859](https://github.com/TeamKugimiya/ModsTranslationPack/issues/859)) ([1471fbd](https://github.com/TeamKugimiya/ModsTranslationPack/commit/1471fbdb6c72d1c007ef5e6f00a13011f5d28c02))
+* **Sleep Tight:** 更新翻譯至 v1.4.2 ([#861](https://github.com/TeamKugimiya/ModsTranslationPack/issues/861)) ([9d82b66](https://github.com/TeamKugimiya/ModsTranslationPack/commit/9d82b66bcbc28faa37b911048947d447131a3208))
+
 ## [1.8.3](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.2...v1.8.3) (2025-04-17)
 
 
