@@ -7,26 +7,6 @@
 <div align="center">
 
 [![ModsTranslationPack][project-banner]][github]
-
-[![Release][release-badge]][release-latest]
-[![Modrinth][modrinth-badge]][modrinth]
-[![CurseForge][curseforge-badge]][curseforge]
-[![License][CC BY-NC-ND 4.0]][main-license]
-[![Discord][discord-badge]][discord-invite]
-[![Stars][repo-stars]][github]
-
-<h3>一個包含了各式各樣的模組翻譯的資源包～</h3>
-<h3>目前已收錄 <code><!-- MODS_NUMBER_CI_START -->558<!-- MODS_NUMBER_CI_END --></code> 款模組</h3>
-
-<h3>有需要更簡單的翻譯方式，不透過 Git 版本控制</h3>
-<h3>可查看我們的社群版 <a href="https://modrinth.com/resourcepack/paratranslationpack">Para 翻譯包</a></h3>
-
-</div>
-
----
-
-<div align="center">
-
 [![CurseForge][doc-curseforge]][curseforge]
 [![Modrinth][doc-modrinth]][modrinth]
 [![Website][doc-website]][website]
@@ -36,56 +16,56 @@
 </div>
 
 ---
+<div align="center">
+
+<h3>一個包含了各式各樣的模組翻譯的資源包～</h3>
+<h3>目前已收錄 <code><!-- MODS_NUMBER_CI_START -->558<!-- MODS_NUMBER_CI_END --></code> 款模組</h3>
+
+<h3>有需要更簡單的翻譯方式，不透過 Git 版本控制</h3>
+<h3>可查看我們的社群版 <a href="https://modrinth.com/resourcepack/paratranslationpack">Para 翻譯包</a></h3>
+
+</div>
 
 ## 🌐 安裝翻譯包
 
-在 [Modrinth][modrinth] 平台上下載對應版本並放入遊戲資源包載入！
+請從各平台下載對應版本的翻譯包，放入遊戲的**資源包資料夾**並在遊戲內啟用。
 
-翻譯包版本差異在於，部分模組在不同版本上會有不同的翻譯
+也建議安裝下列模組來獲得更完整的中文化體驗！
 
-同時也建議安裝下列模組來獲得更完整的中文化體驗！
+- [PRP][prp]：PRP 是一個專門對某些 Patchouli 手冊的翻譯進行修補，部分模組手冊需要此模組才會運作。
 
-[PRP][prp]：PRP 是一個專門對某些 Patchouli 手冊的翻譯進行修補，有部分模組手冊需要此模組才會運作。
-
-[Untranslated Items][untranslated-items]：讓你可以看見該物品的原始英文名稱，也可以在搜尋上用到。
+- [Untranslated Items][untranslated-items]：能顯示物品的原始英文名稱，並支援以英文搜尋。
 
 ## 🐞 貢獻與回報問題
 
-遇到翻譯問題或是想要貢獻翻譯
-
-歡迎加入 [Discord][discord-invite] 與翻譯者一起討論！
-
-或是參考我們的[貢獻指南][contributing]來開始你的旅程。
+若遇到翻譯問題或想要貢獻翻譯，歡迎加入 [Discord][discord-invite] 與我們一起討論！
 
 ## ✨ 第三方翻譯來源
 
-有部分翻譯為外部第三方翻譯
-
-像是當模組官方已內建中文翻譯卻還沒有新版本
-
-或是一些原因，將會內建一些第三方來源
+部分翻譯來自第三方來源，例如模組官方已有中文翻譯但尚未更新，或其他特殊情況。  
+在這些情況下，我們會暫時內建第三方翻譯版本。  
 
 感謝下列各個翻譯者、社群所製作的模組翻譯！
 
 <details>
   <summary>展開清單</summary>
 
-* 部分模組簡轉繁，原始專案組織 [CFPA Team](https://github.com/CFPAOrg)<br/>
-  * [MMLP-CN-to-ZW](https://github.com/TeamKugimiya/MMLP-CN-to-ZW)<br/>
+- 部分模組簡轉繁，原始專案組織 [CFPA Team](https://github.com/CFPAOrg)<br/>
+  - [MMLP-CN-to-ZW](https://github.com/TeamKugimiya/MMLP-CN-to-ZW)<br/>
     [![CC BY-NC-SA 4.0][CC BY-NC-SA 4.0]](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/main/LICENSE)
-* [CLOVERsquare](https://github.com/CLOVERsquare)
-  * [Alchemistry](https://github.com/SmashingMods/Alchemistry)<br/>
+- [CLOVERsquare](https://github.com/CLOVERsquare)
+  - [Alchemistry](https://github.com/SmashingMods/Alchemistry)<br/>
     [![GPL 2.0][GPL 2.0]](https://github.com/SmashingMods/Alchemistry/blob/1.18.x/LICENSE)
-* [Jimmy-sheep](https://github.com/Jimmy-sheep)
-  * [CoFHCore](https://github.com/CoFH/CoFHCore)
-  * [ThermalCore](https://github.com/CoFH/ThermalCore)
-  * [ThermalFoundation](https://github.com/CoFH/ThermalFoundation)
-* [Julian Dunskus](https://github.com/juliand665)
-  * [Dynamic FPS](https://github.com/juliand665/Dynamic-FPS)<br/>
+- [Jimmy-sheep](https://github.com/Jimmy-sheep)
+  - [CoFHCore](https://github.com/CoFH/CoFHCore)
+  - [ThermalCore](https://github.com/CoFH/ThermalCore)
+  - [ThermalFoundation](https://github.com/CoFH/ThermalFoundation)
+- [Julian Dunskus](https://github.com/juliand665)
+  - [Dynamic FPS](https://github.com/juliand665/Dynamic-FPS)<br/>
     [![MIT][MIT]](https://github.com/juliand665/Dynamic-FPS/blob/main/LICENSE)
-* [steak0902](https://home.gamer.com.tw/homeindex.php?owner=minecraft15)
-  * [Immersive Engineering](https://forum.gamer.com.tw/C.php?bsn=18673&snA=196127)
-* [Grant88](https://grant88.pixnet.net/blog)
+- [steak0902](https://home.gamer.com.tw/homeindex.php?owner=minecraft15)
+  - [Immersive Engineering](https://forum.gamer.com.tw/C.php?bsn=18673&snA=196127)
+- [Grant88](https://grant88.pixnet.net/blog)
   <details>
     <summary>展開列表</summary>
       <ul>
@@ -114,16 +94,17 @@
         <li><a href="https://grant88.pixnet.net/blog/post/45254902">Gobber</a></li>
       </ul>
   </details>
-* [Crowdin 社群](https://crowdin.com)
-  * [Sodium](https://crowdin.com/project/sodium-fabric)
-  * [Sodium Extra](https://crowdin.com/project/sodium-extra)
-* [BlossomMods - Pau1am](https://github.com/BlossomMods)
-  * [BlossomLib](https://github.com/BlossomMods/BlossomLib)
-  * [BlossomHomes](https://github.com/BlossomMods/BlossomHomes)
-  * [BlossomTpa](https://github.com/BlossomMods/BlossomTpa)
-  * [BlossomBack](https://github.com/BlossomMods/BlossomBack)
-  * [BlossomWarps](https://github.com/BlossomMods/BlossomWarps)
-  * [BlossomPVP](https://github.com/BlossomMods/BlossomPVP)
+- [Crowdin 社群](https://crowdin.com)
+  - [Sodium](https://crowdin.com/project/sodium-fabric)
+  - [Sodium Extra](https://crowdin.com/project/sodium-extra)
+- [BlossomMods - Pau1am](https://github.com/BlossomMods)
+  - [BlossomLib](https://github.com/BlossomMods/BlossomLib)
+  - [BlossomHomes](https://github.com/BlossomMods/BlossomHomes)
+  - [BlossomTpa](https://github.com/BlossomMods/BlossomTpa)
+  - [BlossomBack](https://github.com/BlossomMods/BlossomBack)
+  - [BlossomWarps](https://github.com/BlossomMods/BlossomWarps)
+  - [BlossomPVP](https://github.com/BlossomMods/BlossomPVP)
+
 </details>
 
 ## 💫 翻譯貢獻者
@@ -257,12 +238,6 @@
 [project-banner]: https://cdn.teamkugimiya.org/banners/ModsTranslationPack.png
 
 <!-- 徽章 -->
-[modrinth-badge]: https://img.shields.io/modrinth/dt/cF5VXmkW?style=flat-square&logo=modrinth&label=Modrinth%20下載數
-[curseforge-badge]: https://img.shields.io/curseforge/dt/1242047?style=flat-square&logo=curseforge&label=CurseForge%20下載數
-[release-badge]: https://img.shields.io/github/v/release/TeamKugimiya/ModsTranslationPack?label=%E7%99%BC%E4%BD%88%E7%89%88&logo=semanticrelease&style=flat-square
-[discord-badge]: https://img.shields.io/discord/947630690315411476?label=%E9%87%98%E5%AE%AE%E7%BF%BB%E8%AD%AF%E7%B5%84&logo=discord&style=flat-square
-[repo-stars]: https://img.shields.io/github/stars/TeamKugimiya/ModsTranslationPack?label=%E2%AD%90%E6%98%9F%E6%98%9F%E6%95%B8&style=flat-square
-
 [doc-discord]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/discord-plural_vector.svg
 [doc-curseforge]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/curseforge_vector.svg
 [doc-modrinth]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/modrinth_vector.svg
@@ -270,7 +245,7 @@
 [doc-website]: https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/documentation/website_vector.svg
 
 <!-- 授權條款徽章 -->
-[CC BY-NC-ND 4.0]: https://img.shields.io/badge/授權條款-CC%20BY--NC--ND%204.0-orange?style=flat-square&logo=creativecommons
+<!-- [CC BY-NC-ND 4.0]: https://img.shields.io/badge/授權條款-CC%20BY--NC--ND%204.0-orange?style=flat-square&logo=creativecommons -->
 [CC BY-NC-SA 4.0]: https://img.shields.io/badge/授權條款-CC%20BY--NC--SA%204.0-orange?style=flat-square&logo=creativecommons
 [GPL 2.0]: https://img.shields.io/badge/授權條款-GPL%202.0-orange?style=flat-square&logo=gnu
 <!-- [GPL 3.0]: https://img.shields.io/badge/授權條款-GPL%203.0-orange?style=flat-square&logo=gnu -->
@@ -281,11 +256,6 @@
 [github]: https://github.com/TeamKugimiya/ModsTranslationPack
 [modrinth]: https://modrinth.com/resourcepack/modstranslationpack
 [curseforge]: https://www.curseforge.com/minecraft/texture-packs/modstranslationpack
-[release-latest]: https://github.com/TeamKugimiya/ModsTranslationPack/releases/latest
 [discord-invite]: https://discord.gg/7BbPMtygHU
 [prp]: https://www.curseforge.com/minecraft/mc-mods/prp
 [untranslated-items]: https://www.curseforge.com/minecraft/mc-mods/untranslated-items
-[contributing]: https://github.com/TeamKugimiya/ModsTranslationPack/blob/main/docs/CONTRIBUTING.md
-
-<!-- 授權條款 -->
-[main-license]: LICENSE
