@@ -7,6 +7,7 @@
 <div align="center">
 
 [![ModsTranslationPack][project-banner]][github]
+
 [![CurseForge][doc-curseforge]][curseforge]
 [![Modrinth][doc-modrinth]][modrinth]
 [![Website][doc-website]][website]
