@@ -1,0 +1,4 @@
+{
+  "bcc.gui.tooltip.compatible_server": "§3伺服器版本：{0}\n§2用戶端版本（玩家）：{1}",
+  "bcc.gui.tooltip.incompatible_server": "§6你正在遊玩的模組包版本與伺服器不相符 :(\n \n§4伺服器版本：{0}\n§4用戶端版本（玩家）：{1}"
+}
