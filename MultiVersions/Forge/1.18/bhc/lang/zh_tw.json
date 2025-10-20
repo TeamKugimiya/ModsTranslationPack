@@ -1,0 +1,18 @@
+{
+  "itemGroup.bhcTab" : "心形墜飾",
+  "item.bhc.red_heart" : "微型紅心",
+  "item.bhc.yellow_heart" : "微型黃心",
+  "item.bhc.green_heart" : "微型綠心",
+  "item.bhc.blue_heart" : "微型藍心",
+  "item.bhc.canister" : "空罐",
+  "item.bhc.red_heart_canister" : "紅心罐",
+  "item.bhc.yellow_heart_canister" : "黃心罐",
+  "item.bhc.green_heart_canister" : "綠心罐",
+  "item.bhc.blue_heart_canister" : "藍心罐",
+  "item.bhc.wither_bone" : "凋零骨頭",
+  "item.bhc.relic_apple" : "遺物蘋果",
+  "item.bhc.heart_amulet" : "心形墜飾",
+  "container.bhc.heart_amulet" : "心形墜飾",
+  "tooltip.bhc.heartamulet": "右鍵開啟！",
+  "curios.identifier.heartamulet": "心形墜飾"
+}
