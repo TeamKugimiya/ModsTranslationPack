@@ -67,6 +67,7 @@ def generate_mcmeta(mc_version: str, config_path: Path, data_dict: dict, is_rele
                     DESCRIPTION[0] + desc_ver,
                     DESCRIPTION[1]
                 ],
+                "min_format": [int(support_format_min), 0],
                 "supported_formats": {
                     "min_inclusive": support_format_min,
                     "max_inclusive": support_format_max
