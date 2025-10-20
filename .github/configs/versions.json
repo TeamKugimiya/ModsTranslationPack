@@ -40,7 +40,7 @@
             "pack_format": 34,
             "supported_formats": {
                 "min": 34,
-                "max": 64
+                "max": 88.0
             },
             "game_version": ">=1.21"
         }
