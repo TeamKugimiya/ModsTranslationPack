@@ -160,7 +160,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/yichifauzi" title="dirtTW">
+      <a href="https://github.com/dirtTW" title="dirtTW">
         <img src="https://avatars.githubusercontent.com/u/31981880?v=4" width="100;" alt="dirtTW"/>
         <br />
         <sub><b>dirtTW</b></sub>
@@ -188,7 +188,7 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/NoahsarkTaiwan2008" title="Hikari">
+      <a href="https://github.com/hikari0422" title="Hikari">
         <img src="https://avatars.githubusercontent.com/u/140701686?v=4" width="100;" alt="Hikari"/>
         <br />
         <sub><b>Hikari</b></sub>
