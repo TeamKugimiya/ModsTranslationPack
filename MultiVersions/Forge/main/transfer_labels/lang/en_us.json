@@ -1,0 +1,23 @@
+{
+  "filter.type.exact_count": "Exact Count Filter",
+  "filter.type.exact_count.tooltip": "Transfer only if it has same count as the defined filter",
+  "filter.type.mod": "Mod Filter",
+  "filter.type.mod.tooltip": "Transfer only if it has the same mod id as the defined filter",
+  "filter.type.normal": "Normal Filter",
+  "filter.type.normal.tooltip": "Transfer only if it is the same as the filter",
+  "filter.type.regulating": "Regulating Filter",
+  "filter.type.regulating.tooltip": "Transfer to keep the defined filter amount on the destination",
+  "filter.type.scroll": "*Scroll to change the filter type*",
+  "filter.type.tag": "Tag Filter",
+  "filter.type.tag.tooltip": "Transfer only if it has the same tag as the defined in the filter",
+  "item.transfer_labels.fluidstack_extract_transfer_label": "Fluidstack Extract Transfer Label",
+  "item.transfer_labels.fluidstack_insert_transfer_label": "Fluidstack Insert Transfer Label",
+  "item.transfer_labels.itemstack_extract_transfer_label": "Itemstack Extract Transfer Label",
+  "item.transfer_labels.itemstack_insert_transfer_label": "Itemstack Insert Transfer Label",
+  "item.transfer_labels.label_accessor": "Label Accessor",
+  "itemGroup.transfer_labels": "Transfer Labels",
+  "tooltip.transfer_labels.blacklist": "Blacklist",
+  "tooltip.transfer_labels.slot.amount": "Amount",
+  "tooltip.transfer_labels.slot.speed": "Speed",
+  "tooltip.transfer_labels.whitelist": "Whitelist"
+}

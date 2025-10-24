@@ -1,0 +1,23 @@
+{
+  "filter.type.exact_count": "精確數量篩選器",
+  "filter.type.exact_count.tooltip": "僅當物品的數量，與篩選器的所設數量相同時，才進行傳輸",
+  "filter.type.mod": "模組篩選器",
+  "filter.type.mod.tooltip": "僅當物品與篩選器上的物品，擁有相同的模組 ID 時，才進行傳輸",
+  "filter.type.normal": "普通篩選器",
+  "filter.type.normal.tooltip": "僅當物品與篩選器相符時，才進行傳輸",
+  "filter.type.regulating": "調節篩選器",
+  "filter.type.regulating.tooltip": "持續傳輸物品，直到目標容器中的物品數量，與篩選器的所設數量相等",
+  "filter.type.scroll": "*滾動滾輪來變更篩選器類型*",
+  "filter.type.tag": "標籤篩選器",
+  "filter.type.tag.tooltip": "僅當物品與篩選器上的物品，擁有相同的標籤時，才進行傳輸",
+  "item.transfer_labels.fluidstack_extract_transfer_label": "流體抽取標籤",
+  "item.transfer_labels.fluidstack_insert_transfer_label": "流體輸入標籤",
+  "item.transfer_labels.itemstack_extract_transfer_label": "物品抽取標籤",
+  "item.transfer_labels.itemstack_insert_transfer_label": "物品輸入標籤",
+  "item.transfer_labels.label_accessor": "標籤存取工具",
+  "itemGroup.transfer_labels": "傳輸標籤",
+  "tooltip.transfer_labels.blacklist": "黑名單",
+  "tooltip.transfer_labels.slot.amount": "數量",
+  "tooltip.transfer_labels.slot.speed": "速度",
+  "tooltip.transfer_labels.whitelist": "白名單"
+}
