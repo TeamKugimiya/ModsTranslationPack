@@ -24,7 +24,7 @@ item_ids:
 
 ME 進階樣板供應器是一種新型態的 <ItemLink id="ae2:pattern_provider" />，
 
-可由標準版本或 <ItemLink id="extendedae:ex_pattern_provider" />升級而成。
+可由標準版本或 <ItemLink id="extendedae:ex_pattern_provider" /> 升級而成。
 
 其獨特之處在於，能為樣板的個別材料，設定指定的輸入方向。
 
@@ -32,8 +32,10 @@ ME 進階樣板供應器是一種新型態的 <ItemLink id="ae2:pattern_provider
 
 *指的就是你，《通用機械》。*
 
+若要使用此功能，你需要將一個編碼過的普通樣板，放入 <ItemLink id="advanced_ae:adv_pattern_encoder" />。
+
+編輯完成後取出，即可獲得 <ItemLink id="advanced_ae:adv_processing_pattern" />，然後將其放入進階樣板供應器中使用。
+
+此外，還有一個擴展版本，能在單個樣板供應器中容納多達 36 個樣板。
+
 ![AAEGui](../pic/app_gui.png)
-
-若要使用此功能，你需要將一個編碼過的普通樣板，放入<ItemLink id="advanced_ae:adv_pattern_encoder" />。
-
-編輯完成後取出，即可獲得<ItemLink id="advanced_ae:adv_processing_pattern" />，然後將其放入進階樣板供應器中使用。

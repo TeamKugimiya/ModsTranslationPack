@@ -39,16 +39,18 @@ item_ids:
 # 量子盔甲套裝
 
 <Row gap="10">
-<ItemImage id="advanced_ae:quantum_helmet" scale="4"></ItemImage>
-<ItemImage id="advanced_ae:quantum_chestplate" scale="4"></ItemImage>
-<ItemImage id="advanced_ae:quantum_leggings" scale="4"></ItemImage>
-<ItemImage id="advanced_ae:quantum_boots" scale="4"></ItemImage>
+<ItemImage id="advanced_ae:quantum_helmet" components="ae2:stored_energy=2.0E8d" scale="4"></ItemImage>
+<ItemImage id="advanced_ae:quantum_chestplate" components="ae2:stored_energy=3.0E8d" scale="4"></ItemImage>
+<ItemImage id="advanced_ae:quantum_leggings" components="ae2:stored_energy=2.5E8d" scale="4"></ItemImage>
+<ItemImage id="advanced_ae:quantum_boots" components="ae2:stored_energy=2.0E8d" scale="4"></ItemImage>
 </Row>
 
-* <ItemLink id="advanced_ae:quantum_helmet" />
-* <ItemLink id="advanced_ae:quantum_chestplate" />
-* <ItemLink id="advanced_ae:quantum_leggings" />
-* <ItemLink id="advanced_ae:quantum_boots" />
+<ItemGrid>
+<ItemIcon id="advanced_ae:quantum_helmet" components="ae2:stored_energy=2.0E8d"></ItemIcon>
+<ItemIcon id="advanced_ae:quantum_chestplate" components="ae2:stored_energy=3.0E8d"></ItemIcon>
+<ItemIcon id="advanced_ae:quantum_leggings" components="ae2:stored_energy=2.5E8d"></ItemIcon>
+<ItemIcon id="advanced_ae:quantum_boots" components="ae2:stored_energy=2.0E8d"></ItemIcon>
+</ItemGrid>
 
 你是否曾想像過，將你的 AE 系統穿戴在身上會是什麼感覺？
 
@@ -68,7 +70,7 @@ item_ids:
 
 ## 連結至系統
 
-盔甲的每個部件，都可以透過放入 <ItemLink id="ae2:wireless_access_point" />的對應欄位，來個別連結至系統。
+盔甲的每個部件，都可以透過放入 <ItemLink id="ae2:wireless_access_point" /> 的對應欄位，來個別連結至系統。
 
 這將根據裝備部件和已安裝的升級卡，解鎖不同的額外功能。
 

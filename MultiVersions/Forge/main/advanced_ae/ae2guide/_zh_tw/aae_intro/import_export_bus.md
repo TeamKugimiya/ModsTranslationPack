@@ -15,7 +15,7 @@ item_ids:
   <ImportStructure src="../structure/cable_import_export_bus.snbt"></ImportStructure>
 </GameScene>
 
-雙向匯流排整合了 <ItemLink id="ae2:import_bus" />與 <ItemLink id="ae2:export_bus" />的功能。
+雙向匯流排整合了 <ItemLink id="ae2:import_bus" /> 與 <ItemLink id="ae2:export_bus" /> 的功能。
 
 你可以設定篩選器來調整要輸出的物品／流體。
 

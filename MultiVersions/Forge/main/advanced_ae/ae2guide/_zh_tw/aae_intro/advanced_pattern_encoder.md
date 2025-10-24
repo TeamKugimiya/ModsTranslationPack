@@ -34,7 +34,7 @@ item_ids:
 
 若選擇指定某個面，材料將會強制從該方向，輸出至目標方塊。
 
-要特別注意，進階樣板只能被<ItemLink id="advanced_ae:adv_pattern_provider" />正確解碼，  
+要特別注意，進階樣板只能被 <ItemLink id="advanced_ae:adv_pattern_provider" /> 正確解碼，  
 若用於其他類型的樣板供應器，其材料的發送方式，將與普通樣板無異。
 
 此外，若有任何單一物品，無法從指定的面送入目標方塊，  

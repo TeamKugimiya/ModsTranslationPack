@@ -73,6 +73,6 @@ item_ids:
 
 若要完全發揮量子合成器的潛力，必須安裝升級卡。
 
-這台機器支援<ItemLink id="ae2:speed_card" />以及<ItemLink id="ae2:redstone_card" />。
+這台機器支援 <ItemLink id="ae2:speed_card" /> 以及 <ItemLink id="ae2:redstone_card" />。
 
 前者能大幅加快合成速度，達到每個樣板每刻可進行 64 次合成；後者則提供紅石控制選項。
