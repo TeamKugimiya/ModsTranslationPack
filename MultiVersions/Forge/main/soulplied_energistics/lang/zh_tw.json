@@ -1,0 +1,6 @@
+{
+  "soulkey.name": "伏守者靈魂",
+  "soulkey.description": "靈魂",
+  "soulpliedenergistics.can_be_used_filter":  "*可在 AE2 的 ME 介面中，用於請求靈魂*",
+  "soulpliedenergistics.storage_bus":  "*在雷射基座的頂部，使用 AE2 的儲存匯流排，可讓 ME 系統存取靈魂*"
+}
