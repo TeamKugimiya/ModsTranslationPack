@@ -109,6 +109,15 @@
   "someassemblyrequired.ingredient.farmersdelight.mutton_chops": "Mutton",
   "someassemblyrequired.ingredient.farmersdelight.cooked_rice": "Rice",
 
+  "someassemblyrequired.sandwiching_station.info.creating_sandwiches.1": "Used in the creation of sandwiches. To create a sandwich:",
+  "someassemblyrequired.sandwiching_station.info.creating_sandwiches.2": "1. Start your sandwich by right-clicking the Sandwiching Station with a Bread Slice or Burger Bun Bottom.",
+  "someassemblyrequired.sandwiching_station.info.creating_sandwiches.3": "2. Right-click the Sandwiching Station with additional ingredients to build your sandwich. Any edible item can be added, including potions. Ingredients can be removed by right-clicking the Sandwiching Station with an empty hand.",
+  "someassemblyrequired.sandwiching_station.info.creating_sandwiches.4": "3. When finished, break the sandwich block to obtain it as an item.",
+
+  "someassemblyrequired.sandwiching_station.info.bonus_effects.1": "Sandwiches and burgers can apply a status effect, the length of which depends the number of unique ingredients.",
+  "someassemblyrequired.sandwiching_station.info.bonus_effects.2": "Sandwiches with at least %s unique ingredients apply the %s effect, burgers with at least %s unique ingredients apply the %s effect instead.",
+  "someassemblyrequired.sandwiching_station.info.bonus_effects.3": "Bread and items that apply potion effects do not count towards the number of unique ingredients.",
+
   "someassemblyrequired.config.client.list_ingredients_in_tooltip": "List ingredients in tooltip",
   "someassemblyrequired.config.server.maximum_sandwich_height": "Maximum sandwich height",
   "someassemblyrequired.config.server.generate_chest_loot": "Generate chest loot",
@@ -118,6 +127,13 @@
   "someassemblyrequired.config.server.burger_bonus_effect_durations": "Burger bonus effect durations",
 
   "recipe_category.someassemblyrequired.sandwich_building": "Sandwich Building",
+
+  "create.item_attributes.someassemblyrequired.open_faced": "is open-faced",
+  "create.item_attributes.someassemblyrequired.open_faced.inverted": "is not open-faced",
+  "create.item_attributes.someassemblyrequired.burger": "is burger",
+  "create.item_attributes.someassemblyrequired.burger.inverted": "is not burger",
+  "create.item_attributes.someassemblyrequired.double_decker": "is double decker",
+  "create.item_attributes.someassemblyrequired.double_decker.inverted": "is not double decker",
 
   "tag.item.c.bread_slices": "Bread Slices",
   "tag.item.someassemblyrequired.burger_buns": "Burger Buns",

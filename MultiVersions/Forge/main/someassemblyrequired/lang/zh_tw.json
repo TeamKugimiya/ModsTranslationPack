@@ -3,7 +3,7 @@
 
   "someassemblyrequired.advancement.obtain_bread_slice.title": "麵包生死劫",
   "someassemblyrequired.advancement.obtain_bread_slice.description": "將一塊麵包切片",
-  "someassemblyrequired.advancement.obtain_toasted_bread_slice.title": "最偉大的一片...",
+  "someassemblyrequired.advancement.obtain_toasted_bread_slice.title": "最偉大的一片…",
   "someassemblyrequired.advancement.obtain_toasted_bread_slice.description": "將一片麵包製成烤土司",
   "someassemblyrequired.advancement.obtain_sandwich.title": "初級麵包製作",
   "someassemblyrequired.advancement.obtain_sandwich.description": "製作你的第一份三明治",
@@ -46,8 +46,8 @@
   "item.someassemblyrequired.sandwich.base.with_ingredients.sandwich": "%s三明治",
   "item.someassemblyrequired.sandwich.base.with_ingredients.burger": "%s漢堡",
 
-  "item.someassemblyrequired.sandwich.only_bread.sandwich": "三明治...？",
-  "item.someassemblyrequired.sandwich.only_bread.burger": "漢堡...？",
+  "item.someassemblyrequired.sandwich.only_bread.sandwich": "三明治…？",
+  "item.someassemblyrequired.sandwich.only_bread.burger": "漢堡…？",
 
   "item.someassemblyrequired.sandwich.open_faced.sandwich": "單面三明治",
   "item.someassemblyrequired.sandwich.open_faced.burger": "單面漢堡",
@@ -109,6 +109,15 @@
   "someassemblyrequired.ingredient.farmersdelight.mutton_chops": "羊肉",
   "someassemblyrequired.ingredient.farmersdelight.cooked_rice": "飯",
 
+  "someassemblyrequired.sandwiching_station.info.creating_sandwiches.1": "用於製作三明治。製作步驟：",
+  "someassemblyrequired.sandwiching_station.info.creating_sandwiches.2": "1. 手持麵包片或底部漢堡麵包，並對著三明治台點擊右鍵即可開始製作三明治。",
+  "someassemblyrequired.sandwiching_station.info.creating_sandwiches.3": "2. 手持其他食材，並對著三明治台點擊右鍵。任何可食用的物品都可以加入其中，包含藥水。空手並對著三明治台點擊右鍵可移除食材。",
+  "someassemblyrequired.sandwiching_station.info.creating_sandwiches.4": "3. 完成後，將三明治方塊破壞，即可獲得物品形式的三明治。",
+
+  "someassemblyrequired.sandwiching_station.info.bonus_effects.1": "三明治及漢堡能夠提供狀態效果，其效果持續時間取決於不同材料的數量。",
+  "someassemblyrequired.sandwiching_station.info.bonus_effects.2": "使用至少 %s 種不同材料的三明治會提供 %s 效果，使用至少 %s 種不同材料的漢堡則提供 %s 效果。",
+  "someassemblyrequired.sandwiching_station.info.bonus_effects.3": "麵包及具有藥水效果的物品不計入不同材料數量",
+
   "someassemblyrequired.config.client.list_ingredients_in_tooltip": "在工具提示中顯示食材列表",
   "someassemblyrequired.config.server.maximum_sandwich_height": "三明治的最高高度",
   "someassemblyrequired.config.server.generate_chest_loot": "生成儲物箱戰利品",
@@ -118,6 +127,13 @@
   "someassemblyrequired.config.server.burger_bonus_effect_durations": "漢堡加成效果的持續時間",
 
   "recipe_category.someassemblyrequired.sandwich_building": "三明治堆疊",
+
+  "create.item_attributes.someassemblyrequired.open_faced": "為單面",
+  "create.item_attributes.someassemblyrequired.open_faced.inverted": "非單面",
+  "create.item_attributes.someassemblyrequired.burger": "為漢堡",
+  "create.item_attributes.someassemblyrequired.burger.inverted": "非漢堡",
+  "create.item_attributes.someassemblyrequired.double_decker": "為雙層",
+  "create.item_attributes.someassemblyrequired.double_decker.inverted": "非雙層",
 
   "tag.item.c.bread_slices": "麵包片",
   "tag.item.someassemblyrequired.burger_buns": "漢堡麵包",
