@@ -147,6 +147,8 @@ jobs:
             force_include = true
             ['assets/extendedae/ae2guide/_zh_tw/pic/*?.png']
             force_include = true
+            ['assets/appflux/ae2guide/_zh_tw/pic/*?.png']
+            force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: Download Artifact
