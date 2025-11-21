@@ -42,7 +42,7 @@ jobs:
 
     steps:
       - name: Checking Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
