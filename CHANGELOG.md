@@ -1,5 +1,69 @@
 # Changelog
 
+## [1.8.5](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.4...v1.8.5) (2025-11-21)
+
+
+### 🔧 修正錯誤
+
+* **BCC:** 修正變數無法顯示的問題 ([#879](https://github.com/TeamKugimiya/ModsTranslationPack/issues/879)) ([297ad18](https://github.com/TeamKugimiya/ModsTranslationPack/commit/297ad182c5460bedec86ff3a3a09ceacdac85c5a))
+* **deps:** update dependency aiohttp to v3.13.1 ([#882](https://github.com/TeamKugimiya/ModsTranslationPack/issues/882)) ([151b455](https://github.com/TeamKugimiya/ModsTranslationPack/commit/151b455e2cc035dbad04ece13a46a28111a4c068))
+* **deps:** update dependency aiohttp to v3.13.2 ([#909](https://github.com/TeamKugimiya/ModsTranslationPack/issues/909)) ([e246a78](https://github.com/TeamKugimiya/ModsTranslationPack/commit/e246a78afedf458f33a92caacceaf4b040cf03a1))
+* **deps:** update dependency pillow to v12 ([#884](https://github.com/TeamKugimiya/ModsTranslationPack/issues/884)) ([f3d4efa](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f3d4efa2ba899286e734424fcb47598d13be2e69))
+* **deps:** update dependency selenium to v4.37.0 ([#880](https://github.com/TeamKugimiya/ModsTranslationPack/issues/880)) ([8117b7b](https://github.com/TeamKugimiya/ModsTranslationPack/commit/8117b7b297276c869141dcba5e460f4b398b8f2b))
+* **deps:** update dependency selenium to v4.38.0 ([#897](https://github.com/TeamKugimiya/ModsTranslationPack/issues/897)) ([5d0fea8](https://github.com/TeamKugimiya/ModsTranslationPack/commit/5d0fea8e082257740bed6e7b4f5d21ea477634d6))
+* **workflow:** 修正某些指南未被正確轉移 ([4e5dd63](https://github.com/TeamKugimiya/ModsTranslationPack/commit/4e5dd632c28256ebf8c33a97811679111f6b8fd7))
+* **workflow:** 繼續修復錯誤 ([4925835](https://github.com/TeamKugimiya/ModsTranslationPack/commit/4925835f2553742b747084cea3bed21c8aefec4b))
+* **workflow:** 繼續修正更多打包時的錯誤 ([232957e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/232957e7a421c0372804f6068d1389e3ba2026c4))
+
+
+### 🧹 整理專案
+
+* **deps:** update actions/checkout action to v6 ([#910](https://github.com/TeamKugimiya/ModsTranslationPack/issues/910)) ([dc6efc9](https://github.com/TeamKugimiya/ModsTranslationPack/commit/dc6efc9077305c50dc5ad0b5f9a81b560f96b9e6))
+* **deps:** update actions/github-script action to v8 ([#877](https://github.com/TeamKugimiya/ModsTranslationPack/issues/877)) ([c841459](https://github.com/TeamKugimiya/ModsTranslationPack/commit/c84145959af53b511e8a27c8d10ad5b936416b58))
+* **deps:** update actions/labeler action to v6 ([#878](https://github.com/TeamKugimiya/ModsTranslationPack/issues/878)) ([6606c61](https://github.com/TeamKugimiya/ModsTranslationPack/commit/6606c61b119ec6a121805f1555ce344fc7801d11))
+* **deps:** update actions/setup-python action to v6 ([#875](https://github.com/TeamKugimiya/ModsTranslationPack/issues/875)) ([a4bcd2e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/a4bcd2e82272d2d5c7e3daff0d681576c0a12082))
+* **deps:** update dependency python to 3.14 ([#883](https://github.com/TeamKugimiya/ModsTranslationPack/issues/883)) ([3862e23](https://github.com/TeamKugimiya/ModsTranslationPack/commit/3862e231df5f1e8c3077534a4fcd0d1938946b23))
+* **deps:** update github artifact actions (major) ([#896](https://github.com/TeamKugimiya/ModsTranslationPack/issues/896)) ([9819f1d](https://github.com/TeamKugimiya/ModsTranslationPack/commit/9819f1d9e47db0c3a84e3e9272b159b16b45674d))
+* **deps:** update taskmedia/action-conventional-commits action to v1.1.23 ([#881](https://github.com/TeamKugimiya/ModsTranslationPack/issues/881)) ([7af8f52](https://github.com/TeamKugimiya/ModsTranslationPack/commit/7af8f526e345d9ded927ad25a1402d6e866608d6))
+
+
+### ☁️ 工作流程
+
+* Revert "chore(deps): update actions/checkout action to v6 ([#910](https://github.com/TeamKugimiya/ModsTranslationPack/issues/910))" ([c13596e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/c13596e2588670cddaea3755d1b7bb3f7d5f75b4))
+
+
+### 📑 文件更新
+
+* **Readme:** 更新模組數量 ([#893](https://github.com/TeamKugimiya/ModsTranslationPack/issues/893)) ([d6e126b](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d6e126b046ce7928a1ec27b412d3e2ccc326d01e))
+* **Readme:** 更新模組數量 ([#908](https://github.com/TeamKugimiya/ModsTranslationPack/issues/908)) ([28d4b89](https://github.com/TeamKugimiya/ModsTranslationPack/commit/28d4b89a301fc6bdc68a6b5360e4e73f85b42ea4))
+* **Readme:** 更新貢獻者清單 ([#886](https://github.com/TeamKugimiya/ModsTranslationPack/issues/886)) ([b86c615](https://github.com/TeamKugimiya/ModsTranslationPack/commit/b86c615ab28dbec7c48047a17a165e222c9d7a88))
+
+
+### ⚡ 新增模組翻譯
+
+* **Industrial Foregoing Souls:** 新增工業先鋒｜靈魂湧動 v1.10.5 ([#889](https://github.com/TeamKugimiya/ModsTranslationPack/issues/889)) ([0da4416](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0da44166b2f1dccbbac2997f465d05c5f0f30ed3))
+* **Soulplied Energistics:** 新增應用能源 2｜靈魂湧動擴充 v1.0.2 ([#890](https://github.com/TeamKugimiya/ModsTranslationPack/issues/890)) ([4dfd492](https://github.com/TeamKugimiya/ModsTranslationPack/commit/4dfd492c61d59d2dd819b31876d83dab941d6cdd))
+* **Transfer Labels:** 新增傳輸標籤 v0.1.7 ([#894](https://github.com/TeamKugimiya/ModsTranslationPack/issues/894)) ([5f0d4f0](https://github.com/TeamKugimiya/ModsTranslationPack/commit/5f0d4f0c365c119d38bf8bebcbfefb9f130448db))
+
+
+### 🐌 更新模組翻譯
+
+* **AdvancedAE:** 更新翻譯至 v1.6.3 ([#895](https://github.com/TeamKugimiya/ModsTranslationPack/issues/895)) ([d98ed29](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d98ed29e93acc66318a81a09d27bc3fdaf159e10))
+* **Advancement Frames:** 更新翻譯至 v2.2.10 ([#907](https://github.com/TeamKugimiya/ModsTranslationPack/issues/907)) ([ade616e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/ade616ed8f833769b85572c763296bd3038bdf42))
+* **Applied Flux:** 更新翻譯至 v2.1.3 ([#899](https://github.com/TeamKugimiya/ModsTranslationPack/issues/899)) ([f1248b3](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f1248b3cfc1b3aadfbe6d2f7c0a6b15f3b9fec41))
+* **Baubley Heart Canisters:** 更新翻譯至 v1.2.3 ([#885](https://github.com/TeamKugimiya/ModsTranslationPack/issues/885)) ([e5be0a7](https://github.com/TeamKugimiya/ModsTranslationPack/commit/e5be0a7e48ec124532bf29863a240088cc355fdb))
+* **Client Tweaks:** 更新翻譯至 v21.1.9 ([#905](https://github.com/TeamKugimiya/ModsTranslationPack/issues/905)) ([b895754](https://github.com/TeamKugimiya/ModsTranslationPack/commit/b89575411b65781a8a3bf28265f60f8eec49edd1))
+* **Ecologics:** 更新翻譯至 v2.3.1 ([#903](https://github.com/TeamKugimiya/ModsTranslationPack/issues/903)) ([5361c1e](https://github.com/TeamKugimiya/ModsTranslationPack/commit/5361c1e14f801948a0fddc39f9dc3be58b776b2b))
+* **Ender's Delight:** 更新翻譯至 v1.1.0 ([#902](https://github.com/TeamKugimiya/ModsTranslationPack/issues/902)) ([862b404](https://github.com/TeamKugimiya/ModsTranslationPack/commit/862b40429c998bae0d7bd8707fdd5bb8f5bf440a))
+* **ExtendedAE:** 更新翻譯至 v2.2.24 ([#898](https://github.com/TeamKugimiya/ModsTranslationPack/issues/898)) ([5423f3a](https://github.com/TeamKugimiya/ModsTranslationPack/commit/5423f3afd8e7ed767f1fd4cad13e59654c74efc3))
+* **Functional Storage:** 更新翻譯至 v1.5.5 ([#891](https://github.com/TeamKugimiya/ModsTranslationPack/issues/891)) ([0e615b3](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0e615b3ae6fe189701f4e6f1b7ab80a672ac0b03))
+* **Industrial Foregoing:** 更新翻譯至 v3.6.36 ([#888](https://github.com/TeamKugimiya/ModsTranslationPack/issues/888)) ([885da37](https://github.com/TeamKugimiya/ModsTranslationPack/commit/885da371191451c7abd508b09c62997df2f3e7ee))
+* **Miner's Delight:** 更新翻譯至 v1.4.2 ([#901](https://github.com/TeamKugimiya/ModsTranslationPack/issues/901)) ([4ec646a](https://github.com/TeamKugimiya/ModsTranslationPack/commit/4ec646a4e11ac9779524c32166d3260d6833a082))
+* **Snowy Spirit:** 更新翻譯至 v3.0.17 ([#900](https://github.com/TeamKugimiya/ModsTranslationPack/issues/900)) ([80d544a](https://github.com/TeamKugimiya/ModsTranslationPack/commit/80d544aef32297fb31427ea2a36fbcb64dbef71f))
+* **Some Assembly Required:** 更新翻譯至 v5.2.1 ([#904](https://github.com/TeamKugimiya/ModsTranslationPack/issues/904)) ([6932999](https://github.com/TeamKugimiya/ModsTranslationPack/commit/69329998e6a6e94c1d590ba41c2b511bc8a89ec2))
+* **Sophisticated Series:** 更新精巧全家桶 ([#892](https://github.com/TeamKugimiya/ModsTranslationPack/issues/892)) ([7d6e45f](https://github.com/TeamKugimiya/ModsTranslationPack/commit/7d6e45f62e043833890cb3d9e86827be75ab1f11))
+* **Underground Worlds:** 更新翻譯至 v21.8.0 ([#906](https://github.com/TeamKugimiya/ModsTranslationPack/issues/906)) ([9e3ac22](https://github.com/TeamKugimiya/ModsTranslationPack/commit/9e3ac223493f209d8744bfc22be65eea0a89bd79))
+
 ## [1.8.4](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.3...v1.8.4) (2025-08-24)
 
 
