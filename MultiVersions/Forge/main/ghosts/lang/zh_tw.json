@@ -1,11 +1,11 @@
 {
-  "item.ghosts.ghost_spawn_egg": "幽靈 生怪蛋",
+  "item.ghosts.ghost_spawn_egg": "幽靈生怪蛋",
   "entity.ghosts.ghost": "幽靈",
 
-  "item.ghosts.small_ghost_spawn_egg": "小幽靈 生怪蛋",
+  "item.ghosts.small_ghost_spawn_egg": "小幽靈生怪蛋",
   "entity.ghosts.small_ghost": "小幽靈",
 
-  "item.ghosts.kodama_spawn_egg": "木靈 生怪蛋",
+  "item.ghosts.kodama_spawn_egg": "木靈生怪蛋",
   "entity.ghosts.kodama": "木靈",
 
   "ghosts.ghost_ambient": "幽靈飄動聲",
