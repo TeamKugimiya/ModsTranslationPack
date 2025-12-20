@@ -5,10 +5,17 @@
   "item.ghosts.small_ghost_spawn_egg": "Spawn Small Ghost",
   "entity.ghosts.small_ghost": "Small Ghost",
 
-  "ghosts.ghost_ambient": "Ghost Ambient",
-  "ghosts.ghost_death": "Ghost Died",
-  "ghosts.ghost_hurt": "Ghost Hurt",
-  "ghosts.mini_ghost_ambient": "Small Ghost Ambient",
-  "ghosts.mini_ghost_death": "Small Ghost Died",
-  "ghosts.mini_ghost_hurt": "Small Ghost Hurt"
+  "item.ghosts.kodama_spawn_egg": "Spawn Kodama",
+  "entity.ghosts.kodama": "Kodama",
+
+  "ghosts.ghost_ambient": "Ghost swooshes",
+  "ghosts.ghost_death": "Ghost dies",
+  "ghosts.ghost_hurt": "Ghost hurts",
+  "ghosts.mini_ghost_ambient": "Small Ghost swooshes",
+  "ghosts.mini_ghost_death": "Small Ghost dies",
+  "ghosts.mini_ghost_hurt": "Small Ghost hurts",
+
+  "entity.ghosts.client_message.interaction_0": "%1$s is now sitting down",
+  "entity.ghosts.client_message.interaction_1": "%1$s is now following you",
+  "entity.ghosts.client_message.interaction_2": "%1$s is now wandering around"
 }
