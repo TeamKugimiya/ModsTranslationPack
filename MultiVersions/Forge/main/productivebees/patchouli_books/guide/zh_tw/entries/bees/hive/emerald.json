@@ -1,0 +1,19 @@
+{
+    "name": "綠寶石蜜蜂",
+    "icon": "minecraft:emerald",
+    "read_by_default": true,
+    "category": "productivebees:bees_hive",
+    "flag": "productivebees:emerald",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "綠寶石蜜蜂",
+            "text": "以$(l:bees/wild/slimy)史萊姆蜜蜂$(/l)和$(l:bees/hive/diamond)鑽石蜜蜂$(/l)配種生出。",
+            "anchor": "emerald"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:emerald'}"
+        }
+    ]
+}

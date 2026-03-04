@@ -1,0 +1,32 @@
+{
+  "text.appex.experience": "經驗",
+  "text.appex.creative_tab": "應用經驗",
+  "text.appex.experience_button.insert": "存入：%s %s",
+  "text.appex.experience_button.extract": "取出：%s %s",
+  "appex.gui.element.experience.tooltip": "%s / %s",
+  "gui.appex.experience_converter": "經驗轉換器",
+
+  "item.appex.experience_cell_housing": "ME 經驗單元外殼",
+
+  "item.appex.experience_storage_cell_1k": "1k ME 經驗儲存單元",
+  "item.appex.experience_storage_cell_4k": "4k ME 經驗儲存單元",
+  "item.appex.experience_storage_cell_16k": "16k ME 經驗儲存單元",
+  "item.appex.experience_storage_cell_64k": "64k ME 經驗儲存單元",
+  "item.appex.experience_storage_cell_256k": "256k ME 經驗儲存單元",
+
+  "item.appex.portable_experience_cell_16k": "16k 攜帶式經驗單元",
+  "item.appex.portable_experience_cell_1k": "1k 攜帶式經驗單元",
+  "item.appex.portable_experience_cell_4k": "4k 攜帶式經驗單元",
+  "item.appex.portable_experience_cell_64k": "64k 攜帶式經驗單元",
+  "item.appex.portable_experience_cell_256k": "256k 攜帶式經驗單元",
+
+  "item.appex.experience_p2p_tunnel": "經驗 P2P 通道",
+  "item.appex.cable_experience_acceptor": "ME 經驗接收器",
+
+  "block.appex.experience_acceptor": "ME 經驗接收器",
+  "block.appex.experience_converter": "經驗轉換器",
+
+  "appex.item.converter.tooltip": "已儲存：%s XP",
+  "appex.item.converter.inv.in": "已儲存%s",
+  "appex.item.converter.inv.out": "已儲存%s"
+}

@@ -1,0 +1,12 @@
+{
+    "name": "離心機",
+    "icon": "productivebees:centrifuge",
+    "category": "productivebees:blocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:centrifuge",
+            "text": "將蜂巢處理成資源和蜂蜜。可容納 10 桶流體，這些流體可以抽出。離心機也會自動將流體輸出到任何放置在其旁邊的流體儲存方塊。能量型離心機消耗 FE 來以更高的處理速度運行。離心機也用於將蜜蜂樣本中的遺傳物質分離成$(l:genetics)基因$(/l)。"
+        }
+    ]
+}

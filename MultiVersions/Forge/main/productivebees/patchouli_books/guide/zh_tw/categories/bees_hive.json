@@ -1,0 +1,6 @@
+{
+    "name": "蜂箱蜜蜂",
+    "description": "蜂箱蜜蜂，與原版蜜蜂相同，居住在蜂箱中並生產蜂蜜和資源。牠們必須居住在$(l:hives/advanced_hives)進階蜂箱$(/l)中才能生產資源蜂巢。大多數蜂箱蜜蜂是由獨居蜜蜂和其他蜂箱蜜蜂配種而來，但有些是通過給予蜜蜂特定的物品或合成生怪蛋來製造的。所有蜜蜂的配方和花朵需求都可以在 JEI 中找到。",
+    "icon": "productivebees:adv_breed_bee",
+    "parent": "productivebees:bees"
+}

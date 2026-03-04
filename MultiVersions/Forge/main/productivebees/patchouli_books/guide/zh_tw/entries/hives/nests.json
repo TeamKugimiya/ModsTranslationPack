@@ -1,0 +1,16 @@
+{
+    "name": "蜂窩",
+    "icon": "productivebees:oak_wood_nest",
+    "category": "productivebees:hives",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "蜂窩散落在世界各地，每個蜂窩都是 1 隻獨居蜜蜂的家。打破蜂窩即可撿起它和裡面的蜜蜂，無需絲綢之觸。要清除蜂窩裡的蜜蜂和任何卵，你只需要用它自己合成即可。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "如果你在空蜂窩裡放置一個或多個蜂蜜點心，空蜂窩可以吸引新的蜜蜂。右鍵點擊蜂蜜點心即可開始吸引蜜蜂。"
+        }
+    ]
+}

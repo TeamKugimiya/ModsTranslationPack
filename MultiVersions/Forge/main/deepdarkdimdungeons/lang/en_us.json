@@ -1,0 +1,13 @@
+{
+    "itemGroup.deepdarkdimdungeons": "Deep Dark Dim Dungeons",
+    "block.deepdarkdimdungeons.deep_dark_portal": "Deep Dark Portal",
+    "item.deepdarkdimdungeons.deep_dark_catalyst": "Deep Dark Catalyst",
+    
+    "deepdarkdimdungeons.portal.starting_generation": "Starting dungeon generation...",
+    "deepdarkdimdungeons.portal.generation_failed": "Failed to generate dungeon.",
+    "deepdarkdimdungeons.portal.invalid_frame": "No valid portal frame detected.",
+    "deepdarkdimdungeons.portal.generating_progress": "Dungeon generating... (%ds)",
+    "deepdarkdimdungeons.portal.no_catalyst": "Portal generation cancelled: No catalyst found in inventory!",
+    "deepdarkdimdungeons.portal.complete": "Portal activated! Dungeon generation complete.",
+    "deepdarkdimdungeons.portal.complete_consumed": "Portal activated! Dungeon generation complete. Catalyst consumed."
+}

@@ -1,0 +1,18 @@
+{
+    "name": "牧場蜜蜂",
+    "icon": "minecraft:milk_bucket",
+    "read_by_default": true,
+    "sortnum": 2,
+    "category": "productivebees:bees_worker",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "牧場蜜蜂",
+            "text": "牠會擠附近牛、羊或駱馬的奶，在蜂箱中產生牛奶蜂巢。羊也會被剪毛。$(br2)為了製作這種蜜蜂，許多牛受到了傷害。"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:rancher_bee"
+        }
+    ]
+}

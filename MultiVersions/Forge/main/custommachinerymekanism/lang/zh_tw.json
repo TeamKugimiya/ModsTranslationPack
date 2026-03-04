@@ -1,0 +1,43 @@
+{
+  "custommachinerymekanism.requirements.chemical.error.input": "沒有足夠的%s，需要 %smB！",
+  "custommachinerymekanism.requirements.chemical.error.output": "沒有足夠的空間儲存 %smb 的%s！",
+  "custommachinerymekanism.requirements.heat.error.input": "沒有足夠的熱能，需要 %s，但僅檢測到 %s！",
+  "custommachinerymekanism.requirements.temp.error": "溫度需求：%s",
+  "custommachinerymekanism.requirements.radiation.error": "沒有足夠的輻射量：%s，需要 %s！",
+  "custommachinerymekanism.requirements.radiation.info.input": "消除 %s（範圍半徑 %s 格）",
+  "custommachinerymekanism.requirements.radiation.info.output": "釋放 %s",
+  "custommachinerymekanism.requirements.radiation.info.tick.input": "消除 %s/t（範圍半徑 %s 格）",
+  "custommachinerymekanism.requirements.radiation.info.tick.output": "釋放 %s/t",
+
+  "custommachinerymekanism.gui.creation.components.heat.title": "熱能元件",
+  "custommachinerymekanism.gui.creation.components.heat.capacity": "熱容量",
+  "custommachinerymekanism.gui.creation.components.heat.capacity.tooltip": "使機器升溫 1K，所需的熱能量（以克耳文計算）",
+  "custommachinerymekanism.gui.creation.components.heat.base": "基礎溫度",
+  "custommachinerymekanism.gui.creation.components.heat.base.tooltip": "機器在未提供熱能時的溫度（以克耳文計算）",
+  "custommachinerymekanism.gui.creation.components.heat.conduction": "導熱係數",
+  "custommachinerymekanism.gui.creation.components.heat.conduction.tooltip": "決定可輸入或抽取多少熱能的係數\n數值越高代表可抽取的熱能越多，但可輸入的熱能越少",
+  "custommachinerymekanism.gui.creation.components.heat.insulation": "隔熱係數",
+  "custommachinerymekanism.gui.creation.components.heat.insulation.tooltip": "決定多少熱能會散失到環境的係數\n數值越高代表熱能散失越少",
+  "custommachinerymekanism.gui.creation.components.chemical.title": "化學元件",
+  "custommachinerymekanism.gui.creation.components.chemical.radiations": "輻射",
+  "custommachinerymekanism.gui.creation.components.chemical.radiations.tooltip": "當機器被破壞，且內部含有放射性化學物質時，釋放輻射",
+
+  "custommachinerymekanism.gui.creation.gui.heat.min": "最小值",
+  "custommachinerymekanism.gui.creation.gui.heat.min.tooltip": "計量條顯示的最低溫度",
+  "custommachinerymekanism.gui.creation.gui.heat.max": "最大值",
+  "custommachinerymekanism.gui.creation.gui.heat.max.tooltip": "計量條顯示的最高溫度",
+
+  "custommachinerymekanism.jei.ingredient.heat": "熱能：%s",
+  "custommachinerymekanism.jei.ingredient.heat.input": "消耗 %s 熱能",
+  "custommachinerymekanism.jei.ingredient.heat.output": "產生 %s 熱能",
+  "custommachinerymekanism.jei.ingredient.heat.pertick.input": "消耗 %s 熱能/t",
+  "custommachinerymekanism.jei.ingredient.heat.pertick.output": "產生 %s 熱能/t",
+
+  "custommachinery.machine.component.heat": "熱能",
+  "custommachinery.machine.component.chemical": "化學",
+  "custommachinery.machine.component.radiation": "輻射",
+
+  "custommachinery.machine.guielement.heat": "熱能",
+  "custommachinery.machine.guielement.chemical": "化學",
+  "custommachinery.machine.guielement.radiation": "輻射"
+}

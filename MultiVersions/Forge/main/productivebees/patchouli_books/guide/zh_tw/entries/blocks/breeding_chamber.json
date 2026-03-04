@@ -1,0 +1,12 @@
+{
+    "name": "繁殖室",
+    "icon": "productivebees:breeding_chamber",
+    "category": "productivebees:blocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:breeding_chamber",
+            "text": "在這台機器中，你可以在安全的環境下繁殖蜜蜂。為機器提供兩隻成年蜜蜂、牠們各自的繁殖物品以及電力和用於後裔的空蜜蜂籠。你可以使用速度升級來加快這個過程。"
+        }
+    ]
+}

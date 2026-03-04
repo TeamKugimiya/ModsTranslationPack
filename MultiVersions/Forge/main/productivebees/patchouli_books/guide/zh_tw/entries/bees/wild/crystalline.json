@@ -1,0 +1,19 @@
+{
+    "name": "石英蜜蜂",
+    "icon": "minecraft:quartz",
+    "read_by_default": true,
+    "category": "productivebees:bees_wild",
+    "flag": "productivebees:crystalline",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "石英蜜蜂",
+            "text": "發現生活在地獄的石英蜂窩中。石英蜜蜂偏好為含有或由地獄石英製成的東西授粉。",
+            "anchor": "crystalline"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:crystalline'}"
+        }
+    ]
+}

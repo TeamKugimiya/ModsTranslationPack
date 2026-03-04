@@ -1,0 +1,19 @@
+{
+    "name": "紅石蜜蜂",
+    "icon": "minecraft:redstone",
+    "read_by_default": true,
+    "category": "productivebees:bees_hive",
+    "flag": "productivebees:redstone",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "紅石蜜蜂",
+            "text": "以$(l:bees/wild/glowing)螢石蜜蜂$(/l)和$(l:bees/solitary/chocolate_mining)巧克力採礦蜜蜂$(/l)配種生出。",
+            "anchor": "redstone"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:redstone'}"
+        }
+    ]
+}

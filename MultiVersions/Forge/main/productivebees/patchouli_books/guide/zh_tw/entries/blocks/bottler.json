@@ -1,0 +1,39 @@
+{
+    "name": "裝瓶機",
+    "icon": "productivebees:bottler",
+    "category": "productivebees:blocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:bottler",
+            "text": "用於將蜂蜜或其他流體裝瓶。蜂蜜可以從側面輸入，也可以放在離心機旁邊自動輸入。$(br2)裝瓶器與活塞一起使用也可以把蜜蜂碾碎，詳見$(l:genetics/collecting)收集基因$(/l)。"
+        },
+        {
+            "type": "multiblock",
+            "name": "裝瓶機放於離心機旁",
+            "multiblock": {
+                "mapping": {
+                    "H": "productivebees:centrifuge",
+                    "E": "productivebees:bottler"
+                },
+                "pattern": [
+                    [
+                        "H",
+                        "E"
+                    ],
+                    [
+                        "0",
+                        " "
+                    ]
+                ],
+                "symmetrical": true,
+                "offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "enable_visualize": false
+        }
+    ]
+}

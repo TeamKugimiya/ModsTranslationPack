@@ -1,0 +1,22 @@
+{
+    "name": "龍蛋蜂箱",
+    "icon": "productivebees:dragon_egg_hive",
+    "category": "productivebees:hives",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:dragon_egg_hive",
+            "text": "一種專為龍族蜜蜂製作的特殊蜂箱，允許使用者收穫原本難以取得的龍族蜂巢。龍族蜜蜂自然棲息在黑曜石蜂窩中，但也會居住在挖空的龍蛋裡。牠們也可以被說服居住在進階蜂箱中，但在那裡不會生產龍息。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivebees:nests/dragon_egg_hive",
+            "text": "你可以用剩下的東西做一份豐盛的歐姆蛋。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "在終界運作的龍蛋蜂箱中的龍族蜜蜂不需要任何授粉，因為牠們正在從空氣中吸收龍族精華。而在任何其他地點運作時，龍族蜜蜂必須有其他的授粉來源。$(br2)龍蛋蜂箱不能安裝升級。"
+        }
+    ]
+}

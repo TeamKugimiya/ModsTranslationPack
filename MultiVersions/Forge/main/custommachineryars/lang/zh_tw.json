@@ -1,0 +1,26 @@
+{
+  "custommachineryars.gui.element.source.tooltip": "魔源：%s / %s",
+  "custommachineryars.jei.ingredient.source": "魔源：%s",
+  "custommachineryars.jei.ingredient.source.pertick": "魔源：%s",
+  "custommachineryars.jei.ingredient.source.pertick.input": "消耗魔源 %s @ %s/t",
+  "custommachineryars.jei.ingredient.source.pertick.output": "產生魔源 %s @ %s/t",
+  "custommachineryars.jei.ingredient.source.input": "消耗 %s 魔源",
+  "custommachineryars.jei.ingredient.source.output": "產生 %s 魔源",
+  "custommachineryars.requirements.source.error.input": "沒有足夠的魔源，需要 %s 點，但只找到 %s 點！",
+  "custommachineryars.requirements.source.error.output": "沒有足夠的空間儲存 %s 點魔源！",
+  "custommachineryars.requirements.sourcepertick.error.input": "沒有足夠的魔源，需要 %s 點，但只找到 %s 點！",
+  "custommachineryars.requirements.sourcepertick.error.output": "沒有足夠的空間儲存 %s 點魔源！",
+  "custommachineryars.connections.send": "機器已設置為輸送至 %s",
+  "custommachineryars.connections.take": "機器已設置為抽取自 %s",
+  "custommachineryars.connections.fail": "距離過遠。",
+  "custommachineryars.relay.no_from": "抽取位置未設置。",
+  "custommachineryars.relay.no_to": "輸送位置未設置。",
+  "custommachineryars.relay.one_from": "正在抽取自 %d 個位置。",
+  "custommachineryars.relay.one_to": "正在輸送至 %d 個位置。",
+
+  "custommachineryars.gui.creation.components.source.title": "魔源元件",
+
+  "custommachinery.machine.component.source": "魔源",
+  "custommachinery.machine.guielement.source": "魔源",
+  "custommachinery.machine.component.item_source": "物品（魔源處理）"
+}

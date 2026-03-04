@@ -1,0 +1,17 @@
+{
+  "block.ftbpc.trigger_block": "玩家觸發器",
+  "ftbpackcompanion.actionpad.tpa.request_sent": "已發送傳送請求給",
+  "ftbpackcompanion.home": "家",
+  "ftbpackcompanion.key.category": "模組包助手",
+  "ftbpackcompanion.key.open_action_pad": "開啟操作面板",
+  "ftbpackcompanion.shaders_notice.no_shaders.description": "本模組包內建光影功能，但預設為停用。是否想要啟用？光影可能會影響遊戲性能、與部分模組衝突，或不相容於你的硬體。",
+  "ftbpackcompanion.shaders_notice.no_shaders.title": "未啟用光影",
+  "ftbpackcompanion.shaders_notice.shaders.description": "若你想體驗更鮮明的視覺效果，你可以在此處啟用光影。若之後遇到任何問題，隨時可以在顯示設定中將其停用。",
+  "ftbpackcompanion.shaders_notice.shaders.title": "光影",
+  "ftbpackcompanion.shaders_notice.shaders_btn.disable": "停用光影",
+  "ftbpackcompanion.shaders_notice.shaders_btn.enable": "啟用光影",
+  "ftbpackcompanion.shaders_notice.title": "是否要使用光影？",
+  "ftbpackcompanion.spawn": "重生點",
+  "ftbpackcompanion.tpa": "請求傳送",
+  "item.ftbpc.action_pad": "操作面板"
+}

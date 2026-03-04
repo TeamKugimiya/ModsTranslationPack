@@ -1,0 +1,30 @@
+{
+  "itemGroup.me_beam_former.example_tab": "ME Beam Former",
+
+  "block.me_beam_former.beam_former_block": "Mega ME Beam Former",
+  "block.me_beam_former.omni_beam_former_block": "Omni ME Beam Former",
+  "block.me_beam_former.wireless_energy_tower": "Wireless Energy Induction Tower",
+  "item.me_beam_former.beam_former_part": "ME Beam Former",
+  "item.me_beam_former.laser_binding_tool": "Laser Binding Tool",
+
+  "tooltip.me_beam_former.beam_former_part": "Used to emit/receive energy beams within ME networks",
+  "tooltip.me_beam_former.beam_former_block": "Only back face can connect cables; requires two opposite placement to form beam",
+  "tooltip.me_beam_former.binding.set": "Source beam former selected: (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.set_omni": "Omni Beam Former selected: (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.set_tower": "Wireless Energy Tower selected: (%s, %s, %s) - Use Shift+Right Click to bind machines",
+  "tooltip.me_beam_former.binding.omni_linked": "Omni Beam connected: (%s, %s, %s) → (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.omni_unlinked": "Omni Beam disconnected: (%s, %s, %s) ✗ (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_linked": "Energy Tower linked to machine: (%s, %s, %s) → (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_unlinked": "Energy Tower unlinked from machine: (%s, %s, %s) ✗ (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_to_tower_linked": "Energy Tower network connected: (%s, %s, %s) ↔ (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_to_tower_unlinked": "Energy Tower network disconnected: (%s, %s, %s) ✗ (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_to_tower_needs_normal_click": "To connect towers, use normal Right Click (without Shift)",
+  "tooltip.me_beam_former.binding.tower_out_of_range": "Tower connection distance out of range! Limit: 16x16 horizontal, 256 vertical",
+  "tooltip.me_beam_former.binding.tower_needs_shift": "Wireless Energy Tower requires Shift+Right Click to bind machines",
+  "tooltip.me_beam_former.binding.omni_only": "Omni Beam Former can only connect to other Omni Beam Formers",
+  "tooltip.me_beam_former.binding.cleared": "Source beam former cleared",
+  "tooltip.me_beam_former.binding.invalid": "Source beam former is invalid or no longer exists",
+  "tooltip.me_beam_former.binding.no_source": "Please use Shift+Right Click to select source beam former first",
+  "tooltip.me_beam_former.binding.self_link": "Cannot connect to itself",
+  "tooltip.me_beam_former.binding.out_of_range": "Connection distance out of range! Limit: 20x20 horizontal, 32 vertical"
+} 

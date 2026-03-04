@@ -1,0 +1,18 @@
+{
+    "name": "農場蜜蜂",
+    "icon": "minecraft:wheat",
+    "read_by_default": true,
+    "sortnum": 1,
+    "category": "productivebees:bees_worker",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "農場蜜蜂",
+            "text": "牠會收割附近的農作物，並將產物留在地面上。其作業範圍是以蜂箱為中心，半徑 4 格的區域，這個範圍可以通過升級來擴大。如果你安裝了可以右鍵收割農作物的模組，這隻蜜蜂也會那樣做。"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:farmer_bee"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: 《應用通量》介紹
+    title: 擴充模組：應用通量
     position: 70
 ---
 

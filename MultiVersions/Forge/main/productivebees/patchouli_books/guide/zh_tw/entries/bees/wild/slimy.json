@@ -1,0 +1,18 @@
+{
+    "name": "史萊姆蜜蜂",
+    "icon": "minecraft:slime_ball",
+    "read_by_default": true,
+    "category": "productivebees:bees_wild",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "史萊姆蜜蜂",
+            "text": "發現生活在沼澤生態域的史萊姆蜂窩中。史萊姆蜜蜂偏好為沼澤地區的花朵授粉，但也會將就使用其他生態域的花朵。",
+            "anchor": "slimy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:slimy'}"
+        }
+    ]
+}

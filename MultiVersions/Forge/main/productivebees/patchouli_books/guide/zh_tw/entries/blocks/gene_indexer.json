@@ -1,0 +1,16 @@
+{
+    "name": "基因整合機",
+    "icon": "productivebees:gene_indexer",
+    "category": "productivebees:blocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:gene_indexer",
+            "text": "你是否被基因樣本淹沒了？你是否因為組合基因而快過勞死？那麼這個機器就是為你而設計的！"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "將這個超大容器裝滿你周圍散落的所有基因，撥動控制桿開關，然後觀看自動內部基因索引裝置為你組合基因。這可能不是最有效率的方式…但它是自動化的！$(br2)需要紅石訊號。"
+        }
+    ]
+}

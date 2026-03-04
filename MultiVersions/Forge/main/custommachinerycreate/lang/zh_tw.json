@@ -1,0 +1,14 @@
+{
+  "custommachinerycreate.gui.creation.components.contraption": "裝置",
+  "custommachinerycreate.gui.creation.components.contraption.stress_impact": "動能",
+
+  "custommachinery.machine.component.contraption": "裝置",
+
+  "custommachinerycreate.requirement.contraption.info.speed.input": "轉速需求：%s RPM",
+  "custommachinerycreate.requirement.contraption.info.speed.output": "輸出轉速：%s RPM",
+  "custommachinerycreate.requirement.contraption.info.stress.input": "動能：%sx RPM",
+  "custommachinerycreate.requirement.contraption.info.stress.output": "動能容量：%sx RPM",
+  "custommachinerycreate.requirement.contraption.info.scaling": "處理速度將隨轉速變動",
+  "custommachinerycreate.requirement.contraption.error.speed.input": "未達到轉速需求：需要 %s RPM，但僅檢測到 %s RPM",
+  "custommachinerycreate.requirement.contraption.error.stress.input": "這台機器已過載！"
+}

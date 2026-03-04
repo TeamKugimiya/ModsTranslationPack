@@ -34,6 +34,7 @@ item_ids:
   - advanced_ae:recharging_card
   - advanced_ae:portable_workbench_card
   - advanced_ae:pick_craft_card
+  - advanced_ae:camo_card
 ---
 
 # 量子盔甲套裝
@@ -224,12 +225,14 @@ item_ids:
 <ItemImage id="advanced_ae:lava_immunity_card" scale="2"></ItemImage>
 <ItemImage id="advanced_ae:water_breathing_card" scale="2"></ItemImage>
 <ItemImage id="advanced_ae:magnet_card" scale="2"></ItemImage>
+<ItemImage id="advanced_ae:camo_card" scale="2"></ItemImage>
 </Row>
 
 * <ItemLink id="advanced_ae:night_vision_card" />
 * <ItemLink id="advanced_ae:lava_immunity_card" />
 * <ItemLink id="advanced_ae:water_breathing_card" />
 * <ItemLink id="advanced_ae:magnet_card" />
+* <ItemLink id="advanced_ae:camo_card" />
 
 這些升級卡為穿戴者提供多種實用功能，例如免疫特定傷害與夜視。
 

@@ -1,0 +1,19 @@
+{
+    "name": "遠古蜜蜂",
+    "icon": "minecraft:netherite_scrap",
+    "read_by_default": true,
+    "category": "productivebees:bees_hive",
+    "flag": "productivebees:netherite",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "遠古蜜蜂",
+            "text": "餵食$(l:bees/hive/diamond)鑽石蜜蜂$(/l)一個獄髓方塊轉變而成。",
+            "anchor": "netherite"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:netherite'}"
+        }
+    ]
+}

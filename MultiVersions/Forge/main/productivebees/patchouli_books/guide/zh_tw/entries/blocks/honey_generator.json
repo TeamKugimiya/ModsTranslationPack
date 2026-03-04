@@ -1,0 +1,16 @@
+{
+    "name": "蜂蜜發電機",
+    "icon": "productivebees:honey_generator",
+    "category": "productivebees:blocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:honey_generator",
+            "text": "燃燒蜂蜜來發電。蜂蜜可以通過管道輸入，蜂蜜瓶、蜂蜜塊和蜂蜜桶也可以在 GUI 中加入。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "蜂蜜發電機接受兩種升級；$(l:items/upgrades#productivity)產率升級$(/l)會降低蜂蜜消耗量。$(l:items/upgrades#speed)速度升級$(/l)會提高…速度。"
+        }
+    ]
+}

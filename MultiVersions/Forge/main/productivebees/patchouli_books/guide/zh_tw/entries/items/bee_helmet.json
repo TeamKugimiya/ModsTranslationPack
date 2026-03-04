@@ -1,0 +1,16 @@
+{
+    "name": "蜂窩頭盔",
+    "icon": "productivebees:bee_nest_diamond_helmet",
+    "category": "productivebees:items",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:bee_nest_diamond_helmet",
+            "text": "將一個蜂窩緊密安裝在你的漂亮鑽石頭盔上，讓它變得黏糊糊的。蜂窩裡的蜜蜂肯定會習慣你，甚至在你遇到危險時可能會保護你。穿戴這件衣物也會向其他蜜蜂展示你的善意，並使牠們不會攻擊你。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivebees:bee_nest_helmet"
+        }
+    ]
+}

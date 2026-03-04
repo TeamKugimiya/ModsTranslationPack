@@ -1,0 +1,19 @@
+{
+  "entity.mecrh.egg_bomb": "Egg Bomb",
+  "entity.mecrh.ender_chicken": "Mighty Ender Chicken",
+  "item.mecrh.ender_chicken_spawn_egg": "Ender Chicken Spawn Egg",
+  "item.mecrh.music_disc_chicken_of_chaos": "Music Disc",
+  "item.mecrh.music_disc_chicken_of_chaos.desc": "FTB Team - Chicken of Chaos",
+  "item.mecrh.test_stick": "Test Stick",
+  "mecrh.message.chicken_despawn_warning": "No players in arena! Chicken despawns in %s seconds!",
+  "mecrh.message.wrong_forcefield_item": "Invalid weapon for the forcefield!",
+  "mecrh.subtitle.chaos_hurt": "Chicken hurt",
+  "mecrh.subtitle.charge_start": "Chicken charges",
+  "mecrh.subtitle.chicken_spin": "Chicken starts spinning",
+  "mecrh.subtitle.clear_warn": "Chicken shrieks",
+  "mecrh.subtitle.forcefield_off": "Forcefield deactivates",
+  "mecrh.subtitle.forcefield_on": "Forcefield activates",
+  "mecrh.subtitle.laser_end": "Laser powers down",
+  "mecrh.subtitle.laser_loop": "Laser firing",
+  "mecrh.subtitle.laser_start": "Laser powers up"
+}

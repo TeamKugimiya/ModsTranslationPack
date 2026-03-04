@@ -1,0 +1,13 @@
+{
+  "gui.ae2addonlib.SetAmount": "設定數量",
+  "gui.tooltips.ae2addonlib.ClearButton": "清空",
+  "gui.tooltips.ae2addonlib.ClearFluidButtonHint": "清除機器內的殘留流體。",
+  "gui.tooltips.ae2addonlib.ClearSidesButtonHint": "停用機器所有面的輸出功能。",
+  "gui.tooltips.ae2addonlib.DirectionalOutput": "輸出設定",
+  "gui.tooltips.ae2addonlib.DirectionalOutputHint": "設定產物要從機器的哪一面自動輸出",
+  "gui.tooltips.ae2addonlib.Disabled": "已停用",
+  "gui.tooltips.ae2addonlib.Enabled": "已啟用",
+  "gui.tooltips.ae2addonlib.InvalidHexInput": "無效的 HEX 色碼",
+  "gui.tooltips.ae2addonlib.TankAmount": "%s / %s B",
+  "gui.tooltips.ae2addonlib.TankEmpty": "空"
+}

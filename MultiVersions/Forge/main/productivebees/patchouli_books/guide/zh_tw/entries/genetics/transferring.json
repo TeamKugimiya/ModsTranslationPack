@@ -1,0 +1,15 @@
+{
+    "name": "轉移基因",
+    "icon": "productivebees:gene",
+    "category": "productivebees:genetics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "要將基因轉移給蜜蜂，你需要將基因與蜂蜜點心結合。將蜂蜜點心餵給蜜蜂，牠將有機會（取決於基因的純度）獲得新的屬性。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "基因的純度可以通過組合兩個相同的基因，或者在一個蜂蜜點心上放置更多相同的基因來提升。"
+        }
+    ]
+}

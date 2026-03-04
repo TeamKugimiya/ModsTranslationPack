@@ -1,0 +1,6 @@
+{
+    "name": "職業蜜蜂",
+    "description": "除了生產資源的蜜蜂之外，還有一些蜜蜂具有特殊的任務。",
+    "icon": "minecraft:wooden_hoe",
+    "parent": "productivebees:bees"
+}

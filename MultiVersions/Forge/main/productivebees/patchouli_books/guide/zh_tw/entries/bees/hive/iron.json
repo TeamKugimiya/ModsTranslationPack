@@ -1,0 +1,19 @@
+{
+    "name": "鐵蜜蜂",
+    "icon": "minecraft:iron_ingot",
+    "read_by_default": true,
+    "category": "productivebees:bees_hive",
+    "flag": "productivebees:iron",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "鐵蜜蜂",
+            "text": "以$(l:bees/wild/crystalline)石英蜜蜂$(/l)和$(l:bees/solitary/ashy_mining)灰色採礦蜂$(/l)配種生出。",
+            "anchor": "iron"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:iron'}"
+        }
+    ]
+}
