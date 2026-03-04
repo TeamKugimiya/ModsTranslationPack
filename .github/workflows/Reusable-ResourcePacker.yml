@@ -153,6 +153,12 @@ jobs:
             force_include = true
             ['assets/alexscaves/books/zh_tw/root.txt']
             force_include = true
+            ['assets/oritech/oracle_index/books/oritech/.translated/zh_tw/**/*?.json']
+            force_include = true
+            ['assets/oritech/oracle_index/books/oritech/.translated/zh_tw/**/*?.mdx']
+            force_include = true
+            ['assets/sfm/template_programs/**/*?.sfml']
+            force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: Download Artifact

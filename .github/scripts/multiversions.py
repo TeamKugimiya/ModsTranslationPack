@@ -16,6 +16,17 @@ RESOURCEPACK_PATH = Path("pack/assets")
 MODS_SETTINGS = Path("MultiVersions/configs/mods-settings.json")
 VERSIONS_CONFIG = Path(".github/configs/versions.json")
 
+# All copy guide settings
+SIMPLE_GUIDE_DIRS = {
+    "ae2guide", "book", "books", "blue_skies",
+    "manual", "guides", "template_programs",
+}
+
+# For speical path case; j.name -> copy path subdir
+SPECIAL_GUIDE_PATHS = {
+    "oracle_index": "books/oritech/.translated/zh_tw",
+}
+
 ## Log Messages
 
 MSG_COPY = "📂 複製－"
@@ -239,40 +250,49 @@ def copy_guide(platform: str, version: str, dir_path: str):
     logger.info(MSG_PLATFORM_GUIDE.format(platform=platform, version=version))
     logger.info("")
 
-    for i in Path(f"MultiVersions/{platform}/{dir_path}").iterdir():
-        for j in i.iterdir():
-            if j.name != "lang":
-                # Default guide path
-                if j.name == "patchouli_books":
-                    mod_id = j.parent.name
-                    for i in j.iterdir():
-                        guide_id = i.name
-                    src_path = j.joinpath(f"{guide_id}/zh_tw")
-                    # pylint: disable=line-too-long
-                    dest_path = Path(f"{RESOURCEPACK_PATH}/{mod_id}/patchouli_books/{guide_id}/zh_tw")
+    for mod_dir in Path(f"MultiVersions/{platform}/{dir_path}").iterdir():
+        for sub_dir in mod_dir.iterdir():
+            if sub_dir.name == "lang":
+                continue
 
-                    if dest_path.exists() is not True:
-                        logger.info(f"{MSG_GUIDE_COPY}{mod_id}")
-                        logger.debug(f"{MSG_DEBUG_SRC}{src_path}")
-                        logger.debug(f"{MSG_DEBUG_DEST}{dest_path}")
-                        shutil.copytree(src_path, dest_path)
-                    else:
-                        logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
-                # Special guide path
-                elif j.name == "ae2guide" or j.name == "book" or j.name == "books" or j.name == "blue_skies" or j.name == "manual" or j.name == "guides":
-                    mod_id = j.parent.name
-                    src_path = j
-                    dest_path = Path(f"{RESOURCEPACK_PATH}/{mod_id}/{j.name}")
+            mod_id = sub_dir.parent.name
 
-                    if dest_path.exists() is not True:
-                        logger.info(f"{MSG_GUIDE_COPY}{mod_id}")
-                        logger.debug(f"{MSG_DEBUG_SRC}{src_path}")
-                        logger.debug(f"{MSG_DEBUG_DEST}{dest_path}")
-                        shutil.copytree(src_path, dest_path)
-                    else:
-                        logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
-                else:
-                    logger.error(f"⚠️ 未收入 {j} 的手冊資料夾行為！")
+            # Default guide path (Patchouli)
+            if sub_dir.name == "patchouli_books":
+                guide_dirs = list(sub_dir.iterdir())
+                if not guide_dirs:
+                    logger.warning(f"⚠️ patchouli_books 下無子目錄: {sub_dir}")
+                    continue
+                guide_id = guide_dirs[0].name
+                src_path = sub_dir / guide_id / "zh_tw"
+                dest_path = Path(
+                    f"{RESOURCEPACK_PATH}/{mod_id}/patchouli_books/{guide_id}/zh_tw"
+                )
+
+            # Simple guide path (copy entire folder)
+            elif sub_dir.name in SIMPLE_GUIDE_DIRS:
+                src_path = sub_dir
+                dest_path = Path(f"{RESOURCEPACK_PATH}/{mod_id}/{sub_dir.name}")
+
+            # Special guide path (copy specific sub-path)
+            elif sub_dir.name in SPECIAL_GUIDE_PATHS:
+                relative = SPECIAL_GUIDE_PATHS[sub_dir.name]
+                src_path = sub_dir / relative
+                dest_path = Path(
+                    f"{RESOURCEPACK_PATH}/{mod_id}/{sub_dir.name}/{relative}"
+                )
+
+            else:
+                logger.error(f"⚠️ 未收入 {sub_dir} 的手冊資料夾行為！")
+                continue
+
+            if not dest_path.exists():
+                logger.info(f"{MSG_GUIDE_COPY}{mod_id}")
+                logger.debug(f"{MSG_DEBUG_SRC}{src_path}")
+                logger.debug(f"{MSG_DEBUG_DEST}{dest_path}")
+                shutil.copytree(src_path, dest_path)
+            else:
+                logger.info(f"{MSG_GUIDE_IGNORE_COPY}{mod_id}")
 
 def extract_versions(path: Path, version: str) -> dict:
     """
