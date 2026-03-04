@@ -1,0 +1,14 @@
+{
+  "custommachinerycreate.gui.creation.components.contraption":  "Contraption",
+  "custommachinerycreate.gui.creation.components.contraption.stress_impact": "Stress impact",
+
+  "custommachinery.machine.component.contraption": "Contraption",
+
+  "custommachinerycreate.requirement.contraption.info.speed.input": "Required speed: %s RPM",
+  "custommachinerycreate.requirement.contraption.info.speed.output": "Output speed: %s RPM",
+  "custommachinerycreate.requirement.contraption.info.stress.input": "Stress impact: %sx RPM",
+  "custommachinerycreate.requirement.contraption.info.stress.output": "Stress capacity: %sx RPM",
+  "custommachinerycreate.requirement.contraption.info.scaling": "Processing speed will scale with rotation speed",
+  "custommachinerycreate.requirement.contraption.error.speed.input": "Not enough rotational speed: %s RPM required but %s RPM found",
+  "custommachinerycreate.requirement.contraption.error.stress.input": "This machine is overstressed !"
+}

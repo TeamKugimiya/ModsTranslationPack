@@ -1,0 +1,16 @@
+{
+    "name": "捕蜂機",
+    "icon": "productivebees:catcher",
+    "category": "productivebees:blocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:catcher",
+            "text": "裝入蜜蜂籠後，它會捕捉任何飛過上方的蜜蜂。你可以在頂部放置一朵花或$(l:blocks/feeder)餵食板$(/l)來吸引蜜蜂。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "捕蜂機接受三種升級；$(l:items/upgrades#babee)幼蜂升級$(/l)會過濾掉成年蜂，只捕捉幼蜂。$(l:items/upgrades#filter)篩選升級$(/l)會使其只捕捉符合篩選設定的蜜蜂。$(l:items/upgrades#range)範圍升級$(/l)會增加捕捉範圍。可以安裝多個範圍升級。"
+        }
+    ]
+}

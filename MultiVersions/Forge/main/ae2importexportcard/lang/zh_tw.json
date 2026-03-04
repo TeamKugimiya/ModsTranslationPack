@@ -1,0 +1,7 @@
+{
+	"itemGroup.ae2importexportcard" : "AE2 輸入／輸出卡",
+	"item.ae2importexportcard.import_card": "輸入卡",
+	"item.ae2importexportcard.export_card": "輸出卡",
+	"gui.ae2importexportcard.whitelist": "白名單",
+	"gui.ae2importexportcard.blacklist": "黑名單"
+}

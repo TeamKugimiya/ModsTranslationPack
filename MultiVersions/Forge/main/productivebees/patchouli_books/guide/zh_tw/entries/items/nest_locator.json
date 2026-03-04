@@ -1,0 +1,16 @@
+{
+    "name": "蜂窩定位器",
+    "icon": "productivebees:nest_locator",
+    "category": "productivebees:items",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:nest_locator",
+            "text": "可以精準定位附近蜂窩微弱的嗡嗡聲。手持定位器，Shift 右鍵一個蜂窩或你想要尋找的那種蜂窩種類的方塊上。如果你想尋找沙子蜂窩，你可以右鍵一個沙子蜂窩或一個沙子方塊。再次右鍵點擊將會定位附近任何那種類型的蜂窩。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivebees:nest_locator"
+        }
+    ]
+}

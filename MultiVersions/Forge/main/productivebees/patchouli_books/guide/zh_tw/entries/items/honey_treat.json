@@ -1,0 +1,12 @@
+{
+    "name": "蜜蜂點心",
+    "icon": "productivebees:honey_treat",
+    "category": "productivebees:items",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:honey_treat",
+            "text": "蜂蜜點心可以用來餵食憤怒的蜜蜂安撫牠們。餵食幼蜂則會使牠們更快長大。$(br2)蜂蜜點心也可以與基因結合，以將基因屬性從一隻蜜蜂轉移到另一隻蜜蜂。詳見$(l:genetics/transferring)轉移基因$(/l)。"
+        }
+    ]
+}

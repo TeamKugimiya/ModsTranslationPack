@@ -1,0 +1,7 @@
+{
+  "chat.ae2wtlib.NetworkNotPowered" :  "Network Not Powered",
+  "chat.ae2wtlib.SingularityNotPresent" : "Missing Singularity",
+  "chat.ae2wtlib.NoQuantumBridgeCard" : "Missing Quantum Bridge Card",
+  "chat.ae2wtlib.NoQuantumBridge" : "Quantum Network Bridge not found. Is it in loaded chunks?",
+  "chat.ae2wtlib.NetworkMismatch": "Quantum Bridge and Wireless Access Point are connected to Different Networks"
+}

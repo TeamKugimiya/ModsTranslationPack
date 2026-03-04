@@ -1,0 +1,114 @@
+{
+    "item.apothic_spawners.spawner": "%s Spawner",
+
+    "enchantment.apothic_spawners.capturing": "Capturing",
+    "enchantment.apothic_spawners.capturing.desc": "Makes mobs have a chance to drop their spawn egg.",
+
+    "misc.apothic_spawners.concat": "%s %s",
+    "misc.apothic_spawners.value_concat": "%s: %s",
+    "misc.apothic_spawners.min_value": "Min Value: %s",
+    "misc.apothic_spawners.max_value": "Max Value: %s",
+    "misc.apothic_spawners.mainhand": "Held in Main Hand",
+    "misc.apothic_spawners.offhand": "Held in Off Hand",
+    "misc.apothic_spawners.not_consumed": "This item is not consumed",
+    "misc.apothic_spawners.rclick_spawner": "Right-Click the Spawner",
+    "misc.apothic_spawners.entity": "Entity",
+    "misc.apothic_spawners.shift_stats": "Hold Shift for Stats",
+    "misc.apothic_spawners.ctrl_stats": "Hold Ctrl for Stats",
+    "misc.apothic_spawners.banned": "Cannot be used on a Spawner",
+    "misc.apothic_spawners.on": "%s: On",
+    "misc.apothic_spawners.off": "%s: Off",
+    
+    "stat.apothic_spawners.min_delay": "Min Spawn Delay",
+    "stat.apothic_spawners.min_delay.desc": "The minimum number of ticks between spawns",
+    
+    "stat.apothic_spawners.max_delay": "Max Spawn Delay",
+    "stat.apothic_spawners.max_delay.desc": "The maximum number of ticks between spawns",
+    
+    "stat.apothic_spawners.spawn_count": "Spawn Count",
+    "stat.apothic_spawners.spawn_count.desc": "The number of entities spawned at once",
+    
+    "stat.apothic_spawners.max_nearby_entities": "Max Entities",
+    "stat.apothic_spawners.max_nearby_entities.desc": "The total number of entities allowed nearby",
+    
+    "stat.apothic_spawners.req_player_range": "Activation Range",
+    "stat.apothic_spawners.req_player_range.desc": "How far a player can be before spawning stops",
+    
+    "stat.apothic_spawners.spawn_range": "Spawn Range",
+    "stat.apothic_spawners.spawn_range.desc": "The radius (in blocks) that mobs can spawn in",
+    
+    "stat.apothic_spawners.ignore_players": "Ignores Players",
+    "stat.apothic_spawners.ignore_players.desc": "The spawner does not need a nearby player",
+    
+    "stat.apothic_spawners.ignore_conditions": "Ignores Conditions",
+    "stat.apothic_spawners.ignore_conditions.desc": "The spawner ignores spawn conditions",
+    
+    "stat.apothic_spawners.redstone_control": "Redstone Control",
+    "stat.apothic_spawners.redstone_control.desc": "The spawner requires redstone to activate",
+    
+    "stat.apothic_spawners.ignore_light": "Ignores Light",
+    "stat.apothic_spawners.ignore_light.desc": "The spawner ignores light levels",
+    
+    "stat.apothic_spawners.no_ai": "No AI",
+    "stat.apothic_spawners.no_ai.desc": "Spawned entities will have no AI",
+    
+	"stat.apothic_spawners.silent": "Silent",
+	"stat.apothic_spawners.silent.desc": "Spawned entities will make no noise",
+    
+	"stat.apothic_spawners.youthful": "Youthful",
+	"stat.apothic_spawners.youthful.desc": "The spawner will always spawn a baby entity when possible",
+
+	"stat.apothic_spawners.initial_health": "Initial Health",
+	"stat.apothic_spawners.initial_health.desc": "The initial health percentage of spawned mobs",
+
+	"stat.apothic_spawners.burning": "Burning",
+	"stat.apothic_spawners.burning.desc": "Spawned mobs will be set on fire",
+
+	"stat.apothic_spawners.echoing": "Echoing",
+	"stat.apothic_spawners.echoing.desc": "Spawned mobs will drop extra loot, increasing with level",
+
+    "title.apothic_spawners.spawner": "Spawner Modification",
+    "info.apothic_spawners.spawner": "Spawners may be modified with various items, and can be collected with %s.",
+    "info.apothic_spawners.spawner.no_silk": "Spawners may be modified with various items, but collection with Silk Touch is currently disabled.",
+    "info.apothic_spawners.spawner.always_drop": "Spawners may be modified with various items, and will always drop when broken.",
+    "info.apothic_spawners.capturing": "The capturing enchantment gives monsters a chance to drop their spawn egg.\\n \\nDrop Rate: %s%% per level",
+
+    "config.jade.plugin_apothic_spawners.spawner": "Apothic Spawners",
+
+    "advancements.apothic_spawners.spawner.root": "apothic_spawners Spawners",
+    "advancements.apothic_spawners.spawner.root.desc": "Spawners can be collected and modified, see JEI for info.",
+    "advancements.apothic_spawners.spawner": "Apothic Spawners",
+    "advancements.apothic_spawners.spawner.desc": "Collect a mob spawner using Silk Touch.",
+    "advancements.apothic_spawners.capturing": "Captured!",
+    "advancements.apothic_spawners.capturing.desc": "Get a spawn egg from a mob using the Capturing enchantment",
+    "advancements.apothic_spawners.modifier": "Just a Few Tweaks...",
+    "advancements.apothic_spawners.modifier.desc": "Use a spawner modifier to change the stats of a spawner.",
+    "advancements.apothic_spawners.spawncount": "Look at the Size of His Spawner!",
+    "advancements.apothic_spawners.spawncount.desc": "Raise the spawn count of a spawner to 16",
+    "advancements.apothic_spawners.maxdelay": "Time-Warped Spawner",
+    "advancements.apothic_spawners.maxdelay.desc": "Decrease the maximum spawn delay of a spawner to 20",
+    "advancements.apothic_spawners.mindelay": "I Am The Fast",
+    "advancements.apothic_spawners.mindelay.desc": "Decrease the minimum spawn delay of a spawner to 20",
+    "advancements.apothic_spawners.nearbyents": "Creating a Horde",
+    "advancements.apothic_spawners.nearbyents.desc": "Raise the max nearby entities of a spawner to 32",
+    "advancements.apothic_spawners.playerrange": "Far from the Fight",
+    "advancements.apothic_spawners.playerrange.desc": "Raise the player activation range of a spawner to 48",
+    "advancements.apothic_spawners.spawnrange": "Mobs for Miles",
+    "advancements.apothic_spawners.spawnrange.desc": "Raise the spawn range of a spawner to 32",
+    "advancements.apothic_spawners.conditions": "Unchecked Spawning",
+    "advancements.apothic_spawners.conditions.desc": "Disable spawn conditions for a spawner",
+    "advancements.apothic_spawners.players": "Factory-Ready",
+    "advancements.apothic_spawners.players.desc": "Disable the need for nearby players for a spawner",
+    "advancements.apothic_spawners.redstone": "Adding a Switch",
+    "advancements.apothic_spawners.redstone.desc": "Enable redstone control for a spawner",
+    "advancements.apothic_spawners.light": "Who Needs Darkness?",
+    "advancements.apothic_spawners.light.desc": "Make your spawner work in any light level.",
+    "advancements.apothic_spawners.noai": "Brain Drain",
+    "advancements.apothic_spawners.noai.desc": "Disable Mob AI for a spawner.",
+    "advancements.apothic_spawners.ultimate_spawner": "The Ultimate Spawner",
+    "advancements.apothic_spawners.ultimate_spawner.desc": "Create a spawner with minimal delays that has redstone control, no AI, ignores spawn conditions, and ignores players.",
+
+    "enchantment.level.0": "0",
+
+    "emi.category.apothic_spawners.spawner": "Spawner Modification"
+}

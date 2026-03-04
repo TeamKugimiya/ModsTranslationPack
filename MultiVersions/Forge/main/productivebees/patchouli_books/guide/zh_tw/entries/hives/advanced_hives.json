@@ -1,0 +1,26 @@
+{
+    "name": "進階蜂箱",
+    "icon": "productivebees:advanced_oak_beehive",
+    "category": "productivebees:hives",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:advanced_oak_beehive",
+            "text": "生產蜜蜂在原版蜂箱的基礎上擴展出進階蜂箱。與原版蜂箱不同的是，進階蜂箱不需要附近的營火即可收穫，牠可以在蜜蜂仍在裡面的情況下破壞並移動，而無需使用絲綢之觸。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivebees:hives/advanced_oak_beehive",
+            "text": "根據你的模組包中可用的其他木材種類，有多種進階蜂箱的變種。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "進階蜂箱具有介面，你可以從中看到目前在蜂箱內的蜜蜂，以及取出任何生產的資源。進階蜂箱可以使用$(l:hives/expansion_boxes)擴展箱$(/l) 進一步升級。附加一個$(l:hives/expansion_boxes)擴展箱$(/l)會將蜜蜂容量從 3 隻增加到 5 隻，並能安裝$(l:items/upgrades)升級$(/l)。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "如果你厭倦了等待蜜蜂完成工作並離開蜂箱，你可以用木棒敲擊蜂箱或蜂窩來強迫牠們出來，但會損失所有的生產進度。這只有在蜜蜂可以安全離開的情況下才有效。"
+        }
+    ]
+}

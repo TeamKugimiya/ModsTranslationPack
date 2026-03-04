@@ -1,0 +1,210 @@
+{
+    "apothic_attributes.gui.attributes": "Attributes",
+    "apothic_attributes.gui.base": "Base: %s",
+    "apothic_attributes.gui.min": "Min: %s",
+    "apothic_attributes.gui.max": "Max: %s",
+    "apothic_attributes.gui.modifiers": "Modifiers",
+    "apothic_attributes.gui.add_value": "Addition: %s",
+    "apothic_attributes.gui.add_multiplied_base": "Multiply Base: %s",
+    "apothic_attributes.gui.add_multiplied_total": "Multiply Total: %s",
+    "apothic_attributes.gui.press_shift": "Hold Shift for more info.",
+    "apothic_attributes.gui.current": "Current: %s",
+    "apothic_attributes.gui.show_attributes": "Show Attributes",
+    "apothic_attributes.gui.dynamic": "(dynamic)",
+    "apothic_attributes.gui.formula": "Modifier Formula",
+    "apothic_attributes.gui.formula.base": "Base",
+    "apothic_attributes.gui.formula.value": "Value",
+    "apothic_attributes.gui.no_modifiers": "No Modifiers",
+
+    "attribute.name.generic.armor.desc": "Increases physical damage reduction.",
+    "attribute.name.generic.armor_toughness.desc": "Reduces the effectiveness of enemy armor reduction.",
+    "attribute.name.generic.attack_damage.desc": "Physical damage dealt with a fully charged attack.",
+    "attribute.name.generic.attack_knockback.desc": "How far your melee attacks knock back foes, in half-blocks.",
+    "attribute.name.generic.attack_speed.desc": "How many fully charged attacks you can execute per second.",
+    "attribute.name.generic.knockback_resistance.desc": "How much knockback you ignore.",
+    "attribute.name.generic.luck.desc": "Increases the likelihood of good things happening.",
+    "attribute.name.generic.max_health.desc": "How many hit points you can have.",
+    "attribute.name.generic.movement_speed.desc": "Movement speed while walking.",
+
+    "neoforge.entity_reach.desc": "How far you can interact with entities, in blocks.",
+    "neoforge.entity_gravity.desc": "Acceleration towrds the ground, in blocks/s²",
+    "neoforge.name_tag_distance.desc": "How far away another player must be to see your name.",
+    "neoforge.block_reach.desc": "How far you can interact with blocks, in blocks.",
+    "neoforge.step_height.desc": "How many blocks you may step up without jumping.",
+    "neoforge.swim_speed.desc": "How fast you swim, relative to normal.",
+
+    "button.apothic_attributes.hide_unchanged": "Hide Unchanged Attributes",
+    "text.apothic_attributes.hide_unchanged": "Hide Unchanged",
+
+    "apothic_attributes:draw_speed": "Draw Speed",
+    "apothic_attributes:draw_speed.desc": "How fast you draw ranged weapons, such as bows, crossbows, or tridents.",
+
+    "apothic_attributes:crit_chance": "Crit Chance",
+    "apothic_attributes:crit_chance.desc": "The chance any damage you deal critically strikes, dealing extra damage based on your Crit Damage.",
+
+    "apothic_attributes:crit_damage": "Crit Damage",
+    "apothic_attributes:crit_damage.desc": "Damage multiplier for critical hits, including vanilla jump crits.",
+
+    "apothic_attributes:cold_damage": "Cold Damage",
+    "apothic_attributes:cold_damage.desc": "Bonus magic damage applied on melee attacks, and slows enemies hit.",
+
+    "apothic_attributes:fire_damage": "Fire Damage",
+    "apothic_attributes:fire_damage.desc": "Bonus magic damage applied on melee attacks, and burns enemies hit.",
+
+    "apothic_attributes:life_steal": "Life Steal",
+    "apothic_attributes:life_steal.desc": "Percentage of post-mitigation damage which will heal you.",
+
+    "apothic_attributes:current_hp_damage": "Current HP Damage",
+    "apothic_attributes:current_hp_damage.desc": "Bonus physical damage applied on melee attacks, based on the target's health.",
+
+    "apothic_attributes:overheal": "Overheal",
+    "apothic_attributes:overheal.desc": "Percentage of post-mitigation damage which will grant you an absorption shield.",
+
+    "apothic_attributes:ghost_health": "Ghost Health",
+    "apothic_attributes:ghost_health.desc": "Not Yet Implemented",
+
+    "apothic_attributes:mining_speed": "Mining Speed",
+    "apothic_attributes:mining_speed.desc": "How fast you mine blocks, compared to normal.",
+
+    "apothic_attributes:arrow_damage": "Arrow Damage",
+    "apothic_attributes:arrow_damage.desc": "Damage multiplier for arrows. Tridents are arrows.",
+
+    "apothic_attributes:arrow_velocity": "Arrow Velocity",
+    "apothic_attributes:arrow_velocity.desc": "Speed multiplier for arrows. Arrow damage scales with velocity.",
+
+    "apothic_attributes:experience_gained": "Experience Gained",
+    "apothic_attributes:experience_gained.desc": "Multiplier on how much experience you gain from breaking blocks and killing mobs.",
+
+    "apothic_attributes:healing_received": "Healing Received",
+    "apothic_attributes:healing_received.desc": "Multiplier on all incoming healing.",
+
+    "apothic_attributes:armor_pierce": "Armor Pierce",
+    "apothic_attributes:armor_pierce.desc": "Flat reduction to the target's armor value.",
+
+    "apothic_attributes:armor_shred": "Armor Shred",
+    "apothic_attributes:armor_shred.desc": "Percentage reduction to the target's armor value.",
+
+    "apothic_attributes:projectile_damage": "Projectile Damage",
+    "apothic_attributes:projectile_damage.desc": "Damage multiplier for all outgoing projectiles.",
+
+    "apothic_attributes:prot_pierce": "Protection Pierce",
+    "apothic_attributes:prot_pierce.desc": "Flat reduction to the target's protection point total.",
+
+    "apothic_attributes:prot_shred": "Protection Shred",
+    "apothic_attributes:prot_shred.desc": "Percentage reduction to the target's protection point total.",
+
+    "apothic_attributes:dodge_chance": "Dodge Chance",
+    "apothic_attributes:dodge_chance.desc": "Chance to dodge a melee attack or a projectile.",
+
+    "apothic_attributes:elytra_flight": "Elytra Flight",
+    "apothic_attributes:elytra_flight.desc": "If you can fly as if wearing an Elytra.",
+
+    "apothic_attributes:creative_flight": "Creative Flight",
+    "apothic_attributes:creative_flight.desc": "If you can fly as if in Creative Mode.",
+
+    "comment_id": "MobFx - descriptions are duplicated for JEED support.",
+
+    "effect.apothic_attributes.knowledge": "Ancient Knowledge",
+    "effect.apothic_attributes.vitality": "Bursting Vitality",
+    "effect.apothic_attributes.grievous": "Grievous Wounds",
+    "effect.apothic_attributes.flying": "Flying",
+
+    "effect.apothic_attributes.sundering": "Sundering",
+    "effect.apothic_attributes.sundering.desc": "Increases damage received.",
+    "effect.apothic_attributes.sundering.description": "Increases damage received.",
+
+    "effect.apothic_attributes.bleeding": "Bleeding",
+    "effect.apothic_attributes.bleeding.desc": "Inflicts damage every two seconds.",
+    "effect.apothic_attributes.bleeding.description": "Inflicts damage every two seconds.",
+
+    "effect.apothic_attributes.detonation": "Flaming Detonation",
+    "effect.apothic_attributes.detonation.desc": "On expiry, inflicts damage based on remaining fire ticks.",
+    "effect.apothic_attributes.detonation.description": "On expiry, inflicts damage based on remaining fire ticks.",
+
+    "effect.minecraft.night_vision.desc": "Allows you to see in the dark.",
+    "effect.minecraft.invisibility.desc": "Makes you invisible, excluding equipment.",
+    "effect.minecraft.jump_boost.desc": "Increases jump height.",
+    "effect.minecraft.fire_resistance.desc": "Makes you immune to fire damage.",
+    "effect.minecraft.water_breathing.desc": "Causes you to be unable to drown.",
+    "effect.minecraft.instant_health.desc": "Instantly restores a bit of your health.",
+    "effect.minecraft.instant_damage.desc": "Instantly causes a bit of magic damage.",
+    "effect.minecraft.poison.desc": "Periodically inflicts non-lethal damage.",
+    "effect.minecraft.regeneration.desc": "Causes you to regenerate health over time.",
+
+    "comment_id": "Damage Sources",
+
+    "death.attack.apothic_attributes:bleeding": "%1$s bled out",
+    "death.attack.apothic_attributes:bleeding.item": "%1$s bled out due to %2$s's %3$s",
+    "death.attack.apothic_attributes:bleeding.player": "%1$s bled out whilst trying to escape %2$s",
+
+    "death.attack.apothic_attributes:detonation": "%1$s was detonated by flame",
+    "death.attack.apothic_attributes:detonation.item": "%1$s was detonated by flame",
+    "death.attack.apothic_attributes:detonation.player": "%1$s was detonated by flame",
+
+    "death.attack.apothic_attributes:current_hp_damage": "%1$s was struck down",
+    "death.attack.apothic_attributes:current_hp_damage.item": "%1$s was struck down by %2$s using %3$s",
+    "death.attack.apothic_attributes:current_hp_damage.player": "%1$s was struck down whilst fighting %2$s",
+
+    "death.attack.apothic_attributes:fire_damage": "%1$s was scorched to death",
+    "death.attack.apothic_attributes:fire_damage.item": "%1$s was scorched to death by %2$s using %3$s",
+    "death.attack.apothic_attributes:fire_damage.player": "%1$s was scorched to death whilst fighting %2$s",
+
+    "death.attack.apothic_attributes:cold_damage": "%1$s was frozen to death",
+    "death.attack.apothic_attributes:cold_damage.item": "%1$s was frozen to death by %2$s using %3$s",
+    "death.attack.apothic_attributes:cold_damage.player": "%1$s was frozen to death whilst fighting %2$s",
+
+    "item.minecraft.potion.effect.minecraft.resistance": "Potion of Resistance",
+    "item.minecraft.splash_potion.effect.minecraft.resistance": "Splash Potion of Resistance",
+    "item.minecraft.lingering_potion.effect.minecraft.resistance": "Lingering Potion of Resistance",
+    "item.minecraft.tipped_arrow.effect.minecraft.resistance": "Arrow of Resistance",
+
+    "item.minecraft.potion.effect.minecraft.absorption": "Potion of Absorption",
+    "item.minecraft.splash_potion.effect.minecraft.absorption": "Splash Potion of Absorption",
+    "item.minecraft.lingering_potion.effect.minecraft.absorption": "Lingering Potion of Absorption",
+    "item.minecraft.tipped_arrow.effect.minecraft.absorption": "Arrow of Absorption",
+
+    "item.minecraft.potion.effect.minecraft.haste": "Potion of Haste",
+    "item.minecraft.splash_potion.effect.minecraft.haste": "Splash Potion of Haste",
+    "item.minecraft.lingering_potion.effect.minecraft.haste": "Lingering Potion of Haste",
+    "item.minecraft.tipped_arrow.effect.minecraft.haste": "Arrow of Haste",
+
+    "item.minecraft.potion.effect.minecraft.mining_fatigue": "Potion of Mining Fatigue",
+    "item.minecraft.splash_potion.effect.minecraft.mining_fatigue": "Splash Potion of Mining Fatigue",
+    "item.minecraft.lingering_potion.effect.minecraft.mining_fatigue": "Lingering Potion of Mining Fatigue",
+    "item.minecraft.tipped_arrow.effect.minecraft.mining_fatigue": "Arrow of Mining Fatigue",
+
+    "item.minecraft.potion.effect.minecraft.wither": "Potion of Wither",
+    "item.minecraft.splash_potion.effect.minecraft.wither": "Splash Potion of Wither",
+    "item.minecraft.lingering_potion.effect.minecraft.wither": "Lingering Potion of Wither",
+    "item.minecraft.tipped_arrow.effect.minecraft.wither": "Arrow of Wither",
+
+    "item.minecraft.potion.effect.minecraft.levitation": "Potion of Levitation",
+    "item.minecraft.splash_potion.effect.minecraft.levitation": "Splash Potion of Levitation",
+    "item.minecraft.lingering_potion.effect.minecraft.levitation": "Lingering Potion of Levitation",
+    "item.minecraft.tipped_arrow.effect.minecraft.levitation": "Arrow of Levitation",
+
+    "item.minecraft.potion.effect.apothic_attributes.sundering": "Potion of Sundering",
+    "item.minecraft.splash_potion.effect.apothic_attributes.sundering": "Splash Potion of Sundering",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.sundering": "Lingering Potion of Sundering",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.sundering": "Arrow of Sundering",
+
+    "item.minecraft.potion.effect.apothic_attributes.knowledge": "Potion of Ancient Knowledge",
+    "item.minecraft.splash_potion.effect.apothic_attributes.knowledge": "Splash Potion of Ancient Knowledge",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.knowledge": "Lingering Potion of Ancient Knowledge",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.knowledge": "Arrow of Ancient Knowledge",
+
+    "item.minecraft.potion.effect.apothic_attributes.vitality": "Potion of Healing Boost",
+    "item.minecraft.splash_potion.effect.apothic_attributes.vitality": "Splash Potion of Healing Boost",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.vitality": "Lingering Potion of Healing Boost",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.vitality": "Arrow of Healing Boost",
+
+    "item.minecraft.potion.effect.apothic_attributes.grievous": "Potion of Healing Reduction",
+    "item.minecraft.splash_potion.effect.apothic_attributes.grievous": "Splash Potion of Healing Reduction",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.grievous": "Lingering Potion of Healing Reduction",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.grievous": "Arrow of Healing Reduction",
+
+    "item.minecraft.potion.effect.apothic_attributes.flying": "Potion of Flying",
+    "item.minecraft.splash_potion.effect.apothic_attributes.flying": "Splash Potion of Flying",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.flying": "Lingering Potion of Flying",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.flying": "Arrow of Flying"
+}

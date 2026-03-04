@@ -1,0 +1,11 @@
+{
+    "name": "蜂巢",
+    "icon": "minecraft:honeycomb",
+    "category": "productivebees:items",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "居住在進階蜂箱中的蜜蜂會生產資源蜂巢，這些蜂巢可以放入離心機中提取資源。$(br)蜂巢也可以壓縮成蜂巢塊，更方便地儲存。"
+        }
+    ]
+}

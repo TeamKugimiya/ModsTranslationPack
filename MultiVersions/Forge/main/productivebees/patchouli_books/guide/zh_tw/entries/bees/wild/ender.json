@@ -1,0 +1,19 @@
+{
+    "name": "終界蜜蜂",
+    "icon": "minecraft:ender_pearl",
+    "read_by_default": true,
+    "category": "productivebees:bees_wild",
+    "flag": "productivebees:ender",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "終界蜜蜂",
+            "text": "發現生活在終界島嶼上的終界石蜂窩中。終界蜜蜂偏好為當地的歌萊花授粉。",
+            "anchor": "ender"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:ender'}"
+        }
+    ]
+}

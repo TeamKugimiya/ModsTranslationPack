@@ -1,0 +1,18 @@
+{
+    "name": "糖袋蜜蜂",
+    "icon": "minecraft:cocoa_beans",
+    "read_by_default": true,
+    "category": "productivebees:bees_wild",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "糖袋蜜蜂",
+            "text": "這種溫暖潮濕的小蜜蜂可以在熱帶地區找到。牠會生產一種超級美味的特殊蜂巢。$(br)即使可可豆並非生長在它們自然的氣候下，牠也能找到長有可可豆的地方。",
+            "anchor": "sugarbag"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:sugarbag'}"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "conduit.enderio.chemical": "化學品導管",
+  "conduit.enderio.dense_me": "緻密 ME 導管",
+  "conduit.enderio.ender_chemical": "終界化學品導管",
+  "conduit.enderio.heat": "熱導管",
+  "conduit.enderio.me": "ME 導管",
+  "conduit.enderio.pressurized_chemical": "加壓化學品導管",
+  "conduit.enderio.rs": "精緻儲存導管",
+  "item.enderio.basic_chemical_filter": "基礎化學品篩選器",
+  "tooltip.enderio.conduit.chemical.change_fluid1": "已鎖定化學品：",
+  "tooltip.enderio.conduit.chemical.change_fluid2": "點擊重設！",
+  "tooltip.enderio.conduit.chemical.change_fluid3": "化學品：%s",
+  "tooltip.enderio.conduit.chemical.multi": "可在同一條導管中，同時傳輸多種化學品"
+}

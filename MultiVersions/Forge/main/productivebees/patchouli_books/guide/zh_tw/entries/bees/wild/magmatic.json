@@ -1,0 +1,18 @@
+{
+    "name": "岩漿蜜蜂",
+    "icon": "minecraft:magma_block",
+    "read_by_default": true,
+    "category": "productivebees:bees_wild",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "岩漿蜜蜂",
+            "text": "發現生活在地獄堡壘的地獄磚蜂窩中。岩漿蜜蜂偏好為岩漿塊或地獄疙瘩授粉。",
+            "anchor": "magmatic"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:magmatic'}"
+        }
+    ]
+}

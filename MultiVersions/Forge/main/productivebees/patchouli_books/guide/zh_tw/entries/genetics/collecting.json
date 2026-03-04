@@ -1,0 +1,42 @@
+{
+    "name": "收集基因",
+    "icon": "productivebees:gene",
+    "category": "productivebees:genetics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "裝瓶機與活塞一起使用可以將蜜蜂碾碎。將一隻蜜蜂放在中間並拉動控制桿。確保裝瓶機內有空瓶。將碾碎的蜜蜂樣本丟入離心機中，把有用的東西從廢物中分離出來。"
+        },
+        {
+            "type": "multiblock",
+            "name": "碾碎蜜蜂",
+            "multiblock": {
+                "mapping": {
+                    "P": "minecraft:piston[facing=down]",
+                    "B": "productivebees:bottler[has_bottle=true]"
+                },
+                "pattern": [
+                    [
+                        "P"
+                    ],
+                    [
+                        " "
+                    ],
+                    [
+                        "B"
+                    ],
+                    [
+                        "0"
+                    ]
+                ],
+                "symmetrical": true,
+                "offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "enable_visualize": false
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "item.cable_facades.facade_wrench": "偽裝板扳手",
+  
+  "cable_facades.tooltip.toggle_transparency": "對著空氣點擊右鍵，切換偽裝板的透明化顯示",
+  "cable_facades.tooltip.current_state": "目前狀態：",
+  "cable_facades.tooltip.enabled": "已啟用",
+  "cable_facades.tooltip.disabled": "已停用",
+  
+  "cable_facades.message.transparency_enabled": "偽裝板透明化：",
+  "cable_facades.message.shaders_warning": "⚠ ",
+  "cable_facades.message.shaders_detected": "已檢測到光影：",
+  "cable_facades.message.transparency_may_not_work": "偽裝板透明化可能無法正常運作",
+  
+  "cable_facades.facade.name_prefix": "偽裝板 - ",
+  "cable_facades.facade.empty": "偽裝板 - 空",
+  "cable_facades.creative_tab": "線纜偽裝板",
+  
+  "cable_facades.error.cannot_facade_itself": "不能用方塊本體來偽裝自己",
+  "cable_facades.error.block_disabled": "此方塊無法被用來偽裝（已在設定檔中停用）",
+  
+  "cable_facades.jei.facade_any_block": "偽裝板 - 任何方塊",
+  "cable_facades.jei.any_block": "任何方塊"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "經驗蜜蜂",
+    "icon": "minecraft:experience_bottle",
+    "read_by_default": true,
+    "category": "productivebees:bees_hive",
+    "flag": "productivebees:experience",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "經驗蜜蜂",
+            "text": "以$(l:bees/hive/emerald)綠寶石蜜蜂$(/l)和$(l:bees/hive/lapis)青金石蜜蜂$(/l)配種生出。",
+            "anchor": "experience"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:experience'}"
+        }
+    ]
+}

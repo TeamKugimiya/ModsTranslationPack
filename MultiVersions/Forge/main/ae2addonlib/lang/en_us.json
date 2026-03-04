@@ -1,0 +1,13 @@
+{
+  "gui.ae2addonlib.SetAmount": "Set Amount",
+  "gui.tooltips.ae2addonlib.ClearButton": "Clear",
+  "gui.tooltips.ae2addonlib.ClearFluidButtonHint": "Flush the remaining fluid from the machine.",
+  "gui.tooltips.ae2addonlib.ClearSidesButtonHint": "Disable output from all sides of the machine.",
+  "gui.tooltips.ae2addonlib.DirectionalOutput": "Directional Output",
+  "gui.tooltips.ae2addonlib.DirectionalOutputHint": "Configure which directions are allowed for output auto-export",
+  "gui.tooltips.ae2addonlib.Disabled": "Disabled",
+  "gui.tooltips.ae2addonlib.Enabled": "Enabled",
+  "gui.tooltips.ae2addonlib.InvalidHexInput": "Invalid hex code input",
+  "gui.tooltips.ae2addonlib.TankAmount": "%s / %s B",
+  "gui.tooltips.ae2addonlib.TankEmpty": "Empty"
+}

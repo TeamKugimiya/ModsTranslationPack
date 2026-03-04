@@ -1,0 +1,18 @@
+{
+    "name": "邱比特蜜蜂",
+    "icon": "minecraft:arrow",
+    "read_by_default": true,
+    "sortnum": 7,
+    "category": "productivebees:bees_worker",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "邱比特蜜蜂",
+            "text": "這種蜜蜂分泌的費洛蒙會讓動物進入發情期。"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:cupid_bee"
+        }
+    ]
+}

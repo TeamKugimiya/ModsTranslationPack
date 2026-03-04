@@ -1,0 +1,20 @@
+{
+    "name": "餵食板",
+    "icon": "productivebees:feeder",
+    "category": "productivebees:blocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:feeder",
+            "text": "可以用作蜜蜂的授粉收集點。它可以容納 3 格物品方塊。當伐木蜜蜂或採石蜜蜂從這裡採集時，它會從餵食板中隨機產生物品。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "餵食板可以泡在蜂蜜中，為蜜蜂提供一個極佳的跑腳和從漫長的工作後恢復的地方，也就是說，它能給予牠們再生效果。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "由於$(l:items/upgrades#simulator)模擬蜂箱$(/l)只有 1 個採集方塊位置，餵食板與它們配合得非常好，讓你在一個蜂箱中最多可以有 3 種不同的蜜蜂工作。"
+        }
+    ]
+}

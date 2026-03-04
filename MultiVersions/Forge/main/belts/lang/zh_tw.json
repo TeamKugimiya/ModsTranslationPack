@@ -1,0 +1,23 @@
+{
+  "message.belts.reset": "輸送帶已重設！",
+  "message.belts.started": "已設定起點，接下來請選擇目的地！",
+  "message.belts.belt_created": "已建立輸送帶！",
+  "message.belts.midpoint_added": "已儲存中繼點！",
+  "message.belts.midpoint_duplicate": "中繼點已存在。",
+  "message.belts.chute_used": "物品滑槽已被使用！",
+  "message.belts.filter_set": "已設定篩選器",
+  "message.belts.filter_reset": "已重設篩選器",
+  "itemgroup.belts.items": "簡易輸送帶",
+  "block.belts.chute": "輸送帶物品滑槽",
+  "block.belts.chute.tooltip": "將其貼附在任何容器方塊上。輸送帶將連接至此處。",
+  "block.belts.chute.tooltip.1": "手持物品，對其點擊右鍵來設定篩選器。",
+  "block.belts.chute.tooltip.ftbfilters": "支援來自《FTB Filters》模組的智慧篩選器。",
+  "block.belts.conveyor_support": "輸送帶支架",
+  "block.belts.conveyor_support.tooltip": "用於引導輸送帶的路線。",
+  "item.belts.belt": "輸送帶",
+  "item.belts.belt.tooltip.0": "使用此物品可建立各種形狀與尺寸的輸送帶。\n輸送帶會自動在起點與目的地放置物品滑槽（滑槽為選用）。",
+  "item.belts.belt.tooltip.1": "點擊現有的滑槽將其標記為起點／目的地。點擊輸送帶支架可加入選用的中繼點。",
+  "item.belts.belt.tooltip.2": "對著空氣 [Shift] + 點擊右鍵來重設設定。",
+  "item.belts.belt.tooltip.3": "手持物品，右鍵點擊已建立輸送帶的滑槽，可啟用篩選功能。",
+  "message.belts.show_extra": "按住 [Ctrl] 顯示更多資訊。"
+}

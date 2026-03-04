@@ -1,0 +1,26 @@
+{
+  "custommachineryars.gui.element.source.tooltip": "Source: %s / %s",
+  "custommachineryars.jei.ingredient.source": "Source: %s",
+  "custommachineryars.jei.ingredient.source.pertick": "Source: %s",
+  "custommachineryars.jei.ingredient.source.pertick.input": "Consume source %s @ %s/t",
+  "custommachineryars.jei.ingredient.source.pertick.output": "Produce source %s @ %s/t",
+  "custommachineryars.jei.ingredient.source.input": "Consume %s source",
+  "custommachineryars.jei.ingredient.source.output": "Produce %s source",
+  "custommachineryars.requirements.source.error.input": "Not enough source, %s needed but only %s found !",
+  "custommachineryars.requirements.source.error.output": "Not enough space for storing %s source!",
+  "custommachineryars.requirements.sourcepertick.error.input": "Not enough source, %s needed but only %s found !",
+  "custommachineryars.requirements.sourcepertick.error.output": "Not enough space for storing %s source!",
+  "custommachineryars.connections.send": "Machine set to send to %s",
+  "custommachineryars.connections.take": "Machine set to take from %s",
+  "custommachineryars.connections.fail": "Too far away.",
+  "custommachineryars.relay.no_from": "No take location set.",
+  "custommachineryars.relay.no_to": "No send location set.",
+  "custommachineryars.relay.one_from": "Taking from %d location(s).",
+  "custommachineryars.relay.one_to": "Sending to %d location(s).",
+
+  "custommachineryars.gui.creation.components.source.title": "Source Component",
+
+  "custommachinery.machine.component.source": "Source",
+  "custommachinery.machine.guielement.source": "Source",
+  "custommachinery.machine.component.item_source": "Item (source handler)"
+}

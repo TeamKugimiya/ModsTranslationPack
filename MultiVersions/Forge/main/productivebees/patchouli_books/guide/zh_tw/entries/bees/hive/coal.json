@@ -1,0 +1,19 @@
+{
+    "name": "煤炭蜜蜂",
+    "icon": "minecraft:coal",
+    "read_by_default": true,
+    "category": "productivebees:bees_hive",
+    "flag": "productivebees:coal",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "煤炭蜜蜂",
+            "text": "以$(l:bees/wild/magmatic)岩漿蜜蜂$(/l)和$(l:bees/solitary/leafcutter)切葉蜜蜂$(/l)配種生出。",
+            "anchor": "coal"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:configurable_bee{type:'productivebees:coal'}"
+        }
+    ]
+}

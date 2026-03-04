@@ -1,0 +1,114 @@
+{
+    "item.apothic_spawners.spawner": "%s生怪磚",
+
+    "enchantment.apothic_spawners.capturing": "捕捉",
+    "enchantment.apothic_spawners.capturing.desc": "殺死生物時，有機率掉落他們的生怪蛋。",
+
+    "misc.apothic_spawners.concat": "%s %s",
+    "misc.apothic_spawners.value_concat": "%s：%s",
+    "misc.apothic_spawners.min_value": "最小值：%s",
+    "misc.apothic_spawners.max_value": "最大值：%s",
+    "misc.apothic_spawners.mainhand": "持在慣用手上",
+    "misc.apothic_spawners.offhand": "持在非慣用手上",
+    "misc.apothic_spawners.not_consumed": "這個物品不會被消耗",
+    "misc.apothic_spawners.rclick_spawner": "對著生怪磚點擊右鍵",
+    "misc.apothic_spawners.entity": "實體",
+    "misc.apothic_spawners.shift_stats": "按住 Shift 查看統計資料",
+    "misc.apothic_spawners.ctrl_stats": "按住 Ctrl 查看統計資料",
+    "misc.apothic_spawners.banned": "無法被使用在生怪磚上",
+    "misc.apothic_spawners.on": "%s：開",
+    "misc.apothic_spawners.off": "%s：關",
+    
+    "stat.apothic_spawners.min_delay": "最短生成延遲",
+    "stat.apothic_spawners.min_delay.desc": "每次生成最短的間隔時間（單位為刻）",
+    
+    "stat.apothic_spawners.max_delay": "最長生成延遲",
+    "stat.apothic_spawners.max_delay.desc": "每次生成最長的間隔時間（單位為刻）",
+    
+    "stat.apothic_spawners.spawn_count": "生成數量",
+    "stat.apothic_spawners.spawn_count.desc": "每次生成時產生的實體數量",
+    
+    "stat.apothic_spawners.max_nearby_entities": "實體數量上限",
+    "stat.apothic_spawners.max_nearby_entities.desc": "附近最多可同時存在的實體數量",
+    
+    "stat.apothic_spawners.req_player_range": "啟動範圍",
+    "stat.apothic_spawners.req_player_range.desc": "玩家須距離生怪磚多遠才會停止運作",
+    
+    "stat.apothic_spawners.spawn_range": "生成範圍",
+    "stat.apothic_spawners.spawn_range.desc": "生物的生成半徑（單位為方塊）",
+    
+    "stat.apothic_spawners.ignore_players": "無視玩家",
+    "stat.apothic_spawners.ignore_players.desc": "生怪磚附近不再需要有玩家",
+    
+    "stat.apothic_spawners.ignore_conditions": "無視生成條件",
+    "stat.apothic_spawners.ignore_conditions.desc": "生怪磚將無視所有生成條件",
+    
+    "stat.apothic_spawners.redstone_control": "紅石控制",
+    "stat.apothic_spawners.redstone_control.desc": "生怪磚需要紅石才能啟動",
+    
+    "stat.apothic_spawners.ignore_light": "無視生成亮度",
+    "stat.apothic_spawners.ignore_light.desc": "生怪磚將無視生成的亮度條件",
+    
+    "stat.apothic_spawners.no_ai": "沒有 AI",
+    "stat.apothic_spawners.no_ai.desc": "生成的實體將沒有 AI",
+    
+	"stat.apothic_spawners.silent": "靜音",
+	"stat.apothic_spawners.silent.desc": "生成的實體將不會發出聲響",
+    
+	"stat.apothic_spawners.youthful": "幼年化",
+	"stat.apothic_spawners.youthful.desc": "當實體具有幼年型態時，生怪磚將一律生成幼年實體",
+
+	"stat.apothic_spawners.initial_health": "初始生命值",
+	"stat.apothic_spawners.initial_health.desc": "生成實體的初始生命值百分比",
+
+	"stat.apothic_spawners.burning": "燃燒",
+	"stat.apothic_spawners.burning.desc": "生成的實體將會處於燃燒狀態",
+
+	"stat.apothic_spawners.echoing": "回聲",
+	"stat.apothic_spawners.echoing.desc": "生成的實體將會掉落額外的戰利品，掉落數量隨等級提升",
+
+    "title.apothic_spawners.spawner": "生怪磚改造",
+    "info.apothic_spawners.spawner": "生怪磚可使用各種物品進行改造，且能使用附有%s的工具來收集。",
+    "info.apothic_spawners.spawner.no_silk": "生怪磚可使用各種物品進行改造，但目前已無法使用絲綢之觸來收集。",
+    "info.apothic_spawners.spawner.always_drop": "生怪磚可使用各種物品進行改造，且被破壞時必定會掉落。",
+    "info.apothic_spawners.capturing": "捕捉附魔使生物在死亡時，有機率掉落其生怪蛋。\\n \\n掉落率：每級提升 %s%%",
+
+    "config.jade.plugin_apothic_spawners.spawner": "神化｜生怪磚",
+
+    "advancements.apothic_spawners.spawner.root": "《神化》生怪磚",
+    "advancements.apothic_spawners.spawner.root.desc": "生怪磚可被收集與改造，查看 JEI 來獲得更多資訊。",
+    "advancements.apothic_spawners.spawner": "神化生怪磚",
+    "advancements.apothic_spawners.spawner.desc": "使用絲綢之觸取得一個生怪磚。",
+    "advancements.apothic_spawners.capturing": "捕捉！",
+    "advancements.apothic_spawners.capturing.desc": "使用捕捉附魔從生物身上取得生怪蛋。",
+    "advancements.apothic_spawners.modifier": "只是一些小調整...",
+    "advancements.apothic_spawners.modifier.desc": "藉由改造變更生怪磚的統計資料。",
+    "advancements.apothic_spawners.spawncount": "他的生怪磚怎麼那麼大！",
+    "advancements.apothic_spawners.spawncount.desc": "將生怪磚的生成數量提高到 16。",
+    "advancements.apothic_spawners.maxdelay": "時間扭曲生怪磚",
+    "advancements.apothic_spawners.maxdelay.desc": "將生怪磚的最長生成延遲減少至 20。",
+    "advancements.apothic_spawners.mindelay": "我是最快的",
+    "advancements.apothic_spawners.mindelay.desc": "將生怪磚的最短生成延遲減少至 20。",
+    "advancements.apothic_spawners.nearbyents": "成立部落",
+    "advancements.apothic_spawners.nearbyents.desc": "將生怪磚的實體生成上限提高至 32。",
+    "advancements.apothic_spawners.playerrange": "遠離爭鬥",
+    "advancements.apothic_spawners.playerrange.desc": "將生怪磚的玩家啟動範圍提高至 48。",
+    "advancements.apothic_spawners.spawnrange": "生物大軍",
+    "advancements.apothic_spawners.spawnrange.desc": "將生怪磚的生成範圍提高至 32。",
+    "advancements.apothic_spawners.conditions": "百變生成",
+    "advancements.apothic_spawners.conditions.desc": "停用生怪磚的生成條件。",
+    "advancements.apothic_spawners.players": "工廠就緒",
+    "advancements.apothic_spawners.players.desc": "停用生怪磚的玩家需求。",
+    "advancements.apothic_spawners.redstone": "加入開關",
+    "advancements.apothic_spawners.redstone.desc": "啟用生怪磚的紅石控制。",
+    "advancements.apothic_spawners.light": "誰需要黑暗？",
+    "advancements.apothic_spawners.light.desc": "使你的生怪磚得以在任何亮度下運作。",
+    "advancements.apothic_spawners.noai": "摘下腦袋瓜",
+    "advancements.apothic_spawners.noai.desc": "停用生怪磚的生物 AI。",
+    "advancements.apothic_spawners.ultimate_spawner": "終極生怪磚",
+    "advancements.apothic_spawners.ultimate_spawner.desc": "擁有一個最小生成延遲、可被紅石控制、沒有 AI、無視生成條件，且無視玩家的生怪磚。",
+
+    "enchantment.level.0": "0",
+
+    "emi.category.apothic_spawners.spawner": "生怪磚改造"
+}

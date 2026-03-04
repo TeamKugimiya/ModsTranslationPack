@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: 《AE 擴充功能》介紹
+    title: 擴充模組：AE 擴充功能
     position: 60
 ---
 

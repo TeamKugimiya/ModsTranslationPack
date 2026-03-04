@@ -1,0 +1,30 @@
+{
+  "itemGroup.me_beam_former.example_tab": "ME 光束成型器",
+
+  "block.me_beam_former.beam_former_block": "ME 巨型光束成型器",
+  "block.me_beam_former.omni_beam_former_block": "ME 全向光束成型器",
+  "block.me_beam_former.wireless_energy_tower": "無線能源感應塔",
+  "item.me_beam_former.beam_former_part": "ME 光束成型器",
+  "item.me_beam_former.laser_binding_tool": "光束綁定工具",
+
+  "tooltip.me_beam_former.beam_former_part": "用於在 ME 網路中，發射／接收能量光束",
+  "tooltip.me_beam_former.beam_former_block": "僅背部可連接線纜；需將兩台成型器相對放置以形成光束",
+  "tooltip.me_beam_former.binding.set": "已綁定光束成型器：【%s，%s，%s】",
+  "tooltip.me_beam_former.binding.set_omni": "已綁定全向光束成型器：【%s，%s，%s】",
+  "tooltip.me_beam_former.binding.set_tower": "已綁定無線能源感應塔：【%s，%s，%s】 - 使用 Shift + 點擊右鍵來連接機器",
+  "tooltip.me_beam_former.binding.omni_linked": "全向光束已連線：【%s，%s，%s】 → 【%s，%s，%s】",
+  "tooltip.me_beam_former.binding.omni_unlinked": "全向光束已中斷連線：【%s，%s，%s】 ✗ 【%s，%s，%s】",
+  "tooltip.me_beam_former.binding.tower_linked": "能源塔已連接機器：【%s，%s，%s】 → 【%s，%s，%s】",
+  "tooltip.me_beam_former.binding.tower_unlinked": "能源塔已與機器中斷連線：【%s，%s，%s】 ✗ 【%s，%s，%s】",
+  "tooltip.me_beam_former.binding.tower_to_tower_linked": "能源塔電網已連線：【%s，%s，%s】 ↔ 【%s，%s，%s】",
+  "tooltip.me_beam_former.binding.tower_to_tower_unlinked": "能源塔電網已中斷連線：【%s，%s，%s】 ✗ 【%s，%s，%s】",
+  "tooltip.me_beam_former.binding.tower_to_tower_needs_normal_click": "感應塔之間建立連線時，僅需使用右鍵（不按 Shift）",
+  "tooltip.me_beam_former.binding.tower_out_of_range": "已超出感應塔的連線範圍！限制：水平 16x16，垂直 256 格",
+  "tooltip.me_beam_former.binding.tower_needs_shift": "無線能源感應塔需要 Shift + 點擊右鍵來連接機器",
+  "tooltip.me_beam_former.binding.omni_only": "全向光束成型器只能連接其他全向光束成型器",
+  "tooltip.me_beam_former.binding.cleared": "已清除綁定",
+  "tooltip.me_beam_former.binding.invalid": "光束成型器無效或已不存在",
+  "tooltip.me_beam_former.binding.no_source": "請先使用 Shift + 點擊右鍵來綁定光束成型器",
+  "tooltip.me_beam_former.binding.self_link": "不能連接到自己",
+  "tooltip.me_beam_former.binding.out_of_range": "已超出連線範圍！限制：水平 20x20，垂直 32 格"
+}

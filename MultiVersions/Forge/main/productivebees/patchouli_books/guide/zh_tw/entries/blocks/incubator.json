@@ -1,0 +1,16 @@
+{
+    "name": "幼蜂孵化器",
+    "icon": "productivebees:incubator",
+    "category": "productivebees:blocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:incubator",
+            "text": "厭倦了等待那些弱小的幼蜂長大嗎？使用孵化器來加速這個過程。只需要將幼蜂放在蜜蜂籠裡，然後連同大量的蜂蜜點心一起放入孵化器中。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "孵化器的另一個用途是將特定的蜜蜂類型$(l:genetics/collecting)基因$(/l)注入雞蛋中，以獲得該蜜蜂類型的生怪蛋。蜜蜂類型基因可以通過基因系統獲得。$(br)製作生怪蛋時只會使用類型基因。蜂蜜點心上任何額外的基因都會遺失。"
+        }
+    ]
+}
