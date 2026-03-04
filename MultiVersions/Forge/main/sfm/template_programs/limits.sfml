@@ -1,0 +1,51 @@
+name "數量與保留限制"
+
+every 20 ticks do
+
+    -- 這些範例展示了各種傳輸數量的變化
+    -- 建議你親自測試看看，這些指令的細微差異！
+
+    INPUT FROM a                    -- 從 a 抽取「所有」物品
+    INPUT 1 FROM a                  -- 從 a 抽取「1 個」物品
+    INPUT stone FROM a              -- 從 a 抽取「所有」石頭
+    INPUT 3 stone FROM a            -- 從 a 抽取「3 個」石頭
+
+    -- 在 a 留下至少 3 個石頭的前提下，抽取最多 5 個石頭
+    INPUT 5 RETAIN 3 stone FROM a
+
+    -- 從 a 抽取 5 個，物品 ID 包含「ingot」的物品
+    INPUT 5 *ingot FROM a
+
+    -- 針對「每種」不同的錠，分別從 a 各抽取 5 個（例如：5 個鐵錠、5 個金錠）
+    INPUT 5 EACH *ingot FROM a
+
+    -- 在每種錠都「各留至少 1 個」的前提下，從 a 抽取「總計最多 5 個」錠
+    INPUT 5 RETAIN 1 EACH *ingot FROM a
+
+    -- 在每種錠都「各留至少 3 個」的前提下，分別從 a 各抽取 5 個
+    INPUT 5 EACH RETAIN 3 EACH *ingot* FROM a
+
+    OUTPUT TO b
+
+    -- 從標籤為 a 的「每個」容器裡，各抽取 1 個紅石
+    INPUT 1 "redstone" FROM EACH a
+
+    -- 向標籤為 b 的「每個」容器裡，各存入 1 個物品
+    OUTPUT 1 TO EACH b
+
+    OUTPUT 5 TO b                   -- 向 b 存入 5 個物品
+    OUTPUT 5 stone TO b             -- 向 b 存入 5 個石頭
+
+    -- 將煤炭送入熔爐，但讓熔爐內「始終維持有 1 個」煤炭就好
+    OUTPUT RETAIN 1 coal TO "熔爐" BOTTOM SIDE
+
+    -- 針對「每種」不同的錠，分別向 b 各存入 8 個
+    OUTPUT 8 EACH *ingot* to b
+
+    -- 確保 b 容器中，所有錠的數量加總起來不超過 8 個
+    OUTPUT RETAIN 8 EACH *ingot* to b
+
+    -- 確保 b 容器中，每種錠數量最多不超過 8 個
+    OUTPUT 8 EACH retain 8 EACH *ingot* to b
+
+end

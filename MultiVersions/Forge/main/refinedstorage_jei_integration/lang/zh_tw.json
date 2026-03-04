@@ -1,0 +1,12 @@
+{
+  "gui.refinedstorage_jei_integration.grid.synchronizer": "JEI",
+  "gui.refinedstorage_jei_integration.grid.synchronizer.help": "將搜尋欄文字同步至 JEI 篩選器。",
+  "gui.refinedstorage_jei_integration.grid.synchronizer.two_way": "JEI 雙向同步",
+  "gui.refinedstorage_jei_integration.grid.synchronizer.two_way.help": "將搜尋欄文字同步至 JEI 篩選器，同時將 JEI 篩選器同步至搜尋欄文字。",
+  "gui.refinedstorage_jei_integration.transfer.missing_but_all_autocraftable": "缺少物品，皆可自動合成",
+  "gui.refinedstorage_jei_integration.transfer.missing_but_some_autocraftable": "缺少物品，部分可自動合成",
+  "gui.refinedstorage_jei_integration.transfer.ctrl_click_to_autocraft": "CTRL + 點擊以自動合成",
+  "gui.refinedstorage_jei_integration.transfer.all_autocraftable": "皆可自動合成",
+  "gui.refinedstorage_jei_integration.transfer.some_autocraftable": "部分可自動合成",
+  "alias.refinedstorage_jei_integration.refinedstorage1_disk_manipulator": "磁碟操縱器"
+}

@@ -1,0 +1,18 @@
+{
+  "mod.universalgrid": "Universal Grid",
+  "item.universalgrid.wireless_universal_grid": "Wireless Universal Grid",
+  "item.universalgrid.creative_wireless_universal_grid": "Creative Wireless Universal Grid",
+  "key.universalgrid.open_wireless_universal_grid": "Open Wireless Universal Grid",
+  "key.universalgrid.switch_wireless_universal_grid_type": "Switch Wireless Universal Grid Type",
+  "text.autoconfig.universalgrid.title": "Universal Grid Configuration",
+  "universalgrid.configuration.title": "Universal Grid Configuration",
+  "universalgrid.configuration.section.universalgrid.common.toml": "Universal Grid Configuration",
+  "universalgrid.configuration.section.universalgrid.common.toml.title": "Universal Grid Configuration",
+  "gui.universalgrid.grid.grid_type": "Grid Type",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid": "Wireless Universal Grid",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.tooltip": "Configuration for the Wireless Universal Grid.",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity": "Energy capacity",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity.tooltip": "The energy capacity of the Wireless Universal Grid.",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType": "Grid Type",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType.tooltip": "The selected grid type of the Wireless Universal Grid."
+}

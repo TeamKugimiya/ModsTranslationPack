@@ -1,9 +1,10 @@
 {
-  "itemGroup.rsrequestify": "精緻儲存｜請求器",
-  "block.rsrequestify.requester": "請求器",
+  "itemGroup.rsrequestify": "精緻儲存：合成請求器",
+  "block.rsrequestify.requester": "合成請求器",
   "button.refinedstoragerequestify:requester.save": "儲存",
-  "tooltip.refinedstoragerequestify:requester.missing": "缺少材料",
   "block.rsrequestify.crafting_emitter": "合成發射器",
-  "block.rsrequestify.crafting_emitter.tooltip": "當欄位上的物品／流體正在合成時，發射紅石訊號。",
-  "block.rsrequestify.requester.tooltip": "持續庫存欄位上的物品／流體到指定數量。"
+  "block.rsrequestify.crafting_emitter.tooltip": "當篩選器中的物品／流體正在進行合成任務，且合成數量大於或等於設定值時，發射紅石訊號。",
+  "block.rsrequestify.requester.tooltip": "讓被篩選的物品／流體，維持在指定的庫存數量。",
+  "block.rsrequestify.requester.tooltip.filter": "應在儲存網路中維持庫存數量的資源。",
+  "block.rsrequestify.crafting_emitter.tooltip.filter": "應觸發紅石訊號的資源。"
 }

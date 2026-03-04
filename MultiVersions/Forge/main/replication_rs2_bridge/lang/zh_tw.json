@@ -1,0 +1,7 @@
+{
+  "block.replication_rs2_bridge.rep_rs2_bridge": "RS2-複製科技橋接器",
+  "itemGroup.replication_rs2_bridge": "精緻儲存 2｜複製科技橋接器",
+  "block.replication_rs2_bridge.rep_rs2_bridge.priority": "樣板優先權",
+  "block.replication_rs2_bridge.rep_rs2_bridge.priority.help": "優先權較高的樣板會優先用於自動合成。\n使用此功能可讓系統優先選擇物質複製，而非一般的合成配方。",
+  "block.replication_rs2_bridge.rep_rs2_bridge.tooltip": "將《複製科技》的物質網路連接至 RS2。\n將複製科技的樣板匯入為 RS2 的自動合成配方。\n點擊右鍵可設定樣板的優先權。"
+}

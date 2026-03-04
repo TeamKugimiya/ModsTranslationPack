@@ -1,0 +1,9 @@
+{
+  "itemGroup.rsrequestify": "精緻儲存｜請求器",
+  "block.rsrequestify.requester": "請求器",
+  "button.refinedstoragerequestify:requester.save": "儲存",
+  "tooltip.refinedstoragerequestify:requester.missing": "缺少材料",
+  "block.rsrequestify.crafting_emitter": "合成發射器",
+  "block.rsrequestify.crafting_emitter.tooltip": "當欄位上的物品／流體正在合成時，發射紅石訊號。",
+  "block.rsrequestify.requester.tooltip": "持續庫存欄位上的物品／流體到指定數量。"
+}
