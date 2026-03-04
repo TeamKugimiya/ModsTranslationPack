@@ -127,6 +127,10 @@ def verify_structure(path):
             pass
         elif subdir_name == "guides":
             pass
+        elif subdir_name == "books":
+            pass
+        elif subdir_name == "template_programs":
+            pass
         else:
             log_message("🚧 結構｜資料夾下存在未被設定的結構。", subdir, "ERROR")
 
