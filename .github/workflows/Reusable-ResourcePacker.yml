@@ -125,39 +125,36 @@ jobs:
           options: |
             pack_directory = 'pack'
             never_store_squash_times = true
-            ['assets/immersiveengineering/manual/zh_tw/*.txt']
-            force_include = true
+            ignore_system_and_hidden_files = false
+
+            # 全域規則
             ['{LICENSE,LICENSE_*}']
             force_include = true
             ['**/*?.lang']
             force_include = true
             ['**/*?.md']
             force_include = true
-            ['assets/expatternprovider/ae2guide/pic/*?.png']
+            ['**/*?.mdx']
             force_include = true
-            ['assets/appliede/ae2guide/diagrams/*?.png']
+            ['**/*?.sfml']
             force_include = true
-            ['assets/advanced_ae/ae2guide/_zh_tw/pic/*?.png']
+
+            # AE2 Guide 系列 (png, snbt)
+            ['assets/*/ae2guide/**/*?.png']
             force_include = true
-            ['assets/advanced_ae/ae2guide/_zh_tw/structure/*?.snbt']
+            ['assets/*/ae2guide/**/*?.snbt']
             force_include = true
-            ['assets/advanced_ae/ae2guide/pic/*?.png']
+
+            # Patchouli Books 翻譯 (zh_tw json)
+            ['assets/*/patchouli_books/**/zh_tw/**/*?.json']
             force_include = true
-            ['assets/advanced_ae/ae2guide/structure/*?.snbt']
-            force_include = true
-            ['assets/extendedae/ae2guide/_zh_tw/pic/*?.png']
-            force_include = true
-            ['assets/appflux/ae2guide/_zh_tw/pic/*?.png']
+
+            # 其他模組專用
+            ['assets/immersiveengineering/manual/zh_tw/*?.txt']
             force_include = true
             ['assets/alexscaves/books/zh_tw/**/*?.txt']
             force_include = true
-            ['assets/alexscaves/books/zh_tw/root.txt']
-            force_include = true
             ['assets/oritech/oracle_index/books/oritech/.translated/zh_tw/**/*?.json']
-            force_include = true
-            ['assets/oritech/oracle_index/books/oritech/.translated/zh_tw/**/*?.mdx']
-            force_include = true
-            ['assets/sfm/template_programs/**/*?.sfml']
             force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
