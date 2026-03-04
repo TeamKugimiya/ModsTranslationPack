@@ -1,0 +1,33 @@
+NAME "流體與其他資源類型"
+
+EVERY 20 TICKS DO
+    -- 當未指定類型時，SFM 預設會處理「sfm:item」（物品）資源
+    INPUT stone FROM a
+    -- 其效果等同於完整路徑：
+    INPUT sfm:item:*:stone FROM a
+
+    -- 因此若想傳輸「流體」，必須在前面加上「fluid::」前綴
+    INPUT fluid:: from a
+    OUTPUT fluid:: to b
+    -- SFM 會自動將其展開為：INPUT sfm:fluid:*:* FROM a
+
+    -- 以下兩種寫法效果完全相同：
+    INPUT fluid::water FROM a
+    INPUT sfm:fluid:*:water FROM a
+
+    INPUT iron_ingot FROM a
+    INPUT sfm:item:*:iron_ingot FROM a
+
+    -- 在過去的版本中，若未輸入 Mod ID，系統會預設填入「minecraft」
+    INPUT iron_ingot FROM a
+    INPUT sfm:item:minecraft:iron_ingot FROM a
+
+    -- 現在版本已取消此限制，因為不同模組間的物品名稱，通常不會衝突
+    -- 若真的有東西撞名，你也可以視需求手動指定 Mod ID
+    INPUT totally_not_minecraft:iron_ingot FROM a
+END
+
+-- 以下是目前支援的資源類型清單：
+EVERY 20 TICKS DO
+    $REPLACE_RESOURCE_TYPES_HERE$
+END

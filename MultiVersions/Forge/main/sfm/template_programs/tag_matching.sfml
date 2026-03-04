@@ -1,0 +1,78 @@
+NAME "標籤比對"
+
+EVERY 20 TICKS DO
+    -- 1. 基礎標籤用法
+    -- 以下三種寫法效果完全相同
+    INPUT WITH #forge:gems FROM "箱子"
+    INPUT WITH TAG forge:gems FROM "箱子"
+    INPUT WITH TAG #forge:gems FROM "箱子"
+
+    -- 2. 省略模組 ID
+    -- 若你不介意是哪個模組提供的，可以省略前綴。以下兩者效果相同：
+    INPUT WITH #ingots FROM "箱子"
+    INPUT WITH TAG *:ingots FROM "箱子"
+
+    -- 3. 多層路徑與星號 (*) 應用
+    -- 標籤路徑可以用「/」分隔，並支援星號進行模糊比對
+    INPUT WITH TAG refinedstorage:disks/items/* FROM "箱子"
+    INPUT WITH #tools/*/*_matter FROM "箱子"
+
+    -- 4. 方塊標籤也適用於物品
+    -- 例如：抽取所有 ID 包含「a」，且可以用鏟子挖掘的物品
+    INPUT *a* WITH TAG minecraft:mineable/shovel FROM "箱子"
+
+    -- 5. 雙星號多層比對
+    -- 「**」代表該路徑下的所有剩餘段落
+    INPUT WITH #the_bumblezone:essence/** FROM "箱子"
+    -- 這會配對到：
+    -- #the_bumblezone:essence/life/grow_plants
+    -- #the_bumblezone:essence/calming_arena/drowned_bonus_held_item"
+    -- #the_bumblezone:essence/knowing/block_entity_forced_highlighting"
+
+    -- 6. 綜合應用（數量、保留與排除）
+    INPUT
+        -- 抽取 3 個符合 #forge:ingots 的物品，但在來源箱子內至少保留 5 個
+        3 RETAIN 5 WITH TAG #forge:ingots,
+        4 dirt,
+        WITH #mineable/axe,     -- 只要是斧頭能挖的方塊都抽取
+        minecraft: WITH #ingots,-- 僅抽取模組 ID 為 minecraft 的錠
+        stone,
+    EXCEPT sand, gold_ingot     -- 不抽取沙子跟金錠
+    FROM "箱子"
+
+    -- 7. 邏輯判定
+    -- 抽取不屬於 #needs_stone_tool 的物品
+    INPUT WITH NOT #needs_stone_tool FROM "箱子"
+
+    INPUT
+        -- 同時滿足「非需要石製工具」且「屬於礦物標籤」的物品
+        WITH
+            NOT #needs_stone_tool
+            AND #ores/*
+    FROM "箱子"
+
+    -- 8. [全域否定] WITHOUT 的用法
+    -- WITHOUT 會反轉後方「整段」表達式的結果
+
+    -- 抽取不具備「需要石製工具 AND 屬於礦物標籤」這兩個條件同時成立的物品
+    INPUT WITHOUT #needs_stone_tool AND #ores/* FROM "箱子"
+
+    -- 以上效果等同於使用括號：
+    INPUT WITH NOT (#needs_stone_tool AND #ores/*) FROM "箱子"
+
+    -- 注意：這跟下面這句「完全不同」：
+    -- 抽取「不是礦物」且「需要石製工具」的物品（例如：石頭、花崗岩）。
+    INPUT WITH NOT #ores/* AND #needs_stone_tool FROM "箱子"
+
+    -- 9. EXCEPT 指令與全域排除
+    -- 注意：EXCEPT 是針對「整段程式」的最終篩選（詳見「篩選教學」範例）
+    -- 缺點：EXCEPT 目前僅能識別具體物品 ID，不支援 # 標籤語法
+    
+    -- 若要根據標籤進行排除，必須在 INPUT 指令中分別處理：
+    INPUT
+      * WITH #ores AND NOT #needs_stone_tool,
+      * WITHOUT #piglin_loved,
+    FROM "箱子"
+
+    OUTPUT TO "其他箱子"
+END

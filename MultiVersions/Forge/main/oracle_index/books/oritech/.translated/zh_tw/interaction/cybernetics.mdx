@@ -1,0 +1,87 @@
+---
+title: 賽博生化改造
+icon: oritech:augment_application_block
+related_items: [oritech:augment_application_block, oritech:simple_augment_station, oritech:advanced_augment_station, oritech:arcane_augment_station]
+---
+
+賽博生化改造中心，是一座能讓你將生化改造植入身體的設施。
+
+這些改造能為你提供各種好處，例如增強力量、速度與防禦力。
+
+它們也能賦予你新的能力，例如夜視能力或自動維持飽食度。
+
+<Callout variant="info">
+    生化改造對玩家來說是永久性的升級，不需要任何能量或資源來維持。
+</Callout>
+
+<center>
+<ModAsset location="oritech:augment_application_block" width={400} />
+</center>
+
+### 研究需求
+
+所有的改造插件，都必須先在賽博生化改造中心進行研究：
+1. 走進組裝好的機器，來開啟「研究與安裝」介面。
+2. 每項改造都有獨特的能量與資源消耗
+
+　（資源可存放在改改中心的內部空間，或玩家的物品欄中）。
+3. 對著機器點擊右鍵，或點擊研究介面左下角的按鈕，可存取機器的內部空間。
+4. 許多研究需要前置改造插件（如科技樹所示）。
+
+<center>
+<ModAsset location="oritech:area/cyborg_research_ui" width={700} />
+</center>
+
+### 研究站
+- 改造中心擁有 3 個多方塊研究欄位（其安裝方式類似於升級插件）。
+- 每個研究站：
+
+　- 需要 3 個機器核心。
+
+　- 一次只能處理一項研究。
+
+　- 重複建造研究站，可以啟用平行研究功能。
+
+### 安裝流程
+1. 研究完成的改造插件即可提供安裝。
+2. 安裝過程需要消耗額外的資源。
+3. 改造中心會儲存所有已研發的藍圖
+
+　（以單台機器為準，這表示若機器被破壞，藍圖將會遺失）。
+4. 現有的玩家改造插件，可以透過介面的匯入按鈕（左下角）進行掃描。
+
+### 改造管理
+- 所有生化改造，一經安裝後即為永久性的（無需維護或提供能量）。
+- 部分改造可以開關功能；其他的則維持常駐啟用。
+- 改造可以隨時移除，但安裝時消耗的資源將會遺失。
+
+### 開關改造功能
+1. 按住「機體改造」快捷鍵（預設為 [G]）。
+2. 在圓盤選單中，將游標懸停在想要的改造插件上。
+3. 放開按鍵即可開關其功能。
+
+<center>
+<ModAsset location="oritech:area/cyborg_ui" width={700} />
+</center>
+
+### 致模組包開發者的資訊：
+生化改造是完全可設定，且由資料驅動的。
+
+可以使用資料包來建立新的改造插件。
+
+目前有 3 種改造類型：
+1. 屬性調整改造：透過變更玩家的實體屬性來運作，例如速度或觸及距離。
+2. 狀態效果改造：賦予玩家類似藥水的效果。
+3. 客製化改造：包含完全自訂的邏輯，例如礦物視野或傳送門改造。
+
+　這些客製化改造可以透過資料包引用，但其邏輯需要在完整的 Java 模組中實作。
+
+你可以使用資料包建立全新的改造插件，也可以修改現有的改造插件。
+
+請參考此檔案作為改造定義的範例：
+
+https://github.com/Rearth/Oritech/blob/1.21/common/src/main/generated/data/oritech/recipe/augment/attackdamage.json
+
+新增改造插件時，請記住同時也需要翻譯條目與紋理貼圖。
+
+紋理貼圖應放在「oritech/textures/gui/augment」路徑中。

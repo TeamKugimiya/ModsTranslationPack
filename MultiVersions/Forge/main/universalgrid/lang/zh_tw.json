@@ -1,0 +1,18 @@
+{
+  "mod.universalgrid": "通用終端機",
+  "item.universalgrid.wireless_universal_grid": "無線通用終端機",
+  "item.universalgrid.creative_wireless_universal_grid": "創造模式無線通用終端機",
+  "key.universalgrid.open_wireless_universal_grid": "開啟無線通用終端機",
+  "key.universalgrid.switch_wireless_universal_grid_type": "切換終端機類型",
+  "text.autoconfig.universalgrid.title": "通用終端機設定",
+  "universalgrid.configuration.title": "通用終端機設定",
+  "universalgrid.configuration.section.universalgrid.common.toml": "通用終端機設定",
+  "universalgrid.configuration.section.universalgrid.common.toml.title": "通用終端機設定",
+  "gui.universalgrid.grid.grid_type": "終端機類型",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid": "無線通用終端機",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.tooltip": "關於無線通用終端機的設定。",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity": "能量容量",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity.tooltip": "無線通用終端機的能量容量。",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType": "終端機類型",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType.tooltip": "無線通用終端機所選的終端機類型。"
+}

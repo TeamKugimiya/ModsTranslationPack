@@ -1,0 +1,8 @@
+name "傳輸紅石粉"
+
+EVERY 20 TICKS DO
+    -- 由於 redstone 在舊版是指令關鍵字，過去必須加上引號才能傳輸「紅石粉」
+    -- 現在版本已經修正，直接寫 redstone 也可以識別了 :D
+    input redstone from a
+    output minecraft:redstone to b
+END

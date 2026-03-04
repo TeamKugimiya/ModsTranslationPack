@@ -1,0 +1,40 @@
+---
+title: 能量
+icon: oritech:energy_pipe
+related_items: [oritech:energy_pipe]
+---
+
+## 描述
+《起源科技》使用 **RF** 來驅動旗下所有機器，
+
+在 Fabric 上使用 Reborn Energy API，而在 NeoForge 上則使用 FE。
+
+這確保了在 Fabric 與 NeoForge 平台上，能與所有使用能量的模組相容。
+
+## 線纜
+目前僅提供一種階級的線纜，傳輸速率高達 **10k RF/t**。
+
+如果不夠用，還有超導體可供選擇，其傳輸速率高達 **4M RF/t**。
+
+發電機將始終輸出能量，而其他所有機器，則從各個側面接收能量，且不會再次輸出。
+
+若無法輸出能量，線纜本身在每個機器連接處，可儲存高達 **10k RF**。
+
+## 能量儲存
+若要緩衝與儲存能量，可以使用能量儲存器。
+
+儲存器有兩種大小，且能透過升級插件大幅擴充容量。
+
+能量儲存器透過 🟢 *綠色埠*，從各個側面接收能量，且只能透過唯一的 🔴 *紅色埠*輸出能量。
+
+輸入紅石訊號將會停用能量輸出。
+
+<center>
+<ModAsset location="oritech:small_storage_block" width={256} />
+</center>
+
+能量也可以使用終界雷射進行無線傳輸，詳見[終界雷射](../interaction/enderic_laser)。
+
+<center>
+<ModAsset location="oritech:area/enderic_laser_energy" width={512} />
+</center>

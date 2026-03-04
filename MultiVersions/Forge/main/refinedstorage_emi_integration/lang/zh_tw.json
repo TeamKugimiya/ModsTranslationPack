@@ -1,0 +1,12 @@
+{
+  "gui.refinedstorage_emi_integration.grid.synchronizer": "EMI",
+  "gui.refinedstorage_emi_integration.grid.synchronizer.help": "將搜尋欄文字同步至 EMI 篩選器。",
+  "gui.refinedstorage_emi_integration.grid.synchronizer.two_way": "EMI 雙向同步",
+  "gui.refinedstorage_emi_integration.grid.synchronizer.two_way.help": "將搜尋欄文字同步至 EMI 篩選器，同時將 EMI 篩選器同步至搜尋欄文字。",
+  "alias.emi.refinedstorage1_disk_manipulator": "磁碟操縱器",
+  "gui.refinedstorage_emi_integration.transfer.missing_but_all_autocraftable": "缺少物品，皆可自動合成",
+  "gui.refinedstorage_emi_integration.transfer.missing_but_some_autocraftable": "缺少物品，部分可自動合成",
+  "gui.refinedstorage_emi_integration.transfer.ctrl_click_to_autocraft": "CTRL + 點擊以自動合成",
+  "gui.refinedstorage_emi_integration.transfer.all_autocraftable": "皆可自動合成",
+  "gui.refinedstorage_emi_integration.transfer.some_autocraftable": "部分可自動合成"
+}

@@ -2,8 +2,9 @@
   "itemGroup.rsrequestify": "RS: Requestify",
   "block.rsrequestify.requester": "Requester",
   "button.refinedstoragerequestify:requester.save": "Save",
-  "tooltip.refinedstoragerequestify:requester.missing": "Missing ingredients",
   "block.rsrequestify.crafting_emitter": "Crafting Emitter",
-  "block.rsrequestify.crafting_emitter.tooltip": "Emits a Redstone Signal when any item/fluid in the filter is being crafted.",
-  "block.rsrequestify.requester.tooltip": "Keeps the filtered item/fluid in stock with the desired amount."
+  "block.rsrequestify.crafting_emitter.tooltip": "Emits a Redstone Signal when there is a crafting task of the item/fluid in the filter and the crafting amount is equal or greater than the specified amount.",
+  "block.rsrequestify.requester.tooltip": "Keeps the filtered item/fluid in stock with the desired amount.",
+  "block.rsrequestify.requester.tooltip.filter": "The resources that should be kept in stock in the storage network",
+  "block.rsrequestify.crafting_emitter.tooltip.filter": "The resources that should emit a redstone signal"
 }

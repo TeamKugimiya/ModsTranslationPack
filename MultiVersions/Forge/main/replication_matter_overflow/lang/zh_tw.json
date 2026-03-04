@@ -1,0 +1,9 @@
+{
+  "itemGroup.replication_matter_overflow": "複製科技：物質溢出儲罐",
+  "block.replication_matter_overflow.matter_void": "物質溢出儲罐",
+  "tooltip.replication_matter_overflow.matter_void.line1": "像一般的儲罐一樣儲存物質",
+  "tooltip.replication_matter_overflow.matter_void.line2": "儲罐裝滿時，會銷毀過量的物質",
+  "tooltip.replication_matter_overflow.priority.current": "優先權：%s",
+  "tooltip.replication_matter_overflow.priority.increase": "提高儲罐優先權",
+  "tooltip.replication_matter_overflow.priority.decrease": "降低儲罐優先權"
+}

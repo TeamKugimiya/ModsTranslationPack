@@ -1,0 +1,15 @@
+{
+  "machine_basics.mdx": "機器基礎",
+  "multiblocks.mdx": "多方塊結構",
+  "addons.mdx": "升級插件",
+  "pulverizer.mdx": "研磨機",
+  "assembler.mdx": "組裝機",
+  "centrifuge.mdx": "離心機",
+  "foundry.mdx": "鑄造廠",
+  "refinery.mdx": "精煉廠",
+  "fragment_forge.mdx": "粉碎工廠",
+  "atomic_forge.mdx": "原子鍛造廠",
+  "generators.mdx": "發電機",
+  "steam_engine.mdx": "蒸汽能量",
+  "reactor": "核反應爐"
+}

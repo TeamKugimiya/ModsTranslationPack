@@ -1,0 +1,46 @@
+{
+  "item.reliquified_lenders_cataclysm.scouring_eye": "Scouring Eye",
+  "tooltip.relics.scouring_eye.description": "An eye torn from the socket of one of the legendary End monsters. Despite the years passed, it is still alive and searching for a target for its next battle...",
+  "tooltip.relics.scouring_eye.ability.glowing_scour": "Pursuit",
+  "tooltip.relics.scouring_eye.ability.glowing_scour.description": "Remembers the last target attacked by the player for %2$s seconds. When the ability is activated, the player is teleported behind the remembered target and the ability goes on cooldown for %1$s seconds.",
+  "tooltip.relics.scouring_eye.ability.glowing_scour.predicate.target": "Selected Target",
+  "tooltip.relics.scouring_eye.ability.glowing_scour.predicate.tp_allowed": "Teleportation Conditions Met",
+  "tooltip.relics.scouring_eye.leveling_source.glowing_scour.title": "Pursuit",
+  "tooltip.relics.scouring_eye.leveling_source.glowing_scour.description": "+%1$s XP for each teleportation to a target using the %2$s ability.",
+
+  "item.reliquified_lenders_cataclysm.void_vortex_in_bottle": "Void Vortex in a Bottle",
+  "tooltip.relics.void_vortex_in_bottle.description": "A homework assignment of a student from the infamous magic school where students face deadly trials, capturing lightning, clouds, or vortexes in jars...",
+  "tooltip.relics.void_vortex_in_bottle.ability.spawn_vortex": "Void Tornado",
+  "tooltip.relics.void_vortex_in_bottle.ability.spawn_vortex.description": "Upon killing a target, summons a void vortex %1$s blocks tall that pulls in nearby targets and goes on cooldown for %3$s seconds. After 5 seconds, the vortex explodes, dealing %2$s damage to all nearby targets. If a weaker or equal vortex is nearby, it absorbs it, growing in size and extending its duration.",
+  "tooltip.relics.void_vortex_in_bottle.leveling_source.spawn_vortex.title": "Void Tornado",
+  "tooltip.relics.void_vortex_in_bottle.leveling_source.spawn_vortex.description": "+%1$s XP for each void vortex created by the %2$s ability.",
+
+  "item.reliquified_lenders_cataclysm.void_cloak": "Void Cloak",
+  "tooltip.relics.void_cloak.description": "A robe belonging to a mage who, according to legend, lived beneath the bedrock of any known world. There he mastered a never-before-seen magic of void runes and defeated a massive End beast, whose eye still roams in search of battle.",
+  "tooltip.relics.void_cloak.ability.void_invulnerability": "Invulnerability",
+  "tooltip.relics.void_cloak.ability.void_invulnerability.description": "Grants complete immunity to void damage.",
+  "tooltip.relics.void_cloak.ability.void_rune": "Call of the Void",
+  "tooltip.relics.void_cloak.ability.void_rune.description": "Every %1$s seconds, summons a void rune under a random nearby target, dealing %2$s damage.",
+  "tooltip.relics.void_cloak.ability.seismic_zone": "Final Cry",
+  "tooltip.relics.void_cloak.ability.seismic_zone.description": "Upon the death of the player or their controlled creature, summons a seismic zone at the death location with a radius of %1$s blocks, triggering void runes up to %2$s times, each dealing %3$s damage.",
+  "tooltip.relics.void_cloak.leveling_source.void_rune.title": "Call of the Void",
+  "tooltip.relics.void_cloak.leveling_source.void_rune.description": "+%1$s XP for each activation of the %2$s ability.",
+  "tooltip.relics.void_cloak.leveling_source.seismic_zone.title": "Final Cry",
+  "tooltip.relics.void_cloak.leveling_source.seismic_zone.description": "+%1$s XP for each activation of the %2$s ability.",
+
+  "item.reliquified_lenders_cataclysm.vacuum_glove": "Vacuum Glove",
+  "tooltip.relics.vacuum_glove.description": "One of the filthiest tools, not wielded by warriors or mages, but by 'butchers'. Its aura liquefies the air around it, hindering both movement and mind.",
+  "tooltip.relics.vacuum_glove.ability.vacuum_slowdown": "The Edge",
+  "tooltip.relics.vacuum_glove.ability.vacuum_slowdown.description": "Creates an area around the player with a radius of %2$s blocks that slows all targets trying to escape it by %1$s%% at the edge. The slowdown increases the closer a target is to the boundary.",
+  "tooltip.relics.vacuum_glove.leveling_source.vacuum_slowdown.title": "The Edge",
+  "tooltip.relics.vacuum_glove.leveling_source.vacuum_slowdown.description": "+%1$s XP for every 10 seconds of slowdown from the %2$s ability.",
+
+  "item.reliquified_lenders_cataclysm.void_bubble": "Void Bubble",
+  "tooltip.relics.void_bubble.description": "A fragile yet durable device that protects the head, body, and mind all at once.",
+  "tooltip.relics.void_bubble.ability.protective_bubble": "Protective Bubble",
+  "tooltip.relics.void_bubble.ability.protective_bubble.description": "Encases the player's head in a protective bubble, completely eliminating the need for air. The bubble also blocks up to %1$s incoming attacks before exploding, scattering %2$s shards in all directions, each dealing %3$s damage. It then regenerates after %4$s seconds.",
+  "tooltip.relics.void_bubble.leveling_source.protective_bubble.title": "Protective Bubble",
+  "tooltip.relics.void_bubble.leveling_source.protective_bubble.description": "+%1$s XP for each attack blocked by the %2$s ability.",
+
+  "explosion.sub": "Explosion"
+}

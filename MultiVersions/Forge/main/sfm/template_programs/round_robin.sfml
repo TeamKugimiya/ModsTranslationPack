@@ -1,0 +1,38 @@
+NAME "輪詢調度"
+
+EVERY 20 TICKS DO
+    -- 其實你可能不需要用到「輪詢」功能
+    -- 建議優先嘗試 RETAIN（保留／補足）指令！
+
+    INPUT FROM "來源"
+
+    -- 將水存入「目標 1」，當容器內裝有 1000 mB 的水時，將暫停傳輸
+    -- 這樣能確保標記為「目標 1」的方塊，內部都不會存入超過 1 桶水
+    OUTPUT RETAIN 1000 fluid::water TO "目標 1"
+
+    FORGET
+
+    -- 從 a 抽取石頭，但會留下至少 5 個石頭在容器內
+    INPUT RETAIN 5 stone FROM a
+    OUTPUT TO b
+
+END
+
+-- 另外，SFM 也支援基礎的輪詢調度
+-- 它會在每次指令執行時切換目標，處理大量物資時速度會較慢
+
+EVERY 20 TICKS DO
+    INPUT FROM "來源"
+
+    -- [方塊輪詢] 每次只選一個容器存入，而非全部
+    OUTPUT 128 dirt TO "目標 2" ROUND ROBIN BY BLOCK
+    -- 簡單來說：這輪給 A、下輪給 B，依序循環
+    -- 避免一次將所有泥土，送到同個容器內
+
+    FORGET
+    
+    -- [標籤輪詢] 每次只從其中一個標籤組抽取
+    INPUT FROM "箱子 A", "箱子 B" ROUND ROBIN BY LABEL
+    OUTPUT 8 bone_meal TO EACH "發射器"
+    -- 簡單來說：這輪從 A 抽、下輪從 B 抽，兩者輪流
+END

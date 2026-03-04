@@ -1,0 +1,27 @@
+NAME "清除暫存指令"
+
+EVERY 20 TICKS DO
+    INPUT FROM a
+    OUTPUT 1 to b
+
+    INPUT FROM c
+    -- 注意：此時來自「a」的輸入清單仍然有效！！！
+    -- 若 a 的東西沒被上一個 OUTPUT 送完，這裡會連同 a 的東西一起塞進 d
+    OUTPUT TO d
+END
+
+EVERY 20 TICKS DO
+    INPUT FROM a
+    OUTPUT 1 to b
+
+    -- 使用 FORGET a 可以清除特定標籤的清單
+    FORGET a
+
+    -- 或是直接使用 FORGET 清除目前所有已記錄的指令清單
+    FORGET
+
+    INPUT FROM c
+    
+    -- 現在只有來自「c」的輸入有效了 :D
+    OUTPUT TO d
+END
