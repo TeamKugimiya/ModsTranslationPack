@@ -113,7 +113,7 @@ jobs:
           fi
 
       - name: Apply Pack Icon
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v8
         with:
           name: PackIcon-${{ inputs.matrix_version }}
           path: pack/
@@ -162,7 +162,7 @@ jobs:
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: Download Artifact
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v8
         with:
           name: OptimizedPack-${{ inputs.matrix_version }}
           path: ./
@@ -176,7 +176,7 @@ jobs:
           sha256sum ModsTranslationPack-${{ inputs.matrix_version }}.zip > checksum.txt
 
       - name: Upload ModsTranslationPack
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: ModsTranslationPack-${{ inputs.matrix_version }}
           path: |

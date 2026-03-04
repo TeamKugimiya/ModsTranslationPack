@@ -106,7 +106,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download All Artifact
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v8
 
       - name: Upload Release Artifact
         run: |
