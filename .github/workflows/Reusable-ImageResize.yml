@@ -29,7 +29,7 @@ jobs:
           poetry config virtualenvs.in-project true --local
 
       - name: Cache Python
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ./.venv
           key: venv-${{ hashFiles('poetry.lock') }}
@@ -42,7 +42,7 @@ jobs:
           poetry run python .github/scripts/image_resize.py MultiVersions/configs/pack-${{ inputs.matrix_version }}.png pack.png
 
       - name: Upload Pack Icon
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: PackIcon-${{ inputs.matrix_version }}
           path: |

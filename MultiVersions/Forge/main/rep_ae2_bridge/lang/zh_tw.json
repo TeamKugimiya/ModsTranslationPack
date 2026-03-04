@@ -1,0 +1,14 @@
+{
+    "item.rep_ae2_bridge.earth": "地物質",
+    "item.rep_ae2_bridge.nether": "地獄物質",
+    "item.rep_ae2_bridge.organic": "有機物質",
+    "item.rep_ae2_bridge.ender": "終界物質",
+    "item.rep_ae2_bridge.metallic": "金屬物質",
+    "item.rep_ae2_bridge.precious": "珍貴物質",
+    "item.rep_ae2_bridge.living": "活物物質",
+    "item.rep_ae2_bridge.quantum": "量子物質",
+    "block.rep_ae2_bridge.rep_ae2_bridge": "AE2-複製科技橋接器",
+    "block.rep_ae2_bridge.repae2bridge": "RepAE2Bridge",
+    "item.rep_ae2_bridge.repae2bridge": "RepAE2Bridge",
+    "item.rep_ae2_bridge.universal_matter.warning": "警告：這是通用佔位物質；為確保運作正常，請重新啟動用戶端與伺服器。\n此外，若要使用自訂物質，很遺憾地，\n你還必須自行建立紋理、物品模型與語言檔案。"
+}

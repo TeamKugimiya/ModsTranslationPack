@@ -1,0 +1,46 @@
+{
+  "item.reliquified_lenders_cataclysm.scouring_eye": "巡獵之眼",
+  "tooltip.relics.scouring_eye.description": "從傳說中的終界怪物眼窩中，撕扯下來的眼珠。\n儘管歲月流逝，它依然活著，並尋找著下一場戰鬥的目標...",
+  "tooltip.relics.scouring_eye.ability.glowing_scour": "追獵",
+  "tooltip.relics.scouring_eye.ability.glowing_scour.description": "記住玩家最後攻擊過的目標，記憶持續 %2$s 秒。\n發動能力時，玩家會被傳送至該目標背後，隨後能力進入 %1$s 秒冷卻。",
+  "tooltip.relics.scouring_eye.ability.glowing_scour.predicate.target": "已選擇目標",
+  "tooltip.relics.scouring_eye.ability.glowing_scour.predicate.tp_allowed": "符合傳送條件",
+  "tooltip.relics.scouring_eye.leveling_source.glowing_scour.title": "追獵",
+  "tooltip.relics.scouring_eye.leveling_source.glowing_scour.description": "透過 %2$s 能力每傳送至目標一次，能為遺物提供 %1$s 點經驗值。",
+
+  "item.reliquified_lenders_cataclysm.void_vortex_in_bottle": "瓶中虛空漩渦",
+  "tooltip.relics.void_vortex_in_bottle.description": "來自惡名昭彰魔法學校學生的作業之一，那裡的學生需面對致命的試煉，將閃電、雲朵或漩渦封存於瓶罐之中...",
+  "tooltip.relics.void_vortex_in_bottle.ability.spawn_vortex": "虛空龍捲風",
+  "tooltip.relics.void_vortex_in_bottle.ability.spawn_vortex.description": "擊殺目標時，召喚一個 %1$s 格高的虛空漩渦，將附近的目標吸入，隨後進入 %3$s 秒冷卻。\n5 秒後，漩渦爆炸，對附近所有目標造成 %2$s 點傷害。\n若附近存在較弱或同等強度的漩渦，會將其吞噬，使自身成長並延長持續時間。",
+  "tooltip.relics.void_vortex_in_bottle.leveling_source.spawn_vortex.title": "虛空龍捲風",
+  "tooltip.relics.void_vortex_in_bottle.leveling_source.spawn_vortex.description": "透過 %2$s 能力，每召喚一個虛空漩渦，能為遺物提供 %1$s 點經驗值。",
+
+  "item.reliquified_lenders_cataclysm.void_cloak": "虛空斗篷",
+  "tooltip.relics.void_cloak.description": "屬於一位法師的長袍，傳說他住在任何已知世界的基岩之下。\n他在那裡精通了前所未見的虛空符文魔法，並擊敗了一隻巨大的終界巨獸，其眼睛至今仍在遊蕩尋找戰鬥。",
+  "tooltip.relics.void_cloak.ability.void_invulnerability": "虛空免疫",
+  "tooltip.relics.void_cloak.ability.void_invulnerability.description": "使配戴者免疫來自虛空的傷害。",
+  "tooltip.relics.void_cloak.ability.void_rune": "虛空呼喚",
+  "tooltip.relics.void_cloak.ability.void_rune.description": "每隔 %1$s 秒，會在附近一個隨機目標腳下，召喚一個虛空符文，造成 %2$s 點傷害。",
+  "tooltip.relics.void_cloak.ability.seismic_zone": "終焉吶喊",
+  "tooltip.relics.void_cloak.ability.seismic_zone.description": "當玩家或其控制的生物死亡時，會在死亡地點，創造一個半徑 %1$s 格方塊的震盪區域，\n觸發最多 %2$s 次虛空符文，每次造成 %3$s 點傷害。",
+  "tooltip.relics.void_cloak.leveling_source.void_rune.title": "虛空呼喚",
+  "tooltip.relics.void_cloak.leveling_source.void_rune.description": "每發動一次 %2$s 能力，能為遺物提供 %1$s 點經驗值。",
+  "tooltip.relics.void_cloak.leveling_source.seismic_zone.title": "終焉吶喊",
+  "tooltip.relics.void_cloak.leveling_source.seismic_zone.description": "每發動一次 %2$s 能力，能為遺物提供 %1$s 點經驗值。",
+
+  "item.reliquified_lenders_cataclysm.vacuum_glove": "真空手套",
+  "tooltip.relics.vacuum_glove.description": "一種極為污穢的工具，不是由戰士或法師使用，而是由「屠夫」所持。\n其散發的氣息會使空氣液化，阻礙動作與思考。",
+  "tooltip.relics.vacuum_glove.ability.vacuum_slowdown": "邊界",
+  "tooltip.relics.vacuum_glove.ability.vacuum_slowdown.description": "在玩家周圍創造一個半徑 %2$s 格方塊的區域，當目標試圖逃離邊界時，會被減速 %1$s%% 。\n目標距離邊界越近，減速效果越強。",
+  "tooltip.relics.vacuum_glove.leveling_source.vacuum_slowdown.title": "邊界",
+  "tooltip.relics.vacuum_glove.leveling_source.vacuum_slowdown.description": "透過 %2$s 能力，每造成 10 秒減速，能為遺物提供 %1$s 點經驗值。",
+
+  "item.reliquified_lenders_cataclysm.void_bubble": "虛空氣泡",
+  "tooltip.relics.void_bubble.description": "一種脆弱卻耐用的裝置，能同時保護頭部、身體與心靈。",
+  "tooltip.relics.void_bubble.ability.protective_bubble": "防護氣泡",
+  "tooltip.relics.void_bubble.ability.protective_bubble.description": "將配戴者的頭部包覆在防護氣泡中，使玩家不再需要呼吸空氣。\n氣泡還能格擋最多 %1$s 次攻擊，\n被擊碎時會向四面八方散落 %2$s 個碎片，每個碎片能造成 %3$s 點傷害。\n氣泡會在 %4$s 秒後再生。",
+  "tooltip.relics.void_bubble.leveling_source.protective_bubble.title": "防護氣泡",
+  "tooltip.relics.void_bubble.leveling_source.protective_bubble.description": "透過 %2$s 能力，每格擋 1 次攻擊，能為遺物提供 %1$s 點經驗值。",
+
+  "explosion.sub": "爆炸"
+}

@@ -1,4 +1,7 @@
 {
-  "item.rsinfinitybooster.infinity_card": "無限範圍增幅升級",
-  "item.rsinfinitybooster.dimension_card": "跨維度增幅升級"
+  "item_group.rsinfinitybooster.tab": "精緻儲存：無限訊號範圍升級",
+  "item.rsinfinitybooster.infinity_card": "無限訊號範圍升級",
+  "item.rsinfinitybooster.dimension_card": "跨維度升級",
+  "item.rsinfinitybooster.tooltip.infinity_card.help": "使無線訊號發射器的訊號範圍增加至 ∞ 格方塊",
+  "item.rsinfinitybooster.tooltip.dimension_card.help": "使無線訊號發射器的訊號範圍增加至 ∞ 格方塊，並可跨維度傳遞訊號。"
 }

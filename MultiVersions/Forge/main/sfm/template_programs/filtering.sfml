@@ -1,0 +1,52 @@
+NAME "篩選教學"
+
+-- 1. 基礎篩選與數量控制
+EVERY 20 TICKS DO
+    INPUT
+        5 stone,        -- 抽取 5 個石頭
+        3 iron_ingot,   -- 抽取 3 個鐵錠
+        cobblestone,    -- 未指定數量 = 搬空所有鵝卵石
+    FROM a
+    OUTPUT TO b
+END
+
+-- 2. 星號（*）關鍵字比對
+EVERY 20 TICKS DO
+    -- 寫法 1：規則運算式（Regex）
+    -- 使用方式：將關鍵字以引號框起，SFM 就會以正規語法處理物品 ID 
+    -- 只要物品 ID 包含「ingot」就輸出（例如：iron_ingot、ingot_copper）
+    OUTPUT ".*ingot.*" TO b
+
+    -- 寫法 2：快速語法
+    -- 不使用引號時，SFM 會自動將「*」視為配對任意字元
+    -- 這是最推薦的寫法，既簡短又直覺（效果等同寫法 1）
+    INPUT *ingot* FROM a
+END
+
+-- 3. EXCEPT：排除特定物品
+EVERY 20 TICKS DO
+    -- 抽取所有的「錠」，但排除鐵錠與金錠
+    INPUT *ingot* EXCEPT iron_ingot, gold_ingot FROM a
+
+    -- 除了鵝卵石，其他我全都要
+    INPUT EXCEPT cobblestone FROM z
+
+    -- 存入 5 個物品，但不准存入銅錠
+    OUTPUT 5 EXCEPT copper_ingot TO b
+END
+
+-- 4. 重要邏輯：EXCEPT 的影響範圍
+-- 排除規則會套用至「整組」清單
+-- 只要在這一組 INPUT 中，所有符合排除條件的物品都不會被傳輸
+EVERY 20 TICKS DO
+    INPUT
+        *iron*,
+        *copper*
+
+    -- 這裡的 EXCEPT 會擋下所有 ID 包含「block」的物品
+    -- 因此鐵方塊與銅方塊都不會被抽取
+    EXCEPT
+        *block* FROM "箱子 1"
+
+    OUTPUT TO "箱子 2"
+END

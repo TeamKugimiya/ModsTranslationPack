@@ -1,0 +1,29 @@
+name "熔爐自動化"
+
+-- 每隔 20 刻（1 秒）執行一輪程式
+every 20 ticks do
+
+    -- 第一階段：供應待燒物品
+    input from "送去燒"
+
+    -- 使用 EACH 關鍵字：
+    -- 系統會檢查「每一台」標記為「熔爐」的機器。
+    -- 若有 5 台熔爐，這行指令會嘗試給「每一台」都送去 8 個礦石。
+    output 8 to each "熔爐" top side
+
+    FORGET
+
+    -- 第二階段：供應燃料
+    input from "燃料"
+
+    -- 搭配 RETAIN 與 EACH：
+    -- 這代表「每一台」熔爐的燃料欄位，都必須各自維持有 1 個燃料。
+    -- 這能確保燃料均勻分配，不會出現某台機器拿走全部煤炭的情況。
+    output retain 1 to each "熔爐" bottom side
+
+    FORGET
+
+    -- 第三階段：回收成品
+    input from "熔爐" bottom side
+    output to "成品"
+end

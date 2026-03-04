@@ -63,7 +63,7 @@ jobs:
           poetry config virtualenvs.in-project true --local
 
       - name: Cache Python
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ./.venv
           key: venv-${{ hashFiles('poetry.lock') }}
@@ -113,7 +113,7 @@ jobs:
           fi
 
       - name: Apply Pack Icon
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v8
         with:
           name: PackIcon-${{ inputs.matrix_version }}
           path: pack/
@@ -125,38 +125,41 @@ jobs:
           options: |
             pack_directory = 'pack'
             never_store_squash_times = true
-            ['assets/immersiveengineering/manual/zh_tw/*.txt']
-            force_include = true
+            ignore_system_and_hidden_files = false
+
+            # 全域規則
             ['{LICENSE,LICENSE_*}']
             force_include = true
             ['**/*?.lang']
             force_include = true
             ['**/*?.md']
             force_include = true
-            ['assets/expatternprovider/ae2guide/pic/*?.png']
+            ['**/*?.mdx']
             force_include = true
-            ['assets/appliede/ae2guide/diagrams/*?.png']
+            ['**/*?.sfml']
             force_include = true
-            ['assets/advanced_ae/ae2guide/_zh_tw/pic/*?.png']
+
+            # AE2 Guide 系列 (png, snbt)
+            ['assets/*/ae2guide/**/*?.png']
             force_include = true
-            ['assets/advanced_ae/ae2guide/_zh_tw/structure/*?.snbt']
+            ['assets/*/ae2guide/**/*?.snbt']
             force_include = true
-            ['assets/advanced_ae/ae2guide/pic/*?.png']
+
+            # Patchouli Books 翻譯 (zh_tw json)
+            ['assets/*/patchouli_books/**/zh_tw/**/*?.json']
             force_include = true
-            ['assets/advanced_ae/ae2guide/structure/*?.snbt']
-            force_include = true
-            ['assets/extendedae/ae2guide/_zh_tw/pic/*?.png']
-            force_include = true
-            ['assets/appflux/ae2guide/_zh_tw/pic/*?.png']
+
+            # 其他模組專用
+            ['assets/immersiveengineering/manual/zh_tw/*?.txt']
             force_include = true
             ['assets/alexscaves/books/zh_tw/**/*?.txt']
             force_include = true
-            ['assets/alexscaves/books/zh_tw/root.txt']
+            ['assets/oritech/oracle_index/books/oritech/.translated/zh_tw/**/*?.json']
             force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: Download Artifact
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v8
         with:
           name: OptimizedPack-${{ inputs.matrix_version }}
           path: ./
@@ -170,7 +173,7 @@ jobs:
           sha256sum ModsTranslationPack-${{ inputs.matrix_version }}.zip > checksum.txt
 
       - name: Upload ModsTranslationPack
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: ModsTranslationPack-${{ inputs.matrix_version }}
           path: |

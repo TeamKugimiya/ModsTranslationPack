@@ -1,0 +1,41 @@
+NAME "AE2 壓印機自動化"
+
+-- 標記標籤的位置：
+-- 邏輯、工程、計算、矽、處理器 => 壓印機
+-- 材料、成品 => 儲物容器
+EVERY 20 TICKS DO
+    INPUT FROM "材料"
+
+    OUTPUT RETAIN 2 gold_ingot TO EACH "邏輯" SLOTS 2
+    OUTPUT RETAIN 2 diamond TO EACH "工程" SLOTS 2
+    OUTPUT RETAIN 2 certus_quartz_crystal TO EACH "計算" SLOTS 2
+
+    OUTPUT RETAIN 2 silicon TO EACH "矽" SLOTS 2
+
+    OUTPUT RETAIN 2 redstone TO EACH "處理器" SLOTS 2
+    OUTPUT RETAIN 2 printed_silicon TO EACH "處理器" SLOTS 1
+
+    OUTPUT
+        RETAIN 2 printed_calculation_processor,
+        RETAIN 2 printed_engineering_processor,
+        RETAIN 2 printed_logic_processor
+    TO EACH "處理器" SLOTS 0
+FORGET
+    INPUT FROM "邏輯", "工程", "計算", "矽" west side
+    output to "材料"
+FORGET
+    INPUT FROM "處理器" west SIDE
+    OUTPUT TO "成品"
+END
+EVERY 200 TICKS DO
+    IF SOME "處理器" HAS LT 3 THEN
+-- 壓印機在合成處理器時，其內部應要有 3 種材料
+-- 若檢測到標記為「處理器」的壓印機，其內部材料少於 3 個
+-- 這段程式碼會將此壓印機的物品，抽回標記為「材料」的容器中
+
+-- 檢查頻率（預設 200 刻）必須長於「處理器的合成耗時」
+-- 以確保 SFM 不會從材料充足，且正在運作中的壓印機誤抽材料，導致合成中斷。
+        INPUT FROM "處理器"
+        OUTPUT TO "材料"
+    END
+END

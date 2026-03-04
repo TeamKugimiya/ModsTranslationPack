@@ -1,0 +1,33 @@
+NAME "計時器觸發"
+
+-- [內部時鐘]
+-- 管理器的內部時鐘在「放置時」，會從零開始計算
+-- 注意：當管理器所在的區塊卸載，重新載入後時鐘會被隨機初始化
+EVERY 20 TICKS DO
+END
+
+-- [全域時鐘]
+-- 有時候你會需要更精確的同步控制
+-- 使用全域時鐘（即世界時間）來決定執行時機，不受管理器放置時間影響
+-- 這對於讓不同地點的多個管理器「整齊劃一」地執行非常有用
+EVERY 20 GLOBAL TICKS DO END
+
+-- [偏移量]
+-- 你可以加入「PLUS」來設定偏移量
+-- 這能避免所有的自動化程式，都在同一刻執行，進而減輕伺服器瞬間負擔
+
+-- 內部時鐘：每 20 刻執行，但往後推遲 1 刻
+EVERY 20 PLUS 1 TICKS DO END
+
+-- 全域時鐘：每 20 刻執行，但往後推遲 1 刻
+EVERY 20 GLOBAL PLUS 1 TICKS DO END
+
+-- [縮寫形式]
+-- 這裡的「+」只是標記，別把它誤認為是數學加法運算喔！
+EVERY 20+1 TICKS DO END  -- 內部時鐘偏移縮寫
+EVERY 20G TICKS DO END   -- 全域時鐘縮寫
+EVERY 20G+1 TICKS DO END -- 全域時鐘偏移縮寫
+
+-- 語法非常彈性，你可以隨意混用
+EVERY 20 G PLUS 1 TICKS DO END
+EVERY 20 GLOBAL + 1 TICKS DO END
