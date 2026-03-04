@@ -181,6 +181,13 @@
       </a>
     </td>
     <td align="center">
+      <a href="https://github.com/DEEMsss" title="DEEM">
+        <img src="https://avatars.githubusercontent.com/u/179397836?v=4" width="100;" alt="DEEM"/>
+        <br />
+        <sub><b>DEEM</b></sub>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/HankLai1207" title="Maver1ck">
         <img src="https://avatars.githubusercontent.com/u/85329357?v=4" width="100;" alt="Maver1ck"/>
         <br />
@@ -194,6 +201,8 @@
         <sub><b>Hikari</b></sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/PhilosophicalVitamins" title="PhilosophicalVitamins">
         <img src="https://avatars.githubusercontent.com/u/129835323?v=4" width="100;" alt="PhilosophicalVitamins"/>
@@ -201,8 +210,6 @@
         <sub><b>PhilosophicalVitamins</b></sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/JustSimplyKyle" title="SimplyKyle!">
         <img src="https://avatars.githubusercontent.com/u/68589851?v=4" width="100;" alt="SimplyKyle!"/>
