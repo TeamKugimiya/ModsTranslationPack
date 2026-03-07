@@ -1,0 +1,16 @@
+{
+  "sdrp.logo": "模組包 Logo",
+  "sdrp.mainmenu": "標題畫面",
+  "sdrp.overworld.in": "目前位於主世界",
+  "sdrp.overworld": "主世界",
+  "sdrp.the_nether.in": "目前位於地獄",
+  "sdrp.the_nether": "地獄",
+  "sdrp.the_end.in": "目前位於終界",
+  "sdrp.the_end": "終界",
+  "sdrp.compact_world.in": "目前位於壓縮空間",
+  "sdrp.compact_world": "壓縮空間",
+  "sdrp.dungeon.in": "目前位於地牢世界",
+  "sdrp.dungeon": "地牢世界",
+  "sdrp.spatial_storage.in": "目前位於空間儲存",
+  "sdrp.spatial_storage": "空間儲存"
+}
