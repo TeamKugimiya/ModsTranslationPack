@@ -1,5 +1,64 @@
 # Changelog
 
+## [1.9.0](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.5...v1.9.0) (2026-03-07)
+
+
+### 💪 次版本號提升
+
+* **FTB StoneBlock 4:** 支援 StoneBlock4！ ([#945](https://github.com/TeamKugimiya/ModsTranslationPack/issues/945)) ([3d25497](https://github.com/TeamKugimiya/ModsTranslationPack/commit/3d25497816ec0fac5af56e1b4cfd9b99d345379f))
+
+
+### 🔧 修正錯誤
+
+* **CI:** 修正 AlexCave 手冊驗證並未被收入進腳本中 ([#937](https://github.com/TeamKugimiya/ModsTranslationPack/issues/937)) ([3b5010d](https://github.com/TeamKugimiya/ModsTranslationPack/commit/3b5010d9c4bad168769cee265fff8e1a4afc2a94))
+* **CI:** 修正 include 內容 ([#941](https://github.com/TeamKugimiya/ModsTranslationPack/issues/941)) ([1f17017](https://github.com/TeamKugimiya/ModsTranslationPack/commit/1f170177a77b6016c6dc981a73f131e8293c9dcc))
+* **deps:** update dependency aiohttp to v3.13.3 ([#929](https://github.com/TeamKugimiya/ModsTranslationPack/issues/929)) ([4b7fe38](https://github.com/TeamKugimiya/ModsTranslationPack/commit/4b7fe38d377f12eae5e9d31d88922965f0b6a9a3))
+* **deps:** update dependency pillow to v12.1.1 ([#928](https://github.com/TeamKugimiya/ModsTranslationPack/issues/928)) ([631d451](https://github.com/TeamKugimiya/ModsTranslationPack/commit/631d45191e9162133055823354087a16d687bbc6))
+* **deps:** update dependency selenium to v4.41.0 ([#916](https://github.com/TeamKugimiya/ModsTranslationPack/issues/916)) ([f8f1a32](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f8f1a325dfe5c04b7de4ec39b8cbda67f9e625ab))
+
+
+### 🧹 整理專案
+
+* **deps:** update actions/cache action to v5 ([#918](https://github.com/TeamKugimiya/ModsTranslationPack/issues/918)) ([43346e8](https://github.com/TeamKugimiya/ModsTranslationPack/commit/43346e85b093b3bc5115c0febc424cae5d26f771))
+* **deps:** update dawidd6/action-download-artifact action to v16 ([#935](https://github.com/TeamKugimiya/ModsTranslationPack/issues/935)) ([1d61b5f](https://github.com/TeamKugimiya/ModsTranslationPack/commit/1d61b5f41145ac65734221c3707eeaa796f6c2a6))
+* **deps:** update github artifact actions (major) ([#920](https://github.com/TeamKugimiya/ModsTranslationPack/issues/920)) ([fa6c911](https://github.com/TeamKugimiya/ModsTranslationPack/commit/fa6c911670457bdc23963cd00b037d6e42d3e224))
+* **deps:** update peter-evans/create-pull-request action to v8 ([#917](https://github.com/TeamKugimiya/ModsTranslationPack/issues/917)) ([f6b97aa](https://github.com/TeamKugimiya/ModsTranslationPack/commit/f6b97aa213c9e3fc0d17529d23d094a76c66409a))
+* **deps:** update s3-actions/s3cmd action to v2.1.0 ([#933](https://github.com/TeamKugimiya/ModsTranslationPack/issues/933)) ([79ff558](https://github.com/TeamKugimiya/ModsTranslationPack/commit/79ff558adc52e44c532b68159f9b38235e16a9ba))
+* **deps:** update taskmedia/action-conventional-commits action to v1.1.26 ([#926](https://github.com/TeamKugimiya/ModsTranslationPack/issues/926)) ([e8f4b68](https://github.com/TeamKugimiya/ModsTranslationPack/commit/e8f4b68ef0b6ecf5ab282cc3fe536b188943e11b))
+
+
+### 📑 文件更新
+
+* **Readme:** 更新模組數量 ([#923](https://github.com/TeamKugimiya/ModsTranslationPack/issues/923)) ([3633b80](https://github.com/TeamKugimiya/ModsTranslationPack/commit/3633b8083552fa82246daa3842f3d74b9690acd4))
+* **Readme:** 更新模組數量 ([#944](https://github.com/TeamKugimiya/ModsTranslationPack/issues/944)) ([396da2a](https://github.com/TeamKugimiya/ModsTranslationPack/commit/396da2afc69aa67d884d8e192eae806f56487cf5))
+* **Readme:** 更新貢獻者清單 ([#924](https://github.com/TeamKugimiya/ModsTranslationPack/issues/924)) ([b080a24](https://github.com/TeamKugimiya/ModsTranslationPack/commit/b080a24451f1d3d5e690edd76416a6c07cd6b4d0))
+
+
+### ⚡ 新增模組翻譯
+
+* **Alex's Caves:** 新增 Alex 的洞穴 v2.0.2 ([#921](https://github.com/TeamKugimiya/ModsTranslationPack/issues/921)) ([d6e1bf7](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d6e1bf7ff68dc12224278e8020889a5799b2b544))
+* **create: central kitchen:** 新增動力機械｜中央廚房 v2.2.4 ([#919](https://github.com/TeamKugimiya/ModsTranslationPack/issues/919)) ([7709fca](https://github.com/TeamKugimiya/ModsTranslationPack/commit/7709fca7de9a933b539da61a9e424e7067af36ff))
+* **Create: Dragon Plus:** 新增機械動力｜龍+ v1.8.1 ([#913](https://github.com/TeamKugimiya/ModsTranslationPack/issues/913)) ([069005d](https://github.com/TeamKugimiya/ModsTranslationPack/commit/069005d4a2a711f81910ebf93f02d8289b15e4ba))
+* **Create: Enchantment Industry:** 新增機械動力｜附魔工業 v2.2.3 ([#912](https://github.com/TeamKugimiya/ModsTranslationPack/issues/912)) ([52ee50a](https://github.com/TeamKugimiya/ModsTranslationPack/commit/52ee50a1eb1c02ad54f0e2668d42b235c5c2b723))
+* **Create: hypertube:** 新增機械動力｜超級管道 v0.2.6 ([#915](https://github.com/TeamKugimiya/ModsTranslationPack/issues/915)) ([d897e78](https://github.com/TeamKugimiya/ModsTranslationPack/commit/d897e78f127b5da062b4a7a977d616ba248d926e))
+* **Create: Occult Engineering:** 新增動力機械｜神秘工程 v.0.11.1 ([#930](https://github.com/TeamKugimiya/ModsTranslationPack/issues/930)) ([0b0b514](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0b0b514ddb024419b08728eb4bddee87ae0af99e))
+* **Create: Shimmer:** 新增機械動力｜微光 v1.2.4 ([#914](https://github.com/TeamKugimiya/ModsTranslationPack/issues/914)) ([7392fca](https://github.com/TeamKugimiya/ModsTranslationPack/commit/7392fca9d2b23240e67eb061a251db90d525c107))
+* **LAST DANCE:** 最後一舞 第一部分 ([#938](https://github.com/TeamKugimiya/ModsTranslationPack/issues/938)) ([1230490](https://github.com/TeamKugimiya/ModsTranslationPack/commit/1230490598bf45825c0248f8a3f1ab5a3a8b4062))
+* **LAST DANCE:** 最後一舞 第二部分 ([#939](https://github.com/TeamKugimiya/ModsTranslationPack/issues/939)) ([a10c72f](https://github.com/TeamKugimiya/ModsTranslationPack/commit/a10c72f6f2144be87a124d10b0def7cbe4b610fe))
+
+
+### 🐌 更新模組翻譯
+
+* **FTB Series:** 更新 FTB 全家桶 ([#936](https://github.com/TeamKugimiya/ModsTranslationPack/issues/936)) ([0d89df1](https://github.com/TeamKugimiya/ModsTranslationPack/commit/0d89df1ddc3a409c38af4c76599895f297c77a31))
+* **Ghosts:** 更新翻譯至 v1.2.2 ([#922](https://github.com/TeamKugimiya/ModsTranslationPack/issues/922)) ([daf98cb](https://github.com/TeamKugimiya/ModsTranslationPack/commit/daf98cbf2c9ffd1a0dbc42107d9c0bd9f6403d27))
+* **LAST DANCE:** 更新 SDRP ([#946](https://github.com/TeamKugimiya/ModsTranslationPack/issues/946)) ([6966b1c](https://github.com/TeamKugimiya/ModsTranslationPack/commit/6966b1c66edfb23bc0e6fa05cfc3ce76e74990e4))
+* **LAST DANCE:** 補上 AE2 Import Export Card 指南 ([#942](https://github.com/TeamKugimiya/ModsTranslationPack/issues/942)) ([03866e4](https://github.com/TeamKugimiya/ModsTranslationPack/commit/03866e4a47010caaf5d67c19b04878791b374c56))
+
+
+### 🐛 修正模組翻譯錯誤
+
+* **LAST DANCE:** 錯誤修復 ([#943](https://github.com/TeamKugimiya/ModsTranslationPack/issues/943)) ([aceee63](https://github.com/TeamKugimiya/ModsTranslationPack/commit/aceee632b53600639df016c81d8b64b93807044e))
+
 ## [1.8.5](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.4...v1.8.5) (2025-11-21)
 
 
