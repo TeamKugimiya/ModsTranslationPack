@@ -155,7 +155,6 @@ jobs:
             ['assets/alexscaves/books/zh_tw/**/*?.txt']
             force_include = true
             ['assets/oracle_index/books/oritech/.translated/zh_tw/**/*?.json']
-            minify_json = false
             sort_json_object_keys = false
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
