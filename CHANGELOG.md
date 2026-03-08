@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.9.0...v1.9.1) (2026-03-08)
+
+
+### 🔧 修正錯誤
+
+* **ResourcePacker:** 修正指南的 meta 鍵值會被重排 ([#947](https://github.com/TeamKugimiya/ModsTranslationPack/issues/947)) ([8ef0f1c](https://github.com/TeamKugimiya/ModsTranslationPack/commit/8ef0f1cd81798d3a1c0a46a2bb4d564f46958519))
+
 ## [1.9.0](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.8.5...v1.9.0) (2026-03-07)
 
 
