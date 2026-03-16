@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "skinlayers3d",
+  "display_name": {
+    "en": "3D Skin Layers"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "zV5r3pPn"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21",
+          "1.20",
+          "1.19",
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-16T13:59:43Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "1.10.2"
+    }
+  }
+}

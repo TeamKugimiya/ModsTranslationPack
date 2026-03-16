@@ -11,3 +11,4 @@ icons
 config
 .github/configs
 .env
+setup.unresolved.txt
