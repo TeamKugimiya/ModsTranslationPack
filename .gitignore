@@ -1,2 +1,5 @@
 # Ignore any jar file
 *.jar
+
+# Ignore tools
+translation-tool*
