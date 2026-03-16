@@ -1,11 +1,2 @@
-# Ignore Minecraft Lang Files
-
-test/
-pack/
-docs/Minecraft-Lang
-SimplePusher.sh
-
-# Python
-.venv/
-__pycache__/
-loguru.log
+# Ignore any jar file
+*.jar
