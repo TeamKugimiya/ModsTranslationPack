@@ -3,3 +3,11 @@
 
 # Ignore tools
 translation-tool*
+
+# Ignore some testing file
+__pycache__
+*.py
+icons
+config
+.github/configs
+.env
