@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "advgenerators",
+  "display_name": {
+    "en": "Advanced Generators"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "223622",
+    "modrinth": "qG2blzpo"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-17T12:48:50Z",
+    "translation_progress": {
+      "1.20": 94.58,
+      "overall": 94.58
+    },
+    "mod_versions": {
+      "1.20": "Advanced Generators 1.6.0.6 (MC 1.20.1)"
+    }
+  }
+}
