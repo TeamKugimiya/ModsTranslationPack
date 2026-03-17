@@ -1,11 +1,6 @@
 {
-  "category.xray": "Advanced XRay",
-  "keybinding.enable_xray": "啟用 XRay",
-  "keybinding.open_gui": "開啟介面",
-  "message.xray_active": "已啟用 XRay",
-  "message.xray_deactivate": "已停用 XRay",
-  "spacer": "-------------------------------------------------------",
-  "comment_forge": "Forge mod old lang stuff, please never translate",
+  "xray.mod_name": "Advanced XRay",
+  "xray.debug.init": "XRay Initialised",
   "xray.single.cancel": "取消",
   "xray.single.add": "新增",
   "xray.single.delete": "刪除",
@@ -18,6 +13,7 @@
   "xray.color.red": "紅色：",
   "xray.color.green": "綠色：",
   "xray.color.blue": "藍色：",
+  "xray.color.alpha": "Alpha: %s",
   "xray.input.gui": "介面名稱",
   "xray.input.add": "新增方塊",
   "xray.input.add_hand": "新增手上的方塊",
@@ -28,6 +24,8 @@
   "xray.title.config": "方塊設定",
   "xray.title.edit": "編輯方塊",
   "xray.title.edit_meta": "編輯 Meta",
+  "xray.chat.first-time": "§6Thank you for using Advanced XRay, §rYou can open the menu by pressing §a[%s§a] §rand turn XRay on with §a[%s§a]§r.",
+  "xray.chat.first-time-line-2": "These can be changed in settings -\u003e options -\u003e controls -\u003e keybindings. §cThis message will only show once.",
   "xray.message.missing_input": "你必須填寫所有輸入欄位",
   "xray.message.already_exists": "這個方塊已經有在方塊清單中",
   "xray.message.added_block": "成功新增 %s。",
@@ -51,5 +49,9 @@
   "xray.tooltips.edit1": "點擊來啟用／停用",
   "xray.tooltips.edit2": "按住 Shift 並點擊來編輯。",
   "xray.message.help.gui": "要編輯方塊設定，只需簡單地對你想要編輯的方塊「 Shift + 左鍵點擊」。\n如果你想要開關方塊顯示，只需左鍵點擊一下該方塊即可。",
-  "xray.message.help.warning": "警告，使用距離超過 64 將導致 FPS 下降，因為必須掃描大量的方塊。（就像是 256^3）"
+  "xray.message.help.warning": "警告，使用距離超過 64 將導致 FPS 下降，因為必須掃描大量的方塊。（就像是 256^3）",
+  "xray.config.toggle": "Toggle XRay",
+  "xray.config.open": "Open XRay Menu",
+  "xray.toggle.activated": "XRay activated",
+  "xray.toggle.deactivated": "XRay deactivated"
 }
