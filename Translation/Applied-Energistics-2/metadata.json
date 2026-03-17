@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ae2",
+  "display_name": {
+    "en": "Applied Energistics 2"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "223794",
+    "modrinth": "XxWD5pD3"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.19": {
+        "versions": [
+          "1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.19"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "guides": {
+    "1.21": [
+      "ae2guide"
+    ]
+  },
+  "status": {
+    "last_synced": "2026-03-17T07:43:02Z",
+    "translation_progress": {
+      "1.18": 99.05,
+      "1.19": 99.1,
+      "1.21": 95.59,
+      "overall": 97.91
+    },
+    "mod_versions": {
+      "1.18": "AE2 11.7.6 [FORGE]",
+      "1.19": "AE2 12.9.12 [FORGE]",
+      "1.21": "AE2 19.2.17 [NEOFORGE]"
+    }
+  }
+}
