@@ -13,6 +13,6 @@
   "text.resourcefulconfig.extractinator.option.lootMultiplier.tooltip": "戰利品掉落的數量將乘以此數值",
   "text.resourcefulconfig.extractinator.option.silent": "靜音",
   "text.resourcefulconfig.extractinator.option.silent.tooltip": "將沙石提煉機調整為靜音",
-  "text.resourcefulconfig.extractinator.option.worldgen": "Worldgen",
+  "text.resourcefulconfig.extractinator.option.worldgen": "世界生成",
   "text.resourcefulconfig.extractinator.option.worldgen.tooltip": "[僅限 Fabric 端] 生成沉泥及雪泥"
 }
