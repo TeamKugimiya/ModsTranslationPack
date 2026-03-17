@@ -2,6 +2,7 @@
   "__author": "StarskyXIII",
   "__link": "https://github.com/StarskyXIII",
   "__version": "4",
+
   "block.additionalbars.gold_bars": "金欄杆",
   "block.additionalbars.acacia_bars": "相思木欄杆",
   "block.additionalbars.birch_bars": "樺木欄杆",
@@ -12,6 +13,7 @@
   "block.additionalbars.mangrove_bars": "Mangrove Bars",
   "block.additionalbars.crimson_bars": "緋紅蕈木欄杆",
   "block.additionalbars.warped_bars": "扭曲蕈木欄杆",
+
   "block.additionalbars.crossed_iron_bars": "鐵欄杆",
   "block.additionalbars.crossed_gold_bars": "金欄杆",
   "block.additionalbars.crossed_acacia_bars": "相思木欄杆",
@@ -23,6 +25,7 @@
   "block.additionalbars.crossed_mangrove_bars": "Mangrove Bars",
   "block.additionalbars.crossed_crimson_bars": "緋紅蕈木欄杆",
   "block.additionalbars.crossed_warped_bars": "扭曲蕈木欄杆",
+
   "block.additionalbars.horizontal_iron_bars": "鐵欄杆",
   "block.additionalbars.horizontal_gold_bars": "金欄杆",
   "block.additionalbars.horizontal_acacia_bars": "相思木欄杆",
@@ -34,6 +37,7 @@
   "block.additionalbars.horizontal_mangrove_bars": "Mangrove Bars",
   "block.additionalbars.horizontal_crimson_bars": "緋紅蕈木欄杆",
   "block.additionalbars.horizontal_warped_bars": "扭曲蕈木欄杆",
+
   "block.additionalbars.horizontal_crossed_iron_bars": "鐵欄杆",
   "block.additionalbars.horizontal_crossed_gold_bars": "金欄杆",
   "block.additionalbars.horizontal_crossed_acacia_bars": "相思木欄杆",
@@ -45,39 +49,49 @@
   "block.additionalbars.horizontal_crossed_mangrove_bars": "Mangrove Bars",
   "block.additionalbars.horizontal_crossed_crimson_bars": "緋紅蕈木欄杆",
   "block.additionalbars.horizontal_crossed_warped_bars": "扭曲蕈木欄杆",
+
   "block.additionalbars.copper_bars": "銅欄杆",
   "block.additionalbars.exposed_copper_bars": "斑駁的銅欄杆",
   "block.additionalbars.weathered_copper_bars": "風化的銅欄杆",
   "block.additionalbars.oxidized_copper_bars": "氧化的銅欄杆",
+
   "block.additionalbars.crossed_copper_bars": "銅欄杆",
   "block.additionalbars.crossed_exposed_copper_bars": "斑駁的銅欄杆",
   "block.additionalbars.crossed_weathered_copper_bars": "風化的銅欄杆",
   "block.additionalbars.crossed_oxidized_copper_bars": "氧化的銅欄杆",
+
   "block.additionalbars.horizontal_copper_bars": "銅欄杆",
   "block.additionalbars.horizontal_exposed_copper_bars": "斑駁的銅欄杆",
   "block.additionalbars.horizontal_weathered_copper_bars": "風化的銅欄杆",
   "block.additionalbars.horizontal_oxidized_copper_bars": "氧化的銅欄杆",
+
   "block.additionalbars.horizontal_crossed_copper_bars": "銅欄杆",
   "block.additionalbars.horizontal_crossed_exposed_copper_bars": "斑駁的銅欄杆",
   "block.additionalbars.horizontal_crossed_weathered_copper_bars": "風化的銅欄杆",
   "block.additionalbars.horizontal_crossed_oxidized_copper_bars": "氧化的銅欄杆",
+
   "block.additionalbars.waxed_copper_bars": "上蠟的銅欄杆",
   "block.additionalbars.waxed_exposed_copper_bars": "上蠟的斑駁銅欄杆",
   "block.additionalbars.waxed_weathered_copper_bars": "上蠟的風化銅欄杆",
   "block.additionalbars.waxed_oxidized_copper_bars": "上蠟的氧化銅欄杆",
+
   "block.additionalbars.waxed_crossed_copper_bars": "上蠟的銅欄杆",
   "block.additionalbars.waxed_crossed_exposed_copper_bars": "上蠟的斑駁銅欄杆",
   "block.additionalbars.waxed_crossed_weathered_copper_bars": "上蠟的風化銅欄杆",
   "block.additionalbars.waxed_crossed_oxidized_copper_bars": "上蠟的氧化銅欄杆",
+
   "block.additionalbars.waxed_horizontal_copper_bars": "上蠟的銅欄杆",
   "block.additionalbars.waxed_horizontal_exposed_copper_bars": "上蠟的斑駁銅欄杆",
   "block.additionalbars.waxed_horizontal_weathered_copper_bars": "上蠟的風化銅欄杆",
   "block.additionalbars.waxed_horizontal_oxidized_copper_bars": "上蠟的氧化銅欄杆",
+
   "block.additionalbars.waxed_horizontal_crossed_copper_bars": "上蠟的銅欄杆",
   "block.additionalbars.waxed_horizontal_crossed_exposed_copper_bars": "上蠟的斑駁銅欄杆",
   "block.additionalbars.waxed_horizontal_crossed_weathered_copper_bars": "上蠟的風化銅欄杆",
   "block.additionalbars.waxed_horizontal_crossed_oxidized_copper_bars": "上蠟的氧化銅欄杆",
+
   "itemGroup.additionalbars.additionalbars": "Additional Bars",
+
   "tooltip.gamma1772.regular": "一般",
   "tooltip.gamma1772.crossed": "交錯",
   "tooltip.gamma1772.horizontal": "水平",
