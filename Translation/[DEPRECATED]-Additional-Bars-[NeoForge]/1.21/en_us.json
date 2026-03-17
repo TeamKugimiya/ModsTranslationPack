@@ -90,8 +90,7 @@
   "block.additionalbars.waxed_horizontal_crossed_weathered_copper_bars": "Waxed Weathered Copper Bars",
   "block.additionalbars.waxed_horizontal_crossed_oxidized_copper_bars": "Waxed Oxidized Copper Bars",
 
-  "itemGroup.additionalBars": "Additional Bars",
-  "itemGroup.horizontaladditionalbars": "Additional Bars (Horizontal)",
+  "itemGroup.additionalbars.additionalbars": "Additional Bars",
 
   "tooltip.gamma1772.regular": "Regular",
   "tooltip.gamma1772.crossed": "Crossed",
