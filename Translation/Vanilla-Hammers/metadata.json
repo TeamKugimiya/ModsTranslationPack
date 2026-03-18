@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "vanillahammers",
+  "display_name": {
+    "en": "Vanilla Hammers"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "317756",
+    "modrinth": "vanilla-hammers"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

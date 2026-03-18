@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lava_monster",
+  "display_name": {
+    "en": "Lava Monsters"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "60329",
+    "modrinth": "lava-monsters"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lowfire",
+  "display_name": {
+    "en": "LowFire"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "UKtMB53f"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

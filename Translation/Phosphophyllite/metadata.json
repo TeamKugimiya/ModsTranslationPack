@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "phosphophyllite",
+  "display_name": {
+    "en": "Phosphophyllite"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "412551",
+    "modrinth": "phos"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "effective",
+  "display_name": {
+    "en": "Effective"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "556381",
+    "modrinth": "pcPXJeZi"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

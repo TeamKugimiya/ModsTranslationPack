@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "decorative_blocks",
+  "display_name": {
+    "en": "Decorative Blocks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "362528",
+    "modrinth": "t6BIRVZn"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

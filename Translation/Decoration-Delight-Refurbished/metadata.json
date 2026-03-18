@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "decoration_delight",
+  "display_name": {
+    "en": "Decoration Delight: Refurbished"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "687475"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

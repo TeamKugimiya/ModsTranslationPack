@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "creatures_and_beasts",
+  "display_name": {
+    "en": "Creatures and Beasts"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "414401",
+    "modrinth": "RQDFHc4w"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

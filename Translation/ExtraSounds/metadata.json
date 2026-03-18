@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "extrasounds",
+  "display_name": {
+    "en": "ExtraSounds"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "478890",
+    "modrinth": "uPWCQrVL"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.19"
+        ]
+      },
+      "1.19": {
+        "versions": [
+          "<=1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

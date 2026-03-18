@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "create_mechanical_extruder",
+  "display_name": {
+    "en": "Create Mechanical Extruder"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "686100",
+    "modrinth": "hGAlcCDJ"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

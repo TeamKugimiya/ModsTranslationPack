@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "neverenderore",
+  "display_name": {
+    "en": "NeverEnderOre"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "678083"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

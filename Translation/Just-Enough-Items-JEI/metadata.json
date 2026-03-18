@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "jei",
+  "display_name": {
+    "en": "Just Enough Items (JEI)"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "238222",
+    "modrinth": "u6dRKJwZ"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

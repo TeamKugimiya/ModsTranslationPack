@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "rebornstorage",
+  "display_name": {
+    "en": "Reborn Storage"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "256662",
+    "modrinth": "NwazYrVH"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

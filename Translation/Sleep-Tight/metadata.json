@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "sleep_tight",
+  "display_name": {
+    "en": "Sleep Tight"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "817564",
+    "modrinth": "tNai0h2Y"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

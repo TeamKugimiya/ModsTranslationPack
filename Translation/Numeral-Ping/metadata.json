@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "numeralping",
+  "display_name": {
+    "en": "Numeral Ping"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "559653",
+    "modrinth": "numeral-ping"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.4",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

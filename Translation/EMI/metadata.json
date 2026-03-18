@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "emi",
+  "display_name": {
+    "en": "EMI"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "580555",
+    "modrinth": "fRiHVvU7"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "superiorshields",
+  "display_name": {
+    "en": "Superior Shields"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "311785",
+    "modrinth": "superior-shields"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lightoverlay",
+  "display_name": {
+    "en": "Light Overlay"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1376481",
+    "modrinth": "8qVa1XCN"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "clickthrough",
+  "display_name": {
+    "en": "ClickThrough"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "405262",
+    "modrinth": "Z5b0cAlD"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

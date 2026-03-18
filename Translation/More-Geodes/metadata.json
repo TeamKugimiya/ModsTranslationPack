@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "moregeodes",
+  "display_name": {
+    "en": "More Geodes"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "437712",
+    "modrinth": "more-geodes"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

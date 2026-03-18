@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "eccentrictome",
+  "display_name": {
+    "en": "Eccentric Tome"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "597522",
+    "modrinth": "eccentric-tome"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

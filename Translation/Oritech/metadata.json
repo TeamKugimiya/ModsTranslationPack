@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "oritech",
+  "display_name": {
+    "en": "Oritech"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1030830",
+    "modrinth": "4sYI62kA"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

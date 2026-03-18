@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "niftycarts",
+  "display_name": {
+    "en": "NiftyCarts"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "900093",
+    "modrinth": "CXd6g9xp"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      },
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

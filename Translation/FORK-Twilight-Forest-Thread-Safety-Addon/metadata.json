@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "twilightforest",
+  "display_name": {
+    "en": "[FORK] Twilight Forest Thread Safety Addon"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1430534",
+    "modrinth": "fork-twilightforest-thread-safety-addon"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

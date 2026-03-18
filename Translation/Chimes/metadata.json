@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "chimes",
+  "display_name": {
+    "en": "Chimes"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "350464",
+    "modrinth": "mjGOuygR"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "paginatedadvancements",
+  "display_name": {
+    "en": "Paginated Advancements & Custom Frames"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "618770",
+    "modrinth": "pJogNFap"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

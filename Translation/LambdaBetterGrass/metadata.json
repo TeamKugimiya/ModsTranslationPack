@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lambdabettergrass",
+  "display_name": {
+    "en": "LambdaBetterGrass"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "400322",
+    "modrinth": "2Uev7LdA"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

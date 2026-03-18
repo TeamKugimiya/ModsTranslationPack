@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "travelanchors",
+  "display_name": {
+    "en": "Travel Anchors"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "413234",
+    "modrinth": "travel-anchors"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

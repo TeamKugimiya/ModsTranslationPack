@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "durabilitytooltip",
+  "display_name": {
+    "en": "Durability Tooltip"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "511040",
+    "modrinth": "BourW9Nc"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

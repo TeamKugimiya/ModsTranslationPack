@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "progressivebosses",
+  "display_name": {
+    "en": "Progressive Bosses"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "289466",
+    "modrinth": "progressive-bosses"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

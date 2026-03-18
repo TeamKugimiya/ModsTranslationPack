@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "chargers",
+  "display_name": {
+    "en": "Chargers"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "290433",
+    "modrinth": "eDFiPATu"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

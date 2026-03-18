@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "modern_industrialization",
+  "display_name": {
+    "en": "Modern Industrialization"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "405388",
+    "modrinth": "Gov5Dboq"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

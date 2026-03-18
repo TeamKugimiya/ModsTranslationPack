@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "woodworks",
+  "display_name": {
+    "en": "Woodworks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "543610",
+    "modrinth": "rv1sovni"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

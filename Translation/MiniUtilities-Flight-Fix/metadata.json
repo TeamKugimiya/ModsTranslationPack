@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "miniutilities",
+  "display_name": {
+    "en": "MiniUtilities Flight Fix"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "460341",
+    "modrinth": "miniutilities-flight-fix"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

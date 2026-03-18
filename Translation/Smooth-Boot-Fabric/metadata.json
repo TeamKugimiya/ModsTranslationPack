@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "smoothboot",
+  "display_name": {
+    "en": "Smooth Boot (Fabric)"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "643330",
+    "modrinth": "smoothboot-fabric"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

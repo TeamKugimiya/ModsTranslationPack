@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "snowyspirit",
+  "display_name": {
+    "en": "Snowy Spirit"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "566142",
+    "modrinth": "snowy-spirit"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.20": {
+        "versions": [
+          "1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.19": {
+        "versions": [
+          "<=1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

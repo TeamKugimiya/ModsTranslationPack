@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "moreminecarts",
+  "display_name": {
+    "en": "More Minecarts"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "440845",
+    "modrinth": "more-minecarts"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

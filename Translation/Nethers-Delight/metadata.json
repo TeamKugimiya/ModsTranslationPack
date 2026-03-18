@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "nethersdelight",
+  "display_name": {
+    "en": "Nether's Delight"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "496394",
+    "modrinth": "nethers-delight"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

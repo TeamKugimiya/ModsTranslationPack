@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "woof",
+  "display_name": {
+    "en": "Wolves Of Other Furs"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "653216"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

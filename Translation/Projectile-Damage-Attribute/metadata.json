@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "projectile_damage",
+  "display_name": {
+    "en": "Projectile Damage Attribute"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "643780",
+    "modrinth": "projectile-damage-attribute"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

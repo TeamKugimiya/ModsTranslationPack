@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lootr",
+  "display_name": {
+    "en": "Lootr"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "361276",
+    "modrinth": "EltpO5cN"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

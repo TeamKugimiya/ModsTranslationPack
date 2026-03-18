@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "cobblefordays",
+  "display_name": {
+    "en": "CobbleForDays"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "349460",
+    "modrinth": "hi71AUZ0"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "peculiars",
+  "display_name": {
+    "en": "Peculiars"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "418551",
+    "modrinth": "B73HVoud"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

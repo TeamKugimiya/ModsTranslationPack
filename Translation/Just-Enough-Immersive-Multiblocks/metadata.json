@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "jeimultiblocks",
+  "display_name": {
+    "en": "Just Enough Immersive Multiblocks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "634571",
+    "modrinth": "jei-multiblocks"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

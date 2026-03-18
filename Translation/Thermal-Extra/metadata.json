@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "thermal_extra",
+  "display_name": {
+    "en": "Thermal: Extra"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "573674",
+    "modrinth": "QejnMYJo"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

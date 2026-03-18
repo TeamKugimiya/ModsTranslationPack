@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "refinedstorage",
+  "display_name": {
+    "en": "MoreRefinedStorage"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "631058",
+    "modrinth": "morerefinedstorage"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ]
+      },
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "placebo",
+  "display_name": {
+    "en": "Placebo"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "283644",
+    "modrinth": "tCkE8p2N"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

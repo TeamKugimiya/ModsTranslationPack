@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "portable_tables",
+  "display_name": {
+    "en": "Portable Tables"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "ptables"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

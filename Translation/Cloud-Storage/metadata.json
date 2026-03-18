@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "cloudstorage",
+  "display_name": {
+    "en": "Cloud Storage"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "606618",
+    "modrinth": "alexs-cloud-storage"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

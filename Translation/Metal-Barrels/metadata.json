@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "metalbarrels",
+  "display_name": {
+    "en": "Metal Barrels"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "324985",
+    "modrinth": "metal-barrels"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

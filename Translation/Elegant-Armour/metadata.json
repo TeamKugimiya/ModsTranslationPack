@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "elegantarmour",
+  "display_name": {
+    "en": "Elegant Armour 👕"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "852856",
+    "modrinth": "1LrBk5C6"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.19"
+        ]
+      },
+      "1.19": {
+        "versions": [
+          "<=1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

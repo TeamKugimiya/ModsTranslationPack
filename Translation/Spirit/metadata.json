@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "spirit",
+  "display_name": {
+    "en": "Spirit"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "495509",
+    "modrinth": "b1LdOZlE"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

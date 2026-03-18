@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "champions",
+  "display_name": {
+    "en": "Champions"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "307152",
+    "modrinth": "YlKc4JEx"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

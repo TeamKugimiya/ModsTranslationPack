@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "exnaturae",
+  "display_name": {
+    "en": "Ex Naturae"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "482122",
+    "modrinth": "ex-naturae"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "infinitybuttons",
+  "display_name": {
+    "en": "Infinity Buttons"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "661902",
+    "modrinth": "2raGoXFz"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

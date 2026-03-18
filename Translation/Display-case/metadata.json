@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "display_case",
+  "display_name": {
+    "en": "Display case"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "517791",
+    "modrinth": "KAp8PnED"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

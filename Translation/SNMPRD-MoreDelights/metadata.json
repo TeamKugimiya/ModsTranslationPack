@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "moredelight",
+  "display_name": {
+    "en": "SNMPRD: MoreDelights"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1327136",
+    "modrinth": "moredelights"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "trashcans",
+  "display_name": {
+    "en": "Trashcans Forever!"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "241628",
+    "modrinth": "trashcans-forever!"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.20": {
+        "versions": [
+          "<=1.20",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

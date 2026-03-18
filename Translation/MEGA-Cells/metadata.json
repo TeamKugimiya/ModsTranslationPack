@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "megacells",
+  "display_name": {
+    "en": "MEGA Cells"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "622112",
+    "modrinth": "mega"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

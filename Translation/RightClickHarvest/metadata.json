@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "rightclickharvest",
+  "display_name": {
+    "en": "RightClickHarvest"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "452834",
+    "modrinth": "Cnejf5xM"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

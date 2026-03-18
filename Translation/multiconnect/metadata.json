@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "multiconnect",
+  "display_name": {
+    "en": "multiconnect"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "336018",
+    "modrinth": "sfEDKnlo"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

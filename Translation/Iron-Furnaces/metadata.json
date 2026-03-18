@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ironfurnaces",
+  "display_name": {
+    "en": "Iron Furnaces"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "237664",
+    "modrinth": "iron-furnaces"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.19"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.19": {
+        "versions": [
+          "1.19"
+        ]
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ]
+      }
+    }
+  }
+}

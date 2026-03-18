@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "myrtrees",
+  "display_name": {
+    "en": "Myrtrees"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "546151"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "codechickenlib",
+  "display_name": {
+    "en": "CodeChickenLib Unofficial 1.7.10"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "746280",
+    "modrinth": "codechickenlib-unofficial"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

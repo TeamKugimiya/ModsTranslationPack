@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "itemcollectors",
+  "display_name": {
+    "en": "Item Collectors"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "395620",
+    "modrinth": "item_collectors"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.4",
+          "loader": "neoforge"
+        }
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ]
+      }
+    }
+  }
+}

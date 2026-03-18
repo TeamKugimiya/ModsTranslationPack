@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "enderio",
+  "display_name": {
+    "en": "Ender IO"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "64578",
+    "modrinth": "49ZofO4f"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

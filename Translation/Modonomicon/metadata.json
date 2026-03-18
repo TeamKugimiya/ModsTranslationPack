@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "modonomicon",
+  "display_name": {
+    "en": "Modonomicon"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "538392",
+    "modrinth": "692GClaE"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

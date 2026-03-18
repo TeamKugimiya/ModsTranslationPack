@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "swampier_swamps",
+  "display_name": {
+    "en": "Swampier Swamps"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "632591",
+    "modrinth": "C909jS7n"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

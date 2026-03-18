@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "energymeter",
+  "display_name": {
+    "en": "Energy Meter"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "532169",
+    "modrinth": "MbejSZ2E"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

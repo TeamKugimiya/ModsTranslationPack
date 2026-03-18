@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "measurements",
+  "display_name": {
+    "en": "Measurements"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "478559",
+    "modrinth": "wLINU2AB"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

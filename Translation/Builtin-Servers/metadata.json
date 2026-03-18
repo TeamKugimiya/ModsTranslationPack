@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "builtinservers",
+  "display_name": {
+    "en": "Builtin Servers"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "473131",
+    "modrinth": "builtin-servers"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "campchair",
+  "display_name": {
+    "en": "Camp Chair"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "531744",
+    "modrinth": "camp-chair"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

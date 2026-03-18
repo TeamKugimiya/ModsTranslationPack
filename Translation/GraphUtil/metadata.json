@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "graphutil",
+  "display_name": {
+    "en": "GraphUtil"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "681955",
+    "modrinth": "cpBmCs66"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

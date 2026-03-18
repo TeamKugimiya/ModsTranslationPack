@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "untamedwilds",
+  "display_name": {
+    "en": "Untamed Wilds"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "457252"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

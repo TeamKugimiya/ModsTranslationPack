@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "thermalendergy",
+  "display_name": {
+    "en": "Thermal Endergy"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "869849",
+    "modrinth": "thermal-endergy"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

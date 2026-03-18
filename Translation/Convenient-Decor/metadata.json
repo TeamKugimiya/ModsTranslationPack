@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "convenientdecor",
+  "display_name": {
+    "en": "Convenient Decor"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "794452",
+    "modrinth": "convenient-decor"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

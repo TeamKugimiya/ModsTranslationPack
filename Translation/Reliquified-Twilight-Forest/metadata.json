@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "reliquified_twilight_forest",
+  "display_name": {
+    "en": "Reliquified Twilight Forest"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1186617",
+    "modrinth": "zpFCv1jC"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "generatorgalore",
+  "display_name": {
+    "en": "Generator Galore"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "691049",
+    "modrinth": "blEO0qto"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

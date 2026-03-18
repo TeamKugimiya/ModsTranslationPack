@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "guideme",
+  "display_name": {
+    "en": "GuideME"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1173950",
+    "modrinth": "Ck4E7v7R"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

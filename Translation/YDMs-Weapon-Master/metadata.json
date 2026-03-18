@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "weaponmaster",
+  "display_name": {
+    "en": "YDM's Weapon Master"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "608235",
+    "modrinth": "qi1sj2da"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

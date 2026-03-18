@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "geodeopolis",
+  "display_name": {
+    "en": "Geodeopolis"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "688774",
+    "modrinth": "SIIJtMx6"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

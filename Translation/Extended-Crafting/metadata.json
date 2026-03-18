@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "extendedcrafting",
+  "display_name": {
+    "en": "Extended Crafting"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "268387",
+    "modrinth": "a2mjayzw"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

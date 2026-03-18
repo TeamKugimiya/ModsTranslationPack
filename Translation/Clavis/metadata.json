@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "clavis",
+  "display_name": {
+    "en": "Clavis"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1296431",
+    "modrinth": "y9Xnig6p"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

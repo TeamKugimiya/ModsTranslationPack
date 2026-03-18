@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "nethers_exoticism",
+  "display_name": {
+    "en": "Nether's Exoticism"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "486029",
+    "modrinth": "3e4LaIlU"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

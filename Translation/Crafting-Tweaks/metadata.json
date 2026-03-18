@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "craftingtweaks",
+  "display_name": {
+    "en": "Crafting Tweaks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "233071",
+    "modrinth": "y4LuSXgJ"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.19"
+        ]
+      },
+      "1.19": {
+        "versions": [
+          "1.19"
+        ]
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ]
+      }
+    }
+  }
+}

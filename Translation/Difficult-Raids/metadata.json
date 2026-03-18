@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "difficultraids",
+  "display_name": {
+    "en": "Difficult Raids"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "599116",
+    "modrinth": "difficult-raids"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "simplemagnets",
+  "display_name": {
+    "en": "SimpleMagnets"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "YIW8Ff8c"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ]
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ]
+      }
+    }
+  }
+}

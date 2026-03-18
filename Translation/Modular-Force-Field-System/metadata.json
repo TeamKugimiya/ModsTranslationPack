@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "mffs",
+  "display_name": {
+    "en": "Modular Force Field System"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "238546",
+    "modrinth": "Ir9eTVLd"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ironchests",
+  "display_name": {
+    "en": "Iron Chests: Restocked"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "498794",
+    "modrinth": "n2de3t2z"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

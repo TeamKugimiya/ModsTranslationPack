@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "farmersdelight",
+  "display_name": {
+    "en": "Farmer's Delight x No Tree Punching Cooking Pot"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1074355",
+    "modrinth": "farmersdelight-notreepunching-pot"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

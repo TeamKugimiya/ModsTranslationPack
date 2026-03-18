@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "summoningrituals",
+  "display_name": {
+    "en": "Summoning Rituals"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "671040",
+    "modrinth": "19smZ71v"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

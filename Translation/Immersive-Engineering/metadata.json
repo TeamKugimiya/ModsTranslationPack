@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "immersiveengineering",
+  "display_name": {
+    "en": "Immersive Engineering"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "231951",
+    "modrinth": "tIm2nV03"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

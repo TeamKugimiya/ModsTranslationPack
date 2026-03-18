@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "sodium",
+  "display_name": {
+    "en": "Sodium"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "394468",
+    "modrinth": "AANobbMI"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

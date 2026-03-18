@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "quit",
+  "display_name": {
+    "en": "Quit"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "684750",
+    "modrinth": "bcIar9jW"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

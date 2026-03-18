@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "colossalchests",
+  "display_name": {
+    "en": "Colossal Chests"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "237875",
+    "modrinth": "colossal-chests"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

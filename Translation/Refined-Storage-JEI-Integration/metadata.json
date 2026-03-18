@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "refinedstorage_jei_integration",
+  "display_name": {
+    "en": "Refined Storage - JEI Integration"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1230497",
+    "modrinth": "refined-storage-jei-integration"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

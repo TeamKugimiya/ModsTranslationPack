@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "sophisticatedcore",
+  "display_name": {
+    "en": "Sophisticated Core"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "618298",
+    "modrinth": "sophisticated-core"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

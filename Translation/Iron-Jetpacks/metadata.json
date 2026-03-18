@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ironjetpacks",
+  "display_name": {
+    "en": "Iron Jetpacks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "284497",
+    "modrinth": "iron-jetpacks"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

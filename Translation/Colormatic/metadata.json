@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "colormatic",
+  "display_name": {
+    "en": "Colormatic"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "325092",
+    "modrinth": "V4IQxkZC"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

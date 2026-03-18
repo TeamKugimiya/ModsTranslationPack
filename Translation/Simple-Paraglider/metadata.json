@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "paraglider",
+  "display_name": {
+    "en": "Simple Paraglider"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1183360",
+    "modrinth": "simple-paraglider"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

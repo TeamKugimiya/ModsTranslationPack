@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "constructionwand",
+  "display_name": {
+    "en": "Construction Wand"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "399558",
+    "modrinth": "construction-wand"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

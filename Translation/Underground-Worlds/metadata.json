@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "undergroundworlds",
+  "display_name": {
+    "en": "Underground Worlds"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "918314",
+    "modrinth": "underground-worlds"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "corail_woodcutter",
+  "display_name": {
+    "en": "Corail Woodcutter"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "331983"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

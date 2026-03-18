@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "fabrihud",
+  "display_name": {
+    "en": "FabriHUD"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "661156",
+    "modrinth": "JW9YUcl3"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

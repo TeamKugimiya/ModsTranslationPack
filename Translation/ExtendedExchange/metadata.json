@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "extendedexchange",
+  "display_name": {
+    "en": "ExtendedExchange"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "681874"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ]
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "flower_foxes",
+  "display_name": {
+    "en": "Flower Foxes!"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "837178"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}
