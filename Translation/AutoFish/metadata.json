@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "autofish",
+  "display_name": {
+    "en": "AutoFish"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "319473",
+    "modrinth": "aurixautofish"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

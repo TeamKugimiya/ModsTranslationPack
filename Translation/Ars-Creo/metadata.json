@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ars_creo",
+  "display_name": {
+    "en": "Ars Creo"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "575698",
+    "modrinth": "fZ324GMc"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

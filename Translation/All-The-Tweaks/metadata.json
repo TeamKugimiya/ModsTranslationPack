@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "allthetweaks",
+  "display_name": {
+    "en": "All The Tweaks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": 364120
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

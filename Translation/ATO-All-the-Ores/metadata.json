@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "alltheores",
+  "display_name": {
+    "en": "ATO - All the Ores"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "405593"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ]
+      }
+    }
+  }
+}

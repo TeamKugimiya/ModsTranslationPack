@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "bdlib",
+  "display_name": {
+    "en": "bdlib"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "70496",
+    "modrinth": "80j65Nbw"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

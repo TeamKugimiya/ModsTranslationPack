@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "almostunified",
+  "display_name": {
+    "en": "Almost Unified"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "633823",
+    "modrinth": "almost-unified"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

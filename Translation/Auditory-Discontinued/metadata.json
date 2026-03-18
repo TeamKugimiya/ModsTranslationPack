@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "auditory",
+  "display_name": {
+    "en": "Auditory (Discontinued)"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "636199",
+    "modrinth": "1LjfkWOR"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

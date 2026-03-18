@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "archers_paradox",
+  "display_name": {
+    "en": "Archer's Paradox"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "353399",
+    "modrinth": "euzGeN6k"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

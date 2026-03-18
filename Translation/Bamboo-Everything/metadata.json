@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "bambooeverything",
+  "display_name": {
+    "en": "Bamboo Everything"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "331723",
+    "modrinth": "bamboo-everything"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

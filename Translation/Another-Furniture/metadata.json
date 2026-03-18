@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "another_furniture",
+  "display_name": {
+    "en": "Another Furniture"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "610492",
+    "modrinth": "ulloLmqG"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.19"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.19": {
+        "versions": [
+          "<=1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

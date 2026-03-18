@@ -13,3 +13,4 @@ config
 .github/configs
 .env
 setup.unresolved.txt
+migration_plan.json
