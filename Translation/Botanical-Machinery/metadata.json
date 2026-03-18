@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "botanicalmachinery",
+  "display_name": {
+    "en": "Botanical Machinery"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "395617",
+    "modrinth": "botanical-machinery"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

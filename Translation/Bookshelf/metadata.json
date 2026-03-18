@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "bookshelf",
+  "display_name": {
+    "en": "Bookshelf"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "228525",
+    "modrinth": "VUkUwfUG"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

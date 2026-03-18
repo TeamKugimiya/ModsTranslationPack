@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "borderlessmining",
+  "display_name": {
+    "en": "Borderless Mining"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "310205",
+    "modrinth": "borderless-mining"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

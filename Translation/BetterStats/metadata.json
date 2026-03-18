@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "betterstats",
+  "display_name": {
+    "en": "BetterStats"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "667464",
+    "modrinth": "gVDtudID"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

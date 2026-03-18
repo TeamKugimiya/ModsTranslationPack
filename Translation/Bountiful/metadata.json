@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "bountiful",
+  "display_name": {
+    "en": "Bountiful"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "309516",
+    "modrinth": "BpwWFOVM"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

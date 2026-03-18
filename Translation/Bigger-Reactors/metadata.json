@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "biggerreactors",
+  "display_name": {
+    "en": "Bigger Reactors"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "407780"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.19"
+        ]
+      },
+      "1.19": {
+        "versions": [
+          "1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

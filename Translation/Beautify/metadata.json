@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "beautify",
+  "display_name": {
+    "en": "Beautify!"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "633252",
+    "modrinth": "9BPuv4vL"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}
