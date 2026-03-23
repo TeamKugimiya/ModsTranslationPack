@@ -12,46 +12,30 @@
   },
   "contents": {
     "tiers": {
-      "1.18": {
-        "versions": [
-          "1.18"
-        ],
-        "source": {
-          "game_version": "1.18.2",
-          "loader": "forge"
-        }
-      },
-      "1.20": {
-        "versions": [
-          "<=1.20",
-          ">1.18"
-        ],
-        "source": {
-          "game_version": "1.20.1",
-          "loader": "forge"
-        }
-      },
       "1.21": {
         "versions": [
-          "1.21"
+          "<=1.21"
         ],
         "source": {
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
       }
-    }
+    },
+    "ignored_keys": [
+      "trashcans.gui.energy_trash_can.limit.change1",
+      "trashcans.gui.energy_trash_can.limit.change2",
+      "trashcans.gui.energy_trash_can.limit.change3"
+    ]
   },
   "status": {
-    "last_synced": "2026-03-23T09:53:10Z",
+    "last_synced": "2026-03-23T10:06:11Z",
     "translation_progress": {
-      "1.18": 78.13,
-      "1.20": 78.13,
-      "overall": 78.13
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
-      "1.18": "Trash Cans 1.0.18 for Forge 1.18",
-      "1.20": "Trash Cans 1.0.18b for Forge 1.20"
+      "1.21": "Trash Cans 1.0.18c for NeoForge 1.21"
     }
   }
 }
