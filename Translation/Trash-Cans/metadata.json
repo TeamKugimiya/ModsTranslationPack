@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "trashcans",
+  "display_name": {
+    "en": "Trash Cans",
+    "zh_tw": "垃圾桶"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "394535",
+    "modrinth": "4QrnfueM"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.20": {
+        "versions": [
+          "<=1.20",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-23T09:53:10Z",
+    "translation_progress": {
+      "1.18": 78.13,
+      "1.20": 78.13,
+      "overall": 78.13
+    },
+    "mod_versions": {
+      "1.18": "Trash Cans 1.0.18 for Forge 1.18",
+      "1.20": "Trash Cans 1.0.18b for Forge 1.20"
+    }
+  }
+}
