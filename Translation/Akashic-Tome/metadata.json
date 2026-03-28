@@ -2,12 +2,13 @@
   "schema_version": "1.2",
   "mod_id": "akashictome",
   "display_name": {
-    "en": "Akashic Tome"
+    "en": "Akashic Tome",
+    "zh_tw": "阿卡什寶典"
   },
   "remote": {
     "primary": "curseforge",
     "curseforge": "250577",
-    "modrinth": "akashic-tome"
+    "modrinth": "JBthPdnp"
   },
   "contents": {
     "tiers": {
@@ -20,6 +21,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T00:45:49Z",
+    "translation_progress": {
+      "1.21": 27.27,
+      "overall": 27.27
+    },
+    "mod_versions": {
+      "1.21": "AkashicTome-1.8-30.jar"
     }
   }
 }
