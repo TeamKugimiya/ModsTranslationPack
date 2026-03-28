@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T14:08:00Z",
+    "translation_progress": {
+      "1.21": 79.48,
+      "overall": 79.48
+    },
+    "mod_versions": {
+      "1.21": "The Aether - 1.21.1-1.5.10-neoforge"
+    }
   }
 }

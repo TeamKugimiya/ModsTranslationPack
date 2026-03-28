@@ -9,7 +9,7 @@
   "log.sb.error": "Storagebox Load Error.",
   "log.sb.unload": "Storagebox Non-Introduction.",
   "log.sg.check": "Silent's Gems Introduction Status check now.......",
-  "log.sg.load": "Silent's Gemsconfirmed the introduction. Load complete.",
+  "log.sg.load": "Silent's Gems confirmed the introduction. Load complete.",
   "log.sg.error": "Silent's Gems Load Error.",
   "log.sg.unload": "Silent's Gems Non-Introduction."
 }

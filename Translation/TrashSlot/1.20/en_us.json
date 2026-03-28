@@ -1,7 +1,7 @@
 {
   "trashslot.serverNotInstalled": "The server does not have TrashSlot installed. This mod will be disabled.",
   "key.trashslot.toggle": "Show/Hide TrashSlot",
-  "key.trashslot.toggleLock": "Lock/Unlock TrashSlot",
+  "key.trashslot.toggle_lock": "Lock/Unlock TrashSlot",
   "key.trashslot.delete": "Delete Item",
   "key.trashslot.deleteAll": "Delete All Items of Type",
   "key.categories.trashslot": "TrashSlot",

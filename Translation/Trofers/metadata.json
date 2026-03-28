@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T14:08:00Z",
+    "translation_progress": {
+      "1.21": 47.37,
+      "overall": 47.37
+    },
+    "mod_versions": {
+      "1.21": "trofers-neoforge-8.0.1.jar"
+    }
   }
 }

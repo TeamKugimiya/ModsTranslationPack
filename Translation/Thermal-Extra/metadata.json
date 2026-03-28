@@ -16,10 +16,20 @@
           "<=1.21"
         ],
         "source": {
-          "game_version": "1.21.1",
+          "game_version": "1.20.1",
           "loader": "forge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T14:08:00Z",
+    "translation_progress": {
+      "1.21": 81.02,
+      "overall": 81.02
+    },
+    "mod_versions": {
+      "1.21": "ThermalExtra-3.3.0-1.20.1.jar"
     }
   }
 }

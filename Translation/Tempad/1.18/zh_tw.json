@@ -19,7 +19,6 @@
   "tooltip.tempad.item_option_info": "使用需要燃料物品",
   "tooltip.tempad.experience_level_cost": "需消耗 %s 等來開啟時光門",
   "tooltip.tempad.experience_points_cost": "需消耗 %s 點經驗值來開啟時光門",
-  "entity.tempad.timedoor": "時光門",
   "item.tempad.tempad": "§6時間控制器",
   "item.tempad.he_who_remains_tempad": "§6時間控制器",
   "item.tempad.he_who_remains_tempad.tooltip": "「僅存之人」的所有物",

@@ -4,7 +4,6 @@
   "item.torchbowmod.torcharrow": "火把箭矢",
   "itemGroup.torchBowModTab": "火把弓",
   "death.attack.EntityTorch": "%1$s 被 %2$s 的火把燙死了。",
-  "entity.torchbowmod.entitytorch": "火把箭矢",
   "log.sb.check": "正在檢查《儲存盒》導入狀態……",
   "log.sb.load": "已確認《儲存盒》導入狀態。載入完成。",
   "log.sb.error": "載入《儲存盒》時發生錯誤。",

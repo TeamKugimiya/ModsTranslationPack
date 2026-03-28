@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "tiab",
+  "display_name": {
+    "en": "Time in a bottle"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "895919",
+    "modrinth": "LQdpBqdS"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ]
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T14:32:39Z",
+    "translation_progress": {
+      "1.18": 66.67,
+      "1.21": 100,
+      "overall": 83.34
+    },
+    "mod_versions": {
+      "1.18": "Time in a bottle 1.20.1 - 4.0.4",
+      "1.21": "tiab-entity-fix-1.0.0.jar"
+    }
+  }
+}

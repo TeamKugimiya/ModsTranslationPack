@@ -5,7 +5,6 @@
   "gui.tempad.add_location": "新增位置",
   "gui.tempad.download": "匯出位置",
   "gui.tempad.download_disabled": "你不能匯出此位置",
-  "gui.tempad.download_disabled.no_card": "你需要一張空白的位置卡才能匯出",
   "gui.tempad.teleport": "傳送",
   "gui.tempad.teleport_disabled": "你不能傳送到此位置",
   "gui.tempad.delete": "刪除位置",
@@ -21,7 +20,6 @@
   "gui.tempad.x": "X：%s",
   "gui.tempad.y": "Y：%s",
   "gui.tempad.z": "Z：%s",
-  "gui.tempad.angle": "角度：%s",
   "gui.tempad.ready": "已準備好傳送",
   "gui.tempad.not_ready": "還未準備好傳送",
   "gui.tempad.cancel": "取消",
@@ -49,7 +47,7 @@
   "tempad_option.tempad.energy": "能量：%s/%s §b⚡§r",
   "tempad_option.tempad.energy_cost": "消耗 %s §b⚡§r",
   "item.tempad.empty_tank": "空",
-  "tempad_option.tempad.fluid": "%s：%s/%s §6\uD83E\uDEA3§r",
+  "tempad_option.tempad.fluid": "%s：%s/%s §6🪣§r",
 
   "item.tempad.location_card": "位置卡",
   "item.tempad.location_card.creator_toolip": "由 %s 建立",
@@ -59,15 +57,7 @@
   "item.tempad.location_card.set_name": "在鐵砧中重新命名來設定位置名稱",
   "item.tempad.location_card.set_location": "設定位置：%s",
 
-  "item.tempad.temporal_shielding": "時間屏障",
-
-  "category.tempad": "時光平板",
+  "category.tempad.keybinds": "Tempad",
   "key.tempad.favorite": "開啟我的最愛位置",
-  "key.tempad.shortcut": "開啟時光平板畫面",
-
-  "app.tempad.new_location": "新增位置",
-  "app.tempad.teleport": "傳送",
-  "app.tempad.settings": "設定",
-
-  "entity.tempad.timedoor": "時光門"
+  "key.tempad.shortcut": "開啟時光平板畫面"
 }

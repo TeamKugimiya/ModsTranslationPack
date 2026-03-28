@@ -1,7 +1,7 @@
 {
   "trashslot.serverNotInstalled": "伺服器上尚未安裝《TrashSlot》模組。本模組功能將暫時停用。",
   "key.trashslot.toggle": "顯示／隱藏垃圾桶欄位",
-  "key.trashslot.toggleLock": "鎖定／解鎖垃圾桶欄位",
+  "key.trashslot.toggle_lock": "鎖定／解鎖垃圾桶欄位",
   "key.trashslot.delete": "刪除物品",
   "key.trashslot.deleteAll": "刪除所有相同類型的物品",
   "key.categories.trashslot": "垃圾桶欄位",

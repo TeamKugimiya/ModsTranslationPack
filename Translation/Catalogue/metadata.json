@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "mod_id": "catalogue",
   "display_name": {
-    "en": "The Mandela Catalogue: Alternates"
+    "en": "Catalogue"
   },
   "remote": {
     "primary": "curseforge",
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T14:08:00Z",
+    "translation_progress": {
+      "1.21": 3.33,
+      "overall": 3.33
+    },
+    "mod_versions": {
+      "1.21": "Catalogue 1.11.2"
     }
   }
 }
