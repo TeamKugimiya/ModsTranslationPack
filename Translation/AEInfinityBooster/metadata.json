@@ -13,13 +13,24 @@
     "tiers": {
       "1.21": {
         "versions": [
-          "<=1.21"
+          "1.21",
+          "1.20"
         ],
         "source": {
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T00:36:42Z",
+    "translation_progress": {
+      "1.21": 75,
+      "overall": 75
+    },
+    "mod_versions": {
+      "1.21": "AEInfinityBooster 1.21.1-1.0.0.54"
     }
   }
 }
