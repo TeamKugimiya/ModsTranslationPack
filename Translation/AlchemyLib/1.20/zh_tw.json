@@ -1,0 +1,9 @@
+{
+  "alchemylib.container.close_recipe_select": "關閉配方選擇介面",
+  "alchemylib.container.lock_recipe": "鎖定配方",
+  "alchemylib.container.open_recipe_select": "開啟配方選擇介面",
+  "alchemylib.container.pause": "暫停",
+  "alchemylib.container.resume": "繼續",
+  "alchemylib.container.show_recipes": "顯示配方",
+  "alchemylib.container.unlock_recipe": "解鎖配方"
+}
