@@ -1,12 +1,13 @@
 {
   "schema_version": "1.2",
-  "mod_id": "yet-another-config-lib",
+  "mod_id": "yet_another_config_lib_v3",
   "display_name": {
     "en": "YetAnotherConfigLib"
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "667299"
+    "curseforge": "667299",
+    "modrinth": "1eAoo2KR"
   },
   "contents": {
     "tiers": {
@@ -19,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:34:19Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "3.8.2 for neoforge 1.21.1"
     }
   }
 }
