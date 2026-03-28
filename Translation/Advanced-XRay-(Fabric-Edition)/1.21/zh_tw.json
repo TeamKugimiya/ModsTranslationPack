@@ -31,7 +31,7 @@
   "xray.title.edit_meta": "編輯 Meta",
 
   "xray.chat.first-time": "§6Thank you for using Advanced XRay, §rYou can open the menu by pressing §a[%s§a] §rand turn XRay on with §a[%s§a]§r.",
-  "xray.chat.first-time-line-2": "These can be changed in settings -\u003e options -\u003e controls -\u003e keybindings. §cThis message will only show once.",
+  "xray.chat.first-time-line-2": "These can be changed in settings -> options -> controls -> keybindings. §cThis message will only show once.",
 
   "xray.message.missing_input": "你必須填寫所有輸入欄位",
   "xray.message.already_exists": "這個方塊已經有在方塊清單中",
