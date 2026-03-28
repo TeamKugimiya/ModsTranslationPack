@@ -13,7 +13,7 @@
     "tiers": {
       "1.20": {
         "versions": [
-          "<=1.20"
+          "1.20"
         ],
         "source": {
           "game_version": "1.20.1",
@@ -22,8 +22,7 @@
       },
       "1.21": {
         "versions": [
-          "<=1.21",
-          ">1.20"
+          "1.21"
         ],
         "source": {
           "game_version": "1.21.1",
@@ -38,7 +37,7 @@
     ]
   },
   "status": {
-    "last_synced": "2026-03-17T06:21:14Z",
+    "last_synced": "2026-03-28T00:11:27Z",
     "translation_progress": {
       "1.20": 88.37,
       "1.21": 97.56,
