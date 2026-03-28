@@ -1,13 +1,13 @@
 {
   "schema_version": "1.2",
-  "mod_id": "vm",
+  "mod_id": "vmtranslationupdate",
   "display_name": {
     "en": "VMTranslationUpdateMod"
   },
   "remote": {
-    "primary": "curseforge",
+    "primary": "modrinth",
     "curseforge": "890229",
-    "modrinth": "vmupdate"
+    "modrinth": "wvCSIW08"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:10:10Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "neoforge-5.0.3+mc1.21.1"
     }
   }
 }

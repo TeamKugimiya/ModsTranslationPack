@@ -1,8 +1,9 @@
 {
-  "modmenu.descriptionTranslation.visuality": "透過新增一堆新的粒子效果來改進視覺。",
+  "modmenu.descriptionTranslation.visuality": "Little visual improvements by adding a bunch of new particles.",
   "config.visuality.title": "Visuality 設定",
   "config.visuality.general": "一般",
   "config.visuality.option.slime": "啟用史萊姆泡泡",
+  "config.visuality.option.slime.color": "Slime Blobs Color",
   "config.visuality.option.charge": "啟用充能粒子效果",
   "config.visuality.option.sparkle": "啟用火花粒子效果",
   "config.visuality.option.soul": "啟用靈魂粒子效果",

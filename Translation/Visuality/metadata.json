@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:07:58Z",
+    "translation_progress": {
+      "1.21": 88.89,
+      "overall": 88.89
+    },
+    "mod_versions": {
+      "1.21": "[1.21] Visuality 0.7.7"
+    }
   }
 }

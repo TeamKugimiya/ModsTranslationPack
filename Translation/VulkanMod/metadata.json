@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:08:01Z",
+    "translation_progress": {
+      "1.21": 75.76,
+      "overall": 75.76
+    },
+    "mod_versions": {
+      "1.21": "VulkanMod_1.21.1-0.5.5.jar"
+    }
   }
 }

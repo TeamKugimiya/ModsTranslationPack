@@ -28,13 +28,21 @@
   "vulkanmod.options.frameQueue": "Render queue size",
   "vulkanmod.options.frameQueue.tooltip": "Higher values might help stabilize frametime but will increase input lag.",
 
+  "vulkanmod.options.backfaceCulling": "Backface Culling",
+  "vulkanmod.options.backfaceCulling.tooltip": "Culls not visible block faces on the CPU improving GPU performance. To prevent increased CPU overhead enable Indirect Draw.",
+
   "vulkanmod.options.indirectDraw": "Indirect Draw",
-  "vulkanmod.options.indirectDraw.tooltip": "Reduces CPU overhead but increases GPU overhead. Enabling it might help in CPU limited systems.",
+  "vulkanmod.options.indirectDraw.tooltip": "Reduces CPU overhead but might increases GPU overhead.",
 
   "vulkanmod.options.refreshRate": "Refresh Rate",
 
   "vulkanmod.options.uniqueOpaqueLayer": "Unique opaque layer",
   "vulkanmod.options.uniqueOpaqueLayer.tooltip": "Use a unique render layer for opaque terrain to improve performance.",
 
-  "vulkanmod.options.windowedFullscreen": "Windowed Fullscreen"
+  "vulkanmod.options.windowMode": "Window Mode",
+  "vulkanmod.options.windowMode.windowed": "Windowed",
+  "vulkanmod.options.windowMode.windowedFullscreen": "Windowed Fullscreen",
+
+  "vulkanmod.options.builderThreads": "Chunk Builder Threads",
+  "vulkanmod.options.builderThreads.auto": "Auto"
 }

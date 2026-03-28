@@ -28,13 +28,21 @@
   "vulkanmod.options.frameQueue": "繪製佇列大小",
   "vulkanmod.options.frameQueue.tooltip": "較高的值可能有助於穩定影格時間，但會增加輸入延遲。",
 
+  "vulkanmod.options.backfaceCulling": "Backface Culling",
+  "vulkanmod.options.backfaceCulling.tooltip": "Culls not visible block faces on the CPU improving GPU performance. To prevent increased CPU overhead enable Indirect Draw.",
+
   "vulkanmod.options.indirectDraw": "間接繪製",
-  "vulkanmod.options.indirectDraw.tooltip": "減少 CPU 負擔，但會增加 GPU 負擔。在 CPU 效能受限的系統上啟用它可能會有幫助。",
+  "vulkanmod.options.indirectDraw.tooltip": "Reduces CPU overhead but might increases GPU overhead.",
 
   "vulkanmod.options.refreshRate": "更新頻率",
 
   "vulkanmod.options.uniqueOpaqueLayer": "單一不透明圖層",
   "vulkanmod.options.uniqueOpaqueLayer.tooltip": "使用單一繪製圖層來處理不透明地形以提升效能。",
 
-  "vulkanmod.options.windowedFullscreen": "視窗化全螢幕"
+  "vulkanmod.options.windowMode": "Window Mode",
+  "vulkanmod.options.windowMode.windowed": "Windowed",
+  "vulkanmod.options.windowMode.windowedFullscreen": "Windowed Fullscreen",
+
+  "vulkanmod.options.builderThreads": "Chunk Builder Threads",
+  "vulkanmod.options.builderThreads.auto": "Auto"
 }
