@@ -12,7 +12,8 @@
     "tiers": {
       "1.21": {
         "versions": [
-          "<=1.21"
+          "<=1.21",
+          ">1.19"
         ],
         "source": {
           "game_version": "1.21.1",
@@ -22,6 +23,11 @@
     }
   },
   "status": {
+    "last_synced": "2026-03-28T00:32:34Z",
+    "translation_progress": {
+      "1.21": 90.91,
+      "overall": 90.91
+    },
     "mod_versions": {
       "1.21": "AE2AddonLib-1.0.3-1.21.1"
     }
