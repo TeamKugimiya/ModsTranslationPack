@@ -13,8 +13,25 @@
       "1.21": {
         "versions": [
           "<=1.21"
-        ]
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neforge"
+        }
       }
+    },
+    "ignored_keys": [
+      "travelerstitles.allthemodium.the_other.color"
+    ]
+  },
+  "status": {
+    "last_synced": "2026-03-28T04:54:49Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "allthetweaks-1.21.1-2.9.1.jar"
     }
   }
 }
