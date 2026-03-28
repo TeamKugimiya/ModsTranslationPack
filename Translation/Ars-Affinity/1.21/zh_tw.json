@@ -66,7 +66,7 @@
   "effect.ars_affinity.hydrated.2": "滋潤 II",
   "effect.ars_affinity.hydrated.3": "滋潤 III",
   "effect.ars_affinity.swap_cooldown": "移形換位冷卻",
-  
+
   "effect.ars_affinity.fire_affinity": "火學派親和",
   "effect.ars_affinity.water_affinity": "水學派親和",
   "effect.ars_affinity.earth_affinity": "土學派親和",
@@ -112,7 +112,7 @@
   "item.minecraft.tipped_arrow.effect.manipulation_affinity": "操縱親和之箭",
   "item.minecraft.tipped_arrow.effect.silenced": "沉默之箭",
   "item.minecraft.tipped_arrow.effect.water_affinity": "水親和之箭",
-  
+
   "key.ars_affinity.ability": "主動技能",
   "key.categories.ars_affinity": "新生魔藝：學派親和",
   "ars_affinity.screen.affinity.title": "親和",
@@ -122,7 +122,6 @@
   "item.ars_affinity.affinity_anchor_charm": "親和錨定護符",
   "item.ars_affinity.ritual_amnesia": "失憶儀式",
   "ars_nouveau.tablet_of": "%s之板",
-  "ritual.ars_affinity.amnesia": "重設特定學派的親和進度",
   "tooltip.ars_affinity.tablet_of_amnesia": "重設特定學派的親和進度",
   "tooltip.ars_affinity.tablet_of_amnesia.essence_required": "需要消耗一個精華，來決定要重設哪個學派",
   "tooltip.ars_affinity.affinity_anchor_charm": "佩戴時防止親和度變動",
@@ -133,7 +132,7 @@
 
   "ars_affinity.source_per_charge": "每次充能消耗魔源：%d",
   "ars_affinity.point_allocated.message": "你的%s親和已增加 %s %s",
-  
+
   "ars_affinity.screen.perk_tree.title": "%s 天賦樹",
 
   "itemGroup.ars_affinity": "新生魔藝：學派親和",
@@ -149,5 +148,23 @@
   "effect.ars_affinity.ice_blast_cooldown.description": "寒冰爆破暫時無法使用。",
   "effect.ars_affinity.sanctuary_cooldown.description": "聖域暫時無法使用。",
   "effect.ars_affinity.stone_skin.description": "石化皮膚暫時無法使用。",
-  "effect.ars_affinity.swap_cooldown.description": "移形換位暫時無法使用。"
+  "effect.ars_affinity.swap_cooldown.description": "移形換位暫時無法使用。",
+  "advancements.ars_affinity.affinity_initiate.title": "You’re a Wizard, Sort Of",
+  "advancements.ars_affinity.affinity_initiate.description": "Earn your first affinity point in any school.",
+  "advancements.ars_affinity.affinity_fire_mastery.title": "This Is Fine",
+  "advancements.ars_affinity.affinity_fire_mastery.description": "Earn every affinity point available in the Fire school.",
+  "advancements.ars_affinity.affinity_water_mastery.title": "Unbothered. Moisturized. Happy.",
+  "advancements.ars_affinity.affinity_water_mastery.description": "Earn every affinity point available in the Water school.",
+  "advancements.ars_affinity.affinity_earth_mastery.title": "Rock and Stone, Brother!",
+  "advancements.ars_affinity.affinity_earth_mastery.description": "Earn every affinity point available in the Earth school.",
+  "advancements.ars_affinity.affinity_air_mastery.title": "Airbender",
+  "advancements.ars_affinity.affinity_air_mastery.description": "Earn every affinity point available in the Air school.",
+  "advancements.ars_affinity.affinity_abjuration_mastery.title": "Band-Aid Sorcerer",
+  "advancements.ars_affinity.affinity_abjuration_mastery.description": "Earn every affinity point available in the Abjuration school.",
+  "advancements.ars_affinity.affinity_conjuration_mastery.title": "For My Next Trick, I'll Need a Xivilai",
+  "advancements.ars_affinity.affinity_conjuration_mastery.description": "Earn every affinity point available in the Conjuration school.",
+  "advancements.ars_affinity.affinity_necromancy_mastery.title": "My Life for Ner'zhul",
+  "advancements.ars_affinity.affinity_necromancy_mastery.description": "Earn every affinity point available in the Necromancy school.",
+  "advancements.ars_affinity.affinity_manipulation_mastery.title": "Big Brain Sorcery",
+  "advancements.ars_affinity.affinity_manipulation_mastery.description": "Earn every affinity point available in the Manipulation school."
 }

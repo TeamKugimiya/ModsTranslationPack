@@ -5,21 +5,27 @@
     "en": "Auto Reauth"
   },
   "remote": {
-    "primary": "curseforge",
+    "primary": "modrinth",
     "curseforge": "237701",
-    "modrinth": "auto-reauth"
+    "modrinth": "lab8OplF"
   },
   "contents": {
     "tiers": {
       "1.21": {
         "versions": [
           "<=1.21"
-        ],
-        "source": {
-          "game_version": "1.21.1",
-          "loader": "fabric"
-        }
+        ]
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:52:00Z",
+    "translation_progress": {
+      "1.21": 94.83,
+      "overall": 94.83
+    },
+    "mod_versions": {
+      "1.21": "auto-reauth-0.2.1-1.21.1.jar"
     }
   }
 }

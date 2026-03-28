@@ -7,7 +7,7 @@
   "entity.astikorcarts.supply_cart": "運貨馬車",
   "entity.astikorcarts.plow": "犁",
   "entity.astikorcarts.animal_cart": "動物運送馬車",
-  // "entity.astikorcarts.postilion": "Postilion",
+  "entity.astikorcarts.postilion": "Postilion",
   "key.categories.astikorcarts": "AstikorCarts",
   "key.astikorcarts.desc": "將動物與馬車連接／分離",
   "subtitles.astikorcarts.cart.attached": "馬車連接",

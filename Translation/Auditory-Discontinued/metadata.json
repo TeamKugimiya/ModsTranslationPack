@@ -14,8 +14,22 @@
       "1.21": {
         "versions": [
           "<=1.21"
-        ]
+        ],
+        "source": {
+          "game_version": "1.19.3",
+          "loader": "fabric"
+        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:50:46Z",
+    "translation_progress": {
+      "1.21": 7.02,
+      "overall": 7.02
+    },
+    "mod_versions": {
+      "1.21": "[1.19.3] Auditory v0.0.5"
     }
   }
 }

@@ -5,9 +5,9 @@
     "en": "AutoFish"
   },
   "remote": {
-    "primary": "curseforge",
+    "primary": "modrinth",
     "curseforge": "319473",
-    "modrinth": "aurixautofish"
+    "modrinth": "zs7y6QDP"
   },
   "contents": {
     "tiers": {
@@ -16,6 +16,16 @@
           "<=1.21"
         ]
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:52:00Z",
+    "translation_progress": {
+      "1.21": 97.78,
+      "overall": 97.78
+    },
+    "mod_versions": {
+      "1.21": "autofish-1.2.0.jar"
     }
   }
 }

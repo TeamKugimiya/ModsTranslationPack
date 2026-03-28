@@ -31,5 +31,17 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:53:00Z",
+    "translation_progress": {
+      "1.21": 99.77,
+      "1.19": 100.0,
+      "overall": 99.83
+    },
+    "mod_versions": {
+      "1.21": "artifacts-neoforge-13.2.0.jar",
+      "1.19": "artifacts-1.19.2-5.0.6.jar"
+    }
   }
 }

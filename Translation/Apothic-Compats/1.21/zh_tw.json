@@ -11,14 +11,10 @@
   "item.apothic_compats.ornamented_necklace": "裝飾項鍊",
   "item.apothic_compats.ornate_ring": "華麗戒指",
 
-
   "item.apotheosis.gem.apothic_compats:ars_nouveau/mana": "魔力寶石",
   "item.apotheosis.gem.apothic_compats:malum/soul_stained": "魂染寶石",
   "item.apotheosis.gem.apothic_compats:malum/thief": "竊盜寶石",
   "item.apotheosis.gem.apothic_compats:malum/etheric": "超凡寶石",
-
-
-
 
   "gem_class.dart_shooter": "吹箭筒",
   "loot_category.apothic_compats.dart_shooter": "吹箭筒",
@@ -61,14 +57,12 @@
   "loot_category.apothic_compats.charm.plural": "護符",
   "loot_category.apothic_compats.curio": "飾品",
   "loot_category.apothic_compats.curio.plural": "飾品",
-
-
-
-
-
-
-
-
+  "loot_category.apothic_compats.an_focus": "Focus",
+  "loot_category.apothic_compats.an_focus.plural": "Focuses",
+  "loot_category.apothic_compats.brooch": "Brooch",
+  "loot_category.apothic_compats.brooch.plural": "Brooches",
+  "loot_category.apothic_compats.rune": "Rune",
+  "loot_category.apothic_compats.rune.plural": "Runes",
 
   "affix.apothic_compats:melee/bloodied": "浴血",
   "affix.apothic_compats:melee/bloodied.suffix": "血肉",
@@ -212,10 +206,6 @@
   "affix.apothic_compats:ranged/mob_effect/ancient/gooey": "黏糊糊",
   "affix.apothic_compats:ranged/mob_effect/gooey.suffix": "黏性",
   "affix.apothic_compats:ranged/mob_effect/ancient/gooey.suffix": "黏性",
-
-
-
-
 
   "affix.apothic_compats:curios/attribute/mana": "魔力",
   "affix.apothic_compats:curios/attribute/ancient/mana": "魔力",
@@ -377,16 +367,6 @@
   "affix.apothic_compats:curios/attribute/ancient/destructive": "破壞性",
   "affix.apothic_compats:curios/attribute/ancient/destructive.suffix": "鑽岩者",
 
-
-
-
-
-
-
-
-
-
-
   "affix.apothic_compats:scythe/cleaving": "劈砍",
   "affix.apothic_compats:scythe/cleaving.suffix": "屠夫",
   "affix.apothic_compats:scythe/cleaving.desc": "攻擊時有 %s%% 機率同時對附近 %s 名敵人施加傷害",
@@ -450,8 +430,6 @@
   "affix.apothic_compats:staff/ancient/thunderstruck": "雷擊",
   "affix.apothic_compats:staff/ancient/thunderstruck.suffix": "風暴",
   "affix.apothic_compats:staff/ancient/thunderstruck.desc": "攻擊時將對附近敵人造成 %s 點傷害",
-
-
 
   "affix.apothic_compats:dart_shooter/magical": "魔法",
   "affix.apothic_compats:dart_shooter/magical.suffix": "奧術",
@@ -533,8 +511,6 @@
   "affix.apothic_compats:dart_shooter/enchantment/ancient/prosperous": "繁榮",
   "affix.apothic_compats:dart_shooter/enchantment/ancient/prosperous.suffix": "尋寶者",
 
-
-
   "affix.apothic_compats:potato_cannon/magical": "魔法",
   "affix.apothic_compats:potato_cannon/magical.suffix": "奧術",
   "affix.apothic_compats:potato_cannon/magical.desc": "你的箭矢將造成魔法傷害",
@@ -614,8 +590,6 @@
 
   "affix.apothic_compats:potato_cannon/enchantment/ancient/reclaimed": "回收",
   "affix.apothic_compats:potato_cannon/enchantment/ancient/reclaimed.suffix": "救贖者",
-
-
 
   "affix.apothic_compats:staff/melee/attribute/vandalous": "破壞",
   "affix.apothic_compats:staff/melee/attribute/ancient/vandalous": "破壞",
@@ -855,8 +829,6 @@
   "affix.apothic_compats:staff/melee/mob_effect/ancient/weakening": "弱化",
   "affix.apothic_compats:staff/melee/mob_effect/ancient/weakening.suffix": "虛弱",
 
-
-
   "affix.apothic_compats:scythe/melee/attribute/vandalous": "破壞",
   "affix.apothic_compats:scythe/melee/attribute/ancient/vandalous": "破壞",
   "affix.apothic_compats:scythe/melee/attribute/vandalous.suffix": "狡猾",
@@ -1016,6 +988,4 @@
 
   "affix.apothic_compats:scythe/mob_effect/ancient/weakening": "弱化",
   "affix.apothic_compats:scythe/mob_effect/ancient/weakening.suffix": "虛弱"
-
-  
 }

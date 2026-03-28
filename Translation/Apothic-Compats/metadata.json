@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:55:50Z",
+    "translation_progress": {
+      "1.21": 99.15,
+      "overall": 99.15
+    },
+    "mod_versions": {
+      "1.21": "apothic_compats-0.2.4.1.jar"
+    }
   }
 }

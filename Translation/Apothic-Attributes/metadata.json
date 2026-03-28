@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:53:17Z",
+    "translation_progress": {
+      "1.21": 99.37,
+      "overall": 99.37
+    },
+    "mod_versions": {
+      "1.21": "ApothicAttributes-1.21.1-2.9.1.jar"
+    }
   }
 }
