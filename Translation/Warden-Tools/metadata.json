@@ -7,7 +7,7 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "635510",
-    "modrinth": "warden-tools"
+    "modrinth": "KuQueJOG"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:56:00Z",
+    "translation_progress": {
+      "1.21": 14,
+      "overall": 14
+    },
+    "mod_versions": {
+      "1.21": "Warden Tools 4.1.1 / NeoForge 1.21(.1)"
     }
   }
 }

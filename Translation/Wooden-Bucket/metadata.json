@@ -7,7 +7,7 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "585328",
-    "modrinth": "wooden-bucket"
+    "modrinth": "xsNAEIke"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:56:04Z",
+    "translation_progress": {
+      "1.21": 6.52,
+      "overall": 6.52
+    },
+    "mod_versions": {
+      "1.21": "neoforge-1.21-4.1.2.0"
     }
   }
 }

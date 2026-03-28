@@ -7,7 +7,7 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "521594",
-    "modrinth": "wavey-capes"
+    "modrinth": "kYuIpRLv"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:56:35Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "1.8.2-1.21.1 - NeoForge"
     }
   }
 }

@@ -1,5 +1,24 @@
 {
-    "block.woodenhopper.wooden_hopper": "木製漏斗",
-    "block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromWorld": "無法將漏斗上方的掉落物吸入漏斗。",
-    "block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromInventories": "無法從漏斗上方的容器中抽取物品。"
-  }
+  "block.woodenhopper.wooden_hopper": "木製漏斗",
+  "block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromWorld": "無法將漏斗上方的掉落物吸入漏斗。",
+  "block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromInventories": "無法從漏斗上方的容器中抽取物品。",
+
+  "text.autoconfig.woodenhopper.title": "Wooden Hopper Settings",
+
+  "text.autoconfig.woodenhopper.option.COOLDOWN": "Wooden Hopper Cooldown",
+  "text.autoconfig.woodenhopper.option.COOLDOWN.@Tooltip[0]": "§6§lWooden Hopper Cooldown",
+  "text.autoconfig.woodenhopper.option.COOLDOWN.@Tooltip[1]": "Time (ticks) that passes between two wooden hopper operations.",
+  "text.autoconfig.woodenhopper.option.COOLDOWN.@Tooltip[2]": "§7§oMin: 1; Max: 1000",
+  "text.autoconfig.woodenhopper.option.COOLDOWN.@Tooltip[3]": "§7§oDefault: 16",
+  "text.autoconfig.woodenhopper.option.COOLDOWN.@Tooltip[4]": "§7§o(Vanilla Hopper: 8)",
+
+  "text.autoconfig.woodenhopper.option.PULL_ITEMS_FROM_WORLD_ENABLED": "Wooden Hopper pulls from world",
+  "text.autoconfig.woodenhopper.option.PULL_ITEMS_FROM_WORLD_ENABLED.@Tooltip[0]": "§6§lWooden Hopper pulls items from world",
+  "text.autoconfig.woodenhopper.option.PULL_ITEMS_FROM_WORLD_ENABLED.@Tooltip[1]": "Whether the wooden hopper can pull item entities lying above it.",
+  "text.autoconfig.woodenhopper.option.PULL_ITEMS_FROM_WORLD_ENABLED.@Tooltip[2]": "§7§oDefault: true",
+
+  "text.autoconfig.woodenhopper.option.PULL_ITEMS_FROM_INVENTORIES_ENABLED": "Wooden Hopper pulls from inventories",
+  "text.autoconfig.woodenhopper.option.PULL_ITEMS_FROM_INVENTORIES_ENABLED.@Tooltip[0]": "§6§lWooden Hopper pulls items from inventories",
+  "text.autoconfig.woodenhopper.option.PULL_ITEMS_FROM_INVENTORIES_ENABLED.@Tooltip[1]": "Whether the wooden hopper can pull items from inventories above it.",
+  "text.autoconfig.woodenhopper.option.PULL_ITEMS_FROM_INVENTORIES_ENABLED.@Tooltip[2]": "§7§oDefault: true"
+}

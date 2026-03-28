@@ -7,10 +7,19 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "510656",
-    "modrinth": "wireless-chargers"
+    "modrinth": "nCk7Sfz8"
   },
   "contents": {
     "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
       "1.21": {
         "versions": [
           "<=1.21",
@@ -20,16 +29,19 @@
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
-      },
-      "1.18": {
-        "versions": [
-          "1.18"
-        ],
-        "source": {
-          "game_version": "1.18.2",
-          "loader": "forge"
-        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:56:03Z",
+    "translation_progress": {
+      "1.18": 75,
+      "1.21": 100,
+      "overall": 87.5
+    },
+    "mod_versions": {
+      "1.18": "Wireless Chargers 1.0.10 for Forge 1.18",
+      "1.21": "Wireless Chargers 1.0.9a for NeoForge 1.21"
     }
   }
 }
