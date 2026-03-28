@@ -11,6 +11,15 @@
   },
   "contents": {
     "tiers": {
+      "1.19": {
+        "versions": [
+          "<=1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
       "1.21": {
         "versions": [
           "<=1.21",
@@ -20,16 +29,19 @@
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
-      },
-      "1.19": {
-        "versions": [
-          "<=1.19"
-        ],
-        "source": {
-          "game_version": "1.19.2",
-          "loader": "forge"
-        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T05:30:09Z",
+    "translation_progress": {
+      "1.19": 100,
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.19": "Another Furniture 2.1.4 (Forge 1.19.2)",
+      "1.21": "Another Furniture 4.0.2 (NeoForge 1.21.1)"
     }
   }
 }
