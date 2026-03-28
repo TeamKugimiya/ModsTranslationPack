@@ -7,7 +7,7 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "633823",
-    "modrinth": "almost-unified"
+    "modrinth": "sdaSaQEz"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T05:02:31Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "AlmostUnified-NeoForge-1.21.1-1.3.0"
     }
   }
 }
