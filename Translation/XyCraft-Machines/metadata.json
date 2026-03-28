@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:50:17Z",
+    "translation_progress": {
+      "1.21": 18.67,
+      "overall": 18.67
+    },
+    "mod_versions": {
+      "1.21": "XyCraft Machines v0.7.53 - Hot Fix"
+    }
   }
 }
