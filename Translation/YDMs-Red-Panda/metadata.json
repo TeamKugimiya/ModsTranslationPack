@@ -7,7 +7,7 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "623035",
-    "modrinth": "ydms-red-panda"
+    "modrinth": "1l7Rzc6k"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "fabric"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:17:26Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "1.21.4+fabric+1.0.4"
     }
   }
 }
