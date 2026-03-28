@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:33:38Z",
+    "translation_progress": {
+      "1.21": 75.78,
+      "overall": 75.78
+    },
+    "mod_versions": {
+      "1.21": "UtilitiX-21.1.3.jar"
+    }
   }
 }

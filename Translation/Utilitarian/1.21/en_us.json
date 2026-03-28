@@ -64,6 +64,8 @@
   "item.utilitarian.tiny_coal": "Tiny Coal",
   "item.utilitarian.tiny_charcoal": "Tiny Charcoal",
   "item.utilitarian.unname_tag": "Un-Name Tag",
+  "item.utilitarian.slime_bucket": "Slime Bucket",
+  "item.utilitarian.slime_bucket_description": "Gets visibly excited to see its friends when visiting a slime chunk.",
   "utilitarian.soliciting_carpet.tooltip": "Arriving traders will end up on this block instead of in your face.",
   "utilitarian.soliciting_carpet.tooltip_trapped": "This carpet is trapped and will kill the trader...you monster :D",
   "utilitarian.restraining_order.status.inactive": "Draft. Sneak right click to activate.",

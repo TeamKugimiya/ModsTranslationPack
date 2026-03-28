@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:34:41Z",
+    "translation_progress": {
+      "1.21": 85.71,
+      "overall": 85.71
+    },
+    "mod_versions": {
+      "1.21": "uppers-2.0.1.jar"
+    }
   }
 }

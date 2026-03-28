@@ -64,6 +64,8 @@
   "item.utilitarian.tiny_coal": "迷你煤炭",
   "item.utilitarian.tiny_charcoal": "迷你木炭",
   "item.utilitarian.unname_tag": "除名牌",
+  "item.utilitarian.slime_bucket": "Slime Bucket",
+  "item.utilitarian.slime_bucket_description": "Gets visibly excited to see its friends when visiting a slime chunk.",
   "utilitarian.soliciting_carpet.tooltip": "登門拜訪的流浪商人，會生成在此地毯上，而非出現在你面前",
   "utilitarian.soliciting_carpet.tooltip_trapped": "這張地毯會捕捉並殺死流浪商人...你這狠心的惡魔 :D",
   "utilitarian.restraining_order.status.inactive": "草稿。潛行 + 點擊右鍵啟用。",
