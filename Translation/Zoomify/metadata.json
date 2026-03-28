@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T05:08:20Z",
+    "translation_progress": {
+      "1.21": 43.44,
+      "overall": 43.44
+    },
+    "mod_versions": {
+      "1.21": "Zoomify 2.15.2+1.21.1"
+    }
   }
 }
