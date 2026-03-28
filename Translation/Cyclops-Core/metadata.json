@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:11:52Z",
+    "translation_progress": {
+      "1.21": 95.24,
+      "overall": 95.24
+    },
+    "mod_versions": {
+      "1.21": "cyclopscore-1.21.1-neoforge-1.29.0-962.jar"
+    }
   }
 }

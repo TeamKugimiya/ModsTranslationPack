@@ -38,7 +38,7 @@
   "create_dragons_plus.ponder.bulk_freezing.header": "批次冷凍",
   "create_dragons_plus.ponder.bulk_freezing.text_1": "當空氣流過粉雪時，後面的物品會被冷凍。",
   "create_dragons_plus.ponder.bulk_sanding.header": "批次打磨",
-  "create_dragons_plus.ponder.bulk_sanding.text_1": "當空氣流過流沙時，後面的物品會被打磨。",
+  "create_dragons_plus.ponder.bulk_sanding.text_1": "Air Flows passing through Bulk Sanding Catalysts (Example: Quicksand) create a Sanding Setup",
   "create_dragons_plus.ponder.bulk_sanding.text_2": "和批次熔煉和批次煙燻一樣，批次打磨會自動對應上需要砂紙的打磨配方。",
   "fluid.create_dragons_plus.black_dye": "黑色染料",
   "fluid.create_dragons_plus.blue_dye": "藍色染料",
@@ -131,5 +131,6 @@
   "tag.item.c.buckets.dye.red": "紅色染料桶",
   "tag.item.c.buckets.dye.white": "白色染料桶",
   "tag.item.c.buckets.dye.yellow": "黃色染料桶",
+  "tag.item.create_dragons_plus.not_applicable_for_coloring": "Not applicable for automatic Coloring Recipe",
   "upgrade.create_dragons_plus.blaze_upgrade": "烈焰使者升級"
 }

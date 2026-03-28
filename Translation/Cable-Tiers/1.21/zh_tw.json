@@ -36,6 +36,7 @@
   "gui.cabletiers.autocrafter.import_mode.import_everything": "返回所有資源",
   "gui.cabletiers.autocrafter.import_mode.import_pattern_outputs": "僅返回樣板編寫的合成產物",
   "gui.cabletiers.autocrafter.import_mode.import_requested_resources": "僅返回合成請求的資源",
+  "gui.cabletiers.autocrafter.import_mode.import_requested_resources_deep": "Import only requested resources including sub-ingredients",
   "gui.cabletiers.pattern_grid.sided_input": "變更輸入面（由《高階線纜》提供）",
   "gui.cabletiers.pattern_grid.sided_input.help": "允許變更自動合成時輸入資源的方向。",
   "gui.cabletiers.omni_side_pattern_grid.resource_slots_help": "將被輸入至目標容器的資源。",

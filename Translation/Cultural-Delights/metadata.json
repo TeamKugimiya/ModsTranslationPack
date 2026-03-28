@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 84.71,
+      "overall": 84.71
+    },
+    "mod_versions": {
+      "1.21": "culturaldelights-0.17.8.jar"
+    }
   }
 }

@@ -5,7 +5,6 @@
   "item.custommachinery.structure_creator": "結構創作者",
   "item.custommachinery.configuration_card": "設定卡",
   "itemGroup.custommachinery.group": "自訂機器",
-
   "custommachinery.command.reload": "成功重新載入自訂機器！",
   "custommachinery.command.edit.missing": "無法編輯機器「%s」，因為它不存在！",
   "custommachinery.command.edit.cant": "無法編輯機器「%s」，因為它不是從 Json 檔案載入的！",
@@ -13,7 +12,6 @@
   "custommachinery.command.verify.log": "[記錄檔]",
   "custommachinery.command.verify.log.tooltip": "開啟 custommachinery.log",
   "custommachinery.command.verify.success": "Custom Machinery 未發現任何錯誤",
-
   "custommachinery.box_creator.first_block": "第一個方塊：%s",
   "custommachinery.box_creator.second_block": "第二個方塊：%s",
   "custommachinery.box_creator.select_first_block": "對欲設為第一個角落的方塊點擊左鍵",
@@ -22,13 +20,11 @@
   "custommachinery.box_creator.reset": "對著空氣 Shift + 點擊右鍵來重設",
   "custommachinery.box_creator.create_box": "目前選擇邊界：%s",
   "custommachinery.box_creator.copy": "點擊以複製到剪貼簿",
-
   "custommachinery.structure_creator.no_blocks": "尚未選取方塊",
   "custommachinery.structure_creator.amount": "已選取 %s 個方塊",
   "custommachinery.structure_creator.select": "對著方塊點擊右鍵以新增或移除",
   "custommachinery.structure_creator.message": "已產生結構，點擊以複製：%s %s %s %s",
   "custommachinery.structure_creator.reset": "對著空氣 Shift + 點擊右鍵以重設",
-
   "custommachinery.configuration_card.copy": "對著機器 Shift + 點擊右鍵來複製設定",
   "custommachinery.configuration_card.paste": "對著機器點擊右鍵來貼上設定",
   "custommachinery.configuration_card.reset": "對著空氣 Shift + 點擊右鍵以重設",
@@ -37,28 +33,22 @@
   "custommachinery.configuration_card.pasted": "已將設定貼上至「%s」",
   "custommachinery.configuration_card.cleared": "設定已清除",
   "custommachinery.configuration_card.different_machine": "此卡片已用於設定其他不同的機器",
-
   "custommachinery.machine_creator.tooltip": "點擊右鍵以開啟機器編輯器",
-
   "custommachinery.comparator.greater": "大於",
   "custommachinery.comparator.greater_or_equals": "大於或等於",
   "custommachinery.comparator.equals": "等於",
   "custommachinery.comparator.lesser_or_equals": "小於或等於",
   "custommachinery.comparator.lesser": "小於",
-
   "custommachinery.component.weather.clear": "晴朗",
   "custommachinery.component.weather.rain": "降雨",
   "custommachinery.component.weather.snow": "降雪",
   "custommachinery.component.weather.thunder": "暴風雨",
-
   "custommachinery.craftingstatus.idle": "待機中",
   "custommachinery.craftingstatus.running": "運轉中",
   "custommachinery.craftingstatus.errored": "發生錯誤",
   "custommachinery.craftingstatus.paused": "暫停",
   "custommachinery.craftingstatus.default": "預設",
-
   "custommachinery.damagesource.kill": "%s 被 %s 殺死了",
-
   "custommachinery.gui.element.energy.tooltip": "能量：%s %s / %s %s",
   "custommachinery.gui.element.fluid.tooltip": "：%smB / %smB",
   "custommachinery.gui.element.fluid.empty": "空：%smB / %smB",
@@ -76,7 +66,6 @@
   "custommachinery.gui.element.experience.output_all": "全部取出",
   "custommachinery.gui.element.experience.output_one": "取出 1 級",
   "custommachinery.gui.element.experience.output_ten": "取出 10 級",
-
   "custommachinery.gui.config.title": "%s側設定",
   "custommachinery.gui.config.tooltip": "點擊設定 I/O",
   "custommachinery.gui.config.component": "I/O 設定",
@@ -87,7 +76,6 @@
   "custommachinery.gui.config.enabled": "已啟用",
   "custommachinery.gui.config.disabled": "已停用",
   "custommachinery.gui.config.all_none": "將所有面設為無",
-
   "custommachinery.gui.creation.create": "建立",
   "custommachinery.gui.creation.edit": "編輯",
   "custommachinery.gui.creation.cant_edit": "此機器並非透過資料包載入，因此無法編輯",
@@ -104,7 +92,6 @@
   "custommachinery.gui.creation.wiki": "開啟 Wiki",
   "custommachinery.gui.creation.time.created": "建立時間：%s",
   "custommachinery.gui.creation.time.modified": "修改時間：%s",
-
   "custommachinery.gui.creation.popup.create": "建立新的機器",
   "custommachinery.gui.creation.popup.error.id": "缺少 ID",
   "custommachinery.gui.creation.popup.error.name": "缺少名稱",
@@ -116,16 +103,13 @@
   "custommachinery.gui.creation.popup.create.success.description": "已在模組包根目錄中，建立機器的 Json 檔案\n請將檔案移動至有效的資料包位置，並使用「/reload」指令重新載入",
   "custommachinery.gui.creation.popup.create.loader.default": "機器的 Json 檔案，將建立在模組包的根目錄中",
   "custommachinery.gui.creation.popup.create.loader.kubejs": "機器的 Json 檔案，將建立在 KubeJS 的 data 資料夾中",
-
   "custommachinery.gui.creation.popup.quit": "你即將退出且不儲存變更",
   "custommachinery.gui.creation.popup.close": "關閉",
-
   "custommachinery.gui.creation.tab.base_info": "基本資訊",
   "custommachinery.gui.creation.tab.appearance": "外觀",
   "custommachinery.gui.creation.tab.components": "元件",
   "custommachinery.gui.creation.tab.gui": "機器 Gui",
   "custommachinery.gui.creation.tab.tooltips": "工具提示",
-
   "custommachinery.gui.creation.base_info.id": "機器 ID：",
   "custommachinery.gui.creation.base_info.id.tooltip": "點擊以複製 ID",
   "custommachinery.gui.creation.base_info.id.copied": "已複製到剪貼簿",
@@ -135,7 +119,6 @@
   "custommachinery.gui.creation.base_info.cores.tooltip": "機器可同時處理的配方數量",
   "custommachinery.gui.creation.base_info.cooldown": "冷卻時間：",
   "custommachinery.gui.creation.base_info.cooldown.tooltip": "機器待機時，兩次配方檢查之間的時間間隔（以刻為單位）",
-
   "custommachinery.gui.creation.appearance.status.default": "套用於所有機器狀態的屬性",
   "custommachinery.gui.creation.appearance.status.idle": "僅在機器待機時套用的屬性",
   "custommachinery.gui.creation.appearance.status.running": "僅在機器運轉時套用的屬性",
@@ -180,7 +163,6 @@
   "custommachinery.gui.creation.appearance.resistance": "爆炸抗性",
   "custommachinery.gui.creation.appearance.resistance.tooltip": "數值越高，爆炸抗性越強",
   "custommachinery.gui.creation.appearance.tool_type": "工具類型",
-
   "custommachinery.gui.creation.components.delete.title": "刪除元件",
   "custommachinery.gui.creation.components.delete.info": "確定要刪除此機器元件嗎？",
   "custommachinery.gui.creation.components.duplicate": "複製",
@@ -227,7 +209,6 @@
   "custommachinery.gui.creation.components.experience.retrieve.tooltip": "若啟用此選項，當玩家從機器欄位取出物品時，將獲得包含的所有經驗",
   "custommachinery.gui.creation.components.experience.slots": "回收欄位",
   "custommachinery.gui.creation.components.experience.slots.tooltip": "當物品被取出時，會將經驗給予玩家的欄位\n每個欄位 ID 必須以逗號「,」分隔",
-
   "custommachinery.gui.creation.gui.add": "新增 GUI 元素",
   "custommachinery.gui.creation.gui.mouse": "(%s,%s)",
   "custommachinery.gui.creation.gui.toolbox": "工具箱",
@@ -322,20 +303,16 @@
   "custommachinery.gui.creation.gui.experience.mode": "模式",
   "custommachinery.gui.creation.gui.split.slots": "欄位",
   "custommachinery.gui.creation.gui.split.slots.tooltip": "欄位 ID 清單，須以逗號「,」分隔",
-
   "custommachinery.gui.creation.tooltips.title": "在此輸入工具提示：",
   "custommachinery.gui.creation.tooltips.result": "預覽結果：",
-
   "custommachinery.gui.creation.template.choose": "選擇範本",
   "custommachinery.gui.creation.template.empty": "空",
   "custommachinery.gui.creation.template.tooltip": "用於建立機器的範本\n選擇「空」將建立一個沒有元件，或 GUI 的新機器",
-
   "custommachinery.gui.creation.upgrade.not_selected": "請先在上方清單中選擇一個升級",
   "custommachinery.gui.creation.upgrade.cant_open_server": "無法開啟伺服器端的機器檔案",
   "custommachinery.gui.creation.upgrade.cant_edit": "此升級並非透過資料包載入，因此無法編輯",
   "custommachinery.gui.creation.upgrade.cant_open": "此升級並非透過資料包載入，因此無法開啟",
   "custommachinery.gui.creation.upgrade.cant_delete": "此升級並非透過資料包載入，因此無法刪除",
-
   "custommachinery.gui.creation.upgrade.popup.create": "建立新的升級",
   "custommachinery.gui.creation.upgrade.popup.duplicate": "已存在相同 ID 的升級",
   "custommachinery.gui.creation.upgrade.popup.id.tooltip": "升級的 ID，將作為 Json 檔案的名稱\n僅接受 [a-z0-9_.-] 字元",
@@ -355,12 +332,12 @@
   "custommachinery.gui.creation.upgrade.machines.title": "選擇機器",
   "custommachinery.gui.creation.upgrade.machines.select": "點擊以選擇",
   "custommachinery.gui.creation.upgrade.machines.unselect": "點擊以取消選擇",
-
+  "custommachinery.gui.creation.upgrade.recipe.requirement.tooltip": "The requirement affected by this modifier",
+  "custommachinery.gui.creation.upgrade.recipe.target.tooltip": "The target affected by this modifier",
   "custommachinery.gui.popup.confirm": "確認",
   "custommachinery.gui.popup.cancel": "取消",
   "custommachinery.gui.popup.warning": "警告！",
   "custommachinery.gui.popup.style": "樣式",
-
   "custommachinery.jei.ingredient.chance": "機率：%s%%",
   "custommachinery.jei.ingredient.chance.0": "不消耗",
   "custommachinery.jei.ingredient.energy": "能量：%s",
@@ -387,14 +364,12 @@
   "custommachinery.jei.recipe.time": "處理時間：%s 刻",
   "custommachinery.jei.recipe.instant": "立即合成",
   "custommachinery.jei.recipe.id": "配方 ID：%s",
-
   "custommachinery.machine.loader.default": "預設",
   "custommachinery.machine.loader.datapack": "資料包",
   "custommachinery.machine.loader.datapack_zip": "資料包 (Zip)",
   "custommachinery.machine.loader.crafttweaker": "CraftTweaker",
   "custommachinery.machine.loader.kubejs": "KubeJS",
   "custommachinery.machine.loader.kubejs_script": "KubeJS 腳本",
-
   "custommachinery.machine.component.energy": "能量",
   "custommachinery.machine.component.fluid": "流體",
   "custommachinery.machine.component.item": "物品",
@@ -407,12 +382,10 @@
   "custommachinery.machine.component.chunkload": "區塊載入",
   "custommachinery.machine.component.redstone": "紅石",
   "custommachinery.machine.component.experience": "經驗",
-
   "custommachinery.machine.component.mode.input": "輸入",
   "custommachinery.machine.component.mode.output": "輸出",
   "custommachinery.machine.component.mode.both": "雙向",
   "custommachinery.machine.component.mode.none": "無",
-
   "custommachinery.machine.guielement.bar": "計量條",
   "custommachinery.machine.guielement.button": "按鈕",
   "custommachinery.machine.guielement.config": "設定",
@@ -429,12 +402,9 @@
   "custommachinery.machine.guielement.status": "狀態",
   "custommachinery.machine.guielement.text": "文字",
   "custommachinery.machine.guielement.texture": "紋理",
-
   "custommachinery.machine.info.owner": "擁有者：%s",
-
   "custommachinery.requirement.mode.input": "輸入",
   "custommachinery.requirement.mode.output": "輸出",
-
   "custommachinery.requirements.energy.error.input": "沒有足夠的能量，需要 %sFE，但只找到 %sFE！",
   "custommachinery.requirements.energy.error.output": "沒有足夠的空間儲存 %sFE！",
   "custommachinery.requirements.energypertick.error.input": "沒有足夠的能量，需要 %sFE，但只找到 %sFE！",
@@ -534,7 +504,6 @@
   "custommachinery.requirements.working_core.bad_recipe": "核心 %s 處理錯誤的配方！",
   "custommachinery.requirements.working_core.all_idle": "所有核心皆待機！",
   "custommachinery.requirements.working_core.all_bad": "沒有核心在處理配方 %s！",
-
   "custommachinery.side.top": "頂部",
   "custommachinery.side.bottom": "底部",
   "custommachinery.side.front": "前方",
@@ -547,34 +516,39 @@
   "custommachinery.side.none": "無",
   "custommachinery.side.enabled": "已啟用",
   "custommachinery.side.disabled": "已停用",
-
   "custommachinery.upgrade.tooltip": "（Shift）自訂機器升級",
-
-  "requirement.custommachinery.item": "物品",
-  "requirement.custommachinery.energy": "能量",
-  "requirement.custommachinery.energy_per_tick": "能量 (每刻)",
-  "requirement.custommachinery.fluid": "流體",
-  "requirement.custommachinery.fluid_per_tick": "流體 (每刻)",
-  "requirement.custommachinery.position": "位置",
-  "requirement.custommachinery.time": "時間",
-  "requirement.custommachinery.command": "指令",
-  "requirement.custommachinery.fuel": "燃料",
-  "requirement.custommachinery.effect": "效果",
-  "requirement.custommachinery.weather": "天氣",
-  "requirement.custommachinery.redstone": "紅石",
-  "requirement.custommachinery.entity": "實體",
-  "requirement.custommachinery.light": "亮度",
-  "requirement.custommachinery.block": "方塊",
-  "requirement.custommachinery.speed": "配方處理時間",
-  "requirement.custommachinery.durability": "耐久度",
-  "requirement.custommachinery.structure": "結構",
-  "requirement.custommachinery.loot_table": "戰利品表",
   "requirement.custommachinery.biome": "生態域",
+  "requirement.custommachinery.block": "方塊",
+  "requirement.custommachinery.button": "Button",
+  "requirement.custommachinery.chunkload": "Chunkload",
+  "requirement.custommachinery.command": "指令",
   "requirement.custommachinery.dimension": "維度",
   "requirement.custommachinery.drop": "掉落物",
-
+  "requirement.custommachinery.durability": "耐久度",
+  "requirement.custommachinery.effect": "效果",
+  "requirement.custommachinery.energy_per_tick": "能量 (每刻)",
+  "requirement.custommachinery.energy": "能量",
+  "requirement.custommachinery.entity": "實體",
+  "requirement.custommachinery.experience_per_tick": "Experience per tick",
+  "requirement.custommachinery.experience": "Experience",
+  "requirement.custommachinery.fluid_per_tick": "流體 (每刻)",
+  "requirement.custommachinery.fluid": "流體",
+  "requirement.custommachinery.fuel": "燃料",
+  "requirement.custommachinery.function": "Function",
+  "requirement.custommachinery.item_filter": "Item filter",
+  "requirement.custommachinery.item": "物品",
+  "requirement.custommachinery.item_transform": "Item transform",
+  "requirement.custommachinery.light": "亮度",
+  "requirement.custommachinery.loot_table": "戰利品表",
+  "requirement.custommachinery.position": "位置",
+  "requirement.custommachinery.redstone": "紅石",
+  "requirement.custommachinery.sky": "Sky",
+  "requirement.custommachinery.speed": "配方處理時間",
+  "requirement.custommachinery.structure": "結構",
+  "requirement.custommachinery.time": "時間",
+  "requirement.custommachinery.weather": "天氣",
+  "requirement.custommachinery.working_core": "Working core",
   "config.jade.plugin_custommachinery.machine_component_provider": "自訂機器資訊",
-
   "custommachinery.configuration.misc": "其他",
   "custommachinery.configuration.log_missing_optional": "記錄缺少的選用屬性",
   "custommachinery.configuration.model_folders": "模型資料夾",
@@ -587,7 +561,6 @@
   "custommachinery.configuration.log_first_either_error": "記錄首個 Either 錯誤",
   "custommachinery.configuration.debug_level": "除錯記錄檔等級",
   "custommachinery.configuration.item_slot_cycle_time": "物品欄位循環時間",
-
   "unit.energy.forge": "FE",
   "unit.energy.fabric": "E"
 }

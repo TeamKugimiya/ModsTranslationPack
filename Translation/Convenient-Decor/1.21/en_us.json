@@ -10,6 +10,7 @@
   "block.convenientdecor.yellow_leaf_pile": "Yellow Oak Leaf Pile",
   "block.convenientdecor.orange_leaf_pile": "Orange Oak Leaf Pile",
   "block.convenientdecor.red_leaf_pile": "Red Oak Leaf Pile",
+  "block.convenientdecor.brown_leaf_pile": "Brown Oak Leaf Pile",
   "block.convenientdecor.spruce_leaf_pile": "Spruce Leaf Pile",
   "block.convenientdecor.birch_leaf_pile": "Birch Leaf Pile",
   "block.convenientdecor.jungle_leaf_pile": "Jungle Leaf Pile",
@@ -19,9 +20,6 @@
   "block.convenientdecor.azalea_leaf_pile": "Azalea Leaf Pile",
   "block.convenientdecor.flowering_azalea_leaf_pile": "Flowering Azalea Leaf Pile",
   "block.convenientdecor.cherry_leaf_pile": "Cherry Leaf Pile",
-
-  "_comment": "補key",
-  "block.convenientdecor.brown_leaf_pile": "Brown Oak Leaf Pile",
 
   "block.convenientdecor.watering_can": "Watering Can",
   "item.convenientdecor.watering_can": "Watering Can",

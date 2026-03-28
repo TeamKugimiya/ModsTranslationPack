@@ -68,5 +68,5 @@
     "multiblock.colossalchests.error.unexpected": "Unexpected Colossal Chest structure error.",
     "multiblock.colossalchests.error.material": "Found a block of material %s at %s, while %s was expected.",
     "multiblock.colossalchests.error.upgrade": "Not enough items for upgrading this chest, you need %s cores, %s interfaces and %s walls of at least the material %s.",
-    "multiblock.colossalchests.error.upgradeLimit": "You can not transform this chest anymore."
+    "multiblock.colossalchests.error.upgradeLimit": "You can not transform this chest any further."
 }

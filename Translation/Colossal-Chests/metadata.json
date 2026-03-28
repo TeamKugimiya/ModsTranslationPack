@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 96.67,
+      "overall": 96.67
+    },
+    "mod_versions": {
+      "1.21": "colossalchests-1.21.1-neoforge-1.8.14-228.jar"
+    }
   }
 }

@@ -3,7 +3,6 @@
   "item.culturaldelights.eggplant_seeds": "茄子種子",
   "item.culturaldelights.corn_kernels": "玉米粒",
   "block.culturaldelights.exotic_roll_medley": "異國壽司拼盤",
-
   "item.culturaldelights.avocado": "酪梨",
   "item.culturaldelights.cut_avocado": "酪梨片",
   "item.culturaldelights.cucumber": "黃瓜",
@@ -29,7 +28,6 @@
   "item.culturaldelights.cooked_squid": "烤魷魚",
   "item.culturaldelights.raw_calamari": "生魷魚鬚",
   "item.culturaldelights.cooked_calamari": "烤魷魚鬚",
-
   "item.culturaldelights.elote": "墨西哥烤玉米",
   "item.culturaldelights.empanada": "恩潘納達餃",
   "item.culturaldelights.hearty_salad": "豐盛沙拉",
@@ -44,7 +42,6 @@
   "item.culturaldelights.fish_taco": "魚肉塔可",
   "item.culturaldelights.poached_eggplants": "水煮茄子餐",
   "item.culturaldelights.eggplant_parmesan": "盤裝焗烤千層茄子",
-
   "item.culturaldelights.chicken_roll": "雞肉壽司卷",
   "item.culturaldelights.midori_roll": "翠綠壽司卷",
   "item.culturaldelights.chicken_roll_slice": "雞肉壽司卷切片",
@@ -54,12 +51,10 @@
   "item.culturaldelights.rice_ball": "飯糰",
   "item.culturaldelights.egg_roll": "玉子燒握壽司",
   "item.culturaldelights.calamari_roll": "魷魚握壽司",
-
   "block.culturaldelights.cucumbers": "黃瓜",
   "block.culturaldelights.eggplants": "茄子",
-  "block.culturaldelights.corn": "玉米",
-  "block.culturaldelights.corn": "玉米",
-
+  "block.culturaldelights.corn": "Corn",
+  "block.culturaldelights.corn_upper": "Corn Upper",
   "block.culturaldelights.avocado_bundle": "酪梨捆",
   "block.culturaldelights.wild_cucumbers": "野生黃瓜",
   "block.culturaldelights.wild_corn": "野生玉米",
@@ -77,6 +72,16 @@
   "block.culturaldelights.eggplant_crate": "茄子箱",
   "block.culturaldelights.white_eggplant_crate": "白茄子箱",
   "block.culturaldelights.eggplant_parmesan_block": "焗烤千層茄子",
-
-  "creativetab.culturaldelights.culturaldelights_tab": "多元樂事"
+  "creativetab.culturaldelights.culturaldelights_tab": "多元樂事",
+  "tag.item.culturaldelights.all_eggplants": "Eggplants",
+  "tag.item.culturaldelights.avocado_logs": "Avocado Logs",
+  "tag.item.culturaldelights.avocados": "Avocados",
+  "tag.item.culturaldelights.cooked_beefs": "Cooked Beef",
+  "tag.item.culturaldelights.cooked_chickens": "Cooked Chicken",
+  "tag.item.culturaldelights.cooked_muttons": "Cooked Mutton",
+  "tag.item.culturaldelights.cooked_porks": "Cooked Pork",
+  "tag.item.culturaldelights.cucumbers": "Cucumbers",
+  "tag.item.culturaldelights.raw_salmons": "Raw Salmon",
+  "tag.item.culturaldelights.regular_eggplants": "Regular Eggplants",
+  "tag.item.culturaldelights.smoked_regular_eggplants": "Smoked Regular Eggplants"
 }

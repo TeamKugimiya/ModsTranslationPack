@@ -12,5 +12,6 @@
 	"item.crafting_on_a_stick.damaged_anvil": "%1$s%2$s%3$s",
 
 	"curios.identifier.crafting_on_a_stick": "Crafting on a Stick",
-	"crafting_on_a_stick.key.open_curios": "Open Crafting on a Stick"
+	"crafting_on_a_stick.key.open_curios": "Open Crafting on a Stick",
+	"gui.crafting_on_a_stick.selection_wheel.no_tool": "You don't have any tool"
 }

@@ -31,13 +31,15 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T07:41:49Z",
+    "last_synced": "2026-03-28T15:02:51Z",
     "translation_progress": {
-      "1.20": 93.88,
-      "overall": 93.88
+      "1.20": 94.9,
+      "1.21": 98.28,
+      "overall": 96.16
     },
     "mod_versions": {
-      "1.20": "compactmachines-forge-6.0.3.jar"
+      "1.20": "compactmachines-forge-6.0.3.jar",
+      "1.21": "1.21.1 neoforge (local baseline)"
     }
   }
 }

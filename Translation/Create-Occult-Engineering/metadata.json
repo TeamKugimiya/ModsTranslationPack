@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 99.09,
+      "overall": 99.09
+    },
+    "mod_versions": {
+      "1.21": "occultengineering-1.21.1-0.12.1.jar"
+    }
   }
 }

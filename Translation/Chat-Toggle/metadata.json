@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 50.0,
+      "overall": 50.0
+    },
+    "mod_versions": {
+      "1.21": "Chat Toggle 5.0.1+1.21 NeoForge"
+    }
   }
 }

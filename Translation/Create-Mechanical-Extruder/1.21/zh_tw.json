@@ -1,9 +1,18 @@
 {
+  "block.create_mechanical_extruder.mechanical_brass_extruder": "Mechanical Brass Extruder",
   "block.create_mechanical_extruder.mechanical_extruder": "機械造石機",
-  "create.recipe.extruding": "造石配方",
+  "create_mechanical_extruder.goggles.bonks": "%1$s bonks",
+  "create_mechanical_extruder.itemGroup:main": "Create Mechanical Extruder",
   "create_mechanical_extruder.ponder.extruder.header": "方塊製造",
   "create_mechanical_extruder.ponder.extruder.text_1": "造石機使用動力製造方塊",
   "create_mechanical_extruder.ponder.extruder.text_2": "依據兩側和下方的方塊決定產物。",
   "create_mechanical_extruder.ponder.extruder.text_3": "製作完成時，對其右鍵可取出產物。",
-  "create_mechanical_extruder.ponder.extruder.text_4": "產物也可自動化取出"
+  "create_mechanical_extruder.ponder.extruder.text_4": "產物也可自動化取出",
+  "create_mechanical_extruder.ponder.extruder.text_5": "When a conbination of ingredient has multiple possible outcomes, the filter slot can specify it",
+  "create_mechanical_extruder.recipe.extruding": "Extruding recipe",
+  "create_mechanical_extruder.ui.recipe.extruding.consumes_block": "Consumes block",
+  "mechanicals.ui.recipe_requirement.advanced_extruder.tooltip.title": "Brass extruder",
+  "mechanicals.ui.recipe_requirement.advanced_extruder.tooltip.value": "",
+  "mechanicals.ui.recipe_requirement.bonks.tooltip.title": "Bonks:",
+  "mechanicals.ui.recipe_requirement.bonks.tooltip.value": "%s"
 }

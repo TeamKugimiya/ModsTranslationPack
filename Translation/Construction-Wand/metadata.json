@@ -17,5 +17,15 @@
         ]
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 98.31,
+      "overall": 98.31
+    },
+    "mod_versions": {
+      "1.21": "(local baseline)"
+    }
   }
 }

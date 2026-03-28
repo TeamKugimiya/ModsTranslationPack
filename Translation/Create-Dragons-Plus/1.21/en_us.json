@@ -38,7 +38,7 @@
   "create_dragons_plus.ponder.bulk_freezing.header": "Bulk Freezing",
   "create_dragons_plus.ponder.bulk_freezing.text_1": "Air Flows passing through Powder Snow create a Freezing Setup",
   "create_dragons_plus.ponder.bulk_sanding.header": "Bulk Sanding",
-  "create_dragons_plus.ponder.bulk_sanding.text_1": "Air Flows passing through Quicksand create a Sanding Setup",
+  "create_dragons_plus.ponder.bulk_sanding.text_1": "Air Flows passing through Bulk Sanding Catalysts (Example: Quicksand) create a Sanding Setup",
   "create_dragons_plus.ponder.bulk_sanding.text_2": "Like Bulk Blasting and Bulk Smoking, Bulk Sanding is automatically compatible with Sand Paper sanding recipes",
   "fluid.create_dragons_plus.black_dye": "Black Dye",
   "fluid.create_dragons_plus.blue_dye": "Blue Dye",
@@ -131,5 +131,6 @@
   "tag.item.c.buckets.dye.red": "Red Dye Buckets",
   "tag.item.c.buckets.dye.white": "White Dye Buckets",
   "tag.item.c.buckets.dye.yellow": "Yellow Dye Buckets",
+  "tag.item.create_dragons_plus.not_applicable_for_coloring": "Not applicable for automatic Coloring Recipe",
   "upgrade.create_dragons_plus.blaze_upgrade": "Blaze Upgrade"
 }

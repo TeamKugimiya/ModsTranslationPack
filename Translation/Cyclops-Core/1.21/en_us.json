@@ -35,7 +35,7 @@
     "chat.cyclopscore.command.invalidNewValue": "Invalid new value",
     "chat.cyclopscore.command.updatedValue": "Updated %s to: %s",
     "chat.cyclopscore.command.invalidPlayer": "The player '%s' was not found",
-    "chat.cyclopscore.command.ignitedPlayer": "The player '%s' was lit on fire for %s seconds",
+    "chat.cyclopscore.command.ignitedPlayer": "The player '%s' was lit on fire for %s ticks",
     "chat.cyclopscore.command.noConfigsFound": "There were no config values found that can be set",
 
     "_comment": "Multiblock",

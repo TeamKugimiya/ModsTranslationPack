@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 68.09,
+      "overall": 68.09
+    },
+    "mod_versions": {
+      "1.21": "Corail Woodcutter 3.4.2 for 1.21.1 [NeoForge]"
+    }
   }
 }
