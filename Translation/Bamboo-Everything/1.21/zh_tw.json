@@ -1,5 +1,5 @@
 {
-  "itemGroup.bambooeverything.bambooeverything": "竹子製品",
+  "itemGroup.bambooeverything.creative_tab": "竹子製品",
   "block.bambooeverything.bamboo_ladder": "竹梯子",
   "block.bambooeverything.bamboo_fence": "竹柵欄",
   "block.bambooeverything.bamboo_fence_gate": "竹柵欄門",
@@ -10,7 +10,7 @@
   "block.bambooeverything.bamboo_slab": "竹半磚",
   "block.bambooeverything.bamboo_torch": "竹製火把",
   "item.bambooeverything.bamboo_raft": "竹筏",
-  
+
   "item.bambooeverything.dry_bamboo": "乾竹子",
   "block.bambooeverything.dry_bamboo_ladder": "乾竹梯子",
   "block.bambooeverything.dry_bamboo_fence": "乾竹柵欄",

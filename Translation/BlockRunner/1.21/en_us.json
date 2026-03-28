@@ -1,3 +1,9 @@
 {
-  "block.blockrunner.speedMultiplier": "Speed Multiplier: %s"
+  "block.blockrunner.speedMultiplier": "Speed Multiplier: %s",
+  "tag.block.blockrunner.quick_blocks": "Quick Blocks",
+  "tag.block.blockrunner.slightly_quick_blocks": "Slight Quick Blocks",
+  "tag.block.blockrunner.slightly_slow_blocks": "Slightly Slow Blocks",
+  "tag.block.blockrunner.slow_blocks": "Slow Blocks",
+  "tag.block.blockrunner.very_quick_blocks": "Very Quick Blocks",
+  "tag.block.blockrunner.very_slow_blocks": "Very Slow Blocks"
 }

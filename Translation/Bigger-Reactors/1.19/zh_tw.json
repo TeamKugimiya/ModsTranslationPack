@@ -3,11 +3,11 @@
 
   "item.biggerreactors.wrench": "反應爐扳手",
 
-  "fluid_type.biggerreactors.liquid_uranium": "液態鈾",
+  "fluid.biggerreactors.liquid_uranium": "液態鈾",
   "item.biggerreactors.liquid_uranium_bucket": "液態鈾桶",
-  "fluid_type.biggerreactors.steam": "蒸氣",
+  "fluid.biggerreactors.steam": "蒸氣",
   "item.biggerreactors.steam_bucket": "蒸氣桶",
-  "fluid_type.biggerreactors.liquid_obsidian": "液態黑曜石",
+  "fluid.biggerreactors.liquid_obsidian": "液態黑曜石",
   "item.biggerreactors.liquid_obsidian_bucket": "液態黑曜石桶",
 
   "fluid.biggerreactors.superheated_sodium": "液態過熱鈉",
@@ -37,8 +37,8 @@
   "item.biggerreactors.ludicrite_dust": "鏀粉",
   "item.biggerreactors.ludicrite_ingot": "鏀錠",
 
-  "tooltip.biggerreactors.is_a_moderator" : "§e這方塊或流體能作為大型反應爐的減速劑使用",
-  "tooltip.biggerreactors.is_a_coil" : "§e這方塊能作為大型渦輪機的線圈使用",
+  "tooltip.biggerreactors.is_a_moderator": "§e這方塊或流體能作為大型反應爐的減速劑使用",
+  "tooltip.biggerreactors.is_a_coil": "§e這方塊能作為大型渦輪機的線圈使用",
 
   "multiblock.error.biggerreactors.no_terminal": "反應爐至少需要一台終端機。",
   "multiblock.error.biggerreactors.no_rods": "反應爐至少需要一根燃料棒。",
@@ -47,7 +47,7 @@
   "multiblock.error.biggerreactors.no_control_rod_for_fuel_rod": "所有的燃料棒頂部都必須裝設控制棒（%d，%d）。",
   "multiblock.error.biggerreactors.dangling_internal_part": "反應爐內部似乎還有另一台反應爐，發生了什麼事了嗎？（%d，%d，%d）。",
   "multiblock.error.biggerreactors.coolant_and_power_ports": "反應爐只能安裝一個冷卻埠（主動冷卻）或一個能量埠（被動冷卻），你不能全都要。",
-  "multiblock.error.biggerreactors.danglingmanifold": "反應爐冷卻岐管必須與外殼或另一個岐管相鄰。",
+  "multiblock.error.biggerreactors.no_manifold_neighbor": "反應爐冷卻岐管必須與外殼或另一個岐管相鄰。",
 
   "screen.biggerreactors.disabled": "已停用",
 
@@ -210,14 +210,12 @@
   "screen.biggerreactors.heat_exchanger_terminal.intake_gauge.evaporator.tooltip": "蒸發進水槽\n§7顯示蒸發通道中的低溫流體量。",
   "screen.biggerreactors.heat_exchanger_terminal.exhaust_gauge.evaporator.tooltip": "蒸發廢氣槽\n§7顯示蒸發通道中的高溫流體量。",
 
-
   "multiblock.error.biggerreactors.heat_exchanger.dangling_internal_part": "熱交換器內部似乎還有另一台反應爐，發生了什麼事了嗎？（%d，%d，%d）。",
   "multiblock.error.biggerreactors.heat_exchanger.dangling_channel": "所有通道都必須連接上流體埠（%d，%d，%d）。",
   "multiblock.error.biggerreactors.heat_exchanger.duplicate_port_types": "蒸發通道與冷凝通道都必須連接到兩個不同的流體埠上。",
   "multiblock.error.biggerreactors.heat_exchanger.fluid_port_unconnected": "所有連接埠都必須與通道相連接。",
   "multiblock.error.biggerreactors.heat_exchanger.invalid_port_count": "一台熱交換器需要剛好 4 個流體埠。",
   "multiblock.error.biggerreactors.heat_exchanger.missing_channel_type": "蒸發通道與冷凝通道至少需要各安裝一個。",
-
 
   "block.biggerreactors.heat_exchanger_computer_port": "熱交換器電腦埠",
   "block.biggerreactors.heat_exchanger_fluid_port": "熱交換器流體埠",

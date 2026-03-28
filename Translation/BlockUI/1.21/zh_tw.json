@@ -1,4 +1,10 @@
 {
     "blockui.container_gui.client_side_only": "容器內容物僅在遊玩整合伺服器時可見（單人遊戲，未公開至區域網）。",
-    "blockui.container_gui.empty": "該容器為空。"
+    "blockui.container_gui.empty": "該容器為空。",
+    "blockui.tooltip.item_additional_info": "Hold %s to show additional information",
+    "blockui.tooltip.properties": "BlockState properties:",
+    "blockui.config.default.boolean": "[Default: %s]",
+    "blockui.config.default.string": "[Default: %s]",
+    "blockui.config.default.enum": "[Default: %s, values: %s]",
+    "blockui.config.default.number": "[Default: %s, min: %s, max: %s]"
 }

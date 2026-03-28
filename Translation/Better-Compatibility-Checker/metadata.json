@@ -31,5 +31,17 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T12:46:00Z",
+    "translation_progress": {
+      "1.19": 100.0,
+      "1.21": 100.0,
+      "overall": 100.0
+    },
+    "mod_versions": {
+      "1.21": "Better Compatability Checker - 21.1.8 - NeoForge",
+      "1.19": "BetterCompatibilityChecker-1.0.10-build.50+mc1.19.2.jar"
+    }
   }
 }

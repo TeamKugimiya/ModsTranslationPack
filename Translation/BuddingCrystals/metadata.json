@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T12:46:00Z",
+    "translation_progress": {
+      "1.21": 86.96,
+      "overall": 86.96
+    },
+    "mod_versions": {
+      "1.21": "BuddingCrystals-5.0.0.jar"
+    }
   }
 }

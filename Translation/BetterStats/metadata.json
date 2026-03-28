@@ -7,15 +7,29 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "667464",
-    "modrinth": "gVDtudID"
+    "modrinth": "n6PXGAoM"
   },
   "contents": {
     "tiers": {
       "1.21": {
         "versions": [
           "<=1.21"
-        ]
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "neoforge"
+        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T12:46:00Z",
+    "translation_progress": {
+      "1.21": 0.0,
+      "overall": 0.0
+    },
+    "mod_versions": {
+      "1.21": "5.1.0+neoforge-1.21.11"
     }
   }
 }

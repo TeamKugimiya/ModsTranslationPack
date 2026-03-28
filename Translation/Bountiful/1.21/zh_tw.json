@@ -1,18 +1,25 @@
 {
 
+	"bountiful.mod.name": "懸賞板",
+
 	"block.bountiful.bountyboard": "懸賞板",
 
 	"itemGroup.bountiful": "懸賞家",
 
-	"bountiful.item_tag.any_door": "任何門",
-	"bountiful.item_tag.any_wool": "任何羊毛",
-	"bountiful.item_tag.any_planks": "任何木材",
-	"bountiful.item_tag.any_log": "任何原木",
-	"bountiful.item_tag.any_fence": "任何柵欄",
-	"bountiful.item_tag.any_bed": "任何床",
-	"bountiful.item_tag.any_boat": "任何船",
-	"bountiful.item_tag.any_candle": "任何蠟燭",
-	"bountiful.item_tag.any_banner": "任何旗幟",
+	"bountiful.entry.shepherd_objs.wool_wildcard": "任何羊毛",
+	"bountiful.entry.fletcher_objs.planks": "任何木材",
+	"bountiful.entry.fletcher_objs.logs": "任何原木",
+	"bountiful.entry.shepherd_objs.bed_wildcard": "任何床",
+	"bountiful.entry.fisherman_objs.any_boat": "任何船",
+	"bountiful.entry.mapper_objs.candles": "任何蠟燭",
+	"bountiful.entry.shepherd_objs.banner_wildcard": "任何旗幟",
+
+	"bountiful.entry.fisherman_obj_catch_ench_book": "釣上附魔書",
+	"bountiful.entry.cleric_objs.brew_swiftness": "Brew a basic Swiftness Potion",
+	"bountiful.entry.cleric_objs.cure_zombie_villager": "治療殭屍村民",
+
+	"bountiful.ui.shorthand.minutes": "分",
+	"bountiful.ui.shorthand.seconds": "秒",
 
 	"bountiful.decree": "政令",
 	"bountiful.decrees": "政令",
@@ -22,7 +29,6 @@
 	"bountiful.bounty.expired": "這個選賞已過期。",
 	"bountiful.bounty.turnin": "右鍵點擊懸賞板來填充滿你的懸賞。",
 
-	"bountiful.advancement.bounty_taken.title": "僱傭工作",
 	"bountiful.advancement.bounty_taken.desc": "從懸賞板上接下懸賞",
 
 	"bountiful.advancement.bounty_complete.title": "誠實工作，誠實支付",
@@ -37,8 +43,14 @@
 	"bountiful.advancement.town_crier.title": "城鎮傳令者",
 	"bountiful.advancement.town_crier.desc": "取得政令！",
 
-	"bountiful.advancement.royal_mandate.title": "皇家授權",
-	"bountiful.advancement.royal_mandate.desc": "將政令放入懸賞板",
+	"bountiful.advancement.printing_press.title": "Printing Press",
+	"bountiful.advancement.printing_press.desc": "Combine two Decrees at an anvil",
+
+	"bountiful.advancement.ninety_five_theses.title": "95 Theses",
+	"bountiful.advancement.ninety_five_theses.desc": "Put every type of Decree on a bounty board at once",
+
+	"bountiful.advancement.fetch_quest.title": "Just a 'Fetch' Quest",
+	"bountiful.advancement.fetch_quest.desc": "Have a pet kill a mob for a bounty objective",
 
 	"bountiful.bounty": "懸賞",
 
@@ -50,6 +62,7 @@
 	"bountiful.decree.fisherman.name": "漁夫懸賞令",
 	"bountiful.decree.fletcher.name": "製箭師懸賞令",
 	"bountiful.decree.hunting.name": "怪物狩獵懸賞令",
+	"bountiful.decree.inventor.name": "Inventing",
 	"bountiful.decree.leatherer.name": "皮匠懸賞令",
 	"bountiful.decree.librarian.name": "圖書管理員懸賞令",
 	"bountiful.decree.mapper.name": "製圖師懸賞令",
@@ -57,14 +70,9 @@
 	"bountiful.decree.shepherd.name": "牧羊人懸賞令",
 	"bountiful.decree.tinker.name": "鐵匠懸賞令",
 	"bountiful.decree.toolsmith.name": "工具匠懸賞令",
-	"bountiful.decree.runewright.name": "符文收購令",
-	"bountiful.decree.invalid_decree.name": "無效政令",
+	"bountiful.decree.chaos.name": "渾沌模式",
 
 	"bountiful.bounty.type.entity.kills": "殺死",
-
-	"bountiful.bounty.type.experience.levels": "經驗等級",
-	"bountiful.bounty.type.experience.points": "經驗點",
-
 
 	"bountiful.rarity.Common": "常見",
 	"bountiful.rarity.Uncommon": "罕見",
@@ -73,12 +81,12 @@
 
 	"stat.bountiful.bounties_taken": "懸賞拿取數量統計",
 	"stat.bountiful.bounties_done": "完成懸賞（總計）",
+	"stat.bountiful.bounty_completion_time": "Bounty Completion Time (Total)",
 	"stat.bountiful.bounties_done_0": "完成懸賞（常見）",
 	"stat.bountiful.bounties_done_1": "完成懸賞（罕見）",
 	"stat.bountiful.bounties_done_2": "完成懸賞（稀有）",
 	"stat.bountiful.bounties_done_3": "完成懸賞（史詩）",
 
-	"bountiful.tooltip.advanced": "按住 Shift 查看物品詳細資訊",
 	"bountiful.tooltip.time": "完成時間",
 	"bountiful.tooltip.required": "需求",
 	"bountiful.tooltip.rewards": "獎勵",

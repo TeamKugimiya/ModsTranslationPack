@@ -28,10 +28,9 @@
   "container.bhc.soul_heart_amulet" : "Soul Amulet",
   "tooltip.bhc.heartamulet": "Right click to open!",
   "tooltip.bhc.vitality_blade": "Shift-Right click to open!",
-  "tooltip.bhc.patch_amount": "Heal Amount: %s",
-  "tooltip.bhc.patch_durability": "Uses Left: %s",
-  "tooltip.bhc.heart_amount": "Total Canisters: %s",
+  "tooltip.bhc.patch_amount": "Heal Amount: ",
+  "tooltip.bhc.patch_durability": "Uses Left: ",
   "container.bhc.blade_of_vitality": "Vitality Blade",
   "soulheartused.bhc.message": "Soul Heart Has Been Consumed!",
-  "curios.identifier.heartamulet": "Heart Amulet"
+  "trinkets.slot.bhc.heart_amulet": "Heart Amulet"
 }

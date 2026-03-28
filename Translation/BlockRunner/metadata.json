@@ -6,15 +6,29 @@
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "426235"
+    "curseforge": "442842"
   },
   "contents": {
     "tiers": {
       "1.21": {
         "versions": [
           "<=1.21"
-        ]
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T13:52:41Z",
+    "translation_progress": {
+      "1.21": 14.29,
+      "overall": 14.29
+    },
+    "mod_versions": {
+      "1.21": "[NEOFORGE] [1.21.1] BlockRunner-v21.1.2"
     }
   }
 }

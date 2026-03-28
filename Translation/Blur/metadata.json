@@ -5,9 +5,9 @@
     "en": "Blur+"
   },
   "remote": {
-    "primary": "curseforge",
+    "primary": "modrinth",
     "curseforge": "268324",
-    "modrinth": "blur-plus"
+    "modrinth": "NK39zBp2"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T12:46:00Z",
+    "translation_progress": {
+      "1.21": 21.74,
+      "overall": 21.74
+    },
+    "mod_versions": {
+      "1.21": "6.2.0+1.21.1-neoforge"
     }
   }
 }

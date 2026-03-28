@@ -7,7 +7,7 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "666940",
-    "modrinth": "bartering-station"
+    "modrinth": "EOig9U0j"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T12:46:00Z",
+    "translation_progress": {
+      "1.21": 33.33,
+      "overall": 33.33
+    },
+    "mod_versions": {
+      "1.21": "[NEOFORGE] [1.21.1] BarteringStation-v21.1.0"
     }
   }
 }

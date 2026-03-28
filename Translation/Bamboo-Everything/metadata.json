@@ -7,7 +7,7 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "331723",
-    "modrinth": "bamboo-everything"
+    "modrinth": "cpRkny9R"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T13:42:19Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "bambooeverything NeoForged 21.1.2+mc1.21.1"
     }
   }
 }

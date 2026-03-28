@@ -14,8 +14,22 @@
       "1.21": {
         "versions": [
           "<=1.21"
-        ]
+        ],
+        "source": {
+          "game_version": "1.20.4",
+          "loader": "neoforge"
+        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T13:58:39Z",
+    "translation_progress": {
+      "1.21": 87.32,
+      "overall": 87.32
+    },
+    "mod_versions": {
+      "1.21": "Bountiful-7.0.3+1.20.4-neoforge.jar"
     }
   }
 }
