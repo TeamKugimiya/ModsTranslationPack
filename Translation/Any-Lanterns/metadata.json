@@ -7,7 +7,7 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "913390",
-    "modrinth": "any-lanterns!"
+    "modrinth": "9RRTmIVw"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T05:48:56Z",
+    "translation_progress": {
+      "1.21": 82.35,
+      "overall": 82.35
+    },
+    "mod_versions": {
+      "1.21": "any_lanterns_1.3_neoforge_1.21.1"
     }
   }
 }
