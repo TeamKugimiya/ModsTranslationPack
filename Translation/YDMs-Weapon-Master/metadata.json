@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "mod_id": "weaponmaster",
+  "mod_id": "weaponmaster_ydm",
   "display_name": {
     "en": "YDM's Weapon Master"
   },
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:34:18Z",
+    "translation_progress": {
+      "1.21": 97.73,
+      "overall": 97.73
+    },
+    "mod_versions": {
+      "1.21": "1.21.1+neoforge+4.2.7"
     }
   }
 }
