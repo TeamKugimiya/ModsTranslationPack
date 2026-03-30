@@ -1,13 +1,11 @@
 {
   "block.dragonloot.dragon_anvil": "龍鱗鐵砧",
   "item.dragonloot.dragon_scale": "龍鱗",
-  
   "item.dragonloot.dragon_helmet": "龍鱗頭盔",
   "item.dragonloot.dragon_chestplate": "龍鱗胸甲",
   "item.dragonloot.dragon_leggings": "龍鱗護腿",
   "item.dragonloot.dragon_boots": "龍鱗靴子",
   "item.dragonloot.upgraded_dragon_chestplate": "龍鱗翅翼胸甲",
-
   "item.dragonloot.dragon_pickaxe": "龍鱗鎬",
   "item.dragonloot.dragon_axe": "龍鱗斧",
   "item.dragonloot.dragon_shovel": "龍鱗鏟",
@@ -15,13 +13,10 @@
   "item.dragonloot.dragon_sword": "龍鱗劍",
   "item.dragonloot.dragon_bow": "龍鱗弓",
   "item.dragonloot.dragon_crossbow": "龍鱗弩",
-
   "item.dragonloot.dragon_horse_armor": "龍鱗製馬鎧",
   "item.dragonloot.dragon_trident": "龍鱗三叉戟",
   "entity.dragonloot.dragon_trident": "龍鱗三叉戟",
-
   "itemGroup.dragonloot.dragonloot": "終界龍戰利品",
-
   "text.autoconfig.dragonloot.title": "《終界龍戰利品》設定",
   "text.autoconfig.dragonloot.option.scale_minimum_drop_amount": "龍鱗的最低掉落數量",
   "text.autoconfig.dragonloot.option.additional_scales_per_player": "每位玩家可額外獲得的龍鱗數量",
@@ -37,8 +32,8 @@
   "text.autoconfig.dragonloot.option.dragon_armor_toughness": "龍鱗盔甲強度",
   "text.autoconfig.dragonloot.option.dragon_armor_knockback_resistance": "龍鱗盔甲的擊退抗性",
   "text.autoconfig.dragonloot.option.dragon_armor_enchantability": "龍鱗盔甲的附魔能力",
+  "text.autoconfig.dragonloot.option.dragon_tool_enchantability": "Dragon Tool Enchantability",
   "text.autoconfig.dragonloot.option.dragon_item_mining_speed_multiplier": "龍鱗製物品的挖掘速度乘數",
-
   "dragonloot.advancements.dragon_armor.title": "來自龍身",
   "dragonloot.advancements.dragon_armor.description": "取得全套終界龍鱗盔甲"
 }

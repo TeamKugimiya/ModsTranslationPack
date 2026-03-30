@@ -11,36 +11,48 @@
   },
   "contents": {
     "tiers": {
-      "1.21": {
+      "1.18": {
         "versions": [
-          "<=1.21",
-          ">1.19"
-        ]
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
       },
       "1.19": {
         "versions": [
           "1.19"
-        ]
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
       },
-      "1.18": {
+      "1.21": {
         "versions": [
-          "1.18"
-        ]
+          "<=1.21",
+          ">1.19"
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "neoforge"
+        }
       }
     }
   },
   "status": {
-    "last_synced": "2026-03-28T15:02:51Z",
+    "last_synced": "2026-03-28T16:23:16Z",
     "translation_progress": {
-      "1.18": 100.0,
-      "1.19": 100.0,
-      "1.21": 100.0,
-      "overall": 100.0
+      "1.18": 100,
+      "1.19": 100,
+      "1.21": 51.22,
+      "overall": 83.74
     },
     "mod_versions": {
-      "1.18": "(local baseline)",
-      "1.19": "(local baseline)",
-      "1.21": "(local baseline)"
+      "1.18": "craftingtweaks-forge-1.18.2-14.0.9.jar",
+      "1.19": "craftingtweaks-forge-1.19.2-15.1.9.jar",
+      "1.21": "craftingtweaks-neoforge-1.21.11-21.11.5.jar"
     }
   }
 }

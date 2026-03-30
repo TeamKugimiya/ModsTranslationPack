@@ -1,10 +1,8 @@
 {
   "dynamiccrosshair.title": "Dynamic Crosshair 動態準心",
-
   "dynamiccrosshair.category.general": "運作方式",
   "dynamiccrosshair.category.style": "準心樣式",
   "dynamiccrosshair.category.tweaks": "調整",
-
   "dynamiccrosshair.option.dynamicCrosshair": "動態地隱藏準心",
   "dynamiccrosshair.option.dynamicCrosshair.description": "除非手持工具、武器或瞄準實體，否則隱藏準心",
   "dynamiccrosshair.option.disableDebugCrosshair": "關閉除錯準心（即 F3 模式準心）",
@@ -45,6 +43,8 @@
   "dynamiccrosshair.option.crosshairConfig.holdingShield.description": "當手持盾牌時顯示盾牌準心。",
   "dynamiccrosshair.option.crosshairConfig.holdingBlock": "手持方塊",
   "dynamiccrosshair.option.crosshairConfig.holdingBlock.description": "根據以下條件顯示方塊準心：\n§l始終§r：手持方塊時。\n§l如果有目標§r：手持方塊且鎖定方塊時。\n§l如果可互動§r：手持的方塊可以放置在鎖定位置時。\n§l停用§r：不使用握持的方塊來計算準心。",
+  "dynamiccrosshair.option.crosshairConfig.holdingBlockInOffhand": "Holding block in offhand",
+  "dynamiccrosshair.option.crosshairConfig.holdingBlockInOffhand.description": "Include placeable block crosshair when they are held in the off hand.\nIf disabled, only blocks in the main hand cause the block crosshair.",
   "dynamiccrosshair.option.crosshairConfig.holdingUsableItem": "手持可使用物品",
   "dynamiccrosshair.option.crosshairConfig.holdingUsableItem.description": "根據以下條件顯示可使用物品準心：\n始終：手持可使用物品（如食物）時。\n如果可互動：手持的可使用物品當前可以使用時。\n停用：不使用握持的可使用物品來計算準心。",
   "dynamiccrosshair.option.crosshairConfig.forceHoldingSpyglass": "強制手持望遠鏡",
@@ -99,20 +99,17 @@
   "dynamiccrosshair.option.additionalUsableItems": "額外可使用物品",
   "dynamiccrosshair.option.additionalUsableItems.description": "分號分隔的物品名稱清單，如：「minecraft:fire_charge」。然後這些物品將顯示其類別的十字準心。",
   "dynamiccrosshair.option.additionalInteractableBlocks": "額外可互動方塊",
-
   "dynamiccrosshair.option.additionalInteractableBlocks.description": "一個方塊名稱或標籤清單，例如「minecraft:oak_log」或 「#minecraft:stairs」。這些方塊將被加入到可互動方塊類別中。",
   "dynamiccrosshair.policy.Always": "一律",
   "dynamiccrosshair.policy.IfTargeting": "若瞄準",
   "dynamiccrosshair.policy.IfInteractable": "若可互動",
   "dynamiccrosshair.policy.IfRangedWeaponFullyDrawn": "如果完全蓄力",
   "dynamiccrosshair.policy.Disabled": "停用",
-
   "dynamiccrosshair.add": "新增...",
   "dynamiccrosshair.edit": "編輯...",
   "dynamiccrosshair.delete": "刪除",
   "dynamiccrosshair.save": "儲存",
   "dynamiccrosshair.cancel": "取消",
-
   "modmenu.summaryTranslation.dynamiccrosshair": "關聯遊戲內容的準心樣式",
   "modmenu.descriptionTranslation.dynamiccrosshair": "動態準心使準心根據瞄準的東西切換形狀",
   "dynamiccrosshair.requireYaclForConfigScreen": "若要透過遊戲內的介面設定動態準心，請安裝 YetAnotherConfigLib！"

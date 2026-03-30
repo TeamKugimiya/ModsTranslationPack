@@ -514,7 +514,7 @@
   "item_dislocate.draconicevolution.activate": "物品收集符咒已啟用",
   "item_dislocate.draconicevolution.deactivate": "物品收集符咒已停用",
   "item_prop.draconicevolution.aoe_safe": "AOE 安全模式",
-  "item_prop.draconicevolution.aoe_safe.blocked": "\u00A79【\u00A7aAOE 安全模式已啟用\u00A79】\u00A7c由於在挖掘範圍內檢測到方塊實體，因此該次的破壞行動已被取消。",
+  "item_prop.draconicevolution.aoe_safe.blocked": "§9【§aAOE 安全模式已啟用§9】§c由於在挖掘範圍內檢測到方塊實體，因此該次的破壞行動已被取消。",
   "item_prop.draconicevolution.aoe_safe.info": "啟用該選項後，當檢測到挖掘範圍內存在方塊實體時，此工具將不會破壞範圍內的任何方塊。這能夠避免你因一次的誤按，而導致你意外地破壞基地。",
   "item_prop.draconicevolution.attack_aoe": "攻擊半徑",
   "item_prop.draconicevolution.attack_aoe.info": "調整揮砍武器時所能攻擊到的範圍。\n這涵蓋你 100° 弧角的視野範圍。",

@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:39:16Z",
+    "translation_progress": {
+      "1.21": 97.3,
+      "overall": 97.3
+    },
+    "mod_versions": {
+      "1.21": "dragonloot-1.1.8+1.21.1"
+    }
   }
 }

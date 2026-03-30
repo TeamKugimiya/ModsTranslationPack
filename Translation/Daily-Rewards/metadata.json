@@ -11,11 +11,25 @@
   },
   "contents": {
     "tiers": {
-      "1.21": {
+      "1.20": {
         "versions": [
-          "<=1.21"
-        ]
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T16:04:45Z",
+    "translation_progress": {
+      "1.20": 14.29,
+      "overall": 14.29
+    },
+    "mod_versions": {
+      "1.20": "daily_rewards_1.20.1-5.3.0.jar"
     }
   }
 }

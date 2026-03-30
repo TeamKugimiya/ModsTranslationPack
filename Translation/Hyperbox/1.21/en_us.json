@@ -1,6 +1,7 @@
 {
 	"block.hyperbox.hyperbox": "Hyperbox",
 	"block.hyperbox.hyperbox_preview": "Hyperbox",
+	"block.hyperbox.hyperbox_wall": "Hyperbox Wall",
 	"block.hyperbox.aperture": "Aperture",
 	"menu.hyperbox": "Create Hyperbox Dimension",
 	"menu.hyperbox.edit_dimension": "Dimension ID",

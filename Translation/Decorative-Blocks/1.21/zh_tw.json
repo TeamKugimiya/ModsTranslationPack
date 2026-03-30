@@ -1,5 +1,5 @@
 {
-  "itemGroup.decorative_blocks.general" : "裝飾方塊",
+  "itemGroup.decorative_blocks.general": "裝飾方塊",
   "block.decorative_blocks.mangrove_beam": "紅樹林木梁柱",
   "block.decorative_blocks.mangrove_palisade": "紅樹林木板條柵欄",
   "block.decorative_blocks.mangrove_seat": "紅樹林木座椅",
@@ -49,7 +49,6 @@
   "block.decorative_blocks.lattice": "格狀木架",
   "fluid.decorative_blocks.thatch": "茅草",
   "block.decorative_blocks.thatch": "茅草",
-  
   "wiki.decorative_blocks.thatch": "使用剪刀右鍵點擊乾草捆獲得。",
   "wiki.decorative_blocks.support.condition1": "§7對著空氣潛行 + 點擊右鍵：",
   "wiki.decorative_blocks.support.behavior1": "§3將手上的支架翻轉",

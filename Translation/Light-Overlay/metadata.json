@@ -14,7 +14,11 @@
       "1.21": {
         "versions": [
           "<=1.21"
-        ]
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "fabric"
+        }
       }
     }
   }

@@ -1,6 +1,7 @@
 {
 	"block.hyperbox.hyperbox": "箱庭",
 	"block.hyperbox.hyperbox_preview": "箱庭",
+	"block.hyperbox.hyperbox_wall": "Hyperbox Wall",
 	"block.hyperbox.aperture": "交界孔縫",
 	"menu.hyperbox": "建立箱庭維度",
 	"menu.hyperbox.edit_dimension": "維度 ID",

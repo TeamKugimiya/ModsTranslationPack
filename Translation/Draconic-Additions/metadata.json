@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:39:16Z",
+    "translation_progress": {
+      "1.21": 64.0,
+      "overall": 64.0
+    },
+    "mod_versions": {
+      "1.21": "Draconic-Additions-1.21.1-2.5.0.1.jar"
+    }
   }
 }

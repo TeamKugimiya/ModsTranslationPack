@@ -13,19 +13,25 @@
     "tiers": {
       "1.21": {
         "versions": [
-          "<=1.21",
-          ">1.18"
+          "<=1.21"
         ],
         "source": {
-          "game_version": "1.21.4",
+          "game_version": "1.21.1",
           "loader": "neoforge"
         }
-      },
-      "1.18": {
-        "versions": [
-          "1.18"
-        ]
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T01:23:25Z",
+    "translation_progress": {
+      "1.18": 53.33,
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.18": "Item Collectors 1.1.12 for Forge 1.18",
+      "1.21": "Item Collectors 1.1.10 for NeoForge 1.21"
     }
   }
 }

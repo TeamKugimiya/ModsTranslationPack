@@ -37,6 +37,7 @@
   "text.autoconfig.dragonloot.option.dragon_armor_toughness": "Dragon Armor Toughness",
   "text.autoconfig.dragonloot.option.dragon_armor_knockback_resistance": "Dragon Armor Knockback Resistance",
   "text.autoconfig.dragonloot.option.dragon_armor_enchantability": "Dragon Armor Enchantability",
+  "text.autoconfig.dragonloot.option.dragon_tool_enchantability": "Dragon Tool Enchantability",
   "text.autoconfig.dragonloot.option.dragon_item_mining_speed_multiplier": "Dragon Item Mining Speed Multiplier",
 
   "dragonloot.advancements.dragon_armor.title": "From the scales of the beast",

@@ -74,6 +74,7 @@
     "ironfurnaces.jei_category_smoking": "發電機｜煙燻",
 
     "_comment": "Tooltips",
+    "tooltip.ironfurnaces.cooktime": "Cooktime",
     "tooltip.ironfurnaces.upgrade_right_click": "對著熔爐潛行 + 點擊右鍵以套用",
     "tooltip.ironfurnaces.xmas_right_click": "對著熔爐點擊右鍵，將熔爐包裝成禮物盒",
     "tooltip.ironfurnaces.xmas1": "但包裝紙不是會因高溫起火嗎？",
@@ -130,7 +131,7 @@
     "tooltip.ironfurnaces.gui_input": "輸入",
     "tooltip.ironfurnaces.gui_output": "輸出",
     "tooltip.ironfurnaces.gui_input_output": "輸入/輸出",
-    "tooltip.ironfurnaces.gui_fuel": "燃料輸入",
+    "tooltip.ironfurnaces.gui_fuel": "Fuel Input/Eject",
     "tooltip.ironfurnaces.gui_reset": "重設全部",
     "tooltip.ironfurnaces.gui_redstone_ignored": "紅石訊號：忽略",
     "tooltip.ironfurnaces.gui_redstone_low": "紅石訊號：低",
@@ -142,12 +143,12 @@
     "tooltip.ironfurnaces.hold": "按住 ",
     "tooltip.ironfurnaces.for_details": " 查看詳細資訊。",
     "tooltip.ironfurnaces.augment_slot": "套件欄位",
+    "tooltip.ironfurnaces.rainbow_blowup": "Something is telling me to blow it up...",
     "tooltip.ironfurnaces.rainbow_gen1": "當所有種類的熔爐處於發電狀態時，將產生",
     "tooltip.ironfurnaces.rainbow_gen2": "RF/tick",
     "tooltip.ironfurnaces.rainbow_gen3": "為了讓每個等級的熔爐都處於發電狀態，其內部能量暫存區不得是滿的",
     "tooltip.ironfurnaces.rainbow_gen4": "熔爐會朝設定為「輸出」的任何一側輸出能量，這時將不會向內部暫存區增加能量",
     "tooltip.ironfurnaces.rainbow_gen5": "你只能擁有一台彩虹發電機",
-
 
 
     "_comment": "Updates",

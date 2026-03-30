@@ -14,8 +14,22 @@
       "1.21": {
         "versions": [
           "<=1.21"
-        ]
+        ],
+        "source": {
+          "game_version": "1.21.10",
+          "loader": "fabric"
+        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:39:16Z",
+    "translation_progress": {
+      "1.21": 66.67,
+      "overall": 66.67
+    },
+    "mod_versions": {
+      "1.21": "(local baseline)"
     }
   }
 }

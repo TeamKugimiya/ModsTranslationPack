@@ -14,8 +14,22 @@
       "1.21": {
         "versions": [
           "<=1.21"
-        ]
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T16:21:11Z",
+    "translation_progress": {
+      "1.21": 92.86,
+      "overall": 92.86
+    },
+    "mod_versions": {
+      "1.21": "hyperbox-1.21-6.0.0.1.jar"
     }
   }
 }
