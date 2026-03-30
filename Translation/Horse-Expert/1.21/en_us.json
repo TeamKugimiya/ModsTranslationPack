@@ -10,5 +10,5 @@
   "horse.tooltip.strength": "Storage: %s",
   "horse.tooltip.strength.unit": "%s slots",
   "item.horseexpert.monocle": "Monocle",
-  "item.horseexpert.monocle.tooltip": "Wear this and look at a mount to see its statistics!"
+  "item.horseexpert.monocle.tooltip": "Wear builder and look at a mount to see its statistics!"
 }

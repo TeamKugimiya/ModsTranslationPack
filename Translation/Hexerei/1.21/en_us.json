@@ -1,23 +1,6 @@
 {
-  "item.hexerei.armor_scrap": "Armor Scrap",
-  "block.hexerei.scrap_block": "Scrap Block",
   "block.hexerei.mixing_cauldron": "Mixing Cauldron",
   "block.hexerei.coffer": "Coffer",
-  "block.hexerei.coffer_black": "Black Coffer",
-  "block.hexerei.coffer_blue": "Blue Coffer",
-  "block.hexerei.coffer_cyan": "Cyan Coffer",
-  "block.hexerei.coffer_gray": "Gray Coffer",
-  "block.hexerei.coffer_green": "Green Coffer",
-  "block.hexerei.coffer_light_blue": "Light Blue Coffer",
-  "block.hexerei.coffer_light_gray": "Light Gray Coffer",
-  "block.hexerei.coffer_lime": "Lime Coffer",
-  "block.hexerei.coffer_magenta": "Magenta Coffer",
-  "block.hexerei.coffer_orange": "Orange Coffer",
-  "block.hexerei.coffer_pink": "Pink Coffer",
-  "block.hexerei.coffer_purple": "Purple Coffer",
-  "block.hexerei.coffer_red": "Red Coffer",
-  "block.hexerei.coffer_white": "White Coffer",
-  "block.hexerei.coffer_yellow": "Yellow Coffer",
   "item.hexerei.willow_broom": "Willow Broom",
   "entity.hexerei.willow_broom": "Willow Broom",
   "item.hexerei.mahogany_broom": "Mahogany Broom",
@@ -111,10 +94,10 @@
   "block.hexerei.mugwort_bush": "Mugwort Bush",
   "item.hexerei.mugwort_flowers": "Mugwort Flowers",
   "item.hexerei.mugwort_leaves": "Mugwort Leaves",
-  "block.hexerei.belladonna_flower": "Belladonna Plant",
+  "block.hexerei.belladonna_plant": "Belladonna Plant",
   "item.hexerei.belladonna_flowers": "Belladonna Flowers",
   "item.hexerei.belladonna_berries": "Belladonna Berries",
-  "block.hexerei.mandrake_flower": "Mandrake Plant",
+  "block.hexerei.mandrake_plant": "Mandrake Plant",
   "block.hexerei.herb_drying_rack": "Drying Rack",
   "item.hexerei.sage_bundle": "Sage Bundle",
   "item.hexerei.mandrake_root": "Mandrake Root",
@@ -207,15 +190,13 @@
   "tooltip.hexerei.herb_drying_rack_full": "Hold \u00A7eSHIFT\u00A7r for more Information",
   "tooltip.hexerei.herb_drying_rack_full_shift": "This is just for decoration.",
   "tooltip.hexerei.crystal_ball": "Hold \u00A7eSHIFT\u00A7r for more Information",
-  "tooltip.hexerei.crystal_ball_shift": "WIP for uses for infusing or scrying",
+  "tooltip.hexerei.crystal_ball_shift": "Used to tell if its night/day and what phase of the moon cycle if it's night.",
   "tooltip.hexerei.flower_output_item": "Hold \u00A7eSHIFT\u00A7r for more Information",
   "tooltip.hexerei.flower_output_item_shift": "Can be picked from the related plant by right clicking on the plant when almost fully grown or fully grown, the plant acts like a berry bush and can regrow its products",
   "tooltip.hexerei.coffer": "Decorative storage block",
-  "tooltip.hexerei.coffer_shift": "Can be placed in the world.",
-  "tooltip.hexerei.coffer_shift_2": "Can store items and be moved like a shulker box.",
-  "tooltip.hexerei.coffer_shift_3": "Can be renamed.",
-  "tooltip.hexerei.coffer_shift_4": "Punch the Coffer to pick up directly to your inventory.",
-  "tooltip.hexerei.coffer_shift_5": "Can be dyed.",
+  "tooltip.hexerei.coffer_shift": "Can be placed in the world by crouching and right clicking.",
+  "tooltip.hexerei.coffer_shift_2": "Or can be opened by simply just right clicking.",
+  "tooltip.hexerei.coffer_shift_3": "Punch the Coffer to pick up directly to your inventory.",
   "tooltip.hexerei.herb_jar_shift_4": "Punch the front face to take out one item.",
   "tooltip.hexerei.herb_jar_shift_5": "Crouch and punch to take out a stack.",
   "tooltip.hexerei.herb_jar_shift_6": "Right click any other side to open the gui",
@@ -297,7 +278,9 @@
   "tooltip.hexerei.crow_flute_shift_5": "You can also set a perch position if you have crows selected on the flute.",
 
   "hexerei.key.category.broom": "Hexerei (Broom)",
-  "key.hexerei.broomDescend": "Descend",
+  "key.hexerei.broomDown": "Down",
+  "key.hexerei.broomDismount": "Dismount",
+  "key.hexerei.broomUp": "Up",
 
 
   "display.hexerei.dowsing_rod_swamp": "Now locating a swamp.",
@@ -335,8 +318,8 @@
   "tooltip.hexerei.crow_flute_sit_button_0": "Crows set to sit will fall down and sit in their position,",
   "tooltip.hexerei.crow_flute_sit_button_1": "and if they have a perch they will fly to it first.",
 
-  "tooltip.hexerei.crow_flute_wander_button_0": "Crows set to wander mode will fly around,",
-  "tooltip.hexerei.crow_flute_wander_button_1": "if they travel too far from their perch they will fly back.",
+  "tooltip.hexerei.crow_flute_wander_button_0": "Crows set to wander mode will wander around their owner,",
+  "tooltip.hexerei.crow_flute_wander_button_1": "if they have a perch set they will wander around that instead.",
 
   "tooltip.hexerei.crow_flute_help_button_0": "Crows set to help will do its set help command,",
   "tooltip.hexerei.crow_flute_help_button_1": "the help command is either Gather, Harvest, or Pickpocket, ",
@@ -351,8 +334,9 @@
 
   "tooltip.hexerei.crow_flute_pickpocket_button_0": "Crows set to pickpocket will target the nearest villager",
   "tooltip.hexerei.crow_flute_pickpocket_button_1": "and snatch an item from their pockets, fly away,",
-  "tooltip.hexerei.crow_flute_pickpocket_button_2": "and drop the item after a while.",
+  "tooltip.hexerei.crow_flute_pickpocket_button_2": "and return the item to their owner.",
   "tooltip.hexerei.crow_flute_pickpocket_button_3": "If they have a perch they will drop the item at their perch.",
+  "tooltip.hexerei.crow_flute_pickpocket_button_4": "If the perch is a container, they will try to place it in the container.",
 
   "tooltip.hexerei.crow_flute_select_button_0": "While toggled you can select crows by right clicking on them.",
   "tooltip.hexerei.crow_flute_select_button_1": "If you have more than one selected crow, only the selected",
@@ -398,7 +382,7 @@
   "tooltip.hexerei.witch_armor_bonus_4": " - 15% of magic damage dealt is converted to health",
 
   "item.hexerei.book_of_shadows": "Book of Shadows",
-  "tooltip.hexerei.book_of_shadows_shift": "This is the guidebook of Hexerei.\nFor now it must be placed on an altar to be read.\nDye the cover upon crafting based on the dye given.\nDye the corners by dying the book again.",
+  "tooltip.hexerei.book_of_shadows_shift": "This is the guidebook of Hexerei.\nPlace on an altar to read in world, otherwise just right click to open a screen.\nDye the cover upon crafting based on the dye given.\nDye the corners by dying the book again.",
 
   "item.hexerei.reading_glasses": "Reading Glasses",
   "tooltip.hexerei.reading_glasses_shift": "Reading in the book of shadows a bit too hard? Got the eyes of grandpa? They can be used like a spyglass or worn on your head and toggled with '%s' to zoom in slightly.",
@@ -419,10 +403,10 @@
 
   "book.hexerei.index_page_2.passage_1": "- Right click to interact -\n next page button on bottom right",
 
-  "book.hexerei.intro_page_1.passage_1": "  Welcome to the wonderful witchcraft filled world of Hexerei! Where many of your desires, known and unknown, will be met to it's fullest! \n\nThis mod is my life and soul right now, I put in nearly all of my time and energy into it. \n\nmade by: JoeFoxe",
+  "book.hexerei.intro_page_1.passage_1": "  Welcome to the enchanting world of Hexerei, a rich and immersive experience filled with mystical covens and enchanting creatures.\n\n  Dive into the lore of the dark, nature, and soon to come spirit coven, each with their unique design and secrets. \n\nCreated by: JoeFoxe",
   "book.hexerei.intro_page_1.curseforge_link_tooltip": "Hexerei curseforge link - right click",
 
-  "book.hexerei.intro_page_2.passage_1": "I have been working on this book for over a month, designing it completely from scratch. I hope it is everything and more for what people were wanting. \n\nTons more content is yet to come, but this content will be from coven witches to casting spells to more familiars and much more! Stay tuned!",
+  "book.hexerei.intro_page_2.passage_1": "  This book will guide your way through the magical world of Hexerei, helping you uncover the secrets and powers of witchcraft. \n\n  With more content on the horizon, including new coven witches, spells, and familiars, the world of Hexerei continues to grow and evolve. Stay tuned for even more magical adventures!",
 
   "book.hexerei.intro_page_3.passage_1": "  If you have not figured it out already, at the bottom corners of the opened pages should be arrows directing you to the next page or previous page.\n  As well as an X which will close the book and lay it down and a Home button which will direct you to the index.",
 
@@ -430,7 +414,7 @@
 
   "book.hexerei.intro_page_5.passage_1": "  They can be swapped with another bookmark or with an empty slot. Clicking on a bookmark will redirect you to the page that it was saved on.\n  Crouch and right click the altar to pick up the book. \n  The book can be opened or closed when picked up, if left opened it will still show the pages on the book, though for now you wont be able to turn the pages in hand, it must be on an altar.",
 
-  "book.hexerei.intro_page_6.passage_1": "  In the configs you can change the font from fancy to normal minecraft font if its hard to read or you are wanting more immersion.\n  You are also able to hover items and press %kkey.hexerei.book_hovering_recipe for recipes and %kkey.hexerei.book_hovering_uses for uses to open up the JEI page respectively",
+  "book.hexerei.intro_page_6.passage_1": "  In the configs you can change the font from fancy to normal minecraft font if its hard to read or you are wanting more immersion.\n  You are also able to hover items and press %kkey.hexerei.book_hovering_recipe% for recipes, and %kkey.hexerei.book_hovering_uses% for uses to open up the JEI page respectively",
 
 
   "book.hexerei.support_page_1.passage_1": "  This mod has come a long way due to this community, and will continue to strive because of it. Come be a part of it and join our Discord!\n  If you have any questions feel free to join and ask for help as we do have a very friendly community!",
@@ -456,137 +440,150 @@
   "book.hexerei.support_page_2.ko-fi_link_tooltip_3": "    really this does help feed me <3",
   "book.hexerei.support_page_2.ko-fi_link_tooltip_4": "                right click",
 
-  "book.hexerei.support_page_5.passage_1": "help this community has given me, and I am so appreciative towards all of them! Again, thank you all so much for either being a part of my community or helping me be able to sustain life while working on this mod! \n\n  With all that being said lets get into it.",
+  "book.hexerei.support_page_5.passage_1": "help this community has given me, and I am so appreciative towards all of them! Again, thank you all so much for either being a part of my community or helping me be able to sustain life while working on this mod! \n\n  With all that being said, I hope you enjoy the the enchanting world of Hexerei!",
 
 
 
   "book.hexerei.items_index_page_1.passage_1": "- Items -",
-  "book.hexerei.items_index_page_1.passage_2": "  This chapter will be all about items and how you obtain them and what you do with them. If you click on another item on a page and if it has a page attached to that item the book will quickly turn it's pages there!",
+  "book.hexerei.items_index_page_1.passage_2": "  This chapter is all about the items in the witching world, how you obtain them, and what you do with them. \n\n  Click an item on the following index pages, or anywhere you see an item displayed, to flip to the entry on that item.",
 
-  "book.hexerei.items_index_page_2.passage_1": "Item Index Page",
+  "book.hexerei.items_index_page_2.passage_1": "Item Index",
 
   "book.hexerei.items_index_page_3.passage_1": "",
 
+  "book.hexerei.items_index_page_4.passage_1": "",
+
   "book.hexerei.items_mixing_cauldron_1.passage_1": "Mixing Cauldron",
-  "book.hexerei.items_mixing_cauldron_1.passage_2": "  The Mixing Cauldron is one of the main tools in the witches arsenal.",
-  "book.hexerei.items_mixing_cauldron_3.passage_1": "  You are able to toss items into the cauldron from the top to fill the slots as well as use any item transporting block (ie. hoppers) to pump items in. It also has a GUI that you can access where you can place and take items.",
-  "book.hexerei.items_mixing_cauldron_4.passage_1": "  You can click the center to access the JEI recipes. While scrolling through JEI you can now click the transfer button to transfer over your items for easy crafting.\n\n  The slot on the left is for Sigils, right now its only one which is the Blood Sigil. ",
-  "book.hexerei.items_mixing_cauldron_5.passage_1": "  The cauldron can hold any kind of fluid up to two buckets. Fluid can be pumped in with other mods pipes. You can also use bottles on the base liquids and ones from this mod in the cauldron. \n  Although it seems like it would burn items when in lava but in fact they do stay safe.",
-  "book.hexerei.items_mixing_cauldron_6.passage_1": "  All of these fluids are used in some way in the cauldron. Along with the fluid being used in crafting inside the cauldron it can also be used by the Dipper item which is placed on top of the cauldron. ",
+  "book.hexerei.items_mixing_cauldron_1.passage_2": "  The Mixing Cauldron is one of the main tools in the witch's arsenal, mixing up all sorts of crafts and potions.",
+  "book.hexerei.items_mixing_cauldron_3.passage_1": "  Items can be thrown onto the cauldron from the top to fill its slots, or automatically filled with any item transporting block (i.e. hoppers, pipes from other mods). It also has a GUI for putting items in manually.",
+  "book.hexerei.items_mixing_cauldron_4.passage_1": "  You can click the center of the GUI to view all the recipes, if JEI is installed. While scrolling through JEI, you can click the + button to transfer over your items for easy crafting.\n\n  The slot on the top left is for Sigils, such as the Blood Sigil. ",
+  "book.hexerei.items_mixing_cauldron_5.passage_1": "  The cauldron can hold up to two buckets of any kind of fluid. Fluid can be pumped in with other mods' pipes, or you can use bottles or buckets on the cauldron. \n  Some recipes also require a heat source under the cauldron, like fire, lava, campfires, or magma blocks.",
+  "book.hexerei.items_mixing_cauldron_6.passage_1": "  The cauldron has other uses when certain attachments are put on it. The Dipper can make candles when the cauldron is full of tallow, or can collect blood with a Blood Sigil. Click the items below for more info. ",
   "book.hexerei.items_mixing_cauldron_6.passage_2": "Attachments: ",
+  "book.hexerei.items_mixing_cauldron_7.passage_1": "  The mixing cauldron can brew up to two buckets worth of potions at a time, when heated.\n  To do this, fill it with water, then add two of the ingredient needed to make the potion. For example, making Awkward Potion requires two nether wart.",
 
   "book.hexerei.items_coffer_1.passage_1": "Coffer",
-  "book.hexerei.items_coffer_1.passage_2": "  The Coffer is a very useful storage device for witches, especially ones who have some crow friends.",
+  "book.hexerei.items_coffer_1.passage_2": "  The Coffer is a very useful storage device for witches, especially those who have crow familiars.",
   "book.hexerei.items_coffer_2.passage_1": "  To craft you need a Mixing Cauldron and the items shown below.",
   "book.hexerei.items_coffer_3.passage_1": "  Coffers can also be dyed with any color and be renamed to change their colors in a loop.",
   "book.hexerei.items_coffer_3.passage_2": "  Once dyed, if not named, they can be dyed again to mix the dye colors like leather armor.",
-  "book.hexerei.items_coffer_4.passage_1": "  For ease of use coffers can be picked up with a simple punch. They will retain all of their data when moved by the player. They also will display their items while opened.\n\n  On the right side of the GUI of the coffer will show a button with a crow on it.",
-  "book.hexerei.items_coffer_5.passage_1": "  While toggled the crow button will allow crows on gather mode to check items inside its coffers and look in the area for items matching the any of the contents of the coffer to deposit. \n\n  Crows also with a perch located on a coffer will pick up any item in the area and return it to that coffer.",
+  "book.hexerei.items_coffer_4.passage_1": "  When punched, a placed coffer will be picked up into your inventory, keeping their items, name, and colors.\n\n  On the right side of the coffer's GUI is a button with a crow on it.",
+  "book.hexerei.items_coffer_5.passage_1": "  While toggled, the crow button will allow crows on gather mode to check items inside the coffer and look in the area for items matching its contents to deposit. \n\n  Crows with a perch located on a coffer will pick up any item in the area and return it to that coffer.",
 
   "book.hexerei.items_herb_jar_1.passage_1": "Herb Jar",
-  "book.hexerei.items_herb_jar_1.passage_2": "  The Herb Jar is the drawer for witches. This device can hold up to 1024 items of only one item.\n  Crows also will find and place matching items into jars just like they do coffers if you have the button toggled within its GUI.",
-  "book.hexerei.items_herb_jar_2.passage_1": "  To access the jar GUI simply right click on any of the faces except the front, to access from the front right click and crouch with a bare hand.\n Take items out of the jars by punching the face or take a full stack by crouch punching the face.",
+  "book.hexerei.items_herb_jar_1.passage_2": "  The Herb Jar is perfect for the witch who wants to keep ingredients in bulk. It can hold up to 1024 items of one type.\n  Like coffers, herb jars also have a crow button, letting your crows keep your herb collection neat and tidy.",
+  "book.hexerei.items_herb_jar_2.passage_1": "  The jar's GUI may be opened by right-clicking on any face but the front. To access it from the front, sneak and right-click with an empty hand.\n  Left-click the front face to take out one item, or left-click while sneaking to take out a stack at a time.",
   "book.hexerei.items_herb_jar_3.passage_1": "  To craft you need a Mixing Cauldron and the items shown below.",
   "book.hexerei.items_herb_jar_4.passage_1": "  Herb Jars can also be dyed with any color and be renamed to change their colors in a loop.",
   "book.hexerei.items_herb_jar_4.passage_2": "  Once dyed, if not named, they can be dyed again to mix the dye colors like leather armor.",
 
   "book.hexerei.items_sage_burning_plate_1.passage_1": "Sage Burning Plate",
-  "book.hexerei.items_sage_burning_plate_1.passage_2": "  The Sage Burning Plate is for protection around the witches setup. Simply place one down fill it with a bundle of dried sage and light it to protect your area.\n  The default area of the spawn protection is a radius of 48. Though monsters will still wander in the radius.",
+  "book.hexerei.items_sage_burning_plate_1.passage_2": "  The Sage Burning Plate can protect the witch's home from monsters. Simply place one down, fill it with a bundle of dried sage, and light it to prevent monster spawns.\n  By default, its effect reaches in a 48 block radius around the plate.",
   "book.hexerei.items_sage_burning_plate_2.passage_1": "  To craft you need a Mixing Cauldron and the items shown below.",
   "book.hexerei.items_sage_burning_plate_3.passage_1": "  Sage smoke will appear randomly in the area when a bundle is lit. The smoke particles can be changed or turned off by right clicking the plate with a bare hand.\n  The smoke has 4 different modes it can be set to. The ring of smoke shows the range it will reach and the others are for aesthetic.",
 
   "book.hexerei.items_book_of_shadows_1.passage_1": "Book of Shadows",
-  "book.hexerei.items_book_of_shadows_1.passage_2": "  Yes the book is talking about itself, but you are going need this in the witching world.\n\n The cover of the book is dyed with the dye used in crafting. The corners of the book can also be dyed after crafting by placing it back into the grid with another dye.",
+  "book.hexerei.items_book_of_shadows_1.passage_2": "  Your guide to the witching world of Hexerei.\n\n The color of the book's cover is determined by the dye used in crafting. The corners of the book can be recolored by crafting the book with another dye.",
 
-  "book.hexerei.items_altar_1.passage_1": "Altar",
-  "book.hexerei.items_altar_1.passage_2": "  The Altar will be used for not just reading the book on, but can be used for decoration as you can place any item down on the altar, and a special surprise for anything that can be potted that is placed onto the altar.",
+  "book.hexerei.items_altar_1.passage_1": "Altars",
+  "book.hexerei.items_altar_1.passage_2": "  The Altar is not just for reading this book on. It can be used to display any item you place onto it, with a special surprise for anything that can be potted.\n\n  They can be crafted out of willow and witch hazel as well.",
 
   "book.hexerei.items_drying_rack_1.passage_1": "Drying Rack",
-  "book.hexerei.items_drying_rack_1.passage_2": "  These are used for drying items that have a recipe to be dried. They are quite useful for obtaining early game leather by drying rotten flesh into leather. To place items into a drying rack simply right click with the item stack in hand.",
+  "book.hexerei.items_drying_rack_1.passage_2": "  Special racks for the drying of items and herbs, or holding items for decoration. Right click a drying rack to place what you are holding on it.",
   "book.hexerei.items_drying_rack_3.passage_1": "  There are 3 separate slots in the drying rack, each slot can hold up to 3 of that item. Each time you right click it with an item in hand, it will take up to 3 of those items and place it into the drying rack.\n  To remove all items from the drying rack that arent crafting, both hands must be bare and you crouch and right click the drying rack.",
   "book.hexerei.items_drying_rack_4.passage_1": "  You can also simply right click to remove items that have completed their drying process, no crouching necessary.\n  Automation can be done using item transportation blocks, like hoppers or item pipes.",
 
-  "book.hexerei.items_pestle_and_mortar_1.passage_1": "Pestle And Mortar",
+  "book.hexerei.items_pestle_and_mortar_1.passage_1": "Pestle and Mortar",
   "book.hexerei.items_pestle_and_mortar_1.passage_2": "  The Pestle and Mortar is used for smashing, smooshing, grinding, and turning things into a fine paste. This will be used for making the blends and pastes for infusing your candles to give them effects while lit. It is also used to create the crows favorite snackies!",
-  "book.hexerei.items_pestle_and_mortar_3.passage_1": "  To add items to the mortar simply right click with the item in hand, it will only add one item at a time. Crouch and right click the mortar to pull out all items within as long as they are not already crafting. You can also simply right click to remove items that have completed their crafting process.",
+  "book.hexerei.items_pestle_and_mortar_3.passage_1": "  Right click while holding an item to add one of it to the mortar, or sneak right click to insert the entire stack. Items can be taken back by sneak right clicking. Once all items for a recipe are inside, you can no longer take items out. When the craft has finished, the result can be simply right clicked out.",
 
   "book.hexerei.items_dipper_1.passage_1": "Dipper",
-  "book.hexerei.items_dipper_1.passage_2": "  The Dipper is an addon for the Mixing Cauldron for its main function of making candles by dipping string into the tallow below. Simply place on top of a Mixing Cauldron by crouching and right clicking the top of the cauldron with the Dipper.",
-  "book.hexerei.items_dipper_3.passage_1": "  The Dipper has 3 separate slots each of which can hold a single item. If the fluid below matches a recipe for one of the items on the dipper it will begin dipping it in the fluid til the recipe completes to transform the item. This meaning the Dipper can not only make candles in tallow but be able to make any item",
-  "book.hexerei.items_dipper_4.passage_1": " in any fluid as long as it matches a recipe. For example, you can color candles with blood by putting them on a dipper with enough blood below.",
+  "book.hexerei.items_dipper_1.passage_2": "  The Dipper is an attachment for the Mixing Cauldron, mainly used for making candles by dipping string into the tallow below. To attach, sneak and right click the top of the cauldron with the dipper.",
+  "book.hexerei.items_dipper_3.passage_1": "  The Dipper has 3 slots, each of which can hold a single item. If the fluid below matches a recipe for one of the items on the dipper, it will begin dipping it in the fluid. The Dipper is not just for candlemaking, it is able to make any item in any fluid, so long as the recipe exists.",
+  "book.hexerei.items_dipper_4.passage_1": "",
 
-  "book.hexerei.items_candle_1.passage_1": "Candle",
-  "book.hexerei.items_candle_1.passage_2": "  Candles are great decoration options as you can mix and match different candles in the same block up to 4 candles. Each candle has a lit time of 35 minutes, this may vary as infused candles come out along with different kinds of candles.",
-  "book.hexerei.items_candle_3.passage_1": "  You are able to light each separate candle from first placed to last placed, this may changed to where you use the flint and steel to light the candle you are looking at. Candles are able to float around an Altar as well as later will float around the player for rituals and spells.",
+  "book.hexerei.items_candle_1.passage_1": "Candles",
+  "book.hexerei.items_candle_1.passage_2": "  Candles are a dyeable, decorative block which can be used for lighting, or for magic. Up to 4 different candles can be placed in the same block. A candle can be lit with flint and steel, and will typically stay lit for 35 minutes.",
+  "book.hexerei.items_candle_3.passage_1": "  Candles are lit individually, in the order they were placed in. When placed near an altar and lit, the candles will float around it.\n  You can craft several items with a candle to add a decorative base to it, including planks, selenite shards, and more.",
+  "book.hexerei.items_candle_4.passage_1": "  Candles can be infused with a potion effect with a Dipper. When lit, they will apply their effects to anyone nearby. Only certain potions work for this.",
 
   "book.hexerei.items_candelabra_1.passage_1": "Candelabra",
-  "book.hexerei.items_candelabra_1.passage_2": "  Candelabras are a great decoration item as you can place them under a block or above a block to give them a different look. Works great with chains above!",
+  "book.hexerei.items_candelabra_1.passage_2": "  Candelabras, unlike the candles used to make them, won't go out on their own. They can be placed on the top of a block, or under a block, including blocks like chains.",
 
   "book.hexerei.items_crystal_ball_1.passage_1": "Crystal Ball",
-  "book.hexerei.items_crystal_ball_1.passage_2": "  The Crystal Ball is still a work in progress, right now it acts as just a decoration item. This will probably be used for either scrying to find players or positions, or for infusing certain items.",
+  "book.hexerei.items_crystal_ball_1.passage_2": "  The Crystal Ball is a useful tool, able to reveal the phase of the moon, or the sun if it's daytime. Handy for crafting moon dust!",
 
   "book.hexerei.items_dowsing_rod_1.passage_1": "Dowsing Rod",
-  "book.hexerei.items_dowsing_rod_1.passage_2": "  The Dowsing Rod is one of the first items a witch should look for as it points them in the right direction of where they need to go. Crouch and right clicking will swap the mode between Swamp to Jungle. Right clicking will find a new position in the closest biome of the selected type.",
+  "book.hexerei.items_dowsing_rod_1.passage_2": "  The Dowsing Rod is able to locate certain biomes containing the needed plants for the witch to begin their craft. Sneak right click to flip between searching for Swamps and Jungles. Right clicking will make the rod look for a new biome of the selected type.",
 
   "book.hexerei.items_blood_sigil_1.passage_1": "Blood Sigil",
-  "book.hexerei.items_blood_sigil_1.passage_2": "  The Blood Sigil is an attachment for the Mixing Cauldron and what is needed to acquire a Bottle of Blood to make your brooms. This will also be used in other sorts of recipes in the future. As well as other types of sigils to be added for different methods in the cauldron.",
+  "book.hexerei.items_blood_sigil_1.passage_2": "  The Blood Sigil is a sigil for the Mixing Cauldron, able to extract blood from entities who jump in the cauldron. The blood can then be used in recipes, or bottled or bucketed out.",
 
   "book.hexerei.items_blood_bottle_1.passage_1": "Bottle of Blood",
-  "book.hexerei.items_blood_bottle_1.passage_2": "  To acquire the blood you first need a Mixing Cauldron with a Blood Sigil inside, then simply jump in the cauldron 3 times to drain enough blood for one bottle to scoop it out. To scoop it out simply right click the cauldron with an empty bottle.",
+  "book.hexerei.items_blood_bottle_1.passage_2": "  Blood is a key ingredient in the creation of flying brooms, and can be acquired by using the Blood Sigil. To get enough blood for one bottle, one needs to jump in a cauldron with the sigil three times.\n  Bottles of blood can also be drank, giving Absorption to the drinker.",
 
   "book.hexerei.items_willow_broom_1.passage_1": "Willow Broom",
-  "book.hexerei.items_willow_broom_1.passage_2": "  A witches main tool of transportation, the broom. So far there are two types of brooms, this one being the lesser of the two. These can be upgraded in 3 different slots, Misc, Satchel, and Brush. A brush is what powers the brooms flight and comes with every fresh broom made.",
-  "book.hexerei.items_willow_broom_3.passage_1": "  To access the brooms inventory simply crouch and right click while the broom is in the world. While flying the broom, the brush gets damaged and can break. So, the witch must come prepared and craft some additional brushes to fuel the broom.",
-  "book.hexerei.items_willow_broom_4.passage_1": "  The best way is to stash the extra brushes within the broom's satchel. Adding a small satchel will add 9 extra spaces to hold items within, and each tier above will hold an additional 9 spaces.",
+  "book.hexerei.items_willow_broom_1.passage_2": "  A witch's main tool of transportation. There are three types of brooms, the willow being the slowest, but also cheapest, of them. Brooms have three slots for upgrades: Misc, Satchel, and Brush. The brush is what allows the broom to fly, and one comes with every fresh broom made.",
+  "book.hexerei.items_willow_broom_3.passage_1": "  To access the broom's inventory, sneak right click while the broom is placed down. During flight, the broom's brush gets damaged and can break. So, for longer journeys, it is advised to bring extra brushes.",
+  "book.hexerei.items_willow_broom_4.passage_1": "  The best way is to stash these extra brushes within the broom's satchel. Adding a small satchel will add 9 extra slots to hold items within, and each tier above will hold an additional 9 slots.",
+
+  "book.hexerei.items_witch_hazel_broom_1.passage_1": "Witch Hazel Broom",
+  "book.hexerei.items_witch_hazel_broom_1.passage_2": "  The average of the three brooms. It is faster than the willow broom, and slower than the mahogany, but does not require netherite to craft.",
 
   "book.hexerei.items_mahogany_broom_1.passage_1": "Mahogany Broom",
-  "book.hexerei.items_mahogany_broom_1.passage_2": "  The faster of the two brooms. The mahogany broom as an item also has fire resistance so it cannot be lost in lava or burn to fire. Although, it can break when flying the broom into fire, unless the broom has a netherite tip attachment.",
+  "book.hexerei.items_mahogany_broom_1.passage_2": "  The fastest of the three brooms. The mahogany broom as an item is fire resistant, similarly to the netherite in its creation. This doesn't protect against accidents when flying the broom into these things, unless the broom has a netherite tip attachment.",
 
   "book.hexerei.items_gold_rings_1.passage_1": "Gold Rings",
-  "book.hexerei.items_gold_rings_1.passage_2": "  The first broom attachment made, there will probably be some sort of effects to these little trinkets later but for now it is just a cosmetic addition to the broom. To use open up a broom's menu and place inside the Misc slot.",
+  "book.hexerei.items_gold_rings_1.passage_2": "  A cosmetic attachment for brooms, adding a set of gold rings to their tip. These fit in the Misc slot.",
 
   "book.hexerei.items_broom_keychain_1.passage_1": "Broom Chain",
-  "book.hexerei.items_broom_keychain_1.passage_2": "  The cutest broom attachment as it makes a keychain trinket of the item imprinted onto it. To imprint an item onto the chain simply add both items into a crafting grid. To use open up a broom's menu and place inside the Misc slot.",
-  "book.hexerei.items_broom_keychain_3.passage_1": "  The item is no longer consumed fully and you can retrieve it by placing the Broom Chain back into a crafting grid and it will pull the item out of it.\n  The chain will even swing around as the broom moves around to add extra aesthetics!",
+  "book.hexerei.items_broom_keychain_1.passage_2": "  A cosmetic attachment for the broom, which makes a keychain trinket of the item imprinted onto it. To imprint an item, craft the item with the chain. It fits in the Misc slot.",
+  "book.hexerei.items_broom_keychain_3.passage_1": "  The imprinted item is not consumed fully. You can retrieve it by placing the Broom Chain into a crafting grid.",
 
   "book.hexerei.items_broom_netherite_tip_1.passage_1": "Broom Netherite Tip",
-  "book.hexerei.items_broom_netherite_tip_1.passage_2": "  This broom attachment is very useful for nether flight, as it allows the broom to fly completely through lava or any fires without getting damaged. Just like the rest of the misc attachments, this goes in the leftmost slot of the broom.",
+  "book.hexerei.items_broom_netherite_tip_1.passage_2": "  This broom attachment is very useful for nether flight, as it allows the broom to fly through lava and fire without getting damaged. This fits into the Misc slot.",
 
   "book.hexerei.items_broom_waterproof_tip_1.passage_1": "Broom Waterproof Tip",
-  "book.hexerei.items_broom_waterproof_tip_1.passage_2": "  Have a base underwater but tired of falling off your broom and not being able to use it? Try the waterproof tip! This allows the player to stay on the broom while riding underwater. Just like the rest of the misc attachments, this goes in the leftmost slot of the broom.",
+  "book.hexerei.items_broom_waterproof_tip_1.passage_2": "  Have a base underwater but tired of falling off your broom and not being able to use it? Try the waterproof tip! This allows the player to stay on the broom while riding underwater. It fits into the Misc slot.",
 
   "book.hexerei.items_small_satchel_1.passage_1": "Small Satchel",
-  "book.hexerei.items_small_satchel_1.passage_2": "  The Small Satchel is the first satchel for your brooms. This adds an additional 9 slots that can be used to store items. To add and access simply open your brooms menu and place the satchel into the middle slot of the broom.",
+  "book.hexerei.items_small_satchel_1.passage_2": "  Satchels allow the broom to store items. This one adds 9 storage slots to the broom. It fits into the Satchel slot.",
 
   "book.hexerei.items_medium_satchel_1.passage_1": "Medium Satchel",
-  "book.hexerei.items_medium_satchel_1.passage_2": "  The Medium Satchel is the second tier of satchels. This satchel adds an additional 18 slots that can be used to store items. To add and access simply open your brooms menu and place the satchel into the middle slot of the broom.",
+  "book.hexerei.items_medium_satchel_1.passage_2": "  The Medium Satchel is the second tier of satchel. This satchel adds 18 storage slots to the broom. It fits into the Satchel slot.",
 
   "book.hexerei.items_large_satchel_1.passage_1": "Large Satchel",
-  "book.hexerei.items_large_satchel_1.passage_2": "  The Large Satchel is the highest tier of satchels. The largest of the satchels adds an additional 27 slots that can be used to store items. To add and access simply open your brooms menu and place the satchel into the middle slot of the broom.",
+  "book.hexerei.items_large_satchel_1.passage_2": "  The Large Satchel is the highest tier of satchel. This one adds 27 storage slots to the broom. It fits into the Satchel slot.",
 
   "book.hexerei.items_broom_brush_1.passage_1": "Broom Brush",
-  "book.hexerei.items_broom_brush_1.passage_2": "  The Broom Brush is the last attachment type for the broom. This is what fuels the broom to be able to fly, and while flying the brush takes durability damage. Once the brush runs out of durability it does break, so be sure you have extras when flying long distances.",
+  "book.hexerei.items_broom_brush_1.passage_2": "  Brushes are the most important broom attachment, as they allow the broom to fly. While flying, the brush will be damaged, and will eventually break. All brushes can be enchanted with Mending and Unbreaking to offset this, however.",
 
   "book.hexerei.items_wet_broom_brush_1.passage_1": "Wet Broom Brush",
-  "book.hexerei.items_wet_broom_brush_1.passage_2": "  To make a broom brush you must first craft the wet one within a cauldron, then throw this on a drying rack to get your broom brush ready for your broom.",
+  "book.hexerei.items_wet_broom_brush_1.passage_2": "  To make a broom brush, you must first craft the wet one within a cauldron, then set it to dry in a drying rack. When finished drying, the new brush can be put on a broom.",
 
   "book.hexerei.items_herb_enhanced_broom_brush_1.passage_1": "Enhanced Broom Brush",
-  "book.hexerei.items_herb_enhanced_broom_brush_1.passage_2": "  Just like the normal Broom Brush other than it has more durability so it lasts longer in flight. These can be enchanted with Mending and Unbreaking.",
+  "book.hexerei.items_herb_enhanced_broom_brush_1.passage_2": "  A longer lasting brush, enhanced by the herbs in its crafting. By default, it is able to fuel a broom's flight for twice as long.",
 
   "book.hexerei.items_wet_herb_enhanced_broom_brush_1.passage_1": "Wet Enhanced Broom Brush",
-  "book.hexerei.items_wet_herb_enhanced_broom_brush_1.passage_2": "  Just like the normal Wet Broom Brush this is made in a cauldron and must be dried before using.",
+  "book.hexerei.items_wet_herb_enhanced_broom_brush_1.passage_2": "  Like the normal brush, this is made in the mixing cauldron and must be dried before use.",
+
+  "book.hexerei.items_moon_dust_brush_1.passage_1": "Moon Dust Brush",
+  "book.hexerei.items_moon_dust_brush_1.passage_2": "  This Broom Brush makes the broom faster, especially during the full moon. It is otherwise the same as the Enhanced Broom Brush.",
+
+  "book.hexerei.items_wet_moon_dust_brush_1.passage_1": "Wet Moon Dust Brush",
+  "book.hexerei.items_wet_moon_dust_brush_1.passage_2": "  Like the other brushes, the Moon Dust Brush is made in the mixing cauldron and must be dried before use.",
 
   "book.hexerei.items_crow_flute_1.passage_1": "Crow Flute",
-  "book.hexerei.items_crow_flute_1.passage_2": "  The Crow Flute is an essential item for controlling your crow companions! .",
+  "book.hexerei.items_crow_flute_1.passage_2": "  The Crow Flute is an essential item for controlling your crow companions. It has a menu for assigning commands, selecting crows, and setting a crow's perch position.",
 
   "book.hexerei.items_seed_mixture_1.passage_1": "Seed Mixture",
-  "book.hexerei.items_seed_mixture_1.passage_2": "  Looking for a way to tame the crows? Well, Crows love this mixture of seeds. These crows are quite useful so it does take a bit to get one on your side. Be sure to make a fair amount of seed mixture to tame your crows.",
+  "book.hexerei.items_seed_mixture_1.passage_2": "  A blend of seeds perfect for taming wild crows to act as familiars.",
 
   "book.hexerei.items_warhammer_1.passage_1": "Warhammer",
-  "book.hexerei.items_warhammer_1.passage_2": "  Wait a minute, this isn't a witchy item. Looks like this is more for someone like the god of thunder. Maybe a crow will like to use this item. If not its quite good for bashing things in the face.",
+  "book.hexerei.items_warhammer_1.passage_2": "  Wait a minute, this isn't a witchy item. Looks like this is more for someone like the god of thunder. Maybe a crow would like to use this item. If not, it's quite good for bashing things in the face.",
 
   "book.hexerei.items_sage_seed_1.passage_1": "Sage Seeds",
-  "book.hexerei.items_sage_seed_1.passage_2": "  These seeds are found by breaking grass. These are the seeds needed to grow the sage crop.",
+  "book.hexerei.items_sage_seed_1.passage_2": "  Sage seeds can be found by breaking grass, similar to wheat seeds. When planted on farmland they will grow into sage crops.",
 
   "book.hexerei.items_sage_1.passage_1": "Sage",
   "book.hexerei.items_sage_1.passage_2": "  The Sage Leaf is obtained by farming the sage crop. Sage is a very useful herb in witchery as it is used to cleanse the area of evil spirits. This sage can be burned if bundled up and then dried.",
@@ -601,28 +598,28 @@
   "book.hexerei.items_flowering_lily_pad_1.passage_2": "  A really nice decoration item to decorate your own ponds or rivers with.",
 
   "book.hexerei.items_animal_fat_1.passage_1": "Animal Fat",
-  "book.hexerei.items_animal_fat_1.passage_2": "  Animal Fat is one of the core items needed to make Tallow. Tallow is used to make candles with the Dipper attachment. Can be obtained by killing any Cow, Pig, or Sheep, and is effected by looting.",
+  "book.hexerei.items_animal_fat_1.passage_2": "  Animal Fat is one of the items able to be used to make tallow, as well as this book. Can be obtained by killing any Cow, Pig, or Sheep, and is effected by looting.",
 
   "book.hexerei.items_infused_fabric_1.passage_1": "Infused Fabric",
-  "book.hexerei.items_infused_fabric_1.passage_2": "  Infused Fabric is the fabric used to craft the base witch outfit. It will have more uses than just armor but as of right now its just armor.",
+  "book.hexerei.items_infused_fabric_1.passage_2": "  Infused Fabric is used to craft the witch armor set, and can be made into decorative blocks and carpets.",
 
   "book.hexerei.items_witch_helmet_1.passage_1": "Witch's Hat",
-  "book.hexerei.items_witch_helmet_1.passage_2": "  These pieces will have additional effects once spells and the coven witches are added. Each piece of the witch outfit can be dyed to be customized to your liking. They can also be renamed to give the color changing effects.",
+  "book.hexerei.items_witch_helmet_1.passage_2": "  A witch's classic hat, giving a few perks when the full set is worn. Each piece can be dyed to your liking, and renamed to give the color changing effects.",
 
   "book.hexerei.items_witch_chestplate_1.passage_1": "Witch's Robe",
-  "book.hexerei.items_witch_chestplate_1.passage_2": "  These pieces will have additional effects once spells and the coven witches are added. Each piece of the witch outfit can be dyed to be customized to your liking. They can also be renamed to give the color changing effects.",
+  "book.hexerei.items_witch_chestplate_1.passage_2": "  A witch's classic attire, giving a few perks when the full set is worn. Each piece can be dyed to your liking, and renamed to give the color changing effects.",
 
   "book.hexerei.items_witch_boots_1.passage_1": "Witch's Boots",
-  "book.hexerei.items_witch_boots_1.passage_2": "  These pieces will have additional effects once spells and the coven witches are added. Each piece of the witch outfit can be dyed to be customized to your liking. They can also be renamed to give the color changing effects.",
+  "book.hexerei.items_witch_boots_1.passage_2": "  A witch's classic pair of boots, giving a few perks when the full set is worn. Each piece can be dyed to your liking, and renamed to give the color changing effects.",
 
   "book.hexerei.items_mushroom_witch_hat_1.passage_1": "Mushroom Witch's Hat",
-  "book.hexerei.items_mushroom_witch_hat_1.passage_2": "  This hat is being a little hint towards what types off witches and covens are to come in future updates.",
+  "book.hexerei.items_mushroom_witch_hat_1.passage_2": "  Currently, just a cosmetic variant of the regular witch's hat.",
 
-  "book.hexerei.items_mandrake_flower_1.passage_1": "Mandrake Plant",
-  "book.hexerei.items_mandrake_flower_1.passage_2": "  One of the flowers of Hexerei, the Mandrake, can be harvested by simply right clicking it when it is fully grown just like a sweet berry bush. Can be harvested when fully grown by right clicking just like a sweet berry bush.",
+  "book.hexerei.items_mandrake_plant_1.passage_1": "Mandrake Plant",
+  "book.hexerei.items_mandrake_plant_1.passage_2": "  One of the flowers of Hexerei, the Mandrake, can be harvested by simply right clicking it when it is fully grown just like a sweet berry bush. Can be harvested when fully grown by right clicking just like a sweet berry bush.",
 
-  "book.hexerei.items_belladonna_flower_1.passage_1": "Belladonna Plant",
-  "book.hexerei.items_belladonna_flower_1.passage_2": "  The most poisonous plant of Hexerei, the Belladonna, probably should not be consumed in any way unless prepared in the proper manor. These plants can be harvested by simply right clicking it when it is fully grown just like a sweet berry bush.",
+  "book.hexerei.items_belladonna_plant_1.passage_1": "Belladonna Plant",
+  "book.hexerei.items_belladonna_plant_1.passage_2": "  The most poisonous plant of Hexerei, the Belladonna, probably should not be consumed in any way unless prepared in the proper manner. These plants can be harvested by simply right clicking it when it is fully grown just like a sweet berry bush.",
 
   "book.hexerei.items_mugwort_bush_1.passage_1": "Mugwort Bush",
   "book.hexerei.items_mugwort_bush_1.passage_2": "  A bush flower of Hexerei, the Mugwort, has been used to open up a more direct channel to the lunar side of magic. This has no uses for magic yet, these will come at a later date. Can be harvested when fully grown by right clicking.",
@@ -631,10 +628,13 @@
   "book.hexerei.items_yellow_dock_bush_1.passage_2": "  The last bush flower of Hexerei, the Yellow Dock, has been used to break binding ties that prevent those from moving on. This will be used in sorts of magic for the spirit coven, which will be coming in future updates. Can be harvested when fully grown by right clicking.",
 
   "book.hexerei.items_willow_sapling_1.passage_1": "Willow Sapling",
-  "book.hexerei.items_willow_sapling_1.passage_2": "  Sapling used to grow Willow trees. Can be obtained by breaking Willow Leaves.",
+  "book.hexerei.items_willow_sapling_1.passage_2": "  Sapling used to grow Willow trees. Can be obtained by breaking Willow Leaves. \n\n  Willow trees can be found in swamps.",
 
   "book.hexerei.items_mahogany_sapling_1.passage_1": "Mahogany Sapling",
-  "book.hexerei.items_mahogany_sapling_1.passage_2": "  Sapling used to grow Mahogany trees. Can be obtained by breaking Mahogany Leaves.",
+  "book.hexerei.items_mahogany_sapling_1.passage_2": "  Sapling used to grow Mahogany trees. Can be obtained by breaking Mahogany Leaves. \n\n  Mahogany trees can be found in jungles.",
+
+  "book.hexerei.items_witch_hazel_sapling_1.passage_1": "Witch Hazel Sapling",
+  "book.hexerei.items_witch_hazel_sapling_1.passage_2": "  Sapling used to grow With Hazel trees. Can be obtained by breaking Witch Hazel Leaves. \n\n  Witch Hazel trees can be found in birch forests.",
 
   "book.hexerei.items_mandrake_flowers_1.passage_1": "Mandrake Flowers",
   "book.hexerei.items_mandrake_flowers_1.passage_2": "  Mandrake flowers are used in the recipe to make the herb enhanced broom brush, they can also be dried and later on will be used in different infuses and rituals.\n  Obtained by right clicking a fully grown Mandrake Plant.",
@@ -691,26 +691,26 @@
   "book.hexerei.items_dried_yellow_dock_leaves_1.passage_2": "  The dried variant of the yellow dock leaves, this does not have any uses yet but will be used in various blends and in rituals in the future.",
 
   "book.hexerei.items_mindful_trance_blend_1.passage_1": "Mindful Trance Blend",
-  "book.hexerei.items_mindful_trance_blend_1.passage_2": "  This is a hint to what is to come for candles. This will be for infusing candles with special effects to give off in the area when they are lit. This will be coming shortly in the future.",
+  "book.hexerei.items_mindful_trance_blend_1.passage_2": "  A blend that can be applied to candles.",
 
   "book.hexerei.items_reading_glasses_1.passage_1": "Reading Glasses",
-  "book.hexerei.items_reading_glasses_1.passage_2": "  Need help reading the book? want to just slightly zoom into the book to better look at images? Well these are the glasses for you! Acts like a spyglass when holding the item and right clicking, but zooms in just a bit. You can also put these on your head and press %kkey.hexerei.glasses_zoom to toggle zoom in.",
+  "book.hexerei.items_reading_glasses_1.passage_2": "  Need help reading the book? want to just slightly zoom into the book to better look at images? Well these are the glasses for you! Acts like a spyglass when holding the item and right clicking, but zooms in just a bit. You can also put these on your head and press %kkey.hexerei.glasses_zoom% to toggle zoom in.",
 
 
   "book.hexerei.entities_index_page_1.passage_1": "- Entities -",
-  "book.hexerei.entities_index_page_1.passage_2": "  This chapter will be all about entities and how you interact with them!",
+  "book.hexerei.entities_index_page_1.passage_2": "  This chapter is all about entities and how you interact with them!",
 
-  "book.hexerei.entities_index_page_2.passage_1": "Entity Index Page",
+  "book.hexerei.entities_index_page_2.passage_1": "Entity Index",
   "book.hexerei.entities_index_page_2.passage_2": "",
 
   "book.hexerei.entities_crow_page_1.passage_1": "Crow",
-  "book.hexerei.entities_crow_page_1.passage_2": "  The Crow is the first familiar of many to come to Hexerei. They can be tamed by giving the crows their favorite snackies which is the seed mixture made in the pestle and mortar. You can either throw the seeds onto the ground and nearby",
+  "book.hexerei.entities_crow_page_1.passage_2": "  The Crow is the first familiar of many to come to Hexerei. They can be tamed with seed mixture, in two different ways. You can either throw the seeds onto the ground and nearby",
   "book.hexerei.entities_crow_page_2.passage_1": "untamed crows will fly over and munch on them for a chance to tame, or they can just be right clicked onto the crow. Crows have a better chance of taming when the seeds are thrown onto the ground. Players are able to tame more than one crow at a time, allowing for a crow army to work with the player!",
   "book.hexerei.entities_crow_page_3.passage_1": "Once tamed crows can be set to different commands. The player can change these commands by simply right clicking the crow, this will cycle through the 4 main commands the crows have. These commands can also be changed by opening up the crow's GUI. To open the GUI crouch and right click a tamed crow.",
   "book.hexerei.entities_crow_page_4.passage_1": "  Each crow contains 3 slots, the first being what the crow is holding, the second being the hat the crow is wearing, and the third is a misc slot still to be determined but can act as a storage slot. The crows can be equip with weapons to help fight with you.",
   "book.hexerei.entities_crow_page_5.passage_1": "  Below the item slots of the crow GUI is the commands for the crow. This is where you can set the commands and set the specific help command. The first command on the left is the Follow command, this will make the crow follow closely behind the player or hop onto the players shoulder.",
   "book.hexerei.entities_crow_page_6.passage_1": "  The second command is the Sit command, this will make the crow land and try to sit. If the crow has a perch position it will instead fly over to that perch and sit.\n\n  The third command is the Wander command, this will make the crow wander and fly around the area.",
-  "book.hexerei.entities_crow_page_7.passage_1": "  If the crow has a perch location the crow will not wonder too far away from the perch.\n\n  The last command is the Help command, this command is unique and has three separate modes to it. When the ",
+  "book.hexerei.entities_crow_page_7.passage_1": "  If the crow has a perch location the crow will not wander too far away from the perch.\n\n  The last command is the Help command, this command is unique and has three separate modes to it. When the ",
   "book.hexerei.entities_crow_page_8.passage_1": "Help command is selected the modes on the right will gain color showing that these are in use and using the selected mode. The first of the help modes is Gathering and this will allow your crows to interact with the Coffer or Herb Jar blocks. The crows will interact with nearby",
   "book.hexerei.entities_crow_page_9.passage_1": "coffers or Herb Jars that have the Crow Gather button toggled on. The crows will seek out any items in the area matching items already inside the container, unless the crow has a perch at the container, then it will pickup ANY item in the area and deposit it back in that container.",
   "book.hexerei.entities_crow_page_10.passage_1": "  The second help mode is Harvesting and this will allow your crows to harvest any crop and some bush plants nearby the position of the crow, or nearby the position of the crow's perch. The crow will leave the items on the ground, so having another crow",
@@ -730,7 +730,7 @@
   "book.hexerei.entities_broom_page_1.passage_2": "  The Broom is the rideable mount from Hexerei. This allows witches to fly with it and with that the ability to traverse the lands with ease. Currently there are two broom types available which one is Willow and the other Mahogany. ",
   "book.hexerei.entities_broom_page_2.passage_1": "  First off the Willow broom. This broom is the slower of the brooms, which is nice for server exploration and nice for precise building. Though, it being slower you may have already figured out that it is easier to make for the early game.",
   "book.hexerei.entities_broom_page_3.passage_1": "  Second the Mahogany broom. This broom faster than the Willow Broom, which is great for getting around faster than before. Not only is this broom faster but its item is also fire and lava resistant, but not while the broom is an entity.",
-  "book.hexerei.entities_broom_page_4.passage_1": "  To use the broom, right click on the ground with the broom, just like a boat. Then to ride it simply right click, and to open its GUI crouch and right click. While riding, to ascend up into the clouds hold Space and to descend back to the ground hold %kkey.hexerei.broomDescend and be sure to check the keybinds if there are conflicting keys, or change the descend key to your desired key.",
+  "book.hexerei.entities_broom_page_4.passage_1": "  To use the broom, right click on the ground with the broom, just like a boat. Then to ride it simply right click, and to open its GUI crouch and right click. While riding, to ascend up into the clouds hold %kkey.hexerei.broomUp%, to descend back to the ground hold %kkey.hexerei.broomDown%, and to dismount %kkey.hexerei.broomDismount%.",
   "book.hexerei.entities_broom_page_5.passage_1": "  The rest of the broom controls act like a boat. Now that you know how to fly the broom lets get into its GUI and attachments.\n\n Again to access the broom simply crouch and right click the broom while it is an entity.",
   "book.hexerei.entities_broom_page_6.passage_1": "  To begin there are three slots on the top of the GUI, first the Misc which is for misc attachments on the broom and usually attached to the tip. For example the Broom Chain can be attached to the broom in that slot and when the chain has an item imprinted it will display the item hanging on the chain.",
   "book.hexerei.entities_broom_page_7.passage_1": "  The second slot is for the Satchel and this slot is for the satchel items, there are three tiers of attachments each tier gives an additional 9 slots to hold items within while on your travels.",
@@ -740,27 +740,30 @@
 
 
   "book.hexerei.structures_index_page_1.passage_1": "- Structures -",
-  "book.hexerei.structures_index_page_1.passage_2": "  This chapter will be all about the structures added to the world and how you can find them!",
+  "book.hexerei.structures_index_page_1.passage_2": "  Numerous structures dot the world wherein witches praxtice their art. The pages in this chapter will inform where to find these places, and what they might be useful for.",
 
-  "book.hexerei.structures_index_page_2.passage_1": "Structure Index Page",
+  "book.hexerei.structures_index_page_2.passage_1": "Structure Index",
   "book.hexerei.structures_index_page_2.passage_2": "",
 
   "book.hexerei.structures_witch_hut_page_1.passage_1": "Witch Hut",
-  "book.hexerei.structures_witch_hut_page_1.passage_2": "  Throughout the swamp you may come across different variations of a Hexerei witch hut. These huts come along with witches and all of their tools, and will later have more uses in future updates!",
-  "book.hexerei.structures_witch_hut_page_2.passage_1": "  A great place to start off a base for an aspiring witch!",
+  "book.hexerei.structures_witch_hut_page_1.passage_2": "  Throughout the swamps, you may come across different variations of witch huts. These huts are home to witches and their tools.",
+  "book.hexerei.structures_witch_hut_page_2.passage_1": "  A great place to start off as an aspiring witch!",
 
   "book.hexerei.structures_dark_coven_page_1.passage_1": "Dark Coven",
-  "book.hexerei.structures_dark_coven_page_1.passage_2": "  As well as witch huts you can also find Dark Covens within swamps. These are the home of witches, and in future updates they will be replaced with custom coven witches which will have their own special fitting in Hexerei.",
-  "book.hexerei.structures_dark_coven_page_2.passage_1": "  Until then, you can find various crafting tools, armor, and herbs within the covens.",
+  "book.hexerei.structures_dark_coven_page_1.passage_2": "  Swamps are also the home of Dark Covens, structures similar to villages, but for the witches of their coven.",
+  "book.hexerei.structures_dark_coven_page_2.passage_1": "  You can find various crafting tools, armor, and herbs within the covens.",
 
-
-
+  "book.hexerei.structures_nature_coven_page_1.passage_1": "Nature Coven",
+  "book.hexerei.structures_nature_coven_page_1.passage_2": "  The Nature Coven is dedicated to the power of the natural world. Found in forests, members excel in earth-based magic, nurturing plants, and communicating with animals. Perfect for that naturey witch.",
+  "book.hexerei.structures_nature_coven_page_2.passage_1": "  These places are a good source for witch tools, crows, bees, and herbs.",
+  
   "book.hexerei.tooltip_go_to_page": "Go to Page",
-  "book.hexerei.crafting_type.crafting_table": "  To craft you need a 3x3 crafting space and the items shown below.",
-  "book.hexerei.crafting_type.mixing_cauldron": "  To craft you need a Mixing Cauldron and the items shown below.",
-  "book.hexerei.crafting_type.dipper": "  To craft you need a Mixing Cauldron with a Dipper on top with the item and fluid shown below.",
-  "book.hexerei.crafting_type.herb_drying_rack": "  To craft you need a Drying Rack with the item shown below.",
-  "book.hexerei.crafting_type.pestle_and_mortar": "  To craft you need a Pestle and Mortar with the items shown below.",
+  "book.hexerei.crafting_type.crafting_table": "  To craft, you need a 3x3 crafting space and the items shown below.",
+  "book.hexerei.crafting_type.mixing_cauldron": "  To craft, you need a Mixing Cauldron and the items shown below.",
+  "book.hexerei.crafting_type.mixing_cauldron_heated": "  To craft, you need a heated Mixing Cauldron and the items shown below.",
+  "book.hexerei.crafting_type.dipper": "  To craft, you need a Mixing Cauldron with a Dipper attached and the item and fluid shown below.",
+  "book.hexerei.crafting_type.herb_drying_rack": "  To craft, you need a Drying Rack and the item shown below.",
+  "book.hexerei.crafting_type.pestle_and_mortar": "  To craft, you need a Pestle and Mortar and the items shown below.",
 
   "book.hexerei.tooltip.liquid.amount": "%s mB",
   "book.hexerei.tooltip.liquid.amount.with.capacity": "%s / %s mB",
@@ -769,6 +772,8 @@
 
   "book.hexerei.tooltip.accepts_any": "Accepts any: %s",
 
+  
+  
   "hexerei.key.category.book_hovering": "Hexerei (Book Hovering)",
   "key.hexerei.book_hovering_recipe": "Show Recipe",
   "key.hexerei.book_hovering_uses": "Show Uses",
@@ -786,6 +791,7 @@
   "tooltip.hexerei.recipe_heated_2": "must be tagged as a heated block",
   "tooltip.hexerei.recipe_heated_3": "that block must be lit if it can be lit",
   "tooltip.hexerei.recipe_heated_4": "can be any of the cycled heat blocks shown",
+  "tooltip.hexerei.heat_source_shown": "Heat source shown: - %s",
   "tooltip.hexerei.recipe_superheated": "This recipe must be Super-Heated",
   "tooltip.hexerei.recipe_superheated_2": "The block below can be any block tagged as a Super-Heated source",
   "gui.jei.category.mixing_cauldron.convert_fluid": "Converts Fluid",
@@ -906,8 +912,10 @@
   "block.hexerei.mahogany_chest" : "Mahogany Chest",
 
   "block.hexerei.willow_sign" : "Willow Sign",
+  "block.hexerei.willow_hanging_sign" : "Willow Hanging Sign",
   "block.hexerei.polished_willow_sign" : "Polished Willow Sign",
   "block.hexerei.mahogany_sign" : "Mahogany Sign",
+  "block.hexerei.mahogany_hanging_sign" : "Mahogany Hanging Sign",
   "block.hexerei.polished_mahogany_sign" : "Polished Mahogany Sign",
 
   "block.hexerei.willow_window_pane" : "Willow Window Pane",
@@ -921,80 +929,14 @@
   "block.hexerei.waxed_mahogany_window" : "Waxed Mahogany Window",
 
   "block.hexerei.infused_fabric_carpet" : "Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet" : "(Waxed) Infused Fabric Carpet",
+  "block.hexerei.waxed_infused_fabric_carpet" : "Infused Fabric Carpet (Waxed)",
   "block.hexerei.infused_fabric_block" : "Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block" : "(Waxed) Infused Fabric Block",
-
-  "block.hexerei.infused_fabric_carpet_dyed_white" : "White Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_white" : "(Waxed) White Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_orange" : "Orange Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_orange" : "(Waxed) Orange Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_magenta" : "Magenta Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_magenta" : "(Waxed) Magenta Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_light_blue" : "Light Blue Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_light_blue" : "(Waxed) Light Blue Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_yellow" : "Yellow Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_yellow" : "(Waxed) Yellow Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_lime" : "Lime Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_lime" : "(Waxed) Lime Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_pink" : "Pink Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_pink" : "(Waxed) Pink Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_gray" : "Gray Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_gray" : "(Waxed) Gray Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_light_gray" : "Light Gray Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_light_gray" : "(Waxed) Light Gray Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_cyan" : "Cyan Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_cyan" : "(Waxed) Cyan Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_purple" : "Purple Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_purple" : "(Waxed) Purple Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_blue" : "Blue Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_blue" : "(Waxed) Blue Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_brown" : "Brown Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_brown" : "(Waxed) brown Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_green" : "Green Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_green" : "(Waxed) Green Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_red" : "Red Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_red" : "(Waxed) Red Infused Fabric Carpet",
-  "block.hexerei.infused_fabric_carpet_dyed_black" : "Black Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_dyed_black" : "(Waxed) Black Infused Fabric Carpet",
-
-  "block.hexerei.infused_fabric_block_dyed_white" : "White Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_white" : "(Waxed) White Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_orange" : "Orange Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_orange" : "(Waxed) Orange Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_magenta" : "Magenta Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_magenta" : "(Waxed) Magenta Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_light_blue" : "Light Blue Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_light_blue" : "(Waxed) Light Blue Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_yellow" : "Yellow Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_yellow" : "(Waxed) Yellow Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_lime" : "Lime Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_lime" : "(Waxed) Lime Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_pink" : "Pink Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_pink" : "(Waxed) Pink Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_gray" : "Gray Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_gray" : "(Waxed) Gray Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_light_gray" : "Light Gray Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_light_gray" : "(Waxed) Light Gray Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_cyan" : "Cyan Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_cyan" : "(Waxed) Cyan Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_purple" : "Purple Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_purple" : "(Waxed) Purple Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_blue" : "Blue Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_blue" : "(Waxed) Blue Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_brown" : "Brown Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_brown" : "(Waxed) brown Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_green" : "Green Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_green" : "(Waxed) Green Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_red" : "Red Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_red" : "(Waxed) Red Infused Fabric Block",
-  "block.hexerei.infused_fabric_block_dyed_black" : "Black Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_dyed_black" : "(Waxed) Black Infused Fabric Block",
+  "block.hexerei.waxed_infused_fabric_block" : "Infused Fabric Block (Waxed)",
 
   "block.hexerei.infused_fabric_carpet_ornate" : "Ornate Infused Fabric Carpet",
-  "block.hexerei.waxed_infused_fabric_carpet_ornate" : "(Waxed) Ornate Infused Fabric Carpet",
+  "block.hexerei.waxed_infused_fabric_carpet_ornate" : "Ornate Infused Fabric Carpet (Waxed)",
   "block.hexerei.infused_fabric_block_ornate" : "Ornate Infused Fabric Block",
-  "block.hexerei.waxed_infused_fabric_block_ornate" : "(Waxed) Ornate Infused Fabric Block",
+  "block.hexerei.waxed_infused_fabric_block_ornate" : "Ornate Infused Fabric Block (Waxed)",
 
   "entity.hexerei.boat" : "Boat",
   "entity.hexerei.chest_boat" : "Chest Boat",
@@ -1053,6 +995,7 @@
   "block.hexerei.witch_hazel_window_pane" : "Witch Hazel Window Pane",
   "block.hexerei.waxed_witch_hazel_window_pane" : "Waxed Witch Hazel Window Pane",
   "block.hexerei.witch_hazel_sign" : "Witch Hazel Sign",
+  "block.hexerei.witch_hazel_hanging_sign" : "Witch Hazel Hanging Sign",
   "block.hexerei.polished_witch_hazel_sign" : "Polished Witch Hazel Sign",
   "block.hexerei.witch_hazel_chest" : "Witch Hazel Chest",
   "item.hexerei.witch_hazel_chest_boat" : "Witch Hazel Chest Boat",
@@ -1080,7 +1023,299 @@
   "item.hexerei.witch_hazel_altar": "Witch Hazel Altar",
   "block.hexerei.witch_hazel_altar": "Witch Hazel Altar",
 
+  "item.hexerei.witch_hazel_broom": "Witch Hazel Broom",
+  "entity.hexerei.witch_hazel_broom": "Witch Hazel Broom",
+
+  "item.hexerei.stone_window": "Stone Window",
+  "item.hexerei.stone_window_pane": "Stone Window Pane",
+  "item.hexerei.waxed_stone_window": "Stone Window (Waxed)",
+  "item.hexerei.waxed_stone_window_pane": "Stone Window Pane (Waxed)",
+  "item.hexerei.wet_moon_dust_brush": "Wet Moon Dust Brush",
+  "item.hexerei.moon_dust_brush": "Moon Dust Brush",
+  "item.hexerei.broom_thruster_brush": "Broom Thruster Brush",
+  "item.hexerei.moon_dust": "Moon Dust",
+  "item.hexerei.broom_seat": "Broom Seat",
+  "tooltip.hexerei.broom_seat_1": "Allows a second player to hop onto the broom.",
+  "tooltip.hexerei.broom_seat_2": "If only one player is on the broom, that player uses the seat.",
+  "item.hexerei.willow_broom_stand": "Willow Broom Stand",
+  "item.hexerei.witch_hazel_broom_stand": "Witch Hazel Broom Stand",
+  "item.hexerei.mahogany_broom_stand": "Mahogany Broom Stand",
+  "block.hexerei.willow_broom_stand": "Willow Broom Stand",
+  "block.hexerei.witch_hazel_broom_stand": "Witch Hazel Broom Stand",
+  "block.hexerei.mahogany_broom_stand": "Mahogany Broom Stand",
+  "block.hexerei.willow_broom_stand_wall": "Willow Broom Wall Stand",
+  "block.hexerei.witch_hazel_broom_stand_wall": "Witch Hazel Broom Wall Stand",
+  "block.hexerei.mahogany_broom_stand_wall": "Mahogany Broom Wall Stand",
+  "tooltip.hexerei.broom_stand": "A stand to hold your broom when not in use. Can be placed on the side of blocks.",
+  "tooltip.hexerei.wet_broom_brush": "Must be dried before use.",
+  "tooltip.hexerei.moon_dust_brush": "Increases broom speed, and drastically increases the speed on a full moon.",
+  "tooltip.hexerei.dyeable": "Can be dyed.",
+
+  "tooltip.hexerei.full_moon": "§fFull Moon§r",
+  "tooltip.hexerei.waning_gibbous": "§fWaning Gibbous§r",
+  "tooltip.hexerei.last_quarter": "§fLast Quarter§r",
+  "tooltip.hexerei.waning_crescent": "§fWaning Crescent§r",
+  "tooltip.hexerei.new_moon": "§fNew Moon§r",
+  "tooltip.hexerei.waxing_crescent": "§fWaxing Crescent§r",
+  "tooltip.hexerei.first_quarter": "§fFirst Quarter§r",
+  "tooltip.hexerei.waxing_gibbous": "§fWaxing Gibbous§r",
+  "tooltip.hexerei.moon_phase": "§fMoon Phase§r",
+  "tooltip.hexerei.recipe_moon": "This recipe requires a moon phase of '%s' at night to craft",
+  "tooltip.hexerei.recipe_moon_1": "Only craft-able at night, must be the shown moon above.",
+
+  "block.hexerei.potted_mandrake_plant": "Potted Mandrake Plant",
+  "block.hexerei.potted_belladonna_plant": "Potted Belladonna Plant",
+  "block.hexerei.potted_mugwort_bush": "Potted Mugwort Bush",
+  "block.hexerei.potted_yellow_dock_bush": "Potted Yellow Dock Bush",
+
+  "tooltip.hexerei.hour": "hour",
+  "tooltip.hexerei.hours": "hours",
+  "tooltip.hexerei.minute": "minute",
+  "tooltip.hexerei.minutes": "minutes",
+  "tooltip.hexerei.second": "second",
+  "tooltip.hexerei.seconds": "seconds",
+
+  "hexerei.dynamic_light_on": "Dynamic Light: Enabled",
+  "hexerei.dynamic_light_off": "Dynamic Light: Disabled",
+
+  "block.hexerei.stone_window": "Stone Window",
+  "block.hexerei.stone_window_pane": "Stone Window Pane",
+  "block.hexerei.waxed_stone_window": "Stone Window (Waxed)",
+  "block.hexerei.waxed_stone_window_pane": "Stone Window Pane (Waxed)",
+
+  "gui.jei.category.blood_sigil": "Blood Sigil",
+  "gui.jei.category.blood_sigil_tooltip1": "Right click the cauldron with the Sigil or place into it's sigil slot manually",
+  "gui.jei.category.blood_sigil_tooltip2": "Then jump on in!",
+
+  "gui.jei.category.bottling": "Bottling",
+  "gui.jei.category.fluid_mixing": "Fluid Mixing",
+  "gui.jei.category.potion_mixing": "Potion Mixing",
+  "gui.jei.category.item_mixing": "Item Mixing",
+  "gui.jei.category.plant_picking": "Harvest Plant",
+  "gui.jei.category.plant_picking_tooltip": "Right-Click to pick like a berry bush",
+
+
+  "entity.hexerei.owl": "Owl",
+  "hexerei.owl_message.destination": "Select your destination",
+  "hexerei.letter.empty": "Must be sealed before the letter can be delivered.",
+  "hexerei.package.empty": "Must be sealed before the package can be delivered.",
+  "hexerei.owl_courier_depot_name.edit": "Set the depot's name",
+  "hexerei.package_letter.seal": "Seal",
+  "hexerei.package_letter.letter_seal_tooltip": "Click and Hold to seal",
+  "hexerei.package_letter.letter_seal_tooltip2": "Cannot be edited once sealed",
+  "screen.hexerei.package": "Courier Package",
+  "screen.hexerei.letter": "Courier Letter",
+  "block.hexerei.courier_package": "Courier Package",
+  "block.hexerei.courier_letter": "Courier Letter",
+  "block.hexerei.mahogany_courier_depot": "Mahogany Courier Depot",
+  "block.hexerei.willow_courier_depot": "Willow Courier Depot",
+  "block.hexerei.witch_hazel_courier_depot": "Witch Hazel Courier Depot",
+  "item.hexerei.packing_peanut": "Packing Peanut",
+  "item.hexerei.owl_spawn_egg": "Owl Spawn Egg",
+  "tooltip.hexerei.courier_depot": "Acts as a mailbox for the owl courier system",
+  "message.hexerei.owl_already_doing_task": "%s is already doing a task.",
+  "message.hexerei.owl_could_not_deliver": "%s could not deliver %s",
+  "screen.hexerei.owl_send_screen.depot_too_full": "Depot too full",
+  "screen.hexerei.owl_send_screen.to_player": "To Player - %s",
+  "screen.hexerei.owl_send_screen.to_depot": "To Depot - %s",
+  "screen.hexerei.owl_send_screen.send_to": "Send to - %s",
+  "screen.hexerei.owl_send_screen.no_destinations": "No destinations to send to, set up an Owl Courier Depot.",
+  "tooltip.hexerei.courier_package_use": "Can be used to send items to players or depots using tamed owls.",
+  "tooltip.hexerei.courier_package_menu": "Right click with the package in hand to open the package menu.",
+  "tooltip.hexerei.courier_package_send": "Use a sealed package on your tamed owl to open the send menu.",
+  "tooltip.hexerei.courier_package_open": "To open a sealed package first place it then right click to open.",
+  "tooltip.hexerei.courier_package_must_be_sealed": "Packages must be sealed before they can be delivered.",
+  "tooltip.hexerei.courier_letter_use": "Can be used to send messages to players or depots using tamed owls.",
+  "tooltip.hexerei.courier_letter_menu": "Right click with the letter in hand to open and begin typing.",
+  "tooltip.hexerei.courier_letter_send": "Use a sealed letter on your tamed owl to open the send menu.",
+  "tooltip.hexerei.courier_letter_open": "Right click with the letter in hand to open and read.",
+  "tooltip.hexerei.courier_letter_must_be_sealed": "Letters must be sealed before they can be delivered.",
+  "tooltip.hexerei.owl_favorite_block": "Favorite Block",
+  "tooltip.hexerei.owl_favorite_block2": "Increases owl happiness when sitting on this block",
+  "tooltip.hexerei.owl_open_quirks_tab": "Open quirks tab",
+  "tooltip.hexerei.owl_close_quirks_tab": "Close quirks tab",
+
+  "book.hexerei.entities_owl_page_1.passage_1": "Owl",
+  "book.hexerei.entities_owl_page_1.passage_2": "  The Owl is another familiar that can assist you in your witchy needs. \n  They can be tamed with raw Cod or Salmon, in two different ways like the crow. You can either throw the fish on the ground and they will eat it and have a",
+  "book.hexerei.entities_owl_page_2.passage_1": "better chance at taming, or you can right click them with the fish.",
+  "book.hexerei.entities_owl_page_2.passage_2": "Taming food: ",
+  "book.hexerei.entities_owl_page_2.passage_3": "Breeding item: ",
+  "book.hexerei.entities_owl_page_2.passage_4": "  Owls play only the role of a messenger, for now. They can be tasked with delivering",
+  "book.hexerei.entities_owl_page_3.passage_1": "messages to players or Owl Courier Depots. They can carry two types of deliveries: Courier Letters or Courier Packages. Courier Letters are used solely for sending messages, while Courier Packages can hold up to 5 items, making them perfect for sending small goods and treasures.",
+  "book.hexerei.entities_owl_page_4.passage_1": "Whether it’s a simple note or a bundle of valuable items, the owls ensure that your messages and packages reach their destination swiftly and safely.\n\n  To send a delivery use one of the items below and right click your tamed owl.",
+  "book.hexerei.entities_owl_page_4.passage_2": "Deliverables: ",
+
+  "book.hexerei.structures_owl_post_office_page_1.passage_1": "Owl Post Office",
+  "book.hexerei.structures_owl_post_office_page_1.passage_2": "  The Owl Post Office, nestled in the heart of the forest, is where diligent owls manage all your magical deliveries. Efficient and reliable, these feathered couriers ensure your messages and parcels reach their destinations swiftly and securely.",
+  "book.hexerei.structures_owl_post_office_page_2.passage_1": "  Tame owls to assist with deliveries and open packages for enchanting rewards.",
+  "book.hexerei.structures_owl_post_office_page_3.passage_1": "  Or use it as a great starter base with a perfect second floor for brooms.",
+
+  "book.hexerei.crafting_type.woodcutter": "  To craft, you need a Woodcutter and the items shown below.",
+
+  "book.hexerei.items_replacer_satchel_1.passage_1": "Replacer Satchel",
+  "book.hexerei.items_replacer_satchel_1.passage_2": "  The Replacer Satchel is another satchel that is the size of a Medium Satchel, though this one has some upgrades. \n  This satchel allows broom brushes that are stored in it to replace the active brush when it breaks.",
+
+  "book.hexerei.items_ender_satchel_1.passage_1": "Ender Satchel",
+  "book.hexerei.items_ender_satchel_1.passage_2": "  The Ender Satchel is a unique type of satchel. When this inventory is opened it links with the riders ender chest.",
+
+  "book.hexerei.items_broom_seat_1.passage_1": "Broom Seat",
+  "book.hexerei.items_broom_seat_1.passage_2": "  The Broom Seat is a mix between a satchel and a cosmetic seat making the rider face forwards.",
+
+  "book.hexerei.items_wax_blend_1.passage_1": "Wax Blend",
+  "book.hexerei.items_wax_blend_1.passage_2": "  Wax blend is to wax unwaxed connectable blocks. Waxed connectable blocks can only connect to other waxed connectable blocks, from this mod.",
+
+  "book.hexerei.items_cloth_1.passage_1": "Cloth",
+  "book.hexerei.items_cloth_1.passage_2": "  The Cloth is what clears the waxed blocks and unwaxes them. This has unlimited uses unlike the Wax Blend. Waxed connectable blocks can only connect to other waxed connectable blocks, from this mod.",
+
+  "book.hexerei.items_waxing_kit_1.passage_1": "Waxing Kit",
+  "book.hexerei.items_waxing_kit_1.passage_2": "  The Waxing Kit is both a Cloth and a bunch of Wax Blend. This must be loaded with Wax Blends before it can apply wax, but it can always take away wax. Waxed connectable blocks can only connect to other waxed connectable blocks, from this mod.",
+
+  "book.hexerei.items_willow_connected_1.passage_1": "Willow Connected",
+  "book.hexerei.items_willow_connected_1.passage_2": "  These planks have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_polished_willow_connected_1.passage_1": "Polished Willow Connected",
+  "book.hexerei.items_polished_willow_connected_1.passage_2": "  These planks have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_polished_willow_pillar_1.passage_1": "Polished Willow Pillar",
+  "book.hexerei.items_polished_willow_pillar_1.passage_2": "  These planks have pillar connections, and will connect to similar faced pillars. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_polished_willow_layered_1.passage_1": "Polished Willow Layered",
+  "book.hexerei.items_polished_willow_layered_1.passage_2": "  These planks have layered connections, and will connect other connections on the same level it is on. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_willow_window_1.passage_1": "Willow Window",
+  "book.hexerei.items_willow_window_1.passage_2": "  These windows have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_willow_window_pane_1.passage_1": "Willow Window Pane",
+  "book.hexerei.items_willow_window_pane_1.passage_2": "  These windows have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_mahogany_connected_1.passage_1": "Mahogany Connected",
+  "book.hexerei.items_mahogany_connected_1.passage_2": "  These planks have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_polished_mahogany_connected_1.passage_1": "Polished Mahogany Connected",
+  "book.hexerei.items_polished_mahogany_connected_1.passage_2": "  These planks have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_polished_mahogany_pillar_1.passage_1": "Polished Mahogany Pillar",
+  "book.hexerei.items_polished_mahogany_pillar_1.passage_2": "  These planks have pillar connections, and will connect to similar faced pillars. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_polished_mahogany_layered_1.passage_1": "Polished Mahogany Layered",
+  "book.hexerei.items_polished_mahogany_layered_1.passage_2": "  These planks have layered connections, and will connect other connections on the same level it is on. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_mahogany_window_1.passage_1": "Mahogany Window",
+  "book.hexerei.items_mahogany_window_1.passage_2": "  These windows have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_mahogany_window_pane_1.passage_1": "Mahogany Window Pane",
+  "book.hexerei.items_mahogany_window_pane_1.passage_2": "  These windows have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_witch_hazel_connected_1.passage_1": "Witch Hazel Connected",
+  "book.hexerei.items_witch_hazel_connected_1.passage_2": "  These planks have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_polished_witch_hazel_connected_1.passage_1": "Polished Witch Hazel Connected",
+  "book.hexerei.items_polished_witch_hazel_connected_1.passage_2": "  These planks have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_polished_witch_hazel_pillar_1.passage_1": "Polished Witch Hazel Pillar",
+  "book.hexerei.items_polished_witch_hazel_pillar_1.passage_2": "  These planks have pillar connections, and will connect to similar faced pillars. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_polished_witch_hazel_layered_1.passage_1": "Polished Witch Hazel Layered",
+  "book.hexerei.items_polished_witch_hazel_layered_1.passage_2": "  These planks have layered connections, and will connect other connections on the same level it is on. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_witch_hazel_window_1.passage_1": "Witch Hazel Window",
+  "book.hexerei.items_witch_hazel_window_1.passage_2": "  These windows have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_witch_hazel_window_pane_1.passage_1": "Witch Hazel Window Pane",
+  "book.hexerei.items_witch_hazel_window_pane_1.passage_2": "  These windows have a full sided connected texture. Can be waxed with wax blend to connect with other similar waxed blocks.",
+
+  "book.hexerei.items_witch_hazel_planks_1.passage_1": "Witch Hazel Planks",
+  "book.hexerei.items_witch_hazel_planks_1.passage_2": "  Witch hazel planks and their variants are perfect with their warm, earthy tones creating a cozy and mystical atmosphere.",
+
+  "book.hexerei.items_witch_hazel_log_1.passage_1": "Witch Hazel Log",
+  "book.hexerei.items_witch_hazel_log_1.passage_2": "  Witch Hazel logs are used in making a willow broom within the mixing cauldron. They are also a lovely decoration block for a more gloomy or nature-like builds.",
+
+  "book.hexerei.items_infused_fabric_block_1.passage_1": "Infused Fabric Block",
+  "book.hexerei.items_infused_fabric_block_1.passage_2": "  Infused Fabric Blocks are versatile and enchanting, perfect for adding a magical touch to any build. They can be dyed in a variety of colors and connect with a full sided connection, allowing for endless customization and creativity.",
+  "book.hexerei.items_infused_fabric_block_3.passage_1": "  Can be dyed when the block is placed, then by using any dye against the block.",
+  "book.hexerei.items_infused_fabric_block_3.passage_2": "  Can be waxed to connect to other waxed blocks.",
+
+  "book.hexerei.items_infused_fabric_carpet_1.passage_1": "Infused Fabric Carpet",
+  "book.hexerei.items_infused_fabric_carpet_1.passage_2": "  Enhance your builds with infused fabric carpets, which are both captivating and practical. They can be dyed in a variety of colors and connect seamlessly on the same layer, allowing for endless customization and creativity.",
+  "book.hexerei.items_infused_fabric_carpet_3.passage_1": "  Can be dyed when the carpet is placed, then by using any dye against the carpet.",
+  "book.hexerei.items_infused_fabric_carpet_3.passage_2": "  Can be placed on carpets and stairs to form fit most of them.",
+
+  "book.hexerei.items_courier_depot_1.passage_1": "Courier Depot",
+  "book.hexerei.items_courier_depot_1.passage_2": "  Courier Depots serve as a crucial center for managing all your deliveries. With its efficient design and charming aesthetics, it ensures that every parcel and message is handled with utmost care and precision.",
+  "book.hexerei.items_courier_depot_2.passage_1": "  Staffed by owls who not only deliver with pinpoint accuracy but also have a knack for gossiping about the latest magical news, it’s the perfect solution for any witch looking to keep their messages flying smoothly and with a touch of whimsy.\n\n Comes in each wood variant.",
+
+  "book.hexerei.items_courier_letter_1.passage_1": "Courier Letter",
+  "book.hexerei.items_courier_letter_1.passage_2": "  Courier Letters are great for sending secret messages to other players or depots. Whether you’re sharing important information or just keeping in touch, this enchanted letter ensures your message arrives swiftly and securely. ",
+  "book.hexerei.items_courier_letter_2.passage_1": "  Delivered by our trusty owls, your words will always find their way to the intended recipient, no matter the distance.",
+
+  "book.hexerei.items_courier_package_1.passage_1": "Courier Package",
+  "book.hexerei.items_courier_package_1.passage_2": "  Courier Packages are perfect for sending items to other players or depots. Whether it’s a gift, supplies, or a special delivery, these enchanted packages ensure your items arrive safely and promptly.",
+  "book.hexerei.items_courier_package_2.passage_1": "  Delivered by our dedicated owls, your parcels will always reach their destination, no matter the distance or obstacles. \n  Packages can be opened by right clicking the placed package, if that package is sealed.",
+
+  "book.hexerei.items_packing_peanut_1.passage_1": "Packing Peanut",
+  "book.hexerei.items_packing_peanut_1.passage_2": "  Packing Peanuts are not only perfect for cushioning your Courier Packages but also make for a delightful light snack. A favorite among our hardworking owls, they add a touch of fun to every parcel.",
+
+  "book.hexerei.items_broom_stand_1.passage_1": "Broom Stand",
+  "book.hexerei.items_broom_stand_1.passage_2": "  The Broom Stand is the perfect solution for storing your broom when it’s not in use. Designed to be placed against the wall or on the ground, it keeps your broom secure and ready for your next flight.",
+  "book.hexerei.items_broom_stand_2.passage_1": "  With its sturdy construction and elegant design, the Broom Stand ensures your broom is always within reach and neatly stored.",
+
+  "book.hexerei.items_broom_whistle_1.passage_1": "Broom Whistle",
+  "book.hexerei.items_broom_whistle_1.passage_2": "  The Broom Whistle is a handy tool for any witch. Bind it to your broom, and with a simple blow, your broom will come flying to you if it’s within range. Perfect for those moments when you need your broom in a hurry, it ensures you’re never far from your trusty ride.",
+
+  "book.hexerei.items_woodcutter_1.passage_1": "Woodcutter",
+  "book.hexerei.items_woodcutter_1.passage_2": "  The Woodcutter is essential for transforming wood and planks into special connecting texture blocks or getting a nice discount on other blocks. Perfect for any witch looking to add unique patterns and designs to their builds, it ensures precision and creativity in every cut.",
+  "book.hexerei.items_woodcutter_2.passage_1": "  With its magical efficiency, crafting intricate wooden structures has never been easier.",
+
+  "book.hexerei.entities_broom_page_3_1.passage_1": "  Third, The Witch Hazel Broom is a reliable choice for any witch seeking a balance of speed and control. Slightly faster than the Willow Broom but not as swift as the Mahogany Broom. Crafted from the enchanting wood of the witch hazel tree, this broom is ideal for everyday travel and magical adventures alike.",
+
+  "book.hexerei.support_page_5.passage_2": "Created by: JoeFoxe",
+
+  "book.hexerei.items_woodcutter_planks": "* Use a woodcutter to cut the planks into special connecting variants",
+
+  "book.hexerei.index_name": "Index",
+
+  "block.hexerei.crystal_ball.daytime": "Daytime",
+  "block.hexerei.crystal_ball.moon_phase": "Moon Phase: ",
+
+  "book.hexerei.dark_coven": "Dark Coven",
+  "book.hexerei.nature_coven": "Nature Coven",
+  "book.hexerei.owl_post_office": "Owl Post Office",
+  "book.hexerei.witch_hut": "Witch Hut",
+
+  "item.hexerei.notebook": "Notebook",
+  "tooltip.hexerei.notebook": "The magical book of note taking.\nPlace on an altar to use in world, otherwise just right click to open a screen.\nInteracts the same as a Book of Shadows.",
+  "book.hexerei.items_notebook_1.passage_1": "Notebook",
+  "book.hexerei.items_notebook_1.passage_2": "  For those who love taking notes, writing lists, or telling stories.\n\n This book allows you to write in it, like a book and quill. It can be used on an altar or opened in hand by right-clicking.",
+
+  "item.hexerei.book_of_colors": "Book of Colors",
+  "tooltip.hexerei.book_of_colors": "A magical book of painting.\nPlace on an altar to use in world, otherwise just right click to open a screen.\nInteracts the same as a Book of Shadows.\nUse a Canvas on a painting to copy a section",
+  "book.hexerei.items_book_of_colors_1.passage_1": "Book of Colors",
+  "book.hexerei.items_book_of_colors_1.passage_2": "  Made for those who love to paint.\n\n This book allows the player to paint within the pages, and take those paintings and copy them onto canvases to place.",
+
+
+  "item.hexerei.book_canvas": "Canvas",
+  "tooltip.hexerei.book_canvas": "Used to display a painting from the Book of Colors as a painting",
+  "tooltip.hexerei.book_canvas2": "Right-click a painting in the Book of Colors with this item, then crop the section you want to display in the screen.\nLeft-click and drag in the screen to make the cropped section, Right-click to clear.\nUpon exiting the screen the section will be imprinted onto the canvas",
+  "book.hexerei.items_book_canvas_1.passage_1": "Canvas",
+  "book.hexerei.items_book_canvas_1.passage_2": "  For those who want to take their paintings from their Book of Colors and hang them up in world.\n\n Right click a painting in a Book of Colors and select the cropping size by clicking and dragging, showing the preview of what will appear on the painting on the left, then it'll be selected on close.",
+
+  "book.hexerei.items_selenite_shard_1.passage_1": "Selenite Shard",
+  "book.hexerei.items_selenite_shard_1.passage_2": "  Found in selenite geodes beneath jungles and swamps. Their faint, ethereal glow is said to hold shielding energy, making them a prized tool for witches and enchanters seeking protection.",
+
+
+  "block.hexerei.entangled_coffer": "Entangled Coffer",
+  "tooltip.hexerei.entangled_coffer": "Decorative storage block",
+  "tooltip.hexerei.entangled_coffer_shift": "Acts like a normal coffer except it shares an inventory with another entangled coffer.",
+
+
+  "tooltip.hexerei.coffer_whitelist_inv": "Whitelist and Inventory",
+  "tooltip.hexerei.coffer_whitelist_only": "Whitelist Only",
+  "tooltip.hexerei.coffer_blacklist_inv": "Blacklist and Inventory",
+
+  "tooltip.hexerei.coffer_whitelist_match": "Crows will be able to place items in the coffer that match from:",
+  "tooltip.hexerei.coffer_whitelist_inv_1": "The Inventory or the Whitelist",
+  "tooltip.hexerei.coffer_whitelist_only_1": "Only the Whitelist",
+  "tooltip.hexerei.coffer_blacklist_inv_1": "The Inventory not matching the Blacklist",
+
   "itemGroup.hexereiModTab": "Hexerei"
-
-
 }
