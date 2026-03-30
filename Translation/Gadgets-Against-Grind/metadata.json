@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T15:34:48Z",
+    "translation_progress": {
+      "1.21": 98.18,
+      "overall": 98.18
+    },
+    "mod_versions": {
+      "1.21": "GAG-NeoForge-1.21.1-5.2.0"
+    }
   }
 }

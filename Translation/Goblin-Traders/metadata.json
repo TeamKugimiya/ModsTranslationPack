@@ -2,12 +2,11 @@
   "schema_version": "1.2",
   "mod_id": "goblintraders",
   "display_name": {
-    "en": "Goblin Traders Food Config"
+    "en": "Goblin Traders"
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "1281474",
-    "modrinth": "DRM2r8fQ"
+    "curseforge": "363703"
   },
   "contents": {
     "tiers": {
@@ -17,9 +16,19 @@
         ],
         "source": {
           "game_version": "1.21.1",
-          "loader": "fabric"
+          "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T15:48:34Z",
+    "translation_progress": {
+      "1.21": 63.64,
+      "overall": 63.64
+    },
+    "mod_versions": {
+      "1.21": "Goblin Traders 1.11.2"
     }
   }
 }

@@ -11,15 +11,25 @@
   },
   "contents": {
     "tiers": {
-      "1.21": {
+      "1.19": {
         "versions": [
-          "<=1.21"
+          "<=1.19"
         ],
         "source": {
-          "game_version": "1.21.1",
-          "loader": "neoforge"
+          "game_version": "1.19.2",
+          "loader": "forge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T15:38:00Z",
+    "translation_progress": {
+      "1.19": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.19": "Geodeopolis 1.3.5"
     }
   }
 }

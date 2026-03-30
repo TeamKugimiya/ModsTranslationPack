@@ -32,7 +32,7 @@
 	"block.glassential.glass_obsidian_magma_ghostly": "防爆岩漿幽靈玻璃",
 	"block.glassential.glass_obsidian_magma_ethereal": "防爆岩漿縹緲玻璃",
 	"block.glassential.glass_obsidian_magma_ethereal_reverse": "防爆岩漿反向縹緲玻璃",
-	
+
 	"tooltip.glassential.redstone": "發射紅石訊號",
 	"tooltip.glassential.ghostly": "實體得以穿越方塊",
 	"tooltip.glassential.ethereal": "玩家得以穿越方塊",
@@ -41,6 +41,6 @@
 	"tooltip.glassential.light": "產生照明",
 	"tooltip.glassential.magma": "接觸時受傷",
 	"tooltip.glassential.obsidian": "抵抗爆炸",
-	
+
 	"itemGroup.glassential.items": "實用玻璃"
 }

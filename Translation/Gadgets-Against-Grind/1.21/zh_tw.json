@@ -46,18 +46,7 @@
   "item.gag.sacred_salve": "神聖藥膏",
   "item.gag.sacred_salve.extra": "相比於精鹽，持續效果更長且作用範圍更廣。",
   "item.gag.time_sand_pouch": "時間錦囊",
-  "item.gag.time_sand_pouch.flavour": [
-    {
-      "extra": [
-        {
-          "strikethrough": true,
-          "text": ""
-        },
-        "皮袋當中..."
-      ],
-      "text": "若我能將時間保存在"
-    }
-  ],
+  "item.gag.time_sand_pouch.flavour": [{"extra":[{"strikethrough":true,"text":""},"皮袋當中..."],"text":"若我能將時間保存在"}],
   "item.gag.time_sand_pouch.info": "位於玩家物品欄時，會逐漸積累時間。\n對著功能方塊使用時，可以加速其運作速率。這將會消耗錦囊中所儲存的時間。",
   "item.gag.time_sand_pouch.info.stored_grains": "目前裝有價值 %2$s 的時間穀物",
   "itemGroup.gag.gag": "GAG — 護肝小幫手",

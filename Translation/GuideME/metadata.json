@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T15:34:54Z",
+    "translation_progress": {
+      "1.21": 97.22,
+      "overall": 97.22
+    },
+    "mod_versions": {
+      "1.21": "GuideME 21.1.15"
+    }
   }
 }

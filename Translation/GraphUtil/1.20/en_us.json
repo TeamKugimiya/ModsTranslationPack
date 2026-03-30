@@ -1,0 +1,11 @@
+{
+    "text.graphutil.title": "GraphUtil",
+    "text.graphutil.vanillaScale": "Vanilla Graph Scale",
+    "text.graphutil.vanillaScale.tooltip": "Keep the vanilla scale, or scale the graph from the minimum to the maximum value.",
+    "text.graphutil.alwaysShowGraph": "Always Show Graph",
+    "text.graphutil.alwaysShowGraph.tooltip": "Always open the graph, without holding ALT key when opening F3.",
+    "text.graphutil.preventClipping": "Prevent Graph Clipping",
+    "text.graphutil.preventClipping.tooltip": "Prevent the graph from clipping out of its frame when the value is too high.",
+    "text.graphutil.hideTPS": "Hide TPS",
+    "text.graphutil.hideTPS.tooltip": "Hide the TPS graph."
+}
