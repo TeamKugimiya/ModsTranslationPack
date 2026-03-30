@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:43:18Z",
+    "translation_progress": {
+      "1.21": 79.46,
+      "overall": 79.46
+    },
+    "mod_versions": {
+      "1.21": "forcecraft-1.21.1-6.2.8.jar"
+    }
   }
 }

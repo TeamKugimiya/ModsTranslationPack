@@ -50,15 +50,19 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T16:21:08Z",
+    "last_synced": "2026-03-30T14:43:20Z",
     "translation_progress": {
       "1.18": 94.44,
       "1.19": 92.93,
-      "overall": 93.69
+      "1.20": 100,
+      "1.21": 100,
+      "overall": 96.84
     },
     "mod_versions": {
       "1.18": "functionalstorage-1.18.2-1.1.4.jar",
-      "1.19": "functionalstorage-1.19.2-1.1.12.jar"
+      "1.19": "functionalstorage-1.19.2-1.1.12.jar",
+      "1.20": "functionalstorage-1.20.1-1.2.13.jar",
+      "1.21": "functionalstorage-1.21.1-1.5.5.jar"
     }
   }
 }

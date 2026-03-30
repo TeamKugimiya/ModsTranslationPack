@@ -2,23 +2,18 @@
   "schema_version": "1.2",
   "mod_id": "twilightforest",
   "display_name": {
-    "en": "[FORK] Twilight Forest Thread Safety Addon"
+    "en": "The Twilight Forest"
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "1430534",
-    "modrinth": "VFGmWf7t"
+    "curseforge": "227639"
   },
   "contents": {
     "tiers": {
       "1.21": {
         "versions": [
           "<=1.21"
-        ],
-        "source": {
-          "game_version": "1.21.1",
-          "loader": "neoforge"
-        }
+        ]
       }
     }
   }

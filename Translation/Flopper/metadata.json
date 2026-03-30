@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:43:16Z",
+    "translation_progress": {
+      "1.21": 80,
+      "overall": 80
+    },
+    "mod_versions": {
+      "1.21": "flopper-1.21.1-neoforge-1.1.8-216.jar"
+    }
   }
 }

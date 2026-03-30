@@ -7,7 +7,7 @@
   "config.fabrihud.elements": "元素",
   "config.fabrihud.global": "全域",
 
-  "config.fabrihud.apply":"套用",
+  "config.fabrihud.apply": "套用",
   "config.fabrihud.apply.tooltip": "套用並儲存變更",
   "config.fabrihud.reset": "重設",
   "config.fabrihud.reset.tooltip": "重設所有設定到預設值",

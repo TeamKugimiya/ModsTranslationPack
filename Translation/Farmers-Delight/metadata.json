@@ -2,12 +2,12 @@
   "schema_version": "1.2",
   "mod_id": "farmersdelight",
   "display_name": {
-    "en": "Farmer's Delight x No Tree Punching Cooking Pot"
+    "en": "Farmer's Delight"
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "1074355",
-    "modrinth": "Rmopk4aS"
+    "curseforge": "398521",
+    "modrinth": "R2OftAxM"
   },
   "contents": {
     "tiers": {
@@ -20,6 +20,16 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:52:51Z",
+    "translation_progress": {
+      "1.21": 74.92,
+      "overall": 74.92
+    },
+    "mod_versions": {
+      "1.21": "Farmer's Delight 1.2.11 - 1.21.1"
     }
   }
 }

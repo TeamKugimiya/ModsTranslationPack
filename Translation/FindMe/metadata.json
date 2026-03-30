@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:43:15Z",
+    "translation_progress": {
+      "1.21": 75,
+      "overall": 75
+    },
+    "mod_versions": {
+      "1.21": "findme-3.3.3-neoforge.jar"
+    }
   }
 }
