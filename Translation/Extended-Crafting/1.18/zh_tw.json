@@ -1,6 +1,6 @@
 {
   "itemGroup.extendedcrafting": "合成擴展",
-  
+
   "block.extendedcrafting.luminessence_block": "流明精華方塊",
   "block.extendedcrafting.black_iron_block": "黑鐵方塊",
   "block.extendedcrafting.redstone_ingot_block": "紅石錠方塊",
@@ -24,7 +24,7 @@
   "block.extendedcrafting.compressor": "量子壓縮機",
   "block.extendedcrafting.ender_alternator": "終界發電機",
   "block.extendedcrafting.ender_crafter": "終界合成器",
-  
+
   "item.extendedcrafting.luminessence": "流明精華",
   "item.extendedcrafting.black_iron_ingot": "黑鐵錠",
   "item.extendedcrafting.redstone_ingot": "紅石錠",
@@ -62,7 +62,7 @@
   "item.extendedcrafting.recipe_maker": "配方製作大師",
   "item.extendedcrafting.singularity": "%s奇點",
   "item.extendedcrafting.ultimate_singularity": "終極奇點",
-  
+
   "container.extendedcrafting.crafting_core": "合成核心",
   "container.extendedcrafting.basic_table": "基礎合成",
   "container.extendedcrafting.advanced_table": "高級合成",
@@ -70,13 +70,13 @@
   "container.extendedcrafting.ultimate_table": "終極合成",
   "container.extendedcrafting.compressor": "量子壓縮",
   "container.extendedcrafting.ender_crafter": "終界合成",
-  
+
   "screen.extendedcrafting.crafting_core.pedestals": "基座：%s",
   "screen.extendedcrafting.crafting_core.power_cost": "FE 消耗量：%s",
   "screen.extendedcrafting.crafting_core.power_rate": "FE 速率：%s",
   "screen.extendedcrafting.crafting_core.no_recipe": "找不到配方。",
   "screen.extendedcrafting.crafting_core.no_power": "能量不足。",
-  
+
   "tooltip.extendedcrafting.empty": "空",
   "tooltip.extendedcrafting.eject": "退出",
   "tooltip.extendedcrafting.ejecting": "正在退出...",
@@ -97,12 +97,12 @@
   "tooltip.extendedcrafting.added_by": "由 %s 加入",
   "tooltip.extendedcrafting.auto_table_save_recipe": "Shift + 點擊左鍵來儲存這個配方。",
   "tooltip.extendedcrafting.auto_table_delete_recipe": "Shift + 點擊左鍵來刪除這個配方。",
-  
+
   "message.extendedcrafting.changed_mode": "已將模式變更為 %s。",
   "message.extendedcrafting.copied_recipe": "已複製到剪貼簿。",
   "message.extendedcrafting.nbt_requires_crafttweaker": "需要 CraftTweaker 來複製 NBT。",
   "message.extendedcrafting.max_unique_items_exceeded": "在資料包的有序配方中，你最多只能在配方裡加入 %s 種獨特的物品。",
-  
+
   "jei.category.extendedcrafting.combination": "組合合成",
   "jei.category.extendedcrafting.basic_crafting": "基礎合成",
   "jei.category.extendedcrafting.advanced_crafting": "高級合成",
@@ -110,7 +110,7 @@
   "jei.category.extendedcrafting.ultimate_crafting": "終極合成",
   "jei.category.extendedcrafting.compressor": "量子壓縮",
   "jei.category.extendedcrafting.ender_crafting": "終界合成",
-  
+
   "singularity.extendedcrafting.coal": "煤炭",
   "singularity.extendedcrafting.iron": "鐵",
   "singularity.extendedcrafting.lapis_lazuli": "青金石",
@@ -131,17 +131,17 @@
   "singularity.extendedcrafting.invar": "不變鋼",
   "singularity.extendedcrafting.uranium": "鈾",
   "singularity.extendedcrafting.platinum": "鉑",
-  
+
   "book.extendedcrafting.name": "《合成擴展》指南手冊",
   "book.extendedcrafting.landing_text": "《合成擴展》為遊戲加入了新的方式來製作物品，還有額外的合成材料及實用工具。$(br2)這本指南手冊將會介紹，本模組中不同合成方式的功能。至於合成配方，則是由模組包創作者設計的。",
-  
+
   "book.extendedcrafting.category.crafting.name": "合成方式",
   "book.extendedcrafting.category.crafting.description": "本章節將介紹由《合成擴展》加入，各種不同的合成機制。",
   "book.extendedcrafting.category.components.name": "合成元件",
   "book.extendedcrafting.category.components.description": "本章節將介紹由《合成擴展》加入，各種不同的合成材料。",
   "book.extendedcrafting.category.utilities.name": "合成實用工具",
   "book.extendedcrafting.category.utilities.description": "本章節將介紹由《合成擴展》加入，各種不同的合成實用工具。",
-  
+
   "book.extendedcrafting.entry.combination": "組合合成",
   "book.extendedcrafting.entry.combination.page.1": "組合合成是一種世界上的多方塊合成設備，將多種物品組合在一起，用來創造出某種$(italic)特別的事物$()。$(br2)該設備由一個位於正中心的合成核心，以及放置在其周圍的數個基座所組成。基座可被放置在距離合成核心，$(bold)3 格方塊$()內的任何地方，且必須位在相同高度上。",
   "book.extendedcrafting.entry.combination.page.2": "必須向合成核心供應能量，才能使這個結構發揮功能。$(br2)配方會有一個中心物品，其必須放在合成核心上；以及環繞的基座物品，它們則必須放在周圍的基座上。$(br)右鍵點擊合成核心任一側，將會提供你關於目前合成作業的資訊，像是合成進度或能量消耗，還有合成核心目前所儲存的能量。",
@@ -158,12 +158,12 @@
   "book.extendedcrafting.entry.auto_tables.page.1": "自動工作台是$(l:crafting/tables)工作台$()的高階版本，可自己輸入或輸出物品。$(br2)只要在工作台上方擺放一個儲物箱，並將物品放入該儲物箱中，工作台將透過消耗能量，從儲物箱裡抽取物品。",
   "book.extendedcrafting.entry.auto_tables.page.2": "要進行自動化物品抽取作業，你必須先在合成欄上設定好配方，並將該配方儲存。介面右上方有 3 顆配方欄按鈕，當你設定好配方後，Shift + 左鍵點擊其中一顆按鈕，即可將該配方儲存。你可以透過點擊左鍵來選取配方。當你想刪除配方時，只需要再一次 Shift + 左鍵點擊配方按鈕即可。$(br2)合成產物可透過漏斗或其他相容的物品抽取機制，從自動工作台中取出。",
   "book.extendedcrafting.entry.auto_tables.page.3": "你可以透過點擊輸出欄下方的「向下箭頭」按鈕，停用工作台的自動合成功能。",
-  
+
   "book.extendedcrafting.entry.singularities": "奇點",
   "book.extendedcrafting.entry.singularities.page.1": "奇點是一種經過高度壓縮的材料。這些奇點$(bold)通常$()必須在$(l:crafting/compression)量子壓縮機$()中製作。$(br2)奇點$(bold)可能$()會被用在許多地方，像是$(l:components/ultimate_singularity)終極奇點$()。",
   "book.extendedcrafting.entry.ultimate_singularity": "終極奇點",
   "book.extendedcrafting.entry.ultimate_singularity.page.1": "終極奇點$(bold)通常$()必須在$(l:crafting/tables)終極工作台$()中製作。$(br2)$(bold)大多數時候$()是由所有的種類奇點製作而成。",
-  
+
   "book.extendedcrafting.entry.handheld_table": "手持式工作台",
   "book.extendedcrafting.entry.handheld_table.page.1": "手持式工作台就是工作台。"
 }

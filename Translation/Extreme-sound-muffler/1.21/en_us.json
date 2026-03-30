@@ -24,7 +24,7 @@
   "main_screen.btn.anchors.disabled": "Anchors are disabled!",
   "main_screen.btn.anchors.set_message": "Set the anchor first",
   "main_screen.btn.anchors.set": "Set Anchor",
-  "main_screen.btn.anchors.set_range": "Range: 1 - 32",
+  "main_screen.btn.anchors.set_range": "Range: 1 - %s",
   "main_screen.btn.anchors.set_title": "Change Anchor title",
   "main_screen.btn.anchors.edit": "Edit Anchor",
 
@@ -38,6 +38,7 @@
   "main_screen.side_screen.radius": "Radius: %s",
   "main_screen.side_screen.dimension": "Dimension: %s",
   "main_screen.side_screen.title": "Title: ",
+  "main_screen.side_screen.radius_edit": "Radius: ",
 
   "tip.disable": "You can disable these tips in the config",
   "tip.change_volume": "You can change the volume of muffled sounds by dragging the slider",
@@ -60,5 +61,30 @@
   "log.error.saveAnchorList": "ESM: Error saving the Anchor list\\n %s",
   "log.warn.loadMuffledList": "ESM: Muffled list not found; Creating empty Muffled list",
   "log.error.loadMuffledList": "ESM: Error loading the muffled sounds list:\\n %s",
-  "log.error.saveMuffledList": "ESM: Error saving the muffled sounds list:\\n %s"
+  "log.error.saveMuffledList": "ESM: Error saving the muffled sounds list:\\n %s",
+
+  "forbiddenSounds.button": "Set Forbidden Sounds",
+  "general.button": "General",
+  "Anchors.button": "Anchors",
+  "inventory_button.button": "Inventory Button",
+  "extremesoundmuffler.configuration.inventory_button": "Inventory button",
+  "extremesoundmuffler.configuration.Anchors": "Anchors",
+  "extremesoundmuffler.configuration.general": "General",
+
+  "extremesoundmuffler.configuration.forbiddenSounds": "Forbidden Sounds",
+  "extremesoundmuffler.configuration.modsMuffled": "Mods Muffled",
+  "extremesoundmuffler.configuration.useDarkTheme": "Use Dark theme",
+  "extremesoundmuffler.configuration.leftButtons": "Left buttons",
+  "extremesoundmuffler.configuration.lawfulAllList": "lawful All sounds List",
+  "extremesoundmuffler.configuration.defaultMuteVolume": "Default Mute Volume",
+  "extremesoundmuffler.configuration.showTip": "Show tips",
+
+  "extremesoundmuffler.configuration.disableInventoryButton": "Disable Inventory button",
+  "extremesoundmuffler.configuration.invButtonX": "Inventory button X coord",
+  "extremesoundmuffler.configuration.invButtonY": "Inventory button Y coord",
+  "extremesoundmuffler.configuration.disableCreativeInventoryButton": "Disable Creative inventory button",
+  "extremesoundmuffler.configuration.creativeInvButtonX": "Creative button X coord",
+  "extremesoundmuffler.configuration.creativeInvButtonY": "Creative button Y coord",
+
+  "extremesoundmuffler.configuration.disableAnchors": "Disable Anchors"
 }

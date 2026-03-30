@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:43Z",
+    "translation_progress": {
+      "1.21": 62.34,
+      "overall": 62.34
+    },
+    "mod_versions": {
+      "1.21": "Extreme sound muffler 3.55 - NeoForge 1.21.1"
+    }
   }
 }

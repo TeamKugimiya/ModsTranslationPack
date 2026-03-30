@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:30Z",
+    "translation_progress": {
+      "1.21": 12.5,
+      "overall": 12.5
+    },
+    "mod_versions": {
+      "1.21": "EnergyMeter-NeoForge-1.21.1-0.4.0"
+    }
   }
 }

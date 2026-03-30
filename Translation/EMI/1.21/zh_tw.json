@@ -44,11 +44,19 @@
   "emi.align.vertical.bottom": "靠下",
   "emi.sidebar.type.none": "無",
   "emi.sidebar.type.index": "索引",
+  "emi.sidebar.type.index.description": "Displays all stacks",
   "emi.sidebar.type.craftables": "可合成項目",
+  "emi.sidebar.type.craftables.description": "Displays all craftable stacks",
   "emi.sidebar.type.favorites": "我的最愛",
+  "emi.sidebar.type.favorites.description": "Displays favorites",
   "emi.sidebar.type.lookup_history": "查詢紀錄",
+  "emi.sidebar.type.lookup_history.description": "Displays previously looked up stacks",
   "emi.sidebar.type.craft_history": "合成紀錄",
+  "emi.sidebar.type.craft_history.description": "Displays previously crafted stacks",
+  "emi.sidebar.type.empty": "Empty",
+  "emi.sidebar.type.empty.description": "Displays nothing",
   "emi.sidebar.type.chess": "西洋棋",
+  "emi.sidebar.type.chess.description": "Chess",
   "emi.sidebar.theme.transparent": "透明",
   "emi.sidebar.theme.vanilla": "原版",
   "emi.sidebar.theme.modern": "現代",
@@ -175,6 +183,7 @@
 
   "config.emi.presets.productive": "生產環境",
   "config.emi.presets.recipe_book_plus": "配方手冊增強版",
+  "config.emi.presets.low_distraction": "Low Distraction",
   "config.emi.presets.empty_search_craftable": "未搜尋時顯示可合成項目",
 
   "config.emi.presets.author_binds": "作者綁定",
@@ -216,6 +225,8 @@
   "emi.random_tree_input": "按下 §6[ctrl + r]",
   "emi.edit_mode.hide_one": "按下 %s 來隱藏物品",
   "emi.edit_mode.hide_all": "按下 %s 來透過 ID 隱藏物品",
+  "emi.sidebar.cycle": "Press %s to switch sidebars",
+  "emi.sidebar.favorite_stack": "Press %s to add/remove a favorited stack",
   "tooltip.emi.chance.consume": "消耗機率：%s%%",
   "tooltip.emi.chance.produce": "產出機率：%s%%",
   "tooltip.emi.accepts": "接受：",
@@ -237,6 +248,9 @@
 
   "tooltip.emi.config.global": "切換至使用全域 EMI 設定\n設定將套用於所有遊戲實例，\n而非為每個遊戲實例分別單獨設定。",
 
+  "tooltip.emi.synfav.obtained": "%s/%s obtained",
+  "tooltip.emi.synfav.remaining": "%s remaining",
+  "tooltip.emi.synfav.batches_remaining": "%s crafts remaining",
   "tooltip.emi.synfav.uncraftable": "無法進行§c任何§r一次合成",
   "tooltip.emi.synfav.partially_craftable": "能進行§d數次§r合成",
   "tooltip.emi.synfav.fully_craftable": "能進行共 §a%s§r 次合成",
@@ -248,7 +262,7 @@
   "tooltip.emi.bom.mode.view": "§6檢視§r配方樹",
   "tooltip.emi.bom.mode.craft": "§6合成§r配方樹\n合成流程將會顯示在配方樹\n§b合成步驟§r將會顯示在「我的最愛」側邊欄",
   "tooltip.emi.bom.help": "配方樹將展示物品的合成流程與基礎耗材\n介面可以移動瀏覽與縮放\n\n左鍵點擊其中一個節點，可以選擇要指定的配方\n按住 §6[shift]§r 則會根據你物品欄內的物品，自動選用合適的配方\n\n右鍵點擊其中一個配方節點，則可以暫時將其摺疊\n按住 §6[shift]§r 可以清除配方\n\n初始配方樹的狀態，會受預設配方的設定所控制\n配方表旁的按鈕，可以設定預設配方偏好\n\n總耗材旁的按紐，能用來幫助建立配方樹\n進行合成時，需要收集的材料將會顯示在畫面上\n§b合成步驟§r將會出現在「我的最愛」側邊欄\n用於顯示未完成的步驟以及輔助合成",
-  
+
   "tooltip.emi.fluid_interaction.basalt.soul_soil": "熔岩下方",
   "tooltip.emi.fluid_interaction.basalt.blue_ice": "相鄰熔岩",
 
@@ -312,7 +326,7 @@
   "emi.category.emi.fuel": "燃料",
   "emi.category.emi.composting": "堆肥",
   "emi.category.emi.info": "資訊",
-  
+
   "emi.category.emi.tag": "標籤",
   "emi.category.emi.ingredient": "原料",
 
@@ -514,7 +528,7 @@
   "tag.item.c.ores_in_ground.stone": "石頭礦石",
   "tag.item.c.ores_in_ground.deepslate": "深板岩礦石",
   "tag.item.c.ores_in_ground.netherrack": "地獄石礦石",
-  
+
   "tag.item.c.chest": "儲物箱",
   "tag.item.c.coal": "煤炭",
   "tag.item.c.sand": "沙",

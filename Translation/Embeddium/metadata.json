@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:22Z",
+    "translation_progress": {
+      "1.21": 2.7,
+      "overall": 2.7
+    },
+    "mod_versions": {
+      "1.21": "[1.21.1] Embeddium 1.0.15"
+    }
   }
 }

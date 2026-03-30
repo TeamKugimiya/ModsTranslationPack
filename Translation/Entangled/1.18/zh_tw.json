@@ -1,6 +1,6 @@
 {
-  "block.entangled.block": "纏結方塊",
-  "item.entangled.item": "纏結綁定器",
+  "entangled.block.block": "Entangled Block",
+  "entangled.item.item": "Entangled Binder",
   "entangled.entangled_block.info.ranged_same_dimension": "可綁定位於相同維度中，位於 %d 格範圍內的方塊",
   "entangled.entangled_block.info.infinite_same_dimension": "可綁定位於相同維度中的方塊",
   "entangled.entangled_block.info.ranged_other_dimension": "可跨維度綁定 %d 格範圍內的方塊",
@@ -17,7 +17,10 @@
   "entangled.entangled_binder.info.target.known": "已連結至 %1$s，位於 %5$s（%2$d，%3$d，%4$d）",
   "entangled.entangled_binder.select": "已選取方塊！",
   "entangled.entangled_binder.clear": "已清除連結！",
+  "entangled.entangled_binder.unknown_dimension": "Binder is bound to unknown dimension '%s'!",
   "entangled.waila.bound_same_dimension": "綁定至 %1$s，位於（%2$d，%3$d，%4$d）",
   "entangled.waila.bound_other_dimension": "綁定至 %1$s，位於%5$s（%2$d，%3$d，%4$d）",
-  "entangled.waila.unbound": "未綁定"
+  "entangled.waila.unbound": "未綁定",
+  "entangled.waila.invalid_block": "Invalid block '%s'!",
+  "config.jade.plugin_entangled.entangled_block_component": "Entangled Block"
 }

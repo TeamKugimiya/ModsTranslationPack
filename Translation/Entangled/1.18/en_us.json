@@ -1,6 +1,6 @@
 {
-  "block.entangled.block": "Entangled Block",
-  "item.entangled.item": "Entangled Binder",
+  "entangled.block.block": "Entangled Block",
+  "entangled.item.item": "Entangled Binder",
   "entangled.entangled_block.info.ranged_same_dimension": "Can be bound to blocks in the same dimension up to %d blocks away",
   "entangled.entangled_block.info.infinite_same_dimension": "Can be bound to blocks in the same dimension",
   "entangled.entangled_block.info.ranged_other_dimension": "Can be bound to blocks up to %d blocks away or to blocks in other dimensions",
@@ -17,7 +17,10 @@
   "entangled.entangled_binder.info.target.known": "Linked to %1$s in the %5$s at (%2$d, %3$d, %4$d)",
   "entangled.entangled_binder.select": "Block selected!",
   "entangled.entangled_binder.clear": "Connection cleared!",
+  "entangled.entangled_binder.unknown_dimension": "Binder is bound to unknown dimension '%s'!",
   "entangled.waila.bound_same_dimension": "Bound to %1$s at (%2$d, %3$d, %4$d)",
   "entangled.waila.bound_other_dimension": "Bound to %1$s in the %5$s at (%2$d, %3$d, %4$d)",
-  "entangled.waila.unbound": "Unbound"
+  "entangled.waila.unbound": "Unbound",
+  "entangled.waila.invalid_block": "Invalid block '%s'!",
+  "config.jade.plugin_entangled.entangled_block_component": "Entangled Block"
 }

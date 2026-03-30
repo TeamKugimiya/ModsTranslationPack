@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:40Z",
+    "translation_progress": {
+      "1.18": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.18": "extendedexchange-1802.2.7.jar"
+    }
   }
 }

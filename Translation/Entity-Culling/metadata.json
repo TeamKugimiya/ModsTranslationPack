@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:32Z",
+    "translation_progress": {
+      "1.21": 4,
+      "overall": 4
+    },
+    "mod_versions": {
+      "1.21": "1.10.0-1.21.1 - NeoForge"
+    }
   }
 }

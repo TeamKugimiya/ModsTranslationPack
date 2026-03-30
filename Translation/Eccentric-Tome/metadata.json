@@ -6,8 +6,7 @@
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "597522",
-    "modrinth": "ZtdULK5c"
+    "curseforge": "597522"
   },
   "contents": {
     "tiers": {
@@ -17,9 +16,19 @@
         ],
         "source": {
           "game_version": "1.21.1",
-          "loader": "forge"
+          "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:36:17Z",
+    "translation_progress": {
+      "1.21": 42.86,
+      "overall": 42.86
+    },
+    "mod_versions": {
+      "1.21": "eccentrictome-1.21.1-1.2.0.jar"
     }
   }
 }

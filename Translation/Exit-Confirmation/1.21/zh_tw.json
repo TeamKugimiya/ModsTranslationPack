@@ -1,4 +1,16 @@
 {
   "screen.exit_confirm.title": "確認離開",
-  "screen.exit_confirm.description": "你確定要離開 Minecraft？"
+  "screen.exit_confirm.description": "你確定要離開 Minecraft？",
+  "screen.exit_confirm.config": "Exit Confirmation Config",
+  "exit_confirm.config.prompt.enable": "Enable Close Prompt",
+  "exit_confirm.config.prompt.inGame": "In-Game Close Prompt",
+  "exit_confirm.config.prompt.quitButton": "Quit Button Close Prompt",
+  "exit_confirm.config.prompt.escInTitle": "Escape in Title Screen Shows Close Prompt",
+  "exit_confirm.config.screen.forceEmptyBackground": "Force Empty Background in Close Prompt",
+  "exit_confirm.config.screen.forceTransparentBackground": "Force Transparent Background in Close Prompt",
+  "exit_confirm.config.screen.allowNarrator": "Allow Narrator in Close Prompt",
+  "exit_confirm.config.screen.confirmDelay": "Close Confirmation Delay in Ticks",
+  "exit_confirm.config.prompt.disconnect": "Disconnect Confirmation",
+  "screen.disconnect_confirm.title": "Disconnect Confirmation",
+  "screen.disconnect_confirm.description": "Are you sure you want to disconnect?"
 }

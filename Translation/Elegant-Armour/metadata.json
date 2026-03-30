@@ -11,6 +11,15 @@
   },
   "contents": {
     "tiers": {
+      "1.19": {
+        "versions": [
+          "<=1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "fabric"
+        }
+      },
       "1.21": {
         "versions": [
           "<=1.21",
@@ -20,16 +29,17 @@
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
-      },
-      "1.19": {
-        "versions": [
-          "<=1.19"
-        ],
-        "source": {
-          "game_version": "1.19.2",
-          "loader": "fabric"
-        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:21Z",
+    "translation_progress": {
+      "1.19": 100,
+      "overall": 50
+    },
+    "mod_versions": {
+      "1.19": "elegantarmour-1.0-SNAPSHOT.jar"
     }
   }
 }

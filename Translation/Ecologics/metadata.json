@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:19Z",
+    "translation_progress": {
+      "1.21": 96.09,
+      "overall": 96.09
+    },
+    "mod_versions": {
+      "1.21": "Ecologics 2.3.3 (NeoForge 1.21.1)"
+    }
   }
 }
