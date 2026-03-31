@@ -74,7 +74,6 @@
 
   "tooltip.mysticalagradditions.drop_chance": "%s Drop Chance",
   "tooltip.mysticalagradditions.gives_buffs": "Gives Buffs:",
-  "tooltip.mysticalagradditions.buff_line": " - %s (%s)",
 
   "jei.desc.mysticalagradditions.withering_soul": "Dropped by the Wither upon death.",
   "jei.desc.mysticalagradditions.dragon_scale": "Dropped by the Ender Dragon upon death.",

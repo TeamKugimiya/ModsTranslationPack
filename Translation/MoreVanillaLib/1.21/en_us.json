@@ -1,7 +1,5 @@
 {
-  "itemGroup.morevanillalib": "MoreVanillaLib",
-
-  "death.attack.paperCut": "%1$s was cut to death with paper",
+  "death.attack.paperCut.message": "%1$s was cut to death with paper",
 
   "jei.morevanillalib.bone_heads.desc": "If you kill a (wither) skeleton, there is a %d%% chance to get a head dropped.",
   "jei.morevanillalib.extra_drop.desc": "If you use one of these tools, the corresponding repairing item will be dropped with a chance of %d%%.",
@@ -23,7 +21,29 @@
   "jei.morevanillalib.slime_damage.desc": "If you kill a slime with these tools, you have a %d%% chance to make up to %d%% more damage.",
 
   "tooltip.morevanillalib.durability": "Durability: %s",
-  "tooltip.morevanillalib.harvest_level": "Harvest Level: %s",
   "tooltip.morevanillalib.repairing_item": "Repairing Item: %s",
-  "tooltip.morevanillalib.more_information": "Press Shift for more information"
+  "tooltip.morevanillalib.more_information": "Press Shift for more information",
+
+  "tag.item.morevanillalib.tools": "MoreVanillaTools",
+  "tag.item.morevanillalib.tools.bone": "Bone Tools",
+  "tag.item.morevanillalib.tools.coal": "Coal Tools",
+  "tag.item.morevanillalib.tools.copper": "Copper Tools",
+  "tag.item.morevanillalib.tools.diamond": "Diamond Tools",
+  "tag.item.morevanillalib.tools.emerald": "Emerald Tools",
+  "tag.item.morevanillalib.tools.ender": "Ender Tools",
+  "tag.item.morevanillalib.tools.fiery": "Fiery Tools",
+  "tag.item.morevanillalib.tools.glowstone": "Glowstone Tools",
+  "tag.item.morevanillalib.tools.gold": "Golden Tools",
+  "tag.item.morevanillalib.tools.iron": "Iron Tools",
+  "tag.item.morevanillalib.tools.lapis": "Lapis Tools",
+  "tag.item.morevanillalib.tools.nether": "Nether Tools",
+  "tag.item.morevanillalib.tools.netherite": "Netherite Tools",
+  "tag.item.morevanillalib.tools.obsidian": "Obsidian Tools",
+  "tag.item.morevanillalib.tools.paper": "Paper Tools",
+  "tag.item.morevanillalib.tools.prismarine": "Prismarine Tools",
+  "tag.item.morevanillalib.tools.quartz": "Quartz Tools",
+  "tag.item.morevanillalib.tools.redstone": "Redstone Tools",
+  "tag.item.morevanillalib.tools.slime": "Slime Tools",
+  "tag.item.morevanillalib.tools.stone": "Stone Tools",
+  "tag.item.morevanillalib.tools.wood": "Wooden Tools"
 }

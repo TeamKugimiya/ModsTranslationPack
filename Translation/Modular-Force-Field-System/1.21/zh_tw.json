@@ -1,6 +1,6 @@
 {
   "itemGroup.mffs.main": "模組化力場系統",
-  
+
   "info.mffs.coercion_deriver.mode.integrate": "整合",
   "info.mffs.coercion_deriver.mode.derive": "衍生",
   "info.mffs.link": "已連結至%s【%s】",
@@ -35,11 +35,11 @@
   "info.mffs.show_details": "按住 %s 取得詳細資訊",
   "info.mffs.key.shift": "Shift",
   "info.mffs.fortron_usage": "力場子：%s L/s",
-  "info.mffs.handbook.title": "《模組化力場系統》指南手冊", 
-  "info.mffs.handbook.landing_text": "歡迎閱讀《模組化力場系統》遊戲內使用者指南，本指南旨在協助你探索複雜的力場科技世界。<br><br>內容涵蓋力場、高科技機械，以及防禦措施。讓我們開始吧！", 
-  
+  "info.mffs.handbook.title": "《模組化力場系統》指南手冊",
+  "info.mffs.handbook.landing_text": "歡迎閱讀《模組化力場系統》遊戲內使用者指南，本指南旨在協助你探索複雜的力場科技世界。<br><br>內容涵蓋力場、高科技機械，以及防禦措施。讓我們開始吧！",
+
   "death.attack.mffs.field_shock": "%1$s 被力場崩解了。",
-  
+
   "block.mffs.machine_block": "基礎機器方塊",
   "block.mffs.force_field": "力場",
   "block.mffs.projector": "力場投影儀",
@@ -47,7 +47,7 @@
   "block.mffs.fortron_capacitor": "力場子容庫",
   "block.mffs.biometric_identifier": "生物識別儀",
   "block.mffs.interdiction_matrix": "攔截矩陣",
-  
+
   "item.mffs.remote_controller": "遠端控制器",
   "item.mffs.remote_controller.description": "提供機器的遠端存取功能。蹲下時對著機器右鍵使用來進行連結。",
   "item.mffs.cube_mode": "立方體模式",
@@ -70,7 +70,7 @@
   "item.mffs.custom_mode.changed_mode": "已選擇模式：%s",
   "item.mffs.custom_mode.clear": "力場結構已清除",
   "item.mffs.custom_mode.too_far": "選擇的位置太遠了！距離必須在 %s 格方塊以內。",
-  
+
   "item.mffs.camouflage_module": "偽裝模組",
   "item.mffs.camouflage_module.description": "將自訂的外觀模型，套用在力場方塊。",
   "item.mffs.capacity_module": "容量模組",
@@ -119,7 +119,7 @@
   "item.mffs.anti_spawn_module.description": "防止實體在特定區域內生成。",
   "item.mffs.confiscation_module": "沒收模組",
   "item.mffs.confiscation_module.description": "沒收入侵者的物品。",
-  
+
   "item.mffs.focus_matrix": "聚焦矩陣",
   "item.mffs.battery": "電池",
   "item.mffs.steel_compound": "鋼混合物",
@@ -131,9 +131,9 @@
   "item.mffs.infinite_power_card.description": "創造模式專用物品，放入力場子容庫內可提供無限能量。",
   "item.mffs.frequency_card": "頻率卡",
   "item.mffs.frequency_card.description": "用於簡化頻率傳輸。蹲下時右鍵使用可產生隨機頻率。",
-  
+
   "sounds.mffs.field": "力場聲",
-  
+
   "fluid_type.mffs.fortron": "力場子",
 
   "mffs.projector_menu.mode": "模式",
@@ -145,7 +145,7 @@
   "mffs.projector_menu.east": "東",
   "mffs.confiscation_mode.blacklist": "違禁物品",
   "mffs.confiscation_mode.whitelist": "允許物品",
-  
+
   "screen.mffs.frequency": "頻率：",
   "screen.mffs.frequency.tooltip": "擁有相同頻率的機器，將共享力場子能量。 ",
   "screen.mffs.matrix": "矩陣",
@@ -172,7 +172,7 @@
   "screen.mffs.warn_range": "警告範圍：%s",
   "screen.mffs.action_range": "運作範圍：%s",
   "screen.mffs.filter_mode": "篩選模式：",
-  
+
   "advancements.mffs.root.title": "模組化力場系統",
   "advancements.mffs.root.description": "進入力場的世界！",
   "advancements.mffs.steel_compound.title": "堅固的混合物",

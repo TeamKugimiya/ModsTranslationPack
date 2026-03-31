@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:32Z",
+    "translation_progress": {
+      "1.21": 80,
+      "overall": 80
+    },
+    "mod_versions": {
+      "1.21": "miniatures-neoforge-1.21-1.6.10.31"
+    }
   }
 }

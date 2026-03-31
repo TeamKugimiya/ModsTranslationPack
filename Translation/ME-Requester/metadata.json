@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:27Z",
+    "translation_progress": {
+      "1.21": 66.67,
+      "overall": 66.67
+    },
+    "mod_versions": {
+      "1.21": "MERequester-NeoForge-1.21.1-1.4.2"
+    }
   }
 }

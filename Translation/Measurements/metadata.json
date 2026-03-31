@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:24Z",
+    "translation_progress": {
+      "1.21": 46.67,
+      "overall": 46.67
+    },
+    "mod_versions": {
+      "1.21": "Measurements-neoforge-1.21.1-3.0.3.jar"
+    }
   }
 }

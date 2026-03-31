@@ -29,7 +29,7 @@
   "mob_grinding_utils.jei.any_experience": "接收任何：forge:experience",
 
   "_comment": "JEI Titles",
-  "mob_grinding_utiles.jei.solidifier" : "固化器配方",
+  "mob_grinding_utiles.jei.solidifier": "固化器配方",
 
   "_comment": "Jei Info Tabs",
   "block.mob_grinding_utils.jumbo_tank.jei.info": "奇異儲罐的更大容量版本，可容納多達 1024 桶任意流體。",
@@ -139,7 +139,7 @@
   "block.mob_grinding_utils.xpsolidifier.tooltip_4": "安裝經驗速度升級將可以提升運作效率。",
 
   "block.mob_grinding_utils.solid_xp_block.tooltip_1": "富有彈性。",
-  
+
   "block.mob_grinding_utils.entity_spawner.tooltip_1": "在 3x3x1 範圍內生成生物。",
   "block.mob_grinding_utils.entity_spawner.tooltip_2": "需在頂部欄位中放入欲生成生物的生怪蛋。",
   "block.mob_grinding_utils.entity_spawner.tooltip_3": "需使用經驗軟糖作為機器燃料。",
@@ -164,16 +164,16 @@
   "tooltip.mobswab_2": "與種子、液態經驗桶放在一起合成。",
   "tooltip.mobswab_3": "含有：",
 
-  "tooltip.sawupgrade_sharpness": "鋒利：+1；安裝上限：10。",
-  "tooltip.sawupgrade_looting": "掠奪：+1；安裝上限：10。",
-  "tooltip.sawupgrade_fire": "燃燒：+1；安裝上限：10。",
-  "tooltip.sawupgrade_smite": "不死剋星：+1；安裝上限：10。",
-  "tooltip.sawupgrade_arthropods": "節肢剋星：+1；安裝上限：10。",
-  "tooltip.sawupgrade_beheading": "斬首：+1；安裝上限：10。",
+  "tooltip.sawupgrade_sharpness": "鋒利：+1；安裝上限：%d。",
+  "tooltip.sawupgrade_looting": "掠奪：+1；安裝上限：%d。",
+  "tooltip.sawupgrade_fire": "燃燒：+1；安裝上限：%d。",
+  "tooltip.sawupgrade_smite": "不死剋星：+1；安裝上限：%d。",
+  "tooltip.sawupgrade_arthropods": "節肢剋星：+1；安裝上限：%d。",
+  "tooltip.sawupgrade_beheading": "斬首：+1；安裝上限：%d。",
 
   "tooltip.rotten_egg_1": "將 5x5 區域轉變為恐懼之土。",
   "tooltip.rotten_egg_2": "可使用在草地、泥土、菌絲土和耕地上。",
-  
+
   "tooltip.golden_egg_1": "將 5x5 區域轉變為祈福之土。",
   "tooltip.golden_egg_2": "可使用在草地、泥土、菌絲土和耕地上。",
 

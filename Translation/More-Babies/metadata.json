@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:40Z",
+    "translation_progress": {
+      "1.21": 78.72,
+      "overall": 78.72
+    },
+    "mod_versions": {
+      "1.21": "[NEOFORGE] [1.21.1] More Babies 2.0.0"
+    }
   }
 }

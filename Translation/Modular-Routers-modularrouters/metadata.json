@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:39Z",
+    "translation_progress": {
+      "1.21": 90.57,
+      "overall": 90.57
+    },
+    "mod_versions": {
+      "1.21": "\"Modular Routers\" 13.2.4 MC-1.21.1"
+    }
   }
 }

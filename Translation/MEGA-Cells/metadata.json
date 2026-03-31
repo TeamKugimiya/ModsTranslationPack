@@ -11,6 +11,15 @@
   },
   "contents": {
     "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
       "1.21": {
         "versions": [
           "<=1.21",
@@ -20,16 +29,19 @@
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
-      },
-      "1.18": {
-        "versions": [
-          "1.18"
-        ],
-        "source": {
-          "game_version": "1.18.2",
-          "loader": "forge"
-        }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:25Z",
+    "translation_progress": {
+      "1.18": 100,
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.18": "1.4.2 (MC 1.18.2)",
+      "1.21": "4.10.2 (NeoForge 1.21.1)"
     }
   }
 }

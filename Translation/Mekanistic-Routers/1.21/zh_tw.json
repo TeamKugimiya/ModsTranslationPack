@@ -1,9 +1,9 @@
 {
-  "mekanisticrouters.guiText.popup.chemical.direction" : "§a§n傳輸方向§r\n\n此處可用來控制路由器的傳輸方向，\n\n例如發送化學物質，或從其他容器接收化學物質。",
-  "mekanisticrouters.guiText.popup.chemical.maxTransfer" : "§a§n傳輸上限§r\n\n設定路由器每次運作時，傳輸化學物質的最大流量。\n\n請注意：實際傳輸率仍受限於「化學傳輸升級」\n的數量，或外部化學儲罐的傳輸率。\n\n因此，此數值應視為上限值，而非保證傳輸量。",
+  "mekanisticrouters.guiText.popup.chemical.direction": "§a§n傳輸方向§r\n\n此處可用來控制路由器的傳輸方向，\n\n例如發送化學物質，或從其他容器接收化學物質。",
+  "mekanisticrouters.guiText.popup.chemical.maxTransfer": "§a§n傳輸上限§r\n\n設定路由器每次運作時，傳輸化學物質的最大流量。\n\n請注意：實際傳輸率仍受限於「化學傳輸升級」\n的數量，或外部化學儲罐的傳輸率。\n\n因此，此數值應視為上限值，而非保證傳輸量。",
 
-  "mekanisticrouters.itemText.chemical.maxTransfer" : "化學物質傳輸率：最高 %s mB / 運作",
-  "mekanisticrouters.guiText.tooltip.chemicalTransferTooltip" : "§b化學傳輸上限§r\n每次運作嘗試傳輸的最大流量（mB）。\n仍受限於路由器的整體傳輸率\n（受化學傳輸與速度升級影響）。",
+  "mekanisticrouters.itemText.chemical.maxTransfer": "化學物質傳輸率：最高 %s mB / 運作",
+  "mekanisticrouters.guiText.tooltip.chemicalTransferTooltip": "§b化學傳輸上限§r\n每次運作嘗試傳輸的最大流量（mB）。\n仍受限於路由器的整體傳輸率\n（受化學傳輸與速度升級影響）。",
 
   "item.mekanisticrouters.chemical_module_mk2": "化學模組 Mk2",
   "item.mekanisticrouters.chemical_module_mk1": "化學模組",

@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:45Z",
+    "translation_progress": {
+      "1.21": 99.04,
+      "overall": 99.04
+    },
+    "mod_versions": {
+      "1.21": "MysticalAgradditions-1.21.1-8.0.13.jar"
+    }
   }
 }

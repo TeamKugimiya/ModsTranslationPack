@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:34Z",
+    "translation_progress": {
+      "1.21": 95.21,
+      "overall": 95.21
+    },
+    "mod_versions": {
+      "1.21": "mob_grinding_utils-1.1.10+mc1.21.1.jar"
+    }
   }
 }

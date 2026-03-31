@@ -164,12 +164,12 @@
   "tooltip.mobswab_2": "Craft with a Bucket of XP and Seeds.",
   "tooltip.mobswab_3": "Contains:",
 
-  "tooltip.sawupgrade_sharpness": "Sharpness: +1. Max of 10.",
-  "tooltip.sawupgrade_looting": "Looting: +1. Max of 10.",
-  "tooltip.sawupgrade_fire": "Fire Aspect: +1. Max of 10.",
-  "tooltip.sawupgrade_smite": "Smite: +1. Max of 10.",
-  "tooltip.sawupgrade_arthropods": "Bane of Arthropods: +1. Max of 10.",
-  "tooltip.sawupgrade_beheading": "Beheading: +1. Max of 10.",
+  "tooltip.sawupgrade_sharpness": "Sharpness: +1. Max of %d.",
+  "tooltip.sawupgrade_looting": "Looting: +1. Max of %d.",
+  "tooltip.sawupgrade_fire": "Fire Aspect: +1. Max of %d.",
+  "tooltip.sawupgrade_smite": "Smite: +1. Max of %d.",
+  "tooltip.sawupgrade_arthropods": "Bane of Arthropods: +1. Max of %d.",
+  "tooltip.sawupgrade_beheading": "Beheading: +1. Max of %d.",
 
   "tooltip.rotten_egg_1": "Creates a 5x5 area of Dreadful Dirt.",
   "tooltip.rotten_egg_2": "Used on Grass, Dirt, Mycelum, or Farmland.",
