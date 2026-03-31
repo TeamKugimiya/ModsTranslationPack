@@ -20,5 +20,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:43:43Z",
+    "translation_progress": {
+      "1.21": 75,
+      "overall": 75
+    },
+    "mod_versions": {
+      "1.21": "Luggage 1.6.12 - NeoForge 1.21"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
 	"entity.luggage.luggage": "行李箱怪",
+	"entity.luggage.ender_luggage": "Ender Luggage",
+	"entity.luggage.player_doesnt_own": "You don't own this Luggage!",
 	"item.luggage.luggage": "行李箱怪",
+	"item.luggage.ender_luggage": "Ender Luggage",
 	"keybind.luggage.wait": "命令附近的行李箱怪待命",
 	"keybind.luggage.call": "呼叫行李箱怪",
 	"subtitles.luggage.entity.luggage.killed": "行李箱怪破碎",

@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:48:42Z",
+    "translation_progress": {
+      "1.21": 58.06,
+      "overall": 58.06
+    },
+    "mod_versions": {
+      "1.21": "Candlelight - 2.1.12 - NEOFORGE - 1.21.1"
+    }
   }
 }
