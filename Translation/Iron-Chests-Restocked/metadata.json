@@ -1,6 +1,7 @@
 {
   "schema_version": "1.2",
   "mod_id": "ironchests",
+  "archived": true,
   "display_name": {
     "en": "Iron Chests: Restocked"
   },

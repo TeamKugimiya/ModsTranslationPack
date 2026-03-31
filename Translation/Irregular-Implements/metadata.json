@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T16:06:45Z",
+    "translation_progress": {
+      "1.21": 97.41,
+      "overall": 97.41
+    },
+    "mod_versions": {
+      "1.21": "Irregular Implements 1.21.1 1.10.0-build.213"
+    }
   }
 }

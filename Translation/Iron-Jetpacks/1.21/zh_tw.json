@@ -14,6 +14,7 @@
 
   "keybind.ironjetpacks.engine": "開關引擎",
   "keybind.ironjetpacks.hover": "開關滯空模式",
+  "keybind.ironjetpacks.hud": "開關HUD",
   "keybind.ironjetpacks.ascend": "上升",
   "keybind.ironjetpacks.descend": "下降",
   "keybind.ironjetpacks.increment_throttle": "提高氣閥流量",
@@ -26,6 +27,7 @@
   "tooltip.ironjetpacks.infinite": "無限",
   "tooltip.ironjetpacks.engine": "引擎",
   "tooltip.ironjetpacks.hover": "滯空",
+  "tooltip.ironjetpacks.hud": "HUD",
   "tooltip.ironjetpacks.tier": "等級 %s",
   "tooltip.ironjetpacks.throttle": "氣閥：%s",
   "tooltip.ironjetpacks.fuel_usage": "燃料使用量：%s",
@@ -40,7 +42,8 @@
   "tooltip.ironjetpacks.sprint_fuel_modifier": "跑步燃料消耗加成：%s",
   "tooltip.ironjetpacks.toggle_engine": "引擎：%s",
   "tooltip.ironjetpacks.toggle_hover": "滯空模式：%s",
+  "tooltip.ironjetpacks.toggle_hud": "Toggled HUD %s",
   "tooltip.ironjetpacks.change_throttle": "氣閥流量：%s",
-  "tooltip.ironjetpacks.state_tooltip_layout": "%s｜%s｜%s",
+  "tooltip.ironjetpacks.state_tooltip_layout": "%s | %s | %s | %s",
   "tooltip.ironjetpacks.jetpack_id": "噴氣背包 ID：%s"
 }

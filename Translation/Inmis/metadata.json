@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-30T16:06:37Z",
+    "translation_progress": {
+      "1.21": 93.55,
+      "overall": 93.55
+    },
+    "mod_versions": {
+      "1.21": "inmis-2.8.2-1.21.1.jar"
+    }
   }
 }
