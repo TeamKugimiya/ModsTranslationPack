@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:35:08Z",
+    "translation_progress": {
+      "1.21": 96.88,
+      "overall": 96.88
+    },
+    "mod_versions": {
+      "1.21": "[NEOFORGE] Just Hammers 21.1.4"
+    }
   }
 }

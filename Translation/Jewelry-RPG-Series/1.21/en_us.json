@@ -6,6 +6,7 @@
   "block.jewelry.jewelers_kit.hint": "Workbench for Jeweler Villagers.",
 
   "entity.minecraft.villager.jeweler": "Jeweler",
+  "entity.minecraft.villager.jewelry.jeweler": "Jeweler",
 
   "item.jewelry.ruby": "Ruby",
   "item.jewelry.topaz": "Topaz",
@@ -17,8 +18,10 @@
   "item.jewelry.copper_ring": "Copper Ring",
   "item.jewelry.iron_ring": "Iron Ring",
   "item.jewelry.gold_ring": "Gold Ring",
+  "item.jewelry.gold_ring.lore": "Shows affection to your loved one.",
   "item.jewelry.emerald_necklace": "Emerald Necklace",
   "item.jewelry.diamond_necklace": "Diamond Necklace",
+  "item.jewelry.diamond_ring": "Diamond Ring",
 
   "item.jewelry.ruby_ring": "Ruby Ring",
   "item.jewelry.topaz_ring": "Topaz Ring",
@@ -53,7 +56,7 @@
 
   "item.jewelry.unique_dex_ring": "Angelista's Revenge",
   "item.jewelry.unique_dex_ring.lore": "They won't see you coming, but they'll definitely see you leaving.",
-  "item.jewelry.unique_dex_necklace": "Medallion of Disdain",
+  "item.jewelry.unique_dex_necklace": "Chocker of Vile Intent",
   "item.jewelry.unique_dex_necklace.lore": "Be careful not to choke on your aspirations.",
 
   "item.jewelry.unique_archer_ring": "Thalassian Ranger Band",
@@ -66,15 +69,15 @@
   "item.jewelry.unique_tank_necklace": "Sentinel's Amulet",
   "item.jewelry.unique_tank_necklace.lore": "Bulwark for protectors' heart.",
 
-  "item.jewelry.unique_arcane_ring": "Ring of Omnipotence",
-  "item.jewelry.unique_arcane_ring.lore": "The energy of the universe flows through this ring.",
+  "item.jewelry.unique_arcane_ring": "Ring of Subjugation",
+  "item.jewelry.unique_arcane_ring.lore": "Designed for destruction!",
   "item.jewelry.unique_arcane_necklace": "Amulet of Unfettered Magics",
   "item.jewelry.unique_arcane_necklace.lore": "The inscriptions glow to brightly to read, maybe something about radiation?",
 
   "item.jewelry.unique_fire_ring": "Sunflare Signet",
   "item.jewelry.unique_fire_ring.lore": "Delicate elven design, forged in the heart of the Sunwell.",
   "item.jewelry.unique_fire_necklace": "Pendant of Sunfire",
-  "item.jewelry.unique_fire_necklace.lore": "A gift from the owner of Magister's Terrace, to the greatest wizards.",
+  "item.jewelry.unique_fire_necklace.lore": "Ancient gift from the Magister's Terrace.",
 
   "item.jewelry.unique_frost_ring": "Permafrost Stone",
   "item.jewelry.unique_frost_ring.lore": "Times change, but this piece remains.",
@@ -94,5 +97,15 @@
   "item.jewelry.unique_soul_ring": "Signet of Captured Souls",
   "item.jewelry.unique_soul_ring.lore": "Not to be shattered, the souls inside are kept there for a reason.",
   "item.jewelry.unique_soul_necklace": "Occult Necklace",
-  "item.jewelry.unique_soul_necklace.lore": "The attached fangs hint at something truly sinister."
+  "item.jewelry.unique_soul_necklace.lore": "The attached fangs hint at something truly sinister.",
+
+  "item.jewelry.unique_spell_ring": "Ring of Omnipotence",
+  "item.jewelry.unique_spell_ring.lore": "The energy of the universe flows through this ring.",
+  "item.jewelry.unique_spell_necklace": "Pendant of Acumen",
+  "item.jewelry.unique_spell_necklace.lore": "Focuses the mind, sharpens the senses.",
+
+  "item.jewelry.unique_crit_ring": "Ring of Suffering",
+  "item.jewelry.unique_crit_ring.lore": "Each blow hurts twice. Once to give, once to remember.",
+  "item.jewelry.unique_crit_necklace": "Necklace of Anguish",
+  "item.jewelry.unique_crit_necklace.lore": "The screams stopped long ago, but the echo still seems to hit a weak spot."
 }

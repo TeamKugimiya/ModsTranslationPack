@@ -6,6 +6,7 @@
   "block.jewelry.jewelers_kit.hint": "珠寶匠村民的工作站",
 
   "entity.minecraft.villager.jeweler": "珠寶匠",
+  "entity.minecraft.villager.jewelry.jeweler": "Jeweler",
 
   "item.jewelry.ruby": "紅寶石",
   "item.jewelry.topaz": "黃玉",
@@ -17,8 +18,10 @@
   "item.jewelry.copper_ring": "銅製戒指",
   "item.jewelry.iron_ring": "鐵製戒指",
   "item.jewelry.gold_ring": "黃金戒指",
+  "item.jewelry.gold_ring.lore": "Shows affection to your loved one.",
   "item.jewelry.emerald_necklace": "綠寶石項鍊",
   "item.jewelry.diamond_necklace": "鑽石項鍊",
+  "item.jewelry.diamond_ring": "Diamond Ring",
 
   "item.jewelry.ruby_ring": "紅寶石戒指",
   "item.jewelry.topaz_ring": "黃玉戒指",
@@ -53,7 +56,7 @@
 
   "item.jewelry.unique_dex_ring": "安格莉絲塔的復仇",
   "item.jewelry.unique_dex_ring.lore": "他們不會察覺你的出現，但肯定會察覺你的離去",
-  "item.jewelry.unique_dex_necklace": "高傲勛章",
+  "item.jewelry.unique_dex_necklace": "Chocker of Vile Intent",
   "item.jewelry.unique_dex_necklace.lore": "小心別被你的野心扼住喉嚨",
 
   "item.jewelry.unique_archer_ring": "薩拉斯遊俠指環",
@@ -66,15 +69,15 @@
   "item.jewelry.unique_tank_necklace": "哨兵護符",
   "item.jewelry.unique_tank_necklace.lore": "守護者內心的堡壘",
 
-  "item.jewelry.unique_arcane_ring": "全能之戒",
-  "item.jewelry.unique_arcane_ring.lore": "流轉著宇宙的能量",
+  "item.jewelry.unique_arcane_ring": "Ring of Subjugation",
+  "item.jewelry.unique_arcane_ring.lore": "Designed for destruction!",
   "item.jewelry.unique_arcane_necklace": "自由魔法護符",
   "item.jewelry.unique_arcane_necklace.lore": "刻文的光芒太過刺眼，以至於無法閱讀，或許與輻射有關？",
 
   "item.jewelry.unique_fire_ring": "日炎圖章戒指",
   "item.jewelry.unique_fire_ring.lore": "精緻的精靈設計物，在太陽之井的中心鑄造而成",
   "item.jewelry.unique_fire_necklace": "日炎垂飾",
-  "item.jewelry.unique_fire_necklace.lore": "魔導師平臺的主人送給最偉大的魔法師的禮物",
+  "item.jewelry.unique_fire_necklace.lore": "Ancient gift from the Magister's Terrace.",
 
   "item.jewelry.unique_frost_ring": "永凍之霜石",
   "item.jewelry.unique_frost_ring.lore": "時光流逝，此物長存",
@@ -94,5 +97,15 @@
   "item.jewelry.unique_soul_ring": "囚魂圖章戒指",
   "item.jewelry.unique_soul_ring.lore": "切勿打破，其中的靈魂會被囚禁是有原因的",
   "item.jewelry.unique_soul_necklace": "神秘項鍊",
-  "item.jewelry.unique_soul_necklace.lore": "附著的尖牙預示著某種真正的邪惡"
+  "item.jewelry.unique_soul_necklace.lore": "附著的尖牙預示著某種真正的邪惡",
+
+  "item.jewelry.unique_spell_ring": "Ring of Omnipotence",
+  "item.jewelry.unique_spell_ring.lore": "The energy of the universe flows through this ring.",
+  "item.jewelry.unique_spell_necklace": "Pendant of Acumen",
+  "item.jewelry.unique_spell_necklace.lore": "Focuses the mind, sharpens the senses.",
+
+  "item.jewelry.unique_crit_ring": "Ring of Suffering",
+  "item.jewelry.unique_crit_ring.lore": "Each blow hurts twice. Once to give, once to remember.",
+  "item.jewelry.unique_crit_necklace": "Necklace of Anguish",
+  "item.jewelry.unique_crit_necklace.lore": "The screams stopped long ago, but the echo still seems to hit a weak spot."
 }
