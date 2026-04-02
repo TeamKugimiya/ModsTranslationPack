@@ -10,43 +10,33 @@
   "gui.numismatic-overhaul.shop.price": "價格",
   "gui.numismatic-overhaul.shop.inventory_title": "商店庫存",
   "gui.numismatic-overhaul.shop.merchant_title": "商店",
-  "gui.numismatic-overhaul.shop.transfer_tooltip.enabled": [
-    "漏斗",
-    {
-      "text": "可",
-      "color": "#28FFBF"
-    },
-    "傳輸\n物品到此商店"
-  ],
-  "gui.numismatic-overhaul.shop.transfer_tooltip.disabled": [
-    "漏斗",
-    {
-      "text": "無法",
-      "color": "#EB1D36"
-    },
-    "傳輸\n物品到此商店"
-  ],
+  "gui.numismatic-overhaul.shop.transfer_tooltip.enabled": ["漏斗",{"color":"#28FFBF","text":"可"},"傳輸\n物品到此商店"],
+  "gui.numismatic-overhaul.shop.transfer_tooltip.disabled": ["漏斗",{"color":"#EB1D36","text":"無法"},"傳輸\n物品到此商店"],
   "gui.numismatic-overhaul.purse_title": "錢包",
   "numismatic-overhaul.empty": "空",
   "filled_map.end_city": "終界探險家地圖",
   "currency.numismatic-overhaul.bronze": "枚青銅幣",
   "currency.numismatic-overhaul.silver": "枚銀幣",
   "currency.numismatic-overhaul.gold": "枚金幣",
-
   "itemGroup.numismatic-overhaul.main": "貨幣翻修",
   "itemGroup.numismatic-overhaul.main.button.modrinth": "Modrinth",
   "itemGroup.numismatic-overhaul.main.button.curseforge": "CurseForge",
   "itemGroup.numismatic-overhaul.main.button.github": "GitHub",
   "itemGroup.numismatic-overhaul.main.button.discord": "Discord",
-
   "text.config.numismatic-overhaul.title": "《貨幣翻修》設定",
   "text.config.numismatic-overhaul.option.enableVillagerTrading": "啟用村民交易",
   "text.config.numismatic-overhaul.option.enableMcaCompatibility": "啟用 MCA 相容",
-  "text.config.numismatic-overhaul.option.pursePositionX": "錢包的 X 座標",
-  "text.config.numismatic-overhaul.option.pursePositionY": "錢包的 Y 座標",
-  "text.config.numismatic-overhaul.option.generateCurrencyInChests": "在戰利品儲物箱內生成貨幣 ",
 
+  "text.config.numismatic-overhaul.category.purseOffsets": "Purse offsets",
+  "text.config.numismatic-overhaul.option.purseOffsets.survivalX": "Survival - X",
+  "text.config.numismatic-overhaul.option.purseOffsets.survivalY": "Survival - Y",
+  "text.config.numismatic-overhaul.option.purseOffsets.creativeX": "Creative - X",
+  "text.config.numismatic-overhaul.option.purseOffsets.creativeY": "Creative - Y",
+
+  "text.config.numismatic-overhaul.option.purseOffsets.merchantX": "Merchants - X",
+  "text.config.numismatic-overhaul.option.purseOffsets.merchantY": "Merchants - Y",
   "text.config.numismatic-overhaul.category.lootOptions": "戰利品生成",
+
   "text.config.numismatic-overhaul.option.lootOptions.desertMinLoot": "沙漠神殿內的最低貨幣量",
   "text.config.numismatic-overhaul.option.lootOptions.desertMaxLoot": "沙漠神殿內的最高貨幣量",
   "text.config.numismatic-overhaul.option.lootOptions.dungeonMinLoot": "地牢內的最低貨幣量",
@@ -54,14 +44,23 @@
   "text.config.numismatic-overhaul.option.lootOptions.structureMinLoot": "結構內的最低貨幣量",
   "text.config.numismatic-overhaul.option.lootOptions.structureMaxLoot": "結構內的最高貨幣量",
   "text.config.numismatic-overhaul.option.lootOptions.strongholdLibraryMinLoot": "要塞圖書館內的最低貨幣量",
-  "text.config.numismatic-overhaul.option.lootOptions.strongholdLibraryMaxLoot": "要塞圖書館內的最高貨幣量",
 
+  "text.config.numismatic-overhaul.option.lootOptions.strongholdLibraryMaxLoot": "要塞圖書館內的最高貨幣量",
+  "text.config.numismatic-overhaul.option.generateCurrencyInChests": "在戰利品儲物箱內生成貨幣 ",
   "text.config.numismatic-overhaul.option.moneyMessageLocation": "貨幣訊息位置",
   "text.config.numismatic-overhaul.option.moneyMessageLocation.tooltip": "決定貨幣通知出現的位置（需要重新進入世界才能套用）",
   "text.config.numismatic-overhaul.enum.moneyMessageLocation.actionbar": "動作欄",
   "text.config.numismatic-overhaul.enum.moneyMessageLocation.chat": "聊天欄",
   "text.config.numismatic-overhaul.enum.moneyMessageLocation.disabled": "關閉",
+  "text.config.numismatic-overhaul.option.scaleOnHealth": "Scale mob money drops on health",
+  "text.config.numismatic-overhaul.option.scaleOnHealth.tooltip": "Scales the money dropped based on the mobs max health. Money dropped this way is multiplied by '(mob max health) / (20)'",
 
+  "text.config.numismatic-overhaul.option.healthScaleReduction": "Mob Health Scale Factor",
+  "text.config.numismatic-overhaul.option.healthScaleReduction.tooltip": "Reduces the scaling of money drops on health by this factor. Practically divides the value by this factor.",
+  "gamerule.moneyMobDropVariancePercentage": "Mob money drop variance percentage",
+  "gamerule.moneyMobDropVariancePercentage.description": "Controls the variance of money dropped by mobs. By default a value of 50 means that the base value will be multiplied by 50%-150% randomly.",
   "gamerule.moneyDropPercentage": "貨幣掉落百分比",
-  "gamerule.moneyDropPercentage.description": "控制玩家死亡時掉落的貨幣金額，需將 keepInventory（死亡後保留物品欄）設為 false"
+  "gamerule.moneyDropPercentage.description": "控制玩家死亡時掉落的貨幣金額，需將 keepInventory（死亡後保留物品欄）設為 false",
+
+  "container.numismatic-overhaul.piggy_bank": "Piggy Bank"
 }

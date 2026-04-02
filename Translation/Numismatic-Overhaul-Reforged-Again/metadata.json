@@ -1,13 +1,12 @@
 {
   "schema_version": "1.2",
-  "mod_id": "netherchested",
+  "mod_id": "numismaticoverhaul",
   "display_name": {
-    "en": "Nether Chested"
+    "en": "Numismatic Overhaul: Reforged Again"
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "857971",
-    "modrinth": "bHJp2GRg"
+    "curseforge": "1294551"
   },
   "contents": {
     "tiers": {
@@ -23,13 +22,13 @@
     }
   },
   "status": {
-    "last_synced": "2026-04-02T14:39:17Z",
+    "last_synced": "2026-04-02T14:51:46Z",
     "translation_progress": {
-      "1.21": 100,
-      "overall": 100
+      "1.21": 90.24,
+      "overall": 90.24
     },
     "mod_versions": {
-      "1.21": "[NEOFORGE] [1.21.1] NetherChested-v21.1.1"
+      "1.21": "numismaticoverhaul-1.21.1-2.0.1.jar"
     }
   }
 }

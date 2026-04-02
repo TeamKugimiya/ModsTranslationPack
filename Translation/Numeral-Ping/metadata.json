@@ -5,8 +5,7 @@
     "en": "Numeral Ping"
   },
   "remote": {
-    "primary": "curseforge",
-    "curseforge": "559653",
+    "primary": "modrinth",
     "modrinth": "XLd8Sh64"
   },
   "contents": {
@@ -16,10 +15,20 @@
           "<=1.21"
         ],
         "source": {
-          "game_version": "1.21.4",
+          "game_version": "1.21.11",
           "loader": "fabric"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-04-02T14:54:25Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "1.2.8"
     }
   }
 }

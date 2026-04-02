@@ -1,13 +1,13 @@
 {
   "schema_version": "1.2",
-  "mod_id": "numismatic-overhaul",
+  "mod_id": "nuit",
   "display_name": {
-    "en": "Numismatic Overhaul"
+    "en": "Nuit"
   },
   "remote": {
-    "primary": "curseforge",
-    "curseforge": "568316",
-    "modrinth": "ZXm8hVxN"
+    "primary": "modrinth",
+    "curseforge": "408209",
+    "modrinth": "HpdHOPOp"
   },
   "contents": {
     "tiers": {

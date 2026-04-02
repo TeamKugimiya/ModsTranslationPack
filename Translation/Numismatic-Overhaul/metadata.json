@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "mod_id": "numismaticoverhaul",
+  "mod_id": "numismatic-overhaul",
   "display_name": {
     "en": "Numismatic Overhaul"
   },
@@ -20,6 +20,16 @@
           "loader": "fabric"
         }
       }
+    }
+  },
+  "status": {
+    "last_synced": "2026-04-02T14:51:27Z",
+    "translation_progress": {
+      "1.21": 68.97,
+      "overall": 68.97
+    },
+    "mod_versions": {
+      "1.21": "[1.21.1] Numismatic Overhaul - 0.3.5"
     }
   }
 }
