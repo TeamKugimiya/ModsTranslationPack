@@ -187,11 +187,11 @@
   "text.autoconfig.origins.option.phantomizedOverlayStrength": "夜魅化視野強度",
 
   "item.origins.orb_of_origin": "起源之球",
-  "item.origins.orb_of_origin.layer_generic": "選擇新的%s",
-  "item.origins.orb_of_origin.layer_specific": "將你的%1$s設為%2$s",
+  "component.item.origins.origin.layer": "Lets you choose a new %s.",
+  "component.item.origins.origin.layer_and_origin": "Sets your %1$s to \"%2$s\".",
+  "component.item.origins.origin.generic": "Lets you choose origin(s).",
 
   "enchantment.origins.water_protection": "水蝕保護",
-  "enchantment.origins.water_protection.desc": "延緩恐水症造成的傷害。",
 
   "container.shulker_inventory_power": "蚌殼容器",
 

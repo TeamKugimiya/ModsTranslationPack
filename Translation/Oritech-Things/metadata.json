@@ -21,5 +21,15 @@
         }
       }
     }
+  },
+  "status": {
+    "last_synced": "2026-04-02T15:00:37Z",
+    "translation_progress": {
+      "1.21": 93.48,
+      "overall": 93.48
+    },
+    "mod_versions": {
+      "1.21": "oritechthings-0.0.41.jar"
+    }
   }
 }
