@@ -1,0 +1,43 @@
+---
+title: 升級插件壓縮機
+id: oritech:shrinker_block
+type: block
+custom:
+    RF Capacity: "50,000,000"
+    Max RF input: "833,333"
+    Cores required: "4"
+    Addon slots: "1"
+---
+
+升級插件壓縮機是一種多方塊結構，可以把多個機器升級插件壓縮成單一方塊。
+
+它能將各種插件效果合併成一個[機器之心（升級插件）](@oritech:machine_combi_addon)。
+
+<center>
+<ModAsset location="oritech:area/shrinker_area" width={512} />
+</center>
+
+---
+
+#### 壓縮流程
+
+若要使用這台機器，你必須先透過擴充器把想合併的升級插件接到壓縮機上。
+
+機器必須先充滿能量才能啟動。
+
+當你透過介面啟動，或對**中心方塊**輸入紅石訊號後，  
+壓縮機就會消耗世界中，實際放置的插件方塊，  
+並在內部物品欄中，輸出一個合併後的單一方塊。
+
+<center>
+<ModAsset location="oritech:area/shrinker_setup_area" width={512} />
+</center>
+
+<Callout variant="warning">
+    壓縮是**不可逆**的。只有會影響機器數值的升級插件  
+    （例如速度、效率、產量）才能被壓縮。  
+    需要直接互動的升級插件，  
+    例如蒸汽鍋爐、控制單元、欄位代理、狩獵升級，都無法壓縮。    
+    此外，「機器之心（升級插件）」也不能再和其他升級插件同時使用，  
+    它必須是機器上唯一安裝的升級插件。
+</Callout>

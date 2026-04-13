@@ -1,0 +1,45 @@
+---
+title: 方塊破壞器
+id: oritech:destroyer_block
+type: block
+custom:
+    電容量: "100,000"
+    最大輸入: "5,000"
+    移動耗能: "8 RF"
+    作業耗能: "128 RF 起"
+    所需核心數: "2"
+    升級欄位: "4"
+---
+
+方塊破壞器是一種龍門架機器元件，會破壞下方作業區中的方塊。
+
+它必須安裝在[機器框架](@oritech:machine_frame_block)上運作，並以框架正下方那一層方塊作為目標。
+
+破壞方塊所需的時間與能量，會依照方塊硬度而有所不同。
+
+### 農業用途
+
+若要用於農業收成，請安裝[作物篩選升級](@oritech:crop_filter_addon)。
+
+這會讓方塊破壞器略過所有尚未成熟的作物，進而實現自動收成。
+
+<center>
+<ModAsset location="oritech:area/block_destroyer_farming" width={1000} />
+</center>
+
+### 採石場用途
+
+加裝[採石場升級](@oritech:quarry_addon)後，方塊破壞器也能作為採石場使用。
+
+每個採石場升級都會把向下作業深度乘上 8：
+
+*   **1 個升級**：8 格深度
+*   **2 個升級**：64 格深度
+*   **3 個升級**：512 格深度
+
+在採石場模式下，預設速度其實偏慢，  
+因此通常建議再搭配[速度升級](@oritech:machine_speed_addon)與[效率升級](@oritech:machine_efficiency_addon)一起使用。
+
+<center>
+<ModAsset location="oritech:area/block_destroyer_quarry" width={1000} />
+</center>

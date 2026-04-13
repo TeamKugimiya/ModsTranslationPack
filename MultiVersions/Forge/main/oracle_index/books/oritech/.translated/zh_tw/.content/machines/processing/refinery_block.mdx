@@ -1,0 +1,46 @@
+---
+title: 精煉廠
+id: oritech:refinery_block
+type: block
+custom:
+    RF Capacity: "50,000"
+    RF/t: "64"
+    Fluid capacity (main): "64 buckets"
+    Fluid capacity (modules): "4 buckets each"
+    Cores required: "9"
+
+---
+精煉廠用來處理物品與流體混合配方。
+
+它具備一個物品輸入、一個流體輸入，以及多種輸出選項。
+
+<Callout variant="info">
+    清晨中的分餾氣味，真是讓人心曠神怡。  
+    把[原油](@oritech:still_oil_bucket)轉化成真正有用的工業產品，才是文明進步的象徵。  
+    至於環境問題......那就留給未來世代煩惱吧。
+</Callout>
+
+<center>
+<ModAsset location="oritech:area/refinery" width={1000} />
+</center>
+
+---
+
+#### 分餾機制
+
+精煉廠擁有 **1 個物品輸入**、**1 個流體輸入**，  
+以及 **1 個物品輸出**與 **3 個流體輸出**。
+
+預設情況下，只有第一個流體輸出槽會啟用。
+
+若要開啟第二與第三個流體輸出槽，  
+就必須在主方塊上方加裝[精煉廠儲罐模組](@oritech:refinery_module_block)。
+
+第二與第三槽位的流體，也必須直接從這些模組本身抽出。
+
+#### 產量機制
+
+若某個配方的流體輸出數量，多於目前可用槽位（或模組數），  
+系統就會把多出來的產量，重新分配至現有輸出中：
+- 若完全沒有安裝模組，第一個流體輸出量會加倍
+- 若只安裝 1 個模組（也就是啟用 2 個流體輸出），則第二個流體輸出量會加倍

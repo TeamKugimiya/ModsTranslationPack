@@ -154,8 +154,15 @@ jobs:
             force_include = true
             ['assets/alexscaves/books/zh_tw/**/*?.txt']
             force_include = true
-            ['assets/oracle_index/books/oritech/.translated/zh_tw/**/*?.json']
+            ['assets/energymeter/guides/**/*?.png']
+            force_include = true
+
+            # Oracle Index Books 系列
+            ['assets/oracle_index/books/**/.translated/zh_tw/**/*?.json']
             sort_json_object_keys = false
+            # .assets 內嵌圖片
+            ['assets/oracle_index/books/**/.assets/**/*?.png']
+            force_include = true
           artifact_name: OptimizedPack-${{ inputs.matrix_version }}
 
       - name: Download Artifact
