@@ -157,7 +157,6 @@ jobs:
 
             # Oracle Index Books 系列
             ['assets/oracle_index/books/**/.translated/zh_tw/**/*?.json']
-            force_include = true
             sort_json_object_keys = false
             # .assets 內嵌圖片
             ['assets/oracle_index/books/**/.assets/**/*?.png']
