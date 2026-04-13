@@ -1,0 +1,39 @@
+---
+id: oritech:power_pole_block
+type: block
+title: 輸電線杆
+custom:
+    RF Capacity: "1,000,000"
+    Range: "50-1,000 blocks"
+---
+輸電線杆可用於長距離傳輸能量。
+
+它通常會建在較高的平台上，而且只能與其他輸電線杆相互連接。
+<center>
+<ModAsset location="oritech:area/power_pole" width={512} />
+</center>
+
+若要建立連線，請使用[目標指定器](@oritech:target_designator)：  
+先對著第一根線杆 **Shift + 右鍵**，再對著第二根做同樣操作即可。
+
+單一線杆可以與任意數量的其他線杆建立連線，  
+而所有互相連通的線杆都會共享能量，讓你能組成大型輸電網。
+
+在同一個互聯的輸電網中，你可以從任何一根線杆輸入或抽取能量。
+
+能量由綠色埠輸入，從紅色埠輸出。
+
+整個網路的最大傳輸上限為 **1M RF/t**。
+
+<Callout variant="info">
+    輸電線杆專為遠距離供電設計，但其距離並非無限。  
+    兩根線杆之間必須至少相隔 **50 格**才能連接，最大連線距離則是 **1,000 格**。
+</Callout>
+
+[管道扳手](@oritech:wrench)還可以用來沿著輸電線滑索移動。
+
+只要手持扳手，對著線纜點按右鍵即可。
+
+<center>
+<ModAsset location="oritech:area/cable_ziplining" width={800} />
+</center>

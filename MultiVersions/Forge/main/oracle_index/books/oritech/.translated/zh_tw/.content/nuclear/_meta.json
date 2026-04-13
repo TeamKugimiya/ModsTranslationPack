@@ -1,0 +1,18 @@
+{
+  "nuke.mdx": "曼哈頓模組",
+  "low_yield_nuke.mdx": "低當量核爆裝置",
+  "uranium_pellet.mdx": "核燃料處理",
+  "reactor_controller.mdx": "核反應爐控制面板",
+  "reactor_wall.mdx": "反應爐牆體",
+  "reactor_absorber_port.mdx": "反應爐冷卻劑吸收埠",
+  "reactor_condenser.mdx": "反應爐熱吸收器",
+  "reactor_heat_pipe.mdx": "反應爐熱導管",
+  "reactor_vent.mdx": "反應爐散熱器",
+  "reactor_reflector.mdx": "反應爐中子反射器",
+  "reactor_rod.mdx": "反應爐燃料棒",
+  "reactor_double_rod.mdx": "雙聯反應爐燃料棒",
+  "reactor_quad_rod.mdx": "四聯反應爐燃料棒",
+  "reactor_fuel_port.mdx": "反應爐燃料埠",
+  "reactor_energy_port.mdx": "反應爐能量埠",
+  "reactor_redstone_port.mdx": "反應爐紅石埠"
+}

@@ -1,0 +1,25 @@
+---
+title: 蒸汽鍋爐升級
+id: oritech:steam_boiler_addon
+type: block
+---
+
+蒸汽鍋爐升級可把發電機從直接產生 RF 能量，改成產生蒸汽。
+
+<center>
+<ModAsset location="oritech:area/steam_power" width={1000} />
+</center>
+
+---
+
+**蒸汽發電鏈**
+
+當它安裝在發電機上（例如[燃油發電機](@oritech:fuel_generator_block)）時，  
+機器就會改為消耗燃料與水，產生高壓蒸汽而不是直接輸出 RF。
+
+你必須把水打進蒸汽鍋爐升級中，再把產生的蒸汽抽出來，  
+供給[蒸汽引擎](@oritech:steam_engine_block)或其他蒸汽系統使用。
+
+除了基礎發電機以外，大多數發電機都能這樣改裝。
+
+這種做法在大型供能網路中，通常會更有效率。

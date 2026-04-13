@@ -1,0 +1,16 @@
+{
+  "world": "世界生成",
+  "biomass.mdx": "生物質",
+  "silicon.mdx": "矽",
+  "plastic_sheet.mdx": "塑膠片",
+  "steel_ingot.mdx": "鋼",
+  "nickel_ingot.mdx": "鎳",
+  "electrum_ingot.mdx": "琥珀金",
+  "platinum_ingot.mdx": "鉑",
+  "duratium_ingot.mdx": "耐用金屬",
+  "adamant_ingot.mdx": "精金",
+  "biosteel_ingot.mdx": "生質鋼",
+  "energite_ingot.mdx": "源能金屬",
+  "fluxite.mdx": "通量水晶",
+  "prometheum_ingot.mdx": "普羅米修斯"
+}

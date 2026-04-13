@@ -1,0 +1,28 @@
+---
+id: oritech:steel_ingot
+title: 鋼
+type: item
+related_items: ["oritech:steel_dust", "oritech:steel_block"]
+---
+
+鋼是一種中階合金，用於製作[機器框架](@oritech:machine_frame_block)、[物品管道](@oritech:item_pipe)與各種其他元件。
+
+鋼可以在工作台中，用鐵與煤炭製作：
+
+<CraftingRecipe
+    slots={[
+        'minecraft:iron_ingot',
+        'minecraft:iron_ingot',
+        '',
+        'minecraft:coal',
+        'minecraft:coal',
+        '',
+        '',
+        '',
+        ''
+    ]}
+    result="oritech:steel_ingot"
+    count={1}
+/>
+
+[鑄造廠](@oritech:foundry_block)可以用較少的鐵與煤炭，生產出更多鋼。

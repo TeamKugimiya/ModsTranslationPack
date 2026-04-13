@@ -6,5 +6,9 @@
   "key.categories.oracle": "Oracle Index",
   "oracle_index.searchbar.placeholder" : "Find or Calculate",
   "oracle_index.searchbar.tooltip" : "Smart search that supports full sentences and math expressions.",
-  "tooltip.oracle_index.open_search": "Open Search. You can always open this by pressing [CTRL + %s] or [%s]."
+  "tooltip.oracle_index.open_search": "Open Search. You can always open this by pressing [CTRL + %s] or [%s].",
+  "tooltip.oracle_index.back": "Go back to last page.",
+  "tooltip.oracle_index.close_screen": "Close Wiki.",
+  "oracle_index.button.docs": "Docs",
+  "oracle_index.button.content": "Content"
 }
