@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.9.3](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.9.2...v1.9.3) (2026-04-16)
+
+
+### 📑 文件更新
+
+* **Readme:** 更新模組數量 ([#958](https://github.com/TeamKugimiya/ModsTranslationPack/issues/958)) ([4586e8b](https://github.com/TeamKugimiya/ModsTranslationPack/commit/4586e8b566b3a19e070cc7ccd56d7cb135233989))
+
+
+### ⚡ 新增模組翻譯
+
+* **LAST DANCE:** 最後一舞 第四部分 ([#957](https://github.com/TeamKugimiya/ModsTranslationPack/issues/957)) ([e1b69d2](https://github.com/TeamKugimiya/ModsTranslationPack/commit/e1b69d24dd2259f51745e5eb9bb3bf8b90139995))
+
 ## [1.9.2](https://github.com/TeamKugimiya/ModsTranslationPack/compare/v1.9.1...v1.9.2) (2026-04-13)
 
 
