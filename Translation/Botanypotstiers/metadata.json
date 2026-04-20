@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "botanypotstiers",
+  "display_name": {
+    "en": "Botany Pots Tiers"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "526754"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "italian_delight",
+  "display_name": {
+    "en": "Italian Delight (A Farmer\u0027s Delight Add-on)"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "CT0O8jbT"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

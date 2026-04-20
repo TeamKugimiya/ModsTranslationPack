@@ -1,0 +1,17 @@
+{
+  "name": "卡片超頻",
+  "icon": "laserio:overclocker_card",
+  "sortnum": 2,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "卡片超頻將提高單張卡片的運作效率。$(br2)舉個例子，物品卡每 20 ticks（1 秒）才能從相鄰容器提取最多 8 個物品。在安裝上 4 張超頻後，他們最快將可以每 1 tick 提取 64 個物品！$(br2)關於每種卡片超頻的增幅程度，請參閱卡片章節。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "卡片超頻",
+      "recipe": "laserio:overclocker_card"
+    }
+  ]
+}

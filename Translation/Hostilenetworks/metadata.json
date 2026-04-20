@@ -1,16 +1,24 @@
-{
+﻿{
   "schema_version": "1.2",
-  "mod_id": "energymeter",
+  "mod_id": "hostilenetworks",
   "display_name": {
-    "en": "Energy Meter"
+    "en": "Hostile Neural Networks"
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "532169",
-    "modrinth": "MbejSZ2E"
+    "curseforge": "552574"
   },
   "contents": {
     "tiers": {
+      "1.19": {
+        "versions": [
+          "1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
       "1.20": {
         "versions": [
           "1.20"
@@ -22,23 +30,13 @@
       },
       "1.21": {
         "versions": [
-          "<=1.21"
+          "1.21"
         ],
         "source": {
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
       }
-    }
-  },
-  "status": {
-    "last_synced": "2026-03-30T14:15:30Z",
-    "translation_progress": {
-      "1.21": 12.5,
-      "overall": 12.5
-    },
-    "mod_versions": {
-      "1.21": "EnergyMeter-NeoForge-1.21.1-0.4.0"
     }
   }
 }

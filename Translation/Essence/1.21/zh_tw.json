@@ -1,0 +1,62 @@
+{
+  "item.essence.basic_mob_essence": "基礎生物精粹",
+  "item.essence.advanced_mob_essence": "高級生物精粹",
+  "item.essence.elite_mob_essence": "菁英生物精粹",
+
+  "item.essence.basic_ore_essence": "基礎礦物精粹",
+  "item.essence.advanced_ore_essence": "高級礦物精粹",
+  "item.essence.elite_ore_essence": "菁英礦物精粹",
+
+  "item.essence.activated_spawner_shard": "活性生怪磚碎片",
+  "item.essence.spawner_shard": "生怪磚碎片",
+  "item.essence.lightning_water_bucket": "雷電水桶",
+  "item.essence.spawner_shard_extractor": "生怪磚碎片萃取杖",
+  "item.essence.essence_converter": "精粹轉換石",
+  "item.essence.lightning_summoner": "喚雷杖",
+  "item.essence.essence_upgrader": "精粹升級石",
+
+  "block.essence.basic_mob_essence_block": "基礎生物精粹方塊",
+  "block.essence.advanced_mob_essence_block": "高級生物精粹方塊",
+  "block.essence.elite_mob_essence_block": "菁英生物精粹方塊",
+  "block.essence.basic_ore_essence_block": "基礎礦物精粹方塊",
+  "block.essence.advanced_ore_essence_block": "高級礦物精粹方塊",
+  "block.essence.elite_ore_essence_block": "菁英礦物精粹方塊",
+  "block.essence.lightning_water_block": "雷電水",
+  "block.essence.solid_lightning_water_block": "固化雷電水方塊",
+  "block.essence.essence_converter_block": "精粹轉換石方塊",
+  "block.essence.essence_ore": "精粹礦",
+  "block.essence.deepslate_essence_ore": "深板岩精粹礦",
+  "block.essence.essence_station": "精粹站",
+  "block.essence.resource_duplicator": "資源複製機",
+
+  "blockentity.essence.essence_station.name": "精粹站",
+  "blockentity.essence.resource_duplicator.name": "資源複製機",
+
+  "fluid_type.essence.lightning_water_fluid": "雷電水",
+
+  "world.essence.needs_lightning_water": "方塊四周必須被雷電水圍繞！",
+
+  "death.attack.shocked": "%1$s 試圖在雷電水中長泳",
+
+  "itemGroup.essence": "精粹",
+
+  "tooltip.essence.lightning_summoner.tooltip.shift": "對著含水的避雷針點擊右鍵來製作雷電水",
+  "tooltip.essence.lightning_summoner.tooltip": "按下 SHIFT 查看更多資訊",
+  "tooltip.essence.spawner_shard_extractor.tooltip.shift": "對著生怪磚點擊右鍵，將會破壞該方塊並一定機率獲得生怪磚碎片",
+  "tooltip.essence.spawner_shard_extractor.tooltip": "按下 SHIFT 查看更多資訊",
+
+  "jei.essence.spawner_shard": "這些碎片可以透過使用生怪磚碎片萃取杖，對著生怪磚點擊右鍵來收集。",
+  "jei.essence.spawner_shard_extractor": "對著生怪磚點擊右鍵時，生怪磚將會被破壞並掉落經驗值，有些時候還會掉落生怪磚碎片。",
+  "jei.essence.lightning_water_block": "對著含水的避雷針使用喚雷杖，將能夠做出雷電水。",
+  "jei.essence.activated_spawner_shard": "這些碎片可被用來製作生怪蛋。",
+  "jei.essence.essence_upgrader": "對著基礎／高級等級的生物或礦物精萃方塊點擊右鍵，將能夠獲得下一階級的精粹。等級依序為：基礎 -> 高級 -> 菁英。",
+  "jei.essence.essence_converter": "對著礦物精粹方塊點擊右鍵，能將其轉換成生物精粹方塊。反之同理。",
+
+  "jei.essence.basic_mob_essence": "一定機率從任何生物身上掉落。",
+  "jei.essence.basic_ore_essence": "破壞精粹礦時掉落。",
+  "jei.essence.advanced_mob_essence": "將基礎生物精粹方塊放進雷電水池中，對其使用升級石後即可獲得該精粹。",
+  "jei.essence.advanced_ore_essence": "將基礎礦物精粹方塊放進雷電水池中，對其使用升級石後即可獲得該精粹。",
+  "jei.essence.elite_mob_essence": "將高級生物精粹方塊放進雷電水池中，對其使用升級石後即可獲得該精粹。",
+  "jei.essence.elite_ore_essence": "將高級礦物精粹方塊放進雷電水池中，對其使用升級石後即可獲得該精粹。"
+
+}

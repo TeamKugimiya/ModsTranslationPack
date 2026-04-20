@@ -1,0 +1,13 @@
+{
+    "name": "汎金屬礦",
+    "icon": "allthemodium:vibranium_ore",
+    "category": "allthemodium:ore",
+    "sortnum": 2,
+    "pages": [{
+        "type": "spotlight",
+        "item": "allthemodium:vibranium_ore",
+        "title": "汎金屬礦",
+        "link_recipe": false,
+        "text": "汎金屬礦可以在地獄中找到，分布在 Y≧64 處。也能夠在異獄維度的地下深處洞窟中找到。"
+    }]
+}

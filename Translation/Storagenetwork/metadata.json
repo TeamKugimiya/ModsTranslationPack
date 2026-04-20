@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "storagenetwork",
+  "display_name": {
+    "en": "Simple Storage Network"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": "1.21",
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "cVIr8Vz1"
+  }
+}

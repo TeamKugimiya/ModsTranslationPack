@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "justenoughprofessions",
+  "display_name": {
+    "en": "Just Enough Professions"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "417645"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

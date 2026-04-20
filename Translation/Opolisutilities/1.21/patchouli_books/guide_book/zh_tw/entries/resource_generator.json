@@ -1,0 +1,12 @@
+{
+	"name": "資源製造機",
+	"icon": "opolisutilities:resource_generator",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "text",
+			"text": "資源製造機能用來複製物品，像是鵝卵石與石頭。"
+		}
+	]
+}

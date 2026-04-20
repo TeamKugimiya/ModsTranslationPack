@@ -1,0 +1,12 @@
+{
+	"name": "伏守者剋星",
+	"icon": "minecraft:textures/item/enchanted_book.png",
+	"category": "opolisutilities:enchantments",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "最高可達到等級 5。$(br2)每提升一個等級，能額外對伏守者造成 100 點傷害。$(br2)這表示等級 5 時，將能夠一刀秒殺伏守者！"
+		}
+	]
+}

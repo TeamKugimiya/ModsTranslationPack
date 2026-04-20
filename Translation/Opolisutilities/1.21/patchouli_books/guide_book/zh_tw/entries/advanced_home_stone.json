@@ -1,0 +1,12 @@
+{
+	"name": "高級回家石",
+	"icon": "opolisutilities:textures/item/advanced_home_stone.png",
+	"category": "opolisutilities:home_stones",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "高級回家石可用來傳送玩家回前次儲存的位置，僅能在主世界、地獄以及終界中使用。"
+		}
+	]
+}

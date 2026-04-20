@@ -1,0 +1,11 @@
+{
+    "name": "ATM 金屬工具",
+    "icon": "allthemodium:allthemodium_pickaxe",
+    "category": "allthemodium:misc",
+    "sortnum": 1,
+    "pages": [{
+            "type": "text",
+            "text": "由本模組加入的工具皆擁有堅不可摧效果。"
+        }
+    ]
+}

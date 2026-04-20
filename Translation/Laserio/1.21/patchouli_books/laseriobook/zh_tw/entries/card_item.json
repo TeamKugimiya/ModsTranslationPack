@@ -1,0 +1,21 @@
+{
+  "name": "物品卡",
+  "sortnum": 1,
+  "category": "laserio:cards",
+  "icon": "laserio:card_item",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "物品卡可用來在多個容器間進行物品傳輸，像是儲物箱和熔爐。$(br2)下一頁詳列了安裝超頻後的增幅數值。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "超頻增幅數值（物品數/tick）：$(br2)$(li)0 個超頻： 8 物品/20t$(li)1 個超頻：16 物品/15t$(li)2 個超頻：32 物品/10t$(li)3 個超頻：48 物品/5t$(li)4 個超頻：64 物品/1t"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "物品卡",
+      "recipe": "laserio:card_item"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "me_beam_former",
+  "display_name": {
+    "en": "ME-Beam-Former"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": "1.21",
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "wug9w09r"
+  }
+}

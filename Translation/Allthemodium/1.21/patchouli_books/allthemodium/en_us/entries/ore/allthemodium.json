@@ -1,0 +1,13 @@
+{
+    "name": "Allthemodium Ore",
+    "icon": "allthemodium:allthemodium_ore",
+    "category": "allthemodium:ore",
+    "sortnum": 1,
+    "pages": [{
+        "type": "spotlight",
+        "item": "allthemodium:allthemodium_ore",
+        "title": "Allthemodium Ore",
+        "link_recipe": false,
+        "text": "Allthemodium Ore spawns in the Deep Dark biome in cave walls and ceilings, you can also find it as a common spawn very high in the Mountains above 170Y, It can also be found everywhere in the mining dimension between Y -59 and Y 20. also Deepslate layer caves of the Other Dimension"
+    }]
+}

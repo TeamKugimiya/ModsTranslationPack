@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "questsadditions",
+  "display_name": {
+    "en": "Quests Additions (Forge)"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "580129"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

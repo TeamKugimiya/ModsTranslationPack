@@ -1,0 +1,6 @@
+{
+	"name": "基礎物品",
+	"description": "被加進這模組中的一些基本物品。",
+	"icon": "opolisutilities:copper_nugget",
+	"sortnum": 2
+}

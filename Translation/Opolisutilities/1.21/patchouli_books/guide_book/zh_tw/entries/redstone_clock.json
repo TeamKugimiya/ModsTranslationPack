@@ -1,0 +1,18 @@
+{
+	"name": "紅石鐘",
+	"icon": "opolisutilities:redstone_clock",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 4,
+	"pages": [
+		{
+    		"type": "spotlight",
+    		"item": "opolisutilities:redstone_clock",
+    		"text": "每 2 秒產生一次紅石脈衝。"
+    	},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:redstone_clock",
+			"text": "方塊六面都會輸出紅石訊號。"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "ae2wtlib_api",
+  "display_name": {
+    "en": "AE2WTLib API"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

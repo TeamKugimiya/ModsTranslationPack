@@ -1,0 +1,28 @@
+{
+    "name": "Allthemodium Armour",
+    "icon": "allthemodium:allthemodium_chestplate",
+    "category": "allthemodium:armour",
+    "sortnum": 1,
+    "pages": [{
+            "type": "text",
+            "text": "Allthemodium armour has several benefits other than just the armour, toughness and knockback resistance:$(li)Water Breathing$(li)No Crash Damage when Flying with Elytra$(li)Immune to Fire Damage$(li)No Fall Damage$(li)When you upgrade the armour from Netherite, it keeps the enchants"
+        },
+        {
+            "type": "smithing",
+            "recipe": "allthemodium:smithing/allthemodium_helmet_smithing"
+        },
+
+        {
+            "type": "smithing",
+            "recipe": "allthemodium:smithing/allthemodium_chestplate_smithing"
+        },
+        {
+            "type": "smithing",
+            "recipe": "allthemodium:smithing/allthemodium_leggings_smithing"
+        },
+        {
+            "type": "smithing",
+            "recipe": "allthemodium:smithing/allthemodium_boots_smithing"
+        }
+    ]
+}

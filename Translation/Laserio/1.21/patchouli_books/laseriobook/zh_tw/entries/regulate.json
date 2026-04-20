@@ -1,0 +1,16 @@
+{
+  "name": "管控模式",
+  "sortnum": 9,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/regulatetrue.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "管控模式僅在庫存模式下可用。$(br2)管控模式將確保對象容器中的資源，能維持在數量篩選器所指定的數量，不會多也不會少。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "管控模式停用時，對象容器中的多餘物品將不會被移除。例如：當庫存模式卡請求了 32 個鵝卵石，而玩家或其他卡又向容器放入更多的鵝卵石，這些多出來的鵝卵石將不會被移除。$(br2)管控模式啟用，且輸入模式卡可以接收物品時，對象容器的多餘物品將會被移除。"
+    }
+  ]
+}

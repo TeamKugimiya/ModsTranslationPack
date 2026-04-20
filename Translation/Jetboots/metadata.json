@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "jetboots",
+  "display_name": {
+    "en": " Jet Boots"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "Vuc82vJD"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

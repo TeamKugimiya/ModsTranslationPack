@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "gravestone",
+  "display_name": {
+    "en": "Gravestone"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "knsf3voQ"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

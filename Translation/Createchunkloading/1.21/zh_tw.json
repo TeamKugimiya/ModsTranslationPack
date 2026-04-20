@@ -1,0 +1,15 @@
+{
+  "block.createchunkloading.dynamo": "壓力發電機",
+  "block.createchunkloading.motor": "壓力馬達",
+  "block.createchunkloading.rolling_machine": "輥軋機",
+  "block.createchunkloading.chunk_loader": "區塊載入器",
+  "block.createchunkloading.ender_crate": "移動式終界板條箱",
+  "block.createchunkloading.brass_pressure_plate": "黃銅壓力板",
+  "block.createchunkloading.copper_pressure_plate": "銅製壓力板",
+  "block.createchunkloading.zinc_pressure_plate": "鋅製壓力板",
+  "death.attack.createchunkloading.dynamo": "%1$s 被壓力發電機電死了",
+  "death.attack.createchunkloading.motor": "%1$s 被壓力馬達電死了",
+  "itemGroup.createchunkloading.blocks_tab": "動力機械｜區塊載入方塊",
+  "createchunkloading.category.rolling": "軋製",
+  "createchunkloading.generic.ender_id": "終界 ID"
+}

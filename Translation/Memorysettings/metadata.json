@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "memorysettings",
+  "display_name": {
+    "en": "Memory Settings[Neo/Forge/Fabric]"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "526901"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

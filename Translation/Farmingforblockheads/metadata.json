@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "farmingforblockheads",
+  "display_name": {
+    "en": "Farming for Blockheads"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": "1.20",
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": "1.21",
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "4WJZr8JU"
+  }
+}

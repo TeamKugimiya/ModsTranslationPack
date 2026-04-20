@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "chicken_roost",
+  "display_name": {
+    "en": "Roost Ultimate"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "621910"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

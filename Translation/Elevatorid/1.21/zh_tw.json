@@ -1,0 +1,30 @@
+{
+  "block.elevatorid.elevator_white": "白色電梯",
+  "block.elevatorid.elevator_black": "黑色電梯",
+  "block.elevatorid.elevator_blue": "藍色電梯",
+  "block.elevatorid.elevator_brown": "棕色電梯",
+  "block.elevatorid.elevator_cyan": "青色電梯",
+  "block.elevatorid.elevator_gray": "灰色電梯",
+  "block.elevatorid.elevator_green": "綠色電梯",
+  "block.elevatorid.elevator_light_blue": "淺藍色電梯",
+  "block.elevatorid.elevator_lime": "淺綠色電梯",
+  "block.elevatorid.elevator_magenta": "洋紅色電梯",
+  "block.elevatorid.elevator_orange": "橙色電梯",
+  "block.elevatorid.elevator_pink": "粉紅色電梯",
+  "block.elevatorid.elevator_purple": "紫色電梯",
+  "block.elevatorid.elevator_red": "紅色電梯",
+  "block.elevatorid.elevator_light_gray": "淺灰色電梯",
+  "block.elevatorid.elevator_yellow": "黃色電梯",
+
+  "elevatorid.subtitle.teleport": "使用電梯",
+  "elevatorid.subtitle.camouflage": "偽裝電梯",
+
+  "screen.elevatorid.elevator": "電梯選項",
+  "screen.elevatorid.elevator.directional": "玩家朝向",
+  "screen.elevatorid.elevator.hide_arrow": "隱藏箭頭",
+  "screen.elevatorid.elevator.reset_camo": "移除偽裝",
+
+  "elevatorid.message.missing_xp": "你沒有足夠的經驗值進行傳送",
+
+  "itemGroup.elevators_tab": "電梯"
+}
