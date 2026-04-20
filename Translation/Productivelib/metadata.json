@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Productivelib"
   },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "internal_api"
+  },
   "contents": {
     "tiers": {
       "1.21": {

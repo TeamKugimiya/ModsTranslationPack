@@ -2,7 +2,11 @@
   "schema_version": "1.2",
   "mod_id": "sophisticateditemactions",
   "display_name": {
-    "en": "Sophisticateditemactions"
+    "en": "Sophisticated Item Actions"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1419142"
   },
   "contents": {
     "tiers": {

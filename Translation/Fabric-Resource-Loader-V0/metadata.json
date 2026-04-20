@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Fabric Resource Loader V0"
   },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "internal_api"
+  },
   "contents": {
     "tiers": {
       "1.21": {

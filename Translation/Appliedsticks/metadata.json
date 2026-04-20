@@ -2,7 +2,11 @@
   "schema_version": "1.2",
   "mod_id": "appliedsticks",
   "display_name": {
-    "en": "Appliedsticks"
+    "en": "Applied Construction Sticks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1452253"
   },
   "contents": {
     "tiers": {

@@ -2,18 +2,18 @@
   "schema_version": "1.2",
   "mod_id": "autosmithingtable",
   "display_name": {
-    "en": "Autosmithingtable"
+    "en": "Auto Smithing Table Mod"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "665004"
   },
   "contents": {
     "tiers": {
       "1.21": {
         "versions": [
           "1.21"
-        ],
-        "source": {
-          "game_version": "1.21.1",
-          "loader": "neoforge"
-        }
+        ]
       }
     }
   }

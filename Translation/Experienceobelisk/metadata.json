@@ -4,16 +4,16 @@
   "display_name": {
     "en": "Experienceobelisk"
   },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "579484"
+  },
   "contents": {
     "tiers": {
       "1.21": {
         "versions": [
           "1.21"
-        ],
-        "source": {
-          "game_version": "1.21.1",
-          "loader": "neoforge"
-        }
+        ]
       }
     }
   }
