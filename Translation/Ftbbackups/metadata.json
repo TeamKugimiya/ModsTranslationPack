@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Ftbbackups"
   },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "622737"
+  },
   "contents": {
     "tiers": {
       "1.21": {
