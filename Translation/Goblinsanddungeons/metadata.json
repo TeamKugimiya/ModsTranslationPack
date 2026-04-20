@@ -2,12 +2,14 @@
   "schema_version": "1.2",
   "mod_id": "goblinsanddungeons",
   "display_name": {
-    "en": "Goblins \u0026 Dungeons"
+    "en": "Goblins & Dungeons"
   },
   "contents": {
     "tiers": {
       "1.21": {
-        "versions": "1.21",
+        "versions": [
+          "1.21"
+        ],
         "source": {
           "game_version": "1.21.1",
           "loader": "neoforge"
