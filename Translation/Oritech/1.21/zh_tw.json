@@ -55,11 +55,7 @@
   "advancements.oritech.unholy.description": "獲得墮落智慧體。知識就是力量，但這個不一樣！",
   "advancements.oritech.steam_engine": "蒸汽夢想",
   "advancements.oritech.steam_engine.description": "駕馭蒸汽的力量！你已經將水轉化為能量——但願它不會變成一場混亂的災難！",
-<<<<<<< HEAD:Translation/Oritech/1.21/zh_tw.json
-  "key.oritech.augment_screen": "Implant Controls [Hold]",
-=======
   "key.oritech.augment_screen": "開啟機體改造介面 [按住]",
->>>>>>> main:MultiVersions/Forge/main/oritech/lang/zh_tw.json
   "oritech.text.augment.hpboost": "鋼鐵灌注框架",
   "oritech.text.augment.hpboost.desc": "整合一個耐用的框架，增強你身體的韌性。",
   "oritech.text.augment.hpboost.desc.1": "增加最大生命值 6 點（3 顆心）。",
@@ -167,17 +163,6 @@
   "tooltip.oritech.input_mode_fill_left_to_right": "由左至右依序輸入物品。\n當第一格欄位被填滿後，往下一格欄位輸入物品。",
   "tooltip.oritech.input_mode_fill_evenly": "平均輸入物品。\n當有新的物品輸入時，會優先進入物品最少的欄位。",
   "tooltip.oritech.input_mode_sided": "物品的傳輸方式，將根據方位決定。\n\n",
-<<<<<<< HEAD:Translation/Oritech/1.21/zh_tw.json
-  "tooltip.oritech.mode_sided_slot_number": ": Slot %s\n",
-  "tooltip.oritech.mode_sided_top": ": Input only\n",
-  "tooltip.oritech.mode_sided_bottom": ": Extract only\n",
-  "tooltip.oritech.input_dir.north": "North",
-  "tooltip.oritech.input_dir.east": "East",
-  "tooltip.oritech.input_dir.south": "South",
-  "tooltip.oritech.input_dir.west": "West",
-  "tooltip.oritech.input_dir.up": "Up",
-  "tooltip.oritech.input_dir.down": "Down",
-=======
   "tooltip.oritech.mode_sided_slot_number": "：欄位 %s\n",
   "tooltip.oritech.mode_sided_top": "：僅能輸入\n",
   "tooltip.oritech.mode_sided_bottom": "：僅能輸出\n",
@@ -187,7 +172,6 @@
   "tooltip.oritech.input_dir.west": "西",
   "tooltip.oritech.input_dir.up": "上",
   "tooltip.oritech.input_dir.down": "下",
->>>>>>> main:MultiVersions/Forge/main/oritech/lang/zh_tw.json
   "title.oritech.details": "詳細資訊",
   "tooltip.oritech.item_extra_info": "按住 Ctrl 取得更多資訊",
   "tooltip.oritech.addon_desc": "升級插件欄位：",
@@ -386,13 +370,9 @@
   "tooltip.oritech.refinery_module_missing": "尚未安裝精煉廠儲罐模組",
   "tooltip.oritech.refinery_module_count": "可在頂部額外搭建兩個精煉廠儲罐模組，以解鎖對應的儲罐空間。\n未安裝模組時，將倍增物品與第一個儲罐的產出。\n安裝一個模組時，僅倍增第二個儲罐的產出。\n安裝兩個模組時，將解鎖配方的所有輸出。",
   "tooltip.oritech.energy_usage": "%s / %s RF\n已充能 %s%%\n\n最大耗能：%s RF/t\n最大傳輸率：%s RF/t",
-<<<<<<< HEAD:Translation/Oritech/1.21/zh_tw.json
-  "tooltip.oritech.atomic_forge_energy_tip": "\n\nCapacity depends on recipe.\nThe recipe finishes when the storage is full.",
-=======
   "tooltip.oritech.energy_usage_usage": "\n\n最大耗能：%s RF/t",
   "tooltip.oritech.energy_usage_transfer": "\n最大傳輸率：%s RF/t",
   "tooltip.oritech.atomic_forge_energy_tip": "\n\n此容量取決於處理的配方。\n當儲電量充滿時，即表示配方處理完成。",
->>>>>>> main:MultiVersions/Forge/main/oritech/lang/zh_tw.json
   "title.oritech.machine.no_addons": "未連接升級插件",
   "button.oritech.machine.addons": "升級插件",
   "tooltip.oritech.pipe_booster": "加快其後方流體／物品管道的抽取速度",
@@ -669,13 +649,8 @@
   "block.oritech.tech_lever": "工業控制桿",
   "block.oritech.tech_door": "工業門",
   "block.oritech.tech_door_hinge": "工業門",
-<<<<<<< HEAD:Translation/Oritech/1.21/zh_tw.json
-  "block.oritech.hangar_door": "Industrial Hangar Door",
-  "block.oritech.hangar_door_helper": "Industrial Hangar Door",
-=======
   "block.oritech.hangar_door": "工業機庫門",
   "block.oritech.hangar_door_helper": "工業機庫門",
->>>>>>> main:MultiVersions/Forge/main/oritech/lang/zh_tw.json
   "block.oritech.metal_beam_block": "工業支撐柱",
   "block.oritech.metal_girder_block": "工業支撐梁",
   "block.oritech.machine_plating_block": "銅強化板",
@@ -891,13 +866,8 @@
   "message.oritech.steamengine.controller_link": "蒸汽引擎已串聯至主引擎（醒目顯示的方塊）。請僅使用主引擎。",
   "message.oritech.deep_drill.ore_placement": "機器必須放置在礦物節點上方",
   "message.oritech.generator.production_rate": "發電量：%d / 核心倍率：%d",
-<<<<<<< HEAD:Translation/Oritech/1.21/zh_tw.json
-  "tooltip.oritech.hangar_door.1": "Can be daisy-chained with neighboring hangar doors.",
-  "tooltip.oritech.hangar_door.2": "Size: 1x3x1 blocks. Can be placed on walls on ceilings.",
-=======
   "tooltip.oritech.hangar_door.1": "可以與相鄰的機庫門串接。",
   "tooltip.oritech.hangar_door.2": "尺寸：1x3x1 方塊。可放置在牆壁或天花板上。",
->>>>>>> main:MultiVersions/Forge/main/oritech/lang/zh_tw.json
   "message.oritech.machine.missing_core": "機器尚未組裝完成。請加入缺少的機器核心方塊",
   "message.oritech.machine_frame.missing_frame": "缺少框架。請在機器後方使用機器框架方塊，搭建一個空的矩形框架",
   "message.oritech.enchanter.insert_item": "放入物品",
