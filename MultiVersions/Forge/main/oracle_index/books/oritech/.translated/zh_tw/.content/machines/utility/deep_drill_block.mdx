@@ -1,0 +1,37 @@
+---
+title: 基岩鑽礦機
+id: oritech:deep_drill_block
+type: block
+custom:
+    RF Capacity: "20,000"
+    RF per step: "1,024"
+    Steps per ore: "20"
+    Cores required: "26"
+---
+基岩鑽礦機是一台大型機器，用來從基岩層下方開採資源。
+
+<center>
+<ModAsset location="oritech:area/bedrock_extraction" width={800} />
+</center>
+
+它只有在直接放置於[資源節點](@oritech:resource_node_redstone)上方時才能運作。
+
+---
+
+#### 基岩資源開採
+
+基岩鑽礦機會掃描下方 3x3 區域，並鎖定深度 3 格內，  
+第一批可見的礦物節點進行開採。
+
+對著機器點擊右鍵時，它會醒目顯示目前鎖定的資源節點位置。
+
+由於耗電量極高，它無法透過一般線纜供電，必須改由[終界雷射](@oritech:laser_arm_block)供能。
+
+資源節點是無限的資源來源，不會因為鑽礦機長期開採而枯竭。
+
+#### 運作細節
+
+每次成功運作時，機器都會從下方 3x3 區域內隨機選擇一格進行開採。
+
+該區域不必每一格都是資源節點，  
+但若想達到最佳產量，最好還是把機器擺在節點最密集的位置上。

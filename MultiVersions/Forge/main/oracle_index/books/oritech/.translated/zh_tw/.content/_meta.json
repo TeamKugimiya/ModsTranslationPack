@@ -1,0 +1,14 @@
+{
+  "arcane": "奧術",
+  "building": "建築方塊",
+  "components": "合成元件",
+  "equipment": "裝備",
+  "generate_meta.sh": "Generate Meta",
+  "machines": "機器",
+  "nuclear": "核能",
+  "particle": "粒子加速器",
+  "logistics": "物流",
+  "resources": "資源",
+  "collect_ids.sh": "Collect Ids",
+  "create_dirs.sh": "Create Dirs"
+}

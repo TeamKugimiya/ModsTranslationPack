@@ -1,0 +1,26 @@
+---
+id: oritech:energy_pipe
+type: block
+related_items: ["oritech:framed_energy_pipe", "oritech:energy_pipe_duct_block"]
+title: 能量管道
+custom:
+    Transfer rate: "10,000 RF/t"
+---
+
+用於在機器與能量儲存器之間傳輸能量（RF）。
+
+預設傳輸速率為 **10,000 RF/t**。
+
+《起源科技》的能量系統採用「推送式」邏輯，  
+也就是由發電機與儲能方塊主動將能量送進管道，再由管道送往相連的機器。
+
+能量管道本身沒有抽取模式，但可以使用[管道扳手](@oritech:wrench)停用特定方向的連接。
+
+#### 變體
+*   **標準版**：基本的細管外型
+*   **帶框版**：完整方塊版本，方便整合進建築
+*   **方塊版**：另一種外觀風格；這類版本不會直接連上機器，只會連接其他管道
+
+<Callout variant="info">
+    若你需要更高等級的供電傳輸量，請改用[超導體](@oritech:superconductor)。
+</Callout>

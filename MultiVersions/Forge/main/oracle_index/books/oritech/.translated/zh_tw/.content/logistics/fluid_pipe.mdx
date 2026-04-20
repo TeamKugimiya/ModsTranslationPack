@@ -1,0 +1,30 @@
+---
+id: oritech:fluid_pipe
+type: block
+related_items: ["oritech:framed_fluid_pipe", "oritech:fluid_pipe_duct_block"]
+title: 流體管道
+custom:
+    Extract amount: "0.5 buckets per pulse"
+    Transfer interval: "3 ticks"
+---
+
+用於在機器與儲罐之間傳輸流體。
+
+預設傳輸速率為每 **3 刻**傳送 **0.5 桶**流體。
+
+流體管道本身沒有內部儲存空間。
+
+#### 使用方式
+將管道連到任何支援流體處理的方塊後，  
+直接對相應的管道接點按右鍵，就能切換成抽取模式，不需要扳手。
+
+不過若要停用特定方向的連接，仍然可以使用[管道扳手](@oritech:wrench)。
+
+#### 變體
+*   **標準版**：基本管道外型
+*   **帶框版**：實心方塊版本，適合嵌入牆面
+*   **方塊版**：另一種外觀風格；這類版本不會直接連上機器，只會連接其他管道
+
+<center>
+<ModAsset location="oritech:area/fluid_pipes" width={512} />
+</center>

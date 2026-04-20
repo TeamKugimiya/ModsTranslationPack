@@ -1,0 +1,37 @@
+---
+title: 離心機
+id: oritech:centrifuge_block
+type: block
+custom:
+    RF Capacity: "10,000"
+    RF/t: "64"
+    Fluid capacity: "8 buckets (fluid addon)"
+    Cores required: "1"
+    Addon slots: "1"
+---
+離心機透過高速旋轉來分離與轉化物品。
+
+它可以從[粉碎工廠](@oritech:fragment_forge_block)產生的礦物碎塊中提取礦粉，  
+把煤粉旋成碳纖維束，或處理各種流體配方。
+
+也因此，離心機是《起源科技》流程中最核心的機器之一，  
+因為它正好位在礦物精煉、元件製作，以及後續原油與塑膠產線的交會點上。
+
+<Callout variant="info">
+    若要處理流體，必須先為離心機安裝[流體處理升級](@oritech:machine_fluid_addon)，否則它無法接收流體。
+</Callout>
+
+---
+
+#### 流體分離
+
+流體應直接輸入或抽取自**離心機本體**，而不是升級插件本身。
+
+流體升級的作用只是啟用流體處理相容性。
+
+常見用途包括把原油分離成不同燃料，或把小麥加工成塑膠片。
+
+若流體配方沒有開始運作，  
+最常見的原因是你雖然裝上了升級插件，但機器狀態還沒刷新。
+
+裝上插件後，記得先開一次機器介面，讓它完成初始化。

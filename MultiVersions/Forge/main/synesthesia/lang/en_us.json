@@ -1,0 +1,10 @@
+{
+  "synesthesia.button.visualizer.tooltip": "Sound Visualizer",
+  "synesthesia.button.visualizer.enabled": "Sound Visualizer: ON",
+  "synesthesia.button.visualizer.disabled": "Sound Visualizer: OFF",
+  "key.synesthesia.toggle": "Toggle Sound Visualizer",
+  "key.categories.synesthesia": "Synesthesia",
+  "message.synesthesia.enabled": "Sound Visualizer Enabled",
+  "message.synesthesia.disabled": "Sound Visualizer Disabled",
+  "synesthesia.configuration.render.renderThroughWalls": "Render Through Walls"
+}

@@ -1,0 +1,44 @@
+---
+id: oritech:deepslate_uranium_ore
+title: 鈾礦脈
+type: block
+related_items: ["oritech:deepslate_uranium_ore", "oritech:uranium_crystal"]
+---
+
+<center>
+<ModAsset location="oritech:area/uranium_cave" width={700} />
+</center>
+
+鈾是一種高產能的能源來源，只會出現在世界最深處。
+
+和一般礦脈不同，鈾會以特殊的**鈾礦脈**形式生成，附著在地下洞穴的表層。
+
+#### 生成規則
+
+鈾礦脈主要生成於 **Y -64 到 Y -24** 之間。
+
+它有一個特殊條件：  
+只有在洞穴牆壁或地面，且**暴露在空氣中**的位置才會生成。
+
+除了普通礦石方塊外，這些礦脈通常還會夾雜會發光的**鈾水晶**，照亮周圍區域。
+
+#### 開採與水晶
+
+鈾礦本身可以正常開採，但礦脈中的**鈾水晶**還提供了其他選擇：
+
+*   **一般開採**：直接破壞鈾水晶會掉落鈾原礦，之後可加工成燃料
+*   **終界雷射**：若使用[終界雷射](@oritech:laser_arm_block)破壞鈾水晶，則會改為掉落**鈽粉**；   
+　鈽是[核反應爐]($reactor/introduction)更強力的燃料來源
+*   **不可再生**：與紫水晶不同，鈾水晶不會重新生長；採完後就必須再找新的礦脈
+
+<Callout variant="warning">
+    鈾本身蘊含極高能量。原始礦脈站在旁邊並不危險，  
+    但由它製成的燃料顆粒與燃料棒若處理不當，  
+    就可能在[核反應爐]($reactor/introduction)中引發災難性的熔毀。
+</Callout>
+
+### 資源節點
+
+若你需要更穩定的鈾來源，可以尋找[資源節點](@oritech:resource_node_redstone)中的鈾節點。
+
+它們位於基岩層附近，可透過[基岩鑽礦機](@oritech:deep_drill_block)長期開採。

@@ -1,0 +1,21 @@
+{
+  "capacitor_addon_extender.mdx": "電容庫升級擴充器",
+  "machine_extender.mdx": "機器升級擴充器",
+  "machine_capacitor_addon.mdx": "電容升級",
+  "machine_acceptor_addon.mdx": "能量接收升級",
+  "machine_speed_addon.mdx": "速度升級",
+  "machine_efficiency_addon.mdx": "效率升級",
+  "machine_ultimate_addon.mdx": "協力矩陣升級",
+  "machine_burst_addon.mdx": "超頻升級",
+  "machine_processing_addon.mdx": "輔助處理倉升級",
+  "machine_fluid_addon.mdx": "流體處理升級",
+  "machine_inventory_proxy_addon.mdx": "欄位代理升級",
+  "machine_redstone_addon.mdx": "控制單元升級",
+  "steam_boiler_addon.mdx": "蒸汽鍋爐升級",
+  "machine_hunter_addon.mdx": "狩獵升級",
+  "quarry_addon.mdx": "採石場升級",
+  "crop_filter_addon.mdx": "作物篩選升級",
+  "machine_yield_addon.mdx": "產量升級",
+  "machine_silk_touch_addon.mdx": "絲綢之觸升級",
+  "machine_combi_addon.mdx": "機器之心（升級插件）"
+}
