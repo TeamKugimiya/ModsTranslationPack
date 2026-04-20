@@ -16,7 +16,7 @@
         ],
         "source": {
           "game_version": "1.21.1",
-          "loader": "neforge"
+          "loader": "neoforge"
         }
       }
     },

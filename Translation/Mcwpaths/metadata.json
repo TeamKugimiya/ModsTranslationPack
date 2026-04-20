@@ -2,12 +2,14 @@
   "schema_version": "1.2",
   "mod_id": "mcwpaths",
   "display_name": {
-    "en": "Macaw\u0027s Paths and Pavings"
+    "en": "Macaw's Paths and Pavings"
   },
   "contents": {
     "tiers": {
       "1.21": {
-        "versions": "1.21",
+        "versions": [
+          "1.21"
+        ],
         "source": {
           "game_version": "1.21.1",
           "loader": "neoforge"

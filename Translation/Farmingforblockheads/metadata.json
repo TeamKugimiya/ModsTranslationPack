@@ -7,14 +7,18 @@
   "contents": {
     "tiers": {
       "1.20": {
-        "versions": "1.20",
+        "versions": [
+          "1.20"
+        ],
         "source": {
           "game_version": "1.20.1",
           "loader": "forge"
         }
       },
       "1.21": {
-        "versions": "1.21",
+        "versions": [
+          "1.21"
+        ],
         "source": {
           "game_version": "1.21.1",
           "loader": "neoforge"
