@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "hexerei",
+  "display_name": {
+    "en": "Hexerei"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "548599",
+    "modrinth": "IQSOHVhI"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T15:55:11Z",
+    "translation_progress": {
+      "1.21": 50.19,
+      "overall": 50.19
+    },
+    "mod_versions": {
+      "1.21": "hexerei-0.5.0.3.jar"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "雷射連接器",
+  "icon": "laserio:laser_connector",
+  "sortnum": 1,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "透過使用$(l:laserio:laser_wrench)雷射扳手$(/l)將多個$(l:laserio:laser_node)雷射節點$(/l)相連接，但仍會受最大 8 格方塊遠的距離限制。$(br2)雷射連接器可以作為節點間造價更加便宜的中繼站，建立出一個相連的遠距離物流網路。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "雷射節點",
+      "images": [
+        "laserio:textures/book/entries/laser_connector1.png"
+      ],
+      "border": true,
+      "text": "作為節點間聯繫橋梁的連接器"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "雷射連接器",
+      "recipe": "laserio:laser_connector"
+    }
+  ]
+}

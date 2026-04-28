@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "autofish",
+  "display_name": {
+    "en": "AutoFish"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "curseforge": "319473",
+    "modrinth": "zs7y6QDP"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.10",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:52:00Z",
+    "translation_progress": {
+      "1.21": 97.78,
+      "overall": 97.78
+    },
+    "mod_versions": {
+      "1.21": "autofish-1.2.0.jar"
+    }
+  }
+}

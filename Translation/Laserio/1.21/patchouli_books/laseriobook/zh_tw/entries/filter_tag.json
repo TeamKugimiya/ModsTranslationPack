@@ -1,0 +1,30 @@
+{
+  "name": "標籤篩選器",
+  "sortnum": 2,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_tag",
+  "pages": [
+    {
+      "type": "patchouli:text",
+
+      "text": "標籤篩選器可以辨別資源上的標籤並予以篩選。$(br2)標籤是 Minecraft 遊戲中用來幫相似資源群組的方式。舉個例子，從手冊右側的圖片上可以得知，鐵錠擁有「forge:ingots」的標籤。同樣地，金、銅和錫等金屬錠也都有。$(br2)標籤篩選器能夠幫助你只用一個條目，分類出所有錠狀物品！"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "標籤介面",
+      "images": [
+        "laserio:textures/book/entries/filter_tag.png"
+      ],
+      "border": true,
+      "text": "標籤介面"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "首先，將物品放置在右上角的欄位上。而這物品的標籤清單將會以$(#0000ff)藍色字體$()排列在介面上。點選你想新增的標籤，並按下 + 號按紐。按住 Shift 並按下 + 號按紐，將會直接將清單上的藍色標籤全新增進篩選器中。$(br2)若要移除清單上的標籤，則只要點選該標籤後並按下 - 號按紐即可。$(br2)另外你也可以透過 Shift + 左鍵點擊來直接加入／移除標籤。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "X 按鈕可以清除篩選器的整個清單。$(br2)標籤清單使用「或」邏輯 - 意思是只要物品與清單上的任一個標籤相符就會被篩選。$(br2)標籤篩選器不支援 NBT 比較，因為這並沒有任何意義。"
+    }
+  ]
+}

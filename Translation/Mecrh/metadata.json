@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "mecrh",
+  "display_name": {
+    "en": "FTB Mighty Ender Chicken Rehatched"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1370164"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

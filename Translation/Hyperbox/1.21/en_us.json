@@ -1,0 +1,16 @@
+{
+	"block.hyperbox.hyperbox": "Hyperbox",
+	"block.hyperbox.hyperbox_preview": "Hyperbox",
+	"block.hyperbox.hyperbox_wall": "Hyperbox Wall",
+	"block.hyperbox.aperture": "Aperture",
+	"menu.hyperbox": "Create Hyperbox Dimension",
+	"menu.hyperbox.edit_dimension": "Dimension ID",
+	"menu.hyperbox.edit_name": "Hyperbox Name",
+	"menu.hyperbox.use_default_name_checkbox": "Use Default Name",
+	"menu.hyperbox.save_and_enter": "Save & Enter",
+	"menu.hyperbox.save_and_exit": "Save & Exit",
+	"menu.hyperbox.dimension_id_in_use": "Dimension ID is already in use",
+	"menu.hyperbox.message.no_id": "Failed to create hyperbox dimension: Missing or empty dimension id",
+	"menu.hyperbox.message.invalid_id": "Failed to create hyperbox dimension: Non [a-z0-9/._-] character in path of location: %s",
+	"menu.hyperbox.message.existing_id": "Failed to create hyperbox dimension: Dimension ID already exists: %s"
+}

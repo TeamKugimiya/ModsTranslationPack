@@ -1,0 +1,12 @@
+{
+	"name": "錢包",
+	"icon": "opolisutilities:textures/item/wallet.png",
+	"category": "opolisutilities:basic_items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "text",
+			"text": "用來收納 B 幣。"
+		}
+	]
+}

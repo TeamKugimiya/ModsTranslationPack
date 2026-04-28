@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "modularrouters",
+  "display_name": {
+    "en": "Modular Routers"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "250294",
+    "modrinth": "EuTS81Z3"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:39Z",
+    "translation_progress": {
+      "1.21": 90.57,
+      "overall": 90.57
+    },
+    "mod_versions": {
+      "1.21": "\"Modular Routers\" 13.2.4 MC-1.21.1"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ceramicbucket",
+  "display_name": {
+    "en": "Ceramic Bucket"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "363799",
+    "modrinth": "M9G5zpf1"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 13.79,
+      "overall": 13.79
+    },
+    "mod_versions": {
+      "1.21": "neoforge-1.21-6.1.1.0"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "placebo",
+  "display_name": {
+    "en": "Placebo"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "283644",
+    "modrinth": "tCkE8p2N"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T16:21:27Z",
+    "translation_progress": {
+      "1.21": 50,
+      "overall": 50
+    },
+    "mod_versions": {
+      "1.21": "Placebo-1.21.1-9.9.1.jar"
+    }
+  }
+}

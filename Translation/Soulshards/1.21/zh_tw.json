@@ -1,0 +1,40 @@
+{
+  "itemGroup.soulshards": "靈魂碎片：重生",
+
+  "item.soulshards.soul_shard": "靈魂碎片",
+  "item.soulshards.soul_shard_unbound": "未綁定的靈魂碎片",
+  "item.soulshards.corrupted_ingot": "腐化金屬錠",
+  "item.soulshards.corrupted_essence": "腐化精華",
+  "item.soulshards.vile_dust": "汙穢粉",
+  "item.soulshards.vile_sword": "汙穢劍",
+
+  "block.soulshards.soul_cage": "靈魂牢籠",
+
+  "tooltip.soulshards.bound": "束縛對象：%s",
+  "tooltip.soulshards.kills": "靈魂數： %d",
+  "tooltip.soulshards.tier": "等級：%d",
+  "tooltip.soulshards.owner": "所有人：%s",
+  "tooltip.soulshards.cage_born": "Cage Born",
+
+  "enchantment.soulshards.soul_stealer": "靈魂竊取者",
+
+  "chat.soulshards.absorb_disabled": "§c碎片似乎拒絕了受縛的靈魂...",
+  "chat.soulshards.command_killed": "§2已殺死 §2%d §2實體",
+  "chat.soulshards.command_not_found": "§c未找到任何可生成的實體",
+
+  "commands.soulshards.usage": "/soulshards [setEnt|setKills|setOwner|killall]",
+  "commands.soulshards.set_ent.usage": "/soulshards setEnt <entityId>",
+  "commands.soulshards.set_ent.success": "Set bound entity of held shard to %s.",
+  "commands.soulshards.set_kills.usage": "/soulshards setKills <killCount>",
+  "commands.soulshards.set_kills.success": "Set kill count of held shard to %d.",
+  "commands.soulshards.set_owner.usage": "/soulshards setOwner [owner]",
+  "commands.soulshards.set_owner.success": "Set owner of held shard to %s.",
+  "commands.soulshards.kill_all.usage": "/soulshards killall",
+  "commands.soulshards.kill_all.success": "Killed %d cage born entities.",
+  "commands.soulshards.error.not_a_shard": "Held item is not a Soul Shard.",
+  "commands.soulshards.error.not_a_entity": "%s is invalid or not registered.",
+
+  "enchantment.soulshards.soul_stealer.desc": "增加每次殺死生物時，所能獲得的靈魂數。",
+
+  "jei.soulshards.soul_shard.desc": "A vessel for the Souls of the slain.\\n\\nObtained by creating a structure in the world and using a %s on the origin block."
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "showcaseitem",
+  "display_name": {
+    "en": "Showcase Item"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "627196",
+    "modrinth": "P5Jjjezm"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

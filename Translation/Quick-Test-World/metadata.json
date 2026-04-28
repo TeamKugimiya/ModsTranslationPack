@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "testworld",
+  "display_name": {
+    "en": "Quick Test World"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "vE3hXH3s"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

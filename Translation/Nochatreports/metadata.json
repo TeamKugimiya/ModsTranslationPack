@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "nochatreports",
+  "display_name": {
+    "en": "No Chat Reports"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "634062"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

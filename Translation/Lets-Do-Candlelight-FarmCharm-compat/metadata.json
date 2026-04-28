@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "candlelight",
+  "display_name": {
+    "en": "[Let's Do] Candlelight - Farm&Charm compat"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1038117",
+    "modrinth": "qwbArkQk"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:48:42Z",
+    "translation_progress": {
+      "1.21": 58.06,
+      "overall": 58.06
+    },
+    "mod_versions": {
+      "1.21": "Candlelight - 2.1.12 - NEOFORGE - 1.21.1"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "functionalstorage",
+  "display_name": {
+    "en": "Functional Storage"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "556861",
+    "modrinth": "cO40ZIg3"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.19": {
+        "versions": [
+          "1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
+      "1.20": {
+        "versions": [
+          "1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:43:20Z",
+    "translation_progress": {
+      "1.18": 94.44,
+      "1.19": 92.93,
+      "1.20": 100,
+      "1.21": 100,
+      "overall": 96.84
+    },
+    "mod_versions": {
+      "1.18": "functionalstorage-1.18.2-1.1.4.jar",
+      "1.19": "functionalstorage-1.19.2-1.1.12.jar",
+      "1.20": "functionalstorage-1.20.1-1.2.13.jar",
+      "1.21": "functionalstorage-1.21.1-1.5.5.jar"
+    }
+  }
+}

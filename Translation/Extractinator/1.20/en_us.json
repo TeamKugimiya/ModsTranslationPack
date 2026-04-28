@@ -1,0 +1,18 @@
+{
+  "itemGroup.extractinator.main": "Extractinator",
+  "block.extractinator.extractinator": "Extractinator",
+  "block.extractinator.silt": "Silt",
+  "block.extractinator.slush": "Slush",
+  "emi.category.extractinator.extractinator": "Extractinator",
+  "text.extractinator.drop_chance": "Drop Chance: %s%%",
+  "text.resourcefulconfig.extractinator.option.extractTicks": "Extract Ticks",
+  "text.resourcefulconfig.extractinator.option.extractTicks.tooltip": "How long it takes for the extractinator to extract a single block",
+  "text.resourcefulconfig.extractinator.option.extractinatorDurability": "Extractinator Durability",
+  "text.resourcefulconfig.extractinator.option.extractinatorDurability.tooltip": "Amount of uses before the extractinator breaks",
+  "text.resourcefulconfig.extractinator.option.lootMultiplier": "Loot Multiplier",
+  "text.resourcefulconfig.extractinator.option.lootMultiplier.tooltip": "Multiplies the amount of loot dropped by this value",
+  "text.resourcefulconfig.extractinator.option.silent": "Silent",
+  "text.resourcefulconfig.extractinator.option.silent.tooltip": "If the extractinator should be silent",
+  "text.resourcefulconfig.extractinator.option.worldgen": "Worldgen",
+  "text.resourcefulconfig.extractinator.option.worldgen.tooltip": "[Fabric Only] Generates Silt and Slush ores"
+}

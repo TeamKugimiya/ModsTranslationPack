@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "patchouli",
+  "display_name": {
+    "en": "Patchouli"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "306770",
+    "modrinth": "nU0bVIaL"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

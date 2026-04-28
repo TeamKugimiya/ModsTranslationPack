@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "bonsaitrees4",
+  "display_name": {
+    "en": "Bonsai Trees 4"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "278993"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

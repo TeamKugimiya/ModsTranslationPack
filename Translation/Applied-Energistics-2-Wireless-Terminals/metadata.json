@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ae2wtlib",
+  "display_name": {
+    "en": "Applied Energistics 2 Wireless Terminals"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "459929"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.19": {
+        "versions": [
+          "1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
+      "1.20": {
+        "versions": [
+          "1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-17T15:00:29Z",
+    "translation_progress": {
+      "1.18": 97.62,
+      "1.19": 97.56,
+      "1.20": 79.55,
+      "1.21": 100,
+      "overall": 93.68
+    },
+    "mod_versions": {
+      "1.18": "11.6.3-forge",
+      "1.19": "12.9.7-forge",
+      "1.20": "ae2wtlib-15.3.3-forge.jar",
+      "1.21": "ae2wtlib-19.4.1.jar"
+    }
+  }
+}

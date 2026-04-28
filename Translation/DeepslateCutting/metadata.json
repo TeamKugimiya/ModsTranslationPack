@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "deepslatecutting",
+  "display_name": {
+    "en": "DeepslateCutting"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "504899",
+    "modrinth": "IiuFShHs"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.4",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:39:16Z",
+    "translation_progress": {
+      "1.21": 100.0,
+      "overall": 100.0
+    },
+    "mod_versions": {
+      "1.21": "1.21.4 neoforge (local baseline)"
+    }
+  }
+}

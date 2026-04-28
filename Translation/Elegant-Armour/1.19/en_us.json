@@ -1,0 +1,22 @@
+{
+  "options.elegantCustomisation.title" : "Elegant Armour Customisation",
+  "options.elegantCustomisation" : "Elegant Armour",
+
+  "options.elegantPart.hideBoots" : "Hide Boots",
+  "options.elegantPart.hideLeggings" : "Hide Leggings",
+  "options.elegantPart.hideChestplate" : "Hide Chestplate",
+  "options.elegantPart.hideHelmet" : "Hide Helmet",
+  "options.elegantPart.hideElytra" : "Hide Elytra",
+  "options.elegantPart.hideHeadItem" : "Hide Head Item",
+  "options.elegantPart.thinArmour" : "Thin Armour",
+  "options.elegantPart.clientActive" : "Client Active",
+
+  "options.elegantPart.hideOthersBoots" : "Hide Other's Boots",
+  "options.elegantPart.hideOthersLeggings" : "Hide Other's Leggings",
+  "options.elegantPart.hideOthersChestplate" : "Hide Other's Chestplate",
+  "options.elegantPart.hideOthersHelmet" : "Hide Other's Helmet",
+  "options.elegantPart.hideOthersElytra" : "Hide Other's Elytra",
+  "options.elegantPart.hideOthersHeadItem" : "Hide Other's Head Item",
+  "options.elegantPart.everyoneThinArmour" : "Everyone Thin Armour",
+  "options.elegantPart.enforceSettings" : "Enforce Settings"
+}

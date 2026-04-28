@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "capes",
+  "display_name": {
+    "en": "Capes"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "408481",
+    "modrinth": "89Wsn8GD"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 100.0,
+      "overall": 100.0
+    },
+    "mod_versions": {
+      "1.21": "[Fabric 1.21] Capes 1.5.4"
+    }
+  }
+}

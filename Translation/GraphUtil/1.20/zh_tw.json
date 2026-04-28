@@ -1,0 +1,11 @@
+{
+    "text.graphutil.title": "實用圖形工具",
+    "text.graphutil.vanillaScale": "Vanilla Graph Scale",
+    "text.graphutil.vanillaScale.tooltip": "Keep the vanilla scale, or scale the graph from the minimum to the maximum value.",
+    "text.graphutil.alwaysShowGraph": "總是顯示圖形",
+    "text.graphutil.alwaysShowGraph.tooltip": "Always open the graph, without holding ALT key when opening F3.",
+    "text.graphutil.preventClipping": "防止圖形裁切",
+    "text.graphutil.preventClipping.tooltip": "Prevent the graph from clipping out of its frame when the value is too high.",
+    "text.graphutil.hideTPS": "隱藏 TPS",
+    "text.graphutil.hideTPS.tooltip": "Hide the TPS graph."
+}

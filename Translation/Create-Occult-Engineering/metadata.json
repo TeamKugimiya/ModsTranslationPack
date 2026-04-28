@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "occultengineering",
+  "display_name": {
+    "en": "Create: Occult Engineering"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1206040",
+    "modrinth": "FHMHF9Qr"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 99.09,
+      "overall": 99.09
+    },
+    "mod_versions": {
+      "1.21": "occultengineering-1.21.1-0.12.1.jar"
+    }
+  }
+}

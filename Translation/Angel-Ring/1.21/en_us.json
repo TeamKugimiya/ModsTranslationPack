@@ -1,0 +1,15 @@
+{
+  "item.angelring.angel_ring": "Angel Ring",
+  "item.angelring.diamond_ring": "Diamond Ring",
+  "angelring.xp.flight_restored": "Seems the magic has been restored. You can fly again!",
+  "angelring.xp.no_more_xp": "You need to have XP to fly. Get more XP to fly again.",
+  "item.angelring.angel_ring.desc0": "Angel Ring drains player's XP over time while flying.",
+  "item.angelring.angel_ring.desc1": "If player's XP reaches less than 1 level,",
+  "item.angelring.angel_ring.desc2": "magic will disappear and flight will not be possible.",
+  "item.angelring.angel_ring.classic.desc0_1": "Grants creative flight while in Ring slot.",
+  "curios.identifier.angelring": "Angel Ring",
+  "itemGroup.angelring3": "Angel Ring 3",
+  "angelring.durability.low_durability": "Your Angel Ring is running low on durability!",
+  "angelring.durability.broken": "Your Angel Ring has been shattered... :(",
+  "angelring.durability.tooltip": "Angel Ring drains it's durability over time while flying."
+}

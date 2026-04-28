@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "forcecraft",
+  "display_name": {
+    "en": "ForceCraft"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "454802",
+    "modrinth": "Nwz7U1QT"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:43:18Z",
+    "translation_progress": {
+      "1.21": 79.46,
+      "overall": 79.46
+    },
+    "mod_versions": {
+      "1.21": "forcecraft-1.21.1-6.2.8.jar"
+    }
+  }
+}

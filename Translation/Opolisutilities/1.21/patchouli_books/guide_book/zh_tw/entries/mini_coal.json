@@ -1,0 +1,17 @@
+{
+	"name": "迷你煤炭",
+	"icon": "opolisutilities:textures/item/mini_coal.png",
+	"category": "opolisutilities:basic_items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "text",
+			"text": "迷你煤炭可用來在熔爐中熔煉一個物品。"
+		},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:mini_coal",
+			"text": "可用來熔煉一個物品。"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "block.deepslatecutting.deepslate_slab": "深板岩半磚",
+  "block.deepslatecutting.deepslate_stairs": "深板岩階梯",
+  "block.deepslatecutting.deepslate_wall": "深板岩牆",
+  "config.deepslatecutting.title": "設定 DeepslateCutting",
+  "config.deepslatecutting.toggle_deepslate_extras": "開關額外深板岩",
+  "config.deepslatecutting.toggle_deepslate_extras.true": "開",
+  "config.deepslatecutting.toggle_deepslate_extras.false": "關"
+}

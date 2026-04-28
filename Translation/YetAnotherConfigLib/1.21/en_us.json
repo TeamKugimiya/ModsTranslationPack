@@ -1,0 +1,34 @@
+{
+  "yacl.control.boolean.true": "True",
+  "yacl.control.boolean.false": "False",
+
+  "yacl.control.action.execute": "EXECUTE",
+
+  "yacl.control.color.color_picker_title": "Color Picker",
+  "yacl.control.dropdown.dropdown_widget_title": "Dropdown Chooser",
+
+  "yacl.control.text.blank": "<blank>",
+
+  "yacl.gui.save": "Save Changes",
+  "yacl.gui.save.tooltip": "Makes the changes made permanent.",
+  "yacl.gui.finished.tooltip": "Closes the GUI.",
+  "yacl.gui.cancel.tooltip": "Forgets pending changes and closes the GUI.",
+  "yacl.gui.reset.tooltip": "Resets all options to default. (This is reversible!)",
+  "yacl.gui.undo": "Undo",
+  "yacl.gui.undo.tooltip": "Reverts all options back to what they were before editing.",
+  "yacl.gui.fail_apply": "Failed to apply",
+  "yacl.gui.fail_apply.tooltip": "There was an error and the changes couldn't be applied.",
+  "yacl.gui.save_before_exit": "Save before exiting!",
+  "yacl.gui.save_before_exit.tooltip": "Save or cancel to exit the GUI.",
+
+  "yacl.list.move_up": "Move up",
+  "yacl.list.move_down": "Move down",
+  "yacl.list.remove": "Remove",
+  "yacl.list.add_top": "New entry",
+  "yacl.list.empty": "List is empty",
+
+  "yacl.restart.title": "Config requires restart!",
+  "yacl.restart.message": "One or more options needs you to restart the game to apply the changes.",
+  "yacl.restart.yes": "Close Minecraft",
+  "yacl.restart.no": "Ignore"
+}

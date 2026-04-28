@@ -1,0 +1,6 @@
+{
+  "item_group.aeinfinitybooster.tab": "AE 無限增幅卡",
+  "item.aeinfinitybooster.infinity_card": "無限範圍增幅卡",
+  "item.aeinfinitybooster.dimension_card": "跨維度增幅卡",
+  "item.aeinfinitybooster.dimension_card.tooltip": "Does not provide chunk loading capabilities."
+}

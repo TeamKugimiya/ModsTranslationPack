@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "twilightforest",
+  "display_name": {
+    "en": "The Twilight Forest"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "227639"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ]
+      }
+    }
+  }
+}

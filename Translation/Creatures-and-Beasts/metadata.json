@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "creatures_and_beasts",
+  "display_name": {
+    "en": "Creatures and Beasts"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "414401",
+    "modrinth": "RQDFHc4w"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 100.0,
+      "overall": 100.0
+    },
+    "mod_versions": {
+      "1.21": "(local baseline)"
+    }
+  }
+}

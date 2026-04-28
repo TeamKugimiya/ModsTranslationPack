@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "powah",
+  "display_name": {
+    "en": "Powah!"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "352656",
+    "modrinth": "KZO4S4DO"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.19"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      },
+      "1.19": {
+        "versions": [
+          "1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

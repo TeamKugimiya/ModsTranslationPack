@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "seasons",
+  "display_name": {
+    "en": "Fabric Seasons"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "KJe6y9Eu"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

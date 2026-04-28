@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ironjetpacks",
+  "display_name": {
+    "en": "Iron Jetpacks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "284497",
+    "modrinth": "DWIEOniQ"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T16:06:44Z",
+    "translation_progress": {
+      "1.21": 90.48,
+      "overall": 90.48
+    },
+    "mod_versions": {
+      "1.21": "IronJetpacks-1.21.1-8.0.11.jar"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "allthecompressed",
+  "display_name": {
+    "en": "AllTheCompressed"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "514045"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T04:58:04Z",
+    "translation_progress": {
+      "1.18": 100,
+      "1.21": 53.23,
+      "overall": 76.61
+    },
+    "mod_versions": {
+      "1.18": "AllTheCompressed-1.0.8-1.18.2-40.1.30.jar",
+      "1.21": "allthecompressed-1.21.1-4.4.0.jar"
+    }
+  }
+}

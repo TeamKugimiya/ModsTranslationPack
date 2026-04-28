@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "undergroundworlds",
+  "display_name": {
+    "en": "Underground Worlds"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "918314",
+    "modrinth": "g9fDJQZe"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:33:36Z",
+    "translation_progress": {
+      "1.21": 82.76,
+      "overall": 82.76
+    },
+    "mod_versions": {
+      "1.21": "undergroundworlds-neoforge-21.1.1.jar"
+    }
+  }
+}

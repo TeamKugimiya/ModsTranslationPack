@@ -1,0 +1,23 @@
+{
+  "numeralping.option.playerList": "玩家清單",
+  "numeralping.option.playerList.desc": "在玩家清單中啟用數值化 Ping 值。",
+  "numeralping.option.serverList": "伺服器清單",
+  "numeralping.option.serverList.desc": "在伺服器清單中啟用數值化 Ping 值。",
+  "numeralping.option.smallPing": "縮小 Ping 值",
+  "numeralping.option.smallPing.desc": "使用替代 Unicode 字元縮小 Ping 值文字。",
+  "numeralping.option.defaultPingThreshold": "預設臨界值",
+  "numeralping.option.defaultPingThreshold.desc": "預設顏色的最高 Ping 值。",
+  "numeralping.option.levelOnePingThreshold": "Lv1 臨界值",
+  "numeralping.option.levelOnePingThreshold.desc": "設定 Lv1 Ping 值顏色的最大值。",
+  "numeralping.option.levelTwoPingThreshold": "Lv2 臨界值",
+  "numeralping.option.levelTwoPingThreshold.desc": "設定 Lv2 Ping 值顏色的最大值",
+  "numeralping.option.levelThreePingThreshold": "Lv3 臨界值",
+  "numeralping.option.levelThreePingThreshold.desc": "設定 Lv3 Ping 值顏色的最大值",
+  "numeralping.option.defaultPingColour": "預設 Ping 值顏色",
+  "numeralping.option.levelOnePingColour": "Lv1 Ping 值顏色",
+  "numeralping.option.levelTwoPingColour": "Lv2 Ping 值顏色",
+  "numeralping.option.levelThreePingColour": "Lv3 Ping 值顏色",
+  "numeralping.option.levelFourPingColour": "Lv4 Ping 值顏色",
+  "numeralping.option.levelFourPingColour.desc": "任何高於 Lv3 的 Ping 值。",
+  "numeralping.option.levelFivePingColour": "連線逾時"
+}

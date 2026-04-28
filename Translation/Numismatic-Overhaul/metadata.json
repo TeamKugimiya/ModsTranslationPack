@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "numismatic-overhaul",
+  "display_name": {
+    "en": "Numismatic Overhaul"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "568316",
+    "modrinth": "ZXm8hVxN"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-04-02T14:51:27Z",
+    "translation_progress": {
+      "1.21": 68.97,
+      "overall": 68.97
+    },
+    "mod_versions": {
+      "1.21": "[1.21.1] Numismatic Overhaul - 0.3.5"
+    }
+  }
+}

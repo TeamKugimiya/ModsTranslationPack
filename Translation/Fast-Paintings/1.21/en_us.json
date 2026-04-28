@@ -1,0 +1,7 @@
+{
+  "select.a.painting": "Select A Painting",
+  "text.autoconfig.paintings.option.use_vanilla_only": "Pick true to only use the vanilla paintings and skip loading any other paintings",
+  "text.autoconfig.paintings.option.use_selection_gui": "Pick true to enable the Painting Selection Gui tot pop up when placing a painting",
+  "text.autoconfig.paintings.option.cycle_paintings": "Pick True to enable painting cycling on right click with a painting item",
+  "text.autoconfig.paintings.option.show_painting_size": "Pick True to show the size of paintings in the painting gui"
+}

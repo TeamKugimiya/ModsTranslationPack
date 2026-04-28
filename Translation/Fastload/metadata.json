@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "fastload",
+  "display_name": {
+    "en": "Fastload"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "630620",
+    "modrinth": "kCpssoSb"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

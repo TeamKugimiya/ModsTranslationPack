@@ -1,0 +1,6 @@
+{
+	"name": "附魔",
+	"description": "被加進這模組中的一些附魔。",
+	"icon": "minecraft:enchanted_book",
+	"sortnum": 5
+}

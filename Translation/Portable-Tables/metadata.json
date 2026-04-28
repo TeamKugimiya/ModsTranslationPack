@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "portable_tables",
+  "display_name": {
+    "en": "Portable Tables"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "n7CI2ifG"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

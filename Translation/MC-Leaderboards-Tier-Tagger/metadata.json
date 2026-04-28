@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "leaderboards",
+  "display_name": {
+    "en": "MC Leaderboards Tier Tagger"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1367888",
+    "modrinth": "A2WedURo"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:23Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "leaderboards-1.21.1-Fabric-1.0.0.jar"
+    }
+  }
+}

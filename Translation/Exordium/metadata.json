@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "exordium",
+  "display_name": {
+    "en": "Exordium"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "681953",
+    "modrinth": "DynYZEae"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.4",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:37Z",
+    "translation_progress": {
+      "1.21": 0,
+      "overall": 0
+    },
+    "mod_versions": {
+      "1.21": "1.4.2-1.21.4 - Fabric"
+    }
+  }
+}

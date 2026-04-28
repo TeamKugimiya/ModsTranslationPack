@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ironchest",
+  "display_name": {
+    "en": "Iron Chests"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "228756",
+    "modrinth": "P3iIrPH3"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T16:43:22Z",
+    "translation_progress": {
+      "1.21": 83.33,
+      "overall": 83.33
+    },
+    "mod_versions": {
+      "1.21": "ironchest-1.21-neoforge-16.0.7.jar"
+    }
+  }
+}

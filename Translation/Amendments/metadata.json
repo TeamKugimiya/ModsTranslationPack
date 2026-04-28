@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "amendments",
+  "display_name": {
+    "en": "Amendments"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "896746",
+    "modrinth": "6iTJugQR"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21",
+          "1.20"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T05:04:23Z",
+    "translation_progress": {
+      "1.21": 61.29,
+      "overall": 61.29
+    },
+    "mod_versions": {
+      "1.21": "amendments-1.21-2.0.15-neoforge.jar"
+    }
+  }
+}

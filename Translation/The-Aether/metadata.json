@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "aether",
+  "display_name": {
+    "en": "The Aether"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "255308",
+    "modrinth": "YhmgMVyu"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T14:08:00Z",
+    "translation_progress": {
+      "1.21": 79.48,
+      "overall": 79.48
+    },
+    "mod_versions": {
+      "1.21": "The Aether - 1.21.1-1.5.10-neoforge"
+    }
+  }
+}

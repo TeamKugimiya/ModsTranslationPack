@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "borderlessmining",
+  "display_name": {
+    "en": "Borderless Mining"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "310205",
+    "modrinth": "kYq5qkSL"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.20.2",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T12:46:00Z",
+    "translation_progress": {
+      "1.21": 100.0,
+      "overall": 100.0
+    },
+    "mod_versions": {
+      "1.21": "1.1.9 (Fabric/Quilt 1.20.2)"
+    }
+  }
+}

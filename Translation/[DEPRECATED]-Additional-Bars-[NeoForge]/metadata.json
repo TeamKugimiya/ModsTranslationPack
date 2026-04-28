@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "additionalbars",
+  "display_name": {
+    "en": "[DEPRECATED] Additional Bars [NeoForge]"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "357362",
+    "modrinth": "hgNzwsf3"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-17T12:01:14Z",
+    "translation_progress": {
+      "1.21": 88.76,
+      "overall": 88.76
+    },
+    "mod_versions": {
+      "1.21": "[1.21.1] Additional Bars 5.1.0"
+    }
+  }
+}

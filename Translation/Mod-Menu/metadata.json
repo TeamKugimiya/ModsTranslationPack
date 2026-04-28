@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "mod_menu",
+  "display_name": {
+    "en": "Mod Menu"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "308702",
+    "modrinth": "mOgUt4GM"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

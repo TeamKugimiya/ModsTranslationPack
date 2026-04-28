@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "fwaystones",
+  "display_name": {
+    "en": "Wraith Waystones"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "410902",
+    "modrinth": "sTZr7NVo"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:56:08Z",
+    "translation_progress": {
+      "1.21": 88.89,
+      "overall": 88.89
+    },
+    "mod_versions": {
+      "1.21": "Wraith Waystones 3.3.4 - MC1.21.1"
+    }
+  }
+}

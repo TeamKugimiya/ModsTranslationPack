@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "niftycarts",
+  "display_name": {
+    "en": "NiftyCarts"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "900093",
+    "modrinth": "CXd6g9xp"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "fabric"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-04-02T14:39:20Z",
+    "translation_progress": {
+      "1.20": 4.9,
+      "1.21": 60.56,
+      "overall": 32.73
+    },
+    "mod_versions": {
+      "1.20": "niftycarts-20.1.5.jar",
+      "1.21": "niftycarts-21.1.1.jar"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "miniutilities",
+  "display_name": {
+    "en": "MiniUtilities Flight Fix"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "460341",
+    "modrinth": "Bogpm0SB"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

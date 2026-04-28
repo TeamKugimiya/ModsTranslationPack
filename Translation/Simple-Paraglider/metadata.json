@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "paraglider",
+  "display_name": {
+    "en": "Simple Paraglider"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1183360",
+    "modrinth": "VPv5c5nx"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T16:21:32Z",
+    "translation_progress": {
+      "1.21": 50,
+      "overall": 50
+    },
+    "mod_versions": {
+      "1.21": "paraglider-1.0.0-neoforge-1.21.1.jar"
+    }
+  }
+}

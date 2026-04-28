@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "energymeter",
+  "display_name": {
+    "en": "Energy Meter"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "532169",
+    "modrinth": "MbejSZ2E"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:30Z",
+    "translation_progress": {
+      "1.21": 12.5,
+      "overall": 12.5
+    },
+    "mod_versions": {
+      "1.21": "EnergyMeter-NeoForge-1.21.1-0.4.0"
+    }
+  }
+}

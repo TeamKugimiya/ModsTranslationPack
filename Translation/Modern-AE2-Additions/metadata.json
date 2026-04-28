@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "mae2",
+  "display_name": {
+    "en": "Modern AE2 Additions"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1028068"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  }
+}

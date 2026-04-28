@@ -1,0 +1,10 @@
+{
+    "name": "The Other",
+    "icon": "allthemodium:other_vibranium_ore",
+    "category": "allthemodium:dimensions",
+    "sortnum": 3,
+    "pages": [{
+        "type": "text",
+        "text": "The Other is a very hostile dimension. To teleport to the dimension use the $(l:dimensions/teleport_pad)Teleport Pad$(/c) in the Nether. Little is known of this place, but it seems to be where Piglins come from, huge underground cities exist in any biomes with tree cover on the surface, as well as dungeons and ancient pyramids full of monsters and loot"
+    }]
+}

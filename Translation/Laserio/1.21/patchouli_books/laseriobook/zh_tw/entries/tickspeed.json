@@ -1,0 +1,20 @@
+{
+  "name": "Tick 速率",
+  "sortnum": 8,
+  "category": "laserio:mechanics",
+  "icon": "minecraft:textures/item/clock_00.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tick 速率僅在提取和庫存模式下可用。$(br2)這個設定決定了卡片的運作效率。預設值為 20，表示提取模式卡每 20 ticks（1 秒）才會進行一次提取作業。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "提取和庫存模式卡的預設值，和尚未安裝$(l:laserio:overclocker_card)卡片超頻$(/l)的情況下可設定的最小值皆為 20，最高則可以將此值設為 1200。安裝指定數量的卡片超頻時，可進一步縮減可設定的最小值：$(br)1. 15$(br)2. 10$(br)3. 5$(br)4. 1$(br2)若你想要每 tick 進行提取作業，那麼你將需要安裝 4 張卡片超頻。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "點擊左鍵將此值提高 1。點擊右鍵則反之。點擊同時按下 Shift 將一次調整 10，而按下 Control 則會一次調整 64。$(br2)同時按下 Shift + Control 時，將會一口氣調整 640！$(br2)舉個例子，按住 Shift 時點擊右鍵會將傳輸速率縮減 10。"
+    }
+  ]
+}

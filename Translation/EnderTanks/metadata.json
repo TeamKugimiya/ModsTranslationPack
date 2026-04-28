@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "endertanks",
+  "display_name": {
+    "en": "EnderTanks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "59613",
+    "modrinth": "zZwEA08D"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

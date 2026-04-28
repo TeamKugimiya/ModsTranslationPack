@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "elytratrims",
+  "display_name": {
+    "en": "Elytra Trims"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "XpzGz7KD"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  }
+}

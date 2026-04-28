@@ -1,0 +1,30 @@
+{
+  "getting_started": {
+    "name": "\uD83D\uDCD5 入門指南",
+    "icon": null
+  },
+  "resources": {
+    "name": "\uD83E\uDEA8 材料資源",
+    "icon": null
+  },
+  "tools": {
+    "name": "\uD83D\uDD28 實用工具",
+    "icon": null
+  },
+  "logistics": {
+    "name": "\uD83D\uDEDE 物流方式",
+    "icon": null
+  },
+  "processing": {
+    "name": "\uD83D\uDEE0 加工處理",
+    "icon": null
+  },
+  "interaction": {
+    "name": "\uD83E\uDEF3 世界互動",
+    "icon": null
+  },
+  "arcane": {
+    "name": "\uD83E\uDE84 奧術",
+    "icon": null
+  }
+}

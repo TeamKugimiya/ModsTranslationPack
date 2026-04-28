@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "chattoggle",
+  "display_name": {
+    "en": "Chat Toggle"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "737481",
+    "modrinth": "k6aAChpa"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 50.0,
+      "overall": 50.0
+    },
+    "mod_versions": {
+      "1.21": "Chat Toggle 5.0.1+1.21 NeoForge"
+    }
+  }
+}

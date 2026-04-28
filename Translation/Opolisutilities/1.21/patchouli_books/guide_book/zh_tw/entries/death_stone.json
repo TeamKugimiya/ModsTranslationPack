@@ -1,0 +1,12 @@
+{
+	"name": "死亡之石",
+	"icon": "opolisutilities:textures/item/death_stone.png",
+	"category": "opolisutilities:home_stones",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "text",
+			"text": "死亡之石會在玩家死亡時給與，能用來傳送回前次死亡地點，能夠橫跨所有維度使用。"
+		}
+	]
+}

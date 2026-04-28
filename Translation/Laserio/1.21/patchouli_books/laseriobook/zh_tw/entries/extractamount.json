@@ -1,0 +1,20 @@
+{
+  "name": "傳輸數量",
+  "sortnum": 7,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/modeextractor.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "傳輸數量僅在提取和庫存模式下可用。$(br2)這設定將決定單次提取作業最大可傳輸的物品（或流體／能量）數量。$(br2)例如：若將傳輸數量設為 8 且傳輸速率設為 20 ticks，那麼卡片會每 20 ticks 嘗試從相鄰容器提取 8 個物品。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "提取和庫存模式卡預設會將此值設為 1，在尚未安裝$(l:laserio:overclocker_card)卡片超頻$(/l)的情況下，最高可設為 8。安裝指定數量的卡片超頻時，可提升單次作業的最高提取量：$(br)1. 16$(br)2. 32$(br)3. 48$(br)4. 64$(br2)若你想要一次提取 64 個物品，那麼你將需要安裝 4 張卡片超頻。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "點擊左鍵將此值提高 1。點擊右鍵則反之。點擊同時按下 Shift 將一次調整 10，而按下 Control 則會一次調整 64。$(br2)同時按下 Shift + Control 時，將會一口氣調整 640！$(br2)舉個例子，按住 Shift 時點擊右鍵會將提取量減少 10。"
+    }
+  ]
+}

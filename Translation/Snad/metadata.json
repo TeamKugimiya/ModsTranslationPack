@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "snad",
+  "display_name": {
+    "en": "Snad"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "241344",
+    "modrinth": "z2LdIAgk"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

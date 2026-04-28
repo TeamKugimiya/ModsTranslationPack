@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "reliquified_ars_nouveau",
+  "display_name": {
+    "en": "Reliquified Ars Nouveau"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1196449",
+    "modrinth": "qNOCEdeg"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

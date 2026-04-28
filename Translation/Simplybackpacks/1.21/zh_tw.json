@@ -1,0 +1,38 @@
+{
+  "simplybackpacks.shift":"按下 <§6§oShift§r> 查看資訊。",
+  "key.simplybackpacks.category":"簡易背包",
+  "key.simplybackpacks.backpackpickup.desc":"開關自動拾取",
+  "key.simplybackpacks.backpackopen.desc":"開啟背包",
+
+  "simplybackpacks.autopickup":"自動拾取",
+  "simplybackpacks.autopickupenabled":"自動拾取：§a啟用§r",
+  "simplybackpacks.autopickupdisabled":"自動拾取：§c停用§r",
+
+  "simplybackpacks.whitelist":"白名單",
+  "simplybackpacks.nbtdata":"NBT 標籤",
+
+  "simplybackpacks.invaliduuid": "未知 UUID",
+  "simplybackpacks.delete.confirmation": "你確定想要刪除這個背包？\n此動作將無法復原。\n使用指令 /sb delete %s 來確認刪除。",
+  "simplybackpacks.delete.finished": "已刪除背包 %s",
+  "simplybackpacks.notsetup": "開啟背包以設置 UUID",
+
+  "item.simplybackpacks.commonbackpack": "普通背包",
+  "item.simplybackpacks.commonbackpack.info":"最極簡的背包。",
+  "item.simplybackpacks.commonbackpack.info2":"§f擁有 18 格欄位§r",
+
+  "item.simplybackpacks.uncommonbackpack":"罕見背包",
+  "item.simplybackpacks.uncommonbackpack.info":"稍微好一點的背包。",
+  "item.simplybackpacks.uncommonbackpack.info2":"§e擁有 33 格欄位§r",
+
+  "item.simplybackpacks.rarebackpack":"稀有背包",
+  "item.simplybackpacks.rarebackpack.info":"相當不錯的背包。",
+  "item.simplybackpacks.rarebackpack.info2":"§b擁有 66 格欄位§r",
+
+  "item.simplybackpacks.epicbackpack":"史詩背包",
+  "item.simplybackpacks.epicbackpack.info":"相當史詩的背包。",
+  "item.simplybackpacks.epicbackpack.info2":"§d擁有 99 格欄位§r",
+
+  "item.simplybackpacks.ultimatebackpack":"終極背包",
+  "item.simplybackpacks.ultimatebackpack.info":"終極背包。",
+  "item.simplybackpacks.ultimatebackpack.info2":"§d擁有 158 格欄位§r"
+}

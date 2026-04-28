@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "cloth-config2",
+  "display_name": {
+    "en": "Cloth Config API"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "9s6osm5g"
+  }
+}

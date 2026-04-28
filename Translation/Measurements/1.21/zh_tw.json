@@ -1,0 +1,21 @@
+{
+  "_comment": "Items",
+  "item.measurements.tape_measure": "捲尺",
+
+  "_comment": "ClothConfig",
+  "text.autoconfig.measurements.title": "Measurements",
+  "text.autoconfig.measurements.option.client": "用戶端",
+  "text.autoconfig.measurements.option.client.lineColor": "線條顏色",
+  "text.autoconfig.measurements.option.client.textColor": "文字顏色",
+  "text.autoconfig.measurements.option.client.textSize": "文字大小",
+  "text.autoconfig.measurements.option.client.lineWidth": "文字寬度",
+  "text.autoconfig.measurements.option.client.lineWidthMax": "線條最大寬度",
+
+  "_comment": "NeoForge Config",
+  "measurements.configuration.client": "Client",
+  "measurements.configuration.lineColor": "Line Color",
+  "measurements.configuration.textColor": "Text Color",
+  "measurements.configuration.textSize": "Text Size",
+  "measurements.configuration.lineWidth": "Line Width",
+  "measurements.configuration.lineWidthMax": "Line Width Max"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "woof",
+  "display_name": {
+    "en": "Wolves Of Other Furs"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "653216",
+    "modrinth": "at26R0TN"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.4",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:55:55Z",
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "Wolves Of Other Furs 4.0.2"
+    }
+  }
+}

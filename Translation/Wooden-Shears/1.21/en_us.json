@@ -1,0 +1,10 @@
+{
+  "item.woodenshears.wooden_shears": "Wooden Shears",
+
+  "text.autoconfig.woodenshears.option.DURABILITY": "Wooden Shears Durability",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[0]": "§6§lWooden Shears Durability",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[1]": "Defines the maximum durability of Wooden Shears.",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[2]": "§7§o0: deactivates the durability",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[3]": "§7§oMin: 0; Max: 10000",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[4]": "§7§oDefault: 50"
+}

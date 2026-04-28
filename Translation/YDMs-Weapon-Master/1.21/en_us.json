@@ -1,0 +1,53 @@
+{
+	"weaponmaster_ydm.screen":"YDM's Weapon Master",
+	"key.weaponmaster_ydm.category":"YDM's Weapon Master",
+	"key.weaponmaster_ydm.opengui":"Open Settings",
+	"weaponmaster_ydm.screen2":"More Settings",
+	"weaponmaster_ydm.screen3":"Blaclist-Whitelist Settings",
+	"weaponmaster_ydm.screen4":"Unique Item Settings",
+	"weaponmaster_ydm.screen.reset_to_previous": "Reset",
+	"weaponmaster_ydm.screen.reset": "Reset",
+	"weaponmaster_ydm.screen.reset_to_null":"Reset all to 0",
+	"weaponmaster_ydm.screen.blacklist": "Blacklist",
+	"weaponmaster_ydm.screen.whitelist": "Whitelist",
+	"weaponmaster_ydm.screen.addtext":"Add",
+	"weaponmaster_ydm.screen.shiftscroll":"Shift+Scroll",
+	"weaponmaster_ydm.screen.remove":"Remove",
+	"weaponmaster_ydm.screen.save":"Save",
+	"weaponmaster_ydm.screen.copy_server_settings":"Copy Server Settings",
+	
+	"gui.weaponmaster_ydm.slot.scale":"Scale: ",
+	
+	"gui.weaponmaster_ydm.slot.posx":"Position X: ",
+	"gui.weaponmaster_ydm.slot.posy":"Position Y: ",
+	"gui.weaponmaster_ydm.slot.posz":"Position Z: ",
+	
+	"gui.weaponmaster_ydm.slot.rotx":"Rotation X: ",
+	"gui.weaponmaster_ydm.slot.roty":"Rotation Y: ",
+	"gui.weaponmaster_ydm.slot.rotz":"Rotation Z: ",
+	
+	"weaponmaster_ydm.screen.other_settings":"More",
+	"weaponmaster_ydm.screen.shield":"Shield",
+	"weaponmaster_ydm.screen.banner":"Banner",
+	
+	"weaponmaster_ydm.screen.mainhand":"Mainhand",
+	"weaponmaster_ydm.screen.offhand":"Offhand",
+	"weaponmaster_ydm.screen.quiver":"Quiver",
+	
+	"gui.weaponmaster_ydm.attach.head":"Head",
+	"gui.weaponmaster_ydm.attach.body":"Body",
+	"gui.weaponmaster_ydm.attach.larm":"Left Arm",
+	"gui.weaponmaster_ydm.attach.rarm":"Right Arm",
+	"gui.weaponmaster_ydm.attach.lleg":"Left Leg",
+	"gui.weaponmaster_ydm.attach.rleg":"Right Leg",
+	"gui.weaponmaster_ydm.rotate":"Drag to rotate",
+	"gui.weaponmaster_ydm.slot.shield":"Shield",
+	"gui.weaponmaster_ydm.slot.banner":"Banner",
+	"gui.weaponmaster_ydm.slot.mainhand":"Mainhand",
+	"gui.weaponmaster_ydm.slot.offhand":"Offhand",
+	"gui.weaponmaster_ydm.slot.quiver":"Quiver",
+	"gui.weaponmaster_ydm.mover":"Modify position from:",
+	"gui.weaponmaster_ydm.arrowright":"->",
+	"gui.weaponmaster_ydm.attach":"Attach to Body Part:"
+	
+}

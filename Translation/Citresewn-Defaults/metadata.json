@@ -1,0 +1,20 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "citresewn-defaults",
+  "display_name": {
+    "en": "Citresewn Defaults"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "521427"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "create_mechanical_extruder",
+  "display_name": {
+    "en": "Create Mechanical Extruder"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "686100",
+    "modrinth": "hGAlcCDJ"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 37.5,
+      "overall": 37.5
+    },
+    "mod_versions": {
+      "1.21": "Create: Mechanical extruder 2.2.0-6.0.8 for mc1.21.1"
+    }
+  }
+}

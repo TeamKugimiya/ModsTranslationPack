@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "metalbarrels",
+  "display_name": {
+    "en": "Metal Barrels"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "324985",
+    "modrinth": "Zdp9LMYf"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:28Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "metalbarrels-neoforge-1.21.1-7.jar"
+    }
+  }
+}

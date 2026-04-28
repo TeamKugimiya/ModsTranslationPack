@@ -1,0 +1,12 @@
+{
+	"name": "回家石",
+	"icon": "opolisutilities:textures/item/home_stone.png",
+	"category": "opolisutilities:home_stones",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "text",
+			"text": "回家石可用來傳送玩家回前次儲存的位置，僅能在主世界中使用。"
+		}
+	]
+}

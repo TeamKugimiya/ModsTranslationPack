@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "oritech",
+  "display_name": {
+    "en": "Oritech"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1030830",
+    "modrinth": "4sYI62kA"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-04-02T15:00:37Z",
+    "translation_progress": {
+      "1.21": 94.14,
+      "overall": 94.14
+    },
+    "mod_versions": {
+      "1.21": "neoforge 1.1.0"
+    }
+  }
+}

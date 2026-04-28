@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "fabrihud",
+  "display_name": {
+    "en": "FabriHUD"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "661156"
+  },
+  "contents": {
+    "tiers": {
+      "1.19": {
+        "versions": [
+          "<=1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:51:15Z",
+    "translation_progress": {
+      "1.19": 89.13,
+      "overall": 89.13
+    },
+    "mod_versions": {
+      "1.19": "Element Backgrounds"
+    }
+  }
+}

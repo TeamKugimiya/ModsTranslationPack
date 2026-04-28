@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "skyguis",
+  "display_name": {
+    "en": "Sky GUIs"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "3Gdi7Qgq"
+  }
+}

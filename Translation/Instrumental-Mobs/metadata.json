@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "instrumentalmobs",
+  "display_name": {
+    "en": "Instrumental Mobs"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "299602",
+    "modrinth": "4uT1MZts"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.4",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T16:06:40Z",
+    "translation_progress": {
+      "1.21": 40,
+      "overall": 40
+    },
+    "mod_versions": {
+      "1.21": "InstrumentalMobs-neoforge-1.21.4-7.0.0.jar"
+    }
+  }
+}

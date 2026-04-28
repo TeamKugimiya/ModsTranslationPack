@@ -1,0 +1,42 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "gateways",
+  "display_name": {
+    "en": "Gateways to Eternity"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "417802"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.19": {
+        "versions": [
+          "1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

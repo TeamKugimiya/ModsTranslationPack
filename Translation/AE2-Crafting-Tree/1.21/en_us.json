@@ -1,0 +1,21 @@
+{
+  "gui.ae2ct.CraftingTreeTitle": "Crafting Tree",
+  "gui.ae2ct.ShowTree": "Show Crafting Tree",
+  "gui.ae2ct.OutputAmount": "crafting: %s",
+  "gui.ae2ct.InputAmount": "need: %s",
+  "gui.ae2ct.MiddenAmount": "use: %s",
+  "gui.ae2ct.Info": "Info:",
+  "gui.ae2ct.CraftingAmount": "crafting: %s",
+  "gui.ae2ct.MissingAmount": "missing: %s",
+  "gui.ae2ct.StoredAmount": "stored: %s",
+  "gui.ae2ct.Screenshot": "Screenshot",
+  "gui.ae2ct.CraftingTreeSettingTitle": "Setting",
+  "gui.ae2ct.Setting": "Setting",
+  "gui.ae2ct.UseCompactTreeCheckbox": "use compact crafting tree (beta)",
+  "gui.ae2ct.ScreenShotShowCountCheckbox": "screenshot show count",
+  "ae2ct.screenshot.noready": "screenshot Not ready yet, please try again later",
+  "ae2ct.screenshot.exception": "screenshots faild, reason: %s",
+  "ae2ct.openscreen.plannull": "Waiting for craft confirm calculation to complete",
+  "gui.ae2ct.ShowMissingOnly": "Show Missing Only",
+  "gui.ae2ct.ShowMissingOnlyByDefault": "show missing only by default"
+}

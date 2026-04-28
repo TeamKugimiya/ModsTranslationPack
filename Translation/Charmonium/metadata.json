@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "charmonium",
+  "display_name": {
+    "en": "Charmonium"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "378696",
+    "modrinth": "bpii4Xsa"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 66.67,
+      "overall": 66.67
+    },
+    "mod_versions": {
+      "1.21": "1.21 fabric (local baseline)"
+    }
+  }
+}

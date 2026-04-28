@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "trashcans",
+  "display_name": {
+    "en": "Trash Cans",
+    "zh_tw": "垃圾桶"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "394535",
+    "modrinth": "4QrnfueM"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    },
+    "ignored_keys": [
+      "trashcans.gui.energy_trash_can.limit.change1",
+      "trashcans.gui.energy_trash_can.limit.change2",
+      "trashcans.gui.energy_trash_can.limit.change3"
+    ]
+  },
+  "status": {
+    "last_synced": "2026-03-23T10:06:11Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "Trash Cans 1.0.18c for NeoForge 1.21"
+    }
+  }
+}

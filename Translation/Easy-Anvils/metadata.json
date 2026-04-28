@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "easyanvils",
+  "display_name": {
+    "en": "Easy Anvils"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "682567",
+    "modrinth": "OZBR5JT5"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:12:19Z",
+    "translation_progress": {
+      "1.21": 3.85,
+      "overall": 3.85
+    },
+    "mod_versions": {
+      "1.21": "[NEOFORGE] [1.21.1] EasyAnvils-v21.1.0"
+    }
+  }
+}

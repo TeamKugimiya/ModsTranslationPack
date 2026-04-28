@@ -1,0 +1,11 @@
+{
+    "name": "Allthemodium Tools",
+    "icon": "allthemodium:allthemodium_pickaxe",
+    "category": "allthemodium:misc",
+    "sortnum": 1,
+    "pages": [{
+            "type": "text",
+            "text": "Allthemodium has several built in tools included, all of which are indestructible."
+        }
+    ]
+}

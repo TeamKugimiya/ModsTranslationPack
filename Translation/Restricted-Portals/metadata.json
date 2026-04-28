@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "restrictedportals",
+  "display_name": {
+    "en": "Restricted Portals"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "228266",
+    "modrinth": "kGd0Bwtw"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

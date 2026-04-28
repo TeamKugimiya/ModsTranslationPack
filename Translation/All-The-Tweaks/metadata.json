@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "allthetweaks",
+  "display_name": {
+    "en": "All The Tweaks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "364120"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    },
+    "ignored_keys": [
+      "travelerstitles.allthemodium.the_other.color"
+    ]
+  },
+  "status": {
+    "last_synced": "2026-03-28T04:54:49Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "allthetweaks-1.21.1-2.9.1.jar"
+    }
+  }
+}

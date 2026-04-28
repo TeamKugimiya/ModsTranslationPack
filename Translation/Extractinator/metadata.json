@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "extractinator",
+  "display_name": {
+    "en": "Extractinator"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "567114",
+    "modrinth": "2EPioYNN"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-16T16:48:32Z",
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "[Forge] Extractinator 2.3.0"
+    }
+  }
+}

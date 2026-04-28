@@ -1,0 +1,16 @@
+{
+  "name": "連接側",
+  "sortnum": 2,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/sneaky-up.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "卡片連接側的設定，可以決定要與相鄰容器的哪一側進行互動。$(br2)打個比方，熔爐僅頂部可以接收物品。當雷射節點位於熔爐的任一側時，將輸入模式卡的連接側設為「上」。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "這時卡片會開始嘗試向熔爐頂部輸入物品。$(br2)將其他張卡的連接側設為「下」時，就可以朝熔爐底部輸入燃料。"
+    }
+  ]
+}

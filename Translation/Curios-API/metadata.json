@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "curios",
+  "display_name": {
+    "en": "Curios API"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "309927",
+    "modrinth": "vvuO3ImH"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 100.0,
+      "overall": 100.0
+    },
+    "mod_versions": {
+      "1.21": "curios-neoforge-9.5.1+1.21.1.jar"
+    }
+  }
+}

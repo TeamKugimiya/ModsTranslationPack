@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "relics",
+  "display_name": {
+    "en": "Relics"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "445274",
+    "modrinth": "UnVJifuG"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T16:21:30Z",
+    "translation_progress": {
+      "1.21": 2.86,
+      "overall": 2.86
+    },
+    "mod_versions": {
+      "1.21": "relics-1.21.1-0.11.9.jar"
+    }
+  }
+}

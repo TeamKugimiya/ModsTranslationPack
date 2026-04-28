@@ -1,0 +1,12 @@
+{
+	"name": "B 幣",
+	"icon": "opolisutilities:textures/item/b_bucks.png",
+	"category": "opolisutilities:basic_items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "只是枚能收進錢包的無用硬幣。"
+		}
+	]
+}

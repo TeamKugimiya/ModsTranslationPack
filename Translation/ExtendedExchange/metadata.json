@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "extendedexchange",
+  "display_name": {
+    "en": "ExtendedExchange"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "681874"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:40Z",
+    "translation_progress": {
+      "1.18": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.18": "extendedexchange-1802.2.7.jar"
+    }
+  }
+}

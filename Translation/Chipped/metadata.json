@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "chipped",
+  "display_name": {
+    "en": "Chipped"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "456956",
+    "modrinth": "BAscRYKm"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.18": 0.0,
+      "overall": 0.0
+    },
+    "mod_versions": {
+      "1.18": "chipped-forge-1.18.2-2.0.1.jar"
+    }
+  }
+}

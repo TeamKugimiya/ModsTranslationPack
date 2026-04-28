@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "duckling",
+  "display_name": {
+    "en": "Duckling"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "597248",
+    "modrinth": "jkb861Ih"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:39:16Z",
+    "translation_progress": {
+      "1.21": 91.3,
+      "overall": 91.3
+    },
+    "mod_versions": {
+      "1.21": "[NeoForge] Duckling 5.0.1"
+    }
+  }
+}

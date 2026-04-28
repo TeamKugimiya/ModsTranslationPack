@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "debugify",
+  "display_name": {
+    "en": "Debugify"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "596224",
+    "modrinth": "QwxR6Gcd"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:39:16Z",
+    "translation_progress": {
+      "1.21": 87.84,
+      "overall": 87.84
+    },
+    "mod_versions": {
+      "1.21": "Debugify 1.21.1+1.0"
+    }
+  }
+}

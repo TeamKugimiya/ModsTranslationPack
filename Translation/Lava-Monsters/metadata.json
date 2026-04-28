@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lava_monster",
+  "display_name": {
+    "en": "Lava Monsters"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "60329",
+    "modrinth": "DBPoCoy0"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.8",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:43:33Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "Lava Monsters 1.21.8-v1.0.12"
+    }
+  }
+}

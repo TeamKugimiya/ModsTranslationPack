@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "littlelogistics",
+  "display_name": {
+    "en": "Little Logistics"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "570050",
+    "modrinth": "1zZJrh9c"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

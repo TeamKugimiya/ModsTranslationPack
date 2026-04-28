@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "vanillacookbook",
+  "display_name": {
+    "en": "Vanilla Cookbook"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "402659",
+    "modrinth": "YWn7nNrm"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:07:57Z",
+    "translation_progress": {
+      "1.21": 98.78,
+      "overall": 98.78
+    },
+    "mod_versions": {
+      "1.21": "VanillaCookbook 1.21.1"
+    }
+  }
+}

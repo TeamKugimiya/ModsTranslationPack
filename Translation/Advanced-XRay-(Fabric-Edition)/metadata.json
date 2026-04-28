@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "xray",
+  "display_name": {
+    "en": "Advanced XRay (Fabric Edition)"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "444663"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T00:07:52Z",
+    "translation_progress": {
+      "1.21": 83.64,
+      "overall": 83.64
+    },
+    "mod_versions": {
+      "1.21": "[FABRIC] Advanced XRay 21.11.0"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "solarflux",
+  "display_name": {
+    "en": "Solar Flux Keep Upgrades"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1449902",
+    "modrinth": "RrSIqnHR"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

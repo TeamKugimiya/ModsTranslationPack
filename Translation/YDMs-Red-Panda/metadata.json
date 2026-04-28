@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ydms_redpanda",
+  "display_name": {
+    "en": "YDM's Red Panda"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "623035",
+    "modrinth": "1l7Rzc6k"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.4",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T07:17:26Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "1.21.4+fabric+1.0.4"
+    }
+  }
+}

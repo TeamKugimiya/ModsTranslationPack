@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "vulkanmod",
+  "display_name": {
+    "en": "VulkanMod"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "635429",
+    "modrinth": "JYQhtZtO"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:08:01Z",
+    "translation_progress": {
+      "1.21": 75.76,
+      "overall": 75.76
+    },
+    "mod_versions": {
+      "1.21": "VulkanMod_1.21.1-0.5.5.jar"
+    }
+  }
+}

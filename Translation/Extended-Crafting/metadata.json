@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "extendedcrafting",
+  "display_name": {
+    "en": "Extended Crafting"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "268387",
+    "modrinth": "a2mjayzw"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:39Z",
+    "translation_progress": {
+      "1.18": 100,
+      "overall": 50
+    },
+    "mod_versions": {
+      "1.18": "ExtendedCrafting-1.18.2-4.1.2.jar"
+    }
+  }
+}

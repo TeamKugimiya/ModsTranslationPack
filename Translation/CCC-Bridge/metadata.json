@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "cccbridge",
+  "display_name": {
+    "en": "CC:C Bridge"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "656214",
+    "modrinth": "fXt291FO"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 21.88,
+      "overall": 21.88
+    },
+    "mod_versions": {
+      "1.21": "v1.7.2 NeoForge"
+    }
+  }
+}

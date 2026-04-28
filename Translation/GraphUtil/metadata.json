@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "graphutil",
+  "display_name": {
+    "en": "GraphUtil"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "681955",
+    "modrinth": "cpBmCs66"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T15:50:11Z",
+    "translation_progress": {
+      "1.20": 44.44,
+      "overall": 44.44
+    },
+    "mod_versions": {
+      "1.20": "1.0.0-1.20.1 - Forge"
+    }
+  }
+}

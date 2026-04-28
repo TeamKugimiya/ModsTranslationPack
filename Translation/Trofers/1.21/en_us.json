@@ -1,0 +1,21 @@
+{
+  "block.trofers.trophy": "Trophy",
+  "message.trofers.reward_cooldown": "Next reward available in %s",
+  "text.autoconfig.trofers.option.general.trophyChance": "Trophy Chance",
+  "text.autoconfig.trofers.option.general.trophyChance.@Tooltip": "The chance an entity drops a trophy when killed",
+  "text.autoconfig.trofers.option.general.enableAdvancementDrops": "Enable Advancement Drops",
+  "text.autoconfig.trofers.option.general.enableAdvancementDrops.@Tooltip": "Whether trophies can be awarded when specific advancements are earned (Currently unused)",
+  "text.autoconfig.trofers.option.general.enableTrophyLoot": "Enable Trophy Loot",
+  "text.autoconfig.trofers.option.general.enableTrophyLoot.@Tooltip": "Whether trophies can drop loot when right-clicked",
+  "text.autoconfig.trofers.option.general.enableTrophyEffects": "Enable Trophy Effects",
+  "text.autoconfig.trofers.option.general.enableTrophyEffects.@Tooltip": "Whether trophies can apply potion effects when right-clicked",
+  "text.autoconfig.trofers.title": "Trofers Config",
+  "time.trofers.hour": "1 hour",
+  "time.trofers.hours": "%s hours",
+  "time.trofers.minute": "1 minute",
+  "time.trofers.minutes": "%s minutes",
+  "time.trofers.second": "1 second",
+  "time.trofers.seconds": "%s seconds",
+  "trofers.creative_tab": "Trofers",
+  "trophy.trofers.composed": "%s Trophy"
+}

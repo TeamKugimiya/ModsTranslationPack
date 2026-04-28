@@ -1,0 +1,47 @@
+{
+  "item.ghosts.ghost_spawn_egg": "Spawn Ghost",
+  "entity.ghosts.ghost": "Ghost",
+
+  "item.ghosts.small_ghost_spawn_egg": "Spawn Seedling Ghost",
+  "entity.ghosts.small_ghost": "Seedling Ghost",
+
+  "item.ghosts.kodama_spawn_egg": "Spawn Kodama",
+  "entity.ghosts.kodama": "Kodama",
+
+  "ghosts.ghost_ambient": "Ghost swooshes",
+  "ghosts.ghost_death": "Ghost dies",
+  "ghosts.ghost_hurt": "Ghost hurts",
+  "ghosts.mini_ghost_ambient": "Seedling Ghost swooshes",
+  "ghosts.mini_ghost_death": "Seedling Ghost dies",
+  "ghosts.mini_ghost_hurt": "Seedling Ghost hurts",
+
+  "block.ghosts.haunted_sapling": "Haunted Sapling",
+  "block.ghosts.haunted_log": "Haunted Log",
+  "block.ghosts.stripped_haunted_log": "Haunted Stripped Log",
+  "block.ghosts.haunted_planks": "Haunted Planks",
+  "block.ghosts.haunted_slab": "Haunted Slab",
+  "block.ghosts.haunted_stairs": "Haunted Stairs",
+  "block.ghosts.haunted_leaves": "Haunted Leaves",
+  "block.ghosts.haunted_eye_log": "Haunted Eye Log",
+  "block.ghosts.haunted_door": "Haunted Door",
+  "block.ghosts.haunted_trapdoor": "Haunted Trapdoor",
+  "block.ghosts.haunted_fence": "Haunted Fence",
+  "block.ghosts.haunted_fence_gate": "Haunted Fence Gate",
+  "block.ghosts.haunted_button": "Haunted Button",
+  "block.ghosts.haunted_sign": "Haunted Sign",
+  "block.ghosts.haunted_hanging_sign": "Haunted Hanging Sign",
+  "block.ghosts.haunted_pressure_plate": "Haunted Pressure Plate",
+  "block.ghosts.calibrated_haunted_eye": "Calibrated Haunted Eye",
+
+  "entity.ghosts.client_message.interaction_0": "%1$s is now sitting down",
+  "entity.ghosts.client_message.interaction_1": "%1$s is now following you",
+  "entity.ghosts.client_message.interaction_2": "%1$s is now wandering around",
+
+  "entity.ghosts.haunted_boat": "Haunted Boat",
+  "entity.ghosts.haunted_chest_boat": "Haunted Boat with Chest",
+
+  "item.ghosts.haunted_boat": "Haunted Boat",
+  "item.ghosts.haunted_chest_boat": "Haunted Chest Boat",
+
+  "creativetab.ghosts.title": "Ghosts"
+}

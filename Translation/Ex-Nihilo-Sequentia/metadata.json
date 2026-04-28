@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "exnihilosequentia",
+  "display_name": {
+    "en": "Ex Nihilo: Sequentia"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "400012",
+    "modrinth": "WhVa4xyw"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.4",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T16:23:58Z",
+    "translation_progress": {
+      "1.18": 100.0,
+      "1.21": 52.46,
+      "overall": 67.71
+    },
+    "mod_versions": {
+      "1.21": "ExNihiloSequentia-1.21.4-7.0.2-build.3.jar",
+      "1.18": "ExNihiloSequentia-1.18.2-20230528-221633.jar"
+    }
+  }
+}

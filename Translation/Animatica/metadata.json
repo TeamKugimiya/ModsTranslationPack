@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "animatica",
+  "display_name": {
+    "en": "Animatica"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "533006",
+    "modrinth": "PRN43VSY"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T05:19:10Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "Animatica v0.6.1 for 1.21"
+    }
+  }
+}

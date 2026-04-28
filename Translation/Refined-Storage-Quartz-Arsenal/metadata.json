@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "refinedstorage_quartz_arsenal",
+  "display_name": {
+    "en": "Refined Storage - Quartz Arsenal"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1230483",
+    "modrinth": "gnwGOmBf"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

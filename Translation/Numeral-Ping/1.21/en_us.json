@@ -1,0 +1,23 @@
+{
+  "numeralping.option.playerList": "Player List",
+  "numeralping.option.playerList.desc": "Enable numeral ping in the player list.",
+  "numeralping.option.serverList": "Server List",
+  "numeralping.option.serverList.desc": "Enable numeral ping in the server list.",
+  "numeralping.option.smallPing": "Small Ping",
+  "numeralping.option.smallPing.desc": "Shrink the ping text using alternative Unicode characters.",
+  "numeralping.option.defaultPingThreshold": "Default Threshold",
+  "numeralping.option.defaultPingThreshold.desc": "Highest ping value for the default color.",
+  "numeralping.option.levelOnePingThreshold": "Level One Threshold",
+  "numeralping.option.levelOnePingThreshold.desc": "Highest ping value for the level one color.",
+  "numeralping.option.levelTwoPingThreshold": "Level Two Threshold",
+  "numeralping.option.levelTwoPingThreshold.desc": "Highest ping value for the level two color.",
+  "numeralping.option.levelThreePingThreshold": "Level Three Threshold",
+  "numeralping.option.levelThreePingThreshold.desc": "Highest ping value for the level three color.",
+  "numeralping.option.defaultPingColour": "Default Ping Color",
+  "numeralping.option.levelOnePingColour": "Level One Ping Color",
+  "numeralping.option.levelTwoPingColour": "Level Two Ping Color",
+  "numeralping.option.levelThreePingColour": "Level Three Ping Color",
+  "numeralping.option.levelFourPingColour": "Level Four Ping Color",
+  "numeralping.option.levelFourPingColour.desc": "Anything higher than level three.",
+  "numeralping.option.levelFivePingColour": "Timed Out"
+}

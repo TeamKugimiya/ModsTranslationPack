@@ -1,0 +1,56 @@
+{
+  "tag.block.woodenbucket.burning": "Blocks that result in burning effect",
+  "tag.block.woodenbucket.freezing": "Blocks that result in freezing effect",
+  "tag.fluid.woodenbucket.burning": "Fluids that result in burning effect",
+  "tag.fluid.woodenbucket.cracking": "Fluids that crack the Wooden Bucket",
+  "tag.fluid.woodenbucket.freezing": "Fluids that result in freezing effect",
+
+  "item.woodenbucket.wooden_bucket": "Wooden Bucket",
+  "item.woodenbucket.wooden_bucket.entity": "Wooden Bucket of %s",
+  "item.woodenbucket.wooden_bucket.filled": "Wooden %s Bucket",
+
+  "text.autoconfig.woodenbucket.title": "Wooden Bucket Settings",
+
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE": "Break temperature",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[0]": "§6§lBreak temperature",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[1]": "Minimum temperature of fluid at which the",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[2]": "Wooden Bucket breaks when emptied.",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[3]": "§7§oDeactivation by setting a number larger than the hottest fluid",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[4]": "§7§oMin: -10000; Max: 10000",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[5]": "§7§oDefault: 1000",
+
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE": "Burning temperature",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[0]": "§6§lBurning temperature",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[1]": "Fluid temperature from which you get a burning effect",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[2]": "if a Wooden Bucket contains such a hot fluid.",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[3]": "§7§oDeactivation by setting a number larger than the hottest fluid",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[4]": "§7§oMin: -10000; Max: 10000",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[5]": "§7§oDefault: 1000",
+
+  "text.autoconfig.woodenbucket.option.DURABILITY": "Durability",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[0]": "§6§lDurability",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[1]": "Defines the maximum durability of a Wooden Bucket.",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[2]": "§7§o0: deactivates the durability",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[3]": "§7§oMin: 0; Max: 10000",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[4]": "§7§oDefault: 25",
+
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED": "Fish obtaining enabled",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[0]": "§6§lFish obtaining enabled",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[1]": "Whether or not obtaining fish with a",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[2]": "Wooden Bucket should be enabled.",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[3]": "§7§oDefault: true",
+
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE": "Freezing temperature",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[0]": "§6§lFreezing temperature",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[1]": "Fluid temperature from which you get a freezing effect",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[2]": "if a Wooden Bucket contains such a cold fluid.",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[3]": "§7§oDeactivation by setting a number lower than the coldest fluid",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[4]": "§7§oMin: -10000; Max: 10000",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[5]": "§7§oDefault: -1",
+
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED": "Milking enabled",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[0]": "§6§lMilking enabled",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[1]": "Whether or not milking entities with a",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[2]": "Wooden Bucket should be enabled.",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[3]": "§7§oDefault: true"
+}

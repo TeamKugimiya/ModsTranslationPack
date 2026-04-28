@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "emi",
+  "display_name": {
+    "en": "EMI"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "580555",
+    "modrinth": "fRiHVvU7"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:23Z",
+    "translation_progress": {
+      "1.21": 96.91,
+      "overall": 96.91
+    },
+    "mod_versions": {
+      "1.21": "emi-1.1.22+1.21.1+neoforge"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"name": "終界使者干擾器",
+	"icon": "opolisutilities:ender_scrambler",
+	"category": "opolisutilities:advanced_items",
+	"sortnum":  7,
+	"pages": [
+		{
+			"type": "text",
+			"text": "將終界使者干擾器放置在世界上時，能夠防止終界使者瞬移。$(br2)對著干擾器方塊點擊右鍵啟用功能。"
+		},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:ender_scrambler",
+			"text": "用來防止終界使者瞬移。"
+		}
+	]
+}

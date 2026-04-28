@@ -1,0 +1,7 @@
+{
+  "block.miniatures.sensor_torch": "Sensor Torch",
+  "entity.miniatures.maxime": "Maxime",
+  "entity.miniatures.me": "Me",
+  "entity.miniatures.minime": "Minime",
+  "miniatures.networking.client_validate.failed": "Failed to validate client data: %s"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "create_central_kitchen",
+  "display_name": {
+    "en": "Create: Central Kitchen"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "820977",
+    "modrinth": "btq68HMO"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T15:02:51Z",
+    "translation_progress": {
+      "1.21": 100.0,
+      "overall": 100.0
+    },
+    "mod_versions": {
+      "1.21": "Create: Central Kitchen 2.3.0 for Create 1.21.1-6.0.9"
+    }
+  }
+}

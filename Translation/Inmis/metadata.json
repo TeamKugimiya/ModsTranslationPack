@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "inmis",
+  "display_name": {
+    "en": "Inmis"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "369254",
+    "modrinth": "I0UYcPa0"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T16:06:37Z",
+    "translation_progress": {
+      "1.21": 93.55,
+      "overall": 93.55
+    },
+    "mod_versions": {
+      "1.21": "inmis-2.8.2-1.21.1.jar"
+    }
+  }
+}

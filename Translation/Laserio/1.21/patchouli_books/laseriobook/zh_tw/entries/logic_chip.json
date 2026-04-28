@@ -1,0 +1,22 @@
+{
+  "name": "邏輯晶片",
+  "icon": "laserio:logic_chip",
+  "sortnum": 0,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "邏輯晶片是 LaserIO 中最主要的合成材料。$(br2)它們會是你唯一僅用原版材料就能合成出來的物品，模組後續的所有物品都將會使用到這張晶片。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "未處理的邏輯晶片",
+      "recipe": "laserio:logic_chip_raw"
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "邏輯晶片",
+      "recipe": "laserio:logic_chip"
+    }
+  ]
+}

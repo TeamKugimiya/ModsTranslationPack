@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "bakery",
+  "display_name": {
+    "en": "Legacy: [Let's Do] Bakery"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "886559"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "modonomicon",
+  "display_name": {
+    "en": "Modonomicon"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "538392",
+    "modrinth": "692GClaE"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:37Z",
+    "translation_progress": {
+      "1.21": 98.6,
+      "overall": 98.6
+    },
+    "mod_versions": {
+      "1.21": "modonomicon-1.21.1-neoforge-1.120.1.jar"
+    }
+  }
+}

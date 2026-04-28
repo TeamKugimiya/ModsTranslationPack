@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "automodpack",
+  "display_name": {
+    "en": "AutoModpack"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "639211",
+    "modrinth": "k68glP2e"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T08:55:00Z",
+    "translation_progress": {
+      "1.21": 100.0,
+      "overall": 100.0
+    },
+    "mod_versions": {
+      "1.21": "automodpack-mc1.21.1-neoforge-4.0.5.jar"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "blackdogsmoddinglibrary.dialogs.confirm.title": "確認",
+  "blackdogsmoddinglibrary.radial.page_footer": "頁數 %d／%d",
+  "blackdogsmoddinglibrary.radial.right_click_for": "§9點擊右鍵§r來",
+  "blackdogsmoddinglibrary.radial.right_click_for_options": "§9點擊右鍵§r查看選項",
+  "blackdogsmoddinglibrary.tooltip.item.level": "等級",
+  "blackdogsmoddinglibrary.tooltip.item.level_progress": "%d（%d／%d）",
+  "blackdogsmoddinglibrary.tooltip.item.max_level": "§5最高§r",
+  "blackdogsmoddinglibrary.tooltip.item.not_able_to_level": "§c無法升級§r",
+  "blackdogsmoddinglibrary.tooltip.item.soulbound_achieved": "你感覺你和你的 %s 已經融為一體，即使在死後也不會與之分離！"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lazierae2",
+  "display_name": {
+    "en": "Lazier AE2"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "489843",
+    "modrinth": "7mmL0PW9"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T01:26:28Z",
+    "translation_progress": {
+      "1.18": 87.04,
+      "overall": 87.04
+    },
+    "mod_versions": {
+      "1.18": "LazierAE2-1.18.2-3.1.5"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "experienceobelisk",
+  "display_name": {
+    "en": "Experienceobelisk"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "579484"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ]
+      }
+    }
+  }
+}

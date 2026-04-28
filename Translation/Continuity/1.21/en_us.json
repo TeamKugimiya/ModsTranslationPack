@@ -1,0 +1,13 @@
+{
+  "options.continuity.title": "Continuity Configuration",
+  "options.continuity.connected_textures": "Connected Textures",
+  "options.continuity.connected_textures.tooltip": "Enable or disable connected textures for blocks.",
+  "options.continuity.emissive_textures": "Emissive Textures",
+  "options.continuity.emissive_textures.tooltip": "Enable or disable emissive textures for block and item models.",
+  "options.continuity.custom_block_layers": "Custom Block Layers",
+  "options.continuity.custom_block_layers.tooltip": "Enable or disable custom block layers.",
+  "resourcePack.continuity.default.name": "Default Connected Textures",
+  "resourcePack.continuity.default.description": "Glass, sandstone, bookshelves",
+  "resourcePack.continuity.glass_pane_culling_fix.name": "Glass Pane Culling Fix",
+  "resourcePack.continuity.glass_pane_culling_fix.description": "Cull faces between glass panes"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "bambooeverything",
+  "display_name": {
+    "en": "Bamboo Everything"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "331723",
+    "modrinth": "cpRkny9R"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T13:42:19Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "bambooeverything NeoForged 21.1.2+mc1.21.1"
+    }
+  }
+}

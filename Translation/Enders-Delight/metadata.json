@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "endersdelight",
+  "display_name": {
+    "en": "Ender's Delight"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "827163",
+    "modrinth": "2uEhdGKt"
+  },
+  "contents": {
+    "tiers": {
+      "1.19": {
+        "versions": [
+          "<=1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
+      "1.20": {
+        "versions": [
+          "1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T14:15:29Z",
+    "translation_progress": {
+      "1.19": 100,
+      "1.20": 100,
+      "1.21": 91.49,
+      "overall": 97.16
+    },
+    "mod_versions": {
+      "1.19": "Ender's Delight 1.19.x-1.2.2",
+      "1.20": "Ender's Delight Forge 1.20.1 1.1.3",
+      "1.21": "Ender's Delight Neoforge 1.21.1 1.2.0"
+    }
+  }
+}

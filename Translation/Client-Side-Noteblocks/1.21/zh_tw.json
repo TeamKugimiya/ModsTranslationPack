@@ -1,0 +1,15 @@
+{
+  "text.autoconfig.clientsidenoteblocks.title": "用戶端音階盒設定",
+  "text.autoconfig.clientsidenoteblocks.option.debug": "除錯模式",
+  "text.autoconfig.clientsidenoteblocks.option.debug.@Tooltip": "啟用除錯模式。這將會在控制台中輸出除錯訊息。",
+  "text.autoconfig.clientsidenoteblocks.option.enabled": "啟用",
+  "text.autoconfig.clientsidenoteblocks.option.enabled.@Tooltip": "啟用模組。可以在按鍵綁定設定中指定按鍵",
+  "text.autoconfig.clientsidenoteblocks.option.alwaysCancelPlayedNoteblockServerSounds": "Always Cancel Played Noteblock Server Sounds",
+  "text.autoconfig.clientsidenoteblocks.option.alwaysCancelPlayedNoteblockServerSounds.@Tooltip": "Recommended to leave this disabled.\nIf enabled, this will cancel all Noteblock sounds played by the server for blocks you've interacted with (instead of just the ones we expected to receive).\nThis will prevent you from hearing the pitch changes of a Noteblock or sounds played by other players once you've left-clicked a Noteblock.",
+  "text.autoconfig.clientsidenoteblocks.option.maxTimeToServerSound": "The maximum time to wait for the server noteblock sound",
+  "text.autoconfig.clientsidenoteblocks.option.maxTimeToServerSound.@Tooltip": "ClientSideNoteblocks needs to wait for the server to play the Noteblock sound to cancel it. This is the maximum time to wait for the server to play the sound before cancelling it.\nIncreasing this value if you have high ping or the server is lagging may help prevent you from hearing duplicate server Noteblock sound.",
+  "text.clientsidenoteblocks.chat.enabled": "用戶端音階盒已啟用",
+  "text.clientsidenoteblocks.chat.disabled": "用戶端音階盒已停用",
+  "text.clientsidenoteblocks.keybind.category": "用戶端音階盒",
+  "text.clientsidenoteblocks.keybind.toggle": "開關模組功能"
+}

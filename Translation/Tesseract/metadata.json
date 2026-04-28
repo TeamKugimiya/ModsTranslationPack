@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "tesseract",
+  "display_name": {
+    "en": "Tesseract"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "379232",
+    "modrinth": "OUhp5O2m"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T14:08:00Z",
+    "translation_progress": {
+      "1.18": 70.83,
+      "1.21": 80.0,
+      "overall": 75.51
+    },
+    "mod_versions": {
+      "1.18": "Tesseract 1.0.38 for Forge 1.18",
+      "1.21": "Tesseract 1.0.38 for NeoForge 1.21"
+    }
+  }
+}

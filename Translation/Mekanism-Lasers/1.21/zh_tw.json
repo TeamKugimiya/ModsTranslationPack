@@ -1,0 +1,46 @@
+{
+  "block.mekanism_lasers.laser_stopper": "雷射阻斷器",
+  "block.mekanism_lasers.laser_splitter": "雷射分流器",
+  "block.mekanism_lasers.energy_transformer": "能量轉換器",
+
+  "block.mekanism_lasers.basic_laser": "基礎雷射",
+  "block.mekanism_lasers.basic_toggleable_laser": "基礎可開關雷射",
+
+  "block.mekanism_lasers.advanced_laser": "高級雷射",
+  "block.mekanism_lasers.advanced_toggleable_laser": "高級可開關雷射",
+
+  "block.mekanism_lasers.elite_laser": "菁英雷射",
+  "block.mekanism_lasers.elite_toggleable_laser": "菁英可開關雷射",
+
+  "block.mekanism_lasers.ultimate_laser": "終極雷射",
+  "block.mekanism_lasers.ultimate_toggleable_laser": "終極可開關雷射",
+
+  "block.mekanism_lasers.creative_laser": "創造模式雷射",
+  "block.mekanism_lasers.creative_toggleable_laser": "創造模式可開關雷射",
+
+  "block.mekanism_lasers.energy_storage_casing": "儲能機殼",
+  "block.mekanism_lasers.energy_storage_port": "儲能端口",
+  "block.mekanism_lasers.energy_storage_cell": "儲能元件",
+
+  "block.mekanism_lasers.ore_generator": "礦物製造機",
+  "block.mekanism_lasers.interface_block": "介面方塊",
+
+  "item.mekanism_lasers.remote_control": "遙控器",
+
+  "container.mekanism_lasers.ore_generator": "礦物製造機",
+  "container.mekanism_lasers.interface_block": "介面方塊",
+
+  "description.mekanism.laser_stopper": "可以偽裝成任何方塊的形狀，並能阻擋雷射",
+  "description.mekanism.laser_splitter": "將雷射一分為二",
+  "description.mekanism.laser": "高度集中的光束 :D",
+  "description.mekanism.laser_toggleable": "高度集中的光束；但它可以開關 :D",
+  "description.mekanism.ore_generator": "利用光將能量轉換為礦物",
+  "description.mekanism.interface_block": "放入遙控器後，就能以紅石脈衝訊號，遠端控制可開關雷射",
+  "description.mekanism.energy_transformer": "將雷射轉換成能量",
+
+  "es.port.mode": "",
+
+  "item_group.mekanism_lasers": "通用機械｜雷射",
+
+  "gui.ore_generator.energy_per_ore": "每生成礦物消耗能量"
+}

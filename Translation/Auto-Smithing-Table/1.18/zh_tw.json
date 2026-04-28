@@ -1,0 +1,14 @@
+{
+  "block.autosmithingtable.auto_smithing_table": "自動鍛造台",
+  "item.autosmithingtable.auto_smithing_table": "自動鍛造台",
+
+  "container.autosmithingtable.title": "升級物品（自動）",
+  "itemGroup.autosmithingtable": "自動鍛造台",
+
+  "message.autosmithingtable.change_side_to_0": "[§e自動鍛造台§r] §b已將該面模式設為：無",
+  "message.autosmithingtable.change_side_to_1": "[§e自動鍛造台§r] §b已將該面模式設為：輸入（待升級的物品）",
+  "message.autosmithingtable.change_side_to_2": "[§e自動鍛造台§r] §b已將該面模式設為：輸入（升級材料）",
+  "message.autosmithingtable.change_side_to_3": "[§e自動鍛造台§r] §b已將該面模式設為：輸出",
+  "tooltip.autosmithingtable.sides": "[Shift + 右鍵點擊] 方塊一側，以變更該面的 I／O 模式",
+  "tooltip.autosmithingtable.jade_progress": "進度：%d"
+}

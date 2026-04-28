@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "manyideas_doors",
+  "display_name": {
+    "en": "ManyIdeas Doors"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "433643",
+    "modrinth": "B4U5vxjd"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-31T14:51:22Z",
+    "translation_progress": {
+      "1.21": 91.89,
+      "overall": 91.89
+    },
+    "mod_versions": {
+      "1.21": "ManyIdeas Doors 1.21.1-2.0.0"
+    }
+  }
+}

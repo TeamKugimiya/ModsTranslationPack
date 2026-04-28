@@ -1,0 +1,15 @@
+{
+  "text.autoconfig.clientsidenoteblocks.title": "Client Side Noteblocks Config",
+  "text.autoconfig.clientsidenoteblocks.option.debug": "Debug Mode",
+  "text.autoconfig.clientsidenoteblocks.option.debug.@Tooltip": "Enables debug mode. This will print out debug messages in the console.",
+  "text.autoconfig.clientsidenoteblocks.option.enabled": "Enabled",
+  "text.autoconfig.clientsidenoteblocks.option.enabled.@Tooltip": "Enables the Mod. A Keybind can be assigned to this in the Keybind settings",
+  "text.autoconfig.clientsidenoteblocks.option.alwaysCancelPlayedNoteblockServerSounds": "Always Cancel Played Noteblock Server Sounds",
+  "text.autoconfig.clientsidenoteblocks.option.alwaysCancelPlayedNoteblockServerSounds.@Tooltip": "Recommended to leave this disabled.\nIf enabled, this will cancel all Noteblock sounds played by the server for blocks you've interacted with (instead of just the ones we expected to receive).\nThis will prevent you from hearing the pitch changes of a Noteblock or sounds played by other players once you've left-clicked a Noteblock.",
+  "text.autoconfig.clientsidenoteblocks.option.maxTimeToServerSound": "The maximum time to wait for the server noteblock sound",
+  "text.autoconfig.clientsidenoteblocks.option.maxTimeToServerSound.@Tooltip": "ClientSideNoteblocks needs to wait for the server to play the Noteblock sound to cancel it. This is the maximum time to wait for the server to play the sound before cancelling it.\nIncreasing this value if you have high ping or the server is lagging may help prevent you from hearing duplicate server Noteblock sound.",
+  "text.clientsidenoteblocks.chat.enabled": "ClientSideNoteblocks is Enabled",
+  "text.clientsidenoteblocks.chat.disabled": "ClientSideNoteblocks is Disabled",
+  "text.clientsidenoteblocks.keybind.category": "ClientSideNoteblocks",
+  "text.clientsidenoteblocks.keybind.toggle": "Toggle Mod Enabled"
+}

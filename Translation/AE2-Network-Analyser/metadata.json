@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ae2netanalyser",
+  "display_name": {
+    "en": "AE2 Network Analyser"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "961856"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    },
+    "ignored_keys": [
+      "gui.ae2netanalyser.network_analyser.mode.P2P",
+      "gui.ae2netanalyser.tick_analyser.range1",
+      "gui.ae2netanalyser.tick_analyser.range2",
+      "gui.ae2netanalyser.tick_analyser.range3",
+      "gui.ae2netanalyser.tick_analyser.range4"
+    ]
+  },
+  "status": {
+    "last_synced": "2026-03-17T14:08:34Z",
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar"
+    }
+  }
+}

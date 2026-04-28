@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "angelring",
+  "display_name": {
+    "en": "Angel Ring"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "333396"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-28T05:17:04Z",
+    "translation_progress": {
+      "1.21": 46.15,
+      "overall": 46.15
+    },
+    "mod_versions": {
+      "1.21": "Angel Ring 3 v3.0.0+beta.3 for MC 1.21.1"
+    }
+  }
+}

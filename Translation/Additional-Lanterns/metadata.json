@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "additionallanterns",
+  "display_name": {
+    "en": "Additional Lanterns"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "501590",
+    "modrinth": "jXNvTKds"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "<=1.21",
+          ">1.18"
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-17T04:36:25Z",
+    "translation_progress": {
+      "1.18": 48.64,
+      "1.21": 37.53,
+      "overall": 43.09
+    },
+    "mod_versions": {
+      "1.18": "Additional Lanterns 1.1.2 for Forge 1.18",
+      "1.21": "Additional Lanterns 1.1.2 for NeoForge 1.21.11"
+    }
+  }
+}

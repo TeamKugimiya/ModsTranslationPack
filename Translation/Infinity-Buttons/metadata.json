@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "infinitybuttons",
+  "display_name": {
+    "en": "Infinity Buttons"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "661902",
+    "modrinth": "2raGoXFz"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "last_synced": "2026-03-30T16:11:57Z",
+    "translation_progress": {
+      "1.20": 94.9,
+      "overall": 94.9
+    },
+    "mod_versions": {
+      "1.20": "Infinity Buttons [FORGE] 4.0.7 - 1.20.1"
+    }
+  }
+}

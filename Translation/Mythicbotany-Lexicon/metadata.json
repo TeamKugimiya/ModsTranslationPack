@@ -1,0 +1,30 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "mythicbotany_lexicon",
+  "display_name": {
+    "en": "Mythicbotany Lexicon"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "400058"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ]
+      },
+      "1.19": {
+        "versions": [
+          "1.19"
+        ]
+      },
+      "1.21": {
+        "versions": [
+          "1.21"
+        ]
+      }
+    }
+  }
+}

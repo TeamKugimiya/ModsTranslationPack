@@ -1,0 +1,13 @@
+{
+    "entity.goblintraders.goblin_trader": "Goblin Trader",
+    "entity.goblintraders.vein_goblin_trader": "Vein Goblin Trader",
+    "subtitle.goblintraders.goblin_trader.annoyed_grunt": "Annoyed Grunt",
+    "subtitle.goblintraders.goblin_trader.idle_grunt": "Idle Grunt",
+    "item.goblintraders.goblin_trader_spawn_egg": "Goblin Trader Spawn Egg",
+    "item.goblintraders.vein_goblin_trader_spawn_egg": "Vein Goblin Trader Spawn Egg",
+    "stat.goblintraders.trade_with_goblin": "Traded with Goblins",
+    "custom.goblintraders.tuned": "Goblin Tuned",
+    "custom.goblintraders.lore": "A special item reengineered by the goblin with enhanced attributes",
+    "custom.goblintraders.moon_boots": "Moon Boots",
+    "custom.goblintraders.mystery_map": "Mystery Map"
+}

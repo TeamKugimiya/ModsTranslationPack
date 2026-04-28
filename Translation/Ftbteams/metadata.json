@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.2",
+  "mod_id": "ftbteams",
+  "display_name": {
+    "en": "FTB Teams"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "404468"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "1.21"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  }
+}
