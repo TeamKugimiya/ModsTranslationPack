@@ -1,0 +1,14 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  call:
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Build.yml@v1
+    with:
+      pack_name: ModsTranslationPack
