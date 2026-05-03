@@ -25,13 +25,13 @@
     ]
   },
   "status": {
-    "last_synced": "2026-03-28T04:54:49Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
       "1.21": 100,
       "overall": 100
     },
     "mod_versions": {
-      "1.21": "allthetweaks-1.21.1-2.9.1.jar"
+      "1.21": "allthetweaks-1.21.1-2.9.3.jar"
     }
   }
 }

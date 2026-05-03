@@ -1,9 +1,8 @@
 {
-  "config.kleeslabs.title": "KleeSlabs",
-  "config.kleeslabs.mode": "Mode",
-  "config.kleeslabs.mode.tooltip": "Control whether KleeSlabs should trigger ALWAYS, ONLY_WHEN_SNEAKING or ONLY_WHEN_NOT_SNEAKING",
-  "config.kleeslabs.disabledCompat": "Disabled Compatibility",
-  "config.kleeslabs.disabledCompat.tooltip": "IDs of mods whose compatibility should be disabled.",
-  "config.kleeslabs.dumpSlabs": "Debug Dump Slabs",
-  "config.kleeslabs.dumpSlabs.tooltip": "For development purposes. Set to true to have KleeSlabs dump a list of items containing the word 'slab' in their name upon world load."
+  "kleeslabs.configuration.mode": "Mode",
+  "kleeslabs.configuration.mode.tooltip": "Control whether KleeSlabs should trigger ALWAYS, ONLY_WHEN_SNEAKING or ONLY_WHEN_NOT_SNEAKING",
+  "kleeslabs.configuration.disabledCompat": "Disabled Compatibility",
+  "kleeslabs.configuration.disabledCompat.tooltip": "IDs of mods whose compatibility should be disabled.",
+  "kleeslabs.configuration.dumpSlabs": "Debug Dump Slabs",
+  "kleeslabs.configuration.dumpSlabs.tooltip": "For development purposes. Set to true to have KleeSlabs dump a list of items containing the word 'slab' in their name upon world load."
 }

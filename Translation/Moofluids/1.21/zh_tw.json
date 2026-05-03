@@ -17,5 +17,7 @@
   "tooltip.moofluids.fluid_cow_jar.fluid": "流體：%s",
   "tooltip.moofluids.fluid_cow_jar.amount": "數量：%s mB",
   "tooltip.moofluids.fluid_cow_jar.hint": "使墜落的鐵砧砸在流體牛上來將其捕捉",
-  "tooltip.moofluids.fluid_cow_jar.release": "空手對著罐子，Shift + 點擊右鍵來將牛釋放"
+  "tooltip.moofluids.fluid_cow_jar.release": "空手對著罐子，Shift + 點擊右鍵來將牛釋放",
+  "tooltip.moofluids.fluid_cow_jar.blacklisted": "Cannot be released",
+  "message.moofluids.cow_blacklisted": "This cow cannot be released!"
 }

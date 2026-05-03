@@ -3,6 +3,7 @@
 
     "key.categories.apotheosis": "神化",
     "key.apotheosis.toggle_radial_mining": "變更徑向挖掘模式",
+    "key.apotheosis.world_tiers_arent_real": "World Tier Error Notification",
 
     "info.apotheosis.affix_item": "神化詞綴物品",
 
@@ -12,13 +13,15 @@
     "misc.apotheosis.affix_name.two": "%s %s",
     "misc.apotheosis.affix_name.three": "%s %s %s",
     "misc.apotheosis.affix_name.four": "%s %s %s %s",
-    "misc.apotheosis.affix_bounds": "[%s\u00A0-\u00A0%s]",
+    "misc.apotheosis.affix_bounds": "[%s - %s]",
 
     "misc.apotheosis.radial_state_updated": "徑向挖掘模式：「%s」",
     "misc.apotheosis.radial_state.require_not_sneaking": "潛行時停用",
     "misc.apotheosis.radial_state.require_sneaking": "潛行時啟用",
     "misc.apotheosis.radial_state.enabled": "已啟用",
     "misc.apotheosis.radial_state.disabled": "已停用",
+
+    "message.apotheosis.world_tiers_arent_real": "World Tiers are only available in Minecraft 1.21.1+. This version of Apotheosis uses a dimension-based progression system instead.",
 
     "affix.apotheosis:armor/attribute/blessed": "受祝福的",
     "affix.apotheosis:armor/attribute/blessed.suffix": "《生命》",
@@ -125,7 +128,7 @@
     "affix.apotheosis:shield/mob_effect/venomous": "惡毒的",
     "affix.apotheosis:shield/mob_effect/venomous.suffix": "《毒蛇》",
 
-    "affix.apotheosis:ranged/mob_effect/fleeting": "疾馳的", 
+    "affix.apotheosis:ranged/mob_effect/fleeting": "疾馳的",
     "affix.apotheosis:ranged/mob_effect/fleeting.suffix": "《遊俠》",
 
     "affix.apotheosis:sword/mob_effect/weakening": "虛弱的",
@@ -307,9 +310,9 @@
     "affix.apotheosis:socket.desc": "具有鑲嵌槽（%s）",
 
     "socket.apotheosis.empty": "空白寶石鑲嵌槽",
-    "item.modifiers.socket": "鑲嵌在裝備上時：",
-    "item.modifiers.socket_in": "當鑲嵌在：",
-    "item.modifiers.socket_typed": "當鑲嵌在%s：",
+    "text.apotheosis.when_socketed": "When Socketed:",
+    "text.apotheosis.when_socketed_in": "When Socketed in:",
+    "text.apotheosis.when_socketed_typed": "When Socketed in %s:",
     "info.apotheosis.socketing": "寶石可在鍛造台中鑲嵌在刻有詞綴的裝備上。將物品放置在左側欄位，寶石則放置在右側欄位。\n\n三思而後行，寶石鑲嵌之後是很難摘除的。",
 
     "gem_class.melee_weapon": "近戰武器",
@@ -330,6 +333,7 @@
     "gem_class.boots": "靴子",
     "gem_class.shield": "盾牌",
     "gem_class.heavy_weapon": "重型武器",
+    "gem_class.anything": "Anything",
 
     "bonus.apotheosis:durability.desc": "忽略 %s%% 耐久度損耗",
     "bonus.apotheosis:enchantment.desc": "%3$s +%1$s %2$s",
@@ -445,6 +449,7 @@
     "text.apotheosis.socketable_into": "適用於：",
     "text.apotheosis.dot_prefix": "• %s",
     "text.apotheosis.socket_limit": "寶石鑲嵌上限：%s",
+    "text.apotheosis.gems_returned": "Gems are returned on craft",
     "text.apotheosis.no_upgrade": "已達到最高等級",
     "text.apotheosis.cut_cost": "寶石切割成本",
     "text.apotheosis.one_rarity_mat": "稀有度材料（1）",
@@ -1181,6 +1186,7 @@
     "item.apotheosis.potion_charm.enabled": "已啟用",
     "item.apotheosis.potion_charm.disabled": "已停用",
     "item.apotheosis.potion_charm.curios_only": "僅在裝備於飾品欄時發揮效用",
+    "misc.apotheosis.blacklisted_potion": "Cannot be converted into a Potion Charm.",
 
     "comment_id": "/Anvil Module",
     "info.apotheosis.anvil": "可被附魔。",
@@ -1229,8 +1235,5 @@
     "comment_id": "Guidebook",
     "book.apotheosis.name": "暗影編年史",
     "book.apotheosis.subtitle": "《神化》指南手冊",
-    "book.apotheosis.landing": "歡迎來到《神化》的世界。$(br2)神化被組織成各種$(#8080FF)模組$()，本手冊的內容也是如此。$(br2)停用的模組將會在手冊上隱藏。",
-
-    "item.apotheosis.superior_sigil_of_socketing": "卓越的鑲嵌咒符",
-	"item.apotheosis.superior_sigil_of_enhancement": "[NYI] 卓越的強化咒符"
+    "book.apotheosis.landing": "歡迎來到《神化》的世界。$(br2)神化被組織成各種$(#8080FF)模組$()，本手冊的內容也是如此。$(br2)停用的模組將會在手冊上隱藏。"
 }

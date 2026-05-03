@@ -24,6 +24,7 @@
 
   "block.mekanism_lasers.ore_generator": "Ore Generator",
   "block.mekanism_lasers.interface_block": "Interface Block",
+  "block.mekanism_lasers.odecm": "ODECM core",
 
   "item.mekanism_lasers.remote_control": "Remote Control",
 
@@ -37,6 +38,7 @@
   "description.mekanism.ore_generator": "Uses light to convert energy to ores",
   "description.mekanism.interface_block": "Interface with toggleable lasers by placing remote control",
   "description.mekanism.energy_transformer": "Converts laser to energy",
+  "description.mekanism.odecm": "ODECM - Ore Duplicator Energy Condenser Matrix",
 
   "es.port.mode": "",
 

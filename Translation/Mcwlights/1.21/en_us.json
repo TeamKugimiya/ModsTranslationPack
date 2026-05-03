@@ -3,6 +3,10 @@
 
 		 "subtitle.mcwlights.light_switch": "Light Switch",
 		 "subtitle.mcwlights.torch_on": "Igniting The Tiki Torch",
+		 
+		 "mcwlights.lights.tikitorchinfo":"Can be built taller, by placing another one on top of this one",
+		 "mcwlights.lights.dyeableinfo":"Right-click with any dye to recolor",
+		 "mcwlights.lights.stackableinfo":"Can be built taller, by placing another one on top of this one",
 
 		 "block.mcwlights.white_lamp":"White Lamp",
 		 "block.mcwlights.orange_lamp":"Orange Lamp",
@@ -48,6 +52,7 @@
 		 "block.mcwlights.warped_tiki_torch":"Warped Tiki Torch",
 		 "block.mcwlights.mangrove_tiki_torch":"Mangrove Tiki Torch",
 		 "block.mcwlights.bamboo_tiki_torch":"Bamboo Tiki Torch",
+		 "block.mcwlights.cherry_tiki_torch":"Cherry Tiki Torch",
 		 
 		 "block.mcwlights.soul_oak_tiki_torch":"Soul Oak Tiki Torch",
 		 "block.mcwlights.soul_spruce_tiki_torch":"Soul Spruce Tiki Torch",
@@ -59,6 +64,7 @@
 		 "block.mcwlights.soul_warped_tiki_torch":"Soul Warped Tiki Torch",
 		 "block.mcwlights.soul_mangrove_tiki_torch":"Soul Mangrove Tiki Torch",
 		 "block.mcwlights.soul_bamboo_tiki_torch":"Soul Bamboo Tiki Torch",
+		 "block.mcwlights.soul_cherry_tiki_torch":"Soul Cherry Tiki Torch",
 		 
 		 "block.mcwlights.white_paper_lamp":"White Paper Lamp",
 		 "block.mcwlights.light_gray_paper_lamp":"Light Gray Paper Lamp",
@@ -93,8 +99,71 @@
 		 "block.mcwlights.cross_lantern":"Cross Lantern",
 		 "block.mcwlights.bell_lantern":"Bell Lantern",
 		 
-		 "block.mcwlights.garden_light":"Garden Light"
+		 "block.mcwlights.wall_lantern":"Wall Lantern",
+		 "block.mcwlights.striped_wall_lantern":"Striped Wall Lantern",
+		 "block.mcwlights.covered_wall_lantern":"Covered Wall Lantern",
+		 "block.mcwlights.chain_wall_lantern":"Chain Wall Lantern",
+		 "block.mcwlights.tavern_wall_lantern":"Tavern Wall Lantern",
+		 "block.mcwlights.festive_wall_lantern":"Festive Wall Lantern",
+		 "block.mcwlights.cross_wall_lantern":"Cross Wall Lantern",
+		 "block.mcwlights.bell_wall_lantern":"Bell Wall Lantern",
 		 
-	                                                                          
+		 "block.mcwlights.framed_torch":"Framed Torch",
+		 "block.mcwlights.iron_framed_torch":"Iron Framed Torch",
+		 "block.mcwlights.reinforced_torch":"Reinforced Torch",
+		 "block.mcwlights.rustic_torch":"Rustic Torch",
+		 "block.mcwlights.upgraded_torch":"Upgraded Torch",
+		 
+		 "block.mcwlights.redstone_lamp_slab":"Redstone Lamp Slab",
+		 "block.mcwlights.glowstone_slab":"Glowstone Slab",
+		 "block.mcwlights.shroomlight_slab":"Shroomlight Slab",
+		 "block.mcwlights.sea_lantern_slab":"Sea Lantern Slab",
+		 
+		 "block.mcwlights.wall_lamp":"Wall Lamp",
+		 "block.mcwlights.square_wall_lamp":"Square Wall Lamp",
+		 
+		 "block.mcwlights.garden_light":"Garden Light",
+		 "block.mcwlights.thin_garden_light":"Thin Garden Light",
+		 "block.mcwlights.covered_garden_light":"Covered Garden Light",
+		 "block.mcwlights.round_garden_light":"Round Garden Light",
+		 "block.mcwlights.tower_garden_light":"Tower Garden Light",
+		 "block.mcwlights.striped_garden_light":"Striped Garden Light",
+		 
+		 "block.mcwlights.oak_ceiling_fan_light":"Oak Ceiling Fan Light",
+		 "block.mcwlights.spruce_ceiling_fan_light":"Spruce Ceiling Fan Light",
+		 "block.mcwlights.birch_ceiling_fan_light":"Birch Ceiling Fan Light",
+		 "block.mcwlights.jungle_ceiling_fan_light":"Jungle Ceiling Fan Light",
+		 "block.mcwlights.acacia_ceiling_fan_light":"Acacia Ceiling Fan Light",
+		 "block.mcwlights.dark_oak_ceiling_fan_light":"Dark Oak Ceiling Fan Light",
+		 "block.mcwlights.crimson_ceiling_fan_light":"Crimson Ceiling Fan Light",
+		 "block.mcwlights.warped_ceiling_fan_light":"Warped Ceiling Fan Light",
+		 "block.mcwlights.mangrove_ceiling_fan_light":"Mangrove Ceiling Fan Light",
+		 "block.mcwlights.cherry_ceiling_fan_light":"Cherry Ceiling Fan Light",
+		 
+		 "block.mcwlights.golden_chain":"Golden Chain",
+		 "block.mcwlights.copper_chain":"Copper Chain",
+		 
+		 "block.mcwlights.golden_low_candle_holder":"Golden Low Candle Holder",
+		 "block.mcwlights.golden_candle_holder":"Golden Candle Holder",
+		 "block.mcwlights.golden_wall_candle_holder":"Golden Wall Candle Holder",
+		 "block.mcwlights.golden_double_candle_holder":"Golden Double Candle Holder",
+		 "block.mcwlights.golden_triple_candle_holder":"Golden Triple Candle Holder",
+		 "block.mcwlights.golden_small_chandelier":"Golden Small Chandelier",
+		 "block.mcwlights.golden_chandelier":"Golden Chandelier",
+		 
+		 "block.mcwlights.copper_low_candle_holder":"Copper Low Candle Holder",
+		 "block.mcwlights.copper_candle_holder":"Copper Candle Holder",
+		 "block.mcwlights.copper_wall_candle_holder":"Copper Wall Candle Holder",
+		 "block.mcwlights.copper_double_candle_holder":"Copper Double Candle Holder",
+		 "block.mcwlights.copper_triple_candle_holder":"Copper Triple Candle Holder",
+		 "block.mcwlights.copper_small_chandelier":"Copper Small Chandelier",
+		 "block.mcwlights.copper_chandelier":"Copper Chandelier",
+		 
+		 "block.mcwlights.iron_low_candle_holder":"Iron Low Candle Holder",
+		 "block.mcwlights.iron_candle_holder":"Iron Candle Holder",
+		 "block.mcwlights.iron_wall_candle_holder":"Iron Wall Candle Holder",
+		 "block.mcwlights.iron_double_candle_holder":"Iron Double Candle Holder",
+		 "block.mcwlights.iron_triple_candle_holder":"Iron Triple Candle Holder",
+		 "block.mcwlights.iron_small_chandelier":"Iron Small Chandelier",
+		 "block.mcwlights.iron_chandelier":"Iron Chandelier"                                                                          
 	}
-	

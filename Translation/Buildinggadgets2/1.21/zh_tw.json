@@ -15,6 +15,7 @@
   "buildinggadgets2.messages.anchorcleared": "錨定點已清除",
   "buildinggadgets2.messages.anchorset": "錨定點設於：",
   "buildinggadgets2.messages.areatoolarge": "範圍過大！最大尺寸：%d。目前尺寸：%d",
+  "buildinggadgets2.messages.axistoolarge": "%s Axis too large! Max size is: %d. Size was: %d",
   "buildinggadgets2.messages.bindfailed": "綁定失敗：無效的方塊",
   "buildinggadgets2.messages.bindremoved": "移除綁定",
   "buildinggadgets2.messages.bindsuccess": "成功綁定至：%s",

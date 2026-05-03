@@ -1,7 +1,7 @@
 {
 	"block.hostilenetworks.sim_chamber": "戰鬥模擬室",
 	"block.hostilenetworks.loot_fabricator": "戰利品製造機",
-	
+
 	"item.hostilenetworks.deep_learner": "深度學習機",
 	"item.hostilenetworks.data_model": "%s 資料模型",
 	"item.hostilenetworks.blank_data_model": "模型框架",
@@ -10,9 +10,10 @@
 	"item.hostilenetworks.overworld_prediction": "通用化主世界預測產物",
 	"item.hostilenetworks.nether_prediction": "通用化地獄預測產物",
 	"item.hostilenetworks.end_prediction": "通用化終界預測產物",
-	
+	"item.hostilenetworks.twilight_prediction": "Generalized Twilight Prediction",
+
 	"itemGroup.hostilenetworks": "敵對生物神經網路",
-	
+
 	"hostilenetworks.gui.learner_empty.0": "未找到資料模型",
 	"hostilenetworks.gui.learner_empty.1": "請插入資料模型！",
 	"hostilenetworks.gui.learner_empty.2": "將模型放入深度學習機中",
@@ -38,23 +39,23 @@
 	"hostilenetworks.gui.max_tier": "無法再進一步升級",
 	"hostilenetworks.gui.max_data": "已達到最大資料量",
 	"hostilenetworks.gui.variant": "%s（變種）",
-	
+
 	"hostilenetworks.hud.model": " 模型",
 	"hostilenetworks.hud.kills": "剩下 %s 次擊殺",
-	
+
 	"hostilenetworks.tier.faulty": "缺陷",
 	"hostilenetworks.tier.basic": "基礎",
 	"hostilenetworks.tier.advanced": "高級",
 	"hostilenetworks.tier.superior": "超級",
 	"hostilenetworks.tier.self_aware": "自我意識",
-	
+
 	"hostilenetworks.fail.output": "模擬無法開始\n輸出欄位已被占用",
 	"hostilenetworks.fail.energy": "模擬無法開始\n系統能量不足",
 	"hostilenetworks.fail.input": "模擬無法開始\n缺少材料：%s",
 	"hostilenetworks.fail.model": "請插入資料模型以開始戰鬥模擬",
 	"hostilenetworks.fail.faulty": "模型所需資料不足\n請插入等級為「基礎」以上的資料模型",
 	"hostilenetworks.fail.energy_mid_cycle": "模擬進度已暫停\n系統能量不足",
-	
+
 	"hostilenetworks.run.0": "> 正在啟動執行環境 ",
 	"hostilenetworks.run.1": "> 開始第 #%s 次迭代",
 	"hostilenetworks.run.2": "> 正在從晶片記憶體載入模型",
@@ -62,7 +63,7 @@
 	"hostilenetworks.run.4": "> 正在與敵對生物交戰",
 	"hostilenetworks.run.5": "> 序列預測",
 	"hostilenetworks.run.6": "> 正在處理結果...",
-	
+
 	"hostilenetworks.info.click_to_attune": "%s點擊實體以%s。",
 	"hostilenetworks.info.hold_shift": "- 按住 %s 查看更多資訊",
 	"hostilenetworks.info.tier": "等級：%s",
@@ -79,7 +80,7 @@
 	"hostilenetworks.info.looting": "掠奪等級：%s",
 	"hostilenetworks.info.subtypes": "變種：",
 	"hostilenetworks.info.sub_list": "  - %s",
-	
+
 	"hostilenetworks.color_text.build": "建立資料模型",
 	"hostilenetworks.color_text.shift": "SHIFT",
 	"hostilenetworks.color_text.rclick": "右鍵",
@@ -88,12 +89,30 @@
 	"hostilenetworks.color_text.success": "成功",
 	"hostilenetworks.color_text.true": "是",
 	"hostilenetworks.color_text.false": "否",
-	
+
 	"hostilenetworks.msg.no_model": "此樣本不存在已知的模型。",
 	"hostilenetworks.msg.built": "成功建構出 %s 的資料模型",
-	
+
+	"_comment": "Vanilla Passives",
+	"hostilenetworks.trivia.glow_squid": "Deep in the ocean they stow.\nBlessed by a luminescent glow.\nDare you take it as your own?",
+	"hostilenetworks.trivia.sheep": "Masters of color, and all things warm.\nUsually held back, unless blessed by _jeb.",
+	"hostilenetworks.trivia.iron_golem": "The mind of a pumpkin,\npiloting a metal frame.\nDefends the village,\nbut not quite tame.",
+	"hostilenetworks.trivia.squid": "Found in water, aimlessly so.\nDrifts around without a goal.\nSome wish they would just go.",
+	"hostilenetworks.trivia.mooshroom": "Is it a cow or a fungus?\nNot scary, unless you think\nabout The Last of Us.",
+	"hostilenetworks.trivia.chicken": "\"Quack.\"\nNo, that's not right, try again.\n\"Cluck.\"\nThere we go.",
+	"hostilenetworks.trivia.cow": "Provides milk while alive.\nProvides meat while dead.\nThe duality of cows.",
+	"hostilenetworks.trivia.rabbit": "The rabbit hops and hops and hops.\nHe does this even through the night.\nNever fights, unless his type is Ninety-Nine.",
+	"hostilenetworks.trivia.polar_bear": "A Bear from the Pole,\nquite strange indeed.\nHe is a sight to behold,\nyet he cannot read.",
+	"hostilenetworks.trivia.bat": "A well known fact is that\nsome bats are vampiric.\nUnfortunately, it's up to you to find out which.\nTry not to die.",
+	"hostilenetworks.trivia.hoglin": "A Hog of incredible size.\nLives in Hell, and can be zombified.",
+	"hostilenetworks.trivia.snow_golem": "The mind of a pumpkin, yet again.\nHe probably couldn't count to ten.",
+	"hostilenetworks.trivia.cod": "Fish.\n\n\nFiiiiiiish.",
+	"hostilenetworks.trivia.pig": "The pig is an interesting case.\nWorse than a cow for drops,\nand worse than a horse for riding.\nMaybe the killing is kindness...",
+
+	"_comment": "Vanilla Hostiles",
 	"hostilenetworks.trivia.blaze": "帶上你的水桶並絕望地看著它蒸發，一切事物都被烈火吞噬。\n而你也正因為如此燃燒著。",
 	"hostilenetworks.trivia.creeper": "一位興趣使然的逆向建築師。\n卻時常遭到誤解。",
+	"hostilenetworks.trivia.drowned": "An undead man who has\ndefied death again.\nSomehow he learned to use a Trident.",
 	"hostilenetworks.trivia.ender_dragon": "終界的君主，但沒有貯藏寶物的習慣。\n摧毀水晶，打破輪迴。",
 	"hostilenetworks.trivia.enderman": "除非被激怒否則待人友好。\n會被南瓜所欺騙。\n時不時進行短距離瞬移。",
 	"hostilenetworks.trivia.ghast": "若你聽見像是駱馬的哭泣聲，\n那麼你大概是聽見地獄幽靈了。",
@@ -102,7 +121,7 @@
 	"hostilenetworks.trivia.spider": "夜行性的討厭鬼。\n出於某種原因會掉落線。",
 	"hostilenetworks.trivia.witch": "喜好藥水與各式混合物。\n也許你應該開發一種解毒劑。",
 	"hostilenetworks.trivia.wither_skeleton": "一具燒得焦黑的骷髏。\n看來他的弓並沒有倖免於難。\n時常因頭顱而遭到狩獵。",
-	"hostilenetworks.trivia.wither": "不要輕易去接近這名敵人，快逃！\n他擁有 3 具頭顱，哪可能會出什麼差錯，是吧？",
+	"hostilenetworks.trivia.wither": "Do not approach this enemy, run!\nToo bad it isn't weak to the sun.",
 	"hostilenetworks.trivia.zombie": "他們於月色之下呻吟。\n絲毫不明白私人空間的必要性。",
 	"hostilenetworks.trivia.guardian": "某種突變的河豚。\n當心他們的雷射攻擊！",
 	"hostilenetworks.trivia.evoker": "一位強大的施法者。\n知曉不死的秘密。",
@@ -111,11 +130,57 @@
 	"hostilenetworks.trivia.phantom": "一頭惱人的小野獸，堅持要你去睡覺。\n失眠警察。",
 	"hostilenetworks.trivia.shulker": "增強型傳送加農砲。\n死後會變成漂亮的儲物箱。",
 	"hostilenetworks.trivia.vindicator": "一位揮舞著亂斧的瘋子。\n盡可能與他保持安全距離。",
-	"hostilenetworks.trivia.zombified_piglin": "一位可憐的地獄居民不幸被變成了殭屍。\n但他身上仍帶著不少黃金。",
+	"hostilenetworks.trivia.warden": "The slumbering lord of\nan Ancient City.\nHe cannot see,\nbut he does not need to.",
+	"hostilenetworks.trivia.zombified_piglin": "A poor nether-dweller turned\ninto a zombie.\nHas a lot of gold, though.",
+
+	"_comment": "Ars Nouveau",
+	"name.hostilenetworks.ars_wilden": "Wilden",
+	"hostilenetworks.trivia.ars_wilden": "Protectors of The Wilds.\nTheir form depends on their home.\nOh, and one of them\ncan summon wolves.",
+
+	"_comment": "Artifacts",
+	"hostilenetworks.trivia.mimic": "A chest with a hunger.\nOne you wish to plunder.\nBe careful,\nlest you be torn asunder.",
+
+	"_comment": "AllTheModium",
+	"hostilenetworks.trivia.piglich": "He resides in The Other.\nHis health bar makes weak men shudder.\nPray he doesn't utter the words:\n\"Your Mother.\"",
+
+	"_comment": "Twilight Forest",
+	"hostilenetworks.trivia.raven": "An ebony bird, full of lore.\nQuoth the Raven \"Nevermore.\"",
+	"hostilenetworks.trivia.alpha_yeti": "Leader of the Yeti Tribe.\nThe cave is his design.\nI wonder if he'd take a bribe,\nto let you skip the fight.",
+	"hostilenetworks.trivia.carminite_golem": "A golem without a pumpkin\nis like a castle without a king.\nThis one is fueled by dark magic.\nIt's quite a scary thing.",
+	"hostilenetworks.trivia.death_tome": "All of those enchanted books\nthat you discarded?\nThis is what happens to them.\nIt's your fault, really.",
+	"hostilenetworks.trivia.deer": "They gaze with judgement.\nI'm not sure what you did,\nbut clearly they're annoyed.",
+	"hostilenetworks.trivia.fire_beetle": "Why does the fire beetle\nget its own data model?\nIt drops the same things\nas a creeper...",
+	"name.hostilenetworks.twilight_giant": "Twilight Giant",
+	"hostilenetworks.trivia.twilight_giant": "Sky-dwellers.\nThey reflect our universe,\nfour times larger.\nPerhaps you could ask for a pickaxe.",
+	"name.hostilenetworks.twilight_goblin": "Twilight Goblin",
+	"hostilenetworks.trivia.twilight_goblin": "Small folk, adorned with\nthe metal of knights.\nHow they got it\nis beyond my knowledge.",
+	"hostilenetworks.trivia.helmet_crab": "When you leave helmets\nlying around on beaches,\nthis is what happens.\nYou get crabs.",
+	"hostilenetworks.trivia.hydra": "Each head slain causes\ntwo to rise.\nIf only you had a weapon\nof a larger size...",
+	"hostilenetworks.trivia.kobold": "\"You no take candle!\"\nis the only phrase I've\nheard a kobold say.\nHe doesn't even have one!",
+	"hostilenetworks.trivia.lich": "A death-defying wizard.\nHis protective shield is weak\nto magical damage.\nPanics once it breaks.",
+	"hostilenetworks.trivia.minoshroom": "Deep within the maze;\nlies a minotaur of colossal strength.\nThe fungus has empowered him;\nentire cities he will raze.",
+	"hostilenetworks.trivia.minotaur": "Half man, Half cow.\nFar less imposing than a centaur.\nMoooves incredibly fast.",
+	"hostilenetworks.trivia.naga": "This deadly serpent lives\nin his own courtyard.\nHe will demolish his home\nto end your life.",
+	"hostilenetworks.trivia.redcap": "Simple goblin miners.\nThey just don't want to share.\nThe Twilight isn't that deep,\nto be fair.",
+	"hostilenetworks.trivia.skeleton_druid": "Apparently some skeletons\nfigured out that golden hoes\ncan channel nature magic.\nI'm disappointed that they did it first.",
+	"hostilenetworks.trivia.snow_queen": "Atop a frozen castle\nis a frozen queen.\nShe wishes never to be seen.",
+	"name.hostilenetworks.twilight_ice": "Twilight Ice Elemental",
+	"hostilenetworks.trivia.twilight_ice": "The Snow Queen went through\na great deal of effort to\nbring ice to life.\nThe failed experiments still wander around.",
+	"hostilenetworks.trivia.towerwood_borer": "What happens when you cross\ntermintes with carminite?\nYou get these little bastards.\nThey can eat towerwood!",
+	"hostilenetworks.trivia.troll": "Trolololololololo...",
+	"hostilenetworks.trivia.ur_ghast": "Quite possibly the largest\nspecimen I have ever seen.\nCould you hope to slay it?",
+	"hostilenetworks.trivia.winter_wolf": "Pack hunters who thrive\nin the snow.\nSurprisingly, they have the same fur\nas a Yeti.",
+	"hostilenetworks.trivia.twilight_wraith": "The specter of a long-dead king.\nSeeks to prevent you from taking\nhis things.",
+	"hostilenetworks.trivia.yeti": "A lame, normal Yeti.\nWishes he was cool, like\nthe Alpha Yeti.",
+
+	"_comment": "Thermal",
+	"hostilenetworks.trivia.basalz": "The much bulkier cousin\nof our flammable friend.\nBestowed with earthen strength.",
+	"hostilenetworks.trivia.blitz": "A wind elemental\nby another name.\nFortunately, they lack control\nof thunder.",
+	"hostilenetworks.trivia.blizz": "Take a Blaze\nand remove the heat.\nThe resulting husk is\nthe icy Blizz.",
 
 	"hostilenetworks.info.no_base_drop": "不生產基礎掉落物",
 
 	"enchantment.level.0": "0",
-	
+
 	"curios.identifier.deep_learner": "深度學習機"
 }

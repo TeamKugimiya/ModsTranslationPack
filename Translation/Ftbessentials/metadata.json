@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
       "1.21": 98.94,
       "overall": 98.94
+    },
+    "mod_versions": {
+      "1.21": "[NEOFORGE][1.21.1] FTB Essentials 2101.1.9"
     }
   }
 }

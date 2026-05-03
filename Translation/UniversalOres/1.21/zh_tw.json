@@ -1,5 +1,5 @@
 {
-	"modmenu.descriptionTranslation.universal_ores": "對安山岩、閃長岩、花崗岩和凝灰岩新增不同種類的礦物模樣。",
+	"modmenu.descriptionTranslation.universal_ores": "Adds ores variants for andesite, diorite, granite, tuff, calcite, blackstone and basalt.",
 
 	"block.universal_ores.andesite_coal_ore": "安山岩煤礦",
 	"block.universal_ores.andesite_iron_ore": "安山岩鐵礦",
@@ -36,7 +36,7 @@
 	"block.universal_ores.tuff_redstone_ore": "凝灰岩紅石礦",
 	"block.universal_ores.tuff_emerald_ore": "凝灰岩綠寶石礦",
 	"block.universal_ores.tuff_diamond_ore": "凝灰岩鑽石礦",
-	
+
 	"block.universal_ores.calcite_coal_ore": "方解石煤礦",
 	"block.universal_ores.calcite_iron_ore": "方解石鐵礦",
 	"block.universal_ores.calcite_gold_ore": "方解石金礦",

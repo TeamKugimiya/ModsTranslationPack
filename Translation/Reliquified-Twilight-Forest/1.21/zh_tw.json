@@ -98,8 +98,8 @@
   "tooltip.relics.steel_cape.leveling_source.iron_guard.title": "刀槍不入",
   "tooltip.relics.steel_cape.leveling_source.iron_guard.description": "透過 %2$s 能力，每發射 1 顆鋼鐵球，能為遺物提供 %1$s 點經驗值。",
 
-  "item.reliquified_twilight_forest.broken_charm_of_life_1":    "損壞的生命護符 I",
-  "item.reliquified_twilight_forest.broken_charm_of_life_2":    "損壞的生命護符 II",
+  "item.reliquified_twilight_forest.broken_charm_of_life_1": "損壞的生命護符 I",
+  "item.reliquified_twilight_forest.broken_charm_of_life_2": "損壞的生命護符 II",
   "item.reliquified_twilight_forest.broken_charm_of_keeping_1": "損壞的保管護符 I",
   "item.reliquified_twilight_forest.broken_charm_of_keeping_2": "損壞的保管護符 II",
   "item.reliquified_twilight_forest.broken_charm_of_keeping_3": "損壞的保管護符 III",

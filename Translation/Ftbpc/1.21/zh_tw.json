@@ -1,6 +1,10 @@
 {
   "block.ftbpc.trigger_block": "玩家觸發器",
   "ftbpackcompanion.actionpad.tpa.request_sent": "已發送傳送請求給",
+  "ftbpackcompanion.command.bypass.added": "Added %s to the forced gamemode bypass list.",
+  "ftbpackcompanion.command.bypass.no-players": "No players are currently in the forced gamemode bypass list.",
+  "ftbpackcompanion.command.bypass.removed": "Removed %s from the forced gamemode bypass list.",
+  "ftbpackcompanion.command.fixed": "Fixed gamemode for player %s.",
   "ftbpackcompanion.home": "家",
   "ftbpackcompanion.key.category": "模組包助手",
   "ftbpackcompanion.key.open_action_pad": "開啟操作面板",

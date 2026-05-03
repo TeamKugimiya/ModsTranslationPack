@@ -11,10 +11,16 @@
     "item.ppfluids.low_fluid_retrieval_module": "Low Fluid Retrieval Module",
     "item.ppfluids.medium_fluid_retrieval_module": "Medium Fluid Retrieval Module",
     "item.ppfluids.high_fluid_retrieval_module": "High Fluid Retrieval Module",
-    "info.prettypipes.fluid_extraction_module": "Pulls fluid from adjacent inventories\nFilters and pull rates vary by tier\nHigh tiers prevent over-sending",
+    "item.ppfluids.fluid_limiter_module": "Fluid Limiter Module",
+
+    "info.prettypipes.fluid_extraction_module": "Pulls fluid from adjacent tanks\nFilters and pull rates vary by tier\nAll tiers prevent over-sending",
     "info.prettypipes.fluid_filter_module": "Restricts flow from pipes into adjacent tanks\nFilter amount varies by tier",
-    "info.prettypipes.fluid_retrieval_module": "Pulls fluid from other tanks in the network\nFilters and pull rates vary by tier\nHigh tiers prevent over-sending",
+    "info.prettypipes.fluid_retrieval_module": "Pulls fluid from other tanks in the network\nFilters and pull rates vary by tier\nAll tiers prevent over-sending",
+    "info.prettypipes.fluid_limiter_module": "Limits the amount of fluid that can enter adjacent tank\nAutomatically prevents over-sending",
+
     "info.ppfluids.fluid_item.usage": "Use me on a fluid tank to input my contents into it!",
-    "info.ppfluids.whitelist.description": "Fluids in filter slots are allowed",
-    "info.ppfluids.blacklist.description": "Fluids in filter slots are disallowed"
+
+    "info.ppfluids.limit_buckets_on": "Bucket(s)",
+    "info.ppfluids.limit_buckets_off": "Millibucket(s)",
+    "info.ppfluids.limited_amount": "Limited to:"
 }

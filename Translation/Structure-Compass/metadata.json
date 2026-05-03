@@ -23,9 +23,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 85,
-      "overall": 85
+      "1.21": 44.12,
+      "overall": 44.12
+    },
+    "mod_versions": {
+      "1.21": "StructureCompass-1.21.1-4.1.1.jar"
     }
   }
 }

@@ -215,7 +215,7 @@
   "fdbosses.core_ability.fire_and_ice_core": "Can be combined with items that has damage. Allows summoning Malkuth fireballs on item use.",
   "fdbosses.core_ability.justice_core": "Can be combined with equippable items. Incoming damage amount cannot exceed the last damage amount you have received. Decreases incoming damage by %s%%.",
   "fdbosses.skills.geburah.roundstrike": "Roundstrike",
-    "fdbosses.skills.geburah.roundstrike_description": "Geburah rotates cannons randomly and shoots projectiles.",
+  "fdbosses.skills.geburah.roundstrike_description": "Geburah rotates cannons randomly and shoots projectiles.",
   "fdbosses.skills.geburah.roundstrike_stats": "Projectile: \n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=geburahConfig, value=cannonProjectileDamage}}",
   "fdbosses.skills.sinner.sinner": "Eternal Judge",
   "fdbosses.skills.sinner.sinner_stats": "Player sin threshold: {{(fdbosses:config_float) config=geburahConfig, value=maxPlayerSins}}",

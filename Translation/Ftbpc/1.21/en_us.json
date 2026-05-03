@@ -1,6 +1,10 @@
 {
   "block.ftbpc.trigger_block": "Player Trigger",
   "ftbpackcompanion.actionpad.tpa.request_sent": "TP request sent to",
+  "ftbpackcompanion.command.bypass.added": "Added %s to the forced gamemode bypass list.",
+  "ftbpackcompanion.command.bypass.no-players": "No players are currently in the forced gamemode bypass list.",
+  "ftbpackcompanion.command.bypass.removed": "Removed %s from the forced gamemode bypass list.",
+  "ftbpackcompanion.command.fixed": "Fixed gamemode for player %s.",
   "ftbpackcompanion.home": "Home",
   "ftbpackcompanion.key.category": "Pack Companion",
   "ftbpackcompanion.key.open_action_pad": "Open Action Pad",

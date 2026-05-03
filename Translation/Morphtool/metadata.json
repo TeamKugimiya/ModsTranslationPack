@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 100,
-      "overall": 100
+      "1.21": 16.67,
+      "overall": 16.67
+    },
+    "mod_versions": {
+      "1.21": "Morph-o-Tool-1.8-39.jar"
     }
   }
 }

@@ -30,6 +30,10 @@
   "farmingforblockheads.subtitle.falling": "商人從天而降",
   "entity.farmingforblockheads.merchant": "商人",
   "farmingforblockheads.configuration.title": "傻瓜耕種",
+  "farmingforblockheads.configuration.enabledOptionalPresets": "Enabled Optional Presets",
+  "farmingforblockheads.configuration.enabledOptionalPresets.tooltip": "List of optional presets to enable.",
+  "farmingforblockheads.configuration.disabledDefaultPresets": "Disabled Default Presets",
+  "farmingforblockheads.configuration.disabledDefaultPresets.tooltip": "List of default presets to disable.",
   "farmingforblockheads.configuration.merchantNames": "商人名稱",
   "farmingforblockheads.configuration.merchantNames.tooltip": "商人可能出現的名稱清單。",
   "farmingforblockheads.configuration.feedingTroughRange": "飼料槽範圍",
@@ -46,8 +50,8 @@
   "farmingforblockheads.configuration.fertilizerRegressionChance.tooltip": "施肥耕地變回普通耕地的機率（根據提供的加成計算）。",
   "farmingforblockheads.configuration.treatMerchantsLikeBabies": "視商人為幼年實體",
   "farmingforblockheads.configuration.treatMerchantsLikeBabies.tooltip": "啟用此功能後，商人將被視為幼年生物（僅限技術層面），這可以用於解決利用商人死亡，零成本刷取資源（如鮮血）的問題。",
-  "farmingforblockheads.configuration.disabledDefaultPresets": "停用預設類組",
-  "farmingforblockheads.configuration.disabledDefaultPresets.tooltip": "欲停用的預設類組清單。",
-  "farmingforblockheads.configuration.enabledOptionalPresets": "啟用選用類組",
-  "farmingforblockheads.configuration.enabledOptionalPresets.tooltip": "欲啟用的選用類組清單。"
+  "farmingforblockheads.configuration.excludedGroups": "Excluded Groups",
+  "farmingforblockheads.configuration.excludedGroups.tooltip": "List of groups to disable. Has precedence over includedGroups. 'selling.seeds' for example would disable all seeds from the market.",
+  "farmingforblockheads.configuration.includedGroups": "Included Groups",
+  "farmingforblockheads.configuration.includedGroups.tooltip": "List of groups to enable. 'default' is an alias for the inbuilt defaults (selling.seeds, selling.saplings and selling.fertilizers.minecraft)."
 }

@@ -219,6 +219,7 @@
   "gui.sophisticatedcore.buttons.confirm": "Confirm",
   "gui.sophisticatedcore.buttons.cancel": "Cancel",
   "gui.sophisticatedcore.buttons.transparent": "No Color",
+  "gui.sophisticatedcore.buttons.browse_results": "Open expanded output list with search",
   "gui.sophisticatedcore.buttons.upgrade_switch_enabled": "ON",
   "gui.sophisticatedcore.buttons.upgrade_switch_disabled": "OFF",
   "gui.sophisticatedcore.buttons.upgrade_switch_inactive": "INACTIVE",
@@ -286,5 +287,16 @@
   "key.category.sophisticatedcore.main": "Sophisticated Mods",
   "key.sophisticatedcore.sort": "Sort Storage/Backpack",
   "key.sophisticatedcore.transfer_to_storage": "Transfer to Storage",
-  "key.sophisticatedcore.transfer_to_inventory": "Transfer to Inventory"
+  "key.sophisticatedcore.transfer_to_inventory": "Transfer to Inventory",
+  "sophisticatedcore.configuration.client": "Client",
+  "sophisticatedcore.configuration.common": "Common",
+  "sophisticatedcore.configuration.sortButtonsPosition": "Sort Buttons Position",
+  "sophisticatedcore.configuration.playButtonSound": "Play Button Sound",
+  "sophisticatedcore.configuration.mouseTweaksScrollEnabled": "Mouse Tweaks Scroll Control",
+  "sophisticatedcore.configuration.enabledItems": "Enabled Mod Items",
+  "sophisticatedcore.configuration.enabledItems.tooltip": "Prefilled with all supported items. Change |true to |false to disable one.\nFormat: item_id|true_or_false\nExample: sophisticatedbackpacks:smelting_upgrade|true",
+  "sophisticatedcore.configuration.sortButtonsPosition.title_line_right": "Title Line Right",
+  "sophisticatedcore.configuration.sortButtonsPosition.below_upgrades": "Below Upgrades",
+  "sophisticatedcore.configuration.sortButtonsPosition.below_upgrade_tabs": "Below Upgrade Tabs",
+  "sophisticatedcore.configuration.sortButtonsPosition.hidden": "Hidden"
 }

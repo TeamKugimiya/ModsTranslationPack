@@ -1,5 +1,13 @@
 {
-  "text.autoconfig.boatiview.option.client.itemsToShowInMovingBoat": "要在移動中的船上所顯示的物品",
-  "text.autoconfig.boatiview.option.client.showHandsInMovingBoat": "在移動中的船上顯示手中物品",
-  "text.autoconfig.boatiview.title": "船上物品顯示"
+  "boatiview.configuration.client": "Boat Item View Client",
+  "boatiview.configuration.section.boatiview.client.toml": "Client settings",
+  "boatiview.configuration.section.boatiview.client.toml.title": "Client settings",
+  "boatiview.configuration.show_hands": "Show Items in Moving Boat",
+  "boatiview.configuration.show_hands.tooltip": "Toggle whether the item in hand should be rendered whilst the boat is moving",
+  "boatiview.configuration.title": "Boat Item View",
+  "boatiview.configuration.whitelisted_items": "Items to display in Moving Boat",
+  "boatiview.configuration.whitelisted_items.tooltip": "Items that will remain displayed in hand. Adding the character '*' after a Mod ID will include all items from the mod. E.g. 'modid:*'. If no Mod ID is specified before the '*' character, all items will be included. E.g. '*'",
+  "text.autoconfig.client.option.show_hands": "Show Items in Moving Boat",
+  "text.autoconfig.client.option.whitelisted_items": "Items to display in Moving Boat",
+  "text.autoconfig.client.title": "Boat Item View"
 }

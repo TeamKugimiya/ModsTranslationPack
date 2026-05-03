@@ -21,10 +21,16 @@
 
   "screen.elevatorid.elevator": "電梯選項",
   "screen.elevatorid.elevator.directional": "玩家朝向",
+  "screen.elevatorid.elevator.directional_north": "N",
+  "screen.elevatorid.elevator.directional_east": "E",
+  "screen.elevatorid.elevator.directional_south": "S",
+  "screen.elevatorid.elevator.directional_west": "W",
   "screen.elevatorid.elevator.hide_arrow": "隱藏箭頭",
   "screen.elevatorid.elevator.reset_camo": "移除偽裝",
 
-  "elevatorid.message.missing_xp": "你沒有足夠的經驗值進行傳送",
+  "elevatorid.message.missing_xp": "You do not have enough XP to use elevators",
 
-  "itemGroup.elevators_tab": "電梯"
+  "itemGroup.elevators_tab": "電梯",
+
+  "tag.item.elevatorid.elevators": "Elevators"
 }

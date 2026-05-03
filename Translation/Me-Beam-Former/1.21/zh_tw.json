@@ -19,12 +19,12 @@
   "tooltip.me_beam_former.binding.tower_to_tower_linked": "能源塔電網已連線：【%s，%s，%s】 ↔ 【%s，%s，%s】",
   "tooltip.me_beam_former.binding.tower_to_tower_unlinked": "能源塔電網已中斷連線：【%s，%s，%s】 ✗ 【%s，%s，%s】",
   "tooltip.me_beam_former.binding.tower_to_tower_needs_normal_click": "感應塔之間建立連線時，僅需使用右鍵（不按 Shift）",
-  "tooltip.me_beam_former.binding.tower_out_of_range": "已超出感應塔的連線範圍！限制：水平 16x16，垂直 256 格",
+  "tooltip.me_beam_former.binding.tower_out_of_range": "Tower connection distance out of range! Limit: 20x20 horizontal, 256 vertical",
   "tooltip.me_beam_former.binding.tower_needs_shift": "無線能源感應塔需要 Shift + 點擊右鍵來連接機器",
   "tooltip.me_beam_former.binding.omni_only": "全向光束成型器只能連接其他全向光束成型器",
   "tooltip.me_beam_former.binding.cleared": "已清除綁定",
   "tooltip.me_beam_former.binding.invalid": "光束成型器無效或已不存在",
   "tooltip.me_beam_former.binding.no_source": "請先使用 Shift + 點擊右鍵來綁定光束成型器",
   "tooltip.me_beam_former.binding.self_link": "不能連接到自己",
-  "tooltip.me_beam_former.binding.out_of_range": "已超出連線範圍！限制：水平 20x20，垂直 32 格"
+  "tooltip.me_beam_former.binding.out_of_range": "Connection distance out of range! Limit: 16x16 horizontal, 32 vertical"
 }

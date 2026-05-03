@@ -40,11 +40,17 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.19": 92.38,
-      "1.20": 91.43,
+      "1.19": 60.13,
+      "1.20": 58.13,
       "1.21": 93.79,
-      "overall": 92.53
+      "overall": 70.68
+    },
+    "mod_versions": {
+      "1.19": "HostileNeuralNetworks-1.19.2-4.1.1.jar",
+      "1.20": "HostileNeuralNetworks-1.20.1-5.3.3.jar",
+      "1.21": "HostileNeuralNetworks-1.21.1-6.3.0.jar"
     }
   }
 }

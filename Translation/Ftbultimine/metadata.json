@@ -49,12 +49,19 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.18": 100,
-      "1.19": 100,
-      "1.20": 100,
-      "1.21": 100,
-      "overall": 100
+      "1.18": 93.75,
+      "1.19": 93.18,
+      "1.20": 88.46,
+      "1.21": 93.26,
+      "overall": 92.16
+    },
+    "mod_versions": {
+      "1.18": "ftb-ultimine-forge-1802.3.4-build.93.jar",
+      "1.19": "[FORGE][1.19.2] FTB Ultimine 1902.4.2",
+      "1.20": "ftb-ultimine-forge-2001.1.8.jar",
+      "1.21": "[NEOFORGE][1.21.1] FTB Ultimine 2101.1.13"
     }
   }
 }

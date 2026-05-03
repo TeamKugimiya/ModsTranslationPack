@@ -1,9 +1,14 @@
 {
+  "item.mob_bottle.tooltip": "Contains : %s",
   "item.mob_bottle.tooltip_empty": "對著縮小的實體，使用玻璃瓶點擊右鍵以捕捉",
-  "item.shrink.mob_bottle": "玻璃瓶",
+  "item.mob_bottle.tooltip_with_name": "Contains : %s (%s)",
+  "item.shrink.shrink_bottle": "Glass Bottle",
   "item.shrink.shrinking_device": "個人縮放裝置",
   "itemGroup.shrink": "縮放",
   "key.shrink.category": "縮放",
   "key.shrink.shrink": "切換縮放狀態",
-  "shrink.deny_shrink": "由於該實體帶有拒絕標籤，因此無法對其進行縮放"
+  "shrink.deny_shrink": "由於該實體帶有拒絕標籤，因此無法對其進行縮放",
+  "shrink.message.already_shrunk": "Unable to open while already shrunk",
+  "shrink.message.missing": "Shrink Attribute Missing",
+  "shrink.message.power": "Not enough power"
 }

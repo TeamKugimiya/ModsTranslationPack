@@ -1,7 +1,10 @@
 {
   "smoothswapping.config.menu": "平滑交換設定選單",
-  "smoothswapping.config.general": "一般",
+  "smoothswapping.config.toggle": "Toggle Mod",
+  "smoothswapping.config.toggle.on": "Enabled",
+  "smoothswapping.config.toggle.off": "Disabled",
   "smoothswapping.config.testinventory": "測試用物品欄",
+  "smoothswapping.config.option.animationspeed.tooltip": "-Right click on empty space to create new curve point\n-Left click and drag a point to move it\n-Right click one to delete it",
   "smoothswapping.config.option.animationspeed": "動畫速度",
   "smoothswapping.config.option.animationspeed.speed": "速度",
   "smoothswapping.config.option.animationspeed.reset": "重設",

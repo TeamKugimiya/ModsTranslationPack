@@ -33,10 +33,15 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.18": 100,
-      "1.21": 100,
-      "overall": 100
+      "1.18": 0.3,
+      "1.21": 33.4,
+      "overall": 16.85
+    },
+    "mod_versions": {
+      "1.18": "Rechiseled 1.2.4 for Forge 1.18",
+      "1.21": "Rechiseled 1.2.4 for NeoForge 1.21"
     }
   }
 }

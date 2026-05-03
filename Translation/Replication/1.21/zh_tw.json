@@ -11,7 +11,7 @@
   "block.replication.replication_terminal": "複製終端機",
   "block.replication.replicator": "複製器",
   "config.jade.plugin_replication.matter_tank": "物質儲罐",
-   "item.replication.creative_memory_chip": "創造模式記憶體晶片",
+  "item.replication.creative_memory_chip": "創造模式記憶體晶片",
   "item.replication.matter_blueprint": "物質藍圖",
   "item.replication.memory_chip": "記憶體晶片",
   "item.replication.raw_replica": "複鑄原礦",

@@ -19,12 +19,12 @@
   "tooltip.me_beam_former.binding.tower_to_tower_linked": "Energy Tower network connected: (%s, %s, %s) ↔ (%s, %s, %s)",
   "tooltip.me_beam_former.binding.tower_to_tower_unlinked": "Energy Tower network disconnected: (%s, %s, %s) ✗ (%s, %s, %s)",
   "tooltip.me_beam_former.binding.tower_to_tower_needs_normal_click": "To connect towers, use normal Right Click (without Shift)",
-  "tooltip.me_beam_former.binding.tower_out_of_range": "Tower connection distance out of range! Limit: 16x16 horizontal, 256 vertical",
+  "tooltip.me_beam_former.binding.tower_out_of_range": "Tower connection distance out of range! Limit: 20x20 horizontal, 256 vertical",
   "tooltip.me_beam_former.binding.tower_needs_shift": "Wireless Energy Tower requires Shift+Right Click to bind machines",
   "tooltip.me_beam_former.binding.omni_only": "Omni Beam Former can only connect to other Omni Beam Formers",
   "tooltip.me_beam_former.binding.cleared": "Source beam former cleared",
   "tooltip.me_beam_former.binding.invalid": "Source beam former is invalid or no longer exists",
   "tooltip.me_beam_former.binding.no_source": "Please use Shift+Right Click to select source beam former first",
   "tooltip.me_beam_former.binding.self_link": "Cannot connect to itself",
-  "tooltip.me_beam_former.binding.out_of_range": "Connection distance out of range! Limit: 20x20 horizontal, 32 vertical"
+  "tooltip.me_beam_former.binding.out_of_range": "Connection distance out of range! Limit: 16x16 horizontal, 32 vertical"
 } 

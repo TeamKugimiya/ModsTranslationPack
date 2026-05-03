@@ -40,11 +40,17 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
       "1.18": 94.37,
       "1.19": 94.37,
       "1.21": 96.88,
       "overall": 95.21
+    },
+    "mod_versions": {
+      "1.18": "GatewaysToEternity-1.18.2-2.3.0.jar",
+      "1.19": "GatewaysToEternity-1.19.2-3.2.3.jar",
+      "1.21": "GatewaysToEternity-1.21.1-5.1.0.jar"
     }
   }
 }

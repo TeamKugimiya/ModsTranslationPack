@@ -1,3 +1,4 @@
 {
-  "block.multipiston.multipistonblock": "多方位活塞"
+  "block.multipiston.multipistonblock": "多方位活塞",
+  "com.ldtteam.multipiston.equalpos": "Input and Output Direction can't be the same!"
 }

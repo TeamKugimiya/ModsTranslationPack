@@ -28,7 +28,9 @@
   "screen.elevatorid.elevator.hide_arrow": "Hide arrow",
   "screen.elevatorid.elevator.reset_camo": "Remove camouflage",
 
-  "elevatorid.message.missing_xp": "You do not have enough XP to teleport",
+  "elevatorid.message.missing_xp": "You do not have enough XP to use elevators",
 
-  "itemGroup.elevators_tab": "Elevators"
+  "itemGroup.elevators_tab": "Elevators",
+
+  "tag.item.elevatorid.elevators": "Elevators"
 }

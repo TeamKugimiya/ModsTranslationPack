@@ -50,6 +50,8 @@
 	"ftbultimine.client_settings.overlay.overlay_inset_x.tooltip": "Inset is toward center of screen.\nIgnored if X pos is center.",
 	"ftbultimine.client_settings.overlay.overlay_inset_y": "Overlay Panel Y Inset",
 	"ftbultimine.client_settings.overlay.overlay_inset_y.tooltip": "Inset is toward center of screen.\nIgnored if Y pos is center.",
+	"ftbultimine.client_settings.overlay.overlay_scale": "Overlay Scaling",
+	"ftbultimine.client_settings.overlay.overlay_scale.tooltip": "Multiples of 0.25 are recommended for best font appearance",
 	"ftbultimine.server_settings": "Server Settings",
 	"ftbultimine.server_settings.features": "Features",
 	"ftbultimine.server_settings.features.right_click_axe": "Axe: Right-Click multiple blocks",
@@ -81,5 +83,9 @@
 	"ftbultimine.server_settings.misc.prevent_tool_break": "Tool Breakage Protection",
 	"ftbultimine.server_settings.misc.prevent_tool_break.tooltip": "Ultimining will stop if the equipped tool has this much durability or less remaining. Setting this to 0 allows tools to break.",
 	"ftbultimine.server_settings.misc.cancel_on_block_break_fail": "Cancel on Block Break Failure",
-	"ftbultimine.server_settings.misc.cancel_on_block_break_fail.tooltip": "Advanced setting: stop digging if unbreakable blocks are encountered instead of skipping over those blocks"
+	"ftbultimine.server_settings.misc.cancel_on_block_break_fail.tooltip": "Advanced setting: stop digging if unbreakable blocks are encountered instead of skipping over those blocks",
+	"ftbultimine.modifier.max_blocks": "FTB Ultimine Max Blocks",
+	"ftbultimine.modifier.cooldown": "FTB Ultimine Cooldown Ticks",
+	"ftbultimine.modifier.exhaustion": "FTB Ultimine Food Consumption",
+	"ftbultimine.modifier.experience": "FTB Ultimine Experience Cost"
 }

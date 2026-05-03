@@ -52,16 +52,16 @@
 
     "tutorial.apotheosis.world_tier.world_tiers.title": "世界階級",
     "tutorial.apotheosis.world_tier.world_tiers.desc": "世界階級是《神化》模組的進度系統。解鎖並啟動新的世界階級將提升遊戲難度，但也會提高你在世界中找到的戰利品品質。\n\n將滑鼠指向某個世界階級的圖示即可查看解鎖條件，點擊已解鎖的階級即可將其設為焦點。",
-    
+
     "tutorial.apotheosis.world_tier.tier_name.title": "世界階級名稱",
     "tutorial.apotheosis.world_tier.tier_name.desc": "這是所選世界階級的名稱，以及該階級的簡短描述。",
-    
+
     "tutorial.apotheosis.world_tier.tier_difficulty.title": "世界階級難度",
     "tutorial.apotheosis.world_tier.tier_difficulty.desc": "這是所選世界階級的難度。更高的難度意味著更強大的怪物，但也會有更好的獎勵。\n\n啟用邊境及以上的世界階級時，神化入侵者將開始在你的世界中出現。",
-    
-    "tutorial.apotheosis.world_tier.detailed_info.title": "詳細資訊", 
+
+    "tutorial.apotheosis.world_tier.detailed_info.title": "詳細資訊",
     "tutorial.apotheosis.world_tier.detailed_info.desc": "此按鈕將向你顯示有關世界階級的詳細資訊，包括玩家和怪物的增強與削弱屬性，以及每個稀有度和寶石純度的掉落機率。\n\n如果你不確定稀有度或純度是什麼，請參閱《闇影編年史》（遊戲內指南手冊）。",
-    
+
     "tutorial.apotheosis.world_tier.activate.title": "啟用世界階級",
     "tutorial.apotheosis.world_tier.activate.desc": "若所選的世界階級尚未啟用，這顆按鈕能讓你去啟動它。\n\n點擊「完成」後將自動啟用「世界階級：避風港」。對於其他世界階級，你需要返回此處並手動啟動它們。",
     "tutorial.apotheosis.world_tier.activate_disabled.desc": "通常來說，這顆按鈕能讓你啟動所選的世界階級。\n\n然而，在本模組包中，世界階級將會自動啟用，無法手動變更。你仍然可以查看每個世界階級的詳細資訊，但無法去啟用或停用它們。",
@@ -85,14 +85,14 @@
 
     "info.apotheosis.affix_item": "神化詞綴物品",
 
-    "death.attack.apotheosis.execute": "%s 被 %s 處決了",
-    "death.attack.apotheosis.execute.item": "%s 被 %s 用 %s 處決",
+    "death.attack.apotheosis:execute": "%s was executed by %s",
+    "death.attack.apotheosis:execute.item": "%s was executed by %s using %s",
     "death.attack.apotheosis:execute.player": "%s 被 %s 處決了",
 
     "misc.apotheosis.affix_name.two": "%s的%s",
     "misc.apotheosis.affix_name.three": "%s的%s《%s》",
     "misc.apotheosis.affix_name.four": "%s %s的%s《%s》",
-    "misc.apotheosis.affix_bounds": "[%s\u00A0-\u00A0%s]",
+    "misc.apotheosis.affix_bounds": "[%s - %s]",
 
     "misc.apotheosis.radial_state_updated": "已將徑向挖掘模式設為「%s」",
     "misc.apotheosis.radial_state.require_not_sneaking": "潛行時停用",
@@ -242,23 +242,23 @@
     "affix.apotheosis:ranged/spectral": "光譜",
     "affix.apotheosis:ranged/spectral.suffix": "孤寂",
     "affix.apotheosis:ranged/spectral.desc": "射擊時有 %s%% 機率射出第二把箭",
-    
+
     "affix.apotheosis:ranged/magical": "魔法",
     "affix.apotheosis:ranged/magical.suffix": "奧術",
     "affix.apotheosis:ranged/magical.desc": "你的箭矢將造成魔法傷害",
-    
+
     "affix.apotheosis:melee/festive": "節慶",
     "affix.apotheosis:melee/festive.suffix": "派對",
     "affix.apotheosis:melee/festive.desc": "殺死敵人有 %s%% 機率產生戰利品大爆發",
-    
+
     "affix.apotheosis:melee/thunderstruck": "雷擊",
     "affix.apotheosis:melee/thunderstruck.suffix": "風暴",
     "affix.apotheosis:melee/thunderstruck.desc": "攻擊時將對附近敵人造成 %s 點傷害",
-    
+
     "affix.apotheosis:shield/retreating": "後撤",
     "affix.apotheosis:shield/retreating.suffix": "弄臣",
     "affix.apotheosis:shield/retreating.desc": "格擋近戰攻擊時會向後躍步。",
-    
+
     "affix.apotheosis:generic/telepathic": "心靈感應",
     "affix.apotheosis:generic/telepathic.suffix": "時空",
     "affix.apotheosis:generic/telepathic.desc.weapon": "生物掉落物將直接傳送到你身上",
@@ -267,7 +267,7 @@
     "affix.apotheosis:melee/executing": "處決",
     "affix.apotheosis:melee/executing.suffix": "處決者",
     "affix.apotheosis:melee/executing.desc": "生命低於 %s%% 的敵人將直接被處決",
-    
+
     "affix.apotheosis:melee/cleaving": "劈砍",
     "affix.apotheosis:melee/cleaving.suffix": "屠夫",
     "affix.apotheosis:melee/cleaving.desc": "攻擊時有 %s%% 機率同時對附近 %s 名敵人施加傷害",
@@ -311,7 +311,7 @@
     "affix.apotheosis:breaker/effect/radial": "徑向",
     "affix.apotheosis:breaker/effect/radial.suffix": "破土者",
     "affix.apotheosis:breaker/effect/radial.desc": "這把工具能挖掘 %sx%s 區域",
-    
+
     "affix.apotheosis:breaker/ability/supermassive": "超質量",
     "affix.apotheosis:breaker/ability/supermassive.suffix": "破界者",
     "affix.apotheosis:breaker/ability/supermassive.desc": "這把工具能挖掘 %sx%s 區域",
@@ -367,11 +367,11 @@
     "misc.apotheosis.iron": "鐵",
     "misc.apotheosis.diamond": "鑽石",
     "misc.apotheosis.netherite": "獄髓",
-    
+
     "affix.apotheosis:breaker/effect/omnetic": "全效",
     "affix.apotheosis:breaker/effect/omnetic.suffix": "奇點",
     "affix.apotheosis:breaker/effect/omnetic.desc": "這把工具挖掘所有類型的方塊，均有%s級別的效果",
-    
+
     "misc.apotheosis.physical": "物理",
     "misc.apotheosis.magic": "魔法",
     "misc.apotheosis.fire": "火焰",
@@ -609,6 +609,11 @@
     "block.apotheosis.reforging_table.desc2": "最高稀有度：%s",
     "block.apotheosis.augmenting_table": "詞綴改造台",
     "block.apotheosis.augmenting_table.desc": "使用強化咒符來強化或洗鍊指定詞綴",
+    "block.apotheosis.gem_case": "Gem Case",
+    "tooltip.apotheosis.gem_case.capacity": "Capacity: %s Gems",
+    "tooltip.apotheosis.gem_case.unique_gems": "Contains %s different gems",
+    "tooltip.apotheosis.gem_case.none_owned": "None Owned",
+    "block.apotheosis.ender_gem_case": "Gem Case of House Fabergé",
 
     "button.apotheosis.salvage": "分解",
     "button.apotheosis.no_salvage": "尚未選擇物品",
@@ -622,6 +627,11 @@
     "button.apotheosis.augmenting.no_alternatives": "沒有可洗鍊出的詞綴",
     "button.apotheosis.augmenting.upgrade.cost": "成本：%sx %s",
     "button.apotheosis.augmenting.upgrade.exp_cost": "經驗成本：%s 等",
+    "button.apotheosis.gem_case.upgrade": "Upgrade 2 %s gems to %s",
+    "button.apotheosis.gem_case.upgrade_no_gems": "Insufficient Gems",
+    "button.apotheosis.gem_case.upgrade_no_materials": "Insufficient Materials",
+    "button.apotheosis.gem_case.upgrade_cost": "Cost: %s %s and %s %s",
+    "button.apotheosis.gem_case.upgrade_all": "Will upgrade as many gems as possible!",
 
     "menu.apotheosis.gem_cutting": "寶石切割",
     "container.apotheosis.salvage": "分解",
@@ -667,8 +677,6 @@
     "loot_category.apotheosis.shovel.plural": "鏟",
     "loot_category.apotheosis.armor": "盔甲",
     "loot_category.apotheosis.armor.plural": "盔甲",
-    "loot_category.apotheosis.shears": "剪刀",
-    "loot_category.apotheosis.shears.plural": "剪刀",
     "loot_category.apotheosis.shield": "盾牌",
     "loot_category.apotheosis.shield.plural": "盾牌",
     "loot_category.apotheosis.trident": "三叉戟",
@@ -683,6 +691,8 @@
     "loot_category.apotheosis.leggings.plural": "護腿",
     "loot_category.apotheosis.boots": "靴子",
     "loot_category.apotheosis.boots.plural": "靴子",
+    "loot_category.apotheosis.shears": "Shears",
+    "loot_category.apotheosis.shears.plural": "Shears",
 
     "info.apotheosis.boss_spawn": "%s 已於這片大地上甦醒！",
     "info.apotheosis.boss": "%s 神化 Boss",
@@ -704,7 +714,7 @@
     "rarity.apotheosis:epic": "史詩",
     "rarity.apotheosis:mythic": "神話",
     "rarity.apotheosis:ancient": "上古",
-    
+
     "death.attack.apotheosis:psychic": "%s 被反擊殺死了。",
     "death.attack.apotheosis:psychic.player": "%s 的攻擊 %s 反彈了。",
 
@@ -723,7 +733,7 @@
     "reward.apotheosis.gem": "神化寶石（%s）",
     "reward.apotheosis.random_gem": "神化寶石（隨機）",
     "reward.apotheosis.true_random_gem": "真隨機神化寶石",
-    "reward.apotheosis.netherite_smithing_template": "獄髓鍛造模板",
+    "reward.apotheosis.netherite_smithing_template": "Netherite Smithing Template",
     "error.apotheosis.gate_tier_incorrect": "此傳送門只能在「%s」世界階級中開啟",
     "modifier.apotheosis.affix": "收到一個詞綴物品",
     "tooltip.apotheosis.requires_world_tier": "世界階級需求：%s",
@@ -767,7 +777,7 @@
     "advancements.apotheosis.progression.frontier.criteria.common_helm": "裝備一件普通頭盔",
     "advancements.apotheosis.progression.frontier.criteria.common_chest": "裝備一件普通胸甲",
     "advancements.apotheosis.progression.frontier.criteria.common_legs": "裝備一件普通護腿",
-    "advancements.apotheosis.progression.frontier.criteria.common_feet": "裝備一件普通靴子", 
+    "advancements.apotheosis.progression.frontier.criteria.common_feet": "裝備一件普通靴子",
     "advancements.apotheosis.progression.frontier.criteria.common_hand": "持有一把普通武器",
 
     "advancements.apotheosis.progression.ascent.title": "世界階級：攀升",
@@ -820,19 +830,19 @@
     "advancements.apotheosis.merchant.desc": "與流浪商人交易一把刻有詞綴的物品。",
     "advancements.apotheosis.random": "你怎麼會有這個？",
     "advancements.apotheosis.random.desc": "從路邊的怪物身上，掠奪刻有詞綴的物品。",
-    
+
     "advancements.apotheosis.gem": "這不是鑽石",
     "advancements.apotheosis.gem.desc": "找到一顆能被鑲嵌在詞綴物品上的神化寶石。",
-    
+
     "advancements.apotheosis.rare_gem": "遠非完美",
     "advancements.apotheosis.rare_gem.desc": "取得一顆微瑕的寶石。",
-    
+
     "advancements.apotheosis.mythic_gem": "無瑕寶石",
     "advancements.apotheosis.mythic_gem.desc": "取得一顆無瑕的寶石。",
-    
+
     "advancements.apotheosis.ancient_gem": "無窮石頭",
     "advancements.apotheosis.ancient_gem.desc": "使用寶石切割台製作一顆完美的寶石。",
-    
+
     "advancements.apotheosis.socket": "寶石匠",
     "advancements.apotheosis.socket.desc": "使用鍛造台將寶石鑲嵌在物品上。",
 
@@ -895,7 +905,7 @@
     "config.jade.plugin_apotheosis.adventure": "神化｜冒險模組",
     "message.apotheosis.item_linking_disabled": "伺服器上已停用物品分享功能。",
     "text.apotheosis.equipped": "已裝備",
-    
+
     "item.apotheosis.music_disc_flash": "唱片",
     "jukebox_song.apotheosis.flash": "Renren - Flash",
     "subtitle.apotheosis.music_disc.flash": "Renren - Flash",
@@ -925,7 +935,12 @@
 
     "stat.apotheosis.world_tiers_activated": "世界階級變更次數",
     "apotheosis.subtitle.reforge": "重鑄台重鑄物品",
-    "apotheosis.subtitle.malice": "惡意咒符施加惡意",    
+    "apotheosis.subtitle.malice": "惡意咒符施加惡意",
+
+    "apotheosis.subtitle.invader_uncommon": "Uncommon Apothic Invader spawns",
+    "apotheosis.subtitle.invader_rare": "Rare Apothic Invader spawns",
+    "apotheosis.subtitle.invader_epic": "Epic Apothic Invader spawns",
+    "apotheosis.subtitle.invader_mythic": "Mythic Apothic Invader spawns",
 
     "comment_id": "Guidebook",
     "book.apotheosis.name": "闇影編年史",

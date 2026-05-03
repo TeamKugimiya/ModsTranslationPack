@@ -1,5 +1,6 @@
 {
   "block.bonsaitrees3.bonsaipot": "植樹盆栽",
+  "config.jade.plugin_bonsaitrees3.bonsaipot": "Bonsai Pot",
   "container.bonsaitrees3.bonsaipot": "植樹盆栽",
   "gui.bonsaitrees3.label.button.cut_tree.tooltip.ok": "點擊砍伐樹木",
   "gui.bonsaitrees3.label.button.cut_tree.tooltip.wait": "需等待樹木生長完全",
@@ -10,6 +11,7 @@
   "gui.bonsaitrees3.label.jei.upgrade.fortune": "提高收穫數量與機率",
   "gui.bonsaitrees3.label.jei.upgrade.hopper": "自動將收穫物品輸出至盆栽底下容器",
   "gui.bonsaitrees3.label.jei.upgrade.silktouch": "小心翼翼，並獲得樹苗",
+  "jade.bonsaitrees3.bonsaipot.growing": "Growing: %d%%",
   "jei.bonsaitrees3.chance": "收穫機率：%d%%",
   "jei.bonsaitrees3.growtime": "生長時間：%s",
   "jei.bonsaitrees3.recipes.title": "植樹盆栽生長",

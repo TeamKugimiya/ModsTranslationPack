@@ -22,5 +22,18 @@
   "gui.sophisticateditemactions.discovery.nudge.restock.title" : "Restock Tip",
   "gui.sophisticateditemactions.discovery.nudge.restock.description" : "Press %s to restock from nearby storages",
   "gui.sophisticateditemactions.discovery.nudge.deposit.title" : "Deposit Tip",
-  "gui.sophisticateditemactions.discovery.nudge.deposit.description" : "Press %s to deposit into nearby storages"
+  "gui.sophisticateditemactions.discovery.nudge.deposit.description" : "Press %s to deposit into nearby storages",
+  "sophisticateditemactions.configuration.client": "Client",
+  "sophisticateditemactions.configuration.discoveryNudges": "Discovery Nudges",
+  "sophisticateditemactions.configuration.enabled": "Enabled",
+  "sophisticateditemactions.configuration.globalCooldownTicks": "Global Cooldown",
+  "sophisticateditemactions.configuration.maxNudgesPerSession": "Max Nudges Per Session",
+  "sophisticateditemactions.configuration.highlightActionThreshold": "Opens Before Highlight Tip",
+  "sophisticateditemactions.configuration.restockActionThreshold": "Restocks Before Tip",
+  "sophisticateditemactions.configuration.depositActionThreshold": "Deposits Before Tip",
+  "sophisticateditemactions.configuration.highlightEnabled": "Enable Highlight Nudge",
+  "sophisticateditemactions.configuration.restockEnabled": "Enable Restock Nudge",
+  "sophisticateditemactions.configuration.depositEnabled": "Enable Deposit Nudge",
+  "sophisticateditemactions.configuration.checkIntervalTicks": "Check Interval",
+  "sophisticateditemactions.configuration.debugLogging": "Debug Logging"
 }

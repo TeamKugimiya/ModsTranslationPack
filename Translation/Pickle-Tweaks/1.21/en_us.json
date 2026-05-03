@@ -83,7 +83,6 @@
   "item.pickletweaks.netherite_scythe": "Netherite Scythe",
 
   "tooltip.pickletweaks.gives_buffs": "Gives Buffs",
-  "tooltip.pickletweaks.buff_list_item": " - %s%s %s",
   "tooltip.pickletweaks.disabled": "Disabled",
   "tooltip.pickletweaks.enabled": "Enabled",
   "tooltip.pickletweaks.mining_level": "Mining Level: %s",

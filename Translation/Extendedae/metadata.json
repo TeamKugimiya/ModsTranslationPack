@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 99.16,
-      "overall": 99.16
+      "1.21": 93.28,
+      "overall": 93.28
+    },
+    "mod_versions": {
+      "1.21": "ExtendedAE-1.21-2.2.32-neoforge.jar"
     }
   }
 }

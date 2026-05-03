@@ -1,5 +1,5 @@
 {
-	"entity.gateways.gateway" : "永恆傳送門",
+	"entity.gateways.gateway": "永恆傳送門",
 	"item.gateways.gate_pearl": "傳送門珍珠",
 	"gateways.gate_pearl": "%s珍珠",
 	"itemGroup.gateways": "永恆傳送門",
@@ -40,7 +40,7 @@
 
 	"info.gateways.gate_pearl": "對著方塊使用傳送門珍珠，能讓你召喚出一道傳送門。\n\n周圍需要有足夠空曠的空間，且附近不能有另一道已經開啟的傳送門。\n",
 	"info.gateways.gate_pearl.2": "若傳送門無法正常生成生物，生物移動到超出傳送門的範圍，或是該波數的戰鬥時間已超時，傳送門將在一道閃電劈下後自我毀滅。\n\n獎勵將於獲得時，在傳送門處產生。",
-	
+
 	"tooltip.gateways.scroll": " [滾動滾輪以變更] ",
 	"tooltip.gateways.wave": "波數 %s/%s%s",
 	"tooltip.gateways.entities": "實體：",

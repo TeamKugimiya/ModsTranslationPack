@@ -1,4 +1,5 @@
 {
+  "item.netherskeletons.skelly_piglin_head": "Skeletal Piglin Head",
   "itemGroup.tab_nether_skeletons": "Nether Skeletons",
   "entity.netherskeletons.skelly_ghast": "Skelleghast",
   "item.netherskeletons.crimson_skeleton_spawn_egg": "Crimson Skeleton Spawn Egg",
@@ -22,5 +23,7 @@
   "item.netherskeletons.netherborn_skeleton_spawn_egg": "Netherborn Skeleton Spawn Egg",
   "entity.netherskeletons.soul_skeleton": "Soul Skeleton",
   "entity.netherskeletons.skelly_piglin": "Skeletal Piglin",
-  "entity.netherskeletons.charred_skeleton": "Charred Skeleton"
+  "entity.netherskeletons.charred_skeleton": "Charred Skeleton",
+  "advancements.nether_graveyard.title": "Nether Graveyard",
+  "advancements.nether_graveyard.descr": "Kill one of every Nether Skeleton"
 }

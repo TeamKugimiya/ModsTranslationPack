@@ -32,15 +32,15 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-30T14:15:27Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
       "1.20": 97.85,
-      "1.21": 99.49,
-      "overall": 98.67
+      "1.21": 98.16,
+      "overall": 98.01
     },
     "mod_versions": {
       "1.20": "Ender IO - 6.2.18-beta",
-      "1.21": "Ender IO - v8.2.4-beta"
+      "1.21": "Ender IO - v8.2.7-beta"
     }
   }
 }

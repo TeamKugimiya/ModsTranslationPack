@@ -23,13 +23,13 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T15:02:51Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 93.75,
-      "overall": 93.75
+      "1.21": 75,
+      "overall": 75
     },
     "mod_versions": {
-      "1.21": "cable_facades-1.21.1-NeoForge-1.6.5.jar"
+      "1.21": "cable_facades-1.21.1-NeoForge-2.0.2.jar"
     }
   }
 }

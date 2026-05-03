@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 100,
-      "overall": 100
+      "1.21": 40,
+      "overall": 40
+    },
+    "mod_versions": {
+      "1.21": "ftb-dripper-1902.1.0-build.1.jar"
     }
   }
 }

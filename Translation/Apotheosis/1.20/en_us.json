@@ -3,6 +3,7 @@
 
     "key.categories.apotheosis": "Apotheosis",
     "key.apotheosis.toggle_radial_mining": "Change Radial Mining Mode",
+    "key.apotheosis.world_tiers_arent_real": "World Tier Error Notification",
 
     "info.apotheosis.affix_item": "Apothic Affix Item",
     
@@ -19,6 +20,8 @@
     "misc.apotheosis.radial_state.require_sneaking": "Enabled While Sneaking",
     "misc.apotheosis.radial_state.enabled": "Enabled",
     "misc.apotheosis.radial_state.disabled": "Disabled",
+
+    "message.apotheosis.world_tiers_arent_real": "World Tiers are only available in Minecraft 1.21.1+. This version of Apotheosis uses a dimension-based progression system instead.",
 
     "affix.apotheosis:armor/attribute/blessed": "Blessed",
     "affix.apotheosis:armor/attribute/blessed.suffix": "of Health",
@@ -307,9 +310,9 @@
     "affix.apotheosis:socket.desc": "Socketed (%s)",
 
     "socket.apotheosis.empty": "Empty Socket",
-    "item.modifiers.socket": "When Socketed:",
-    "item.modifiers.socket_in": "When Socketed in:",
-    "item.modifiers.socket_typed": "When Socketed in %s:",
+    "text.apotheosis.when_socketed": "When Socketed:",
+    "text.apotheosis.when_socketed_in": "When Socketed in:",
+    "text.apotheosis.when_socketed_typed": "When Socketed in %s:",
     "info.apotheosis.socketing": "Gems can be socketed with a Smithing Table. Item on the left, gem on the right.\n\nChoose wisely, as removing a socketed gem is costly.",
 
     "gem_class.melee_weapon": "Melee Weapons",
@@ -330,6 +333,7 @@
     "gem_class.boots": "Boots",
     "gem_class.shield": "Shields",
     "gem_class.heavy_weapon": "Heavy Weapons",
+    "gem_class.anything": "Anything",
 
     "bonus.apotheosis:durability.desc": "Ignores %s%% of durability damage",
     "bonus.apotheosis:enchantment.desc": "+%s %s to %s",
@@ -445,6 +449,7 @@
     "text.apotheosis.socketable_into": "Fits In:",
     "text.apotheosis.dot_prefix": "• %s",
     "text.apotheosis.socket_limit": "Max Sockets Applied: %s",
+    "text.apotheosis.gems_returned": "Gems are returned on craft",
     "text.apotheosis.no_upgrade": "Max Upgrade Reached",
     "text.apotheosis.cut_cost": "Gem Cutting Cost",
     "text.apotheosis.one_rarity_mat": "Rarity Materials (1)",
@@ -1181,6 +1186,7 @@
     "item.apotheosis.potion_charm.enabled": "Enabled",
     "item.apotheosis.potion_charm.disabled": "Disabled",
     "item.apotheosis.potion_charm.curios_only": "Only works in a Curios slot",
+    "misc.apotheosis.blacklisted_potion": "Cannot be converted into a Potion Charm.",
     
     "comment_id": "/Anvil Module",
     "info.apotheosis.anvil": "Can be enchanted.",
@@ -1229,8 +1235,5 @@
     "comment_id": "Guidebook",
     "book.apotheosis.name": "Chronicle of Shadows",
     "book.apotheosis.subtitle": "Guide to Apotheosis",
-    "book.apotheosis.landing": "Welcome to the world of Apotheosis.$(br2)Apotheosis is organized into $(#8080FF)Modules$(), and so is the content of this book.$(br2)Disabled modules are hidden.",
-
-    "item.apotheosis.superior_sigil_of_socketing": "Superior Sigil of Socketing",
-	"item.apotheosis.superior_sigil_of_enhancement": "[NYI] Superior Sigil of Enhancement"
+    "book.apotheosis.landing": "Welcome to the world of Apotheosis.$(br2)Apotheosis is organized into $(#8080FF)Modules$(), and so is the content of this book.$(br2)Disabled modules are hidden."
 }

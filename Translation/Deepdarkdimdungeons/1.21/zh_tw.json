@@ -2,7 +2,7 @@
     "itemGroup.deepdarkdimdungeons": "維度地牢：深暗之域",
     "block.deepdarkdimdungeons.deep_dark_portal": "深暗之域傳送門",
     "item.deepdarkdimdungeons.deep_dark_catalyst": "深暗之域催化劑",
-    
+
     "deepdarkdimdungeons.portal.starting_generation": "正在開始生成地牢...",
     "deepdarkdimdungeons.portal.generation_failed": "地牢生成失敗。",
     "deepdarkdimdungeons.portal.invalid_frame": "未檢測到有效的傳送門框架。",

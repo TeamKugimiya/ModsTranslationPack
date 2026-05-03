@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.20": 98.84,
-      "overall": 98.84
+      "1.20": 83.5,
+      "overall": 83.5
+    },
+    "mod_versions": {
+      "1.20": "ExtendedAE-1.20-1.4.15-forge.jar"
     }
   }
 }

@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 96.01,
-      "overall": 96.01
+      "1.21": 93.93,
+      "overall": 93.93
+    },
+    "mod_versions": {
+      "1.21": "Super Factory Manager (SFM)-MC1.21.1-4.32.0.jar"
     }
   }
 }

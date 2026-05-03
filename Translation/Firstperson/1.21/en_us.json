@@ -1,8 +1,15 @@
 {
     "text.firstperson.title": "FirstPerson Settings",
+    "key.category.firstperson.keybind": "FirstPerson Mod",
+    "firstperson.keybind": "Firstperson",
     "key.firstperson.toggle": "Toggle Firstperson",
-
     "category.firstperson.firstperson": "FirstPerson",
+    "text.firstperson.tab.settings": "Settings",
+    "text.firstperson.tab.autovanillahands": "Auto Vanilla Hands",
+    "text.firstperson.tab.autovanillahands.tooltip": "Automatically switches to vanilla hands when holding items",
+    "text.firstperson.tab.disableitems": "Disable Items",
+    "text.firstperson.tab.disableitems.tooltip": "Disables FirstPerson mod while holding the specified items",
+    "text.firstperson.tab.layers": "Show Layers",
     "text.firstperson.option.firstperson.xOffset": "Standing x Offset",
     "text.firstperson.option.firstperson.xOffset.tooltip": "Moves the body relative to the camera back and forth",
     "text.firstperson.option.firstperson.sneakXOffset": "Sneaking x Offset",
@@ -13,10 +20,16 @@
     "text.firstperson.option.firstperson.sitXOffset.tooltip": "Moves the body relative to the camera back and forth while sitting",
     "text.firstperson.option.firstperson.renderStuckFeatures": "Render Arrows & Stings",
     "text.firstperson.option.firstperson.renderStuckFeatures.tooltip": "Shows arrows, bee stings or other modded features in first person",
-    "text.firstperson.option.firstperson.vanillaHands": "Vanilla Hands",
-    "text.firstperson.option.firstperson.vanillaHands.tooltip": "Shows the vanilla first person hands, but also the player model(but without arms)",
-    "text.firstperson.option.firstperson.doubleHands": "Double Hands",
-    "text.firstperson.option.firstperson.doubleHands.tooltip": "When using Vanilla hands it will always show both hands",
-    "text.firstperson.option.firstperson.forceActive": "Force Active",
-    "text.firstperson.option.firstperson.forceActive.tooltip": "Forces the FirstPerson Mod when other mods modify the rendering, but will cause visual issues(for example the players head is missing)"
-  }
+    "text.firstperson.option.firstperson.vanillaHandMode": "Vanilla Hands Mode",
+    "text.firstperson.option.firstperson.vanillaHandMode.OFF": "Off",
+    "text.firstperson.option.firstperson.vanillaHandMode.ALL": "Always",
+    "text.firstperson.option.firstperson.vanillaHandMode.ALL_DOUBLE": "Always Both Hands",
+    "text.firstperson.option.firstperson.vanillaHandMode.ITEMS": "Item In Hand",
+    "text.firstperson.option.firstperson.vanillaHandMode.tooltip": "Shows the vanilla first person hands",
+    "text.firstperson.option.firstperson.dynamicMode": "Dynamic Mode",
+    "text.firstperson.option.firstperson.dynamicMode.tooltip": "Changes the Vanilla Hands view based on the current view",
+    "modmenu.summaryTranslation.firstperson": "Enables the third-person Model in first-person",
+    "modmenu.descriptionTranslation.firstperson": "Enables the third-person Model in first-person",
+    "text.firstperson.option.firstperson.vanillaHandsSkipSwimming": "Disable Vanilla Hands while Swimming",
+    "text.firstperson.option.firstperson.vanillaHandsSkipSwimming.tooltip": "Disables the Vanilla Hands while swimming(also ignoring the dynamic mode)"
+}

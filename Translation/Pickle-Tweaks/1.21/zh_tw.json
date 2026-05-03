@@ -83,7 +83,6 @@
   "item.pickletweaks.netherite_scythe": "獄髓大鐮刀",
 
   "tooltip.pickletweaks.gives_buffs": "給予效果",
-  "tooltip.pickletweaks.buff_list_item": " - %s%s %s",
   "tooltip.pickletweaks.disabled": "關",
   "tooltip.pickletweaks.enabled": "開",
   "tooltip.pickletweaks.mining_level": "挖掘等級：%s",

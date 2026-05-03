@@ -11,6 +11,12 @@
   "sdrp.compact_world": "Compact World",
   "sdrp.dungeon.in": "In Dungeon World",
   "sdrp.dungeon": "Dungeon World",
-  "sdrp.spatial_storage.in": "In Dungeon World",
-  "sdrp.spatial_storage": "Dungeon World"
+  "sdrp.spatial_storage.in": "In Spatial Storage",
+  "sdrp.spatial_storage": "Spatial Storage",
+  "sdrp.otherside.in": "In Otherside",
+  "sdrp.otherside": "Otherside",
+  "sdrp.paradise_lost.in": "In Paradise Lost",
+  "sdrp.paradise_lost": "Paradise Lost",
+  "sdrp.mining": "Mining Dimension",
+  "sdrp.mining.in": "In Mining dimension"
 }

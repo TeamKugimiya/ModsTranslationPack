@@ -1,12 +1,19 @@
 {
+  "text.autoconfig.PaginatedAdvancements.title": "Paginated Advancements Config",
   "text.autoconfig.PaginatedAdvancements.option.FadeOutBackgroundOnAdvancementHover": "Fade the background slightly gray when hovering over an advancement",
   "text.autoconfig.PaginatedAdvancements.option.PinnedTabs": "List of pinned Tabs (root advancement identifier)",
   "text.autoconfig.PaginatedAdvancements.option.SaveLastSelectedTab": "Save and restore the last selected tab",
-  "text.autoconfig.PaginatedAdvancements.option.LastSelectedTab": "The identifier of the last opened tab",
+  "text.autoconfig.PaginatedAdvancements.option.LastSelectedTab": "The identifier of the last selected tab",
   "text.autoconfig.PaginatedAdvancements.option.SpacingBetweenHorizontalTabs": "Spacing between horizontal tabs",
   "text.autoconfig.PaginatedAdvancements.option.SpacingBetweenPinnedTabs": "Spacing between pinned tabs",
+  "text.autoconfig.PaginatedAdvancements.option.ShowDebugInfo": "Show debug info on advancement hover",
+  "text.autoconfig.PaginatedAdvancements.option.MaxCriterionEntries": "Max displayed advancement criterion entries",
+  "text.autoconfig.PaginatedAdvancements.option.PinningEnabled": "Enable pinning of advancement tabs",
+  "text.autoconfig.PaginatedAdvancements.option.ShowAdvancementIDInDebugTooltip": "Show advancement ID in debug tooltip",
 
   "text.paginated_advancements.copied_to_clipboard": "Copied Advancement ID to clipboard",
   "text.paginated_advancements.group": "Group: ",
-  "text.paginated_advancements.copy_to_clipboard": "(Ctrl+C to copy)"
+  "text.paginated_advancements.copy_to_clipboard": "(Ctrl+C to copy)",
+  "text.paginated_advancements.expand_debug": "[Shift] more...",
+  "text.paginated_advancements.scroll_debug": "[Scroll] more..."
 }

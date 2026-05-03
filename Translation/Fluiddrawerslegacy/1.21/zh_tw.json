@@ -1,10 +1,27 @@
 {
-    "itemGroup.fluiddrawers": "流體抽屜",
-    "block.fluiddrawerslegacy.fluiddrawer": "流體抽屜",
-    "statement.fluiddrawerslegacy.fluiddrawer1": "裝有",
-    "statement.fluiddrawerslegacy.fluiddrawer2": " mb 的",
-    "gui.fluiddrawerslegacy.tittle": "流體抽屜",
-    "waila.fluiddrawerslegacy.conceal": "§o<..按住 Shift 查看更多..>"
-  }
-  
-  
+  "block.fluiddrawerslegacy.fluiddrawer": "流體抽屜",
+  "block.fluiddrawerslegacy.fluiddrawer_2": "Fluid Drawer 1x2",
+  "block.fluiddrawerslegacy.fluiddrawer_2_half": "Fluid Half Drawer 1x2",
+  "block.fluiddrawerslegacy.fluiddrawer_4": "Fluid Drawer 2x2",
+  "block.fluiddrawerslegacy.fluiddrawer_4_half": "Fluid Half Drawer 2x2",
+  "block.fluiddrawerslegacy.fluiddrawer_half": "Fluid Half Drawer",
+  "config.jade.plugin_fluiddrawerslegacy.controller": "Controller Fix",
+  "config.jade.plugin_fluiddrawerslegacy.controller_slave": "Controller Slave Fix",
+  "config.jade.plugin_fluiddrawerslegacy.fluiddrawer": "Fluid Drawer",
+  "config.jade.plugin_fluiddrawerslegacy.trim": "Trim Fix",
+  "fluiddrawerslegacy": "Fluid Drawers Legacy",
+  "fluiddrawerslegacy.configuration.Display": "Display",
+  "fluiddrawerslegacy.configuration.Renderer": "Renderer",
+  "fluiddrawerslegacy.configuration.cauponaSoupBowlInteraction": "Caupona SoupBowl Interaction",
+  "fluiddrawerslegacy.configuration.compat": "Compat",
+  "fluiddrawerslegacy.configuration.createPotionInteraction": "Create Potion Interaction",
+  "fluiddrawerslegacy.configuration.debugMode": "Debug Mode",
+  "fluiddrawerslegacy.configuration.distance": "Distance",
+  "fluiddrawerslegacy.configuration.general": "General",
+  "fluiddrawerslegacy.configuration.retainFluid": "Retain Fluid",
+  "fluiddrawerslegacy.configuration.showlimit": "Show Limit",
+  "fluiddrawerslegacy.configuration.volume": "Volume",
+  "itemGroup.fluiddrawers": "Fluid Drawers Legacy",
+  "statement.fluiddrawerslegacy.fluiddrawer.slot": "§7Slot %s: Contains %s of %s",
+  "waila.fluiddrawerslegacy.conceal": "§o<..按住 Shift 查看更多..>"
+}

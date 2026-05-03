@@ -49,12 +49,19 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.18": 97.25,
-      "1.19": 97.25,
+      "1.18": 89.23,
+      "1.19": 89.39,
       "1.20": 97.98,
-      "1.21": 97.3,
-      "overall": 97.45
+      "1.21": 96.43,
+      "overall": 93.26
+    },
+    "mod_versions": {
+      "1.18": "ftb-library-forge-1802.3.11-build.177.jar",
+      "1.19": "ftb-library-forge-1902.4.1-build.236.jar",
+      "1.20": "ftb-library-forge-2001.2.12.jar",
+      "1.21": "[NEOFORGE][1.21.1] FTB Library 2101.1.31"
     }
   }
 }

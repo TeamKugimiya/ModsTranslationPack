@@ -50,6 +50,8 @@
 	"ftbultimine.client_settings.overlay.overlay_inset_x.tooltip": "內嵌的意思是向畫面中心移動。\n若 X 軸位置在畫面中心，則忽略此選項。",
 	"ftbultimine.client_settings.overlay.overlay_inset_y": "選單面板 Y 軸內嵌",
 	"ftbultimine.client_settings.overlay.overlay_inset_y.tooltip": "內嵌的意思是向畫面中心移動。\n若 Y 軸位置在畫面中心，則忽略此選項。",
+	"ftbultimine.client_settings.overlay.overlay_scale": "Overlay Scaling",
+	"ftbultimine.client_settings.overlay.overlay_scale.tooltip": "Multiples of 0.25 are recommended for best font appearance",
 	"ftbultimine.server_settings": "伺服器設定",
 	"ftbultimine.server_settings.features": "功能",
 	"ftbultimine.server_settings.features.right_click_axe": "斧：右鍵點擊複數個方塊",
@@ -81,5 +83,9 @@
 	"ftbultimine.server_settings.misc.prevent_tool_break": "工具損壞保護",
 	"ftbultimine.server_settings.misc.prevent_tool_break.tooltip": "當配備的工具耐久度等於或小於這個值時，會停用連鎖挖礦。\n將此值設為「0」來允許工具損壞。",
 	"ftbultimine.server_settings.misc.cancel_on_block_break_fail": "破壞方塊失敗時取消挖掘",
-	"ftbultimine.server_settings.misc.cancel_on_block_break_fail.tooltip": "進階設定：遇到無法破壞的方塊時停止挖掘，而非跳過不破壞這些方塊"
+	"ftbultimine.server_settings.misc.cancel_on_block_break_fail.tooltip": "進階設定：遇到無法破壞的方塊時停止挖掘，而非跳過不破壞這些方塊",
+	"ftbultimine.modifier.max_blocks": "FTB Ultimine Max Blocks",
+	"ftbultimine.modifier.cooldown": "FTB Ultimine Cooldown Ticks",
+	"ftbultimine.modifier.exhaustion": "FTB Ultimine Food Consumption",
+	"ftbultimine.modifier.experience": "FTB Ultimine Experience Cost"
 }

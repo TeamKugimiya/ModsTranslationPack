@@ -24,6 +24,7 @@
 
   "block.mekanism_lasers.ore_generator": "礦物製造機",
   "block.mekanism_lasers.interface_block": "介面方塊",
+  "block.mekanism_lasers.odecm": "ODECM core",
 
   "item.mekanism_lasers.remote_control": "遙控器",
 
@@ -37,6 +38,7 @@
   "description.mekanism.ore_generator": "利用光將能量轉換為礦物",
   "description.mekanism.interface_block": "放入遙控器後，就能以紅石脈衝訊號，遠端控制可開關雷射",
   "description.mekanism.energy_transformer": "將雷射轉換成能量",
+  "description.mekanism.odecm": "ODECM - Ore Duplicator Energy Condenser Matrix",
 
   "es.port.mode": "",
 

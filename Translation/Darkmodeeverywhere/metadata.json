@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 100,
-      "overall": 100
+      "1.21": 29.17,
+      "overall": 29.17
+    },
+    "mod_versions": {
+      "1.21": "darkmodeeverywhere-1.21-1.3.5.jar"
     }
   }
 }

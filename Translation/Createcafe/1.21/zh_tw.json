@@ -11,9 +11,11 @@
   "tooltip.createcafe.caffeinated.one": "咖啡因 II（0：10）",
   "tooltip.createcafe.caffeinated": "咖啡因 IV（0：10）",
 
-  "itemGroup.createCafeTab": "動力機械：咖啡館",
-  "itemGroup.createCafeFluidTab": "動力機械：咖啡館流體",
+  "effect.createcafe.caffeinated": "Caffeinated",
+  "effect.createcafe.caffeine_crash": "Caffeine Crash",
 
+  "itemGroup.create_cafe_items": "Create Cafe",
+  "itemGroup.create_cafe_fluids": "Create Cafe Fluids",
 
   "item.createcafe.mana_berries": "魔力莓",
   "item.createcafe.oreo": "Oreo",

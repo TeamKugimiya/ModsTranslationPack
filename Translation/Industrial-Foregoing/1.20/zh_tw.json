@@ -332,6 +332,7 @@
   "block.industrialforegoing.pity_black_hole_tank": "中級黑洞儲罐",
   "block.industrialforegoing.common_black_hole_tank": "初級黑洞儲罐",
   "block.industrialforegoing.hydroponic_bed": "水耕床",
+  "block.industrialforegoing.simulated_hydroponic_bed": "Simulated Hydroponic Bed",
   "block.essence": "精華液",
   "block.meat": "肉湯",
   "block.sewage": "汙水",
@@ -353,6 +354,7 @@
   "fluid_type.industrialforegoing.raw_ore_meat": "Raw Ore Meat",
   "fluid_type.industrialforegoing.fermented_ore_meat": "Fermented Ore Meat",
   "item.industrialforegoing.essence_bucket": "精華液桶",
+  "item.industrialforegoing.hydroponic_simulation_processor": "Hydroponic Simulation Processor",
   "item.industrialforegoing.meat_bucket": "肉湯桶",
   "item.industrialforegoing.sewage_bucket": "汙水桶",
   "item.industrialforegoing.sludge_bucket": "汙泥桶",
@@ -586,5 +588,16 @@
   "text.industrialforegoing.machine_settings_copier.settings_stored": "已儲存設定",
   "text.industrialforegoing.machine_settings_copier.settings_copied": "已複製設定",
   "text.industrialforegoing.machine_settings_copier.settings_clear": "* 對著空氣潛行 + 點擊右鍵，將目前的設定清除",
-  "text.industrialforegoing.machine_settings_copier.settings_can_copy": "* 對著機器潛行 + 點擊右鍵，複製機器的設定"
+  "text.industrialforegoing.machine_settings_copier.settings_can_copy": "* 對著機器潛行 + 點擊右鍵，複製機器的設定",
+  "tooltip.industrialforegoing.hydroponic.simulating": "Simulating: ",
+  "tooltip.industrialforegoing.hydroponic.nothing": "Nothing",
+  "tooltip.industrialforegoing.hydroponic.executions": "Executions: ",
+  "tooltip.industrialforegoing.hydroponic.efficiency": "Efficiency: ",
+  "tooltip.industrialforegoing.hydroponic.next_efficiency": "Next Efficiency Bonus: ",
+  "tooltip.industrialforegoing.hydroponic.potential_drops": "Potential Drops: ",
+  "tooltip.industrialforegoing.hydroponic.drop_format": " - %s%s x %s",
+  "tooltip.titanium.facing_handler.simulation": "Hydroponic Simulation Processor",
+  "tooltip.titanium.facing_handler.seed": "Simulated Seed",
+  "tooltip.industrialforegoing.hydroponic.function_1": "* Use in the Hydroponic Bed to gather Crop Data",
+  "tooltip.industrialforegoing.hydroponic.function_2": "* Use in the Simulated Hydroponic Bed to get drops"
 }

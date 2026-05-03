@@ -23,13 +23,13 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-31T14:43:42Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
       "1.21": 10.14,
       "overall": 10.14
     },
     "mod_versions": {
-      "1.21": "lootr-neoforge-1.21.1-1.11.37.118"
+      "1.21": "lootr-neoforge-1.21.1-1.11.37.119"
     }
   }
 }

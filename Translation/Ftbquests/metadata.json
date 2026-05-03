@@ -49,12 +49,19 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.18": 96.07,
-      "1.19": 96.83,
-      "1.20": 96.83,
-      "1.21": 97,
-      "overall": 96.68
+      "1.18": 95.86,
+      "1.19": 88.96,
+      "1.20": 88.68,
+      "1.21": 80.95,
+      "overall": 88.61
+    },
+    "mod_versions": {
+      "1.18": "ftb-quests-forge-1802.3.16-build.479.jar",
+      "1.19": "ftb-quests-forge-1902.5.10-build.497.jar",
+      "1.20": "ftb-quests-forge-2001.4.21.jar",
+      "1.21": "[NEOFORGE][1.21.1] FTB Quests 2101.1.24"
     }
   }
 }

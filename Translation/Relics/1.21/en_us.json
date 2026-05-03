@@ -48,6 +48,10 @@
   "relics.description.researching.tab.experience": "Experience Sources",
 
   "relics.description.researching.general.extra_info": "Hold [Shift] for detailed information",
+  "relics.description.researching.general.discord.title": "Official Discord",
+  "relics.description.researching.general.discord.description": "Click to join the Relics Discord server.",
+  "relics.description.researching.general.documentation.title": "Documentation",
+  "relics.description.researching.general.documentation.description": "Click to open documentation for this relic.",
 
   "relics.description.researching.relic.info.level": "Relic Level:",
   "relics.description.researching.relic.info.quality": "Relic Quality:",
@@ -144,7 +148,7 @@
   "item.relics.kinetic_belt": "Kinetic Belt",
   "relics.description.kinetic_belt.description": "Once belonging to a master of aerial arts and a student of the ancient school of aeroforms, this belt is made from materials that defy the usual laws of physics. Thin plates sewn into the fabric respond not to body weight, but to movement — as if the very air obeys the wearer. Those who have mastered the art of handling this relic speak of a feeling of almost complete union with the air: every step becomes a leap, every leap — a flight, and every fall — just a push for the next takeoff.",
   "relics.description.kinetic_belt.ability.slots": "Arsenal Expansion",
-  "relics.description.kinetic_belt.ability.slots.description": "Increases the maximum number of equipped amulets by %1$s.",
+  "relics.description.kinetic_belt.ability.slots.description": "Increases the maximum number of equipped charms by %1$s.",
   "relics.description.kinetic_belt.ability.gliding": "Gliding",
   "relics.description.kinetic_belt.ability.gliding.mode.enabled": "Enabled",
   "relics.description.kinetic_belt.ability.gliding.mode.disabled": "Disabled",
@@ -230,8 +234,8 @@
   "relics.description.midnight_mantle.ability.phase.full_moon.description": "Increases damage dealt by the relic wearer by %1$s%% and their attack speed by %2$s%%. The effectiveness of the bonuses depends on how close the current Moon phase is to the full moon.",
   "relics.description.midnight_mantle.ability.phase.new_moon.description": "Increases the relic wearer's maximum health by %3$s%% and their regeneration by %4$s%%. The effectiveness of the bonuses depends on how close the current Moon phase is to the new moon.",
   "relics.description.midnight_mantle.ability.phase.rank_modifier.switch": "Switching the ability's mode for %5$s seconds increases its effectiveness by %6$s%%.",
-  "relics.description.midnight_mantle.ability.phase.experience_source.health_regeneration": "+1 experience point for each additional unit of damage dealt in Full Moon mode.",
-  "relics.description.midnight_mantle.ability.phase.experience_source.damage_dealing": "+1 experience point for each additional unit of health restored in New Moon mode.",
+  "relics.description.midnight_mantle.ability.phase.experience_source.damage_dealing": "+a random amount of experience within the range of bonus damage dealt in Full Moon mode.",
+  "relics.description.midnight_mantle.ability.phase.experience_source.health_regeneration": "+1 experience point for each additional unit of health restored in New Moon mode.",
   "relics.description.midnight_mantle.ability.phase.statistic.duration_new_moon": "Time Spent in Mode",
   "relics.description.midnight_mantle.ability.phase.statistic.duration_full_moon": "Time Spent in Mode",
   "relics.description.midnight_mantle.ability.phase.statistic.additional_damage": "Additional Damage Dealt",
@@ -240,7 +244,7 @@
   "relics.description.midnight_mantle.ability.invisibility.description": "When light level is below %1$s%%, cloaks the relic wearer in shadow, granting them invisibility. Upon leaving the shadows, the ability cannot trigger again for %2$s seconds, and also not until all targets within 16 blocks lose sight of the relic wearer.",
   "relics.description.midnight_mantle.ability.invisibility.rank_modifier.strike": "An attack from the shadows deals %3$s%% increased damage.",
   "relics.description.midnight_mantle.ability.invisibility.experience_source.being_invisible": "+1 experience point for each second spent invisible.",
-  "relics.description.midnight_mantle.ability.invisibility.experience_source.damage_dealing": "+1 experience point for each additional unit of damage dealt from invisibility.",
+  "relics.description.midnight_mantle.ability.invisibility.experience_source.damage_dealing": "+1 experience point for each attack made from invisibility.",
   "relics.description.midnight_mantle.ability.invisibility.statistic.duration": "Time Spent Invisible",
   "relics.description.midnight_mantle.ability.invisibility.statistic.additional_damage": "Additional Damage Dealt from Invisibility",
   "relics.description.midnight_mantle.ability.constellation": "Constellation",
@@ -371,6 +375,8 @@
 
   "item.relics.hunting_belt": "Hunting Belt",
   "relics.description.hunting_belt.description": "This belt was worn by hunters who learned to rely not only on their own hand, but also on the fangs of their companions. Worn leather and bone charms preserve the memory of dozens of shared battles. The belt strengthens the bond between its owner and their pets, turning them into a single deadly pack.",
+  "relics.description.hunting_belt.ability.slots": "Arsenal Expansion",
+  "relics.description.hunting_belt.ability.slots.description": "Increases the maximum number of equipped charms by %1$s.",
   "relics.description.hunting_belt.ability.pack": "Pack",
   "relics.description.hunting_belt.ability.pack.description": "Increases the damage dealt by the relic bearer’s pets by %1$s%%.",
   "relics.description.hunting_belt.ability.pack.rank_modifier.leader": "Pets within a radius of %2$s blocks reduce the damage taken by the relic bearer by %3$s%% for each pet, up to a maximum of 5 pets.",
@@ -406,7 +412,7 @@
   "item.relics.clot_of_time": "Clot of Time",
   "relics.description.clot_of_time.description": "This clot resembles a frozen drop of cosmos, within whose depths fragments of past moments slowly rotate. It is said to appear in places where time once cracked. In the hands of the relic's bearer, the clot allows them to briefly turn time back, as if erasing their own mistakes along traces that have not yet had time to fade.",
   "relics.description.clot_of_time.ability.rewind": "Transgression",
-  "relics.description.clot_of_time.ability.rewind.description": "While holding RMB, smoothly returns the relic's bearer along the recently traveled path in time up to %1$s seconds назад. After the rewind ends, the ability goes on cooldown for the same amount of time the relic was used continuously without interruption.",
+  "relics.description.clot_of_time.ability.rewind.description": "While holding RMB, smoothly returns the relic's bearer along the recently traveled path in time up to %1$s seconds. After the rewind ends, the ability goes on cooldown for the same amount of time the relic was used continuously without interruption.",
   "relics.description.clot_of_time.ability.rewind.rank_modifier.invulnerability": "During the rewind, the relic's bearer does not take damage.",
   "relics.description.clot_of_time.ability.rewind.rank_modifier.health_rewind": "During the rewind, restores health to the value it had at the corresponding point along the path, but never reduces the current health.",
   "relics.description.clot_of_time.ability.rewind.rank_modifier.oblivion": "While the ability is active, all nearby entities lose sight of the relic's bearer.",
@@ -432,6 +438,19 @@
   "relics.description.chef_hat.ability.satiety.statistic.raw_meatballs_eaten": "Raw meatballs consumed",
   "relics.description.chef_hat.ability.satiety.statistic.cooked_meatballs_eaten": "Cooked meatballs consumed",
   "relics.description.chef_hat.ability.satiety.statistic.health_restored": "Health restored by meatballs",
+
+  "item.relics.experience_disperser": "Experience Disperser",
+  "relics.description.experience_disperser.description": "A small device within which crystalline fragments slowly rotate, capturing and refracting the very essence of accumulated experience. Their facets shimmer with a dim light, as if splitting the gained power into fine streams. Instead of allowing energy to concentrate in one place, the disperser evenly spreads it, linking all of the bearer’s relics together. With it, not a single fragment of power is wasted — it is merely shared, becoming collective.",
+  "relics.description.experience_disperser.ability.dispersion": "Experience Dispersion",
+  "relics.description.experience_disperser.ability.dispersion.description": "When any of the bearer’s relics gains experience, all equipped relics additionally receive %1$s%% of that amount.",
+  "relics.description.experience_disperser.ability.dispersion.rank_modifier.same_item": "Relics of the same type gain %2$s%% more experience from the dispersion effect.",
+  "relics.description.experience_disperser.ability.dispersion.rank_modifier.player_xp": "%3$s%% of experience gained by the player from experience orbs is distributed among all equipped relics.",
+  "relics.description.experience_disperser.ability.dispersion.rank_modifier.max_level": "The dispersion effect triggers even if the relic that gained experience has already reached its maximum level.",
+  "relics.description.experience_disperser.ability.dispersion.experience_source.trigger": "+1 experience point for each point of experience distributed by dispersion.",
+  "relics.description.experience_disperser.ability.dispersion.statistic.distributions": "Dispersion Triggers",
+  "relics.description.experience_disperser.ability.dispersion.statistic.distributed_experience": "Experience Distributed",
+  "relics.description.experience_disperser.ability.dispersion.statistic.player_xp_conversions": "Experience Orb Conversion Triggers",
+  "relics.description.experience_disperser.ability.dispersion.statistic.converted_player_experience": "Experience Orb Experience Converted",
 
   "item.relics.relic_experience_bottle": "Relic Experience Bottle",
   "item.relics.golden_tooth": "Golden Tooth",
@@ -468,6 +487,5 @@
 
   "info.relics.researching.wrong_container": "Working with a relic in this inventory is not possible. Move the item to the player's main inventory and try again.",
 
-  "key.relics.active_abilities_list": "Open Active Abilities Interface",
   "key.relics.research_relic": "Research Relic Under Cursor"
 }

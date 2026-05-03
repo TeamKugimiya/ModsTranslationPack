@@ -31,10 +31,15 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.20": 100,
+      "1.20": 60,
       "1.21": 100,
-      "overall": 100
+      "overall": 80
+    },
+    "mod_versions": {
+      "1.20": "SimpleDiscordRichPresence Forge 4.0.3+mc1.20.1",
+      "1.21": "[NEOFORGE][1.21.1] SimpleDiscordRichPresence 88.0.1"
     }
   }
 }

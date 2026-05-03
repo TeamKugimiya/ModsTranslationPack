@@ -1,5 +1,11 @@
 {
-  "container.enchant.reroll": "隨機刷新附魔",
+  "container.enchant.experience.many": "%s 點經驗值",
   "container.enchant.experience.one": "1 點經驗值",
-  "container.enchant.experience.many": "%s 點經驗值"
+  "container.enchant.reroll": "隨機刷新附魔",
+  "container.enchant.reroll.many": "%s Amethyst Shards",
+  "container.enchant.reroll.one": "1 Amethyst Shard",
+  "container.invalidBlock": "Unable to open. Break and replace to use.",
+  "tag.block.easymagic.unaltered_enchanting_tables": "Unaltered Enchanting Tables",
+  "tag.item.easymagic.enchanting_catalysts": "Enchanting Catalysts",
+  "tag.item.easymagic.reroll_catalysts": "Reroll Catalysts"
 }

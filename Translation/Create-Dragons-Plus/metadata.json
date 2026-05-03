@@ -23,13 +23,13 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T15:02:51Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 98.51,
-      "overall": 98.51
+      "1.21": 92.96,
+      "overall": 92.96
     },
     "mod_versions": {
-      "1.21": "Create: Dragons Plus 1.8.7 for Create 1.21.1-6.0.9"
+      "1.21": "Create: Dragons Plus 1.10.0b for Create 1.21.1-6.0.10"
     }
   }
 }

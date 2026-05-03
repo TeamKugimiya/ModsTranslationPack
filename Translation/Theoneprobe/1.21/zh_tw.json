@@ -1,4 +1,5 @@
 {
+    "theoneprobe.networking.failed": "The One Probe: Networking failed! Check log for details",
     "key.toggleLiquids": "開關流體顯示",
     "key.toggleVisible": "開關提示框",
     "key.categories.theoneprobe": "探測器（TOP）",
@@ -8,7 +9,5 @@
     "item.theoneprobe.gold_helmet_probe": "裝上探測器的黃金頭盔",
     "item.theoneprobe.iron_helmet_probe": "裝上探測器的鐵製頭盔",
     "item.theoneprobe.creativeprobe": "創造模式探測器",
-    "item.theoneprobe.probenote": "《探測器》讀我檔案",
-
-    "itemGroup.Probe": "探測器"
+    "item.theoneprobe.probenote": "《探測器》讀我檔案"
 }

@@ -15,11 +15,13 @@
   "servercountryflags.config.header": "Server Country Flags Config",
 
   "servercountryflags.config.field.flagPosition.name": "Flag Position",
-  "servercountryflags.config.field.flagPosition.description": "Changes the flags' positions. Available options: default, left, right, behindName",
+  "servercountryflags.config.field.flagPosition.description": "Changes the flags' positions. Available options: left, right, behindName, bottomRight, tooltipServerName, tooltipPing",
   "servercountryflags.config.field.flagPosition.value.behindName": "Behind Name",
   "servercountryflags.config.field.flagPosition.value.left": "Left",
   "servercountryflags.config.field.flagPosition.value.right": "Right",
-  "servercountryflags.config.field.flagPosition.value.default": "Default",
+  "servercountryflags.config.field.flagPosition.value.bottomRight": "Bottom Right",
+  "servercountryflags.config.field.flagPosition.value.tooltipServerName": "Tooltip (Server Name)",
+  "servercountryflags.config.field.flagPosition.value.tooltipPing": "Tooltip (Ping)",
 
   "servercountryflags.config.field.flagBorder.name": "Flag Border",
   "servercountryflags.config.field.flagBorder.description": "Displays a border around flags",

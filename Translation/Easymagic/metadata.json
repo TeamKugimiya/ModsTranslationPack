@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 100,
-      "overall": 100
+      "1.21": 33.33,
+      "overall": 33.33
+    },
+    "mod_versions": {
+      "1.21": "[NEOFORGE] [1.21.1] EasyMagic-v21.1.4"
     }
   }
 }

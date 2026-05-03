@@ -15,11 +15,13 @@
   "servercountryflags.config.header": "伺服器國家旗幟設定",
 
   "servercountryflags.config.field.flagPosition.name": "旗幟位置",
-  "servercountryflags.config.field.flagPosition.description": "更改旗幟顯示的位置。可用選項：預設、左、右、伺服器名稱前方",
+  "servercountryflags.config.field.flagPosition.description": "Changes the flags' positions. Available options: left, right, behindName, bottomRight, tooltipServerName, tooltipPing",
   "servercountryflags.config.field.flagPosition.value.behindName": "伺服器名稱前方",
   "servercountryflags.config.field.flagPosition.value.left": "左",
   "servercountryflags.config.field.flagPosition.value.right": "右",
-  "servercountryflags.config.field.flagPosition.value.default": "預設",
+  "servercountryflags.config.field.flagPosition.value.bottomRight": "Bottom Right",
+  "servercountryflags.config.field.flagPosition.value.tooltipServerName": "Tooltip (Server Name)",
+  "servercountryflags.config.field.flagPosition.value.tooltipPing": "Tooltip (Ping)",
 
   "servercountryflags.config.field.flagBorder.name": "旗幟邊框",
   "servercountryflags.config.field.flagBorder.description": "在旗幟周圍顯示邊框",

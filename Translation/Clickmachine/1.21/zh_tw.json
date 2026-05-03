@@ -1,10 +1,11 @@
 {
     "gui.clickmachine.autoclick": "自動點擊器",
-    "block.clickmachine.auto_clicker": "自動點擊器",
+    "block.clickmachine.click_machine": "Click Machine",
     "gui.clickmachine.speed": "%s 次點擊/秒",
+    "gui.clickmachine.speed_slow": "1 click/%ss",
     "gui.clickmachine.sneaking": "潛行",
     "gui.clickmachine.right_click": "右鍵點擊",
     "gui.clickmachine.power": "FE：%s/%s",
-	"gui.clickmachine.power.usage": "使用 %s FE/t",
-	"gui.clickmachine.rainbow_magic": "由彩虹魔法供應能量！"
+    "gui.clickmachine.power.usage": "使用 %s FE/t",
+    "gui.clickmachine.rainbow_magic": "由彩虹魔法供應能量！"
 }

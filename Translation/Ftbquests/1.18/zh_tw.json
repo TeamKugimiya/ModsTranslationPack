@@ -201,8 +201,8 @@
 	"ftbquests.gui.add_reward_all": "全部給予獎勵...",
 	"ftbquests.gui.clear_reward_all": "清空全部獎勵",
 	"ftbquests.gui.select_quest_object": "選取任務物件",
-	"ftbquests.gui.select_reward_table": "選擇獎勵表",
 	"ftbquests.gui.select_task_type": "選取任務類型",
+	"ftbquests.gui.select_reward_table": "選擇獎勵表",
 	"ftbquests.gui.select_reward_type": "選取獎勵類型",
 	"ftbquests.gui.reset_progress": "重設進度",
 	"ftbquests.gui.reset_progress_q": "確定重設你所在對伍的進度？",
@@ -381,6 +381,7 @@
 	"ftbquests.reward.ftbquests.xp_levels": "經驗等級",
 	"ftbquests.reward.ftbquests.command": "指令",
 	"ftbquests.reward.ftbquests.command.player": "以玩家身分執行",
+	"ftbquests.reward.ftbquests.command.silent": "Silent",
 	"ftbquests.reward.ftbquests.advancement": "進度",
 	"ftbquests.reward.ftbquests.advancement.criterion": "達成條件",
 	"ftbquests.reward.ftbquests.advancement.criterion.tooltip": "可選，若你只想設定一個達成條件時使用",
@@ -456,11 +457,5 @@
 	"commands.ftbquests.weigh_from_emc.invalid_id": "無效獎勵表 ID！",
 	"commands.ftbquests.weigh_from_emc.text": "根據 %s 的 EMC 值變更物品的獎勵權重",
 	"commands.ftbquests.export_rewards_to_chest.usage": "/ftbquests export_rewards_to_chest <獎勵表>",
-	"commands.ftbquests.export_rewards_to_chest.text": "已從「%3$s」匯出 %1$s／%2$s 個物品",
-
-	"ftbquests.image": "圖片",
-	"ftbquests.width": "寬度",
-	"ftbquests.height": "高度",
-	"ftbquests.align": "校準位置",
-	"ftbquests.fit": "貼合任務視窗"
+	"commands.ftbquests.export_rewards_to_chest.text": "已從「%3$s」匯出 %1$s／%2$s 個物品"
 }

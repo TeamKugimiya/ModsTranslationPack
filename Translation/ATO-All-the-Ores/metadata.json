@@ -32,7 +32,7 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T08:53:30Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
       "1.18": 84.38,
       "1.21": 47.29,
@@ -40,7 +40,7 @@
     },
     "mod_versions": {
       "1.18": "alltheores-1.9.9m-1.18.2-40.1.0.jar",
-      "1.21": "alltheores-3.1.8_neoforge_1.21.1.jar"
+      "1.21": "alltheores-3.2.0_neoforge_1.21.1.jar"
     }
   }
 }

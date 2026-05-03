@@ -32,7 +32,7 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-30T14:15:43Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
       "1.20": 89.13,
       "1.21": 100,
@@ -40,7 +40,7 @@
     },
     "mod_versions": {
       "1.20": "ExtraStorage-1.20.1-4.0.7",
-      "1.21": "ExtraStorage-1.21.1-5.0.8"
+      "1.21": "ExtraStorage-1.21.1-5.0.9"
     }
   }
 }

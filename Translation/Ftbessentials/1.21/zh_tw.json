@@ -6,7 +6,7 @@
   "ftbessentials.chat.status.stop_stream": "已結束直播！",
   "ftbessentials.messages.kick_self": "你將自己踢出了遊戲！",
   "ftbessentials.feedback.limit_radius": "已將半徑限制在 %s",
-  "ftbessentials.feedback.players_within": "距離 %2$sm 內有 %1$s 名玩家",
+  "ftbessentials.near.players_within": "%s player(s) within %sm",
   "ftbessentials.teleport_prevented": "傳送已被阻止！",
   "ftbessentials.tpa.expired": "TPA 傳送請求已過期！",
   "ftbessentials.muted": "你無法使用聊天功能，你已被管理員禁言！",

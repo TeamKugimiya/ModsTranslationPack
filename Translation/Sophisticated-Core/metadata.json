@@ -33,10 +33,15 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.18": 98.91,
-      "1.21": 99.31,
-      "overall": 99.11
+      "1.18": 85.45,
+      "1.21": 95.33,
+      "overall": 90.39
+    },
+    "mod_versions": {
+      "1.18": "sophisticatedcore-1.18.2-0.6.4.604.jar",
+      "1.21": "sophisticatedcore-1.21.1-1.4.34.1815.jar"
     }
   }
 }

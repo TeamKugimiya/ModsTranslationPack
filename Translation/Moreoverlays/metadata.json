@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:38:35Z",
     "translation_progress": {
-      "1.21": 100,
-      "overall": 100
+      "1.21": 27.5,
+      "overall": 27.5
+    },
+    "mod_versions": {
+      "1.21": "1.24.2-mc1.21.1-neoforge"
     }
   }
 }

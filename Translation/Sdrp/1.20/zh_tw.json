@@ -11,6 +11,12 @@
   "sdrp.compact_world": "壓縮空間",
   "sdrp.dungeon.in": "目前位於地牢世界",
   "sdrp.dungeon": "地牢世界",
-  "sdrp.spatial_storage.in": "目前位於空間儲存",
-  "sdrp.spatial_storage": "空間儲存"
+  "sdrp.spatial_storage.in": "In Spatial Storage",
+  "sdrp.spatial_storage": "Spatial Storage",
+  "sdrp.otherside.in": "In Otherside",
+  "sdrp.otherside": "Otherside",
+  "sdrp.paradise_lost.in": "In Paradise Lost",
+  "sdrp.paradise_lost": "Paradise Lost",
+  "sdrp.mining": "Mining Dimension",
+  "sdrp.mining.in": "In Mining dimension"
 }

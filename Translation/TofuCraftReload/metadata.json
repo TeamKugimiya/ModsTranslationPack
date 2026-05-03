@@ -23,13 +23,13 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T14:08:00Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 62.07,
-      "overall": 62.07
+      "1.21": 43.87,
+      "overall": 43.87
     },
     "mod_versions": {
-      "1.21": "tofucraft-1.21.1-12.20.0.0.jar"
+      "1.21": "tofucraft-1.21.1-12.20.3.0.jar"
     }
   }
 }

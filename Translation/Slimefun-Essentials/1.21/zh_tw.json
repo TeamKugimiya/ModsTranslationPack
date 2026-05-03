@@ -1,18 +1,52 @@
 {
-  "slimefun_essentials.open_config": "開啟設定",
-  "slimefun_essentials.title": "Slimefun Essentials",
-  "slimefun_essentials.category": "一般",
-  "slimefun_essentials.option.placed_block_features": "啟用放置方塊模型顯示功能",
-  "slimefun_essentials.option.placed_block_features.tooltip": "-> Slimefun Essentials 是否給予黏液科技方塊自訂紋理模型？（需要將 MoreBlockPredicates 安裝在用戶端，並將 SlimefunServerEssentials 安裝在伺服器上）\n-> Jade 整合需要",
-  "slimefun_essentials.option.auto_toggle_addons": "啟用自動附加支援",
-  "slimefun_essentials.option.auto_toggle_addons.tooltip": "Slimefun Essentials 是否自動啟用／停用附加支援？（需要 SlimefunServerEssentials 安裝在伺服器上）",
-  "slimefun_essentials.option.addons": "已啟用的黏液附加：",
-  "slimefun_essentials.option.addons.tooltip": "增加／移除所有啟用的黏液附加（查看模組描述附加支援）",
+  "slimefun_essentials.title": "Slimefun Essentials (SFE)",
 
-  "slimefun_essentials.recipe.category.slimefun" : "%s",
-  "slimefun_essentials.recipe.time": "%s 秒（%s Ticks）",
-  "slimefun_essentials.recipe.energy.use": "%sJ 能源消耗",
-  "slimefun_essentials.recipe.energy.generate": "%sJ 發電量",
-  "slimefun_essentials.recipe.label.day": "該方塊必須暴露在陽光底下來處理此配方！",
-  "slimefun_essentials.recipe.label.night": "該方塊必須暴露在月光底下來處理此配方！"
+  "slimefun_essentials.key_bind.open_config": "Open Config",
+
+  "slimefun_essentials.config.category.general": "General",
+  "slimefun_essentials.config.option.block_features": "Enable Block Features",
+  "slimefun_essentials.config.option.block_features.tooltip": "-> Enables custom block textures (MBP required)\n-> Enables Jade compatibility (Jade required)\n*Requires SlimefunServerEssentials to be installed on the server*",
+  "slimefun_essentials.config.option.custom_guide": "Enable Custom Guide",
+  "slimefun_essentials.config.option.custom_guide.tooltip": "-> Enables the custom guide (Patchouli required)",
+  "slimefun_essentials.config.option.recipe_features": "Enable Recipe Features",
+  "slimefun_essentials.config.option.recipe_features.tooltip": "-> Enables Jei, Rei, & Emi compatibility",
+  "slimefun_essentials.config.option.addons": "Enabled Slimefun Addons:",
+  "slimefun_essentials.config.option.addons.tooltip": "Add or remove Slimefun Addons you want support for!",
+
+  "slimefun_essentials.config.category.visual": "Visual",
+  "slimefun_essentials.config.option.replace_item_identifiers": "Replace Item Ids",
+  "slimefun_essentials.config.option.replace_item_identifiers.tooltip": "E.g. \"minecraft:gunpowder\" -> \"slimefun:pure_ore_cluster\"",
+  "slimefun_essentials.config.option.hide_background_tooltips": "Hide Background Tooltips",
+  "slimefun_essentials.config.option.hide_background_tooltips.tooltip": "Hides the tooltip of items meant just as background/filler\nE.g. the grey glass panes in the Slimefun guide.",
+
+  "slimefun_essentials.config.category.server": "Server",
+  "slimefun_essentials.config.option.require_server_connection": "Require Server Connection",
+  "slimefun_essentials.config.option.require_server_connection.tooltip": "If enabled SFE will only function on servers.\nMay require you to leave and rejoin the world/server to take effect.",
+  "slimefun_essentials.config.option.enable_server_whitelist": "Enable Server Whitelist",
+  "slimefun_essentials.config.option.enable_server_whitelist.tooltip": "Should Slimefun Essentials only function on whitelisted servers?",
+  "slimefun_essentials.config.option.server_whitelist": "Server Whitelist:",
+  "slimefun_essentials.config.option.server_whitelist.tooltip": "Add or remove server names you want whitelisted!\n(There is also a button in the edit server screen)",
+
+  "slimefun_essentials.config.option.auto_toggle_addons": "Enable Auto Addons",
+  "slimefun_essentials.config.option.auto_toggle_addons.tooltip": "Should SFE automatically enable or disable addon support based on installed addons on the server?\n*Requires SlimefunServerEssentials to be installed on the server*",
+  "slimefun_essentials.config.option.auto_manage_items": "Enable Auto Item Management",
+  "slimefun_essentials.config.option.auto_manage_items.tooltip": "Should SFE automatically disable items based on the config on the server?\n*Requires SlimefunServerEssentials to be installed on the server*",
+
+  "slimefun_essentials.server_menu.add_whitelist": "[SFE] Whitelist",
+  "slimefun_essentials.server_menu.add_whitelist.tooltip": "Adds the server to the whitelist",
+  "slimefun_essentials.server_menu.remove_whitelist": "[SFE] Un-Whitelist",
+  "slimefun_essentials.server_menu.remove_whitelist.tooltip": "Removes the server from the whitelist",
+
+  "slimefun_essentials.recipes.category.slimefun": "%s",
+  "slimefun_essentials.recipes.time": "%s Seconds (%s Ticks)",
+  "slimefun_essentials.recipes.energy.use": "%sJ Used",
+  "slimefun_essentials.recipes.energy.generate": "%sJ Generated",
+  "slimefun_essentials.recipes.label.day": "This block must be exposed to the Sun to process this Recipe!",
+  "slimefun_essentials.recipes.label.night": "This block must be exposed to the Moon to process this Recipe!",
+  "slimefun_essentials.recipes.detail.time": "  - Takes %s second(s)",
+  "slimefun_essentials.recipes.detail.energy.use": "  - Uses %s joule(s)",
+  "slimefun_essentials.recipes.detail.energy.generate": "  - Generates %s joule(s)",
+
+  "slimefun_essentials.guide.name": "Slimefun Guide",
+  "slimefun_essentials.guide.landing_text": "Welcome, to the world of Slimefun"
 }

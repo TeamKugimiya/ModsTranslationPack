@@ -1,5 +1,5 @@
 {
-    "entity.gateways.gateway" : "永恆傳送門",
+    "entity.gateways.gateway": "永恆傳送門",
     "item.gateways.gate_pearl": "傳送門珍珠",
     "gateways.gate_pearl": "傳送門珍珠 - %s",
     "itemGroup.gateways": "永恆傳送門",
@@ -36,18 +36,18 @@
     "tooltip.gateways.key_rewards": "戰勝獎勵",
 
     "tooltip.gateways.endless.base_wave": "基本波次",
-	"tooltip.gateways.endless.num_modif": "%s 種無盡強化",
-	"tooltip.gateways.endless.num_modifs": "%s 種無盡強化",
-	"tooltip.gateways.endless.modifier": "無盡強化 %s/%s",
-	"tooltip.gateways.endless.wave_time": "波次戰鬥時間：%s",
-	"tooltip.gateways.endless.setup_time": "備戰時間：%s",
+    "tooltip.gateways.endless.num_modif": "%s 種無盡強化",
+    "tooltip.gateways.endless.num_modifs": "%s 種無盡強化",
+    "tooltip.gateways.endless.modifier": "無盡強化 %s/%s",
+    "tooltip.gateways.endless.wave_time": "波次戰鬥時間：%s",
+    "tooltip.gateways.endless.setup_time": "備戰時間：%s",
 
     "boss.gateways.wave": "波次：%d/%d | 時間：%s | 敵人：%d",
-	"boss.gateways.done": "傳送門已完成！",
-	"boss.gateways.starting": "第 %d 波戰鬥將於 %s 秒後開始",
-	"boss.gateways.endless.top": "波次：%d/%d | 剩餘時間：%d",
-	"boss.gateways.endless.bot": "敵人：%d/%d | 強化層數：%d",
-	"boss.gateways.endless.incoming": "敵人即將來襲：%d",
+    "boss.gateways.done": "傳送門已完成！",
+    "boss.gateways.starting": "第 %d 波戰鬥將於 %s 秒後開始",
+    "boss.gateways.endless.top": "波次：%d/%d | 剩餘時間：%d",
+    "boss.gateways.endless.bot": "敵人：%d/%d | 強化層數：%d",
+    "boss.gateways.endless.incoming": "敵人即將來襲：%d",
 
     "reward.gateways.stack": "%s %s",
     "reward.gateways.entity": "%sx %s隨機戰利品",
@@ -93,7 +93,7 @@
     "gateways.basic/blaze": "烈焰使者傳送門",
     "gateways.basic/slime": "史萊姆傳送門",
     "gateways.basic/enderman": "終界使者傳送門",
-    
+
     "gateways.emerald_grove": "綠寶石樹林傳送門",
     "gateways.overworldian_nights": "主世界之夜傳送門",
     "gateways.hellish_fortress": "地獄要塞傳送門",

@@ -17,5 +17,7 @@
   "tooltip.moofluids.fluid_cow_jar.fluid": "Fluid: %s",
   "tooltip.moofluids.fluid_cow_jar.amount": "Amount: %s mB",
   "tooltip.moofluids.fluid_cow_jar.hint": "Drop an anvil on a fluid cow to capture it",
-  "tooltip.moofluids.fluid_cow_jar.release": "Shift-click with empty hands to release the cow"
+  "tooltip.moofluids.fluid_cow_jar.release": "Shift-click with empty hands to release the cow",
+  "tooltip.moofluids.fluid_cow_jar.blacklisted": "Cannot be released",
+  "message.moofluids.cow_blacklisted": "This cow cannot be released!"
 }

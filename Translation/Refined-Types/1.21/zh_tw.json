@@ -169,26 +169,5 @@
 
   "tag.item.refinedtypes.soul_storage_disks": "靈魂儲存磁碟",
   "advancements.refinedtypes.storing_souls": "儲存靈魂",
-  "advancements.refinedtypes.storing_souls.description": "合成一個靈魂儲存磁碟，並放入你的磁碟驅動器中",
-
-  "config.refinedtypes.option.soulStorageBlock": "靈魂儲存方塊",
-  "config.refinedtypes.option.soulStorageBlock.tooltip": "關於靈魂儲存方塊的設定。",
-  "config.refinedtypes.option.soulStorageBlock.1KEnergyUsage": "1K 能量消耗",
-  "config.refinedtypes.option.soulStorageBlock.1KEnergyUsage.tooltip": "1K 靈魂儲存方塊所消耗的能量。",
-  "config.refinedtypes.option.soulStorageBlock.8KEnergyUsage": "8K 能量消耗",
-  "config.refinedtypes.option.soulStorageBlock.8KEnergyUsage.tooltip": "8K 靈魂儲存方塊所消耗的能量。",
-  "config.refinedtypes.option.soulStorageBlock.64KEnergyUsage": "64K 能量消耗",
-  "config.refinedtypes.option.soulStorageBlock.64KEnergyUsage.tooltip": "64K 靈魂儲存方塊所消耗的能量。",
-  "config.refinedtypes.option.soulStorageBlock.512KEnergyUsage": "512K 能量消耗",
-  "config.refinedtypes.option.soulStorageBlock.512KEnergyUsage.tooltip": "512K 靈魂儲存方塊所消耗的能量。",
-  "config.refinedtypes.option.soulStorageBlock.4096KEnergyUsage": "4096K 能量消耗",
-  "config.refinedtypes.option.soulStorageBlock.4096KEnergyUsage.tooltip": "4096K 靈魂儲存方塊所消耗的能量。",
-  "config.refinedtypes.option.soulStorageBlock.32768KEnergyUsage": "32768K 能量消耗",
-  "config.refinedtypes.option.soulStorageBlock.32768KEnergyUsage.tooltip": "32768K 靈魂儲存方塊所消耗的能量。",
-  "config.refinedtypes.option.soulStorageBlock.262144KEnergyUsage": "262144K 能量消耗",
-  "config.refinedtypes.option.soulStorageBlock.262144KEnergyUsage.tooltip": "262144K 靈魂儲存方塊所消耗的能量。",
-  "config.refinedtypes.option.soulStorageBlock.2097152KEnergyUsage": "2097152K 能量消耗",
-  "config.refinedtypes.option.soulStorageBlock.2097152KEnergyUsage.tooltip": "2097152K 靈魂儲存方塊所消耗的能量。",
-  "config.refinedtypes.option.soulStorageBlock.infiniteEnergyUsage": "無限能量消耗",
-  "config.refinedtypes.option.soulStorageBlock.infiniteEnergyUsage.tooltip": "無限靈魂儲存方塊所消耗的能量。"
+  "advancements.refinedtypes.storing_souls.description": "合成一個靈魂儲存磁碟，並放入你的磁碟驅動器中"
 }

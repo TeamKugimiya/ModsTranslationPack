@@ -42,8 +42,8 @@
   "item.crabbersdelight.shrimp_fried_rice": "Shrimp Fried Rice",
   "item.crabbersdelight.jar_of_pickles": "Jar of Pickles",
   "item.crabbersdelight.sea_pickle_juice": "Sea Pickle Juice",
-  "item.crabbersdelight.squid_kebab": "Squid Kebab",
-  "item.crabbersdelight.frog_leg_kebab": "Frog Leg Kebab",
+  "item.crabbersdelight.squid_kebob": "Squid Kebab",
+  "item.crabbersdelight.frog_leg_kebob": "Frog Leg Kebab",
   "item.crabbersdelight.coral_crunch": "Coral Crunch",
 
   "item.crabbersdelight.soggy_flesh": "Soggy Flesh",
@@ -97,7 +97,7 @@
   "death.attack.crabbersdelight.falling_coconut": "%s was crushed by a falling coconut",
   "item.crabbersdelight.coconut_halve": "Coconut Halve",
   "item.crabbersdelight.coconut_milk": "Coconut Milk",
-  "farmersdelight.tooltip.coconut_milk": "Clears 1 Effect",
+  "tooltip.farmersdelight.coconut_milk": "Clears 1 Effect",
   "item.crabbersdelight.coconut_pudding": "Coconut Pudding",
 
   "block.crabbersdelight.crab_trap": "Crab Trap",

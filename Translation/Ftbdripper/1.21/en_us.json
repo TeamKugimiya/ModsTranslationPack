@@ -1,4 +1,7 @@
 {
 	"item.ftbdripper.water_bowl": "Water Bowl",
-	"block.ftbdripper.dripper": "Dripper"
+	"block.ftbdripper.dripper": "Dripper",
+	"ftbdripper.messages.empty": "Empty",
+	"ftbdripper.messages.not_empty": "%d/%d of %s",
+	"ftbdripper.messages.chance": "Chance: %s%%"
 }

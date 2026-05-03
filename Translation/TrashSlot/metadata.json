@@ -50,19 +50,19 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T14:08:00Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
       "1.18": 100,
       "1.19": 100,
       "1.20": 100,
-      "1.21": 100,
-      "overall": 100
+      "1.21": 50,
+      "overall": 87.5
     },
     "mod_versions": {
       "1.18": "trashslot-forge-1.18.2-11.0.3.jar",
       "1.19": "trashslot-forge-1.19.2-12.1.0.jar",
-      "1.20": "trashslot-forge-1.20.1-15.1.4.jar",
-      "1.21": "trashslot-neoforge-1.21.1-21.1.6.jar"
+      "1.20": "trashslot-forge-1.20.1-15.1.5.jar",
+      "1.21": "trashslot-neoforge-1.21.1-21.1.10.jar"
     }
   }
 }

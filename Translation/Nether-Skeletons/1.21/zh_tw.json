@@ -1,4 +1,5 @@
 {
+  "item.netherskeletons.skelly_piglin_head": "Skeletal Piglin Head",
   "itemGroup.tab_nether_skeletons": "地獄骷髏",
   "entity.netherskeletons.skelly_ghast": "骷髏幽靈",
   "item.netherskeletons.crimson_skeleton_spawn_egg": "緋紅骷髏 生怪蛋",
@@ -22,5 +23,7 @@
   "item.netherskeletons.netherborn_skeleton_spawn_egg": "Netherborn Skeleton Spawn Egg",
   "entity.netherskeletons.soul_skeleton": "靈魂骷髏",
   "entity.netherskeletons.skelly_piglin": "骷髏化豬布林",
-  "entity.netherskeletons.charred_skeleton": "焦黑骷髏"
+  "entity.netherskeletons.charred_skeleton": "焦黑骷髏",
+  "advancements.nether_graveyard.title": "Nether Graveyard",
+  "advancements.nether_graveyard.descr": "Kill one of every Nether Skeleton"
 }

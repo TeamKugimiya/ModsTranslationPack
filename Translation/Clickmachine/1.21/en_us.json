@@ -1,7 +1,8 @@
 {
     "gui.clickmachine.autoclick": "Click Machine",
-    "block.clickmachine.auto_clicker": "Click Machine",
+    "block.clickmachine.click_machine": "Click Machine",
     "gui.clickmachine.speed": "%s clicks/s",
+    "gui.clickmachine.speed_slow": "1 click/%ss",
     "gui.clickmachine.sneaking": "Sneaking",
     "gui.clickmachine.right_click": "Right-Clicking",
     "gui.clickmachine.power": "FE: %s/%s",

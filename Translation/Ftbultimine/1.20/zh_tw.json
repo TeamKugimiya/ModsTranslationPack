@@ -41,8 +41,14 @@
 	"ftbultimine.server_settings.right_click_hoe": "鋤：右鍵點擊複數個方塊",
 	"ftbultimine.server_settings.right_click_shovel": "鏟：右鍵點擊複數個方塊",
 	"ftbultimine.server_settings.right_click_harvesting": "允許連鎖收穫作物",
+	"ftbultimine.server_settings.right_click_crystals": "Allow Ultimine harvesting of crystals",
+	"ftbultimine.server_settings.features.right_click_crystals.tooltip": "Requires the FTB Ez Crystals mod to be installed (Forge only)\nHarvest vanilla Amethyst and other modded crystals",
 	"ftbultimine.server_settings.experience_per_block": "經驗值消耗（每挖掘一個方塊）",
 	"ftbultimine.server_settings.experience_per_block.tooltip": "此值可以為小數。",
 	"ftbultimine.server_settings.ultimine_cooldown": "連鎖挖礦冷卻時間（刻）",
-	"ftbultimine.server_settings.ultimine_cooldown.tooltip": "連續使用連鎖挖礦功能之間，所需的時間間隔（以刻為單位）。"
+	"ftbultimine.server_settings.ultimine_cooldown.tooltip": "連續使用連鎖挖礦功能之間，所需的時間間隔（以刻為單位）。",
+	"ftbultimine.modifier.max_blocks": "FTB Ultimine Max Blocks",
+	"ftbultimine.modifier.cooldown": "FTB Ultimine Cooldown Ticks",
+	"ftbultimine.modifier.exhaustion": "FTB Ultimine Food Consumption",
+	"ftbultimine.modifier.experience": "FTB Ultimine Experience Cost"
 }

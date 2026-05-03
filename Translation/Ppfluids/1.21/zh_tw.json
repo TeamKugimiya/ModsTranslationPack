@@ -11,10 +11,16 @@
     "item.ppfluids.low_fluid_retrieval_module": "初級流體檢索模組",
     "item.ppfluids.medium_fluid_retrieval_module": "中級流體檢索模組",
     "item.ppfluids.high_fluid_retrieval_module": "高級流體檢索模組",
-    "info.prettypipes.fluid_extraction_module": "從相鄰的容器中抽取流體\n篩選欄位數和單次抽取量因等級而異\n升級至高級可以防止過量發送流體",
+    "item.ppfluids.fluid_limiter_module": "Fluid Limiter Module",
 
+    "info.prettypipes.fluid_extraction_module": "Pulls fluid from adjacent tanks\nFilters and pull rates vary by tier\nAll tiers prevent over-sending",
     "info.prettypipes.fluid_filter_module": "篩選管道輸入進相鄰容器中的流體\n篩選欄位數因等級而異",
-    "info.prettypipes.fluid_retrieval_module": "從管道網路的其他容器中抽取流體\n篩選欄位數和單次抽取量因等級而異\n升級至高級可以防止過量發送流體",
+    "info.prettypipes.fluid_retrieval_module": "Pulls fluid from other tanks in the network\nFilters and pull rates vary by tier\nAll tiers prevent over-sending",
+    "info.prettypipes.fluid_limiter_module": "Limits the amount of fluid that can enter adjacent tank\nAutomatically prevents over-sending",
 
-    "info.ppfluids.fluid_item.usage": "對流體儲罐使用，以將容器內流體倒入儲罐中。"
+    "info.ppfluids.fluid_item.usage": "對流體儲罐使用，以將容器內流體倒入儲罐中。",
+
+    "info.ppfluids.limit_buckets_on": "Bucket(s)",
+    "info.ppfluids.limit_buckets_off": "Millibucket(s)",
+    "info.ppfluids.limited_amount": "Limited to:"
 }

@@ -31,10 +31,15 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.18": 100,
-      "1.21": 100,
-      "overall": 100
+      "1.18": 99.62,
+      "1.21": 83.99,
+      "overall": 91.81
+    },
+    "mod_versions": {
+      "1.18": "allthemodium-1.9.6-1.18.2-40.1.51.jar",
+      "1.21": "allthemodium-3.0.1_mc_1.21.1.jar"
     }
   }
 }

@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 88.24,
-      "overall": 88.24
+      "1.21": 65,
+      "overall": 65
+    },
+    "mod_versions": {
+      "1.21": "Pretty Pipes: Fluids v3.2.1"
     }
   }
 }

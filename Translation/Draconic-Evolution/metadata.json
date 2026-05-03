@@ -33,14 +33,14 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T15:39:16Z",
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
       "1.18": 97.25,
       "1.21": 95.92,
       "overall": 96.59
     },
     "mod_versions": {
-      "1.18": "1.18.2 forge (local baseline)",
+      "1.18": "Draconic-Evolution-1.18.2-3.0.31.531-universal",
       "1.21": "Draconic Evolution 1.21.1-3.1.4.632"
     }
   }

@@ -31,6 +31,8 @@
   "text.autoconfig.vmtranslationupdate.option.misc.devMode": "Dev Mode",
   "text.autoconfig.vmtranslationupdate.option.misc.autoSwitchLanguage": "Auto switch language",
   "text.autoconfig.vmtranslationupdate.option.misc.checkModPackTranslationUpdate": "Auto-detect modpack translation version update",
+  "text.autoconfig.vmtranslationupdate.option.misc.generateExampleModpackInfo": "GenerateExampleModpackInfo",
+  "text.autoconfig.vmtranslationupdate.option.misc.generateExampleModpackInfo.@Tooltip": "Enabling this feature will automatically generate a example modpackinfo.json file.",
   "text.autoconfig.vmtranslationupdate.option.resourcePack": "ResourcePack",
   "text.autoconfig.vmtranslationupdate.option.resourcePack.autoDownloadVMTranslationPack": "Auto download translation pack",
   "text.autoconfig.vmtranslationupdate.option.resourcePack.autoLoadExtraTranslationPack": "Auto load extra translation pack",

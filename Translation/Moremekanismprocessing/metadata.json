@@ -22,9 +22,13 @@
     }
   },
   "status": {
+    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 78.33,
-      "overall": 78.33
+      "1.21": 72.31,
+      "overall": 72.31
+    },
+    "mod_versions": {
+      "1.21": "1.21.1-6.8"
     }
   }
 }

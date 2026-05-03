@@ -5,16 +5,18 @@
   "commands.sereneseasons.setseason.fail": "季節%s無效",
   "commands.sereneseasons.setseason.disabled": "已停用季節更迭！",
 
+  "gamerule.doSeasonCycle": "Advance seasonal cycle",
   "itemGroup.tabSereneSeasons": "靜謐四季",
 
   "block.sereneseasons.season_sensor": "季節感測器",
-  
+
   "item.sereneseasons.ss_icon": "靜謐四季圖示",
   "item.sereneseasons.calendar": "日曆",
 
   "desc.sereneseasons.fertile_seasons": "生長季",
   "desc.sereneseasons.year_round": "一年四季",
   "desc.sereneseasons.day_counter": "第 %s/%s 天",
+  "desc.sereneseasons.tropical_day_counter": " (%s/%s)",
   "desc.sereneseasons.spring": "春季",
   "desc.sereneseasons.early_spring": "初春",
   "desc.sereneseasons.mid_spring": "仲春",
@@ -30,5 +32,12 @@
   "desc.sereneseasons.winter": "冬季",
   "desc.sereneseasons.early_winter": "初冬",
   "desc.sereneseasons.mid_winter": "仲冬",
-  "desc.sereneseasons.late_winter": "晚冬"
+  "desc.sereneseasons.late_winter": "晚冬",
+
+  "desc.sereneseasons.early_wet": "Early Wet",
+  "desc.sereneseasons.mid_wet": "Mid Wet",
+  "desc.sereneseasons.late_wet": "Late Wet",
+  "desc.sereneseasons.early_dry": "Early Dry",
+  "desc.sereneseasons.mid_dry": "Mid Dry",
+  "desc.sereneseasons.late_dry": "Late Dry"
 }

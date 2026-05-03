@@ -1,4 +1,7 @@
 {
 	"item.ftbdripper.water_bowl": "舀滿水的碗",
-	"block.ftbdripper.dripper": "滴液架"
+	"block.ftbdripper.dripper": "滴液架",
+	"ftbdripper.messages.empty": "Empty",
+	"ftbdripper.messages.not_empty": "%d/%d of %s",
+	"ftbdripper.messages.chance": "Chance: %s%%"
 }

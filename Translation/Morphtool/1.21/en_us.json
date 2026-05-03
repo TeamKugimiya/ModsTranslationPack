@@ -1,4 +1,14 @@
 {
   "morphtool.sudo_name": "Morphing Tool (%s)",
-  "item.morphtool.tool": "Morphing Tool"
+  "item.morphtool.tool": "Morphing Tool",
+  "morphtool.misc.shift_for_info": "§7Hold §bSHIFT§7 for more info",
+  "morphtool.configuration.title": "Title",
+  "morphtool.configuration.offhand_morph.tooltip": "Morph in the offhand instead of mainhand",
+  "morphtool.configuration.section.morphtool.common.toml.title": "Morph-o-Tool Config",
+  "morphtool.configuration.blacklist_mods": "Blacklisted Mods",
+  "morphtool.configuration.offhand_morph": "Offhand Morph",
+  "morphtool.configuration.whitelist_items": "Whitelisted Items",
+  "morphtool.configuration.whitelist_names": "Whitelisted Names",
+  "morphtool.configuration.mod_aliasses": "Mod Aliases",
+  "morphtool.configuration.allow_all_items": "Allow all Items"
 }
