@@ -12,3 +12,4 @@ jobs:
     uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Build.yml@v1
     with:
       pack_name: ModsTranslationPack
+    secrets: inherit
