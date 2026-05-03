@@ -3,12 +3,16 @@ name: Build
 on:
   push:
     branches: [main]
+    paths:
+      - "Translation/**"
   pull_request:
     branches: [main]
+    paths:
+      - "Translation/**"
   workflow_dispatch:
 
 jobs:
-  call:
+  build:
     uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Build.yml@v1
     with:
       pack_name: ModsTranslationPack
