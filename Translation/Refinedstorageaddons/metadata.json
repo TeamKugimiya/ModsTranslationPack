@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Refined Storage Addons"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "Z4Z5ccuT"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "Z4Z5ccuT"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

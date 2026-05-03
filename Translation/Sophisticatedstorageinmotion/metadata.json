@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Sophisticated Storage in Motion"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "6vtFbyaJ"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "6vtFbyaJ"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

@@ -25,8 +25,8 @@
   "status": {
     "last_synced": "2026-03-28T14:08:00Z",
     "translation_progress": {
-      "1.21": 80.0,
-      "overall": 80.0
+      "1.21": 80,
+      "overall": 80
     },
     "mod_versions": {
       "1.21": "The Conjurer 1.21.4-v1.2.0"

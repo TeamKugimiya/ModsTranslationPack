@@ -23,6 +23,10 @@
     }
   },
   "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
     "mod_versions": {
       "1.21": "advancementframes-1.21-2.2.10-neoforge.jar"
     }

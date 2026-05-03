@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Sky GUIs"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "3Gdi7Qgq"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "3Gdi7Qgq"
+  "status": {
+    "translation_progress": {
+      "1.21": 98.59,
+      "overall": 98.59
+    }
   }
 }

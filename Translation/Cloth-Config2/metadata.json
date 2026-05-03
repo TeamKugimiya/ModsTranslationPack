@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Cloth Config API"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "9s6osm5g"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "9s6osm5g"
+  "status": {
+    "translation_progress": {
+      "1.21": 91.67,
+      "overall": 91.67
+    }
   }
 }

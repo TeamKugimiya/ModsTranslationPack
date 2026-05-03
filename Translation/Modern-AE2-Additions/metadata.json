@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "mae2",
   "display_name": {
@@ -19,6 +19,12 @@
           "loader": "forge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 95.24,
+      "overall": 95.24
     }
   }
 }

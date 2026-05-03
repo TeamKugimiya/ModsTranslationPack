@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Just Outdoor Stuffs"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "6hCfRrRD"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "6hCfRrRD"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

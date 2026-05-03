@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "mythicbotany_lexicon",
   "display_name": {
@@ -25,6 +25,14 @@
           "1.21"
         ]
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.18": 100,
+      "1.19": 85.26,
+      "1.21": 97.73,
+      "overall": 94.33
     }
   }
 }

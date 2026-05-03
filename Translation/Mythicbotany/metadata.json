@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "mythicbotany",
   "display_name": {
@@ -37,6 +37,14 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.18": 97.54,
+      "1.19": 97.54,
+      "1.21": 97.64,
+      "overall": 97.57
     }
   }
 }

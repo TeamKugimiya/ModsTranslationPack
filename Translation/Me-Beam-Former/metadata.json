@@ -4,6 +4,10 @@
   "display_name": {
     "en": "ME-Beam-Former"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "wug9w09r"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "wug9w09r"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

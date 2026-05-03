@@ -24,8 +24,8 @@
   "status": {
     "last_synced": "2026-03-28T08:24:56Z",
     "translation_progress": {
-      "1.19": 0,
-      "overall": 0
+      "1.19": 100,
+      "overall": 100
     },
     "mod_versions": {
       "1.19": "vanilla-hammers-3.5.0-1.19.2.jar"

@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Item Filters"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "1KLyhGRz"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "1KLyhGRz"
+  "status": {
+    "translation_progress": {
+      "1.21": 81.4,
+      "overall": 81.4
+    }
   }
 }

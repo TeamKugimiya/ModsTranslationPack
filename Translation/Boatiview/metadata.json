@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Boat Item View"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "BdKIyOLe"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "BdKIyOLe"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

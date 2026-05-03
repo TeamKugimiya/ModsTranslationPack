@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Quartz Elevator"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "O9C0qdu8"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "O9C0qdu8"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

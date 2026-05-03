@@ -11,6 +11,15 @@
   },
   "contents": {
     "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
       "1.21": {
         "versions": [
           "<=1.21",
@@ -20,16 +29,14 @@
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
-      },
-      "1.18": {
-        "versions": [
-          "1.18"
-        ],
-        "source": {
-          "game_version": "1.18.2",
-          "loader": "forge"
-        }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.18": 98.91,
+      "1.21": 99.31,
+      "overall": 99.11
     }
   }
 }

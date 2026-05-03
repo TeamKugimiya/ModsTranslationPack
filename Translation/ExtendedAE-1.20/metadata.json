@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "expatternprovider",
   "display_name": {
@@ -19,6 +19,12 @@
           "loader": "forge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 98.84,
+      "overall": 98.84
     }
   }
 }

@@ -4,11 +4,16 @@
   "display_name": {
     "en": "Alex's Caves"
   },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "924854",
+    "modrinth": "U6GY0xp0"
+  },
   "contents": {
     "tiers": {
       "1.21": {
         "versions": [
-        "<=1.21"
+          "<=1.21"
         ],
         "source": {
           "game_version": "1.21.1",
@@ -17,9 +22,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "curseforge",
-    "curseforge": "924854",
-    "modrinth": "U6GY0xp0"
+  "status": {
+    "translation_progress": {
+      "1.21": 99.88,
+      "overall": 99.88
+    }
   }
 }

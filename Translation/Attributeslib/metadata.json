@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "attributeslib",
   "display_name": {
@@ -15,6 +15,12 @@
           "1.20"
         ]
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 95.28,
+      "overall": 95.28
     }
   }
 }

@@ -25,8 +25,8 @@
   "status": {
     "last_synced": "2026-03-28T08:55:00Z",
     "translation_progress": {
-      "1.21": 100.0,
-      "overall": 100.0
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
       "1.21": "automodpack-mc1.21.1-neoforge-4.0.5.jar"

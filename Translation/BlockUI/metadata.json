@@ -24,8 +24,8 @@
   "status": {
     "last_synced": "2026-03-28T12:46:00Z",
     "translation_progress": {
-      "1.21": 25.0,
-      "overall": 25.0
+      "1.21": 25,
+      "overall": 25
     },
     "mod_versions": {
       "1.21": "blockui-1.0.211-1.21.1-snapshot.jar"

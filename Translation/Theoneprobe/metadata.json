@@ -4,6 +4,10 @@
   "display_name": {
     "en": "The One Probe"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "Eyw0UxEx"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "Eyw0UxEx"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

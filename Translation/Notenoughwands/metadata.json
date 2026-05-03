@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Not Enough Wands"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "ElVMD7Qz"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "ElVMD7Qz"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

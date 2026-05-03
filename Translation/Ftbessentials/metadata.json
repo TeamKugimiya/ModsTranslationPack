@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "ftbessentials",
   "display_name": {
@@ -19,6 +19,12 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 98.94,
+      "overall": 98.94
     }
   }
 }

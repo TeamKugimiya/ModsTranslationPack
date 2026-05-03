@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "omnitools",
   "display_name": {
@@ -19,6 +19,12 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 96.67,
+      "overall": 96.67
     }
   }
 }

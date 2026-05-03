@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Create: Hypertubes"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "ATDdrG1y"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "ATDdrG1y"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

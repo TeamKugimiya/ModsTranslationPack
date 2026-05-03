@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Simple teleporters"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "4qlhqxxZ"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "4qlhqxxZ"
+  "status": {
+    "translation_progress": {
+      "1.21": 90,
+      "overall": 90
+    }
   }
 }

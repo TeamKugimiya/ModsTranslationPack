@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Dark Utilities"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "CkqTAIaP"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "CkqTAIaP"
+  "status": {
+    "translation_progress": {
+      "1.21": 91.2,
+      "overall": 91.2
+    }
   }
 }

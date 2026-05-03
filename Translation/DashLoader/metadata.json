@@ -11,6 +11,15 @@
   },
   "contents": {
     "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "fabric"
+        }
+      },
       "1.21": {
         "versions": [
           "<=1.21",
@@ -20,24 +29,15 @@
           "game_version": "1.21.1",
           "loader": "fabric"
         }
-      },
-      "1.18": {
-        "versions": [
-          "1.18"
-        ],
-        "source": {
-          "game_version": "1.18.2",
-          "loader": "fabric"
-        }
       }
     }
   },
   "status": {
     "last_synced": "2026-03-28T15:39:16Z",
     "translation_progress": {
-      "1.18": 100.0,
-      "1.21": 100.0,
-      "overall": 100.0
+      "1.18": 100,
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
       "1.18": "1.18.2 fabric (local baseline)",

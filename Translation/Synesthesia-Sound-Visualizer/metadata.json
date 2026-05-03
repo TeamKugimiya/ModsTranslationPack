@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "synesthesia",
   "display_name": {
@@ -19,6 +19,12 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 87.5,
+      "overall": 87.5
     }
   }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "appbot",
   "display_name": {
@@ -7,7 +7,6 @@
   "remote": {
     "primary": "curseforge",
     "curseforge": "610632"
-
   },
   "contents": {
     "tiers": {
@@ -20,6 +19,12 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
     }
   }
 }

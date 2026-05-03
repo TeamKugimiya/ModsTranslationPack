@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "apotheosis",
   "display_name": {
@@ -46,6 +46,15 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.18": 84.55,
+      "1.19": 87.12,
+      "1.20": 87.14,
+      "1.21": 95.71,
+      "overall": 88.63
     }
   }
 }

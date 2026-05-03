@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "rarcompat",
   "display_name": {
@@ -15,6 +15,12 @@
           "1.21"
         ]
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
     }
   }
 }

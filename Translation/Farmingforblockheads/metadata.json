@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Farming for Blockheads"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "4WJZr8JU"
+  },
   "contents": {
     "tiers": {
       "1.20": {
@@ -26,8 +30,11 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "4WJZr8JU"
+  "status": {
+    "translation_progress": {
+      "1.20": 96.97,
+      "1.21": 88.24,
+      "overall": 92.6
+    }
   }
 }

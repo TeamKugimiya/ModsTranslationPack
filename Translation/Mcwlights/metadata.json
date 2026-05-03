@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Macaw's Lights and Lamps"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "w4an97C2"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "w4an97C2"
+  "status": {
+    "translation_progress": {
+      "1.21": 84.52,
+      "overall": 84.52
+    }
   }
 }

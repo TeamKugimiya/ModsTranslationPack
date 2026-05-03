@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "biomeswevegone",
   "display_name": {
@@ -19,6 +19,12 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 99.57,
+      "overall": 99.57
     }
   }
 }

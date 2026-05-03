@@ -4,6 +4,10 @@
   "display_name": {
     "en": "YUNG's Better Dungeons"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "o1C1Dkj5"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "o1C1Dkj5"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

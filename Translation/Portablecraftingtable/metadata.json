@@ -4,6 +4,10 @@
   "display_name": {
     "en": "Portable Crafting Table"
   },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "kaoDOR6G"
+  },
   "contents": {
     "tiers": {
       "1.21": {
@@ -17,8 +21,10 @@
       }
     }
   },
-  "remote": {
-    "primary": "modrinth",
-    "modrinth": "kaoDOR6G"
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    }
   }
 }

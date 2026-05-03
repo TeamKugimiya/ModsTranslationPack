@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "hostilenetworks",
   "display_name": {
@@ -37,6 +37,14 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.19": 92.38,
+      "1.20": 91.43,
+      "1.21": 93.79,
+      "overall": 92.53
     }
   }
 }

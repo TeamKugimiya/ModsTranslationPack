@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "squatgrow",
   "display_name": {
@@ -28,6 +28,13 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 100,
+      "1.21": 100,
+      "overall": 100
     }
   }
 }

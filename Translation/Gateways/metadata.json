@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "gateways",
   "display_name": {
@@ -37,6 +37,14 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.18": 94.37,
+      "1.19": 94.37,
+      "1.21": 96.88,
+      "overall": 95.21
     }
   }
 }

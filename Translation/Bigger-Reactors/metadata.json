@@ -42,10 +42,10 @@
   "status": {
     "last_synced": "2026-03-28T13:46:41Z",
     "translation_progress": {
-      "1.18": 99.52,
-      "1.19": 98.11,
-      "1.20": 98.11,
-      "overall": 98.58
+      "1.18": 100,
+      "1.19": 100,
+      "1.20": 100,
+      "overall": 100
     },
     "mod_versions": {
       "1.18": "biggerreactors-1.18.2-0.6.0-beta.1.4.jar",

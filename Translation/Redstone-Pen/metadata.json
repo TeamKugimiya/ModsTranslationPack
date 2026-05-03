@@ -21,5 +21,11 @@
         }
       }
     }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 92.31,
+      "overall": 92.31
+    }
   }
 }

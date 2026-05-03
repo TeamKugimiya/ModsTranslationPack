@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.2",
   "mod_id": "rep_ae2_bridge",
   "display_name": {
@@ -19,6 +19,12 @@
           "loader": "neoforge"
         }
       }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 83.33,
+      "overall": 83.33
     }
   }
 }
