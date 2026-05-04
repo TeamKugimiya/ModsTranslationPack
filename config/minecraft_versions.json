@@ -1,0 +1,38 @@
+{
+  "groups": {
+    "1.18": {
+      "pack_format": 8,
+      "publish": {
+        "game_versions": [
+          ">=1.18 <1.19"
+        ]
+      }
+    },
+    "1.19": {
+      "pack_format": 9,
+      "publish": {
+        "game_versions": [
+          ">=1.19 <1.20"
+        ]
+      }
+    },
+    "1.20": {
+      "pack_format": 15,
+      "publish": {
+        "game_versions": [
+          ">=1.20 <1.21"
+        ]
+      }
+    },
+    "1.21": {
+      "pack_format": 34,
+      "min_format": 34,
+      "max_format": 75,
+      "publish": {
+        "game_versions": [
+          ">=1.21 <1.22"
+        ]
+      }
+    }
+  }
+}
