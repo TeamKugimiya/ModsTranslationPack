@@ -50,6 +50,7 @@ jobs:
       release_name: 模組翻譯包 ${{ matrix.version }}｜CI ${{ github.run_number }}.${{ github.run_attempt }}
       release_version: ci-${{ github.run_number }}.${{ github.run_attempt }}
       game_versions: ${{ matrix.game_versions }}
+      update_ci_latest: ${{ matrix.update_ci_latest }}
       # modrinth_id: cF5VXmkW
       # curseforge_id: "1242047"
       project_id: modstranslationpack
