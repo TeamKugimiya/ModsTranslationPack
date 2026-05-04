@@ -5,11 +5,21 @@ on:
     branches: [main]
     paths:
       - "Translation/**"
+      - "config/minecraft_versions.json"
   pull_request:
     branches: [main]
     paths:
       - "Translation/**"
+      - "config/minecraft_versions.json"
   workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -17,3 +27,33 @@ jobs:
     with:
       pack_name: ModsTranslationPack
     secrets: inherit
+
+  release:
+    name: Release ${{ matrix.version }}
+    if: |
+      github.repository == 'TeamKugimiya/ModsTranslationPack' &&
+      github.ref == 'refs/heads/main' &&
+      github.event_name != 'pull_request'
+    needs: build
+    permissions:
+      actions: read
+      contents: write
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        include: ${{ fromJson(needs.build.outputs.release_targets) }}
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Release.yml@v1
+    with:
+      version: ${{ matrix.version }}
+      artifact_pattern: ${{ matrix.zip }}
+      release_name: 模組翻譯包 ${{ matrix.version }}｜CI ${{ github.run_number }}.${{ github.run_attempt }}
+      release_version: ci-${{ github.run_number }}.${{ github.run_attempt }}
+      game_versions: ${{ matrix.game_versions }}
+      # modrinth_id: cF5VXmkW
+      # curseforge_id: "1242047"
+      project_id: modstranslationpack
+    secrets:
+      anvil_api_token: ${{ secrets.ANVIL_API_TOKEN }}
+      # modrinth_token: ${{ secrets.MODRINTH_TOKEN }}
+      # curseforge_token: ${{ secrets.CURSEFORGE_TOKEN }}
