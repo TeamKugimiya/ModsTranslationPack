@@ -1,8 +1,9 @@
 {
-  "kleeslabs.configuration.mode": "Mode",
-  "kleeslabs.configuration.mode.tooltip": "Control whether KleeSlabs should trigger ALWAYS, ONLY_WHEN_SNEAKING or ONLY_WHEN_NOT_SNEAKING",
-  "kleeslabs.configuration.disabledCompat": "Disabled Compatibility",
-  "kleeslabs.configuration.disabledCompat.tooltip": "IDs of mods whose compatibility should be disabled.",
-  "kleeslabs.configuration.dumpSlabs": "Debug Dump Slabs",
-  "kleeslabs.configuration.dumpSlabs.tooltip": "For development purposes. Set to true to have KleeSlabs dump a list of items containing the word 'slab' in their name upon world load."
+  "kleeslabs.configuration.title": "KleeSlabs",
+  "kleeslabs.configuration.mode": "模式",
+  "kleeslabs.configuration.mode.tooltip": "控制《KleeSlab》的功能觸發條件。\nALWAYS：一律生效\nONLY_WHEN_SNEAKING：僅限潛行時\nONLY_WHEN_NOT_SNEAKING：僅限非潛行時",
+  "kleeslabs.configuration.disabledCompat": "停用模組相容性",
+  "kleeslabs.configuration.disabledCompat.tooltip": "選擇要停用相容性支援的模組 ID",
+  "kleeslabs.configuration.dumpSlabs": "除錯半磚名單輸出",
+  "kleeslabs.configuration.dumpSlabs.tooltip": "僅供開發環境下使用。\n若設定為「開啟」，《KleeSlab》將於世界載入時，輸出所有名稱中帶有「半磚」的物品的名單。"
 }
