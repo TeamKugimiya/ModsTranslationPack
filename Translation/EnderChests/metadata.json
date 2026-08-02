@@ -13,20 +13,23 @@
     "tiers": {
       "1.21": {
         "versions": [
-          "<=1.21"
+          "<=@latest"
         ],
         "source": {
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
       }
-    }
+    },
+    "ignored_keys": [
+      "_comment"
+    ]
   },
   "status": {
-    "last_synced": "2026-03-30T14:15:24Z",
+    "last_synced": "2026-08-02T18:48:50Z",
     "translation_progress": {
-      "1.21": 28.42,
-      "overall": 28.42
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
       "1.21": "enderchests-neoforge-1.21.1-1.0.jar"

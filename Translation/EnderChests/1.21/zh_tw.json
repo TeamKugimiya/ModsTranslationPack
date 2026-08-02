@@ -8,7 +8,7 @@
     "key.enderchests.open.bag": "開啟攜帶的終界提袋",
     "key.enderchests.open.pouch": "開啟攜帶的終界束袋",
 
-    "_comment": "----------------------------------------------- ERROR/INFO\nOTICE ------------------------------------------------!",
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
     "error.enderchests.bag.nolink1": "無法連結至提袋，你不是該儲物箱的擁有者",
     "error.enderchests.bag.nolink2": "無法連結至提袋，無法識別儲物箱擁有者",
     "error.enderchests.bag.nolink3": "無法連結至提袋，你不在相同隊伍裡",
