@@ -1,5 +1,4 @@
 {
-  "kleeslabs.configuration.title": "KleeSlabs",
   "kleeslabs.configuration.mode": "模式",
   "kleeslabs.configuration.mode.tooltip": "控制《KleeSlab》的功能觸發條件。\nALWAYS：一律生效\nONLY_WHEN_SNEAKING：僅限潛行時\nONLY_WHEN_NOT_SNEAKING：僅限非潛行時",
   "kleeslabs.configuration.disabledCompat": "停用模組相容性",
