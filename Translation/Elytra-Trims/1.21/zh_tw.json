@@ -39,7 +39,7 @@
   "elytratrims.config.mode.others": "僅限其他人",
   "elytratrims.config.mode.all": "所有人",
   "elytratrims.config.compat.smysKeepTrims": "《Show Me Your Skin》 - 保留紋樣",
- "elytratrims.config.compat.smysKeepTrims.tooltip": "使鞘翅紋樣的外觀顯示，\n不受《Show Me Your Skin》模組中的鞘翅透明度設定影響",
+  "elytratrims.config.compat.smysKeepTrims.tooltip": "使鞘翅紋樣的外觀顯示，\n不受《Show Me Your Skin》模組中的鞘翅透明度設定影響",
   "elytratrims.config.noyacl": "未安裝《Yet Another Config Lib》模組",
   "elytratrims.config.noyacl.message": "必須先安裝 YACL 模組，才能在遊戲中直接編輯設定，是否要安裝 YACL 模組？",
   "elytratrims.legacy_rp": "使用舊版鞘翅紋樣材質"
