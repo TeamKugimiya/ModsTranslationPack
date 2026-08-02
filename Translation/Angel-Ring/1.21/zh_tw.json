@@ -10,6 +10,6 @@
   "curios.identifier.angelring": "天使戒指",
   "itemGroup.angelring3": "天使戒指 3",
   "angelring.durability.low_durability": "你的天使戒指的耐久度即將耗盡！",
-  "angelring.durability.broken": "你的天使戒指破碎了……:(",
+  "angelring.durability.broken": "你的天使戒指破碎了.....:(",
   "angelring.durability.tooltip": "天使戒指在飛行期間會隨著時間逐漸消耗耐久度。"
 }
