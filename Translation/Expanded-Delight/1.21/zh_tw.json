@@ -5,7 +5,7 @@
   "item.expandeddelight.asparagus_soup_creamy": "奶油蘆筍湯",
   "item.expandeddelight.asparagus_and_bacon_cheesy": "起司培根蘆筍",
   "item.expandeddelight.asparagus_mushroom_pasta": "蘆筍蘑菇義麵",
-  "item.expandeddelight.asparagus_frittata": "Asparagus Frittata",
+  "item.expandeddelight.asparagus_frittata": "蘆筍義式烘蛋",
 
   "item.expandeddelight.sweet_potato": "地瓜",
   "item.expandeddelight.baked_sweet_potato": "烤地瓜",
@@ -15,7 +15,7 @@
   "item.expandeddelight.chili_pepper": "紅辣椒",
   "item.expandeddelight.chili_pepper_seeds": "紅辣椒種子",
   "item.expandeddelight.peperonata": "義式燉甜椒",
-  "item.expandeddelight.chili_pepper_salmon": "Chili Pepper Salmon",
+  "item.expandeddelight.chili_pepper_salmon": "紅辣椒鮭魚排",
 
   "item.expandeddelight.peanut": "花生",
   "item.expandeddelight.peanut_butter": "花生醬",
@@ -48,7 +48,7 @@
   "item.expandeddelight.grilled_cheese": "烤起司三明治",
   "item.expandeddelight.cranberry_goat_cheese_toast": "蔓越莓山羊起司吐司",
   "item.expandeddelight.honeyed_goat_cheese_tart_slice": "蜂蜜山羊起司塔切片",
-  "item.expandeddelight.goat_cheese_beetroot_salad": "Goat Cheese Beetroot Salad",
+  "item.expandeddelight.goat_cheese_beetroot_salad": "山羊起司拌甜菜沙拉",
 
   "item.expandeddelight.mac_and_cheese": "起司通心粉",
   "item.expandeddelight.sweet_roll": "香甜捲",
@@ -118,7 +118,7 @@
   "block.expandeddelight.honeyed_goat_cheese_tart": "蜂蜜山羊起司塔",
 
   "block.expandeddelight.juicer": "果汁機",
-  "block.expandeddelight.cask": "酒桶",
+  "block.expandeddelight.cask": "發酵桶",
   "block.expandeddelight.milk_cask": "鮮奶桶",
   "block.expandeddelight.goat_milk_cask": "山羊鮮奶桶",
   "block.expandeddelight.cheese_cask": "起司桶",
@@ -132,7 +132,7 @@
   "expandeddelight.jei.cheese_fermenting": "起司發酵",
   "expandeddelight.jei.cheese_fermenting.light": "位於黑暗環境下時加速發酵",
   "expandeddelight.jei.cheese_fermenting.fluid": "與水源相鄰時加速發酵",
-  "expandeddelight.jei.cheese_fermenting.accelerators": "與催化物相鄰時加速發酵（見以下資訊）",
+  "expandeddelight.jei.cheese_fermenting.accelerators": "與催化物相鄰放置時加速發酵（見以下資訊）",
 
   "itemGroup.expandeddelight": "擴展樂事",
 
