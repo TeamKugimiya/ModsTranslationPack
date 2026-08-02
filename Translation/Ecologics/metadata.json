@@ -19,17 +19,31 @@
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
+      },
+      "26.2": {
+        "versions": [
+          "26.2"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
       }
-    }
+    },
+    "ignored_keys": [
+      "item.ecologics.music_disc_coconut.desc"
+    ]
   },
   "status": {
-    "last_synced": "2026-05-03T13:49:32Z",
+    "last_synced": "2026-08-02T18:00:58Z",
     "translation_progress": {
-      "1.21": 95.53,
-      "overall": 95.53
+      "1.21": 100,
+      "26.2": 98.42,
+      "overall": 99.21
     },
     "mod_versions": {
-      "1.21": "Ecologics 2.3.4 (NeoForge 1.21.1)"
+      "1.21": "Ecologics 2.3.7 (NeoForge 1.21.1)",
+      "26.2": "Ecologics 2.6.0 (Neo/Fabric 26.2)"
     }
   }
 }
