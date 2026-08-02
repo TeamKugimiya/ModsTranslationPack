@@ -8,3 +8,6 @@ translation-tool*
 # Ignore env file
 .env
 config/settings.json
+
+# Ignore System data
+.DS_Store
