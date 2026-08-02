@@ -99,7 +99,7 @@
   "block.ecologics.potted_coconut_seedling": "椰木幼苗盆栽",
   "block.ecologics.potted_azalea_flower": "杜鵑花盆栽",
   "death.attack.coconut": "%1$s 被墜落的椰子砸死了",
-  "death.attack.coconut.player": "%1$s 在和 %2$s 戰鬥時被墜落的椰子砸死了",
+  "death.attack.coconut.player": "%1$s 在與 %2$s 戰鬥時，被墜落的椰子砸死了",
   "ecologics.subtitles.block.coconut.smash": "椰子砸碎",
   "ecologics.subtitles.block.thin_ice.crack": "薄冰破裂",
   "ecologics.subtitles.entity.coconut_crab.ambient": "椰子蟹嘶嘶聲",
