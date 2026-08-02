@@ -33,6 +33,26 @@
           ">=1.21 <1.22"
         ]
       }
+    },
+    "26.1": {
+      "pack_format": 84.0,
+      "min_format": 84.0,
+      "max_format": 84.0,
+      "publish": {
+        "game_versions": [
+          ">=26.1 <26.2"
+        ]
+      }
+    },
+    "26.2": {
+      "pack_format": 88.0,
+      "min_format": 88.0,
+      "max_format": 88.0,
+      "publish": {
+        "game_versions": [
+          ">=26.2"
+        ]
+      }
     }
   }
 }
