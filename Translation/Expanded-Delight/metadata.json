@@ -11,9 +11,19 @@
   },
   "contents": {
     "tiers": {
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "fabric"
+        }
+      },
       "1.21": {
         "versions": [
-          "<=1.21"
+          ">1.20",
+          "<=@latest"
         ],
         "source": {
           "game_version": "1.21.1",
@@ -23,12 +33,14 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-30T14:15:38Z",
+    "last_synced": "2026-08-02T19:35:46Z",
     "translation_progress": {
-      "1.21": 97.48,
-      "overall": 97.48
+      "1.20": 100,
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
+      "1.20": "expandeddelight-0.3.2.jar",
       "1.21": "expandeddelight-0.1.4.jar"
     }
   }
