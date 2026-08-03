@@ -13,20 +13,23 @@
     "tiers": {
       "1.21": {
         "versions": [
-          "<=1.21"
+          "<=@latest"
         ],
         "source": {
           "game_version": "1.21.1",
           "loader": "neoforge"
         }
       }
-    }
+    },
+    "ignored_keys": [
+      "item.nethers_exoticism.music_disc_forest.desc"
+    ]
   },
   "status": {
-    "last_synced": "2026-03-30T01:29:56Z",
+    "last_synced": "2026-08-02T19:20:20Z",
     "translation_progress": {
-      "1.21": 97.6,
-      "overall": 97.6
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
       "1.21": "nether-s-exoticism-1.21.1-1.2.9.jar"
