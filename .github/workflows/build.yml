@@ -15,15 +15,14 @@ on:
       - "Translation/**"
       - "config/minecraft_versions.json"
       - "config/settings.json"
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 permissions:
-  actions: read
   contents: read
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   validate:
@@ -34,9 +33,13 @@ jobs:
 
   build:
     needs: validate
+    permissions:
+      contents: read
+      pull-requests: write
     uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Build.yml@v1
     with:
       pack_name: ModsTranslationPack
+      post_preview_comment: true
     secrets: inherit
 
   release:
@@ -47,7 +50,6 @@ jobs:
       github.event_name != 'pull_request'
     needs: build
     permissions:
-      actions: read
       contents: write
     strategy:
       fail-fast: false
@@ -58,14 +60,14 @@ jobs:
     with:
       version: ${{ matrix.version }}
       artifact_pattern: ${{ matrix.zip }}
-      release_name: 模組翻譯包 ${{ matrix.version }}｜CI ${{ github.run_number }}.${{ github.run_attempt }}
-      release_version: ci-${{ github.run_number }}.${{ github.run_attempt }}
+      release_name: ${{ matrix.version }}｜git ${{ needs.build.outputs.short_sha }}
+      release_version: git-${{ needs.build.outputs.short_sha }}
       game_versions: ${{ matrix.game_versions }}
       update_ci_latest: ${{ matrix.update_ci_latest }}
-      # modrinth_id: cF5VXmkW
-      # curseforge_id: "1242047"
+      modrinth_id: "cF5VXmkW"
+      curseforge_id: "1242047"
       project_id: modstranslationpack
     secrets:
       anvil_api_token: ${{ secrets.ANVIL_API_TOKEN }}
-      # modrinth_token: ${{ secrets.MODRINTH_TOKEN }}
-      # curseforge_token: ${{ secrets.CURSEFORGE_TOKEN }}
+      modrinth_token: ${{ secrets.MODRINTH_TOKEN }}
+      curseforge_token: ${{ secrets.CURSEFORGE_TOKEN }}
