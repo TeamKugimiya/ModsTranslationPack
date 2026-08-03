@@ -27,7 +27,7 @@
   "blur.midnightconfig.enum.Easing.ELASTIC": "Elastic",
   "blur.midnightconfig.radius": "半徑",
   "blur.midnightconfig.radius.label.tooltip": "復刻自 Minecraft 協助工具設定中的「選單背景模糊程度」設定",
-  "blur.midnightconfig.rainbowMode": "彩虹模式 \uD83C\uDF08",
+  "blur.midnightconfig.rainbowMode": "彩虹模式 🌈",
   "blur.midnightconfig.useGradient": "將漸層效果應用至背景中",
   "blur.midnightconfig.gradientStart": "漸層起始顏色",
   "blur.midnightconfig.gradientEnd": "漸層終點顏色",
@@ -45,6 +45,6 @@
   "blur.midnightconfig._general": "⛏ 一般設定",
   "blur.midnightconfig._advanced": "⚒ 進階設定",
   "blur.midnightconfig._blur": "▒ 模糊",
-  "blur.midnightconfig._gradient": "\uD83D\uDFE2 漸層",
-  "blur.midnightconfig._animations": "\uD83D\uDCFD 動畫"
+  "blur.midnightconfig._gradient": "🟢 漸層",
+  "blur.midnightconfig._animations": "📽 動畫"
 }

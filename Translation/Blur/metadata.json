@@ -20,16 +20,19 @@
           "loader": "neoforge"
         }
       }
-    }
+    },
+    "ignored_keys": [
+      "blur.midnightconfig.enum.Easing.*"
+    ]
   },
   "status": {
-    "last_synced": "2026-03-28T12:46:00Z",
+    "last_synced": "2026-08-03T11:22:25Z",
     "translation_progress": {
-      "1.21": 21.74,
-      "overall": 21.74
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
-      "1.21": "6.2.0+1.21.1-neoforge"
+      "1.21": "6.3.1+1.21.1-neoforge"
     }
   }
 }
