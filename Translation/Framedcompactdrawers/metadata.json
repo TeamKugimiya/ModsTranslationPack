@@ -12,7 +12,7 @@
     "tiers": {
       "1.21": {
         "versions": [
-          "<=1.21"
+          "<=@latest"
         ],
         "source": {
           "game_version": "1.21.1",
