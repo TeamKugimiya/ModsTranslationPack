@@ -11,8 +11,18 @@
   },
   "contents": {
     "tiers": {
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
       "1.21": {
         "versions": [
+          ">1.20",
           "<=@latest"
         ],
         "source": {
@@ -20,16 +30,21 @@
           "loader": "neoforge"
         }
       }
-    }
+    },
+    "ignored_keys": [
+      "config.kleeslabs.title"
+    ]
   },
   "status": {
-    "last_synced": "2026-05-03T13:49:32Z",
+    "last_synced": "2026-08-02T19:30:41Z",
     "translation_progress": {
-      "1.21": 0,
-      "overall": 0
+      "1.20": 100,
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
-      "1.21": "kleeslabs-neoforge-1.21.1-21.1.10.jar"
+      "1.20": "kleeslabs-forge-1.20.1-15.0.12.jar",
+      "1.21": "kleeslabs-neoforge-1.21.1-21.1.11.jar"
     }
   }
 }

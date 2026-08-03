@@ -10,9 +10,19 @@
   },
   "contents": {
     "tiers": {
+      "26.2": {
+        "versions": [
+          ">1.21",
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      },
       "1.21": {
         "versions": [
-          "<=@latest"
+          "<=1.21"
         ],
         "source": {
           "game_version": "1.21.1",
@@ -22,13 +32,15 @@
     }
   },
   "status": {
-    "last_synced": "2026-05-03T13:38:35Z",
+    "last_synced": "2026-08-02T19:04:52Z",
     "translation_progress": {
-      "1.21": 48.63,
-      "overall": 48.63
+      "1.21": 100,
+      "26.2": 100,
+      "overall": 100
     },
     "mod_versions": {
-      "1.21": "1.1.5"
+      "1.21": "1.1.5",
+      "26.2": "1.1.5"
     }
   }
 }
