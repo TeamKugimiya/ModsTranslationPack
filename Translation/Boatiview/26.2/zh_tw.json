@@ -7,7 +7,7 @@
   "boatiview.configuration.title": "船上物品顯示",
   "boatiview.configuration.whitelisted_items": "乘船移動時可顯示的物品清單",
   "boatiview.configuration.whitelisted_items.tooltip": "乘船移動時，仍會顯示在手上的物品清單。\n在模組 ID 後方加上「*」符號，\n代表包含該模組中的所有物品。例如：「minecraft:*」\n若僅輸入「*」符號，但未指定任何模組 ID，則包含全部物品。例如：「*」",
-  "text.autoconfig.client.option.show_hands": "乘船移動時顯示手持物品",
-  "text.autoconfig.client.option.whitelisted_items": "乘船移動時所顯示物品清單",
-  "text.autoconfig.client.title": "船上物品顯示"
+  "text.autoconfig.boatiview.option.clientConfig.show_hands": "乘船移動時顯示手持物品",
+  "text.autoconfig.boatiview.option.clientConfig.whitelisted_items": "乘船移動時可顯示的物品清單",
+  "text.autoconfig.boatiview.title": "船上物品顯示"
 }
