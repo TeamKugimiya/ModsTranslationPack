@@ -1,15 +1,15 @@
 {
   "item.angelring.angel_ring": "天使戒指",
   "item.angelring.diamond_ring": "鑽石戒指",
-  "angelring.xp.flight_restored": "Seems the magic has been restored. You can fly again!",
-  "angelring.xp.no_more_xp": "You need to have XP to fly. Get more XP to fly again.",
+  "angelring.xp.flight_restored": "看來魔法已經恢復了。再次展翅高飛吧！",
+  "angelring.xp.no_more_xp": "需要擁有經驗值才能飛行。取得更多經驗值以再度飛上雲霄。",
   "item.angelring.angel_ring.desc0": "天使戒指在飛行時，會隨時間消耗玩家的經驗值。",
   "item.angelring.angel_ring.desc1": "如果玩家的經驗值少於 1 級，",
   "item.angelring.angel_ring.desc2": "魔法將會消失，並使飛行能力失效。",
-  "item.angelring.angel_ring.classic.desc0_1": "Grants creative flight while in Ring slot.",
+  "item.angelring.angel_ring.classic.desc0_1": "裝備在飾品欄時，賦予創造模式飛行能力。",
   "curios.identifier.angelring": "天使戒指",
-  "itemGroup.angelring3": "Angel Ring 3",
-  "angelring.durability.low_durability": "Your Angel Ring is running low on durability!",
-  "angelring.durability.broken": "Your Angel Ring has been shattered... :(",
-  "angelring.durability.tooltip": "Angel Ring drains it's durability over time while flying."
+  "itemGroup.angelring3": "天使戒指 3",
+  "angelring.durability.low_durability": "你的天使戒指的耐久度即將耗盡！",
+  "angelring.durability.broken": "你的天使戒指破碎了......:(",
+  "angelring.durability.tooltip": "天使戒指在飛行期間內，會隨著時間逐漸消耗耐久度。"
 }

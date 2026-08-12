@@ -22,10 +22,10 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T05:17:04Z",
+    "last_synced": "2026-08-02T18:54:09Z",
     "translation_progress": {
-      "1.21": 46.15,
-      "overall": 46.15
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
       "1.21": "Angel Ring 3 v3.0.0+beta.3 for MC 1.21.1"

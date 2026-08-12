@@ -1,6 +1,10 @@
-# Ignore any jar & zip file
+# Ignore file extension
 *.jar
 *.zip
+*.exe
+
+# Ignore folder
+output/
 
 # Ignore tools
 translation-tool*

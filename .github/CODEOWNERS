@@ -1,5 +1,6 @@
 # 審核小組
-MultiVersions/ @TeamKugimiya/review-team
+Translation/ @TeamKugimiya/review-team
 
-# 工作流程維護者
+# 工作流程與專案設定維護者
 .github/ @xMikux
+config/ @xMikux
