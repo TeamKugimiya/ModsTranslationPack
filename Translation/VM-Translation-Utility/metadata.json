@@ -24,6 +24,10 @@
     }
   },
   "status": {
+    "translation_progress": {
+      "26.2": 100,
+      "overall": 100
+    },
     "mod_versions": {
       "26.2": "neoforge-5.2.3+mc26.2"
     }
