@@ -2,12 +2,11 @@
   "schema_version": "1.2",
   "mod_id": "apothic_enchanting",
   "display_name": {
-    "en": "[DEPRECATED]Create: Apothic Enchanting"
+    "en": "Apothic Enchanting"
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "1276631",
-    "modrinth": "dyTHNPGi"
+    "curseforge": "1063926"
   },
   "contents": {
     "tiers": {
@@ -23,13 +22,13 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T15:39:16Z",
+    "last_synced": "2026-08-20T08:40:36Z",
     "translation_progress": {
-      "1.21": 69.64,
-      "overall": 69.64
+      "1.21": 68,
+      "overall": 68
     },
     "mod_versions": {
-      "1.21": "1.21.1 neoforge (local baseline)"
+      "1.21": "Apothic-Enchanting 1.21.1-1.6.1"
     }
   }
 }
