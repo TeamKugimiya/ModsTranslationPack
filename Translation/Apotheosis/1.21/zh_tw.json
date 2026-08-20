@@ -18,6 +18,8 @@
     "text.apotheosis.world_tier.pinnacle": "頂點",
     "text.apotheosis.world_tier.pinnacle.desc": "沉醉在山巔的暴風之中",
 
+    "text.apotheosis.world_tier.difficulty": "難度：",
+
     "title.apotheosis.select_world_tier": "選擇世界階級",
     "title.apotheosis.world_tier_details": "世界階級詳細資訊",
 
@@ -85,8 +87,8 @@
 
     "info.apotheosis.affix_item": "神化詞綴物品",
 
-    "death.attack.apotheosis:execute": "%s was executed by %s",
-    "death.attack.apotheosis:execute.item": "%s was executed by %s using %s",
+    "death.attack.apotheosis:execute": "%s 被 %s 處決了",
+    "death.attack.apotheosis:execute.item": "%s 被 %s 使用 %s 處決",
     "death.attack.apotheosis:execute.player": "%s 被 %s 處決了",
 
     "misc.apotheosis.affix_name.two": "%s的%s",
@@ -322,6 +324,9 @@
     "affix.apotheosis:armor/attribute/oxygenated": "富含氧氣",
     "affix.apotheosis:armor/attribute/oxygenated.suffix": "潛水員",
 
+    "affix.apotheosis:armor/attribute/timekeeping": "守時",
+    "affix.apotheosis:armor/attribute/timekeeping.suffix": "時間",
+
     "affix.apotheosis:melee/mob_effect/omniscient": "全知",
     "affix.apotheosis:melee/mob_effect/omniscient.suffix": "大賢者",
 
@@ -536,7 +541,7 @@
     "item.apotheosis.gem.apotheosis:twilight/forest": "暮光森林寶石",
     "item.apotheosis.gem.apotheosis:twilight/queen": "冰雪女王寶石",
 
-    "item.apotheosis.boss_summoner": "神化 Boss 召喚石",
+    "item.apotheosis.boss_summoner": "神化入侵者召喚石",
     "item.apotheosis.gem.cracked": "破碎的%s",
     "item.apotheosis.gem.chipped": "缺損的%s",
     "item.apotheosis.gem.flawed": "微瑕的%s",
@@ -548,19 +553,20 @@
     "item.apotheosis.vial_of_unnaming": "除名試劑",
     "item.apotheosis.gem_dust": "寶石粉",
     "item.apotheosis.gem_dust.desc": "粉碎成粉的神化寶石",
-    "item.apotheosis.common_material": "神秘金屬廢料",
-    "item.apotheosis.uncommon_material": "陳舊布料",
-    "item.apotheosis.rare_material": "發光水晶碎片",
-    "item.apotheosis.epic_material": "奧術沙",
-    "item.apotheosis.mythic_material": "神鑄珍珠",
+    "item.apotheosis.mysterious_scrap_metal": "神秘金屬廢料",
+    "item.apotheosis.timeworn_fabric": "陳舊布料",
+    "item.apotheosis.luminous_crystal_shard": "發光水晶碎片",
+    "item.apotheosis.arcane_sands": "奧術沙",
+    "item.apotheosis.godforged_pearl": "神鑄珍珠",
+    "item.apotheosis.god_fused_pearl": "神融珍珠",
     "item.apotheosis.ancient_material": "萬物之顯現",
     "item.apotheosis.gem_fused_slate": "玉嵌石板",
 
     "item.apotheosis.sigil_of_socketing": "鑲嵌咒符",
     "item.apotheosis.sigil_of_socketing.desc": "為物品新增一個鑲嵌槽",
 
-    "item.apotheosis.sigil_of_withdrawal": "卸除咒符",
-    "item.apotheosis.sigil_of_withdrawal.desc": "將鑲嵌在物品上的寶石全部卸除",
+    "item.apotheosis.sigil_of_withdrawal": "摘除咒符",
+    "item.apotheosis.sigil_of_withdrawal.desc": "將鑲嵌在物品上的寶石全部摘除",
 
     "item.apotheosis.sigil_of_rebirth": "重生咒符",
     "item.apotheosis.sigil_of_rebirth.desc": "用於重鑄台的重鑄材料",
@@ -576,6 +582,44 @@
 
     "item.apotheosis.sigil_of_supremacy": "至高咒符",
     "item.apotheosis.sigil_of_supremacy.desc": "為詞綴物品上的每個詞綴進行過度充能",
+
+    "item.apotheosis.spawner_chain": "生怪磚鎖鏈",
+    "item.apotheosis.spawner_chain.desc": "透過炸毀生怪磚獲得",
+    "item.apotheosis.spawner_rune": "生怪磚符文",
+    "item.apotheosis.infused_spawner_rune": "灌注生怪磚符文",
+
+    "item.apotheosis.frontier_spawner_upgrade_rune": "拓荒者生怪磚升級符文",
+    "item.apotheosis.frontier_spawner_upgrade_rune.desc": "稍微改進生怪磚的性能",
+    "item.apotheosis.ascent_spawner_upgrade_rune": "旅者生怪磚升級符文",
+    "item.apotheosis.ascent_spawner_upgrade_rune.desc": "顯著改進生怪磚的性能",
+    "item.apotheosis.summit_spawner_upgrade_rune": "攀登者生怪磚升級符文",
+    "item.apotheosis.summit_spawner_upgrade_rune.desc": "大幅改進生怪磚的性能",
+    "item.apotheosis.pinnacle_spawner_upgrade_rune": "雷鳴生怪磚升級符文",
+    "item.apotheosis.pinnacle_spawner_upgrade_rune.desc": "解放生怪磚的最大潛能",
+
+    "item.apotheosis.spawn_range_spawner_rune": "生成範圍符文",
+    "item.apotheosis.spawn_range_spawner_rune.desc": "擴大生怪磚生成生物的範圍",
+    "item.apotheosis.redstone_control_spawner_rune": "控制符文",
+    "item.apotheosis.redstone_control_spawner_rune.desc": "使生怪磚僅在接收到紅石訊號時運作",
+    "item.apotheosis.ignore_light_spawner_rune": "永恆暮光符文",
+    "item.apotheosis.ignore_light_spawner_rune.desc": "使生怪磚無視亮度生成條件",
+    "item.apotheosis.initial_health_spawner_rune": "衰弱符文",
+    "item.apotheosis.initial_health_spawner_rune.desc": "減少生怪磚生成生物的初始生命值",
+    "item.apotheosis.silent_spawner_rune": "沉默符文",
+    "item.apotheosis.silent_spawner_rune.desc": "使生成的生物不會發出聲響",
+    "item.apotheosis.youthful_spawner_rune": "幼年符文",
+    "item.apotheosis.youthful_spawner_rune.desc": "使生成的生物處於幼年狀態",
+    "item.apotheosis.burning_spawner_rune": "自焚符文",
+    "item.apotheosis.burning_spawner_rune.desc": "使生成的生物被火焚燒",
+
+    "item.apotheosis.no_ai_spawner_rune": "失魂符文",
+    "item.apotheosis.no_ai_spawner_rune.desc": "使生成的生物失去其 AI",
+    "item.apotheosis.ignore_conditions_spawner_rune": "反抗符文",
+    "item.apotheosis.ignore_conditions_spawner_rune.desc": "使生怪磚無視所有生成條件",
+    "item.apotheosis.ignore_players_spawner_rune": "孤寂符文",
+    "item.apotheosis.ignore_players_spawner_rune.desc": "使生怪磚在附近沒有玩家時也能運作",
+    "item.apotheosis.echoing_spawner_rune": "回聲符文",
+    "item.apotheosis.echoing_spawner_rune.desc": "使生成的生物掉落額外的戰利品",
 
     "item.apotheosis.iron_upgrade_smithing_template": "鍛造模板",
     "upgrade.apotheosis.iron": "鐵升級",
@@ -609,11 +653,11 @@
     "block.apotheosis.reforging_table.desc2": "最高稀有度：%s",
     "block.apotheosis.augmenting_table": "詞綴改造台",
     "block.apotheosis.augmenting_table.desc": "使用強化咒符來強化或洗鍊指定詞綴",
-    "block.apotheosis.gem_case": "Gem Case",
-    "tooltip.apotheosis.gem_case.capacity": "Capacity: %s Gems",
-    "tooltip.apotheosis.gem_case.unique_gems": "Contains %s different gems",
-    "tooltip.apotheosis.gem_case.none_owned": "None Owned",
-    "block.apotheosis.ender_gem_case": "Gem Case of House Fabergé",
+    "block.apotheosis.gem_case": "寶石櫃",
+    "tooltip.apotheosis.gem_case.capacity": "容量：%s 顆寶石",
+    "tooltip.apotheosis.gem_case.unique_gems": "包含 %s 種不同的寶石",
+    "tooltip.apotheosis.gem_case.none_owned": "未擁有任何寶石",
+    "block.apotheosis.ender_gem_case": "法貝熱寶石櫃",
 
     "button.apotheosis.salvage": "分解",
     "button.apotheosis.no_salvage": "尚未選擇物品",
@@ -627,11 +671,11 @@
     "button.apotheosis.augmenting.no_alternatives": "沒有可洗鍊出的詞綴",
     "button.apotheosis.augmenting.upgrade.cost": "成本：%sx %s",
     "button.apotheosis.augmenting.upgrade.exp_cost": "經驗成本：%s 等",
-    "button.apotheosis.gem_case.upgrade": "Upgrade 2 %s gems to %s",
-    "button.apotheosis.gem_case.upgrade_no_gems": "Insufficient Gems",
-    "button.apotheosis.gem_case.upgrade_no_materials": "Insufficient Materials",
-    "button.apotheosis.gem_case.upgrade_cost": "Cost: %s %s and %s %s",
-    "button.apotheosis.gem_case.upgrade_all": "Will upgrade as many gems as possible!",
+    "button.apotheosis.gem_case.upgrade": "將 2 顆%s寶石升級至%s",
+    "button.apotheosis.gem_case.upgrade_no_gems": "寶石不足",
+    "button.apotheosis.gem_case.upgrade_no_materials": "材料不足",
+    "button.apotheosis.gem_case.upgrade_cost": "成本：%sx %s，以及 %sx %s",
+    "button.apotheosis.gem_case.upgrade_all": "將盡可能多地升級寶石！",
 
     "menu.apotheosis.gem_cutting": "寶石切割",
     "container.apotheosis.salvage": "分解",
@@ -695,7 +739,7 @@
     "loot_category.apotheosis.shears.plural": "Shears",
 
     "info.apotheosis.boss_spawn": "%s 已於這片大地上甦醒！",
-    "info.apotheosis.boss": "%s 神化 Boss",
+    "info.apotheosis.boss": "%s 神化入侵者",
     "info.apotheosis.boss_item": "將會掉落：%s",
     "info.apotheosis.boss_modifiers": "Boss 屬性：",
     "info.apotheosis.rarity_material": "稀有度材料（%s）",
@@ -733,7 +777,7 @@
     "reward.apotheosis.gem": "神化寶石（%s）",
     "reward.apotheosis.random_gem": "神化寶石（隨機）",
     "reward.apotheosis.true_random_gem": "真隨機神化寶石",
-    "reward.apotheosis.netherite_smithing_template": "Netherite Smithing Template",
+    "reward.apotheosis.netherite_smithing_template": "獄髓鍛造模板",
     "error.apotheosis.gate_tier_incorrect": "此傳送門只能在「%s」世界階級中開啟",
     "modifier.apotheosis.affix": "收到一個詞綴物品",
     "tooltip.apotheosis.requires_world_tier": "世界階級需求：%s",
@@ -823,7 +867,7 @@
     "advancements.apotheosis.ancient.desc": "找到刻有上古詞綴的物品。",
 
     "advancements.apotheosis.boss": "虛張聲勢",
-    "advancements.apotheosis.boss.desc": "殺死神化 Boss，並掠奪祂們刻有詞綴的物品。",
+    "advancements.apotheosis.boss.desc": "殺死神化入侵者，並掠奪祂們刻有詞綴的物品。",
     "advancements.apotheosis.chests": "地下寶藏",
     "advancements.apotheosis.chests.desc": "在寶箱中找到刻有詞綴的物品。",
     "advancements.apotheosis.merchant": "合意買賣",
@@ -934,13 +978,14 @@
     "painting.apotheosis.window.author": "Faellynna",
 
     "stat.apotheosis.world_tiers_activated": "世界階級變更次數",
-    "apotheosis.subtitle.reforge": "重鑄台重鑄物品",
-    "apotheosis.subtitle.malice": "惡意咒符施加惡意",
+    "apotheosis.subtitle.reforge_item_placed": "將物品放入重鑄台",
+    "apotheosis.subtitle.reforge_item_reforged": "物品重鑄次數",
+    "apotheosis.subtitle.malice": "使用惡意咒符施加惡意",
 
-    "apotheosis.subtitle.invader_uncommon": "Uncommon Apothic Invader spawns",
-    "apotheosis.subtitle.invader_rare": "Rare Apothic Invader spawns",
-    "apotheosis.subtitle.invader_epic": "Epic Apothic Invader spawns",
-    "apotheosis.subtitle.invader_mythic": "Mythic Apothic Invader spawns",
+    "apotheosis.subtitle.invader_uncommon": "罕見神化入侵者生成",
+    "apotheosis.subtitle.invader_rare": "稀有神化入侵者生成",
+    "apotheosis.subtitle.invader_epic": "史詩神化入侵者生成",
+    "apotheosis.subtitle.invader_mythic": "神話神化入侵者生成",
 
     "comment_id": "Guidebook",
     "book.apotheosis.name": "闇影編年史",

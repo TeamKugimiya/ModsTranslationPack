@@ -102,6 +102,9 @@
     "apothic_attributes:creative_flight": "創造模式飛行",
     "apothic_attributes:creative_flight.desc": "讓你能像創造模式一樣飛行。",
 
+    "apothic_attributes:cooldown_reduction": "冷卻減免",
+    "apothic_attributes:cooldown_reduction.desc": "減少詞綴觸發能力與效果的冷卻時間。\n冷卻時間使用 ⌛ 符號。",
+
     "comment_id": "MobFx - descriptions are duplicated for JEED support.",
 
     "effect.apothic_attributes.knowledge": "閱歷",

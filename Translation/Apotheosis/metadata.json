@@ -49,22 +49,25 @@
           "loader": "neoforge"
         }
       }
-    }
+    },
+    "ignored_keys": [
+      "comment_id"
+    ]
   },
   "status": {
-    "last_synced": "2026-05-03T13:49:32Z",
+    "last_synced": "2026-08-20T08:43:03Z",
     "translation_progress": {
-      "1.18": 84.21,
-      "1.19": 83.77,
-      "1.20": 86.39,
-      "1.21": 93.5,
-      "overall": 86.97
+      "1.18": 84.32,
+      "1.19": 83.85,
+      "1.20": 86.48,
+      "1.21": 96.14,
+      "overall": 87.7
     },
     "mod_versions": {
       "1.18": "Apotheosis-1.18.2-5.8.1.jar",
       "1.19": "Apotheosis-1.19.2-6.5.2.jar",
       "1.20": "Apotheosis-1.20.1-7.4.8.jar",
-      "1.21": "Apotheosis-1.21.1-8.5.2.jar"
+      "1.21": "Apotheosis 1.21.1-8.7.0"
     }
   }
 }
