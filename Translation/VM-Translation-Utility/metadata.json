@@ -2,7 +2,8 @@
   "schema_version": "1.2",
   "mod_id": "vmtranslationupdate",
   "display_name": {
-    "en": "VMTranslationUpdateMod"
+    "en": "VM Translation Utility",
+    "zh_tw": "VM 漢化組實用工具"
   },
   "remote": {
     "primary": "modrinth",
@@ -11,25 +12,24 @@
   },
   "contents": {
     "tiers": {
-      "1.21": {
+      "26.2": {
         "versions": [
           "<=@latest"
         ],
         "source": {
-          "game_version": "1.21.1",
+          "game_version": "26.2",
           "loader": "neoforge"
         }
       }
     }
   },
   "status": {
-    "last_synced": "2026-05-03T13:38:35Z",
     "translation_progress": {
-      "1.21": 95.45,
-      "overall": 95.45
+      "26.2": 100,
+      "overall": 100
     },
     "mod_versions": {
-      "1.21": "neoforge-5.1.0+mc1.21.1"
+      "26.2": "neoforge-5.2.3+mc26.2"
     }
   }
 }

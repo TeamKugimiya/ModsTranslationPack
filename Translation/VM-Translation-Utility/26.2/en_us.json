@@ -1,9 +1,9 @@
 {
   "comment_modinfo": "NeoForge/Fabric Mod Info Translation",
-  "fml.menu.mods.info.displayname.vmtranslationupdate": "VM Translation Update",
-  "fml.menu.mods.info.description.vmtranslationupdate": "The VM Chinese translate Group mod is used to check Chinese localization patches and some other utility features.",
-  "modmenu.nameTranslation.vmtranslationupdate": "VM Translation Update",
-  "modmenu.descriptionTranslation.vmtranslationupdate": "The VM Chinese translate Group mod is used to check Chinese localization patches and some other utility features.",
+  "fml.menu.mods.info.displayname.vmtranslationupdate": "VM Translation Utility",
+  "fml.menu.mods.info.description.vmtranslationupdate": "The VM Chinese Translation Group mod is used to check Chinese localization patches and some other utility features.",
+  "modmenu.nameTranslation.vmtranslationupdate": "VM Translation Utility",
+  "modmenu.descriptionTranslation.vmtranslationupdate": "The VM Chinese Translation Group mod is used to check Chinese localization patches and some other utility features.",
 
   "message.vmtu.update_checker.translation.line1": "[VM Chinese Group]: A new translation patch update is available. You are currently using version %s, and the latest is %s. Please update your translation in time!",
   "message.vmtu.update_checker.translation.line2": "Please ",
@@ -12,7 +12,7 @@
   "message.vmtu.update_checker.translation.link.tooltip": "Click me to download the new version!",
   "message.vmtu.update_checker.modpack.line1": "Note: This translation patch update is based on a newer modpack version. §cPlease update the modpack first before reinstalling the translation!§r Otherwise, compatibility issues may occur" ,
   "message.vmtu.update_checker.modpack.line2": "You are currently playing with modpack version %s. Please update to version %s to match the translation patch!",
-  "message.vmtu.update_checker.error": "[VM Chinese Group]: Error! There is an issue with the Chinese localization update detection.",
+  "message.vmtu.update_checker.error": "[VM Chinese Translation Group]: Error! There is an issue with the Chinese localization update detection.",
   "message.vmtu.supported_language": "Translation patch not support your language, please use %s",
 
   "screen.vmtu.missing_mod.title": "§lYou Need to Download §c§l%d§r§l Mod(s) Manually",
@@ -26,7 +26,7 @@
   "checkbox.vmtu.missing_mod.optional": "Don‘t check optional mods again",
   "checkbox.vmtu.missing_mod.optional.tooltip": "Check this box to disable check optional mod(s), but it may result in incomplete translations!",
 
-  "text.autoconfig.vmtranslationupdate.title": "VM Translation Update Config",
+  "text.autoconfig.vmtranslationupdate.title": "VM Translation Utility Config",
   "text.autoconfig.vmtranslationupdate.option.misc": "Miscellaneous",
   "text.autoconfig.vmtranslationupdate.option.misc.devMode": "Dev Mode",
   "text.autoconfig.vmtranslationupdate.option.misc.autoSwitchLanguage": "Auto switch language",
