@@ -5,14 +5,14 @@
     "en": "Cultural Delights"
   },
   "remote": {
-    "primary": "curseforge",
-    "curseforge": "574622",
+    "primary": "modrinth",
     "modrinth": "YttyNOFA"
   },
   "contents": {
     "tiers": {
       "1.21": {
         "versions": [
+          ">1.18",
           "<=@latest"
         ],
         "source": {
@@ -23,13 +23,12 @@
     }
   },
   "status": {
-    "last_synced": "2026-03-28T15:02:51Z",
     "translation_progress": {
-      "1.21": 84.71,
-      "overall": 84.71
+      "1.21": 98.59,
+      "overall": 98.59
     },
     "mod_versions": {
-      "1.21": "culturaldelights-0.17.8.jar"
+      "1.21": "0.19.8-1.21.1"
     }
   }
 }

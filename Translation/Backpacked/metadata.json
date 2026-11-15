@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "backpacked",
+  "display_name": {
+    "en": "Backpacked"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "352835"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 97.56,
+      "overall": 97.56
+    },
+    "mod_versions": {
+      "1.21": "Backpacked 3.0.5"
+    }
+  }
+}
