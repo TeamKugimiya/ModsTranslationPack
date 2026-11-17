@@ -1,0 +1,227 @@
+{
+  "itemGroup.reanimal": "Re:Animal",
+
+  "entity.reanimal.hedgehog": "Hedgehog",
+  "item.reanimal.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
+  "item.reanimal.raw_hedgehog_meat": "Raw Hedgehog Meat",
+  "item.reanimal.cooked_hedgehog_meat": "Cooked Hedgehog Meat",
+
+  "entity.reanimal.ostrich": "Ostrich",
+  "item.reanimal.ostrich_spawn_egg": "Ostrich Spawn Egg",
+  "item.reanimal.ostrich_egg": "Ostrich Egg",
+  "item.reanimal.raw_ostrich_meat": "Raw Ostrich Meat",
+  "item.reanimal.cooked_ostrich_meat": "Cooked Ostrich Meat",
+
+  "entity.reanimal.kiwi": "Kiwi",
+  "item.reanimal.kiwi_spawn_egg": "Kiwi Spawn Egg",
+  "item.reanimal.kiwi_egg": "Kiwi Egg",
+  "item.reanimal.raw_kiwi_meat": "Raw Kiwi Meat",
+  "item.reanimal.cooked_kiwi_meat": "Cooked Kiwi Meat",
+
+  "entity.reanimal.pigeon": "Pigeon",
+  "item.reanimal.pigeon_spawn_egg": "Pigeon Spawn Egg",
+  "item.reanimal.pigeon_egg": "Pigeon Egg",
+  "item.reanimal.raw_pigeon_meat": "Raw Pigeon Meat",
+  "item.reanimal.cooked_pigeon_meat": "Cooked Pigeon Meat",
+
+  "entity.reanimal.butterfly": "Butterfly",
+  "item.reanimal.butterfly_spawn_egg": "Butterfly Spawn Egg",
+  "item.reanimal.butterfly_pollen": "Butterfly Pollen",
+
+  "entity.reanimal.capybara": "Capybara",
+  "item.reanimal.capybara_spawn_egg": "Capybara Spawn Egg",
+  "item.reanimal.raw_capybara_meat": "Raw Capybara Meat",
+  "item.reanimal.cooked_capybara_meat": "Cooked Capybara Meat",
+
+  "entity.reanimal.red_panda": "Red Panda",
+  "item.reanimal.red_panda_spawn_egg": "Red Panda Spawn Egg",
+
+  "entity.reanimal.seal": "Seal",
+  "item.reanimal.seal_spawn_egg": "Seal Spawn Egg",
+  "item.reanimal.raw_seal_meat": "Raw Seal Meat",
+  "item.reanimal.cooked_seal_meat": "Cooked Seal Meat",
+
+  "entity.reanimal.hippopotamus": "Hippopotamus",
+  "item.reanimal.hippopotamus_spawn_egg": "Hippopotamus Spawn Egg",
+  "item.reanimal.raw_hippopotamus_meat": "Raw Hippopotamus Meat",
+  "item.reanimal.cooked_hippopotamus_meat": "Cooked Hippopotamus Meat",
+
+  "entity.reanimal.crocodile": "Crocodile",
+  "item.reanimal.crocodile_spawn_egg": "Crocodile Spawn Egg",
+  "item.reanimal.crocodile_egg": "Crocodile Egg",
+  "block.reanimal.crocodile_egg": "Crocodile Egg",
+  "item.reanimal.raw_crocodile_meat": "Raw Crocodile Meat",
+  "item.reanimal.cooked_crocodile_meat": "Cooked Crocodile Meat",
+
+  "entity.reanimal.giraffe": "Giraffe",
+  "item.reanimal.giraffe_spawn_egg": "Giraffe Spawn Egg",
+  "item.reanimal.raw_giraffe_meat": "Raw Giraffe Meat",
+  "item.reanimal.cooked_giraffe_meat": "Cooked Giraffe Meat",
+
+  "entity.reanimal.dragonfly": "Dragonfly",
+  "item.reanimal.dragonfly_spawn_egg": "Dragonfly Spawn Egg",
+
+  "entity.reanimal.vulture": "Vulture",
+  "item.reanimal.vulture_spawn_egg": "Vulture Spawn Egg",
+  "item.reanimal.vulture_egg": "Vulture Egg",
+
+  "entity.reanimal.penguin": "Penguin",
+  "item.reanimal.penguin_spawn_egg": "Penguin Spawn Egg",
+  "item.reanimal.penguin_egg": "Penguin Egg",
+
+  "entity.reanimal.sea_urchin": "Sea Urchin",
+  "item.reanimal.sea_urchin_spawn_egg": "Sea Urchin Spawn Egg",
+  "item.reanimal.sea_urchin_caviar": "Sea Urchin Caviar",
+
+  "item.reanimal.raw_starfish_caviar": "Raw Starfish Caviar",
+  "item.reanimal.cooked_starfish_caviar": "Cooked Starfish Caviar",
+  "entity.reanimal.starfish": "Starfish",
+  "item.reanimal.starfish_spawn_egg": "Starfish Spawn Egg",
+
+  "item.reanimal.jellyfish_jelly": "Jellyfish Jelly",
+  "entity.reanimal.jellyfish": "Jellyfish",
+  "item.reanimal.jellyfish_spawn_egg": "Jellyfish Spawn Egg",
+
+  "item.reanimal.quill": "Quill",
+  "item.reanimal.quill_arrow": "Quill Arrow",
+  "entity.reanimal.quill_arrow": "Quill Arrow",
+  "entity.reanimal.glow_stick": "Glow Stick",
+  "item.reanimal.glow_stick_white": "White Glow Stick",
+  "item.reanimal.glow_stick_orange": "Orange Glow Stick",
+  "item.reanimal.glow_stick_magenta": "Magenta Glow Stick",
+  "item.reanimal.glow_stick_light_blue": "Light Blue Glow Stick",
+  "item.reanimal.glow_stick_yellow": "Yellow Glow Stick",
+  "item.reanimal.glow_stick_lime": "Lime Glow Stick",
+  "item.reanimal.glow_stick_pink": "Pink Glow Stick",
+  "item.reanimal.glow_stick_gray": "Gray Glow Stick",
+  "item.reanimal.glow_stick_light_gray": "Light Gray Glow Stick",
+  "item.reanimal.glow_stick_cyan": "Cyan Glow Stick",
+  "item.reanimal.glow_stick_purple": "Purple Glow Stick",
+  "item.reanimal.glow_stick_blue": "Blue Glow Stick",
+  "item.reanimal.glow_stick_brown": "Brown Glow Stick",
+  "item.reanimal.glow_stick_green": "Green Glow Stick",
+  "item.reanimal.glow_stick_red": "Red Glow Stick",
+  "item.reanimal.glow_stick_black": "Black Glow Stick",
+
+  "item.minecraft.potion.effect.quill": "Potion of Quills",
+  "item.minecraft.potion.effect.long_quill": "Potion of Quills",
+  "item.minecraft.potion.effect.strong_quill": "Potion of Quills",
+  "item.minecraft.potion.effect.cramps": "Potion of Cramps",
+  "item.minecraft.potion.effect.long_cramps": "Potion of Cramps",
+  "item.minecraft.potion.effect.strong_cramps": "Potion of Cramps",
+  "item.minecraft.potion.effect.glowing": "Potion of Glowing",
+  "item.minecraft.potion.effect.long_glowing": "Potion of Glowing",
+  "item.minecraft.potion.effect.strong_glowing": "Potion of Glowing",
+
+  "item.minecraft.splash_potion.effect.quill": "Splash Potion of Quills",
+  "item.minecraft.splash_potion.effect.long_quill": "Splash Potion of Quills",
+  "item.minecraft.splash_potion.effect.strong_quill": "Splash Potion of Quills",
+  "item.minecraft.splash_potion.effect.cramps": "Splash Potion of Cramps",
+  "item.minecraft.splash_potion.effect.long_cramps": "Splash Potion of Cramps",
+  "item.minecraft.splash_potion.effect.strong_cramps": "Splash Potion of Cramps",
+  "item.minecraft.splash_potion.effect.glowing": "Splash Potion of Glowing",
+  "item.minecraft.splash_potion.effect.long_glowing": "Splash Potion of Glowing",
+  "item.minecraft.splash_potion.effect.strong_glowing": "Splash Potion of Glowing",
+
+  "item.minecraft.lingering_potion.effect.quill": "Lingering Potion of Quills",
+  "item.minecraft.lingering_potion.effect.long_quill": "Lingering Potion of Quills",
+  "item.minecraft.lingering_potion.effect.strong_quill": "Lingering Potion of Quills",
+  "item.minecraft.lingering_potion.effect.cramps": "Lingering Potion of Cramps",
+  "item.minecraft.lingering_potion.effect.long_cramps": "Lingering Potion of Cramps",
+  "item.minecraft.lingering_potion.effect.strong_cramps": "Lingering Potion of Cramps",
+  "item.minecraft.lingering_potion.effect.glowing": "Lingering Potion of Glowing",
+  "item.minecraft.lingering_potion.effect.long_glowing": "Lingering Potion of Glowing",
+  "item.minecraft.lingering_potion.effect.strong_glowing": "Lingering Potion of Glowing",
+
+  "item.minecraft.tipped_arrow.effect.quill": "Arrow of Quills",
+  "item.minecraft.tipped_arrow.effect.long_quill": "Arrow of Quills",
+  "item.minecraft.tipped_arrow.effect.strong_quill": "Arrow of Quills",
+  "item.minecraft.tipped_arrow.effect.cramps": "Arrow of Cramps",
+  "item.minecraft.tipped_arrow.effect.long_cramps": "Arrow of Cramps",
+  "item.minecraft.tipped_arrow.effect.strong_cramps": "Arrow of Cramps",
+  "item.minecraft.tipped_arrow.effect.glowing": "Arrow of Glowing",
+  "item.minecraft.tipped_arrow.effect.long_glowing": "Arrow of Glowing",
+  "item.minecraft.tipped_arrow.effect.strong_glowing": "Arrow of Glowing",
+
+  "block.reanimal.quill_platform": "Quill Platform",
+
+  "effect.reanimal.quill": "Quill",
+  "effect.reanimal.cramps": "Cramps",
+
+  "death.attack.reanimal.hedgehog_spikes": "%1$s was pricked by a hedgehog",
+  "death.attack.reanimal.hedgehog_spikes.player": "%1$s was pricked by %2$s",
+  "death.attack.reanimal.sea_urchin_spikes": "%1$s was pricked by a sea urchin",
+  "death.attack.reanimal.sea_urchin_spikes.player": "%1$s was pricked by %2$s",
+  "death.attack.reanimal.jellyfish_sting": "%1$s was stung by a jellyfish",
+  "death.attack.reanimal.jellyfish_sting.player": "%1$s was stung by %2$s",
+
+  "subtitles.reanimal.entity.capybara.idle": "Capybara grunts",
+  "subtitles.reanimal.entity.capybara.hurt": "Capybara hurt",
+  "subtitles.reanimal.entity.capybara.death": "Capybara dies",
+
+  "subtitles.reanimal.entity.red_panda.idle": "Red panda chitters",
+  "subtitles.reanimal.entity.red_panda.hurt": "Red panda hurt",
+  "subtitles.reanimal.entity.red_panda.death": "Red panda dies",
+
+  "subtitles.reanimal.entity.giraffe.idle": "Giraffe snorts",
+  "subtitles.reanimal.entity.giraffe.hurt": "Giraffe hurt",
+  "subtitles.reanimal.entity.giraffe.death": "Giraffe dies",
+
+  "subtitles.reanimal.entity.hedgehog.idle": "Hedgehog chitters",
+  "subtitles.reanimal.entity.hedgehog.hurt": "Hedgehog hurt",
+  "subtitles.reanimal.entity.hedgehog.death": "Hedgehog dies",
+  "subtitles.reanimal.entity.hedgehog.roll": "Hedgehog rolls up",
+  "subtitles.reanimal.entity.hedgehog.unroll": "Hedgehog unrolls",
+
+  "subtitles.reanimal.entity.hippopotamus.bite": "Hippopotamus bites",
+  "subtitles.reanimal.entity.hippopotamus.idle": "Hippopotamus grunts",
+  "subtitles.reanimal.entity.hippopotamus.hurt": "Hippopotamus hurt",
+  "subtitles.reanimal.entity.hippopotamus.death": "Hippopotamus dies",
+
+  "subtitles.reanimal.entity.crocodile.bite": "Crocodile bites",
+  "subtitles.reanimal.entity.crocodile.idle": "Crocodile hisses",
+  "subtitles.reanimal.entity.crocodile.hurt": "Crocodile hurt",
+  "subtitles.reanimal.entity.crocodile.death": "Crocodile dies",
+
+  "subtitles.reanimal.entity.kiwi.idle": "Kiwi whistles",
+  "subtitles.reanimal.entity.kiwi.hurt": "Kiwi hurt",
+  "subtitles.reanimal.entity.kiwi.death": "Kiwi dies",
+
+  "subtitles.reanimal.entity.ostrich.idle": "Ostrich calls",
+  "subtitles.reanimal.entity.ostrich.hurt": "Ostrich hurt",
+  "subtitles.reanimal.entity.ostrich.death": "Ostrich dies",
+
+  "subtitles.reanimal.entity.penguin.idle": "Penguin squeaks",
+  "subtitles.reanimal.entity.penguin.hurt": "Penguin hurt",
+  "subtitles.reanimal.entity.penguin.death": "Penguin dies",
+
+  "subtitles.reanimal.entity.pigeon.idle": "Pigeon coos",
+  "subtitles.reanimal.entity.pigeon.hurt": "Pigeon hurt",
+  "subtitles.reanimal.entity.pigeon.death": "Pigeon dies",
+  "subtitles.reanimal.entity.pigeon.takeoff": "Pigeon takes off",
+
+  "subtitles.reanimal.entity.butterfly.idle": "Butterfly flutters",
+  "subtitles.reanimal.entity.butterfly.hurt": "Butterfly hurt",
+  "subtitles.reanimal.entity.butterfly.death": "Butterfly dies",
+  "subtitles.reanimal.entity.butterfly.loop": "Butterfly flutters",
+
+  "subtitles.reanimal.entity.dragonfly.loop": "Dragonfly buzzes",
+  "subtitles.reanimal.entity.dragonfly.hurt": "Dragonfly hurt",
+  "subtitles.reanimal.entity.dragonfly.death": "Dragonfly dies",
+
+  "subtitles.reanimal.entity.jellyfish.idle": "Jellyfish pulses",
+  "subtitles.reanimal.entity.jellyfish.hurt": "Jellyfish hurt",
+  "subtitles.reanimal.entity.jellyfish.death": "Jellyfish dies",
+
+  "subtitles.reanimal.entity.sea_urchin.idle": "Sea urchin rustles",
+  "subtitles.reanimal.entity.sea_urchin.hurt": "Sea urchin hurt",
+  "subtitles.reanimal.entity.sea_urchin.death": "Sea urchin dies",
+
+  "subtitles.reanimal.entity.seal.idle": "Seal barks",
+  "subtitles.reanimal.entity.seal.hurt": "Seal hurt",
+  "subtitles.reanimal.entity.seal.death": "Seal dies",
+
+  "subtitles.reanimal.entity.vulture.idle": "Vulture grunts",
+  "subtitles.reanimal.entity.vulture.hurt": "Vulture hurt",
+  "subtitles.reanimal.entity.vulture.death": "Vulture dies"
+}

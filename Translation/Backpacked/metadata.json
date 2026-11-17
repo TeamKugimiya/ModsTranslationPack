@@ -1,13 +1,12 @@
 {
   "schema_version": "1.2",
-  "mod_id": "minersdelight",
+  "mod_id": "backpacked",
   "display_name": {
-    "en": "Miner's Delight"
+    "en": "Backpacked"
   },
   "remote": {
     "primary": "curseforge",
-    "curseforge": "689630",
-    "modrinth": "qMxbM4BQ"
+    "curseforge": "352835"
   },
   "contents": {
     "tiers": {
@@ -23,13 +22,12 @@
     }
   },
   "status": {
-    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 97.98,
-      "overall": 97.98
+      "1.21": 97.56,
+      "overall": 97.56
     },
     "mod_versions": {
-      "1.21": "minersdelight-1.21.1-1.4.5.jar"
+      "1.21": "Backpacked 3.0.5"
     }
   }
 }
