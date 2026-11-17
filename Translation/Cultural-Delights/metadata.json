@@ -20,15 +20,19 @@
           "loader": "neoforge"
         }
       }
-    }
+    },
+    "ignored_keys": [
+      "advancement.culturaldelights.beanstalk.title"
+    ]
   },
   "status": {
     "translation_progress": {
-      "1.21": 98.59,
-      "overall": 98.59
+      "1.21": 100,
+      "overall": 100
     },
     "mod_versions": {
       "1.21": "0.19.8-1.21.1"
-    }
+    },
+    "last_synced": "2026-11-17T02:50:25Z"
   }
 }
