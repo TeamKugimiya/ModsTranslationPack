@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "mod_id": "minersdelight",
   "display_name": {
-    "en": "Miner's Delight"
+    "en": "Miner's Delight +"
   },
   "remote": {
     "primary": "curseforge",
@@ -11,8 +11,19 @@
   },
   "contents": {
     "tiers": {
+      "1.20": {
+        "versions": [
+          "<=1.20"
+        ],
+        "mod_id": "miners_delight",
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
       "1.21": {
         "versions": [
+          ">1.20",
           "<=@latest"
         ],
         "source": {
@@ -23,13 +34,15 @@
     }
   },
   "status": {
-    "last_synced": "2026-05-03T13:49:32Z",
     "translation_progress": {
-      "1.21": 97.98,
-      "overall": 97.98
+      "1.20": 98.99,
+      "1.21": 24.24,
+      "overall": 61.61
     },
     "mod_versions": {
+      "1.20": "miners_delight-1.20.1-1.4.5-backport.jar",
       "1.21": "minersdelight-1.21.1-1.4.5.jar"
-    }
+    },
+    "last_synced": "2026-11-17T03:13:46Z"
   }
 }
