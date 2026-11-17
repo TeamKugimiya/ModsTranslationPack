@@ -16,19 +16,23 @@
           "<=@latest"
         ],
         "source": {
-          "game_version": "1.21.1",
+          "game_version": "26.2",
           "loader": "neoforge"
         }
       }
-    }
+    },
+    "ignored_keys": [
+      "item.ecologics.music_disc_coconut.desc"
+    ]
   },
   "status": {
     "translation_progress": {
-      "26.2": 98.35,
-      "overall": 98.35
+      "26.2": 100,
+      "overall": 100
     },
     "mod_versions": {
-      "26.2": "2.3.11-NeoForge"
-    }
+      "26.2": "2.6.5-NeoFab"
+    },
+    "last_synced": "2026-11-17T02:40:15Z"
   }
 }
