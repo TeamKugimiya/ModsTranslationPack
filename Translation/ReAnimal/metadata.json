@@ -1,17 +1,18 @@
 {
   "schema_version": "1.2",
-  "mod_id": "snowrealmagic",
+  "mod_id": "reanimal",
   "display_name": {
-    "en": "Snow! Real Magic!"
+    "en": "Re:Animal"
   },
   "remote": {
     "primary": "modrinth",
-    "modrinth": "iJNje1E8"
+    "modrinth": "4Q5qctHv"
   },
   "contents": {
     "tiers": {
       "1.21": {
         "versions": [
+          ">1.20",
           "<=@latest"
         ],
         "source": {
@@ -22,13 +23,12 @@
     }
   },
   "status": {
-    "last_synced": "2026-05-03T13:38:35Z",
     "translation_progress": {
-      "1.21": 6.94,
-      "overall": 6.94
+      "1.21": 99.46,
+      "overall": 99.46
     },
     "mod_versions": {
-      "1.21": "12.2.1+neoforge"
+      "1.21": "0.6.0"
     }
   }
 }

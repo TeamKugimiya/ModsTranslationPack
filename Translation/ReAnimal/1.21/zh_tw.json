@@ -1,0 +1,227 @@
+{
+  "itemGroup.reanimal": "Re:Animal",
+
+  "entity.reanimal.hedgehog": "刺蝟",
+  "item.reanimal.hedgehog_spawn_egg": "刺蝟生怪蛋",
+  "item.reanimal.raw_hedgehog_meat": "生刺蝟肉",
+  "item.reanimal.cooked_hedgehog_meat": "烤刺蝟肉",
+
+  "entity.reanimal.ostrich": "鴕鳥",
+  "item.reanimal.ostrich_spawn_egg": "鴕鳥生怪蛋",
+  "item.reanimal.ostrich_egg": "鴕鳥蛋",
+  "item.reanimal.raw_ostrich_meat": "生鴕鳥肉",
+  "item.reanimal.cooked_ostrich_meat": "烤鴕鳥肉",
+
+  "entity.reanimal.kiwi": "奇異鳥",
+  "item.reanimal.kiwi_spawn_egg": "奇異鳥生怪蛋",
+  "item.reanimal.kiwi_egg": "奇異鳥蛋",
+  "item.reanimal.raw_kiwi_meat": "生奇異鳥肉",
+  "item.reanimal.cooked_kiwi_meat": "烤奇異鳥肉",
+
+  "entity.reanimal.pigeon": "鴿子",
+  "item.reanimal.pigeon_spawn_egg": "鴿子生怪蛋",
+  "item.reanimal.pigeon_egg": "鴿子蛋",
+  "item.reanimal.raw_pigeon_meat": "生鴿子肉",
+  "item.reanimal.cooked_pigeon_meat": "烤鴿子肉",
+
+  "entity.reanimal.butterfly": "蝴蝶",
+  "item.reanimal.butterfly_spawn_egg": "蝴蝶生怪蛋",
+  "item.reanimal.butterfly_pollen": "蝴蝶花粉",
+
+  "entity.reanimal.capybara": "水豚",
+  "item.reanimal.capybara_spawn_egg": "水豚生怪蛋",
+  "item.reanimal.raw_capybara_meat": "生水豚肉",
+  "item.reanimal.cooked_capybara_meat": "烤水豚肉",
+
+  "entity.reanimal.red_panda": "小貓熊",
+  "item.reanimal.red_panda_spawn_egg": "小貓熊生怪蛋",
+
+  "entity.reanimal.seal": "海豹",
+  "item.reanimal.seal_spawn_egg": "海豹生怪蛋",
+  "item.reanimal.raw_seal_meat": "生海豹肉",
+  "item.reanimal.cooked_seal_meat": "烤海豹肉",
+
+  "entity.reanimal.hippopotamus": "河馬",
+  "item.reanimal.hippopotamus_spawn_egg": "河馬生怪蛋",
+  "item.reanimal.raw_hippopotamus_meat": "生河馬肉",
+  "item.reanimal.cooked_hippopotamus_meat": "烤河馬肉",
+
+  "entity.reanimal.crocodile": "鱷魚",
+  "item.reanimal.crocodile_spawn_egg": "鱷魚生怪蛋",
+  "item.reanimal.crocodile_egg": "鱷魚蛋",
+  "block.reanimal.crocodile_egg": "鱷魚蛋",
+  "item.reanimal.raw_crocodile_meat": "生鱷魚肉",
+  "item.reanimal.cooked_crocodile_meat": "烤鱷魚肉",
+
+  "entity.reanimal.giraffe": "長頸鹿",
+  "item.reanimal.giraffe_spawn_egg": "長頸鹿生怪蛋",
+  "item.reanimal.raw_giraffe_meat": "生長頸鹿肉",
+  "item.reanimal.cooked_giraffe_meat": "烤長頸鹿肉",
+
+  "entity.reanimal.dragonfly": "蜻蜓",
+  "item.reanimal.dragonfly_spawn_egg": "蜻蜓生怪蛋",
+
+  "entity.reanimal.vulture": "禿鷲",
+  "item.reanimal.vulture_spawn_egg": "禿鷲生怪蛋",
+  "item.reanimal.vulture_egg": "禿鷲蛋",
+
+  "entity.reanimal.penguin": "企鵝",
+  "item.reanimal.penguin_spawn_egg": "企鵝生怪蛋",
+  "item.reanimal.penguin_egg": "企鵝蛋",
+
+  "entity.reanimal.sea_urchin": "海膽",
+  "item.reanimal.sea_urchin_spawn_egg": "海膽生怪蛋",
+  "item.reanimal.sea_urchin_caviar": "海膽魚子醬",
+
+  "item.reanimal.raw_starfish_caviar": "生海星魚子醬",
+  "item.reanimal.cooked_starfish_caviar": "烤海星魚子醬",
+  "entity.reanimal.starfish": "海星",
+  "item.reanimal.starfish_spawn_egg": "海星生怪蛋",
+
+  "item.reanimal.jellyfish_jelly": "水母果凍",
+  "entity.reanimal.jellyfish": "水母",
+  "item.reanimal.jellyfish_spawn_egg": "水母生怪蛋",
+
+  "item.reanimal.quill": "棘刺",
+  "item.reanimal.quill_arrow": "棘刺箭",
+  "entity.reanimal.quill_arrow": "棘刺箭",
+  "entity.reanimal.glow_stick": "螢光棒",
+  "item.reanimal.glow_stick_white": "白色螢光棒",
+  "item.reanimal.glow_stick_orange": "橙色螢光棒",
+  "item.reanimal.glow_stick_magenta": "洋紅色螢光棒",
+  "item.reanimal.glow_stick_light_blue": "淺藍色螢光棒",
+  "item.reanimal.glow_stick_yellow": "黃色螢光棒",
+  "item.reanimal.glow_stick_lime": "淺綠色螢光棒",
+  "item.reanimal.glow_stick_pink": "粉紅色螢光棒",
+  "item.reanimal.glow_stick_gray": "灰色螢光棒",
+  "item.reanimal.glow_stick_light_gray": "淺灰色螢光棒",
+  "item.reanimal.glow_stick_cyan": "青色螢光棒",
+  "item.reanimal.glow_stick_purple": "紫色螢光棒",
+  "item.reanimal.glow_stick_blue": "藍色螢光棒",
+  "item.reanimal.glow_stick_brown": "棕色螢光棒",
+  "item.reanimal.glow_stick_green": "綠色螢光棒",
+  "item.reanimal.glow_stick_red": "紅色螢光棒",
+  "item.reanimal.glow_stick_black": "黑色螢光棒",
+
+  "item.minecraft.potion.effect.quill": "棘刺藥水",
+  "item.minecraft.potion.effect.long_quill": "棘刺藥水",
+  "item.minecraft.potion.effect.strong_quill": "棘刺藥水",
+  "item.minecraft.potion.effect.cramps": "痙攣藥水",
+  "item.minecraft.potion.effect.long_cramps": "痙攣藥水",
+  "item.minecraft.potion.effect.strong_cramps": "痙攣藥水",
+  "item.minecraft.potion.effect.glowing": "發光藥水",
+  "item.minecraft.potion.effect.long_glowing": "發光藥水",
+  "item.minecraft.potion.effect.strong_glowing": "發光藥水",
+
+  "item.minecraft.splash_potion.effect.quill": "飛濺棘刺藥水",
+  "item.minecraft.splash_potion.effect.long_quill": "飛濺棘刺藥水",
+  "item.minecraft.splash_potion.effect.strong_quill": "飛濺棘刺藥水",
+  "item.minecraft.splash_potion.effect.cramps": "飛濺痙攣藥水",
+  "item.minecraft.splash_potion.effect.long_cramps": "飛濺痙攣藥水",
+  "item.minecraft.splash_potion.effect.strong_cramps": "飛濺痙攣藥水",
+  "item.minecraft.splash_potion.effect.glowing": "飛濺發光藥水",
+  "item.minecraft.splash_potion.effect.long_glowing": "飛濺發光藥水",
+  "item.minecraft.splash_potion.effect.strong_glowing": "飛濺發光藥水",
+
+  "item.minecraft.lingering_potion.effect.quill": "滯留棘刺藥水",
+  "item.minecraft.lingering_potion.effect.long_quill": "滯留棘刺藥水",
+  "item.minecraft.lingering_potion.effect.strong_quill": "滯留棘刺藥水",
+  "item.minecraft.lingering_potion.effect.cramps": "滯留痙攣藥水",
+  "item.minecraft.lingering_potion.effect.long_cramps": "滯留痙攣藥水",
+  "item.minecraft.lingering_potion.effect.strong_cramps": "滯留痙攣藥水",
+  "item.minecraft.lingering_potion.effect.glowing": "滯留發光藥水",
+  "item.minecraft.lingering_potion.effect.long_glowing": "滯留發光藥水",
+  "item.minecraft.lingering_potion.effect.strong_glowing": "滯留發光藥水",
+
+  "item.minecraft.tipped_arrow.effect.quill": "棘刺之箭",
+  "item.minecraft.tipped_arrow.effect.long_quill": "棘刺之箭",
+  "item.minecraft.tipped_arrow.effect.strong_quill": "棘刺之箭",
+  "item.minecraft.tipped_arrow.effect.cramps": "痙攣之箭",
+  "item.minecraft.tipped_arrow.effect.long_cramps": "痙攣之箭",
+  "item.minecraft.tipped_arrow.effect.strong_cramps": "痙攣之箭",
+  "item.minecraft.tipped_arrow.effect.glowing": "發光之箭",
+  "item.minecraft.tipped_arrow.effect.long_glowing": "發光之箭",
+  "item.minecraft.tipped_arrow.effect.strong_glowing": "發光之箭",
+
+  "block.reanimal.quill_platform": "棘刺板",
+
+  "effect.reanimal.quill": "棘刺",
+  "effect.reanimal.cramps": "痙攣",
+
+  "death.attack.reanimal.hedgehog_spikes": "%1$s 被刺蝟刺死了",
+  "death.attack.reanimal.hedgehog_spikes.player": "%1$s 被 %2$s 刺死了",
+  "death.attack.reanimal.sea_urchin_spikes": "%1$s 被海膽刺死了",
+  "death.attack.reanimal.sea_urchin_spikes.player": "%1$s 被 %2$s 刺死了",
+  "death.attack.reanimal.jellyfish_sting": "%1$s 被水母螫死了",
+  "death.attack.reanimal.jellyfish_sting.player": "%1$s 被 %2$s 螫死了",
+
+  "subtitles.reanimal.entity.capybara.idle": "水豚叫聲",
+  "subtitles.reanimal.entity.capybara.hurt": "水豚受傷",
+  "subtitles.reanimal.entity.capybara.death": "水豚死亡",
+
+  "subtitles.reanimal.entity.red_panda.idle": "小貓熊叫聲",
+  "subtitles.reanimal.entity.red_panda.hurt": "小貓熊受傷",
+  "subtitles.reanimal.entity.red_panda.death": "小貓熊死亡",
+
+  "subtitles.reanimal.entity.giraffe.idle": "長頸鹿叫聲",
+  "subtitles.reanimal.entity.giraffe.hurt": "長頸鹿受傷",
+  "subtitles.reanimal.entity.giraffe.death": "長頸鹿死亡",
+
+  "subtitles.reanimal.entity.hedgehog.idle": "刺蝟吱吱聲",
+  "subtitles.reanimal.entity.hedgehog.hurt": "刺蝟受傷",
+  "subtitles.reanimal.entity.hedgehog.death": "刺蝟死亡",
+  "subtitles.reanimal.entity.hedgehog.roll": "刺蝟捲縮",
+  "subtitles.reanimal.entity.hedgehog.unroll": "刺蝟伸展",
+
+  "subtitles.reanimal.entity.hippopotamus.bite": "河馬啃咬",
+  "subtitles.reanimal.entity.hippopotamus.idle": "河馬哼叫聲",
+  "subtitles.reanimal.entity.hippopotamus.hurt": "河馬受傷",
+  "subtitles.reanimal.entity.hippopotamus.death": "河馬死亡",
+
+  "subtitles.reanimal.entity.crocodile.bite": "鱷魚啃咬",
+  "subtitles.reanimal.entity.crocodile.idle": "鱷魚嘶嘶聲",
+  "subtitles.reanimal.entity.crocodile.hurt": "鱷魚受傷",
+  "subtitles.reanimal.entity.crocodile.death": "鱷魚死亡",
+
+  "subtitles.reanimal.entity.kiwi.idle": "奇異鳥哨聲",
+  "subtitles.reanimal.entity.kiwi.hurt": "奇異鳥受傷",
+  "subtitles.reanimal.entity.kiwi.death": "奇異鳥死亡",
+
+  "subtitles.reanimal.entity.ostrich.idle": "鴕鳥鳴叫聲",
+  "subtitles.reanimal.entity.ostrich.hurt": "鴕鳥受傷",
+  "subtitles.reanimal.entity.ostrich.death": "鴕鳥死亡",
+
+  "subtitles.reanimal.entity.penguin.idle": "企鵝嘎嘎聲",
+  "subtitles.reanimal.entity.penguin.hurt": "企鵝受傷",
+  "subtitles.reanimal.entity.penguin.death": "企鵝死亡",
+
+  "subtitles.reanimal.entity.pigeon.idle": "鴿子咕咕聲",
+  "subtitles.reanimal.entity.pigeon.hurt": "鴿子受傷",
+  "subtitles.reanimal.entity.pigeon.death": "鴿子死亡",
+  "subtitles.reanimal.entity.pigeon.takeoff": "鴿子飛起",
+
+  "subtitles.reanimal.entity.butterfly.idle": "蝴蝶振翅聲",
+  "subtitles.reanimal.entity.butterfly.hurt": "蝴蝶受傷",
+  "subtitles.reanimal.entity.butterfly.death": "蝴蝶死亡",
+  "subtitles.reanimal.entity.butterfly.loop": "蝴蝶振翅聲",
+
+  "subtitles.reanimal.entity.dragonfly.loop": "蜻蜓嗡嗡聲",
+  "subtitles.reanimal.entity.dragonfly.hurt": "蜻蜓受傷",
+  "subtitles.reanimal.entity.dragonfly.death": "蜻蜓死亡",
+
+  "subtitles.reanimal.entity.jellyfish.idle": "水母游動",
+  "subtitles.reanimal.entity.jellyfish.hurt": "水母受傷",
+  "subtitles.reanimal.entity.jellyfish.death": "水母死亡",
+
+  "subtitles.reanimal.entity.sea_urchin.idle": "海膽沙沙聲",
+  "subtitles.reanimal.entity.sea_urchin.hurt": "海膽受傷",
+  "subtitles.reanimal.entity.sea_urchin.death": "海膽死亡",
+
+  "subtitles.reanimal.entity.seal.idle": "海豹嗥叫聲",
+  "subtitles.reanimal.entity.seal.hurt": "海豹受傷",
+  "subtitles.reanimal.entity.seal.death": "海豹死亡",
+
+  "subtitles.reanimal.entity.vulture.idle": "禿鷲鳴叫聲",
+  "subtitles.reanimal.entity.vulture.hurt": "禿鷲受傷",
+  "subtitles.reanimal.entity.vulture.death": "禿鷲死亡"
+}
